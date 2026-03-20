@@ -3,214 +3,269 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Atatürk İlkeleri ve İnkılap Tarihi I - Ayrıntılı Modern Not</title>
+  <title>Atatürk İlkeleri ve İnkılap Tarihi I - Açık Tema Not</title>
   <style>
     :root{
-      --bg:#0b1020;
-      --bg2:#11182d;
-      --card:rgba(255,255,255,.08);
-      --card2:rgba(255,255,255,.06);
-      --text:#eef2ff;
-      --muted:#b8c0e0;
-      --line:rgba(255,255,255,.12);
-      --blue:#60a5fa;
-      --cyan:#22d3ee;
-      --green:#34d399;
-      --yellow:#fbbf24;
-      --pink:#f472b6;
-      --red:#fb7185;
-      --shadow:0 18px 50px rgba(0,0,0,.28);
-      --radius:22px;
+      --bg:#f8fafc;
+      --surface:#ffffff;
+      --surface-soft:#f8fbff;
+      --surface-blue:#eef6ff;
+      --text:#0f172a;
+      --muted:#475569;
+      --line:#dbeafe;
+      --line-soft:#e5e7eb;
+      --primary:#2563eb;
+      --primary-soft:#dbeafe;
+      --cyan-soft:#ecfeff;
+      --green-soft:#ecfdf5;
+      --red-soft:#fff1f2;
+      --yellow-soft:#fffbeb;
+      --shadow:0 10px 30px rgba(15, 23, 42, 0.06);
+      --radius:20px;
     }
+
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
     body{
       margin:0;
-      font-family: Inter, Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
+      background:var(--bg);
       color:var(--text);
-      background:
-        radial-gradient(circle at top left, rgba(96,165,250,.18), transparent 30%),
-        radial-gradient(circle at top right, rgba(34,211,238,.16), transparent 28%),
-        linear-gradient(180deg, var(--bg), #0f172a 40%, #0b1223 100%);
       line-height:1.72;
     }
+
     .container{
-      width:min(1180px, calc(100% - 28px));
+      width:min(980px, calc(100% - 24px));
       margin:0 auto;
-      padding:28px 0 60px;
+      padding:18px 0 40px;
     }
+
     .hero{
-      position:relative;
-      overflow:hidden;
-      background:linear-gradient(135deg, rgba(96,165,250,.18), rgba(34,211,238,.12));
+      background:linear-gradient(180deg, #eef6ff 0%, #ffffff 100%);
       border:1px solid var(--line);
-      border-radius:32px;
-      padding:38px 30px;
+      border-radius:28px;
+      padding:24px 20px;
       box-shadow:var(--shadow);
-      backdrop-filter: blur(8px);
+      margin-bottom:18px;
     }
-    .hero::after{
-      content:"";
-      position:absolute;
-      inset:auto -60px -60px auto;
-      width:240px;
-      height:240px;
-      background:radial-gradient(circle, rgba(52,211,153,.16), transparent 65%);
-      border-radius:50%;
-    }
+
     .badge{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:8px 14px;
+      display:inline-block;
+      background:#e0ecff;
+      color:#1d4ed8;
+      font-size:12px;
+      font-weight:700;
+      padding:8px 12px;
       border-radius:999px;
-      background:rgba(255,255,255,.08);
-      border:1px solid var(--line);
-      color:#dbeafe;
-      font-size:13px;
-      margin-bottom:14px;
+      margin-bottom:12px;
     }
+
     h1{
       margin:0 0 10px;
-      font-size:clamp(30px, 5vw, 50px);
-      line-height:1.08;
-      letter-spacing:-0.02em;
+      font-size:clamp(26px, 5vw, 40px);
+      line-height:1.18;
+      color:#0f172a;
     }
+
     .subtitle{
       margin:0;
       color:var(--muted);
-      max-width:860px;
-      font-size:16px;
-    }
-    .toc{
-      margin-top:18px;
-      display:flex;
-      flex-wrap:wrap;
-      gap:10px;
-    }
-    .toc a{
-      text-decoration:none;
-      color:#eaf2ff;
-      padding:10px 12px;
-      border-radius:14px;
-      background:rgba(255,255,255,.07);
-      border:1px solid var(--line);
-      font-size:14px;
-    }
-    .grid{
-      display:grid;
-      gap:18px;
-      margin-top:20px;
-    }
-    .grid-3{grid-template-columns:repeat(3, minmax(0, 1fr))}
-    .grid-2{grid-template-columns:repeat(2, minmax(0, 1fr))}
-    .card,.topic{
-      background:var(--card);
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      padding:22px;
-      box-shadow:var(--shadow);
-      backdrop-filter: blur(8px);
-    }
-    .topic{background:var(--card2)}
-    .card h2,.card h3,.topic h2,.topic h3{
-      margin:0 0 12px;
-      letter-spacing:-0.01em;
-    }
-    .stat{
-      font-size:28px;
-      font-weight:800;
-      margin-bottom:6px;
-    }
-    .mini{
-      color:var(--muted);
-      font-size:14px;
-      margin:0 0 10px;
-    }
-    .section-title{
-      margin:34px 0 14px;
-      font-size:28px;
-      letter-spacing:-0.02em;
-    }
-    .sub{
-      margin:0 0 8px;
-      color:#dbeafe;
       font-size:15px;
     }
+
+    .toc{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:16px;
+    }
+
+    .toc a{
+      text-decoration:none;
+      background:#ffffff;
+      color:#1e40af;
+      border:1px solid var(--line);
+      padding:9px 12px;
+      border-radius:12px;
+      font-size:13px;
+      font-weight:600;
+    }
+
+    .grid{
+      display:grid;
+      gap:14px;
+      margin-top:14px;
+    }
+
+    .grid-3{grid-template-columns:repeat(3, minmax(0,1fr))}
+    .grid-2{grid-template-columns:repeat(2, minmax(0,1fr))}
+
+    .card, .topic{
+      background:var(--surface);
+      border:1px solid var(--line-soft);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow:var(--shadow);
+    }
+
+    .topic{background:var(--surface-soft)}
+
+    .stat{
+      width:42px;
+      height:42px;
+      border-radius:14px;
+      background:var(--primary-soft);
+      color:var(--primary);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:700;
+      font-size:20px;
+      margin-bottom:10px;
+    }
+
+    .mini{
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .section-title{
+      margin:28px 0 12px;
+      font-size:25px;
+      color:#0f172a;
+    }
+
+    .topic h3, .card h3{
+      margin:0 0 10px;
+      font-size:20px;
+      color:#111827;
+    }
+
+    p{
+      margin:8px 0;
+      color:#334155;
+    }
+
     ul{
       margin:10px 0 0;
       padding-left:20px;
     }
-    li{margin:8px 0;color:#edf2ff}
-    p{margin:10px 0;color:#edf2ff}
-    strong{color:white}
-    .memory,.tip,.trap{
-      padding:16px 18px;
-      border-radius:16px;
-      margin-top:14px;
-      border:1px solid var(--line);
+
+    li{
+      margin:8px 0;
+      color:#1f2937;
     }
-    .memory{background:rgba(52,211,153,.08); border-color:rgba(52,211,153,.18);}
-    .tip{background:rgba(34,211,238,.08); border-color:rgba(34,211,238,.18);}
-    .trap{background:rgba(251,113,133,.08); border-color:rgba(251,113,133,.18);}
+
+    strong{
+      color:#0f172a;
+    }
+
+    .memory, .tip, .trap{
+      margin-top:14px;
+      padding:14px 15px;
+      border-radius:16px;
+      font-size:14px;
+    }
+
+    .memory{
+      background:var(--green-soft);
+      border:1px solid #bbf7d0;
+      color:#166534;
+    }
+
+    .tip{
+      background:var(--cyan-soft);
+      border:1px solid #bae6fd;
+      color:#0f766e;
+    }
+
+    .trap{
+      background:var(--red-soft);
+      border:1px solid #fecdd3;
+      color:#be123c;
+    }
+
+    .chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:12px;
+    }
+
+    .chip{
+      background:#f8fafc;
+      border:1px solid var(--line);
+      color:#334155;
+      padding:8px 10px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:600;
+    }
+
     .timeline{
       position:relative;
-      margin-top:10px;
       padding-left:18px;
+      margin-top:6px;
     }
+
     .timeline::before{
       content:"";
       position:absolute;
-      left:4px; top:4px; bottom:4px;
+      left:4px;
+      top:5px;
+      bottom:5px;
       width:2px;
-      background:linear-gradient(180deg, var(--blue), var(--cyan));
+      background:#bfdbfe;
     }
+
     .time-item{
       position:relative;
-      margin:0 0 18px;
       padding-left:18px;
+      margin-bottom:16px;
     }
+
     .time-item::before{
       content:"";
       position:absolute;
-      left:-1px; top:7px;
-      width:10px; height:10px; border-radius:50%;
-      background:var(--blue);
-      box-shadow:0 0 0 4px rgba(96,165,250,.16);
+      left:-1px;
+      top:6px;
+      width:10px;
+      height:10px;
+      border-radius:50%;
+      background:#3b82f6;
     }
-    .time-item b{display:block;margin-bottom:4px}
-    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-    .chip{
-      padding:8px 10px;
-      border-radius:999px;
-      background:rgba(255,255,255,.07);
-      border:1px solid var(--line);
-      font-size:13px;
-      color:#eaf2ff;
+
+    .time-item b{
+      display:block;
+      color:#0f172a;
+      margin-bottom:4px;
     }
+
     .footer{
-      margin-top:28px;
-      color:var(--muted);
-      font-size:14px;
+      margin-top:20px;
       text-align:center;
-      padding:18px;
+      color:#64748b;
+      font-size:13px;
+      padding:14px;
     }
-    @media (max-width: 960px){
+
+    @media (max-width: 900px){
       .grid-3,.grid-2{grid-template-columns:1fr}
-      .hero{padding:28px 20px}
-      .card,.topic{padding:18px}
+      .hero{padding:20px 16px}
+      .card,.topic{padding:16px}
+      .section-title{font-size:22px}
     }
   </style>
 </head>
 <body>
   <div class="container">
     <section class="hero">
-      <div class="badge">ATA101 • Çıkmış sorular analiz edilerek genişletilmiş not</div>
+      <div class="badge">ATA101 • Açık tema modern not</div>
       <h1>Atatürk İlkeleri ve İnkılap Tarihi I</h1>
       <p class="subtitle">
-        Bu sürüm önceki nottan daha ayrıntılı hazırlandı. Amaç sadece şıkları ezberletmek değil,
-        konunun mantığını da öğretmek. Bu yüzden her başlıkta <strong>tanım</strong>, <strong>neden önemli</strong>,
-        <strong>sınavda nasıl sorulur</strong> ve <strong>karıştırılan noktalar</strong> birlikte verildi.
+        Bu not, çıkmış soruların tekrar eden yapılarına göre hazırlandı. Amaç sadece doğru şıkkı ezberletmek değil,
+        konuyu anlaşılır ve sade bir dille öğretmek. Bu yüzden başlıklarda hem temel bilgi hem de karıştırılan noktalar birlikte verildi.
       </p>
       <div class="toc">
         <a href="#yenilesme">Osmanlı yenileşmesi</a>
@@ -228,7 +283,7 @@
       <div class="card">
         <div class="stat">1</div>
         <h3>En çok çıkan yapı</h3>
-        <p class="mini">Aynı bilgi 2-3 farklı cümleyle tekrar soruluyor.</p>
+        <p class="mini">Aynı bilgi farklı cümlelerle tekrar sorulur. Bu yüzden mantığı anlamak önemlidir.</p>
         <div class="chips">
           <span class="chip">ilk anayasa</span>
           <span class="chip">ilk dış borç</span>
@@ -237,20 +292,20 @@
       </div>
       <div class="card">
         <div class="stat">2</div>
-        <h3>En kritik beceri</h3>
-        <p class="mini">Dönemleri karıştırmamak. Özellikle II. Meşrutiyet ile Cumhuriyet dönemi.</p>
+        <h3>En kritik nokta</h3>
+        <p class="mini">Dönemleri karıştırmamak gerekir. Özellikle II. Meşrutiyet, I. Dünya Savaşı ve Milli Mücadele.</p>
         <div class="chips">
           <span class="chip">II. Meşrutiyet</span>
-          <span class="chip">Cumhuriyet</span>
           <span class="chip">Kurtuluş Savaşı</span>
+          <span class="chip">Cumhuriyet</span>
         </div>
       </div>
       <div class="card">
         <div class="stat">3</div>
-        <h3>Tuzak soru tipi</h3>
-        <p class="mini">“değildir”, “yanlıştır”, “biri değildir” şeklindeki eleme soruları.</p>
+        <h3>Soru tuzağı</h3>
+        <p class="mini">“yanlıştır”, “değildir”, “hangisi söylenemez” gibi ifadeler çok kullanılır.</p>
         <div class="chips">
-          <span class="chip">Batı Anadolu cephesi</span>
+          <span class="chip">Batı Anadolu</span>
           <span class="chip">Terakkiperver</span>
           <span class="chip">kapitülasyonlar</span>
         </div>
@@ -262,37 +317,37 @@
       <div class="topic">
         <h3>III. Selim dönemi</h3>
         <p>
-          Sorularda III. Selim denince akla ilk gelen kavram <strong>Nizam-ı Cedit</strong> olmalıdır.
-          Bu reform hareketi, Osmanlı’nın dağılmayı önlemek için askeri ve idari alanda yaptığı en önemli yeniliklerden biridir.
+          III. Selim dönemi, Osmanlı yenileşme hareketlerinde çok önemli bir aşamadır. Bu dönemde devlet,
+          Avrupa karşısındaki geri kalmışlığı fark etmiş ve özellikle askeri alanda düzenleme yapmaya çalışmıştır.
         </p>
         <ul>
-          <li><strong>Nizam-ı Cedit</strong>, yeni düzen anlamına gelir.</li>
-          <li>Amaç, Avrupa karşısında geri kalan askeri yapıyı güçlendirmektir.</li>
-          <li><strong>Mühendishane-i Berri-i Hümayun</strong>, kara mühendisliği alanında eleman yetiştirmiştir.</li>
-          <li>1793’ten itibaren açılan daimi elçilikler sayesinde Osmanlı <strong>sürekli diplomasi</strong> anlayışına geçmiştir.</li>
+          <li><strong>Nizam-ı Cedit</strong>, bu dönemin en bilinen yenilik hareketidir.</li>
+          <li>Amaç, ordunun modernleşmesini sağlamak ve savaş gücünü artırmaktır.</li>
+          <li><strong>Mühendishane-i Berri-i Hümayun</strong>, kara mühendisliği alanında eğitim vermek için kurulmuştur.</li>
+          <li><strong>Daimi elçilikler</strong>, Avrupa’yı yakından takip etmek için açılmıştır.</li>
+          <li>Bu gelişme Osmanlı’nın <strong>sürekli diplomasi</strong> anlayışına geçtiğini gösterir.</li>
         </ul>
         <div class="tip">
-          Sınav mantığı: “III. Selim ne yaptı?” diye sorulursa genelde üçlü paket gelir:
-          <strong>Nizam-ı Cedit + Mühendishane + daimi elçilikler</strong>.
+          Sınavda III. Selim denince genelde şu üçlü birlikte gelir:
+          <strong>Nizam-ı Cedit + daimi elçilikler + askeri yenileşme</strong>.
         </div>
       </div>
 
       <div class="topic">
         <h3>II. Mahmut dönemi</h3>
         <p>
-          II. Mahmut dönemi, merkezi otoriteyi güçlendirme dönemi olarak görülür.
-          Sorularda hem askeri hem de idari yenilikler beraber gelir.
+          II. Mahmut dönemi merkezi otoriteyi güçlendirme dönemi olarak görülür. Hem askeri yapı hem de devlet teşkilatı yeniden düzenlenmiştir.
         </p>
         <ul>
           <li><strong>Yeniçeri Ocağı</strong> kaldırılmıştır.</li>
           <li>Yerine <strong>Asakir-i Mansure-i Muhammediye</strong> kurulmuştur.</li>
-          <li>Divan-ı Hümayun eski gücünü kaybetmiş, yerine <strong>Babıâli</strong> öne çıkmıştır.</li>
-          <li><strong>Muhtarlık teşkilatı</strong> ile köy/mahalle düzeyinde halk-devlet ilişkisi kurulmuştur.</li>
-          <li><strong>Hariciye Nezareti</strong> kurulmuş, diplomatik yazışmalarda <strong>Fransızca</strong> kullanılmıştır.</li>
+          <li><strong>Divan-ı Hümayun</strong> eski etkisini kaybetmiş, <strong>Babıâli</strong> ön plana çıkmıştır.</li>
+          <li><strong>Muhtarlık teşkilatı</strong> kurularak halk ile devlet arasındaki ilişki daha düzenli hale getirilmiştir.</li>
+          <li><strong>Hariciye Nezareti</strong> kurulmuş, dış yazışmalarda <strong>Fransızca</strong> yaygınlaşmıştır.</li>
         </ul>
         <div class="memory">
-          Kısa ezber: <strong>II. Mahmut = merkeziyetçilik</strong>. Orduyu yeniler, bürokrasiyi düzene sokar,
-          devletin taşradaki kontrolünü artırır.
+          Kısa ezber:
+          <strong>II. Mahmut = Yeniçeri kaldırıldı + Asakir-i Mansure + Babıâli</strong>.
         </div>
       </div>
     </section>
@@ -302,49 +357,47 @@
       <div class="topic">
         <h3>Sened-i İttifak ve Kanun-i Esasi</h3>
         <p>
-          Bu bölümde iki kavram sürekli döner: biri <strong>padişahın yetkilerinin ilk sınırlanması</strong>,
-          diğeri <strong>ilk yazılı anayasa</strong>.
+          Bu bölüm, Osmanlı’da anayasal gelişmenin temellerini anlamak için çok önemlidir.
         </p>
         <ul>
           <li><strong>Sened-i İttifak (1808)</strong>, padişahın yetkilerini ilk kez sınırlayan belgedir.</li>
-          <li>Bu belge tam anlamıyla anayasa değildir ama anayasal gelişmenin başlangıcı kabul edilir.</li>
+          <li>Bu belge anayasa değildir ama anayasal sürecin başlangıcı kabul edilir.</li>
           <li><strong>Kanun-i Esasi (1876)</strong>, Türk tarihinin ilk yazılı anayasasıdır.</li>
         </ul>
         <div class="trap">
-          Karıştırma:
+          Karıştırılan nokta:
           <strong>Sened-i İttifak = ilk sınırlama</strong>,
           <strong>Kanun-i Esasi = ilk yazılı anayasa</strong>.
         </div>
       </div>
 
       <div class="topic">
-        <h3>II. Meşrutiyet ve siyasi partiler</h3>
+        <h3>II. Meşrutiyet dönemi</h3>
         <p>
-          Bu bölümde en sık gelen soru, “hangisi II. Meşrutiyet dönemi partilerinden değildir?” tarzıdır.
-          Burada dönem bilgisi çok önemlidir.
+          II. Meşrutiyet dönemi, siyasi hayatın canlandığı ve çok partili yapının güçlendiği bir dönemdir.
         </p>
         <ul>
-          <li><strong>İttihat ve Terakki</strong>, <strong>Hürriyet ve İtilaf</strong>, <strong>Ahrar</strong>, <strong>Osmanlı Sosyalist Fırkası</strong> bu dönemde geçer.</li>
-          <li><strong>Terakkiperver Cumhuriyet Fırkası</strong> II. Meşrutiyet partisi değildir; Cumhuriyet dönemindedir.</li>
-          <li><strong>Halaskar Zabitan</strong>, askerin siyasetle uğraşmaması fikriyle ortaya çıkan ve meclisin feshinde etkili olan oluşumdur.</li>
-          <li><strong>Kamil Paşa Kabinesi</strong>, demokrasi tarihimizde güvensizlik oyuyla düşürülen ilk kabinedir.</li>
+          <li><strong>İttihat ve Terakki</strong> bu dönemin en etkili yapılarından biridir.</li>
+          <li><strong>Hürriyet ve İtilaf</strong> ve <strong>Ahrar Fırkası</strong> da bu dönemde geçer.</li>
+          <li><strong>Terakkiperver Cumhuriyet Fırkası</strong>, II. Meşrutiyet dönemi partisi değildir.</li>
           <li><strong>31 Mart Vakası</strong>nın miladi karşılığı <strong>13 Nisan 1909</strong>’dur.</li>
-          <li>II. Meşrutiyet sonrasında kaybedilen yer sorulursa öne çıkan cevap <strong>Bulgaristan</strong>dır.</li>
+          <li><strong>Kamil Paşa Kabinesi</strong>, güvensizlik oyuyla düşürülen ilk kabinedir.</li>
+          <li><strong>Halaskar Zabitan</strong>, meclisin feshinde etkili olmuştur.</li>
         </ul>
       </div>
     </section>
 
-    <h2 class="section-title" id="fikir">3) Fikir akımları ve Genç Osmanlılar</h2>
+    <h2 class="section-title" id="fikir">3) Fikir akımları</h2>
     <section class="grid grid-2">
       <div class="topic">
         <h3>Osmanlıcılık, İslamcılık, Türkçülük</h3>
         <p>
-          Fikir akımları soruları çok sık gelir. Genelde “amacı nedir?” veya “savunan kim değildir?” şeklinde sorulur.
+          Devleti dağılmaktan kurtarmak için farklı düşünce akımları ortaya çıkmıştır. Sorularda genelde amaçları karşılaştırılır.
         </p>
         <ul>
-          <li><strong>Osmanlıcılık</strong>: Din, dil, ırk ayrımı yapmadan herkesi Osmanlı üst kimliğinde birleştirmeyi amaçlar.</li>
-          <li><strong>İslamcılık</strong>: Müslümanları halife etrafında birleştirmeye dayanır.</li>
-          <li><strong>Türkçülük</strong>: Türk kimliğini ön plana çıkarır ve Osmanlı’daki son fikir akımı olarak öne çıkar.</li>
+          <li><strong>Osmanlıcılık</strong>, herkesi Osmanlı üst kimliği altında toplamayı amaçlar.</li>
+          <li><strong>İslamcılık</strong>, Müslüman toplulukları halife etrafında birleştirmeyi hedefler.</li>
+          <li><strong>Türkçülük</strong>, Türk kimliğini öne çıkarır.</li>
           <li>İlk fikir akımı <strong>Osmanlıcılık</strong>, son fikir akımı <strong>Türkçülük</strong>tür.</li>
         </ul>
         <div class="memory">
@@ -355,16 +408,14 @@
       </div>
 
       <div class="topic">
-        <h3>Kim kimi savunur?</h3>
+        <h3>Kim hangi akıma yakındır?</h3>
         <p>
-          Sınavda çok sevilen başka bir soru türü de isim-kavram eşleştirmesidir.
+          Eşleştirme soruları da çok gelir. Bu yüzden isimleri fikirlerle birlikte hatırlamak gerekir.
         </p>
         <ul>
-          <li><strong>Şinasi</strong>, <strong>Namık Kemal</strong>, <strong>Ziya Paşa</strong>, <strong>Ali Suavi</strong> → Osmanlıcılık çevresinde anılır.</li>
-          <li><strong>Ziya Gökalp</strong> → Osmanlıcılık savunucusu değildir; daha çok Türkçülük ile öne çıkar.</li>
-          <li><strong>Genç Osmanlılar</strong>, Islahat Fermanı’na eleştirel yaklaşmışlardır.</li>
-          <li>Genç Osmanlılar ile ilgili “1889’da cemiyet kurdular” ifadesi yanlıştır; 1889, <strong>İttihat ve Terakki</strong> ile ilgilidir.</li>
-          <li><strong>Ahmet Rıza Bey</strong>, İttihat ve Terakki’nin Avrupa’daki önde gelen ismidir.</li>
+          <li><strong>Şinasi</strong>, <strong>Namık Kemal</strong>, <strong>Ziya Paşa</strong>, <strong>Ali Suavi</strong> → Osmanlıcılık çevresi</li>
+          <li><strong>Ziya Gökalp</strong> → Osmanlıcılık savunucusu değildir, daha çok Türkçülük ile anılır.</li>
+          <li><strong>Ahmet Rıza Bey</strong>, İttihat ve Terakki’nin Avrupa’daki önemli ismidir.</li>
           <li><strong>Namık Kemal</strong>, İttihat ve Terakki’nin ilk kurucuları arasında yer almaz.</li>
         </ul>
       </div>
@@ -373,36 +424,33 @@
     <h2 class="section-title" id="ekonomi">4) Ekonomi, dış borçlar ve kurumlar</h2>
     <section class="grid grid-2">
       <div class="topic">
-        <h3>Ticaret sözleşmeleri ve ekonomik sonuçlar</h3>
+        <h3>Ticaret sözleşmeleri</h3>
         <p>
-          Burada en önemli mantık şudur: Osmanlı ekonomisi dışa açılmıştır ama bu açılım ekonomik bağımsızlığı güçlendirmemiş,
-          aksine zayıflatmıştır.
+          19. yüzyılda yapılan ticaret sözleşmeleri Osmanlı ekonomisini dışa açmıştır. Ancak bu durum ekonomik bağımsızlığı güçlendirmemiştir.
         </p>
         <ul>
-          <li>19. yüzyıldaki ticaret sözleşmeleri sonrası <strong>dış ticaret açığı</strong> artmıştır.</li>
           <li>Osmanlı ekonomisi <strong>serbest ticarete açılmıştır</strong>.</li>
-          <li>Birçok ülkeyle ticaret sözleşmesi yapılmıştır.</li>
-          <li>Bu sözleşmeler <strong>gümrük bağımsızlığını zayıflatmıştır</strong>.</li>
-          <li><strong>Kapitülasyonlar ortadan kalkmamıştır.</strong> Tam tersine etkileri genişlemiştir.</li>
+          <li><strong>Dış ticaret açığı</strong> büyümüştür.</li>
+          <li><strong>Gümrük bağımsızlığı</strong> zayıflamıştır.</li>
+          <li><strong>Kapitülasyonlar ortadan kalkmamıştır</strong>.</li>
         </ul>
         <div class="trap">
-          En klasik tuzak:
-          “Ticaret sözleşmeleri ile kapitülasyonlar ortadan kalktı” ifadesi <strong>yanlıştır</strong>.
+          En klasik yanlış:
+          “Ticaret sözleşmeleri kapitülasyonları kaldırdı” ifadesi <strong>yanlıştır</strong>.
         </div>
       </div>
 
       <div class="topic">
-        <h3>Dış borçlanma ve Düyun-ı Umumiye</h3>
+        <h3>Dış borçlar ve Düyun-ı Umumiye</h3>
         <p>
-          Bu bölümde hem ilk dış borç hem de borçların yönetimi ile ilgili kurumlar öne çıkar.
+          Borçlar konusu sınavda hem tarih hem kurum eşleştirmesi şeklinde gelir.
         </p>
         <ul>
           <li>Osmanlı ilk dış borcunu <strong>Kırım Savaşı</strong> sırasında almıştır.</li>
-          <li>Bu borçlar çoğunlukla <strong>yatırım dışı alanlar</strong> için kullanılmıştır.</li>
+          <li>Bu borçlar çoğu zaman <strong>yatırım dışı alanlarda</strong> kullanılmıştır.</li>
           <li><strong>Muharrem Kararnamesi</strong> ile <strong>Düyun-ı Umumiye</strong> kurulmuştur.</li>
-          <li>Kararname ile borçlarda indirim, faiz oranlarında düzenleme ve gelir kaynaklarının belirlenmesi sağlanmıştır.</li>
-          <li><strong>Rüsum-ı Sitte</strong> çalışmaya devam etmemiş, yetkilerini Düyun-ı Umumiye’ye devretmiştir.</li>
-          <li><strong>Rüsum-ı Sitte</strong>, <strong>Galata bankerleri</strong> ile yapılan görüşmeler sonucu kurulmuştur.</li>
+          <li><strong>Rüsum-ı Sitte</strong>, görevini Düyun-ı Umumiye’ye devretmiştir.</li>
+          <li><strong>Rüsum-ı Sitte</strong>, Galata bankerleriyle yapılan görüşmeler sonrası kurulmuştur.</li>
         </ul>
       </div>
     </section>
@@ -410,26 +458,21 @@
     <h2 class="section-title" id="dispolitika">5) Antlaşmalar ve dış politika</h2>
     <section class="grid grid-2">
       <div class="topic">
-        <h3>Rusya, Yunanistan ve İran bağlantılı sorular</h3>
+        <h3>Önemli antlaşmalar</h3>
         <ul>
-          <li><strong>Küçük Kaynarca Antlaşması (1774)</strong> sonrası Rusya, Osmanlı’daki <strong>Ortodoksların hamisi</strong> olduğunu iddia etmiştir.</li>
+          <li><strong>Küçük Kaynarca Antlaşması (1774)</strong> sonrası Rusya, Osmanlı’daki <strong>Ortodoksların hamisi</strong> olduğunu ileri sürmüştür.</li>
           <li><strong>Aynalıkavak Tenkihnamesi (1779)</strong> ile <strong>Kırım</strong> tamamen kaybedilmiştir.</li>
           <li><strong>Edirne Antlaşması (1829)</strong>, bağımsız Yunan devletinin önünü açmıştır.</li>
-          <li><strong>Erzurum Antlaşması (1823)</strong>, İran ile savaşı bitirmiştir.</li>
+          <li><strong>Erzurum Antlaşması (1823)</strong>, İran ile savaşı sona erdirmiştir.</li>
         </ul>
-        <div class="tip">
-          Soru mantığı genelde şöyledir: “hangi antlaşma hangi sonucu doğurdu?” O yüzden sadece isim değil,
-          sonuç da bilinmeli.
-        </div>
       </div>
 
       <div class="topic">
-        <h3>Diğer önemli antlaşmalar</h3>
+        <h3>Ek bilgiler</h3>
         <ul>
-          <li><strong>Vestfalya Antlaşması (1648)</strong>, Avrupa’daki yeni siyasi dengeyi kuran temel antlaşmalardandır.</li>
+          <li><strong>Vestfalya Antlaşması (1648)</strong>, Avrupa’daki siyasi dengeyi etkileyen temel antlaşmalardandır.</li>
           <li><strong>Londra Antlaşması</strong>, Birinci Balkan Savaşı’nı sona erdirmiştir.</li>
-          <li>I. Dünya Savaşı sırasında İtilaf devletlerinin gizli anlaşmaları arasında
-            <strong>İstanbul</strong>, <strong>Londra</strong>, <strong>Sykes-Picot</strong> ve <strong>Saint Jean de Maurienne</strong> sayılır.</li>
+          <li>I. Dünya Savaşı’ndaki gizli paylaşım anlaşmaları arasında İstanbul, Londra, Sykes-Picot ve Saint Jean de Maurienne vardır.</li>
           <li><strong>Erzincan Antlaşması</strong>, bu gizli paylaşım anlaşmalarından biri değildir.</li>
         </ul>
       </div>
@@ -440,29 +483,27 @@
       <div class="topic">
         <h3>Cepheler</h3>
         <p>
-          Bu derste cephe soruları çok sık gelir. Ama soru çoğu zaman “hangisi değildir?” şeklinde hazırlanır.
+          Cepheler sorulurken genelde “hangisi I. Dünya Savaşı cephesi değildir?” kalıbı kullanılır.
         </p>
         <ul>
           <li>Başlıca cepheler: <strong>Kafkas</strong>, <strong>Kanal</strong>, <strong>Çanakkale</strong>, <strong>Suriye-Filistin</strong>.</li>
-          <li>Osmanlı Devleti, Rusya’ya karşı özellikle <strong>Kafkas Cephesi</strong>nde savaşmıştır.</li>
-          <li>İngiltere ve Fransa, Rusya’ya yardım gönderebilmek için <strong>Çanakkale Cephesi</strong>ni açmıştır.</li>
-          <li><strong>Batı Anadolu Cephesi</strong>, I. Dünya Savaşı cephesi değildir; Kurtuluş Savaşı dönemindedir.</li>
+          <li>Rusya’ya karşı savaşın öne çıktığı cephe <strong>Kafkas Cephesi</strong>dir.</li>
+          <li>İngiltere ve Fransa, Rusya’ya yardım için <strong>Çanakkale Cephesi</strong>ni açmıştır.</li>
+          <li><strong>Batı Anadolu Cephesi</strong>, I. Dünya Savaşı cephesi değildir.</li>
         </ul>
         <div class="trap">
-          En çok gelen eleme:
-          <strong>Batı Anadolu Cephesi</strong> I. Dünya Savaşı’na değil, Milli Mücadele’ye aittir.
+          Batı Anadolu Cephesi, Milli Mücadele dönemine aittir.
         </div>
       </div>
 
       <div class="topic">
-        <h3>Savaşın siyasi ve ekonomik sonuçları</h3>
+        <h3>Savaşın sonuçları</h3>
         <ul>
-          <li>İtilaf devletlerinin gizli anlaşmalar yapması, savaş sonunda Osmanlı topraklarını paylaşma niyetini gösterir.</li>
-          <li>Savaş döneminde <strong>iaşe sorunu</strong> yaşanmıştır.</li>
+          <li><strong>İaşe sorunu</strong> yaşanmıştır.</li>
           <li><strong>Yüksek enflasyon</strong> görülmüştür.</li>
           <li><strong>Yerli şirketler</strong> desteklenmiştir.</li>
           <li>Yeni gümrük tarifeleri uygulanmıştır.</li>
-          <li><strong>Sanayi üretiminde artış olmamıştır</strong>; bu ifade yanlıştır.</li>
+          <li><strong>Sanayi üretiminde artış</strong> olduğu söylenemez.</li>
         </ul>
       </div>
     </section>
@@ -470,49 +511,48 @@
     <h2 class="section-title" id="milli">7) Mustafa Kemal ve Milli Mücadele</h2>
     <section class="grid grid-2">
       <div class="topic">
-        <h3>Mustafa Kemal’in ilk görevleri ve kişisel hazırlık dönemi</h3>
+        <h3>Mustafa Kemal’in ilk faaliyetleri</h3>
         <ul>
           <li>Şam’da kurduğu cemiyet <strong>Vatan ve Hürriyet Cemiyeti</strong>dir.</li>
-          <li>Trablusgarp’ta halkı örgütlediği yerler <strong>Derne</strong> ve <strong>Tobruk</strong>tur.</li>
-          <li>Bu bilgiler, Mustafa Kemal’in resmi görev dışında da örgütleyici ve lider yönünü gösterir.</li>
+          <li>Trablusgarp’ta öne çıktığı yerler <strong>Derne</strong> ve <strong>Tobruk</strong>tur.</li>
+          <li>Bu süreç, onun liderlik ve örgütleme yönünü erken dönemde gösterir.</li>
         </ul>
       </div>
 
       <div class="topic">
-        <h3>Mondros ve işgaller</h3>
+        <h3>Mondros ve sonrasındaki gelişmeler</h3>
         <ul>
           <li><strong>Mondros Mütarekesi</strong> imzalanırken iktidarda <strong>Ahmet İzzet Paşa Hükümeti</strong> vardı.</li>
-          <li>Milli Mücadele yıllarında tahtta bulunan padişah <strong>Vahdeddin</strong>dir.</li>
-          <li>Mondros’tan sonra işgallere karşı halkın kurduğu ilk direniş gücü <strong>Kuvay-ı Milliye</strong>dir.</li>
-          <li>İstanbul’un resmen işgali sonrası Anadolu’daki gelir kaynaklarının denetimi gibi daha sert önlemler gündeme gelmiştir.</li>
+          <li>Milli Mücadele yıllarındaki padişah <strong>Vahdeddin</strong>dir.</li>
+          <li>Mondros sonrası işgallere karşı ilk halk direnişi <strong>Kuvay-ı Milliye</strong>dir.</li>
         </ul>
       </div>
 
       <div class="topic">
         <h3>Milli Mücadele belgeleri</h3>
         <p>
-          Bu bölümde soru mantığı “hangi belge neyi belirledi?” biçimindedir.
+          Bu bölümde en kritik soru, hangi belgenin neyi ortaya koyduğudur.
         </p>
         <ul>
-          <li><strong>Havza Genelgesi</strong>, halkı işgallere karşı tepkiye çağıran ilk önemli adımdır.</li>
+          <li><strong>Havza Genelgesi</strong>, halkı işgallere karşı bilinçlendiren erken adımlardandır.</li>
           <li><strong>Amasya Genelgesi</strong>, Milli Mücadele’nin <strong>amacını, gerekçesini ve yöntemini</strong> belirler.</li>
-          <li><strong>Erzurum Kongresi</strong>, bölgesel görünmesine rağmen milli kararlar içerir.</li>
-          <li><strong>Sivas Kongresi</strong>, milli direnişi daha geniş çapta birleştirir.</li>
+          <li><strong>Erzurum Kongresi</strong>, bölgesel görünse de milli kararlar almıştır.</li>
+          <li><strong>Sivas Kongresi</strong>, direnişi daha geniş çerçevede birleştirmiştir.</li>
           <li><strong>Misak-ı Milli</strong>, <strong>Son Osmanlı Mebusan Meclisi</strong> tarafından kabul edilmiştir.</li>
         </ul>
         <div class="memory">
-          Kalıp ezber:
+          Kısa kalıp:
           <strong>Amasya = amaç + gerekçe + yöntem</strong>,
           <strong>Misak-ı Milli = Son Osmanlı Mebusan Meclisi</strong>.
         </div>
       </div>
 
       <div class="topic">
-        <h3>Toplum ve devlet yapısı ile bağlantılı ek bilgiler</h3>
+        <h3>Ek genel bilgiler</h3>
         <ul>
           <li><strong>Millet Sistemi</strong> içinde gayrimüslimler <strong>Zımmî hukuk</strong>tan yararlanırdı.</li>
           <li><strong>Buhran Dönemi</strong>, Osmanlı’nın duraklama ve gerileme sürecini anlatır.</li>
-          <li>Bu tür bilgiler doğrudan Milli Mücadele konusu olmasa da sınavda genel tarih bilgisi olarak sık karşına çıkar.</li>
+          <li>Bu tür bilgiler de sınavda genel tarih bilgisi olarak karşına çıkabilir.</li>
         </ul>
       </div>
     </section>
@@ -523,14 +563,11 @@
         <div class="time-item"><b>1808 — Sened-i İttifak</b>Padişahın yetkileri ilk kez sınırlandı.</div>
         <div class="time-item"><b>1823 — Erzurum Antlaşması</b>İran ile savaş sona erdi.</div>
         <div class="time-item"><b>1826-1827 — Yeniçeri Ocağı kaldırıldı / Asakir-i Mansure kuruldu</b>II. Mahmut dönemi.</div>
-        <div class="time-item"><b>1829 — Edirne Antlaşması</b>Yunan bağımsızlığının önü açıldı.</div>
-        <div class="time-item"><b>1831 — Muhtarlık teşkilatı</b>Halk-devlet ilişkisini yerelde güçlendirdi.</div>
-        <div class="time-item"><b>1836 — Hariciye Nezareti</b>Dış işlerinde kurumsallaşma arttı.</div>
+        <div class="time-item"><b>1829 — Edirne Antlaşması</b>Yunan bağımsızlığının yolu açıldı.</div>
         <div class="time-item"><b>1854 — İlk dış borç</b>Kırım Savaşı sırasında alındı.</div>
-        <div class="time-item"><b>1856 — Islahat Fermanı</b>Müslim-gayrimüslim eşitliğini hedefledi.</div>
         <div class="time-item"><b>1876 — Kanun-i Esasi</b>İlk yazılı anayasa.</div>
-        <div class="time-item"><b>13 Nisan 1909 — 31 Mart Vakası</b>Miladi karşılık.</div>
-        <div class="time-item"><b>1918 — Mondros</b>Osmanlı için fiili sona gidiş hızlandı.</div>
+        <div class="time-item"><b>13 Nisan 1909 — 31 Mart Vakası</b>Miladi tarih.</div>
+        <div class="time-item"><b>1918 — Mondros</b>İşgaller süreci hızlandı.</div>
         <div class="time-item"><b>1919 — Amasya Genelgesi</b>Milli Mücadele’nin yönü belirlendi.</div>
       </div>
     </section>
@@ -547,12 +584,12 @@
           <li>Asakir-i Mansure → <strong>II. Mahmut</strong></li>
           <li>İlk fikir akımı → <strong>Osmanlıcılık</strong></li>
           <li>Son fikir akımı → <strong>Türkçülük</strong></li>
-          <li>31 Mart Vakası → <strong>13 Nisan 1909</strong></li>
           <li>Mondros sonrası halk direnişi → <strong>Kuvay-ı Milliye</strong></li>
           <li>Amasya Genelgesi → <strong>amaç + gerekçe + yöntem</strong></li>
           <li>Misak-ı Milli’yi kabul eden → <strong>Son Osmanlı Mebusan Meclisi</strong></li>
         </ul>
       </div>
+
       <div class="card">
         <h3>En kritik karıştırmalar</h3>
         <ul>
@@ -560,15 +597,13 @@
           <li><strong>Batı Anadolu Cephesi</strong> I. Dünya Savaşı cephesi değildir.</li>
           <li>Ticaret sözleşmeleri <strong>kapitülasyonları kaldırmamıştır</strong>.</li>
           <li><strong>Ziya Gökalp</strong>, Osmanlıcılık savunucusu değildir.</li>
-          <li><strong>Rüsum-ı Sitte</strong>, Muharrem Kararnamesi sonrası sürmemiştir.</li>
-          <li><strong>Sanayi üretiminde artış</strong>, I. Dünya Savaşı ekonomik sonucu değildir.</li>
+          <li><strong>Rüsum-ı Sitte</strong>, Muharrem Kararnamesi sonrasında devam etmemiştir.</li>
         </ul>
       </div>
     </section>
 
     <div class="footer">
-      Bu not, yüklediğin çıkmış soruların tekrar eden temalarına göre genişletildi.
-      Uygulamada not ekranı olarak kullanılabilecek şekilde modern ve okunabilir tasarlandı.
+      Bu sürüm, uygulamalarda daha rahat kullanılabilmesi için açık renkli ve sade kart yapısıyla yeniden düzenlendi.
     </div>
   </div>
 </body>
