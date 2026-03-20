@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yönetim Bilişim Sistemleri - Ayrıntılı Not</title>
+  <title>Yönetim Bilişim Sistemleri - Gelişmiş Ders Notu</title>
   <style>
     :root{
       --bg:#f8fafc;
@@ -24,43 +24,153 @@
     }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;}
-    .container{width:min(980px, calc(100% - 24px)); margin:0 auto; padding:18px 0 40px;}
-    .hero{background:linear-gradient(180deg,#eef6ff 0%,#ffffff 100%);border:1px solid var(--line);border-radius:28px;padding:24px 20px;box-shadow:var(--shadow);margin-bottom:18px;}
-    .badge{display:inline-block;background:#e0ecff;color:#1d4ed8;font-size:12px;font-weight:700;padding:8px 12px;border-radius:999px;margin-bottom:12px;}
-    h1{margin:0 0 10px;font-size:clamp(26px,5vw,40px);line-height:1.18;color:#0f172a;}
-    .subtitle{margin:0;color:var(--muted);font-size:15px;}
-    .toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
-    .toc a{text-decoration:none;background:#fff;color:#1e40af;border:1px solid var(--line);padding:9px 12px;border-radius:12px;font-size:13px;font-weight:600;}
-    .grid{display:grid;gap:14px;margin-top:14px;}
-    .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-    .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-    .card,.topic{background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);}
-    .topic{background:var(--surface-soft)}
-    .stat{width:42px;height:42px;border-radius:14px;background:var(--primary-soft);color:var(--primary);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;margin-bottom:10px;}
-    .mini{margin:0;color:var(--muted);font-size:14px;}
-    .section-title{margin:28px 0 12px;font-size:25px;color:#0f172a;}
-    .topic h3,.card h3{margin:0 0 10px;font-size:20px;color:#111827;}
-    p{margin:8px 0;color:#334155;}
-    ul{margin:10px 0 0;padding-left:20px;}
-    li{margin:8px 0;color:#1f2937;}
-    strong{color:#0f172a;}
-    .memory,.tip,.trap{margin-top:14px;padding:14px 15px;border-radius:16px;font-size:14px;}
-    .memory{background:var(--green-soft);border:1px solid #bbf7d0;color:#166534;}
-    .tip{background:var(--cyan-soft);border:1px solid #bae6fd;color:#0f766e;}
-    .trap{background:var(--red-soft);border:1px solid #fecdd3;color:#be123c;}
-    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;}
-    .chip{background:#f8fafc;border:1px solid var(--line);color:#334155;padding:8px 10px;border-radius:999px;font-size:12px;font-weight:600;}
-    .timeline{position:relative;padding-left:18px;margin-top:6px;}
-    .timeline::before{content:"";position:absolute;left:4px;top:5px;bottom:5px;width:2px;background:#bfdbfe;}
-    .time-item{position:relative;padding-left:18px;margin-bottom:16px;}
-    .time-item::before{content:"";position:absolute;left:-1px;top:6px;width:10px;height:10px;border-radius:50%;background:#3b82f6;}
-    .time-item b{display:block;color:#0f172a;margin-bottom:4px;}
-    .footer{margin-top:20px;text-align:center;color:#64748b;font-size:13px;padding:14px;}
-    @media (max-width:900px){
-      .grid-3,.grid-2{grid-template-columns:1fr}
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.78;
+    }
+    .container{
+      width:min(980px, calc(100% - 24px));
+      margin:0 auto;
+      padding:18px 0 40px;
+    }
+    .hero{
+      background:linear-gradient(180deg, #eef6ff 0%, #ffffff 100%);
+      border:1px solid var(--line);
+      border-radius:28px;
+      padding:24px 20px;
+      box-shadow:var(--shadow);
+      margin-bottom:18px;
+    }
+    .badge{
+      display:inline-block;
+      background:#e0ecff;
+      color:#1d4ed8;
+      font-size:12px;
+      font-weight:700;
+      padding:8px 12px;
+      border-radius:999px;
+      margin-bottom:12px;
+    }
+    h1{
+      margin:0 0 10px;
+      font-size:clamp(26px, 5vw, 40px);
+      line-height:1.18;
+      color:#0f172a;
+    }
+    .subtitle{
+      margin:0;
+      color:var(--muted);
+      font-size:15px;
+    }
+    .toc{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:16px;
+    }
+    .toc a{
+      text-decoration:none;
+      background:#ffffff;
+      color:#1e40af;
+      border:1px solid var(--line);
+      padding:9px 12px;
+      border-radius:12px;
+      font-size:13px;
+      font-weight:600;
+    }
+    .section-title{
+      margin:28px 0 12px;
+      font-size:26px;
+      color:#0f172a;
+    }
+    .card{
+      background:var(--surface);
+      border:1px solid var(--line-soft);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow:var(--shadow);
+      margin-bottom:14px;
+    }
+    .soft{
+      background:var(--surface-soft);
+    }
+    .card h3{
+      margin:0 0 10px;
+      font-size:21px;
+      color:#111827;
+    }
+    p{
+      margin:8px 0;
+      color:#334155;
+    }
+    ul{
+      margin:10px 0 0;
+      padding-left:20px;
+    }
+    li{
+      margin:8px 0;
+      color:#1f2937;
+    }
+    strong{
+      color:#0f172a;
+    }
+    .memory, .tip, .trap, .questionbox, .summarybox{
+      margin-top:14px;
+      padding:14px 15px;
+      border-radius:16px;
+      font-size:14px;
+    }
+    .memory{
+      background:var(--green-soft);
+      border:1px solid #bbf7d0;
+      color:#166534;
+    }
+    .tip{
+      background:var(--cyan-soft);
+      border:1px solid #bae6fd;
+      color:#0f766e;
+    }
+    .trap{
+      background:var(--red-soft);
+      border:1px solid #fecdd3;
+      color:#be123c;
+    }
+    .summarybox{
+      background:#f8fafc;
+      border:1px solid var(--line);
+      color:#334155;
+    }
+    .questionbox{
+      background:var(--yellow-soft);
+      border:1px solid #fde68a;
+      color:#7c2d12;
+    }
+    .questionbox h4{
+      margin:0 0 10px;
+      font-size:17px;
+      color:#7c2d12;
+    }
+    .option{
+      margin:6px 0;
+      padding:8px 10px;
+      background:#ffffff;
+      border:1px solid #e5e7eb;
+      border-radius:10px;
+      color:#374151;
+    }
+    .footer{
+      margin-top:20px;
+      text-align:center;
+      color:#64748b;
+      font-size:13px;
+      padding:14px;
+    }
+    @media (max-width: 900px){
       .hero{padding:20px 16px}
-      .card,.topic{padding:16px}
+      .card{padding:16px}
       .section-title{font-size:22px}
     }
   </style>
@@ -68,357 +178,401 @@
 <body>
   <div class="container">
     <section class="hero">
-      <div class="badge">YBS • Ayrıntılı ders notu</div>
+      <div class="badge">YBS • Gelişmiş ders notu</div>
       <h1>Yönetim Bilişim Sistemleri</h1>
       <p class="subtitle">
-        Bu not, soru dosyalarındaki tekrar eden kalıplara göre hazırlandı. Derste yalnızca bilgisayar donanımı değil,
-        <strong>işletmelerde enformasyonun toplanması</strong>, <strong>karar verme süreçlerinin desteklenmesi</strong>,
-        <strong>stratejik avantaj sağlama</strong> ve <strong>fonksiyonel bilgi sistemleri</strong> öne çıkar.
-        Bu yüzden konu anlatımı hem teknik hem de yönetim boyutuyla düzenlendi.
+        Bu örnek sürüm, klasik kısa özet mantığıyla hazırlanmadı. Amaç kullanıcının konuyu gerçekten anlaması.
+        Bu yüzden anlatım daha uzun tutuldu, her ana başlığın altına çıkmış soru örnekleri eklendi ve cevap mantığı açıklandı.
+        Üstteki kartlı tanıtım alanı özellikle kaldırıldı; yapı artık doğrudan ders notu gibi başlıyor.
       </p>
       <div class="toc">
-        <a href="#temel">Temel kavramlar</a>
-        <a href="#donanim">Donanım ve giriş-çıkış</a>
-        <a href="#sistemler">Fonksiyonel sistemler</a>
-        <a href="#strateji">Stratejik kullanım</a>
+        <a href="#temel">Temel mantık</a>
+        <a href="#fonksiyonel">Fonksiyonel sistemler</a>
+        <a href="#stratejik">Stratejik kullanım</a>
         <a href="#analiz">Sistem analizi</a>
         <a href="#karar">Karar verme</a>
-        <a href="#tekrar">Hızlı tekrar</a>
+        <a href="#tekrar">Genel tekrar</a>
       </div>
     </section>
 
-    <section class="grid grid-3">
-      <div class="card">
-        <div class="stat">1</div>
-        <h3>En çok çıkan alan</h3>
-        <p class="mini">Fonksiyonel enformasyon sistemleri ve bunların neyi kapsayıp kapsamadığı çok soruluyor.</p>
-        <div class="chips">
-          <span class="chip">muhasebe</span>
-          <span class="chip">finans</span>
-          <span class="chip">mühendislik</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="stat">2</div>
-        <h3>En kritik mantık</h3>
-        <p class="mini">Teknolojinin kendisi değil, işletmede nasıl kullanıldığı rekabet avantajı yaratır.</p>
-        <div class="chips">
-          <span class="chip">stratejik avantaj</span>
-          <span class="chip">patent</span>
-          <span class="chip">değiştirme maliyeti</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="stat">3</div>
-        <h3>Sık karışan konu</h3>
-        <p class="mini">Yapısal karar, yapısal olmayan karar ve risk ilişkisi birbiriyle karıştırılıyor.</p>
-        <div class="chips">
-          <span class="chip">risk</span>
-          <span class="chip">belirsizlik</span>
-          <span class="chip">karar destek</span>
-        </div>
-      </div>
-    </section>
+    <h2 class="section-title" id="temel">1) Yönetim Bilişim Sistemleri dersinin temel mantığı</h2>
 
-    <h2 class="section-title" id="temel">1) Temel kavramlar ve YBS mantığı</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Bilişim ve enformasyon neden önemlidir?</h3>
+    <div class="card soft">
+      <h3>Enformasyon neden bu kadar önemlidir?</h3>
+      <p>
+        Yönetim Bilişim Sistemleri dersinde en temel düşünce şudur: bir işletmede her veri aynı değerde değildir.
+        Ham veri kendi başına çoğu zaman karar verdirmez. Ancak bu veri sınıflandırılır, işlenir, karşılaştırılır ve doğru kişiye doğru zamanda ulaştırılırsa
+        <strong>enformasyona</strong> dönüşür. Enformasyon ise yöneticinin düşünmesini, kıyaslama yapmasını, kontrol etmesini ve karar vermesini sağlar.
+      </p>
+      <p>
+        Bu yüzden işletmelerde bilgi sistemleri yalnızca “kayıt tutma aracı” değildir. Aynı zamanda:
+      </p>
+      <ul>
+        <li>geçmiş faaliyetleri izleme,</li>
+        <li>bugünkü durumu anlama,</li>
+        <li>geleceğe dair tahmin yapma,</li>
+        <li>hataları fark etme,</li>
+        <li>yönetsel kararları destekleme</li>
+      </ul>
+      <p>
+        amacıyla kullanılır. Derste çıkan soruların büyük bölümü de tam burada başlar: “enformasyon neden önemlidir?” veya
+        “bilgi sistemi işletmeye ne sağlar?” şeklindeki sorular aslında teknoloji bilgisi değil, <strong>yönetim mantığı</strong> ölçer.
+      </p>
+
+      <div class="tip">
+        Şuna dikkat et: Soru “işletme için enformasyon neden önemlidir?” diye geldiğinde en güçlü cevap çoğu zaman
+        <strong>karar verme ve problem çözme sürecini desteklemesi</strong> olur.
+      </div>
+
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> İşletmeler için enformasyonun önemi aşağıdakilerden hangisi ile en iyi açıklanır?</p>
+        <div class="option"><strong>A.</strong> Sadece arşiv oluşturması</div>
+        <div class="option"><strong>B.</strong> Yalnızca mali kayıtları saklaması</div>
+        <div class="option"><strong>C.</strong> Karar verme ve problem çözme sürecine katkı sağlaması</div>
+        <div class="option"><strong>D.</strong> Kâğıt kullanımını azaltması</div>
         <p>
-          Yönetim Bilişim Sistemleri dersinin temeli, verinin tek başına yeterli olmadığını; verinin işlenip anlamlı hale
-          getirildiğinde yönetime katkı sunduğunu anlatır. İşletmeler için enformasyonun önemi, yalnızca kayıt tutmak değildir.
-          Asıl amaç, <strong>problem çözme</strong> ve <strong>karar verme</strong> süreçlerini desteklemektir.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>C</strong> olur. Çünkü enformasyon sistemlerinin asıl değeri yalnızca kayıt yapmak değildir.
+          Asıl önemli olan, yöneticiye anlamlı bilgi vererek karar vermesini kolaylaştırmasıdır.
+          A ve B seçenekleri kısmen doğru gibi görünse de çok dar kalır. D ise yardımcı bir sonuç olabilir ama temel işlev değildir.
         </p>
-        <ul>
-          <li>İşletmeler geçmiş faaliyetlerini izlemek için enformasyon toplar.</li>
-          <li>Yöneticiler karar verirken güncel ve doğru enformasyona ihtiyaç duyar.</li>
-          <li>Enformasyon saklama, kontrol ve planlama açısından da önemlidir.</li>
-          <li>Yanlış ya da eksik enformasyon, yanlış karar riskini artırır.</li>
-        </ul>
-        <div class="tip">
-          Sınav mantığı:
-          “Enformasyon neden önemlidir?” sorusunda en güçlü cevap genelde
-          <strong>karar verme ve problem çözme süreci</strong> ile ilgilidir.
-        </div>
       </div>
 
-      <div class="topic">
-        <h3>Sistem nedir?</h3>
+      <div class="summarybox">
+        <strong>Mini özet:</strong> Veri tek başına ham maddedir. Veri işlenip yönetsel anlam kazandığında enformasyona dönüşür.
+        Yönetim bilişim sistemlerinin amacı da bu enformasyonu karar süreçlerine taşımaktır.
+      </div>
+    </div>
+
+    <div class="card soft">
+      <h3>Sistem kavramı neden önemlidir?</h3>
+      <p>
+        Bu derste “sistem” kelimesi çok geçer çünkü işletme tek parça halinde çalışan bir yapı değildir.
+        Muhasebe, finans, insan kaynakları, üretim, satış ve pazarlama gibi bölümler birbirinden ayrı görünse de aslında sürekli veri alışverişi yapar.
+        İşte bu nedenle işletme bir <strong>sistem</strong> olarak düşünülür.
+      </p>
+      <p>
+        Sistem yaklaşımı bize şunu öğretir:
+      </p>
+      <ul>
+        <li>Her bölüm kendi başına değil, bütün içinde anlamlıdır.</li>
+        <li>Bir bölümdeki sorun başka bölümlere de yansıyabilir.</li>
+        <li>Bilgi akışı kesilirse karar kalitesi düşer.</li>
+        <li>İyi kurulmuş bilgi sistemleri bölümler arası koordinasyonu artırır.</li>
+      </ul>
+
+      <div class="memory">
+        Kısa ezber: <strong>Sistem</strong>, belirli bir amaca yönelik olarak birlikte çalışan parçalar bütünüdür.
+      </div>
+
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> Aşağıdakilerden hangisi sistem kavramını en doğru biçimde açıklar?</p>
+        <div class="option"><strong>A.</strong> Birbirinden tamamen bağımsız öğeler topluluğu</div>
+        <div class="option"><strong>B.</strong> Belirli bir amaca göre birlikte çalışan öğeler bütünü</div>
+        <div class="option"><strong>C.</strong> Sadece teknik cihazların toplamı</div>
+        <div class="option"><strong>D.</strong> Yalnızca bilgisayar yazılımı</div>
         <p>
-          Sistem, belirli bir amaç doğrultusunda birlikte çalışan öğelerin oluşturduğu düzendir.
-          Yönetim bilişim sistemleri açısından sistem düşüncesi çok önemlidir; çünkü işletme içindeki her birim,
-          veri üreten ve veri kullanan daha büyük bir yapının parçasıdır.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>B</strong>’dir. Çünkü sistem sadece cihazlardan oluşmaz;
+          amaç, ilişki ve bütünlük içerir. A seçeneğinde ilişki yoktur. C ve D seçenekleri sistemi gereksiz biçimde daraltır.
         </p>
-        <ul>
-          <li>Sistem bir düzen, düzenek veya yöntemler bütünü olabilir.</li>
-          <li>Her sistemin bir amacı vardır.</li>
-          <li>Sistem içindeki parçalar birbiriyle ilişkilidir.</li>
-          <li>Bir parçadaki sorun tüm sistemi etkileyebilir.</li>
-        </ul>
-        <div class="trap">
-          Karıştırma:
-          Her örgüt bir sistem olabilir; ama her sistem tanımı “örgüt” kelimesiyle sınırlı değildir.
-        </div>
       </div>
-    </section>
+    </div>
 
-    <h2 class="section-title" id="donanim">2) Donanım, giriş-çıkış ve depolama</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Girdi-çıktı aygıtları</h3>
+    <h2 class="section-title" id="fonksiyonel">2) Fonksiyonel enformasyon sistemleri</h2>
+
+    <div class="card soft">
+      <h3>Muhasebe, finans ve diğer sistemler neden ayrılır?</h3>
+      <p>
+        İşletmede her bölüm aynı bilgiye ihtiyaç duymaz. Muhasebe bölümü daha çok kayıt, maliyet, borç-alacak ve finansal raporlama ile ilgilenirken;
+        finans bölümü nakit yönetimi, yatırım kararları, bütçeleme ve kaynak planlamasıyla ilgilenir.
+        Bu yüzden bilgi sistemleri de işlevlerine göre ayrılır.
+      </p>
+      <p>
+        Sorularda genelde bu bölüm şöyle gelir:
+        <strong>“Hangisi finans enformasyon sistemi kapsamına girmez?”</strong> veya
+        <strong>“Aşağıdakilerden hangisi muhasebe sisteminin görevidir?”</strong>
+      </p>
+      <ul>
+        <li>Muhasebe sistemi geçmiş işlemleri kayıt altına alır.</li>
+        <li>Finans sistemi geleceğe dönük kaynak kullanımı ve planlama yapar.</li>
+        <li>Maliyet muhasebesi daha çok muhasebe ekseninde değerlendirilir.</li>
+        <li>Karar destek sistemleri ise daha karmaşık ve yönetsel kararlar için kullanılır.</li>
+      </ul>
+
+      <div class="trap">
+        En çok karıştırılan nokta: <strong>maliyet muhasebesi</strong> çoğu zaman finans değil,
+        <strong>muhasebe enformasyon sistemi</strong> içinde düşünülmelidir.
+      </div>
+
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> Aşağıdakilerden hangisi finans enformasyon sistemi kapsamında değerlendirilmez?</p>
+        <div class="option"><strong>A.</strong> Nakit yönetimi</div>
+        <div class="option"><strong>B.</strong> Yatırım analizi</div>
+        <div class="option"><strong>C.</strong> Bütçe tahmini</div>
+        <div class="option"><strong>D.</strong> Maliyet muhasebesi</div>
         <p>
-          Soru setlerinde bazı temel donanım bilgileri de soruluyor. Ancak burada amaç mühendislik düzeyi ayrıntı değil,
-          aygıtların temel işlevini bilmektir.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>D</strong>’dir.
+          Çünkü nakit yönetimi, yatırım analizi ve bütçeleme finans fonksiyonuna daha yakındır.
+          Maliyet muhasebesi ise adından da anlaşılacağı gibi muhasebe sisteminin alanına daha çok girer.
         </p>
-        <ul>
-          <li><strong>Tarayıcı</strong>, kaynaktan veri alan bir <strong>girdi cihazıdır</strong>.</li>
-          <li><strong>Dvorak</strong>, bir <strong>klavye düzeni</strong> ile ilgilidir.</li>
-          <li>Girdi cihazları veriyi sisteme aktarır.</li>
-          <li>Çıktı cihazları işlenmiş sonucu kullanıcıya sunar.</li>
-        </ul>
-        <div class="memory">
-          Kısa ezber:
-          <strong>Tarayıcı = girdi</strong>,
-          <strong>yazıcı/ekran = çıktı</strong>.
-        </div>
       </div>
+    </div>
 
-      <div class="topic">
-        <h3>Ekran, optik disk ve veri ölçüleri</h3>
+    <div class="card soft">
+      <h3>Mühendislik, CRM ve karar destek sistemleri</h3>
+      <p>
+        İşletme yalnızca para akışından ibaret değildir. Üretim, ürün geliştirme, müşteri ilişkileri ve yönetim kararları da bilgi sistemi desteği ister.
+        Bu yüzden farklı sistemler farklı hedeflere hizmet eder:
+      </p>
+      <ul>
+        <li><strong>Mühendislik enformasyon sistemleri</strong> tasarım, modelleme ve canlandırma gibi teknik süreçlerde kullanılır.</li>
+        <li><strong>Müşteri ilişkileri yönetimi (CRM)</strong> müşteri davranışını izlemek ve ilişkiyi güçlendirmek için kullanılır.</li>
+        <li><strong>Karar destek sistemleri</strong> yöneticilere alternatifleri karşılaştırmada yardım eder.</li>
+        <li><strong>Tedarik zinciri sistemleri</strong> işletmeye giren ve çıkan mal/hizmet akışını koordine eder.</li>
+      </ul>
+      <p>
+        Burada mantık şudur: bilgi sistemi, işletmenin hangi ihtiyacını destekliyorsa ona göre isim alır.
+      </p>
+
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> Canlandırma ve simülasyon uygulamaları daha çok hangi enformasyon sistemi ile ilişkilidir?</p>
+        <div class="option"><strong>A.</strong> Muhasebe enformasyon sistemi</div>
+        <div class="option"><strong>B.</strong> Mühendislik enformasyon sistemi</div>
+        <div class="option"><strong>C.</strong> Bordro sistemi</div>
+        <div class="option"><strong>D.</strong> Halkla ilişkiler sistemi</div>
         <p>
-          Görüntüleme ve depolama ile ilgili sorular da geliyor. Bu tür sorularda teknik terimi işleve bağlamak gerekir.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>B</strong>’dir.
+          Çünkü canlandırma, modelleme ve simülasyon teknik tasarım ve mühendislik süreçleriyle ilişkilidir.
+          Muhasebe ve bordro kayıt ağırlıklıdır; halkla ilişkiler ise iletişim ağırlıklıdır.
         </p>
-        <ul>
-          <li>Kristallerin ışığı farklı yansıtmasıyla görüntü oluşturan teknoloji <strong>LCD</strong> mantığıyla ilişkilidir.</li>
-          <li><strong>Optik disk</strong>, ışığın geri dönüş açısına göre 1 ve 0 bilgisini belirler.</li>
-          <li>Veri ölçü birimlerinde büyüklük sırası dikkatle bilinmelidir.</li>
-          <li><strong>1 PB</strong>, çok büyük bir veri hacmini ifade eder ve bit cinsinden çevrim sorulabilir.</li>
-        </ul>
-        <div class="tip">
-          Teknik soru geldiğinde kelimeyi ezberlemek yerine, “ışıkla mı, manyetik alanla mı, mekanik temasla mı çalışıyor?”
-          diye düşünmek ayırt etmeyi kolaylaştırır.
-        </div>
       </div>
-    </section>
 
-    <h2 class="section-title" id="sistemler">3) Fonksiyonel enformasyon sistemleri</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Muhasebe ve finans sistemleri</h3>
+      <div class="summarybox">
+        <strong>Mini özet:</strong> Her sistem aynı işi yapmaz. İşletmenin ihtiyacı neyse,
+        kullanılan bilgi sistemi türü de ona göre değişir.
+      </div>
+    </div>
+
+    <h2 class="section-title" id="stratejik">3) Bilişim teknolojilerinin stratejik kullanımı</h2>
+
+    <div class="card soft">
+      <h3>Teknoloji tek başına avantaj sağlar mı?</h3>
+      <p>
+        Bu derste en önemli fikirlerden biri budur: <strong>hayır, teknoloji tek başına rekabet avantajı sağlamaz.</strong>
+        Çünkü aynı teknolojiyi rakipler de satın alabilir, kopyalayabilir veya benzerini geliştirebilir.
+        Asıl farkı yaratan şey, o teknolojinin işletme süreçlerine nasıl yerleştirildiğidir.
+      </p>
+      <p>
+        Örneğin iki firma da aynı yazılımı kullanıyor olabilir. Ama biri bunu müşteri deneyimini iyileştirmek,
+        teslim süresini kısaltmak ve maliyeti düşürmek için daha iyi tasarlamışsa asıl avantaj orada doğar.
+      </p>
+      <ul>
+        <li>Teknoloji strateji ile birleşirse fark yaratır.</li>
+        <li>Süreç iyileştirme rekabet gücünü artırabilir.</li>
+        <li>Müşteriye hız, kalite veya esneklik sunmak avantaj sağlar.</li>
+        <li>Kopyalanması zor olan kullanım biçimi daha değerlidir.</li>
+      </ul>
+
+      <div class="memory">
+        Kısa kalıp: <strong>Avantajı yaratan teknoloji değil, teknolojinin nasıl kullanıldığıdır.</strong>
+      </div>
+
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> Bilişim teknolojilerinin işletmeye stratejik avantaj sağlamasında en önemli unsur aşağıdakilerden hangisidir?</p>
+        <div class="option"><strong>A.</strong> Teknolojinin pahalı olması</div>
+        <div class="option"><strong>B.</strong> Teknolojinin renkli arayüze sahip olması</div>
+        <div class="option"><strong>C.</strong> Teknolojinin işletme süreçlerine doğru entegre edilmesi</div>
+        <div class="option"><strong>D.</strong> Yalnızca ithal edilmiş olması</div>
         <p>
-          Bu derste çok sorulan alanlardan biri, işletme fonksiyonlarına göre ayrılan bilgi sistemleridir.
-          Özellikle “hangisi bu sistemin kapsamına girmez?” türünde sorular dikkat çeker.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>C</strong>’dir.
+          Çünkü stratejik avantaj kullanım biçiminden doğar. Diğer şıklar teknoloji hakkında dış özellikler verir ama işletme yararı üretmez.
         </p>
-        <ul>
-          <li><strong>Muhasebe enformasyon sistemi</strong>; maliyet muhasebesi, alacak-borç takibi, raporlama gibi alanları kapsar.</li>
-          <li><strong>Finans enformasyon sistemi</strong>; nakit yönetimi, yatırım analizi, bütçeleme ve tahmin gibi alanlara odaklanır.</li>
-          <li><strong>Maliyet muhasebesi</strong>, finans sisteminden çok muhasebe sistemine yakındır.</li>
-          <li>Bir seçeneğin hangi fonksiyona ait olduğunu ayırmak çok önemlidir.</li>
-        </ul>
-        <div class="trap">
-          Sınav tuzağı:
-          <strong>Maliyet muhasebesi</strong> genelde finans değil, <strong>muhasebe sistemi</strong> kapsamında düşünülmelidir.
-        </div>
+      </div>
+    </div>
+
+    <div class="card soft">
+      <h3>Patent, telif ve değiştirme maliyeti</h3>
+      <p>
+        Bazı işletmeler ürünlerini hukuki korumalarla veya müşteri davranışını etkileyen yöntemlerle güçlendirir.
+        Patent ve telif hakkı bunlardan biridir. Bir diğeri de <strong>değiştirme maliyeti</strong>dir.
+      </p>
+      <p>
+        Değiştirme maliyeti, müşterinin bir ürün ya da hizmetten vazgeçip başka bir ürüne geçerken katlandığı maddi veya manevi maliyettir.
+        Erken fesih cezası, veri taşıma zorluğu, yeniden öğrenme yükü veya alışkanlıktan kopma maliyeti buna örnek olabilir.
+      </p>
+      <ul>
+        <li>Patent ve telif rakip girişini zorlaştırabilir.</li>
+        <li>Değiştirme maliyeti müşteri bağlılığını artırabilir.</li>
+        <li>Müşteri geçişi zorlaştıkça firma avantaj elde edebilir.</li>
+        <li>Bu avantaj sadece teknik değil, davranışsal da olabilir.</li>
+      </ul>
+
+      <div class="tip">
+        Şuna dikkat et: müşteri neden başka firmaya gitmiyor sorusu gelirse çoğu zaman
+        cevap <strong>değiştirme maliyeti</strong> ile ilgilidir.
       </div>
 
-      <div class="topic">
-        <h3>Mühendislik, CRM, tedarik zinciri ve karar destek</h3>
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> Cep telefonu aboneliğini erken kapatmak isteyen müşteriden ceza alınması aşağıdaki kavramlardan hangisine örnektir?</p>
+        <div class="option"><strong>A.</strong> Açık değiştirme maliyeti</div>
+        <div class="option"><strong>B.</strong> Gizli muhasebe gideri</div>
+        <div class="option"><strong>C.</strong> Veri madenciliği</div>
+        <div class="option"><strong>D.</strong> Rastgele fiyatlandırma</div>
         <p>
-          İşletme sadece muhasebe ve finansla yürümez. Üretim, müşteri ilişkileri, tasarım ve stratejik kararlar için de
-          farklı enformasyon sistemleri gerekir.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>A</strong>’dır.
+          Çünkü müşteri başka hizmete geçmek istediğinde doğrudan görünür bir maliyetle karşılaşıyor.
+          Bu nedenle buna açık değiştirme maliyeti denir.
         </p>
-        <ul>
-          <li><strong>Mühendislik enformasyon sistemleri</strong> içinde canlandırma ve simülasyon kullanılabilir.</li>
-          <li><strong>Müşteri ilişkileri yönetimi</strong> müşteri verisini izleme ve ilişkileri geliştirme amacı taşır.</li>
-          <li><strong>Tedarik zinciri yönetim sistemleri</strong> malzeme ve ürün akışını koordine eder.</li>
-          <li><strong>Karar destek sistemleri</strong> yöneticilere alternatifleri değerlendirmede yardımcı olur.</li>
-        </ul>
       </div>
-    </section>
+    </div>
 
-    <h2 class="section-title" id="strateji">4) Bilişim teknolojilerinin stratejik kullanımı</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Rekabet avantajı nasıl oluşur?</h3>
+    <h2 class="section-title" id="analiz">4) Sistem analizi ve planlama yaklaşımları</h2>
+
+    <div class="card soft">
+      <h3>Sistem analisti ne yapar?</h3>
+      <p>
+        Sistem analisti, bir organizasyondaki bilgi ihtiyacını anlamaya çalışan kişidir.
+        Onun görevi doğrudan iş sürecini yönetmek değil; o süreci incelemek, sorunları tespit etmek,
+        bilgi akışını anlamak ve uygun sistem çözümünü önermektir.
+      </p>
+      <ul>
+        <li>Mevcut yapıyı analiz eder.</li>
+        <li>Problemleri ve ihtiyaçları belirler.</li>
+        <li>Alternatif çözüm yolları geliştirir.</li>
+        <li>Teknik ekip ile yönetim arasında köprü işlevi görebilir.</li>
+      </ul>
+
+      <div class="trap">
+        En sık hata: sistem analistini “iş süreçlerini günlük olarak yöneten kişi” sanmak.
+        Asıl görevi süreçleri <strong>analiz etmek ve geliştirme önermek</strong>tir.
+      </div>
+
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> Aşağıdakilerden hangisi sistem analistinin temel görevidir?</p>
+        <div class="option"><strong>A.</strong> Her gün üretim hattını bizzat yönetmek</div>
+        <div class="option"><strong>B.</strong> Problemleri analiz edip uygun sistem önerileri geliştirmek</div>
+        <div class="option"><strong>C.</strong> Yalnızca donanım tamiri yapmak</div>
+        <div class="option"><strong>D.</strong> Sadece personel maaşlarını hesaplamak</div>
         <p>
-          Derste en önemli fikirlerden biri şudur: Bir işletmeye avantaj sağlayan şey yalnızca teknolojinin pahalı ya da yeni olması değildir.
-          Asıl farkı yaratan, <strong>teknolojinin işletme stratejisine nasıl entegre edildiği</strong>dir.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>B</strong>’dir.
+          Çünkü sistem analisti esas olarak ihtiyaç analizi ve çözüm tasarımı ile ilgilenir.
+          A operasyonel yönetimdir, C teknik bakım işidir, D ise dar bir muhasebe görevidir.
         </p>
-        <ul>
-          <li>Aynı teknolojiyi birçok rakip kullanabilir.</li>
-          <li>Bu yüzden tek başına teknoloji sahibi olmak yeterli değildir.</li>
-          <li>Avantaj, teknolojinin süreçleri nasıl geliştirdiğine bağlıdır.</li>
-          <li>Teknoloji müşteri deneyimini, hızını veya maliyet yapısını etkiliyorsa fark yaratır.</li>
-        </ul>
-        <div class="memory">
-          Kısa kalıp:
-          <strong>Avantajı yaratan teknoloji değil, teknolojinin kullanılış biçimidir.</strong>
-        </div>
+      </div>
+    </div>
+
+    <div class="card soft">
+      <h3>İşletme analizi ve stratejik analiz farkı</h3>
+      <p>
+        Enformasyon ihtiyacını belirlemek için farklı analiz yöntemleri vardır. Bunlardan biri tüm organizasyonu bir bütün olarak inceleyen
+        <strong>işletme analizi</strong> yaklaşımıdır. Diğeri ise yöneticilerin en kritik hedeflerine ve başarı alanlarına odaklanan
+        <strong>stratejik analiz</strong> yaklaşımıdır.
+      </p>
+      <ul>
+        <li>İşletme analizi tüm yapıya bakar.</li>
+        <li>Stratejik analiz kritik başarı faktörlerine yoğunlaşır.</li>
+        <li>Biri geniş, diğeri odaklı bakış sunar.</li>
+        <li>İkisi birlikte kullanıldığında daha güçlü sonuç alınabilir.</li>
+      </ul>
+
+      <div class="memory">
+        Kısa ayırım:
+        <strong>İşletme analizi = tüm organizasyon</strong>,
+        <strong>stratejik analiz = kritik başarı alanları</strong>.
       </div>
 
-      <div class="topic">
-        <h3>Patent, telif ve değiştirme maliyeti</h3>
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> Tüm organizasyonu bir bütün olarak ele alıp bilgi ihtiyacını belirlemeye çalışan yaklaşım hangisidir?</p>
+        <div class="option"><strong>A.</strong> İşletme analizi</div>
+        <div class="option"><strong>B.</strong> Açık değiştirme maliyeti</div>
+        <div class="option"><strong>C.</strong> Veri kodlama</div>
+        <div class="option"><strong>D.</strong> Yalnızca üretim denetimi</div>
         <p>
-          İşletmeler bazen yasal korumalar ya da müşterinin başka bir firmaya geçmesini zorlaştıran yöntemlerle avantaj sağlar.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>A</strong>’dır.
+          Çünkü soruda tüm organizasyona bütüncül bakış vurgulanıyor.
+          Bu, işletme analizi yaklaşımının temel özelliğidir.
         </p>
-        <ul>
-          <li><strong>Patent ve telif hakkı</strong>, pazara yeni rakiplerin girişini zorlaştırabilir.</li>
-          <li><strong>Değiştirme maliyeti</strong>, müşterinin başka bir ürüne geçerken katlandığı maliyettir.</li>
-          <li>Cep telefonu sözleşmesini erken feshetme bedeli buna örnek verilebilir.</li>
-          <li>Açık değiştirme maliyeti doğrudan görülen ve ölçülebilen maliyet türüdür.</li>
-        </ul>
-        <div class="tip">
-          Sorularda “müşteri neden başka markaya geçmiyor?” mantığı görürsen,
-          çoğu zaman cevap <strong>değiştirme maliyeti</strong> ile ilişkilidir.
-        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title" id="karar">5) Karar verme ve risk</h2>
+
+    <div class="card soft">
+      <h3>Yapısal ve yapısal olmayan kararlar</h3>
+      <p>
+        İşletmede verilen her karar aynı nitelikte değildir. Bazı kararlar rutindir ve daha önce birçok kez verilmiştir.
+        Bu tür kararlara <strong>yapısal kararlar</strong> denir. Bazı kararlar ise belirsizlik taşır, her seferinde yeni durumlarla karşılaşılır
+        ve standart cevap yoktur. Bunlar da <strong>yapısal olmayan kararlar</strong>dır.
+      </p>
+      <ul>
+        <li>Yapısal kararlar daha çok kurallı ve tekrar eden kararlardır.</li>
+        <li>Yapısal olmayan kararlar daha çok yorum ve deneyim gerektirir.</li>
+        <li>Risk ve belirsizlik, yapısal olmayan kararlarda daha yüksektir.</li>
+        <li>Karar destek sistemleri özellikle bu tür kararlarda önem kazanır.</li>
+      </ul>
+
+      <div class="trap">
+        En kritik kalıp:
+        <strong>En fazla risk taşıyan karar türü çoğu zaman yapısal olmayan karardır.</strong>
       </div>
 
-      <div class="topic">
-        <h3>Web üzerinden kişiselleştirme ve ürün geliştirme</h3>
+      <div class="questionbox">
+        <h4>Çıkmış soru örneği</h4>
+        <p><strong>Soru:</strong> Aşağıdaki karar türlerinden hangisi en fazla risk ve belirsizlik içerir?</p>
+        <div class="option"><strong>A.</strong> Yapısal karar</div>
+        <div class="option"><strong>B.</strong> Rutin muhasebe kararı</div>
+        <div class="option"><strong>C.</strong> Yapısal olmayan karar</div>
+        <div class="option"><strong>D.</strong> Günlük stok girişi</div>
         <p>
-          Müşterinin kendi bilgisayarını web üzerinden seçerek oluşturması gibi örnekler,
-          bilişim teknolojisinin ürün ve hizmetleri geliştirmede nasıl kullanıldığını gösterir.
+          <strong>Çözüm mantığı:</strong> Doğru cevap <strong>C</strong>’dir.
+          Çünkü yapısal olmayan kararlar daha az kurallı, daha fazla belirsiz ve çoğu zaman daha yüksek risklidir.
+          A, B ve D seçenekleri daha rutin, daha standart süreçlerdir.
         </p>
-        <ul>
-          <li>Müşteri isteğine göre ürün tasarlama esneklik sağlar.</li>
-          <li>Kişiselleştirme müşteri memnuniyetini artırabilir.</li>
-          <li>Web tabanlı yapı, maliyet ve hız açısından avantaj yaratabilir.</li>
-          <li>Bu yaklaşım mal ve hizmetlerin geliştirilmesiyle ilgilidir.</li>
-        </ul>
       </div>
 
-      <div class="topic">
-        <h3>Amerikan imalat sistemi ve internet ilişkisi</h3>
-        <p>
-          Bazı sorular bilişim tarihini ve teknolojik dönüşümün kökenlerini sorgular. Buradaki temel fikir,
-          paylaşılabilir teknoloji anlayışının internet ve sanayi ilişkisini beslemesidir.
-        </p>
-        <ul>
-          <li>İnternetin temelindeki paylaşılabilir teknoloji devrimi sanayi ile ilişkilendirilir.</li>
-          <li>Teknolojik standartlaşma ve ölçek ekonomisi geniş etkiler üretmiştir.</li>
-          <li>Bu yaklaşım tarihsel gelişim mantığını anlamaya yöneliktir.</li>
-        </ul>
+      <div class="summarybox">
+        <strong>Mini özet:</strong> Rutin işler yapısal kararlara yakındır. Belirsizlik ve risk arttıkça karar daha çok yapısal olmayan hale gelir.
       </div>
-    </section>
+    </div>
 
-    <h2 class="section-title" id="analiz">5) Sistem analizi ve planlama yaklaşımları</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Sistem analisti ne yapar?</h3>
-        <p>
-          Sistem analisti, bir organizasyondaki bilgi ihtiyacını belirlemek ve uygun sistemi tasarlamakla ilgilenir.
-          Bu kişi doğrudan günlük iş süreçlerini yönetmez; daha çok analiz, tasarım ve çözüm önerisi üretir.
-        </p>
-        <ul>
-          <li>Problemi analiz eder.</li>
-          <li>Hedefleri, kısıtları ve alternatifleri belirler.</li>
-          <li>Fizibilite çalışmaları yapabilir.</li>
-          <li>Çözüm için uygun sistem yaklaşımını önerir.</li>
-        </ul>
-        <div class="trap">
-          Sistem analistinin görevi, mevcut <strong>iş süreçlerini yönetmek</strong> değil;
-          o süreçleri analiz edip geliştirme önerileri sunmaktır.
-        </div>
-      </div>
+    <h2 class="section-title" id="tekrar">6) Genel tekrar</h2>
 
-      <div class="topic">
-        <h3>İşletme analizi ve stratejik analiz</h3>
-        <p>
-          Enformasyon ihtiyacını belirlemek için farklı analiz yaklaşımları kullanılır.
-          Bazı yaklaşımlar tüm organizasyona tepeden bakar, bazıları ise yöneticilerin kritik hedeflerine odaklanır.
-        </p>
-        <ul>
-          <li><strong>İşletme analizi</strong>, organizasyonun tamamını bir bütün olarak inceler.</li>
-          <li>Birime, fonksiyona ve veri akışına birlikte bakar.</li>
-          <li><strong>Stratejik analiz</strong> veya kritik başarı unsurları yaklaşımı, yöneticilerin en önemli hedeflerine odaklanır.</li>
-          <li>Bu hedefler gerçekleşirse organizasyonun başarısının güvence altına alınacağı varsayılır.</li>
-        </ul>
-        <div class="memory">
-          Kısa ayırım:
-          <strong>İşletme analizi = tüm organizasyon</strong>,
-          <strong>stratejik analiz = kritik başarı faktörleri</strong>.
-        </div>
-      </div>
-    </section>
+    <div class="card">
+      <h3>Bu dersten mutlaka bilinmesi gerekenler</h3>
+      <ul>
+        <li>Enformasyonun en kritik işlevi karar verme ve problem çözmeyi desteklemektir.</li>
+        <li>Sistem, belirli bir amaca göre birlikte çalışan parçalar bütünüdür.</li>
+        <li>Maliyet muhasebesi daha çok muhasebe enformasyon sistemine yakındır.</li>
+        <li>Simülasyon ve canlandırma mühendislik enformasyon sistemleriyle ilişkilidir.</li>
+        <li>Stratejik avantajı yaratan şey teknolojinin kendisi değil, nasıl kullanıldığıdır.</li>
+        <li>Patent, telif ve değiştirme maliyeti rekabet avantajı doğurabilir.</li>
+        <li>Sistem analisti iş süreçlerini yönetmez; analiz eder ve çözüm önerir.</li>
+        <li>İşletme analizi tüm organizasyona bakar.</li>
+        <li>En riskli kararlar genelde yapısal olmayan kararlardır.</li>
+      </ul>
+    </div>
 
-    <h2 class="section-title" id="karar">6) Karar verme ve risk</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Yapısal ve yapısal olmayan kararlar</h3>
-        <p>
-          Yöneticilerin verdiği her karar aynı tür değildir. Bazı kararlar rutin ve tekrar eden yapıdadır;
-          bazıları ise belirsizlik içerir ve risk taşır. Bu ayrım, bilişim sistemlerinin hangi karara ne kadar destek vereceğini de etkiler.
-        </p>
-        <ul>
-          <li><strong>Yapısal kararlar</strong>, daha rutin ve kurallı kararlardır.</li>
-          <li><strong>Yapısal olmayan kararlar</strong>, belirsiz ve karmaşık durumları içerir.</li>
-          <li>Risk taşıyan kararlar çoğu zaman yapısal olmayan kararlardır.</li>
-          <li>Karar destek sistemleri özellikle karmaşık kararlarda önem kazanır.</li>
-        </ul>
-        <div class="trap">
-          En önemli kalıp:
-          <strong>En fazla risk taşıyan karar = yapısal olmayan karar</strong>.
-        </div>
-      </div>
-
-      <div class="topic">
-        <h3>Karar desteği neden gereklidir?</h3>
-        <p>
-          Bir yönetici tüm verileri tek başına hızlı ve doğru biçimde değerlendiremeyebilir.
-          Bu nedenle enformasyon sistemleri, alternatifleri kıyaslama ve sonuçları görme açısından destek sağlar.
-        </p>
-        <ul>
-          <li>Hedefler, kısıtlar ve alternatifler daha net görülür.</li>
-          <li>Muhtemel maliyet, kazanç ve riskler değerlendirilebilir.</li>
-          <li>Karşılaştırmalı sonuçlar sunulabilir.</li>
-          <li>Karmaşık problemler daha yönetilebilir hale gelir.</li>
-        </ul>
-      </div>
-    </section>
-
-    <h2 class="section-title">7) Mini konu akışı</h2>
-    <section class="card">
-      <div class="timeline">
-        <div class="time-item"><b>Temel kavramlar</b>Veri, enformasyon, sistem ve yönetim ihtiyacı.</div>
-        <div class="time-item"><b>Donanım</b>Girdi-çıktı aygıtları, depolama ve temel teknoloji farkları.</div>
-        <div class="time-item"><b>Fonksiyonel sistemler</b>Muhasebe, finans, mühendislik, CRM ve karar destek sistemleri.</div>
-        <div class="time-item"><b>Stratejik kullanım</b>Patent, telif, değiştirme maliyeti ve kişiselleştirme.</div>
-        <div class="time-item"><b>Sistem analizi</b>İşletme analizi, stratejik analiz ve sistem analistinin rolü.</div>
-        <div class="time-item"><b>Karar verme</b>Yapısal ve yapısal olmayan kararların farkı.</div>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="tekrar">8) Sınav öncesi hızlı tekrar</h2>
-    <section class="grid grid-2">
-      <div class="card">
-        <h3>Mutlaka bil</h3>
-        <ul>
-          <li>Enformasyonun önemi → <strong>karar verme ve problem çözme</strong></li>
-          <li>Dvorak → <strong>klavye düzeni</strong></li>
-          <li>Tarayıcı → <strong>girdi cihazı</strong></li>
-          <li>Maliyet muhasebesi → <strong>muhasebe enformasyon sistemi</strong></li>
-          <li>Canlandırma/simülasyon → <strong>mühendislik enformasyon sistemleri</strong></li>
-          <li>Rekabet avantajı → <strong>teknolojinin nasıl kullanıldığı</strong></li>
-          <li>Patent ve telif → <strong>yeni rakip girişini zorlaştırabilir</strong></li>
-          <li>En riskli karar → <strong>yapısal olmayan karar</strong></li>
-          <li>İşletme analizi → <strong>tüm organizasyonu inceler</strong></li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>En kritik karıştırmalar</h3>
-        <ul>
-          <li>Muhasebe ve finans sistemlerinin kapsamı karıştırılmamalı.</li>
-          <li>Sistem analisti iş süreçlerini yönetmez; analiz eder.</li>
-          <li>Teknoloji sahibi olmak ile stratejik avantaj sağlamak aynı şey değildir.</li>
-          <li>Yapısal karar ve yapısal olmayan karar aynı risk düzeyine sahip değildir.</li>
-          <li>Değiştirme maliyeti sadece teknik değil, müşteri davranışıyla da ilgilidir.</li>
-        </ul>
-      </div>
-    </section>
+    <div class="card">
+      <h3>En çok karıştırılan yerler</h3>
+      <ul>
+        <li>Muhasebe sistemi ile finans sistemi kapsamı karıştırılmamalı.</li>
+        <li>Teknolojiye sahip olmak ile stratejik avantaj yaratmak aynı şey değildir.</li>
+        <li>Sistem analisti ile operasyon yöneticisi aynı rol değildir.</li>
+        <li>Yapısal karar ile yapısal olmayan karar arasında risk farkı vardır.</li>
+        <li>Değiştirme maliyeti sadece teknik maliyet değil, müşteri davranışına bağlı bir geçiş maliyetidir.</li>
+      </ul>
+    </div>
 
     <div class="footer">
-      Bu not, soru dosyasındaki tekrar eden başlıklara göre ayrıntılı ve uygulama uyumlu açık tema yapısıyla hazırlandı.
+      Bu örnek sürüm, önceki tasarımdaki üst kart alanı kaldırılarak daha doğrudan ders notu formatında hazırlandı.
+      Beğenirsen diğer dersleri de aynı yapıda geliştirebilirim.
     </div>
   </div>
 </body>
