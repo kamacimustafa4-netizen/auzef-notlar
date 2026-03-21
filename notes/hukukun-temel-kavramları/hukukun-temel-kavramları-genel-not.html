@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/><title>Hukukun Temel Kavramları Ders Notu</title>
+<style>
+:root{
+ --bg:#f4f7fb;--panel:#ffffff;--soft:#f8fbff;--line:#d8e3f2;--text:#20304a;--muted:#5f718f;
+ --blue:#4f7ee8;--blue-soft:#ebf2ff;--gold:#f5a524;--gold-soft:#fff8e8;
+ --green:#0f766e;--green-soft:#ecfdf5;--rose:#e11d48;--rose-soft:#fff1f2;--purple:#7c3aed;--purple-soft:#f5f0ff;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:linear-gradient(180deg,#eef3fb 0%,#f8fbff 100%);color:var(--text);line-height:1.75}
+.container{width:min(1140px,calc(100% - 32px));margin:28px auto 60px}
+.hero{background:linear-gradient(135deg,#ffffff 0%,#eef4ff 100%);border:1px solid var(--line);border-radius:28px;padding:36px;box-shadow:0 18px 40px rgba(61,93,152,.08)}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-weight:800;font-size:13px;letter-spacing:.2px}
+h1{margin:16px 0 10px;font-size:40px;line-height:1.18;color:#1d2b44}
+.lead{margin:0;color:var(--muted);font-size:17px}
+.note-box{margin-top:22px;background:#fffdf7;border:1px solid #f1e1a6;border-radius:18px;padding:18px 20px;color:#5a4a1d}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}
+.stat .label{font-size:12px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+.stat .value{font-size:22px;font-weight:800;color:#22314d;margin-top:4px}
+.section-card{margin-top:22px;background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 10px 25px rgba(51,76,120,.05)}
+.section-card h2{margin:0 0 14px;font-size:28px;color:#1f2d47}
+.section-body p{margin:0 0 14px;color:#32425f;font-size:16px}
+.subhead{margin:20px 0 10px;font-size:18px;font-weight:800;color:#22314d}
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.callout{border-radius:18px;padding:16px 18px;border:1px solid var(--line)}
+.callout strong{display:block;margin-bottom:8px}
+.callout.blue{background:var(--blue-soft);border-color:#d7e4ff}
+.callout.green{background:var(--green-soft);border-color:#cdeee4}
+.callout.gold{background:var(--gold-soft);border-color:#f6df9e}
+.callout.rose{background:var(--rose-soft);border-color:#ffc9d5}
+.callout.purple{background:var(--purple-soft);border-color:#e5d8ff}
+.mini-list{margin:8px 0 0 0;padding-left:18px;color:#32425f}
+.mini-list li{margin-bottom:8px}
+.table-wrap{margin-top:16px;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{padding:12px 14px;border-bottom:1px solid #e8eef8;text-align:left;font-size:14px;vertical-align:top}
+th{background:#f4f8ff;color:#29416b;font-weight:800}
+tr:last-child td{border-bottom:none}
+.question-wrap{margin-top:26px;padding-top:18px;border-top:1px dashed var(--line)}
+.question-title{display:inline-block;margin-bottom:16px;padding:7px 12px;border-radius:12px;background:#eef6ff;color:#2f5da8;font-weight:800;font-size:14px}
+.question-card{background:var(--soft);border:1px solid #dce9fb;border-radius:18px;padding:18px;margin-bottom:16px}
+.q-meta{font-size:13px;font-weight:800;color:#5572a8;margin-bottom:8px}
+.q-text{font-size:16px;font-weight:800;color:#22314d;margin-bottom:12px}
+.options{list-style:none;padding:0;margin:0 0 12px}
+.options li{padding:8px 12px;margin-bottom:8px;border-radius:12px;background:#ffffff;border:1px solid #e5edf8;color:#3c4c68}
+.opt{font-weight:800;color:#244784;display:inline-block;width:28px}
+.answer,.explanation{font-size:14px;margin-top:8px}
+.answer{color:var(--green)}
+.explanation{color:var(--muted)}
+.footer{text-align:center;color:#50607d;padding:28px 12px 10px;font-weight:800;font-size:18px}
+@media(max-width:860px){.stats,.callout-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.container{width:min(100% - 18px,1140px);margin-top:18px}.hero{padding:24px 20px;border-radius:22px}h1{font-size:31px}.section-card{padding:20px;border-radius:20px}.section-card h2{font-size:24px}.stats,.callout-grid{grid-template-columns:1fr}}
+</style>
+</head><body><div class='container'><header class='hero'><div class='badge'>Hukukun Temel Kavramları</div><h1>Hukukun Temel Kavramları Ders Notu</h1><p class='lead'>Konu anlatımı derinleştirilmiş, sınavda öne çıkan kavramlar vurgulanmış ve çalışmayı kolaylaştıran renkli özet alanları eklenmiştir.</p><div class='note-box'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.</div>
+
+</header><section class='section-card'>
+
+<h2>1. Hukuka Giriş: Hukuk Nedir, Neden Gereklidir?</h2><div class='section-body'><p>Hukuk, toplumsal yaşamı düzenleyen ve devlet yaptırımıyla desteklenen kurallar bütünüdür. Ahlak, din, görgü ve örf-adet gibi diğer toplumsal düzen kurallarıyla ilişkili olsa da hukuk, yaptırım gücünün kurumsal ve zorlayıcı olması bakımından onlardan ayrılır.</p><p>Ders sorularında sıkça hukukun tanımı değil, hukuk kurallarını diğer kurallardan ayıran unsur sorulur. Burada temel nokta, yalnız davranış kuralı olma değil; uyulmaması halinde devlet gücüyle desteklenen sonuçlar doğurmasıdır.</p><p>Pozitif hukuk, yürürlükte bulunan hukuk kurallarını; mevzu hukuk ise yetkili organlar tarafından konulmuş yazılı hukuk kurallarını ifade eder. Bu iki kavram birbirine yakın görünür ama aynı anlamda kullanılmadıkları durumlar sınavlarda özellikle ayırt ettirilir.</p><div class='callout-grid'><div class='callout blue'><strong>Ana fikir</strong><div>Hukuk yalnız düzenleme yapmaz; toplumsal uyuşmazlıkları çözme ve güvenliği sağlama işlevi de görür.</div></div><div class='callout gold'><strong>Karıştırılan kavram</strong><div>Pozitif hukuk = yürürlükteki tüm hukuk düzeni. <br>Mevzu hukuk = yazılı hukuk kuralları.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2020 Vize Benzeri</div>
+      <div class="q-text">Pozitif hukuk ile doğal hukuk arasındaki fark aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Pozitif hukuk, olan hukuku, doğal hukuk olması gerekeni ifade eder. NOT: Pozitif hukukla doğal hukuk arasındaki fark şöyle ifade edilebilir: Pozitif hukuk, olan hukuku (yürürlükteki hukuku), doğal hukuk olması gereken hukuku ifade eder.</li><li><span class='opt'>B)</span> Şık yok</li><li><span class='opt'>C)</span> Şık yok</li><li><span class='opt'>D)</span> Şık yok</li><li><span class='opt'>E)</span> Şık yok</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2021 Final Benzeri</div>
+      <div class="q-text">Hukuk kuralları dışında diğer toplumsal kurallara uyulmadığında karşılaşılacak olan tepki hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Manevi tazminat</li><li><span class='opt'>B)</span> Para cezası</li><li><span class='opt'>C)</span> Maddi tazminat</li><li><span class='opt'>D)</span> Cebri icra</li><li><span class='opt'>E)</span> Manevi yaptırım</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>2. Hukuk Kuralları, Emredici Kurallar ve Yaptırım Türleri</h2><div class='section-body'><p>Hukuk kuralları her zaman aynı esneklikte değildir. Bazıları tamamlayıcı nitelikte olup tarafların iradesiyle farklılaştırılabilir; bazıları ise emredicidir ve aksine işlem yapılamaz. Emredici kurallar özellikle kamu düzeni, genel ahlak ve zayıf tarafın korunması gibi amaçlarla önem taşır.</p><p>Yaptırım, hukuk kuralına aykırılığın bağlandığı hukuki sonuçtur. Ceza hukukunda hapis cezası, özel hukukta tazminat, butlan ya da cebri icra; idare hukukunda idari yaptırımlar farklı örneklerdir. Bu çeşitlilik, sınavlarda yaptırım türlerini hukuk dallarıyla birlikte düşünmeyi gerektirir.</p><p>Öğrenciler bazen yaptırımı yalnız ceza gibi algılar. Oysa hukuktaki yaptırımlar çok geniştir ve her dalda farklı görünür. Bu nedenle bir şıkkın yaptırım olup olmadığını anlamak için önce sorunun hangi hukuk alanına ait olduğunu görmek gerekir.</p><div class='table-wrap'><table><thead><tr><th>Kavram</th><th>Açıklama</th><th>İpucu</th></tr></thead><tbody><tr><td>Emredici kural</td><td>Aksine düzenleme yapılamayan kural</td><td>Kamu düzeni ve zayıf taraf koruması ile ilişkilidir.</td></tr><tr><td>Tamamlayıcı kural</td><td>Taraflar aksini kararlaştırmazsa uygulanır</td><td>Özel hukukta sık görülür.</td></tr><tr><td>Yaptırım</td><td>Kurala aykırılığın hukuki sonucu</td><td>Her hukuk dalında farklı biçimde ortaya çıkar.</td></tr></tbody></table></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi ceza hukukunda geçerli olan yaptırım türlerinden biridir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Hapis cezası</li><li><span class='opt'>B)</span> Kınama</li><li><span class='opt'>C)</span> Aynen iade</li><li><span class='opt'>D)</span> Butlan</li><li><span class='opt'>E)</span> Kısas</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2020 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi emredici hukuk kurallarının özelliklerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Kişiler kuralların ters yönde işlem yapabilir, hareket edebilir.</li><li><span class='opt'>B)</span> Şık yok</li><li><span class='opt'>C)</span> Şık yok</li><li><span class='opt'>D)</span> Şık yok</li><li><span class='opt'>E)</span> Şık yok</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>3. Hukukun Kaynakları: Asli, Yardımcı ve Bağlayıcılık</h2><div class='section-body'><p>Hukukun kaynakları, somut uyuşmazlığı çözerken başvurulan normatif dayanaklardır. Anayasa, kanun, yönetmelik ve örf-adet gibi kaynaklar ile doktrin ve içtihat gibi yardımcı kaynaklar farklı derecelerde önem taşır.</p><p>Türk hukukunda hâkim önce kanuna bakar; hüküm yoksa örf ve adet hukukuna başvurur; orada da çözüm bulamazsa hukuk yaratır. Bu ifade, kaynaklar hiyerarşisini ve yardımcı kaynakların nasıl devreye girdiğini anlamak için önemlidir.</p><p>Sınavlarda özellikle “hangileri yardımcı kaynaktır?” ya da “hangisi bağlayıcı kaynak değildir?” şeklindeki sorular sık gelir. Bu noktada mahkeme kararlarının her zaman aynı ölçüde bağlayıcı olmadığını, doktrinin ise yol gösterici fakat kural koyucu olmadığını bilmek gerekir.</p><div class='callout-grid'><div class='callout purple'><strong>Sınav cümlesi</strong><div>Kanun → örf-adet → gerekiyorsa hâkimin hukuk yaratması sıralaması temel mantıktır.</div></div><div class='callout green'><strong>İnce ayrım</strong><div>Doktrin ve içtihat çoğu durumda yardımcı kaynaktır; doğrudan norm koyan asli kaynak değildir.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2020 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi hukukun bağlayıcı kaynaklarından biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Anayasa mahkemesi dışındaki mahkeme kararları</li><li><span class='opt'>B)</span> Şık yok</li><li><span class='opt'>C)</span> Şık yok</li><li><span class='opt'>D)</span> Şık yok</li><li><span class='opt'>E)</span> Şık yok</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri</div>
+      <div class="q-text">I. Kanun II. Yönetmelik III. Örf-adet kuralları IV. Doktrin/öğreti V. İçtihat (Mahkeme kararları) Yukarıdakilerden hangisi veya hangileri hukukun yardımcı kaynaklarındandır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> II, III, IV, V</li><li><span class='opt'>B)</span> Yalnız III</li><li><span class='opt'>C)</span> I, IV, V</li><li><span class='opt'>D)</span> IV ve V</li><li><span class='opt'>E)</span> III, IV, V</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>4. Yorum, Boşluk ve Hâkimin Rolü</h2><div class='section-body'><p>Bir hukuk kuralının somut olaya uygulanabilmesi için anlamının ortaya çıkarılması gerekir; buna yorum denir. Yorum, sadece metni okumak değil; kuralın amacı, sistem içindeki yeri ve uygulanacağı olayla ilişkisini kavramaktır.</p><p>Yasama yorumu, yargısal yorum ve bilimsel yorum gibi türler arasında ayrım yapılır. Sınavlarda özellikle yorum türleri doğrudan kavram olarak sorulur. Bu yüzden yorum çeşitlerini bir tablo halinde tekrar etmek faydalıdır.</p><p>Boşluk konusu ise ayrı bir başlıktır. Somut olaya uygulanacak açık bir kural bulunmadığında hukuk boşluğu ya da kanun boşluğu tartışılır. Hâkim davayı çözümsüz bırakamaz; sistem içi araçlarla çözüm üretmek zorundadır.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Temyiz (Yargıtay). 3. Aşağıdakilerden hangisi hukukta yer alan yorum türlerinden biridir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Öznel yorum</li><li><span class='opt'>B)</span> Dogmatik yorum</li><li><span class='opt'>C)</span> Kişisel yorum</li><li><span class='opt'>D)</span> Analitik yorum</li><li><span class='opt'>E)</span> Yasama yorumu</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>5. Kişiler Hukuku: Gerçek Kişi, Tüzel Kişi ve Kişiliğin Sona Ermesi</h2><div class='section-body'><p>Kişiler hukuku, hukukun süjesi olan kişilerin hak ehliyeti, fiil ehliyeti ve kişilik durumlarıyla ilgilenir. Gerçek kişiler insanlardır; tüzel kişiler ise hukukun belirli şartlarla kişilik tanıdığı mal veya kişi topluluklarıdır.</p><p>Tüzel kişilerin fiil ehliyeti, gerekli organlara sahip olunduğu anda kullanılabilir hale gelir. Bu nokta sınavda doğrudan sorulmuştur. Vakıf, dernek, şirket gibi yapılar tüzel kişilik başlığında değerlendirilirken, bunların mal topluluğu mu kişi topluluğu mu olduğu da ayrıca önem taşır.</p><p>Gerçek kişiliğin sona ermesi ölüm, gaiplik veya ölüm karinesi gibi hallerle ilişkilendirilir. Ancak her olay kişiliği sona erdirmez. Bu tür sorularda kavramları günlük dil anlamıyla değil, hukuki teknik anlamıyla değerlendirmek gerekir.</p><div class='callout-grid'><div class='callout blue'><strong>Temel kavramlar</strong><div>Hak ehliyeti = hak ve borçlara sahip olabilme. <br>Fiil ehliyeti = bunları kendi işlemleriyle kullanabilme.</div></div><div class='callout gold'><strong>Sık karışan konu</strong><div>Tüzel kişilik ile fiil ehliyeti aynı anda doğmaz; organ yapısı önemlidir.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Tüzel kişilerin fiil ehliyeti ne zaman kazanılır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Tüzel kişiliğin tescil ettirildiği an</li><li><span class='opt'>B)</span> Fesih bildirimi ile birlikte</li><li><span class='opt'>C)</span> Harç yatırıldığı an</li><li><span class='opt'>D)</span> Hiçbir zaman</li><li><span class='opt'>E)</span> Gerekli organlara sahip olunduğu an</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2020 Vize Benzeri</div>
+      <div class="q-text">Kişinin özellikle kişilik değerlerini ihlali sonucunda yaşamış olduğu mal varlığı kaybı olarak nitelendirilemeyecek olan manevi değer kayıplarına ne denir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Manevi tazminat</li><li><span class='opt'>B)</span> Şık yok</li><li><span class='opt'>C)</span> Şık yok</li><li><span class='opt'>D)</span> Şık yok</li><li><span class='opt'>E)</span> Şık yok</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>6. Fiil Ehliyeti, Ayırt Etme Gücü ve Küçüklerin İşlemleri</h2><div class='section-body'><p>Fiil ehliyeti kişinin kendi işlemleriyle hak kazanabilmesi ve borç altına girebilmesidir. Bunun için ayırt etme gücü, erginlik ve kısıtlı olmama gibi şartlar aranır. Sınavlarda özellikle küçüklerin yaptığı işlemler ve bunların yaptırımı sık sorulur.</p><p>Ayırt etme gücüne sahip küçüğün yasal temsilci izni olmadan yaptığı iki tarafa borç yükleyen işlemler bakımından sonuçlar dikkatle bilinmelidir. Burada işlem her durumda mutlak yoklukla sakatlanmaz; hukuki sonuç, işlemin niteliğine göre değişebilir.</p><p>Bu alan, soyut ehliyet bilgisi ile yaptırım bilgisini bir araya getirdiği için önemlidir. Soruyu çözerken önce kişinin statüsünü, sonra işlemin niteliğini, en son da yaptırımı düşünmek gerekir.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2020 Vize Benzeri</div>
+      <div class="q-text">13 yaşına temyiz kudretine (ayırt etme gücüne) sahip küçüğün ana ve baba izni olmadan yapmış olduğu iki tarafa borç yükleyen sözleşmenin yaptırım nedir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Yok hükmüne sayma</li><li><span class='opt'>B)</span> Şık yok</li><li><span class='opt'>C)</span> Şık yok</li><li><span class='opt'>D)</span> Şık yok</li><li><span class='opt'>E)</span> Şık yok</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Final Benzeri</div>
+      <div class="q-text">Ayırt etme gücü bulunmayan birinin yaptığı hukuki işlemlerin yaptırımı aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Nispi butlan</li><li><span class='opt'>B)</span> İptal edilebilme</li><li><span class='opt'>C)</span> Mutlak butlan</li><li><span class='opt'>D)</span> Adli para cezası</li><li><span class='opt'>E)</span> Yokluk</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>7. Hukuki Olay, Hukuksal Fiil ve Hukuksal İşlem</h2><div class='section-body'><p>Hukukun sonuç bağladığı her durum aynı nitelikte değildir. Doğum, ölüm gibi insan iradesinden bağımsız sonuçlar hukuki olay kapsamına girerken; insan davranışına bağlanan sonuçlar hukuksal fiil veya hukuksal işlem alanına taşınabilir.</p><p>Hukuksal işlem, hukuki sonuç doğurmak amacıyla yapılan irade açıklamasıdır. Tek taraflı ya da iki taraflı olabilir. Bu nedenle günlük hayatta sıradan görünen birçok davranış hukukta teknik bir işlem niteliği kazanır.</p><p>Sınavlarda hukuki olay, hukuksal fiil ve hukuksal işlem arasında ince ayrımlar sorulur. Burada anahtar soru şudur: ilgili davranışta hukuki sonuç doğurma amacı var mı? Bu amaç varsa çoğu zaman hukuksal işlem alanına yaklaşırız.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2020 Vize Benzeri</div>
+      <div class="q-text">Hukukun kendisine hukuki sonuç bağladığı insan davranışına ne ad verilir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Haksız fiil</li><li><span class='opt'>B)</span> İrade açıklaması</li><li><span class='opt'>C)</span> Hukuki olay</li><li><span class='opt'>D)</span> Duygu açıklaması</li><li><span class='opt'>E)</span> Hukuksal fiil</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi iki taraflı hukuksal işlemlerdendir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Fesih</li><li><span class='opt'>B)</span> Ön alım</li><li><span class='opt'>C)</span> Sözleşmeden dönme</li><li><span class='opt'>D)</span> Kira sözleşmesi</li><li><span class='opt'>E)</span> İptal</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>8. Geçersizlik Halleri: Yokluk, Butlan, İptal ve Tek Taraflı Bağlamazlık</h2><div class='section-body'><p>Hukuki işlemlerde her sakatlık aynı sonucu doğurmaz. Bazen işlem baştan itibaren yok hükmünde sayılır, bazen kesin hükümsüzlük yani mutlak butlan söz konusu olur, bazen iptal edilebilirlik veya tek taraflı bağlamazlık gündeme gelir.</p><p>Bu başlık sınavlarda çok önemlidir çünkü hem teorik hem uygulamalı sorulara çok uygundur. Örneğin ehliyet eksikliği, şekle aykırılık veya irade bozukluğu hangi geçersizlik sonucunu doğurur sorusu çok sık gelir. Hâkimin kendiliğinden dikkate aldığı sakatlık halleri de ayrıca bilinmelidir.</p><p>Öğrencinin burada yapması gereken, her yaptırımın tanımını ezberlemek değil; hangi hukuka aykırılık türünün hangi sonuca götürdüğünü zincir mantığıyla kurmaktır.</p><div class='table-wrap'><table><thead><tr><th>Geçersizlik türü</th><th>Temel özellik</th><th>Sınav ipucu</th></tr></thead><tbody><tr><td>Yokluk</td><td>İşlemin kurucu unsuru baştan eksiktir</td><td>En ağır sakatlık olarak düşünülür.</td></tr><tr><td>Mutlak butlan</td><td>İşlem vardır ama kesin hükümsüzdür</td><td>Hâkim çoğu zaman kendiliğinden dikkate alır.</td></tr><tr><td>İptal edilebilirlik</td><td>İşlem geçici olarak ayaktadır</td><td>İlgili tarafın iradesi önemlidir.</td></tr><tr><td>Tek taraflı bağlamazlık</td><td>Özellikle bazı ehliyet eksikliği hallerinde görülür</td><td>Küçüklerin işlemleriyle bağlantılı sorulur.</td></tr></tbody></table></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri</div>
+      <div class="q-text">Aşağıdaki sözleşmelerden hangisinin geçerli olması için yazılı şekilde yapılması gerekir? (Soru iptal edilmiştir)</div>
+      <ul class="options"><li><span class='opt'>A)</span> Her türlü satım sözleşmesi</li><li><span class='opt'>B)</span> Alacağın devri sözleşmesi</li><li><span class='opt'>C)</span> Taşımaz devri sözleşmesi</li><li><span class='opt'>D)</span> Evlilik sözleşmesi</li><li><span class='opt'>E)</span> Hizmet sözleşmesi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">YilYok Vize Benzeri</div>
+      <div class="q-text">Tüzükler hangi mahkeme tarafından iptal edilir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Danıştay</li><li><span class='opt'>B)</span> Şık yok</li><li><span class='opt'>C)</span> Şık yok</li><li><span class='opt'>D)</span> Şık yok</li><li><span class='opt'>E)</span> Şık yok</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>9. Hak Kavramı, Hak Türleri ve Savunma Araçları</h2><div class='section-body'><p>Hak, hukuk düzeninin kişilere tanıdığı yetki ve menfaat alanıdır. Mutlak haklar herkese karşı ileri sürülebilirken, nispi haklar belirli kişilere karşı ileri sürülür. İnşai haklar ise tek taraflı irade açıklamasıyla yeni bir hukuki durum yaratır, değiştirir veya sona erdirir.</p><p>İtiraz ve defi ayrımı da bu başlıkta önemlidir. Hakkın doğmasına engel olan veya hakkı sona erdiren maddi olayların ileri sürülmesi itiraz olarak değerlendirilirken, mevcut bir hakkın kullanılmasını geçici biçimde engelleyen savunmalar defi niteliği taşıyabilir.</p><p>Ders sorularında hak türleri, özel haklar ve savunma araçları bazen tek başlık altında karışık biçimde gelir. Bu nedenle hakları sadece isim olarak değil, herkese karşı mı yoksa belli kişiye karşı mı ileri sürülebileceği açısından da düşünmek gerekir.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2020 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi kişinin özel hakları arasında yer almaz?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Seçme ve seçilme hakkı</li><li><span class='opt'>B)</span> Şık yok</li><li><span class='opt'>C)</span> Şık yok</li><li><span class='opt'>D)</span> Şık yok</li><li><span class='opt'>E)</span> Şık yok</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2021 Final Benzeri</div>
+      <div class="q-text">Defi kim/kimler tarafından ileri sürülebilir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Tanık</li><li><span class='opt'>B)</span> Savcı</li><li><span class='opt'>C)</span> Herkes</li><li><span class='opt'>D)</span> Taraflar</li><li><span class='opt'>E)</span> Hakim</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>10. Dava Türleri ve Hukuki Koruma Yolları</h2><div class='section-body'><p>Dava türleri, talep edilen hukuki sonuca göre farklılaşır. Eda davaları bir şeyin verilmesi, yapılması veya yapılmamasına yönelirken; tespit davaları hukuki durumun belirlenmesine, inşai davalar ise hukuki durumun değiştirilmesine yönelir.</p><p>Sınavlarda olumsuz tespit davası, boşanma davasının sonuçları veya hangi davanın hangi kategoriye girdiği gibi sorular çıkar. Bu sorularda isim benzerliklerine aldanmamak gerekir; talebin niteliği belirleyicidir.</p><p>Hukuki koruma yolları başlığında bireysel başvuru, AİHM’ye başvuru süreleri ve temel hakların korunma mekanizmaları da zaman zaman soru konusu olur. Bu nedenle medeni usul, anayasa hukuku ve insan hakları boyutu bazen aynı soru havuzunda birleşebilir.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Avrupa İnsan Hakları Mahkemesi’ne bireysel başvuru süresi kaç aydır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> 5 ay</li><li><span class='opt'>B)</span> 4 ay</li><li><span class='opt'>C)</span> 12 ay</li><li><span class='opt'>D)</span> 3 ay</li><li><span class='opt'>E)</span> 1 ay</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi eda davalarından biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Tazminat davası</li><li><span class='opt'>B)</span> Borcun ifası davası</li><li><span class='opt'>C)</span> Geri alım davası</li><li><span class='opt'>D)</span> Saldırının durdurulması davası</li><li><span class='opt'>E)</span> Boşanma davası</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>11. Anayasa, Devlet Yapısı ve Temel Haklar</h2><div class='section-body'><p>Anayasa, normlar hiyerarşisinin en üstünde yer alır ve devletin temel örgütlenmesini, hak ve özgürlüklerin güvencesini belirler. 1982 Anayasası’nın temel nitelikleri, devlet şekli, milletvekili seçilme yaşı ve anayasal denetim kurumları sınavlarda yoğun biçimde yer alır.</p><p>Uluslararası antlaşmalar da özellikle temel hak ve özgürlüklere ilişkin olanlar bakımından ayrı bir önem taşır. Usulüne uygun yürürlüğe giren temel haklara ilişkin antlaşmalar ile kanunların çatışması halinde antlaşmaların üstünlüğü konusu sık sorulan bir ayrıntıdır.</p><p>Temel haklar sınıflandırılırken kişisel haklar, sosyal-ekonomik haklar ve siyasi haklar ayrımını bilmek gerekir. Sorularda bazen bir hakkın hangi gruba girdiği, bazen de hangi hak kategorisine girmediği sorulur.</p><div class='callout-grid'><div class='callout purple'><strong>Normlar hiyerarşisi</strong><div>Anayasa en üst normdur; alt düzenlemeler ona aykırı olamaz.</div></div><div class='callout green'><strong>Sınav uyarısı</strong><div>Temel haklara ilişkin uluslararası antlaşmalar, kanunlardan üstündür; bu ifade sık sorulur.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Uluslararası antlaşmalara ilişkin aşağıdaki bilgilerden hangisi doğrudur?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Uluslararası antlaşmalar, normlar hiyerarşisinde cumhurbaşkanlığı kararnamelerinden sonra gelmektedir.</li><li><span class='opt'>B)</span> Uluslararası antlaşmalar, taraflarca imzalandıkları gün yürürlüğe girer.</li><li><span class='opt'>C)</span> Uluslararası antlaşmaların Anayasaya aykırılığı iddiası ile 90 gün içinde Anayasa Mahkemesine başvurulabilir.</li><li><span class='opt'>D)</span> Usulüne uygun yürürlüğe giren uluslararası antlaşmalardan temel hak ve özgürlüklere ilişkin olanlar yasalardan üstündür.</li><li><span class='opt'>E)</span> Her uluslararası antlaşma TBMM tarafından onaylanmak zorundadır.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi 1982 Anayasası’nın 2. maddesinde belirtilen nitelikler arasında yer almaz?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Cumhuriyetçilik</li><li><span class='opt'>B)</span> Üniter devlet</li><li><span class='opt'>C)</span> İnsan haklarına saygılı devlet</li><li><span class='opt'>D)</span> Atatürk milliyetçiliğine bağlı devlet</li><li><span class='opt'>E)</span> Laik devlet</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>12. Yargı Teşkilatı ve Mahkemeler</h2><div class='section-body'><p>Türk yargı sistemi adli, idari ve anayasal denetim boyutlarıyla çok katmanlıdır. Adli yargının dereceleri, Yargıtay’ın rolü, Danıştay’ın görev alanı, Anayasa Mahkemesi’nin denetim yetkileri ve Uyuşmazlık Mahkemesi gibi kurumlar sınavlarda doğrudan sorulabilir.</p><p>Somut norm denetimi ile soyut norm denetimi ayrımı, özellikle Anayasa Mahkemesi başlığında önemlidir. Ayrıca hangi organın hangi başkanı seçtiği ya da hangi mahkemenin hangi uyuşmazlığa baktığı gibi detaylar da soru havuzunda yer alır.</p><p>Burada ezberden önce yapı mantığı kurulmalıdır: özel kişiler arasındaki uyuşmazlık, idarenin işlemleri, anayasal uygunluk ve yargı yolları çatışması farklı mahkemeleri devreye sokar.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Adli yargı kaç derecelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> 1</li><li><span class='opt'>B)</span> 2</li><li><span class='opt'>C)</span> 4</li><li><span class='opt'>D)</span> 5</li><li><span class='opt'>E)</span> 3</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Somut norm denetimini yapma görevi aşağıdaki organlardan hangisine aittir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Anayasa Mahkemesi</li><li><span class='opt'>B)</span> Hâkimler Savcılar Kurulu</li><li><span class='opt'>C)</span> Kamu Denetçiliği Kurumu</li><li><span class='opt'>D)</span> Uyuşmazlık Mahkemesi</li><li><span class='opt'>E)</span> Danıştay</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>13. Özel Hukuk ve Kamu Hukuku Dalları</h2><div class='section-body'><p>Hukuk dalları, düzenledikleri ilişki türüne göre ayrılır. Özel hukukta kişiler arası eşitlik ilişkileri; kamu hukukunda ise kamu gücü, kamu düzeni ve devlet örgütlenmesi daha belirgindir. Medeni hukuk, ticaret hukuku ve borçlar hukuku özel hukuka; anayasa, idare, ceza ve vergi hukuku çoğunlukla kamu hukukuna yaklaşır.</p><p>Medeni hukukun alt dalları arasında kişiler, aile, miras ve eşya hukuku sayılır. Sigorta hukuku gibi alanlar bazen öğrencileri yanıltır çünkü ticaret hukuku ile ilişkili alanlar medeni hukuk altında değerlendirilmez. Bu tür ayrımlar sınavda ayırt ettirilir.</p><p>Vergi hukuku içinde vergi usul, vergi icra, vergi yargılama ve vergi ceza hukuku gibi alt dallar; ticaret hukukunda şirket türleri ve ticaret unvanı gibi konular ön plana çıkar. Bu başlık, geniş görünse de genellikle sınıflandırma mantığı üzerinden çalışıldığında daha kolay öğrenilir.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi medeni hukukun bir alt dalı olarak kabul edilemez?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Aile Hukuku</li><li><span class='opt'>B)</span> Miras Hukuku</li><li><span class='opt'>C)</span> Eşya Hukuku</li><li><span class='opt'>D)</span> Sigorta Hukuku</li><li><span class='opt'>E)</span> Kişiler Hukuku</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2025-2026 Final Benzeri</div>
+      <div class="q-text">Ticari bir işletmeyi bir ticaret unvanı altında işletmek amacıyla gerçek kişiler arasında kurulan ve ortakların sorumluluğu şirket alacaklarına karşı sınırlanmamış olan şirkete ne ad verilir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Kooperatif</li><li><span class='opt'>B)</span> Anonim şirket</li><li><span class='opt'>C)</span> Komandit şirket</li><li><span class='opt'>D)</span> Limited şirket</li><li><span class='opt'>E)</span> Kollektif şirket</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><div class='footer'>Başarılar dilerim.</div></div></body></html>
