@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/><title>Bilgi Sistemleri Proje Yönetimi Ders Notu</title>
+<style>
+:root{
+ --bg:#f4f7fb;--panel:#ffffff;--soft:#f8fbff;--line:#d8e3f2;--text:#20304a;--muted:#5f718f;
+ --blue:#4f7ee8;--blue-soft:#ebf2ff;--gold:#f5a524;--gold-soft:#fff8e8;
+ --green:#0f766e;--green-soft:#ecfdf5;--rose:#e11d48;--rose-soft:#fff1f2;--purple:#7c3aed;--purple-soft:#f5f0ff;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:linear-gradient(180deg,#eef3fb 0%,#f8fbff 100%);color:var(--text);line-height:1.75}
+.container{width:min(1140px,calc(100% - 32px));margin:28px auto 60px}
+.hero{background:linear-gradient(135deg,#ffffff 0%,#eef4ff 100%);border:1px solid var(--line);border-radius:28px;padding:36px;box-shadow:0 18px 40px rgba(61,93,152,.08)}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-weight:800;font-size:13px;letter-spacing:.2px}
+h1{margin:16px 0 10px;font-size:40px;line-height:1.18;color:#1d2b44}
+.lead{margin:0;color:var(--muted);font-size:17px}
+.note-box{margin-top:22px;background:#fffdf7;border:1px solid #f1e1a6;border-radius:18px;padding:18px 20px;color:#5a4a1d}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}
+.stat .label{font-size:12px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+.stat .value{font-size:22px;font-weight:800;color:#22314d;margin-top:4px}
+.section-card{margin-top:22px;background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 10px 25px rgba(51,76,120,.05)}
+.section-card h2{margin:0 0 14px;font-size:28px;color:#1f2d47}
+.section-body p{margin:0 0 14px;color:#32425f;font-size:16px}
+.subhead{margin:20px 0 10px;font-size:18px;font-weight:800;color:#22314d}
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.callout{border-radius:18px;padding:16px 18px;border:1px solid var(--line)}
+.callout strong{display:block;margin-bottom:8px}
+.callout.blue{background:var(--blue-soft);border-color:#d7e4ff}
+.callout.green{background:var(--green-soft);border-color:#cdeee4}
+.callout.gold{background:var(--gold-soft);border-color:#f6df9e}
+.callout.rose{background:var(--rose-soft);border-color:#ffc9d5}
+.callout.purple{background:var(--purple-soft);border-color:#e5d8ff}
+.mini-list{margin:8px 0 0 0;padding-left:18px;color:#32425f}
+.mini-list li{margin-bottom:8px}
+.table-wrap{margin-top:16px;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{padding:12px 14px;border-bottom:1px solid #e8eef8;text-align:left;font-size:14px;vertical-align:top}
+th{background:#f4f8ff;color:#29416b;font-weight:800}
+tr:last-child td{border-bottom:none}
+.question-wrap{margin-top:26px;padding-top:18px;border-top:1px dashed var(--line)}
+.question-title{display:inline-block;margin-bottom:16px;padding:7px 12px;border-radius:12px;background:#eef6ff;color:#2f5da8;font-weight:800;font-size:14px}
+.question-card{background:var(--soft);border:1px solid #dce9fb;border-radius:18px;padding:18px;margin-bottom:16px}
+.q-meta{font-size:13px;font-weight:800;color:#5572a8;margin-bottom:8px}
+.q-text{font-size:16px;font-weight:800;color:#22314d;margin-bottom:12px}
+.options{list-style:none;padding:0;margin:0 0 12px}
+.options li{padding:8px 12px;margin-bottom:8px;border-radius:12px;background:#ffffff;border:1px solid #e5edf8;color:#3c4c68}
+.opt{font-weight:800;color:#244784;display:inline-block;width:28px}
+.answer,.explanation{font-size:14px;margin-top:8px}
+.answer{color:var(--green)}
+.explanation{color:var(--muted)}
+.footer{text-align:center;color:#50607d;padding:28px 12px 10px;font-weight:800;font-size:18px}
+@media(max-width:860px){.stats,.callout-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.container{width:min(100% - 18px,1140px);margin-top:18px}.hero{padding:24px 20px;border-radius:22px}h1{font-size:31px}.section-card{padding:20px;border-radius:20px}.section-card h2{font-size:24px}.stats,.callout-grid{grid-template-columns:1fr}}
+</style>
+</head><body><div class='container'><header class='hero'><div class='badge'>Bilgi Sistemleri Proje Yönetimi</div><h1>Bilgi Sistemleri Proje Yönetimi Ders Notu</h1><p class='lead'>Konu anlatımı derinleştirilmiş, sınavda öne çıkan kavramlar vurgulanmış ve çalışmayı kolaylaştıran renkli özet alanları eklenmiştir.</p><div class='note-box'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.</div><div class='stats'><div class='stat'><div class='label'>Konu Sayısı</div><div class='value'>12</div></div><div class='stat'><div class='label'>Derin Anlatım</div><div class='value'>Var</div></div><div class='stat'><div class='label'>Vurgu Kutuları</div><div class='value'>Renkli</div></div><div class='stat'><div class='label'>Çıkmış Soru Tabanı</div><div class='value'>3 sınav</div></div></div></header><section class='section-card'><h2>1. Proje Yönetimine Giriş: Proje, Operasyon ve Yaşam Döngüsü</h2><div class='section-body'><p>Proje, belirli bir amacı gerçekleştirmek için başlatılan; başlangıcı, bitişi ve sınırları bulunan geçici bir çalışmadır. Operasyon ise süreklilik gösterir. Ders sorularında bu ayrım doğrudan sorulabildiği gibi, “bir çalışmanın proje sayılıp sayılmayacağı” biçiminde örnek olaylar üzerinden de ölçülür.</p><p>Bilgi sistemleri projeleri çoğu zaman yazılım geliştirme, altyapı kurulumu, veri taşıma, entegrasyon, test ve devreye alma gibi çok sayıda faaliyeti birlikte içerir. Bu nedenle proje yönetimi yalnızca takvim hazırlamak değildir; kapsamı tanımlamak, kaynakları koordine etmek, kaliteyi güvenceye almak ve riskleri görünür kılmak da proje yönetiminin bir parçasıdır.</p><p>Yaşam döngüsü mantığı; başlatma, planlama, yürütme, izleme-kontrol ve kapanış gibi aşamalarla düşünülür. Sınavlarda kimi zaman bu aşamalar açıkça isimlendirilir, kimi zaman da bir belgenin veya kararın hangi aşamada üretileceği sorulur. Bu yüzden sadece terimleri değil, her aşamanın ne işe yaradığını da bilmek gerekir.</p><p>Özellikle bilgi sistemleri projelerinde proje biter bitmez iş de bitmez. Ürün çoğu zaman operasyon ekibine devredilir, bakım süreci başlar ve proje çıktıları kurumsal hafızaya aktarılır. Bu nedenle kapanış, sadece dosya kapatmak değil; devretmek, kayıt altına almak ve öğrenilen dersleri korumaktır.</p><div class='callout-grid'><div class='callout blue'><strong>Sınavda dikkat</strong><div>“Geçici olma” ve “benzersiz çıktı üretme” proje kavramının en temel iki ölçütüdür.</div></div><div class='callout gold'><strong>Karıştırılan nokta</strong><div>Operasyon süreklidir; proje ise belirli bir hedefe ulaşıldığında sona erer.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi proje yönetim süreçlerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Geribildirim</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi bireysel proje sınıflandırmasına örnek gösterilebilir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Doğum günü daveti organize etmek</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>2. Başlatma ve Proje Başlatma Belgesi</h2><div class='section-body'><p>Başlatma aşamasında projenin neden yapıldığı, kim için yapıldığı, ana hedefleri, başarı ölçütleri ve temel kısıtları netleştirilir. Bu aşamanın en önemli işlevi, projeye kurumsal meşruiyet kazandırmak ve herkesin aynı başlangıç çerçevesine bakmasını sağlamaktır.</p><p>Proje başlatma belgesi genellikle projenin amacı, üst düzey kapsamı, ana paydaşları, yaklaşık bütçeyi, kilometre taşlarını ve yetki çerçevesini içerir. Buna karşılık çok ayrıntılı teknik seçimler, ayrıntılı zaman çizelgesi veya detaylı risk matrisi çoğu zaman daha sonra planlama aşamasında geliştirilir.</p><p>Öğrencilerin sık yaptığı hata, başlatma belgesi ile proje yönetim planını aynı şey sanmaktır. Başlatma belgesi üst düzey çerçeveyi verir; proje yönetim planı ise bu çerçevenin nasıl yürütüleceğini ayrıntılandırır. Sınavda bu iki belgeyi ayırmak önemli puan kazandırır.</p><div class='callout-grid'><div class='callout purple'><strong>Temel ayrım</strong><div>Başlatma belgesi = yetkilendirme ve genel çerçeve. <br>Proje yönetim planı = ayrıntılı yürütme mantığı.</div></div><div class='callout green'><strong>Akılda kalsın</strong><div>Başlatma belgesi proje için “neden ve ne” sorularına, plan ise “nasıl” sorusuna cevap verir.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Proje yönetim planındaki kapsam kontrolü içinde hangisi yer almaz?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Maliyet gider planı</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi proje başlatma belgesi içerisinde genellikle bulunmaz?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Projede kullanılan teknolojiler</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>3. Kapsam Yönetimi ve Gereksinimlerin Belirlenmesi</h2><div class='section-body'><p>Kapsam yönetimi, projede neyin yapılacağını ve neyin yapılmayacağını net biçimde ortaya koyar. Bilgi sistemleri projelerinde gereksinimler net tanımlanmadığında kapsam kayması, bütçe artışı ve teslim gecikmesi ortaya çıkar. Bu yüzden kapsam yönetimi, başarı için temel kontrol alanlarından biridir.</p><p>Gereksinim toplama yalnızca kullanıcıdan liste almak değildir. Paydaş beklentilerini anlamak, iş hedeflerini teknik gereksinimlere çevirmek, çelişkileri görmek ve gereksinimleri dokümante etmek gerekir. İyi bir gereksinim dokümantasyonu; açık, test edilebilir, izlenebilir ve değişiklik durumunda güncellenebilir olmalıdır.</p><p>Ürün kapsam bildirimi ve gereksinim dokümantasyonu, doğrulama ve gözden geçirme süreçlerinde referans olur. Ders sorularında kapsam tanımı, paydaş ihtiyaçları ve gereksinim belgelendirmesi sıklıkla birlikte gelir. Bu da bize, kapsam yönetiminin sadece sınır çizmek değil; ortak anlayış üretmek olduğunu gösterir.</p><p>Bir gereksinimin hangi ihtiyacı nasıl karşıladığını izlenebilir biçimde açıklayan teknikler, özellikle sınavlarda tanım sorusu olarak gelir. Buradaki mantık ezberden çok ilişki kurmaktır: gereksinim, ihtiyaç, çözüm ve doğrulama birbirinden kopuk değildir.</p><div class='callout-grid'><div class='callout rose'><strong>Sık hata</strong><div>Kapsamı genişletmek her zaman projeyi güçlendirmez; bazen teslim riskini artırır.</div></div><div class='callout blue'><strong>Önemli ifade</strong><div>“Paydaş ihtiyaç ve beklentilerinin ayrıntılı tanımlanması” gereksinim yönetiminin merkezidir.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">……….. paydaş ihtiyaç ve beklentilerin ayrıntılı şekilde tanımlanmasıdır. Cümlede bırakılan boşluğa hangisi gelmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Analiz</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023 Final Benzeri</div>
+      <div class="q-text">Genellikle doğruluğu güvence altına almak için ürün kapsam tanımının çoğu zaman gözden geçirmeye imkan sağlayan girdi türü aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Araç ve teknikler</li><li><span class='opt'>B)</span> Öncelik şeması metodu</li><li><span class='opt'>C)</span> Organizasyonel süreç varlıkları</li><li><span class='opt'>D)</span> Proje kapsam bildirimi</li><li><span class='opt'>E)</span> Süreç varlıkları</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>4. Zaman Yönetimi ve Çizelgeleme Mantığı</h2><div class='section-body'><p>Zaman yönetimi, faaliyetlerin sıralanması, süre tahminleri, bağımlılıkların kurulması ve gerçekçi takvimlerin üretilmesi ile ilgilidir. Bir bilgi sistemi projesinde analiz, geliştirme, test ve devreye alma faaliyetleri birbirini etkilediği için zaman planı tek tek görevlerin listesi olmaktan daha fazlasıdır.</p><p>Çizelgeleme mantığında kritik nokta, hangi işin hangi işe bağlı olduğunu doğru kurmaktır. Aksi halde kağıt üzerinde güzel görünen plan, uygulamada ilk haftada bozulur. Sorular bazen plan türleri üzerinden, bazen de süreç içinde hangi belgenin güncellendiği üzerinden gelir.</p><p>Tahminleme tarafında örneksel tahmin, parametrik tahmin ve üç nokta tahminleri gibi tekniklerin mantığını ayırt etmek gerekir. Parametrik tahmin, tarihsel verilerle değişkenler arasındaki ilişkiye dayanarak daha sayısal bir tahmin üretir; bu ayrım sınavlarda doğrudan tanım olarak karşımıza çıkabilir.</p><div class='table-wrap'><table><thead><tr><th>Kavram</th><th>Temel Mantık</th><th>Sınav İpucu</th></tr></thead><tbody><tr><td>Örneksel tahmin</td><td>Benzer geçmiş projelerden yararlanır</td><td>Hızlıdır ama benzerlik kalitesi çok önemlidir.</td></tr><tr><td>Parametrik tahmin</td><td>İstatistiksel ilişki ve katsayılarla hesap yapar</td><td>Maliyet ve süre tahminlerinde sık sorulur.</td></tr><tr><td>Üç nokta tahmini</td><td>İyimser-olası-kötümser değerleri birlikte kullanır</td><td>Belirsizliği daha görünür kılar.</td></tr></tbody></table></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi bir yazılım projesinde ilk olarak dünüşülen ve ele alınan maliyet kalemlerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Reklam ve satış giderleri</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023 Final Benzeri</div>
+      <div class="q-text">“Seçilen satıcı en düşük sahip olma maliyetini sağlayacak mı? Yoksa başka sebeplerden dolayı mı bu satıcı seçildi?” gibi soruların cevabını veren seçim kriteri hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Teknik kaynaklar</li><li><span class='opt'>B)</span> Yöntem yaklaşımı</li><li><span class='opt'>C)</span> Risk</li><li><span class='opt'>D)</span> İhtiyacın anlaşılması</li><li><span class='opt'>E)</span> Yaşam döngüsü maliyeti</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>5. Maliyet Yönetimi ve Kaynak Planlama</h2><div class='section-body'><p>Maliyet yönetimi, projenin ekonomik çerçevesini kontrol altında tutmayı amaçlar. Burada sadece doğrudan harcamalar değil, insan kaynağı, altyapı, lisans, bakım, test ortamı ve dış hizmet gibi kalemler de düşünülmelidir. Bilgi sistemleri projeleri görünmez maliyetlerin yüksek olduğu projelerdir.</p><p>Sorularda bazen “ilk düşünülen maliyet kalemleri”, bazen “maliyet alternatiflerinin tanımlanması” gibi ifadeler geçer. Bu durumda ana mantık şudur: maliyet yönetimi, sadece para harcama takibi değil; seçenek değerlendirme ve kısıt altında karar verme sürecidir.</p><p>İyi maliyet yönetimi, zaman ve kapsam yönetiminden bağımsız değildir. Kapsam genişlerse maliyet artar; süre uzarsa kaynak ihtiyacı büyür. Bu yüzden maliyet sorularını ayrı bir ezber alanı olarak değil, proje üçgeninin bir yüzü olarak görmek gerekir.</p><div class='callout-grid'><div class='callout gold'><strong>Proje üçgeni</strong><div>Kapsam, zaman ve maliyet birbirini etkiler. Birindeki değişiklik diğerlerini de zorlar.</div></div><div class='callout green'><strong>Çalışma tavsiyesi</strong><div>Maliyet sorularını her zaman “hangi karar hangi kaynağı etkiler?” diye düşünerek çöz.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi bir yazılım projesinde ilk olarak dünüşülen ve ele alınan maliyet kalemlerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Reklam ve satış giderleri</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023 Final Benzeri</div>
+      <div class="q-text">“Seçilen satıcı en düşük sahip olma maliyetini sağlayacak mı? Yoksa başka sebeplerden dolayı mı bu satıcı seçildi?” gibi soruların cevabını veren seçim kriteri hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Teknik kaynaklar</li><li><span class='opt'>B)</span> Yöntem yaklaşımı</li><li><span class='opt'>C)</span> Risk</li><li><span class='opt'>D)</span> İhtiyacın anlaşılması</li><li><span class='opt'>E)</span> Yaşam döngüsü maliyeti</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>6. Kalite Yönetimi, Test ve Gözden Geçirme</h2><div class='section-body'><p>Kalite yönetimi, ürünün kullanıcı ihtiyaçlarını, teknik standartları ve kabul kriterlerini karşılayacak şekilde geliştirilmesini amaçlar. Kalite yalnızca hatasızlık değildir; aynı zamanda uygunluk, tutarlılık, kullanılabilirlik ve güvenilirlik gibi boyutları da kapsar.</p><p>Test süreçleri, yazılımı baştan yazmak için değil; hataları erken görmek, riskleri azaltmak ve ürünün beklenen davranışı gösterip göstermediğini doğrulamak için yürütülür. Sınav sorularında testin amacı, gözden geçirme türleri ve kalite kontrol araçları birlikte sorulabilir.</p><p>Gözden geçirme yöntemleri içinde müşteri incelemesi, denetim, genel gözden geçirme veya kod incelemesi gibi teknikler yer alır. Buna karşılık bazı seçenekler bilerek yanıltıcı hazırlanır. Bu nedenle yöntemlerin gerçekten süreçte kullanılan araçlar olup olmadığını ayırt etmek gerekir.</p><p>Kontrol grafikleri gibi araçlar, kalite kontrolünün yalnızca teknik yazılım testi değil; aynı zamanda süreç performansını izleme tarafı olduğunu da hatırlatır. Yani kalite hem ürün üzerinde hem de süreç üzerinde düşünülmelidir.</p><div class='callout-grid'><div class='callout blue'><strong>Kritik ayrım</strong><div>Kalite güvencesi süreçlerin doğru kurulmasına, kalite kontrol ise çıktının incelenmesine daha yakındır.</div></div><div class='callout rose'><strong>Karıştırılan nokta</strong><div>Testin amacı projeyi baştan başlatmak değil; hatayı bulmak ve güveni artırmaktır.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi yazılım projeleri üzerinde test yapılmasının amaçlarından biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Yazılım sürecini baştan başlatmak</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Bir yazılım projesi gözden geçirilirken aşağıdaki yöntemlerden hangisine başvurulamaz?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Satır satır inceleme</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>7. Risk Yönetimi: Belirsizliği Görünür Kılmak</h2><div class='section-body'><p>Risk yönetimi, projeyi tehdit eden veya fırsat yaratabilecek belirsizlikleri sistematik biçimde tanımlama, analiz etme ve yanıt geliştirme sürecidir. Ders sorularında risk yönetimi çoğu zaman plan, girdi, risk tanımlama ve olumlu sonuçlar ekseninde gelir.</p><p>Risk yönetim planı, risklerin projede nasıl ele alınacağını belirler; risk listesi ise tanımlanmış risklerin kayıt altına alındığı yaşayan belgedir. Risk kırılım yapısı ve risk kategorileri, dağınık riskleri daha düzenli görmeyi sağlar. Bunlar yalnız tanım değil, sınavda eşleştirme sorusu olarak da çıkabilir.</p><p>Önemli nokta şu: risk yönetimi belirsizliği tamamen yok etmez, ama belirsizliğin projeyi kör noktadan vurmasını azaltır. Bu yüzden “belirsizliği önler” gibi şıklar çoğu zaman aldatıcıdır. Gerçek fayda; öngörü, hazırlık ve kontrollü tepki geliştirmektir.</p><div class='table-wrap'><table><thead><tr><th>Belge / Araç</th><th>Ne işe yarar?</th><th>Neden önemli?</th></tr></thead><tbody><tr><td>Risk yönetim planı</td><td>Yöntemi ve yaklaşımı tanımlar</td><td>Risk sürecinin kurallarını belirler.</td></tr><tr><td>Risk listesi</td><td>Belirlenen riskleri kaydeder</td><td>İzleme ve güncelleme için temel belgedir.</td></tr><tr><td>Risk kırılım yapısı</td><td>Riskleri kategorilere ayırır</td><td>Görmeyi ve sınıflamayı kolaylaştırır.</td></tr></tbody></table></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi risklerin tanımlanması kısmında kullanılan bir girdi değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Çevresel İşletme Faktörleri</li><li><span class='opt'>B)</span> Eski Risk Analizleri</li><li><span class='opt'>C)</span> Maliyet Yönetimi Planı</li><li><span class='opt'>D)</span> Paydaş Listesi</li><li><span class='opt'>E)</span> Zaman Çizelgesi Yönetimi Planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi risk yönetiminin olumlu sonuçlarından biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Kontrolü sağlar</li><li><span class='opt'>B)</span> Kayıpları önler</li><li><span class='opt'>C)</span> Güvence sağlar</li><li><span class='opt'>D)</span> Belirsizliği önler</li><li><span class='opt'>E)</span> Üretimi yavaşlatır</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>8. Paydaş Yönetimi ve İletişim</h2><div class='section-body'><p>Bir projenin teknik olarak doğru olması, iletişim zayıfsa başarıyı garanti etmez. Bilgi sistemleri projelerinde kullanıcılar, sponsorlar, teknik ekip, tedarikçiler ve yöneticiler farklı beklentilere sahiptir. Paydaş yönetimi bu beklentileri tanımayı ve uygun iletişim kanalları kurmayı gerektirir.</p><p>İletişim yönetimi yalnızca toplantı yapmak değildir; ilerlemenin planla karşılaştırılması, sapmaların raporlanması ve karar vericilerin doğru zamanda doğru bilgiye ulaşması da bu başlığa girer. Çalışma performans bilgileri ile çalışma performans ölçümleri arasındaki ayrım bu noktada önem kazanır.</p><p>Paydaşların ihtiyaçları ayrıntılı biçimde tanımlanmadığında proje yanlış şeyi doğru yapabilir. Bu yüzden proje yöneticisi teknik bilgi kadar sosyal beceri, uzlaştırma, dinleme ve önceliklendirme kabiliyeti de göstermelidir.</p><div class='callout-grid'><div class='callout purple'><strong>Yorum sorusu mantığı</strong><div>Ekip ruhunu güçlendiren davranışlar genelde ortak hedef, açık iletişim ve güven üretir.</div></div><div class='callout green'><strong>Sınav sinyali</strong><div>İlerlemeyi planlanan durumla karşılaştırma ifadeleri genellikle performans ölçümü kavramına gider.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Davranışlardan hangisi ekip ruhunuzu zedelemez?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Ortak hedefler benimsemek</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">……….. paydaş ihtiyaç ve beklentilerin ayrıntılı şekilde tanımlanmasıdır. Cümlede bırakılan boşluğa hangisi gelmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Analiz</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>9. Proje Ekibi, Liderlik ve Örgütlenme</h2><div class='section-body'><p>Proje ekibi, sadece yazılımcılardan oluşmaz; analiz, test, kalite, sistem, veri tabanı, iş birimi ve yönetim taraflarını da kapsayabilir. Hangi rollerin ekipte doğal olarak yer aldığı, hangilerinin ise proje dışı birimlere ait olduğu sınavlarda karşımıza çıkabilir.</p><p>Proje yöneticisinin rolü emir vermekten ibaret değildir. Koordinasyon, öncelik belirleme, çatışma çözme, motivasyon sağlama ve karar süreçlerini hızlandırma da bu rolün parçasıdır. Bu nedenle kişisel özellik soruları aslında yönetici rolünün ne olduğunu ölçer.</p><p>Matris tipi örgütlenme gibi yapılar, projelerde birden fazla birimin birlikte çalışmasını kolaylaştırır. Ancak otorite, sorumluluk ve kaynak paylaşımı net tanımlanmazsa çatışma doğurabilir. Bu konu teori gibi görünse de uygulamada en sık sorun çıkaran alanlardan biridir.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi bir yazılım proje ekibinde genellikle yer almaz?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Üretim müdürü</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi proje yöneticilerinin sahip olması gereken kişisel bir özellik değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Maliyet odaklı olma</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>10. Yazılım Geliştirme Modelleri: Doğrusal, Çevik ve Diğer Yaklaşımlar</h2><div class='section-body'><p>Yazılım projelerinde seçilen geliştirme modeli, planlama ve kontrol biçimini doğrudan etkiler. Doğrusal modellerde aşamalar belirgin ve sıralıdır; geri dönüş görece sınırlıdır. Bu yaklaşım, gereksinimlerin daha net olduğu projelerde tercih edilebilir.</p><p>Çevik yaklaşımlar ise değişime daha açık, müşteri geri bildirimine daha duyarlı ve kısa döngülerle ilerleyen yapılardır. Burada belge tamamen yok olmaz; fakat çalışan ürün, işbirliği ve hızlı uyum daha merkezi hale gelir. Sınavlarda çevikliğin ilkeleri çoğu zaman doğrudan değer ifadesi şeklinde sorulur.</p><p>Bazı seçenekler gerçek geliştirme modeli olmayan veya yalnızca dar bir pratik yaklaşımı ifade eden yapılar olabilir. Bu noktada öğrencinin modeli, yöntemi ve araç düzeyini birbirinden ayırması gerekir. Çevik yaklaşımın her şeyi serbest bırakmak anlamına gelmediğini de unutmamak gerekir; aslında disiplinli ama esnek bir yönetim biçimidir.</p><div class='callout-grid'><div class='callout blue'><strong>Çevik yaklaşımın özü</strong><div>Değişime cevap verme, müşteriyle yakın etkileşim ve çalışan ürüne odaklanma.</div></div><div class='callout gold'><strong>Yanıltıcı düşünce</strong><div>Çevik = plansızlık değildir. Plan vardır; sadece daha uyarlanabilir biçimdedir.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Yazılım geliştirme modellerinden hangisi gerçek anlamda bir yazılım geliştirme modeli olarak görülmemektedir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Kod Eksenli Geliştirme Modeli</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri</div>
+      <div class="q-text">Hangisi Çevik yazılım Geliştirme Modelleri’nin temel prensiplerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman yönetimi planı</li><li><span class='opt'>B)</span> Kalite yönetim planı</li><li><span class='opt'>C)</span> Risk yönetimi, yazılım geliştirme sürecine entegre edilir.</li><li><span class='opt'>D)</span> Risk yönetim planı</li><li><span class='opt'>E)</span> İnsan kaynakları planı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>11. İzleme, Kontrol ve Performans Değerlendirmesi</h2><div class='section-body'><p>Yürütme başladıktan sonra proje kendiliğinden doğru çizgide kalmaz. İzleme ve kontrol, gerçekleşen durum ile planlanan durum arasındaki farkı görmeyi sağlar. Bu fark zaman, maliyet, kalite veya kapsam yönünden ortaya çıkabilir.</p><p>Çalışma performans bilgileri ham veya işlenmiş ilerleme verilerini ifade ederken, çalışma performans ölçümleri genellikle karşılaştırmalı ve değerlendirmeye açık hale getirilmiş çıktıları anlatır. Sorularda bu ayrımı yakalamak önemlidir çünkü kelimeler birbirine çok benzer görünür.</p><p>İzleme-kontrol mantığı düzeltici faaliyetlerle de ilişkilidir. Sorun çıktığında sadece rapor yazmak değil, sebebi anlamak ve planı gerekirse güncellemek gerekir. Bu nedenle proje yönetim planının bazı bileşenleri süreç içinde gözden geçirilebilir ve revize edilebilir.</p><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi proje yönetimi planının güncellenebilecek öğelerinden birisi değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Performans temel çizgisi</li><li><span class='opt'>B)</span> Kapsam temel çizgisi</li><li><span class='opt'>C)</span> Maliyet temel çizgisi</li><li><span class='opt'>D)</span> Tedarik yönetim planı</li><li><span class='opt'>E)</span> Zaman çizelgesi temel çizgisi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><section class='section-card'><h2>12. Kapanış Belgeleri ve Kurumsal Öğrenme</h2><div class='section-body'><p>Proje kapanışı, teslimin tamamlanmasıyla biten basit bir formalite değildir. Kapanışta proje çıktıları devredilir, sözleşmeler ve kabul süreçleri tamamlanır, belgeler arşivlenir ve gelecekte kullanılabilecek tarihsel bilgiler oluşturulur.</p><p>Kapanış belgeleri, projenin bir sonraki aşamaya ya da operasyon grubuna aktarıldığını gösteren resmi dökümantasyondur. Bu nedenle sınavda kapanış belgeleri sorulduğunda bunu sıradan dosyalama işi gibi düşünmek yanıltıcı olur. Bu belge kurumsal devri ve sorumluluk aktarımını temsil eder.</p><p>Öğrenilen dersler ve tarihsel bilgiler, yeni projelerde benzer hataları azaltır. Güçlü proje yönetimi, yalnız mevcut projeyi bitirmek değil, kurumsal birikimi artırmak demektir.</p><div class='callout-grid'><div class='callout green'><strong>Kapanışın değeri</strong><div>Kapanış sadece bitiş değil, kurumsal öğrenmenin başlangıcıdır.</div></div><div class='callout rose'><strong>Sınav notu</strong><div>Operasyon grubuna aktarma ifadesi görürsen kapanış belgeleri aklına gelmeli.</div></div></div><div class='question-wrap'><div class='question-title'>Benzeri Sorular</div>
+    <div class="question-card">
+      <div class="q-meta">2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bir projenin operasyon grubuna veya bir sonraki aşamaya aktarıldığını gösteren resmi dökümantasyondur?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Proje dosyaları</li><li><span class='opt'>B)</span> Proje kapanış belgeleri</li><li><span class='opt'>C)</span> Tarihsel bilgiler</li><li><span class='opt'>D)</span> Proje takvimleri</li><li><span class='opt'>E)</span> Risk listeleri</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, ilgili kavramı tanım–uygulama eşleştirmesiyle ölçer. Şıkları okurken anahtar kavramı yakalamak gerekir.</div>
+    </div>
+    </div></div></section><div class='footer'>Başarılar dilerim.</div></div></body></html>
