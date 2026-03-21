@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bilişim Sistemleri Analiz ve Tasarımı - Benzeri Sorulu Tam Not</title>
+<style>
+
+  :root {
+    --bg: #f5f7fb;
+    --panel: #ffffff;
+    --panel-soft: #f8fbff;
+    --text: #1f2a44;
+    --muted: #61708a;
+    --line: #dbe5f1;
+    --accent: #5b8def;
+    --accent-soft: #eaf2ff;
+    --dark: #21324d;
+    --ok: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #eef3fb 0%, #f8fafd 100%);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .container {
+    width: min(1120px, calc(100% - 32px));
+    margin: 32px auto 60px;
+  }
+  .hero {
+    background: linear-gradient(135deg, #ffffff 0%, #eef5ff 100%);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    padding: 34px 34px 28px;
+    box-shadow: 0 18px 40px rgba(61, 93, 152, 0.08);
+  }
+  .badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .2px;
+  }
+  h1 {
+    margin: 16px 0 10px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--dark);
+  }
+  .lead {
+    margin: 0;
+    color: var(--muted);
+    font-size: 17px;
+  }
+  .note-box {
+    margin-top: 22px;
+    background: #fffdf7;
+    border: 1px solid #f2e6b8;
+    border-radius: 18px;
+    padding: 18px 20px;
+    color: #5b4a1f;
+    font-size: 15px;
+  }
+  .section-card {
+    margin-top: 22px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 10px 25px rgba(51, 76, 120, 0.05);
+  }
+  .section-card h2 { margin: 0 0 14px; font-size: 27px; color: var(--dark); }
+  .section-body p { margin: 0 0 14px; color: #33415c; font-size: 16px; }
+  .mini-note {
+    margin: 16px 0 0;
+    padding: 14px 16px;
+    background: #f5f9ff;
+    border: 1px solid #dae7fb;
+    border-radius: 16px;
+    color: #34507d;
+    font-size: 15px;
+  }
+  .question-wrap { margin-top: 26px; padding-top: 18px; border-top: 1px dashed var(--line); }
+  .question-title { display: inline-block; margin-bottom: 16px; padding: 7px 12px; border-radius: 12px; background: #eef6ff; color: #2f5da8; font-weight: 700; font-size: 14px; }
+  .question-card { background: var(--panel-soft); border: 1px solid #dce9fb; border-radius: 18px; padding: 18px; margin-bottom: 16px; }
+  .q-meta { font-size: 13px; font-weight: 700; color: #5572a8; margin-bottom: 8px; }
+  .q-text { font-size: 16px; font-weight: 700; color: #22314d; margin-bottom: 12px; }
+  .options { list-style: none; padding: 0; margin: 0 0 12px; }
+  .options li { padding: 8px 12px; margin-bottom: 8px; border-radius: 12px; background: #ffffff; border: 1px solid #e5edf8; color: #3c4c68; }
+  .opt { font-weight: 700; color: #244784; display: inline-block; width: 28px; }
+  .answer, .explanation { font-size: 14px; margin-top: 8px; }
+  .answer { color: var(--ok); }
+  .explanation { color: var(--muted); }
+  .footer { text-align: center; color: #50607d; padding: 28px 12px 10px; font-weight: 700; font-size: 18px; }
+  @media (max-width: 760px) {
+    .container { width: min(100% - 20px, 1120px); margin-top: 20px; }
+    .hero { padding: 24px 20px; border-radius: 22px; }
+    h1 { font-size: 30px; }
+    .section-card { padding: 20px; border-radius: 20px; }
+    .section-card h2 { font-size: 23px; }
+  }
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge">Bilişim Sistemleri Analiz ve Tasarımı</div>
+      <h1>Bilişim Sistemleri Analiz ve Tasarımı Ders Notu</h1>
+      <p class="lead">Konu anlatımı, kavramsal bütünlük ve benzeri sorular bir araya getirilerek sınav odaklı ama öğretici bir çalışma akışı oluşturuldu.</p>
+      <div class="note-box">
+        Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.
+      </div>
+    </header>
+    
+    <section class="section-card">
+      <h2>1. Sistem Geliştirme Yaşam Döngüsü ve Yöntemler</h2>
+      <div class="section-body">
+        <p>Bu derste en çok tekrar eden alanlardan biri sistem geliştirme yaşam döngüsüdür. Başlama, planlama, analiz, tasarım, uygulama, test, bakım ve sonlandırma gibi aşamalar yalnızca teorik sıra olarak değil, hangi yöntemin hangi ihtiyaca uygun olduğu açısından da sorgulanır.</p><p>Şelale modeli daha doğrusal bir yapıya sahiptir; gereksinimlerin baştan net olduğu projelerde düzen sağlar. Buna karşılık spiral model risk odaklıdır ve prototip kullanımını destekler. Çevik yaklaşımlar ise değişimin yoğun olduğu ortamlarda kısa çevrimler, geri bildirim ve artımlı teslim mantığıyla öne çıkar.</p><p>Hızlı uygulama geliştirme yaklaşımı sınavlarda özellikle zaman baskısı olan projelerle birlikte sorulur. Bu yaklaşımda erken çıktı, prototip ve kullanıcı geri bildirimi önemlidir; çok uzun ve ağır yapılı projeler için uygun değildir.</p><p>Scrum tarafında sprint planlama, günlük scrum, sprint değerlendirme ve retrospektif kavramlarını ayırabilmek gerekir. Bu kavramlar sadece tanım olarak değil, hangi toplantının hangi amaca hizmet ettiği yönüyle de ölçülür.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Yöntem sorularında en kritik nokta, her modeli tek cümleyle ayırabilmektir: şelale = sıralı, spiral = risk odaklı, çevik = kısa çevrim ve geri bildirim, RAD = hızlı teslim ve prototip.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Vize Benzeri</div>
+      <div class="q-text">Hangi yapısal metodolojide tasarım prototipleri kullanılır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Şelale Modeli</li><li><span class='opt'>B)</span> Spiral Model</li><li><span class='opt'>C)</span> Paralel Geliştirme</li><li><span class='opt'>D)</span> v Modeli</li><li><span class='opt'>E)</span> Aşamalı Geliştirme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek B şıkkıdır. Bu soru 1. sistem geliştirme yaşam döngüsü ve yöntemler başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bu başlıkla ilgili doğru bilgi / doğru kavram eşleştirmesidir?</div>
+      <ul class="options"><li><span class='opt'>E)</span> Evrimsel Prototipleme</li><li><span class='opt'>A)</span> Spiral Model</li><li><span class='opt'>B)</span> Şelale Modeli</li><li><span class='opt'>C)</span> Çevik Modeller</li><li><span class='opt'>D)</span> Aşamalı Geliştirme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek C şıkkıdır. Bu soru 1. sistem geliştirme yaşam döngüsü ve yöntemler başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Bütünleme Benzeri</div>
+      <div class="q-text">Farklı teknolojilerin kullanılmasının zorunlu olduğu projeler için en doğru sistem geliştirme metodolojisi aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Sistem prototipleme</li><li><span class='opt'>B)</span> Paralel Geliştirme</li><li><span class='opt'>C)</span> v modeli</li><li><span class='opt'>D)</span> Şelale modeli</li><li><span class='opt'>E)</span> Tasarım prototipleme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek E şıkkıdır. Bu soru 1. sistem geliştirme yaşam döngüsü ve yöntemler başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>2. Proje Yönetimi, Fizibilite ve Risk Analizi</h2>
+      <div class="section-body">
+        <p>Bilişim projelerinde yalnızca teknik başarı değil; süre, maliyet, kaynak, kapsam ve risk yönetimi de temel değerlendirme başlığıdır. Sorular proje beyanı, iş kırılım yapısı, görev atama mantığı ve zamanlama araçları çevresinde yoğunlaşır.</p><p>Proje beyanı; amaç, kapsam, beklenen çıktı, süre ve risk gibi üst düzey bilgileri toplar. Ancak her ayrıntılı operasyonel eşleştirme burada yer almaz. Bu ayrımı bilmek, ‘proje beyanında ne bulunur / bulunmaz’ sorularında çok önemlidir.</p><p>Fizibilite analizinde teknik, ekonomik, operasyonel, yasal ve çizelge boyutları birlikte değerlendirilir. Örneğin yeni bir sunucunun satın alınması teknik fizibilite ile ilgilidir; organizasyonun yeni sistemi benimsemesi ise operasyonel veya örgütsel boyuta yaklaşır.</p><p>Risk analizinde olasılık, etki ve tespit edilebilirlik gibi değerlerden hareket edilerek önceliklendirme yapılır. FMEA tipi sorularda bu sayıların çarpımıyla skor hesaplanır. Ayrıca risk yanıtı geliştirme çıktısının risk kütüğü olması gibi doğrudan bilgi soruları da gelir.</p><p>Gantt şeması, özellikle kısa süreli projelerde toplam zaman çizelgesini izlemek için kullanılır. İş kırılım yapısı ise projeyi yönetilebilir parçalara ayırır. RACI matrisi görevlerin kim tarafından yapılacağı, onaylanacağı, danışılacağı ve bilgilendirileceğini netleştirir.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Proje yönetimi sorularında ‘hangi araç neyi gösterir’ mantığıyla çalışmak çok iş görür: Gantt = zaman, WBS = iş parçaları, RACI = sorumluluk, risk kütüğü = risklerin kaydı.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Final Benzeri</div>
+      <div class="q-text">Hata türleri ve etkileri analizinde gereksinimlerin eksik belirlenmesi riski ile ilgili şiddet için 7, olasılık için 8 ve tespit ihtimali için 10 değerleri belirlenmiştir. Bu durumda risk öncelik skoru aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> 121</li><li><span class='opt'>B)</span> 8,33</li><li><span class='opt'>C)</span> 66</li><li><span class='opt'>D)</span> 560</li><li><span class='opt'>E)</span> 25</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek D şıkkıdır. Bu soru 2. proje yönetimi, fizibilite ve risk analizi başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Final Benzeri</div>
+      <div class="q-text">Nispeten kısa süreli projeler için toplam proje süresi aşağıdaki yöntemlerin hangisi ile belirlenir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Gantt</li><li><span class='opt'>B)</span> Fizibilite</li><li><span class='opt'>C)</span> Risk analizi</li><li><span class='opt'>D)</span> İş Kırılımı</li><li><span class='opt'>E)</span> Tornado grafiği</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Gantt şeması zaman planlamasını görünür kılar. Özellikle görevlerin süre ve sıralamasını izlemek için kullanılır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Proje beyanı ile ilgili aşağıdakilerden hangisi yanlıştır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> İş paketi ile ekip elemanlarının eşleştirmelerini içerir.</li><li><span class='opt'>B)</span> Maksimum izin verilen süre tahminlerini içerir.</li><li><span class='opt'>C)</span> Son ürün ile ilgili tahminleri içerir.</li><li><span class='opt'>D)</span> Ana amaç ve alt amaçları içerir.</li><li><span class='opt'>E)</span> Proje riskleri ile ilgili bir liste içerir.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek A şıkkıdır. Bu soru 2. proje yönetimi, fizibilite ve risk analizi başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>3. Gereksinim Analizi ve Mantık Modelleme</h2>
+      <div class="section-body">
+        <p>Analiz aşamasının kalbi gereksinimlerin doğru tanımlanmasıdır. Fonksiyonel gereksinimler sistemin ne yapacağını açıklar; fonksiyonel olmayan gereksinimler ise performans, güvenilirlik, güvenlik, kullanılabilirlik gibi kalite niteliklerini ifade eder.</p><p>Sınavlarda sık yapılan ölçüm, fonksiyonel olmayan gereksinimlerin ‘sistemin ne yaptığı’ ile karıştırılmasıdır. Oysa bu gereksinimler daha çok sistemin nasıl çalışması gerektiğini, hangi kalite sınırlarını karşılaması gerektiğini anlatır.</p><p>Mantık modelleme özellikle karmaşık kuralların bulunduğu iş süreçlerinde önem kazanır. Çok sayıda kombinasyon veya koşul varsa karar tabloları daha düzenli bir yapı sunar. Akış ve dallanma ağırlıklı durumlarda karar ağaçları daha sezgisel olabilir.</p><p>Yapısal dil ve doğal anlatım teknikleri daha sade kurallarda kullanılabilir; ancak çok değişkenli ve istisnalı yapılarda tablo yaklaşımı genellikle daha güçlüdür. Bu nedenle hangi modelleme tekniğinin hangi problem türüne uygun olduğunu ezberden çok mantıkla kavramak gerekir.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Fonksiyonel = işlev, fonksiyonel olmayan = kalite koşulu. Karar tablosu = çok kombinasyon, karar ağacı = dallanan akış.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Karmaşık kural yapıları ve çokça kombinasyon olduğu durumlarda hangi mantıkmodelleme yapısı tercih edilmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Yapısal dil</li><li><span class='opt'>B)</span> Doğal dil işleme</li><li><span class='opt'>C)</span> Çok kriterli karar verme</li><li><span class='opt'>D)</span> Karar ağaçları</li><li><span class='opt'>E)</span> Karar tabloları</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Çok sayıda kural ve kombinasyon olduğunda karar tabloları tercih edilir. Çünkü koşulları satır–sütun düzeninde sistematik biçimde göstermeyi kolaylaştırır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Final Benzeri</div>
+      <div class="q-text">Karmaşık kural yapıları ve çokça kombinasyon olduğu durumlarda aşağıdaki hangi mantık modelleme yapısı tercih edilmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Doğal dil işleme</li><li><span class='opt'>B)</span> Çok kriterli karar verme</li><li><span class='opt'>C)</span> Karar tabloları</li><li><span class='opt'>D)</span> Karar ağaçları</li><li><span class='opt'>E)</span> Yapısal dil</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Çok sayıda kural ve kombinasyon olduğunda karar tabloları tercih edilir. Çünkü koşulları satır–sütun düzeninde sistematik biçimde göstermeyi kolaylaştırır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Fonksiyonel olmayan gereksinimler ile alakalı aşağıdakilerden hangisi yanlıştır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Ölçümü kolay değildir.</li><li><span class='opt'>B)</span> Başarısızlık durumunda sistem bir bütün olarak kullanışsız hale gelir.</li><li><span class='opt'>C)</span> Bir sistemin &quot;ne&quot; yapması gerektiğini ifade eder.</li><li><span class='opt'>D)</span> İşlevleri destekleyen gereksinimlerdir.</li><li><span class='opt'>E)</span> Performans ile alakalıdır.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek C şıkkıdır. Bu soru 3. gereksinim analizi ve mantık modelleme başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>4. Veri Akış Diyagramları, Veri Sözlüğü ve Analiz Teknikleri</h2>
+      <div class="section-body">
+        <p>Veri akış diyagramları sistemin içinde verinin nasıl dolaştığını görselleştirmek için kullanılır. Bağlam diyagramı bu yapının en üst soyut seviyesidir ve sistemi tek bir süreç olarak gösterir.</p><p>Harici varlıklar sistem dışındaki kişi, kurum ya da başka sistemleri temsil eder. Bu varlıkların sistem ile veri alışverişi olabilir; ancak bazı akışlar belirli kurallara tabidir. Özellikle ‘harici varlıklar arası akış’, ‘harici varlık–veri deposu ilişkisi’ ve ‘tekrar eden varlık gösterimi’ sorularda çok görünür.</p><p>Veri sözlüğü ise süreçler, veri akışları ve veri depolarına ait tanımları standartlaştırır. Analistin ortak bir dil kurmasını sağlar. Hangi sütunun hangi tabloda bulunacağına dair ayrıntılı bilgi soruları burada karşımıza çıkar.</p><p>Analiz teknikleri içinde gözlem, görüşme ve doküman inceleme gibi yöntemler de önemlidir. Gözlem yapılırken dikkat çekmeden ilerlemek, davranışı bozmayacak şekilde veri toplamak ve mümkün olduğunca sistematik not almak temel ilkeler arasındadır.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Bağlam diyagramı en üst görünümüdür. Veri sözlüğü ise bu görünümün sözlü / tanımsal tamamlayıcısıdır.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bu başlıkla ilgili doğru bilgi / doğru kavram eşleştirmesidir?</div>
+      <ul class="options"><li><span class='opt'>B)</span> Kullanılan süreç, son ürün olan yazılım ile adlandırılır.</li><li><span class='opt'>A)</span> Her bir yazılım projesinden tek bir defa çizilir.</li><li><span class='opt'>C)</span> Sadece 1 süreç içerir.</li><li><span class='opt'>D)</span> Sistem ile harici varlıklar arasındaki veri akışını gösterir.</li><li><span class='opt'>E)</span> Bağlam diyagramında harici varlıklar arasındaki akışa izin verilir.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek E şıkkıdır. Bu soru 4. veri akış diyagramları, veri sözlüğü ve analiz teknikleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Veri akış diyagramlarında harici varlık bileşeninin kullanımı ile ilgili aşağıdakilerden hangisi yanlıştır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Bir harici varlık birden fazla süreçle etkileşime girmez.</li><li><span class='opt'>B)</span> Harici varlıklar ile veri depoları arasında akış olmaz.</li><li><span class='opt'>C)</span> Harici varlıklar arasında akışa izin verilmez.</li><li><span class='opt'>D)</span> Harici varlıklar birden fazla tekrar edilebilir.</li><li><span class='opt'>E)</span> Bütün veri akış diyagramı seviyelerinde kullanılabilir.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek C şıkkıdır. Bu soru 4. veri akış diyagramları, veri sözlüğü ve analiz teknikleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Bütünleme Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bu başlıkla ilgili doğru bilgi / doğru kavram eşleştirmesidir?</div>
+      <ul class="options"><li><span class='opt'>E)</span> Süreçler birden fazla girdi alıp birden fazla çıktı üretebilir.</li><li><span class='opt'>A)</span> Diyagramda temel fonksiyonlar süreç olarak verilir.</li><li><span class='opt'>B)</span> Bağlam diyagramındaki akışlar ile dengeli olarak çizilir.</li><li><span class='opt'>C)</span> Harici varlıklar diyagram içerisinde tekrar edilebilir.</li><li><span class='opt'>D)</span> Veri depolarına diyagram içerisinde yer verilmez.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek D şıkkıdır. Bu soru 4. veri akış diyagramları, veri sözlüğü ve analiz teknikleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>5. Veri Tabanı Modelleme ve İlişkiler</h2>
+      <div class="section-body">
+        <p>Dersin bir başka güçlü alanı veri tabanı modelleme konusudur. Hiyerarşik, ağ, ilişkisel ve nesne yönelimli modellerin tarihsel gelişimi ve özellikleri sınavlarda tekrar eder.</p><p>Varlıklar arasındaki ilişki türleri bire-bir, bire-çok ve çoka-çok olarak sınıflandırılır. Yazar–kitap örneği gibi çok bilinen kalıplar, ilişkileri yorumlama sorularında karşımıza çıkar. İlişkiyi doğru okuyabilmek için her iki taraftaki tekrar sayısını düşünmek gerekir.</p><p>Anahtar kavramları da önemli bir ezber alanıdır ama sadece isim ezberi yeterli değildir. Birincil anahtar kaydı benzersiz tanımlar; yabancı anahtar tablolar arası ilişki kurar; aday anahtar potansiyel benzersiz alanları ifade eder; bileşik anahtar ise birden fazla alanın birleşimiyle oluşur.</p><p>Sorular bazen doğrudan ‘hangi model daha eski’ gibi tarihsel bilgi ister, bazen de seçeneklerde ilişki adları karıştırılarak kavram ölçülür. Bu nedenle kavram çiftlerini birlikte çalışmak yararlı olur.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> İlişki sorularında tablo zihninde kurulmalı: bir kayıt karşı tarafta kaç kayıtla eşleşebiliyor? Anahtar sorularında ise işlev farkı mutlaka bilinmeli.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2024-2025 Final Benzeri</div>
+      <div class="q-text">Tek bir boş değere müsaade eden tamamen benzersiz değerler içeren anahtar türü aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Yabancı</li><li><span class='opt'>B)</span> Süper</li><li><span class='opt'>C)</span> Birincil</li><li><span class='opt'>D)</span> Tekil</li><li><span class='opt'>E)</span> Aday</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek D şıkkıdır. Bu soru 5. veri tabanı modelleme ve i̇lişkiler başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bu başlıkla ilgili doğru bilgi / doğru kavram eşleştirmesidir?</div>
+      <ul class="options"><li><span class='opt'>B)</span> Çoka-Çok</li><li><span class='opt'>A)</span> Çoka-Bir</li><li><span class='opt'>C)</span> Tekli ilişki</li><li><span class='opt'>D)</span> Bire-Çok</li><li><span class='opt'>E)</span> Bire-Bir</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek E şıkkıdır. Bu soru 5. veri tabanı modelleme ve i̇lişkiler başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bu başlıkla ilgili doğru bilgi / doğru kavram eşleştirmesidir?</div>
+      <ul class="options"><li><span class='opt'>E)</span> Aday</li><li><span class='opt'>A)</span> Bileşik</li><li><span class='opt'>B)</span> İkincil</li><li><span class='opt'>C)</span> Süper</li><li><span class='opt'>D)</span> Yabancı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek A şıkkıdır. Bu soru 5. veri tabanı modelleme ve i̇lişkiler başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>6. Girdi/Çıktı Tasarımı, Arayüz ve Gösterge Panelleri</h2>
+      <div class="section-body">
+        <p>Arayüz ve girdi tasarımı dersin uygulamaya yakın bölümlerindendir. Girdi kontrolleri, hatalı veriyi daha başta önlemeyi amaçlar. Aralık kontrolü, biçim kontrolü, tamlık kontrolü ve tutarlılık kontrolleri farklı durumlara karşı kullanılır.</p><p>Örneğin yaş alanına 120’den büyük değer girilememesi aralık kontrolüdür. Benzer girdilere sistemin aynı tepkiyi vermesi ise kararlılık kriteri ile ilişkilidir. Bu tür sorular tanım bilgisi kadar küçük senaryo yorumlama becerisi de ister.</p><p>Gösterge panelleri, özellikle yöneticilerin hızlı karar vermesi için özet ve görsel bilgi sunar. Görsel analitik sayesinde eğilimleri görmek, geleceğe dönük yorum yapmak ve performans sapmalarını fark etmek mümkün olur.</p><p>Bu bölümde kullanılabilirlik, erişilebilirlik, sadelik ve etkili sunum ilkeleri birlikte düşünülmelidir. İyi bir panel yalnızca güzel görünen değil; doğru bilgiyi doğru yoğunlukta ve hızlı okunabilir biçimde veren paneldir.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Arayüz sorularında örnek olayları kavramla eşleştir. ‘Sınır aşımı’ = aralık kontrolü, ‘aynı girdiye aynı tepki’ = kararlılık, ‘özet görselleştirme’ = gösterge paneli.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Farklı sistem parçalarının benzer girdilere karşı aynı şekilde tepki üretmesi girditasarımının hangi kriteri ile alakalıdır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Yalınlık</li><li><span class='opt'>B)</span> Etkililik</li><li><span class='opt'>C)</span> Kullanılabilirlik</li><li><span class='opt'>D)</span> Erişilebilirlik</li><li><span class='opt'>E)</span> Kararlılık</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Aynı tür girdilere sistemin aynı tepkiyi vermesi kararlılık ilkesidir. Bu, kullanıcı deneyiminde öngörülebilirlik sağlar.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Yaş bilgisinin girilmesi gereken bir ekranda 120 sayısından daha büyük bir değerin girişine müsaade edilmemesi hangi girdi kontrolü ile alakalıdır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Tutarlılık</li><li><span class='opt'>B)</span> Aralık</li><li><span class='opt'>C)</span> Veri tabanı</li><li><span class='opt'>D)</span> Biçim</li><li><span class='opt'>E)</span> Tamlık</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Belirli alt–üst sınırlar arasında veri kabul edilmesi aralık kontrolüdür. Hatalı sayı girişlerini erkenden engeller.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Bütünleme Benzeri</div>
+      <div class="q-text">Yaş bilgisinin girilmesi gereken bir ekranda 120 sayısından daha büyük bir değerin girişine müsaade edilmemesi aşağıdaki hangi girdi kontrolü ile alakalıdır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Biçim</li><li><span class='opt'>B)</span> Tamlık</li><li><span class='opt'>C)</span> Aralık</li><li><span class='opt'>D)</span> Veri tabanı</li><li><span class='opt'>E)</span> Tutarlılık</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Belirli alt–üst sınırlar arasında veri kabul edilmesi aralık kontrolüdür. Hatalı sayı girişlerini erkenden engeller.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>7. Bilişim Sistemleri Türleri ve Veri İşleme Yaklaşımları</h2>
+      <div class="section-body">
+        <p>Bilişim sistemleri örgütsel seviyelere göre farklı amaçlara hizmet eder. Hareket işleme sistemleri operasyonel düzeyde günlük işlemleri yürütür. Yönetim bilişim sistemleri orta düzey yönetime özet raporlar sunar. Karar destek sistemleri daha analitik ve model tabanlı karar desteği sağlar. Üst yönetici destek sistemleri ise stratejik görünüm için tasarlanır.</p><p>Sınavlarda bu sistem türlerinin seviyelerle eşleştirilmesi çok sık gelir. Bir kütüphane çıkışında kitabın öğrenci üzerine alınması gibi doğrudan işlem örnekleri hareket işleme sistemi mantığına girer.</p><p>Yığın ve çevrimiçi veri işleme ayrımı da dersin tekrar eden konularındandır. Yığın işlemede işlemler toplu halde daha sonra yürütülür; çevrimiçi işleme ise olay anında hızlı tepki vermeyi hedefler. Kurtarma ve yeniden başlatma kolaylığı gibi farklar ayırt edici noktalardandır.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Sistem türlerini örgüt seviyesi ile birlikte ezberlemek gerekir: operasyonel = TPS, taktiksel = MIS/DSS, stratejik = ESS.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bu başlıkla ilgili doğru bilgi / doğru kavram eşleştirmesidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Karar destek sistemleri – Operasyonel seviye</li><li><span class='opt'>B)</span> Bilgi çalışanı sistemleri – Orta (Taktiksel) seviye</li><li><span class='opt'>C)</span> Üst yönetici destek sistemleri – Stratejik seviye</li><li><span class='opt'>D)</span> Yönetim bilişim sistemleri – Orta (Taktiksel) seviye</li><li><span class='opt'>E)</span> Hareket işleme sistemleri – Operasyonel seviye</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek A şıkkıdır. Bu soru 7. bilişim sistemleri türleri ve veri i̇şleme yaklaşımları başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2024-2025 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bu başlıkla ilgili doğru bilgi / doğru kavram eşleştirmesidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Üst yönetici destek sistemleri - Stratejik seviye</li><li><span class='opt'>B)</span> Bilgi çalışanı sistemleri - Orta (Taktiksel) seviye</li><li><span class='opt'>C)</span> Karar destek sistemleri - Operasyonel seviye</li><li><span class='opt'>D)</span> Yönetim bilişim sistemleri - Orta (Taktiksel) seviye</li><li><span class='opt'>E)</span> Hareket işleme sistemleri - Operasyonel seviye</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek C şıkkıdır. Bu soru 7. bilişim sistemleri türleri ve veri i̇şleme yaklaşımları başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi bu başlıkla ilgili doğru bilgi / doğru kavram eşleştirmesidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Üst Yönetici Destek Sistemi</li><li><span class='opt'>B)</span> Bilgi Çalışanı Sistemi</li><li><span class='opt'>C)</span> Karar Destek Sistemi</li><li><span class='opt'>D)</span> Coğrafi Bilgi Sistemi</li><li><span class='opt'>E)</span> Yönetim Bilişim Sistemi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek C şıkkıdır. Bu soru 7. bilişim sistemleri türleri ve veri i̇şleme yaklaşımları başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <div class="footer">Başarılar dilerim.</div>
+  </div>
+</body>
+</html>
