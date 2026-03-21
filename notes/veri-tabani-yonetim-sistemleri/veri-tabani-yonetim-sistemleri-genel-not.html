@@ -1,0 +1,426 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/><title>Veri Tabanı Yönetim Sistemleri Ders Notu</title><style>
+:root{
+ --bg:#f4f7fb;--panel:#ffffff;--soft:#f8fbff;--line:#d8e3f2;--text:#20304a;--muted:#5f718f;
+ --blue:#4f7ee8;--blue-soft:#ebf2ff;--gold:#f5a524;--gold-soft:#fff8e8;
+ --green:#0f766e;--green-soft:#ecfdf5;--rose:#e11d48;--rose-soft:#fff1f2;--purple:#7c3aed;--purple-soft:#f5f0ff;
+}
+*{box-sizing:border-box} body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:linear-gradient(180deg,#eef3fb 0%,#f8fbff 100%);color:var(--text);line-height:1.75}
+.container{width:min(1140px,calc(100% - 32px));margin:28px auto 60px}
+.hero{background:linear-gradient(135deg,#ffffff 0%,#eef4ff 100%);border:1px solid var(--line);border-radius:28px;padding:36px;box-shadow:0 18px 40px rgba(61,93,152,.08)}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-weight:800;font-size:13px;letter-spacing:.2px}
+h1{margin:16px 0 10px;font-size:40px;line-height:1.18;color:#1d2b44}.lead{margin:0;color:var(--muted);font-size:17px}
+section.topic{margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 12px 28px rgba(61,93,152,.06)}
+.topic-head{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;margin-bottom:12px}.topic-index{background:var(--blue-soft);color:var(--blue);padding:8px 12px;border-radius:999px;font-weight:800;font-size:13px}.topic-title{font-size:29px;font-weight:800;color:#1f2f4d;margin:2px 0 0}
+.topic-grid{display:grid;grid-template-columns:1.45fr .95fr;gap:18px;margin-top:18px}.card{background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:20px}.card h3{margin:0 0 12px;font-size:18px;color:#24406d}.card p{margin:0 0 12px}.card ul{margin:0;padding-left:18px}.card li{margin:6px 0}
+.callout{border-radius:18px;padding:14px 16px;margin-top:12px;font-size:15px}.callout.attn{background:var(--gold-soft);border:1px solid #f0dfac;color:#6b5310}.callout.note{background:var(--green-soft);border:1px solid #bde7db;color:#0f5f56}.callout.mix{background:var(--rose-soft);border:1px solid #f4c9d4;color:#8c2040}
+.questions{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.qcard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px}.qbadge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef3ff;color:#355fbe;font-weight:800;font-size:12px;margin-bottom:10px}.qcard h4{margin:0 0 10px;font-size:17px;line-height:1.5}.opts{display:grid;gap:8px;margin:12px 0}.opt{background:#f9fbff;border:1px solid #dde7f6;border-radius:12px;padding:10px 12px;font-size:14px}.answer{margin-top:12px;padding:12px 14px;border-radius:14px;background:#f6fbf8;border:1px solid #cfe8d8}.answer strong{color:#14532d}.footer{margin-top:30px;text-align:center;color:var(--muted);font-size:14px}
+@media (max-width:900px){.topic-grid,.questions{grid-template-columns:1fr}h1{font-size:32px}.topic-title{font-size:24px}}
+</style></head><body><div class='container'><div class='hero'><span class='badge'>YBS • Gelişmiş ders notu</span><h1>Veri Tabanı Yönetim Sistemleri</h1><p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Veri Tabanı Yönetim Sistemleri dersi; temel kavramlar, varlık-ilişki modeli, anahtarlar, normalizasyon ve ilişkisel cebir başlıkları etrafında parçalı biçimde düzenlenmiştir.</p></div>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 1</div>
+            <div class='topic-title'>Veri Tabanına Giriş ve Temel Kavramlar</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Veri tabanı, verilerin düzenli biçimde saklanmasını, erişilmesini ve yönetilmesini sağlayan sistemli bir yapıdır. Özellikle büyük ve ilişkili veri kümelerinde düzeni korumak için gereklidir.</p>
+              <p>Tablo, kayıt, alan, hücre, anahtar ve şema gibi temel kavramlar dersin omurgasını oluşturur. Bu kavramların doğru anlaşılması sonraki başlıkları kolaylaştırır.</p>
+              <p>Sınavlarda en temel düzeyde satır, sütun, tablo ve hücre adlandırmaları sık sorulur. Basit görünen bu kısım ilerideki tasarım sorularının temelidir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Tablo verileri satır ve sütunlarla tutar.</li><li>Her satır bir kaydı temsil eder.</li><li>Her sütun belirli bir özelliği gösterir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Kayıt, alan ve hücre kavramlarını birbirine karıştırma.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Veri tabanı yalnız depolama değil, yönetim mantığı da sunar.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Tablo yapısı ile şema kavramı aynı değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Veri tabanı tablolarında satır ve sütunların kesiştiği noktaya ne ad verilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Alan</div><div class='opt'><strong>B)</strong> Kayıt</div><div class='opt'><strong>C)</strong> Form</div><div class='opt'><strong>D)</strong> Hücre</div><div class='opt'><strong>E)</strong> Sayfa</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - Hücre<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Bir veri tabanının mantıksal yapısını tanımlarken kullanılan kavramlar, işlemler ve kurallar bütününe ne ad verilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Veri deposu</div><div class='opt'><strong>B)</strong> Veri ambarı</div><div class='opt'><strong>C)</strong> Veri tabam</div><div class='opt'><strong>D)</strong> Veri mimarisi</div><div class='opt'><strong>E)</strong> Veri modeli</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Veri modeli<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 2</div>
+            <div class='topic-title'>Veri Modelleri ve Şema Kavramı</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Veri modeli, verilerin nasıl temsil edileceğini ve aralarındaki ilişkilerin nasıl kurulacağını belirleyen çerçevedir. Hiyerarşik, ağ, ilişkisel ve nesne yönelimli yaklaşımlar bu bağlamda değerlendirilebilir.</p>
+              <p>Şema ise veri tabanının mantıksal tasarımını ifade eder. Tablolar, alanlar, kısıtlar ve ilişkiler şema içinde tanımlanır.</p>
+              <p>İlişkisel model günümüzde en yaygın yapı olduğu için ders sorularında çoğunlukla bu model temel alınır. Ancak diğer modellerin mantığı da genel kültür olarak bilinmelidir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Veri modeli temsil çerçevesidir.</li><li>Şema mantıksal düzeni gösterir.</li><li>İlişkisel model en yaygın kullanılan yapıdır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Model ile şema aynı terim değildir; biri yaklaşım, diğeri tasarım ifadesidir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Kurallar ve işlemler veri modelinin ayrılmaz parçasıdır.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Fiziksel tasarım ile mantıksal şema sıklıkla karıştırılır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Varlık ilişki modelinde nesne, yer, kişi gibi kavramlar hangi öğe ile temsil edilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> İlişki</div><div class='opt'><strong>B)</strong> Sütun</div><div class='opt'><strong>C)</strong> Nitelik</div><div class='opt'><strong>D)</strong> Satır</div><div class='opt'><strong>E)</strong> Varlık</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Varlık<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Normal formlar ile ilgili aşağıdakilerden hangisi yanlıştır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Normalleştirme işlemi temelde veri tekrarını engellemek için yapılır.</div><div class='opt'><strong>B)</strong> Birinci normal formda hazırlanmış bir tabloda ekleme, silme ve güncelleme sırasında sorunlar olabilir.</div><div class='opt'><strong>C)</strong> Normal formun derecesi arttıkça bozulma oranı da artmaktadır.</div><div class='opt'><strong>D)</strong> Boyce-Codd Normal Formu Üçüncü ve Dördüncü Normal Formlar arasında yer alır.</div><div class='opt'><strong>E)</strong> Birinci normal formdan ikinci normal forma geçişte kısmi bağımlılıkların ortadan kaldırılması gerekmektedir.</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - Normal formun derecesi arttıkça bozulma oranı da artmaktadır.<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 3</div>
+            <div class='topic-title'>Varlık-İlişki Modeli</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Varlık-İlişki modeli, veri tabanı tasarımında gerçek dünyadaki nesneleri ve bunlar arasındaki bağları görselleştirmek için kullanılır. Tasarımın kavramsal aşamasında oldukça etkilidir.</p>
+              <p>Varlıklar kişi, nesne veya olay gibi bağımsız tanımlanabilen öğelerdir. İlişkiler ise bu varlıklar arasındaki bağlantıları gösterir.</p>
+              <p>Bu model sayesinde hangi bilgilerin ayrı tablolar halinde tutulacağı ve tablolar arasında nasıl bağ kurulacağı daha net anlaşılır.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Varlık = bağımsız tanımlanabilen öğe.</li><li>İlişki = varlıklar arası bağ.</li><li>Nitelik = varlığın özelliği.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Varlık, ilişki ve nitelik üçlüsünü birbirinden ayır.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> ER modeli veritabanı oluşturmaz; tasarım rehberi sağlar.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Tablo ile varlık kavramı benzer olsa da aynı düzeyde değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 FINAL</div>
+      <h4>Veri tabanındaki bir tablonun bir kaydı ile diğer tablonun bir kaydı eşleştirilirse bu iki tablo arasındaki ilişki nasıl bir ilişki olur?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Bire bir ilişki</div><div class='opt'><strong>B)</strong> Çoka bir ilişki</div><div class='opt'><strong>C)</strong> Belirsiz ilişki</div><div class='opt'><strong>D)</strong> Çoka çok ilişki</div><div class='opt'><strong>E)</strong> Bire çok ilişki</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> A - Bire bir ilişki<br/><span>Doğru seçenek A şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 FINAL</div>
+      <h4>Alanları PersonelNo, Adı, Görevi, Ücret, BölümNo olan bir PERSONEL tablosu ve alanları BölümNo, Bölüm Adı, Konum olan bir BÖLÜM tablosu arasındaki ilişki nasıl kurulur?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> İki tablodaki en çok veriye sahip olan alan üzerinde işlem yapılarak</div><div class='opt'><strong>B)</strong> İki tabloda ortak olan BölümNo alanından faydalanılarak</div><div class='opt'><strong>C)</strong> İki tablodaki herhangi bir alan üzerinde işlem yapılarak</div><div class='opt'><strong>D)</strong> İki tablodaki en az veriye sahip olan alan üzerinde işlem yapılarak</div><div class='opt'><strong>E)</strong> İki tablodaki bütün alanlar birleştirilerek</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - İki tabloda ortak olan BölümNo alanından faydalanılarak<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 4</div>
+            <div class='topic-title'>Tablo Yapısı, Alan ve Kayıt Mantığı</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>İlişkisel veri tabanlarında tablo yapısı verinin düzenli biçimde tutulmasını sağlar. Satırlar kayıtları, sütunlar ise alanları temsil eder.</p>
+              <p>Her alan belirli bir veri tipine, kurala ve kullanım amacına sahiptir. Alan tanımları doğru yapılmazsa veri bütünlüğü bozulur.</p>
+              <p>Bu başlık altında alan adı, veri tipi, varsayılan değer ve zorunluluk gibi özellikler önem kazanır. Çünkü doğru tablo tasarımı, sonraki işlemlerin temelidir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Sütun = alan, satır = kayıt.</li><li>Alanlar ortak tipte veri taşır.</li><li>Kurallar veri tutarlılığı sağlar.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Alan özellikleriyle kayıt içeriğini karıştırma.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Her sütundaki değerler aynı tip ve kurala uygun olmalıdır.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Alan tipi ile alan genişliği aynı şey değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Bir veri tabanı tablosundaki bir alandaki tüm verilerin ortak olarak sahip olması gereken özellik aşağıdaki isimlerin hangisi ile ifade edilebilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Veri adı</div><div class='opt'><strong>B)</strong> Veri türü</div><div class='opt'><strong>C)</strong> Veri alanı</div><div class='opt'><strong>D)</strong> Veri nesnesi</div><div class='opt'><strong>E)</strong> Veri sayfası</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - Veri türü<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Herhangi bir veri tabanı tablosu içerisinde çeşitli tekrarlı veriler mevcutsa bu tablonun hangi normal formda olduğu söylenebilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 1NF</div><div class='opt'><strong>B)</strong> 4NF</div><div class='opt'><strong>C)</strong> 2NF</div><div class='opt'><strong>D)</strong> 3NF</div><div class='opt'><strong>E)</strong> 5NF</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> A - 1NF<br/><span>Doğru seçenek A şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 5</div>
+            <div class='topic-title'>Anahtar Kavramları ve Birincil Anahtar</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Anahtarlar, tablolardaki kayıtların ayırt edilmesini ve tablolar arasında ilişki kurulmasını sağlar. Veri tabanının düzeni açısından anahtar kullanımı temel gerekliliktir.</p>
+              <p>Birincil anahtar her kaydı benzersiz biçimde tanımlamalı, boş değer almamalı ve mümkün olduğunca değişmez olmalıdır. Yabancı anahtar ise başka bir tablonun birincil anahtarına referans verir.</p>
+              <p>Sınavlarda hangi alanın birincil anahtar olmaya uygun olduğu veya neden uygun olmadığı sıkça sorulur.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>PK benzersizlik sağlar.</li><li>PK boş bırakılamaz.</li><li>FK tablolar arası bağlantı kurar.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Benzersizlik ve null alamama özelliklerini unutma.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Anlamlı görünen her alan birincil anahtar olmak zorunda değildir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Birincil anahtar ile aday anahtar kavramları karıştırılabilir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Aşağıdakilerden hangisi “birincil anahtar” alanı için uygun değildir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> TC kimlik numarası</div><div class='opt'><strong>B)</strong> Müşteri numarası</div><div class='opt'><strong>C)</strong> Otomatik olarak artan bir sayı</div><div class='opt'><strong>D)</strong> Doğum tarihi</div><div class='opt'><strong>E)</strong> Memur sicil numarası</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - Doğum tarihi<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Bir anahtara bağlı olmayan geçişli bağımlılıklar tablolara dönüştürüldüğü zaman veri tabanlarındaki hangi normal form elde edilmiş olur?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 5NF</div><div class='opt'><strong>B)</strong> 4NF</div><div class='opt'><strong>C)</strong> INF</div><div class='opt'><strong>D)</strong> 2NF</div><div class='opt'><strong>E)</strong> 3NF</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - 3NF<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 6</div>
+            <div class='topic-title'>Veri Bütünlüğü ve Kısıtlar</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Veri bütünlüğü, veri tabanındaki bilgilerin doğru, tutarlı ve güvenilir kalmasını amaçlar. Bunun için çeşitli kurallar ve kısıtlar uygulanır.</p>
+              <p>Etki alanı bütünlüğü, varlık bütünlüğü ve referans bütünlüğü en temel üç başlıktır. Özellikle veri tipleri, boş değer kuralları ve ilişki tutarlılığı burada önemlidir.</p>
+              <p>Kısıtlar yalnız hatayı önlemek için değil, veri kalitesini sürdürebilmek için de kullanılır. Bu nedenle tasarım aşamasında dikkatle planlanmalıdır.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Domain kuralları alan bazındadır.</li><li>Entity integrity anahtar mantığıyla ilişkilidir.</li><li>Referential integrity ilişki tutarlılığını korur.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Bütünlük kurallarını örnekle düşünmek öğrenmeyi kolaylaştırır.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Kısıt yoksa veri tabanı çalışabilir; ama güvenilirliği ciddi biçimde düşer.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Veri tipi kuralı ile referans bütünlüğü farklı seviyelerde çalışır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>İki veya daha fazla veri tabanı tablosunun tüm olası eşleştirmelerini bir araya getiren cebirsel işlem aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Kesişim</div><div class='opt'><strong>B)</strong> Birleşim</div><div class='opt'><strong>C)</strong> Kartezyen Çarpım</div><div class='opt'><strong>D)</strong> Fark</div><div class='opt'><strong>E)</strong> Doğal Birleşim</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - Kartezyen Çarpım<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Bir veri tabanı tablosunda bir alanın içerisindeki verilerin VARCHAR(10) olması demek ne anlama gelmektedir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Veriler en az 10(on) karakter uzunluğunda olmalıdır.</div><div class='opt'><strong>B)</strong> Bu alana en az 10 adet veri girilebilir.</div><div class='opt'><strong>C)</strong> Veriler kesin 10(on) karakter uzunluğunda olmalıdır.</div><div class='opt'><strong>D)</strong> Veriler en fazla 10(on) karakter uzunluğunda olmalıdır.</div><div class='opt'><strong>E)</strong> Bu alana en fazla 10 adet veri girilebilir.</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - Veriler en fazla 10(on) karakter uzunluğunda olmalıdır.<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 7</div>
+            <div class='topic-title'>Normalizasyonun Temeli</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Normalizasyon, veri tekrarını azaltmak ve tutarsızlığı önlemek amacıyla tablo yapısını düzenleme sürecidir. İyi bir tasarım güncelleme, ekleme ve silme anomalilerini azaltır.</p>
+              <p>İlk normal formdan başlayarak tablolar adım adım daha düzenli hale getirilir. Amaç gereksiz tekrarları ortadan kaldırmak ve bağımlılıkları doğru noktaya taşımaktır.</p>
+              <p>Ders sorularında çoğu zaman örnek tablo verilir ve hangi normal formda olduğu ya da hangi bozukluğun bulunduğu sorulur.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Tekrarı azaltır.</li><li>Bağımlılıkları düzenler.</li><li>Anomalileri önlemeye yardım eder.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Normalizasyonu sadece ezber değil, neden gerekli olduğu üzerinden öğren.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Aşırı parçalama her zaman en iyi sonuç olmayabilir; ihtiyaç dengesi kurulmalıdır.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Tekrarlı veri görmek doğrudan yüksek normal form anlamına gelmez.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Ortak sütunlara sahip olan iki veya daha fazla veri tabam tablosu arasında kurulan bağlantı aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Görünüm</div><div class='opt'><strong>B)</strong> İlişki</div><div class='opt'><strong>C)</strong> Varlık</div><div class='opt'><strong>D)</strong> Form</div><div class='opt'><strong>E)</strong> Veri</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - İlişki<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Bir veri tabanı tablosunda yer alan öğrencilerin öğrenci no, ad, soyad gibi bilgilerinin tutulduğu kısımlara ne ad verilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Satır</div><div class='opt'><strong>B)</strong> Alan</div><div class='opt'><strong>C)</strong> Bilgi</div><div class='opt'><strong>D)</strong> Kayıt</div><div class='opt'><strong>E)</strong> Dosya</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - Alan<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 8</div>
+            <div class='topic-title'>Birinci, İkinci ve Üçüncü Normal Form</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Birinci normal form, tekrar eden grupların kaldırılması ve her hücrede atomik değer bulunmasını ister. İkinci normal form, kısmi bağımlılıkların giderilmesini hedefler.</p>
+              <p>Üçüncü normal form ise geçişli bağımlılıkların kaldırılmasına odaklanır. Böylece alanlar yalnız anahtara ve tam olarak anahtara bağlı hale gelir.</p>
+              <p>Bu yapıların mantığını anlamak, tabloyu bölme nedenini kavramayı sağlar. Sorularda genellikle bağımlılık ilişkileri dolaylı biçimde ölçülür.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>1NF = atomiklik.</li><li>2NF = kısmi bağımlılık yok.</li><li>3NF = geçişli bağımlılık yok.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Her normal form bir öncekini kapsar; sıralama önemlidir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Normal form adları kadar bağımlılık mantığını öğrenmek gerekir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Kısmi bağımlılık ile geçişli bağımlılık sık karışır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Kredi (KrediNo, Ad, Soyad, KrediMiktari) şeklinde belirtilmiş olan bir tabloda yalnızca KrediMiktari 5000 TL’nin üzerinde olan işlemlerin sorgulatılması için aşağıdaki İşlemlerden hangisi kullanılır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Atma</div><div class='opt'><strong>B)</strong> Birleşim</div><div class='opt'><strong>C)</strong> Kesişim</div><div class='opt'><strong>D)</strong> Kartezyen çarpım</div><div class='opt'><strong>E)</strong> Seçim</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Seçim<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Sırasıyla, k,n ve m elemanlı üç tablonun kartezyen çarpımı sonucunda oluşan tablonun eleman sayısı kaç olur?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> kxm</div><div class='opt'><strong>B)</strong> Bilinemez</div><div class='opt'><strong>C)</strong> kxn</div><div class='opt'><strong>D)</strong> kxmxn</div><div class='opt'><strong>E)</strong> Yapılacak işleme göre değişir</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - kxmxn<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 9</div>
+            <div class='topic-title'>İlişkisel Cebir İşlemleri</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>İlişkisel cebir, ilişkisel veri tabanları üzerinde uygulanabilecek temel işlemleri tanımlar. Seçme, yansıtma, birleşim, fark, kartezyen çarpım ve birleştirme bu yapının temel taşlarıdır.</p>
+              <p>Bu işlemler sorgu mantığını kavramak için önemlidir. SQL öğrenirken arka plandaki düşünce sistemini ilişkisel cebir oluşturur.</p>
+              <p>Özellikle kartezyen çarpım ve join türleri sınavlarda sık çıkar. Çünkü tablolar arası ilişki mantığını doğrudan test ederler.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Seçme satır filtresi gibidir.</li><li>Yansıtma sütun seçimi gibidir.</li><li>Kartezyen çarpım tüm olası eşleşmeleri üretir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Tüm olası eşleşme ifadesi çoğu zaman kartezyen çarpımı işaret eder.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Join işlemleri ilişkisel cebirin pratikte en güçlü taraflarından biridir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Kartezyen çarpım ile doğal birleştirme aynı şey değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Aşağıdakilerden hangisi bir veri tabam tablosunda yapılan seçim işleminde kullanılabilecek olan bir karşılaştırma işlemi değildir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Eşit değildir</div><div class='opt'><strong>B)</strong> Küçüktür</div><div class='opt'><strong>C)</strong> Büyüktür</div><div class='opt'><strong>D)</strong> Eşittir</div><div class='opt'><strong>E)</strong> Elemanıdır</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Elemanıdır<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Bir veri tabanı tablosundaki bir sütuna ait verilerin başka bir tablonun sütunundan getirilmesini sağlayan anahtar aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Birleşik anahtar</div><div class='opt'><strong>B)</strong> Aday anahtar</div><div class='opt'><strong>C)</strong> İkincil anahtar</div><div class='opt'><strong>D)</strong> Birincil anahtar</div><div class='opt'><strong>E)</strong> Yabancı anahtar</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Yabancı anahtar<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 10</div>
+            <div class='topic-title'>İlişkiler, Join Mantığı ve Sorgu Düşüncesi</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Bir veri tabanında gerçek güç, tablolar arasındaki ilişkilerin doğru kurulmasıyla ortaya çıkar. Join mantığı da bu ilişkilerin sorgu sırasında nasıl kullanılacağını gösterir.</p>
+              <p>Primary key ve foreign key üzerinden kurulan bağlantılar, farklı tablolardaki bilgilerin anlamlı biçimde bir araya getirilmesini sağlar. Böylece veride tekrar azaltılırken raporlama gücü korunur.</p>
+              <p>Sınavlarda join işlemi doğrudan sorulmasa bile tablo eşleştirme mantığını bilmek çoğu soruda avantaj sağlar.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>İlişki tasarımı raporlamayı etkiler.</li><li>Join, ilişki kurulu alanlar üzerinden çalışır.</li><li>Yanlış ilişki yanlış sonuç üretir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Bağlantı kurulacak alanların anlamlı ve tutarlı olması gerekir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> İlişki kurmak veri tekrarını azaltırken esnek sorgu gücü sağlar.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Join ile ilişki tanımı farklı aşamalardır; biri sorgu, biri tasarımdır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Tabloda depolanan her satırı benzersiz şekilde tanımlayan bir veya daha çok alandan oluşabilen anahtar aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Süper Anahtar</div><div class='opt'><strong>B)</strong> İkincil Anahtar</div><div class='opt'><strong>C)</strong> Yedek Anahtar</div><div class='opt'><strong>D)</strong> Birincil Anahtar</div><div class='opt'><strong>E)</strong> Yabancı Anahtar</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - Birincil Anahtar<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 VIZE</div>
+      <h4>Veri tabanlarında tablolar elle ya da sorgu ile oluşturulabilir. Aşağıdakilerden hangisi sorgu ile tablo oluşturmayı sağlayan deyimdir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> DROP TABLE</div><div class='opt'><strong>B)</strong> CREATE TABLE</div><div class='opt'><strong>C)</strong> DELETE TABLE</div><div class='opt'><strong>D)</strong> INSERT TABLE</div><div class='opt'><strong>E)</strong> FILL TABLE</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - CREATE TABLE<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 11</div>
+            <div class='topic-title'>SQL Mantığına Giriş</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>SQL, ilişkisel veri tabanları ile iletişim kurmak için kullanılan standart dildir. Veri tanımlama, veri sorgulama ve veri güncelleme işlemlerini tek çatı altında sunar.</p>
+              <p>Bu derste her ne kadar teorik kavramlar önde olsa da SQL mantığını anlamak tablo, alan ve ilişki kavramlarını daha somut hale getirir. SELECT, INSERT, UPDATE ve DELETE temel komutlardır.</p>
+              <p>Sınavlarda bazen doğrudan SQL sorulmasa bile ilişkisel düşünce altyapısı SQL yaklaşımıyla paralel ilerler.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>DDL yapı kurar.</li><li>DML veri üzerinde işlem yapar.</li><li>Sorgu mantığı tablo ilişkilerine dayanır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> SQL komutlarını ezberlemekten çok ne işe yaradıklarını kavra.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Teorik tasarım ile pratik sorgulama birbirini tamamlar.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Komut türleri ve kullanım amaçları birbirine karıştırılabilir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Aşağıdakilerden hangisi bir veri tabanı tablosundaki bir alanın adı olabilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Veri Tabanı</div><div class='opt'><strong>B)</strong> Öğretmen</div><div class='opt'><strong>C)</strong> Rüya</div><div class='opt'><strong>D)</strong> Meslek</div><div class='opt'><strong>E)</strong> 1306</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - Meslek<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 FINAL</div>
+      <h4>Bir veri tabanında depolanacak verileri kısıtlayan koşullar aşağıdakilerden hangisi ile ifade edilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Veri kısıtlamaları</div><div class='opt'><strong>B)</strong> Alan kısıtlamaları</div><div class='opt'><strong>C)</strong> Anahtar kısıtlamaları</div><div class='opt'><strong>D)</strong> Tablo kısıtlamaları</div><div class='opt'><strong>E)</strong> Bütünlük kısıtlamaları</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Bütünlük kısıtlamaları<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 12</div>
+            <div class='topic-title'>Veri Tabanı Tasarımında Yorum Gücü</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Veri tabanı sorularında yalnız tanım bilmek yeterli olmaz; çoğu zaman verilen yapının neden doğru ya da yanlış olduğunu yorumlamak gerekir. Özellikle normalizasyon, anahtar seçimi ve ilişki kurma sorularında bu durum belirgindir.</p>
+              <p>İyi tasarım; veri tekrarını azaltan, sorgulamayı kolaylaştıran, bütünlüğü koruyan ve bakım maliyetini düşüren tasarımdır. Bu nedenle her kararın arkasında bir tasarım gerekçesi bulunmalıdır.</p>
+              <p>Dersi çalışırken her kavram için “neden gerekli?” sorusunu sormak kalıcı öğrenmeyi güçlendirir. Böylece çoktan seçmeli sorular daha rahat çözülür.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Doğru tasarım uzun vadede avantaj sağlar.</li><li>Her tablo bölme işlemi anlamlı olmalıdır.</li><li>Yorum gücü test başarısını artırır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Yanlış olanı soran köklerde küçük ayrıntılara dikkat et.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Ezber yerine mantık kurmak veri tabanı dersinde daha güvenli bir yöntemdir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Teorik kavramın adı bilinse bile uygulama yorumu eksik kalabilir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2023-2024 VIZE</div>
+      <h4>Veri girişi yapılacak bir tablodaki sütunun değer alıp almaması gerektiğini belirlemek için kullanılan ifade aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Check</div><div class='opt'><strong>B)</strong> View</div><div class='opt'><strong>C)</strong> Not Null</div><div class='opt'><strong>D)</strong> Unique</div><div class='opt'><strong>E)</strong> Default</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - Not Null<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2023-2024 FINAL</div>
+      <h4>Personel arasında görevi MEMUR olanlara %10, ŞEF olanlara %15, MÜDÜR olanlara ise %20 zam yapılması için gerçekleştirilecek olan SQL sorgusu aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> SELECT Adı, Görevi, Ücret DECODE(Görevi, Ücret*1,10, Ücret*1,15, Ücret*1,20) FROM PERSONEL;</div><div class='opt'><strong>B)</strong> SELECT Adı, Görevi, Ücret DECODE(Görevi, ‘Memur’, ‘Şef’, ‘Müdür’, Ücret*1,10, Ücret*1,15, Ücret*1,20, Ücret) FROM PERSONEL;</div><div class='opt'><strong>C)</strong> SELECT Adı, Görevi, Ücret DECODE(Görevi, ‘Memur’, Ücret*1,10, ‘Şef’, Ücret*1,15, ‘Müdür’, Ücret*1,20, Ücret) FROM PERSONEL;</div><div class='opt'><strong>D)</strong> SELECT Adı, Görevi, Ücret DECODE(Memur, Ücret*1,10, Şef, Ücret*1,15, Müdür, Ücret*1,20, Ücret) FROM PERSONEL;</div><div class='opt'><strong>E)</strong> SELECT Adı, Görevi, Ücret DECODE(‘Memur’, ‘Şef’, ‘Müdür’, Ücret*1,10, Ücret*1,15, Ücret*1,20, Ücret) FROM PERSONEL;</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - SELECT Adı, Görevi, Ücret DECODE(Görevi, ‘Memur’, Ücret*1,10, ‘Şef’, Ücret*1,15, ‘Müdür’, Ücret*1,20, Ücret) FROM PERSONEL;<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section><div class='footer'>Hazırlanan bu not, soru mantığına göre konu takibini kolaylaştırmak için düzenlenmiştir.</div></div></body></html>
