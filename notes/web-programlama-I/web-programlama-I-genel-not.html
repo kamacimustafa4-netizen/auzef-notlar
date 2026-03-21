@@ -1,1 +1,388 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Web Programlama 1</title>
+<style>
+:root{
+  --bg:#f4f7fb; --card:#ffffff; --text:#22314d; --muted:#5a6b88; --line:#e5edf8;
+  --brand:#244784; --soft:#f8fbff; --blue:#eaf3ff; --purple:#f3ecff; --green:#15803d;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+.container{width:min(100% - 28px,1140px);margin:26px auto 40px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#60a5fa);color:#fff;border-radius:26px;padding:28px 26px;box-shadow:0 18px 44px rgba(37,99,235,.18);margin-bottom:22px}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:12px}
+h1{margin:0 0 10px;font-size:38px;line-height:1.15}
+.lead{margin:0;font-size:17px;max-width:920px}
+.section-card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px;margin-bottom:18px;box-shadow:0 10px 28px rgba(15,23,42,.05)}
+.topic-label{display:inline-block;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:12px}
+h2{margin:0 0 12px;font-size:28px;color:#12233f}
+.section-body p{margin:0 0 12px;color:#344560}
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.callout{border-radius:18px;padding:16px 18px;border:1px solid var(--line);color:#334155}
+.callout strong{display:block;margin-bottom:8px;color:#1f2f4d}
+.callout.blue{background:var(--blue)}
+.callout.purple{background:var(--purple)}
+.mini-list{margin:0;padding-left:18px}
+.question-wrap{margin-top:18px}
+.question-title{font-weight:800;color:var(--brand);font-size:18px;margin-bottom:12px}
+.question-card{background:var(--soft);border:1px solid #dce9fb;border-radius:18px;padding:18px;margin-bottom:14px}
+.q-text{font-size:16px;font-weight:800;color:#22314d;margin-bottom:12px}
+.options{list-style:none;padding:0;margin:0 0 12px}
+.options li{padding:8px 12px;margin-bottom:8px;border-radius:12px;background:#fff;border:1px solid #e5edf8;color:#3c4c68}
+.opt{font-weight:800;color:#244784;display:inline-block;width:28px}
+.answer{color:var(--green);font-size:14px;font-weight:700;margin-top:6px}
+.explanation{color:var(--muted);font-size:14px;margin-top:8px}
+@media(max-width:860px){.callout-grid{grid-template-columns:1fr} h1{font-size:32px}}
+@media(max-width:640px){.container{width:min(100% - 18px,1140px)} .hero,.section-card{padding:20px} h1{font-size:28px} h2{font-size:23px}}
+</style>
+</head>
+<body>
+<div class='container'>
+  <section class='hero'>
+    <span class='badge'>YBS • Gelişmiş ders notu</span>
+    <h1>Web Programlama 1</h1>
+    <p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Web Programlama 1 dersi için web temelleri, HTML, CSS, JavaScript, PHP, form işlemleri, GET-POST, session ve cookie konuları konu başlığı mantığında sade ama öğretici biçimde düzenlenmiştir.</p>
+  </section>
+  
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 1</div>
+      <h2>Web Temelleri: İstemci, Sunucu ve Alan Adı</h2>
+      <div class='section-body'><p>Web Programlama 1 dersinin başlangıcında internetin nasıl çalıştığı, istemci ile sunucu arasındaki iletişimin ne olduğu ve bir sitenin internette nasıl tanımlandığı öğrenilir.</p><p>Tarayıcı istemci tarafını temsil ederken, sunucu istekleri karşılayıp cevap dönen yapıdır. Domain name ise bir web sitesinin kullanıcı tarafından hatırlanabilir adresidir.</p><p>Bu temel kavramlar öğrenilmeden HTML, CSS, JavaScript ya da PHP tarafını oturtmak zor olur. Sınavlarda da önce bu altyapı mantığı yoklanır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Birbirleri ile iletişim kurarak World Wide Web&#x27;i meydana getiren iki bileşen hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> İstemci - Sunucu</li><li><span class='opt'>B)</span> Alıcı - Verici</li><li><span class='opt'>C)</span> HTTP - SMTP</li><li><span class='opt'>D)</span> HTTP - HTTPS</li><li><span class='opt'>E)</span> Yazıcı - Okuyucu</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Web yapısının temelinde istemci ve sunucu modeli vardır. Tarayıcı istemci, hizmet veren sistem ise sunucu olarak görev yapar.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Bir web sitesinin internetteki adı ile adresine verilen isim nedir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Host Name</li><li><span class='opt'>B)</span> DNS</li><li><span class='opt'>C)</span> Task Name</li><li><span class='opt'>D)</span> Web Hosting</li><li><span class='opt'>E)</span> Domain Name</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Domain name, bir web sitesinin internette tanınan adıdır. IP adresinin daha okunabilir karşılığı gibi düşünülebilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 2</div>
+      <h2>Dosya Yolları ve Link Mantığı</h2>
+      <div class='section-body'><p>Web projelerinde dosya yolu bilgisi çok önemlidir. Bir dosyanın aynı klasörde, üst klasörde ya da farklı bir klasör yapısı içinde olması kullanılan yolu değiştirir.</p><p>Bağlantı verme işlemlerinde a etiketi ve href özelliği kullanılır. Dosya yollarında ise ../ ile üst klasörlere çıkılır.</p><p>Bu başlıkta öğrenciler çoğunlukla src ve href kullanımını veya göreli yol mantığını karıştırır. Sorular genelde bu ayrımı ölçer.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir web sayfasına bulunduğu dizinin iki üst dizinindeki resim.gif dosyasını eklemek için nasıl bir kod yazmak gerekir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> &lt;img src=../../resim.gif&gt;</li><li><span class='opt'>B)</span> &lt;img src=//resim.gif&gt;</li><li><span class='opt'>C)</span> &lt;img src=resim/resim.gif&gt;</li><li><span class='opt'>D)</span> &lt;img src=../resim.gif&gt;</li><li><span class='opt'>E)</span> &lt;img src=../resim/resim.gif&gt;</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>İki üst klasöre çıkmak için ../../ kullanılır. Dosya yolları konusu özellikle göreli yol mantığıyla sorulur.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi doğru link verme formatıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> &lt;a name=&quot;http://Htmldersleri.org&quot;&gt;Htmldersleri.org&lt;/a&gt;</li><li><span class='opt'>B)</span> &lt;a src=&quot;http://Htmldersleri.org&quot;&gt;Htmldersleri.org&lt;/a&gt;</li><li><span class='opt'>C)</span> &lt;a href=&quot;http://Htmldersleri.org&quot;&gt;Htmldersleri&lt;/a&gt;</li><li><span class='opt'>D)</span> &lt;a&gt;http://Htmldersleri.org&lt;/a&gt;</li><li><span class='opt'>E)</span> &lt;a url=&quot;http://Htmldersleri.org&quot;&gt;Htmldersleri.org&lt;/a&gt;</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Bağlantı vermek için a etiketi içinde href özelliği kullanılır. src veya url burada doğru değildir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 3</div>
+      <h2>HTML Tablolar ve Liste Yapıları</h2>
+      <div class='section-body'><p>HTML tablolar veriyi satır ve sütun halinde göstermek için kullanılır. Bazen hücreleri birleştirmek gerekir; bunun için colspan ve rowspan gibi özellikler devreye girer.</p><p>Liste yapılarında ise sıralı ve sırasız mantık bulunur. ul, ol ve li etiketleri temel yapılardır.</p><p>Sınavlarda hem tablo hücre birleştirme hem de doğru liste türünü seçme tarzı temel seviye ama dikkat isteyen sorular gelir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir tabloda üç kolonu birleştiren HTML kodu aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> &lt;table colspan=&quot;3&quot;&gt;</li><li><span class='opt'>B)</span> &lt;th&gt; colspan=&quot;3&quot; &lt;/th&gt;</li><li><span class='opt'>C)</span> &lt;td colspan=&quot;3&quot;&gt;</li><li><span class='opt'>D)</span> &lt;tr colspan=&quot;3&quot;&gt;</li><li><span class='opt'>E)</span> &lt;table column=&quot;3&quot;&gt;</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Tablo hücrelerini yatay yönde birleştirmek için colspan özelliği td veya th üzerinde kullanılır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Kare ile işaretlenmiş madde imli liste oluşturmak için kullanılacak doğru kod hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> &lt;ul type=&quot;square&quot;&gt;</li><li><span class='opt'>B)</span> &lt;ul type=&quot;circle&quot;&gt;</li><li><span class='opt'>C)</span> &lt;ol type=&quot;square&quot;&gt;</li><li><span class='opt'>D)</span> &lt;dd type=&quot;square&quot;&gt;</li><li><span class='opt'>E)</span> &lt;ul type=&quot;disk&quot;&gt;</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Sırasız listelerde madde imi türü type özelliği ile belirlenebilir. square kare işaretli listeyi ifade eder.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 4</div>
+      <h2>Form Elemanları ve Kullanıcı Girdileri</h2>
+      <div class='section-body'><p>Formlar kullanıcıdan veri almak için kullanılan temel web bileşenleridir. Metin kutuları, butonlar, radio, checkbox ve diğer giriş alanları burada yer alır.</p><p>Radio nesnesi tekli seçim, checkbox ise çoklu seçim mantığında kullanılır. Submit tipi ise formun gönderilmesini sağlar.</p><p>Bu konuda amaç yalnız etiketi ezberlemek değil, hangi form elemanının hangi kullanıcı davranışına uygun olduğunu bilmektir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Kullanıcının birçok seçenek içerisinden sadece bir tanesini seçebilmesine olanak tanıyan form nesnesi aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Reset</li><li><span class='opt'>B)</span> Checkbox</li><li><span class='opt'>C)</span> Submit</li><li><span class='opt'>D)</span> Radio</li><li><span class='opt'>E)</span> Textbox</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Radio butonlar, aynı grup içinde yalnız bir seçeneğin işaretlenmesine izin verir. Checkbox ise çoklu seçim içindir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdaki form elemanlarından hangisi, formda buton oluşturmak için kullanılmaktadır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> &lt;input type=&quot;submit&quot;&gt;</li><li><span class='opt'>B)</span> &lt;input type=&quot;text&quot;&gt;</li><li><span class='opt'>C)</span> &lt;input type=&quot;file&quot;&gt;</li><li><span class='opt'>D)</span> &lt;input type=&quot;email&quot;&gt;</li><li><span class='opt'>E)</span> &lt;input type=&quot;password&quot;&gt;</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Form gönderme amacı taşıyan standart butonlardan biri submit tipidir. Sınavlarda input type ayrımları sıkça ölçülür.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 5</div>
+      <h2>CSS ile Stil Verme ve Arka Planlar</h2>
+      <div class='section-body'><p>CSS, bir web sayfasının görünümünü düzenlemek için kullanılır. Renk, yazı tipi, boşluk, arka plan ve birçok görsel özellik burada tanımlanır.</p><p>background-color ve font-family gibi özellikler temel stil verme araçlarıdır. Ayrıca linear-gradient ve radial-gradient gibi gelişmiş arka plan teknikleri de önemlidir.</p><p>Sınavlarda seçici türleri, doğru özellik kullanımı ve stilin hangi öğeye nasıl uygulanacağı sıkça sorulur.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Web sayfasının arka plan rengini yeşil, yazı fontunu ise Arial olacak şekilde tanımlamak için aşağıdaki CSS kodlarından hangisi kullanılmalıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> body { background-color : green; font-family : Arial; }</li><li><span class='opt'>B)</span> body { background-color : green; font : Arial; }</li><li><span class='opt'>C)</span> body { bgcolor : green; font-family : Arial; }</li><li><span class='opt'>D)</span> body { background : green; font-family : &quot;Arial&quot;; }</li><li><span class='opt'>E)</span> body { color : green; font : Arial; }</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>CSS&#x27;te arka plan rengi için background-color, yazı tipi için font-family kullanılır. HTML öznitelikleriyle karıştırmamak gerekir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Bir div&#x27;in arka plan rengini daire şeklinde, kırmızı, sarı ve mavi renkler arasında geçişler olacak şekilde düzenleyen ID tanımlamasının CSS kodu aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> div { background:radial-gradient(circle, red, yellow, blue); }</li><li><span class='opt'>B)</span> #div { background:linear-gradient(circle, red, yellow, blue); }</li><li><span class='opt'>C)</span> .div { background:linear-gradient(circle, red, yellow, blue); }</li><li><span class='opt'>D)</span> .div { background:radial-gradient(circle, red, yellow, blue); }</li><li><span class='opt'>E)</span> #div { background:radial-gradient(circle, red, yellow, blue); }</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>ID seçici için # kullanılır. Dairesel renk geçişi radial-gradient ile verilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 6</div>
+      <h2>JavaScript Temelleri ve Koşul Mantığı</h2>
+      <div class='section-body'><p>JavaScript, web sayfalarına etkileşim kazandırır. Kodlar head ya da body içine yazılabilir; bu tercih sayfanın çalışma zamanını etkileyebilir.</p><p>Koşul yapılarında bazen klasik if-else, bazen daha kısa yazım olan üçleme operatörü kullanılır.</p><p>Bu başlıkta temel amaç JavaScript’in nerede çalıştığını ve basit karar mantığını nasıl kurduğunu kavramaktır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Javascript kodları hangi etiket(ler) arasına yazılabilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> &lt;body&gt;</li><li><span class='opt'>B)</span> &lt;head&gt; ve &lt;meta&gt;</li><li><span class='opt'>C)</span> &lt;meta&gt;</li><li><span class='opt'>D)</span> &lt;title&gt; ve &lt;head&gt;</li><li><span class='opt'>E)</span> &lt;body&gt; ve &lt;head&gt;</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>JavaScript kodları hem head hem body kısmında yer alabilir. Yerleşim, çalıştırma zamanına göre seçilir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Üçleme koşulu ( ? : ) aşağıdaki yapılardan hangisi ile benzer bir kontrol mantığına sahiptir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> While</li><li><span class='opt'>B)</span> For</li><li><span class='opt'>C)</span> Do - While</li><li><span class='opt'>D)</span> If</li><li><span class='opt'>E)</span> If - Else</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Ternary yapı kısa yazımlı bir if-else mantığı taşır. Koşula göre iki olasılıktan birini seçer.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 7</div>
+      <h2>PHP’ye Giriş ve Tarihçesi</h2>
+      <div class='section-body'><p>PHP, sunucu tarafında çalışan betik dillerinden biridir ve dinamik sayfa üretiminde çok kullanılır. HTML içine gömülü şekilde çalışabilir.</p><p>Ders kapsamında PHP’nin temel açılımı, çıkış noktası ve kim tarafından geliştirildiği de sorulabilmektedir.</p><p>Bu nedenle yalnız sözdizimi değil, dilin genel kimliği ve tarihsel temeli de bilinmelidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdaki seçenekler arasında, PHP&#x27;nin açılımını doğru şekilde belirten ifadeyi işaretleyiniz.</div>
+      <ul class='options'><li><span class='opt'>A)</span> Personal Hypertext Processor</li><li><span class='opt'>B)</span> Public Home Page</li><li><span class='opt'>C)</span> Private Home Processor</li><li><span class='opt'>D)</span> Private Hypertext Processor</li><li><span class='opt'>E)</span> Personal Home Page</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Ders sorularında PHP&#x27;nin klasik açılımı Personal Home Page olarak verilir. Tarihsel olarak daha sonra recursive biçimde de anılır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>PHP, hangi yılda ve kim tarafından geliştirilmiştir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> 1997-Brendan Eich</li><li><span class='opt'>B)</span> 1993-Tim Berners-Lee</li><li><span class='opt'>C)</span> 2000-Larry Page</li><li><span class='opt'>D)</span> 1995-Mark Zuckerberg</li><li><span class='opt'>E)</span> 1994-Rasmus Lerdorf</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>PHP’nin başlangıcı Rasmus Lerdorf’a dayanır. Tarih ve geliştirici soruları temel bilgi olarak sık çıkar.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 8</div>
+      <h2>PHP Veri Türleri ve Değişkenler</h2>
+      <div class='section-body'><p>PHP’de değişkenler farklı veri türlerinde olabilir. String, integer, float, boolean, array ve object en temel türler arasında yer alır.</p><p>Bazı dillerde karakter için ayrı tür olsa da PHP’de tek karakterler de string mantığında değerlendirilir.</p><p>Veri türü soruları genellikle basit görünür ama seçenekler birbirine yakın hazırlandığı için dikkat ister.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi PHP&#x27;de kullanılan bir veri türü değildir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Array</li><li><span class='opt'>B)</span> Integer</li><li><span class='opt'>C)</span> Character</li><li><span class='opt'>D)</span> Double</li><li><span class='opt'>E)</span> Object</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>PHP’de bağımsız bir Character veri tipi yoktur. Tek karakterler de string olarak değerlendirilir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>PHP&#x27;de veri türleriyle ilgili aşağıdaki seçeneklerden hangisi yanlıştır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Integer veri türü, sadece pozitif tam sayılar içermektedir.</li><li><span class='opt'>B)</span> Array veri türü, bir veya birden fazla değeri depolamak için kullanılmaktadır.</li><li><span class='opt'>C)</span> Float veri türü, ondalık sayıları saklamak için kullanılmaktadır.</li><li><span class='opt'>D)</span> Boolean türü &quot;true&quot; veya &quot;false&quot; olmak üzere iki değerden birini alabilir.</li><li><span class='opt'>E)</span> String veri türü, metin verilerini temsil etmektedir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Integer yalnız pozitif sayılarla sınırlı değildir; negatif tam sayılar da integer kapsamındadır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 9</div>
+      <h2>PHP Çıktı Alma ve Kontrol Fonksiyonları</h2>
+      <div class='section-body'><p>PHP’de çıktı vermek için echo gibi yapılar kullanılır. Bu sayede tarayıcıya metin veya değişken sonucu gönderilebilir.</p><p>isset() gibi fonksiyonlar ise değişkenin tanımlı olup olmadığını kontrol eder. Form verileriyle çalışırken bu tür kontroller çok önemlidir.</p><p>Bu konu sınavlarda hem sözdizimi hem de fonksiyonun görevi açısından ölçülür.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi PHP&#x27;de ekrana Merhaba Dünya yazdırılmasını sağlar?</div>
+      <ul class='options'><li><span class='opt'>A)</span> &quot;Merhaba dünya&quot;</li><li><span class='opt'>B)</span> echo &quot;Merhaba Dünya&quot;;</li><li><span class='opt'>C)</span> echo Merhaba Dünya</li><li><span class='opt'>D)</span> Echo</li><li><span class='opt'>E)</span> Response.Write(&quot;Merhaba Dünya&quot;)</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>PHP’de ekrana çıktı vermek için echo ifadesi sık kullanılır. Metin değeri tırnak içinde yazılmalıdır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>PHP&#x27;de bir değişken içinde değer bulunup bulunmadığını sınayan PHP fonksiyonu aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> strlen()</li><li><span class='opt'>B)</span> isempty()</li><li><span class='opt'>C)</span> isset()</li><li><span class='opt'>D)</span> strpos()</li><li><span class='opt'>E)</span> unset()</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>isset(), bir değişkenin tanımlı olup olmadığını ve null olup olmadığını kontrol etmekte kullanılır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 10</div>
+      <h2>PHP Döngüler ve Akış Kontrolü</h2>
+      <div class='section-body'><p>Döngüler tekrarlı işlemler için kullanılır. while ve do...while yapılarının benzer görünmesine rağmen önemli çalışma farkları vardır.</p><p>while önce koşulu sınar. do...while ise işlem bloğunu en az bir kez çalıştırır. break ifadesi ise yapıyı sonlandırmak için kullanılır.</p><p>Bu başlıkta çoğu hata, yapının çalışma sırasını karıştırmaktan kaynaklanır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>PHP&#x27;de while ve do...while döngüleri arasındaki temel fark aşağıdaki seçeneklerden hangisinde belirtilmiştir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> while sonsuz döngülerde kullanılmaktadır.</li><li><span class='opt'>B)</span> while önce koşulu kontrol etmekteyken, do...while önce istenen işlemi yapıp, sonra koşulu kontrol etmektedir.</li><li><span class='opt'>C)</span> while sadece sabitlerle çalışmaktadır.</li><li><span class='opt'>D)</span> do...while koşul sağlanmazsa çalışmaz.</li><li><span class='opt'>E)</span> do...while if ile birlikte kullanılmaktadır.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>while döngüsü koşulu başta kontrol eder. do...while ise gövdeyi en az bir kez çalıştırır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdaki ifadelerden hangisi PHP&#x27;de bir döngüyü ya da yapıyı kırmak için kullanılmaktadır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> break</li><li><span class='opt'>B)</span> default</li><li><span class='opt'>C)</span> continue</li><li><span class='opt'>D)</span> end</li><li><span class='opt'>E)</span> case</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>break ifadesi, döngü veya switch yapısından çıkmak için kullanılır. continue ise sonraki adıma geçer.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 11</div>
+      <h2>Form İşleme: GET ve POST</h2>
+      <div class='section-body'><p>Form verileri sunucuya gönderilirken GET ve POST en çok kullanılan iki yöntemdir. GET verileri adres satırına taşırken POST bunu yapmaz.</p><p>Bu nedenle şifre gibi hassas bilgiler için POST daha uygundur. Ayrıca GET yönteminde karakter sınırı ve geçmişte görünme gibi dezavantajlar bulunur.</p><p>Sınavlarda çoğu zaman hangi yöntemin hangi durumda tercih edilmesi gerektiği sorulur.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir form gönderildiğinde verilerin URL üzerinde görünmesini istemiyorsanız hangi yöntem kullanmalıdır ?</div>
+      <ul class='options'><li><span class='opt'>A)</span> POST</li><li><span class='opt'>B)</span> PUT</li><li><span class='opt'>C)</span> DELETE</li><li><span class='opt'>D)</span> GET</li><li><span class='opt'>E)</span> LINK</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>POST metodu verileri URL üzerinde göstermez. GET ise verileri adres satırında taşır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Form yapılarında başvurulan GET ve POST metodları ile ilgili aşağıdakilerden hangisi yanlıştır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> GET metodunda karakter limiti bulunmaktadır.</li><li><span class='opt'>B)</span> Parola veya diğer hassas bilgiler için GET yöntemi tercih edilmelidir.</li><li><span class='opt'>C)</span> GET metodu ile gönderilen bilgiler adres satırında görünür.</li><li><span class='opt'>D)</span> POST metodu güvenliği daha yüksek bir yöntemdir.</li><li><span class='opt'>E)</span> GET metodunda yapılan işlemler tarayıcının geçmişinde görünür.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Hassas veriler için GET tercih edilmez. Bunun nedeni verilerin URL’de görünmesi ve geçmişte kalabilmesidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 12</div>
+      <h2>Session ve Cookie Yönetimi</h2>
+      <div class='section-body'><p>Session ve cookie, kullanıcıyla ilgili bilgiyi belirli süre boyunca tutmak için kullanılır. Fakat depolama yerleri ve ömürleri farklıdır.</p><p>Session verileri genellikle sunucuda, cookie verileri ise istemci tarafında tutulur. Session başlatmak için session_start(), çerez oluşturmak için setcookie() kullanılır.</p><p>Bu iki kavramın farkı web güvenliği ve kullanıcı takibi açısından çok önemlidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler birbirine yakın görünebilir. Önce kavramın görevini, sonra doğru etiket veya fonksiyonu düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Etiket ve özelliği ayır</li><li>Sunucu-istemci farkını bil</li><li>PHP fonksiyonunu doğru tanı</li><li>GET-POST ayrımını unutma</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir PHP oturumu kapatmak ve tüm oturum verilerini temizlemek için aşağıdaki hangi fonksiyon kullanılmaktadır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> session_close()</li><li><span class='opt'>B)</span> session_unset()</li><li><span class='opt'>C)</span> end_session()</li><li><span class='opt'>D)</span> clear_session()</li><li><span class='opt'>E)</span> session_destroy()</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>session_destroy(), mevcut oturumu sonlandırmak için kullanılır. session_start() ise oturumu başlatır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>PHP&#x27;de yeni bir oturum başlatmak veya mevcut oturumu devam ettirmek için hangi fonksiyon kullanılmaktadır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> session_start()</li><li><span class='opt'>B)</span> sessionbegin()</li><li><span class='opt'>C)</span> sessionbaslat()</li><li><span class='opt'>D)</span> session_destroy()</li><li><span class='opt'>E)</span> setsession()</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Oturum işlemlerine başlamadan önce session_start() çağrılır. Bu, mevcut session’ı devam ettirebilir veya yenisini başlatabilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+</div>
+</body>
+</html>
