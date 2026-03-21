@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Veri Madenciliği - Benzeri Sorulu Tam Not</title>
+<style>
+  :root {
+    --bg: #f5f7fb;
+    --panel: #ffffff;
+    --panel-soft: #f8fbff;
+    --text: #1f2a44;
+    --muted: #61708a;
+    --line: #dbe5f1;
+    --accent: #5b8def;
+    --accent-soft: #eaf2ff;
+    --dark: #21324d;
+    --ok: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #eef3fb 0%, #f8fafd 100%);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .container {
+    width: min(1120px, calc(100% - 32px));
+    margin: 32px auto 60px;
+  }
+  .hero {
+    background: linear-gradient(135deg, #ffffff 0%, #eef5ff 100%);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    padding: 34px 34px 28px;
+    box-shadow: 0 18px 40px rgba(61, 93, 152, 0.08);
+  }
+  .badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .2px;
+  }
+  h1 {
+    margin: 16px 0 10px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--dark);
+  }
+  .lead {
+    margin: 0;
+    color: var(--muted);
+    font-size: 17px;
+  }
+  .note-box {
+    margin-top: 22px;
+    background: #fffdf7;
+    border: 1px solid #f2e6b8;
+    border-radius: 18px;
+    padding: 18px 20px;
+    color: #5b4a1f;
+    font-size: 15px;
+  }
+  .section-card {
+    margin-top: 22px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 10px 25px rgba(51, 76, 120, 0.05);
+  }
+  .section-card h2 {
+    margin: 0 0 14px;
+    font-size: 27px;
+    color: var(--dark);
+  }
+  .section-body p {
+    margin: 0 0 14px;
+    color: #33415c;
+    font-size: 16px;
+  }
+  .question-wrap {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--line);
+  }
+  .question-title {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 7px 12px;
+    border-radius: 12px;
+    background: #eef6ff;
+    color: #2f5da8;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .question-card {
+    background: var(--panel-soft);
+    border: 1px solid #dce9fb;
+    border-radius: 18px;
+    padding: 18px;
+    margin-bottom: 16px;
+  }
+  .q-meta {
+    font-size: 13px;
+    font-weight: 700;
+    color: #5572a8;
+    margin-bottom: 8px;
+  }
+  .q-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #22314d;
+    margin-bottom: 12px;
+  }
+  .options {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+  }
+  .options li {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e5edf8;
+    color: #3c4c68;
+  }
+  .opt {
+    font-weight: 700;
+    color: #244784;
+    display: inline-block;
+    width: 28px;
+  }
+  .answer, .explanation {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .answer { color: var(--ok); }
+  .explanation { color: var(--muted); }
+  .footer {
+    text-align: center;
+    color: #50607d;
+    padding: 28px 12px 10px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  @media (max-width: 760px) {
+    .container { width: min(100% - 20px, 1120px); margin-top: 20px; }
+    .hero { padding: 24px 20px; border-radius: 22px; }
+    h1 { font-size: 30px; }
+    .section-card { padding: 20px; border-radius: 20px; }
+    .section-card h2 { font-size: 23px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge">Veri Madenciliği</div>
+      <h1>Veri Madenciliği Ders Notu</h1>
+      <p class="lead">Konu anlatımı, kavramsal bütünlük ve benzeri sorular bir araya getirilerek sınav odaklı ama öğretici bir çalışma akışı oluşturuldu.</p>
+      <div class="note-box">
+        Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.
+      </div>
+    </header>
+
+    <section class="section-card">
+      <h2>1. Veri Madenciliğine Giriş ve Temel Amaç</h2>
+      <div class="section-body"><p>Veri madenciliği, büyük veri kümeleri içinden anlamlı örüntüler, ilişkiler ve karar desteği sağlayacak bilgiler çıkarma sürecidir.</p><p>Bu alan yalnızca tek bir algoritmadan oluşmaz; ön işleme, modelleme, örüntü keşfi, doğrulama ve değerlendirme gibi birden çok adımdan oluşur.</p><p>Ders sorularında veri madenciliğinin tanımı, yapısal veri kavramı ve hangi verilerin metin gibi yapısal olmayan sınıfa girdiği sık tekrar eder.</p><p>Bu yüzden konuya yalnızca teknik algoritmalarla değil, veri türleri ve uygulama alanlarıyla birlikte bakmak gerekir.</p><p>Özellikle işletme, pazarlama, üretim ve sahtekârlık tespiti örnekleri veri madenciliğinin karar verme gücünü göstermek için kullanılır.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Veri madenciliği, aşağıdakilerden hangisini ifade eder?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Sadece sağlık sektöründe kullanılan bir yöntem</li><li><span class='opt'>B)</span> Veri analizinde kullanılan tek bir teknik</li><li><span class='opt'>C)</span> Sadece işletmelerin stratejik kararları için kullanılan bir araç</li><li><span class='opt'>D)</span> Sadece yapısal verilerin analiz edilmesi</li><li><span class='opt'>E)</span> Veri setlerinden değerli bilgilerin çıkarılması için kullanılan bir dizi teknik ve yöntem bütünü</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Veri madenciliği, veri setlerinden değerli bilgi çıkaran teknik ve yöntemlerin bütünüdür. Tek bir araç ya da yalnızca tek sektörle sınırlı değildir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi yapısal veri örneği değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Bir müşterinin telefon numarası</li><li><span class='opt'>B)</span> Bir müşterinin adı ve soyadı</li><li><span class='opt'>C)</span> Bir blog yazısının metni</li><li><span class='opt'>D)</span> Bir öğrencinin doğum tarihi</li><li><span class='opt'>E)</span> Bir ürünün fiyatı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Blog yazısı gibi serbest metinler yapısal veri sayılmaz. Telefon numarası, tarih ya da fiyat gibi alanlar ise daha düzenli yapıdadır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>2. Ön İşleme, Eksik Veri ve Veri Kalitesi</h2>
+      <div class="section-body"><p>Veri madenciliğinde en kritik aşamalardan biri ön işlemedir. Çünkü eksik, bozuk, aykırı ya da tutarsız veri ile kurulan model ne kadar gelişmiş olursa olsun sağlıklı sonuç üretmez.</p><p>Ön işleme; temizleme, bütünleştirme, dönüştürme, normalizasyon, örnekleme ve bazen boyut azaltma gibi işlemleri içerir.</p><p>Sınavlarda özellikle bir işletmenin elindeki veride eksik veya bozuk kayıtlar olduğunda hangi aşamaya gitmesi gerektiği sorulur. Buradaki doğru cevap çoğu zaman ön işlemedir.</p><p>Veri birleştirme ve öznitelik üretimi de yine ön işleme mantığının parçası olarak karşımıza çıkar. Amaç, veriyi analiz için daha elverişli hale getirmektir.</p><p>Bu yüzden veri kalitesi problemleriyle algoritma seçimini birbirine karıştırmamak gerekir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Bir eticaret platformu, kullanıcılarının alışveriş geçmişlerini analiz etmek ve öneri sistemlerini geliştirmek istiyor. Ancak, kullanıcı veri setlerinde eksik veya bozuk veriler bulunmaktadır. Şirket, hangi veri madenciliği aşamasını uygulamalıdır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Örüntü Tanıma</li><li><span class='opt'>B)</span> Modelleme</li><li><span class='opt'>C)</span> Tahmin ve Karar Destek</li><li><span class='opt'>D)</span> Doğrulama ve Değerlendirme</li><li><span class='opt'>E)</span> Ön İşleme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Eksik ve bozuk veriler doğrudan ön işleme aşamasında ele alınır. Modelleme aşamasına geçmeden önce veri temizlenmelidir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Veri birleştirme işlemi aşağıdaki amaçlardan hangisini hedefler?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Detayları koruyarak istikrarlı bir genel bakış sağlamak</li><li><span class='opt'>B)</span> Grupların davranışlarını daha değişken hale getirmek</li><li><span class='opt'>C)</span> Yüksek seviyeli bir bakış açısı elde etmek ve ölçeği değiştirmek</li><li><span class='opt'>D)</span> Veri boyutunu artırmak ve detaylandırmak</li><li><span class='opt'>E)</span> Bellek kullanımını azaltmak ve işlem süresini artırmak</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Veri birleştirme, daha üst seviyeli ve karşılaştırılabilir bir görünüm elde etmek için ölçeği değiştirerek veriyi bütünleştirir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>3. Tanımlayıcı İstatistikler, Görselleştirme ve Özetleme</h2>
+      <div class="section-body"><p>Veri madenciliğinin temeli, veriyi tanımakla başlar. Ortalama, medyan, mod, aralık, varyans ve standart sapma gibi ölçüler verinin genel yapısı hakkında ilk resmi verir.</p><p>Frekans belirli bir değerin kaç kez tekrarlandığını gösterirken mod en sık görülen değeri ifade eder. Bu ikisi sınavlarda sık karıştırılır.</p><p>Saçılım grafikleri ise değişkenler arası ilişkinin yönünü ve gücünü görmeyi kolaylaştırır. Aynı zamanda aykırı değerleri fark etmek için de yararlı bir araçtır.</p><p>Aralık gibi ölçüler veri setinin tamamını ayrıntılı biçimde yansıtmasa da genel yayılım hakkında hızlı bir fikir verir.</p><p>Bu bölümde amaç formülleri ezberlemekten çok hangi özet ölçünün ne anlattığını bilmek olmalıdır.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdaki ifadelerden hangisi tanımlayıcı istatistiklerde frekans ve mod ile ilgili doğrudur?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Mod, veri setinde en az sık görülen değerin frekans değeridir.</li><li><span class='opt'>B)</span> Frekans, bir veri setinde belirli bir değerin kaç kez tekrarlandığını gösterir.</li><li><span class='opt'>C)</span> Mod, veri setinde bir değerin en az sık (seyrek) görülen değeridir.</li><li><span class='opt'>D)</span> Frekans, veri setindeki en küçük değeri ifade eder.</li><li><span class='opt'>E)</span> Mod, veri setindeki tüm değerlerin ortalamasıdır.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Frekans, belirli bir değerin kaç kez tekrarlandığını gösterir. Mod ise en sık görülen değerdir; ikisi aynı şey değildir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Saçılım grafiği ile ilgili aşağıdakilerden hangisi yanlıştır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Doğru boyunca düzenlenmiş noktalar, değişkenler arasında bir ilişki olduğunu gösterir.</li><li><span class='opt'>B)</span> Noktaların rastgele dağılması, değişkenler arasında bir ilişki olmadığını gösterir.</li><li><span class='opt'>C)</span> Y ekseni bağımlı değişkeni temsil eder.</li><li><span class='opt'>D)</span> Aykırı değerleri görmek için kullanılamaz.</li><li><span class='opt'>E)</span> X ekseni bağımsız değişkeni temsil eder.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Saçılım grafiği ilişkiyi ve aykırı değerleri göstermede kullanılabilir. Bu yüzden &#x27;ayıkırı değerleri göremez&#x27; ifadesi yanlıştır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>4. Normalizasyon, Dönüşüm ve Ayrıklaştırma</h2>
+      <div class="section-body"><p>Gerçek veri setlerinde değişkenler farklı ölçeklerde olabilir. Yaş, gelir, kilogram, satış tutarı gibi alanlar aynı algoritmaya doğrudan verildiğinde bazı değişkenler diğerlerini baskılayabilir.</p><p>Normalizasyon bu problemi azaltır ve ölçek farklarını dengelemeye yardımcı olur. Min‑Max normalizasyonu değerleri çoğunlukla 0 ile 1 arasına dönüştürür.</p><p>Doğrusal dönüşüm sorularında yeni değeri hesaplarken eski minimum ve maksimum değerlere dikkat etmek gerekir. Özellikle sayı yoğun sorular bu başlıkta gelir.</p><p>Öznitelik ayrıklaştırması ise sürekli bir değişkeni kategorik hale getirme mantığına dayanır. Örneğin yaşın genç‑orta‑ileri gibi sınıflara ayrılması buna örnektir.</p><p>Bu bölüm sayısal görünse de asıl ölçülen şey dönüşümün amacını anlamaktır.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Butunleme Benzeri Soru</div>
+      <div class="q-text">MinMax Normalizasyonu hangi aralığa dönüştürme işlemi yapar?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Değerleri ortalaması 0 ve standart sapması 1 olacak şekilde dönüştürme</li><li><span class='opt'>B)</span> Değişken değerlerini 0 ile 1 arasında bir aralığa dönüştürme</li><li><span class='opt'>C)</span> Değişkenleri logaritmik olarak dönüştürme</li><li><span class='opt'>D)</span> Değişkenlerin tersini alma</li><li><span class='opt'>E)</span> Değişkenlerin karekökünü alma</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Min‑Max normalizasyonu değişkenleri belirli bir aralığa, çoğunlukla 0 ile 1 arasına taşır. Böylece ölçek etkisi azalır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Öznitelik ayrıklaştırması aşağıdakilerden hangisini içerir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Sürekli değişkenleri ikili hale getirme</li><li><span class='opt'>B)</span> Sürekli bir değişkenin kategorik bir değişkene dönüştürülmesi</li><li><span class='opt'>C)</span> Kategorik bir değişkenin sürekli hale getirilmesi</li><li><span class='opt'>D)</span> Veri setindeki her değeri bir aralığa atama</li><li><span class='opt'>E)</span> Veri setindeki her kategorik değeri bir sayıya eşleme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Ayrıklaştırma, sürekli değişkeni kategorik hale getirmektir. Bu işlem özellikle bazı sınıflandırma ve raporlama senaryolarında kullanılır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>5. Sınıflandırma Algoritmaları ve Denetimli Öğrenme</h2>
+      <div class="section-body"><p>Sınıflandırma, veri noktalarını önceden tanımlanmış sınıflara atama problemidir. Denetimli öğrenmenin en temel başlıklarından biridir.</p><p>ID3 karar ağacı algoritması bilgi kazancı ve entropi kavramlarını kullanır. Bu yüzden entropi hesapları Veri Madenciliği dersinin klasik soru kalıplarındandır.</p><p>Naive Bayes ise olasılık temelli çalışan ve nitelikler arası koşullu bağımsızlık varsayımına dayanan bir yöntemdir. Özellikle tablo verilerek sınıf olasılığı hesaplatılır.</p><p>Sınıflandırma ile kümeleme sık karıştırılır. Sınıflandırmada sınıflar önceden bellidir; kümelemede ise veri içindeki doğal gruplar keşfedilir.</p><p>Bu başlık sınavlarda hem kavramsal hem de hesaplamalı sorularla gelir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri Soru</div>
+      <div class="q-text">Bir ikili sınıflandırma probleminin çözümünde ID3 algoritması kullanılmak istenmektedir. Sınıf niteliği 2 “Evet” ve 8 “Hayır” dan oluşmaktadır. Bu durumda, sınıf niteliğinin entropisi aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> 0.625</li><li><span class='opt'>B)</span> 0.811</li><li><span class='opt'>C)</span> 0,479</li><li><span class='opt'>D)</span> 0.909</li><li><span class='opt'>E)</span> 0.234</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> ID3 sorularında entropi ve bilgi kazancı mantığı kullanılır. Sorunun özü, sınıf belirsizliğinin ne kadar olduğuna bakmaktır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri Soru</div>
+      <div class="q-text">Yukarıdaki tabloda eğitim verisi yer almaktadır. Bu veri kümesinde X1, X2, X3 nitelik değişkenleri ve Y ise sınıf etiketidir. Naive Bayes sınıflandırıcısını kullanarak X1=0, X2 =0, X3=0 verisi, Y=0 sınıfına hangi olasılıkla aittir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> %20.81</li><li><span class='opt'>B)</span> %63.32</li><li><span class='opt'>C)</span> %42.85</li><li><span class='opt'>D)</span> %58.18</li><li><span class='opt'>E)</span> %35.64</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Naive Bayes, verilen özniteliklerin belirli bir sınıfa ait olma olasılığını hesaplar. Bu nedenle tablo ve olasılık ilişkisi iyi anlaşılmalıdır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>6. kNN, Regresyon ve Tahmin Modelleri</h2>
+      <div class="section-body"><p>k‑en yakın komşu algoritması, yeni bir gözlemi benzer örneklerin sınıfına ya da değerine göre tahmin eder. Bu yöntem hem sınıflandırma hem regresyon amaçlı kullanılabilir.</p><p>Uzaklık ağırlıklı kNN sorularında yakın komşular daha yüksek etkiye sahip olur. Özellikle fiyat, stok, yaş, gelir gibi sayısal örneklerle sık sorulur.</p><p>Doğrusal regresyon, bağımsız değişken ile bağımlı değişken arasındaki ilişkiyi doğru denklemiyle modellemeye çalışır. Basit doğrusal regresyonda tek; çoklu doğrusal regresyonda birden çok bağımsız değişken bulunur.</p><p>Lojistik regresyon ise sürekli değer tahmininden çok kategorik bir sonucun olasılığını modellemeye yarar. Logit dönüşümünün amacı da bu olasılığı doğrusal biçimde kurabilmektir.</p><p>Bu nedenle regresyon sorularında önce hedef değişkenin türüne bakmak gerekir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Butunleme Benzeri Soru</div>
+      <div class="q-text">kNN algoritması hangi türdeki tahmin görevleri için kullanılabilir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Yalnızca çapraz doğrulama türündeki tahmin görevleri için</li><li><span class='opt'>B)</span> Sadece sınıflandırma türündeki tahmin görevleri için</li><li><span class='opt'>C)</span> Karar ağaçlarının yetersiz kaldığı tahminler için</li><li><span class='opt'>D)</span> Hem sınıflandırma hem de regresyon türündeki tahmin görevleri için</li><li><span class='opt'>E)</span> Sadece regresyon türündeki tahmin görevleri için</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> kNN hem sınıflandırma hem de regresyon türü tahminlerde kullanılabilir. Bu yönüyle esnek ama ölçek duyarlı bir yöntemdir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Final Benzeri Soru</div>
+      <div class="q-text">Sıralı kategorilere sahip olan bir yanıt değişkeni için kullanılan lojistik regresyon türü aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Binomial lojistik regresyon</li><li><span class='opt'>B)</span> Poisson regresyon</li><li><span class='opt'>C)</span> Lineer regresyon</li><li><span class='opt'>D)</span> Ordinal lojistik regresyon</li><li><span class='opt'>E)</span> Multinomial lojistik regresyon</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Lojistik regresyonda logit dönüşümü, olasılıkları doğrusal model içinde işlenebilir hale getirir. Sürekli değer yerine sınıf olasılığı yorumlanır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>7. Model Değerlendirme, Karışıklık Matrisi ve Başarı Ölçütleri</h2>
+      <div class="section-body"><p>Bir model kurmak kadar onu doğru değerlendirmek de önemlidir. Bu nedenle doğruluk, kesinlik, duyarlılık, anma, F‑ölçüsü ve ROC alanı gibi metrikler dersin merkezinde yer alır.</p><p>Karışıklık matrisi; doğru pozitif, yanlış pozitif, yanlış negatif ve doğru negatif sayılarını birlikte görmeye yarar. Özellikle F‑ölçüsü sorularında bu değerler üzerinden hesap yapılır.</p><p>Her metriğin baktığı nokta farklıdır. Duyarlılık gerçek pozitifleri yakalama gücüne, kesinlik ise pozitif dediğimiz örneklerin ne kadarının gerçekten pozitif olduğuna odaklanır.</p><p>Silhouette indeksi gibi ölçüler ise daha çok kümeleme kalitesinde kullanılır; bu nedenle sınıflandırma performansı ölçütleri arasında yer almaz.</p><p>Bu bölüm, &#x27;tek doğru metrik&#x27; düşüncesinden ziyade &#x27;hangi problemde hangi metrik daha anlamlı&#x27; bakışıyla çalışılmalıdır.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi bir sınıflandırıcının performansının değerlendirilmesinde kullanılan performans ölçütlerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Silhouette indeksi</li><li><span class='opt'>B)</span> Anma</li><li><span class='opt'>C)</span> Kesinlik</li><li><span class='opt'>D)</span> F-Ölçüsü</li><li><span class='opt'>E)</span> ROC Alanı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Silhouette indeksi daha çok kümeleme başarısını değerlendirmek için kullanılır. Kesinlik, anma, F‑ölçüsü ve ROC alanı ise sınıflandırma tarafında öne çıkar.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri Soru</div>
+      <div class="q-text">Bir ikili sınıflandırma problemi için bir sınıflandırma modelinin çalıştırılması sonucunda elde edilen karışıklık matrisinde doğru pozitif (TP) sayısı 400, yanlış pozitif sayısı (FP) 100, yanlış negatif sayısı (FN) 240 ve yanlış pozitif sayısı (TN) 1600 olarak belirlenmiştir. Bu sınıflandırma modelinin F-ölçüsünün değeri aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> 0,736</li><li><span class='opt'>B)</span> 0,718</li><li><span class='opt'>C)</span> 0,702</li><li><span class='opt'>D)</span> 0,745</li><li><span class='opt'>E)</span> 0,724</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> F‑ölçüsü, kesinlik ile duyarlılığı birlikte değerlendiren dengeli bir metriktir. Karışıklık matrisindeki sayılar bu yüzden dikkatle kullanılmalıdır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>8. Veri Ambarı, OLAP, Birliktelik Analizi ve Metin Madenciliği</h2>
+      <div class="section-body"><p>Veri ambarı; konu odaklı, bütünleşik ve belirli dönemleri kapsayan verilerin karar desteği amacıyla tutulduğu yapıdır. OLAP ise bu yapılar üzerinde çok boyutlu sorgulama ve analiz yapmayı sağlar.</p><p>Birliktelik analizi, birlikte görülme eğilimindeki öğeler arasındaki kuralları keşfeder. Destek ve güven oranı bu başlıkta temel ölçülerdir.</p><p>Güven oranı, bir kuralın ne kadar güvenilir çalıştığını gösterir. Sınavda aynı öğe kümesinden farklı kurallar yazdırılarak hangisinin düşük güvenli olduğu da sorulabilir.</p><p>Metin madenciliği ise metinlerden tema, kategori ve yapı çıkarmaya odaklanır. Tokenizasyon metni küçük birimlere ayırırken, kategorizasyon belgeleri önceden belirlenmiş sınıflara yerleştirir.</p><p>Bu son bölüm, veri madenciliğinin yalnızca sayısal tablolarla sınırlı olmadığını göstermesi açısından önemlidir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Vize Benzeri Soru</div>
+      <div class="q-text">Etkin şekilde veriye ulaşmayı sağlayan belirli döneme ait konu odaklı ve bütünleşik veri tabanlarına ne ad verilmektedir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> veri martı</li><li><span class='opt'>B)</span> veri ambarı</li><li><span class='opt'>C)</span> olap</li><li><span class='opt'>D)</span> oltp</li><li><span class='opt'>E)</span> veri küpü</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Belirli döneme ait, konu odaklı ve bütünleşik yapılar veri ambarı olarak adlandırılır. Bu yapı karar desteğinde önemli rol oynar.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Butunleme Benzeri Soru</div>
+      <div class="q-text">Metni küçük parçalara yani belirteçlere bölen bir işlemi ifade eden metin madenciliği adımı aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Metin ön işleme</li><li><span class='opt'>B)</span> Model değerlendirmesi</li><li><span class='opt'>C)</span> Model oluşturma</li><li><span class='opt'>D)</span> Özellik mühendisliği</li><li><span class='opt'>E)</span> Tokenizasyon</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Metni küçük parçalara ayırma işlemi tokenizasyondur. Metin madenciliğinde sonraki analizlerin temelini bu adım oluşturur.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <div class="footer">Başarılar dilerim</div>
+  </div>
+</body>
+</html>
