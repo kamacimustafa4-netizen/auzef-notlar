@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bilgisayar Organizasyonu - Benzeri Sorulu Ayrıntılı Ders Notu</title>
+<style>
+  :root {
+    --bg: #f6f8fc;
+    --card: #ffffff;
+    --muted: #5f6b7a;
+    --text: #1e293b;
+    --primary: #6d8fd6;
+    --primary-soft: #e9f0ff;
+    --line: #dde5f0;
+    --accent: #2f5aa8;
+    --success: #eef8f1;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #f8fbff 0%, #f4f6fb 100%);
+    color: var(--text);
+    line-height: 1.72;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 34px 20px 48px;
+  }
+  .hero {
+    background: linear-gradient(135deg, #eef5ff 0%, #ffffff 100%);
+    border: 1px solid var(--line);
+    border-radius: 26px;
+    padding: 32px;
+    box-shadow: 0 14px 38px rgba(76, 104, 146, 0.08);
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #21457d;
+  }
+  .hero p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 16px;
+  }
+  .note-banner {
+    background: var(--primary-soft);
+    border: 1px solid #cddbff;
+    border-radius: 18px;
+    padding: 18px 20px;
+    margin: 22px 0 0;
+    color: #2d4d82;
+    font-weight: 600;
+  }
+  .topic-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(39, 62, 103, 0.06);
+    margin-top: 22px;
+    overflow: hidden;
+  }
+  .topic-header {
+    background: linear-gradient(135deg, #f3f7ff 0%, #edf3ff 100%);
+    border-bottom: 1px solid var(--line);
+    padding: 18px 24px;
+  }
+  .topic-header h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #294c86;
+  }
+  .topic-body {
+    padding: 22px 24px 24px;
+  }
+  .topic-body p {
+    margin: 0 0 14px;
+    font-size: 16px;
+  }
+  .exam-box {
+    margin-top: 22px;
+    background: #fafcff;
+    border: 1px dashed #cfd9ea;
+    border-radius: 18px;
+    padding: 18px;
+  }
+  .exam-box h3 {
+    margin: 0 0 14px;
+    font-size: 18px;
+    color: #31548f;
+  }
+  .question-card {
+    background: #fff;
+    border: 1px solid #e4ebf5;
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 14px;
+  }
+  .question-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #58709a;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .question-text {
+    font-weight: 700;
+    color: #24364d;
+    margin-bottom: 12px;
+  }
+  .options {
+    margin: 0;
+    padding-left: 20px;
+  }
+  .options li {
+    margin-bottom: 8px;
+    color: #324255;
+  }
+  .opt {
+    font-weight: 700;
+    color: #2c4e88;
+  }
+  .answer-box {
+    margin-top: 12px;
+    padding: 12px 14px;
+    background: #f3f8ff;
+    border: 1px solid #d8e6ff;
+    border-radius: 12px;
+    color: #2b4876;
+  }
+  .mini-note {
+    margin-top: 10px;
+    padding: 12px 14px;
+    background: var(--success);
+    border: 1px solid #d8efdf;
+    border-radius: 12px;
+    color: #355c42;
+  }
+  .footer {
+    margin-top: 28px;
+    text-align: center;
+    color: #506070;
+    font-weight: 700;
+    padding: 14px;
+  }
+  @media (max-width: 700px) {
+    .container { padding: 18px 12px 32px; }
+    .hero { padding: 24px 18px; border-radius: 22px; }
+    .hero h1 { font-size: 26px; }
+    .topic-header h2 { font-size: 19px; }
+    .topic-body, .topic-header { padding-left: 18px; padding-right: 18px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>Bilgisayar Organizasyonu<br>Benzeri Sorulu Ayrıntılı Ders Notu</h1>
+      <p>Bu içerik, ders çalışırken konuları daha net görmen, kavramlar arasındaki bağlantıyı daha rahat kurman ve soru mantığını daha güçlü biçimde kavraman için ders notu düzeninde hazırlanmıştır.</p>
+      <div class="note-banner">Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.</div>
+    </header>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>1. Bilgisayar Organizasyonuna Giriş ve Temel Birimler</h2></div>
+      <div class="topic-body">
+        <p>Bilgisayar organizasyonu, bir bilgisayar sisteminin yalnızca hangi parçalardan oluştuğunu değil, bu parçaların birbiriyle nasıl çalıştığını da inceler. Derste sık geçen temel yapı; işlemci, bellek, giriş/çıkış birimleri ve veri yolu ilişkisidir. Burada önemli olan nokta, teorik kavramların tek tek ezberlenmesi değil, işlem akışının nerede başladığı ve hangi bileşenin hangi görevi üstlendiğinin anlaşılmasıdır.</p>
+<p>İşlemci tarafında özellikle ALU, kontrol birimi, veri yolu, register ve datapath kavramları öne çıkar. Kontrol birimi hangi işlemin yapılacağını yönetirken ALU aritmetik ve mantıksal hesaplamaları yürütür. Datapath ise verinin işlemci içindeki dolaşım yoludur. Bu nedenle sınavlarda “işlemci hangi iki temel parçadan oluşur?”, “hangi birim veriyi işler?” ya da “hangi yapı donanımın temel parçasıdır?” gibi sorular sık görülür.</p>
+<p>Bu bölüm çalışılırken CPU’nun tek başına düşünülmemesi gerekir. Çünkü CPU gücü ne kadar yüksek olursa olsun bellek, veri yolu ve çevre birimleriyle kurduğu ilişki zayıfsa sistemin genel performansı düşer. Bilgisayar organizasyonu dersi tam olarak bu bütünlüğü anlamayı amaçlar.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Bir işlemcinin temel yapısını düşünürsek, aşağıdakilerden hangisi CPU’nun iki ana parçasını en doğru şekilde verir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Register – Datapath</li><li><span class='opt'>B)</span> Control Unit – Register</li><li><span class='opt'>C)</span> Datapath – Control Unit</li><li><span class='opt'>D)</span> ALU – Bus</li><li><span class='opt'>E)</span> ALU – Control Unit</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) ALU – Control Unit</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> İşlemcinin çekirdek mantığında hesaplama ve denetim birlikte düşünülür. ALU işlemleri yapar, kontrol birimi ise bu işlemleri yönlendirir.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Bir bilgisayarın işlem gücü ve komutları yürütme başarımı en doğrudan hangi bileşen çiftinin etkin çalışmasına bağlıdır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> ALU – Control Unit</li><li><span class='opt'>B)</span> Datapath – Control Unit</li><li><span class='opt'>C)</span> Register – Datapath</li><li><span class='opt'>D)</span> Control Unit – Register</li><li><span class='opt'>E)</span> ALU – Bus</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Datapath – Control Unit</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Datapath verinin hareket ettiği işleme yolunu, kontrol birimi ise hangi işlemin ne zaman yapılacağını belirler. Bu ikisi birlikte performansı belirleyen ana yapıdadır.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>2. Sayı Sistemleri, İşaretli Sayılar ve Veri Gösterimi</h2></div>
+      <div class="topic-body">
+        <p>Bilgisayarlar veriyi ikili sayı sistemiyle işler. Bu yüzden decimal, binary, octal ve hexadecimal sayı sistemleri arasında dönüşüm yapmak dersin en temel becerilerindendir. Özellikle 16’lık sayı sisteminin rakam kümesi, ikilikten onaltılığa dönüşüm ve bit düzeyinde gösterim sınavlarda çok sık sorulur.</p>
+<p>İşaretli sayılar konusu da ayrıca önemlidir. Bir sayının signed biçimde negatif olup olmadığını anlamak için en yüksek değerlikli bitin, yani işaret bitinin değerine bakılır. Bunun yanında ikiye tümleyen, parity ve karakter kodlama gibi başlıklar da veri gösteriminin parçasıdır.</p>
+<p>Endian kavramı ise çok baytlı verinin bellekte hangi sırayla tutulduğunu açıklar. Big-endian en anlamlı baytı başa yazarken little-endian en düşük anlamlı baytı önce saklar. Bu fark özellikle düşük seviyeli programlama ve bellek organizasyonu açısından önemlidir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E ve F sembollerini kullanan sayı sistemi aşağıdakilerden hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Octal</li><li><span class='opt'>B)</span> Ternary</li><li><span class='opt'>C)</span> Binary</li><li><span class='opt'>D)</span> Decimal</li><li><span class='opt'>E)</span> Hexadecimal</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Hexadecimal</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> 16’lık sayı sistemi 0–9 rakamları ile A–F harflerini birlikte kullanır. Bu gösterim özellikle bellek adresleme ve düşük seviyeli sistemlerde yaygındır.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">İşaretli bir tamsayıda en yüksek değerlikli bit 1 ise bu sayı için hangi yorum yapılır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Negatiftir</li><li><span class='opt'>B)</span> Tamsayıdır</li><li><span class='opt'>C)</span> Pozitiftir</li><li><span class='opt'>D)</span> Anlamsızdır</li><li><span class='opt'>E)</span> Özel karakterdir</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> A) Negatiftir</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Signed sayı gösteriminde en soldaki bit işaret bitidir. Bu bit 1 olduğunda sayı negatif kabul edilir.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>3. Mantık Kapıları, Boolean Cebri ve Ardışıl Devreler</h2></div>
+      <div class="topic-body">
+        <p>Bilgisayar donanımının temeli mantık kapılarıdır. AND, OR, NOT, NAND, NOR ve XOR gibi kapılar yalnızca elektronik devre elemanları değil, aynı zamanda tüm dijital tasarımın alfabesidir. Sınavlarda bu kapıların sembolleri, doğruluk tabloları ve birbirlerinin yerine kullanılabilme özellikleri öne çıkar.</p>
+<p>Boolean cebri, mantık ifadelerini sadeleştirmeyi sağlar. Özellikle DeMorgan kuralları, x·x’=0 ve x+x’=1 gibi temel özdeşlikler dikkatle çalışılmalıdır. Çünkü bu tür kurallar sadece teorik değil, devre tasarımını sadeleştirmek için de kullanılır.</p>
+<p>Ardışıl devreler önceki durum bilgisini de dikkate alır. Geri besleme, flip-flop ve latch gibi kavramlar bu yüzden önemlidir. Kombinasyonel devrelerde yalnızca anlık girişler etkiliyken ardışıl devrelerde geçmiş durum da sonucu etkiler.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi evrensel kapı olarak kabul edilir ve çok farklı mantık işlevlerini tek başına kurmak için kullanılabilir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> NAND</li><li><span class='opt'>B)</span> XOR</li><li><span class='opt'>C)</span> NOR</li><li><span class='opt'>D)</span> NOT</li><li><span class='opt'>E)</span> AND</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> A) NAND</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> NAND kapısı evrensel kapıdır; uygun bağlanışlarla diğer temel mantık kapıları bu kapıdan üretilebilir.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final / 2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Bir devrenin çıktısının tekrar aynı devreye giriş olarak bağlanmasına ne ad verilir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Bool işlevi</li><li><span class='opt'>B)</span> Flip-Flop</li><li><span class='opt'>C)</span> Ardışıl devre</li><li><span class='opt'>D)</span> Geri besleme</li><li><span class='opt'>E)</span> Kombinasyonel devre</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Geri besleme</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Geri besleme, devrenin geçmiş durumunu koruyabilmesinin temelidir. Bu yapı ardışıl devre mantığını mümkün kılar.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>4. Algoritma, Komutlar ve Program Dönüşümü</h2></div>
+      <div class="topic-body">
+        <p>Bir programın çalıştırılabilir hâle gelmesi, soyut problem çözme adımlarından başlayıp makine düzeyine kadar iner. Bu yolun ilk basamağı algoritmadır. Algoritma; bir problemi çözmek için izlenen mantıksal adımların sıralı biçimde tanımlanmasıdır.</p>
+<p>Bunun ardından kaynak program, derleme ya da çevirme süreçlerinden geçerek nesne koduna ve sonunda yürütülebilir yapıya dönüşür. Bu ders kapsamında yüksek seviyeli diller, assembly, assembler, nesne kodu ve makine dili kavramları sık karıştırıldığı için aralarındaki farkın netleştirilmesi gerekir.</p>
+<p>Komut düzeyinde NOP gibi talimatlar da önemlidir. NOP işlem yapmaz gibi görünse de zamanlama, senkronizasyon ve bazı donanımsal boşlukların yönetilmesi açısından kullanışlıdır. Bu yüzden işlevsiz değil, özel amaçlı bir komuttur.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final / 2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Bir problemi çözmek için izlenen mantıklı ve sıralı adımlar bütününe ne ad verilir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Yazılım</li><li><span class='opt'>B)</span> Algoritma</li><li><span class='opt'>C)</span> Assembly</li><li><span class='opt'>D)</span> Assembler</li><li><span class='opt'>E)</span> Nesne kodu</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Algoritma</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Algoritma, herhangi bir programlama dilinden bağımsız olarak çözümün mantıksal iskeletini oluşturur.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Program dönüştürme sürecinde doğru sıra hangi seçenekte verilmiştir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Nesne kodu – Kaynak program</li><li><span class='opt'>B)</span> Nesne kodu – Yürütme</li><li><span class='opt'>C)</span> Kaynak program – Yürütme</li><li><span class='opt'>D)</span> Kaynak program – Sonuç</li><li><span class='opt'>E)</span> Kaynak program – Nesne kodu</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Kaynak program – Nesne kodu</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Önce kaynak kod yazılır, ardından bu kod derlenerek veya çevrilerek nesne koduna dönüştürülür.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>5. Register Yapısı ve Komut Seti Mimarileri</h2></div>
+      <div class="topic-body">
+        <p>Register’lar işlemcinin içinde yer alan, çok hızlı ama kapasitesi sınırlı depolama alanlarıdır. CPU’nun işlem sırasında sık kullandığı veriler geçici olarak burada tutulur. Bu yüzden register kullanımı doğrudan hızla ilişkilidir.</p>
+<p>Komut seti mimarileri açısından işlenenlerin nerede tutulduğu önemli bir ayrımdır. Bellekten belleğe, bellekten yazmaca ya da yazmaç tabanlı düzenler arasında farklar bulunur. Bu mimariler veri akışını, komut sayısını ve donanım tasarımını etkiler.</p>
+<p>Register konusu çalışılırken genel amaçlı ve özel amaçlı yazmaçlar ayrımı da anlaşılmalıdır. Program counter, instruction register ve accumulator gibi yazmaçlar özel roller üstlenirken genel amaçlı register’lar esnek veri saklama ve işleme olanağı sunar.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Bir register’ın temel görevi aşağıdakilerden hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Veri iletimi</li><li><span class='opt'>B)</span> Veri işleme</li><li><span class='opt'>C)</span> Veri kontrolü</li><li><span class='opt'>D)</span> Veri depolama</li><li><span class='opt'>E)</span> Veri değiştirme</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Veri depolama</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Register’lar işlemci içindeki en hızlı geçici depolama alanlarıdır. Temel görevleri veriyi kısa süreli tutmaktır.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">İşlenenlerin tamamının ana bellekte tutulduğu komut seti mimarisi hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Yükleme</li><li><span class='opt'>B)</span> Bellekten belleğe</li><li><span class='opt'>C)</span> Bellekten yazmaca</li><li><span class='opt'>D)</span> Yazmaçtan belleğe</li><li><span class='opt'>E)</span> Depolama</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Bellekten belleğe</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bellekten belleğe mimaride işlem görecek operandlar doğrudan bellek üzerinde ele alınır; bu nedenle seçenekler arasında en uygun ifade budur.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>6. Bellek Hiyerarşisi, RAM Türleri ve Önbellek</h2></div>
+      <div class="topic-body">
+        <p>Bellek hiyerarşisi; register, önbellek, ana bellek ve ikincil depolama arasında hız-maliyet-kapasite dengesine dayanır. İşlemciye yakın bellekler daha hızlı ama daha pahalıdır; uzak bellekler ise daha yavaş fakat daha büyük kapasitelidir.</p>
+<p>Önbellek, işlemciye sık erişilen verileri daha yakın bir noktada tutarak sistemin genel hızını yükseltir. Doğrudan eşleme, blok kavramı ve yerellik ilkesi bu başlıkta çok önemlidir. Bir bloğun hangi önbellek satırına düşeceğini hesaplayabilmek sınavlarda sık çıkar.</p>
+<p>RAM türleri ve ROM ailesi de iyi bilinmelidir. SRAM önbellekte yaygınken DRAM ana bellekte sık kullanılır. EPROM gibi belleklerde ise yeniden programlama öncesi silme işlemi gerekir. Bu ayrımlar pratikte teknoloji seçimini belirler.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Önbellek yapısında yaygın olarak kullanılan RAM türü aşağıdakilerden hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> SDRAM</li><li><span class='opt'>B)</span> ROM</li><li><span class='opt'>C)</span> RAM</li><li><span class='opt'>D)</span> SRAM</li><li><span class='opt'>E)</span> DRAM</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) SRAM</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> SRAM hızlı olduğu için cache yapılarında tercih edilir; DRAM ise daha ucuz ve yüksek kapasiteli olduğu için ana bellekte yaygındır.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final / 2021 Final-2</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Sık erişilen verileri ana bellek yerine CPU’ya daha yakın tutarak erişimi hızlandıran birim hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> RAM</li><li><span class='opt'>B)</span> Ana bellek</li><li><span class='opt'>C)</span> Sabit disk</li><li><span class='opt'>D)</span> Ön bellek</li><li><span class='opt'>E)</span> Ara bellek</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Ön bellek</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Önbellek, yerellik ilkesinden yararlanarak işlemcinin veri bekleme süresini azaltır ve performansı artırır.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>7. Giriş / Çıkış Sistemleri ve Arayüzler</h2></div>
+      <div class="topic-body">
+        <p>Giriş/çıkış sistemi, işlemcinin dış dünyayla veri alışverişini sağlayan katmandır. Klavye, monitör, yazıcı, depolama cihazları, A/D ve D/A dönüştürücüler gibi birçok bileşen bu kapsama girer. Ancak bu cihazlar CPU ile doğrudan değil, çoğu zaman bir G/Ç arayüzü üzerinden haberleşir.</p>
+<p>G/Ç türleri içinde komut tabanlı, bellek eşlemeli ve izole G/Ç ayrımları önemlidir. Özellikle adres alanının bellekle paylaşılması ya da özel komutlarla iletişim kurulması sınavlarda seçenekleri ayırt ettiren temel farktır.</p>
+<p>Giriş ve çıkış aygıtlarını sadece cihaz örneği üzerinden değil, sistem içindeki rollerine göre anlamak gerekir. Örneğin monitör bir çıkış aygıtıdır; terminaller etkileşimli modda çalışır; dönüştürücüler analog-dijital dünya arasında köprü kurar.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi bir çıkış aygıtı örneğidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Tarayıcı</li><li><span class='opt'>B)</span> Assembler</li><li><span class='opt'>C)</span> Klavye</li><li><span class='opt'>D)</span> Fare</li><li><span class='opt'>E)</span> Monitör</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Monitör</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Monitör kullanıcıya bilgi sunar; yani sisteme veri vermek yerine sistemden çıkan veriyi gösterir.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Adres alanının bir bölümünü kullanarak çalışan G/Ç yöntemi aşağıdakilerden hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> İzole G/Ç</li><li><span class='opt'>B)</span> Ortak G/Ç</li><li><span class='opt'>C)</span> Adresli G/Ç</li><li><span class='opt'>D)</span> Genel G/Ç</li><li><span class='opt'>E)</span> Bellek eşlemeli G/Ç</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Bellek eşlemeli G/Ç</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bellek eşlemeli G/Ç’de cihaz kayıtları bellek adres alanının içinde görülür. Böylece CPU bellek erişim mantığıyla cihazlara ulaşabilir.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>8. Veri Yolu, Tahkim ve Veri Aktarımı</h2></div>
+      <div class="topic-body">
+        <p>Veri yolu, işlemci, bellek ve çevre birimleri arasında veri, adres ve kontrol sinyallerinin taşındığı ortak iletişim altyapısıdır. Sistem performansı sadece işlemcinin hızına değil, veri yolunun tasarımına ve paylaşım biçimine de bağlıdır.</p>
+<p>Birden fazla birim aynı veri yolunu kullanmak istediğinde tahkim gerekir. Daisy-chain, bağımsız tahkim ve dağıtık yaklaşımlar gibi teknikler hangi aygıtın ne zaman veri yolunu kullanacağını belirler. Bu konu özellikle çok aygıtlı sistemlerde önemlidir.</p>
+<p>Veri yolu aktarımı belirli aşamalarla yürür: adresin yerleştirilmesi, komut sinyalinin gönderilmesi, slave tarafın veriyi kabul etmesi ya da yerleştirmesi ve sonunda onay sürecinin tamamlanması gibi. Bu akışı mantıksal sırayla kurabilmek dersin ayırt edici kısmıdır.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi veri yolu tahkim tekniklerinden biridir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Zorunlu istek</li><li><span class='opt'>B)</span> Daisy-chain</li><li><span class='opt'>C)</span> Denetleyici</li><li><span class='opt'>D)</span> N sıralı</li><li><span class='opt'>E)</span> Kontrol</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Daisy-chain</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Daisy-chain, izin sırasını zincirleme biçimde dağıtan klasik bir bus arbitration yöntemidir.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">İzin isteyen aygıtlar arasındaki önceliği çözüp en yüksek öncelikli cihaza yetki veren tahkim tekniği hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Daisy-chain</li><li><span class='opt'>B)</span> Kontrol</li><li><span class='opt'>C)</span> Bağımsız</li><li><span class='opt'>D)</span> Polling</li><li><span class='opt'>E)</span> N sıralı</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> C) Bağımsız</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bağımsız tahkimde karar merkezi daha kontrollüdür ve öncelik çözümü daha net biçimde yapılır.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>9. Clock, Kesmeler ve Senkronizasyon</h2></div>
+      <div class="topic-body">
+        <p>Dijital sistemlerin uyumlu biçimde çalışabilmesi için zamanlama gerekir. Clock sinyali, donanım bileşenlerine ortak bir ritim sağlar ve işlemlerin ne zaman gerçekleşeceğini belirler. Senkron tasarımın temel dayanağı budur.</p>
+<p>Kesme mekanizması ise işlemcinin belirli olaylara hızlı tepki vermesini sağlar. Vektörlü kesmelerde hangi cihaza ait hizmet rutinine gidileceği önceden belirlenmiş adres bilgileriyle ilişkilendirilir. Bu yapı özellikle G/Ç verimliliğini yükseltir.</p>
+<p>Kontrol birimi, komutların yürütülmesini ve veri aktarım akışını izler. Ancak veriyi fiziksel olarak ileten birim değildir. Bu ayrım soru köklerinde sık kullanıldığı için dikkat edilmelidir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Sistemdeki tüm temel bileşenlerin zaman bakımından uyumlu çalışmasından aşağıdakilerden hangisi sorumludur?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> CPU</li><li><span class='opt'>B)</span> Veri yolu</li><li><span class='opt'>C)</span> Clock</li><li><span class='opt'>D)</span> Register</li><li><span class='opt'>E)</span> ALU</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> C) Clock</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Clock sinyali işlemlerin ortak zaman tabanını oluşturur ve bileşenleri senkronize eder.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Vektörlü kesme yapısında vektör içeriği tipik olarak neyi gösterir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Kesmeye yol açan durum</li><li><span class='opt'>B)</span> Kesme oluşturan cihazın adresi</li><li><span class='opt'>C)</span> Kesme servis rutini</li><li><span class='opt'>D)</span> Master adresi</li><li><span class='opt'>E)</span> Slave adresi</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Kesme oluşturan cihazın adresi</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Vektörlü kesmelerde cihaz veya hizmet adresi üzerinden doğru servis rutinine ulaşılır.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>10. Ağ Bileşenleri ve Referans Modelleri</h2></div>
+      <div class="topic-body">
+        <p>Bilgisayar organizasyonu dersinde ağ soruları doğrudan haberleşme katmanları, ağ bileşenleri ve veri iletim yolları üzerinden gelir. Host, router, bridge, network ve link kavramlarını birbirinden ayırmak gerekir. Özellikle router ve server gibi bileşenlerin görev tanımları sınavlarda öne çıkar.</p>
+<p>OSI ve TCP/IP modelleri katmanlı iletişim mantığını açıklar. OSI modelinde en alt katman fiziksel katmandır; uygulama katmanı üst uçta yer alır. TCP/IP yaklaşımında da fiziksel ya da ağ erişimi katmanı tabana yakın kabul edilir. Hangi modelde hangi katmanın sorulduğuna dikkat edilmelidir.</p>
+<p>Ağ türleri açısından LAN, MAN ve WAN ayrımı da önemlidir. İnternetin WAN olarak düşünülmesi, LAN’ın ise daha yerel iletişim teknolojilerine dayanması tipik sınav bilgisidir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final-2</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Ağ referans modellerinde en üstte yer alan katman aşağıdakilerden hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Fiziksel</li><li><span class='opt'>B)</span> Oturum</li><li><span class='opt'>C)</span> Sunum</li><li><span class='opt'>D)</span> Ağ</li><li><span class='opt'>E)</span> Uygulama</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Uygulama</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Kullanıcıya en yakın katman uygulama katmanıdır; bu nedenle referans modellerde en üst seviyede yer alır.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">OSI modelinin en alt katmanı aşağıdakilerden hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Sunum</li><li><span class='opt'>B)</span> Fiziksel</li><li><span class='opt'>C)</span> Ağ erişimi</li><li><span class='opt'>D)</span> Nakil</li><li><span class='opt'>E)</span> Ağ</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Fiziksel</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Fiziksel katman bitlerin fiziksel ortamda nasıl iletildiğini tanımlar ve OSI modelinin tabanıdır.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>11. Gömülü Sistemler, Firmware ve İşletim Desteği</h2></div>
+      <div class="topic-body">
+        <p>Gömülü sistemler, belirli bir ya da birkaç görevi yerine getirmek için tasarlanmış özel amaçlı yapılardır. Genel amaçlı bilgisayarların aksine bu sistemlerde donanım ve yazılım çoğu zaman belirli bir iş için birlikte optimize edilir.</p>
+<p>Firmware, cihazın temel açılış ve düşük seviyeli kontrol işlevlerini sağlayan kalıcı yazılım katmanıdır. Sistem ilk çalıştığında görev alan bu yapı, cihazın temel yaşam döngüsü için kritik öneme sahiptir. Watchdog timer ise sistemin kilitlenmesine karşı kullanılan bir denetim mekanizmasıdır.</p>
+<p>İşletim sistemi ve RTOS gibi kavramlar da burada önemlidir. Çoklu görev, zaman duyarlı çalışma ve kaynak yönetimi gibi özellikler özellikle gömülü ortamlarda soruların merkezine yerleşir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final-2 / 2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Özel amaçlı olarak, bir veya birkaç önceden tanımlı işi yapmak üzere tasarlanan sistemlere ne ad verilir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Gömülü sistem</li><li><span class='opt'>B)</span> RTOS</li><li><span class='opt'>C)</span> CPU</li><li><span class='opt'>D)</span> Network</li><li><span class='opt'>E)</span> İşletim sistemi</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> A) Gömülü sistem</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Gömülü sistemler genel amaçlı değil, hedeflenen işleve göre tasarlanmış yapılardır.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Gömülü sistemlerde açılışı sağlayan ve sistemin temel çalışmasını başlatan kalıcı yazılım katmanı hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Kernel</li><li><span class='opt'>B)</span> Watchdog timer</li><li><span class='opt'>C)</span> CPU</li><li><span class='opt'>D)</span> Firmware</li><li><span class='opt'>E)</span> RTOS</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Firmware</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Firmware, cihazın ilk başlatma ve temel donanım kontrol görevlerini üstlenir.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header"><h2>12. Hata Denetimi, Kodlama ve Dönüştürücüler</h2></div>
+      <div class="topic-body">
+        <p>Veri iletiminde hataları tamamen önlemek her zaman mümkün olmadığı için hata denetim mekanizmaları geliştirilmiştir. Eşlik biti, bunların en temelidir ve hata düzeltmekten çok hata tespit etmek için kullanılır. Özellikle tek bitlik bozulmaları fark etme mantığı sınavlarda sık sorulur.</p>
+<p>ASCII ve EBCDIC gibi karakter kodlamaları, her karakterin bellekte kaç bit ya da kaç bayt yer kapladığı sorularıyla birlikte ele alınır. Bu konu, veri temsili ile iletim verimliliği arasında bağlantı kurmayı sağlar.</p>
+<p>Ayrıca A/D ve D/A dönüştürücüler fiziksel dünyanın analog sinyallerini dijital sistemlerle buluşturur. Sensör verilerinin işlenmesi ve dijital değerin analog çıktıya çevrilmesi gibi senaryolar donanım uygulamalarında temel öneme sahiptir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Eşlik biti temel olarak hangi amaçla kullanılır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Hata düzeltme</li><li><span class='opt'>B)</span> Veri iletimi</li><li><span class='opt'>C)</span> Hata tespiti</li><li><span class='opt'>D)</span> Bit kaydırma</li><li><span class='opt'>E)</span> Özel karakter iletimi</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> C) Hata tespiti</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Parity biti, veri içinde hata olup olmadığını anlamaya yarar; doğrudan hata düzeltmez.</div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-meta"><span>2021 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">D/A dönüştürücünün çıkışında aşağıdakilerden hangisi görülür?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Yürütülecek komut adresi</li><li><span class='opt'>B)</span> Tek eşlik biti</li><li><span class='opt'>C)</span> Bir sensörün algıladığı dijital sinyal</li><li><span class='opt'>D)</span> n bit dijital girişe karşılık gelen analog gerilim</li><li><span class='opt'>E)</span> Analog sinyalin dijital bit modeli</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) n bit dijital girişe karşılık gelen analog gerilim</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Dijitalden analoğa dönüşümde çıktı artık sayısal bitler değil, o bit desenini temsil eden analog seviyedir.</div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="footer">Başarılar dilerim</div>
+  </div>
+</body>
+</html>
