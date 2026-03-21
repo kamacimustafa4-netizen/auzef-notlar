@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang='tr'>
+<head>
+<meta charset='UTF-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+<title>Üretim Yönetimi Ders Notu</title>
+<style>
+:root{ --bg:#f4f7fb;--panel:#ffffff;--soft:#f8fbff;--line:#d8e3f2;--text:#20304a;--muted:#5f718f;
+ --blue:#4f7ee8;--blue-soft:#ebf2ff;--gold:#f5a524;--gold-soft:#fff8e8;
+ --green:#0f766e;--green-soft:#ecfdf5;--purple:#7c3aed;--purple-soft:#f5f0ff;}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Segoe UI',Arial,sans-serif;background:linear-gradient(180deg,#eef3fb 0%,#f8fbff 100%);color:var(--text);line-height:1.75}
+.container{width:min(1140px,calc(100% - 32px));margin:28px auto 60px}
+.hero{background:linear-gradient(135deg,#ffffff 0%,#eef4ff 100%);border:1px solid var(--line);border-radius:28px;padding:36px;box-shadow:0 18px 40px rgba(61,93,152,.08)}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-weight:800;font-size:13px;letter-spacing:.2px}
+h1{margin:16px 0 10px;font-size:40px;line-height:1.18;color:#1d2b44}
+.lead{margin:0;color:var(--muted);font-size:17px}
+section.topic{margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 12px 28px rgba(61,93,152,.06)}
+.topic-head{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;margin-bottom:12px}
+.topic-index{background:var(--blue-soft);color:var(--blue);padding:8px 12px;border-radius:999px;font-weight:800;font-size:13px}
+.topic-title{font-size:28px;font-weight:800;line-height:1.3;color:#223553;flex:1;min-width:260px}
+.topic-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin-top:10px}
+.card{background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:20px}
+.card h3{margin:0 0 10px;font-size:18px;color:#223553}
+.card p{margin:0 0 12px;color:#314564}
+.card p:last-child{margin-bottom:0}
+.card ul{margin:0;padding-left:20px;color:#314564}
+.callout{margin-top:12px;border-radius:18px;padding:14px 16px;border:1px solid transparent;font-size:15px}
+.attn{background:var(--gold-soft);border-color:#f7d48b}
+.note{background:var(--green-soft);border-color:#a7f3d0}
+.mix{background:var(--purple-soft);border-color:#d8b4fe}
+.questions{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+.qcard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 8px 20px rgba(61,93,152,.05)}
+.qbadge{display:inline-block;background:var(--blue-soft);color:var(--blue);padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:12px}
+.qcard h4{margin:0 0 10px;font-size:18px;line-height:1.5;color:#233550}
+.opts{display:grid;gap:8px;margin-top:10px}
+.opt{background:#f8fbff;border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:14px;color:#314564}
+.answer{margin-top:12px;background:#f6fffb;border:1px solid #b7ebd1;border-radius:16px;padding:12px 14px;font-size:14px;color:#184d3b}
+.footer{margin-top:26px;text-align:center;color:var(--muted);font-size:13px}
+@media (max-width:900px){.topic-grid,.questions{grid-template-columns:1fr}h1{font-size:32px}.topic-title{font-size:24px}}
+</style>
+</head>
+<body>
+<div class='container'>
+<header class='hero'>
+  <span class='badge'>YBS • Ders Notu</span>
+  <h1>Üretim Yönetimi</h1>
+  <p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Konular sade başlıklar altında toplanmış, anlatım güçlendirilmiş ve her başlıkta yalnızca 2 seçilmiş soru bırakılmıştır.</p>
+</header>
+
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 1</div>
+    <div class='topic-title'>Üretim Yönetimine Giriş ve Temel Kavramlar</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Üretim yönetimi, yalnız fabrikada mal üretmekten ibaret değildir. Mal ve hizmet üretiminde kullanılan iş gücü, makine, malzeme, zaman ve sermaye gibi kaynakların en verimli biçimde planlanması ve yönetilmesi bu alanın merkezindedir.</p><p>Bu bölümde işletmelerin temel fonksiyon alanları, üretim ile işlemler yönetimi arasındaki ilişki ve üretim sistemlerinin genel mantığı ele alınır. Dersin giriş kısmı olduğu için kavram soruları burada yoğunlaşır.</p><p>Sınavlarda özellikle &#x27;işlemler yönetimi&#x27;, &#x27;üretim yönetimi&#x27;, &#x27;girdi&#x27;, &#x27;çıktı&#x27; ve &#x27;temel fonksiyon alanları&#x27; birbirine yakın seçeneklerle verilir. Bu yüzden tanım ezberlemek yerine kavramın neyi yönettiğini düşünmek gerekir.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>İşlemler yönetimi hem mal hem hizmet süreçlerini kapsar.</li><li>Üretim, işletmenin tek fonksiyonu değildir; finans, pazarlama ve insan kaynaklarıyla birlikte düşünülür.</li><li>Girdi–dönüşüm–çıktı mantığı temel çerçevedir.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> &quot;Temel fonksiyon alanı değildir&quot; türü sorularda seçeneklerin hepsi işletmeye ait gibi görünür; burada ana ayrımı korumak gerekir.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Üretim yönetimi daha dar, işlemler yönetimi ise daha geniş bir bakış açısı sunar.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Üretim ve işlemler yönetimi çoğu zaman eş anlamlı sanılır; ancak hizmet operasyonları vurgusunda işlemler yönetimi daha kapsayıcıdır.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2022-2023 Vize</div><h4>Aşağıdakilerden hangisi işletmelerin temel fonksiyon alanlarından biri değildir?</h4><div class='opts'><div class='opt'><strong>A)</strong> İşlemler</div><div class='opt'><strong>B)</strong> Üretim</div><div class='opt'><strong>C)</strong> Pazarlama</div><div class='opt'><strong>D)</strong> İnsan kaynakları</div><div class='opt'><strong>E)</strong> Finans</div></div><div class='answer'><strong>Doğru Cevap:</strong> B - Üretim<br><span>Doğru seçenek B şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2021 Final</div><h4>Verimli sistemleri –işi gerçekleştirmek için gereken sistemleri – düzenleyen ve etkin hâle getiren yönetim sistemi aşağıdakilerden hangisidir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Üretim yönetimi</div><div class='opt'><strong>B)</strong> Stok yönetimi</div><div class='opt'><strong>C)</strong> Finans yönetimi</div><div class='opt'><strong>D)</strong> İşlemler yönetimi</div><div class='opt'><strong>E)</strong> Kaynak yönetimi</div></div><div class='answer'><strong>Doğru Cevap:</strong> D - İşlemler yönetimi<br><span>Doğru seçenek D şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 2</div>
+    <div class='topic-title'>Strateji, Vizyon ve Rekabet Öncelikleri</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Üretim yönetiminde strateji, işletmenin pazarda nasıl rekabet edeceğini ve kaynaklarını hangi önceliklere göre kullanacağını belirler. Burada kalite, hız, esneklik ve maliyet gibi rekabet öncelikleri devreye girer.</p><p>Vizyon ise işletmeyi ortak bir doğrultuda birleştiren, kararların tutarlı biçimde alınmasına yardımcı olan genel yön duygusudur. Öz yetenekler ve konumlandırma da bu stratejik yapının temel parçalarıdır.</p><p>Bu başlıkta sınavlar genellikle tanım sorusu biçimindedir. Hangi kavramın işletmenin yönünü, hangisinin rekabet biçimini, hangisinin ayırt edici gücünü ifade ettiğini doğru ayırmak gerekir.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Strateji pazarda nasıl rekabet edileceğini belirler.</li><li>Vizyon işletmeye ortak yön hissi kazandırır.</li><li>Öz yetenekler rakiplerden ayrışma sağlar.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Konumlandırma ile vizyon aynı şey değildir; biri pazardaki rekabet duruşunu, diğeri ortak yön duygusunu ifade eder.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Sipariş kazandırıcılar müşterinin neden sizi seçtiğini, sipariş niteleyiciler ise yarışta kalmak için gereken asgari düzeyi gösterir.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Strateji belirleme adımları ile stratejinin sonucu olan kavramlar sık karıştırılır.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Bir işletmeyi birleştiren, alınan kararların tutarlı olmasını ve işletmenin doğru yolda ilerlemesini sağlayan ortak vizyona ne ad verilir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Vizyon</div><div class='opt'><strong>B)</strong> Strateji</div><div class='opt'><strong>C)</strong> Hedef</div><div class='opt'><strong>D)</strong> Misyon</div><div class='opt'><strong>E)</strong> Yönetim</div></div><div class='answer'><strong>Doğru Cevap:</strong> B - Strateji<br><span>Doğru seçenek B şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2022-2023 Vize</div><h4>Strateji belirleme dört temel adımdan oluşur. Bu bilgiye göre aşağıdakilerden hangisi bu adımlardan biri değildir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Genel maliyet liderliği</div><div class='opt'><strong>B)</strong> Öz yetenekleri değerlendirme</div><div class='opt'><strong>C)</strong> Birincil bir görev belirleme</div><div class='opt'><strong>D)</strong> Sipariş kazandırıcılar ve sipariş niteleyiciler</div><div class='opt'><strong>E)</strong> Firmayı konumlandırma</div></div><div class='answer'><strong>Doğru Cevap:</strong> A - Genel maliyet liderliği<br><span>Doğru seçenek A şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 3</div>
+    <div class='topic-title'>Ürün ve Hizmet Tasarımı</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Ürün ve hizmet tasarımı, müşteri ihtiyaçlarını en uygun maliyet, kalite ve kullanılabilirlik dengesiyle karşılayacak yapının kurulmasını amaçlar. Tasarım süreci yalnızca teknik çizim üretmek değil, aynı zamanda maliyet ve süreç uygunluğu sağlamaktır.</p><p>Etkili bir tasarım, müşteri beklentisini karşılamalı, üretim ve kontrol süreçlerini kolaylaştırmalı, gereksiz ayrıntıları azaltmalı ve kaliteye katkı sağlamalıdır.</p><p>Bu başlıkta soru kökleri çoğunlukla tasarımın amacı, iyi tasarımın özellikleri ve tasarıma yönelik yalın yaklaşımlar etrafında döner.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Tasarım kaliteyi ve maliyeti doğrudan etkiler.</li><li>Gereksiz karmaşıklık üretimi zorlaştırır.</li><li>Müşteri ihtiyacını karşılamak tasarımın merkezindedir.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Bir özelliğin tasarımın faydası mı yoksa tam tersi mi olduğuna dikkat et; sınavda bu ayrım çok sık kullanılır.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Tasarım yalnız son görünüşle ilgili değildir; üretilebilirlik ve kontrol edilebilirlik de tasarımın parçasıdır.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Kaliteyi yükselten tasarım ile maliyeti yükselten gereksiz ayrıntı aynı şey değildir.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Aşağıdakilerden hangisi etkili bir tasarım sürecinin özelliklerinden biri değildir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Tasarımın işe yarar olması için gerekli kontrolleri en aza indirir.</div><div class='opt'><strong>B)</strong> Müşteri ihtiyaçlarının en basit ve en az maliyetli bir şekilde karşılanmasını sağlar.</div><div class='opt'><strong>C)</strong> Ürün ve hizmet özellikleriyle müşteri ihtiyaçlarını eşleştirir.</div><div class='opt'><strong>D)</strong> Ürün ve hizmetin kalitesi üzerindeki etkisi oldukça küçüktür.</div><div class='opt'><strong>E)</strong> Yeni bir ürün veya hizmet tasarlamak için gereken zamanı azaltır.</div></div><div class='answer'><strong>Doğru Cevap:</strong> D - Ürün ve hizmetin kalitesi üzerindeki etkisi oldukça küçüktür.<br><span>Doğru seçenek D şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2024-2025 Vize</div><h4>Ürün ve hizmet tasarımına yönelik hangi yaklaşım, üretim veya hizmet sunma sürecindeki her adımı analiz ederek israfı azaltmaya ve verimliliği artırmaya odaklanır?</h4><div class='opts'><div class='opt'><strong>A)</strong> Güvenilirlik için tasarım</div><div class='opt'><strong>B)</strong> Sürdürülebilirlik için tasarım</div><div class='opt'><strong>C)</strong> Estetik için tasarım</div><div class='opt'><strong>D)</strong> Üretilebilirlik için tasarım</div><div class='opt'><strong>E)</strong> Altı Sigma için Tasarım</div></div><div class='answer'><strong>Doğru Cevap:</strong> E - Altı Sigma için Tasarım<br><span>Doğru seçenek E şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 4</div>
+    <div class='topic-title'>Tasarım Süreci, Fizibilite ve Kalite Araçları</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Tasarım süreci fikir üretme ile başlar; fizibilite, ön tasarım ve ayrıntılandırma gibi aşamalarla ilerler. Bu süreçte hem teknik uygulanabilirlik hem de ekonomik uygunluk değerlendirilir.</p><p>Fizibilite aşamasında yeni ürünün teknoloji ihtiyacı, risk düzeyi, sermaye gereksinimi, kapasite uygunluğu ve işletmeye rekabet avantajı sağlayıp sağlamayacağı sorgulanır.</p><p>Ayrıca tasarım tamamlanmadan önce olası hataların öngörülmesi için FMEA, FTA ve değer analizi gibi kalite araçlarından yararlanılır. Bu nedenle bu konu hem süreç bilgisi hem de yöntem bilgisi ister.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Fizibilite, uygulanabilirlik sorgusudur.</li><li>FMEA ve FTA olası hataları önceden görmeye yardım eder.</li><li>Tasarım aşamaları sıralı ve mantıksaldır.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soru kökünde teknoloji, risk, kapasite ve yatırım varsa çoğu zaman fizibilite aşaması işaret edilir.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Tasarım araçları ürün ortaya çıktıktan sonra değil, mümkün olduğunca erken aşamada kullanılmalıdır.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Fizibilite, fikir üretme ile aynı şey değildir; fikir üretme yaratır, fizibilite değerlendirir.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2022 Final</div><h4>I. Arıza Modu ve Etkl Analizl (FMEA) II. Arıza III. Değer Anallzl (VD) IV. Arıza Ağacı Analizi (FTA) Tasarım sonuçlandırılmadan önce olası hataların analızı yukarıdaki tekniklerden hangisi veya hangileri ile yapılmaktadır?</h4><div class='opts'><div class='opt'><strong>A)</strong> Yalnız II</div><div class='opt'><strong>B)</strong> I, III ve IV</div><div class='opt'><strong>C)</strong> III ve IV</div><div class='opt'><strong>D)</strong> Ive IV</div><div class='opt'><strong>E)</strong> I ve III</div></div><div class='answer'><strong>Doğru Cevap:</strong> B - I, III ve IV<br><span>Doğru seçenek B şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2022-2023 Vize</div><h4>“Yeni ürün yeni bir teknoloji gerektiriyor mu? Risk veya sermaye yatırımı çok mu büyük? Şirket gerekli teknolojiyi destekleyen yeterli iş gücü ve yönetim becerisine sahip midir? Üretim için yeterli kapasite mevcut mudur? Yeni teknoloji şirket için bir rekabet avantajı yaratıyor mu? Bu yeni teknoloji firmanın ana faaliyet alanıyla uyumlu mu?” gibi sorular tasarım sürecinin hangi aşamasında sorulur?</h4><div class='opts'><div class='opt'><strong>A)</strong> Fizibilite</div><div class='opt'><strong>B)</strong> Ön tasarım</div><div class='opt'><strong>C)</strong> Fonksiyonel tasarım</div><div class='opt'><strong>D)</strong> Biçim tasarımı</div><div class='opt'><strong>E)</strong> Fikir üretme</div></div><div class='answer'><strong>Doğru Cevap:</strong> A - Fizibilite<br><span>Doğru seçenek A şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 5</div>
+    <div class='topic-title'>Üretim Türleri ve Süreç Seçimi</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Üretim türleri; proje tipi üretim, sipariş üzerine üretim, parti üretimi, kitle üretim ve sürekli üretim gibi kategorilere ayrılır. Her bir tür hacim, çeşitlilik, maliyet ve müşteri katılımı bakımından farklı bir mantığa sahiptir.</p><p>Parti üretimi orta ölçekli ve değişken talebe uygunken, kitle üretim daha büyük hacimli ve daha standart ürünler için kullanılır. Proje tipi üretim ise benzersiz, maliyetli ve müşteri katılımının yüksek olduğu süreçlerde görülür.</p><p>Sınavlarda çoğu zaman üretim türlerinin tanımları, avantaj-dezavantajları veya örnek ürünleri sorulur. Bu yüzden üretim tipini senaryo üzerinden tanımak önemlidir.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Parti üretimi kısa koşum ve çeşitlilikle ilişkilidir.</li><li>Kitle üretim standart ve yüksek hacimli ürünler içindir.</li><li>Proje tipi üretim benzersiz ve büyük ölçekli işlerde görülür.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soruda müşteri katılımı yüksek, ürün benzersiz ve maliyet büyükse proje tipi üretim akla gelmelidir.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Sipariş atölyesi ifadesi çoğu kaynakta parti üretimiyle ilişkilendirilir.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Sipariş üzerine üretim ile parti üretimi karıştırılabilir; belirleyici olan hacim, tekrar ve koşum yapısıdır.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Parti üretiminin ekonomik bir şekilde alıp sattığından daha büyük miktarlarda ve daha standartlaşmış ürünlere gereksinim duyan üreticiler tarafından kullanılmaktadır. Yukarıda özelliği ifade edilen üretim tipi aşağıdakilerden hangisidir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Parti üretimi</div><div class='opt'><strong>B)</strong> Sipariş üzerine üretim</div><div class='opt'><strong>C)</strong> Proje tipi üretim</div><div class='opt'><strong>D)</strong> Kitle üretim</div><div class='opt'><strong>E)</strong> Stok için üretim</div></div><div class='answer'><strong>Doğru Cevap:</strong> D - Kitle üretim<br><span>Doğru seçenek D şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2022-2023 Vize</div><h4>Sipariş atölyesi olarak bilinen üretim tipi aşağıdakilerden hangisidir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Proje tipi üretim</div><div class='opt'><strong>B)</strong> Sürekli üretim</div><div class='opt'><strong>C)</strong> Sipariş üzerine üretim</div><div class='opt'><strong>D)</strong> Parti üretimi</div><div class='opt'><strong>E)</strong> Stok için üretim</div></div><div class='answer'><strong>Doğru Cevap:</strong> D - Parti üretimi<br><span>Doğru seçenek D şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 6</div>
+    <div class='topic-title'>Yerleşim Türleri ve Tesis Düzeni</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Yerleşim kararı, üretim sisteminin akışını doğrudan etkileyen önemli operasyonel kararlardan biridir. Malzeme hareketi, iş gücü kullanımı, süre ve maliyet üzerinde büyük etkisi vardır.</p><p>Ürün yerleşimi, proses yerleşim, sabit yerleşim ve hücresel yerleşim gibi farklı türler farklı üretim yapılarına uygundur. Montaj hattı denildiğinde genellikle ürün yerleşimi akla gelir.</p><p>Etkin bir yerleşim düzeni gereksiz hareketleri azaltır, alanı verimli kullanır ve akışı hızlandırır. Sınavlarda çoğu zaman &#x27;hangisi etkin yerleşimin özelliği değildir&#x27; tipi sorularla konu ölçülür.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Montaj hattı → ürün yerleşimi</li><li>Sabit yerleşim ağır ve taşınması zor ürünlerde görülür.</li><li>Etkin yerleşim süreyi ve maliyeti azaltmayı hedefler.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Yerleşim sorularında ana ipucu iş akışının ürüne mi, sürece mi yoksa sabit noktaya mı göre düzenlendiğidir.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Bir yerleşim düzeni yalnız fiziksel görünüş değil, akış mantığı ile değerlendirilir.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Proses yerleşim ile ürün yerleşimi en sık karıştırılan ikilidir.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Montaj hattı olarak bilinen, montaj gerektiren bir ürün için faaliyet sırasına göre bir hat boyunca oluşan faaliyetleri düzenleyen yerleşim türü aşağıdakilerden hangisidir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Hücresel yerleşim</div><div class='opt'><strong>B)</strong> Bilgisayarlı yerleşim</div><div class='opt'><strong>C)</strong> Sabit yerleşim</div><div class='opt'><strong>D)</strong> Ürün yerleşimi</div><div class='opt'><strong>E)</strong> Proses yerleşim</div></div><div class='answer'><strong>Doğru Cevap:</strong> D - Ürün yerleşimi<br><span>Doğru seçenek D şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2021 Final</div><h4>Aşağıdakilerden hangisi etkin bir yerleşim yerinin özelliklerinden biri değildir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Boşa harcanan veya gereksiz faaliyeti yok etmektedir.</div><div class='opt'><strong>B)</strong> Materyal yükleme maliyetlerini en aza indirmektedir.</div><div class='opt'><strong>C)</strong> Alanı etkin bir şekilde kullanmaktadır.</div><div class='opt'><strong>D)</strong> Üretim devir süresini ve müşteri hizmet süresini arttırmaktadır.</div><div class='opt'><strong>E)</strong> İş gücünü etkin bir şekilde kullanmaktadır.</div></div><div class='answer'><strong>Doğru Cevap:</strong> E - İş gücünü etkin bir şekilde kullanmaktadır.<br><span>Doğru seçenek E şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 7</div>
+    <div class='topic-title'>Kapasite Planlaması, Tahmin ve Toplam Planlama</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Kapasite planlaması, işletmenin gelecekteki talebi karşılayabilmek için ne kadar kaynak düzeyine ihtiyaç duyacağını belirler. Bu kararlar kısa vadeli değil, çoğu zaman orta ve uzun dönemlidir.</p><p>Toplam planlama ise üretim, iş gücü, envanter ve tedarik kararlarını belirli bir dönem için dengelemeyi amaçlar. Tahmin süreci de bu planların temel girdisidir.</p><p>Sınavlarda kapasite artırma stratejileri, talep tahmini, işbirlikçi planlama ve toplam planlama araçları bir arada sorulabilir. Kavramlar birbirine yakın olduğu için dönem ve amaç ayrımı önemlidir.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Kapasite planlaması geleceğe dönük kaynak seviyesidir.</li><li>Toplam planlama arz ve talebi dengelemeye çalışır.</li><li>Tahmin olmadan kapasite kararı eksik kalır.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Kapasite sorularında süre vurgusuna dikkat et; 6-12 ay gibi ifadeler toplam planlamaya yaklaştırır.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Talep tahmini yalnız satış tahmini değildir; üretim ve tedarik kararlarının da temelidir.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Kapasite planlaması ile tedarik planlaması aynı hedefe hizmet etse de kapsamları farklıdır.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>I. Önde kapasite stratejisi II. Kapasite gerilemesi stratejisi III. Ortalama kapasite stratejisi Yukarıdakilerden hangisi veya hangileri talepteki sürekli büyümeye ilişkin kapasite arttırımı stratejilerindendir?</h4><div class='opts'><div class='opt'><strong>A)</strong> I, II ve III</div><div class='opt'><strong>B)</strong> Yalnız II</div><div class='opt'><strong>C)</strong> I ve II</div><div class='opt'><strong>D)</strong> Yalnız I</div><div class='opt'><strong>E)</strong> Yalnız III</div></div><div class='answer'><strong>Doğru Cevap:</strong> A - I, II ve III<br><span>Doğru seçenek A şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2025-2026 Final</div><h4>Ortaklaşa yönetilmek için ürünleri seçme, tek bir müşteri talep tahmini oluşturma ve tedarik zincirinde üretimi senkronize etmeyi içeren planlama tekniği aşağıdakilerden hangisidir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Üretim planlaması</div><div class='opt'><strong>B)</strong> Tedarik planlaması</div><div class='opt'><strong>C)</strong> Sermaye planlaması</div><div class='opt'><strong>D)</strong> İşbirlikçi planlama</div><div class='opt'><strong>E)</strong> Karşılanabilen miktar</div></div><div class='answer'><strong>Doğru Cevap:</strong> D - İşbirlikçi planlama<br><span>Doğru seçenek D şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 8</div>
+    <div class='topic-title'>Stok Yönetimi ve EOQ</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Stok yönetimi, talep belirsizliği ile maliyet kontrolü arasında denge kurmayı amaçlar. Çok fazla stok sermayeyi bağlar, çok az stok ise müşteri hizmet seviyesini düşürebilir.</p><p>Bu nedenle işletmelerin temel sorusu çoğu zaman ne kadar sipariş verileceği ve siparişin ne zaman verileceğidir. EOQ yaklaşımı da bu soruya belirli varsayımlar altında ekonomik bir cevap üretir.</p><p>Bu başlıkta stok türleri, sipariş kararları, güvenlik stoku ve ekonomik sipariş miktarı gibi kavramlar öne çıkar.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Stok yönetiminin iki temel sorusu: ne kadar ve ne zaman sipariş verilecek?</li><li>EOQ sabit talep ve sabit teslim süresi gibi varsayımlara dayanır.</li><li>Stok kararı hizmet seviyesi ile maliyet arasında dengedir.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> EOQ sorularında verilen varsayımların tamamının modele uygun olup olmadığına bakmak gerekir.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Stok yalnız depoda bekleyen mal değil, müşteri hizmet düzeyini koruyan stratejik bir araçtır.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Sipariş miktarı sorusu ile sipariş zamanı sorusu birbirine karıştırılmamalıdır.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Stok yönetiminde cevabı aranan temel sorular aşağıdakilerden hangisidir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Nasıl ve kim sipariş verecek?</div><div class='opt'><strong>B)</strong> Nereye ve ne zaman sipariş verilecek?</div><div class='opt'><strong>C)</strong> Ne kadar ve ne zaman sipariş verilecek?</div><div class='opt'><strong>D)</strong> Nasıl ve ne zaman sipariş verilecek?</div><div class='opt'><strong>E)</strong> Neden ve ne zaman sipariş verilecek?</div></div><div class='answer'><strong>Doğru Cevap:</strong> C - Ne kadar ve ne zaman sipariş verilecek?<br><span>Doğru seçenek C şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2021 Final</div><h4>I. Talep kesin olarak bilinmektedir ve her zaman sabit kalmaktadır. II. Hiçbir noksanlık kabul edilememektedir. III. Alınan siparişlerin teslim süresi sabittir. IV. Sipariş miktarının hepsi birden alınmamaktadır. Yukarıdakilerden hangileri EOQ (ekonomik sipariş miktarı) sisteminin özelliklerindendir?</h4><div class='opts'><div class='opt'><strong>A)</strong> II, III ve IV</div><div class='opt'><strong>B)</strong> I, II ve IV</div><div class='opt'><strong>C)</strong> I, II, III ve IV</div><div class='opt'><strong>D)</strong> I, II ve III</div><div class='opt'><strong>E)</strong> I, III ve IV</div></div><div class='answer'><strong>Doğru Cevap:</strong> D - I, II ve III<br><span>Doğru seçenek D şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 9</div>
+    <div class='topic-title'>Tedarik Zinciri ve E-İş Uygulamaları</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Tedarik zinciri, mal ve hizmetin ham maddeden son kullanıcıya kadar olan akışını ve buna eşlik eden bilgi hareketini kapsar. Bu nedenle yalnız fiziksel taşımayı değil, koordinasyonu da içerir.</p><p>E-iş uygulamaları ve barkod gibi araçlar, bu zincirde işlem süresini kısaltır, görünürlüğü artırır ve süreçlerin daha izlenebilir hale gelmesini sağlar.</p><p>Bu konuda sınavlar çoğu zaman tanım sorusu biçiminde gelir. Zincirin kapsamı, bilgi akışı ve elektronik destek araçları doğru kavranmalıdır.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Tedarik zinciri sadece taşıma değil, bilgi akışıdır.</li><li>Barkod izlenebilirlik sağlar.</li><li>E-iş işlem maliyetlerini ve süreyi etkiler.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Tedarik zinciri ile üretim zinciri aynı kavram değildir; müşteriye kadar uzanan bütün akış düşünülmelidir.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Bilgi akışı zayıfsa fiziksel akış da aksar; zincirin görünmeyen tarafı bilgidir.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Barkod bir yazılım değil, bilgiye erişimi hızlandıran bir tanımlama aracıdır.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Elektronik bir tarayıcıyla şirketin bilgisayarına tarandığında tedarik zinciri üyelerinin malın tedarik zincirindeki yeri hakkındaki kritik bilgiye ulaşmasını sağlayan aşağıdakilerden hangisidir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Bilgi teknolojisi</div><div class='opt'><strong>B)</strong> Barkod</div><div class='opt'><strong>C)</strong> E-iş</div><div class='opt'><strong>D)</strong> Elektronik veri</div><div class='opt'><strong>E)</strong> İnternet</div></div><div class='answer'><strong>Doğru Cevap:</strong> B - Barkod<br><span>Doğru seçenek B şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2021 Final</div><h4>Mal ve hizmetin ham madde aşamasından nihai kullanıcıya (müşteriye) akışı, dönüşmesine ilişkin ve bilgi akışlarına ilişkin tüm faaliyetleri kapsamına ne ad verilir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Üretim zinciri</div><div class='opt'><strong>B)</strong> Tedarik zinciri</div><div class='opt'><strong>C)</strong> Geri bildirim zinciri</div><div class='opt'><strong>D)</strong> Dönüşüm zinciri</div><div class='opt'><strong>E)</strong> Hizmet zinciri</div></div><div class='answer'><strong>Doğru Cevap:</strong> B - Tedarik zinciri<br><span>Doğru seçenek B şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 10</div>
+    <div class='topic-title'>ERP, Bilgi Sistemleri ve Entegrasyon</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>ERP sistemleri, işletmenin farklı fonksiyon alanlarını aynı bilgi omurgası üzerinde birleştirir. Böylece muhasebe, satış, üretim, insan kaynakları ve malzeme yönetimi gibi alanlar kopuk çalışmak yerine entegre hale gelir.</p><p>Kurumsal kaynak planlama mantığı, bilgi paylaşımı ve süreç bütünlüğü üzerine kuruludur. Bu nedenle ERP yalnız bir yazılım değil, organizasyonel koordinasyon aracıdır.</p><p>Sınavlarda ERP’nin tanımı, modülleri ve işletmeye sağladığı entegrasyon düzeyi sıkça sorulur.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>ERP farklı departmanları tek sistemde toplar.</li><li>Finans, üretim, satış ve insan kaynakları temel modüllerdendir.</li><li>Entegrasyon karar kalitesini artırır.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> ERP, SCM ve CRM sık karıştırılır; soruda hangi sürecin bütünleştirildiğine dikkat etmek gerekir.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> ERP yalnız veri saklamaz; süreçleri ortaklaştırır ve bilgi akışını düzenler.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Bir yazılımın modüler olması ile ERP olması aynı şey değildir; entegrasyon ana ölçüttür.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Faaliyet alanları arasında bilgi paylaşımı yoluyla şirketin iş proseslerini organize ettiği ve yönettiği yazılım aşağıdakilerden hangisidir?</h4><div class='opts'><div class='opt'><strong>A)</strong> SCM</div><div class='opt'><strong>B)</strong> CRM</div><div class='opt'><strong>C)</strong> CPC</div><div class='opt'><strong>D)</strong> MRP</div><div class='opt'><strong>E)</strong> ERP</div></div><div class='answer'><strong>Doğru Cevap:</strong> E - ERP<br><span>Doğru seçenek E şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2021 Final</div><h4>I. Finans ve muhasebe II. Satış ve pazarlama III. Üretim ve malzeme yönetimi IV. İnsan kaynakları Yukarıdakilerden hangileri ERP modüllerindendir?</h4><div class='opts'><div class='opt'><strong>A)</strong> I, II, III ve IV</div><div class='opt'><strong>B)</strong> II, III ve IV</div><div class='opt'><strong>C)</strong> I, III ve IV</div><div class='opt'><strong>D)</strong> I, II ve IV</div><div class='opt'><strong>E)</strong> I, II ve III</div></div><div class='answer'><strong>Doğru Cevap:</strong> A - I, II, III ve IV<br><span>Doğru seçenek A şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 11</div>
+    <div class='topic-title'>JIT, Kanban, Esnek Kaynaklar ve Yalın Yaklaşım</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Tam zamanında üretim yaklaşımı, gereksiz stokları ve israfları azaltarak üretim akışını iyileştirmeyi amaçlar. Buradaki temel düşünce, ihtiyaç duyulan şeyi ihtiyaç duyulan zamanda üretmektir.</p><p>Kanban, çekme sistemi, küçük parti üretimi, hücresel yerleşim ve esnek kaynaklar bu yaklaşımın temel araçları arasında yer alır. Çok fonksiyonlu çalışanlar ve genel amaçlı makineler de akışı destekler.</p><p>JIT sorularında Toyota sistemi, bilgi iletişim aracı olarak Kanban ve esnek kaynak mantığı öne çıkar.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>JIT = minimum stok + akış odaklı yapı</li><li>Kanban çekme sistemiyle ilişkilidir.</li><li>Esnek kaynaklar değişime hızlı uyum sağlar.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soruda çok fonksiyonlu çalışanlar ve genel amaçlı makineler geçiyorsa esnek kaynaklar akla gelmelidir.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> JIT yalnız stok azaltma sistemi değil, bütüncül bir üretim felsefesidir.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Kanban bir üretim türü değil, üretimi yöneten iletişim ve kontrol aracıdır.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Aşağıdakilerden hangisi çok fonksiyonlu çalışanlar ve genel amaçlı makineler JIT sisteminin temel faktörüdür?</h4><div class='opts'><div class='opt'><strong>A)</strong> Çekme üretim sistemi</div><div class='opt'><strong>B)</strong> Hücresel yerleşimler</div><div class='opt'><strong>C)</strong> Esnek kaynaklar</div><div class='opt'><strong>D)</strong> Kanban üretim kontrolü</div><div class='opt'><strong>E)</strong> Küçük parti üretimi</div></div><div class='answer'><strong>Doğru Cevap:</strong> C - Esnek kaynaklar<br><span>Doğru seçenek C şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2021 Final</div><h4>Aşağıdakilerden hangisi JIT (tam zamanlı üretim) sisteminde bilgi iletişim aracı olarak kullanılan araçtır?</h4><div class='opts'><div class='opt'><strong>A)</strong> Manga</div><div class='opt'><strong>B)</strong> Muteki</div><div class='opt'><strong>C)</strong> Kanban</div><div class='opt'><strong>D)</strong> Ohno</div><div class='opt'><strong>E)</strong> Taiichi</div></div><div class='answer'><strong>Doğru Cevap:</strong> C - Kanban<br><span>Doğru seçenek C şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<section class='topic'>
+  <div class='topic-head'>
+    <div class='topic-index'>Konu Başlığı 12</div>
+    <div class='topic-title'>Proje Yönetimi ve Görev Ayrımı Yapısı</div>
+  </div>
+  <div class='topic-grid'>
+    <div class='card'>
+      <h3>Konu Anlatımı</h3>
+      <p>Proje yönetimi, belirli bir amacı gerçekleştirmek için yapılacak işlerin planlanması, sıralanması, izlenmesi ve kontrol edilmesini kapsar. Bu yaklaşım özellikle tek seferlik ve karmaşık çalışmalarda önem taşır.</p><p>Proje planlama, neyin ne zaman ve nasıl yapılacağını belirlerken; görev ayrımı yapısı işi modüllere, alt parçalara ve görevlere ayırarak yönetilebilir hale getirir. Proje kontrolü ise faaliyetlerin doğru sırada ve planlandığı şekilde yürüyüp yürümediğini izler.</p><p>Bu konuda sorular çoğunlukla tanım temellidir; verilen açıklamanın proje planlama mı, görev ayrımı yapısı mı yoksa proje kontrolü mü olduğunu bulmak gerekir.</p>
+    </div>
+    <div>
+      <div class='card'>
+        <h3>Öne Çıkan Noktalar</h3>
+        <ul><li>Proje planlama hedefi ve yolu netleştirir.</li><li>Görev ayrımı yapısı işi parçalayarak yönetilebilir kılar.</li><li>Proje kontrolü sürecin plana uygunluğunu izler.</li></ul>
+      </div>
+      <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soruda amaçların açık biçimde tanımlanması vurgulanıyorsa proje planlama öne çıkar.</div>
+      <div class='callout note'><strong>Önemli Not:</strong> Görev ayrımı yapısı yalnız görev listesi değildir; yapısal parçalama mantığı taşır.</div>
+      <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Proje planlama ile proje kontrolü aynı süreç değildir; biri kurar, diğeri izler.</div>
+    </div>
+  </div>
+  <div class='questions'><article class='qcard'><div class='qbadge'>Soru 1 • 2021 Final</div><h4>Yönetici ve ekipten ne yapılmasının beklendiğinin belirlenebilmesi için projenin amaçları açık bir şekilde tanımlanmaktadır. Yukarıda proje yönetim elemanlarından hangisi tanımlanmıştır?</h4><div class='opts'><div class='opt'><strong>A)</strong> Proje sermayesi</div><div class='opt'><strong>B)</strong> Proje kontrolü</div><div class='opt'><strong>C)</strong> Proje planlama</div><div class='opt'><strong>D)</strong> Proje ekibi</div><div class='opt'><strong>E)</strong> Görev ayrımı yapısı</div></div><div class='answer'><strong>Doğru Cevap:</strong> C - Proje planlama<br><span>Doğru seçenek C şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article><article class='qcard'><div class='qbadge'>Soru 2 • 2021 Final</div><h4>Projedeki yapılması gereken görevleri organize etmektedir. Proje, modül adı verilen temel parçalarına ayrılmaktadır. Daha sonra bu parçalar detaylı alt parçalara, ardından faaliyetlere ve en son olarak da ayrı ayrı görevlere ayrılmaktadır. Yukarıda proje yönetim elemanlarından hangisinin özelliklerinden bahsedilmiştir?</h4><div class='opts'><div class='opt'><strong>A)</strong> Proje ekibi</div><div class='opt'><strong>B)</strong> Görev ayrımı yapısı</div><div class='opt'><strong>C)</strong> Proje planlama</div><div class='opt'><strong>D)</strong> Proje sermayesi</div><div class='opt'><strong>E)</strong> Proje kontrolü</div></div><div class='answer'><strong>Doğru Cevap:</strong> B - Görev ayrımı yapısı<br><span>Doğru seçenek B şıkkıdır. Bu soru, ilgili konu başlığındaki temel kavramı ve tanımı ölçer.</span></div></article></div>
+</section>
+<div class='footer'>Hazırlanan içerik, yüklenen Üretim Yönetimi soru dosyası temel alınarak düzenlenmiştir.</div>
+</div>
+</body>
+</html>
