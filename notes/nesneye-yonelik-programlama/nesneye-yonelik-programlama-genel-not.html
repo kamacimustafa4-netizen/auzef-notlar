@@ -1,1 +1,388 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nesneye Yönelik Programlama</title>
+<style>
+:root{
+  --bg:#f4f7fb; --card:#ffffff; --text:#22314d; --muted:#5a6b88; --line:#e5edf8;
+  --brand:#244784; --soft:#f8fbff; --blue:#eaf3ff; --purple:#f3ecff; --green:#15803d;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+.container{width:min(100% - 28px,1140px);margin:26px auto 40px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#60a5fa);color:#fff;border-radius:26px;padding:28px 26px;box-shadow:0 18px 44px rgba(37,99,235,.18);margin-bottom:22px}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:12px}
+h1{margin:0 0 10px;font-size:38px;line-height:1.15}
+.lead{margin:0;font-size:17px;max-width:900px}
+.section-card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px;margin-bottom:18px;box-shadow:0 10px 28px rgba(15,23,42,.05)}
+.topic-label{display:inline-block;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:12px}
+h2{margin:0 0 12px;font-size:28px;color:#12233f}
+.section-body p{margin:0 0 12px;color:#344560}
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.callout{border-radius:18px;padding:16px 18px;border:1px solid var(--line);color:#334155}
+.callout strong{display:block;margin-bottom:8px;color:#1f2f4d}
+.callout.blue{background:var(--blue)}
+.callout.purple{background:var(--purple)}
+.mini-list{margin:0;padding-left:18px}
+.question-wrap{margin-top:18px}
+.question-title{font-weight:800;color:var(--brand);font-size:18px;margin-bottom:12px}
+.question-card{background:var(--soft);border:1px solid #dce9fb;border-radius:18px;padding:18px;margin-bottom:14px}
+.q-text{font-size:16px;font-weight:800;color:#22314d;margin-bottom:12px}
+.options{list-style:none;padding:0;margin:0 0 12px}
+.options li{padding:8px 12px;margin-bottom:8px;border-radius:12px;background:#fff;border:1px solid #e5edf8;color:#3c4c68}
+.opt{font-weight:800;color:#244784;display:inline-block;width:28px}
+.answer{color:var(--green);font-size:14px;font-weight:700;margin-top:6px}
+.explanation{color:var(--muted);font-size:14px;margin-top:8px}
+@media(max-width:860px){.callout-grid{grid-template-columns:1fr} h1{font-size:32px}}
+@media(max-width:640px){.container{width:min(100% - 18px,1140px)} .hero,.section-card{padding:20px} h1{font-size:28px} h2{font-size:23px}}
+</style>
+</head>
+<body>
+<div class='container'>
+  <section class='hero'>
+    <span class='badge'>YBS • Gelişmiş ders notu</span>
+    <h1>Nesneye Yönelik Programlama</h1>
+    <p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Nesneye Yönelik Programlama dersi için sınıf, nesne, soyutlama, kapsülleme, çok biçimlilik, UML, .NET, koleksiyonlar, exception yönetimi ve temel C# yapıları konu başlığı mantığında sade ama öğretici biçimde düzenlenmiştir.</p>
+  </section>
+  
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 1</div>
+      <h2>Nesneye Yönelik Programlamaya Giriş</h2>
+      <div class='section-body'><p>Nesneye yönelik programlama, yazılımı gerçek dünyadaki varlıkları modelleyerek geliştirmeyi amaçlayan bir yaklaşımdır. Bu yaklaşımda veri ve davranış birlikte düşünülür.</p><p>Bu dersin temelinde sınıf, nesne, özellik, metot ve etkileşim mantığı bulunur. Amaç yalnızca kod yazmak değil, kodu daha düzenli ve sürdürülebilir hale getirmektir.</p><p>Sınavlarda genellikle OOP’nin klasik programlamaya göre ne avantaj sağladığı, hangi kavramların temel olduğu ve hangi yapının hangi görevi üstlendiği sorulur.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>C# Programlama Dilinde bir sınıftan yeni bir nesne türetmek isteniyorsa hangi anahtar kelime kullanılır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> class</li><li><span class='opt'>B)</span> struct</li><li><span class='opt'>C)</span> start</li><li><span class='opt'>D)</span> new</li><li><span class='opt'>E)</span> static</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Bir sınıftan nesne üretirken nesnenin bellekte oluşturulması için new anahtar kelimesi kullanılır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Nesneye yönelik programlamada veri ve işlevlerin bir arada bulunduğu yapıyı ifade eden kavram hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Kalıtım</li><li><span class='opt'>B)</span> Çokbiçimlilik</li><li><span class='opt'>C)</span> Sınıf</li><li><span class='opt'>D)</span> Nesne</li><li><span class='opt'>E)</span> Soyutlama</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Sınıf, veri alanları ve bu veriler üzerinde çalışan metotları birlikte tanımlar. Nesneler ise sınıfların örnekleridir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 2</div>
+      <h2>Soyutlama, Kapsülleme ve Çok Biçimlilik</h2>
+      <div class='section-body'><p>Soyutlama, gereksiz ayrıntıları gizleyip önemli olan yapıyı öne çıkarır. Kapsülleme ise veri ile bu veriye erişen işlemleri bir arada tutar ve dış erişimi sınırlar.</p><p>Çok biçimlilik, aynı arayüzün farklı sınıflarda farklı davranışlar sergilemesini sağlar. Bu durum kodun daha esnek ve genişletilebilir olmasına yardım eder.</p><p>Bu üç kavram çoğu zaman birlikte sorulur. Öğrencinin kavramları yalnız tanım olarak değil, işlevsel olarak da ayırt edebilmesi beklenir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Nesneye yönelik programlamada, karmaşıklığı gizleyerek programlama sürecini daha anlaşılır hale getiren kavram hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Çok biçimlilik</li><li><span class='opt'>B)</span> Soyutlama</li><li><span class='opt'>C)</span> Kapsülleme</li><li><span class='opt'>D)</span> Sınıflandırma</li><li><span class='opt'>E)</span> Kalıtım</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Soyutlama, gereksiz ayrıntıları gizleyip gerekli yapıyı öne çıkarır. Böylece daha sade modelleme yapılır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Nesneye Yönelik Programlamada “Farklı nesnelerin aynı arayüzü kullanarak farklı işlevler gerçekleştirmesi” durumu hangi terim ile ifade edilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Kalıtım</li><li><span class='opt'>B)</span> Methods</li><li><span class='opt'>C)</span> Çokbiçimlilik</li><li><span class='opt'>D)</span> Kapsülleme</li><li><span class='opt'>E)</span> Soyutlama</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Aynı metot çağrısının farklı sınıflarda farklı davranış üretmesi çok biçimlilik kavramının temelidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 3</div>
+      <h2>Sınıflar, Nesneler ve UML Temelleri</h2>
+      <div class='section-body'><p>Sınıf, nesnelerin şablonudur; nesne ise o şablondan üretilen somut örnektir. Sınıf içinde alanlar, özellikler ve metotlar bulunabilir.</p><p>UML sınıf diyagramları, sınıfın yapısını görsel olarak göstermeye yarar. Burada nitelikler, metotlar ve sınıflar arası ilişkiler yer alır.</p><p>Özellikle “is-a” ilişkisi kalıtımı, “has-a” ilişkileri ise diğer yapısal bağları anlamada önemlidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>UML’de, sınıflar arasındaki “is-a” ilişkisini aşağıdaki hangi kavram temsil eder?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Kalıtım</li><li><span class='opt'>B)</span> Birliktelik</li><li><span class='opt'>C)</span> Bütünleme</li><li><span class='opt'>D)</span> Birleşim</li><li><span class='opt'>E)</span> Bağımlılık</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>is-a ilişkisi, bir sınıfın başka bir sınıfın özel türü olmasını anlatır ve kalıtımla gösterilir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Sınıf diyagramında bir sınıfın içindeki hangi bileşen, sınıfın fonksiyonlarını gösterir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Erişim Niteleyicisi</li><li><span class='opt'>B)</span> Metotlar</li><li><span class='opt'>C)</span> İlişkiler</li><li><span class='opt'>D)</span> Sınıf Adı</li><li><span class='opt'>E)</span> Nitelikler</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Sınıf diyagramında davranış kısmı metotlarla ifade edilir. Nitelikler ise veri alanlarını gösterir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 4</div>
+      <h2>Temel Veri Tipleri ve Sabitler</h2>
+      <div class='section-body'><p>C# dilinde veri tipleri doğru kullanıldığında hata oranı düşer ve bellek kullanımı daha kontrollü hale gelir. bool, int, double ve string gibi tipler temel yapı taşlarıdır.</p><p>const ile tanımlanan sabitler sonradan değiştirilemez. Bu tür sorularda readonly ile const farkı da karıştırılabilir.</p><p>Sınavlarda veri tipinin ne sakladığı, kaç byte yer kapladığı veya hangi anahtar kelimenin ne işe yaradığı sıkça ölçülür.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>C# programlama dilinde hangi anahtar kelime ile bir değişkenin sabit olacağı belirtilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> var</li><li><span class='opt'>B)</span> static</li><li><span class='opt'>C)</span> const</li><li><span class='opt'>D)</span> readonly</li><li><span class='opt'>E)</span> sealed</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>const ile tanımlanan değer sonradan değiştirilemez. readonly ise farklı bir kullanım amacına sahiptir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>C# programlama dilinde bool veri türünün tanımı aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Kayan noktalı sayıları saklar.</li><li><span class='opt'>B)</span> Mantıksal değerleri saklar.</li><li><span class='opt'>C)</span> Yalnızca tam sayıları saklar.</li><li><span class='opt'>D)</span> Karakter dizilerini saklar.</li><li><span class='opt'>E)</span> Tarih ve saat bilgilerini saklar.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>bool veri tipi yalnızca true ve false değerlerini tutar. Koşul yapılarında çok sık kullanılır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 5</div>
+      <h2>Bellek Yapısı, Stack-Heap ve Boxing</h2>
+      <div class='section-body'><p>Bellekte stack ve heap ayrımı, C# gibi dillerde temel kavramlardan biridir. Değer tipleri çoğu zaman stack bölgesinde, referans tipleri ise heap bölgesinde ele alınır.</p><p>Bir değer tipinin object gibi genel bir tipe atanması boxing işlemine yol açar. Bu sırada veri heap bölgesine taşınır.</p><p>Bu konu, kod parçalarının yorumlanması ve performans mantığı açısından önemlidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>C# Programlama Dilinde double türündeki bir değişkenin boyutu kaç byte’tır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> 1</li><li><span class='opt'>B)</span> 8</li><li><span class='opt'>C)</span> 16</li><li><span class='opt'>D)</span> 4</li><li><span class='opt'>E)</span> 2</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>double veri tipi 8 byte yer kaplar ve kayan noktalı sayılar için kullanılır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>double a = 14; object b = a; Yukarıdaki C# kod satırlarında a ve b hangi bellek bölgelerinde saklanırlar?</div>
+      <ul class='options'><li><span class='opt'>A)</span> a heap, b stack</li><li><span class='opt'>B)</span> ikisi de stack</li><li><span class='opt'>C)</span> a heap, b stack</li><li><span class='opt'>D)</span> ikisi de heap</li><li><span class='opt'>E)</span> a stack, b heap</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Değer tipindeki a stack bölgesinde tutulur. object türüne atama sırasında boxing olur ve nesne heap&#x27;e taşınır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 6</div>
+      <h2>Yapıcı ve Yıkıcı Kavramları</h2>
+      <div class='section-body'><p>Constructor yani yapıcı metot, nesne oluşturulduğu anda çalışan özel metottur. Sınıf adıyla aynı adı taşır ve başlangıç ayarlarını yapar.</p><p>Destructor yani yıkıcı ise nesne ömrünün sonunda çalışan özel yapıdır. C# tarafında doğrudan manuel kullanım yerine daha çok kavramsal düzeyde sorulur.</p><p>Sınavlarda genelde constructor ve destructor tanım biçimi ile görev farkı ölçülür.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>int x = 42; object y = x; Yukarıdaki C# kod satırları aşağıdaki hangi işleme örnektir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Unboxing</li><li><span class='opt'>B)</span> Type Casting</li><li><span class='opt'>C)</span> Boxing</li><li><span class='opt'>D)</span> Convert ile dönüşüm</li><li><span class='opt'>E)</span> Büyük türden küçük türe dönüşüm</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Değer tipinin object gibi bir referans tipe dönüştürülmesi boxing olarak adlandırılır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>C# Programlama Dilinde bir yıkıcı tanımlamak için aşağıdaki işaretlerden hangisi kullanılır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> /</li><li><span class='opt'>B)</span> -</li><li><span class='opt'>C)</span> +</li><li><span class='opt'>D)</span> =</li><li><span class='opt'>E)</span> ~</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>C# dilinde yıkıcı metot sınıf adıyla birlikte ~ işareti kullanılarak tanımlanır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 7</div>
+      <h2>Arabirimler ve Sözleşme Mantığı</h2>
+      <div class='section-body'><p>Interface, bir sınıfın hangi davranışları sunacağını tanımlayan sözleşme yapısıdır. Uygulamanın nasıl yapılacağı değil, hangi üyelerin bulunacağı söylenir.</p><p>Bir sınıf birden fazla interface kullanabilir. Bu durum esnek mimari kurmada çok değerlidir.</p><p>Arabirimler özellikle SOLID prensipleri, bağımlılık azaltma ve modüler tasarım bağlamında önem taşır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>public class Okul { public Okul() { ... } } kodundaki public Okul() hangi kavramı ifade eder?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Exception Handling</li><li><span class='opt'>B)</span> Destructor</li><li><span class='opt'>C)</span> Inheritance</li><li><span class='opt'>D)</span> Constructor</li><li><span class='opt'>E)</span> Debug</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Sınıf adıyla aynı isimde olan ve nesne oluşturulurken çalışan yapı constructor yani yapıcı metottur.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Arabirimler ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Arabirim üyeleri public&#x27;tir.</li><li><span class='opt'>B)</span> interface anahtar kelimesi kullanılır.</li><li><span class='opt'>C)</span> Struct içinde kullanılamaz.</li><li><span class='opt'>D)</span> Arabirimi kullanmak için sınıflar gerekir.</li><li><span class='opt'>E)</span> Bir sınıf birden fazla arabirim kullanabilir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Struct yapıları da interface uygulayabilir. Bu yüzden &#x27;kullanılamaz&#x27; ifadesi yanlıştır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 8</div>
+      <h2>Koleksiyonlar ve Liste İşlemleri</h2>
+      <div class='section-body'><p>Koleksiyonlar, çoklu veri tutmak için kullanılan hazır yapılardır. List, Queue, Stack, Dictionary ve HashSet gibi örnekler farklı ihtiyaçlara cevap verir.</p><p>HashSet tekrar etmeyen verileri saklama açısından öne çıkar. List ise sıralı veri tutma ve dinamik büyüme avantajı sağlar.</p><p>Sınavlarda koleksiyon ismini tanıma, temel metotları bilme ve hangi yapının hangi kullanım için uygun olduğunu ayırt etme istenir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>C# Programlama Dilinde bir arabirim tanımlamak istenirse hangi anahtar kelime kullanılır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> interface</li><li><span class='opt'>B)</span> final</li><li><span class='opt'>C)</span> new</li><li><span class='opt'>D)</span> object</li><li><span class='opt'>E)</span> inherit</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Arabirim tanımında interface anahtar kelimesi kullanılır ve davranış sözleşmesi oluşturulur.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi koleksiyon türlerine örnektir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Int</li><li><span class='opt'>B)</span> String</li><li><span class='opt'>C)</span> HashSet</li><li><span class='opt'>D)</span> Array</li><li><span class='opt'>E)</span> Class</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>HashSet, koleksiyon sınıflarından biridir ve benzersiz eleman tutma mantığıyla öne çıkar.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 9</div>
+      <h2>Exception Handling ve Hata Yönetimi</h2>
+      <div class='section-body'><p>Hata yönetimi, programın beklenmeyen durumlarda kontrollü biçimde davranmasını sağlar. try-catch-finally yapısı bunun temel aracıdır.</p><p>try içine hata oluşturabilecek kod yazılır, catch hatayı yakalar, finally ise çoğu zaman kapanış ve temizlik işlemleri için kullanılır.</p><p>throw anahtar kelimesi ile özel olarak hata üretmek mümkündür. Bu başlık hem teori hem kısa kod sorularında öne çıkar.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>List&lt;string&gt; degisken = new List&lt;string&gt;(); tüm elemanları tek seferde silmek için hangi metot kullanılır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Add</li><li><span class='opt'>B)</span> Remove</li><li><span class='opt'>C)</span> AddAll</li><li><span class='opt'>D)</span> Clear</li><li><span class='opt'>E)</span> AddRange</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Clear metodu koleksiyon içindeki tüm elemanları temizler.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>C# Programlama Dilinde hataları yakalamak için kullanılan bloklar hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> do while</li><li><span class='opt'>B)</span> for</li><li><span class='opt'>C)</span> try catch finally</li><li><span class='opt'>D)</span> struct</li><li><span class='opt'>E)</span> class</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Hata yönetimi için try-catch-finally yapısı kullanılır. try riskli kodu, catch hatayı, finally ise kapanış işlemlerini taşır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 10</div>
+      <h2>.NET Platformu ve Hazır Kütüphaneler</h2>
+      <div class='section-body'><p>.NET ekosistemi, yazılım geliştirmeyi kolaylaştıran geniş bir altyapı sunar. FCL bu ekosistemde hazır sınıf ve hizmet koleksiyonudur.</p><p>CLR, kodun çalıştırılma tarafıyla ilgilenirken FCL daha çok hazır araç kutusu gibi düşünülmelidir.</p><p>Sınavlarda FCL, CLR, CLS ve CTS kavramları birbirine karıştırılabildiği için aralarındaki görev farkları bilinmelidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>C# Programlama Dilinde bir hata oluşturmak için hangi anahtar kelime kullanılır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> return</li><li><span class='opt'>B)</span> if</li><li><span class='opt'>C)</span> throw</li><li><span class='opt'>D)</span> switch</li><li><span class='opt'>E)</span> for</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>throw anahtar kelimesi ile özel ya da hazır bir exception fırlatılabilir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>C# dilinde sıfıra bölme işlemi sırasında oluşan hata hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> ApplicationException</li><li><span class='opt'>B)</span> StackOverflowException</li><li><span class='opt'>C)</span> DivideByZeroException</li><li><span class='opt'>D)</span> EntryPointNotFoundException</li><li><span class='opt'>E)</span> EndOfStreamException</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Sıfırla bölme işleminde DivideByZeroException oluşur. Bu, temel exception türlerinden biridir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 11</div>
+      <h2>Derleme, Çapraz Platform ve Geliştirme Ortamı</h2>
+      <div class='section-body'><p>.NET Core ve modern .NET yapıları birden fazla platformu destekleyebilir. Bu sayede aynı proje Windows, Linux ve macOS ortamlarında çalıştırılabilir.</p><p>dotnet build gibi komutlar geliştirme sürecinde doğrudan kullanılır. Bu komutların görevleri özellikle teknik soru köklerinde karşına çıkar.</p><p>Derleme mantığı yalnız çalıştırmak değil, kaynak kodu uygun ara çıktıya dönüştürme sürecidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>.NET platformlarında kullanılan, tekrar kullanılabilir bileşenlerin ve hizmetlerin bir koleksiyonu olan temel bileşen hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> FCL</li><li><span class='opt'>B)</span> CLS</li><li><span class='opt'>C)</span> CTS</li><li><span class='opt'>D)</span> CIL</li><li><span class='opt'>E)</span> CLR</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Framework Class Library, .NET içindeki hazır sınıf ve bileşen kütüphanelerini ifade eder.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>.NET Framework’ün amacı aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Yalnız mobil geliştirmek</li><li><span class='opt'>B)</span> Birden fazla dili destekleyen platform</li><li><span class='opt'>C)</span> C++ derleyicisi</li><li><span class='opt'>D)</span> Sadece masaüstü yapı</li><li><span class='opt'>E)</span> Yalnız C# derleyicisi</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'> .NET, birden fazla dili destekleyen ve uygulama geliştirmeyi kolaylaştıran geniş bir platformdur.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 12</div>
+      <h2>Kod Çıktısı ve Temel C# İşleyişi</h2>
+      <div class='section-body'><p>Kod çıktısı soruları, dilin operatör mantığını, veri tipi davranışını ve akış mantığını ölçer. Bu nedenle yalnız kavram değil, küçük kod parçalarını okuyabilmek de gerekir.</p><p>Cross-platform ifadesi, modern geliştirme araçlarında önemli bir avantajdır. Tek kod tabanıyla çoklu işletim sistemi desteği sunar.</p><p>Bu derste hem kavramsal bilgi hem de kısa kod okuma becerisi birlikte değerlendirilir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların yalnız tanımını değil, hangi durumda nasıl kullanıldığını bilmek gerekir. Şıklar çoğu zaman birbirine yakın hazırlanır.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>İlgili anahtar kelimeyi bil</li><li>Kod-kavram bağını kur</li><li>Şıkları karşılaştır</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>.Net Core platformu için kullanılan çapraz platform ifadesi hangi anlama gelir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Kodlar kendi içinde çaprazlanır.</li><li><span class='opt'>B)</span> Sadece Windows&#x27;ta çalışır.</li><li><span class='opt'>C)</span> Sadece macOS&#x27;ta çalışır.</li><li><span class='opt'>D)</span> Linux&#x27;u desteklemez.</li><li><span class='opt'>E)</span> Birden fazla platformu destekler.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Cross-platform, aynı uygulamanın farklı işletim sistemlerinde çalışabilmesini ifade eder.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>.Net Core geliştirme ortamında “dotnet build” komutu ile ilgili doğru ifade hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Yardım parametrelerini listeler</li><li><span class='opt'>B)</span> Platform hakkında bilgi verir</li><li><span class='opt'>C)</span> Yeni proje oluşturur</li><li><span class='opt'>D)</span> Mevcut projeyi temizler</li><li><span class='opt'>E)</span> Mevcut projeyi derler</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>dotnet build komutu projeyi derler ve çalıştırılabilir/ara çıktıları üretir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+</div>
+</body>
+</html>
