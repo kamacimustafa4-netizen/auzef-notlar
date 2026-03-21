@@ -1,0 +1,426 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/><title>Benzetim Ders Notu</title><style>
+:root{
+ --bg:#f4f7fb;--panel:#ffffff;--soft:#f8fbff;--line:#d8e3f2;--text:#20304a;--muted:#5f718f;
+ --blue:#4f7ee8;--blue-soft:#ebf2ff;--gold:#f5a524;--gold-soft:#fff8e8;
+ --green:#0f766e;--green-soft:#ecfdf5;--rose:#e11d48;--rose-soft:#fff1f2;--purple:#7c3aed;--purple-soft:#f5f0ff;
+}
+*{box-sizing:border-box} body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:linear-gradient(180deg,#eef3fb 0%,#f8fbff 100%);color:var(--text);line-height:1.75}
+.container{width:min(1140px,calc(100% - 32px));margin:28px auto 60px}
+.hero{background:linear-gradient(135deg,#ffffff 0%,#eef4ff 100%);border:1px solid var(--line);border-radius:28px;padding:36px;box-shadow:0 18px 40px rgba(61,93,152,.08)}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-weight:800;font-size:13px;letter-spacing:.2px}
+h1{margin:16px 0 10px;font-size:40px;line-height:1.18;color:#1d2b44}.lead{margin:0;color:var(--muted);font-size:17px}
+section.topic{margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 12px 28px rgba(61,93,152,.06)}
+.topic-head{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;margin-bottom:12px}.topic-index{background:var(--blue-soft);color:var(--blue);padding:8px 12px;border-radius:999px;font-weight:800;font-size:13px}.topic-title{font-size:29px;font-weight:800;color:#1f2f4d;margin:2px 0 0}
+.topic-grid{display:grid;grid-template-columns:1.45fr .95fr;gap:18px;margin-top:18px}.card{background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:20px}.card h3{margin:0 0 12px;font-size:18px;color:#24406d}.card p{margin:0 0 12px}.card ul{margin:0;padding-left:18px}.card li{margin:6px 0}
+.callout{border-radius:18px;padding:14px 16px;margin-top:12px;font-size:15px}.callout.attn{background:var(--gold-soft);border:1px solid #f0dfac;color:#6b5310}.callout.note{background:var(--green-soft);border:1px solid #bde7db;color:#0f5f56}.callout.mix{background:var(--rose-soft);border:1px solid #f4c9d4;color:#8c2040}
+.questions{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.qcard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px}.qbadge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef3ff;color:#355fbe;font-weight:800;font-size:12px;margin-bottom:10px}.qcard h4{margin:0 0 10px;font-size:17px;line-height:1.5}.opts{display:grid;gap:8px;margin:12px 0}.opt{background:#f9fbff;border:1px solid #dde7f6;border-radius:12px;padding:10px 12px;font-size:14px}.answer{margin-top:12px;padding:12px 14px;border-radius:14px;background:#f6fbf8;border:1px solid #cfe8d8}.answer strong{color:#14532d}.footer{margin-top:30px;text-align:center;color:var(--muted);font-size:14px}
+@media (max-width:900px){.topic-grid,.questions{grid-template-columns:1fr}h1{font-size:32px}.topic-title{font-size:24px}}
+</style></head><body><div class='container'><div class='hero'><span class='badge'>YBS • Gelişmiş ders notu</span><h1>Benzetim</h1><p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Benzetim dersi; model kurma, kuyruk sistemleri, dağılımlar, Arena modülleri ve çıktı analizi ekseninde konu başlıklarına ayrılarak sunulmuştur.</p></div>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 1</div>
+            <div class='topic-title'>Benzetimin Temel Kavramları</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Benzetim, gerçek bir sistemin davranışını bilgisayar ortamında modelleyerek inceleme yöntemidir. Özellikle gerçek sistem üzerinde deneme yapmanın pahalı, riskli veya zaman alıcı olduğu durumlarda kullanılır.</p>
+              <p>Bir benzetim çalışmasında sistem, varlık, kaynak, olay, kuyruk ve performans ölçütleri birlikte ele alınır. Böylece yalnızca sonucun ne olduğu değil, sonuca nasıl ulaşıldığı da anlaşılır.</p>
+              <p>Dersin ilk kısmında statik-dinamik, deterministik-stokastik ve kesikli-sürekli sistem ayrımları önemlidir. Çünkü model türü değiştikçe kullanılacak yaklaşım da değişir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Gerçek sistem yerine model kurulur.</li><li>Davranış zaman içinde izlenebilir.</li><li>Karar vermeyi destekleyen bir analiz aracıdır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soru kökleri çoğu zaman sistem türleri arasındaki farkı sorgular.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Model ile gerçek sistem aynı şey değildir; model, sistemin temsilidir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Statik-dinamik ile deterministik-stokastik ayrımları sık karıştırılır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>Bir üretim tesisinin benzetim modelinde makine kullanımları için arızalara kadar geçen süreyi modelleyen dağılım aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Normal</div><div class='opt'><strong>B)</strong> Weibull</div><div class='opt'><strong>C)</strong> Üçgen</div><div class='opt'><strong>D)</strong> Negatif Binom</div><div class='opt'><strong>E)</strong> Ampirik</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - Weibull<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 FINAL</div>
+      <h4>Aşağıdakilerden hangisi Statik-Dinamik sistem ikilisine örnektir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Kalite Kontrol - Stok Kontrol</div><div class='opt'><strong>B)</strong> Havayolları - Karayolları</div><div class='opt'><strong>C)</strong> Üretim İletişim</div><div class='opt'><strong>D)</strong> Banka Baraj</div><div class='opt'><strong>E)</strong> Güneş Sistemi - Sindirim Sistemi</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Güneş Sistemi - Sindirim Sistemi<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 2</div>
+            <div class='topic-title'>Sistem, Model ve Deney Tasarımı</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Sistem, birbiriyle ilişkili öğelerin ortak bir amaç doğrultusunda çalıştığı yapıdır. Model ise bu sistemin belirli yönlerini temsil eden soyut bir yapıdır.</p>
+              <p>Deney tasarımında hangi değişkenlerin kontrol edileceği, hangi çıktıların ölçüleceği ve senaryoların nasıl karşılaştırılacağı önceden belirlenir. Bu adım analizin güvenilirliği için kritiktir.</p>
+              <p>Model kurma süreci problem tanımı, veri toplama, kavramsal model, bilgisayar modeli, doğrulama ve sonuç yorumlama aşamalarından oluşur.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Amaç net olmalıdır.</li><li>Girdi ve çıktı değişkenleri tanımlanır.</li><li>Karşılaştırma ölçütleri önceden seçilir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Senaryo karşılaştırma sorularında hangi aracın veya ölçütün kullanıldığına dikkat et.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Her doğru görünen model, karar verme açısından faydalı olmak zorunda değildir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Doğrulama ile geçerleme kavramları birbirine karıştırılır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>OUTPUT ANALYZER aracı ile farklı senaryolarda çalıştırılan modellerin ortalamalarının karşılaştırılması için aşağıdakilerden hangisi kullanılır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Correlogram</div><div class='opt'><strong>B)</strong> Compare Variances</div><div class='opt'><strong>C)</strong> Conf.Interval on Mean</div><div class='opt'><strong>D)</strong> Compare Means</div><div class='opt'><strong>E)</strong> One-Way ANOVA</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - Compare Means<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 FINAL</div>
+      <h4>Kararlı durum modellerinin doğal sonlandırma süreleri olmadığına göre replikasyon uzunluğu belirlenme zamanı aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> İstenen sonuçlar alındığında</div><div class='opt'><strong>B)</strong> Sistemde belli bir miktarda varlık olduğunda</div><div class='opt'><strong>C)</strong> İstenmeyen sonuçlar alınmaya başlandığında</div><div class='opt'><strong>D)</strong> Önceden belirlenmiş birkaç ardışık zaman artımından sonra</div><div class='opt'><strong>E)</strong> İlgilenilen istatistikler sabitlendiğinde</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - İlgilenilen istatistikler sabitlendiğinde<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 3</div>
+            <div class='topic-title'>Kuyruk Sistemleri ve Kuyruk Disiplinleri</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Kuyruk sistemlerinde müşteriler veya varlıklar belirli bir sıraya göre hizmet alır. Hizmet düzeni sistem performansını doğrudan etkiler.</p>
+              <p>FIFO, LIFO, öncelik ve öznitelik tabanlı seçim gibi disiplinler farklı amaçlara hizmet eder. Bazı sistemlerde kısa işlem süreli işlerin önce alınması toplam beklemeyi azaltabilir.</p>
+              <p>Kuyruk analizi yapılırken yalnız kimin önce işlem göreceği değil, bekleme süresi ve kaynak kullanımının nasıl etkilendiği de değerlendirilir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>FIFO en yaygın disiplindir.</li><li>Öncelik kuralları sistem davranışını değiştirir.</li><li>Doğru disiplin performansı iyileştirebilir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> En küçük ya da en büyük öznitelik değerine göre seçim yapılan kuralları ayırt et.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Kuyruk disiplini, varlığın sisteme giriş sırası ile aynı olmak zorunda değildir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> FIFO ile öncelik tabanlı seçim soruları sık karışır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>En düşük işlem süresine sahip varlığın ilk işlem görmesini sağlayacak kuyruk disiplini aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> FIFO</div><div class='opt'><strong>B)</strong> LIFO</div><div class='opt'><strong>C)</strong> PR</div><div class='opt'><strong>D)</strong> Highest Attribute Value (first)</div><div class='opt'><strong>E)</strong> Lowest Attribute Value (first)</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Lowest Attribute Value (first)<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 VIZE</div>
+      <h4>Aşağıdakilerden hangisi bir banka kuyruk modelinin servisi olamaz?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Telefon bankacılığı kabini</div><div class='opt'><strong>B)</strong> ATM</div><div class='opt'><strong>C)</strong> Güvenlik görevlisi</div><div class='opt'><strong>D)</strong> Mobil bankacılık bilgisayarı</div><div class='opt'><strong>E)</strong> Vezne</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - Güvenlik görevlisi<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 4</div>
+            <div class='topic-title'>Olasılık Dağılımları ve Girdi Modellemesi</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Benzetim modellerinde gelişler, işlem süreleri, arıza aralıkları ve servis süreleri çoğu zaman rassal değişkenlerle temsil edilir. Bu nedenle uygun olasılık dağılımını seçmek çok önemlidir.</p>
+              <p>Üstel, normal, uniform, üçgensel ve poisson gibi dağılımlar farklı türde olayları modellemek için kullanılır. Seçim yapılırken verinin doğası dikkate alınır.</p>
+              <p>Girdi modellemesi yanlış yapılırsa model ne kadar iyi kurulursa kurulsun sonuçlar yanıltıcı olur. Bu yüzden veri analizi ve dağılım uyumu temel adımdır.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Dağılım seçimi veriye dayanmalıdır.</li><li>Arıza ve bekleme sorularında uygun model aranır.</li><li>Rassallık sistemi daha gerçekçi temsil eder.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Süre, geliş aralığı ve arıza zamanı aynı dağılımla modellenmek zorunda değildir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Dağılım seçimi yalnız ezber değil, olayın yapısına göre yapılmalıdır.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Poisson ile üstel dağılımın neyi modellediği sık karıştırılır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>Bir acil servise saatte ortalama 4 hasta gelmektedir. Her bir hastaya ortalama müdahale süresi 12 dakikadır. Gelişler arası süre ve servis süresi üstel dağılıma uymaktadır. Bu durumda hastaların sistemde geçirdiği ortalama süre aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 80 dk</div><div class='opt'><strong>B)</strong> 30 dk</div><div class='opt'><strong>C)</strong> 40 dk</div><div class='opt'><strong>D)</strong> 20 dk</div><div class='opt'><strong>E)</strong> 60 dk</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - 40 dk<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 VIZE</div>
+      <h4>Parametreleri maksimum 8, en olası 5 ve minimum 2 olan üçgensel dağılım için uygulanan ters dönüşüm formülüne göre R₁ = 0,6 için Xᵢ değeri aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 5,29</div><div class='opt'><strong>B)</strong> 4,68</div><div class='opt'><strong>C)</strong> 4,71</div><div class='opt'><strong>D)</strong> 5,60</div><div class='opt'><strong>E)</strong> 5,32</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - 5,32<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 5</div>
+            <div class='topic-title'>Arena Arayüzü ve Temel Modüller</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Arena, süreç tabanlı benzetim modellemede sık kullanılan bir yazılımdır. Modüller sürükle-bırak mantığıyla kullanılır ve sistem akışı görsel olarak kurulabilir.</p>
+              <p>Create, Process, Decide, Record, Assign, Dispose ve gelişmiş taşıma modülleri modelin farklı parçalarını temsil eder. Her modülün işlevini doğru bilmek model kurmayı kolaylaştırır.</p>
+              <p>Sınavlarda özellikle modül isimleri ve hangi amaçla kullanıldıkları sorulur. Bu yüzden yalnız görseli değil işlev mantığını da öğrenmek gerekir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Create varlık üretir.</li><li>Process işlem ve kaynak kullanımı içerir.</li><li>Dispose sistemden çıkışı temsil eder.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Modül sorularında isim benzerliğine değil işlev açıklamasına odaklan.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Bazı modüller veri atama, bazıları akış kontrolü içindir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Assign, Record ve Decide modülleri sık karıştırılır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>Aşağıdaki modüllerden hangisi bir taşıyıcı birimin durumunu devre dışı olarak değiştirmek için kullanılır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> STORE</div><div class='opt'><strong>B)</strong> HALT</div><div class='opt'><strong>C)</strong> ACCESS</div><div class='opt'><strong>D)</strong> UNSTORE</div><div class='opt'><strong>E)</strong> HOLD</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - HALT<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 FINAL</div>
+      <h4>Yukarıda verilen ARENA çıktısına göre triyaj ve kayıt işlemi için ortalama hasta bekleme süresinin güven aralığı aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 0.2620-0.3420</div><div class='opt'><strong>B)</strong> 0.04-0.3020</div><div class='opt'><strong>C)</strong> 0.04-0.3887</div><div class='opt'><strong>D)</strong> 0.2353-0.3020</div><div class='opt'><strong>E)</strong> 0.2356-0.3887</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> A - 0.2620-0.3420<br/><span>Doğru seçenek A şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 6</div>
+            <div class='topic-title'>Kaynaklar, Varlıklar ve Nitelikler</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Varlık, sistemde hareket eden veya işlem gören öğedir. Kaynak ise bu varlığa hizmet veren sınırlı kapasitedeki unsur olarak düşünülür.</p>
+              <p>Nitelikler, varlıkların bireysel özelliklerini tutar. Öncelik, işlem süresi sınıfı veya geliş tipi gibi bilgiler öznitelik olarak saklanabilir.</p>
+              <p>İyi bir modelde hangi bilginin varlıkta, hangisinin kaynakta veya sistem değişkeninde tutulduğu doğru belirlenmelidir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Entity akışın taşıyıcısıdır.</li><li>Resource kapasiteyi temsil eder.</li><li>Attribute kişisel bilgi taşır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soru kökü bir özelliğin kime ait olduğunu sorguluyorsa entity-resource-attribute ayrımı yap.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Her bilgi sistem değişkeni olarak tutulmaz; bazıları yalnız varlık düzeyindedir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Kaynak durumu ile varlık özelliği aynı şey değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>ARENA çalışma sonuçları raporlarından Resources (Kaynaklar) raporunda aşağıdakilerden hangisi bir kaynağın meşgul birimlerinin sayısını ifade eder?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> TOTAL NUMBER SEIZED</div><div class='opt'><strong>B)</strong> INSTANTANEOUS UTILIZATION</div><div class='opt'><strong>C)</strong> NUMBER SCHEDULED</div><div class='opt'><strong>D)</strong> SCHEDULED UTILIZATION</div><div class='opt'><strong>E)</strong> NUMBER BUSY</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - NUMBER BUSY<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 FINAL</div>
+      <h4>Bir fabrika sisteminin benzetim modeli aşağıdaki tanımlardan hangisi ile ifade edilmektedir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Geçici durum simülasyonu</div><div class='opt'><strong>B)</strong> Kararlı simülasyon</div><div class='opt'><strong>C)</strong> Sonlu ufuklu simülasyon</div><div class='opt'><strong>D)</strong> Sonsuz ufuklu simülasyon</div><div class='opt'><strong>E)</strong> Kararsız durum simülasyonu</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - Sonlu ufuklu simülasyon<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 7</div>
+            <div class='topic-title'>Çıktı Analizi ve Güven Aralıkları</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Bir benzetim modeli yalnız çalıştırılmak için değil, sonuç üretmek için kurulur. Bu sonuçların yorumlanması ise çıktı analizinin konusudur.</p>
+              <p>Ortalama bekleme süresi, kaynak kullanım oranı, kuyruk uzunluğu ve sistemde kalış süresi gibi ölçütler raporlanabilir. Güven aralıkları, elde edilen ortalamanın belirsizlik düzeyini gösterir.</p>
+              <p>Output Analyzer gibi araçlar farklı senaryoların karşılaştırılmasında ve istatistiksel anlamlılığın değerlendirilmesinde yardımcı olur.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Ortalama tek başına yeterli olmayabilir.</li><li>Güven aralığı sonuç yorumunu güçlendirir.</li><li>Tekrarlı çalıştırmalar daha güvenilir sonuç verir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soru, aralık yorumu istiyorsa alt ve üst sınır mantığına dikkat et.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Dar güven aralığı genellikle daha kararlı tahmin anlamına gelir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Ortalama değer ile güven aralığı aynı kavram değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>Modelin geçerli olarak kabul edilip edilmeyeceğinin veya modelin iyileştirilip iyileştirilmeyeceğinin belirlenmesi, güven aralığının ima ettiği en iyi durum ve en kötü durum hatasına bağlıdır. Bir süpermarket benzetim çalışmasında müşterilerin kasa kuyruğunda bekleme süreleri güven aralığı [8.15-10.30] olarak belirlenmiştir. Gözlemlenen sistemin bekleme ortalamalarının 9.25 dakika olduğu bilinmektedir. Bu durum ε=1 için en iyi durum ve en kötü durum hatasına göre incelendiğinde aşağıdaki sonuçlardan hangisine ulaşılır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> En iyi durum hatası ≤ ε&#x27;dur ancak en kötü durum hatası &gt; ε&#x27;dur. Bir sonuca varılıncaya kadar ek simülasyon çalıştırmalarına ihtiyaç vardır.</div><div class='opt'><strong>B)</strong> En iyi durum hatası &lt; s dur. Sistem ve model performansları arasındaki fark, en iyi durumda bile yeterince büyük olduğundan model iyileştirilmelidir.</div><div class='opt'><strong>C)</strong> En kötü durum hatası ≤ε &#x27;dur, simülasyon modeli reddedilir ve yeni bir model kurulur.</div><div class='opt'><strong>D)</strong> En iyi durum veya en kötü durum hatası &gt; ε &#x27;dur. Bir sonuca varılımcaya kadar ek simülasyon çalıştırmalarına ihtiyaç vardır.</div><div class='opt'><strong>E)</strong> En kötü durum hatası ≤ε dur. Simülasyon modeli yeterince yakın ve geçerli kabul edilir.</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - En iyi durum veya en kötü durum hatası &gt; ε &#x27;dur. Bir sonuca varılımcaya kadar ek simülasyon çalıştırmalarına ihtiyaç vardır.<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 FINAL</div>
+      <h4>AutoMod ürün ailesindeki çalıştırma yöneticisi ve istatistiksel analiz ürünü aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> AutoStat</div><div class='opt'><strong>B)</strong> SimRunner</div><div class='opt'><strong>C)</strong> OptQuest</div><div class='opt'><strong>D)</strong> PROCESS ANALYZER</div><div class='opt'><strong>E)</strong> OUTPUT ANALYZER</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> A - AutoStat<br/><span>Doğru seçenek A şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 8</div>
+            <div class='topic-title'>Replikasyon, Isınma Süresi ve Kararlı Durum</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Kararlı durum modellerinde sistem teorik olarak sonsuza dek çalışabilir. Bu nedenle analiz yapılırken başlangıç etkileri ve çalıştırma uzunluğu dikkatle seçilmelidir.</p>
+              <p>Replikasyon, modelin bağımsız tekrarlarla birden fazla kez çalıştırılmasıdır. Isınma süresi ise sistemin başlangıç yanlılığından arındırılması için ilk kısmın analiz dışı bırakılmasıdır.</p>
+              <p>Özellikle sonlanmayan sistemlerde uygun replikasyon uzunluğu ve ısınma süresi seçimi sonuç kalitesi üzerinde belirleyicidir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Kararlı durum uzun dönem davranışı inceler.</li><li>Warm-up başlangıç etkisini azaltır.</li><li>Replikasyon varyasyonu anlamayı sağlar.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Doğal sonlanma ile kararlı durum modellerini birbirinden ayır.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Her modelde ısınma süresi zorunlu değildir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Replikasyon sayısı ile replikasyon uzunluğu aynı şey değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>Bilgisayar üreten bir firma ürünlerinin dayanıklılık süresini değerlendirmek istemektedir. 100 tane rassal olarak seçilen bilgisayarın standart sapması 120 gün, ortalama dayanıklılık süreleri de 1440 gündür. %90 güvenle anakütle ortalama dayanıklılık süresi aşağıdaki aralıklardan hangisidir? (Z 𝘢/₂ = 1,65)</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> [1320-1560]</div><div class='opt'><strong>B)</strong> [1420.2-1459,8]</div><div class='opt'><strong>C)</strong> [1202,4-1667,6]</div><div class='opt'><strong>D)</strong> [1398,5-1481,5]</div><div class='opt'><strong>E)</strong> [1400-1471]</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - [1420.2-1459,8]<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 FINAL</div>
+      <h4>Bir süpermarket sisteminde kasada işlem yapan müşteriler için benzetim çalışması yapılmıştır. Müşterilerin gelişleri arası süre sabit 10 dk olarak belirlenmiştir. Yukarıdaki görselde sarı renkli işaretlenmiş kutucuklar aşağıdaki seçeneklerin hangisinde doğru verilmiştir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Constant-10-Minutes</div><div class='opt'><strong>B)</strong> Constant-10-Hours</div><div class='opt'><strong>C)</strong> Random-10 - Hours</div><div class='opt'><strong>D)</strong> Random-10 - Minutes</div><div class='opt'><strong>E)</strong> Expression-10-Minutes</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> A - Constant-10-Minutes<br/><span>Doğru seçenek A şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 9</div>
+            <div class='topic-title'>Doğrulama ve Geçerleme</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Doğrulama, kurulan bilgisayar modelinin kavramsal modele uygun çalışıp çalışmadığını inceler. Geçerleme ise modelin gerçek sistemi yeterince temsil edip etmediğini sorgular.</p>
+              <p>Bu iki adım benzetim kalitesinin merkezindedir. Kod doğru çalışsa bile model gerçek hayatı iyi temsil etmiyorsa karar desteği zayıf olur.</p>
+              <p>Gözlem, uzman görüşü, geçmiş veri karşılaştırması ve duyarlılık analizi bu aşamalarda kullanılabilir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Doğrulama = doğru kurduk mu?</li><li>Geçerleme = doğru şeyi mi kurduk?</li><li>Her ikisi de güvenilirlik sağlar.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soru kökünde gerçek sistemle kıyas varsa geçerleme akla gelmelidir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Doğrulama daha çok modelin iç tutarlılığı ile ilgilidir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Bu iki kavram klasik olarak en çok karıştırılan başlıktır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 VIZE</div>
+      <h4>Bağımsız olaylar arasındaki zamanı veya hafızasız bir işlem süresini modelleyen dağılım aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Normal</div><div class='opt'><strong>B)</strong> Poisson</div><div class='opt'><strong>C)</strong> Üstel</div><div class='opt'><strong>D)</strong> Düzgün</div><div class='opt'><strong>E)</strong> Weibull</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - Üstel<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 VIZE</div>
+      <h4>Aşağıdakilerden hangisi bir iletişim sistemi kuyruk modelinde müşteri olamaz?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Arama</div><div class='opt'><strong>B)</strong> Baz istasyonu</div><div class='opt'><strong>C)</strong> E-posta</div><div class='opt'><strong>D)</strong> Sesli mesaj</div><div class='opt'><strong>E)</strong> Video görüşme</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - Baz istasyonu<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 10</div>
+            <div class='topic-title'>Senaryo Karşılaştırma ve Performans Ölçütleri</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Benzetimde çoğu zaman tek bir model değil, farklı politika ve parametreleri temsil eden alternatif senaryolar incelenir. Amaç en iyi performansı veren yaklaşımı belirlemektir.</p>
+              <p>Karşılaştırmada bekleme süresi, kapasite kullanımı, tamamlanma süresi, maliyet ve hizmet düzeyi gibi ölçütler kullanılabilir. Her ölçüt farklı bir yönetim önceliğini temsil eder.</p>
+              <p>Karar verici için önemli olan yalnız en düşük sayı değil, istatistiksel olarak güvenilir ve uygulanabilir sonuçlardır.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Senaryolar aynı koşullarda karşılaştırılmalıdır.</li><li>Performans ölçütü amaca uygun seçilmelidir.</li><li>İstatistiksel fark ile pratik fark aynı olmayabilir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Karşılaştırma sorularında aracı değil, neden kullanıldığını da düşün.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> En iyi çözüm her zaman tek ölçüte göre belirlenmez.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Mutlak en küçük değer ile anlamlı üstünlük kavramları farklıdır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>Aşağıdakilerden hangisi doğrusal eşlik yönteminde tam periyot elde etmek için kullanılan Hull-Dobell teoremi şartlarındandır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> b değeri asal sayı olmalıdır.</div><div class='opt'><strong>B)</strong> c değeri tek sayı olmalıdır.</div><div class='opt'><strong>C)</strong> Eğer m 4&#x27;e bölünüyorsa c-1 de 4&#x27;e bölünebilmelidir.</div><div class='opt'><strong>D)</strong> m değeri asal sayı olmalıdır.</div><div class='opt'><strong>E)</strong> m değerinin tüm bölenlerine b-1 de bölünebilmelidir.</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> A - b değeri asal sayı olmalıdır.<br/><span>Doğru seçenek A şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 FINAL</div>
+      <h4>Aşağıdakilerden hangisi PROCESS modülündeki Action penceresindeki seçeneklerden değildir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Seize Delay Release</div><div class='opt'><strong>B)</strong> Seize Delay</div><div class='opt'><strong>C)</strong> Random</div><div class='opt'><strong>D)</strong> Delay</div><div class='opt'><strong>E)</strong> Delay Release</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - Random<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 11</div>
+            <div class='topic-title'>Sağlık, Üretim ve Hizmet Uygulamaları</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Benzetim sağlık, üretim, lojistik ve hizmet sistemlerinde yaygın olarak kullanılır. Bu alanlarda hasta akışı, makine kullanım oranı, personel planlama ve darboğaz analizi gibi problemler incelenebilir.</p>
+              <p>Uygulama alanı değişse de temel mantık aynıdır: sistem bileşenlerini tanımlamak, süreç akışını modellemek ve performansı değerlendirmek.</p>
+              <p>Sınav sorularında genellikle bir uygulama senaryosu verilir ve hangi model, dağılım veya çıktı yorumunun uygun olduğu sorulur.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Sağlıkta hasta akışı önemlidir.</li><li>Üretimde darboğaz ve arıza analizi öne çıkar.</li><li>Hizmet sistemlerinde bekleme süresi kritik olabilir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Uygulama örneğine bakıp konu başlığını doğru eşleştir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Alan değişse de varlık-kaynak-kuyruk mantığı korunur.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Senaryonun sektörü değişince model mantığının da değiştiği sanılır; bu her zaman doğru değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 FINAL</div>
+      <h4>Bir berbere gelen müşterilerin %20’si saç tıraşı ve %80’i sakal tıraşı olmaktadır. Bu müşteri tipleri ASSIGN modülü ile tanımlanmıştır. Bu işlemler farklı personeller tarafından gerçekleştirildiğinden DECIDE modülü ile bu müşteriler farklı PROCESS modüllerine yönlendirilecektir. DECIDE modülene yazılacak koşul/condition aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> DISC(1,2)</div><div class='opt'><strong>B)</strong> TIP</div><div class='opt'><strong>C)</strong> %80</div><div class='opt'><strong>D)</strong> %20</div><div class='opt'><strong>E)</strong> TIP=1</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - TIP=1<br/><span>Doğru seçenek E şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 FINAL</div>
+      <h4>Aşağıdaki simülasyon yazılımlarından hangisi 1993 yılında ilk defa piyasaya sürülmüştür?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> EXTEND</div><div class='opt'><strong>B)</strong> AUTOMOD</div><div class='opt'><strong>C)</strong> ARENA</div><div class='opt'><strong>D)</strong> SIMUL8</div><div class='opt'><strong>E)</strong> PROMODEL</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - ARENA<br/><span>Doğru seçenek C şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 12</div>
+            <div class='topic-title'>Sonuçların Yorumlanması ve Karar Verme</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Benzetim sonunda elde edilen sayılar doğrudan karar değildir; karar için yorum gerekir. Yöneticinin amacı model çıktısından eyleme dönük sonuç çıkarabilmektir.</p>
+              <p>Bu aşamada maliyet, risk, uygulanabilirlik ve sistem kısıtları birlikte düşünülür. Sadece ortalama değeri küçük olan çözüm değil, sürdürülebilir olan çözüm tercih edilmelidir.</p>
+              <p>Dersin genelinde bu nedenle ezber yerine yorum becerisi önemlidir. Sınav sorularının önemli bir kısmı da bu yorumlama gücünü ölçer.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Çıktı = ham sonuç, karar = yorumlanmış sonuç.</li><li>Birden fazla ölçüt birlikte değerlendirilebilir.</li><li>Yönetim bakışı model sonuçlarını tamamlar.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Son aşamada sayıyı değil, sayının ne anlattığını düşün.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Benzetim karar vermeyi destekler; kararı otomatik üretmez.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Model sonucu ile yönetim kararı aynı şey değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 VIZE</div>
+      <h4>Gözlemlerin düz bir doğru etrafında yayılım gösterip göstermediğine bakılarak verinin belirlenen dağılımdan gelip gelmediği hakkında sonuca varılan girdi analizi yöntemi aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Histogram</div><div class='opt'><strong>B)</strong> Q-Q grafikleri</div><div class='opt'><strong>C)</strong> P-P Grafikleri</div><div class='opt'><strong>D)</strong> Kolmogorov-Smirnov Testi</div><div class='opt'><strong>E)</strong> Ki-kare Testi</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - Q-Q grafikleri<br/><span>Doğru seçenek B şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 VIZE</div>
+      <h4>Tek taraflı hipotez testi için sıfır hipotezi işareti aşağıdakilerden hangisi olabilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> = veya &lt;</div><div class='opt'><strong>B)</strong> &gt;</div><div class='opt'><strong>C)</strong> = veya &gt;</div><div class='opt'><strong>D)</strong> = veya ≥</div><div class='opt'><strong>E)</strong> ≠</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - = veya ≥<br/><span>Doğru seçenek D şıkkıdır. Bu soru, konunun temel mantığını ve kavramlar arası ayrımı ölçer.</span></div>
+    </article></div>
+        </section><div class='footer'>Hazırlanan bu not, soru mantığına göre konu takibini kolaylaştırmak için düzenlenmiştir.</div></div></body></html>
