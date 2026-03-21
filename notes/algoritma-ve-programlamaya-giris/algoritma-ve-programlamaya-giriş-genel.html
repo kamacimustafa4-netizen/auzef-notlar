@@ -1,548 +1,589 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Algoritmalar ve Programlamaya Giriş - Ayrıntılı Not</title>
-  <style>
-    :root{
-      --bg:#f8fafc;
-      --surface:#ffffff;
-      --surface-soft:#f8fbff;
-      --surface-blue:#eef6ff;
-      --text:#0f172a;
-      --muted:#475569;
-      --line:#dbeafe;
-      --line-soft:#e5e7eb;
-      --primary:#2563eb;
-      --primary-soft:#dbeafe;
-      --cyan-soft:#ecfeff;
-      --green-soft:#ecfdf5;
-      --red-soft:#fff1f2;
-      --yellow-soft:#fffbeb;
-      --shadow:0 10px 30px rgba(15, 23, 42, 0.06);
-      --radius:20px;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      font-family: Arial, Helvetica, sans-serif;
-      background:var(--bg);
-      color:var(--text);
-      line-height:1.72;
-    }
-    .container{
-      width:min(980px, calc(100% - 24px));
-      margin:0 auto;
-      padding:18px 0 40px;
-    }
-    .hero{
-      background:linear-gradient(180deg, #eef6ff 0%, #ffffff 100%);
-      border:1px solid var(--line);
-      border-radius:28px;
-      padding:24px 20px;
-      box-shadow:var(--shadow);
-      margin-bottom:18px;
-    }
-    .badge{
-      display:inline-block;
-      background:#e0ecff;
-      color:#1d4ed8;
-      font-size:12px;
-      font-weight:700;
-      padding:8px 12px;
-      border-radius:999px;
-      margin-bottom:12px;
-    }
-    h1{
-      margin:0 0 10px;
-      font-size:clamp(26px, 5vw, 40px);
-      line-height:1.18;
-      color:#0f172a;
-    }
-    .subtitle{
-      margin:0;
-      color:var(--muted);
-      font-size:15px;
-    }
-    .toc{
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-      margin-top:16px;
-    }
-    .toc a{
-      text-decoration:none;
-      background:#ffffff;
-      color:#1e40af;
-      border:1px solid var(--line);
-      padding:9px 12px;
-      border-radius:12px;
-      font-size:13px;
-      font-weight:600;
-    }
-    .grid{display:grid;gap:14px;margin-top:14px}
-    .grid-3{grid-template-columns:repeat(3, minmax(0,1fr))}
-    .grid-2{grid-template-columns:repeat(2, minmax(0,1fr))}
-    .card, .topic{
-      background:var(--surface);
-      border:1px solid var(--line-soft);
-      border-radius:var(--radius);
-      padding:18px;
-      box-shadow:var(--shadow);
-    }
-    .topic{background:var(--surface-soft)}
-    .stat{
-      width:42px;height:42px;border-radius:14px;background:var(--primary-soft);color:var(--primary);
-      display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;margin-bottom:10px;
-    }
-    .mini{margin:0;color:var(--muted);font-size:14px;}
-    .section-title{margin:28px 0 12px;font-size:25px;color:#0f172a;}
-    .topic h3, .card h3{margin:0 0 10px;font-size:20px;color:#111827;}
-    p{margin:8px 0;color:#334155;}
-    ul{margin:10px 0 0;padding-left:20px;}
-    li{margin:8px 0;color:#1f2937;}
-    strong{color:#0f172a;}
-    .memory, .tip, .trap{
-      margin-top:14px;padding:14px 15px;border-radius:16px;font-size:14px;
-    }
-    .memory{background:var(--green-soft);border:1px solid #bbf7d0;color:#166534;}
-    .tip{background:var(--cyan-soft);border:1px solid #bae6fd;color:#0f766e;}
-    .trap{background:var(--red-soft);border:1px solid #fecdd3;color:#be123c;}
-    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;}
-    .chip{
-      background:#f8fafc;border:1px solid var(--line);color:#334155;padding:8px 10px;border-radius:999px;font-size:12px;font-weight:600;
-    }
-    .timeline{position:relative;padding-left:18px;margin-top:6px;}
-    .timeline::before{
-      content:"";position:absolute;left:4px;top:5px;bottom:5px;width:2px;background:#bfdbfe;
-    }
-    .time-item{position:relative;padding-left:18px;margin-bottom:16px;}
-    .time-item::before{
-      content:"";position:absolute;left:-1px;top:6px;width:10px;height:10px;border-radius:50%;background:#3b82f6;
-    }
-    .time-item b{display:block;color:#0f172a;margin-bottom:4px;}
-    .footer{margin-top:20px;text-align:center;color:#64748b;font-size:13px;padding:14px;}
-    @media (max-width: 900px){
-      .grid-3,.grid-2{grid-template-columns:1fr}
-      .hero{padding:20px 16px}
-      .card,.topic{padding:16px}
-      .section-title{font-size:22px}
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Algoritmalar ve Programlamaya Giriş - Benzeri Sorulu Not</title>
+<style>
+:root {
+  --bg:#f6f8fc;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --line:#dbe4f0;
+  --primary:#335c81;
+  --primary-soft:#eaf2fb;
+  --accent:#eff6ff;
+  --note:#fff8e8;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg,#f8fbff 0%, #f4f7fb 100%);
+  color:var(--text);
+  line-height:1.7;
+}
+.container {
+  width:min(1100px, 92%);
+  margin:40px auto 70px;
+}
+.hero {
+  background: linear-gradient(135deg, #edf4ff 0%, #f9fbff 100%);
+  border:1px solid #d8e4f4;
+  border-radius:28px;
+  padding:32px 28px;
+  box-shadow:0 18px 40px rgba(47,86,135,.08);
+  margin-bottom:24px;
+}
+.hero h1 {
+  margin:0 0 10px;
+  font-size:clamp(28px,4vw,42px);
+  line-height:1.15;
+  color:#20344d;
+}
+.hero p {
+  margin:0;
+  color:#4b5b70;
+  font-size:16px;
+}
+.intro {
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:20px 22px;
+  margin:18px 0 28px;
+  box-shadow:0 10px 24px rgba(15,23,42,.05);
+}
+.intro strong { color:#243b53; }
+.grid {
+  display:grid;
+  grid-template-columns:repeat(12,1fr);
+  gap:18px;
+  margin-bottom:28px;
+}
+.stat {
+  grid-column: span 4;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:18px 20px;
+}
+.stat .label { color:var(--muted); font-size:14px; }
+.stat .value { font-size:24px; font-weight:700; color:#213a57; margin-top:4px; }
+.section {
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:26px;
+  padding:30px 26px;
+  margin-bottom:22px;
+  box-shadow:0 10px 26px rgba(15,23,42,.05);
+}
+.section h2 {
+  margin:0 0 14px;
+  font-size:28px;
+  line-height:1.25;
+  color:#20344d;
+}
+.section p { margin:0 0 12px; }
+.note-box {
+  margin-top:16px;
+  background:var(--note);
+  border:1px solid #f0dfb5;
+  border-radius:18px;
+  padding:16px 18px;
+}
+.note-title {
+  font-weight:700;
+  margin-bottom:8px;
+  color:#725c1b;
+}
+.note-box ul {
+  margin:0;
+  padding-left:18px;
+}
+.question-wrap {
+  margin-top:22px;
+  padding-top:8px;
+}
+.question-wrap h3 {
+  margin:0 0 12px;
+  font-size:22px;
+  color:var(--primary);
+}
+.question-card {
+  border:1px solid #d7e3f3;
+  background:linear-gradient(180deg,#fbfdff 0%, #f7faff 100%);
+  border-radius:20px;
+  padding:18px 18px 16px;
+  margin:14px 0;
+}
+.q-meta {
+  display:inline-block;
+  font-size:13px;
+  color:#4a6380;
+  background:var(--primary-soft);
+  border:1px solid #d6e3f3;
+  border-radius:999px;
+  padding:6px 10px;
+  margin-bottom:10px;
+}
+.q-text {
+  font-weight:600;
+  color:#23374f;
+  margin-bottom:10px;
+}
+.options {
+  margin:0 0 10px 18px;
+  padding-left:10px;
+}
+.options li {
+  margin-bottom:5px;
+}
+.answer, .mini-exp {
+  border-radius:14px;
+  padding:10px 12px;
+  margin-top:10px;
+}
+.answer {
+  background:#edf7ee;
+  border:1px solid #cfe6d1;
+}
+.mini-exp {
+  background:#fffaf0;
+  border:1px solid #f1e3b9;
+}
+.footer {
+  text-align:center;
+  color:#425466;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:18px;
+  margin-top:28px;
+}
+@media (max-width:900px) {
+  .stat { grid-column: span 12; }
+  .section { padding:24px 18px; }
+}
+</style>
 </head>
 <body>
   <div class="container">
-    <section class="hero">
-      <div class="badge">YBS • Ayrıntılı ders notu</div>
+    <header class="hero">
       <h1>Algoritmalar ve Programlamaya Giriş</h1>
-      <p class="subtitle">
-        Bu not, soru dosyalarındaki tekrar eden konular analiz edilerek hazırlandı.
-        Özellikle <strong>temel kavramlar</strong>, <strong>karar yapıları</strong>, <strong>döngüler</strong>,
-        <strong>diziler</strong>, <strong>alt programlar</strong> ve <strong>arama-sıralama</strong> konuları
-        daha ayrıntılı anlatıldı. Amaç, kullanıcının sadece şıkları değil, konunun mantığını da anlamasıdır.
-      </p>
-      <div class="toc">
-        <a href="#temel">Temel kavramlar</a>
-        <a href="#karar">Karar yapıları</a>
-        <a href="#dongu">Döngüler</a>
-        <a href="#dizi">Diziler</a>
-        <a href="#fonksiyon">Alt programlar</a>
-        <a href="#arama">Arama ve sıralama</a>
-        <a href="#uygulama">Genel uygulamalar</a>
-        <a href="#tekrar">Hızlı tekrar</a>
-      </div>
-    </section>
+      <p>Ayrıntılı konu anlatımı, kavram odaklı özetler ve benzeri soru bloklarıyla düzenlenmiş çalışma notu.</p>
+    </header>
 
-    <section class="grid grid-3">
-      <div class="card">
-        <div class="stat">1</div>
-        <h3>En çok çıkan alan</h3>
-        <p class="mini">Karar yapıları ve koşullar, soru setlerinde en çok tekrar eden başlıklardan biridir.</p>
-        <div class="chips">
-          <span class="chip">if-else</span>
-          <span class="chip">mod işlemi</span>
-          <span class="chip">karşılaştırma</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="stat">2</div>
-        <h3>İkinci kritik alan</h3>
-        <p class="mini">Döngüler ve sayaç mantığı iyi anlaşılmazsa uygulama soruları zorlaşır.</p>
-        <div class="chips">
-          <span class="chip">for</span>
-          <span class="chip">while</span>
-          <span class="chip">do while</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="stat">3</div>
-        <h3>Sık karışan konu</h3>
-        <p class="mini">Algoritma ile programlama aynı şey değildir; biri plan, diğeri uygulamadır.</p>
-        <div class="chips">
-          <span class="chip">algoritma</span>
-          <span class="chip">program</span>
-          <span class="chip">akış diyagramı</span>
-        </div>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="temel">1) Temel kavramlar</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Algoritma nedir?</h3>
-        <p>
-          Algoritma, bir problemi çözmek için izlenecek adımların mantıklı ve sıralı biçimde yazılmasıdır.
-          Burada önemli olan nokta, adımların <strong>açık</strong>, <strong>sıralı</strong> ve <strong>sonlu</strong> olmasıdır.
-          Yani algoritma belirsiz ifadeler içermez ve bir noktada mutlaka biter.
-        </p>
-        <ul>
-          <li>Her algoritma bir problemi çözmeye yöneliktir.</li>
-          <li>Adımlar gereksiz ayrıntı içermemelidir.</li>
-          <li>Her adım bir öncekine mantıklı şekilde bağlı olmalıdır.</li>
-          <li>Algoritma, program yazmadan önce düşünce planı kurmayı sağlar.</li>
-        </ul>
-        <div class="tip">
-          Kısa mantık: <strong>Algoritma = çözüm planı</strong>,
-          <strong>programlama = bu planın bilgisayar diline çevrilmesi</strong>.
-        </div>
-      </div>
-
-      <div class="topic">
-        <h3>Programlama nedir?</h3>
-        <p>
-          Programlama, bir algoritmada belirlenen adımların bir programlama dili kullanılarak çalıştırılabilir hale getirilmesidir.
-          Yani algoritma ile program aynı değildir. Algoritma düşünsel taslaktır, program ise bu taslağın çalışan halidir.
-        </p>
-        <ul>
-          <li>Algoritma, problemi nasıl çözeceğimizi söyler.</li>
-          <li>Programlama, bu çözümü bilgisayara uygulatır.</li>
-          <li>Aynı algoritma farklı programlama dilleriyle yazılabilir.</li>
-          <li>İyi program yazmanın temeli iyi algoritma kurmaktır.</li>
-        </ul>
-        <div class="trap">
-          Sınavlarda sık gelen hata:
-          <strong>“Algoritma ve programlama aynı kavramdır”</strong> ifadesi yanlıştır.
-        </div>
-      </div>
-
-      <div class="topic">
-        <h3>Değişken, veri ve operatör mantığı</h3>
-        <p>
-          Programlama temellerinde değişkenler çok önemlidir. Çünkü sayılar, metinler ve mantıksal değerler gibi veriler
-          değişkenler içinde tutulur.
-        </p>
-        <ul>
-          <li><strong>Değişken</strong>, veri saklamak için kullanılan isimlendirilmiş alandır.</li>
-          <li>Değişkene değer atarken doğru sözdizimi kullanılmalıdır.</li>
-          <li><strong>Aritmetik operatörler</strong>: toplama, çıkarma, çarpma, bölme, mod.</li>
-          <li><strong>Karşılaştırma operatörleri</strong>: eşittir, büyük, küçük, büyük eşit, küçük eşit.</li>
-          <li><strong>Mod (%)</strong> işlemi, özellikle tek-çift kontrolünde çok kullanılır.</li>
-        </ul>
-        <div class="memory">
-          En temel kalıp:
-          <strong>Sayı çift mi?</strong> kontrolü için genellikle <strong>sayi % 2 == 0</strong> mantığı kullanılır.
-        </div>
-      </div>
-
-      <div class="topic">
-        <h3>Akış diyagramları</h3>
-        <p>
-          Akış diyagramı, algoritmanın şekillerle anlatılmasıdır. Özellikle başlangıç, işlem, karar ve giriş-çıkış adımları
-          sembollerle gösterilir. Bu yapı, problemi görselleştirmeyi kolaylaştırır.
-        </p>
-        <ul>
-          <li>Akış diyagramı sadece sıralı yapılar için kullanılmaz.</li>
-          <li>Karar ve döngü yapıları da akış diyagramında gösterilebilir.</li>
-          <li>Problemi görsel olarak ifade ettiği için anlaşılmayı kolaylaştırır.</li>
-          <li>Program yazmadan önce mantık kontrolü yapmak için faydalıdır.</li>
-        </ul>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="karar">2) Karar yapıları</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Karar yapısının mantığı</h3>
-        <p>
-          Karar yapıları, programın her durumda aynı işlemi yapmasını engeller. Belirli bir koşula göre farklı yollar izlenmesini sağlar.
-          Bu yüzden “seçim yapma” mantığı karar yapılarının temelidir.
-        </p>
-        <ul>
-          <li>Bir koşul doğruysa bir işlem yapılır.</li>
-          <li>Koşul yanlışsa başka bir işlem yapılabilir.</li>
-          <li>Bu yapılar sayesinde bazı adımlar atlanabilir.</li>
-          <li>Programın akışı duruma göre değişir.</li>
-        </ul>
-        <div class="tip">
-          Karar yapıları genelde <strong>if</strong>, <strong>if-else</strong> veya çoklu koşul yapılarıyla kurulur.
-        </div>
-      </div>
-
-      <div class="topic">
-        <h3>Tek-çift, pozitif-negatif, karşılaştırma soruları</h3>
-        <p>
-          Soru dosyalarında en çok dönen uygulamalardan biri, sayının belirli bir özelliğini kontrol etmektir.
-          Bu yüzden basit koşul mantığı çok iyi anlaşılmalıdır.
-        </p>
-        <ul>
-          <li>Bir sayının çift olup olmadığı <strong>mod</strong> işlemiyle bulunur.</li>
-          <li>İki sayının büyüklük-küçüklük ilişkisi karşılaştırma operatörleriyle bulunur.</li>
-          <li>Pozitif-negatif-sıfır ayrımı yine karar yapılarıyla çözülür.</li>
-          <li>“TRUE olan hangisidir?” tarzı sorularda operatör sonuçları dikkatle hesaplanmalıdır.</li>
-        </ul>
-        <div class="trap">
-          En sık hata:
-          Koşul yazarken atama ile karşılaştırmayı karıştırmak.
-          Mantık, <strong>değer verme</strong> değil <strong>koşul sınama</strong> olmalıdır.
-        </div>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="dongu">3) Döngüler</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Döngü nedir?</h3>
-        <p>
-          Döngü, aynı işlemi tekrar tekrar yapmak gerektiğinde kullanılır. Böylece aynı kodu defalarca yazmaya gerek kalmaz.
-          Soru setlerinde özellikle sayaç mantığı, kaç kez çalıştığı ve çıktı sayısı çok soruluyor.
-        </p>
-        <ul>
-          <li><strong>For</strong> döngüsü, tekrar sayısı belli olduğunda kullanılır.</li>
-          <li><strong>While</strong> döngüsü, koşul doğru olduğu sürece çalışır.</li>
-          <li><strong>Do while</strong>, en az bir kez çalışır, sonra koşulu kontrol eder.</li>
-          <li>Sayaç değişkeninin artışı veya azalışı doğru kurulmalıdır.</li>
-        </ul>
-      </div>
-
-      <div class="topic">
-        <h3>Döngülerde en önemli mantık</h3>
-        <p>
-          Döngü sorularında temel amaç, kodun kaç kere çalışacağını ve son değerin ne olacağını bulmaktır.
-          Bunun için başlangıç değeri, koşul ve sayaç güncellemesi birlikte okunmalıdır.
-        </p>
-        <ul>
-          <li>Başlangıç değeri yanlış okunursa tüm sonuç bozulur.</li>
-          <li>Koşul ne zaman yanlış oluyorsa döngü o noktada biter.</li>
-          <li>Sayaç her turda nasıl değişiyor mutlaka takip edilmelidir.</li>
-          <li>Çarpım, toplam ve tekrar yazdırma soruları döngüyle çok gelir.</li>
-        </ul>
-        <div class="memory">
-          Hızlı kontrol:
-          <strong>başlangıç → koşul → gövde → sayaç güncelleme</strong> sırasını izlersen hata azalır.
-        </div>
-      </div>
-
-      <div class="topic">
-        <h3>For döngüsü</h3>
-        <p>
-          For döngüsü özellikle belli sayıda tekrarlarda kullanılır. Örneğin 1’den 5’e kadar sayı yazdırmak,
-          10 ile 100 arasındaki çift sayıların toplamını bulmak gibi işlemler bu yapı ile kolay yapılır.
-        </p>
-        <ul>
-          <li>Başlangıç değeri bellidir.</li>
-          <li>Bitiş değeri bellidir.</li>
-          <li>Artış ya da azalış miktarı tanımlanır.</li>
-          <li>Tekrar sayısı genel olarak önceden tahmin edilebilir.</li>
-        </ul>
-      </div>
-
-      <div class="topic">
-        <h3>While ve Do While farkı</h3>
-        <p>
-          Bu iki yapı sık karıştırılır. Temel fark, koşulun ne zaman kontrol edildiğidir.
-        </p>
-        <ul>
-          <li><strong>While</strong> döngüsünde koşul başta kontrol edilir.</li>
-          <li><strong>Do while</strong> döngüsünde önce işlem yapılır, sonra koşul kontrol edilir.</li>
-          <li>Bu yüzden do while yapısı, koşul yanlış olsa bile en az bir kez çalışır.</li>
-          <li>Sonsuz döngü hataları genelde koşul veya sayaç güncellemesinin unutulmasından doğar.</li>
-        </ul>
-        <div class="trap">
-          En klasik hata:
-          Sayaç değişkeni güncellenmezse döngü sonsuza gidebilir.
-        </div>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="dizi">4) Diziler</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Dizi mantığı</h3>
-        <p>
-          Dizi, aynı türde birden fazla veriyi tek isim altında saklamaya yarar.
-          Her eleman bir konuma sahiptir ve bu konum <strong>indis</strong> ile ifade edilir.
-        </p>
-        <ul>
-          <li>Diziler sadece sayısal veri tutmaz.</li>
-          <li>Metin ve mantıksal veriler de tutulabilir.</li>
-          <li>Her elemanın bir sırası vardır.</li>
-          <li>Bu sıraya indis denir.</li>
-        </ul>
-        <div class="tip">
-          Dizi sorularında en çok dikkat edilmesi gereken şey, <strong>hangi elemanın hangi indisle çağrıldığıdır</strong>.
-        </div>
-      </div>
-
-      <div class="topic">
-        <h3>Tek boyutlu ve iki boyutlu diziler</h3>
-        <p>
-          Tek boyutlu dizi, satır gibi düşünülebilir. İki boyutlu dizi ise satır-sütun yapısına sahiptir.
-          Sınavlarda tanım ve yapı soruları sık gelir.
-        </p>
-        <ul>
-          <li>İki boyutlu diziler satır ve sütunlardan oluşur.</li>
-          <li>Birden fazla tek boyutlu dizinin birleşmiş hali gibi düşünülebilir.</li>
-          <li>İki boyutlu yapıda erişim için genelde iki konum bilgisi gerekir.</li>
-          <li>Doğrusal arama çift boyutlu dizilerde de uygulanabilir.</li>
-        </ul>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="fonksiyon">5) Alt programlar ve fonksiyonlar</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Alt program nedir?</h3>
-        <p>
-          Alt programlar, büyük programları daha küçük ve yönetilebilir parçalara ayırmak için kullanılır.
-          Kodun düzenli, tekrar kullanılabilir ve anlaşılır olmasını sağlar.
-        </p>
-        <ul>
-          <li>Kod tekrarını azaltır.</li>
-          <li>Programı daha düzenli hale getirir.</li>
-          <li>Aynı işlem birden çok yerde kullanılabilir.</li>
-          <li>Ana program tarafından çağrılabilir.</li>
-        </ul>
-      </div>
-
-      <div class="topic">
-        <h3>Geriye değer döndüren ve döndürmeyen yapılar</h3>
-        <p>
-          Bu konu soru setlerinde oldukça görünür. Burada önemli olan, fonksiyonun bir sonuç üretip üretmediğini anlamaktır.
-        </p>
-        <ul>
-          <li><strong>Geriye değer döndüren</strong> yapılarda sonuç ana programa aktarılır.</li>
-          <li><strong>Void</strong> yapılar genelde geriye değer döndürmez.</li>
-          <li><strong>Return</strong> ifadesi sonucu geri göndermek için kullanılır.</li>
-          <li>Parametre alan ve almayan alt programlar olabilir.</li>
-        </ul>
-        <div class="memory">
-          Kısa ezber:
-          <strong>Return = değer geri ver</strong>,
-          <strong>Void = değer döndürme</strong>.
-        </div>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="arama">6) Arama ve sıralama algoritmaları</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Arama algoritmaları</h3>
-        <p>
-          Arama algoritmaları, veri içinde istenen elemanı bulmak için kullanılır.
-          Soru setlerinde özellikle <strong>ikili arama</strong> ve <strong>doğrusal arama</strong> mantığı öne çıkıyor.
-        </p>
-        <ul>
-          <li><strong>Doğrusal arama</strong>, elemanları sırayla kontrol eder.</li>
-          <li><strong>İkili arama</strong>, sıralı dizilerde daha hızlı çalışır.</li>
-          <li>İkili arama, ortadan bölerek arama alanını küçültür.</li>
-          <li>Bu yüzden “böl ve fethet” mantığıyla ilişkilidir.</li>
-        </ul>
-      </div>
-
-      <div class="topic">
-        <h3>Sıralama algoritmaları</h3>
-        <p>
-          Sıralama algoritmaları, verileri belirli bir düzene sokar. Küçükten büyüğe veya alfabetik sıralama gibi işlemler bunun örneğidir.
-        </p>
-        <ul>
-          <li>Bazı sıralama algoritmaları böl ve fethet yaklaşımı kullanır.</li>
-          <li>Bazıları daha basit ama daha yavaş çalışabilir.</li>
-          <li>Sıralama sonrası arama işlemleri daha kolay hale gelir.</li>
-          <li>Veri düzeni, program performansını etkileyebilir.</li>
-        </ul>
-        <div class="tip">
-          Genel mantık:
-          <strong>Önce sıralama, sonra daha hızlı arama</strong> birçok problemde avantaj sağlar.
-        </div>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="uygulama">7) Genel uygulama mantığı</h2>
-    <section class="grid grid-2">
-      <div class="topic">
-        <h3>Soruları çözerken izlenecek yol</h3>
-        <ul>
-          <li>Önce soruda hangi konu soruluyor onu tespit et.</li>
-          <li>Karar yapısı mı, döngü mü, dizi mi ayır.</li>
-          <li>Değişkenlerin başlangıç değerlerini not et.</li>
-          <li>Adım adım ilerle, özellikle döngülerde her turu takip et.</li>
-          <li>Şıkları tahmin ederek değil, mantık yürüterek ele.</li>
-        </ul>
-      </div>
-
-      <div class="topic">
-        <h3>Bu derste başarı için ne önemli?</h3>
-        <p>
-          Bu derste en kritik şey ezber değil, işlem mantığıdır. Çünkü aynı soru farklı sayılarla veya farklı değişken adlarıyla tekrar gelebilir.
-          Eğer mantık anlaşılmışsa soru değişse bile çözüm mümkündür.
-        </p>
-        <ul>
-          <li>Koşul nasıl çalışır?</li>
-          <li>Döngü kaç kez döner?</li>
-          <li>Dizi elemanına nasıl erişilir?</li>
-          <li>Fonksiyon ne döndürür?</li>
-          <li>Arama hangi mantıkla yapılır?</li>
-        </ul>
-      </div>
-    </section>
-
-    <h2 class="section-title">8) Mini konu akışı</h2>
-    <section class="card">
-      <div class="timeline">
-        <div class="time-item"><b>Temel Kavramlar</b>Algoritma, programlama, değişken, veri, operatör, akış diyagramı.</div>
-        <div class="time-item"><b>Programlamaya Giriş</b>Algoritmanın çalışan programa dönüşmesi, giriş-çıkış ve işlem mantığı.</div>
-        <div class="time-item"><b>Karar Yapıları</b>Koşula göre farklı işlem yapılması, if-else mantığı.</div>
-        <div class="time-item"><b>Döngüler</b>Tekrarlı işlemler, sayaç, for-while-do while farkı.</div>
-        <div class="time-item"><b>Alt Programlar</b>Fonksiyon, prosedür, return, void, parametre.</div>
-        <div class="time-item"><b>Arama ve Sıralama</b>Doğrusal arama, ikili arama, sıralama mantığı.</div>
-        <div class="time-item"><b>Genel Uygulamalar</b>Sorularda mantık yürütme, adım adım çözüm ve çıktı analizi.</div>
-      </div>
-    </section>
-
-    <h2 class="section-title" id="tekrar">9) Sınav öncesi hızlı tekrar</h2>
-    <section class="grid grid-2">
-      <div class="card">
-        <h3>Mutlaka bil</h3>
-        <ul>
-          <li>Algoritma → problemi çözme planıdır.</li>
-          <li>Programlama → bu planın koda dökülmesidir.</li>
-          <li>Karar yapıları → koşula göre seçim yapar.</li>
-          <li>Döngüler → aynı işlemi tekrar eder.</li>
-          <li>Diziler → aynı türde verileri birlikte saklar.</li>
-          <li>Return → değer döndürür.</li>
-          <li>Void → değer döndürmez.</li>
-          <li>İkili arama → sıralı veri üzerinde çalışır.</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>En kritik karıştırmalar</h3>
-        <ul>
-          <li>Algoritma ile programlama aynı şey değildir.</li>
-          <li>While ve do while aynı mantıkla başlamaz.</li>
-          <li>Koşul ifadesi ile değer atama karıştırılmamalıdır.</li>
-          <li>Dizide indis ile eleman değeri farklı şeydir.</li>
-          <li>Void ve return yapıları aynı değildir.</li>
-          <li>İkili arama her veri üzerinde doğrudan uygulanmaz; veri sıralı olmalıdır.</li>
-        </ul>
-      </div>
-    </section>
-
-    <div class="footer">
-      Bu not, yüklediğin soru dosyalarındaki tekrar eden başlıklara göre ayrıntılı ve uygulama uyumlu şekilde hazırlandı.
+    <div class="intro">
+      <strong>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.</strong>
     </div>
+
+    <div class="grid">
+      <div class="stat"><div class="label">Ana bölüm sayısı</div><div class="value">12 Bölüm</div></div>
+      <div class="stat"><div class="label">Odak noktası</div><div class="value">Temel algoritma mantığı</div></div>
+      <div class="stat"><div class="label">Soru desteği</div><div class="value">Tam metinli benzeri sorular</div></div>
+    </div>
+
+    
+    <section class="section">
+      <h2>1. Algoritma Kavramı ve Problem Çözme Mantığı</h2>
+      <p>Algoritma, bir problemi çözmek için izlenen sonlu, açık, net ve uygulanabilir adımlar dizisidir. Programlama ise bu adımların bir dil yardımıyla bilgisayara aktarılmasıdır.</p><p>İyi bir algoritma yalnızca doğru sonuca ulaşmakla kalmaz; gereksiz adımlardan arındırılmış, anlaşılır ve tekrar uygulanabilir olmalıdır. Sınavlarda çoğu zaman &#x27;iyi tasarlanmış algoritma&#x27; ifadesiyle bu nitelikler sorgulanır.</p><p>Algoritma ile programlama aynı şey değildir. Önce çözüm mantığı kurulur, sonra o mantık kodlanır. Bu nedenle algoritma dersi, kod ezberlemekten çok düşünme biçimi kazandırmayı amaçlar.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Sonlu adım, açıklık ve amaca uygunluk üç temel özelliktir.</li><li>Gereksiz adım içeren çözüm, doğru olsa bile zayıf algoritmadır.</li><li>Algoritma soyuttur; program onun somut uygulanışıdır.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Algoritmanın adımları, bir problemi çözmek için ….. olmalıdır. İstenen sonuçla ilgisi olmayan adımlara algoritmada yer verilmemelidir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi gelmelidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> sonlu</li><li><strong>B.</strong> kesin</li><li><strong>C.</strong> aktif</li><li><strong>D.</strong> iyi</li><li><strong>E.</strong> etkin</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — etkin</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Burada vurgulanan nokta, algoritmanın amaca hizmet eden etkili adımlardan oluşmasıdır. Gereksiz adımlar çözümü uzatır ve algoritmayı zayıflatır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Vize</div>
+      <div class="q-text">Algoritmanın programlama üzerindeki rolü aşağıdakilerden hangisidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Algoritma, yazılım geliştirme sürecinin tamamını kapsar.</li><li><strong>B.</strong> Algoritma, yazılımın kullanıcı arayüzünü belirler.</li><li><strong>C.</strong> Programlama, algoritmanın bir parçasıdır ve sadece giriş-çıkış işlemlerini düzenler.</li><li><strong>D.</strong> Algoritma, problemi çözmek için gereken adımları tanımlar, programlama ise bu adımları bir programlama diliyle uygulamaya koyar.</li><li><strong>E.</strong> Algoritma ve programlama, aynı anlama gelen iki terimdir.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Algoritma, problemi çözmek için gereken adımları tanımlar, programlama ise bu adımları bir programlama diliyle uygulamaya koyar.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Bu soru algoritma ile programlama arasındaki farkı ölçer. Algoritma çözüm yolunu tanımlar, programlama ise bu yolu bir dil yardımıyla uygular.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>2. Değişkenler, Sabitler ve Veri Tipleri</h2>
+      <p>Program içinde bilgi saklamak için değişkenler kullanılır. Değişkenlerin değeri zamanla değişebilir; sabitler ise tanımlandıktan sonra değiştirilmez.</p><p>Bir verinin nasıl saklanacağı, onun türüyle ilgilidir. Tamsayı, ondalıklı sayı, metin ya da mantıksal değer gibi veri tipleri bellekte farklı biçimlerde tutulur. Sorularda çoğu zaman &#x27;hangi veri tipi daha uygun olur&#x27; veya &#x27;bu bilgi değişkende mi sabitte mi tutulmalıdır&#x27; türü sorgular gelir.</p><p>Atama işleminde amaç, bir değeri bir isme bağlamaktır. Burada kullanılan sembol genellikle &#x27;=&#x27; olsa da, bunun matematiksel eşitlikten farklı olarak atama anlamı taşıdığını unutmamak gerekir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Değeri değişmeyecek bilgi sabitte tutulur.</li><li>Veri tipini seçerken hem değer aralığı hem kullanım amacı düşünülmelidir.</li><li>Atama ifadesi, değişkene veri yükleme işlemidir.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Bir programda yıllık kira hesabı yapılmaktadır. Buna göre programda yıllık kira artış oranı %25 olarak belirlenmiştir ve bu değer programın hiçbir yerinde değiştirilmemektedir. Burada kullanılan verinin saklanmasıyla ilgili aşağıdakilerden hangisi kesin olarak söylenebilir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Veri, değişkende saklanır.</li><li><strong>B.</strong> Veri tipi uint’tir.</li><li><strong>C.</strong> Veri tipi byte’tır.</li><li><strong>D.</strong> Veri, sabitte saklanır.</li><li><strong>E.</strong> Veri tipi double’dır.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Veri, sabitte saklanır.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Değeri hiç değişmeyen bir oran sabit mantığıyla düşünülmelidir. Sorularda &#x27;programın hiçbir yerinde değişmiyor&#x27; ifadesi önemli ipucudur.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Aşağıdaki seçeneklerden hangisi “bölüm_adı” değişkenine “bilgisayar_Programcılığı” değerinin atanmasını sağlar?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> bölüm_adı == “bilgisayar Programcılığı”</li><li><strong>B.</strong> bölüm bilgisayarProgramcılığı</li><li><strong>C.</strong> bölümAdı = “bilgisayar_Programcılığı”</li><li><strong>D.</strong> bölüm_adı = “bilgisayar_Programcılığı”</li><li><strong>E.</strong> bölüm_adı: &amp; “algoritma”</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — bölüm_adı = “bilgisayar_Programcılığı”</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Atama işleminde değişken adı ile değer doğru biçimde eşleştirilmelidir. Bu tarz sorular sözdizimsel doğruluğu ölçer.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>3. Operatörler ve Temel İşlemler</h2>
+      <p>Algoritmalarda aritmetik operatörler (+, -, *, /, mod), karşılaştırma operatörleri (&gt;, &lt;, &gt;=, &lt;=, =) ve mantıksal operatörler (ve, veya) çok sık kullanılır. Soruların önemli bir bölümü, verilen bir ifadenin sonucunu yorumlamaya dayanır.</p><p>Özellikle &#x27;mod&#x27; işlemi bölme işleminden kalanı verir ve çift-tek kontrolü, tam bölünebilme ve periyodik kontrol işlemlerinde kullanılır. Karşılaştırma operatörleri ise bir sonucun doğru-yanlış üretmesini sağlar.</p><p>Sınavda hata ayıklama sorularında operatörlerin yanlış kullanımı sıkça karşına çıkar. Bu yüzden işlem önceliği, atama ile karşılaştırma farkı ve mod kullanım mantığı iyi bilinmelidir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>mod işlemi tam bölünebilme kontrolünde anahtardır.</li><li>Karşılaştırmalar TRUE/FALSE üretir.</li><li>Aritmetik işlem sonucu ile mantıksal koşul sonucu karıştırılmamalıdır.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Bir programda A=10 ve B=30 olmak üzere aşağıdaki aritmetik işlemlerden hangisinin sonucu yanlıştır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> A -- = 8</li><li><strong>B.</strong> B mod A = 0</li><li><strong>C.</strong> A * B = 300</li><li><strong>D.</strong> B / A = 3</li><li><strong>E.</strong> A + B = 40</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — A -- = 8</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Aritmetik işlem sorularında her seçeneğin sonucu tek tek düşünülür. Yanlış olan ifade, verilen sayılarla tutarsız olan işlemdir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Yukarıdaki programda A’nın çift sayı olup olmamasına göre iki farklı hesap yapılmaktadır. Buna göre A’nın çift sayı olup olmadığının kontrol edilmesi için programda soru işareti olan yere yazılması gerekenler hangi şıkta doğru verilmiştir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> A / 2 = 0</li><li><strong>B.</strong> A = A + 2</li><li><strong>C.</strong> A % 2 = 0</li><li><strong>D.</strong> A == %2</li><li><strong>E.</strong> A * 2 = 0</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> C — A % 2 = 0</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Çift sayı kontrolü için mod 2 işleminden kalan 0 olmalıdır. Bu mantık algoritma dersinin en temel kalıplarındandır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>4. Giriş-Çıkış Yapıları ve Kaba Kod</h2>
+      <p>Bir algoritmanın çalışması için çoğu zaman kullanıcıdan veri alınması ve sonucun ekrana verilmesi gerekir. Kaba kodlarda bu işlemler genellikle OKU, YAZ, AL, GİR gibi ifadelerle gösterilir.</p><p>Kaba kod, programlama mantığını anlatmak için kullanılan yarı biçimsel bir anlatımdır. Herhangi bir dile tamamen bağlı değildir; okunması ve çözümün izlenmesi kolay olsun diye kullanılır.</p><p>Bu bölümde gelen sorular genellikle &#x27;kullanıcıdan veri alma&#x27;, &#x27;sonucu doğru değişken adıyla yazdırma&#x27; ve &#x27;boş bırakılan kaba kod satırını tamamlama&#x27; türündedir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>OKU giriş alır, YAZ çıktı üretir.</li><li>Kaba kod bilgisayar tarafından doğrudan çalıştırılmaz.</li><li>Çıktıya yazdırılan şeyin doğru değişken olduğundan emin olmak gerekir.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Yukarıdaki örnek programda kullanıcıdan değer girmesi istenmektedir. Bunun için soru işareti olan yere gelmesi gereken satır hangi şıkta doğru yazılmıştır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> OKU (Kullanıcı_adı)</li><li><strong>B.</strong> YAZ “kullanıcı_adı”</li><li><strong>C.</strong> GİR (kullanıcı_adı)</li><li><strong>D.</strong> AL kullanıcı_adı</li><li><strong>E.</strong> OKU kullanıcı</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — OKU (Kullanıcı_adı)</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Kaba kodda kullanıcıdan veri almak için giriş ifadesi gerekir. Sadece yazdırma yapmak girdi almak anlamına gelmez.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Vize</div>
+      <div class="q-text">BAŞLA OKU (ilkProje) OKU (ikinciProje) toplamPuan = ilkProje * 0,4 + ikinciProje * 0,6 YAZ (?) BİTİR Bir öğrenci, iki farklı projeden puan alarak final puanını hesaplamaktadır. İlk projenin %40’ı, ikinci projenin %60’ı hesaplanarak toplam proje puanını bulan ve sonucu ekrana yazdıran yukarıdaki programda soru işareti olan yere ne yazılmalıdır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> toplamPuan</li><li><strong>B.</strong> ilkProje</li><li><strong>C.</strong> Yazdır (toplamProje)</li><li><strong>D.</strong> ikinciProje</li><li><strong>E.</strong> projeSonucu</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — toplamPuan</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> İki değerden üretilen sonuç önce C değişkeninde toplanır, ardından ekrana C yazdırılır. Sorunun püf noktası ara değişken kullanımını doğru izlemektir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>5. Koşullu Yapılar ve Karar Verme</h2>
+      <p>Koşullu yapılar, algoritmanın farklı durumlara göre farklı yollar izlemesini sağlar. IF, ELSE, ELSEIF gibi yapılar bu mantığın temelidir.</p><p>Koşul doğruysa bir işlem, yanlışsa başka bir işlem yapılır. Bu nedenle koşullar sadece teknik kod yapıları değil, aynı zamanda günlük hayattaki karar mekanizmalarının da algoritmik karşılığıdır.</p><p>Sınav sorularında çoğunlukla eşik değerler, tam bölünebilme, puan-harf notu dönüşümü ve günlük yaşam örnekleri üzerinden koşullu mantık sorgulanır.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Koşullu yapı, seçim yapmayı sağlar.</li><li>Tek koşul ile çok dallı koşul yapıları birbirinden ayrılmalıdır.</li><li>&gt;= ile &gt; arasındaki fark sonucu değiştirir.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">“Hava soğuduysa üzerine kalın bir kazak giy.” cümlesi ile ilgili aşağıdakilerden hangisi yanlıştır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Hava ile ilgili sadece bir koşulun kontrolü yapılır.</li><li><strong>B.</strong> Kazak giyme eylemi bir koşula bağlıdır.</li><li><strong>C.</strong> Koşulun doğru olması durumunda hangi eylemin gerçekleştirileceği belirtilmiştir.</li><li><strong>D.</strong> Havanın soğuk olması bu cümlede bir koşul ifade eder.</li><li><strong>E.</strong> Havanın sıcak olması durumda ne yapılacağı bellidir.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — Havanın sıcak olması durumda ne yapılacağı bellidir.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Günlük hayattan verilen örnekler koşullu mantığı açıklamak için kullanılır. Koşul sağlanmazsa ne olacağı belirtilmediyse cümle tek taraflı koşul içerir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Vize</div>
+      <div class="q-text">I. Koşullu yapılar, bir algoritmada belirli adımların yalnızca belirli şartlar sağlandığında yapılmasını sağlar. II. Koşullu yapılar, belirli bir duruma göre alternatif yollar seçilmesini mümkün kılar. III. Koşullu yapılar, döngü yapıları ile birlikte kullanılabilir. IV. Koşullu yapılar, bir algoritmada işlem sırasını kesinleştirir ve alternatif sunmaz. Koşullu yapılarla ilgili yukarıdaki ifadelerden hangileri doğrudur?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> I, III ve IV</li><li><strong>B.</strong> II ve IV</li><li><strong>C.</strong> I ve II</li><li><strong>D.</strong> II ve III</li><li><strong>E.</strong> I, II ve III</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — I, II ve III</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Koşullu yapılar yalnızca seçim yapmakla kalmaz; alternatif akışlar kurmayı da sağlar. Döngülerle birlikte kullanılabilmeleri de önemlidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>6. Döngüler ve Sayaç Mantığı</h2>
+      <p>Döngüler, aynı işlemi birden fazla kez tekrarlamak için kullanılır. FOR, WHILE ve DO WHILE yapıları en temel tekrar mekanizmalarıdır.</p><p>FOR yapısı genelde tekrar sayısı belli olduğunda kullanılır. WHILE ve DO WHILE ise koşula bağlı tekrarlarda öne çıkar. Döngünün başlangıç değeri, bitiş koşulu ve artış/azalış miktarı doğru kurulmazsa sonsuz döngü oluşabilir.</p><p>Bu derste sıkça sorulan konulardan biri, verilen döngünün kaç kez çalışacağını hesaplamak ve çıktı dizisini doğru yorumlamaktır.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Sayaç güncellenmiyorsa sonsuz döngü riski vardır.</li><li>FOR yapısında başlangıç, bitiş ve adım birlikte düşünülür.</li><li>DO WHILE en az bir kez çalışır.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">A sayısının değeri 10 seçilmiştir ve buna göre aşağıdaki kod çalışmaktadır. Bu kodda yapılan hata aşağıdakilerden hangisidir? DO WHILE (A &gt;= 0) -YAZ (A) LOOP</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> İşlemin sonucu yazdırılamaz.</li><li><strong>B.</strong> A sayısı geçersiz bir değişkendir.</li><li><strong>C.</strong> Programda sonsuz döngü oluşur.</li><li><strong>D.</strong> Geçersiz bir sayı girilmiştir.</li><li><strong>E.</strong> Kod yanlış yazılmıştır.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> C — Programda sonsuz döngü oluşur.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Döngü içinde sayaç güncellenmediğinde koşul sürekli doğru kalabilir ve sonsuz döngü doğar. Bu, sınavlarda çok sık sorulan klasik bir hatadır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Vize</div>
+      <div class="q-text">BAŞLA x=15 DO WHILE (x &gt;= 5) YAZ (&quot;programlama&quot;) x= x-3 LOOP BİTİR Yukarıda verilen kaba koddaki döngü kaç kere sonuç yazdırır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> 6 kere</li><li><strong>B.</strong> 3 kere</li><li><strong>C.</strong> 5 kere</li><li><strong>D.</strong> Sonsuz kere</li><li><strong>E.</strong> 4 kere</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — 4 kere</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Başlangıç değeri, koşul ve azaltma miktarı birlikte incelenince döngünün kaç kez yazdırdığı bulunur. Satır satır izleme en güvenli yöntemdir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>7. Akış Diyagramları</h2>
+      <p>Akış diyagramları, bir problemin çözüm adımlarını görsel sembollerle ifade eder. Başla-bitir, işlem, giriş-çıkış ve karar gibi standart şekiller kullanılır.</p><p>Bu yapıların avantajı, programlama dilinden bağımsız olarak mantığı görsel biçimde göstermesidir. Bu yüzden özellikle yeni başlayanlar için çözüm akışını anlamayı kolaylaştırır.</p><p>Sınavlarda akış diyagramının hangi ifadeyi anlattığı, hangi sembolün yalnız bir kez kullanılabildiği veya verilen diyagramın kaba koda nasıl çevrileceği sıkça sorulur.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Akış diyagramı standart sembollerden oluşur.</li><li>Başla/Bitir sembolü genellikle bir kez kullanılır.</li><li>Akış diyagramı sadece sıralı yapıyı değil, seçim ve döngüyü de gösterebilir.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Aşağıdakilerden hangisi bir akış diyagramında sadece bir kez kullanabilecek elemanlardandır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Koşul</li><li><strong>B.</strong> Döngü</li><li><strong>C.</strong> Başla</li><li><strong>D.</strong> Fonksiyon</li><li><strong>E.</strong> Alt program</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> C — Başla</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Akış diyagramlarında başla-bitir elemanı genel akışı sınırlar. Bu nedenle tekrar tekrar kullanılan bir işlem sembolü gibi düşünülmez.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">I. Akış diyagramlarında sadece sıralı programlar ifade edilir. II. Akış diyagramları problemin görsel olarak ifade edilmesini sağlar. III. Akış diyagramlarının ifade şekli programlama dillerine göre değişkenlik gösterir. V. Akış diyagramı, standartlaştırılmış elemanlardan oluşur. Akış diyagramları ile ilgili olarak yukarıdaki ifadelerden hangisi ya da hangileri yanlıştır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> I ve III</li><li><strong>B.</strong> Yalnız I</li><li><strong>C.</strong> II ve III</li><li><strong>D.</strong> Yalnız II</li><li><strong>E.</strong> II ve V</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — I ve III</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Akış diyagramları dil bağımsız görsel anlatımlardır. Seçimli ve döngüsel yapıları da gösterebildiği için sadece sıralı mantıkla sınırlı değildir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>8. Diziler ve İki Boyutlu Diziler</h2>
+      <p>Diziler, aynı türden birden fazla veriyi tek bir isim altında saklamayı sağlar. Elemanlara indis adı verilen konum numaralarıyla erişilir.</p><p>Tek boyutlu diziler doğrusal veri tutarken, iki boyutlu diziler satır-sütun mantığıyla tablo biçimindeki verileri ifade eder. İki boyutlu dizilerde çoğu zaman iç içe iki döngüyle gezinilir.</p><p>Sınavlarda dizi elemanlarını filtreleme, belirli koşulu sağlayan indisleri yazdırma ve iki boyutlu dizi mantığını kavrama üzerine sorular yoğunlaşır.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Dizide indis elemanın yerini gösterir.</li><li>Aynı dizide karışık veri tipi tutulmaz.</li><li>İki boyutlu dizilerde satır ve sütun mantığı önemlidir.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022 Final</div>
+      <div class="q-text">I. İki boyutlu diziler satırlar ve sütunlardan oluşur. II. Birden fazla tek boyutlu dizinin bir araya gelmesi ile oluşur. III. Tek bir indis değeri, iki boyutu da ifade etmek için kullanılır. IV. İki for döngüsü kullanılarak oluşturulabilir. İki boyutlu diziler ile ilgili olarak yukarıdaki ifadelerden hangisi ya da hangileri doğrudur?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> I, II ve IV</li><li><strong>B.</strong> I ve II</li><li><strong>C.</strong> I, III ve IV</li><li><strong>D.</strong> Yalnız I</li><li><strong>E.</strong> II, III ve IV</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — I, II ve IV</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> İki boyutlu diziler satır ve sütun mantığına dayanır. Tek indis değil, konumsal mantık ön plandadır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022 Final</div>
+      <div class="q-text">i 0 1 2 3 4 5 ürün 10 20 50 5 100 80 Yukarıda verilen dizide her bir indis değeri bir şubeyi, bu indislerde tutulan her bir değer de satılan ürün miktarını temsil etmektedir. Buna göre 50’den fazla ürün satılan şubelerin indislerinin yazdırılması için verilen kaba kodlardan hangisi doğrudur?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> BAŞLA FOR i = 0 EĞER (ürün(i) &gt; 50) YAZ (i) NEXT i BİTİR</li><li><strong>B.</strong> BAŞLA FOR i = 0 TO 5 EĞER (ürün &gt; 50) YAZ ürün(i) NEXT i BİTİR</li><li><strong>C.</strong> BAŞLA FOR i = 0 TO 5 EĞER (ürün(i) &gt; 50) YAZ (ürün) NEXT i BİTİR</li><li><strong>D.</strong> BAŞLA FOR i = 0 TO 5 EĞER ((i) &gt; 50) YAZ (i) NEXT i BİTİR</li><li><strong>E.</strong> BAŞLA FOR i = 0 TO 5 EĞER (ürün(i) &gt; 50) YAZ (i) NEXT i BİTİR</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — BAŞLA FOR i = 0 TO 5 EĞER (ürün(i) &gt; 50) YAZ (i) NEXT i BİTİR</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Dizi sorularında çoğu zaman eleman yerine indis yazdırılması istenir. Koşulu sağlayan değeri değil, o değerin konumunu istemesi önemli ayrıntıdır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>9. Alt Programlar, Fonksiyonlar ve Parametreler</h2>
+      <p>Alt programlar, büyük bir problemi daha küçük ve yönetilebilir parçalara ayırmak için kullanılır. Böylece kod daha düzenli, tekrar kullanılabilir ve bakımı kolay hale gelir.</p><p>Geriye değer döndüren alt programlara çoğu zaman fonksiyon denir. Bunlarda hesaplanan sonuç &#x27;return&#x27; ile ana programa geri verilir. Geriye değer döndürmeyen yapılarda ise işlem yapılır ama sonuç doğrudan geri gönderilmez.</p><p>Sorularda void, call, return, parametre uyumu ve ana program-alt program ilişkisi özellikle öne çıkar.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>return, sonucu çağıran yapıya geri verir.</li><li>void yapılar geriye değer döndürmez.</li><li>Parametre türleri uyumlu olmalıdır.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022 Final</div>
+      <div class="q-text">int çarp(birinci_sayı, ikinci_sayı) BAŞLA sonuç = birinci_sayı * ikinci_sayı …… sonuç BİTİR Yukarıdaki geri değer döndüren bir alt programın kaba kodunda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> main</li><li><strong>B.</strong> call</li><li><strong>C.</strong> void</li><li><strong>D.</strong> function</li><li><strong>E.</strong> return</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — return</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Geriye değer döndüren alt programda hesaplanan sonucun programa gönderilmesi için return gerekir. Aksi halde sonuç kullanılabilir hale gelmez.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022 Final</div>
+      <div class="q-text">Aşağıda bir ana program ve geriye değer döndürmeyen bir alt programa ait kaba kodlar verilmiştir. Kaba kodlarda boş bırakılan yerlere gelmesi gereken ifadeler sırasıyla hangi şıkta doğru verilmiştir? Alt Program: ….. sırala(A, B) BAŞLA EĞER (A &gt; B) YAZ (“İlk sayı daha büyük”) EĞER (B &gt; A) YAZ (“İkinci sayı daha büyük”) BİTİR Ana Program: BAŞLA OKU A, B ….. sırala (A, B) BİTİR</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> void, call</li><li><strong>B.</strong> main, return</li><li><strong>C.</strong> return, main</li><li><strong>D.</strong> return, void</li><li><strong>E.</strong> function, call</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — void, call</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Void ve call ifadeleri, geriye değer döndürmeyen alt program mantığını temsil eder. Ana program ile alt programın görevleri ayrı düşünülmelidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>10. Özyineleme ve Böl-Fethet Yaklaşımı</h2>
+      <p>Özyineleme, bir fonksiyonun ya da alt programın kendini çağırmasıdır. Bu yapı kısa ve güçlü çözümler üretebilir; fakat doğru sonlandırma koşulu kurulmazsa sonsuz çağrıya yol açar.</p><p>Böl-fethet yaklaşımında problem daha küçük alt problemlere ayrılır, alt problemler çözülür ve sonuçlar birleştirilir. Birçok klasik algoritma bu mantığı kullanır.</p><p>Sınavlarda özyinelemeli yapıların özellikleri ve böl-fethetin problem çözme mantığı kavramsal olarak sıkça sorulmaktadır.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Her özyinelemeli yapıda taban durum gerekir.</li><li>Böl-fethet tek adımda değil, parçalara ayırarak çözer.</li><li>Özyineleme kısa kod sağlar ama dikkatli tasarlanmalıdır.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022 Final</div>
+      <div class="q-text">I. Böl ve fethet mantığına göre çalışan birden fazla sıralama algoritması mevcuttur. II. Böl ve fethet mantığına göre , problem tek bir adımda çözülmeye çalışılır. III. Böl ve fethet mantığına dayanan bir algoritma özyineli olarak çalışır. IV. Bir problem alt problemlere ayrılarak ele alınır. Böl ve fethet mantığına göre çalışan algoritmalar için yukarıdaki ifadelerden hangisi ya da hangileri yanlıştır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> I ve II</li><li><strong>B.</strong> Yalnız I</li><li><strong>C.</strong> I, III ve IV</li><li><strong>D.</strong> Yalnız II</li><li><strong>E.</strong> I, II ve III</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Yalnız II</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Böl-fethet tek adımda çözüm üretmez; problemi parçalara ayırır. Bu yüzden &#x27;tek adımda çözmeye çalışılır&#x27; ifadesi yanlıştır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022 Final</div>
+      <div class="q-text">I. Bu tür metotlar tanımlanırken, programın sonsuz döngüye düşülmemesine dikkat edilmelidir. II. Bu metotlar sadece ana programda kullanılabilirler. III. Kısa ve öz kod yazımına imkan sağlarlar. IV. Sadece geri değer döndüren alt programlara yani fonksiyonlara uygulanabilirler. Yukarıda özyinelemeli alt programlar ile ilgili bazı ifadeler yer almaktadır. Bu ifadelerden hangisi ya da hangileri doğrudur?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> I ve II</li><li><strong>B.</strong> I, III ve IV</li><li><strong>C.</strong> Yalnız I</li><li><strong>D.</strong> Yalnız II</li><li><strong>E.</strong> II ve III</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> B — I, III ve IV</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Özyinelemeli yapıların en büyük riski sonlanma koşulu yazılmazsa sonsuz çağrı oluşmasıdır. Buna rağmen kısa ve güçlü çözümler sunabilirler.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>11. Arama, Sıralama ve Zaman Karmaşıklığı</h2>
+      <p>Algoritma analizi, bir çözümün veri büyüdükçe nasıl davrandığını anlamayı amaçlar. Burada en yaygın gösterim Big-O notasyonudur.</p><p>Arama algoritmaları veri içinde bir elemanı bulmaya çalışır. Doğrusal arama her elemanı tek tek kontrol ederken, ikili arama gibi yöntemler belirli ön koşullar altında daha verimli olabilir.</p><p>Sıralama ve arama sorularında hem algoritmanın adını tanımak hem de en kötü durum, zaman karmaşıklığı ve performans farklarını yorumlamak önemlidir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>O(1) en sabit, O(n³) daha yavaş büyüyen değil daha maliyetli yapıdadır.</li><li>İkili arama için genelde sıralı veri gerekir.</li><li>Aranan elemanın bulunamaması çoğu zaman en kötü durumdur.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022 Final</div>
+      <div class="q-text">Aşağıdakilerden hangisi bilinen bir arama algoritmasıdır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Hızlı arama</li><li><strong>B.</strong> Dizi arama</li><li><strong>C.</strong> Eleman arama</li><li><strong>D.</strong> Çapraz arama</li><li><strong>E.</strong> İkili arama</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — İkili arama</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> İkili arama, dersin en temel arama algoritmalarından biridir. Arama algoritması adı sorularında kavram tanıma ölçülür.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022 Final</div>
+      <div class="q-text">Bir arama algoritması için aşağıdaki ifadelerden hangisi doğrudur?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Aranan eleman ilgili dizide bulunmak zorundadır, aksi halde algoritma çalışmaya başlayamaz.</li><li><strong>B.</strong> Aranan elemanın dizide olmaması algoritmanın verimliliği açısından olabilecek en kötü durumu ifade eder.</li><li><strong>C.</strong> Arama algoritmalarının performansı sıralama algoritmalarından farklı olarak, veri boyutuna göre değişmez.</li><li><strong>D.</strong> Aranan eleman dizinin ilk elemanı olamaz.</li><li><strong>E.</strong> Her arama algoritması dizideki değerleri tek tek tarar.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> B — Aranan elemanın dizide olmaması algoritmanın verimliliği açısından olabilecek en kötü durumu ifade eder.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Aranan elemanın dizide olmaması, çoğu arama algoritmasında en kötü durumu temsil eder. Çünkü algoritma tüm olasılıkları tüketmek zorunda kalabilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>12. Kod Okuma, Hata Bulma ve Sınav Stratejisi</h2>
+      <p>Bu derste yalnızca kod yazmak değil, verilen kodu doğru okumak da önemlidir. Birçok sınav sorusu doğrudan &#x27;bu kod kaç kez çalışır&#x27;, &#x27;hangi çıktı oluşur&#x27; ya da &#x27;hata nedir&#x27; biçiminde gelir.</p><p>Kod okuma sorularında önce giriş değerlerini, sonra koşulları, ardından döngü akışını izlemek gerekir. Değişken güncelleniyor mu, hangi durumda hangi satır çalışıyor, çıktı ne zaman oluşuyor gibi sorular sırayla cevaplanmalıdır.</p><p>Sınav anında panik yapmadan satır satır izleme yöntemi kullanılırsa, uzun görünen kaba kod soruları bile sistemli biçimde çözülebilir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Önce başlangıç değerlerini işaretle.</li><li>Her döngü turunda değişkenin yeni değerini takip et.</li><li>Çıktı sorularında sadece çalışan satırları dikkate al.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Yukarıdaki program, sayının sırasıyla 10, -5 ve 0 girilmesi durumlarında hangi sonuçları döndürür?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Sonuç: 36 - Sonuç: 0 - Sonuç: 5</li><li><strong>B.</strong> Sonuç: 36 - Sonuç: 3 - Sonuç: 5</li><li><strong>C.</strong> 3 - 36 - 5</li><li><strong>D.</strong> 36 - 5 - 3</li><li><strong>E.</strong> Sonuç: 36 - Sonuç: 0 - Sonuç: 3</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> B — Sonuç: 36 - Sonuç: 3 - Sonuç: 5</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Çıktı sorularında her giriş değeri için koşullar ayrı ayrı izlenir. Tek bir satır atlamak bütün sonucu değiştirebilir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Yukarıda verilen kod ile ilgili hangi şık yanlıştır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> İsim değişkeninin değeri kullanıcıdan istenmektedir.</li><li><strong>B.</strong> Sayaç değeri birer birer artmaktadır.</li><li><strong>C.</strong> İsim değişkeni birden fazla kez yazdırılmaktadır.</li><li><strong>D.</strong> Döngünün kaç kere çalışacağı döngünün başında bellidir.</li><li><strong>E.</strong> Sayaç değeri olan i birden fazla kez yazdırılmaktadır.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — Sayaç değeri olan i birden fazla kez yazdırılmaktadır.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> FOR döngüsü kaç kez çalışacağını baştan belirler; fakat her zaman sayaç değerinin ekrana yazdırıldığı anlamına gelmez. Soru burada çıktıyı dikkatle okuma becerisini ölçer.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+
+    <div class="footer"><strong>Başarılar dilerim</strong></div>
   </div>
 </body>
 </html>
