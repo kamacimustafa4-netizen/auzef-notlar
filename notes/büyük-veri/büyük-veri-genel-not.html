@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Büyük Veri - Benzeri Sorulu Tam Not</title>
+<style>
+  :root {
+    --bg: #f5f7fb;
+    --panel: #ffffff;
+    --panel-soft: #f8fbff;
+    --text: #1f2a44;
+    --muted: #61708a;
+    --line: #dbe5f1;
+    --accent: #5b8def;
+    --accent-soft: #eaf2ff;
+    --dark: #21324d;
+    --ok: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #eef3fb 0%, #f8fafd 100%);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .container {
+    width: min(1120px, calc(100% - 32px));
+    margin: 32px auto 60px;
+  }
+  .hero {
+    background: linear-gradient(135deg, #ffffff 0%, #eef5ff 100%);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    padding: 34px 34px 28px;
+    box-shadow: 0 18px 40px rgba(61, 93, 152, 0.08);
+  }
+  .badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .2px;
+  }
+  h1 {
+    margin: 16px 0 10px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--dark);
+  }
+  .lead {
+    margin: 0;
+    color: var(--muted);
+    font-size: 17px;
+  }
+  .note-box {
+    margin-top: 22px;
+    background: #fffdf7;
+    border: 1px solid #f2e6b8;
+    border-radius: 18px;
+    padding: 18px 20px;
+    color: #5b4a1f;
+    font-size: 15px;
+  }
+  .section-card {
+    margin-top: 22px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 10px 25px rgba(51, 76, 120, 0.05);
+  }
+  .section-card h2 {
+    margin: 0 0 14px;
+    font-size: 27px;
+    color: var(--dark);
+  }
+  .section-body p {
+    margin: 0 0 14px;
+    color: #33415c;
+    font-size: 16px;
+  }
+  .question-wrap {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--line);
+  }
+  .question-title {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 7px 12px;
+    border-radius: 12px;
+    background: #eef6ff;
+    color: #2f5da8;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .question-card {
+    background: var(--panel-soft);
+    border: 1px solid #dce9fb;
+    border-radius: 18px;
+    padding: 18px;
+    margin-bottom: 16px;
+  }
+  .q-meta {
+    font-size: 13px;
+    font-weight: 700;
+    color: #5572a8;
+    margin-bottom: 8px;
+  }
+  .q-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #22314d;
+    margin-bottom: 12px;
+  }
+  .options {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+  }
+  .options li {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e5edf8;
+    color: #3c4c68;
+  }
+  .opt {
+    font-weight: 700;
+    color: #244784;
+    display: inline-block;
+    width: 28px;
+  }
+  .answer, .explanation {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .answer { color: var(--ok); }
+  .explanation { color: var(--muted); }
+  .footer {
+    text-align: center;
+    color: #50607d;
+    padding: 28px 12px 10px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  @media (max-width: 760px) {
+    .container { width: min(100% - 20px, 1120px); margin-top: 20px; }
+    .hero { padding: 24px 20px; border-radius: 22px; }
+    h1 { font-size: 30px; }
+    .section-card { padding: 20px; border-radius: 20px; }
+    .section-card h2 { font-size: 23px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge">Büyük Veri</div>
+      <h1>Büyük Veri Ders Notu</h1>
+      <p class="lead">Konu anlatımı, kavramsal bütünlük ve benzeri sorular bir araya getirilerek sınav odaklı ama öğretici bir çalışma akışı oluşturuldu.</p>
+      <div class="note-box">
+        Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.
+      </div>
+    </header>
+
+    
+    <section class="section-card">
+      <h2>1. Büyük Veriye Giriş ve Temel Kavramlar</h2>
+      <div class="section-body">
+        <p>Büyük veri, yalnızca veri miktarının artması anlamına gelmez; aynı zamanda bu verinin çeşitliliği, üretim hızı ve işlenme güçlüğü ile de ilgilidir.</p><p>Ders sorularında büyük verinin tarihsel gelişimi, bilgi piramidi, veri–enformasyon–bilgi ayrımı ve “makine öğrenmesi” kavramının ortaya çıkışı sıkça sorulmaktadır.</p><p>Bu yüzden konuya yalnızca tanım ezberiyle değil, kavramlar arası ilişkiyi anlayarak çalışmak gerekir.</p><p>Bilgi piramidi açısından bakıldığında veri, ham semboller ve işaretlerdir. Enformasyon, işlenmiş ve düzenlenmiş veridir. Bilgi, karar vermeyi destekleyen anlamlı içeriktir.</p><p>Bilgelik ise yorumlama, muhakeme ve değer üretme düzeyidir. Büyük veri bu zincirin yerine geçen bir kavram değil; çok büyük, karmaşık ve farklı kaynaklardan gelen veri kümelerinin yönetilmesini ifade eden ayrı bir çalışma alanıdır.</p><p>Büyük verinin tarihsel gelişiminde John Graunt, Arthur Samuel gibi isimler öne çıkar. Özellikle “makine öğrenmesi” teriminin Arthur Samuel ile ilişkilendirilmesi soru kalıbı olarak tekrar eder.</p><p>Bu nedenle tarihte hangi kişinin hangi kavramla eşleştiğini kısa notlar halinde tekrar etmek faydalıdır.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdaki şıklarda verilen bilim insanlarından hangisi büyük verinin tarihsel gelişiminde “Makine Öğrenimi” terimini ilk olarak ortaya atmıştır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Arthur Samuel</li><li><span class='opt'>B)</span> Tim Berners</li><li><span class='opt'>C)</span> Fritz Pfleumer</li><li><span class='opt'>D)</span> John Graunt</li><li><span class='opt'>E)</span> R.J.T Morris</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, büyük veri tarihçesi ile makine öğrenmesi kavramını birlikte sorgular. Arthur Samuel adı özellikle bu başlık altında tekrar edilmektedir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıda verilen bilgilerden hangisi bilgi piramidi için yanlıştır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Enformasyon, veri işleme, düzenleme, hesaplama ve raporlama içeriğinden oluşur.</li><li><span class='opt'>B)</span> Veri, sembollerin içeriğinden oluşur.</li><li><span class='opt'>C)</span> Bilgelik, keşfetme, buluş, muhakeme ve değer içeriklerinden oluşur.</li><li><span class='opt'>D)</span> Büyük veri, sembollerden parçalara ulaşma içeriğinden oluşur.</li><li><span class='opt'>E)</span> Bilgi, enformasyon işleme, yeniden şekillendirme, öğrenme ve yapma içeriğinden oluşur.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bilgi piramidinde büyük veri ayrı bir basamak değildir. Soru burada kavramsal karışıklığı ölçmektedir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>2. Veri Sınıflandırmaları ve Yapısal Türler</h2>
+      <div class="section-body">
+        <p>Büyük veri dersinde verinin yalnızca miktarı değil, yapısı da önemlidir. Yapısal veri, tablo halinde düzenli biçimde tutulabilen verilerdir.</p><p>Yarı yapısal veri, belirli işaretleyiciler veya etiketler içerse de klasik tablo mantığına tam uymaz. Yapısal olmayan veri ise metin, görüntü, ses, video gibi serbest yapılı verilerdir.</p><p>Sınav sorularında bir diğer tekrar eden alan, verinin sınıflandırılmış gruplarıdır. Gri veri, karanlık veri, erişilebilir veri gibi kavramlar birbirine yakın görünse de aynı şey değildir.</p><p>Bu nedenle şıklarda geçen ifadeleri tek tek tanımak gerekir. Ayrıca yapı açısından doğru sınıflandırma ile erişim açısından yapılan yanlış sınıflandırmaların birbirine karıştırılmaması gerekir.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi büyük veride yapı açısından doğru bir sınıflandırmadır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Karanlık Yapı - Gri Yapı - Açık Yapı</li><li><span class='opt'>B)</span> Elektronik Yapı - Hibrit Yapı - Fiziksel Yapı</li><li><span class='opt'>C)</span> Yapısal - Yarı Yapısal - Yapısal Olmayan</li><li><span class='opt'>D)</span> Erişilebilir - Yarı Erişilebilir - Erişilebilir Olmayan</li><li><span class='opt'>E)</span> Homojen - Yarı Homojen - Heterojen</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, verinin teknik yapı sınıflandırmasını ölçer. Doğru sınıflandırma yapısal, yarı yapısal ve yapısal olmayan şeklindedir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi verinin sınıflandırılmış gruplarından biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Karanlık veri</li><li><span class='opt'>B)</span> Anlamlı veri</li><li><span class='opt'>C)</span> Gri veri</li><li><span class='opt'>D)</span> Erişilebilir veri</li><li><span class='opt'>E)</span> Veri parçası</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Soruda geçen “anlamlı veri” ifadesi, ders içeriğinde standart veri gruplarından biri olarak kullanılmaz.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>3. Açık Veri ve Açık Veri Ekosistemi</h2>
+      <div class="section-body">
+        <p>Açık veri; herkesin kullanabileceği, yeniden kullanabileceği ve yeniden dağıtabileceği, yalnızca nitelik ve paylaşım gereksinimine tabi olan veridir.</p><p>Burada temel mantık, verinin kapalı kurum yapılarının dışına çıkıp ekonomik, bilimsel ve toplumsal fayda üretmesidir. Açık veri, kamu şeffaflığından inovasyona kadar birçok alanda katkı sağlar.</p><p>Soru kalıplarında açık verinin faydaları, ilkeleri ve dünyadaki açık veri girişimleri tekrar eder. Özellikle Open Knowledge International, Open Government Partnership, Open Data for Development ve Global Open Data Initiative gibi oluşumlar birlikte sorulabilir.</p><p>Ayrıca “açık veri herkes tarafından kullanılabilir mi?”, “sadece veri sahibi mi düzenler?” gibi ifadeler doğru–yanlış mantığıyla karşımıza çıkar.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Açık veri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Sadece veri sahibi tarafından düzenlenebilir.</li><li><span class='opt'>B)</span> Herhangi bir telif hakkına sahip değildir.</li><li><span class='opt'>C)</span> Nitelik ve paylaşım gereksinimine tabidir.</li><li><span class='opt'>D)</span> Herkes tarafından dağıtılabilir.</li><li><span class='opt'>E)</span> Herkes tarafından kullanılabilir.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Açık verinin temel mantığı, kullanım ve yeniden dağıtıma açık olmasıdır. Sadece veri sahibinin düzenleyebilmesi ifadesi bu mantığa aykırıdır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">I. Uluslararası Açık Bilgi (Open Knowledge International, OKI) II. Açık Devlet Ortaklığı (Open Government Partnership, OGP) III. Kapalı Veri İzleme (Close Data Watch) IV. Kalkınma İçin Açık Veri (Open Data for Development, OD4D) V. Global Açık Veri İnisiyatifi (Global Open Data Initiative, GODI) Dünyadaki açık veri örnekleri ile ilgili yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?</div>
+      <ul class="options"><li><span class='opt'>A)</span> II, IV ve V</li><li><span class='opt'>B)</span> I ve III</li><li><span class='opt'>C)</span> I, II, IV ve V</li><li><span class='opt'>D)</span> I, II ve III</li><li><span class='opt'>E)</span> I, IV ve V</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Kapalı Veri İzleme ifadesi bu bağlamda doğru bir açık veri girişimi değildir. Bu tarz sorularda yanlış eklenen şıkkı ayıklamak gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>4. Semantik Web ve Ontoloji</h2>
+      <div class="section-body">
+        <p>Semantik web, verinin yalnızca insanlar tarafından değil makineler tarafından da anlamlandırılmasını hedefleyen bir yaklaşımdır.</p><p>Amaç; web üzerindeki verilerin anlam ilişkileriyle birlikte tanımlanması, farklı sistemlerin bu verileri birlikte işleyebilmesi ve makine-insan etkileşiminin güçlenmesidir.</p><p>Bu başlıkta özellikle ontoloji kavramı çok önemlidir. Ontoloji, varlıkları ve bunlar arasındaki ilişkileri tanımlayan temel bileşendir.</p><p>Ayrıca semantik webin hedefleri, standart geliştiren organizasyonlar ve makine-insan etkileşimi gibi kavramlar da soru olarak sık gelir.</p><p>Bu nedenle ezber yerine “semantik web neyi çözmeye çalışır?” sorusuna cevap verebilmek gerekir.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">……………….. varlıkları ilişkileriyle birlikte tanımlayan felsefecilerin kullandığı bir sözcüktür ve semantik webin en temel bileşenidir. Yukarıdaki cümlede verilen boşluğa aşağıdakilerden hangisi gelmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Akıllı ajanlar</li><li><span class='opt'>B)</span> Arka plan çıkarma</li><li><span class='opt'>C)</span> Eliminasyon</li><li><span class='opt'>D)</span> Ontoloji</li><li><span class='opt'>E)</span> Modelleme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Ontoloji, semantik webin temel kavramlarından biridir. Varlık ve ilişki tanımlama mantığını bilmek yeterlidir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi semantik webin temel hedeflerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Paylaşılabilir veritabanlarının oluşturulması</li><li><span class='opt'>B)</span> Mevcut veritabanlarının entegrasyonu</li><li><span class='opt'>C)</span> Veri kaynaklarının planlanması</li><li><span class='opt'>D)</span> Satıcı yazılımının değerlendirilmesi</li><li><span class='opt'>E)</span> Dağıtık web servislerinin oluşturulması</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Semantik webin odak noktası veri ve anlam ilişkisidir. Dağıtık web servisleri farklı bir teknoloji başlığıyla daha doğrudan ilişkilidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>5. Veri Mahremiyeti, Gizlilik ve Güvenlik</h2>
+      <div class="section-body">
+        <p>Büyük veri çağında verinin toplanması kadar korunması da önemlidir. Veri mahremiyeti, verinin kimlerle, hangi amaçla ve hangi sınırlar içinde paylaşılacağını belirlemeye çalışır.</p><p>Gizlilik, yetkisiz kişilerin bilgiye erişimini engellemeye odaklanır. Güvenlik ise verinin bütünlük, gizlilik ve erişilebilirlik boyutlarıyla korunmasını kapsar.</p><p>Sınavlarda veri mahremiyeti ile ilgili doğru bilgi, büyük verideki kaygılar ve bilgi güvenliğinin unsurları sıkça sorulmaktadır.</p><p>Burada kritik nokta, “veri büyüklüğü”nün teknik bir özellik olduğu; mahremiyet, güvenlik ve ayrımcılık gibi kavramların ise risk ve kaygı boyutunu temsil ettiğidir.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi büyük verideki kaygılardan biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Veri gizliliği</li><li><span class='opt'>B)</span> Veri mahremiyeti</li><li><span class='opt'>C)</span> Veri güvenliği</li><li><span class='opt'>D)</span> Veri büyüklüğü</li><li><span class='opt'>E)</span> Veri ayrımcılığı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Veri büyüklüğü, büyük verinin yapısal özelliğidir; güvenlik ve mahremiyet gibi doğrudan bir kaygı türü değildir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi veri mahremiyeti ile ilgili doğru bir bilgidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Veri paylaşımının kötü amaçlı kullanımını önlemek için yapılır.</li><li><span class='opt'>B)</span> Verinin kiminle hangi amaçla paylaşılacağına dair sınırları ortadan kaldırmak için yapılır.</li><li><span class='opt'>C)</span> Veriden gizli örüntüleri ortaya çıkararak verinin anlamlandırılmasının önlenmesi için yapılır.</li><li><span class='opt'>D)</span> Veriden kişiye ulaşmayı sağlayacak ilişkileri mümkün olduğunca ortaya çıkarmak için yapılır.</li><li><span class='opt'>E)</span> Veriden bir kişiye doğrudan veya dolaylı olarak erişimi sağlamak için yapılır.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Veri mahremiyeti, kişiye yönelik kötüye kullanımı ve yetkisiz açığa çıkışı önlemeye çalışır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>6. Hassas Veri, Genel Veri ve Mahremiyet Yaklaşımları</h2>
+      <div class="section-body">
+        <p>Büyük veri çalışmalarında tüm veriler aynı risk düzeyine sahip değildir. Sağlık, banka, sigorta, tapu gibi veriler daha hassas kabul edilirken; bazı genel veriler daha düşük riskle işlenebilir.</p><p>Bu nedenle veri sınıflandırması yalnızca teknik değil, etik ve hukuki bir meseledir.</p><p>Sınavlarda “hassas veri–genel veri” ayrımı, mahremiyet yaklaşımlarındaki boyutlar ve hassas veri örnekleri sık gelir.</p><p>Özellikle sağlık alanındaki veri güvenliği, bu dersin tekrar eden konularından biridir. Çünkü büyük veri uygulamalarının en yoğun tartışıldığı alanlardan biri sağlık verileridir.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi veri mahremiyetinin uygulanmasında ön plana çıkan doğru bir sınıflandırmadır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Erişilebilir veri - Kapsamlı veri</li><li><span class='opt'>B)</span> Büyük veri - Smart veri</li><li><span class='opt'>C)</span> Enformasyon verisi - Analiz verisi</li><li><span class='opt'>D)</span> Anonim veri - Kapalı veri</li><li><span class='opt'>E)</span> Hassas veri - Genel veri</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, veri mahremiyeti bakış açısından anlamlı sınıflandırmayı ölçer. Ders kapsamında doğru eşleşme hassas veri ve genel veridir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi hassas bilgilere verilen örneklerden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Sigorta verileri</li><li><span class='opt'>B)</span> Banka verileri</li><li><span class='opt'>C)</span> Tapu verileri</li><li><span class='opt'>D)</span> Enerji verileri</li><li><span class='opt'>E)</span> Eğitim verileri</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Enerji verileri bu bağlamda klasik hassas veri örnekleri arasında verilmez; diğerleri daha doğrudan kişisel etkiler doğurabilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>7. Anonimleştirme, Maskeleme ve Veri Koruma Teknikleri</h2>
+      <div class="section-body">
+        <p>Anonimleştirme, veriden kimliğe ulaşılmasını zorlaştırmak veya engellemek için uygulanır. Temel amaç, veri faydasını tamamen yok etmeden paylaşılabilirliği artırmaktır.</p><p>Ancak her anonimleştirme işlemi belirli ölçüde veri kaybı yaratabilir. Bu yüzden veri kalitesi ile gizlilik arasında dikkatli bir denge kurulmalıdır.</p><p>Bu başlıkta veri maskeleme, veri değiştirme, genelleme, k-anonimlik, l-çeşitlilik ve t-yakınlık gibi yöntemler önemlidir.</p><p>Sınav sorularında bazen yöntemlerin tanımı verilir ve adını bulmanız istenir; bazen de hangisinin yanlış olduğu sorulur.</p><p>Bu yüzden kavramları yalnızca isim olarak değil, işlev olarak öğrenmek gerekir.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Final Benzeri Soru</div>
+      <div class="q-text">Karıştırma ve permütasyon olarak da bilinir, veri kümesi öznitelik değerlerini orijinal kayıtlara karşılık gelmeyecek şekilde yeniden düzenlemek maksadıyla kullanılan bir tekniktir. Yukarıda açıklanan veriyi anonimleştirme tekniği aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Veriyi Maskeleme</li><li><span class='opt'>B)</span> Veri Değiştirme</li><li><span class='opt'>C)</span> Genelleme</li><li><span class='opt'>D)</span> Takma Adlandırma</li><li><span class='opt'>E)</span> Veri Bozulması</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Tanım odaklı bir sorudur. Karıştırma ve permütasyon mantığı veri değiştirme tekniğiyle ilişkilidir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi veri maskeleme yöntemlerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Deterministik Veri Maskeleme</li><li><span class='opt'>B)</span> Anında Veri Maskeleme</li><li><span class='opt'>C)</span> Durağan Veri Maskeleme</li><li><span class='opt'>D)</span> Dinamik Veri Maskeleme</li><li><span class='opt'>E)</span> Statik Veri Maskeleme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru, benzer görünen terimler arasından ders içeriğinde yer almayanı ayırt etmeyi ölçmektedir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>8. Büyük Veri Teknolojileri, Dağıtık Sistemler ve Veri Ambarı Yapıları</h2>
+      <div class="section-body">
+        <p>Büyük veri yalnızca teorik bir alan değildir; onu işleyebilmek için güçlü teknolojik yapılara ihtiyaç duyulur. Dağıtık sistemler, çok büyük veri kümelerinin birden fazla makineye bölünerek işlenmesini sağlar.</p><p>Data mart, belirli bir kullanıcı grubunun ihtiyaçlarına yönelik daha dar kapsamlı veri alanları sunar. Bulut bilişim ise ölçeklenebilir altyapı ve erişim kolaylığı sağlar.</p><p>Bu bölümde teknoloji–işlev eşleştirmeleri de önemlidir. Hangi aracın sorgu dili, hangisinin görselleştirme ya da makine öğrenmesi tarafında kullanıldığı sınavlarda sorulabilir.</p><p>Dolayısıyla araç isimlerini tek başına değil, hangi problemi çözdükleriyle birlikte hatırlamak gerekir.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">İnsan kaynakları yönetimi gibi organizasyon içindeki belirli bir kullanıcı grubunun belirli taleplerini karşılamak amacıyla geliştirilen büyük veri teknolojisi aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Dağıtık sistem</li><li><span class='opt'>B)</span> Bulut bilişim</li><li><span class='opt'>C)</span> Data mart</li><li><span class='opt'>D)</span> Büyük tablo</li><li><span class='opt'>E)</span> Meta veri</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Belirli bir kullanıcı grubuna yönelik daraltılmış veri alanı mantığı data mart kavramıyla açıklanır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi büyük veri teknolojilerinin fonksiyonellik-teknoloji araçları eşleştirmesinde yanlış olarak verilmiştir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Sorgu Dili - Tableau</li><li><span class='opt'>B)</span> Veri işleme - MapReduce</li><li><span class='opt'>C)</span> Görselleştirme - Google Charts</li><li><span class='opt'>D)</span> Veri Ambarı - HadoopDB</li><li><span class='opt'>E)</span> İstatistik ve Makine Öğrenmesi - Weka</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Tableau bir sorgu dili değil, daha çok görselleştirme ve analiz aracıdır. Bu tür eşleştirme sorularında aracın temel işlevini bilmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>9. Gerçek Zamanlı Veri İşleme, Spark ve PySpark</h2>
+      <div class="section-body">
+        <p>Büyük veride yalnızca depolama değil, akış verisini anlık olarak işleyebilme yeteneği de önemlidir. Gerçek zamanlı veri işleme, özellikle sensör verileri, sosyal medya akışları ve anlık olay takibi gibi alanlarda kullanılır.</p><p>Spark ve ilgili bileşenleri bu noktada önemli hale gelir. PySpark ise Spark ekosisteminin Python ile kullanılmasını sağlar.</p><p>Ders sorularında Storm, Spark Streaming, PySpark, SparkSession ve bazı Python komutları öne çıkar.</p><p>Burada en önemli nokta, bileşenlerin ne işe yaradığını işlevsel olarak bilmektir. Çünkü sorular çoğu zaman tanım veya kullanım amacı üzerinden gelmektedir.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023 Vize Benzeri Soru</div>
+      <div class="q-text">Büyük verilerin gerçek zamanlı akışını işlemek için tasarlanmış büyük veri teknolojisi aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Storm</li><li><span class='opt'>B)</span> Data mart</li><li><span class='opt'>C)</span> Meta veri</li><li><span class='opt'>D)</span> Dağıtık Sistem</li><li><span class='opt'>E)</span> Bulut bilişim</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Gerçek zamanlı veri akışı ifadesi görüldüğünde Storm ve Spark Streaming benzeri çözümler akla gelmelidir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Final Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi PySpark için doğru bir tanımlamadır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Python ile Spark iş birliği sonucu ortaya çıkmış olup Python kütüphanesinin ismidir.</li><li><span class='opt'>B)</span> Apache Spark tarafından oluşturulmuş son versiyondur.</li><li><span class='opt'>C)</span> Gerçek zamanlı verileri işlemek amacıyla oluşturulmuş bir R dili kütüphanesidir.</li><li><span class='opt'>D)</span> Büyük verideki gizli örüntüleri analiz etmek için oluşturulmuş bir veri tabanı uygulamasıdır.</li><li><span class='opt'>E)</span> Rastgele dağıtılmış veri kümelerini işlemek için oluşturulmuş bir teknolojidir.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> PySpark, Spark altyapısını Python üzerinden kullanmayı sağlayan yapıdır. Soruda dil ve işlev ilişkisi ölçülür.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>10. Büyük Veri Analitiği, Görselleştirme ve Analiz Türleri</h2>
+      <div class="section-body">
+        <p>Büyük veri analitiği, veriden anlamlı sonuçlar çıkarma sürecidir. Bu süreçte nicel analiz ve nitel analiz gibi farklı yaklaşımlar kullanılabilir.</p><p>Nicel analiz sayısal verilere dayanırken, nitel analiz daha çok yorumlayıcı ve soyut verilerle ilgilenir. Ayrıca görselleştirme, karmaşık analiz sonuçlarının anlaşılmasını kolaylaştırır.</p><p>Bu başlık altında büyük veri görselleştirme, nicel–nitel farkı ve bazen mekânsal analiz gibi özel analitik türleri karşımıza çıkar.</p><p>Özellikle “resimler, diyagramlar ve animasyonlarla anlatma” ifadesi büyük veri görselleştirmeye işaret eder.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Final Benzeri Soru</div>
+      <div class="q-text">…….. büyük veri analizlerini iletmek, anlamak ve geliştirmek için resimler, diyagramlar ya da animasyonlar oluşturmak için kullanan bir tekniktir. Yukarıdaki cümlede verilen boşluğa aşağıdakilerden hangisi gelmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Zaman serisi analizi</li><li><span class='opt'>B)</span> Optimizasyon</li><li><span class='opt'>C)</span> Doğal dil işleme</li><li><span class='opt'>D)</span> Sinyal işleme</li><li><span class='opt'>E)</span> Büyük veri görselleştirme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Bu soru doğrudan tanım sorusudur. Görselleştirme, veriyi daha anlaşılır hale getirmek için kullanılır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Final Benzeri Soru</div>
+      <div class="q-text">Nicel ve nitel analiz yöntemleri arasındaki temel fark aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Nitel veri küçük veri kümelerini, nicel veri büyük veri kümelerini analiz eder.</li><li><span class='opt'>B)</span> Betimsel istatistik nitel analizde, kavramsal istatistik nicel analizde kullanılır.</li><li><span class='opt'>C)</span> İki yöntem de analiz için farklı teknolojiler kullanır.</li><li><span class='opt'>D)</span> Nitel analiz, nicel analizden daha kesin sonuçlar üretir.</li><li><span class='opt'>E)</span> Nicel analiz sayısal verilerle, nitel analiz soyut verilerle yapılan analizdir.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Temel ayrım veri tipindedir. Nicel analiz sayısal; nitel analiz daha yorumlayıcı ve soyut içeriklerle ilişkilidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>11. Sağlıkta Büyük Veri ve Uygulama Alanları</h2>
+      <div class="section-body">
+        <p>Sağlık sektörü, büyük verinin en yoğun kullanıldığı alanlardan biridir. Klinik referanslar, genomik veriler, yayınlar, hasta kayıtları ve sensör verileri gibi çok farklı kaynaklardan veri üretilir.</p><p>Bu veriler tanı, tedavi planlama, riskli hastaları belirleme ve kaynak yönetimi gibi alanlarda önemli avantajlar sunar.</p><p>Ancak sağlık verileri son derece hassastır. Bu yüzden veri güvenliği, yetkisiz erişimin önlenmesi ve sahtekârlığın engellenmesi gibi boyutlar çok önemlidir.</p><p>Sınavlarda sağlıkta büyük veri kaynakları, sağlık analitiğinin faydaları ve güvenlik soruları sık tekrar eder.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Final Benzeri Soru</div>
+      <div class="q-text">I. Klinik referanslar II. Genomik veriler III. Statik veriler IV. Yayınlar Sağlık hizmetlerinde birçok kaynaktan çok sayıda veri üretilmektedir. Yukarıda verilenlerden hangileri sağlık hizmetlerindeki büyük veri kaynaklarındandır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> I ve III</li><li><span class='opt'>B)</span> I, II ve IV</li><li><span class='opt'>C)</span> II ve III</li><li><span class='opt'>D)</span> I ve IV</li><li><span class='opt'>E)</span> I, II ve III</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Klinik referanslar, genomik veriler ve yayınlar sağlık verisi kaynakları içinde değerlendirilebilir. Statik veriler ifadesi burada yanıltıcıdır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Final Benzeri Soru</div>
+      <div class="q-text">Sağlık hizmetleri verileri, kamuya açık hale getirilmemesi için yetkisiz erişime karşı güvence altına alınması gereken son derece hassas verilerdir ve ayrıca sağlık hizmeti sahtekârlığı da saldırganlardan önlenebilir. Bu nedenle, …….. sağlık alanındaki en önemli ve zorlu görevlerden biridir. Yukarıdaki cümlede verilen boşluğa aşağıdaki cümlelerden hangisi gelmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Verinin hacmi</li><li><span class='opt'>B)</span> Verinin toplanması</li><li><span class='opt'>C)</span> Veri güvenliği</li><li><span class='opt'>D)</span> Verinin hızı</li><li><span class='opt'>E)</span> Verinin ekonomik değeri</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Sağlıkta en kritik başlıklardan biri güvenliktir. Soru bunu cümle tamamlama biçiminde ölçmektedir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section-card">
+      <h2>12. Yapay Zekâ, Makine Öğrenmesi ve Büyük Veri İlişkisi</h2>
+      <div class="section-body">
+        <p>Büyük veri ile yapay zekâ ve makine öğrenmesi arasında güçlü bir ilişki vardır. Büyük veri, modellerin eğitilmesi için geniş veri kaynağı sağlar; makine öğrenmesi ise bu veriden örüntü çıkarır, sınıflandırma yapar ve tahmin üretir.</p><p>Bu nedenle ders içinde yalnızca veri depolama değil, veriden değer üretme tarafı da önem kazanır.</p><p>Soru dosyasında makine öğrenmesi tanımı, yapay zekânın veriden elde ettiği amaçlar ve CNN gibi yapılar da yer almaktadır.</p><p>Burada önemli olan, bu kavramları tamamen ayrı dersler gibi değil, büyük verinin uygulama alanını genişleten bileşenler olarak görmektir.</p>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2022-2023 Final Benzeri Soru</div>
+      <div class="q-text">Hangisi makine öğrenmesi tanımı olarak verilebilir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Bilgisayara açıkça kod yazmadan öğrenme kabiliyetini kazandıran çalışma alanı</li><li><span class='opt'>B)</span> Seçenek 2</li><li><span class='opt'>C)</span> Seçenek 3</li><li><span class='opt'>D)</span> Seçenek 4</li><li><span class='opt'>E)</span> Seçenek 5</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Makine öğrenmesinin temel mantığı, sistemin veriden örüntü öğrenmesidir. Bu başlık büyük veriyle birlikte düşünülmelidir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2024-2025 Final Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi yapay zekânın veriden elde ettiği amaçlardan biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Tahminde bulunma</li><li><span class='opt'>B)</span> Kümeleme</li><li><span class='opt'>C)</span> Sınıflandırma</li><li><span class='opt'>D)</span> Bölütleme</li><li><span class='opt'>E)</span> Yakınsama, optimizasyon</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Tahmin, sınıflandırma, kümeleme ve optimizasyon daha doğrudan yapay zekâ ve makine öğrenmesi hedefleri arasında değerlendirilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+
+    <div class="footer">Başarılar dilerim</div>
+  </div>
+</body>
+</html>
