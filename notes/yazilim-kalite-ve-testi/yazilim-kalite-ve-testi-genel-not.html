@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yazılım Kalite ve Testi - Benzeri Sorulu Tam Not</title>
+<style>
+:root {
+  --bg:#f6f8fc;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --line:#dbe4f0;
+  --primary:#335c81;
+  --primary-soft:#eaf2fb;
+  --accent:#eff6ff;
+  --note:#fff8e8;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg,#f8fbff 0%, #f4f7fb 100%);
+  color:var(--text);
+  line-height:1.7;
+}
+.container {
+  width:min(1100px, 92%);
+  margin:40px auto 70px;
+}
+.hero {
+  background: linear-gradient(135deg, #edf4ff 0%, #f9fbff 100%);
+  border:1px solid #d8e4f4;
+  border-radius:28px;
+  padding:32px 28px;
+  box-shadow:0 18px 40px rgba(47,86,135,.08);
+  margin-bottom:24px;
+}
+.hero h1 {
+  margin:0 0 10px;
+  font-size:clamp(28px,4vw,42px);
+  line-height:1.15;
+  color:#20344d;
+}
+.hero p {
+  margin:0;
+  color:#4b5b70;
+  font-size:16px;
+}
+.intro {
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:20px 22px;
+  margin:18px 0 28px;
+  box-shadow:0 10px 24px rgba(15,23,42,.05);
+}
+.intro strong { color:#243b53; }
+.grid {
+  display:grid;
+  grid-template-columns:repeat(12,1fr);
+  gap:18px;
+  margin-bottom:28px;
+}
+.stat {
+  grid-column: span 4;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:18px 20px;
+}
+.stat .label { color:var(--muted); font-size:14px; }
+.stat .value { font-size:24px; font-weight:700; color:#213a57; margin-top:4px; }
+.section {
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:26px;
+  padding:30px 26px;
+  margin-bottom:22px;
+  box-shadow:0 10px 26px rgba(15,23,42,.05);
+}
+.section h2 {
+  margin:0 0 14px;
+  font-size:28px;
+  line-height:1.25;
+  color:#20344d;
+}
+.section p { margin:0 0 12px; }
+.note-box {
+  margin-top:16px;
+  background:var(--note);
+  border:1px solid #f0dfb5;
+  border-radius:18px;
+  padding:16px 18px;
+}
+.note-title {
+  font-weight:700;
+  margin-bottom:8px;
+  color:#725c1b;
+}
+.note-box ul {
+  margin:0;
+  padding-left:18px;
+}
+.question-wrap {
+  margin-top:22px;
+  padding-top:8px;
+}
+.question-wrap h3 {
+  margin:0 0 12px;
+  font-size:22px;
+  color:var(--primary);
+}
+.question-card {
+  border:1px solid #d7e3f3;
+  background:linear-gradient(180deg,#fbfdff 0%, #f7faff 100%);
+  border-radius:20px;
+  padding:18px 18px 16px;
+  margin:14px 0;
+}
+.q-meta {
+  display:inline-block;
+  font-size:13px;
+  color:#4a6380;
+  background:var(--primary-soft);
+  border:1px solid #d6e3f3;
+  border-radius:999px;
+  padding:6px 10px;
+  margin-bottom:10px;
+}
+.q-text {
+  font-weight:600;
+  color:#23374f;
+  margin-bottom:10px;
+}
+.options {
+  margin:0 0 10px 18px;
+  padding-left:10px;
+}
+.options li {
+  margin-bottom:5px;
+}
+.answer, .mini-exp {
+  border-radius:14px;
+  padding:10px 12px;
+  margin-top:10px;
+}
+.answer {
+  background:#edf7ee;
+  border:1px solid #cfe6d1;
+}
+.mini-exp {
+  background:#fffaf0;
+  border:1px solid #f1e3b9;
+}
+.footer {
+  text-align:center;
+  color:#425466;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:18px;
+  margin-top:28px;
+}
+@media (max-width:900px) {
+  .stat { grid-column: span 12; }
+  .section { padding:24px 18px; }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>Yazılım Kalite ve Testi</h1>
+      <p>Ayrıntılı konu anlatımı, kavram odaklı özetler ve benzeri soru bloklarıyla düzenlenmiş çalışma notu.</p>
+    </header>
+
+    <div class="intro">
+      <strong>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.</strong>
+    </div>
+
+    <div class="grid">
+      <div class="stat"><div class="label">Ana bölüm sayısı</div><div class="value">12 Bölüm</div></div>
+      <div class="stat"><div class="label">Odak noktası</div><div class="value">Test süreçleri ve kalite</div></div>
+      <div class="stat"><div class="label">Soru desteği</div><div class="value">Tam metinli benzeri sorular</div></div>
+    </div>
+
+    
+    <section class="section">
+      <h2>1. Temel Kavramlar ve Testin Amacı</h2>
+      <p>Yazılım testi, yalnızca hata bulma işi değildir; ürünün gereksinimlere uygunluğunu, beklendiği gibi çalışıp çalışmadığını ve kullanım sırasında kabul edilebilir kalite düzeyini sağlayıp sağlamadığını anlamaya yönelik sistemli bir doğrulama faaliyetidir. Bu nedenle test, geliştirme sürecinin sonuna bırakılan tek seferlik bir işlem olarak değil, yaşam döngüsüne yayılmış bir kalite güvence pratiği olarak görülmelidir.
+
+Bu derste sıkça karşılaşılan kavramlardan biri, test ile kalite arasındaki farktır. Test daha çok belirli senaryoları koşturarak problem ortaya çıkarma yönünde kısa vadeli ve uygulama odaklı bir faaliyettir. Kalite ise analizden tasarıma, kodlamadan bakım aşamasına kadar uzanan daha geniş, daha uzun vadeli ve kültürel bir çerçevedir. Bir başka ifadeyle test, kaliteyi destekler; ama tek başına kaliteyi garanti etmez.
+
+Soru dağılımında ayrıca koddan önce test düşüncesi de öne çıkmaktadır. Test Güdümlü Geliştirme yaklaşımında geliştirici önce beklenen davranışı anlatan testi yazar, ardından testi geçecek en küçük kodu üretir. Bu bakış açısı, testin sadece hata avı değil; tasarımı yönlendiren bir düşünme biçimi olduğunu gösterir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Test, kalite sürecinin yalnızca bir parçasıdır; ikisi aynı kavram değildir.</li><li>Kalite uzun soluklu bir yapı iken test daha kısa çevrimlerle yürür.</li><li>Koddan önce test yazmak, gereksinimi netleştiren disiplinli bir geliştirme anlayışıdır.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Test ve kalite kavramlarının zaman ile arasında nasıl bir ilişki vardır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Test de kalite de uzun süreli işlemlerdir.</li><li><strong>B.</strong> Kalite kısa süreli, test uzun süreli bir işlemdir</li><li><strong>C.</strong> Test kısa süreli, kalite uzun süreli bir işlemdir.</li><li><strong>D.</strong> Test de kalite de kısa süreli işlemlerdir.</li><li><strong>E.</strong> Test ve kalitenin süresi ile ilgisi bilinemez.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> C — Test kısa süreli, kalite uzun süreli bir işlemdir.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Bu soru, test ile kaliteyi aynı kavram sanmaman gerektiğini ölçer. Test daha uygulama odaklı ve kısa çevrimliyken kalite tüm yaşam döngüsüne yayılan daha geniş bir yapıdır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2024-2025 Vize</div>
+      <div class="q-text">Geliştirilecek yazılımla ilgili, kodlardan önce test senaryolarının yazıldığı yaklaşıma verilen ad aşağıdakilerden hangisidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Analiz Bazlı Tasarım</li><li><strong>B.</strong> Kodlama Tabanlı Geliştirme</li><li><strong>C.</strong> Bakım Temelli Yazılım</li><li><strong>D.</strong> Test Güdümlü Geliştirme</li><li><strong>E.</strong> Dokümantasyon Bazlı Yazılım</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Test Güdümlü Geliştirme</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Koddan önce test yazma mantığı, geliştirmeyi testle yönlendiren bir yaklaşımdır. Beklenen davranış önce testle tanımlanır, sonra kod o davranışı sağlayacak şekilde yazılır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>2. Test Süreci, Rolleri ve Sorumluluklar</h2>
+      <p>Başarılı bir test faaliyeti, yalnızca test senaryolarının doğruluğuna değil; ekip içindeki rol dağılımının netliğine de bağlıdır. Test yöneticisi planlama, tahmin, gözetim ve kontrol gibi süreçsel sorumlulukları üstlenirken; test mimarı test organizasyonunun yapısını ve mimarisini kurgular. Test direktörü daha üst düzeyde yönetsel koordinasyon sağlar. Aktör ise sistemle etkileşime giren kullanıcı veya kullanıcı rolünü temsil eder.
+
+Bu ayrım önemlidir; çünkü sınav soruları çoğu zaman &#x27;kim ne yapar?&#x27; düzeyinde ölçüm yapar. Örneğin uygulama safhası çoğu durumda testi fiilen koşturan uzmanların alanına girer; test yöneticisinin temel rolü ise testin nasıl, ne zaman, hangi kaynakla ve hangi hedefler doğrultusunda yürütüleceğini düzenlemektir.
+
+Test süreci iyi tanımlanmadığında kağıt üzerinde plan var gibi görünse bile fiiliyatta belirsizlik oluşur. Belirsizlik de tekrar eden işlere, atlanan senaryolara ve raporlama problemlerine yol açar. Bu yüzden rolden önce süreç, süreçten önce de sorumluluk sınırları netleşmelidir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Test yöneticisi ağırlıklı olarak planlama, tahmin, gözetim ve kontrolle ilgilenir.</li><li>Uygulama ile yönetim aynı şey değildir; sınavlarda bu ayrım özellikle sorulur.</li><li>Rol karışıklığı, test kapsamı ve rapor kalitesini doğrudan zayıflatır.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Test işlemleri ile ilgili aşağıdaki roller ve açıklamaları eşleştirmelerinden hangisi yanlıştır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Test yöneticisi: Test aktivite ve kaynaklarının yönetiminden sorumlu kişidir.</li><li><strong>B.</strong> Test analisti: Yapılan testlerin maliyetlerini çıkartan kişidir.</li><li><strong>C.</strong> Test direktörü: Test yöneticilerini yöneten üst düzey yöneticidir.</li><li><strong>D.</strong> Test mimarı: Bir test organizasyonunu tasarlayan kişidir.</li><li><strong>E.</strong> Aktör: Test edilmekte olan yazılım bileşeni ile etkileşim halinde olan kullanıcıdır.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> B — Test analisti: Yapılan testlerin maliyetlerini çıkartan kişidir.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Test analistinin temel işi sadece maliyet çıkarmak değildir. Bu soru, roller arasındaki görev farklarını karıştırmaman için önemlidir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2024-2025 Butunleme</div>
+      <div class="q-text">Yazılım testi ile ilgili aşağıdaki işlemlerin hangisi test yöneticisinin sorumluluğunda değildir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Tahmin</li><li><strong>B.</strong> Gözetim</li><li><strong>C.</strong> Kontrol</li><li><strong>D.</strong> Uygulama</li><li><strong>E.</strong> Planlama</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Uygulama</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Test yöneticisi daha çok planlama ve gözetim tarafındadır. Testin fiilen uygulanması her zaman yönetici rolünün doğrudan görevi değildir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>3. Test Seviyeleri: Birim, Entegrasyon ve Regresyon</h2>
+      <p>Test seviyeleri, yazılımın hangi büyüklükteki parçasının ve hangi bağlamda doğrulandığını gösterir. Birim testi tekil modül ya da fonksiyonlara odaklanır. Amaç, küçük bileşenlerin kendi iç mantığının doğru çalıştığını erken aşamada sınamaktır. Sınır koşulları, bağımsız yollar ve arayüz odaklı kontroller bu bağlamda düşünülebilir.
+
+Entegrasyon testi ise parçaların tek başına değil, birlikte çalıştığında nasıl davrandığını inceler. Burada özellikle modüller arası veri akışı, çağrı düzeni ve uyum problemi önem kazanır. Big-Bang yaklaşımı, bileşenleri tek seferde birleştirerek test etmeye dayalı olduğu için birim testi kategorisinde değil entegrasyon mantığında değerlendirilir.
+
+Regresyon testi, önceki düzeltmelerden sonra sistemin yeniden bozulup bozulmadığını anlamak için yapılır. Yani daha önce test edilip düzeltilmiş yapıların, yapılan değişiklikler nedeniyle tekrar hata üretip üretmediğini kontrol eder. Bu yönüyle regresyon testi, bakım ve sürüm geçişlerinde vazgeçilmezdir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Birim testi küçük parçalara, entegrasyon testi parçalar arası ilişkilere odaklanır.</li><li>Big-Bang, birim testi değil entegrasyon yaklaşımıdır.</li><li>Regresyon testi yeni değişikliğin eski çalışan yapıları bozup bozmadığını denetler.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Aşağıdakilerden hangisi bir birim testi çeşidi değildir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Sınır Koşulları Testleri</li><li><strong>B.</strong> Bağımsız Yollar Testleri</li><li><strong>C.</strong> Hata Yakalama Yolları Testleri</li><li><strong>D.</strong> Big-Bang Testleri</li><li><strong>E.</strong> Arayüz Testleri</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Big-Bang Testleri</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Big-Bang yaklaşımı birim düzeyinden çok entegrasyon mantığıyla ilgilidir. Bu yüzden küçük modül testi ailesinde değerlendirilmez.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Final</div>
+      <div class="q-text">Regresyon Testi hangi özelliği ile diğer entegrasyon testlerinden ayrılır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Daha önceden test edilmiş ve düzeltilmiş yapılar ile ilgilenir</li><li><strong>B.</strong> Sadece donanım entegrasyonu ile ilgilenir</li><li><strong>C.</strong> Klasik yöntemler ile entegrasyon sağlar</li><li><strong>D.</strong> Sadece mobil yazılımlar ile ilgilenir</li><li><strong>E.</strong> Yazılımların en üst versiyonu ile ilgilenir</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — Daha önceden test edilmiş ve düzeltilmiş yapılar ile ilgilenir</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Regresyon testi yeni değişikliklerden sonra daha önce çalışan yapının bozulup bozulmadığını kontrol eder. Ayırt edici yönü, geçmişte düzeltilen alanlara yeniden bakmasıdır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>4. Test Tasarım Teknikleri ve Senaryo Oluşturma</h2>
+      <p>Test tasarım teknikleri, sonsuz ihtimal içeren giriş uzayını yönetilebilir sayıda etkili senaryoya dönüştürmek için kullanılır. Bu nedenle &#x27;tüm olası girdileri denemek&#x27; yerine, mantıksal olarak benzer davranış üreten giriş grupları üzerinden örnekleme yapılır. Denklik sınıfları bu yaklaşımın en bilinen örneklerindendir.
+
+Tek seçimli denklik sınıfı, yalnızca tek bir seçeneğin geçerli olduğu ve diğer tüm seçeneklerin geçersiz kaldığı durumlarda önem kazanır. Böylece senaryo seti, rastgele değil yapısal biçimde kurulur. Bu teknik özellikle üyelik, statü, eğitim düzeyi, rol tanımı gibi ayrık seçim alanlarında karşımıza çıkar.
+
+Sınavlarda sık sorulan bir diğer vurgu negatif testlerdir. Sadece beklenen, doğru ve temiz veriyle test yapmak yeterli değildir. Hatalı, eksik, format dışı veya sistemin tolere etmesi gereken veri kümeleri de denenmelidir. Gerçek kalite çoğu zaman sistemin yanlış girdiye verdiği tepkide görünür.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Denklik sınıfları, sonsuz veri evrenini temsil gücü yüksek küçük kümelere indirger.</li><li>Geçerli veri kadar geçersiz veri de test edilmelidir.</li><li>Negatif testler, sistemin hatalı girdiler karşısındaki dayanıklılığını ölçer.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Final</div>
+      <div class="q-text">Bir yazılım testinde yalnızca üniversite mezunları geçerli sınıf ise diğer tüm seçenekler geçersiz sınıf ise bu durumda aşağıdaki tekniklerden hangisini uygulamak gereklidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Karar tablosu denklik sınıfı</li><li><strong>B.</strong> Sürekli değer denklik sınıfı</li><li><strong>C.</strong> Ayrık değerler denklik sınıfı</li><li><strong>D.</strong> Tek seçimli denklik sınıfı</li><li><strong>E.</strong> Sınır değer denklik sınıfı</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Tek seçimli denklik sınıfı</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Geçerli seçeneğin tek olduğu ve diğer tüm seçeneklerin dışlandığı ayrık durumlarda tek seçimli denklik sınıfı mantığı uygundur.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Genellikle test senaryolarında X ile gösterilen veri setleri denenir. Ancak esasen doğru bir test için Y ile gösterilen veri setinin de denenmesi gerekmektedir. Y ile gösterilen veri setlerinin denendiği bu testlere genellikle ne ad verilir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Doğru test</li><li><strong>B.</strong> Analitik test</li><li><strong>C.</strong> Objektif test</li><li><strong>D.</strong> Negatif test</li><li><strong>E.</strong> Yalın test</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Negatif test</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Sadece doğru veriyle test yapmak yeterli değildir. Negatif testler, hatalı ya da beklenmeyen girişlere karşı sistemin tepkisini sınar.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>5. Kutu Yaklaşımları: Kara, Beyaz ve Gri Kutu</h2>
+      <p>Kara kutu, beyaz kutu ve gri kutu testleri; test uzmanının sistemin iç yapısı hakkında ne kadar bilgiye sahip olduğunu anlatan yaklaşımlardır. Kara kutu testinde odak, iç kod yapısı değil dışarıdan gözlenen davranıştır. Kullanıcı açısından sistemin ne yaptığı ölçülür. Bu yüzden arayüz, işlev ve çıktı doğrulaması burada daha görünür hale gelir.
+
+Beyaz kutu testinde ise kontrol akışı, kod yolları, koşullar ve mantıksal dallanmalar gibi iç yapı unsurları dikkate alınır. Dolayısıyla &#x27;detaysız&#x27; değil, tersine oldukça ayrıntılı bir bakıştır. Gri kutu yaklaşımı ise her iki dünyanın arasında yer alır; testçi sistemin tamamını bilmez ama sınırlı düzeyde iç yapı bilgisinden yararlanır.
+
+Bu ayrımı iyi anlamak gerekir; çünkü soru kalıpları çoğu zaman &#x27;hangi yaklaşım ne ile ilgilenir?&#x27; üzerinden gelir. Kullanılabilirlik ve dış davranış gibi alanlar daha çok kara kutuya; yol, dal ve algoritma analizi ise beyaz kutuya yakındır.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Kara kutuda iç kod yapısı değil, dış davranış ve beklenen çıktı önemlidir.</li><li>Beyaz kutu testleri detaysız değil, tam tersine ayrıntılı testlerdir.</li><li>Gri kutu, sınırlı iç yapı bilgisiyle yapılan ara bir yaklaşımdır.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Kutu yaklaşımları ile ilgili aşağıdakilerden hangisi yanlıştır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Beyaz kutu testleri genellikle detaysız testlerdir.</li><li><strong>B.</strong> Beyaz kutu testlerinde dış etkiler testi etkilemez.</li><li><strong>C.</strong> Kara kutu testleri genellikle tek parça halinde yapılır.</li><li><strong>D.</strong> Gri kutu testlerinde kısmî bir iç yapı bilgisi mevcuttur.</li><li><strong>E.</strong> Kara kutu testleri algoritma testlerine uygundur.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — Beyaz kutu testleri genellikle detaysız testlerdir.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Beyaz kutu testleri detaysız değil, ayrıntılıdır. Kod yapısı ve mantıksal yollar üzerinden ilerlediği için bu ifade yanlıştır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Vize</div>
+      <div class="q-text">Kara kutu testi aşağıdakilerin hangisi ile ilgilenir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Modüllerin entegrasyonu</li><li><strong>B.</strong> Programlama dilinin yapısı</li><li><strong>C.</strong> Arayüzlerin kullanılabilirliği</li><li><strong>D.</strong> Algoritmanın karmaşıklığı</li><li><strong>E.</strong> Kodlardaki hata miktarı</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> C — Arayüzlerin kullanılabilirliği</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Kara kutu yaklaşımı kodun içinden çok dışarıdan görülen davranışa ve kullanıcıya yansıyan işlevselliğe bakar.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>6. Statik Testler ve Gözden Geçirme Süreçleri</h2>
+      <p>Statik testler, yazılımı çalıştırmadan yapılan kalite faaliyetleridir. Dokümanların, gereksinimlerin, tasarımların ya da kodun gözden geçirilmesi bu kapsamda değerlendirilir. Böylece hata daha çalışma zamanına gelmeden, daha düşük maliyetle yakalanabilir. Üzerinden geçme, teknik gözden geçirme ve teftiş gibi yöntemler bu aile içindedir.
+
+Bu yöntemlerin bazıları hem resmî hem de gayriresmî biçimde uygulanabilir. Örneğin üzerinden geçme çoğu zaman daha esnek bir yapı sergilerken, teknik gözden geçirme daha disiplinli olabilir. Klasik gözden geçirme sürecinde yazar, yönetici, kaydedici ve gözden geçirici gibi roller bulunur; fakat &#x27;analist&#x27; bu sürecin zorunlu klasik rolü olarak tanımlanmaz.
+
+Statik inceleme kültürü güçlü olan ekiplerde hata maliyeti düşer. Çünkü bir problemi kod çalıştırıldıktan sonra değil; daha gereksinim veya tasarım aşamasında fark etmek, düzeltmeyi çok daha ucuz ve güvenli hale getirir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Statik test, yazılımı koşturmadan yapılan kalite kontrolüdür.</li><li>Gözden geçirme rolleri ile proje rolleri birbirine karıştırılmamalıdır.</li><li>Erken bulunan hata, geç bulunan hatadan genellikle daha düşük maliyetlidir.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Final</div>
+      <div class="q-text">I. Üzerinden Geçme II.Teknik Gözden Geçirme III.Teftiş Yukarıda verilen yöntemlerden hangisi veya hangileri hem resmî hem gayrıresmî olabilmektedir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> II ve III</li><li><strong>B.</strong> I ve III</li><li><strong>C.</strong> Yalnız I</li><li><strong>D.</strong> Yalnız III</li><li><strong>E.</strong> I ve II</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — I ve II</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Üzerinden geçme ve teknik gözden geçirme esnek biçimlerde uygulanabilir. Teftiş ise çoğunlukla daha katı ve resmî yapıdadır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Final</div>
+      <div class="q-text">Klasik bir gözden geçirme sürecinde aşağıdaki rollerin hangisi yer almamaktadır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Yönetici</li><li><strong>B.</strong> Yazar</li><li><strong>C.</strong> Analist</li><li><strong>D.</strong> Kaydedici</li><li><strong>E.</strong> Gözden Geçirici</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> C — Analist</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Klasik gözden geçirme ekibinde yazar, yönetici, kaydedici ve gözden geçirici gibi roller bulunur. Analist burada standart rol olarak sayılmaz.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>7. Fonksiyonel Olmayan Testler</h2>
+      <p>Fonksiyonel olmayan testler, sistemin ne yaptığı kadar bunu nasıl yaptığıyla da ilgilenir. Kurtarma, performans, güvenlik, uyumluluk, taşınabilirlik, erişilebilirlik ve güvenilirlik gibi başlıklar bu çerçevededir. Kullanıcı her ne kadar önce fonksiyonu görse de gerçek hayatta sistemin değeri çoğu zaman bu niteliklerle belirlenir.
+
+Kurtarma testi; çökme sonrası modülün ayağa kalkıp kalkmadığını, veri kaybı oluşup oluşmadığını ve geri yükleme süresini inceler. Buna karşılık dış saldırıya maruz kalma durumu güvenlik testiyle daha yakından ilişkilidir. Bu ayrım sınavlarda özellikle seçenekler arasında karıştırılır.
+
+Performans testi de geniş bir üst başlıktır. Yük, stres ve hacim testleri bu alanın alt türleri olarak düşünülebilir. Yani sistemin yoğun kullanıcı yükünde, veri hacmi arttığında ya da olağan sınırların üzerinde nasıl davrandığını anlamak için çoğu zaman daha genel çerçeve olarak performans testi kullanılır.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Kurtarma testi; çökme, veri kaybı ve geri yükleme süresiyle ilgilenir.</li><li>Güvenlik ve kurtarma aynı şey değildir; biri saldırıya, diğeri toparlanmaya odaklanır.</li><li>Performans testi; yük, stres ve hacim gibi alt testleri kapsayan geniş bir şemsiyedir.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Aşağıdakilerden hangisi kurtarma testinin kontrolünü gerçekleştirdiği işlemlerden biri değildir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Çöken bir modülün yeniden eski haline gelip gelmediği</li><li><strong>B.</strong> Yazılımdaki herhangi bir sorunda bilgi kaybı oluşup oluşmadığı</li><li><strong>C.</strong> Bir geri kurtarma işlemi yapıldığı takdirde zamanlamanın ne kadar olduğu</li><li><strong>D.</strong> Yazılımın dışarıdan saldırıya uğrayıp uğramadığı</li><li><strong>E.</strong> Çöken bir modüldeki verilerin yeniden elde edilip edilemediği</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — Yazılımın dışarıdan saldırıya uğrayıp uğramadığı</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Kurtarma testi; veri geri kazanımı ve sistemin yeniden ayağa kalkmasıyla ilgilenir. Dış saldırı meselesi ise daha çok güvenlik testinin alanındadır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Aşağıdakilerden hangisi, diğer seçeneklerde verilenleri kapsayacak genel bir test ismidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Stres Testi</li><li><strong>B.</strong> Performans Testi</li><li><strong>C.</strong> Yük Testi</li><li><strong>D.</strong> Hacim Testi</li><li><strong>E.</strong> Verimlilik Testi</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> B — Performans Testi</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Yük, stres ve hacim gibi testler çoğu zaman performans başlığı altında düşünülür. Bu soru hiyerarşik ilişkiyi ölçer.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>8. Kullanılabilirlik ve Erişilebilirlik</h2>
+      <p>Kullanılabilirlik testi, bir sistemin kullanıcı tarafından kolay öğrenilip öğrenilmediğini, verimli kullanılıp kullanılmadığını, hata yapmaya ne kadar açık olduğunu ve kullanıcının deneyim sonunda ne hissettiğini inceler. Bu nedenle yalnızca görsel güzellik değil; görev tamamlama kolaylığı, yön bulma başarısı ve zihinsel yük de bu başlığın parçasıdır.
+
+Öğrenilebilirlik, özellikle ilk kullanım deneyiminde öne çıkar. Kullanıcılar sistemi ilk kez gördüğünde temel görevleri rahatça yerine getirebiliyorsa arayüz öğrenilebilir kabul edilir. A/B testi ise kullanılabilirlik değerlendirmesinde birden fazla tasarım alternatifinin karşılaştırılması için kullanılan pratik yöntemlerden biridir.
+
+Erişilebilirlik de bu çerçevede ihmal edilmemelidir. Görme, işitme veya motor beceri açısından farklı ihtiyaçlara sahip kullanıcıların sistemi kullanabilmesi, yalnızca etik değil aynı zamanda kaliteyle doğrudan ilgili bir gerekliliktir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Öğrenilebilirlik, ilk karşılaşmada görevi kolay yerine getirebilme düzeyidir.</li><li>A/B testi farklı tasarım sürümlerini karşılaştırmalı değerlendirmeye yarar.</li><li>Erişilebilirlik, kullanılabilirliğin özel ve kritik bir boyutudur.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">&quot;Kullanıcılar, tasarımı ilk kullandıklarında yerine getirmeleri gereken görevleri kolaylıkla yapabiliyorlar mı?&quot; sorusunun cevabı aşağıdaki kriterlerden hangisini karşılamaktadır?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Verimlilik</li><li><strong>B.</strong> Hata yapılabilirlik</li><li><strong>C.</strong> Hatırlanabilirlik</li><li><strong>D.</strong> Memnuniyet</li><li><strong>E.</strong> Öğrenilebilirlik</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — Öğrenilebilirlik</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> İlk kullanımda görevi rahat yapabilme düzeyi öğrenilebilirliktir. Bu, kullanılabilirlik testlerinin en temel alt boyutlarından biridir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2024-2025 Butunleme</div>
+      <div class="q-text">Bir web sitesinin birçok versiyonunun incelendiği ve karşılaştırıldığı kullanılabilirlik testlerine ne ad verilmektedir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Laboratuvar Testleri</li><li><strong>B.</strong> Geri Bildirim Testleri</li><li><strong>C.</strong> İzleme testi</li><li><strong>D.</strong> Otomatik Test</li><li><strong>E.</strong> A/B Testi</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> E — A/B Testi</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Birden fazla tasarım sürümünü karşılaştırarak hangisinin daha iyi sonuç verdiğini anlamaya yönelik yaklaşım A/B testidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>9. Risk Yönetimi, RPN ve Risk Türleri</h2>
+      <p>Yazılım testinde risk yaklaşımı, her hataya eşit ağırlık vermek yerine etkisi ve gerçekleşme ihtimali yüksek alanlara öncelik tanımayı sağlar. Böylece sınırlı zaman ve kaynak en kritik noktalara yönlendirilir. Riskler bazen veri kaybı, bazen işlev kaybı, bazen de yalnızca görünüş ya da kullanım kolaylığı üzerindeki bozulma şeklinde ortaya çıkar.
+
+RPN yani Risk Öncelik Numarası mantığı, risk bileşenlerini sayısallaştırarak öncelik belirlemeye yarar. Soru kalıplarında sistem açısından önem, müşteri açısından önem ve gerçekleşme olasılığı birlikte değerlendirilir. Amaç formülü ezberlemekten çok, &#x27;hangi kombinasyon daha kritik?&#x27; sorusunu sezgisel olarak okuyabilmektir.
+
+Kozmetik riskler işlevselliği doğrudan yıkmasa bile kullanıcı algısını ve deneyimi zedeleyebilir. Bu nedenle &#x27;önemsiz&#x27; diye geçiştirilmez; sadece etkisinin niteliği farklıdır. Risk bakışında önemli olan, etkileri sınıflandırmak ve her sınıf için uygun test derinliği belirlemektir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Risk temelli test, kaynakları en kritik alanlara yönlendirmeyi sağlar.</li><li>RPN, risk önceliklendirmesini sistematik hale getirir.</li><li>Kozmetik risk işlevi bozmayabilir; ama kullanıcı deneyimini ve algısını zedeleyebilir.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Aşağıdaki hangi değerlere sahip olan bir yazılım riskinin RPN değeri 12 değildir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Sistem Açısından Önemine Göre: Kozmetik Risk Müşteri Açısından Önemine Göre: İsteğe Bağlı Gerçekleşme Olasılığına Göre: Muhtemel</li><li><strong>B.</strong> Sistem Açısından Önemine Göre: İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Zorunlu Gerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan</li><li><strong>C.</strong> Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Düzeltilmesi İyi Olacak Gerçekleşme Olasılığına Göre: Muhtemel</li><li><strong>D.</strong> Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Zorunlu Gerçekleşme Olasılığına Göre: Mümkün</li><li><strong>E.</strong> Sistem Açısından Önemine Göre: Veri Kaybı Müşteri Açısından Önemine Göre: Düzeltilmesi İyi Olacak Gerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — Sistem Açısından Önemine Göre: Kozmetik Risk Müşteri Açısından Önemine Göre: İsteğe Bağlı Gerçekleşme Olasılığına Göre: Muhtemel</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Bu tür sorularda sayı ezberlemekten çok, önem-olasılık-etki kombinasyonlarını okumayı öğrenmek gerekir. RPN mantığı, riskleri sıralama amacı taşır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2022-2023 Vize</div>
+      <div class="q-text">Bir yazılım riskinin sistem açısından kozmetik risk olarak adlandırılmasının sebebi aşağıdakilerden hangisi olabilir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Veri kaybına sebep olmaktadır.</li><li><strong>B.</strong> Görsellik veya kullanışlılık olarak zarar vermektedir.</li><li><strong>C.</strong> Çözülmesi çok acildir.</li><li><strong>D.</strong> Kısa süreli çeşitli zararlar vermektedir.</li><li><strong>E.</strong> İşlevsellik kabına yol açmaktadır.</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> B — Görsellik veya kullanışlılık olarak zarar vermektedir.</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Kozmetik risk, sistemi tamamen işlevsiz bırakmaz; daha çok görünüşe ya da kullanışlılığa zarar verir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>10. Kalite Yönetimi, Metrikler ve Ölçme</h2>
+      <p>Kalite yönetimi, sadece ürüne son kontrolde bakmak anlamına gelmez; hatayı üretmeden önce önlemeye çalışan bir sistem kurmak anlamına gelir. Bu yüzden kalite maliyetleri, tespit etme ve önleme maliyetleri olarak ele alınır. Buradaki merkez unsur hatadır: hata bulunur, azaltılır, önlenir ve tekrar üretmemesi için süreç iyileştirilir.
+
+Metrikler ise kaliteyi soyut ifadelerden çıkarıp ölçülebilir hale getirir. Kod boyutu, dokümantasyon sayfa sayısı, test süresi gibi değerler doğrudan ölçülebilirken; bir geliştiricinin performansı aynı doğrudanlıkta nesnel bir metrik olmayabilir. Bu ayrım, ölçüm ile yorum arasındaki çizgiyi anlamak açısından önemlidir.
+
+Dersin nesne yönelimli metrikler tarafında RFC gibi kavramlar da öne çıkmaktadır. Bir sınıfın cevap kümesiyle ilişkili bu metrik, kalıtımla gelen metotları da kapsayan yapıyı anlamaya yardımcı olur. Sınavda çoğu zaman kısaltma-eşleştirme biçiminde sorulur; fakat asıl amaç, yazılım karmaşıklığını ve etkileşim seviyesini nasıl nicelleştirdiğimizi kavramaktır.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Kalite maliyetlerinin odağında hata vardır; süreç bu hatayı azaltmak için kurulur.</li><li>Her ölçülebilir görünen şey doğrudan ve nesnel metrik değildir.</li><li>RFC gibi metrikler, nesne yönelimli yapının karmaşıklığını anlamaya yardım eder.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2024-2025 Butunleme</div>
+      <div class="q-text">Kalite maliyetleri genel olarak &quot;tespit etme maliyetleri&quot; ve &quot;önleme maliyetleri&quot; olarak gruplandırılabilir. Burada tespit edilen veya önlenen en önemli eleman aşağıdakilerden hangisidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Hata</li><li><strong>B.</strong> Süreç</li><li><strong>C.</strong> Ürün</li><li><strong>D.</strong> Analiz</li><li><strong>E.</strong> Yazılım</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — Hata</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Kalite yaklaşımının odağında hata vardır. Tespit de önleme de esasen hatayı hedef alır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Final</div>
+      <div class="q-text">&quot;Bir sınıf içerisinde yer alan kalıtımdan gelen metot sayısı ile metot sayısının toplamıdır.&quot; şeklinde tanımlanan metrik aşağıdaki kısaltmaların hangisi ile ifade edilmektedir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> AHF</li><li><strong>B.</strong> CBO</li><li><strong>C.</strong> LCOM</li><li><strong>D.</strong> RFC</li><li><strong>E.</strong> MHF</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> D — RFC</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> RFC, bir sınıfın verebileceği yanıt kümesiyle ilgilidir ve nesne yönelimli metrikler içinde önemli bir yer tutar.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>11. Test Otomasyonu ve Araç Değerlendirme</h2>
+      <p>Test otomasyonu, insan emeğini tamamen ortadan kaldıran sihirli bir çözüm değil; tekrar eden, zaman alan ve standartlaştırılabilir testlerin daha verimli yürütülmesini sağlayan bir destek mekanizmasıdır. Araç seçerken maliyet, entegrasyon, bakım yükü, ekip bilgisi ve test hedefleri birlikte düşünülmelidir.
+
+Açık kaynak bir aracın en doğrudan etkilerinden biri maliyettir. Lisans yükünü azaltabilir; ancak kurulum, bakım, eğitim ve entegrasyon gibi dolaylı maliyetleri ortadan kaldırdığı varsayılmamalıdır. Bu nedenle bir aracın ücretsiz olması, otomatik olarak en iyi seçenek olduğu anlamına gelmez.
+
+Ayrıca otomasyon aracının tamamen kararlı, hiç değişmeyen bir sürüme sahip olması zorunlu değildir. Çünkü yazılımlar zaman içinde değişir, güncellenir ve yeni ihtiyaçlara göre evrilir. Dolayısıyla otomasyon ekosistemi de bu değişime uyum sağlayacak biçimde yaşayan bir yapı olmalıdır.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>Açık kaynak araçlar lisans maliyetini etkiler; toplam sahip olma maliyetini tek başına belirlemez.</li><li>Otomasyon, tekrar eden testleri hızlandırır; düşünme işini tamamen devralmaz.</li><li>Araçların değişime açık olması, yazılım dünyasının dinamik yapısıyla uyumludur.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Final</div>
+      <div class="q-text">Bir web yazılım test otomasyonunun açık kaynaklı olması aşağıdaki özelliklerin hangisini doğrudan etkilemektedir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Entegrasyon</li><li><strong>B.</strong> Maliyet</li><li><strong>C.</strong> Platform uyumluluğu</li><li><strong>D.</strong> Kullanıcı deneyimi gereksinimi</li><li><strong>E.</strong> Test türü</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> B — Maliyet</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Açık kaynak olmanın en doğrudan etkisi lisans ve edinim maliyeti üzerindedir. Diğer etkiler dolaylı olabilir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2024-2025 Final</div>
+      <div class="q-text">Bir yazılım test otomasyonunun kararlı bir sürüme sahip olmasının gerekli olmama nedeni aşağıdakilerden hangisidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Yazılımların zaman içinde değişmesi ve güncellenmeye ihtiyaç duyması</li><li><strong>B.</strong> Yazılımların farklı türlerdeki testleri gerçekleştirmesi</li><li><strong>C.</strong> Yazılımların analiz edilmesi</li><li><strong>D.</strong> Yazılımların farklı yazılımlarla entegre olması</li><li><strong>E.</strong> Yazılımların farklı işlemler gerçekleştirmesi</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> A — Yazılımların zaman içinde değişmesi ve güncellenmeye ihtiyaç duyması</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Test araçları da değişen yazılımlara ve gereksinimlere uyum sağlar. Bu nedenle durağan değil yaşayan araç ekosistemi beklenir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2>12. ISTQB ve Mesleki Gelişim</h2>
+      <p>Yazılım testçiliği artık yalnızca geliştirme sürecinin yan faaliyeti değil; kendi dili, yöntemi ve kariyer yolu olan ayrı bir uzmanlık alanıdır. Bu nedenle ISTQB gibi yapılar, ortak terminoloji oluşturmak ve test uzmanlığını belirli bir çerçevede standardize etmek açısından önem taşır.
+
+Soru havuzunda ISTQB&#x27;nin kökeni ve sertifika aşamalarıyla ilgili maddeler öne çıkmaktadır. Bu tür soruların amacı yalnızca kurum adı ezberletmek değil; test alanının uluslararası bir disipline dönüştüğünü göstermektir. Temel seviye, alanın ortak dilini kazanmayı amaçlarken ileri seviye sertifikalar daha uzmanlaşmış roller için zemin oluşturur.
+
+Mesleki gelişim açısından bakıldığında sertifikalar tek başına yeterli değildir; fakat kavram hâkimiyetini, ortak terminolojiyi ve profesyonel görünürlüğü güçlendirir. Bu yüzden sınavlarda sertifika mantığı ile uygulama dünyasındaki karşılığı birlikte düşünülmelidir.</p>
+      <div class="note-box">
+        <div class="note-title">Bu bölümden akılda kalması gerekenler</div>
+        <ul><li>ISTQB, test alanında ortak dil ve standart oluşturmayı hedefleyen önemli bir yapıdır.</li><li>İleri seviye için temel seviye zemini aranır; kademeli uzmanlaşma mantığı vardır.</li><li>Sertifika tek başına yeterli olmasa da mesleki görünürlük ve ortak kavram seti sağlar.</li></ul>
+      </div>
+      <div class="question-wrap">
+        <h3>Benzeri Sorular</h3>
+        
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2023-2024 Final</div>
+      <div class="q-text">&quot;ISTQB&#x27;nin kuruluşunda yer alan ülkelere bakıldığında ISTQB&#x27;nin bir …………. kuruluşu olarak başladığı ifade edilebilir.&quot; Yukarıdaki boşluğa gelebilecek uygun ifade aşağıdakilerden hangisidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> Asya</li><li><strong>B.</strong> Afrika</li><li><strong>C.</strong> Avrupa</li><li><strong>D.</strong> Avustralya</li><li><strong>E.</strong> Amerika</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> C — Avrupa</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> Bu soru, ISTQB&#x27;nin tarihsel kökenini bilmeni ölçer. Kuruluş yapısı Avrupa merkezli başlamıştır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Benzeri Soru • 2024-2025 Butunleme</div>
+      <div class="q-text">ISTQB İleri Seviye bir sertifika almak için aşağıdaki şartların hangisini sağlamak gereklidir?</div>
+      <ol class="options" type="A">
+        <li><strong>A.</strong> En az 100 yazılım testi işlemi gerçekleştirmek</li><li><strong>B.</strong> Temel Seviye sertifikası almak</li><li><strong>C.</strong> Güvenlik testi konusunda çalışmak</li><li><strong>D.</strong> En az 3 sene test konusunda çalışmak</li><li><strong>E.</strong> Test konusunda uluslararası bir kuruluşta çalışmak</li>
+      </ol>
+      <div class="answer"><strong>Doğru cevap:</strong> B — Temel Seviye sertifikası almak</div>
+      <div class="mini-exp"><strong>Kısa açıklama:</strong> İleri seviye sertifikalar, temel seviye terminoloji ve zemin üzerine kurulur. Bu yüzden temel sertifika ön koşul olarak aranır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+
+    <div class="footer">
+      <strong>Başarılar dilerim</strong>
+    </div>
+  </div>
+</body>
+</html>
