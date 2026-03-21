@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kurumsal Bilgi Sistemleri - Ayrıntılı Not</title>
+<style>
+:root {
+  --bg:#f6f8fc;
+  --panel:#ffffff;
+  --ink:#1f2937;
+  --muted:#5b6472;
+  --line:#d9e2f0;
+  --soft:#eef4ff;
+  --soft-2:#f8fbff;
+  --accent:#4f7cff;
+  --accent-2:#2f5fd7;
+  --warn:#fff7e8;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#f9fbff 0%,#f3f6fb 100%);color:var(--ink);line-height:1.7}
+.wrapper{max-width:1050px;margin:0 auto;padding:32px 20px 60px}
+.hero{background:linear-gradient(135deg,#edf4ff 0%,#f8fbff 100%);border:1px solid var(--line);border-radius:28px;padding:30px 28px;box-shadow:0 10px 30px rgba(53,90,160,.08)}
+.hero h1{margin:0 0 10px;font-size:34px;line-height:1.2;color:#16315f}
+.hero p{margin:8px 0;color:var(--muted);font-size:16px}
+.notice{margin-top:18px;background:#fff;border:1px solid #dbe7ff;border-left:6px solid var(--accent);padding:16px 18px;border-radius:18px;color:#30415f}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:24px}
+.card{grid-column:span 12;background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 8px 24px rgba(36,52,82,.05)}
+.card h2{margin:0 0 12px;font-size:25px;color:#17325f}
+.card p{margin:0 0 14px;color:#374151}
+.card ul{margin:0 0 18px 18px;padding:0}
+.card li{margin:8px 0;color:#445066}
+.minihead{display:inline-block;margin:8px 0 14px;padding:8px 12px;border-radius:999px;background:var(--soft);border:1px solid #dce7ff;color:#23437a;font-weight:700;font-size:14px}
+.qcard{background:var(--soft-2);border:1px solid #dde7f7;border-radius:18px;padding:16px 16px 14px;margin:14px 0}
+.qbadge{display:inline-block;background:#fff;border:1px solid #d9e5fb;color:#38568e;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:700;margin-bottom:10px}
+.qtext{font-weight:700;color:#253247;margin:0 0 12px}
+.options{margin:0 0 12px 20px;padding:0}
+.options li{margin:5px 0;color:#42516a}
+.answer{background:#eef8ef;border:1px solid #cfe7d2;color:#215732;padding:10px 12px;border-radius:12px;margin:8px 0 10px}
+.qnote{background:var(--warn);border:1px solid #f0dfb4;color:#6a5322;padding:10px 12px;border-radius:12px}
+.footer{margin-top:24px;color:#667085;font-size:13px;text-align:center}
+@media (max-width: 700px) {
+  .wrapper{padding:18px 12px 40px}
+  .hero{padding:22px 18px;border-radius:22px}
+  .hero h1{font-size:28px}
+  .card{padding:18px;border-radius:18px}
+  .card h2{font-size:22px}
+}
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="hero">
+      <h1>Kurumsal Bilgi Sistemleri</h1>
+      <p>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.</p>
+      <p>İçerik kısa özet mantığında değil; kavramları temelden açıklayan, süreçler arasındaki bağı gösteren ve konuyu sınav mantığıyla pekiştiren ayrıntılı bir çalışma notu olarak kurgulanmıştır.</p>
+      <div class="notice"><strong>Not:</strong> Bölüm sonlarında yer alan <strong>Benzeri Sorular</strong> alanları, soru havuzunda öne çıkan sınav tarzını yansıtacak şekilde hazırlanmıştır. Tam soru metni kullanılmış, yıl ve sınav bilgisi eklenmiş, altına da kısa açıklama yerleştirilmiştir.</div>
+    </header>
+    <main class="grid">
+      <section class="card">
+        <h2>1. Kurumsal Bilgi Sistemlerine Giriş ve Tarihsel Gelişim</h2>
+        <p>Kurumsal bilgi sistemleri, işletmenin farklı fonksiyonlarını veri, süreç ve karar boyutunda birbirine bağlayan bütünleşik yapılardır. Dersin giriş kısmında en çok vurgulanan nokta, bu sistemlerin sadece yazılım değil; aynı zamanda organizasyon, yönetim ve iş süreçleriyle ilişkili bir çözüm alanı olduğudur.</p><p>Tarihsel olarak bakıldığında kurumsal bilgi sistemlerinin kökleri, ikinci dünya savaşı sonrasında ortaya çıkan bilgi işleme ihtiyacı ve yönetimsel karmaşıklığın artmasına dayanır. Zamanla ana bilgisayarlar, ağ yapıları, internet, web teknolojileri ve bütünleşik paket yazılımlar bu alanı genişletmiştir.</p><p>Sınavlarda bu konu bazen tanım sorusu olarak, bazen de &#x27;kurumsal sistem nedir, ne değildir?&#x27; ayrımı üzerinden gelir. Bu yüzden sistemin kapsamını sadece teknik donanımla sınırlamamak gerekir.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>Kurumsal bilgi sistemleri işletmenin çevresel ve rekabetçi baskılarına cevap verebilen yönetim çözümleridir.</li><li>Bu sistemler geçmişten bugüne giderek daha kapsamlı hâle gelmiş, operasyonel alanın ötesine taşınmıştır.</li><li>Kurumsal yapı denildiğinde birlikte iş yapan işletmelerin ve süreç ortaklarının bütünü de düşünülmelidir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi kurumsal bilgi sistemlerinin temel özelliklerinin ilk ortaya çıktığı dönemi belirtir?</p>
+        <ol class="options"><li><strong>A.</strong> Endüstri 4.0 - 2016</li><li><strong>B.</strong> Endüstri devrimi - 1750</li><li><strong>C.</strong> İkinci dünya savaşı sonrası - 1950</li><li><strong>D.</strong> Ayda ilk insan - 1969</li><li><strong>E.</strong> İşletmecilikte bilimsel yöntem - 1900</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — İkinci dünya savaşı sonrası - 1950</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Kurumsal bilgi sistemleri, ….. organizasyon ve yönetim çözümleri olarak tanımlanabilir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</p>
+        <ol class="options"><li><strong>A.</strong> işletmeler arasındaki fikir ayrılığına yönelik</li><li><strong>B.</strong> işletmelerin teknoloji gereksinimlerine yönelik</li><li><strong>C.</strong> iş dünyasının küreselleşmesine yönelik</li><li><strong>D.</strong> işletmenin üzerindeki rekabetçi baskılara yönelik</li><li><strong>E.</strong> iş ve işletme çevresinin yarattığı zorluklara yönelik</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — iş ve işletme çevresinin yarattığı zorluklara yönelik</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Kurumsal bilgi sistemleri ile ilgili aşağıdakilerden hangisi doğrudur?</p>
+        <ol class="options"><li><strong>A.</strong> İşletmelere geçmişte başarı sağlamış olsa da değerini kaybetmiş bir konudur.</li><li><strong>B.</strong> İşletmelerin odaklanması gereken nispeten yeni bir konudur.</li><li><strong>C.</strong> Yalnızca operasyonel düzeydeki yöneticilerin ele alacağı bir konudur.</li><li><strong>D.</strong> İşletmelerin gelecekte odaklanacağı henüz fikir aşamasında olan bir konudur.</li><li><strong>E.</strong> Yalnızca stratejik düzeydeki yöneticilerin ele alacağı bir konudur.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> B — İşletmelerin odaklanması gereken nispeten yeni bir konudur.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Aşağıdakilerden hangisi kurumsal bilgi sistemleri terimindeki “kurum”u ifade eder?</p>
+        <ol class="options"><li><strong>A.</strong> Çalışanların oluşturduğu ekipler</li><li><strong>B.</strong> Kamu kurumları</li><li><strong>C.</strong> Birlikte iş yapan işletmeler</li><li><strong>D.</strong> Yöneticilerin belirlediği departmanlar</li><li><strong>E.</strong> Üretim departmanı</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Birlikte iş yapan işletmeler</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi kurumsal bilgi sistemleri ana başlığında değerlendirilebilecek bir konu değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Arz-talep dengesi</li><li><strong>B.</strong> Değer zinciri</li><li><strong>C.</strong> E-iş</li><li><strong>D.</strong> Değişim mühendisliği</li><li><strong>E.</strong> Tedarik zinciri</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Arz-talep dengesi</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>2. Veri, Bilgi, Bilişim ve Bilgi Hiyerarşisi</h2>
+        <p>Bu derste en temel ayrımlardan biri veri, bilgi, bilişim ve bilgelik gibi kavramların birbirine karıştırılmamasıdır. Veri, gözlem veya kayıt sonucunda elde edilen ham unsurlardır. Bilgi ise bu verilerin işlenmesi, anlamlandırılması ve karar vermede kullanılabilir hâle gelmesidir.</p><p>Bilişim kavramı, bilgi ile ilgili üretme, işleme, dönüştürme, iletme ve kullanma faaliyetlerinin tümünü kapsar. Bu yüzden sadece bilgisayarla yapılan işlemler olarak düşünülmemelidir. Bilgi hiyerarşisinde veri alt düzeyde yer alırken bilgi, üst-bilgi ve bilgelik daha üst soyutlama düzeylerini temsil eder.</p><p>Sınavda bu başlık genelde kavram sorusu şeklinde gelir. Sorular kısa görünse de kavramların sınırlarını net bilmek gerekir.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>Veri ham girdidir; bilgi ise anlamlandırılmış veridir.</li><li>Bilişim, bilgiyle ilgili faaliyetler bütünüdür.</li><li>Bilgi hiyerarşisinde eğitim bir katman değildir; veri, bilgi, üst-bilgi ve bilgelik temel düzeylerdir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi gözlemler sonucunda elde edilebilir?</p>
+        <ol class="options"><li><strong>A.</strong> Analiz</li><li><strong>B.</strong> Bilgi</li><li><strong>C.</strong> Veri</li><li><strong>D.</strong> Üst bilgi</li><li><strong>E.</strong> Bilişim</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Veri</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi bilgi hiyerarşisinin bir katmanı değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Üst-bilgi</li><li><strong>B.</strong> Bilgi</li><li><strong>C.</strong> Bilgelik</li><li><strong>D.</strong> Veri</li><li><strong>E.</strong> Eğitim</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Eğitim</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Bilişim ile ilgili aşağıdaki ifadelerden hangisi doğrudur?</p>
+        <ol class="options"><li><strong>A.</strong> Bilişim, bilgisayarların bilim için kullanılmasıdır.</li><li><strong>B.</strong> Bilişim, bilgi ile ilgili faaliyetler bütünüdür.</li><li><strong>C.</strong> Bilişim, bilgi ve iletişim kelimelerinden türemiş bir kavramdır.</li><li><strong>D.</strong> Bilişim, bilgisayarlarla gerçekleştirilen haberleşme olarak tanımlanır.</li><li><strong>E.</strong> Bilişim, bilimsel işletmecilik faaliyetleridir.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> B — Bilişim, bilgi ile ilgili faaliyetler bütünüdür.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi, bilgi ve sistem teorisi bağlamında “bilgi“ olarak tanımlanabilir?</p>
+        <ol class="options"><li><strong>A.</strong> Verinin işlenerek anlamlı hâle getirilmiş hâli</li><li><strong>B.</strong> İşlenmemiş ve ham veri</li><li><strong>C.</strong> Bir sistemin tecrübeleri, tepkileri ve anlayışı</li><li><strong>D.</strong> Bilginin paylaşımı ve kullanımı ile ilgili bilim dalı</li><li><strong>E.</strong> Bilinenler bütünü ve bilgiler arasındaki ilişkiler</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Verinin işlenerek anlamlı hâle getirilmiş hâli</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Bilginin üretilmesi, dönüştürülmesi, paylaşılması ve kullanımı ile ilgili belirli bir anlayışa sahip olmak …… olarak tanımlanır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</p>
+        <ol class="options"><li><strong>A.</strong> yönetim okuryazarlığı</li><li><strong>B.</strong> sosyal okuryazarlık</li><li><strong>C.</strong> bilgisayar okuryazarlığı</li><li><strong>D.</strong> bilişim okuryazarlığı</li><li><strong>E.</strong> teknoloji okuryazarlığı</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — bilişim okuryazarlığı</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>3. Bilişim Toplumu, Bilgi Toplumu ve Bilgi Çalışanları</h2>
+        <p>Kurumsal bilgi sistemleri yalnızca işletme içi süreçleri değil, toplumsal dönüşümü de etkiler. Bilişim toplumu; iş yapma biçimlerinin, iletişim kanallarının, kültürel yapının ve birey becerilerinin bilgiye dayalı dinamiklerle değiştiği toplumsal yapıyı ifade eder.</p><p>Bilgi çalışanları ise rutin fiziksel üretimden çok bilgi üretme, tasarlama, çözüm geliştirme ve uzmanlık oluşturma faaliyetleri yürütür. Mühendisler, analistler ve tasarımcılar bu gruba örnek verilebilir.</p><p>Bu başlıkta bilişim okuryazarlığı kavramı da önemlidir. Bilgiyi üretme, dönüştürme, paylaşma ve kullanma konusunda bilinçli bir anlayışa sahip olmak kurumsal sistemlerin etkin kullanımı açısından belirleyicidir.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>Bilişim toplumu bilgiye dayalı toplumdur ve sosyal yapıyı dönüştürür.</li><li>Bilgi çalışanları fiziksel emekten çok uzmanlığa, tasarıma ve bilgi üretimine dayanır.</li><li>Bilişim okuryazarlığı yalnızca cihaz kullanmayı değil, bilgi süreçlerini anlamayı içerir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Bilişim toplumuyla ilgili aşağıdaki ifadelerden hangisi doğrudur?</p>
+        <ol class="options"><li><strong>A.</strong> Bilişim toplumu serbestçe haberleşen toplumdur.</li><li><strong>B.</strong> Bilişim toplumu bilgiye dayalı toplumdur.</li><li><strong>C.</strong> Bilişim toplumu iyi eğitimli bireylerden oluşur.</li><li><strong>D.</strong> Bilişim toplumu bilime dayalı toplumdur.</li><li><strong>E.</strong> Bilişim toplumu bilim insanlarından oluşur.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> B — Bilişim toplumu bilgiye dayalı toplumdur.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">“Bilgiye dayalı dinamiklerin toplumdaki iş yapma şekli, yaşam, kültürel özellikler, bireylerin becerileri gibi sosyal yapıları kökten değiştiren faktörlerin bir toplamı” ifadesi aşağıdaki kavramlardan hangisini en doğru şekilde tanımlar?</p>
+        <ol class="options"><li><strong>A.</strong> Bilişim toplumu</li><li><strong>B.</strong> Sanal toplum</li><li><strong>C.</strong> İleri toplum</li><li><strong>D.</strong> Veri toplumu</li><li><strong>E.</strong> Bilgi toplumu</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Bilişim toplumu</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Ürün veya hizmet tasarlayan mühendisler aşağıdakilerden hangi grupta tanımlanabilir?</p>
+        <ol class="options"><li><strong>A.</strong> Veri üreticileri</li><li><strong>B.</strong> Hizmet çalışanları</li><li><strong>C.</strong> Üretim danışmanları</li><li><strong>D.</strong> Süreç uzmanları</li><li><strong>E.</strong> Bilgi çalışanları</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Bilgi çalışanları</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Bilginin üretilmesi, dönüştürülmesi, paylaşılması ve kullanımı ile ilgili belirli bir anlayışa sahip olmak …… olarak tanımlanır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</p>
+        <ol class="options"><li><strong>A.</strong> yönetim okuryazarlığı</li><li><strong>B.</strong> sosyal okuryazarlık</li><li><strong>C.</strong> bilgisayar okuryazarlığı</li><li><strong>D.</strong> bilişim okuryazarlığı</li><li><strong>E.</strong> teknoloji okuryazarlığı</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — bilişim okuryazarlığı</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>4. İşletme Düzeyleri ve Desteklenen Sistem Türleri</h2>
+        <p>Kurumsal bilgi sistemleri işletmenin tüm düzeylerinde aynı türde kullanılmaz. Operasyonel düzeyde günlük işlemleri destekleyen sistemler ön plandadır. Orta yönetim düzeyinde raporlama, analiz ve karar desteği öne çıkar. Stratejik düzeyde ise üst yönetime daha özet, geleceğe dönük ve yönlendirici bilgiler sunulur.</p><p>Bu nedenle aynı sistem her kademede aynı rolü oynamaz. Günlük ticari faaliyetler operasyonel sistemlerle daha kolay desteklenirken, stratejik planlar için yönetici destek sistemleri ve daha üst düzey analiz araçları gerekir.</p><p>Sınavlarda özellikle &#x27;hangi süreç operasyonel düzeyde daha çok desteklenir&#x27; ya da &#x27;hangi sistem stratejik yöneticiye yardımcı olur&#x27; biçiminde sorular çıkar.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>Günlük ticari faaliyetler operasyonel sistemlerle en yüksek düzeyde desteklenir.</li><li>Yönetici destek sistemleri stratejik düzeye yöneliktir.</li><li>Kurumsal sistemler stratejik düzeyden operasyonel düzeye kadar bilgi akışı kurabilir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıda belirtilen hangi işletme sürecinin operasyonel düzeyde bilişim sistemleri tarafından desteklenebilirliği daha yüksektir?</p>
+        <ol class="options"><li><strong>A.</strong> Günlük ticari faaliyetler</li><li><strong>B.</strong> Stratejik bakış açısı ve misyon çalışmaları</li><li><strong>C.</strong> İşletmenin kuruluş yeri seçimi ile ilgili çalışmalar</li><li><strong>D.</strong> Yatırım planlamaları</li><li><strong>E.</strong> Uzun dönemli kapasite planlaması</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Günlük ticari faaliyetler</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi işletmenin stratejik düzeyindeki yöneticilere yardımcı olan bilişim sistemlerindendir?</p>
+        <ol class="options"><li><strong>A.</strong> Ofis otomasyon sistemleri</li><li><strong>B.</strong> Operasyonel bilgi sistemleri</li><li><strong>C.</strong> Yönetici destek sistemleri</li><li><strong>D.</strong> Karar destek sistemleri</li><li><strong>E.</strong> Stok kontrol sistemleri</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Yönetici destek sistemleri</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdaki işletme süreçlerinden hangisinin operasyonel düzeydeki bilişim sistemleri tarafından desteklenebilirliği daha yüksektir?</p>
+        <ol class="options"><li><strong>A.</strong> Stratejik plan çalışmaları</li><li><strong>B.</strong> İşletmenin kuruluş yeri seçimi ile ilgili çalışmalar</li><li><strong>C.</strong> Uzun dönemli kapasite planlaması</li><li><strong>D.</strong> Yatırım planlamaları</li><li><strong>E.</strong> Günlük ticari faaliyetler</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Günlük ticari faaliyetler</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>5. BT Altyapısı, Entegrasyon ve Bütünleşik Yapılar</h2>
+        <p>Bir kurum içindeki farklı bölümler tarafından ortak kullanılan donanım, yazılım, ağ ve veri kaynakları bilişim teknolojileri altyapısını oluşturur. Bu altyapı, kurumsal bilgi sistemlerinin üzerinde çalıştığı temel zemindir.</p><p>Entegrasyon ise yalnızca teknik bağlantı kurmak değildir; veri paylaşımı, süreç uyumu ve örgütsel iş birliği sağlamaktır. Eski ve yeni sistemlerin birlikte kullanılabildiği paralel strateji, geçiş risklerini azaltmak için tercih edilebilir. Bütünleşik yapılar sayesinde süreçler birlikte çalışır ve verimlilik artar.</p><p>Ancak entegrasyon teknik olduğu kadar sosyal bir süreçtir. Liderlik, değişim yönetimi, örgütsel yapı ve gruplar arası etkileşim başarıyı doğrudan etkiler.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>BT altyapısı ortak kullanılan teknoloji kaynaklarının bütünüdür.</li><li>Paralel strateji eski ve yeni sistemin aynı anda kullanılmasıdır.</li><li>Entegrasyonun başarısında teknik uyum kadar sosyal faktörler de önemlidir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Bütünleşik yapılar işletmelerin çeşitli süreçlerinin birlikte çalışmasını sağlarken diğer yandan ………. da sağlar. Yukarıdaki cümledeki boşluğa aşağıdakilerden hangisi getirilmelidir?</p>
+        <ol class="options"><li><strong>A.</strong> tanınırlığın artmasını</li><li><strong>B.</strong> zaman kullanımının artmasını</li><li><strong>C.</strong> işgücünün artmasını</li><li><strong>D.</strong> motivasyonun artmasını</li><li><strong>E.</strong> verimliliğin artmasını</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — verimliliğin artmasını</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi bir kurum içindeki çeşitli bölümler tarafından ortak kullanılan bilgi teknolojisi kaynaklarını tanımlar?</p>
+        <ol class="options"><li><strong>A.</strong> Bilişim teknolojileri altyapısı</li><li><strong>B.</strong> Yönetim bilişim sistemleri planı</li><li><strong>C.</strong> Operasyonel sistem</li><li><strong>D.</strong> İş altyapısı</li><li><strong>E.</strong> İşletmedeki bilgi ağı</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Bilişim teknolojileri altyapısı</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Sistem entegrasyonunda paralel strateji ne anlama gelmektedir?</p>
+        <ol class="options"><li><strong>A.</strong> Yeni sistemin sadece bir departmanda uygulanması</li><li><strong>B.</strong> Eski sistemin tamamen kapatılması ve yeni sisteme geçilmesi</li><li><strong>C.</strong> Yeni sistemin dış kaynak kullanımı ile uygulanması</li><li><strong>D.</strong> Yeni sistemin aşama aşama uygulanması</li><li><strong>E.</strong> Eski ve yeni sistemin aynı anda kullanılması</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Eski ve yeni sistemin aynı anda kullanılması</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">İşletmenin örgütsel düzeyleri için farklı bilişim sistemlerinin bilgi paylaşımı yapacak şekilde kullanılması… Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</p>
+        <ol class="options"><li><strong>A.</strong> dijital işletme olmak için bir gereksinim değildir.</li><li><strong>B.</strong> teknolojik olarak karmaşık ve yüksek maliyetlidir.</li><li><strong>C.</strong> yöneticilerin tekrar eğitilmelerini gerektirmez.</li><li><strong>D.</strong> örgütsel bürokrasinin bir parçasıdır.</li><li><strong>E.</strong> sunucu bilgisayarların kullanımını gerektirir.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> B — teknolojik olarak karmaşık ve yüksek maliyetlidir.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi bilişim sisteminin entegrasyonunu başarıya götürebilecek sosyal faktörlerden biri değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Gruplar arası sosyal dinamikler</li><li><strong>B.</strong> Müşteri ilişkileri yönetimi</li><li><strong>C.</strong> Yöneticinin liderlik özellikleri</li><li><strong>D.</strong> Değişimin yönetimi</li><li><strong>E.</strong> Örgütsel yapı</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> B — Müşteri ilişkileri yönetimi</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>6. E-İş, Dijital İşletme ve Ağlarla Bağlı Organizasyonlar</h2>
+        <p>E-iş, işletme süreçlerinin dijital hâle getirilmesini ifade eder. Bu kavram sadece uzaktan çalışma ya da bilgisayarla iş yapma anlamına gelmez; asıl vurgu süreçlerin elektronik ortamda yürütülmesi ve yeniden tasarlanmasıdır.</p><p>Bilgi işlem gücündeki artış, ağ altyapılarının büyümesi ve internetin yaygınlaşması işletmeler arasında ağ temelli ilişkiler kurulmasına neden olmuştur. Böylece işletmeler müşterileri, tedarikçileri ve iş ortaklarıyla daha yakın ve anlık etkileşim kurabilir hâle gelmiştir.</p><p>Dijitalleşme işletmelere hız, esneklik ve veri temelli koordinasyon avantajı sağlar; fakat aynı zamanda süreçleri yeniden düzenleme ihtiyacını da doğurur.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>E-iş, işletme süreçlerinin dijitalleşmesidir.</li><li>Ağlarla birbirine bağlı işletmeler bilgi işlem gücü ve internetin büyümesiyle yaygınlaşmıştır.</li><li>Dijital işletme yapısı bilgi paylaşımını artırırken süreç yeniden tasarımını da gerekli kılar.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi eiş kavramının tanımına uymaktadır?</p>
+        <ol class="options"><li><strong>A.</strong> İşletmedeki mühendislerin kullandığı sistemlerdir.</li><li><strong>B.</strong> Çalışanların uzaktan iş yapmasını sağlayan sistemdir.</li><li><strong>C.</strong> İşlerin bilgisayarlarla yapılıyor olmasıdır.</li><li><strong>D.</strong> İşletme süreçlerinin dijital hale gelmesidir.</li><li><strong>E.</strong> İsrafın önlenmesini sağlayan &#x27;Elenen İşler&#x27; yaklaşımıdır.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — İşletme süreçlerinin dijital hale gelmesidir.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Bilgi sistemleri ve işletmeler arasındaki ilişkide büyük bir değişiklik olarak………. . Yukarıdaki cümledeki boşluğa aşağıdakilerden hangisi getirilmelidir?</p>
+        <ol class="options"><li><strong>A.</strong> tüm çalışan gruplarında bilgi sistemlerine ilgi arttı</li><li><strong>B.</strong> iki işletme arasındaki rekabet arttı</li><li><strong>C.</strong> yeni organizasyonların eskilerine göre daha avantajlı olduğu gerçeği ortaya çıktı</li><li><strong>D.</strong> yönetim bilgi sistemleri geçmişte olduğundan daha kapsamlı hale geldi</li><li><strong>E.</strong> ana bilgisayar sistemlerine bağımlılık azaldı</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — yönetim bilgi sistemleri geçmişte olduğundan daha kapsamlı hale geldi</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Bilgi işlem gücündeki artış ve internet gibi bilişim ağlarındaki büyüme, aşağıdaki yapılardan hangisinin ortaya çıkmasına neden olmuştur?</p>
+        <ol class="options"><li><strong>A.</strong> Bilişim ağlarıyla birbirine bağlı işletmeler</li><li><strong>B.</strong> Müşteri temelli organizasyonlar</li><li><strong>C.</strong> Tedarikçilere ilişkin sendikalar</li><li><strong>D.</strong> Bürokratik yönetim sistemleri</li><li><strong>E.</strong> Kâr amacı gütmeyen kurumlar</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Bilişim ağlarıyla birbirine bağlı işletmeler</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>7. Değer Zinciri, Değer Ağları ve Kurumsal Analiz</h2>
+        <p>Değer zinciri, bir işletmenin girdi tedarikinden satış sonrası hizmete kadar müşteriye değer üreten faaliyetlerinin dizisidir. Ancak günümüz işletmelerinde değer çoğu zaman yalnızca tek bir işletmenin içinde oluşmaz; farklı aktörlerin değer zincirleri birleşerek değer ağlarını oluşturur.</p><p>Kurumsal analiz işletmenin iş süreçlerini, yapısını ve işleyişini incelerken; stratejik analiz daha çok amaçlar, rekabet ve uzun dönemli yönelim üzerinde yoğunlaşır. Bu ayrım sınavda sık sorulur.</p><p>Ürün yaşam süresi ve görünen-görünmeyen faydalar da bu bölümle ilişkilidir. Kurumsal sistemler sadece gelir artışı gibi somut yararlar değil, memnuniyet ve koordinasyon gibi dolaylı yararlar da üretir.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>Değer ağları birden fazla değer zincirinin birlikte oluşturduğu yapıdır.</li><li>Kurumsal analiz süreçlere, stratejik analiz amaçlara ve rekabete daha çok odaklanır.</li><li>Kurumsal sistemlerin görünmeyen faydaları çoğu zaman görünür faydalardan daha yüksek olabilir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Ürün yaşam süresi kavramı, belirli bir ürünün pazardaki talebi karşılayacak şekilde üretiminin artmasını, belirli bir süre sonra pazardaki doygunluktan dolayı üretimin sabit hâle gelmesini ve daha sonra yeni bir ürünün ikame olarak pazara girişiyle üretiminin azalarak ortadan kalkmasıyla yaşamını sonlandırmasını tanımlamak için kullanılır. Aşağıdaki ürünlerden hangisinin yaşam süresi diğerlerinden daha fazladır?</p>
+        <ol class="options"><li><strong>A.</strong> Televizyon</li><li><strong>B.</strong> Cep telefonu</li><li><strong>C.</strong> Radyo</li><li><strong>D.</strong> Oyun konsolu</li><li><strong>E.</strong> Bilgisayar</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Radyo</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Kurumsal bilgi sistemlerinin işletmeler için ortaya çıkardığı görünen (gelir vb) ve görünmeyen (memnuniyet vb) fayda için aşağıdakilerden hangisi doğrudur?</p>
+        <ol class="options"><li><strong>A.</strong> Sistemin görünen faydası görünmeyen faydasından düşüktür.</li><li><strong>B.</strong> Sistem eşit düzeyde görünen ve görünmeyen fayda ortaya çıkarır.</li><li><strong>C.</strong> Sistemin görünen faydası görünmeyen faydasından fazladır.</li><li><strong>D.</strong> Sistemin ortaya çıkardığı faydanın tümü görünür faydadır.</li><li><strong>E.</strong> Sistemin ortaya çıkardığı faydanın tümü görünmeyen faydadır.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Sistemin görünen faydası görünmeyen faydasından düşüktür.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Değer ağları aşağıdakilerden hangisini ifade etmektedir?</p>
+        <ol class="options"><li><strong>A.</strong> Sadece tedarikçilerden oluşan bir ağ</li><li><strong>B.</strong> Bir işletmenin kendi içindeki değer zinciri</li><li><strong>C.</strong> Birden fazla değer zincirinin bir araya gelmesiyle oluşan yapı</li><li><strong>D.</strong> Sadece rakiplerden oluşan bir ağ</li><li><strong>E.</strong> Sadece müşterilerden oluşan bir ağ</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Birden fazla değer zincirinin bir araya gelmesiyle oluşan yapı</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Kurumsal analiz ve stratejik analiz arasındaki temel fark aşağıdakilerden hangisidir?</p>
+        <ol class="options"><li><strong>A.</strong> Kurumsal analiz sadece veri toplamaya odaklanırken stratejik analiz veri analizine odaklanır.</li><li><strong>B.</strong> Kurumsal analiz sadece iş süreçlerine odaklanırken stratejik analiz işletmenin amaçlarına odaklanır.</li><li><strong>C.</strong> Stratejik analiz sadece üst yönetim tarafından yapılırken kurumsal analiz tüm çalışanlar tarafından yapılabilir.</li><li><strong>D.</strong> Kurumsal analiz sadece teknolojiye odaklanırken stratejik analiz işletmenin tüm kaynaklarına odaklanır.</li><li><strong>E.</strong> Stratejik analiz sadece büyük işletmeler için uygunken kurumsal analiz tüm işletmeler için uygundur.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> B — Kurumsal analiz sadece iş süreçlerine odaklanırken stratejik analiz işletmenin amaçlarına odaklanır.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>8. Tedarik Zinciri Yönetimi ve Lojistik İlişkisi</h2>
+        <p>Tedarik zinciri, hammaddenin kaynağından başlayarak nihai müşteriye kadar uzanan malzeme, bilgi ve finans akışlarını kapsar. Lojistik ise bu bütünün içinde taşıma, depolama, akış ve dağıtım gibi daha dar faaliyetlere odaklanır.</p><p>Bu nedenle tedarik zinciri yönetimi lojistiği kapsayan daha geniş bir anlayıştır. Etkin bir tedarik zincirinde amaç sadece ana işletmenin kârını artırmak değil; zincirin tümünde ortaya çıkan toplam değeri artırmaktır.</p><p>Talep değişkenliği, kırbaç etkisi, belirsizlik ve koordinasyon eksikliği bu alandaki temel problem başlıklarıdır. Özellikle müşteri talebindeki küçük değişimlerin zincir boyunca büyüyerek daha büyük dalgalanmalar yaratması sınav mantığında önemlidir.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>Lojistik, tedarik zinciri yönetiminin bir alt kümesi gibi düşünülebilir.</li><li>Tedarik zincirinin temel amacı zincirin toplam değerini artırmaktır.</li><li>Belirsizlik ve kırbaç etkisi çoğu zaman talep değişkenliğiyle ilişkilidir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi lojistik ile tedarik zinciri yönetimi arasındaki ilişkiyi açıklar?</p>
+        <ol class="options"><li><strong>A.</strong> Tedarik zinciri yönetimi, lojistiği kapsayan faaliyetler bütünüdür.</li><li><strong>B.</strong> Lojistik ile tedarik zinciri yönetiminin bir ilişkisi yoktur, farklı faaliyetleri kapsarlar.</li><li><strong>C.</strong> Tedarik zinciri yönetimi stoklarla ilgiliyken lojistik nakliye ile ilgilidir.</li><li><strong>D.</strong> Lojistik ile tedarik zinciri yönetimi aynı anlamda kullanılır.</li><li><strong>E.</strong> Lojistik, tedarik zinciri yönetimini kapsayan faaliyetler bütünüdür.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Tedarik zinciri yönetimi, lojistiği kapsayan faaliyetler bütünüdür.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Bozulma kavramı tedarik zinciri yönetiminde ne anlama gelmektedir?</p>
+        <ol class="options"><li><strong>A.</strong> Tedarik zincirini daha karmaşık hâle getirmek</li><li><strong>B.</strong> Ürün çeşitliliğini azaltmak</li><li><strong>C.</strong> Nakliye maliyetlerini artırmak</li><li><strong>D.</strong> Tedarik zincirindeki bir veya daha fazla basamağı azaltmak</li><li><strong>E.</strong> Daha fazla stok bulundurmak</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — Tedarik zincirindeki bir veya daha fazla basamağı azaltmak</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Kırbaç etkisi, tedarik zinciri yönetimindeki önemli konulardan biridir. Aşağıdakilerden hangisi bu etkinin oluşmasının nedenlerinden biridir?</p>
+        <ol class="options"><li><strong>A.</strong> Ürüne olan talepteki değişkenlik</li><li><strong>B.</strong> Kalitenin tedarik zincirindeki değişkenliği</li><li><strong>C.</strong> Çalışanların kariyer hedeflerindeki değişiklikler</li><li><strong>D.</strong> Ham maddenin gereğinden fazla satın alınmış olması</li><li><strong>E.</strong> Yöneticinin bilişim sistemleri konusundaki bilgi yetersizliği</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Ürüne olan talepteki değişkenlik</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi bir tedarik zincirinde belirsizliğe neden olur?</p>
+        <ol class="options"><li><strong>A.</strong> Ürün çeşitliliğinin azalması</li><li><strong>B.</strong> Müşteri taleplerindeki değişkenlik</li><li><strong>C.</strong> Üretim hatlarındaki hız</li><li><strong>D.</strong> Ham madde kalitesinin artması</li><li><strong>E.</strong> Depolanan yarı mamul miktarının artması</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> B — Müşteri taleplerindeki değişkenlik</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Tedarik zincirinin temel amacı aşağıdakilerden hangisiyle açıklanabilir?</p>
+        <ol class="options"><li><strong>A.</strong> Ham madde kullanımını en yüksek düzeye ulaştırmak</li><li><strong>B.</strong> Ana işletmenin kârlılığını artırmak</li><li><strong>C.</strong> Müşterilerin pozitif geri bildirimlerinin sosyal medyada görünürlüğünü sağlamak</li><li><strong>D.</strong> Zincirin tümünde ortaya çıkan toplam değeri artırmak</li><li><strong>E.</strong> Zaman kullanımını en aza indirmek</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — Zincirin tümünde ortaya çıkan toplam değeri artırmak</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>9. Yeşil, Soğuk, Küresel ve Kapalı Döngü Tedarik Zincirleri</h2>
+        <p>Kurumsal bilgi sistemleri tedarik zincirinin özel türlerinde daha da kritik hâle gelir. Yeşil tedarik zinciri, zincir boyunca çevreye verilen zararı azaltmayı hedefler. Soğuk tedarik zinciri ise sıcaklık kontrolünün kritik olduğu ürünlerde kullanılır.</p><p>Küresel tedarik zincirlerinde dil, kültür, siyasal risk ve döviz dalgalanmaları gibi zorluklar görülür. Kapalı döngü tedarik zincirinde ise yalnızca ileri akış değil, geri dönüş ve tersine lojistik de yönetilir.</p><p>Bu başlıklar, klasik tanımların ötesinde sürdürülebilirlik ve geri akış mantığını anlamayı gerektirir. Sorular genelde tanımı doğru eşleştirme şeklinde gelir.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>Yeşil tedarik zinciri çevresel zararın azaltılmasına odaklanır.</li><li>Soğuk tedarik zinciri sağlık gibi sektörlerde yoğun kullanılır.</li><li>Kapalı döngü tedarik zinciri ileri ve geri lojistiğin birlikte yönetilmesini içerir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi yeşil tedarik zincirleri için doğru bir ifadedir?</p>
+        <ol class="options"><li><strong>A.</strong> Tedarikçilerin içinde bulunmak isteyecekleri tedarik zincirleri &#x27;yeşil&#x27; diğerleri &#x27;kırmızı&#x27;dır.</li><li><strong>B.</strong> Tarım endüstrisindeki tedarik zincirleri &#x27;yeşil&#x27; olarak tanımlanır.</li><li><strong>C.</strong> Gıda endüstrisindeki tedarik zincirleri &#x27;yeşil&#x27; olarak tanımlanır.</li><li><strong>D.</strong> Sağlık tedarik zincirleri hijyen ürünlerin üretimini içerdiğinden &#x27;yeşil&#x27; olarak adlandırılır.</li><li><strong>E.</strong> Zincir boyunca çevreye verilen zararın en aza indirilmesi tedarik zincirini &#x27;yeşil&#x27; yapar.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Zincir boyunca çevreye verilen zararın en aza indirilmesi tedarik zincirini &#x27;yeşil&#x27; yapar.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi küresel tedarik zincirlerinin yönetimindeki zorluklardan biri değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Nakliye maliyetlerinin yüksek olması</li><li><strong>B.</strong> Dil ve kültür farklılıkları</li><li><strong>C.</strong> Çalışanların eğitim eksikliği</li><li><strong>D.</strong> Döviz kurlarındaki dalgalanmalar</li><li><strong>E.</strong> Siyasi değişkenlikler</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Çalışanların eğitim eksikliği</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Aşağıdaki endüstrilerden hangisinde soğuk tedarik zinciri yönetimi uygulamaları diğerlerinden daha yoğun olarak kullanılır?</p>
+        <ol class="options"><li><strong>A.</strong> Eğlence</li><li><strong>B.</strong> Tarım</li><li><strong>C.</strong> İnşaat</li><li><strong>D.</strong> Sağlık</li><li><strong>E.</strong> Enerji</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — Sağlık</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Kapalı döngü tedarik zinciri, aşağıdakilerden hangisini ifade etmektedir?</p>
+        <ol class="options"><li><strong>A.</strong> Sadece yerel tedarikçilerle çalışılan bir sistem</li><li><strong>B.</strong> Teknolojik olarak tamamen entegre bir sistem</li><li><strong>C.</strong> Sadece büyük işletmelerin kullanabildiği bir sistem</li><li><strong>D.</strong> Üreticinin hem ileri hem de geri lojistiği kontrol ettiği bir sistem</li><li><strong>E.</strong> Tedarik zincirinde geri dönüşlerin olmadığı bir sistem</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — Üreticinin hem ileri hem de geri lojistiği kontrol ettiği bir sistem</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>10. Kurumsal Kaynak Planlaması (KKP / ERP)</h2>
+        <p>Kurumsal kaynak planlaması, işletmenin farklı fonksiyonlarını tek bir veri ve süreç bütünlüğü içinde bir araya getiren sistemler bütünüdür. Üretim, insan kaynakları, pazarlama ve finans gibi temel alanlar bu sistemler içinde koordineli biçimde çalışır.</p><p>ERP sistemleri yalnızca bilgi depolamaz; kaynak kullanımını iyileştirir, süreç tekrarlarını azaltır ve yönetsel görünürlük sağlar. Bu nedenle işletmenin kaynaklarının daha verimli kullanılmasını destekler.</p><p>Sınavlarda ERP&#x27;nin kapsamı, hangi fonksiyonları içerdiği ve ne tür faydalar sağladığı sıklıkla sorulur. Araştırma-geliştirme gibi her alanın çekirdek modül içinde yer almayabileceği unutulmamalıdır.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>ERP, temel işletme fonksiyonlarını ortak veri yapısında buluşturur.</li><li>Amaç yalnızca otomasyon değil, kaynakların verimli kullanılmasıdır.</li><li>ERP projeleri teknik olduğu kadar yönetsel destek de gerektirir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Vize</div>
+        <p class="qtext">Aşağıdakilerden hangisi tümüyle entegre edilmiş bir KKP (Kurumsal Kaynak Planlaması) sistemindeki fonksiyonlardan biri değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Üretim</li><li><strong>B.</strong> İnsan kaynakları</li><li><strong>C.</strong> Araştırma ve geliştirme</li><li><strong>D.</strong> Pazarlama</li><li><strong>E.</strong> Finans</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Araştırma ve geliştirme</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Kurumsal kaynak planlaması ile ilgili aşağıdakilerden hangisi doğrudur?</p>
+        <ol class="options"><li><strong>A.</strong> Yalnızca müşteri isteklerinin ortaya çıkmasıyla ilgili analizleri yapar.</li><li><strong>B.</strong> Çalışanların memnuniyetini artırmak üzere çalışır.</li><li><strong>C.</strong> Yönetsel desteğe ihtiyaç duymaz ve teknik olarak desteklenmesi yeterlidir.</li><li><strong>D.</strong> İşletmenin kaynaklarının daha verimli kullanımını sağlar.</li><li><strong>E.</strong> İşletmenin örgütsel tasarımına odaklanır.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — İşletmenin kaynaklarının daha verimli kullanımını sağlar.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi bir işletmenin kurumsal bilgi sistemlerine sahip olmasına ilişkin yollardan biri değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Çalışanların oluşturduğu bir sistemi kullanmak</li><li><strong>B.</strong> Bu servisi veren bir sağlayıcıdan kiralamak</li><li><strong>C.</strong> Bu konuda uzman bir işletmeye yaptırmak</li><li><strong>D.</strong> Pazardaki hazır ürünlerden birini satın almak</li><li><strong>E.</strong> Rakip işletmelerden birinin yazılımını kopyalamak</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Rakip işletmelerden birinin yazılımını kopyalamak</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>11. Müşteri İlişkileri Yönetimi (MİY / CRM)</h2>
+        <p>Müşteri ilişkileri yönetimi, müşteriyle uzun vadeli ve kârlı ilişki kurmayı amaçlayan stratejik bir yaklaşımdır. Bu alan sadece satış ve şikâyet takibi olarak görülmemelidir; müşteri verilerinin toplanması, analiz edilmesi, segmentasyon yapılması ve temas noktalarının yönetilmesi gibi boyutlar içerir.</p><p>Operasyonel MİY uygulamaları müşteriye temas edilen süreçleri otomatikleştirirken, analitik MİY veri ambarı ve veri madenciliği gibi araçlarla müşteri davranışlarını anlamaya çalışır. Stratejik MİY ise tüm işletmeyi müşteri merkezli bakışla hizalar.</p><p>MİY projelerinde teknoloji önemlidir; ancak başarı yalnızca teknolojiyle gelmez. Şirket yapısına uyum, kültürel değişim, veri kalitesi ve doğru hedefleme de belirleyicidir.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>MİY müşteri merkezli bir stratejidir.</li><li>Operasyonel MİY süreç otomasyonu sağlar; analitik MİY veri çözümlemesine odaklanır.</li><li>Müşteri segmentasyonu demografik özellikler ve satın alma alışkanlıkları gibi kriterlerle yapılabilir.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">MİY uygulamalarında teknolojinin rolü aşağıdakilerden hangisidir?</p>
+        <ol class="options"><li><strong>A.</strong> Müşteri ile tüm iletişimi sağlamak</li><li><strong>B.</strong> Ürün ve hizmetleri tasarlamak</li><li><strong>C.</strong> Müşteri verilerini toplamak ve analiz etmek</li><li><strong>D.</strong> Şirket kültürünü değiştirmek</li><li><strong>E.</strong> Kârlılığı artırmak</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Müşteri verilerini toplamak ve analiz etmek</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Müşteri ilişkileri yönetimi (MİY) en iyi şekilde aşağıdakilerden hangisiyle tanımlanabilir?</p>
+        <ol class="options"><li><strong>A.</strong> Müşteri şikâyetlerini yönetmek için kullanılan bir sistem</li><li><strong>B.</strong> Sadece büyük işletmelerin kullanabildiği bir teknoloji</li><li><strong>C.</strong> Ürün odaklı bir satış anlayışı</li><li><strong>D.</strong> Sadece satış ve pazarlama faaliyetlerini kapsayan bir yaklaşım</li><li><strong>E.</strong> Müşteriyle uzun vadeli, kârlı ilişki kurmayı hedefleyen bir strateji</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Müşteriyle uzun vadeli, kârlı ilişki kurmayı hedefleyen bir strateji</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Operasyonel MİY uygulamalarının temel amacı aşağıdakilerden hangisidir?</p>
+        <ol class="options"><li><strong>A.</strong> Müşteri ile uzun vadeli stratejiler geliştirmek</li><li><strong>B.</strong> Müşteri ile temas noktalarındaki süreçleri otomatikleştirmek</li><li><strong>C.</strong> Tedarikçi ilişkilerini yönetmek</li><li><strong>D.</strong> Müşteri verilerini toplamak ve analiz etmek</li><li><strong>E.</strong> İşletme performansını ölçmek</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> B — Müşteri ile temas noktalarındaki süreçleri otomatikleştirmek</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Analitik MİY uygulamalarında önemli rol oynayan teknoloji aşağıdakilerden hangisidir?</p>
+        <ol class="options"><li><strong>A.</strong> E-posta</li><li><strong>B.</strong> Web sitesi</li><li><strong>C.</strong> Veri ambarı</li><li><strong>D.</strong> Mobil cihazlar</li><li><strong>E.</strong> Çağrı merkezi</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Veri ambarı</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">MİY projelerinde etkileşim kavramı aşağıdakilerden hangisini ifade etmektedir?</p>
+        <ol class="options"><li><strong>A.</strong> Müşteri verilerinin analizi</li><li><strong>B.</strong> Müşteriye özel tekliflerin geliştirilmesi</li><li><strong>C.</strong> Müşteri ile temas noktalarının sayısı ve çeşitliliği</li><li><strong>D.</strong> Müşteri memnuniyetinin ölçülmesi</li><li><strong>E.</strong> Müşteri verilerinin toplanması</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Müşteri verilerinin toplanması</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">MİY projelerinin başarısı için önemli olan faktör aşağıdakilerden hangisidir?</p>
+        <ol class="options"><li><strong>A.</strong> Projenin şirket yapısına uygun olması</li><li><strong>B.</strong> Projenin kısa vadeli hedeflere odaklanması</li><li><strong>C.</strong> Projenin sadece büyük işletmeler için uygun olması</li><li><strong>D.</strong> Projenin sadece pazarlama odaklı olması</li><li><strong>E.</strong> Projenin sadece teknoloji odaklı olması</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Projenin şirket yapısına uygun olması</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi müşteri ilişkileri yönetiminin amaçlarından biri değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Müşterilerle ilişkilerin yönetimi</li><li><strong>B.</strong> Müşteriye ilişkin analitik çalışmanın yapılması</li><li><strong>C.</strong> Müşteri memnuniyetinin yönetimi</li><li><strong>D.</strong> Paydaşlarla ilişkilerin yönetimi</li><li><strong>E.</strong> Pazarın özelliklerinin tespit edilmesi</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — Paydaşlarla ilişkilerin yönetimi</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">I. Yaş, cinsiyet, gelir gibi demografik özellikler II. Satın alma alışkanlıkları III. Yaşadıkları bölge IV. Kullandıkları iletişim kanalları Müşteriler MİY uygulamalarında yukarıdakilerden hangisi/hangilerine göre kategorize edilirler?</p>
+        <ol class="options"><li><strong>A.</strong> Yalnız I</li><li><strong>B.</strong> Yalnız IV</li><li><strong>C.</strong> Yalnız II</li><li><strong>D.</strong> I ve II</li><li><strong>E.</strong> II ve III</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> D — I ve II</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi müşteri ilişkileri yönetiminin bir konusu değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Müşteri memnuniyetinin sağlanması</li><li><strong>B.</strong> Müşterinin satın alma davranışının anlaşılması</li><li><strong>C.</strong> Müşteri taleplerinin üretim arzı ile sağlanması</li><li><strong>D.</strong> Müşterinin kalite algısının ürün tasarımına yansıtılması</li><li><strong>E.</strong> Müşterilerle ilişkilerde sürekliliğin sağlanması</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Müşteri taleplerinin üretim arzı ile sağlanması</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi MİY uygulamalarında karşılaşılan zorluklardan biridir?</p>
+        <ol class="options"><li><strong>A.</strong> Pazarlama stratejilerinin belirlenmesi</li><li><strong>B.</strong> Müşteri verilerinin toplanması</li><li><strong>C.</strong> Teknolojik altyapının kurulması</li><li><strong>D.</strong> Ürün ve hizmetlerin geliştirilmesi</li><li><strong>E.</strong> Şirket kültürünün değişmesi</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Şirket kültürünün değişmesi</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Kurumsal bilgi sistemlerinin müşteri ilişkileri yönetimine ilişkin çeşitli analizlerin yapılmasına imkân verdiği düşünüldüğünde, hedef pazar için detaylı bilgi aşağıdakilerden hangisi ile elde edilir?</p>
+        <ol class="options"><li><strong>A.</strong> Veri madenciliği</li><li><strong>B.</strong> Finansal denetleme</li><li><strong>C.</strong> Süreç analizi</li><li><strong>D.</strong> Tedarikçi yönetimi</li><li><strong>E.</strong> Değişim mühendisliği</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Veri madenciliği</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Bir işletmenin müşteri ilişkileri yönetimi stratejisi….. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</p>
+        <ol class="options"><li><strong>A.</strong> ürün merkezlidir.</li><li><strong>B.</strong> teknoloji merkezlidir.</li><li><strong>C.</strong> müşteri merkezlidir.</li><li><strong>D.</strong> pazarlama merkezlidir.</li><li><strong>E.</strong> kalite merkezlidir.</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — müşteri merkezlidir.</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section><section class="card">
+        <h2>12. Sistem Geliştirme Yaşam Döngüsü ve Uygulama Başarısı</h2>
+        <p>Kurumsal bilgi sistemlerinin başarısı sadece doğru yazılımı seçmekle sağlanmaz; analiz, tasarım, geliştirme, entegrasyon ve sürdürülebilirlik aşamalarının doğru yönetilmesi gerekir. Geleneksel sistem geliştirme döngüsü bu nedenle dersin önemli parçalarından biridir.</p><p>Test aşamasının amacı sistemin işletme ihtiyaçlarını karşılayıp karşılamadığını görmek ve hataları canlı kullanımdan önce yakalamaktır. Ayrıca sistem edinme biçimi de önemlidir: hazır paket satın alma, dış kaynak kullanımı, uzman firmaya yaptırma veya kiralama gibi seçenekler vardır.</p><p>Başarıyı etkileyen diğer boyutlar ise değişim yönetimi, maliyet, kurum yapısına uyum ve yönetsel sahiplenmedir. Teknik doğruluk tek başına yeterli değildir.</p>
+        <div class="minihead">Bu konuda bilinmesi gerekenler</div>
+        <ul><li>Geleneksel döngü analiz, tasarım, yazılım, entegrasyon ve sürdürülebilirlik sırasını izler.</li><li>Test, sistemin ihtiyacı karşılayıp karşılamadığını doğrulamak içindir.</li><li>Sistem ediniminde etik olmayan yol, rakip yazılımını kopyalamaktır.</li></ul>
+        <div class="minihead">Benzeri Sorular</div>
+        <div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Final</div>
+        <p class="qtext">Sistem geliştirme sürecinde test aşamasının amacı aşağıdakilerden hangisidir?</p>
+        <ol class="options"><li><strong>A.</strong> Sistemin işletmenin ihtiyaçlarını karşılayıp karşılamadığını kontrol etmek</li><li><strong>B.</strong> Sistemin pazarlamasını yapmak</li><li><strong>C.</strong> Sistemin maliyetini hesaplamak</li><li><strong>D.</strong> Sistemin eğitimini vermek</li><li><strong>E.</strong> Sistemin güvenliğini sağlamak</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> A — Sistemin işletmenin ihtiyaçlarını karşılayıp karşılamadığını kontrol etmek</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisi bir işletmenin kurumsal bilgi sistemlerine sahip olmasına ilişkin yollardan biri değildir?</p>
+        <ol class="options"><li><strong>A.</strong> Çalışanların oluşturduğu bir sistemi kullanmak</li><li><strong>B.</strong> Bu servisi veren bir sağlayıcıdan kiralamak</li><li><strong>C.</strong> Bu konuda uzman bir işletmeye yaptırmak</li><li><strong>D.</strong> Pazardaki hazır ürünlerden birini satın almak</li><li><strong>E.</strong> Rakip işletmelerden birinin yazılımını kopyalamak</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Rakip işletmelerden birinin yazılımını kopyalamak</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Aşağıdakilerden hangisinde geleneksel sistem geliştirme döngüsünü oluşturan aşamalar doğru sırayla verilmiştir?</p>
+        <ol class="options"><li><strong>A.</strong> Analiz &gt; Entegrasyon &gt; Sürdürülebilirliğin sağlanması &gt; Tasarım &gt; Yazılım</li><li><strong>B.</strong> Yazılım &gt; Analiz &gt; Tasarım &gt; Sürdürülebilirliğin sağlanması &gt; Entegrasyon</li><li><strong>C.</strong> Sürdürülebilirliğin sağlanması &gt; Entegrasyon &gt; Yazılım &gt; Analiz &gt; Tasarım</li><li><strong>D.</strong> Tasarım &gt; Yazılım &gt; Sürdürülebilirliğin sağlanması &gt; Analiz &gt; Entegrasyon</li><li><strong>E.</strong> Analiz &gt; Tasarım &gt; Yazılım &gt; Entegrasyon &gt; Sürdürülebilirliğin sağlanması</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> E — Analiz &gt; Tasarım &gt; Yazılım &gt; Entegrasyon &gt; Sürdürülebilirliğin sağlanması</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div><div class="qcard">
+        <div class="qbadge">Benzeri Soru • 2023-2024 • Butunleme</div>
+        <p class="qtext">Kamu kurumlarının kurumsal bilgi sistemlerinin hangi özelliğini, işletmelere kıyasla, daha kolay yönettiği görülmektedir?</p>
+        <ol class="options"><li><strong>A.</strong> Yönetim becerisinin artmasına uyum göstermesi</li><li><strong>B.</strong> Kurumsal bilgi sistemlerinin pozitif etkilerinin hemen görülmemesi</li><li><strong>C.</strong> Kurumsal bilgi sistemlerinin maliyetinin yüksek olması</li><li><strong>D.</strong> Örgütsel değişimin gerçekleşmesinin sağlanması</li><li><strong>E.</strong> Müşteri tatmininin sağlanması yönünde çalışmalar yapılması</li></ol>
+        <div class="answer"><strong>Doğru cevap:</strong> C — Kurumsal bilgi sistemlerinin maliyetinin yüksek olması</div>
+        <div class="qnote"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun tanım, kapsam veya kavramsal ayrımını ölçer. Şıklar arasında özellikle kapsamı daraltan ya da yanlış genelleme yapan ifadeler ayıklanmalıdır.</div>
+    </div>
+    </section>
+    </main>
+    <div class="footer">Başarılar Dilerim.</div>
+  </div>
+</body>
+</html>
