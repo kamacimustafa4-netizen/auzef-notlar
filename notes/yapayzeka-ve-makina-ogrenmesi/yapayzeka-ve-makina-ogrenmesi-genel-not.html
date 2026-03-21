@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yapay Zekâ ve Makine Öğrenmesi - Benzeri Sorulu Tam Not</title>
+<style>
+:root {
+  --bg:#f5f7fb;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#5b6472;
+  --primary:#315efb;
+  --primary-soft:#eaf0ff;
+  --border:#dbe3f0;
+  --accent:#0f766e;
+  --accent-soft:#ecfeff;
+  --warn:#7c3aed;
+  --warn-soft:#f3e8ff;
+  --shadow:0 10px 28px rgba(35, 50, 85, 0.08);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  background:linear-gradient(180deg,#f8fbff 0%, #f5f7fb 100%);
+  color:var(--text);
+  line-height:1.72;
+}
+.container{
+  width:min(1080px, calc(100% - 32px));
+  margin:32px auto 56px;
+}
+.hero{
+  background:linear-gradient(135deg,#eef4ff 0%, #ffffff 55%, #f4f8ff 100%);
+  border:1px solid var(--border);
+  border-radius:28px;
+  padding:34px;
+  box-shadow:var(--shadow);
+}
+.hero h1{
+  margin:0 0 12px;
+  font-size:clamp(28px,4vw,42px);
+  line-height:1.18;
+}
+.hero p{margin:0;color:var(--muted);font-size:16px;}
+.notice{
+  margin-top:18px;
+  background:var(--primary-soft);
+  border:1px solid #cfdbff;
+  color:#2444b8;
+  border-radius:18px;
+  padding:16px 18px;
+  font-weight:600;
+}
+.grid{
+  display:grid;
+  gap:18px;
+  grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  margin:24px 0 10px;
+}
+.stat{
+  background:rgba(255,255,255,.82);
+  border:1px solid var(--border);
+  border-radius:20px;
+  padding:18px;
+}
+.stat strong{display:block;font-size:24px;margin-bottom:4px}
+.stat span{color:var(--muted);font-size:14px}
+.topic-card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:26px;
+  padding:28px;
+  box-shadow:var(--shadow);
+  margin-top:22px;
+}
+.topic-card h2{margin:0 0 14px;font-size:28px;line-height:1.25;}
+.topic-card p{margin:0 0 12px;color:#334155}
+.practice-block{
+  margin-top:22px;
+  background:#fbfdff;
+  border:1px solid #e3ebf7;
+  border-radius:22px;
+  padding:20px;
+}
+.practice-block h3{margin:0 0 14px;font-size:20px;}
+.question-card{
+  background:white;
+  border:1px solid #e6edf8;
+  border-radius:18px;
+  padding:18px;
+  margin-top:16px;
+}
+.question-meta{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  align-items:center;
+  margin-bottom:10px;
+}
+.badge{
+  display:inline-flex;
+  align-items:center;
+  padding:7px 11px;
+  border-radius:999px;
+  background:var(--warn-soft);
+  color:var(--warn);
+  font-weight:700;
+  font-size:13px;
+}
+.year{
+  display:inline-flex;
+  align-items:center;
+  padding:7px 11px;
+  border-radius:999px;
+  background:var(--accent-soft);
+  color:var(--accent);
+  font-weight:700;
+  font-size:13px;
+}
+.question-text{margin:0 0 12px;font-weight:700;color:#111827;}
+.options{margin:0 0 12px 0;padding-left:20px;color:#374151;}
+.options li{margin:6px 0}
+.answer-box{
+  background:#f8fbff;
+  border:1px solid #d9e7ff;
+  border-radius:16px;
+  padding:14px;
+}
+.mini-note{margin-top:8px;color:#425466;}
+.footer{
+  margin-top:28px;
+  text-align:center;
+  color:var(--muted);
+  font-weight:700;
+  padding:18px;
+}
+@media (max-width:720px){
+  .container{width:min(100% - 18px,1080px);margin:18px auto 34px}
+  .hero,.topic-card{padding:20px}
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>Yapay Zekâ ve Makine Öğrenmesi</h1>
+      <p>Dersin hem yapay zekâ hem de makine öğrenmesi tarafını birlikte kavratmayı amaçlayan, kavram-temel-pratik dengesine göre düzenlenmiş kapsamlı çalışma notu.</p>
+      <div class="notice">Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.</div>
+      </header>
+    
+    <section class="topic-card">
+      <h2>1. Yapay Zekâya Giriş, Amaç ve Tarihsel Kırılmalar</h2>
+      <p>Yapay zekâ, insan benzeri akıl yürütme, problem çözme, öğrenme ve karar verme süreçlerini makineler üzerinde kurmaya çalışan geniş bir çalışma alanıdır. Ders mantığında yapay zekâ yalnızca kod yazmak ya da bir modeli çalıştırmak değildir; aynı zamanda zekânın ne olduğu, makinenin neyi ne ölçüde taklit ettiği ve insan zekâsına ne kadar yaklaştığı sorularını da içerir. Bu yüzden konunun giriş kısmında hem kavramsal tanımlar hem de tarihsel dönüm noktaları önem kazanır.</p><p>Turing Testi, yapay zekâ düşüncesinin felsefi ve teknik temelini anlamak için en sık kullanılan başlıklardan biridir. Burada asıl soru, makinenin gerçekten bilinçli olup olmamasından önce, dışarıdan gözlenen cevaplarıyla insan gibi davranıp davranamadığıdır. Güçlü yapay zekâ ise bunun bir adım ötesine geçer ve makinenin yalnızca akıllı görünmesini değil, bilinçli biçimde düşünebilmesini tartışır. Bu ayrım sınavlarda tanım soruları olarak sık gelir.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">Turing Testi aşağıda verilen hangi soruya yanıt aramak için geliştirilen bir düşünce deneyidir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Makine bilgi olmadan öğrenebilir mi?</li><li><strong>B)</strong> Makine nasıl düşünür?</li><li><strong>C)</strong> Yapay zeka bize zarar verebilir mi?</li><li><strong>D)</strong> Makine düşünebilir mi?</li><li><strong>E)</strong> Her şeyi bilmek mümkün mü?</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> D) Makine düşünebilir mi?</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soru, yapay zekânın felsefi başlangıç noktasını ölçer. Turing Testi’nin temelinde “makine düşünebilir mi?” sorusu bulunur.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Final</span>
+          </div>
+          <p class="question-text">Aşağıdakilerden hangisi güçlü yapay zekâ kavramını ifade eder?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Makinelerin deneyimden öğrenmesi</li><li><strong>B)</strong> Makinelerin bilinçli olarak düşünmesi</li><li><strong>C)</strong> Makinelerin akıllıymış gibi davranması</li><li><strong>D)</strong> Makinelerin biçimsel olması</li><li><strong>E)</strong> Makinelerin insan gibi hareket etmesi</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> B) Makinelerin bilinçli olarak düşünmesi</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Güçlü yapay zekâ, makinelerin yalnızca insanı taklit etmesini değil, bilinçli biçimde düşünebilmesini ifade eder.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>2. Ajan, Algı, Ortam ve Mantıklı Davranış</h2>
+      <p>Yapay zekâ dersinde ajan kavramı merkezîdir. Ajan; ortamı algılayan, bu algıya göre karar veren ve eylem üreten varlıktır. Bu varlık fiziksel bir robot, bir yazılım ajanı, bir öneri sistemi ya da oyun karakteri olabilir. Ajanın başarısı yalnızca doğru eylemi seçmesine değil, hangi ortamda çalıştığına da bağlıdır. Çünkü tam gözlemlenebilir, yarı gözlemlenebilir, statik, dinamik ya da yarı dinamik ortamlar farklı karar mekanizmaları gerektirir.</p><p>Basit tepki ajanları sadece o anki girdiye tepki verirken, model tabanlı ajanlar geçmişten ya da eksik gözlemden gelen belirsizliği içsel bir durum modeliyle telafi eder. Ders soruları da özellikle hangi ortamda hangi ajan tipinin uygun olacağını yoklar. Bu nedenle algı, eylem, performans ölçütü ve ortam özellikleri birlikte düşünülmelidir.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">Ajanın gözlemlerinin tam olmadığı ortamlarda hangi tür ajan kullanılmaktadır?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Öğrenen</li><li><strong>B)</strong> Hedef Tabanlı</li><li><strong>C)</strong> Basit Tepki</li><li><strong>D)</strong> Model Tabanlı</li><li><strong>E)</strong> Fayda Tabanlı</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> D) Model Tabanlı</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Eksik gözlem durumlarında ajan, sadece anlık girdiye değil içsel bir durum modeline ihtiyaç duyar. Bu yüzden model tabanlı ajan uygundur.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">Aşağıdakilerden hangisi zaman geçtikçe ortamın kendisinin değişmediği, ajanın performansının değiştiği ortam türüdür?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Yarı gözlemlenebilir</li><li><strong>B)</strong> Tam gözlemlenebilir</li><li><strong>C)</strong> Statik</li><li><strong>D)</strong> Yarı dinamik</li><li><strong>E)</strong> Dinamik</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> D) Yarı dinamik</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Yarı dinamik ortamda çevre sabit kalabilir; ancak performans ölçütü zamanla değişebilir. Bu ayrım ajan tasarımında önemlidir.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>3. Problem Temsili, Durum Uzayı ve Arama Mantığı</h2>
+      <p>Bir yapay zekâ problemini çözebilmek için önce problemin nasıl temsil edileceği belirlenir. Başlangıç durumu, hedef durum, izin verilen eylemler ve geçişler tanımlandıktan sonra sistemin ulaşabileceği tüm durumlar bir yapı içinde düşünülür. Bu yapıya durum uzayı denir. Durum uzayı çoğu zaman grafiklerle temsil edilir; düğümler durumları, kenarlar ise durumlar arası geçişleri gösterir.</p><p>Bu temsil biçimi arama problemlerinin temelidir. Çünkü bir algoritmanın çözümü nasıl arayacağı, aslında bu uzayda nasıl dolaşacağı ile ilgilidir. Bilgili arama yaklaşımlarında ise sisteme hedefe olan tahmini uzaklık gibi ek ipuçları verilir. Böylece arama işlemi rastgele değil, daha yönlendirilmiş bir şekilde yürütülür.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">&quot;Başlangıç durumundan oluşturulabilecek tüm durumlar küme olarak şekillendirilir. Bu kümeye … adı verilir ve … ile ifade edilir.&quot; Yukarıda verilen boşluklara sırasıyla aşağıdakilerden hangisi gelmelidir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> ağaç - graflar</li><li><strong>B)</strong> graf - ağaçlar</li><li><strong>C)</strong> durum uzayı - graflar</li><li><strong>D)</strong> duğüm - kenarlar</li><li><strong>E)</strong> kenar - düğümler</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> C) durum uzayı - graflar</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soru, ilgili konunun çekirdek ayrımını ölçer ve sınav mantığında kavramları birbirinden ayırmayı amaçlar.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">Aşağıdakilerden hangisi bilgili arama yöntemlerinde hedefe ulaşmada kullanılan parametredir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Hedef dügüm sayısı</li><li><strong>B)</strong> Bağlantı sayısı</li><li><strong>C)</strong> Başlangıç düğüm sayısı</li><li><strong>D)</strong> Hedefe olan tahmini uzaklık</li><li><strong>E)</strong> Toplam düğüm sayısı</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> D) Hedefe olan tahmini uzaklık</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Bilgili arama, hedefe yaklaştıran bir kestirim kullanır. Buradaki kritik bilgi hedefe olan tahmini uzaklıktır.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>4. Bilgisiz ve Bilgili Arama Stratejileri</h2>
+      <p>Arama stratejileri genel olarak bilgisiz ve bilgili arama diye ayrılır. Bilgisiz arama yöntemleri, hedefe ait ek bir sezgisel bilgi kullanmadan çalışır. Sığ öncelikli, derinlik öncelikli, eşit maliyetli ve yinelemeli derinleşen arama bu grubun tipik örnekleridir. Bu yöntemlerde algoritmanın başarısı; bütünlük, optimal çözüm üretme, zaman karmaşıklığı ve bellek kullanımı gibi ölçütlerle değerlendirilir.</p><p>Bilgili arama ise hedefe olan tahmini uzaklık gibi sezgisel bilgilerden yararlanır. Böylece arama uzayında daha umut verici düğümlere yönelmek mümkün olur. Sınavlarda genellikle hangi yöntemin optimal maliyet verdiği, hangisinin bellek açısından avantajlı olduğu ve hangisinin kestirimsel bilgi kullandığı karşılaştırmalı biçimde sorulur.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">Aşağıda verilen arama yöntemlerinden hangisi optimal maliyetli arama yöntemi değildir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Sığ öncelikli</li><li><strong>B)</strong> Derinlik sınırlamalı</li><li><strong>C)</strong> Yinelemeli derinleşen</li><li><strong>D)</strong> Eşit maliyetli</li><li><strong>E)</strong> İki yönlü</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> B) Derinlik sınırlamalı</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Arama algoritmaları değerlendirilirken sadece çözüm bulması değil, en düşük maliyetli çözümü üretmesi de önemlidir.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">Aşağıdakilerden hangisi hedefe olan tahmini uzaklığın veya maliyet bilgisinin kullanıldığı arama yöntemidir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Yinelemeli</li><li><strong>B)</strong> Tahmini</li><li><strong>C)</strong> Merkezcil</li><li><strong>D)</strong> Bilgisiz</li><li><strong>E)</strong> Bilgili</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> E) Bilgili</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soru, sezgisel bilgi kullanan arama yöntemlerini ayırt etmeye yöneliktir. Tahmin ve maliyet bilgisi bilgili aramanın özüdür.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>5. Öğrenme Türleri: Denetimli, Denetimsiz ve Pekiştirmeli</h2>
+      <p>Makine öğrenmesinin en temel ayrımı, denetimli, denetimsiz ve pekiştirmeli öğrenme biçimleridir. Denetimli öğrenmede etiketli veri vardır; model giriş ile hedef çıktı arasındaki ilişkiyi öğrenir. Sınıflandırma ve regresyon problemleri bu gruptadır. Denetimsiz öğrenmede ise veri etiketli değildir; algoritma verideki yapıyı, kümeleri ya da birlikte değişen örüntüleri kendisi bulmaya çalışır.</p><p>Pekiştirmeli öğrenmede amaç, bir ajanın dinamik bir ortamda ödül-ceza mantığıyla en iyi davranış politikasını öğrenmesidir. Burada doğru cevap doğrudan verilmez; ajan eylemlerinin sonucuna göre deneyim kazanır. Bu üç öğrenme türü arasındaki farkı bilmek, soruların büyük kısmını çözmek için anahtar rol oynar.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Aşağıda verilen bilgilerden hangisi denetimli öğrenme için doğru bir ifadedir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Etiketli bir veri kümesinin kullanılmasına dayanır.</li><li><strong>B)</strong> Yalnızca sınıflandırma problemleri için kullanılır.</li><li><strong>C)</strong> Etiketlenmemiş veri setleriyle çalışan bir makine öğrenmesi yaklaşımıdır.</li><li><strong>D)</strong> Veri setindeki her veri parçasının sonucunun bilinmediği bir yaklaşımdır.</li><li><strong>E)</strong> Yalnızca regresyon problemleri için kullanılır.</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> A) Etiketli bir veri kümesinin kullanılmasına dayanır.</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Denetimli öğrenmede veri etiketlidir. Model, giriş ile doğru çıktı arasındaki bağıntıyı öğrenmeye çalışır.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Aşağıda verilen hangi makine öğrenmesi türü, bir bilgisayar programının dinamik bir ortamda belirli bir hedefe ulaşmak için nasıl hareket etmesi gerektiğini öğrenmesine odaklanır?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Transfer Öğrenme</li><li><strong>B)</strong> Arı Denetimli Öğrenme</li><li><strong>C)</strong> Denetimli Öğrenme</li><li><strong>D)</strong> Pekiştirmeli Öğrenme</li><li><strong>E)</strong> Denetimsiz Öğrenme</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> D) Pekiştirmeli Öğrenme</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Ödül-ceza mekanizmasıyla karar öğrenen yaklaşım pekiştirmeli öğrenmedir. Burada etiketli veri değil deneyim önemlidir.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>6. Kümeleme, Boyut Azaltma ve Denetimsiz Öğrenme Araçları</h2>
+      <p>Denetimsiz öğrenmenin en önemli alanlarından biri kümelemedir. Kümeleme algoritmaları veriler arasındaki benzerlik ve uzaklık ilişkilerini kullanarak benzer örnekleri aynı grup altında toplar. K-Means, hiyerarşik kümeleme ve DBSCAN gibi yöntemler bu dersin temel örnekleridir. Bu yöntemler müşteri segmentasyonu, anormallik tespiti ve veri yapısını keşfetme gibi amaçlarla kullanılır.</p><p>Boyut azaltma ise çok sayıda değişken içeren veriyi daha az boyutta temsil etmeye yarar. PCA ve t-SNE bu başlıkta en sık geçen algoritmalardır. Özellikle t-SNE, verideki yerel benzerlikleri koruyarak iki ya da üç boyutlu görselleştirme üretmesiyle öne çıkar. Sınavlarda hangi algoritmanın kümeleme, hangisinin boyut azaltma olduğu sıkça sorulur.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">Aşağıdakilerden hangisi kümeleme algoritmaları içerisinde yer almaz?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Lojistik</li><li><strong>B)</strong> Ağırlıklı ortalama oteleme</li><li><strong>C)</strong> Hiyerarşik</li><li><strong>D)</strong> K-means</li><li><strong>E)</strong> Gürültü yoğunluğuna dayalı konumsal</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> A) Lojistik</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soru, kümeleme ile sınıflandırma algoritmalarını ayırmayı ölçer. Lojistik regresyon sınıflandırma tarafındadır.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Aşağıda verilen hangi algoritma, veri setindeki benzerlikleri koruyarak veriyi iki veya üç boyuta indirger?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> t-SEN</li><li><strong>B)</strong> Prensip Bileşen Analizi (PCA)</li><li><strong>C)</strong> K-Means</li><li><strong>D)</strong> DBSCAN</li><li><strong>E)</strong> Hiyerarşik Kümeleme</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> A) t-SEN</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> t-SNE, yüksek boyutlu veriyi özellikle görselleştirme amacıyla daha az boyutta temsil etmek için kullanılır.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>7. Sınıflandırma Algoritmaları: Naive Bayes, SVM ve Karar Sınırı</h2>
+      <p>Sınıflandırma, bir örneği önceden tanımlı sınıflardan birine atama problemidir. Bu amaçla kullanılan algoritmalar arasında Naive Bayes, karar ağaçları, destek vektör makineleri ve rastgele orman gibi yöntemler bulunur. Naive Bayes, olasılık temelli yapısı ve özellikle özellikler arası bağımsızlık varsayımı nedeniyle dikkat çeker. Bu varsayım gerçek hayatta her zaman tam sağlanmasa da algoritma çoğu durumda iyi sonuç verir.</p><p>Destek Vektör Makineleri ise sınıfları birbirinden ayıran en iyi karar sınırını bulmaya çalışır. Burada hiper düzlem ve margin kavramları çok önemlidir. Mantık şudur: sınıflar arasındaki ayrımı mümkün olduğunca geniş bir marjla yapan sınır, genellikle daha iyi genelleme yapar. Bu nedenle SVM soruları genelde yapısal risk minimizasyonu, hiper düzlem ve destek vektörleri etrafında döner.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Naive Bayes sınıflandırıcısının aşağıda verilen hangi özelliği, onun &quot;naive&quot; (saf) olarak adlandırılmasına neden olmuştur?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Özellikler arasındaki bağımsızlık varsayımı</li><li><strong>B)</strong> Çok sınıflı sınıflandırma yapabilmesi</li><li><strong>C)</strong> Metin madenciliği uygulamalarında sıkça kullanılması</li><li><strong>D)</strong> Olasılık temelli olması</li><li><strong>E)</strong> Hızlı eğitim süresine sahip olması</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> A) Özellikler arasındaki bağımsızlık varsayımı</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Naive Bayes’in “naive” olarak anılmasının nedeni, özellikler arasında bağımsızlık varsayımı kurmasıdır.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Destek Vektör Makinelerinin (SVM) çözüm uzayında hangi doğru, iki sınıf arasında en uygun ayrımı sağlar?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Çekirdek fonksiyonu</li><li><strong>B)</strong> Destek vektörü</li><li><strong>C)</strong> Hiper düzlem</li><li><strong>D)</strong> Karar doğrusu</li><li><strong>E)</strong> Sınır düzlemi</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> C) Hiper düzlem</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> SVM’de sınıfları ayıran en iyi karar sınırı hiper düzlemdir. Amaç sınıflar arası marjı mümkün olduğunca büyütmektir.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>8. K-NN, Regresyon ve Performans Ölçümü</h2>
+      <p>K-En Yakın Komşu algoritması, yeni bir örneği veri kümesindeki en yakın komşularına bakarak sınıflandıran ya da tahmin eden basit ama etkili bir yöntemdir. Buradaki k parametresi kaç komşunun dikkate alınacağını gösterir. k çok küçük seçilirse model gürültüye aşırı duyarlı olabilir; çok büyük seçilirse sınıflar arası ayrım zayıflayabilir. Bu yüzden k seçimi doğrudan performansı etkiler.</p><p>Regresyon tarafında ise amaç sürekli bir sayısal değeri tahmin etmektir. Bu noktada MSE, RMSE, MAE ve R-kare gibi performans metrikleri kullanılır. Sorular çoğu zaman bu metriklerin neyi ölçtüğünü ya da basit sayısal örnekler üzerinden nasıl hesaplandığını yoklar. Özellikle MSE hesaplama soruları temel işlem mantığını ölçen klasik sorulardandır.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">k-En yakın komşu algoritmasında belirtilen k parametresi aşağıdakilerden hangisini ifade etmektedir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Komşu sayısı</li><li><strong>B)</strong> Bias</li><li><strong>C)</strong> Varyans</li><li><strong>D)</strong> En kısa mesafe</li><li><strong>E)</strong> Gürultü</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> A) Komşu sayısı</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> K-NN algoritmasında k parametresi, karar verirken bakılacak komşu sayısını gösterir; bu değer model davranışını değiştirir.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023 Vize</span>
+          </div>
+          <p class="question-text">Y gerçek değer, Y&#x27; ise regresyon çıktısı ve Y=[6 4 10 2] ve Y&#x27;=[3 9 9 1] olamak üzere bu regresyonun ortalama karelerinin hatasını (MSE) aşağıdakilerden hangisidir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> 9</li><li><strong>B)</strong> 2,5</li><li><strong>C)</strong> 12</li><li><strong>D)</strong> 18</li><li><strong>E)</strong> 10</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> A) 9</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> MSE, tahmin hatalarının karelerinin ortalamasıdır. Regresyonda hata büyüklüğünü cezalandırarak ölçer.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>9. Birliktelik Kuralları ve Apriori</h2>
+      <p>Birliktelik kuralları, özellikle alışveriş sepeti analizi gibi alanlarda kullanılan denetimsiz öğrenme yaklaşımıdır. Buradaki amaç, bir öğe ya da olay gerçekleştiğinde başka hangi öğelerin birlikte görülme eğiliminde olduğunu ortaya çıkarmaktır. Örneğin bir ürün satın alındığında başka hangi ürünlerin de alınma olasılığının arttığı Apriori gibi algoritmalarla analiz edilir.</p><p>Bu başlıkta destek, güven ve lift gibi ölçütler önemlidir. Destek, bir öğe kümesinin veri içinde ne kadar sık görüldüğünü; güven, bir kuralın gerçekleşme olasılığını; lift ise birlikteliğin tesadüfi olup olmadığını yorumlamaya yardım eder. Sınav soruları genelde hangi problemin Apriori ile çözüleceği ya da hangi metrikle neyin ölçüldüğü üzerinden gelir.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Ticaret sitelerinde bir ürünün satın alınması durumunda diğer ürünlerin satın alınma olasılığını belirlemek için aşağıda verilen hangi makine öğrenmesi yöntemi en uygun olarak kullanılır?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Q-Learning</li><li><strong>B)</strong> Apriori</li><li><strong>C)</strong> Monte-Carlo Tree Search (MCTS)</li><li><strong>D)</strong> K-Means</li><li><strong>E)</strong> Naive Bayes</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> B) Apriori</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Bu tip soru, birliktelik kuralları problemini tanımanı ister. Alışveriş sepeti analizi için Apriori klasik yöntemdir.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Final</span>
+          </div>
+          <p class="question-text">Denetim öğrenme algoritmalarından biri olan Apriori algoritmasında &quot;sıkça bir arada görülen öğeleri belirlemek&quot; için hangi metrik kullanılır?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Destek</li><li><strong>B)</strong> Birliktelik</li><li><strong>C)</strong> Rastgele eşleşme</li><li><strong>D)</strong> Lift</li><li><strong>E)</strong> Güven</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> A) Destek</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Destek metriği, belirli öğe kombinasyonlarının veri içinde ne kadar sık görüldüğünü gösterir.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>10. Python Ekosistemi ve Geliştirme Altyapısı</h2>
+      <p>Yapay zekâ ve makine öğrenmesi uygulamalarında Python, temiz sözdizimi, geniş kütüphane desteği ve topluluk gücü nedeniyle en çok kullanılan dillerden biridir. NumPy, pandas, scikit-learn, Matplotlib ve Seaborn gibi kütüphaneler ekosistemin temel parçalarıdır. Ders kapsamında Python’ın neden tercih edildiği, hangi komutun ne işe yaradığı ve hangi kütüphanenin hangi amaçla kullanıldığı temel düzeyde bilinmelidir.</p><p>Burada sadece teorik bilgi değil, uygulama mantığı da önemlidir. Örneğin def ifadesi fonksiyon tanımlamak için, while döngü kurmak için, try-except ise hata yakalama için kullanılır. NumPy ise özellikle bilimsel hesaplama ve dizi işlemleri için temel paket kabul edilir. Sınavlar çoğu zaman bu kısa ama kritik ayrımları ölçer.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Python programlama dilinde hangi kütüphane, bilimsel hesaplamalar için temel paket olarak kabul edilir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Matplotlib</li><li><strong>B)</strong> Keras</li><li><strong>C)</strong> Scikit-learn</li><li><strong>D)</strong> Pandas</li><li><strong>E)</strong> NumPy</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> E) NumPy</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> NumPy, Python ekosisteminde sayısal işlemler ve çok boyutlu diziler için temel yapı taşlarından biridir.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Aşağıda verilen bilgilerden hangisi Python programlama dili için doğru bir ifade değildir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> &quot;try-except&quot; komutu geliştirilen uygulamada hata yakalama işlemi için kullanılır.</li><li><strong>B)</strong> &quot;lambda&quot; komutu anonim fonksiyonlar oluşturmak için kullanılır.</li><li><strong>C)</strong> &quot;def&quot; komutu koşullu dallanma işlemleri için kullanılır.</li><li><strong>D)</strong> &quot;pip install&quot; komutu ile kütüphaneler Python ortamında kullanılabilmek için yükleme işlemini gerçekleştirir.</li><li><strong>E)</strong> &quot;while&quot; komutu döngü işlemleri için kullanılır.</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> C) &quot;def&quot; komutu koşullu dallanma işlemleri için kullanılır.</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soru, temel Python anahtar sözcüklerinin görevlerini ayırt etmeye yöneliktir. def koşul değil, fonksiyon tanımlar.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>11. Veri Hazırlama, Özellik Mühendisliği ve Görselleştirme</h2>
+      <p>Bir modelin başarısı çoğu zaman algoritmadan önce veri hazırlama aşamasına bağlıdır. Eksik değerlerin incelenmesi, tekrar eden kayıtların bulunması, aykırı değerlerin yönetilmesi, normalizasyon ya da standardizasyon gibi işlemler modelin sağlıklı öğrenmesini sağlar. Ayrıca veri ayrıklaştırma, binarizasyon ve özellik türetme gibi yöntemler ham veriyi model için daha anlamlı hale getirir.</p><p>Görselleştirme ise veriyi anlamanın en hızlı yollarından biridir. Histogram dağılımın şeklini, kutu grafiği aykırı değerleri, saçılım diyagramı değişkenler arası ilişkiyi, sütun grafikleri ise kategorik karşılaştırmaları gösterir. Bu bölümde hem veri ön işleme hem de doğru grafik seçimi mantığı birlikte düşünülmelidir.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Aşağıdaki seçeneklerde verilen Python kodlarının hangisi market adlı veri setindeki tekrar eden gözlemlerin elde edilmesine yöneliktir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> sample(market, 10)</li><li><strong>B)</strong> market.duplicated(keep=``first``)</li><li><strong>C)</strong> pd.get_dummies(market)</li><li><strong>D)</strong> market.dtypes</li><li><strong>E)</strong> market.isnull().sum()</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> B) market.duplicated(keep=``first``)</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Veri temizleme aşamasında yinelenen kayıtların bulunması önemlidir. duplicated() fonksiyonu bu amaçla kullanılır.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Vize</span>
+          </div>
+          <p class="question-text">Histogramlarla ilgili aşağıda verilen bilgilerden hangisi yanlıştır?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Niteliklerin sağa ya da sola çarpık olup olmadığı görülebilir.</li><li><strong>B)</strong> Niteliklerin simetrik dağılıma sahip olup olmadığı görülebilir.</li><li><strong>C)</strong> Histogram iki nitelik arasındaki pozitif ve negatif yönlü ilişkileri ortaya koyar.</li><li><strong>D)</strong> Histogram üzerinde yer alan sütunlara ait hem yükseklik hem genişlik bilgi vericidir.</li><li><strong>E)</strong> Sürekli nitelikler için çizimi uygundur.</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> C) Histogram iki nitelik arasındaki pozitif ve negatif yönlü ilişkileri ortaya koyar.</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Histogram tek bir sürekli değişkenin dağılımını gösterir; iki değişken arasındaki yönlü ilişkiyi doğrudan vermez.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <h2>12. Yapay Zekâ Etiği, Güvenilirlik ve Önyargı</h2>
+      <p>Yapay zekâ yalnızca teknik doğrulukla değerlendirilemez. Bir sistem çok iyi tahmin yapıyor olsa bile insan onurunu zedeliyor, ayrımcılık üretiyor ya da veri mahremiyetini ihlal ediyorsa etik açıdan sorunludur. Bu nedenle etik ilkeler; zarar vermeme, adalet, hesap verebilirlik, gizlilik, şeffaflık ve teknik güvenlik gibi başlıklara dayanır.</p><p>Önyargısız yapay zekâ hedefi, eğitim verisindeki cinsiyet, ırk, sınıf ya da diğer toplumsal eşitsizlikleri modele taşımamayı amaçlar. Aynı şekilde güvenilirlik değerlendirmesi; test, gözden geçirme, izleme ve siber saldırılara karşı dayanıklılık gibi unsurları içerir. Bu bölüm artık derslerin sonundaki ek konu değil, yapay zekâ geliştirmenin ayrılmaz bir parçasıdır.</p>
+      <div class="practice-block">
+        <h3>Benzeri Sorular</h3>
+        
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Final</span>
+          </div>
+          <p class="question-text">Yapay zeka ile ilgili etik kurallar hangi temel prensiplere dayanmalıdır?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Kâr elde etme ve rekabetçi olma</li><li><strong>B)</strong> Sadece insanlar için kullanılma</li><li><strong>C)</strong> İnsan onurunu koruma ve insanlara zarar verme</li><li><strong>D)</strong> Teknolojik üstünlük sağlama ve inovasyon</li><li><strong>E)</strong> Toplumsal çıkarları yok sayma</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> C) İnsan onurunu koruma ve insanlara zarar verme</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Etik yaklaşımın merkezinde insan onurunu korumak ve zarar vermemek vardır. Teknik başarı tek başına yeterli değildir.</div>
+          </div>
+        </div>
+    
+        <div class="question-card">
+          <div class="question-meta">
+            <span class="badge">Benzeri Soru</span>
+            <span class="year">2023-2024 Final</span>
+          </div>
+          <p class="question-text">&quot;Önyargısız yapay zeka&quot; geliştirmenin etik açıdan çözeceği sorun aşağıdakilerden hangisinde doğru olarak verilmiştir?</p>
+          <ol class="options" type="A"><li><strong>A)</strong> Yapay zekanın insanlarla iletişim kurmasını engeller.</li><li><strong>B)</strong> Yapay zekanın veri mahremiyetine saygı göstermesi önyargısını azaltabilir.</li><li><strong>C)</strong> Yapay zekada yaşanan hız problemleri sorununu çözebilir</li><li><strong>D)</strong> Sadece teknik bir sorun olduğu durumları önler</li><li><strong>E)</strong> Cinsiyet, ırk ve diğer önyargıları azaltabilir.</li></ol>
+          <div class="answer-box">
+            <div><strong>Doğru cevap:</strong> E) Cinsiyet, ırk ve diğer önyargıları azaltabilir.</div>
+            <div class="mini-note"><strong>Kısa açıklama:</strong> Önyargısız yapay zekâ, modelin toplumsal eşitsizlikleri yeniden üretmesini engellemeyi hedefler.</div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <div class="footer">Başarılar dilerim</div>
+  </div>
+</body>
+</html>
