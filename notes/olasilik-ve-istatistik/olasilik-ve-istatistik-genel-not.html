@@ -1,0 +1,404 @@
+<!DOCTYPE html><html lang='tr'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/><title>Olasılık ve İstatistik Ders Notu</title><style>
+:root{
+ --bg:#f4f7fb;--panel:#ffffff;--soft:#f8fbff;--line:#d8e3f2;--text:#20304a;--muted:#5f718f;
+ --blue:#4f7ee8;--blue-soft:#ebf2ff;--gold:#f5a524;--gold-soft:#fff8e8;
+ --green:#0f766e;--green-soft:#ecfdf5;--rose:#e11d48;--rose-soft:#fff1f2;--purple:#7c3aed;--purple-soft:#f5f0ff;
+}
+*{box-sizing:border-box} body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:linear-gradient(180deg,#eef3fb 0%,#f8fbff 100%);color:var(--text);line-height:1.75}
+.container{width:min(1140px,calc(100% - 32px));margin:28px auto 60px}
+.hero{background:linear-gradient(135deg,#ffffff 0%,#eef4ff 100%);border:1px solid var(--line);border-radius:28px;padding:36px;box-shadow:0 18px 40px rgba(61,93,152,.08)}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-weight:800;font-size:13px;letter-spacing:.2px}
+h1{margin:16px 0 10px;font-size:40px;line-height:1.18;color:#1d2b44}.lead{margin:0;color:var(--muted);font-size:17px}
+section.topic{margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 12px 28px rgba(61,93,152,.06)}
+.topic-head{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;margin-bottom:12px}.topic-index{background:var(--blue-soft);color:var(--blue);padding:8px 12px;border-radius:999px;font-weight:800;font-size:13px}.topic-title{font-size:29px;font-weight:800;color:#1f2f4d;margin:2px 0 0}
+.topic-grid{display:grid;grid-template-columns:1.45fr .95fr;gap:18px;margin-top:18px}.card{background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:20px}.card h3{margin:0 0 12px;font-size:18px;color:#24406d}.card p{margin:0 0 12px}.card ul{margin:0;padding-left:18px}.card li{margin:6px 0}
+.callout{border-radius:18px;padding:14px 16px;margin-top:12px;font-size:15px}.callout.attn{background:var(--gold-soft);border:1px solid #f0dfac;color:#6b5310}.callout.note{background:var(--green-soft);border:1px solid #bde7db;color:#0f5f56}.callout.mix{background:var(--rose-soft);border:1px solid #f4c9d4;color:#8c2040}
+.questions{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.qcard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px}.qbadge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef3ff;color:#355fbe;font-weight:800;font-size:12px;margin-bottom:10px}.qcard h4{margin:0 0 10px;font-size:17px;line-height:1.5}.opts{display:grid;gap:8px;margin:12px 0}.opt{background:#f9fbff;border:1px solid #dde7f6;border-radius:12px;padding:10px 12px;font-size:14px}.answer{margin-top:12px;padding:12px 14px;border-radius:14px;background:#f6fbf8;border:1px solid #cfe8d8}.answer strong{color:#14532d}.footer{margin-top:30px;text-align:center;color:var(--muted);font-size:14px}
+@media (max-width:900px){.topic-grid,.questions{grid-template-columns:1fr}h1{font-size:32px}.topic-title{font-size:24px}}
+</style></head><body><div class='container'><div class='hero'><span class='badge'>YBS • Gelişmiş ders notu</span><h1>Olasılık ve İstatistik</h1><p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Olasılık ve İstatistik dersi; veri türleri, merkezi eğilim ölçüleri, dağılım ölçüleri, grafikler, kombinasyon, olasılık dağılımları, koşullu olasılık ve hipotez testleri ekseninde konu başlıklarına ayrılarak sunulmuştur.</p></div>
+
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 1</div>
+            <div class='topic-title'>İstatistiğe Giriş, Ana Kütle ve Örneklem</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>İstatistik; verileri toplama, düzenleme, özetleme, analiz etme ve yorumlama sürecidir. Dersin en temel ayrımı ana kütle ile örneklem arasındadır. Ana kütle, araştırmanın sonuçlarının genellenmek istendiği bütündür; örneklem ise bu bütünden seçilen alt kümedir.</p><p>Örneklem, ana kütleden daha küçük olmalı ve onu temsil edebilmelidir. Bu nedenle sınavlarda yalnız tanım değil, ‘örneklem nasıl olmalıdır?’ biçimindeki yorum soruları da gelir. Temsil gücü düşük bir örneklem yanlış sonuçlara yol açar.</p><p>Ayrıca veri türlerinin doğru sınıflandırılması gerekir. Ordinal veriler sıralı kategorileri, nominal veriler sırasız kategorileri, sürekli nicel veriler ise ölçülebilir sayısal büyüklükleri ifade eder.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Ana kütle sonuçların genellendiği bütündür.</li><li>Örneklem ana kütleden seçilir.</li><li>Örneklem yeterli büyüklükte ve temsil edici olmalıdır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Örneklem hiçbir zaman ana kütleden büyük olmaz.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> İstatistikte ilk hata genelde veri türünü yanlış belirlemektir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Nominal, ordinal ve sürekli nicel veri ayrımı karıştırılmamalıdır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 VIZE</div>
+      <h4>Ordudaki rütbeler – Cinsiyet – Bir insanın boy uzunluğu Yukarıdaki verilerin türleri aşağıdaki hangi şıkta doğru olarak sıralanmıştır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Ordinal - sürekli nicel - nominal</div><div class='opt'><strong>B)</strong> Sürekli nicel - ordinal - nominal</div><div class='opt'><strong>C)</strong> Sürekli nicel – nominal - ordinal</div><div class='opt'><strong>D)</strong> Ordinal - nominal - sürekli nicel</div><div class='opt'><strong>E)</strong> Nominal - ordinal - sürekli nicel</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - Ordinal - nominal - sürekli nicel<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 VIZE</div>
+      <h4>Örneklem ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Örneklem ana kütleyi temsil etmelidir.</div><div class='opt'><strong>B)</strong> Örneklem ana kütleden fazla sayıda olmalıdır.</div><div class='opt'><strong>C)</strong> Örneklem ana kütleden çekilmelidir.</div><div class='opt'><strong>D)</strong> Örneklem yeterli sayıda olmalıdır.</div><div class='opt'><strong>E)</strong> Örneklem ana kütleden az sayıda olmalıdır.</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - Örneklem ana kütleden fazla sayıda olmalıdır.<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 2</div>
+            <div class='topic-title'>Seri Türleri ve Verilerin Düzenlenmesi</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Veriler farklı biçimlerde düzenlenebilir. Basit serilerde yalnız gözlem değerleri bulunur; frekans serilerinde her değerin kaç kez tekrar ettiği gösterilir; kümülatif serilerde ise birikimli yapı öne çıkar.</p><p>Kümülatif seri özellikle belirli bir değere kadar kaç gözlem olduğunu görmek için kullanılır. Bu yapı çeyrekler, medyan ve dağılım yorumlarında önemli kolaylık sağlar.</p><p>Sınavlarda genellikle ‘yalnız gözlem değerlerinin bulunduğu seri hangisidir?’ ya da ‘önceki değerlerden kaç tanesinin daha küçük olduğunu gösteren seri hangisidir?’ şeklinde kavram odaklı sorular sorulur.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Basit seri = yalnız gözlem değerleri.</li><li>Frekans serisi = tekrar sayıları da verilir.</li><li>Kümülatif seri = birikimli toplam mantığı taşır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Seri türleri tanım sorularında doğrudan gelir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Kümülatif ile frekans serisi aynı şey değildir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Tablo yapısına bakıp serinin türünü ayırt etmek gerekir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2022-2023 VIZE</div>
+      <h4>Yukarıdaki serinin 3. Çeyrek bölen (Q3) değeri nedir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 44</div><div class='opt'><strong>B)</strong> 54</div><div class='opt'><strong>C)</strong> 82</div><div class='opt'><strong>D)</strong> 55</div><div class='opt'><strong>E)</strong> 102</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - 82<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 VIZE</div>
+      <h4>(12 21 33 45 59) Yukarıdaki veri kümesi için ∑(X – X̄)’in sonucu hangi seçenekte doğru verilmiştir? Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ Olasılık ve İstatistik 2024-2025 Vize Soruları Olasılık ve İstatistiğe Giriş: Veri Türleri, Merkezi Eğilim ve Dağılım Ölçüleri Giriş İstatistik, verileri toplama, düzenleme, analiz etme ve yorumlama yoluyla belirsizlikler altında karar vermeyi sağlayan bir bilim dalıdır. Araştırmanın sonuçlarının genellenmek istendiği grubun tamamına “ana kütle”, bu kütleden seçilen alt kümeye ise “örneklem” denir. Örneklem, tanımı gereği ana kütleden daha az sayıda olmalı ve onu iyi temsil etmelidir. Bu makalede, istatistiğin temelini oluşturan veri türleri, verileri özetlemek için kullanılan merkezi eğilim ve dağılım ölçüleri incelenecektir. Verileri Düzenleme ve Sunma Analizin ilk adımı, verilerin türünü belirlemektir. Ordudaki rütbeler gibi aralarında doğal bir sıralama olan kategorik veriler “ordinal”, cinsiyet gibi sırasız kategoriler “nominal”, boy uzunluğu gibi ölçülebilen ve ondalıklı değer alabilen veriler ise “sürekli nicel” veridir. Veriler, “kümülatif (birikimli) seriler” gibi özel tablolarla düzenlenerek, belirli bir değerden daha az veya daha çok gözlem olup olmadığını görmeyi kolaylaştırır. Merkezi Eğilim Ölçüleri Merkezi eğilim ölçüleri, bir veri setinin merkez noktasını veya tipik değerini özetler. Aritmetik Ortalama: En yaygın kullanılan ortalamadır. Temel bir özelliği, serideki tüm değerlerin ortalamadan sapmalarının toplamının her zaman “sıfır” olmasıdır. Geometrik Ortalama: Özellikle oransal değişimlerin ortalaması için kullanılır. Örneğin, {10, 100, 1000} serisinin aritmetik ortalaması 370 iken, geometrik ortalaması 100’dür. Harmonik Ortalama: Hız ve zaman gibi birim başına ifade edilen değerlerin ortalamasında kullanılır. Mod: Bir seride en çok tekrar eden değerdir. Medyan ve Kartiller: Medyan, sıralı bir seriyi ortadan ikiye bölen değerdir. Kartiller ise seriyi dört eşit parçaya böler; örneğin Q3 (3. çeyrek bölen), verilerin %75’inin altında kaldığı değeri gösterir. Dağılım ve Yayılım Ölçüleri Dağılım (yayılım) ölçüleri, verilerin ortalamadan ne kadar uzağa yayıldığını, yani “dağılımını” gösterir. Değişim Aralığı (Range): Serideki en büyük ve en küçük değerler arasındaki farktır ve en basit yayılım ölçüsüdür. Değişim Katsayısı: Farklı birimlere sahip serilerin değişkenliklerini oransal olarak karşılaştırmaya olanak tanır, ancak hangi ortalamanın kullanılacağını belirlemede bir rolü yoktur. Dağılımın Şekli Bir serinin dağılım şekli, çarpıklık ve basıklık gibi ölçümlerle analiz edilir. “Çarpıklık” (asimetri), dağılımın simetrik olup olmadığını gösterir. Örneğin, tasfiye edilen bir firmanın borç dağılımı, genellikle az sayıda çok yüksek borç yerine çok sayıda küçük borçtan oluşacağı için “negatif asimetriye” sahip olma eğilimindedir. “Basıklık” (kurtosis) ise dağılımın tepe noktasının ne kadar sivri veya basık olduğunu ölçer. Basıklık değeri arttıkça, dağılımın şekli daha da “sivrileşir”. Olasılık ve Kombinatorik İstatistik, belirsizlikleri ölçmek için olasılık teorisinden faydalanır. Örneğin, bir kesikli rastgele değişkenin olasılık dağılımı tablosundan P(x &lt; 2) gibi olasılıkları hesaplamak mümkündür. Sıralamanın önemli olmadığı gruplama problemlerinde ise kombinasyon kullanılır. Örneğin, 6 kişilik bir gruptan 15 farklı 2 kişilik grup oluşturulabilir. Sonuç İstatistiksel analiz, veriye dayalı bir dünya görüşü sunar. Bir veri serisinin dağılımını anlamak için ortalamalar, çarpıklık ve basıklık gibi ölçütlerden yararlanılırken, serinin sadece “tanımı” bu analiz için yeterli değildir. Bu temel istatistiksel araçlar, karmaşık verileri anlamlı bilgilere dönüştürerek daha doğru kararlar almamızı sağlar. @lolonolo_com Olasılık ve İstatistik 2024-2025 Vize Soruları Olasılık ve İstatistik 2024-2025 Vize Soruları</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 2</div><div class='opt'><strong>B)</strong> 0</div><div class='opt'><strong>C)</strong> 1</div><div class='opt'><strong>D)</strong> 4</div><div class='opt'><strong>E)</strong> 3</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - 0<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 3</div>
+            <div class='topic-title'>Aritmetik ve Geometrik Ortalama</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Aritmetik ortalama en yaygın merkezi eğilim ölçüsüdür. Tüm değerlerin toplamının gözlem sayısına bölünmesiyle elde edilir. En önemli özelliklerinden biri, ortalamadan sapmalar toplamının sıfır olmasıdır.</p><p>Geometrik ortalama ise özellikle çarpanlı büyüme, oranlar ve endeks mantığında önemlidir. Çok farklı büyüklükteki değerlerde aritmetik ortalamaya göre daha dengeli sonuç verebilir.</p><p>Sınavlarda iki ortalamanın karşılaştırılması, aralarındaki farkın bulunması veya hangi durumda hangisinin tercih edileceğinin sorulması sık görülür.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Aritmetik ortalama en temel ortalamadır.</li><li>Geometrik ortalama oransal değişimlerde öne çıkar.</li><li>Aritmetik ortalama, uç değerlere daha duyarlıdır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Ortalama sorularında işlem kadar hangi ortalamanın kullanıldığı da önemlidir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Geometrik ortalama her veri yapısında kullanılmaz.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Ortalama ile varyans ve standart sapma kavramlarını karıştırma.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2022-2023 VIZE</div>
+      <h4>Aritmetik ortalaması 25, varyansı 16 olan serinin değişim katsayısı yüzde kaçtır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 24</div><div class='opt'><strong>B)</strong> 20</div><div class='opt'><strong>C)</strong> 16</div><div class='opt'><strong>D)</strong> 22</div><div class='opt'><strong>E)</strong> 18</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - 16<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2022-2023 VIZE</div>
+      <h4>{100,1000,10000} değerlerinin aritmetik ortalaması ile geometrik ortalaması arasındaki fark kaçtır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 4100</div><div class='opt'><strong>B)</strong> 1840</div><div class='opt'><strong>C)</strong> 2700</div><div class='opt'><strong>D)</strong> 2740</div><div class='opt'><strong>E)</strong> 1800</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - 2700<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 4</div>
+            <div class='topic-title'>Harmonik ve Tartılı Ortalama</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Harmonik ortalama özellikle hız, süre başına miktar ve oran türü verilerde kullanılır. Birim başına düşen büyüklükler söz konusuysa aritmetik ortalama yerine daha anlamlı olabilir.</p><p>Tartılı aritmetik ortalama ise her gözlemin aynı önemde olmadığı durumlarda uygulanır. Frekanslar veya ağırlık katsayıları kullanılarak hesaplanır.</p><p>Bu bölümde formül ezberi kadar, hangi veri tipinde hangi ortalamanın uygun olduğunu anlamak gerekir. Sınav soruları çoğu zaman bunu ölçer.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Harmonik ortalama hız problemlerinde önemlidir.</li><li>Tartılı ortalamada ağırlıklar kullanılır.</li><li>Aynı önemde olmayan gözlemler için basit ortalama yeterli değildir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Tartılı ortalamada payda toplam ağırlıktır.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Harmonik ortalama her zaman en küçük ortalama olma eğilimindedir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> AO, GO, HO kullanım alanlarını ayır.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 VIZE</div>
+      <h4>Yukarıdaki serinin Harmonik ortalaması aşağıdaki seçeneklerin hangisinde doğru verilmiştir? (Sonucu tamsayı olacak biçimde yuvarlayınız.)</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 9</div><div class='opt'><strong>B)</strong> 5</div><div class='opt'><strong>C)</strong> 7</div><div class='opt'><strong>D)</strong> 3</div><div class='opt'><strong>E)</strong> 11</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - 3<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2022 FINAL</div>
+      <h4>Xi Ti 8 6 6 9 5 1 2 8 9 6 Yukarıdaki serinin tartılı aritmetik ortalaması kaçtır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 4.7</div><div class='opt'><strong>B)</strong> 8.1</div><div class='opt'><strong>C)</strong> 6.3</div><div class='opt'><strong>D)</strong> 7.4</div><div class='opt'><strong>E)</strong> 5.9</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - 5.9<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 5</div>
+            <div class='topic-title'>Medyan, Mod ve Çeyrekler</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Medyan, sıralanmış veri setini iki eşit parçaya bölen ortanca değerdir. Mod ise en sık tekrar eden değerdir. Bu iki ölçü özellikle çarpık dağılımlarda aritmetik ortalamaya göre daha anlamlı olabilir.</p><p>Çeyrekler veri setini dört parçaya böler. Q1 yüzde 25’lik noktayı, Q2 medyanı, Q3 ise yüzde 75’lik noktayı ifade eder. Box-Whisker diyagramı da bu yapıyı görsel biçimde sunar.</p><p>Sınavlarda Q3 değeri, mod değeri ve kartiller arası fark soruları çok yaygındır. Bu nedenle sıralama mantığı iyi oturmalıdır.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Q1 = %25, Q2 = medyan, Q3 = %75.</li><li>Mod en sık tekrar eden değerdir.</li><li>Kartiller arası fark = Q3 - Q1.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Çeyrekler için verinin sıralı olması gerekir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Mod ile medyan aynı olmak zorunda değildir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Box-Whisker beş sayılık özeti gösterir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2022-2023 VIZE</div>
+      <h4>Yukarıdaki serinin 3. Çeyrek bölen (Q3) değeri nedir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 44</div><div class='opt'><strong>B)</strong> 54</div><div class='opt'><strong>C)</strong> 82</div><div class='opt'><strong>D)</strong> 55</div><div class='opt'><strong>E)</strong> 102</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - 82<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2022 FINAL</div>
+      <h4>65-80 1 Yukarıdaki serinin kartiller arası fark değerl (yanl Q3-Q1) nedir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 28.971</div><div class='opt'><strong>B)</strong> 30.971</div><div class='opt'><strong>C)</strong> 26.971</div><div class='opt'><strong>D)</strong> 24.971</div><div class='opt'><strong>E)</strong> 32.971</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - 24.971<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 6</div>
+            <div class='topic-title'>Dağılım Ölçüleri: Değişim Aralığı, Varyans ve Standart Sapma</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Bir veri setinin yalnız merkezi değil, ne kadar yayıldığı da önemlidir. Değişim aralığı en büyük değer ile en küçük değer arasındaki farktır ve en basit yayılım ölçüsüdür.</p><p>Varyans, gözlem değerlerinin ortalamadan sapmalarının kareleri üzerinden hesaplanır. Standart sapma ise varyansın kareköküdür ve dağılımın ortalama etrafındaki yayılışını yorumlamada çok kullanılır.</p><p>Sorularda bazen doğrudan standart sapma, bazen de değişim katsayısı istenir. Bu nedenle varyans-standart sapma ilişkisini net bilmek gerekir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Değişim aralığı en basit ölçüdür.</li><li>Standart sapma büyüdükçe yayılım artar.</li><li>Varyans = standart sapmanın karesi.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Soruda varyans verilip standart sapma istenebilir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Yayılım ölçüleri merkezi eğilimden farklıdır.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Aynı ortalamaya sahip iki seri farklı standart sapmaya sahip olabilir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 VIZE</div>
+      <h4>Serinin en büyük ve en küçük değerleri arasındaki fark aşağıdaki seçeneklerden hangisinde en doğru şekilde ifade edilmiştir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Değişim Katsayısı</div><div class='opt'><strong>B)</strong> Standart Hata</div><div class='opt'><strong>C)</strong> Varyans</div><div class='opt'><strong>D)</strong> Standart Sapma</div><div class='opt'><strong>E)</strong> Değişim Aralığı</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Değişim Aralığı<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2022-2023 VIZE</div>
+      <h4>Veri kümesi bir kitle gibi düşünüldüğünde; yukarıdaki frekans serisinin standart sapması nedir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 4.11</div><div class='opt'><strong>B)</strong> 2,55</div><div class='opt'><strong>C)</strong> 5,11</div><div class='opt'><strong>D)</strong> 3,40</div><div class='opt'><strong>E)</strong> 4,40</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - 3,40<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 7</div>
+            <div class='topic-title'>Çarpıklık ve Basıklık</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Çarpıklık, dağılımın simetrik olup olmadığını gösterir. Negatif çarpıklıkta kuyruk sola, pozitif çarpıklıkta ise sağa uzar. Bu durum ortalama, medyan ve mod sıralamasını da etkiler.</p><p>Basıklık ise dağılımın tepe yapısını ifade eder. Basıklık arttıkça dağılım daha sivri hale gelebilir. Bu, verilerin merkez çevresinde ne kadar yoğun toplandığını anlamaya yardım eder.</p><p>Sınavlarda çoğu kez grafik yorumlama yerine kavramsal ifade sorulur. Bu nedenle ‘negatif asimetri ne demektir?’ ve ‘basıklık arttıkça ne olur?’ sorularına dikkat etmek gerekir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Negatif çarpıklık = sola yatık dağılım.</li><li>Pozitif çarpıklık = sağa yatık dağılım.</li><li>Basıklık dağılımın sivriliğiyle ilgilidir.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Çarpıklık ile basıklık aynı kavram değildir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Simetrik dağılımda ortalama-medyan-mod birbirine yaklaşır.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Grafik görünümü ile kavram adını eşleştir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2022-2023 VIZE</div>
+      <h4>Çarpıklık değeri eksi (- ) işareti olan bir serinin dağılım yapısını en iyi ifade eden cümle hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Dağılım sağa yatık bir asimetriye sahiptir.</div><div class='opt'><strong>B)</strong> Dağılım sola yatık bir asimetriye sahiptir.</div><div class='opt'><strong>C)</strong> Dağılım asimetrik bir yapı gösterir.</div><div class='opt'><strong>D)</strong> Dağılım simetrik bir dağılımdır.</div><div class='opt'><strong>E)</strong> Dağılım simetrik bir dağılım değildir.</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - Dağılım sola yatık bir asimetriye sahiptir.<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2022-2023 VIZE</div>
+      <h4>Bir serinin basıklığını ifade eden değer arttıkça serinin şekli hangi bağlamda değişir? Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ Olasılık Ve İstatistik 2022-2023 Vize Soruları</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Basıklaşır.</div><div class='opt'><strong>B)</strong> Netleşir.</div><div class='opt'><strong>C)</strong> Pürüzsüz hale gelir.</div><div class='opt'><strong>D)</strong> Normalleşir.</div><div class='opt'><strong>E)</strong> Sivrileşir.</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Sivrileşir.<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 8</div>
+            <div class='topic-title'>Grafiklerle Veri Sunumu</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>İstatistikte grafikler verinin daha hızlı yorumlanmasını sağlar. Histogram özellikle sınıflanmış nicel veriler için kullanılır ve sınıf büyüklükleriyle birlikte dağılım yapısını gösterir.</p><p>Daire grafiği ise bütün içindeki oranları sunmak için uygundur. Toplam 360 derece kabul edilir ve her sınıfın payı buna göre açısal olarak hesaplanır.</p><p>Box-Whisker diyagramı, medyan, çeyrekler ve uç değerleri aynı anda gösterebildiği için beş sayılık özeti anlamada oldukça değerlidir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Histogram sınıflı nicel veriler için kullanılır.</li><li>Daire grafiği oranları açılarla gösterir.</li><li>Box-Whisker beş özet değeri sunar.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Grafik türü sorularında veri yapısına dikkat et.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Çubuk grafik ile histogram aynı değildir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Daire grafiğinde yüzdeyi dereceye çevirmeyi unutma.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2025-2026 FINAL</div>
+      <h4>Homojen bir para 64 kez atılıyor. Bulunan turaların sayısının standart sapması değeri aşağıdakilerden hangisidir? n = 64 (Atış sayısı) p = 0.5 (Tura gelme olasılığı – Homojen para) q = 0.5 (Yazı gelme olasılığı) Binom dağılımında Varyans formülü: Var = n * p * q Var = 64 * 0.5 * 0.5 = 16 Standart Sapma formülü: σ = √Varyans σ = √16 = 4 Bu nedenle tura sayısının standart sapması 4’tür. Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ Olasılık ve İstatistik 2025-2026 Final Soruları Olasılık ve İstatistik 2025-2026 Final Soruları Olasılık ve İstatistik 2025-2026 Final Soruları VİDEO ÖZET Olasılık ve İstatistik: Verinin Dili, Belirsizliğin Matematiği ve Karar Mekanizmaları Olasılığın Temelleri ve Koşullu Durumlar İstatistik biliminin kalbinde yer alan olasılık teorisi, belirsiz durumlar altında rasyonel kararlar almamızı sağlar. Bir yatırımın veya operasyonun uzun vadeli ortalama sonucunu ifade eden Beklenen Değer (Expected Value) , finansal risk yönetiminde kritik bir araçtır. Petrol arama örneğinde olduğu gibi, kazanç ve kayıpların olasılıklarla ağırlıklandırılması ( ), stratejik yol haritasını belirler. Daha karmaşık senaryolarda ise, bir olay gerçekleştikten sonra nedenlerine dair olasılıkları güncellememizi sağlayan Bayes Teoremi devreye girer. Bir TV dizisinin yurt dışına satılması (sonuç) bilgisinden hareketle, Türkiye’de beğenilme olasılığını (neden) hesaplamak, koşullu olasılık mantığının en somut uygulamasıdır. Kesikli ve Sürekli Olasılık Dağılımları Verinin doğası, kullanılacak matematiksel modeli belirler: Binom Dağılımı: Sadece iki sonucun (başarı/başarısızlık, defolu/sağlam) olduğu, denemelerin bağımsız olduğu durumları modeller. 64 kez atılan bir paradaki turaların yayılımı veya 5 üründen birinin defolu çıkma ihtimali bu modelle çözülür. Poisson Dağılımı: Belirli bir zaman veya alan diliminde nadir görülen olayları (bir kitaptaki imla hataları, fabrikadaki hatalı ürün sayısı) analiz etmek için idealdir. Özellikle deneme sayısı ( ) çok büyük, olasılık ( ) çok düşükse Binom’un yerini alır. Sürekli Dağılımlar (Normal Dağılım): Boy, kilo ve sıcaklık gibi ölçülebilir değişkenlerin oluşturduğu çan eğrisi modelidir. Z-puanı analizi ile bir öğrencinin başarısı sınıf ortalamasına göre standartlaştırılarak ( ) objektif bir kıyaslama imkanı sunar. Betimsel İstatistik ve Veri Görselleştirme Veriyi sadece toplamak yetmez, onu anlamlı bir hikayeye dönüştürmek gerekir. Sınıflanmış serilerde verinin dağılım şeklini ve yoğunluğunu görmek için en uygun araç bitişik sütunlardan oluşan Histogram dır. Dağılımın yaygınlığını ölçen en kaba değer Değişim Aralığı (Range) iken; varyans ve standart sapma, verilerin ortalamadan ne kadar uzaklaştığını hassas bir şekilde ölçer. İstatistiğin en temel matematiksel yasalarından biri, bir serideki tüm değerlerin ortalamadan sapmalarının toplamının daima sıfır olmasıdır; bu, aritmetik ortalamanın serinin “ağırlık merkezi” olduğunu kanıtlar. Hipotez Testleri ve Hata Analizi Bilimsel bir iddiayı doğrulamak için kurulan birbirine karşıt hipotezler ( ve ), istatistiksel testlerin temelini oluşturur. Bu süreçte iki tip risk mevcuttur: Tip I Hata ( ) , yani masum birini suçlamak gibi doğru olanı reddetmek; ve Tip II Hata ( ) , yani suçlu birini serbest bırakmak gibi yanlışı kabul etmektir. Ölçüm sürecinde ise, örneklem hacmi büyüdükçe birbirini tolere eden tesadüfi hatalar (anketörün yanlış kodlaması gibi) ile her ölçümde aynı yönde sapma yapan sistematik hatalar (bozuk terazi gibi) arasındaki farkı bilmek, analizin güvenilirliği (validity) açısından hayati önem taşır. @lolonolo_com Olasılık ve İstatistik 2025-2026 Final Soruları Olasılık ve İstatistik 2025-2026 Final Soruları</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 10</div><div class='opt'><strong>B)</strong> 4</div><div class='opt'><strong>C)</strong> 0,158</div><div class='opt'><strong>D)</strong> 6</div><div class='opt'><strong>E)</strong> 8</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> B - 4<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2022-2023 VIZE</div>
+      <h4>İstanbul nüfusu 16 milyon olarak tahmin edilmiştir. Bu nüfusun %21’i üniversite mezunu, %39’i lise, %34’ü ilköğretim mezunu ve kalanlar ise eğitimsizlerden oluşmaktadır. Bu seri daire grafiği ile ifade edildiğinde, ilköğretim mezunlarına ait dilimin açısal ölçümü kaçtır?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 180</div><div class='opt'><strong>B)</strong> 76</div><div class='opt'><strong>C)</strong> 144</div><div class='opt'><strong>D)</strong> 122</div><div class='opt'><strong>E)</strong> 84</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> D - 122<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 9</div>
+            <div class='topic-title'>Kombinasyon ve Temel Olasılık</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Olasılık bölümünde önce sayma yöntemleri ve temel olay hesapları öğrenilir. Kombinasyon, sıralamanın önemli olmadığı seçim problemlerinde kullanılır.</p><p>Ayrık olayların gerçekleşme olasılıkları çoğu zaman binom mantığıyla veya temel sayma prensipleriyle bulunur. Özellikle çocuk sayısı, grup oluşturma ve seçim soruları sık çıkar.</p><p>Burada önemli olan, sıralama mı önemli değil mi sorusunu doğru cevaplamaktır. Çünkü permütasyon ile kombinasyon ayrımı yanlış yapıldığında sonuç tamamen değişir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Kombinasyonda sıra önemsizdir.</li><li>Temel olasılıkta uygun durum / tüm durum oranı kullanılır.</li><li>Binom yapısında iki sonuç vardır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Önce problem türünü belirle.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Bağımsız denemeler olasılık hesabını kolaylaştırır.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> En az / en çok ifadelerine dikkat et.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 VIZE</div>
+      <h4>6 kişilik bir gruptan kaç tane 2 kişilik grup oluşturulabilir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 15</div><div class='opt'><strong>B)</strong> 20</div><div class='opt'><strong>C)</strong> 10</div><div class='opt'><strong>D)</strong> 5</div><div class='opt'><strong>E)</strong> 25</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> A - 15<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2022-2023 VIZE</div>
+      <h4>5 çocuklu bir ailede 2 erkek çocuk olması olasılığı nedir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 4/32</div><div class='opt'><strong>B)</strong> 8/32</div><div class='opt'><strong>C)</strong> 10/32</div><div class='opt'><strong>D)</strong> 2/32</div><div class='opt'><strong>E)</strong> 6/32</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - 10/32<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 10</div>
+            <div class='topic-title'>Rastlantısal Değişken ve Olasılık Fonksiyonu</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Rastlantısal değişken, deney sonucunu sayısal olarak ifade eden yapıdır. Kesikli rastlantısal değişkenler sayılabilir sonuçlar alırken sürekli değişkenler bir aralık üzerinde değer alır.</p><p>Bir fonksiyonun kesikli değişken için olasılık fonksiyonu olabilmesi için her olasılığın negatif olmaması ve toplam olasılığın 1 olması gerekir. Sürekli değişkenlerde ise yoğunluk fonksiyonu ile çalışılır.</p><p>Sınavlarda tablo üzerinden P(X&lt;2) gibi olasılıklar veya ‘hangi koşul sağlanmalıdır?’ tarzı temel kurallar sık sorulur.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Kesikli değişken sayılabilir değerler alır.</li><li>Olasılıklar negatif olamaz.</li><li>Toplam olasılık 1 olmalıdır.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> Fonksiyonun olasılık fonksiyonu olup olmadığını koşullarla kontrol et.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Yoğunluk fonksiyonu ile olasılık fonksiyonunu ayır.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Tablo sorularında istenen aralığı dikkatle oku.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 VIZE</div>
+      <h4>X kesikli rastlantısal değişkeninin olasılık dağılımı yukarıdaki tabloda verilmiştir. Buna göre P(x &lt; 2) olasılık değeri aşağıdakilerden hangisidir?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 0,49</div><div class='opt'><strong>B)</strong> 0,39</div><div class='opt'><strong>C)</strong> 0,8</div><div class='opt'><strong>D)</strong> 0,54</div><div class='opt'><strong>E)</strong> 0,19</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - 0,19<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2022 FINAL</div>
+      <h4>Bir fonksiyonun kesikil tesadüfi değişkenler için olasılık fonksiyonu olabilmesi aşağıdaki hangl koşulu sağlaması lle mümkündür?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> P(X)≥0</div><div class='opt'><strong>B)</strong> P(X)≥1</div><div class='opt'><strong>C)</strong> P(X)≥1,5</div><div class='opt'><strong>D)</strong> P(X)=0</div><div class='opt'><strong>E)</strong> P(X)=1,15</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> A - P(X)≥0<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 11</div>
+            <div class='topic-title'>Binom ve Poisson Dağılımı</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Binom dağılımı sabit sayıda bağımsız denemede yalnız iki sonucun bulunduğu durumları modeller. Başarı olasılığı her denemede aynıdır. Hatalı ürün, yazı-tura ve en az bir başarı soruları bu yapıdadır.</p><p>Poisson dağılımı ise belirli zaman veya alan aralığında nadir olayların sayısını modellemek için kullanılır. Bir saatte gelen müşteri sayısı veya bir sayfadaki imla hatası buna örnek verilebilir.</p><p>Sınavlarda hangi olayın Poisson’a uyup hangisinin uymadığı, ayrıca belirli sayıda hatalı ürün olasılığı gibi sorular çok yaygındır.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Binom: sabit n, iki sonuç, bağımsız deneme.</li><li>Poisson: zaman/alan içinde olay sayısı.</li><li>Poisson nadir olaylar için uygundur.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> İadeli / bağımsız yapı binom için önemlidir.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Poisson’da ortalama olay sayısı λ ile gösterilir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Dağılım türünü olayın yapısına göre seç.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 BUTUNLEME</div>
+      <h4>Aşağıdaki olaylardan hangisi Poisson dağılımına uymaz?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> Bir sayfadaki imla hatalarının sayısı</div><div class='opt'><strong>B)</strong> 10 dönümlük bir ormanda bulunan ağaç sayısı</div><div class='opt'><strong>C)</strong> Bir havalimanına bir saat boyunca inen uçakların sayısı</div><div class='opt'><strong>D)</strong> Bir kavşakta bir yılda meydana gelen ortalama kaza sayısı</div><div class='opt'><strong>E)</strong> Homojen bir paranın 5 defa atılması sonucunda üste gelen yazıların sayısı</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> E - Homojen bir paranın 5 defa atılması sonucunda üste gelen yazıların sayısı<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 BUTUNLEME</div>
+      <h4>Bir ayakkabı fabrikasında üretilen ürünlerde hatalı ürün oranı yüzde 1 olarak tespit edilmiştir. Tesadüfen seçilen 200 ayakkabılık bir örneklem içinde 3 tanesinin hatalı olma olasılığı değeri aşağıdakilerden hangisidir? P(X=3) = (e^-2 * 2^3) / 3! = (0.1353 * 8) / 6 = 0.1804. (Binom ile de benzer sonuç çıkar).</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> 0.4025</div><div class='opt'><strong>B)</strong> 0.2275</div><div class='opt'><strong>C)</strong> 0.1805</div><div class='opt'><strong>D)</strong> 0.4775</div><div class='opt'><strong>E)</strong> 0,1270</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - 0.1805<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+        <section class='topic'>
+          <div class='topic-head'>
+            <div class='topic-index'>Konu Başlığı 12</div>
+            <div class='topic-title'>Koşullu Olasılık, Beklenen Değer ve Hipotez Testi</div>
+          </div>
+          <div class='topic-grid'>
+            <div class='card'>
+              <h3>Konu Anlatımı</h3>
+              <p>Koşullu olasılık, bir olayın gerçekleştiği bilindiğinde başka bir olayın olasılığını hesaplamayı sağlar. Başarısız öğrenciler içinden yabancı uyruklu seçilmesi gibi sorular bu mantığa dayanır.</p><p>Beklenen değer, rassal bir değişkenin uzun dönemdeki ortalama sonucunu ifade eder. Özellikle kazanç-kayıp tablolarında ve karar verme problemlerinde kullanılır.</p><p>Hipotez testinde ise H0 ve H1 birbirine karşıt iki önermedir. Gerçekte doğru olan H0’ın reddedilmesi Tip I yani alfa hatasını oluşturur. Bu kavramlar sınavda doğrudan tanım sorusu olarak da gelir.</p>
+            </div>
+            <div>
+              <div class='card'>
+                <h3>Öne Çıkan Noktalar</h3>
+                <ul><li>Koşullu olasılıkta örnek uzay daralır.</li><li>Beklenen değer karar problemlerinde önemlidir.</li><li>Tip I hata = doğru H0'ı reddetmek.</li></ul>
+              </div>
+              <div class='callout attn'><strong>Sınavda Dikkat:</strong> H0 ve H1 birbirine karşıttır.</div>
+              <div class='callout note'><strong>Önemli Not:</strong> Koşullu olasılıkta payda verilen koşula göre belirlenir.</div>
+              <div class='callout mix'><strong>Karıştırılan Nokta:</strong> Beklenen değer her zaman kesin gerçekleşen sonuç değildir.</div>
+            </div>
+          </div>
+          <div class='questions'><article class='qcard'>
+      <div class='qbadge'>Soru 1 • 2024-2025 BUTUNLEME</div>
+      <h4>Gerçekte doğru olan H0 hipotezi reddedildiğinde aşağıdaki hata tiplerinden hangi tip hata gerçekleşmiş olur?</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> γ Hatası</div><div class='opt'><strong>B)</strong> 1-β Hatası</div><div class='opt'><strong>C)</strong> α Hatası</div><div class='opt'><strong>D)</strong> β Hatası</div><div class='opt'><strong>E)</strong> 1-α Hatası</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - α Hatası<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article><article class='qcard'>
+      <div class='qbadge'>Soru 2 • 2024-2025 BUTUNLEME</div>
+      <h4>Herhangi hipotez testinin gerçekleşebilmesi için birbirine ….. olan iki hipoteze gerek vardır. Yukarıdaki cümlede boş bırakan yere aşağıdakilerden hangisi gelmelidir? Xi Ti 8 6 6 9 5 1 2 8 9 6</h4>
+      <div class='opts'><div class='opt'><strong>A)</strong> betimleyici</div><div class='opt'><strong>B)</strong> denge</div><div class='opt'><strong>C)</strong> karşıt</div><div class='opt'><strong>D)</strong> destek</div><div class='opt'><strong>E)</strong> tamamlayıcı</div></div>
+      <div class='answer'><strong>Doğru Cevap:</strong> C - karşıt<br/><span>Doğru seçenek, ilgili istatistik kavramının tanımına ya da temel formülüne dayanır. Sınavda benzer sorularda ana kavramı doğru eşleştirmek önemlidir.</span></div>
+    </article></div>
+        </section>
+<div class='footer'>Başarılar dilerim.</div></div></body></html>
