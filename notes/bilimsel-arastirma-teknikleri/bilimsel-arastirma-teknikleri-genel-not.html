@@ -1,1 +1,388 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bilimsel Araştırma Teknikleri</title>
+<style>
+:root{
+  --bg:#f4f7fb; --card:#ffffff; --text:#22314d; --muted:#5a6b88; --line:#e5edf8;
+  --brand:#244784; --soft:#f8fbff; --blue:#eaf3ff; --purple:#f3ecff; --green:#15803d;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.72}
+.container{width:min(100% - 28px,1140px);margin:26px auto 40px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#60a5fa);color:#fff;border-radius:26px;padding:30px 28px;box-shadow:0 18px 44px rgba(37,99,235,.18);margin-bottom:22px}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:12px}
+h1{margin:0 0 10px;font-size:38px;line-height:1.15}
+.lead{margin:0;font-size:17px;max-width:960px}
+.section-card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px;margin-bottom:18px;box-shadow:0 10px 28px rgba(15,23,42,.05)}
+.topic-label{display:inline-block;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:12px}
+h2{margin:0 0 14px;font-size:29px;color:#12233f}
+.section-body p{margin:0 0 13px;color:#344560;font-size:16px}
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.callout{border-radius:18px;padding:16px 18px;border:1px solid var(--line);color:#334155}
+.callout strong{display:block;margin-bottom:8px;color:#1f2f4d}
+.callout.blue{background:var(--blue)}
+.callout.purple{background:var(--purple)}
+.mini-list{margin:0;padding-left:18px}
+.question-wrap{margin-top:18px}
+.question-title{font-weight:800;color:var(--brand);font-size:18px;margin-bottom:12px}
+.question-card{background:var(--soft);border:1px solid #dce9fb;border-radius:18px;padding:18px;margin-bottom:14px}
+.q-text{font-size:16px;font-weight:800;color:#22314d;margin-bottom:12px}
+.options{list-style:none;padding:0;margin:0 0 12px}
+.options li{padding:8px 12px;margin-bottom:8px;border-radius:12px;background:#fff;border:1px solid #e5edf8;color:#3c4c68}
+.opt{font-weight:800;color:#244784;display:inline-block;width:28px}
+.answer{color:var(--green);font-size:14px;font-weight:700;margin-top:6px}
+.explanation{color:var(--muted);font-size:14px;margin-top:8px}
+@media(max-width:860px){.callout-grid{grid-template-columns:1fr} h1{font-size:32px}}
+@media(max-width:640px){.container{width:min(100% - 18px,1140px)} .hero,.section-card{padding:20px} h1{font-size:28px} h2{font-size:23px}}
+</style>
+</head>
+<body>
+<div class='container'>
+  <section class='hero'>
+    <span class='badge'>YBS • Gelişmiş ders notu</span>
+    <h1>Bilimsel Araştırma Teknikleri</h1>
+    <p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Bilimsel Araştırma Teknikleri dersi için araştırma süreci, metodoloji, problem kurma, hipotez, veri, değişken, ölçekler, örnekleme, anket, geçerlilik, güvenirlik ve korelasyon konuları daha açıklayıcı konu anlatımıyla düzenlenmiştir.</p>
+  </section>
+  
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 1</div>
+      <h2>Bilimsel Araştırmaya Giriş ve Metodoloji</h2>
+      <div class='section-body'><p>Bilimsel araştırma, bir problemi sistemli biçimde inceleyerek güvenilir bilgi üretme sürecidir. Gündelik meraktan farklı olarak planlıdır, belirli kurallara dayanır ve bulgularını kanıtla desteklemeye çalışır.</p><p>Bu dersin en temel kavramlarından biri metodolojidir. Metodoloji yalnız veri toplama tekniği demek değildir; araştırmacının hangi mantıkla ilerlediğini, hangi aşamaları izlediğini ve veriyi nasıl yorumladığını da kapsar.</p><p>Sınavlarda bu başlık genellikle tanım sorusu gibi gelir. Ama aslında sonraki bütün konuların çatısıdır. Metodoloji ile yöntem, teknik ve araç arasındaki fark anlaşılmazsa diğer sorular da askıda kalır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Araştırma yöntemlerinin en genel anlatımı aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Araştırma sürecinin tümünü kapsar.</li><li><span class='opt'>B)</span> Araştırmada sorulacak soruların hazırlanmasını kapsar.</li><li><span class='opt'>C)</span> Deneysel ve yarı deneysel işlem hazırlamayı kapsar.</li><li><span class='opt'>D)</span> Araştırmada felsefi esasları kapsar.</li><li><span class='opt'>E)</span> Araştırmada teorik esasları kapsar.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Araştırma yöntemi yalnız veri toplama tekniğini değil, problem belirlemeden analiz ve raporlamaya kadar tüm süreci kapsayan geniş bir çerçevedir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Bilimsel araştırmalarda araştırmacının izlediği genel yolu aşağıdakilerden hangisi karşılamaktadır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Metodoloji</li><li><span class='opt'>B)</span> Epistemoloji</li><li><span class='opt'>C)</span> Pozitivizm</li><li><span class='opt'>D)</span> Rölativizm</li><li><span class='opt'>E)</span> Filoloji</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Metodoloji, araştırmacının bilimsel çalışmada izlediği genel yol ve yöntem anlayışını ifade eder. Tekniklerden daha geniş bir kavramdır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 2</div>
+      <h2>Araştırma Konusu, Problem ve Süreç Kurma</h2>
+      <div class='section-body'><p>Araştırma sürecinin ilk adımı doğru bir konu ve doğru bir problem belirlemektir. Konu çok geniş bırakılırsa çalışma dağılır; çok daraltılırsa yeterli veri veya anlamlı sonuç üretmek zorlaşabilir.</p><p>Bu nedenle araştırmacı önce genel bir alan seçer, sonra kapsamı daraltır, odak noktasını belirler ve araştırma problemini açık hale getirir. Problem, cevap aranacak temel meseleyi gösterir.</p><p>İyi kurulmuş bir problem araştırmanın yönünü belirler. Alt problemler, araştırma soruları ve amaç cümleleri de bu aşamada şekillenir. Sınavlarda bu başlıkta genellikle sıra, mantık ve ifade biçimi sorgulanır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>I. Odaklanma II. Gözlem yapma III. Kapsam daraltma IV. Konu belirleme Yukarıdaki maddeler dikkate alındığında araştırma yapısının oluşturulmasında doğru sıralama aşağıdakilerden hangisinde verilmiştir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> II-III-IV-I</li><li><span class='opt'>B)</span> III-II-IV-I</li><li><span class='opt'>C)</span> IV-III-I-II</li><li><span class='opt'>D)</span> II-III-I-IV</li><li><span class='opt'>E)</span> IV-I-II-III</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Araştırma sürecinde önce konu belirlenir, sonra kapsam daraltılır, daha sonra odak netleştirilir ve gözlem/inceleme daha sistemli hale gelir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Araştırma problemi ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Alt problemler, soru cümleleri şeklinde oluşturulabilir.</li><li><span class='opt'>B)</span> Alt problemler sınamayı amaçladığı hipotezler biçiminde ifade edilebilir.</li><li><span class='opt'>C)</span> Tezin problem kısmında, cevap verilmesi planlanan araştırma sorusunun ne olduğu belirtilmelidir.</li><li><span class='opt'>D)</span> Her bir alt problem kendi içinde alt maddeler olarak yazılabilir.</li><li><span class='opt'>E)</span> Problem, soru cümlesi olarak ifade edilir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Araştırma problemi çoğu zaman soru biçiminde kurulsa da tek zorunlu anlatım bu değildir. Önemli olan problemin açık, araştırılabilir ve sınırlandırılmış olmasıdır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 3</div>
+      <h2>Hipotezler, Varsayımlar ve Bilimsel Akıl Yürütme</h2>
+      <div class='section-body'><p>Bilimsel araştırmada hipotez, test edilebilir önermedir. Araştırmacı hipotez kurarak değişkenler arasındaki beklenen ilişkiyi sınamaya çalışır. Hipotezler her zaman doğrulanmak zorunda değildir; bilimsel olan, test edilebilir olmalarıdır.</p><p>Varsayımlar ise çoğu zaman araştırmanın yürüyebilmesi için başlangıçta doğru kabul edilen ön kabullerdir. Bu yüzden hipotez ile varsayım aynı şey değildir.</p><p>Tümevarım ve tümdengelim de bu başlıkla bağlantılıdır. Araştırmacı bazen gözlemlerden genele gider, bazen genel çerçeveden özel sonuca ulaşmaya çalışır. Sınavda bu kavramlar çoğu kez birbirine yakın şıklarla verilir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Varsayımlar ve hipotezlerle ilgili aşağıdaki ifadelerden hangisi doğrudur?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Varsayımlar, hipotezleri yanlış olarak kabul eden yargılardır.</li><li><span class='opt'>B)</span> Varsayımlar baştan doğru kabul edilmez ve sınanırlar.</li><li><span class='opt'>C)</span> Araştırma sonuçlarının geçerliliği varsayımların yanlışlanabilirliğine bağlıdır.</li><li><span class='opt'>D)</span> Bir araştırmada en az iki varsayım bulunmalıdır.</li><li><span class='opt'>E)</span> Hipotezler test edilir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Hipotez, araştırmada sınanan önermedir. Varsayım ise çoğu zaman başlangıçta doğru kabul edilip araştırmanın yürütülmesini mümkün kılan kabuldür.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdaki ifadelerden hangisi hipotezlerin özelliklerinden biri değildir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Eldeki bütün verilere uygun olmalı ve onları açıklamalıdır.</li><li><span class='opt'>B)</span> Tüm hipotezler kabul edilmelidir.</li><li><span class='opt'>C)</span> Probleme çözüm önermelidir.</li><li><span class='opt'>D)</span> Yeni gerçeklerin tahminine olanak sağlamalıdır.</li><li><span class='opt'>E)</span> Yeni deney ve gözlemlerle denenebilir olmalıdır.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Bilimsel bir hipotez test edilebilir olmalıdır; mutlaka kabul edilmesi gerekmez. Aksine yanlışlanabilirlik bilimsel niteliğin önemli parçasıdır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 4</div>
+      <h2>Veri Kavramı ve Veri Türleri</h2>
+      <div class='section-body'><p>Veri, araştırmanın ham malzemesidir. Henüz işlenmemiş, düzenlenmemiş ve yorumlanmamış bilgi parçaları veri olarak düşünülür. Analiz ve yorumla birlikte bu ham yapı anlam kazanmaya başlar.</p><p>Araştırmada her bilgi veri sayılmaz. Bilginin sistemli biçimde kaydedilmiş, izlenebilir ve kullanılabilir olması gerekir. Bu nedenle veri toplama kadar veri kaydetme de bilimsel sürecin parçasıdır.</p><p>Bu başlıkta öğrenciler çoğu zaman veri, bilgi ve bulgu kavramlarını karıştırır. Oysa veri hamdır; bulgu ise analiz sonrasında ulaşılan sonuç düzeyine daha yakındır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi veriyi en kısa şekilde tanımlamaktadır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Bir konu ile ilgili tutum ve davranışların bütünüdür.</li><li><span class='opt'>B)</span> Elde edilen deneyimin zaman içerisinde pekiştirilmesidir.</li><li><span class='opt'>C)</span> Henüz işlenmemiş bilgilerdir.</li><li><span class='opt'>D)</span> Öğrenme için bir anlam çıkarma sürecidir.</li><li><span class='opt'>E)</span> Araştırma konusu ile ilgili kabul edilmeyen tüm ayrıntılardır.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Veri, ham halde bulunan ve henüz işlenmemiş bilgi parçalarıdır. Analiz ve yorum sonrasında anlam kazanır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Araştırmaya kanıt olması amacıyla toplanan bilgilerin veri olarak kabul edilebilmesi için aşağıdakilerden hangisi gereklidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Ham bilgi olmaması gereklidir.</li><li><span class='opt'>B)</span> Şematik olması gerekir.</li><li><span class='opt'>C)</span> Anlaşılabilir olması gerekir.</li><li><span class='opt'>D)</span> Kayıt edilmiş olması gerekir.</li><li><span class='opt'>E)</span> Herkes tarafından kabul edilmesi gerekir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Bilginin veri sayılabilmesi için sistemli biçimde kaydedilmiş olması gerekir. Aksi halde araştırma sürecinde izlenebilir ve kullanılabilir olmaz.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 5</div>
+      <h2>Değişkenler: Nitel, Nicel, Sürekli, Kesikli</h2>
+      <div class='section-body'><p>Değişken, araştırmada farklı değerler alabilen özelliktir. Cinsiyet, yaş, gelir, tutum, başarı, ağırlık ya da görüş gibi birçok özellik değişken olabilir.</p><p>Değişkenler nitel ve nicel olarak ayrılabilir. Nitel değişkenler kategorik özellik gösterirken nicel değişkenler sayısal ölçüme dayanır. Ayrıca sürekli ve kesikli ayrımı, değişkenin hangi tür değerler alabildiği ile ilgilidir.</p><p>Bu başlık çok önemlidir çünkü hipotez kurma, veri toplama, analiz yöntemi seçme ve yorum yapma doğrudan değişken türüne bağlıdır. Sınavlarda &#x27;hangi veri türü&#x27; ve &#x27;hangi değişken&#x27; soruları sıkça gelir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>I. Sürekli II. Kesikli III. Nitel IV. Nicel Yukarıdakilerden hangisi/hangileri sıfatlarına göre değişkenlerdendir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> II ve III</li><li><span class='opt'>B)</span> I ve IV</li><li><span class='opt'>C)</span> Yalnız I</li><li><span class='opt'>D)</span> Yalnız II</li><li><span class='opt'>E)</span> III ve IV</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Nitel ve nicel sınıflaması değişkenin özelliğine göredir; sürekli ve kesikli ayrımı ise değer alış biçimine göredir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Kişilerin ağırlığı aşağıda yer alan hangi veri türüne örnektir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Sürekli nicel veri</li><li><span class='opt'>B)</span> Süreksiz nicel veri</li><li><span class='opt'>C)</span> Süreksiz nitel veri</li><li><span class='opt'>D)</span> Sürekli nitel veri</li><li><span class='opt'>E)</span> Kesikli nitel veri</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Ağırlık sayısal olarak ölçülür ve teorik olarak sonsuz ara değere bölünebilir. Bu yüzden sürekli nicel veri örneğidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 6</div>
+      <h2>Ölçek Türleri ve Ölçme Düzeyleri</h2>
+      <div class='section-body'><p>Ölçekler, değişkenleri nasıl ölçtüğümüzü gösterir. En temel sınıflamada isimsel, sırasal, aralıklı ve oransal ölçeklerden söz edilir.</p><p>İsimsel ölçekte sadece sınıflandırma yapılır. Sırasal ölçekte sıralama vardır. Aralıklı ölçekte farklar anlamlıdır ancak gerçek sıfır yoktur. Oransal ölçekte ise gerçek sıfır noktası bulunduğu için oranlama yapılabilir.</p><p>Sınavlarda bu konu çok sevilen bir başlıktır çünkü küçük farklar belirleyicidir. Özellikle isimsel-sırasal ve aralıklı-oransal ayrımlarına dikkat etmek gerekir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Ölçülen özellik, sayı doğrusu üzerinde sadece belirli noktalara atanabiliyorsa bu tip değişkenlere verilen ad aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Sürekli değişken</li><li><span class='opt'>B)</span> Kesikli değişken</li><li><span class='opt'>C)</span> Ara değişken</li><li><span class='opt'>D)</span> Kontrol değişkeni</li><li><span class='opt'>E)</span> Nitel değişken</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Kesikli değişkenler yalnız belirli sayısal değerler alır. Örneğin kişi sayısı gibi değişkenlerde ara değerler anlamlı değildir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi Stevens’ın tek boyutlu ölçekler sınıflandırmasında yer almaz?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Sırasal ölçek</li><li><span class='opt'>B)</span> Kümesel ölçek</li><li><span class='opt'>C)</span> Aralıksal ölçek</li><li><span class='opt'>D)</span> İsimsel ölçek</li><li><span class='opt'>E)</span> Oransal ölçek</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Stevens sınıflamasında isimsel, sırasal, aralıklı ve oransal ölçekler bulunur. Kümesel ölçek bu temel sınıflandırmada yer almaz.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 7</div>
+      <h2>Evren, Örneklem ve Çerçeve Kavramı</h2>
+      <div class='section-body'><p>Araştırmada evren, hakkında sonuç çıkarmak istediğimiz bütün birimler topluluğudur. Örneklem ise bu evrenden belirli kurallarla seçilen daha küçük gruptur.</p><p>Örnekleme çerçevesi ise evrendeki birimlerin listelendiği ya da erişilebilir hale getirildiği yapıdır. Çerçeve sağlıklı değilse örnekleme de sorunlu hale gelir.</p><p>Bu başlıkta amaç yalnız tanım bilmek değildir. Öğrenci, temsil gücünün neden önemli olduğunu ve evrenden örnekleme geçerken hangi risklerin ortaya çıkabileceğini de kavramalıdır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Deneklerden alınan cevapların ya da ölçümlerin nitelik hâlinde belirtildiği ölçek türü aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Kümesel ölçek</li><li><span class='opt'>B)</span> Aralıksal ölçek</li><li><span class='opt'>C)</span> İsimsel ölçek</li><li><span class='opt'>D)</span> Oransal ölçek</li><li><span class='opt'>E)</span> Sırasal ölçek</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>İsimsel ölçek, verileri sadece sınıflandırır. Sayılar kullanılsa bile bu sayılar büyüklük değil kategori temsil eder.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Sonlu bir ana kütlede tüm birimlerin yer aldığı listeye verilen ad aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Son ana kütle listesi</li><li><span class='opt'>B)</span> Örneklem listesi</li><li><span class='opt'>C)</span> Grafik</li><li><span class='opt'>D)</span> Tablo</li><li><span class='opt'>E)</span> Çerçeve</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Örnekleme çerçevesi, ana kütledeki birimlerin listelendiği temel kaynaktır. Sağlıklı örnekleme için çerçevenin uygun olması gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 8</div>
+      <h2>Örnekleme Yöntemleri</h2>
+      <div class='section-body'><p>Örnekleme yöntemleri, evrenden hangi mantıkla seçim yapılacağını belirler. Rassal örnekleme yanlılığı azaltmayı hedeflerken, yargısal veya kolayda örnekleme daha pratik ama temsil gücü daha tartışmalı olabilir.</p><p>Küme örnekleme, bireyler yerine gruplar üzerinden seçim yapılmasını sağlar. Kartopu örnekleme ise özellikle ulaşılması güç gruplarda bir katılımcıdan diğerine ilerleme mantığı taşır.</p><p>Bu başlık sınavda çok sık çıkar çünkü araştırmanın güvenilirliği örneklem seçimiyle doğrudan ilişkilidir. Öğrencinin yöntemin tanımını değil, hangi durumda neden tercih edildiğini de bilmesi gerekir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Ana kütlenin tüm özelliklerini içeren ve temsil yeteneğine sahip bir örneklem aşağıdaki örnekleme yöntemlerinden hangisiyle seçilmiş olabilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Küme örnekleme ile yapılmış olabilir.</li><li><span class='opt'>B)</span> Sistematik örnekleme ile yapılmış olabilir.</li><li><span class='opt'>C)</span> Sürekli örnekleme yöntemi ile yapılmış olabilir.</li><li><span class='opt'>D)</span> Rassal örnekleme ile yapılmış olabilir.</li><li><span class='opt'>E)</span> Kolayda örnekleme yöntemi ile yapılmış olabilir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Temsil gücü yüksek örneklem elde etmede rassal seçme temel yaklaşımdır. Yanlı seçimin azalmasına yardımcı olur.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Örnekleme biriminin tek kişi ya da aile değil bir grup olduğu örnekleme yöntemi aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Yargısal örnekleme</li><li><span class='opt'>B)</span> Sistematik örnekleme</li><li><span class='opt'>C)</span> Kolayda örnekleme</li><li><span class='opt'>D)</span> Küme örnekleme</li><li><span class='opt'>E)</span> Kota örneklemesi</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Küme örneklemede seçim tek tek bireylerden değil, grup ya da kümelerden yapılır. Özellikle maliyet ve erişim açısından avantaj sağlayabilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 9</div>
+      <h2>Veri Toplama Araçları ve Anket</h2>
+      <div class='section-body'><p>Veri toplama araçları araştırmanın niteliğine göre değişir. Gözlem, görüşme, anket, belge inceleme ve test gibi yollar farklı türde veri üretir.</p><p>Anket, özellikle geniş gruplardan belirli yapılandırılmış bilgiler toplamak için kullanılır. Ancak her hedef kitle için aynı biçimde uygun değildir. Soru dili, yaş grubu, okuryazarlık düzeyi ve uygulama biçimi önemlidir.</p><p>Bu başlıkta yüz yüze anket, posta, telefon ya da bilgisayar destekli yöntemlerin avantaj ve sınırlılıklarını bilmek gerekir. Sorular genellikle hız, maliyet ve derinlik açısından karşılaştırma ister.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Özellikle bir çerçevenin mevcut olmaması ya da oluşturulmasının imkânsız olduğu durumlarda faydalı bir yöntem olan ve örnekleme sürecinin, tanımlanan evrende yer alan bir bireyin genellikle rassal olarak seçilmesiyle başlayan örnekleme yöntemi aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Kota örneklemesi</li><li><span class='opt'>B)</span> Tam sayım</li><li><span class='opt'>C)</span> Küme örnekleme</li><li><span class='opt'>D)</span> Kartopu örneklemesi</li><li><span class='opt'>E)</span> Sistematik örnekleme</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Kartopu örneklemede ilk katılımcılardan yeni katılımcılara ulaşılır. Özellikle ulaşılması güç gruplarda tercih edilir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Anket formlarının aşağıdakilerden hangisine uygulanması uygun olmaz?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Çalışanlara</li><li><span class='opt'>B)</span> İşsizlere</li><li><span class='opt'>C)</span> Üniversite öğrencilerine</li><li><span class='opt'>D)</span> Hane halkına</li><li><span class='opt'>E)</span> Çocuklara</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Standart anket formu doğrudan çocuklara uygulandığında anlama ve yanıt kalitesi sorunları çıkabilir. Bu nedenle yaşa uygun özel araçlar gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 10</div>
+      <h2>Soru Türleri ve Anket Uygulama Mantığı</h2>
+      <div class='section-body'><p>Anket hazırlarken soru türü büyük önem taşır. Açık uçlu sorular ayrıntılı yanıt sağlar ama analizleri daha zordur. Kapalı uçlu sorular ise karşılaştırmayı kolaylaştırır.</p><p>Dikotom sorular iki seçeneklidir; evet-hayır biçimi bunun en bilinen örneğidir. Likert tipi sorular ise daha çok tutum ve eğilim ölçmek için kullanılır.</p><p>Sınavlarda yalnız soru türü değil, soru sıralaması ve uygulama mantığı da önemlidir. Kolay ve ilgi çekici soruların başta, hassas ve sıkıcı soruların ise daha sonda yer alması beklenir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Sürücü ehliyetiniz var mı? -Evet -Hayır Yukarıdaki soru aşağıdaki soru türlerinden hangisine örnektir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Dikotom soru</li><li><span class='opt'>B)</span> Likert tipi soru</li><li><span class='opt'>C)</span> Monotom soru</li><li><span class='opt'>D)</span> Açık uçlu soru</li><li><span class='opt'>E)</span> Açıklama sorusu</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Dikotom sorular iki seçenekli yapılardır. Evet-hayır tipi sorular bunun en tipik örneğidir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Veri toplama göz önüne alındığında aşağıdaki ifadelerden hangisi yanlıştır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Kişisel görüşmelerde derinlemesine sorular sorulabilir.</li><li><span class='opt'>B)</span> Kişisel görüşmelerde kaynak ihtiyacı fazladır.</li><li><span class='opt'>C)</span> Kişisel görüşmeler çok zaman alıcıdır.</li><li><span class='opt'>D)</span> CATI yöntemi ekonomiktir.</li><li><span class='opt'>E)</span> CATI yönteminde telefon ve bilgisayar kullanılır.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>CATI bazı koşullarda avantaj sağlasa da her durumda ekonomik kabul edilmez. Teknolojik altyapı ve organizasyon maliyetleri olabilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 11</div>
+      <h2>Geçerlilik ve Güvenirlik</h2>
+      <div class='section-body'><p>Geçerlilik, bir ölçme aracının gerçekten ölçmek istediği şeyi ne kadar doğru ölçtüğünü gösterir. Güvenirlik ise aynı aracın tutarlı sonuç verip vermediğiyle ilgilidir.</p><p>Bir araç güvenilir olabilir ama geçerli olmayabilir. Örneğin aynı yanlı sonucu sürekli üretmesi mümkündür. Bu yüzden geçerlilik ve güvenirlik birbirini tamamlayan ama farklı iki kavramdır.</p><p>Araştırma sınavlarında bu başlık çok önemlidir. İç geçerlilik, dış geçerlilik, yüz geçerliliği gibi ayrımlar ile güvenirlik katsayısının aralığı sıkça sorulur.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Anketin yeterli sayıda ve ölçülmek istenen olguyu temsil edebilecek sorulardan oluşup oluşmadığından emin olmak amacıyla yapılan geçerlilik türü aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Dış geçerlilik</li><li><span class='opt'>B)</span> Yüzey geçerliliği</li><li><span class='opt'>C)</span> Yapısal geçerlilik</li><li><span class='opt'>D)</span> Anlam geçerliliği</li><li><span class='opt'>E)</span> İç geçerlilik</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Soruların araştırılan yapıyı yeterli ve uygun biçimde temsil edip etmediği geçerlilik açısından sorgulanır. Bu tür sorular ölçme aracının içerik ve yapı yeterliliğini düşündürür.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Güvenirlik katsayısı ile ilgili olarak aşağıdakilerden hangisi doğrudur?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Sayısal olarak 1&#x27;den büyük bir değerle ifade edilir.</li><li><span class='opt'>B)</span> Sayısal olarak 0 ile 1 arasında değişmektedir.</li><li><span class='opt'>C)</span> Sayısal olarak 0 ile artı sonsuz arasında bir değer alabilir.</li><li><span class='opt'>D)</span> Sayısal olarak -1 ile 0 arasında değişmektedir.</li><li><span class='opt'>E)</span> Sayısal olarak -1 ile 1 arasında değişmektedir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Güvenirlik katsayısı genel olarak 0 ile 1 arasında değerlendirilir. Değer büyüdükçe ölçüm aracının tutarlılığı daha yüksek kabul edilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 12</div>
+      <h2>İlişkisel Analiz, Korelasyon ve Yorum</h2>
+      <div class='section-body'><p>Araştırmada iki değişkenin birlikte artıp azalması her zaman neden-sonuç anlamına gelmez. Bazen yalnız birlikte değişme gözlenir ve bu durum korelasyonel ilişki olarak ifade edilir.</p><p>Korelasyon katsayısı bu birlikte değişimin yönünü ve derecesini anlamaya yardımcı olur. Ancak korelasyon, nedenselliğin kanıtı değildir; bu ayrım sınavda özellikle önemlidir.</p><p>Bilimsel araştırma teknikleri dersinde ilişki kurma mantığı, yorum yapabilmenin temelidir. Öğrenci bağımlı-bağımsız değişken ayrımını ve korelasyonel ilişkiyi birbirinden ayırabildiğinde sorular daha net çözülür.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta terimler çok benzer görünebilir. Tanımı ezberlemek yerine kavramın işlevini ve araştırma sürecindeki yerini düşünmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Benzer kavramdan ayır</li><li>Örnek üstünden düşün</li><li>Soru kökündeki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>İstatistikte birlikte değişme aşağıdaki kavramlardan hangisi ile ölçülür?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Likert katsayısı</li><li><span class='opt'>B)</span> Regresyon katsayısı</li><li><span class='opt'>C)</span> Korelasyon katsayısı</li><li><span class='opt'>D)</span> Probability katsayısı</li><li><span class='opt'>E)</span> Semantik farklılıklar katsayısı</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>İki değişkenin birlikte artma-azalma eğilimi korelasyon ile değerlendirilir. Bu kavram neden-sonuç değil, birlikte değişim fikrine dayanır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Değişkenlerden hangisinin bağımsız ve hangisinin bağımlı olduğuyla ilgilenmediğimiz ancak bu değişkenlerin birlikte değiştiklerini, arttıklarını veya azaldıklarını gözlediğimiz değişkenler arasındaki ilişkileri aşağıdaki kavramlardan hangisini ifade eder?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Korelasyonel ilişki</li><li><span class='opt'>B)</span> Probabilistik ilişki</li><li><span class='opt'>C)</span> Sonuçsal ilişki</li><li><span class='opt'>D)</span> Regresyonel ilişki</li><li><span class='opt'>E)</span> Nedensel ilişki</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Korelasyonel ilişkide değişkenler arasında birlikte değişim incelenir; doğrudan nedensellik iddiası kurulmaz.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+</div>
+</body>
+</html>
