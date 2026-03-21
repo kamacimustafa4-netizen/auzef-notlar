@@ -1,1 +1,388 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yöneylem Araştırması</title>
+<style>
+:root{
+  --bg:#f4f7fb; --card:#ffffff; --text:#22314d; --muted:#5a6b88; --line:#e5edf8;
+  --brand:#244784; --soft:#f8fbff; --blue:#eaf3ff; --purple:#f3ecff; --green:#15803d;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+.container{width:min(100% - 28px,1140px);margin:26px auto 40px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#60a5fa);color:#fff;border-radius:26px;padding:28px 26px;box-shadow:0 18px 44px rgba(37,99,235,.18);margin-bottom:22px}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:12px}
+h1{margin:0 0 10px;font-size:38px;line-height:1.15}
+.lead{margin:0;font-size:17px;max-width:920px}
+.section-card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px;margin-bottom:18px;box-shadow:0 10px 28px rgba(15,23,42,.05)}
+.topic-label{display:inline-block;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:12px}
+h2{margin:0 0 12px;font-size:28px;color:#12233f}
+.section-body p{margin:0 0 12px;color:#344560}
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.callout{border-radius:18px;padding:16px 18px;border:1px solid var(--line);color:#334155}
+.callout strong{display:block;margin-bottom:8px;color:#1f2f4d}
+.callout.blue{background:var(--blue)}
+.callout.purple{background:var(--purple)}
+.mini-list{margin:0;padding-left:18px}
+.question-wrap{margin-top:18px}
+.question-title{font-weight:800;color:var(--brand);font-size:18px;margin-bottom:12px}
+.question-card{background:var(--soft);border:1px solid #dce9fb;border-radius:18px;padding:18px;margin-bottom:14px}
+.q-text{font-size:16px;font-weight:800;color:#22314d;margin-bottom:12px}
+.options{list-style:none;padding:0;margin:0 0 12px}
+.options li{padding:8px 12px;margin-bottom:8px;border-radius:12px;background:#fff;border:1px solid #e5edf8;color:#3c4c68}
+.opt{font-weight:800;color:#244784;display:inline-block;width:28px}
+.answer{color:var(--green);font-size:14px;font-weight:700;margin-top:6px}
+.explanation{color:var(--muted);font-size:14px;margin-top:8px}
+@media(max-width:860px){.callout-grid{grid-template-columns:1fr} h1{font-size:32px}}
+@media(max-width:640px){.container{width:min(100% - 18px,1140px)} .hero,.section-card{padding:20px} h1{font-size:28px} h2{font-size:23px}}
+</style>
+</head>
+<body>
+<div class='container'>
+  <section class='hero'>
+    <span class='badge'>YBS • Gelişmiş ders notu</span>
+    <h1>Yöneylem Araştırması</h1>
+    <p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Yöneylem Araştırması dersi için karar verme, doğrusal programlama, dualite, tamsayılı programlama, hedef programlama, AHP, Markov analizi ve oyun teorisi konu başlığı mantığında sade ama öğretici biçimde düzenlenmiştir.</p>
+  </section>
+  
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 1</div>
+      <h2>Yöneylem Araştırmasına Giriş ve Tarihsel Gelişim</h2>
+      <div class='section-body'><p>Yöneylem Araştırması, sınırlı kaynakların en uygun biçimde kullanılması için matematiksel modeller kuran ve bu modeller üzerinden karar desteği sunan bir disiplindir.</p><p>Bu alan ilk olarak askeri problemlerin çözümünde ortaya çıkmış, daha sonra işletme, üretim, lojistik ve finans gibi pek çok alana yayılmıştır.</p><p>Dersin temel amacı yalnızca hesap yapmak değil; problem tipini doğru tanımak, uygun modeli seçmek ve sonucu yönetimsel açıdan yorumlayabilmektir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi Yöneylem Araştırması’nın ilk olarak kullanıldığı alandır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Uzay çalışmaları</li><li><span class='opt'>B)</span> Beşeri bilimler</li><li><span class='opt'>C)</span> Hukuk</li><li><span class='opt'>D)</span> Askeri faaliyetler</li><li><span class='opt'>E)</span> İşletmecilik</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Yöneylem Araştırması ilk olarak askeri problemlerin çözümünde sistematik analiz yapmak amacıyla geliştirilmiştir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi gerçek hayattan kaynaklanan ve çoğunlukla sınırlı kaynakların paylaştırıldığı deterministik ve olasılıklı problemlerin modellenmesi ve optimal kararın verilmesi ile ilgilenen bilimsel yöntemler bütünüdür?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Yöneylem Araştırması</li><li><span class='opt'>B)</span> İktisat</li><li><span class='opt'>C)</span> Nitel Araştırma</li><li><span class='opt'>D)</span> Pazarlama</li><li><span class='opt'>E)</span> Ekonometri</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Yöneylem Araştırması, kaynak tahsisi ve karar optimizasyonu üzerinde duran analitik bir disiplindir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 2</div>
+      <h2>Bilimsel Yöntem ve Disiplinlerarası Yaklaşım</h2>
+      <div class='section-body'><p>Yöneylem Araştırması bilimsel yöntemle çalışır. Önce problem açık biçimde tanımlanır, sonra modele dönüştürülür, çözüm aranır ve elde edilen sonuç uygulamaya aktarılır.</p><p>Bu süreçte matematik, istatistik, mühendislik ve bilgisayar bilimi birlikte kullanılır. Bu nedenle ders disiplinlerarası bir bakış gerektirir.</p><p>Sınavlarda çoğu zaman hangi adımın bilimsel yöntem içinde yer aldığı ve hangi yaklaşımın Yöneylem Araştırması’nı tanımladığı ölçülür.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi Yöneylem Araştırması’nın kullandığı bilimsel yöntem aşamaları arasında sayılamaz?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Modelden çözüm elde edilmesi</li><li><span class='opt'>B)</span> Problemin tanımlanması</li><li><span class='opt'>C)</span> Modelin tersine incelenmesi</li><li><span class='opt'>D)</span> Modelin kurulması</li><li><span class='opt'>E)</span> Çözümün uygulanması</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Bilimsel yöntemde problem tanımlama, model kurma, çözüm bulma ve uygulama yer alır; modelin tersine incelenmesi standart aşama değildir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi Yöneylem Araştırmasını matematik, istatistik, mühendislik ve bilgisayar bilimi gibi farklı disiplinler arasında konumlandıran yaklaşımdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Bütünleşik Yaklaşım</li><li><span class='opt'>B)</span> Disiplinlerarası Yaklaşım</li><li><span class='opt'>C)</span> Kapsayıcı Yaklaşım</li><li><span class='opt'>D)</span> Sistem Yaklaşımı</li><li><span class='opt'>E)</span> Bilimsel Yöntem Yaklaşımı</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Yöneylem Araştırması çok sayıda bilim dalının yöntemlerinden yararlandığı için disiplinlerarası bir yapı taşır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 3</div>
+      <h2>Karar Verme Süreci ve Karar Bileşenleri</h2>
+      <div class='section-body'><p>Karar verme, belirlenen amaçlara ulaşmak için alternatifler arasından seçim yapma sürecidir. Bu süreçte karar verici, alternatifler, kriterler ve sonuçlar birlikte değerlendirilir.</p><p>Kriterler, alternatiflerin hangi ölçütlere göre karşılaştırılacağını belirler. Yanlış kriter seçimi, doğru modele rağmen kötü karar doğurabilir.</p><p>Bu başlıkta öğrencinin karar verme sürecini yalnız tanım olarak değil, bileşenler arası ilişki mantığıyla kavraması önemlidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi amaçların gerçekleştirilmesi yönünde alternatifler arasından birini seçme işidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Çözümleme</li><li><span class='opt'>B)</span> Sıralama</li><li><span class='opt'>C)</span> Karar Verme</li><li><span class='opt'>D)</span> Rassal Seçim</li><li><span class='opt'>E)</span> Eleme</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Karar verme, belirlenen amaçlar doğrultusunda mevcut alternatiflerden birinin seçilmesi sürecidir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi karar vericinin alternatifleri değerlendirme esnasında kullanacağı karar verme bileşenidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Doğa durumu</li><li><span class='opt'>B)</span> Sonuç</li><li><span class='opt'>C)</span> Amaç</li><li><span class='opt'>D)</span> Hedef</li><li><span class='opt'>E)</span> Kriter</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Kriterler, alternatiflerin hangi ölçütlere göre değerlendirileceğini belirler.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 4</div>
+      <h2>Karar Türleri ve Karar Ortamları</h2>
+      <div class='section-body'><p>Kararlar farklı biçimlerde sınıflandırılabilir. Stratejik ve operasyonel kararlar, kişi ve grup kararları ya da belirlilik-belirsizlik şartları altında verilen kararlar bunların başlıcalarıdır.</p><p>Belirlilik halinde tüm sonuçlar nettir. Risk halinde olasılıklar bilinir. Belirsizlikte ise olasılıklar ya bilinmez ya da güvenilir biçimde tahmin edilemez.</p><p>Bu ayrım, hangi karar yaklaşımının kullanılacağını doğrudan etkilediği için sınavlarda temel kavram olarak öne çıkar.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi karar tipleri ile ilgili olarak kullanılan sınıflandırmalardan biri değildir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Alt ve üst kademe kararları</li><li><span class='opt'>B)</span> Gerçek veya simüle kararlar</li><li><span class='opt'>C)</span> Belirlilik ve belirsizlik şartları altında verilen kararlar</li><li><span class='opt'>D)</span> Stratejik ve operasyonel kararlar</li><li><span class='opt'>E)</span> Kişi ve grup kararları</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Gerçek veya simüle kararlar klasik karar sınıflandırmaları arasında yer almaz.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi aşağıda verilen karar problemlerinin hangisinde her seçime ilişkin tam bir bilgi var olup ortaya çıkacak olan olayın gerçekleşme olasılığı 1’dir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Belirlilik Halinde Karar Verme</li><li><span class='opt'>B)</span> Belirsizlik Halinde Karar Verme</li><li><span class='opt'>C)</span> Stratejik Karar Verme</li><li><span class='opt'>D)</span> Sezgisel Karar Verme</li><li><span class='opt'>E)</span> Risk Halinde Karar Verme</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Belirlilik halinde karar vermede sonuçlar kesindir ve olayların gerçekleşmesi konusunda tam bilgi vardır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 5</div>
+      <h2>Belirsizlik Altında Karar Verme Kriterleri</h2>
+      <div class='section-body'><p>Belirsizlik altında karar vermede olayların olasılıkları bilinmez. Bu durumda farklı kriterler kullanılarak alternatifler değerlendirilir.</p><p>İyimserlik kriteri en yüksek kazancı, kötümserlik kriteri en düşük kaybı dikkate alır. Laplace tüm durumları eşit olasılıklı kabul eder. Hurwicz ise iyimserlik ve kötümserliği birlikte kullanır.</p><p>Sorularda genellikle kriterlerin mantığı karıştırılır. Bu nedenle her yaklaşımın hangi varsayım altında çalıştığı iyi bilinmelidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi belirsizlik halinde karar vermede kullanılan yaklaşımlardan biri değildir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> İyimserlik kriteri</li><li><span class='opt'>B)</span> Pişmanlık kriteri</li><li><span class='opt'>C)</span> Sezgisel olasılık kriteri</li><li><span class='opt'>D)</span> Eş olasılık kriteri</li><li><span class='opt'>E)</span> Kötümserlik kriteri</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Belirsizlik altında karar vermede yaygın ölçütler iyimserlik, kötümserlik, eş olasılık, pişmanlık ve Hurwicz kriterleridir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi Laplace Karar Kriterini açıklayan ifadedir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Belirli sayıda olayın gerçekleşme olasılıklarının bilindiği durumda kullanılan karar kriteridir.</li><li><span class='opt'>B)</span> Belirli sayıda olayın gerçekleşme olasılıklarının bilinmediği iyimser ve kötümser bakış açısının bir lambda katsayısı ile ağırlıklandırılarak alternatiflerin değerlendirilmesi gerektiği varsayımına dayanan karar kriteridir.</li><li><span class='opt'>C)</span> Belirli sayıda olayın gerçekleşme olasılıklarının bilinmediği kötümser bakış açısı ile alternatiflerin değerlendirilmesi gerektiği varsayımına dayanan karar kriteridir.</li><li><span class='opt'>D)</span> Belirli sayıda olayın gerçekleşme olasılıklarının bilinmediği iyimser bakış açısı ile alternatiflerin değerlendirilmesi gerektiği varsayımına dayanan karar kriteridir.</li><li><span class='opt'>E)</span> Belirli sayıda olayın gerçekleşme olasılıklarının bilinmediği ancak gerçekleşme olasılıklarının birbirine eşit olduğu varsayımına dayanan karar kriteridir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Laplace kriteri, olay olasılıkları bilinmediğinde tüm doğa durumlarını eşit olasılıklı kabul eder.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 6</div>
+      <h2>Doğrusal Programlama Temelleri</h2>
+      <div class='section-body'><p>Doğrusal Programlama, belirli kısıtlar altında bir amaç fonksiyonunu en iyi hale getirmeyi amaçlayan temel modellerden biridir.</p><p>Karar değişkenleri bilinmeyenleri, amaç fonksiyonu optimize edilmek istenen hedefi, kısıtlar ise sistem sınırlarını ifade eder.</p><p>Negatif olmama koşulu, karar değişkenlerinin sıfır ya da pozitif olmasını garanti eder. Bu başlıkta tanımlar çok önemlidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdaki Belirsizlik Halinde Karar Verme yaklaşımlarından hangisi iyimserlik ve kötümserlik kriterlerinin belirli bir ağırlıklandırma ile bütünleşik kullanılması esasına dayanır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Laplace Kriteri</li><li><span class='opt'>B)</span> Pişmanlık Kriteri</li><li><span class='opt'>C)</span> Bilgi Kriteri</li><li><span class='opt'>D)</span> Hurwicz Kriteri</li><li><span class='opt'>E)</span> Maximin Kriteri</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Hurwicz kriteri iyimser ve kötümser bakış açısını bir ağırlık katsayısı ile birlikte kullanır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi bir Doğrusal Programlama Modelinde değeri hesaplanacak olan bilinmeyenleri ifade etmektedir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Amaç fonksiyonu</li><li><span class='opt'>B)</span> Kısıtlar</li><li><span class='opt'>C)</span> Varsayımlar</li><li><span class='opt'>D)</span> Hedef</li><li><span class='opt'>E)</span> Karar değişkenleri</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Karar değişkenleri modelin çözümünde değeri bulunacak bilinmeyenlerdir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 7</div>
+      <h2>Tamsayılı Programlama ve Gevşetme</h2>
+      <div class='section-body'><p>Bazı problemlerde karar değişkenleri kesirli değer alamaz. Bu durumda tamsayılı programlama kullanılır.</p><p>Tüm değişkenlerin 0-1 biçiminde olması saf sıfır-bir tamsayılı programlama örneğidir. Bazı değişkenlerin tamsayı, bazılarının sürekli olması ise karma tamsayılı yapıyı gösterir.</p><p>Gevşetme yaklaşımı ise tamsayı kısıtlarını kaldırarak problemi daha kolay çözülebilir hale getirir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi karar değişkenlerinin sıfır ya da pozitif olması gerekliliğini ifade eden Doğrusal Programlama varsayımıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Toplanabilirlik</li><li><span class='opt'>B)</span> Doğrusallık</li><li><span class='opt'>C)</span> Bölünebilirlik</li><li><span class='opt'>D)</span> Negatif olmama</li><li><span class='opt'>E)</span> Orantısallık</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Negatif olmama varsayımı, karar değişkenlerinin negatif değer alamayacağını belirtir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi Doğrusal Programlama Gevşetmesini açıklamaktadır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Karar değişkenlerinin tamamını tamsayı olması koşulu eklenerek elde edilen doğrusal programlama problemidir.</li><li><span class='opt'>B)</span> Karar değişkenleri üzerinde tüm tamsayı veya 0-1 kısıtlarının atılarak elde edilen doğrusal programlama problemidir.</li><li><span class='opt'>C)</span> Karar değişkenlerinin negatif olması koşulu eklenerek elde edilen doğrusal programlama problemidir.</li><li><span class='opt'>D)</span> Karar değişkenlerinin tamsayı veya 0-1 ikili formda olması koşulu eklenerek elde edilen doğrusal programlama problemidir.</li><li><span class='opt'>E)</span> Karar değişkenlerinin tamamının 0-1 ikili formda olması koşulu eklenerek elde edilen doğrusal programlama problemidir.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Gevşetme, tamsayılı veya ikili kısıtların kaldırılıp modelin sürekli değişkenli hale getirilmesidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 8</div>
+      <h2>Dualite ve Dual Model Mantığı</h2>
+      <div class='section-body'><p>Dualite, doğrusal programlamada bir primal modele karşılık gelen ikinci bir modelin kurulmasıdır. Bu yaklaşım hem çözüm kolaylığı hem de ekonomik yorum açısından önemlidir.</p><p>Dual modelin katsayıları, primal modelin katsayı matrisinin transpozu mantığıyla elde edilir. Primalin kısıt sayısı dualin değişken sayısına dönüşür.</p><p>Sınavlarda çoğunlukla dualin amacı, katsayı ilişkileri ve hangi ifadenin yanlış olduğu sorulur.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi bir Doğrusal Programlama Modelinde karar değişkenlerinin tamamının ikili (binary) formda olması koşulunun bulunduğu karar modeline verilen isimdir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Saf Tamsayılı Programlama</li><li><span class='opt'>B)</span> Karma Tamsayılı Programlama</li><li><span class='opt'>C)</span> Karma Sıfır-Bir Tamsayılı Programlama</li><li><span class='opt'>D)</span> Doğrusal Tamsayılı Programlama</li><li><span class='opt'>E)</span> Saf Sıfır-Bir Tamsayılı Programlama</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Tüm değişkenlerin yalnızca 0 ya da 1 değer alması gereken model, saf sıfır-bir tamsayılı programlamadır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi bir Doğrusal Programlama Modelinde yer alan karar değişkenlerinin bazılarının tamsayı olması koşulunun bulunduğu karar modelidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Doğrusal Tamsayılı Programlama</li><li><span class='opt'>B)</span> Karma Tamsayılı Programlama</li><li><span class='opt'>C)</span> Karma Sıfır-Bir Tamsayılı Programlama</li><li><span class='opt'>D)</span> Saf Tamsayılı Programlama</li><li><span class='opt'>E)</span> Saf Sıfır-Bir Tamsayılı Programlama</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Bazı değişkenlerin tamsayı, bazılarının sürekli olduğu modeller karma tamsayılı programlama kapsamında değerlendirilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 9</div>
+      <h2>Hedef Programlama</h2>
+      <div class='section-body'><p>Hedef Programlama, birden fazla hedefin aynı model içinde değerlendirilmesini sağlar. Burada amaç yalnız optimum değil, hedeflere mümkün olduğunca yakın çözümler bulmaktır.</p><p>Sapma değişkenleri, hedeflerin aşılması veya altında kalınması durumunu gösterir. Hedef kısıtları esnek, sistem kısıtları ise katıdır.</p><p>Ağırlıklandırma, sapmaların önem düzeyleri farklı olduğunda kullanılır ve amaç fonksiyonunda öncelik yapısını belirler.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi primal bir problemin dualinin alınmasının nedenlerinden biri değildir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> İki kısıtlı ve ikiden fazla karar değişkenli bir problemi grafik yöntem ile çözmek için.</li><li><span class='opt'>B)</span> Dejenere modeli çözmek için</li><li><span class='opt'>C)</span> Duyarlılık analizinde kullanabilmek için</li><li><span class='opt'>D)</span> Ekonomik açıdan yorumlar yapabilmek için</li><li><span class='opt'>E)</span> Problemi daha basit hale dönüştürüp kolaylıkla çözmek için</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Dual alma işleminin temel amaçları arasında dejenere modeli çözmek özel bir neden olarak sayılmaz.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıda dualite ile ilgili verilen ifadelerden hangisi yanlıştır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Primal problemin m tane kısıtı olduğunda dual problemin de m tane karar değişkeni olacaktır.</li><li><span class='opt'>B)</span> Primal modelin duali yazılırken kısıtların işareti yön değiştirmektedir.</li><li><span class='opt'>C)</span> Primal problemin amaç fonksiyonunun katsayıları, dual problemin kısıtlarının sağ taraf sabitlerini oluşturmaktadır.</li><li><span class='opt'>D)</span> Primal problemde n tane karar değişkeni olduğunda, dual problemde de n tane karar değişkeni olacaktır.</li><li><span class='opt'>E)</span> Primal problemin amaç fonksiyonu maksimizasyon formunda ise dual problemin amaç fonksiyonu minimizasyon formunda olur.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Dual modelde karar değişkeni sayısı primal modelin kısıt sayısına eşittir; primaldeki değişken sayısına değil.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 10</div>
+      <h2>Çok Amaçlı Karar Verme ve AHP</h2>
+      <div class='section-body'><p>Çok amaçlı karar verme, birden fazla kriterin aynı anda dikkate alındığı karar problemlerini inceler.</p><p>AHP, TOPSIS ve Hedef Programlama bu çerçevede sık karşılaşılan yöntemlerdir. Özellikle AHP, karar vericinin kriter ve alternatifleri sistematik biçimde kıyaslamasını sağlar.</p><p>Bu başlıkta yöntemin adı ile kullanım amacı birlikte öğrenilmelidir; çünkü sınav soruları çoğu zaman yöntemlerin kapsamını ölçer.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi bir dual modelin kısıtlarının katsayılarına eşittir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Primal problemin kısıtlarının katsayılarının oluşturduğu matrisin transpozu</li><li><span class='opt'>B)</span> Primal problemin amaç fonksiyonunun katsayılarının transpozu</li><li><span class='opt'>C)</span> Primal problemin kısıtlarının katsayılarının oluşturduğu matris</li><li><span class='opt'>D)</span> Primal probleminin kısıtlarının sağ taraf sabitlerinin matrisinin transpozu</li><li><span class='opt'>E)</span> Primal probleminin kısıtlarının sağ taraf sabitlerinin matrisi</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Dual modelin katsayı matrisi, primal modelin katsayı matrisinin transpozundan elde edilir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi Hedef Programlama modelindeki sapmaların önem dereceleri birbirinden farklı olduğunda kullanılan yaklaşımdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Önceliklendirme</li><li><span class='opt'>B)</span> Eşit önemli kabul etme</li><li><span class='opt'>C)</span> Negatif olmama</li><li><span class='opt'>D)</span> Doğrusallık</li><li><span class='opt'>E)</span> Ağırlıklandırma</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Sapmaların önem düzeyi farklıysa amaç fonksiyonunda bu fark ağırlıklarla gösterilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 11</div>
+      <h2>AHP Tutarlılığı ve Markov Analizi</h2>
+      <div class='section-body'><p>AHP’nin temeli ikili karşılaştırmalardır. Karar verici, kriterleri ve alternatifleri birbirleriyle karşılaştırarak göreli önem düzeyleri oluşturur.</p><p>Bu yöntemde tutarlılık çok önemlidir. Özdeğer, tutarlılık indeksi, rasgele indeks ve tutarlılık oranı gibi kavramlar karşılaştırmaların ne kadar güvenilir olduğunu gösterir.</p><p>Markov analizi ise stokastik süreçlerde durum geçişlerini inceler. Geleceğin yalnız mevcut duruma bağlı olması Markov özelliğinin temelidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi bir hedef programlama modelinde istenilen hedefin aşılması ve altında kalınması durumlarını gösteren kavramdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Hedef</li><li><span class='opt'>B)</span> Sistem kısıtları</li><li><span class='opt'>C)</span> Amaç</li><li><span class='opt'>D)</span> Sapma değişkenleri</li><li><span class='opt'>E)</span> Hedef kısıtları</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Sapma değişkenleri, hedef değerinin üstünde ya da altında kalma miktarını ifade eder.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi bir hedef programlama modelinde sağ taraf sabitlerinden sapmalara müsaade eden kısıt türüdür?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Sistem kısıtları</li><li><span class='opt'>B)</span> Hedef kısıtları</li><li><span class='opt'>C)</span> Doğrusal kısıtlar</li><li><span class='opt'>D)</span> Fonksiyonel kısıtlar</li><li><span class='opt'>E)</span> İşlevsel kısıtlar</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Hedef kısıtları sapmalara izin verir; buna karşılık sistem kısıtları katıdır ve sapmaya izin vermez.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 12</div>
+      <h2>Oyun Teorisi ve Strateji Kavramı</h2>
+      <div class='section-body'><p>Oyun teorisi, bir oyuncunun kararının diğer oyuncuların kararlarına bağlı olduğu stratejik durumları inceler.</p><p>Oyunda strateji, oyuncunun tüm olası durumlar için seçtiği karar planıdır. Sınıflandırmalarda iki kişilik, sıfır toplamlı veya sıfır toplamlı olmayan oyunlar öne çıkar.</p><p>Bu konuda kavramların doğru ayrılması önemlidir; çünkü sınavlarda strateji, ödeme, kazanç ve oyun türleri birbirine yakın şıklarla verilir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta kavramların tanımını bilmek yetmez; hangi modelin hangi problem türü için uygun olduğunu da ayırt etmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Ana kavramı tanı</li><li>Modelin amacını hatırla</li><li>Benzer kavramları ayır</li><li>Şıkları mantıkla ele</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>I. Analitik Hiyerarşi Prosesi II. TOPSIS III. Hedef Programlama. Yukarıda verilen yöntemlerden hangisi ya da hangileri Çok Amaçlı Karar Verme yöntemleri arasında sayılabilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Yalnız I</li><li><span class='opt'>B)</span> II ve III</li><li><span class='opt'>C)</span> Yalnız III</li><li><span class='opt'>D)</span> I ve II</li><li><span class='opt'>E)</span> I, II ve III</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>AHP, TOPSIS ve Hedef Programlama çok amaçlı karar verme çerçevesinde kullanılan yöntemlerdir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdaki kavramlardan hangisi Analitik Hiyerarşi Prosesi yönteminin temelini oluşturmaktadır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Doğrusallık</li><li><span class='opt'>B)</span> Çok amaçlılık</li><li><span class='opt'>C)</span> Kriterler</li><li><span class='opt'>D)</span> Alternatifler</li><li><span class='opt'>E)</span> İkili karşılaştırmalar</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>AHP yönteminin merkezinde kriter ve alternatiflerin ikili karşılaştırılması bulunur.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+</div>
+</body>
+</html>
