@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Yönetim ve Organizasyon - Ayrıntılı Ders Notu</title>
+<style>
+    :root{
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --text:#1f2937;
+      --muted:#5b6472;
+      --line:#e6eaf2;
+      --primary:#325caa;
+      --primary-soft:#eaf1ff;
+      --accent:#7c9ae6;
+      --success:#daf2e5;
+      --warn:#fff3d8;
+      --shadow:0 10px 30px rgba(37,56,88,.08);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:linear-gradient(180deg,#f8fbff 0%,#f4f7fb 100%);
+      color:var(--text);
+      line-height:1.7;
+    }
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 18px 56px}
+    .hero{
+      background:linear-gradient(135deg,#eef4ff 0%,#ffffff 100%);
+      border:1px solid #dce7fb;
+      border-radius:24px;
+      padding:28px;
+      box-shadow:var(--shadow);
+      margin-bottom:24px;
+    }
+    .hero h1{
+      margin:0 0 10px;
+      font-size:34px;
+      color:#1f3d76;
+      letter-spacing:.2px;
+    }
+    .hero p{margin:10px 0;color:var(--muted);font-size:16px}
+    .note-box{
+      margin-top:18px;
+      background:linear-gradient(135deg,#f7fbff 0%,#edf4ff 100%);
+      border:1px solid #d6e4ff;
+      border-left:6px solid var(--primary);
+      border-radius:18px;
+      padding:18px 18px 18px 20px;
+      color:#284267;
+      font-weight:600;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:14px;
+      margin:22px 0 10px;
+    }
+    .mini{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:16px;
+      box-shadow:var(--shadow);
+    }
+    .mini h3{margin:0 0 8px;font-size:16px;color:#23437d}
+    .mini p{margin:0;color:var(--muted);font-size:14px}
+    .section{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:24px;
+      padding:26px;
+      margin-top:20px;
+      box-shadow:var(--shadow);
+    }
+    .section h2{
+      margin:0 0 14px;
+      font-size:28px;
+      color:#1f3d76;
+    }
+    .section h3{
+      margin:20px 0 8px;
+      font-size:20px;
+      color:#2a4a84;
+    }
+    .section p{margin:10px 0;color:#334155}
+    .section ul{margin:10px 0 0 0;padding-left:20px}
+    .section li{margin:7px 0;color:#374151}
+    .tag{
+      display:inline-block;
+      font-size:12px;
+      letter-spacing:.2px;
+      background:var(--primary-soft);
+      color:#34589d;
+      padding:7px 10px;
+      border-radius:999px;
+      margin-bottom:12px;
+      font-weight:700;
+    }
+    .question{
+      margin-top:18px;
+      background:#fbfcfe;
+      border:1px solid #e3e8f3;
+      border-radius:18px;
+      padding:18px;
+    }
+    .question .meta{
+      display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px
+    }
+    .pill{
+      background:#eef3ff;
+      color:#325caa;
+      border-radius:999px;
+      padding:5px 10px;
+      font-size:12px;
+      font-weight:700;
+    }
+    .pill.exam{background:#eef8f2;color:#24704d}
+    .q-title{
+      font-weight:700;
+      color:#1f2f4d;
+      margin-bottom:8px;
+    }
+    .answer{
+      background:var(--success);
+      border:1px solid #c5e6d3;
+      border-radius:14px;
+      padding:10px 12px;
+      margin-top:10px;
+      font-weight:700;
+      color:#205b3d;
+    }
+    .explain{
+      background:var(--warn);
+      border:1px solid #f1dfb0;
+      border-radius:14px;
+      padding:12px;
+      margin-top:10px;
+      color:#5e4a1c;
+    }
+    .footer{
+      text-align:center;
+      color:#6b7280;
+      font-size:13px;
+      margin-top:24px;
+      padding-top:12px;
+    }
+  
+.question-head{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.pill.kind{background:#efe7ff;color:#5b21b6}
+.question-stem{font-weight:700;color:#1f2937;line-height:1.7;margin:8px 0 12px}
+.options{display:grid;gap:8px;margin:10px 0 12px}
+.option{background:#f8fafc;border:1px solid #e5e7eb;border-radius:12px;padding:10px 12px;color:#334155;line-height:1.6}
+.option b{color:#111827}
+.answer{margin-top:4px}
+.explain{margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hero">
+<h1>Yönetim ve Organizasyon</h1>
+<p>Bu ders notu, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve sınava yönelik güçlü bir çalışma yapısı oluşturmak için hazırlanmıştır.</p>
+<p>İçerik kısa özet mantığında değil; kavramları yerli yerine oturtan, konu bağlantılarını kuran ve her ana başlık altında ilgili çıkmış sorularla pekiştirme sağlayan ayrıntılı bir çalışma metni olarak tasarlanmıştır.</p>
+<div class="note-box">
+        Not: Aşağıdaki anlatımda önce kavramın özü verilir, ardından o konudan çıkmış bir veya birkaç soru yıl bilgisiyle birlikte eklenir. Böylece hem bilgiyi öğrenip hem de sınavda nasıl sorulduğunu aynı yerde görebilirsin.
+      </div>
+<div class="grid">
+<div class="mini"><h3>En çok tekrar eden alanlar</h3><p>Liderlik, motivasyon, iletişim, organizasyon yapıları, karar verme ve planlama.</p></div>
+<div class="mini"><h3>Çalışma mantığı</h3><p>Kavramı ezberlemek yerine benzer kavramları birbirinden ayırmaya odaklan.</p></div>
+<div class="mini"><h3>Sınav püf noktası</h3><p>“Hangisi değildir?” tarzı sorularda avantaj–sakınca, klasik–neo klasik ve liderlik türleri sık karışır.</p></div>
+</div>
+</div>
+<section class="section">
+<span class="tag">1. Yönetim düşüncesinin temelleri</span>
+<h2>Klasik, Neo-Klasik ve Modern Yaklaşımlar</h2>
+<p>Yönetim düşüncesi zaman içinde tek bir çizgide gelişmemiştir; her dönem kendi sorunlarına çözüm üretmeye çalışmıştır. <strong>Klasik yönetim yaklaşımı</strong>, verimlilik, iş bölümü, uzmanlaşma, kural ve hiyerarşi gibi unsurlara ağırlık verir. Burada insan çoğu zaman üretim sürecinin rasyonel bir parçası gibi ele alınır.</p>
+<p><strong>Neo-klasik yaklaşım</strong> ise klasik yaklaşımın eksik bıraktığı insan unsurunu merkeze taşır. Hawthorne araştırmalarıyla birlikte çalışanların sadece ücret ve kuralla değil; grup ilişkileri, aidiyet, moral ve informel ilişkilerle de etkilendiği görülmüştür. Bu nedenle neo-klasik düşünce, biçimsel olmayan organizasyon yapılarının önemini vurgular.</p>
+<p><strong>Modern yaklaşımlar</strong> ise örgütü çevresiyle birlikte ele alır. Sistem yaklaşımı ve durumsallık yaklaşımı, her işletme için tek bir doğru yönetim biçimi olmadığını; koşullara göre farklı yapıların daha uygun olabileceğini savunur.</p>
+<h3>Karıştırılan nokta</h3>
+<ul>
+<li>Klasik yaklaşım: yapı, düzen, uzmanlaşma, verimlilik.</li>
+<li>Neo-klasik yaklaşım: insan ilişkileri, motivasyon, informal örgüt.</li>
+<li>Modern yaklaşım: çevre, sistem, değişken koşullar, uyum.</li>
+</ul>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">Neo- Klasik yönetim düşüncesi ile ilgili aşağıdakilerden hangisi doğrudur?</div><div class="options"><div class="option"><b>A) </b>Neo-klasik yönetim düşüncesinde biçimsel olmayan organizasyon yapılarının analiz edilmesi sağlanmıştır.</div><div class="option"><b>B) </b>Neo-klasik yönetim düşüncesi Birinci Dünya Savaşı öncesi dönemde özellikle Amerika Birleşik Devletleri'nde yapılan çalışmaların ışığında ortaya çıkmıştır.</div><div class="option"><b>C) </b>Neo-klasik yönetim düşüncesi özellikle Alman bilim adamı Karl Marx'ın bürokrasi modeline eleştiri olarak ortaya çıkmıştır.</div><div class="option"><b>D) </b>Neo-klasik yönetim düşüncesi klasik yönetim düşüncesinin bütün yaklaşımlarını yıkmıştır.</div><div class="option"><b>E) </b>Neo-klasik yönetim düşüncesi insandan çok teknolojik araçların geliştirilmesine önem vermiştir.</div></div><div class="answer">Doğru cevap: A) Neo-klasik yönetim düşüncesinde biçimsel olmayan organizasyon yapılarının analiz edilmesi sağlanmıştır.</div><div class="explain">Kısa açıklama: Bu soru neo-klasik yaklaşımın klasik teoriden hangi noktada ayrıldığını ölçer. Doğru seçenek, insan ilişkileri ve biçimsel olmayan yapılar gibi unsurların analiz edilmesini vurgular.</div></div>
+<div class="question">
+<div class="meta">
+<span class="pill">2023-2024</span>
+<span class="pill exam">Final</span>
+</div>
+<div class="q-title">“Klasik yönetim düşüncesine göre aşağıdakilerden hangisi yanlıştır?”</div>
+<div class="answer">Doğru cevap: Bilimsel yönetimin Pacioli’nin muhasebe sistemiyle ortaya çıktığını söyleyen ifade yanlıştır.</div>
+<div class="explain">Kısa açıklama: Klasik yaklaşım daha çok Taylor, Fayol ve Weber çizgisiyle açıklanır. Sınav burada tarihsel kökenleri karıştırmana oynar.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">2. Yönetim fonksiyonları</span>
+<h2>Planlama ve Karar Verme</h2>
+<p>Yönetim sürecinin en temel basamaklarından biri planlamadır. Planlama, örgütün nereye gitmek istediğini ve bu hedefe hangi yollarla ulaşacağını önceden belirleme sürecidir. Plansız bir örgütte kaynaklar boşa harcanır, çalışanların yönü belirsizleşir ve kontrol işlevi zayıflar.</p>
+<p>Planlama sürecinde genel olarak önce amaç ve hedefler belirlenir, sonra bu hedeflere ulaşmayı sağlayacak alternatifler geliştirilir ve en uygun alternatif seçilir. Buradaki mantık, belirsizliği azaltmak ve faaliyetleri önceden düzenlemektir.</p>
+<p>Karar verme ise seçenekler arasından seçim yapmadır. Yönetimde kararlar; programlı-programsız, bireysel-grup, belirli-belirsiz koşullarda alınan kararlar gibi şekillerde sınıflandırılır. Simon’ın yaklaşımında karar vericilerin tam rasyonel olamadıkları, çoğu zaman sınırlı bilgiyle hareket ettikleri vurgulanır.</p>
+<h3>Sınavda dikkat</h3>
+<ul>
+<li>Planlama ile karar vermeyi ayır: planlama süreçtir, karar verme seçim anıdır.</li>
+<li>Alternatifleri “tekrar etmek” planlama aşaması değildir; “belirlemek ve seçmek” aşamadır.</li>
+<li>Kestirmeler kullanmak, karar kalitesini bozabilecek bilişsel bir yoldur.</li>
+</ul>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">I. Amaç ve hedeflerin belirlenmesi II. Alternatif seçeneklerin belirlenmesi III. Alternatif seçeneklerin tekrar edilmesi IV. Alternatifler arasında seçim yapılması Yukarıdakilerden hangileri planlama sürecinin aşamalarındandır?</div><div class="options"><div class="option"><b>A) </b>I, III ve IV</div><div class="option"><b>B) </b>II ve III</div><div class="option"><b>C) </b>II, III ve IV</div><div class="option"><b>D) </b>III ve IV</div><div class="option"><b>E) </b>I, II ve IV</div></div><div class="answer">Doğru cevap: E) I, II ve IV</div><div class="explain">Kısa açıklama: Planlama sürecinde temel sıra; amaç belirleme, alternatifleri geliştirme ve bu alternatifler arasından seçim yapmadır. “Alternatiflerin tekrar edilmesi” planlama aşaması değildir.</div></div>
+<div class="question">
+<div class="meta">
+<span class="pill">2024-2025</span>
+<span class="pill exam">Final</span>
+</div>
+<div class="q-title">“Çok başarılı bir çalışanın mezun olduğu okulun her mezununun iyi olacağı düşüncesiyle karar vermek Simon’a göre neye örnektir?”</div>
+<div class="answer">Doğru cevap: Kestirmelerin kullanılması</div>
+<div class="explain">Kısa açıklama: Karar verici burada tam analiz yapmadan zihinsel kısa yol kullanmaktadır. Bu, rasyonel görünen ama çoğu zaman önyargı üreten bir durumdur.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">3. Örgüt tasarımı</span>
+<h2>Organizasyon Yapısı ve Yapıyı Belirleyen Unsurlar</h2>
+<p>Organizasyon yapısı, işlerin nasıl bölüneceğini, kimlerin kime bağlı çalışacağını, yetkinin nasıl dağıtılacağını ve birimler arası ilişkinin nasıl kurulacağını gösterir. Başka bir ifadeyle yapı, örgütün iskeletidir.</p>
+<p>Organizasyon yapısını belirleyen temel unsurlar arasında iş bölümü ve uzmanlaşma derecesi, formalleşme düzeyi, emir-komuta ve kurmay ilişkisi, merkezileşme derecesi ve işletmenin büyüklüğü yer alır. Bu unsurlar, bir işletmenin esnek mi yoksa daha katı mı olacağını büyük ölçüde belirler.</p>
+<p>Burada kritik nokta şudur: organizasyon yapısı sadece şema çizmek değildir. Yapı, karar hızını, koordinasyonu, çalışanların hareket alanını ve iletişim biçimini etkiler.</p>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Final</span></div><div class="question-stem">Aşağıdakilerden hangisi organizasyon yapısını belirleyen unsurlardan biri değildir?</div><div class="options"><div class="option"><b>A) </b>Sermaye (Kapital) büyüklüğü</div><div class="option"><b>B) </b>Emir-komuta ve kurmay ilişkisi</div><div class="option"><b>C) </b>İşletmenin büyüklüğü</div><div class="option"><b>D) </b>İş bölümü ve uzmanlık derecesi</div><div class="option"><b>E) </b>Formalleşme derecesi</div></div><div class="answer">Doğru cevap: A) Sermaye (Kapital) büyüklüğü</div><div class="explain">Kısa açıklama: Organizasyon yapısını belirleyen esas değişkenler iş bölümü, uzmanlaşma, formalleşme ve emir-komuta ilişkileridir. Sermaye büyüklüğü daha çok işletmenin finansal gücüyle ilgilidir.</div></div>
+</section>
+<section class="section">
+<span class="tag">4. Bölümlere ayırma ve yapı türleri</span>
+<h2>Fonksiyonel, Bölgesel ve Matriks Organizasyon</h2>
+<p><strong>Fonksiyonel organizasyon</strong>, işletmenin üretim, pazarlama, finans, insan kaynakları gibi temel işlevlere göre bölümlendirilmesidir. Uzmanlaşmayı artırır, maliyet kontrolüne yardımcı olur ve teknik bilgi derinliği sağlar. Ancak bölümler arası kopukluk, dar bakış açısı ve merkeziyetçi eğilim gibi sorunlar doğurabilir.</p>
+<p><strong>Bölge esasına göre bölümlere ayırma</strong>, farklı coğrafyalarda faaliyet gösteren işletmeler için uygundur. Yerel farklılıklara daha hızlı uyum sağlar, müşteri ihtiyaçlarına bölgesel cevap üretir.</p>
+<p><strong>Matriks organizasyon</strong> ise çalışanların aynı anda hem fonksiyonel yöneticiye hem de proje yöneticisine bağlı olduğu çift yetki ilişkisine dayanan bir yapıdır. Esneklik, proje odaklı çalışma ve disiplinler arası iş birliği sağlar; fakat rol çatışması ve otorite belirsizliği de yaratabilir.</p>
+<h3>Avantaj–sakınca eşleştirmesi</h3>
+<ul>
+<li>Fonksiyonel yapı: uzmanlaşma yüksek, bölümler arası bütünleşme zayıf olabilir.</li>
+<li>Bölgesel yapı: coğrafi yayılımı olan işletmeler için uygundur.</li>
+<li>Matriks yapı: esnek ve proje odaklıdır; ama çatışma doğurabilir.</li>
+</ul>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">Ülke içinde ve dışında çok fazla sayıda ve yerde üretim yapan fabrikaları ve satış noktaları olan bir işletme için aşağıdaki bölümlere ayırma çeşitlerinden hangisinin işletmeye bazı üstünlükler getirdiği söylenebilir?</div><div class="options"><div class="option"><b>A) </b>İhracat dengesine göre bölümlere ayırma</div><div class="option"><b>B) </b>Bölge esasına göre bölümlere ayırma</div><div class="option"><b>C) </b>Formalleşme derecesine göre bölümlere ayırma</div><div class="option"><b>D) </b>Kuruluş sermayesine göre bölümlere ayırma</div><div class="option"><b>E) </b>Kullanılan denetim (kontrol) yönetimine göre bölümlere ayırma</div></div><div class="answer">Doğru cevap: B) Bölge esasına göre bölümlere ayırma</div><div class="explain">Kısa açıklama: Coğrafi olarak dağılmış işletmelerde bölge esasına göre yapı kurmak; yerel ihtiyaçlara uyum, koordinasyon ve denetim açısından avantaj sağlar.</div></div>
+<div class="question">
+<div class="meta"><span class="pill">2023-2024</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Aşağıdakilerden hangisi fonksiyonel organizasyon yapısının sakıncalarından biri değildir?”</div>
+<div class="answer">Doğru cevap: İş görenler arasında kaytarma eğilimi artar.</div>
+<div class="explain">Kısa açıklama: Fonksiyonel yapının temel sakıncaları daha çok koordinasyon zayıflığı, dar bakış ve yavaş karar alma ile ilgilidir. Kaytarma eğilimi bu yapının temel sakıncası olarak verilmez.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Matriks yapının ilk oluşturulduğu zamanlarda hangi becerilerin geliştirilmesine ihtiyaç duyulabilir?”</div>
+<div class="answer">Doğru cevap: İnsan ilişkileri becerileri</div>
+<div class="explain">Kısa açıklama: Matriks yapı farklı yöneticiler ve farklı ekiplerle sürekli iletişim gerektirir. Bu yüzden teknik beceri kadar ilişki ve uyum becerisi de önemlidir.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">5. Yeni örgüt biçimleri</span>
+<h2>Şebeke Organizasyon ve Dâhili Şebeke</h2>
+<p>Geleneksel yapılarda işletme birçok faaliyeti kendi bünyesinde toplamaya çalışır. Ancak rekabet arttıkça, işletmeler temel yeteneklerine odaklanıp diğer bazı faaliyetleri dış kaynaklarla yürütmeye başlamıştır. Bu mantık, <strong>şebeke organizasyon</strong> yapılarının önemini artırmıştır.</p>
+<p>Şebeke organizasyonda işletme, birçok faaliyeti bağımsız ama bağlantılı aktörler üzerinden yürütür. Ortak girişimler, dış kaynak kullanımı ve uzman firmalarla iş birliği bu yapı içinde değerlendirilir.</p>
+<p><strong>Dâhili şebeke</strong> ise işletme birimlerinin yarı bağımsız çalıştığı, hatta birbirleriyle piyasa fiyatına göre işlem yapabildiği bir yapıdır. Özellikle holding ya da şirket grupları gibi yapılarda bunun örnekleri görülür.</p>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">………… organizasyonu içinde yer alan işletme birimleri bağımsız olarak çalışırlar ve yalnızca kendi bünyelerindeki işletmelere değil dışarıdaki müşterilere de iş yaparlar. Bu yapı içinde yer alan işletmeler birbirleriyle piyasa fiyatından işlem yaparlar. Bu yapının ortaya çıkış şekillerinden biri de holding veya şirketler grubunda olduğu gibi bir mal veya hizmeti üretmek için birbirinden bağımsız işletmeler ve bunlar arasındaki organizasyonu sağlamak için aracı işletme kurulmuş olmasıdır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</div><div class="options"><div class="option"><b>A) </b>Hiyerarşi</div><div class="option"><b>B) </b>Tröst</div><div class="option"><b>C) </b>Dâhili şebeke</div><div class="option"><b>D) </b>Anonim şirket</div><div class="option"><b>E) </b>Kartel</div></div><div class="answer">Doğru cevap: C) Dâhili şebeke</div><div class="explain">Kısa açıklama: Dâhili şebeke yapısında birimler birbirinden görece bağımsız hareket eder ve gerektiğinde birbirleriyle piyasa mantığıyla işlem yapar. Bu yüzden klasik hiyerarşiden ayrılır.</div></div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Dış kaynaklardan yararlanma ve ortak girişimler gibi yapılar hangi organizasyon türünde yer alır?”</div>
+<div class="answer">Doğru cevap: Şebeke organizasyon</div>
+<div class="explain">Kısa açıklama: İşletmenin her işi kendisi yapmaması, bazı faaliyetleri daha etkin yapılabildiği için dışarıya vermesi şebeke mantığıyla ilgilidir.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">6. İletişim</span>
+<h2>Örgütsel İletişim, Kanal Zenginliği ve Geri Besleme</h2>
+<p>İletişim, yönetimin can damarlarından biridir. Bir örgütte hedeflerin anlaşılması, koordinasyonun sağlanması, sorunların çözülmesi ve çalışanların motive edilmesi etkili iletişimle mümkündür. Ancak iletişim sadece mesaj göndermek değildir; mesajın doğru anlaşılması ve karşılık bulması gerekir.</p>
+<p><strong>Kanal zenginliği</strong> açısından yüz yüze iletişim en güçlü araçlardan biridir. Çünkü ses tonu, beden dili, anlık tepki ve soru-cevap imkânı içerir. Yazılı rapor, mektup ya da bültenler ise daha düşük zenginliğe sahiptir.</p>
+<p><strong>Geri besleme</strong>, iletişimin tamamlanmasını sağlar. Mesajın anlaşılıp anlaşılmadığını, beklenen davranışın oluşup oluşmadığını gösterir. Bu yüzden geri besleme kontrol, pekiştirme ve verimlilik açısından değerlidir; ama iletişim kanalını tek başına zenginleştiren unsur değildir.</p>
+<p><strong>Diyalog</strong> ise ortak amaç etrafında güvene ve iş birliğine dayalı iletişim biçimidir. Takım çalışmalarında özellikle önemlidir.</p>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">Aşağıdaki iletişim kanallarından hangisi diğerlerine göre daha zengindir?</div><div class="options"><div class="option"><b>A) </b>Telefon</div><div class="option"><b>B) </b>Bültenler</div><div class="option"><b>C) </b>Genel rapor</div><div class="option"><b>D) </b>Yüz yüze iletişim</div><div class="option"><b>E) </b>Mektuplar</div></div><div class="answer">Doğru cevap: D) Yüz yüze iletişim</div><div class="explain">Kısa açıklama: Kanal zenginliği arttıkça mesajı anında düzeltme, beden dili kullanma ve karşı tarafın tepkisini anlık görme imkânı da artar. Bu nedenle yüz yüze iletişim en zengin kanaldır.</div></div>
+<div class="question">
+<div class="meta"><span class="pill">2023-2024</span><span class="pill exam">Bütünleme</span></div>
+<div class="q-title">“İletişim sürecinde geri beslemenin faydalarından biri değildir?”</div>
+<div class="answer">Doğru cevap: İletişim kanalının zenginleşmesini sağlar.</div>
+<div class="explain">Kısa açıklama: Geri besleme önemlidir ama kanalın teknik zenginliğini artıran şey değildir. O, daha çok mesajın anlaşılıp anlaşılmadığını görmeye yarar.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Takım çalışmasında paylaşılan amaçlar üzerinde hemfikir olmayı ve güvene dayalı kültür yaratmayı amaçlayan süreç hangisidir?”</div>
+<div class="answer">Doğru cevap: Diyalog</div>
+<div class="explain">Kısa açıklama: Diyalog, yalnızca bilgi aktarmak değil, ortak anlayış kurmak anlamına gelir.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">7. Motivasyon</span>
+<h2>Herzberg, Vroom ve Lawler-Porter</h2>
+<p>Motivasyon teorileri çalışan davranışını açıklamak için geliştirilmiştir. Bunlardan <strong>Herzberg’in çift faktör teorisi</strong>, iş tatmini ile iş tatminsizliğini aynı şey olarak görmez. Hijyen faktörleri eksik olursa tatminsizlik oluşur; fakat bunların varlığı tek başına yüksek motivasyon yaratmaz. Motivasyon yaratan asıl unsurlar işin kendisi, başarma, tanınma, ilerleme ve sorumluluk gibi motive edici faktörlerdir.</p>
+<p><strong>Vroom’un bekleyiş teorisi</strong>, çalışanın neden çaba göstereceğini açıklar. Kişi, çabasının performansa dönüşeceğine, performansının ödül getireceğine ve bu ödülün kendisi için değerli olduğuna inanıyorsa motive olur. Burada bekleyiş, araçsallık ve valens kavramları öne çıkar.</p>
+<p><strong>Lawler-Porter modeli</strong> ise ödül ve tatmin ilişkisini daha ayrıntılı ele alır. Kişi, elde ettiği ödülü adil görmezse tatmin olmaz. Bu nedenle sadece ödül vermek yetmez; ödülün adil algılanması da gerekir.</p>
+<h3>Ezber mantığı</h3>
+<ul>
+<li>Herzberg: hijyen + motivasyon</li>
+<li>Vroom: bekleyiş + araçsallık + valens</li>
+<li>Lawler-Porter: ödül algısı ve tatmin ilişkisi</li>
+</ul>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">Herzberg'e göre işin kendisi, sorumluluk, ilerleme olanakları, başarma ve tanınma, yükselme imkânları gibi aktörlere ne ad verilmektedir?</div><div class="options"><div class="option"><b>A) </b>Bilişsel</div><div class="option"><b>B) </b>Hijyen</div><div class="option"><b>C) </b>Motive edici</div><div class="option"><b>D) </b>Bilinçsel</div><div class="option"><b>E) </b>Valens</div></div><div class="answer">Doğru cevap: C) Motive edici</div><div class="explain">Kısa açıklama: Herzberg kuramında başarı, tanınma, işin kendisi ve yükselme gibi ögeler motive edici faktörlerdir. Ücret, çalışma koşulları ve güvenlik ise hijyen faktörleri içinde değerlendirilir.</div></div>
+<div class="question">
+<div class="meta"><span class="pill">2023-2024</span><span class="pill exam">Bütünleme</span></div>
+<div class="q-title">“Herzberg’in çift faktör teorisini oluşturan iki faktör hangisidir?”</div>
+<div class="answer">Doğru cevap: Hijyen faktörleri – Motivasyon faktörleri</div>
+<div class="explain">Kısa açıklama: Sınav burada bazen “tatmin-tatminsizlik” ikilisini seçenek yapar; ama teorinin adıyla kullanılan kavramlar hijyen ve motivasyondur.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2023-2024</span><span class="pill exam">Bütünleme</span></div>
+<div class="q-title">“Vroom’un teorisindeki açıklamada performansın ödüle bağlanması hangi kavramla ilgilidir?”</div>
+<div class="answer">Doğru cevap: Araçsallık</div>
+<div class="explain">Kısa açıklama: Çalışan, iyi performans gösterirse ödül elde edeceğine inanıyorsa araçsallık algısı yüksektir.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Vroom’un bekleyiş teorisine göre aşağıdakilerden hangisi yanlıştır?”</div>
+<div class="answer">Doğru cevap: Ödülün büyüklüğü nesneldir.</div>
+<div class="explain">Kısa açıklama: Bekleyiş teorisinde ödülün değeri kişiden kişiye değişebilir. Yani konu nesnel değil, öznel algıya da bağlıdır.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2023-2024</span><span class="pill exam">Bütünleme</span></div>
+<div class="q-title">“Lawler-Porter modeline göre kişi kendi ödülünü başkalarının ödülünden daha az algılarsa ne olur?”</div>
+<div class="answer">Doğru cevap: Tatmin olmayacaktır.</div>
+<div class="explain">Kısa açıklama: Adalet algısı bozulduğunda ödül verilmiş olsa bile tatmin düşebilir.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">8. Kapsam teorileri</span>
+<h2>Maslow, McClelland ve İhtiyaç Temelli Yaklaşım</h2>
+<p>Kapsam teorileri, insanları harekete geçiren içsel ihtiyaçlara odaklanır. Bu teorilere göre çalışan davranışını anlamak için, bireyin hangi ihtiyacını gidermeye çalıştığına bakmak gerekir.</p>
+<p><strong>Maslow</strong>, ihtiyaçları hiyerarşik biçimde açıklar. <strong>McClelland</strong> ise başarma, güç ve ilişki kurma ihtiyaçlarına odaklanır. <strong>Herzberg</strong> de içerik bakımından kapsam teorileri içinde değerlendirilir; çünkü iş tatminini oluşturan unsurları inceler. Buna karşılık Vroom daha çok süreç teorileri içinde yer alır; çünkü kişi hangi hesapla motive olur sorusuna cevap verir.</p>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Final</span></div><div class="question-stem">I- Maslow'un ihtiyaçlar hiyerarşisi teorisi II- Vroom'un bekleyiş teorisi III- Herzberg'in çift faktör teorisiI V- McClelland'ın başarma ihtiyacı teorisi Yukarıdaki bilim insanlarının geliştirdiği teorilerden hangileri kapsam teorilerine örnek olarak gösterilebilir?</div><div class="options"><div class="option"><b>A) </b>III ve IV</div><div class="option"><b>B) </b>I, III ve IV</div><div class="option"><b>C) </b>II, III ve IV</div><div class="option"><b>D) </b>II ve III</div><div class="option"><b>E) </b>I ve II</div></div><div class="answer">Doğru cevap: B) I, III ve IV</div><div class="explain">Kısa açıklama: Kapsam teorileri insanı neyin motive ettiğine, yani ihtiyaç içeriğine odaklanır. Maslow, Herzberg ve McClelland bu gruba girerken Vroom süreç teorisi içinde değerlendirilir.</div></div>
+</section>
+<section class="section">
+<span class="tag">9. Liderlik</span>
+<h2>Liderlik Türleri ve Yöneticilikten Farkı</h2>
+<p>Liderlik, insanları belirli amaçlara yöneltebilme ve etkileyebilme gücüdür. Yöneticilik ise daha çok formal yapıda görev, yetki ve sorumluluk ilişkisiyle ilgilidir. Her yönetici lider olmayabilir; her lider de resmi yönetici olmak zorunda değildir.</p>
+<p><strong>Etkileşimci liderlik</strong>, performansa göre ödül ve cezayı esas alır. <strong>Dönüşümcü liderlik</strong> ise vizyon oluşturur, çalışanları daha büyük amaçlar için motive eder, değişimi ve yeniliği destekler. <strong>Özgür bırakıcı liderlik</strong> çalışanlara geniş serbestlik tanır. <strong>İşe dönük liderlik</strong> görevlerin planlanmasına, denetlenmesine ve işin nasıl yapılacağına odaklanır.</p>
+<p>Yöneticilik ile liderlik arasındaki ayrım sorularda çok sık gelir. Özellikle liderliğin formal yapıya bağlı olmaması ve gücünün kişisel özelliklerden beslenmesi önemli ipuçlarıdır.</p>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">I. Yöneticilik bir meslektir ancak, liderlik insanları etkilemeyi amaçlar doğrultusunda harekete geçirme gücüdür. II. Yöneticilik için belirlenmiş bir organizasyon yapısı gerekirken liderlik için formal bir yapıya gerek yoktur. Her türlü grup içinde liderlik söz konusu olabilir. III. Hem yöneticiler hem de liderler için açık olarak belirlenmiş görev tanımının olması gerekir. IV. Liderin sahip olduğu güç kişiselMözelliklerinden kaynaklanır Yukarıdaki ifadelerden hangisi ya da hangileri yöneticiler ve liderler için doğrudur?</div><div class="options"><div class="option"><b>A) </b>I ve III</div><div class="option"><b>B) </b>I, III ve IV</div><div class="option"><b>C) </b>II ve IV</div><div class="option"><b>D) </b>Yalnız I</div><div class="option"><b>E) </b>I, II ve IV</div></div><div class="answer">Doğru cevap: E) I, II ve IV</div><div class="explain">Kısa açıklama: Bu soru, liderlik ile yöneticiliğin aynı şey olmadığını göstermeyi amaçlar. Liderlik kişisel etkileme gücüne dayanabilir; bu nedenle her zaman formal görev tanımı gerektirmez.</div></div>
+<div class="question">
+<div class="meta"><span class="pill">2023-2024</span><span class="pill exam">Bütünleme</span></div>
+<div class="q-title">“Performansa göre ödüllendirip düşük performansı cezalandıran liderlik tarzı hangisidir?”</div>
+<div class="answer">Doğru cevap: Etkileşimci liderlik</div>
+<div class="explain">Kısa açıklama: Bu liderlikte temel ilişki değiş tokuş mantığıdır: başarı varsa ödül, hata varsa düzeltme veya ceza.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2022-2023</span><span class="pill exam">Final</span></div>
+<div class="q-title">“İnovasyon ve değişim getiren, statükoyu kabul etmeyen liderlik hangisidir?”</div>
+<div class="answer">Doğru cevap: Dönüşümcü liderlik</div>
+<div class="explain">Kısa açıklama: Dönüşümcü lider, takipçilerini yalnızca mevcut işi sürdürmeye değil, daha yüksek bir vizyona yönlendirir.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Grubu büyük ölçüde özgür bırakan, yalnızca danışıldığında müdahale eden liderlik türü hangisidir?”</div>
+<div class="answer">Doğru cevap: Özgür bırakıcı liderlik</div>
+<div class="explain">Kısa açıklama: Serbestlik alanı yüksek olduğu için bu liderlikte denetim ve yönlendirme daha sınırlıdır.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">10. Liderlik kuramları</span>
+<h2>Ohio State, Fiedler ve Etkileşimci-Dönüşümcü Ayrımı</h2>
+<p>Liderlik çalışmalarında bazı kuramlar liderin kişisel özelliklerine, bazıları ise davranışlarına ve duruma odaklanır. <strong>Ohio State çalışmaları</strong>, liderliği temel olarak işe dönüklük ve kişiye dönüklük boyutlarıyla ele alır. Astları hedeflere göre yönlendiren, işi denetleyen ve performansı merkeze alan davranışlar genellikle işe dönüklüğe işaret eder.</p>
+<p><strong>Fiedler’in durumsallık yaklaşımı</strong>, her durumda geçerli tek bir liderlik tarzı olmadığını savunur. Ortamın kontrol düzeyi, lider-izleyen ilişkileri, görev yapısı ve pozisyon gücü önemlidir. Özellikle düşük kontrol durumlarında işe yönelik liderlik daha etkili olabilir.</p>
+<p><strong>Etkileşimci-dönüşümcü ayrımı</strong> ise çağdaş liderlik tartışmalarında öne çıkar. Biri daha çok mevcut düzen içinde performans yönetimini, diğeri ise değişim ve vizyon üretimini temsil eder.</p>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">- Astların bölümün amaçlarına göre hareket etmelerini ister. - Yetersiz işi cezalandırır. - Astlarına sormadan bazı işleri üstlenir. Ohio State liderlik çalışmalarına göre yukarıdaki faktörler hangi boyutun özellikleridir?</div><div class="options"><div class="option"><b>A) </b>Doğrudan</div><div class="option"><b>B) </b>Geriye dönüklük</div><div class="option"><b>C) </b>Bilişsel</div><div class="option"><b>D) </b>Otokrasi</div><div class="option"><b>E) </b>İşe dönüklük</div></div><div class="answer">Doğru cevap: E) İşe dönüklük</div><div class="explain">Kısa açıklama: Davranışlar hedefe, disipline ve işin tamamlanmasına dönükse bu işe dönük liderlik boyutunu gösterir. İnsan ilişkileri ve destekleyicilik ön planda olsaydı ilişkiye dönüklük vurgulanırdı.</div></div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Fiedler’e göre hangi ifade doğrudur?”</div>
+<div class="answer">Doğru cevap: Düşük kontrol durumlarında işe yönelik liderlik daha uygun olabilir.</div>
+<div class="explain">Kısa açıklama: Fiedler, duruma göre uygun liderlik tarzının değişeceğini savunur. Bu yüzden “her durum için tek ideal liderlik vardır” anlayışı yanlıştır.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Etkileşimci liderin süreci izleyip sorun çıktığında müdahale etmesine ne ad verilir?”</div>
+<div class="answer">Doğru cevap: İstisnalarla yönetim (aktif)</div>
+<div class="explain">Kısa açıklama: Aktif biçimde sapmaları izler, sorun oluştuğunda devreye girer. Pasif biçimde ise sorun büyüdükten sonra tepki verme eğilimi vardır.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">11. Bürokrasi ve sistem yaklaşımı</span>
+<h2>Bürokrasi, Entropi, Negatif Entropi ve Sinerji</h2>
+<p><strong>Bürokrasi modeli</strong>, görevlerin yazılı kurallara göre yürütüldüğü, yetki sınırlarının belirlendiği ve keyfiliğin azaltıldığı bir yapıyı ifade eder. Weber’in çizdiği bu modelde hukuksal-rasyonel otorite önemlidir.</p>
+<p><strong>Entropi</strong>, sistemin bozulma ve dağılma eğilimidir. Eğer bir sistem çevresiyle etkileşim kurmaz, enerji ve bilgi girişi sağlayamazsa zamanla çözülme eğilimi artar. Buna karşılık dış çevreden enerji ve girdi alan, değişime uyum sağlayan sistemlerde <strong>negatif entropi</strong> ortaya çıkar.</p>
+<p><strong>Sinerji</strong> ise parçaların toplamından daha büyük bir sonuç elde edilmesidir. Ekip çalışmalarında ve sistem yaklaşımında önemli bir kavramdır.</p>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2023-2024</span><span class="pill exam">Butunleme</span></div><div class="question-stem">I. Astlar üstlerinin emirlerine daha akılcı olduğu,düzenin hukuksal yapısına uygun bulunduğu için uyarlar. Keyfî yönetimler yoktur; çünkü astların yöneticilerin üstün yetenekler ve kişilik özelliklerinden kaynaklanan yetkeye itaat etmeleri yasaklanmıştır. II. Görevler önceden belirlenmiş ve yazılı olan kurallara göre yerine getirilir. Bu kuralların dışına çıkmak mümkün değildir. III. Yetkilerin kullanılmaması hâlinde uygulanacak zorlayıcı önlemler (cezalar) açıklanmış ve başarılı olan çalışanlar için yaptıkları işin zorluk derecesiyle ilişkilendirilmiş bir ücret ve ödüllendirme sistemi geliştirilmiştir. IV. Örgütte çalışanların gerçekleştirmesi gereken faaliyetler için gereksinim duydukları maddi ve beşerî araç ve kaynakları kullanabilme derecelerini belirten yetkiler serbest bırakılmıştır. Yukarıdakilerden hangisi ya da hangileri bürokrasi modelinin temel özelliklerindendir?</div><div class="options"><div class="option"><b>A) </b>I ve IV</div><div class="option"><b>B) </b>Yalnız IV</div><div class="option"><b>C) </b>I, II ve III</div><div class="option"><b>D) </b>II ve III</div><div class="option"><b>E) </b>I ve III</div></div><div class="answer">Doğru cevap: C) I, II ve III</div><div class="explain">Kısa açıklama: Bürokrasi modeli yazılı kurallar, hukuksal yetke, görev tanımları ve öngörülebilir süreçler üzerine kurulur. Yetkilerin tamamen serbest bırakılması bürokratik mantığa uymaz.</div></div>
+<div class="question">
+<div class="meta"><span class="pill">2023-2024</span><span class="pill exam">Bütünleme</span></div>
+<div class="q-title">“Sistem dışarıdan sürekli enerji ve girdi alıyorsa bozulma eğilimi azalır; bu durumda hangi kavram ortaya çıkar?”</div>
+<div class="answer">Doğru cevap: Negatif entropi</div>
+<div class="explain">Kısa açıklama: Sistem çevreyle alışveriş yaptığı için yaşama ve yenilenme kapasitesini korur.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“İşletme yönetimindeki entropi kavramını hangi ifade karşılar?”</div>
+<div class="answer">Doğru cevap: Bir sistemin bozulma ve ölme eğilimi</div>
+<div class="explain">Kısa açıklama: Entropi, düzenin bozulmasına; negatif entropi ise bu bozulmanın engellenmesine işaret eder.</div>
+</div>
+</section>
+<section class="section">
+<span class="tag">12. Çevre, amaçlar ve çağdaş konular</span>
+<h2>İşletme Çevresi, Operasyonel Amaçlar, Öğrenme ve Küresel Sistem</h2>
+<p>İşletmeler sadece iç yapıdan ibaret değildir; çevreleriyle birlikte var olurlar. Mikro çevrede müşteriler, rakipler, tedarikçiler ve iş gücü piyasası gibi unsurlar yer alır. Bu çevre unsurları işletmenin günlük kararlarını doğrudan etkiler.</p>
+<p>Amaçlar düzeyinde <strong>operasyonel amaçlar</strong>, sayısal olarak ifade edilebilen, ölçülebilen ve çoğu zaman kısa vadede izlenebilen spesifik sonuçları ifade eder. Stratejik amaçlardan daha somuttur.</p>
+<p><strong>Öğrenme</strong>, tekrar ve yaşantı sonucu davranışta nispeten kalıcı değişiklik oluşmasıdır. Yönetim yazınında bu kavram, bireylerin ve örgütlerin gelişmesi açısından önem taşır.</p>
+<p>Küresel ekonomik sistem ise bilgi teknolojileri, yatırımların sınır ötesine taşınması ve küresel tüketici davranışlarıyla şekillenir. Sorularda burada hangisinin doğrudan belirleyici olmadığı sorulabilir.</p>
+<div class="question"><div class="question-head"><span class="pill kind">Benzeri Soru</span><span class="pill">2025-2026</span><span class="pill exam">Vize</span></div><div class="question-stem">İşletmeler için iş çevresinin içinde aşağıdakilerden hangileri bulunur?</div><div class="options"><div class="option"><b>A) </b>Teknolojik, politik, bilişsel ve stratejik çevre</div><div class="option"><b>B) </b>Müşteriler, çalışanlar, yöneticiler, rakipler, devlet</div><div class="option"><b>C) </b>Ekonomik, politik/yasal, sosyokültür ve teknolojik çevre</div><div class="option"><b>D) </b>Teknik çevre, finansal çevre, ekonomik çevre</div><div class="option"><b>E) </b>Rakipler, müşteriler, tedarikçiler, işgücü piyasası</div></div><div class="answer">Doğru cevap: E) Rakipler, müşteriler, tedarikçiler, işgücü piyasası</div><div class="explain">Kısa açıklama: İş çevresi sorularında dikkat edilmesi gereken nokta mikro çevre ile makro çevreyi ayırmaktır. Rakipler, müşteriler, tedarikçiler ve işgücü piyasası işletmenin doğrudan etkileşimde olduğu yakın çevre unsurlarıdır.</div></div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Sayısal olarak ifade edilebilen, ölçülebilir, spesifik sonuçları anlatan amaç türü hangisidir?”</div>
+<div class="answer">Doğru cevap: Operasyonel amaçlar</div>
+<div class="explain">Kısa açıklama: Operasyonel amaçlar, günlük ya da kısa dönemli performans ölçümlerinde daha görünür hâle gelir.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2024-2025</span><span class="pill exam">Final</span></div>
+<div class="q-title">“Tekrar ya da yaşantı sonucu davranışta meydana gelen oldukça devamlı değişiklik nedir?”</div>
+<div class="answer">Doğru cevap: Öğrenme</div>
+<div class="explain">Kısa açıklama: Öğrenme yalnızca bilgi edinmek değil, davranışta nispeten kalıcı bir dönüşüm oluşturmaktır.</div>
+</div>
+<div class="question">
+<div class="meta"><span class="pill">2023-2024</span><span class="pill exam">Bütünleme</span></div>
+<div class="q-title">“K. Ohmae’ye göre küresel ekonomik sistemin oluşumunu etkileyen faktörlerden hangisi sayılamaz?”</div>
+<div class="answer">Doğru cevap: Sanayi devriminin etkilerinin hissedilmesi</div>
+<div class="explain">Kısa açıklama: Sanayi devrimi tarihsel bir arka plan sağlar; fakat soruda küresel sistemin güncel oluşum mantığını belirleyen çağdaş etkenler sorulmaktadır.</div>
+</div>
+</section>
+<div class="footer">
+      Başarılar Dilerim.
+    </div>
+</div>
+</body>
+</html>
