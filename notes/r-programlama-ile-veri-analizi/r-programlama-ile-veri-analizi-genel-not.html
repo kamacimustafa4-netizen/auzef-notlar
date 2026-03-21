@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>R Programlama ile Veri Analizi - Ayrıntılı Ders Notu</title>
+<style>
+    :root{
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --soft:#eef4ff;
+      --soft-2:#f8fbff;
+      --text:#1f2937;
+      --muted:#5b6577;
+      --line:#dbe4f0;
+      --primary:#4f7cff;
+      --primary-dark:#2f4db3;
+      --accent:#15304f;
+      --warn:#fff4db;
+      --ok:#eaf8ef;
+      --shadow:0 12px 34px rgba(31,41,55,.08);
+      --radius:22px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      background:linear-gradient(180deg,#f8fbff 0%, #f3f6fb 100%);
+      color:var(--text);
+      line-height:1.7;
+    }
+    .wrap{
+      width:min(1120px, calc(100% - 32px));
+      margin:32px auto 60px;
+    }
+    .hero{
+      background:linear-gradient(135deg,#fdfefe 0%, #eef5ff 60%, #e7f0ff 100%);
+      border:1px solid var(--line);
+      border-radius:30px;
+      padding:34px;
+      box-shadow:var(--shadow);
+      position:relative;
+      overflow:hidden;
+    }
+    .hero::after{
+      content:"";
+      position:absolute;
+      width:280px;height:280px;
+      border-radius:50%;
+      right:-80px;top:-80px;
+      background:radial-gradient(circle, rgba(79,124,255,.18) 0%, rgba(79,124,255,0) 70%);
+    }
+    .badge{
+      display:inline-block;
+      background:#e8f0ff;
+      color:var(--primary-dark);
+      font-weight:700;
+      padding:8px 14px;
+      border-radius:999px;
+      font-size:13px;
+      letter-spacing:.2px;
+      margin-bottom:14px;
+    }
+    h1,h2,h3{line-height:1.25;margin:0 0 14px}
+    h1{font-size:clamp(30px,4vw,46px)}
+    h2{
+      font-size:30px;
+      padding-bottom:10px;
+      border-bottom:2px solid #e8eef8;
+      margin-top:8px;
+    }
+    h3{font-size:21px;color:#15304f;margin-top:26px}
+    p{margin:0 0 14px}
+    .lead{font-size:18px;color:#314156;max-width:900px}
+    .top-note{
+      margin-top:20px;
+      background:linear-gradient(135deg,#ffffff 0%, #f7fbff 100%);
+      border:1px solid #dfeafb;
+      border-left:6px solid var(--primary);
+      border-radius:18px;
+      padding:18px 18px 18px 20px;
+      color:#223247;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      gap:20px;
+      margin-top:24px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+    }
+    .span-8{grid-column:span 8}
+    .span-4{grid-column:span 4}
+    .span-12{grid-column:span 12}
+    .toc a{
+      display:block;
+      text-decoration:none;
+      color:#294266;
+      padding:10px 12px;
+      border-radius:12px;
+      margin-bottom:8px;
+      background:#f7faff;
+      border:1px solid #e5ecf8;
+      font-weight:600;
+    }
+    .toc a:hover{background:#edf4ff}
+    .pill-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+    .pill{
+      padding:8px 12px;
+      border-radius:999px;
+      background:#edf3ff;
+      color:#26437d;
+      font-weight:700;
+      font-size:13px;
+    }
+    .section{margin-top:26px}
+    .callout, .callout-dark, .exam-box, .tip, .warn{
+      border-radius:18px;
+      padding:18px 20px;
+      margin:18px 0;
+      border:1px solid var(--line);
+    }
+    .callout{background:var(--soft-2)}
+    .callout-dark{background:linear-gradient(135deg,#18314d,#223d61);color:#f3f7ff;border-color:#314c70}
+    .exam-box{background:#f7fbff}
+    .tip{background:var(--ok);border-color:#cfe9d7}
+    .warn{background:var(--warn);border-color:#f0ddb1}
+    code, pre{
+      font-family: "Consolas","Courier New",monospace;
+    }
+    pre{
+      background:#0f1b2d;
+      color:#eef4ff;
+      padding:18px;
+      border-radius:16px;
+      overflow:auto;
+      font-size:14px;
+      line-height:1.6;
+      border:1px solid #24354d;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.03);
+      margin:14px 0 18px;
+    }
+    .two-col{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+    }
+    ul{padding-left:20px;margin:10px 0 16px}
+    li{margin-bottom:8px}
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin:12px 0 18px;
+      overflow:hidden;
+      border-radius:16px;
+      border:1px solid #dde6f2;
+    }
+    th,td{
+      padding:13px 14px;
+      text-align:left;
+      border-bottom:1px solid #e6edf7;
+      vertical-align:top;
+    }
+    th{background:#eff5ff;color:#23406c}
+    tr:nth-child(even) td{background:#fbfdff}
+    .footer{
+      margin-top:34px;
+      color:#58667b;
+      font-size:14px;
+      text-align:center;
+    }
+    .mini{font-size:14px;color:var(--muted)}
+    .kicker{font-size:14px;text-transform:uppercase;letter-spacing:.12em;color:#6080b3;font-weight:800;margin-bottom:8px}
+    @media (max-width: 900px){
+      .span-8,.span-4,.span-12{grid-column:span 12}
+      .two-col{grid-template-columns:1fr}
+      .wrap{width:min(100% - 18px, 1120px)}
+      .hero,.card{padding:20px}
+      h2{font-size:25px}
+    }
+  
+
+.question-stack{margin-top:28px;display:grid;gap:16px}
+.question-stack .q-title{margin:0 0 6px;font-size:1.05rem;color:var(--primary-dark)}
+.past-question{
+  background:linear-gradient(180deg,#fbfdff 0%, #f5f9ff 100%);
+  border:1px solid #d7e4fb;
+  border-radius:18px;
+  padding:18px 18px 16px;
+  box-shadow:0 10px 24px rgba(79,124,255,.06);
+}
+.past-question .meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.past-question .tag{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:6px 10px;border-radius:999px;
+  background:#eaf1ff;color:#24439d;font-size:.83rem;font-weight:700;
+}
+.past-question .stem{font-weight:700;color:#233047;line-height:1.65}
+.past-question .answer{
+  margin-top:12px;padding:10px 12px;border-radius:12px;
+  background:#edf8f1;border:1px solid #cdebd7;color:#1f5a36;
+}
+.past-question .mini{
+  margin-top:10px;padding:12px 14px;border-left:4px solid #88a7ff;
+  background:#ffffff;border-radius:12px;color:#445065;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+<div class="badge">R Programlama ile Veri Analizi • Ayrıntılı Ders Notu</div>
+<h1>Çıkmış Sorular Baz Alınarak Hazırlanmış Kapsamlı Notlar</h1>
+<p class="lead">
+        Bu not, çıkmış soru dağılımı dikkate alınarak hazırlanmıştır. Amaç sadece şıkları ezberletmek değil; sınavda tekrar eden kavramları mantığıyla birlikte öğretmek, kod kalıplarını tanıtmak ve soru görünce hangi konudan geldiğini hızlı fark etmeni sağlamaktır.
+      </p>
+<div class="top-note">
+<strong>Nasıl kullanmalısın?</strong><br/>
+        Önce veri yapıları ve indeksleme bölümünü iyice oturt. Sonra veri çerçevesi, matris ve liste işlemlerine geç. Ardından grafikler, temel istatistik, regresyon, kümeleme ve karar ağaçları kısımlarını çalış. Bu derste sorular çoğu zaman aynı çekirdek komutların farklı biçimlerde sorulmasından oluşur.
+      </div>
+<div class="pill-row">
+<span class="pill">Vektör</span>
+<span class="pill">Liste</span>
+<span class="pill">Matris</span>
+<span class="pill">Veri Çerçevesi</span>
+<span class="pill">Grafikler</span>
+<span class="pill">İstatistik</span>
+<span class="pill">Regresyon</span>
+<span class="pill">K-means</span>
+<span class="pill">Karar Ağaçları</span>
+</div>
+</section>
+<div class="grid">
+<section class="card span-8 toc">
+<div class="kicker">İçerik Haritası</div>
+<h2>Bu notta neler var?</h2>
+<a href="#bolum1">1. Dersin genel mantığı ve sınavda tekrar eden konular</a>
+<a href="#bolum2">2. R ekosistemi: R, RStudio, Jupyter, Anaconda, CRAN, tidyverse</a>
+<a href="#bolum3">3. Temel veri tipleri ve değişken mantığı</a>
+<a href="#bolum4">4. Vektörler ve indeksleme</a>
+<a href="#bolum5">5. Listeler, faktörler, matrisler ve veri çerçeveleri</a>
+<a href="#bolum6">6. Temel fonksiyonlar: str, attributes, ls, rm, lapply, apply</a>
+<a href="#bolum7">7. Grafikler ve görselleştirme komutları</a>
+<a href="#bolum8">8. Tanımlayıcı ve çıkarımsal istatistik</a>
+<a href="#bolum9">9. Regresyon, olasılık çıktıları ve artık değerler</a>
+<a href="#bolum10">10. K-means ve karar ağaçları</a>
+<a href="#bolum11">11. Sınav için ezberlenmesi gereken komut kalıpları</a>
+</section>
+<aside class="card span-4">
+<div class="kicker">Hızlı Özet</div>
+<h2>En kritik noktalar</h2>
+<ul>
+<li><strong>Vektör</strong> tek boyutlu ve homojendir.</li>
+<li><strong>Liste</strong> farklı türde verileri birlikte tutabilir.</li>
+<li><strong>Veri çerçevesi</strong> tablo yapısındadır; sütunlar farklı türde olabilir.</li>
+<li><strong>str()</strong> veri yapısını inceler.</li>
+<li><strong>par(new=TRUE)</strong> mevcut grafiğin üstüne yeni grafik çizer.</li>
+<li><strong>grid(5,5,col="red")</strong> grafiğe kırmızı ızgara ekler.</li>
+<li><strong>lm()</strong> lineer regresyon kurar.</li>
+<li><strong>dist()</strong> uzaklık matrisi üretir.</li>
+<li><strong>kmeans</strong> küme üyelikleri değişmeyince durur.</li>
+<li><strong>Karar ağaçları</strong> denetimli öğrenmedir.</li>
+</ul>
+</aside>
+<section class="card span-12 section" id="bolum1">
+<div class="kicker">Bölüm 1</div>
+<h2>Dersin genel mantığı ve sınavda tekrar eden yapı</h2>
+<p>
+          Yüklediğin soru dosyasına bakıldığında sınavın ağırlık merkezi birkaç ana başlıkta toplanıyor: R ortamını tanıma, veri yapıları, indisleme ve alt küme seçme, veri çerçevesi ve matris işlemleri, temel fonksiyonlar, grafik çizimi, temel istatistik, regresyon, k-means ve karar ağaçları. Özellikle aynı komutların farklı örnekler üzerinden tekrar tekrar sorulduğu açıkça görülüyor. Bu yüzden bu derste başarı, çok fazla konu ezberlemekten çok <strong>aynı mantığı farklı sorularda tanımaya</strong> bağlıdır.
+        </p>
+<p>
+          Mesela bir soru <em>isimler[3:7]</em> ile vektörden dilim alma mantığını, başka bir soru <em>kazananlar[c(2,4), ]</em> ile veri çerçevesinden satır seçmeyi, başka bir soru ise <em>matrisX[2, ]</em> ile matrisin belirli satırına erişmeyi ölçer. Bunların hepsi görünüşte farklıdır ama altında yatan düşünce aynıdır: <strong>R’de köşeli parantez veri seçmek içindir</strong> ve seçimde satır-sütun mantığı çok önemlidir. Bu mantığı kavradığında onlarca farklı soru tek çatı altında birleşir.
+        </p>
+<div class="callout-dark">
+<strong>Sınav mantığı:</strong> Bu derste soru kökü bazen karışık, eksik ya da görsele bağlı olabilir. Böyle durumlarda kurtarıcı olan şey, seçeneklerdeki komutların sözdizimini tanıyabilmektir. Yani doğru cevabı çoğu zaman sadece R sözdizimini bilerek de bulabilirsin.
+        </div>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Değişken için aşağıda verilen ifadelerden hangisi yanlıştır?</div><div class="answer">Doğru cevap: D) R'da değişken tanımlamaz.</div><div class="mini">Bu soru, dersin yalnızca kod ezberinden ibaret olmadığını gösterir. R’de değişkenler atama yapıldığı anda oluşur ve bellekte tutulur; sınav mantığı çoğu zaman temel kavramı doğru adlandırmayı ölçer.</div></div><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">“R için gerekli olan işlevler, veriler ve belgeler topluluğunu kapsar” ifadesi aşağıda verilenlerden hangisi için geçerlidir?</div><div class="answer">Doğru cevap: A) Tidyverse</div><div class="mini">Burada paket kavramı doğrudan soruluyor. Sınavda sıkça, aracın ne olduğu ile işlevinin ne olduğu birbirine karıştırılır; paket, işlevler, veriler ve belgeler topluluğudur.</div></div></div></section>
+<section class="card span-12 section" id="bolum2">
+<div class="kicker">Bölüm 2</div>
+<h2>R ekosistemi: R, RStudio, Jupyter, Anaconda, CRAN ve tidyverse</h2>
+<p>
+          Dersin ilk önemli kısmı sadece kod yazmak değil, bu kodların hangi ortamda çalıştığını bilmektir. Sorularda özellikle R, RStudio, Jupyter Notebook, Anaconda, CRAN ve tidyverse arasındaki farklar sıkça dönmektedir. Bu kavramlar birbirinin yerine kullanılmamalıdır.
+        </p>
+<div class="two-col">
+<div>
+<h3>R nedir?</h3>
+<p>
+              R, istatistiksel hesaplama ve veri analizi için geliştirilmiş bir programlama dilidir. Asıl iş yapan katman R’ın kendisidir. Değişkenler, veri yapıları, fonksiyonlar ve analiz süreçleri R diliyle yürütülür. Yani RStudio ya da Jupyter, R’ın yerine geçen yapılar değil; R ile çalışmayı kolaylaştıran ortamlardır.
+            </p>
+</div>
+<div>
+<h3>RStudio nedir?</h3>
+<p>
+              RStudio, R için bütünleşik geliştirme ortamıdır. Kod editörü, konsol, dosya yöneticisi, grafik penceresi ve çalışma alanı gibi bölümleri tek arayüzde toplar. Sınavda “bu arayüz hangisidir?” sorularında RStudio görselleri sıkça sorulabilir. Temel fikir şudur: <strong>R bir dildir, RStudio ise bu dili rahat kullanmayı sağlayan arayüzdür.</strong>
+</p>
+</div>
+</div>
+<div class="two-col">
+<div>
+<h3>Jupyter Notebook nedir?</h3>
+<p>
+              Jupyter, web tabanlı çalışma ortamıdır. Farklı dilleri çekirdekler üzerinden çalıştırabilir. Sorularda “R simgesine tıklanırsa ne olur?” ifadesi geçtiğinde mantık şudur: Jupyter içinde R çekirdeği aktif olur. Yani Jupyter başlı başına R değildir; R’ı çalıştırabilecek bir ortamdır.
+            </p>
+</div>
+<div>
+<h3>Anaconda nedir?</h3>
+<p>
+              Anaconda veri bilimi ortamı kurulumunu kolaylaştıran bir dağıtımdır. Paket yönetimi, sanal ortamlar ve Jupyter gibi araçları birlikte sunar. Sorularda bazen “Anaconda veri analizi uygulamaları için bütünleşik geliştirme ortamı sağlar” biçiminde yaklaşım görülür. Pratikte Anaconda, veri analizi araçlarını tek bir çatı altında kurup yönetmeye yardımcı olur.
+            </p>
+</div>
+</div>
+<h3>CRAN ve tidyverse</h3>
+<p>
+          CRAN, R paketlerinin dağıtıldığı ana arşivdir. Paketleri indirip kurmak için kullanılan temel kaynaktır. Sorularda görüntü işleme paketi ya da başka kütüphanelerin nerede tutulduğu sorulduğunda cevap mantıken CRAN’dır. tidyverse ise tek bir program değil; veri işleme, görselleştirme ve dönüşüm için yaygın kullanılan paket ailesidir. Yani CRAN depo mantığı taşırken, tidyverse işlevler ve araçlar topluluğudur.
+        </p>
+<table>
+<thead>
+<tr>
+<th>Kavram</th>
+<th>Ne işe yarar?</th>
+<th>Sınavda nasıl sorulur?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R</td>
+<td>Programlama dili ve analiz motoru</td>
+<td>Temel dil hangisidir?</td>
+</tr>
+<tr>
+<td>RStudio</td>
+<td>R için IDE / arayüz</td>
+<td>Verilen arayüz hangisidir?</td>
+</tr>
+<tr>
+<td>Jupyter</td>
+<td>Web tabanlı notebook ortamı</td>
+<td>R ikonuna tıklanırsa ne aktif olur?</td>
+</tr>
+<tr>
+<td>Anaconda</td>
+<td>Kurulum ve paket/ortam yönetimi</td>
+<td>Veri analizi için hangi dağıtım uygundur?</td>
+</tr>
+<tr>
+<td>CRAN</td>
+<td>R paket deposu</td>
+<td>Paketler nerede tutulur?</td>
+</tr>
+<tr>
+<td>tidyverse</td>
+<td>R için fonksiyonlar, veriler ve belgeler topluluğu</td>
+<td>Hangi ifade bunu anlatır?</td>
+</tr>
+</tbody>
+</table>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">https://cloud.r-project.org adresi için aşağıda verilen ifadelerden hangisi doğrudur?</div><div class="answer">Doğru cevap: B) R’ı yüklemek için bulunduğunuz konuma en yakın sunucuya yönlendirir.</div><div class="mini">cloud.r-project.org adresi R yazılımını indirmek için resmi yönlendirme noktasıdır. Soru, CRAN ile RStudio’yu birbirinden ayırıp ayıramadığını ölçer.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">RStudioprogramıiçinaşağıdaverilenifadelerdenhangisi doğrudur?</div><div class="answer">Doğru cevap: C) RStudio’nun Anaconda üzerinden ilk olarak çalıştırılabilmesi içn “install” (yüklenmesi) edilmesi gerekir.</div><div class="mini">RStudio, çoğu zaman doğrudan R’ın kendisiyle karıştırılır. Oysa RStudio bir geliştirme ortamıdır; özellikle Anaconda içinden ilk çalıştırmada kurulum adımı sorulabiliyor.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Jupyter, ……….. . Yukarıdaki noktalı kısım aşağıdaki ifadelerden hangisi ile tamamlanabilir?</div><div class="answer">Doğru cevap: B) veri görselleştirme ve program kodu yazmaya imkan veren web uygulamasıdır.</div><div class="mini">Jupyter’ın temel niteliği web tabanlı ve etkileşimli bir çalışma alanı sunmasıdır. Kod, çıktı ve görselleştirme aynı akışta ilerlediği için veri analizi derslerinde sık geçer.</div></div><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Anaconda için aşağıda verilen ifadelerden hangisi doğrudur?</div><div class="answer">Doğru cevap: A) Veri analizi uygulamaları için bütünleşik geliştirme ortamı sağlar.</div><div class="mini">Anaconda, farklı veri bilimi araçlarını aynı çatı altında yönetmeyi kolaylaştırır. Bu yüzden sorularda onu tek bir uygulama değil, bütünleşik bir ortam mantığıyla düşünmek gerekir.</div></div></div></section>
+<section class="card span-12 section" id="bolum3">
+<div class="kicker">Bölüm 3</div>
+<h2>Temel veri tipleri ve değişken mantığı</h2>
+<p>
+          R’da değişken, veriyi bellekte tutan isimli bir kutu gibi düşünülebilir. Bir değişkene değer atadığın anda o değişken oluşur. Bu yüzden “R’da değişken tanımlanmaz” ifadesi yanlıştır; daha doğrusu C veya Java gibi önceden tür belirtme zorunluluğu yoktur. Atama yapıldığında nesne ortaya çıkar.
+        </p>
+<pre>ad &lt;- "Ali"
+yas &lt;- 21
+aktif_mi &lt;- TRUE</pre>
+<p>
+          Sorularda özellikle <strong>character</strong>, <strong>numeric</strong>, <strong>double</strong>, <strong>logical</strong> gibi çıktılar gelebilir. Burada önemli nokta şudur: R bazen sayısal verileri daha ayrıntılı olarak <em>double</em> diye de ifade eder. Metinler karakter türündedir. Doğru/yanlış değerleri ise mantıksal türdedir.
+        </p>
+<div class="exam-box">
+<strong>Hatırda kalsın:</strong>
+<ul>
+<li>Tırnak içindeki veri genelde <strong>character</strong> olur.</li>
+<li>Sayısal veriler çoğu zaman <strong>numeric</strong> veya <strong>double</strong> biçiminde görülür.</li>
+<li><strong>TRUE</strong> ve <strong>FALSE</strong> mantıksal veri tipidir.</li>
+<li>Bir değer tırnak içine alınırsa sayısal görünse bile karakter olabilir.</li>
+</ul>
+</div>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Kategorik bir değişken için en uygun R veri türü hangisidir?</div><div class="answer">Doğru cevap: B) Faktör</div><div class="mini">Kategorik veri için factor kullanılması gerekir. Çünkü kategoriler yalnızca metin değil, sınıflandırılmış düzeyler olarak ele alınır.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen ekran görüntüsünün çıktısı hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: C) double</div><div class="mini">Sınavda bazen bir çıktının türü sorulur. R’de sayısal görünen verinin double dönmesi, varsayılan sayısal temsilin çoğu zaman bu sınıf olmasıyla ilgilidir.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen ekran görüntüsünün çıktısı hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: B) “789630”</div><div class="mini">Tırnak işareti, verinin türünü doğrudan değiştirir. Sayı gibi görünse bile tırnak içindeyse karakter veri olur; bu ayrım soru havuzunda sık tekrar eder.</div></div></div></section>
+<section class="card span-12 section" id="bolum4">
+<div class="kicker">Bölüm 4</div>
+<h2>Vektörler ve indeksleme</h2>
+<p>
+          Vektör, R’daki en temel veri yapılarından biridir. Tek boyutludur ve <strong>homojen</strong> yapıdadır; yani aynı türden elemanlar içerir. Bu yüzden sınavda “vektör farklı veri türlerini birlikte barındırır” tarzı ifadeler genellikle yanlış kabul edilir. Vektörlerin en önemli özelliği, elemanlarının bir sıraya sahip olmasıdır. Her elemanın bir indisi vardır ve bu indisler 1’den başlar.
+        </p>
+<pre>isimler &lt;- c("Ali", "Veli", "Can", "Nalan", "Rabia", "Mehmet Ziya", "Ayşe Serra", "Zehra")
+isimler[8]     # "Zehra"
+isimler[3:7]   # 3 ile 7. elemanlar arası
+isimler[-c(4:7)] # 4-7 arası hariç kalanlar</pre>
+<h3>İndis mantığı</h3>
+<p>
+          Sınavda çok tekrar eden soru tipi, vektörde belirli elemanları seçmektir. <code>x[8]</code> sekizinci elemanı verir. <code>x[3:7]</code> üçüncü elemandan yedinci elemana kadar olan aralığı getirir. <code>x[c(2,4)]</code> ikinci ve dördüncü elemanı seçer. <code>x[-c(4:7)]</code> ise 4 ile 7 arasını hariç tutar.
+        </p>
+<div class="callout">
+<strong>Çok önemli ayrım:</strong> R’da indisler <strong>1’den başlar</strong>. Bu nokta özellikle başka diller bilen öğrencileri yanıltır. 0. indis mantığı yoktur.
+        </div>
+<h3>İsim verilmiş vektörler</h3>
+<p>
+          Vektör elemanlarına isim atamak mümkündür. Bu, özellikle öğrenci numarası, ürün kodu veya kategori anahtarları gibi verilerde faydalıdır.
+        </p>
+<pre>ogrenciler &lt;- c("Ali", "Veli", "Can", "Nalan")
+names(ogrenciler) &lt;- c("101", "102", "103", "105")
+ogrenciler</pre>
+<p>
+          Bu tarz sorularda <code>names()</code> fonksiyonunun ne yaptığı bilinmelidir. Fonksiyon, vektör elemanlarının görünür isimlerini belirler.
+        </p>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen vektörü göz önüne alarak; isimler[8] kod satırının sonucu hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: B) Zehra</div><div class="mini">Tek köşeli parantezle yapılan seçim, vektörde belirli konumdaki elemana ulaşmayı sağlar. Burada asıl ölçülen şey, R’de indislerin 1’den başlamasıdır.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen vektör ve bu vektörden elde edilen çıktı görülmektedir. Bu çıktıyı sağlayan kod hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: E) isimler [3:7]</div><div class="mini">Aralık seçimi için 3:7 gibi gösterim kullanılır. Böyle sorularda [[ ]] ile [ ] farkını bilmek gerekir; vektörde çoğu alt küme alma işlemi [ ] ile yapılır.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen vektörün oluşturulduğu göz önüne alındığında, aşağıdaki çıktıyı veren komut hangi şıkta doğru olarak verilmiştir? Çıktı: ‘Ali”, ‘Veli’, ‘Can’,’Zehra’</div><div class="answer">Doğru cevap: E) ogrenciler[-c(4:7)]</div><div class="mini">Negatif indisleme, istenmeyen elemanları dışarıda bırakmak için kullanılır. Bu yapı sınavda çok seviliyor çünkü hem dizilim hem de mantık kontrolü istiyor.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">“Vektördeki her veri elemanının bir numarası vardır” ifadesi için aşağıda verilen şıklardan hangisi doğrudur?</div><div class="answer">Doğru cevap: E) Bu ifade vektörler için indis kavramına karşılık gelmektedir.</div><div class="mini">Vektörde her elemanın bir numarası olması, indis kavramına karşılık gelir. Bu ifade temel görünse de sonraki tüm dilimleme sorularının temelidir.</div></div></div></section>
+<section class="card span-12 section" id="bolum5">
+<div class="kicker">Bölüm 5</div>
+<h2>Listeler, faktörler, matrisler ve veri çerçeveleri</h2>
+<h3>Listeler</h3>
+<p>
+          Liste, farklı türde verileri bir arada tutabilen esnek bir yapıdır. Vektör ile listenin en büyük farkı budur. Vektör homojendir, liste ise heterojen olabilir. Bir listede metin, sayı, başka bir vektör, veri çerçevesi hatta matris aynı anda bulunabilir.
+        </p>
+<pre>listem &lt;- list("Ali", 34, 2021)
+yenilistem &lt;- list(vektor1, cerceve1, matris1)</pre>
+<p>
+          Liste elemanlarına isim verilebilir ve sonra bu isimlerle erişim yapılabilir. Sorularda “Aile” parçasını dilimle” gibi ifadeler genellikle çift köşeli parantezle çözülür:
+        </p>
+<pre>yenilistem2[["Aile"]]</pre>
+<div class="warn">
+          Tek köşeli parantez ve çift köşeli parantez aynı şey değildir. Tek köşeli parantez genelde alt liste döndürür; çift köşeli parantez doğrudan elemanın kendisini getirir. Sınavda bu ayrım örtülü biçimde karşına çıkabilir.
+        </div>
+<h3>Faktörler</h3>
+<p>
+          Kategorik veriler için en uygun tür çoğu zaman <strong>factor</strong> yapısıdır. Örneğin hava durumu, cinsiyet, eğitim düzeyi gibi sınırlı kategori değerlerine sahip değişkenlerde faktör kullanılır.
+        </p>
+<pre>havadurumu &lt;- factor(c("yağmurlu", "güneşli", "bulutlu", "yağmurlu"))</pre>
+<p>
+          Faktörler, istatistiksel modelleme ve sınıflandırma işlemlerinde çok önemlidir; çünkü R bu yapıyı kategorik değişken olarak tanır.
+        </p>
+<h3>Matrisler</h3>
+<p>
+          Matris iki boyutlu ve homojen bir veri yapısıdır. Tüm elemanlar aynı türde olmalıdır. Satır ve sütun mantığıyla çalışır. Birçok sınav sorusunda matris oluşturma ve belirli satır-sütun seçme ölçülür.
+        </p>
+<pre>matrisY &lt;- matrix(c(10,20,35,45,55,65,75,85,95,105,115,125), 4, 3)
+matrisY[2, ]   # 2. satır
+matrisY[, 2]   # 2. sütun
+matrisY[2, 2]  # 2. satır 2. sütun</pre>
+<p>
+          Sorularda bazen “2. satırın tüm öğeleri” ifadesi gelir. Bunu görmek için <code>[2, ]</code> kullanılır. Teknik olarak bu ifade satırı seçer; bazı soru anlatımlarında “silmek” ifadesi geçse bile seçenekler arasından yine satır erişim mantığı beklenir.
+        </p>
+<h3>Veri çerçeveleri</h3>
+<p>
+          Veri çerçevesi, R’daki en önemli yapılardan biridir. Tablo biçimindedir. Sütunlar farklı veri türlerinden olabilir; örneğin bir sütun sayısal, başka bir sütun karakter, başka bir sütun faktör olabilir. Bu yüzden veri çerçevesi, gerçek veri analizi çalışmalarında çok yaygın kullanılır.
+        </p>
+<pre>kazananlar &lt;- data.frame(
+  adayno = c(10,20,30),
+  puan = c(250,470,215),
+  bolumu = c("İktisat", "İşletme", "Makine")
+)</pre>
+<p>
+          Veri çerçevesinde satır eklemek için <code>rbind()</code> kullanılır. Yeni sütun adı değiştirmek için <code>colnames()</code> kullanılabilir.
+        </p>
+<pre>satir &lt;- data.frame(adayno=50, puani=395, bolumu="Makine")
+kazananlar2 &lt;- rbind(kazananlar, satir)
+colnames(kazananlar)[3] &lt;- "Alanı"</pre>
+<div class="tip">
+<strong>Pratik bilgi:</strong> Veri çerçevesinde <code>[satır, sütun]</code> mantığı vardır. Sadece belirli sütunları seçmek için satır kısmını boş bırakabilirsin. Örneğin <code>notlistesi[, 2:3]</code> ikinci ve üçüncü sütunları seçer.
+        </div>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">“Ali”, 34, 2021 verilerini liste olarak oluşturan ve listem adlı bir değişkene atayan komut hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: D) listem=list("Ali", 34, 2021)</div><div class="mini">Liste, farklı veri türlerini aynı yapıda saklayabildiği için vektörden ayrılır. Bu yüzden hem metin hem sayı aynı listede tutulabilir.</div></div><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıdaki şekildeki ekran çıktısını verecek kod satırı hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: C) havadurumu=factor(c("yağmurlu", "güneşli","bulutlu", "yağmurlu", "güneşli","güneşli"))</div><div class="mini">factor() fonksiyonu kategorik veriyi düzeyli biçimde temsil eder. Özellikle hava durumu gibi sınıflı örnekler sınavlarda sık kullanılır.</div></div><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıdaki ekran çıktısını veren komut satırı hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: D) matrisY=matrix(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)</div><div class="mini">matrix() fonksiyonunda satır ve sütun sayısı çok önemlidir. byrow verilmediğinde doldurma sütun mantığıyla ilerler; bu detay soru üretmeye çok uygundur.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Aşağıda veri çerçevesi için verilen ifadelerden hangisi yanlıştır?</div><div class="answer">Doğru cevap: C) Farklı veri türleri içerecek bir yapıda değildir.</div><div class="mini">Veri çerçeveleri aynı tabloda farklı sütun türlerini taşıyabilir. Bu yüzden 'farklı veri türleri içeremez' ifadesi yanlıştır.</div></div><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen ve adı kazananlar olan çerçevenin son sütununun ismini Alanı olarak değiştirecek kod hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: B) colnames(kazananlar)[3]=”Alanı”</div><div class="mini">colnames() sütun adlarını değiştirmek için kullanılır. Veri çerçevesinde satır ve sütun isimlerini karıştırmamak gerekir.</div></div></div></section>
+<section class="card span-12 section" id="bolum6">
+<div class="kicker">Bölüm 6</div>
+<h2>Temel fonksiyonlar: str, attributes, ls, rm, lapply, apply</h2>
+<p>
+          Bu derste bazı küçük fonksiyonlar çok kritik rol oynar. Sınavda doğrudan “hangi komut kullanılır?” şeklinde gelebilirler. Bunları ayrı ayrı bilmek gerekir.
+        </p>
+<h3>str()</h3>
+<p>
+<code>str()</code>, bir nesnenin yapısını inceler. Veri setindeki değişken türleri, gözlem sayısı ve genel yapı hakkında özet verir. <code>str(cars)</code> sorularda çok klasik örnektir.
+        </p>
+<h3>attributes()</h3>
+<p>
+          Bir nesnenin özniteliklerini gösterir. Özellikle isim, boyut, sınıf gibi meta bilgileri incelemek için kullanılır. Eğer soruda ekrana dökülen yapı; isim, sınıf ya da boyut bilgilerini gösteriyorsa <code>attributes()</code> akla gelmelidir.
+        </p>
+<h3>ls() ve rm()</h3>
+<p>
+<code>ls()</code> çalışma alanında bulunan nesneleri listeler. <code>rm()</code> ise belirli bir nesneyi bellekten siler. Sorularda “bellekte oluşturulan değişkenleri görüntülemek” ve “değişkeni bellekten silmek” biçiminde sıkça sorulur.
+        </p>
+<pre>ls()
+rm(yil)</pre>
+<h3>lapply()</h3>
+<p>
+          Liste elemanlarının her birine aynı fonksiyonu uygular. Çok tekrar eden soru tipi: listedeki elemanların toplamı, ortalaması ya da maksimumu nedir? Bu durumda seçeneklerde genellikle <code>lapply(listem5, sum)</code>, <code>lapply(listem5, mean)</code>, <code>lapply(listem5, max)</code> gibi ifadeler çıkar.
+        </p>
+<pre>lapply(listem5, sum)
+lapply(listem5, mean)
+lapply(listem5, max)</pre>
+<h3>apply()</h3>
+<p>
+          Matris ya da veri çerçevesi üzerinde satır veya sütun bazında fonksiyon uygular. Kullanım biçimi şöyledir: <code>apply(X, margin, FUN)</code>. Burada <code>margin=1</code> satırları, <code>margin=2</code> sütunları ifade eder. Örneğin final sütununun ortalamasını almak için sütun bazlı düşünmek gerekir.
+        </p>
+<pre>apply(notlistesi[3], 2, mean)</pre>
+<p>
+          Sorularda yazım çok temiz olmayabilir; ama mantık şudur: veri nesnesi seçilir, hangi yönde işlem yapılacağı belirtilir, ardından fonksiyon verilir.
+        </p>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">ls() fonksiyonu hangi işlem için kullanılır?</div><div class="answer">Doğru cevap: E) Bellekte oluşturulan değişkenleri görüntülemek için</div><div class="mini">ls() bellekte mevcut nesneleri listeler. Sınavda bunun rm() ile farkı özellikle ölçülür; rm() siler, ls() görüntüler.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Bir öğrenciye “cars” adlı bir veri setinin verildiği varsayılmaktadır. Öğrenci bu veri setinin öz niteliklerini görüntülemek için aşağıdaki hangi komutu kullanmalıdır?</div><div class="answer">Doğru cevap: A) str(cars)</div><div class="mini">str() veri yapısını hızlıca özetler. Veri türü, sütun yapısı ve örnek gözlemler hakkında ilk bakışı verdiği için çok temel bir komuttur.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen çerçeveden aşağıdaki çıktıyı sağlayan komut hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: A) attributes()</div><div class="mini">attributes() bir nesnenin ek niteliklerini gösterir. Özellikle isim, boyut, sınıf gibi bilgiler bu başlık altında düşünülür.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıdaki ekranda liste nesnesinin elemanlarınıım ortalamasını bulan kod aşağıdaki şıklardan hangisinde doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: D) lapply(listem5,mean)</div><div class="mini">lapply(), listedeki her elemana aynı fonksiyonu uygular. Soru kökünde ortalama, toplam ya da en büyük değer istendiğinde mantık aynıdır.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen ve adı “notlistesi olan” olan ve ekrandan final notunun ortalamasını hesaplayacak komut hangi satırda doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: E) notortalama=apply(notlistesi[3],2,mean)</div><div class="mini">apply(), matris ya da tablo benzeri yapılarda satır veya sütun bazlı işlem için kullanılır. Bu soruda final sütununun ortalaması alınarak sütun bazlı düşünme ölçülüyor.</div></div></div></section>
+<section class="card span-12 section" id="bolum7">
+<div class="kicker">Bölüm 7</div>
+<h2>Grafikler ve görselleştirme komutları</h2>
+<p>
+          Görselleştirme soruları bu derste dikkat çeken bir ağırlığa sahiptir. Histogram, yoğunluk eğrisi, çizgi grafiği, ızgara ekleme ve regresyon eğrileri gibi başlıklar tekrar etmektedir. Burada önemli olan, her grafiğin ne anlattığını ve hangi komutun hangi işi yaptığını bilmektir.
+        </p>
+<h3>Çizgi grafiği</h3>
+<p>
+          Zaman sıralı ya da düzenli indekslenmiş verilerde değişimi göstermek için çizgi grafiği kullanılır. R’da <code>plot()</code> fonksiyonu farklı çizim türleri alabilir. <code>type="l"</code> çizgi anlamına gelir.
+        </p>
+<pre>vektor &lt;- c(11,5,13,8,9,6,14,17,10)
+plot(vektor, type="l")</pre>
+<h3>Yoğunluk eğrisini histogram üzerine eklemek</h3>
+<p>
+          Histogram dağılımı sütunlarla gösterirken yoğunluk eğrisi aynı verinin daha yumuşak dağılım görünümünü verir. Mevcut grafiğin üstüne yeni grafik çizebilmek için <code>par(new=TRUE)</code> komutu kullanılır. Bu nokta sınavda doğrudan sorulmuştur.
+        </p>
+<pre>hist(x)
+par(new=TRUE)
+plot(density(x))</pre>
+<h3>Grafiğe ızgara ekleme</h3>
+<p>
+          Okunabilirliği artırmak için grafik alanına ızgara eklenebilir. Soru kalıbı çoğunlukla renk ve ölçü ile birlikte gelir:
+        </p>
+<pre>grid(5, 5, col="red")</pre>
+<p>
+          R dilinde renk adları İngilizce yazılır. Bu yüzden <em>red</em> doğrudur, <em>kırmızı</em> yazımı beklenmez.
+        </p>
+<h3>Regresyon eğrisi yorumlama</h3>
+<p>
+          Sorularda bazen bir grafikte görülen doğrunun lineer regresyon eğrisi olduğu sorulur. Burada temel mantık, veri noktaları ile bunlara en iyi uyan doğru arasındaki ilişkiyi anlamaktır. Eğri lineer görünüyorsa ve doğrusal uyum gösteriyorsa, bunun lineer regresyon ile ilgili olduğu çıkarımı yapılır.
+        </p>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Vektor=c(11,5,13,8,9,6,14,17,10) verilen vektörü göz önüne alarak yukarıda göründüğü gibi çizgi grafiği oluşturacak komut hangi şıkta doğru olarak verilmiştir? Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ R Programlama İle Veri Analizi 2022-2023 Final Soruları R Programlama İle Veri Analizi: Temel Komutlar ve İşlevler R programlama dili, veri analizi ve istatistiksel hesaplamalar için güçlü bir araçtır. Bu makalede, R programlama dilinin temel özellikleri ve komutlarının bir özeti sunulmaktadır. Soru-cevap formatındaki örneklerle, R programlama dili ile veri analizinin nasıl yapıldığını anlayacağız. Veri Setlerinin Yapısını Anlamak: Veri analizinin ilk adımı genellikle veri setinin yapısını anlamaktır. R’de str(cars) komutu, cars adlı veri setinin yapısını gösterir. Bu komut, veri setindeki değişkenlerin türlerini ve ilk birkaç gözlemini sunarak, verilerin genel bir bakışını sağlar. Veri Seçimi ve Alt Kümeler: Veri analizinde belirli veri noktalarını veya alt kümelerini seçmek önemlidir. Örneğin, kazananlar[c(2,4),] komutu, kazananlar veri çerçevesinden ikinci ve dördüncü satırları seçer. Bu tür seçimler, veri analizinde spesifik gözlemlere odaklanmayı sağlar. Görselleştirme ve Grafiğe Eklemeler: R’da veri görselleştirme, analiz sürecinin merkezi bir parçasıdır. Histogramlar ve yoğunluk grafikleri gibi görseller, veri dağılımını anlamada yardımcı olur. par(new=T) komutu, mevcut bir grafiğe yeni bir grafik eklemeyi sağlar. Örneğin, bir histogram üzerine yoğunluk grafiği ekleyebiliriz. Grafik Özelleştirmeleri: Grafiklerin görsel özelliklerini özelleştirmek, veri hikayesini daha iyi anlatmaya yardımcı olur. grid(5,5, col=”red”) komutu, bir grafiğe kırmızı renkte ızgara çizgileri ekler, bu da görsel çekiciliği ve okunabilirliği artırır. Uzaklık Matrisleri ve Kavramlar: Veri analizinde uzaklık matrisleri, öğeler arasındaki benzerlikleri veya farklılıkları ölçmede kullanılır. Örneğin, dist(mat) komutu bir uzaklık matrisi oluşturur. Uzaklık matrisleri, kümeleme gibi unsupervised öğrenme yöntemlerinde sıklıkla kullanılır. Regresyon Analizi: Regresyon analizi, değişkenler arasındaki ilişkileri anlamada temel bir tekniktir. lm() fonksiyonu, lineer regresyon modeli oluşturmak için kullanılır ve regresyon katsayıları, bağımsız değişkenlerin bağımlı değişken üzerindeki etkisini ölçer. Veri Manipülasyonu: R’da veri manipülasyonu, analiz sürecinin önemli bir parçasıdır. Örneğin, matrisX[2,] komutu, bir matristen ikinci satırı siler. Veri çerçeveleri ve matrisler üzerinde bu tür işlemler, analiz için veriyi hazırlamada kritik öneme sahiptir. R Paketleri ve Kütüphaneler: R, CRAN (Comprehensive R Archive Network) aracılığıyla geniş bir paket yelpazesi sunar. Bu paketler, çeşitli veri analizi görevlerini kolaylaştırır ve R’nin fonksiyonelliğini genişletir. İstatistiksel Ölçümler: Temel istatistiksel ölçümler, veri setinin genel özelliklerini anlamada önemlidir. Örneğin, bir veri setinin medyanını hesaplamak (median()) veri dağılımının merkezi eğilimini gösterir. R ile Veri Analizine Giriş: Yukarıda bahsedilen konular, R programlama dilinin veri analizi için nasıl kullanıldığına dair temel bir giriş sağlar. RStudio gibi arayüzler ve Jupyter Notebook’ta R kullanımı, veri analizi sürecini daha etkili ve verimli hale getirir. R programlama dili, veri analizi ve istatistiksel hesaplamalar için güçlü ve esnek bir araçtır. Bu makalede ele alınan temel komutlar ve konseptler, R ile veri analizine başlamak için sağlam bir temel oluşturur. R’nin kapsamlı paketleri ve görselleştirme yetenekleri, her türlü veri analizi ihtiyacını karşılayabilir. R’yi öğrenmek, veri bilimi ve istatistik dünyasında derinlemesine bir yolculuğa çıkmak anlamına gelir. Bu yolculuk, sürekli öğrenme ve keşfetme ile doludur. R Programlama İle Veri Analizi 2022-2023 Final Soruları</div><div class="answer">Doğru cevap: E) plot(vektor, type="l")</div><div class="mini">plot(vektor, type="l") komutundaki "l" çizgi grafiğini ifade eder. Grafik sorularında type parametresinin anlamı çok önemlidir.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yoğunluk grafiğinin histogram üzerine yazdırılması için hangi komut kullanılır?</div><div class="answer">Doğru cevap: D) par(new=T)</div><div class="mini">Histogram üzerine ikinci bir grafik bindirmek için par(new=TRUE) kullanılır. Bu komut, mevcut çizim alanını sıfırlamadan yeni katman eklemeyi sağlar.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Herhangi bir grafiğe eni ve yüksekliği 5 olacak şekilde ve kırmızı renkte ızgara ekleyen komut satırı hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: A) grid(5,5, col="red")</div><div class="mini">grid() komutu grafiği okunur hâle getirmek için ek çizgiler üretir. Görsel yorum sorularında bu tip küçük özelleştirmeler özellikle sorulabilir.</div></div></div></section>
+<section class="card span-12 section" id="bolum8">
+<div class="kicker">Bölüm 8</div>
+<h2>Tanımlayıcı ve çıkarımsal istatistik</h2>
+<p>
+          Veri analizi derslerinde istatistik iki temel düzeyde düşünülür: tanımlayıcı istatistik ve çıkarımsal istatistik. Tanımlayıcı istatistik, eldeki veriyi özetlemeye yarar. Ortalama, medyan, frekans, minimum-maksimum, standart sapma gibi ölçüler bu gruptadır. Çıkarımsal istatistik ise örneklemden hareketle anakütle hakkında yorum yapma sürecidir.
+        </p>
+<h3>Medyan</h3>
+<p>
+          Medyan, sıralanmış verinin ortasındaki değerdir. Uç değerlerden ortalamaya göre daha az etkilenir. Soruda verilen <code>c(65,50,73,60,30,30,50,50,65)</code> verisi sıralandığında ortadaki değer 50 olur.
+        </p>
+<pre>final &lt;- c(65,50,73,60,30,30,50,50,65)
+median(final)</pre>
+<div class="exam-box">
+<strong>Medyan nasıl bulunur?</strong>
+<ul>
+<li>Veriyi küçükten büyüğe sırala.</li>
+<li>Tek sayıda gözlem varsa tam ortadaki değeri al.</li>
+<li>Çift sayıda gözlem varsa ortadaki iki değerin ortalamasını al.</li>
+</ul>
+</div>
+<p>
+          Ders sorularında tanımlayıcı ve çıkarımsal istatistik ayrımının kavramsal olarak da sorulduğu görülür. Bu nedenle sadece formülü değil, hangi düzeyde analiz yapıldığını da bilmek gerekir.
+        </p>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">final=c(65,50,73,60,30,30,50,50,65) Yukarıda verilen final verisinin medyanı hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: B) 50</div><div class="mini">Medyan bulunurken veri önce sıralanır. Bu soruda ortadaki değer 50 olduğu için doğru sonuç 50’dir; ezber değil, sıralama mantığı gerekir.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen ekran görüntüsünün sonucu hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: D) 611</div><div class="mini">Bazı sorular doğrudan sayısal çıktı üretir ve öğrenciden sonucu yorumlamasını ister. Bu tip sorularda işlemin ne yaptığı kadar, çıktının nasıl okunacağı da önemlidir.</div></div></div></section>
+<section class="card span-12 section" id="bolum9">
+<div class="kicker">Bölüm 9</div>
+<h2>Regresyon, olasılık çıktıları ve artık değerler</h2>
+<p>
+          Regresyon, bir bağımlı değişken ile bir veya daha fazla bağımsız değişken arasındaki ilişkiyi modellemek için kullanılır. Ders sorularında özellikle lineer regresyonun grafikte tanınması, katsayıların ne ifade ettiği ve bazı çıktıların yorumlanması öne çıkmaktadır.
+        </p>
+<h3>Lineer regresyon</h3>
+<p>
+          R’da lineer regresyon modeli çoğunlukla <code>lm()</code> fonksiyonu ile kurulur. Elde edilen denklemde eğimin katsayısı, bağımsız değişkendeki bir birim değişimin bağımlı değişkende beklenen değişimi ne kadar etkilediğini gösterir.
+        </p>
+<pre>model &lt;- lm(y ~ x, data=veri)
+summary(model)</pre>
+<p>
+          Sorularda “regresyon katsayısıdır” ifadesi doğru seçenek olarak gelebilir. Özellikle bir sayının doğrunun eğimi ya da katsayısı olup olmadığı yorumlanmak istenir.
+        </p>
+<h3>Olasılık değerleri</h3>
+<p>
+          Bazı görsellerde, örneğin ağırlığa göre cinsiyet tahmini yapılırken sütun hâlinde verilen sayılar <strong>olasılık değerleri</strong> olabilir. Bu, modelin sınıfa ait olma ihtimalini ifade eder. Yani çıktı doğrudan erkek/kadın etiketi değil; bu etiketlerden birine ait olma derecesidir.
+        </p>
+<h3>Artık değerler</h3>
+<p>
+          Artık değer, gerçek gözlenen değer ile modelin tahmin ettiği değer arasındaki farktır. Regresyonun ne kadar iyi çalıştığını anlamada önemlidir. Soru metinlerinde yazım hatası olsa bile, artık değerleri hesaplamaya yönelik fonksiyon ifadesi ayırt edilmelidir. Doğru akademik kullanım R’da çoğunlukla <code>residuals()</code> şeklindedir; ancak sınav seçeneği bazen hatalı yazılmış olabilir. Bu nedenle ders çalışırken hem doğru kavramı hem de sınavın kullandığı kalıbı ayırarak düşünmek gerekir.
+        </p>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen ekran görüntüsündeki grafik için şıklarda verilen ifadelerden hangisi doğrudur?</div><div class="answer">Doğru cevap: C) Bu grafikteki eğri, Lineer regresyon eğrisidir.</div><div class="mini">Doğru yorum, ekrandaki eğrinin lineer regresyon eğrisi olduğudur. Sınav çoğu zaman grafiği tanımanı, sonra da neyi temsil ettiğini söylemeni ister.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıdaki grafikte ağırlığa bağlı cinsiyet tahmin edilmeye çalışılıyor. Bu görselde sol tarafta sütun halinde çerçeve içine alınan sayılar neyi ifade etmektedir?</div><div class="answer">Doğru cevap: C) Olasılık değerlerini ifade eder.</div><div class="mini">Regresyon ya da sınıflandırma grafiklerinde kenardaki sayılar çoğu zaman olasılık olarak yorumlanır. Katsayı, tahmin ve olasılık kavramlarını ayırmak gerekir.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen sorunun doğru şıkkını işaretleyiniz.</div><div class="answer">Doğru cevap: D) Regresyon katsayısıdır.</div><div class="mini">Regresyon katsayısı, bağımsız değişkendeki değişimin modele katkısını temsil eder. Sınavda bu tür terim eşleştirmeleri sık görülür.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Aşağıdaki şıklarda verilen fonksiyonlardan hangisi artık değeri hesaplamak için kullanılan fonksiyondur?</div><div class="answer">Doğru cevap: B) reside()</div><div class="mini">Bu soru havuzunda artık değer fonksiyonu 'reside()' biçiminde verilmiş. Esas olan, artık değerin gerçek değer ile tahmin arasındaki farkı temsil ettiğini bilmektir.</div></div></div></section>
+<section class="card span-12 section" id="bolum10">
+<div class="kicker">Bölüm 10</div>
+<h2>K-means ve karar ağaçları</h2>
+<h3>K-means kümeleme</h3>
+<p>
+          K-means, denetimsiz öğrenme yöntemlerinden biridir. Amaç, benzer veri noktalarını aynı kümeye toplamaktır. Küme sayısı genellikle baştan belirlenir. Algoritma ilk merkezleri alır, noktaları en yakın merkeze atar, sonra merkezleri günceller. Bu işlem, küme üyelikleri değişmeyene kadar devam eder.
+        </p>
+<pre>sonuc &lt;- kmeans(veri, centers=3)</pre>
+<p>
+          Sınav mantığında özellikle şu ifade önemlidir: <strong>Algoritma küme üyelerinin grubu değişmediği zaman sonlanır.</strong> Ayrıca uzaklık kavramı burada kritik olduğu için <code>dist()</code> fonksiyonu ve uzaklık matrisi konusu da k-means ile bağlantılı düşünülmelidir.
+        </p>
+<h3>Uzaklık matrisi</h3>
+<p>
+<code>dist(mat)</code> komutu gözlemler arası uzaklıkları hesaplar. Elde edilen yapı simetriktir. Bu nedenle çoğu zaman tüm matrisin sadece bir üçgensel kısmı anlamlı olarak gösterilir; diğer taraf aynı bilgiyi tekrar eder.
+        </p>
+<h3>Karar ağaçları</h3>
+<p>
+          Karar ağaçları, denetimli öğrenme algoritmalarındandır. Elimizde etiketli veri varsa, o etiketi tahmin etmeye yönelik bir model kurulur. Bu yüzden karar ağaçlarını kümeleme ile karıştırmamak gerekir. Kümeleme etiket olmadan grup bulur; karar ağacı ise var olan sınıfı öğrenir.
+        </p>
+<div class="callout">
+<strong>Kısa ayrım:</strong>
+<ul>
+<li><strong>K-means</strong> → Denetimsiz öğrenme, kümeleme</li>
+<li><strong>Karar ağacı</strong> → Denetimli öğrenme, sınıflandırma / tahmin</li>
+</ul>
+</div>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Aşağıda k-means algoritması için verilen ifadelerden hangisi doğrudur?</div><div class="answer">Doğru cevap: D) Algoritma küme üyelerinin grubu değişmediği zaman sonlanır.</div><div class="mini">K-means, atamalar sabitlenene kadar kümeleri günceller. Üyelikler artık değişmediğinde algoritma durur.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda mat adı ile verilen matrisin uzaklık mesafesi (dist(mat)) hesaplanmış ve alt tarafta dist(mat) olarak gösterilmiştir. Bu uzaklık matrisi için şıklarda verilen ifadelerden hangisi doğrudur?</div><div class="answer">Doğru cevap: A) Uzaklık matrisi simetrik olduğu için üst kısmı (sol üst-sağ alt köşegen üzerindeki sayılar) alınmaz.</div><div class="mini">dist() ile hesaplanan uzaklık matrisi, gözlemler arası benzerlik-farklılık ilişkisini sayısallaştırır. Kümeleme başlığının temel araçlarından biridir.</div></div><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Karar ağaçları için aşağıda verilen ifadelerden hangisi doğrudur?</div><div class="answer">Doğru cevap: D) Denetimli bir öğrenme algoritmasıdır.</div><div class="mini">Karar ağaçları denetimli öğrenme yaklaşımına girer. Yani veri içinde hedef değişken vardır ve model bu hedefi tahmin etmeye çalışır.</div></div></div></section>
+<section class="card span-12 section"><h2>Sık yapılan karışıklıklar: parantezler, tırnaklar ve nesne seçimi</h2><p>Bu derste öğrencilerin en çok hata yaptığı yer, aslında en temel gibi görünen yazım ayrıntılarıdır. Tek köşeli parantez, çift köşeli parantez, satır-sütun virgülü ve tırnak kullanımı küçük görünse de sorunun tamamını değiştirebilir. Özellikle liste, veri çerçevesi ve vektör sorularında bu ayrımlar doğrudan doğru cevabı belirler.</p><p>Genel mantık şudur: [ ] çoğu zaman alt küme seçer, [[ ]] ise çoğu zaman tek öğeyi çıkarır; veri çerçevesinde virgülün solu satırı, sağı sütunu temsil eder; metin veriler tırnak içinde yazılır. Soruların önemli bir kısmı tam da bu küçük ayrıntılar üzerinden hazırlanır. Bu yüzden komutun büyük mantığını bildiğin kadar, yazım biçimini de dikkatle ayırt etmelisin.</p><div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen listenin “Aile” parçasını dilimleyecek komut satırı hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: C) yenilistem2[[“Aile””]]”</div><div class="mini">Liste içinden tek bir öğe almak için çoğu durumda çift köşeli parantez kullanılır. Tek köşeli parantez ise alt liste döndürebilir; sınav bu ayrımı özellikle yoklar.</div></div><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen ve adı “notlistesi olan” ekrandan vize ve final sütunlarını liste olarak görüntüleyecek komut hangi satırda doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: C) liste=as.list(notlistesi[, 2:3])liste</div><div class="mini">as.list() dönüşüm sorularında en sık hata, satır-sütun seçimini ters kurmaktır. Önce doğru sütunları seçmek, sonra listeye dönüştürmek gerekir.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen sorunun doğru şıkkını işaretleyiniz.</div><div class="answer">Doğru cevap: E) kazananlar[c(2,4),]</div><div class="mini">kazananlar[c(2,4),] ifadesi, 2. ve 4. satırların tamamını seçer. Virgülün solunun satır, sağının sütun olduğunu karıştırmamak gerekir.</div></div></div></section><section class="card span-12 section" id="bolum11">
+<div class="kicker">Bölüm 11</div>
+<h2>Sınav için ezberlenmesi gereken komut kalıpları</h2>
+<table>
+<thead>
+<tr>
+<th>İşlem</th>
+<th>Komut kalıbı</th>
+<th>Ne yapar?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vektör oluşturma</td>
+<td><code>c(...)</code></td>
+<td>Aynı türden elemanlarla vektör kurar.</td>
+</tr>
+<tr>
+<td>Liste oluşturma</td>
+<td><code>list(...)</code></td>
+<td>Farklı türlerde verileri bir araya getirir.</td>
+</tr>
+<tr>
+<td>Vektörden eleman seçme</td>
+<td><code>x[8]</code>, <code>x[3:7]</code></td>
+<td>Belirli elemanları veya aralığı verir.</td>
+</tr>
+<tr>
+<td>Eleman hariç bırakma</td>
+<td><code>x[-c(4:7)]</code></td>
+<td>Belirtilen indisleri çıkarır.</td>
+</tr>
+<tr>
+<td>İsim verme</td>
+<td><code>names(x) &lt;- ...</code></td>
+<td>Vektör elemanlarına isim atar.</td>
+</tr>
+<tr>
+<td>Matris oluşturma</td>
+<td><code>matrix(..., satır, sütun)</code></td>
+<td>İki boyutlu homojen yapı oluşturur.</td>
+</tr>
+<tr>
+<td>Satır seçme</td>
+<td><code>matris[2, ]</code></td>
+<td>2. satırı getirir.</td>
+</tr>
+<tr>
+<td>Sütun seçme</td>
+<td><code>matris[, 2]</code></td>
+<td>2. sütunu getirir.</td>
+</tr>
+<tr>
+<td>Veri yapısını görme</td>
+<td><code>str(cars)</code></td>
+<td>Değişken türlerini ve yapıyı gösterir.</td>
+</tr>
+<tr>
+<td>Çalışma alanını listeleme</td>
+<td><code>ls()</code></td>
+<td>Bellekteki nesneleri gösterir.</td>
+</tr>
+<tr>
+<td>Nesne silme</td>
+<td><code>rm(yil)</code></td>
+<td>Nesneyi bellekten kaldırır.</td>
+</tr>
+<tr>
+<td>Liste elemanlarına fonksiyon uygulama</td>
+<td><code>lapply(listem5, sum)</code></td>
+<td>Her eleman için toplam hesaplar.</td>
+</tr>
+<tr>
+<td>Grafiğe ızgara ekleme</td>
+<td><code>grid(5,5,col="red")</code></td>
+<td>Grafik alanına kırmızı ızgara ekler.</td>
+</tr>
+<tr>
+<td>Grafik üstüne grafik çizme</td>
+<td><code>par(new=TRUE)</code></td>
+<td>Mevcut grafiğin üzerine yeni grafik çizer.</td>
+</tr>
+<tr>
+<td>Çizgi grafiği</td>
+<td><code>plot(x, type="l")</code></td>
+<td>Veriyi çizgi olarak gösterir.</td>
+</tr>
+<tr>
+<td>Lineer regresyon</td>
+<td><code>lm(y ~ x)</code></td>
+<td>Doğrusal model kurar.</td>
+</tr>
+<tr>
+<td>Uzaklık matrisi</td>
+<td><code>dist(mat)</code></td>
+<td>Gözlemler arası uzaklığı hesaplar.</td>
+</tr>
+</tbody>
+</table>
+<div class="callout-dark">
+<strong>Son tavsiye:</strong> Bu derste çoğu soru, “hangi komut ne yapar?” düzeyinde gelir. Kod yazmayı çok ileri seviyede bilmekten önce, komut kalıplarını ve veri yapılarının farklarını net öğrenmek daha yüksek puan getirir.
+        </div>
+<div class="question-stack"><h3 class="q-title">Konuyu pekiştiren çıkmış sorular</h3><div class="past-question"><div class="meta"><span class="tag">2024-2025 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda verilen vektörü, listeye dönüştürecek komut aşağıdaki hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: A) as.list(ogrenciler2)</div><div class="mini">as.list(x), veri yapısını dönüştürme kalıbı olarak akılda tutulmalıdır. Sınavda çoğu zaman tek satırlık dönüştürme komutları gelir.</div></div><div class="past-question"><div class="meta"><span class="tag">2023-2024 Vize</span><span class="tag">Çıkmış soru</span></div><div class="stem">Yukarıda kazananlar2 adlı çerçeve verilmiştir.</div><div class="answer">Doğru cevap: E) satır=data.frame(adayno=50, puanı=395, bolumu="Makine")kazananlar3=rbind(kazananlar2, satır)</div><div class="mini">rbind() veri çerçevesine yeni satır eklemek için kullanılan temel kalıptır. Ancak eklenecek satırın da veri çerçevesi biçiminde hazırlanması gerekir.</div></div><div class="past-question"><div class="meta"><span class="tag">2022-2023 Final</span><span class="tag">Çıkmış soru</span></div><div class="stem">Bu matrisin 2. Satırının tüm öğelerini silecek komut hangi şıkta doğru olarak verilmiştir?</div><div class="answer">Doğru cevap: A) matrisX[2,]</div><div class="mini">matrisX[2,] kalıbı sınav dilinde ikinci satırı seçme ya da silme bağlamında geçebilir. Matrislerde indeksleme kalıplarını tek bakışta tanımak önemlidir.</div></div></div></section>
+</div>
+<div class="footer">
+      Başarılar Dilerim.
+    </div>
+</div>
+</body>
+</html>
