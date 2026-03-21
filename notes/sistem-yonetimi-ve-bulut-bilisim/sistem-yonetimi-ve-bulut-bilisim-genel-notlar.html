@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sistem Yönetimi ve Bulut Bilişim - Benzeri Sorulu Tam Not</title>
+<style>
+
+  :root {
+    --bg: #f5f7fb;
+    --panel: #ffffff;
+    --panel-soft: #f8fbff;
+    --text: #1f2a44;
+    --muted: #61708a;
+    --line: #dbe5f1;
+    --accent: #5b8def;
+    --accent-soft: #eaf2ff;
+    --dark: #21324d;
+    --ok: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #eef3fb 0%, #f8fafd 100%);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .container {
+    width: min(1120px, calc(100% - 32px));
+    margin: 32px auto 60px;
+  }
+  .hero {
+    background: linear-gradient(135deg, #ffffff 0%, #eef5ff 100%);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    padding: 34px 34px 28px;
+    box-shadow: 0 18px 40px rgba(61, 93, 152, 0.08);
+  }
+  .badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .2px;
+  }
+  h1 {
+    margin: 16px 0 10px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--dark);
+  }
+  .lead {
+    margin: 0;
+    color: var(--muted);
+    font-size: 17px;
+  }
+  .note-box {
+    margin-top: 22px;
+    background: #fffdf7;
+    border: 1px solid #f2e6b8;
+    border-radius: 18px;
+    padding: 18px 20px;
+    color: #5b4a1f;
+    font-size: 15px;
+  }
+  .section-card {
+    margin-top: 22px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 10px 25px rgba(51, 76, 120, 0.05);
+  }
+  .section-card h2 { margin: 0 0 14px; font-size: 27px; color: var(--dark); }
+  .section-body p { margin: 0 0 14px; color: #33415c; font-size: 16px; }
+  .mini-note {
+    margin: 16px 0 0;
+    padding: 14px 16px;
+    background: #f5f9ff;
+    border: 1px solid #dae7fb;
+    border-radius: 16px;
+    color: #34507d;
+    font-size: 15px;
+  }
+  .question-wrap { margin-top: 26px; padding-top: 18px; border-top: 1px dashed var(--line); }
+  .question-title { display: inline-block; margin-bottom: 16px; padding: 7px 12px; border-radius: 12px; background: #eef6ff; color: #2f5da8; font-weight: 700; font-size: 14px; }
+  .question-card { background: var(--panel-soft); border: 1px solid #dce9fb; border-radius: 18px; padding: 18px; margin-bottom: 16px; }
+  .q-meta { font-size: 13px; font-weight: 700; color: #5572a8; margin-bottom: 8px; }
+  .q-text { font-size: 16px; font-weight: 700; color: #22314d; margin-bottom: 12px; }
+  .options { list-style: none; padding: 0; margin: 0 0 12px; }
+  .options li { padding: 8px 12px; margin-bottom: 8px; border-radius: 12px; background: #ffffff; border: 1px solid #e5edf8; color: #3c4c68; }
+  .opt { font-weight: 700; color: #244784; display: inline-block; width: 28px; }
+  .answer, .explanation { font-size: 14px; margin-top: 8px; }
+  .answer { color: var(--ok); }
+  .explanation { color: var(--muted); }
+  .footer { text-align: center; color: #50607d; padding: 28px 12px 10px; font-weight: 700; font-size: 18px; }
+  @media (max-width: 760px) {
+    .container { width: min(100% - 20px, 1120px); margin-top: 20px; }
+    .hero { padding: 24px 20px; border-radius: 22px; }
+    h1 { font-size: 30px; }
+    .section-card { padding: 20px; border-radius: 20px; }
+    .section-card h2 { font-size: 23px; }
+  }
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge">Sistem Yönetimi ve Bulut Bilişim</div>
+      <h1>Sistem Yönetimi ve Bulut Bilişim Ders Notu</h1>
+      <p class="lead">Konu anlatımı, kavramsal bütünlük ve benzeri sorular bir araya getirilerek sınav odaklı ama öğretici bir çalışma akışı oluşturuldu.</p>
+      <div class="note-box">
+        Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.
+      </div>
+    </header>
+    
+    <section class="section-card">
+      <h2>1. Bulut Bilişime Giriş ve Hizmet Modelleri</h2>
+      <div class="section-body">
+        <p>Sistem Yönetimi ve Bulut Bilişim dersinde temel omurgayı bulut bilişimin mantığı oluşturur. Kaynakların internet üzerinden hizmet olarak sunulması, esneklik, ölçeklenebilirlik ve kullandıkça öde yaklaşımı bu alanın temel özellikleridir.</p><p>Hizmet modelleri içinde IaaS altyapı kaynaklarını, PaaS uygulama geliştirme ve dağıtım ortamını, SaaS ise son kullanıcıya doğrudan yazılım erişimini ifade eder. Sınavlarda bu üçlü çoğu zaman birbiriyle karıştırılır; bu yüzden her birini ‘kime ne sunar’ sorusuyla ayırmak gerekir.</p><p>Bulut paradigmasının piramit modelinde yazılım, hizmetlere doğrudan erişime olanak verir. Platform, temel kaynakların kullanımını kolaylaştıran bir ortam ekler. Altyapı ise temel işlem, ağ ve depolama kaynaklarını sağlar.</p><p>Açık kaynak bulut platformları, fayda bilişim sağlayıcıları ve ticari bulut markaları da bu başlıkta gelir. AWS, Azure, OpenStack, Eucalyptus ve OpenNebula gibi isimlerin hangi bağlamda sorulduğunu ayırt etmek önemlidir.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Temel ayrım: IaaS = kaynak, PaaS = geliştirme ortamı, SaaS = hazır yazılım hizmeti.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2022 2023 Final Benzeri</div>
+      <div class="q-text">Uygulama kodlamasını ve dağıtımım kolaylaştırmak için tasarlanmış bir dizi araç ve hizmet sağlayan bulut iletim yolu aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> KaaS</li><li><span class='opt'>B)</span> SaaS</li><li><span class='opt'>C)</span> IaaS</li><li><span class='opt'>D)</span> PaaS</li><li><span class='opt'>E)</span> BaaS</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> PaaS, uygulama geliştirme ve dağıtımı kolaylaştıran ortamı sunar. Kullanıcı altyapı ayrıntılarıyla daha az uğraşır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 2024 Vize Benzeri</div>
+      <div class="q-text">Microsoft firmasının bulut platformunun ismi nedir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Office 365</li><li><span class='opt'>B)</span> AWS</li><li><span class='opt'>C)</span> Azure</li><li><span class='opt'>D)</span> Ubuntu</li><li><span class='opt'>E)</span> Red Hat</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek C şıkkıdır. Bu soru 1. bulut bilişime giriş ve hizmet modelleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 2024 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi açık kaynaklı bulut platformu değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> OpenStack</li><li><span class='opt'>B)</span> Eucalyptus</li><li><span class='opt'>C)</span> Open Nebula</li><li><span class='opt'>D)</span> Nimbus</li><li><span class='opt'>E)</span> Microsoft olacaktır.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek E şıkkıdır. Bu soru 1. bulut bilişime giriş ve hizmet modelleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>2. AWS Ekosistemi, S3 ve Bulut Servisleri</h2>
+      <div class="section-body">
+        <p>Dersin önemli bir kısmı AWS örnekleri üzerinden ilerler. EC2 sanal sunucular, S3 nesne depolama, CloudWatch izleme, SQS kuyruk servisi ve SNS bildirim servisi en sık tekrar eden servislerdendir.</p><p>S3 nesne depolamada kova (bucket), nesne anahtarı, listeleme ve erişim protokolleri önemlidir. ‘listObjects’ gibi metotların ne işe yaradığı, belirli kovadaki nesnelerin anahtarlarını görüntüleme gibi doğrudan kod yorumlama sorularında karşımıza çıkar.</p><p>EC2 tarafında AMI, imaj ve eşgörünüm kavramlarını ayırmak gerekir. Bir AMI’den yeni bir eşgörünüm başlatılabilir; kullanıcılar mevcut bir imajdan kopya üretebilir ve çeşitli yönetim işlemlerini API çağrılarıyla yürütebilir.</p><p>SQS sorularında ise kuyruktan mesaj alma, gönderme veya silme gibi temel işlemler kod parçaları üzerinden yorumlanır. CloudWatch ve otomatik boyutlandırma ilişkisi de izleme–tepki mekanizması bakımından önemlidir.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> AWS sorularında servis–işlev eşleştirmesi şarttır: S3 = nesne depolama, EC2 = hesaplama, SQS = kuyruk, SNS = bildirim, CloudWatch = izleme.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 çıkmış sorular YilYok Vize Benzeri</div>
+      <div class="q-text">Amazon AWS&#x27;de basit depolama sistemi adlandırmasak aşağıdakilerden hangisi için kullanılır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> SOAP</li><li><span class='opt'>B)</span> S3</li><li><span class='opt'>C)</span> EC2</li><li><span class='opt'>D)</span> İmaj</li><li><span class='opt'>E)</span> AMI</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> S3 sorularında ana fikir nesne depolamadaki listeleme mantığıdır. listObjects çağrısı, kovadaki nesnelerin anahtarlarını görmeyi sağlar.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 2024 Vize Benzeri</div>
+      <div class="q-text">Önceden tanımlanmış bir Amazon Machine Image&#x27;(AMI)den oluşturularak S3&#x27;te saklanan kavram hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> SOAP</li><li><span class='opt'>B)</span> MAC Adresi</li><li><span class='opt'>C)</span> İmaj</li><li><span class='opt'>D)</span> Eşgörünüm</li><li><span class='opt'>E)</span> Ara bağlantı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> S3 sorularında ana fikir nesne depolamadaki listeleme mantığıdır. listObjects çağrısı, kovadaki nesnelerin anahtarlarını görmeyi sağlar.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2022 2023 Final Benzeri</div>
+      <div class="q-text">Belirli bir s3 kovasındaki tüm nesnelerin anahtarlarım görüntülemek için aşağıdakilerden hangisi kullanılır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> ObjectSummary sum=s3.summaryObjects(&quot;bucket_name&quot;);</li><li><span class='opt'>B)</span> ObjectSummary show=s3.sumObjects(&quot;bucket_name&quot;);</li><li><span class='opt'>C)</span> Objectshowing show=s3.showObjects(&quot;bucket_name&quot;);</li><li><span class='opt'>D)</span> ObjectListing listing =s3.listObjects(&quot;bucket_name&quot;);</li><li><span class='opt'>E)</span> Objectpanel listing =s3.panelObjects(&quot;bucket_name&quot;);</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> S3 sorularında ana fikir nesne depolamadaki listeleme mantığıdır. listObjects çağrısı, kovadaki nesnelerin anahtarlarını görmeyi sağlar.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>3. Sanallaştırma, Hipervizörler ve Xen Mimarisi</h2>
+      <div class="section-body">
+        <p>Sanallaştırma, fiziksel kaynakların yazılım katmanı ile bölünerek çoklu çalışma ortamları oluşturulmasını sağlar. Hipervizörler bu yapının merkezindedir. Tip 1 hipervizörler doğrudan donanım üzerinde, Tip 2 hipervizörler ise bir işletim sistemi üzerinde çalışır.</p><p>Xen mimarisi bu dersin belirgin soru alanlarından biridir. Dom0 yönetim işletim sistemi olarak merkezi rol oynar; DomU ise konuk alanları ifade eder. Güvenlik açıklarının hangi bileşenlerde yoğunlaştığı veya hangi katmanda hangi servislerin yer aldığı sık sorulur.</p><p>Wine gibi proses bazlı sanallaştırma örnekleri ile KVM, Xen veya VMware Workstation gibi yaklaşımlar karşılaştırmalı biçimde gelir. Bu noktada her teknolojinin tam makine sanallaştırması mı, işletim sistemi düzeyinde uyumluluk mu sunduğunu ayırabilmek gerekir.</p><p>Yönetim işletim sisteminin elemanları, cihaz öykünücüleri, yönetim araçları ve kontrol katmanı gibi konular da bu bölümün kapsamındadır.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Dom0 = yönetim alanı, DomU = konuk alanı. Tip 1 = doğrudan donanım, Tip 2 = ana işletim sistemi üstü.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2023 2024 Final Benzeri</div>
+      <div class="q-text">Proses bazlı sanallaştırma metodunu kullanan Tip 2 sanal makine aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Xen</li><li><span class='opt'>B)</span> KVM</li><li><span class='opt'>C)</span> Wine</li><li><span class='opt'>D)</span> VmWare Workstation</li><li><span class='opt'>E)</span> Parallels</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek C şıkkıdır. Bu soru 3. sanallaştırma, hipervizörler ve xen mimarisi başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2022 2023 Final Benzeri</div>
+      <div class="q-text">Xen tabanlı bir ortamın yönetim işletim sistemi aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Dom0</li><li><span class='opt'>B)</span> DomZ</li><li><span class='opt'>C)</span> DomK</li><li><span class='opt'>D)</span> DomU</li><li><span class='opt'>E)</span> DomV</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Xen mimarisinde Dom0 yönetim alanıdır. Denetim ve yönetim işlevleri burada toplanır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2022 2023 Final Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi Xen sanal makinasının bileşeni değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Dom0</li><li><span class='opt'>B)</span> DomU</li><li><span class='opt'>C)</span> Sanal x86 işlemcisi</li><li><span class='opt'>D)</span> Ağ arayüzü</li><li><span class='opt'>E)</span> Bellek yönetimi birimi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Xen mimarisinde Dom0 yönetim alanıdır. Denetim ve yönetim işlevleri burada toplanır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>4. Güvenlik, Saldırılar ve Güvenilir Bilgi İşlem</h2>
+      <div class="section-body">
+        <p>Bulut ve sistem yönetimi alanında güvenlik yalnızca bir ek katman değil, tüm tasarımı etkileyen temel ilkedir. Toplum bilgi altyapısına daha bağımlı hale geldikçe ağların, işletim sistemlerinin ve servislerin güvenliği kritikleşir.</p><p>Taşıma katmanı güvenliği, güvenilir bilgi işlem tabanı, zorunlu erişim kontrolü, en düşük ayrıcalık ilkesi ve tür zorlaması gibi kavramlar özellikle kavramsal sorularda öne çıkar. Kısaltmaların doğru açılımını bilmek burada önemlidir.</p><p>SQL enjeksiyonu, hizmet reddi, siber savaş, güvenlik duvarı nesilleri ve sanal makine tabanlı izinsiz giriş tespit sistemleri dersin saldırı–savunma eksenini oluşturur. Bu sorular bazen doğrudan tanım, bazen de senaryo biçiminde gelir.</p><p>Üçüncü taraf denetimi, alt yüklenici riski ve müşteri verisinin korunması gibi konular bulut yönetişimi boyutunu gösterir. Böylece güvenlik sadece teknik değil; sözleşmesel ve yönetsel bir mesele olarak da ele alınır.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Güvenlik başlığında kısaltmalar ezberlenmeli ama mutlaka bağlamı ile birlikte öğrenilmelidir: TLS iletişim korur, TCB güvenilir çekirdek yapıyı ifade eder.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2022 2023 Final Benzeri</div>
+      <div class="q-text">Güvenilir bir uygulamayı en düşük ayrıcalık düzeyiyle kısıtlamak için kullamlabilen zorunlu güvenlik mekanizmalarından biri aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Tür değişmi</li><li><span class='opt'>B)</span> Tür zorlaması</li><li><span class='opt'>C)</span> Tür geliştirmesi</li><li><span class='opt'>D)</span> Tür salınımı</li><li><span class='opt'>E)</span> Tür atlaması</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek B şıkkıdır. Bu soru 4. güvenlik, saldırılar ve güvenilir bilgi i̇şlem başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 çıkmış sorular YilYok Vize Benzeri</div>
+      <div class="q-text">Paralel programlamanın &quot;kutsal kase&quot; seçilmesinin nedeni aşağıdakilerden hangisi değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Güvenlik duvarı</li><li><span class='opt'>B)</span> Kan hal teknolojileri</li><li><span class='opt'>C)</span> Ara bağlantı ağları</li><li><span class='opt'>D)</span> Bilgisayar mimarisi</li><li><span class='opt'>E)</span> Performans izleme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek A şıkkıdır. Bu soru 4. güvenlik, saldırılar ve güvenilir bilgi i̇şlem başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2024 2025 Vize Benzeri</div>
+      <div class="q-text">Bulut altyapısında sunucuların temel işlevi aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Yalnızca veri depolamak</li><li><span class='opt'>B)</span> Güvenlik duvarı işlevi görmek</li><li><span class='opt'>C)</span> Uygulamaların çalıştırılmasını sağlamak</li><li><span class='opt'>D)</span> İnternet bağlantısını yönetmek</li><li><span class='opt'>E)</span> Yedekleme işlemlerini gerçekleştirmek</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek C şıkkıdır. Bu soru 4. güvenlik, saldırılar ve güvenilir bilgi i̇şlem başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>5. Dağıtık Sistemler, Şeffaflık ve İletişim Protokolleri</h2>
+      <div class="section-body">
+        <p>Dağıtık sistemler, farklı bilgisayarlarda çalışan bileşenlerin tek bir sistem gibi davranmasını hedefler. Bu yapının başarısı, iletişim kanalları, protokoller ve şeffaflık ilkeleriyle yakından ilişkilidir.</p><p>Erişim şeffaflığı, yerel ve uzak nesnelere aynı işlemlerle erişilebilmesini ifade eder. Konum şeffaflığı kaynakların fiziksel yerini gizler. Göç şeffaflığı ise nesnelerin taşınmasına rağmen sistemin bundan etkilenmeden çalışmasını hedefler.</p><p>Sınavlarda bu kavramlar genellikle küçük tanım farklılıklarıyla karıştırılır. Bu yüzden her bir şeffaflık türünün ‘kullanıcıdan neyi gizlediğini’ düşünmek doğru cevaba ulaşmayı kolaylaştırır.</p><p>İletişim protokolleri ise gürültülü veya güvenilmez kanallarda düzenli veri iletimini mümkün kılar. Bu bakış açısı bulut tabanlı servislerin koordinasyonunda da temel rol oynar.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Şeffaflık kavramlarını ‘neyi görünmez kılıyor?’ sorusuyla ayır: erişim, konum, göç, eşzaman gibi başlıklar böyle daha kalıcı olur.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 2024 Vize Benzeri</div>
+      <div class="q-text">Yerel ve uzak bilgi nesnelerine aynı işlemler kullanılarak erişilir. Bu özellik aşağıdakilerden hangisini ifade eder?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Sanal Bellek Yöneticisi</li><li><span class='opt'>B)</span> RAID</li><li><span class='opt'>C)</span> Eşzamanlılık</li><li><span class='opt'>D)</span> Erişim Şeffaflığı kavramını ifade eder. Erişim şeffaflığı, hem yerel hem de uzak kaynaklara aynı işlemler kullanılarak erişilebilme yeteneğini ifade eder. Bu, kullanıcıların yerel veya uzak kaynaklara erişirken farklı işlemler veya yapılandırmalarla uğraşmak zorunda kalmamasını sağlar.</li><li><span class='opt'>E)</span> Eşzaman Şeffaflığı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Yerel ve uzak kaynaklara aynı işlemlerle erişilebilmesi erişim şeffaflığıdır. Kullanıcı kaynak yerini düşünmeden işlem yapar.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2023 2024 Final Benzeri</div>
+      <div class="q-text">Ara katman yazılımının desteklemesi gereken özelliklerden, &quot;sistemdeki üzerlerinde işlem yapılan bilgi nesneleri, sistemi etkilemeden taşınır&quot; aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Göç Şeffaflığı</li><li><span class='opt'>B)</span> Çoğaltma Şeffaflığı</li><li><span class='opt'>C)</span> Erişim Şeffaflığı</li><li><span class='opt'>D)</span> Ölçeklendirme Şeffaflığı</li><li><span class='opt'>E)</span> Konum Şeffaflığı</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Yerel ve uzak kaynaklara aynı işlemlerle erişilebilmesi erişim şeffaflığıdır. Kullanıcı kaynak yerini düşünmeden işlem yapar.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 2024 Vize Benzeri</div>
+      <div class="q-text">İletişim kanalları, eşzamanlı etkinliklerin uyum içinde çalışmasına ve koordine olmasına izin verir. İletişim …………., gürültülü ve güvenilmez kanalları, mesajları sırayla ileten güvenilir kanallara dönüştürmemizi sağlar. Yukarıda verilen boşluğa aşağıdakilerden hangisi gelmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> protokolleri</li><li><span class='opt'>B)</span> ücretleri</li><li><span class='opt'>C)</span> cihazları</li><li><span class='opt'>D)</span> paradigmaları</li><li><span class='opt'>E)</span> frekansları</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek A şıkkıdır. Bu soru 5. dağıtık sistemler, şeffaflık ve i̇letişim protokolleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>6. Kaynak Yönetimi, Otomatik Ölçeklendirme ve Performans</h2>
+      <div class="section-body">
+        <p>Bulut ortamlarında kaynak yönetimi doğrudan performans ve maliyet ile ilişkilidir. Verimsiz kaynak kullanımı yalnızca yavaşlığa neden olmaz; aynı zamanda gereksiz harcamaya ve hizmet kalitesinin düşmesine yol açar.</p><p>Otomatik ölçeklendirme, planlanmamış yük artışlarına karşı sistemin kaynaklarını dinamik biçimde artırıp azaltmasını sağlar. Bunun işe yarayabilmesi için izleme sistemi, tahsis edilebilir kaynak havuzu ve karar mekanizması birlikte çalışmalıdır.</p><p>CloudWatch gibi servisler izleme verisini sağlar; otomatik boyutlandırma ise bu veriye tepki verir. Kaynak yönetim politikalarında fayda tabanlı ve makine öğrenmesi temelli yaklaşımlar da sorularda geçer.</p><p>Ağ kaynak yönetiminde CBQ gibi algoritmalar, bant genişliği güvencesi isteyen uygulamalara adil ve kontrollü paylaşım sunar. Infiniband hızları, bant genişliği değerleri ve performans metrikleri de bu başlıkta değerlendirilir.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Performans sorularında sadece hız değil, kaynak tahsisi ve maliyet etkisi de düşünülmelidir. Ölçeklendirme = yük değişimine uyum sağlayan kaynak yönetimi.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 2024 Vize Benzeri</div>
+      <div class="q-text">VoIP, video akışı ve ses akışı gibi bant genişliği garantileri gerektiren uygulamalar için esnek bağlantı paylaşımını destekleyen ağ kaynak yönetimi algoritması hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> CBQ</li><li><span class='opt'>B)</span> SCQ</li><li><span class='opt'>C)</span> FQ</li><li><span class='opt'>D)</span> SFQ</li><li><span class='opt'>E)</span> Basic Queue</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek A şıkkıdır. Bu soru 6. kaynak yönetimi, otomatik ölçeklendirme ve performans başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2023 2024 Vize Benzeri</div>
+      <div class="q-text">Verimsiz bir kaynak yönetimi, performans ve maliyet üzerinde doğrudan ………. bir etkiye ve bir sistemin işlevselliği üzerinde dolaylı bir etkiye sahiptir. Yukarıda verilen boşluğa aşağıdakilerden hangisi gelmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> işlevsel</li><li><span class='opt'>B)</span> gayri ihtiyari</li><li><span class='opt'>C)</span> olumlu</li><li><span class='opt'>D)</span> düzensiz</li><li><span class='opt'>E)</span> olumsuz</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek E şıkkıdır. Bu soru 6. kaynak yönetimi, otomatik ölçeklendirme ve performans başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2024 2025 Vize Benzeri</div>
+      <div class="q-text">Aşağıdakilerden hangisi sanallaştırmanın avantajlarından biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Kaynak verimliliği</li><li><span class='opt'>B)</span> Performans kaybı</li><li><span class='opt'>C)</span> Yedekleme ve felaket kurtarma</li><li><span class='opt'>D)</span> Maliyet tasarrufu</li><li><span class='opt'>E)</span> Esneklik ve ölçeklenebilirlik</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek B şıkkıdır. Bu soru 6. kaynak yönetimi, otomatik ölçeklendirme ve performans başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>7. Depolama, Ağ Mimarisi ve Sistem Tasarım İlkeleri</h2>
+      <div class="section-body">
+        <p>Bulut mimarisinde depolama katmanı farklı ihtiyaçlara göre çeşitlenir. Nesne depolama, blok depolama ve geçici depolama senaryoları farklı performans ve kullanım örüntülerine sahiptir. Hadoop benzeri dağıtık dosya sistemleri kurarken hangi depolama tiplerinin daha uygun olduğu dersin dikkat isteyen alanlarından biridir.</p><p>Ağ ve depolama tarafında Fibre Channel, World Wide Name, Infiniband hızları ve bağlantı yapıları teknik ayrıntı soruları şeklinde gelir. Bu tür sorularda kavram–sayı eşleştirmesi önem kazanır.</p><p>Michael Flynn sınıflandırması gibi mimari konular, paralellik ve veri akışı mantığını sorgular. SISD ve MIMD gibi sınıflar, sistem performansını ve mimari yaklaşımı yorumlama açısından temel çerçeveler sunar.</p><p>Katmanlama, modülerlik ve karmaşıklığın yönetimi gibi tasarım ilkeleri ise büyük sistemlerin anlaşılabilir ve sürdürülebilir hale gelmesini sağlar. Bu ilkeler yalnızca teorik değil; güvenlik, bakım ve ölçeklenebilirlik açısından da belirleyicidir.</p>
+        <div class="mini-note"><strong>Önemli not:</strong> Teknik ayrıntı sorularında kısa tekrar listeleri faydalıdır: S3–HTTP, WWN–64 bit, katmanlama–karmaşıklığı yönetme gibi eşleştirmeler sınav öncesi hız kazandırır.</div>
+      </div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2022 2023 Final Benzeri</div>
+      <div class="q-text">I. Geçici depolama II. Örnek dışı bulut depolama III. Monte edilebilir örnek dışı blok depolama Amazon AWS de Hadoop dosya sistemine benzer bir dosya sistemi kurabilmek için yukarıdaki depolama seçeneklerinin hangisi ya da hangileri kullanılmalıdır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> I ve III</li><li><span class='opt'>B)</span> II ve III</li><li><span class='opt'>C)</span> I ve II</li><li><span class='opt'>D)</span> Yalnız III</li><li><span class='opt'>E)</span> Yalnız II</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek B şıkkıdır. Bu soru 7. depolama, ağ mimarisi ve sistem tasarım i̇lkeleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi ve Bulut Bilişim 2022 2023 Final Benzeri</div>
+      <div class="q-text">I. SISD II. MIMD III. KIMD 1966 da Michael Flynn bilgisayar mimarilerinin eşzamanlı kontrol/talimat ve veri akışları sayısına dayalı bir sınıflandırmasını önerdi, Yukarıdaki maddelerden hangisi veya hangileri sınıflandırmaların içindedir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> II ve III</li><li><span class='opt'>B)</span> I ve II</li><li><span class='opt'>C)</span> I ve III</li><li><span class='opt'>D)</span> Yalnız I</li><li><span class='opt'>E)</span> Yalnız III</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek B şıkkıdır. Bu soru 7. depolama, ağ mimarisi ve sistem tasarım i̇lkeleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">Sistem Yönetimi Ve Bulut Bilişim 2024 2025 Vize Benzeri</div>
+      <div class="q-text">Blok depolamanın temel avantajı aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Daha az esneklik</li><li><span class='opt'>B)</span> Yalnızca dosya paylaşımı imkânı</li><li><span class='opt'>C)</span> Kolay yönetim ve genişletilebilirlik</li><li><span class='opt'>D)</span> Yüksek gecikme ve düşük maliyet</li><li><span class='opt'>E)</span> Yüksek performans ve düşük gecikme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Doğru seçenek E şıkkıdır. Bu soru 7. depolama, ağ mimarisi ve sistem tasarım i̇lkeleri başlığındaki temel kavram ayrımını ölçer; benzer sorularda anahtar terimi tanıyıp seçenekleri bu kavramla eşleştirmek gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <div class="footer">Başarılar dilerim.</div>
+  </div>
+</body>
+</html>
