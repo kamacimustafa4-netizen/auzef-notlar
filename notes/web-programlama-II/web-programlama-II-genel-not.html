@@ -1,1 +1,388 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Web Programlama 2</title>
+<style>
+:root{
+  --bg:#f4f7fb; --card:#ffffff; --text:#22314d; --muted:#5a6b88; --line:#e5edf8;
+  --brand:#244784; --soft:#f8fbff; --blue:#eaf3ff; --purple:#f3ecff; --green:#15803d;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.72}
+.container{width:min(100% - 28px,1140px);margin:26px auto 40px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#60a5fa);color:#fff;border-radius:26px;padding:30px 28px;box-shadow:0 18px 44px rgba(37,99,235,.18);margin-bottom:22px}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:12px}
+h1{margin:0 0 10px;font-size:38px;line-height:1.15}
+.lead{margin:0;font-size:17px;max-width:940px}
+.section-card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px;margin-bottom:18px;box-shadow:0 10px 28px rgba(15,23,42,.05)}
+.topic-label{display:inline-block;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:12px}
+h2{margin:0 0 14px;font-size:29px;color:#12233f}
+.section-body p{margin:0 0 13px;color:#344560;font-size:16px}
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.callout{border-radius:18px;padding:16px 18px;border:1px solid var(--line);color:#334155}
+.callout strong{display:block;margin-bottom:8px;color:#1f2f4d}
+.callout.blue{background:var(--blue)}
+.callout.purple{background:var(--purple)}
+.mini-list{margin:0;padding-left:18px}
+.question-wrap{margin-top:18px}
+.question-title{font-weight:800;color:var(--brand);font-size:18px;margin-bottom:12px}
+.question-card{background:var(--soft);border:1px solid #dce9fb;border-radius:18px;padding:18px;margin-bottom:14px}
+.q-text{font-size:16px;font-weight:800;color:#22314d;margin-bottom:12px}
+.options{list-style:none;padding:0;margin:0 0 12px}
+.options li{padding:8px 12px;margin-bottom:8px;border-radius:12px;background:#fff;border:1px solid #e5edf8;color:#3c4c68}
+.opt{font-weight:800;color:#244784;display:inline-block;width:28px}
+.answer{color:var(--green);font-size:14px;font-weight:700;margin-top:6px}
+.explanation{color:var(--muted);font-size:14px;margin-top:8px}
+@media(max-width:860px){.callout-grid{grid-template-columns:1fr} h1{font-size:32px}}
+@media(max-width:640px){.container{width:min(100% - 18px,1140px)} .hero,.section-card{padding:20px} h1{font-size:28px} h2{font-size:23px}}
+</style>
+</head>
+<body>
+<div class='container'>
+  <section class='hero'>
+    <span class='badge'>YBS • Gelişmiş ders notu</span>
+    <h1>Web Programlama 2</h1>
+    <p class='lead'>Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır. Web Programlama 2 dersi için ASP.NET Core, MVC mimarisi, routing, form işleme, validation, Razor, session-cookie, EF Core ve migration konuları daha açıklayıcı konu anlatımıyla düzenlenmiştir.</p>
+  </section>
+  
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 1</div>
+      <h2>ASP.NET Core ve Sunucu Taraflı Framework Mantığı</h2>
+      <div class='section-body'><p>Web Programlama 2 dersi, klasik HTML-CSS-JavaScript tarafının ötesine geçerek sunucu taraflı uygulama geliştirme mantığını öğretir. Burada amaç yalnız sayfa göstermek değil, veriyle çalışan, istek alan, yanıt üreten ve belirli bir mimari düzen içinde çalışan web uygulamaları kurmaktır.</p><p>ASP.NET Core bu yapıda güçlü bir framework olarak öne çıkar. Routing, form işleme, session yönetimi, doğrulama, ORM desteği ve API geliştirme gibi pek çok işi kolaylaştırır. Ancak sınav açısından önemli nokta şudur: framework zorunluluk değil, kolaylaştırıcı bir yapıdır.</p><p>Bu nedenle bu başlıkta öğrenci yalnız paket veya araç adı ezberlememeli; frameworkün geliştiriciye ne sağladığını, neden tercih edildiğini ve hangi işlevleri üstlendiğini de kavramalıdır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Asp.Net Core MVC’de SQL Server veri tabanı yönetim sisteminin EF Core ile birlikte kullanılacağı varsayıldığında, proje oluşturulduktan sonra projeye SQL Server’a ait hangi veri sağlayıcısı eklenmelidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Microsoft.EntityFrameworkCore.SqlServer</li><li><span class='opt'>B)</span> Microsoft.EfCore.SqlServer</li><li><span class='opt'>C)</span> Microsoft.EntityFrameworkCore.InMemory</li><li><span class='opt'>D)</span> MsSql.Data.EntityFrameworkCore</li><li><span class='opt'>E)</span> Microsoft.EfCore.Sql</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>EF Core ile SQL Server kullanmak için doğru NuGet sağlayıcısı Microsoft.EntityFrameworkCore.SqlServer paketidir. InMemory gibi sağlayıcılar test amaçlıdır; gerçek SQL Server bağlantısı için uygun değildir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Sunucu taraflı Web frameworkler ile ilgili olarak aşağıdaki seçeneklerden hangisi yanlıştır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Web frameworkler olmadan web programlama gerçekleştirilemez.</li><li><span class='opt'>B)</span> Session yönetimi işlemlerini gerçekleştirebilirler.</li><li><span class='opt'>C)</span> ORM&#x27;ler aracılığıyla veritabanı bağlantısı yapılandırma işlemini gerçekleştirebilirler.</li><li><span class='opt'>D)</span> Form yönetimi ve doğrulaması işlemlerini gerçekleştirebilirler.</li><li><span class='opt'>E)</span> URL yönlendirme işlemini gerçekleştirebilirler.</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Frameworkler geliştirmeyi kolaylaştırır ama web programlama yalnız framework ile yapılmak zorunda değildir. Saf HTML, CSS, JavaScript veya daha temel sunucu taraflı yapılarla da web geliştirme yapılabilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 2</div>
+      <h2>MVC Mimarisi: Model, View, Controller</h2>
+      <div class='section-body'><p>MVC mimarisi modern web uygulamalarında kodu daha düzenli, bakımı daha kolay ve geliştirilebilir hale getirmek için kullanılır. Bu yapıda Model veri ve iş mantığını, View kullanıcıya gösterilen arayüzü, Controller ise istek-karşılama ve yönlendirme akışını yönetir.</p><p>Öğrenciler çoğu zaman View ile Model’i ya da Controller’ın rolünü karıştırabiliyor. Oysa MVC’nin temel avantajı bu görev ayrımıdır. Veri başka yerde, ekran başka yerde, akış kontrolü başka yerdedir.</p><p>Sınavlarda bu konu genelde doğrudan tanım sorusu gibi görünür; ama aslında uygulama mantığını kurmanın temelidir. MVC’yi anlamak, ileride form işleme, model binding ve validation konularını da daha rahat kavratır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir MVC modelinde kullanıcıya görsel bir arayüz sağlayan bileşen aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Controller</li><li><span class='opt'>B)</span> Model</li><li><span class='opt'>C)</span> View</li><li><span class='opt'>D)</span> ViewBag</li><li><span class='opt'>E)</span> Validation</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>MVC yapısında View, kullanıcıya gösterilen arayüz katmanıdır. Model veri yapısını, Controller ise istek ve yönlendirme mantığını yönetir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>MVC’nin açılımı nedir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Model-ViewBag-C#</li><li><span class='opt'>B)</span> Model-Vision-Component</li><li><span class='opt'>C)</span> Model-View-Controller</li><li><span class='opt'>D)</span> Model-Validation-Component</li><li><span class='opt'>E)</span> Model-Validation-Controller</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>MVC, Model-View-Controller ifadesinin kısaltmasıdır. Bu mimari, veriyi, arayüzü ve istek kontrolünü birbirinden ayırarak daha düzenli uygulama geliştirmeyi sağlar.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 3</div>
+      <h2>Routing ve URL Çözümleme</h2>
+      <div class='section-body'><p>Routing, gelen bir URL isteğinin hangi controller ve hangi action tarafından karşılanacağını belirleyen mekanizmadır. Kullanıcı tarayıcıya bir adres yazdığında uygulama bu adresi çözümleyerek doğru kod bloğuna yönlendirir.</p><p>Örneğin /Personel/Hesapla yapısında Personel controller, Hesapla ise action olarak düşünülür. Varsayılan controller yapıları da bu akışın başlangıç mantığını belirler. Çoğu projede HomeController varsayılan giriş noktasıdır.</p><p>Bu başlık önemlidir çünkü öğrenci URL’yi yalnız bir metin gibi değil, uygulamanın iç yönlendirme haritası olarak görmelidir. Route mantığı anlaşılmadan form yönlendirme ve tag helper kullanımı da eksik kalır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Asp.Net Core MVC projesinde http://localhost:3000/Personel/Hesapla url’si ile gelen istek hangi Controller ve Action tarafından karşılanır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> PersonelController – Hesapla Action</li><li><span class='opt'>B)</span> HomeController – Index Action</li><li><span class='opt'>C)</span> DefaultController – Index Action</li><li><span class='opt'>D)</span> PersonelController – Index Action</li><li><span class='opt'>E)</span> HomeController – Hesapla Action</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Standart route yapısında URL’de controller ve action bilgisi sırasıyla okunur. Personel kısmı controller’ı, Hesapla kısmı ise action metodunu gösterir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Asp.Net Core MVC projelerinde varsayılan olarak hangi Controller tanımlıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Controller</li><li><span class='opt'>B)</span> DefaultController</li><li><span class='opt'>C)</span> HomeController</li><li><span class='opt'>D)</span> IndexController</li><li><span class='opt'>E)</span> ViewController</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Yeni oluşturulan birçok ASP.NET Core MVC projesinde varsayılan controller HomeController olarak gelir. Bu yapı başlangıç sayfası akışını yönetmek için kullanılır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 4</div>
+      <h2>Form İşleme ve HTTP Metotları</h2>
+      <div class='section-body'><p>HTML formlar, kullanıcıdan veri almak için kullanılır; ancak Web Programlama 2’de bu işin sunucu tarafı önem kazanır. Formun hangi metoda gönderildiği, hangi action tarafından karşılandığı ve isteğin nasıl işlendiği temel konulardır.</p><p>GET ve POST burada en kritik iki yöntemdir. GET daha çok veri isteme ve URL üzerinden parametre taşıma için uygundur. POST ise veri gönderme, kayıt ekleme ya da form gönderme gibi işlemlerde tercih edilir.</p><p>Sınavda bu konu yalnız method ezberi değildir. Öğrenciden form gönderim mantığını, action üstündeki [HttpPost] gibi özniteliklerin neden kullanıldığını ve istemci-sunucu etkileşiminin nasıl kurulduğunu anlaması beklenir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir Html Form gönderilmek istendiğinde ve gönderim metodu tanımlanmadığında varsayılan olarak hangi metod ile gönderilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Method</li><li><span class='opt'>B)</span> Get</li><li><span class='opt'>C)</span> Action</li><li><span class='opt'>D)</span> Model</li><li><span class='opt'>E)</span> Post</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>HTML formda method belirtilmezse varsayılan davranış GET olur. Bu durumda form verileri URL üzerinde query string olarak taşınır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Bir form, post işlemi ile gönderildiğinde bu işlemi karşılayacak metod nasıl tanımlanabilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> public string Get() { return (&quot;deneme&quot;); }</li><li><span class='opt'>B)</span> public string HttpGet() { return (&quot;deneme&quot;); }</li><li><span class='opt'>C)</span> [HttpPost] public string Kaydet() { return (&quot;deneme&quot;); }</li><li><span class='opt'>D)</span> [HttpGet] public string Kaydet() { return (&quot;deneme&quot;); }</li><li><span class='opt'>E)</span> public string HttpPost() { return (&quot;deneme&quot;); }</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>POST ile gelen isteği karşılamak için action metodunun üstüne [HttpPost] özniteliği yazılır. Böylece action yalnız POST isteklerine cevap verir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 5</div>
+      <h2>Query String ve Form Çıktısı Okuma</h2>
+      <div class='section-body'><p>Web uygulamalarında query string, URL sonuna eklenen parametre yapısıdır. Bu sayede formdan ya da bağlantıdan gelen bazı veriler adres çubuğunda açık biçimde taşınabilir.</p><p>Bu yapının en önemli özelliği, verinin hem görünür olması hem de URL içinde kolayca okunabilmesidir. Bu yüzden güvenli bilgi taşımak için uygun değildir; ama arama, filtreleme veya basit parametre aktarma için kullanışlıdır.</p><p>Tag helper ile form action üretimi de bu mantığın uygulama içindeki daha düzenli halidir. Yani sadece düz HTML değil, framework destekli akış mantığı burada birlikte düşünülmelidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir Html Form &#x27;http://localhost:3000/Ogrenci/DegerAl?ogrAd=Hasan&#x27; şeklinde gönderildi ise bu URL’den kaç farklı form elemanı değeri elde edilebilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> 5</li><li><span class='opt'>B)</span> 3</li><li><span class='opt'>C)</span> 2</li><li><span class='opt'>D)</span> 1</li><li><span class='opt'>E)</span> 4</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Soru dizisinde yalnızca bir query string parametresi vardır: ogrAd=Hasan. Bu yüzden URL’den elde edilebilecek tek form değeri vardır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>&#x27;&lt;form asp-controller=&quot;Kisi&quot; asp-action=&quot;Kaydet&quot; asp-route-id=&quot;10&quot;&gt;&lt;/form&gt;&#x27; şeklinde tanımlanan bir form tag helper’ı için üretilen Html çıktısı ne olur?</div>
+      <ul class='options'><li><span class='opt'>A)</span> &lt;form method=&quot;post&quot; action=&quot;/Kisi/Kaydet/10&quot;&gt;&lt;/form&gt;</li><li><span class='opt'>B)</span> &lt;form method=&quot;get&quot; action=&quot;/Kaydet/Kisi/10&quot;&gt;&lt;/form&gt;</li><li><span class='opt'>C)</span> &lt;form method=&quot;get&quot; action=&quot;/Kisi/Kaydet/10&quot;&gt;&lt;/form&gt;</li><li><span class='opt'>D)</span> &lt;form method=&quot;post&quot; action=&quot;/10/Kaydet/Kisi&quot;&gt;&lt;/form&gt;</li><li><span class='opt'>E)</span> &lt;form method=&quot;post&quot; action=&quot;self&quot;&gt;&lt;/form&gt;</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Form tag helper, controller, action ve route parametresini birleştirerek uygun action yolunu oluşturur. Varsayılan form davranışı burada POST olarak yorumlanmıştır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 6</div>
+      <h2>Web Kavramları: Web Nesilleri ve HTTP</h2>
+      <div class='section-body'><p>Web Programlama 2 dersi yalnız ASP.NET Core yapılarıyla sınırlı değildir; web’in genel kavramsal gelişimini de kapsar. Web 1.0 daha çok statik ve okunabilir içeriklerden oluşurken, sonraki nesiller etkileşim, veri paylaşımı ve daha akıllı servisler getirmiştir.</p><p>HTTP ise web üzerindeki temel iletişim protokolüdür. Tarayıcı ile sunucu arasındaki istek-yanıt ilişkisi bu protokol üzerinden yürür. Bu kavram basit görünse de web uygulamalarının tamamı bunun üzerinde yükselir.</p><p>Sınavlarda bu başlık genelde teorik gibi görünür; fakat aslında framework ve API konularını anlamanın alt yapısıdır. HTTP mantığını bilmeyen biri REST, route ve istek türlerini eksik yorumlar.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Aşağıdakilerden hangisi statik web anlayışını temsil eden ilk nesil web kavramıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Web 2.0</li><li><span class='opt'>B)</span> Semantic Web</li><li><span class='opt'>C)</span> Web 4.0</li><li><span class='opt'>D)</span> Web 1.0</li><li><span class='opt'>E)</span> Web 3.0</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Web 1.0 dönemi, daha çok okunabilir fakat etkileşimi düşük, statik içeriklerin öne çıktığı ilk nesil web anlayışını temsil eder.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Ağ üzerindeki web kaynaklarının görüntülenmesinde hangi protokol kullanılır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> DNS</li><li><span class='opt'>B)</span> IP</li><li><span class='opt'>C)</span> HTTP</li><li><span class='opt'>D)</span> SMTP</li><li><span class='opt'>E)</span> FTP</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Tarayıcı ile web sunucusu arasındaki standart iletişim protokolü HTTP’dir. Güvenli sürümünde HTTPS kullanılır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 7</div>
+      <h2>Layout, Razor ve Ortak Şablon Yapısı</h2>
+      <div class='section-body'><p>Layout yapısı, birden fazla sayfada ortak olan bölümleri tek yerde tutmak için kullanılır. Menü, üst bölüm, alt bölüm, ortak script ve stil bağlantıları çoğunlukla layout içinde tanımlanır.</p><p>ASP.NET Core MVC tarafında bu yapılar genellikle Views/Shared altında tutulur ve .cshtml uzantısı ile hazırlanır. Çünkü Razor yapısı HTML ile C# ifadelerini birlikte kullanmaya izin verir.</p><p>Bu konu önemlidir çünkü profesyonel web geliştirmede tekrar eden yapıları kopyalamak yerine merkezi bir şablon sistemi kurmak gerekir. Sınavlarda klasör yapısı, dosya uzantısı ve layout’un ne içerdiği sıkça sorulur.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Asp.Net Core MVC uygulamalarında kullanılan Layout’a ait dosya uzantısı aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> .php</li><li><span class='opt'>B)</span> .css</li><li><span class='opt'>C)</span> .cshtml</li><li><span class='opt'>D)</span> .js</li><li><span class='opt'>E)</span> .cs</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Razor view ve layout dosyaları .cshtml uzantısı taşır. Bu yapı hem HTML hem de C# tabanlı Razor söz dizimini birlikte barındırabilir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Asp.Net Core MVC uygulamalarında Layout, varsayılan olarak hangi klasörün altında tanımlıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> View/Default</li><li><span class='opt'>B)</span> Index/Default</li><li><span class='opt'>C)</span> Controller/Shared</li><li><span class='opt'>D)</span> Model/Shared</li><li><span class='opt'>E)</span> View/Shared</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Paylaşılan layout yapıları genellikle Views/Shared klasörü altında tutulur. Böylece birden fazla view aynı ortak şablonu kullanabilir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 8</div>
+      <h2>Session ve Cookie Yönetimi</h2>
+      <div class='section-body'><p>Session ve cookie, kullanıcıyla ilgili bazı bilgilerin belli süre boyunca korunmasını sağlar. Fakat çalışma mantıkları aynı değildir. Session çoğunlukla sunucu tarafında tutulur, cookie ise istemci tarafında saklanır.</p><p>Session daha kontrollü ve genellikle daha güvenli sayılabilecek veriler için uygundur. Cookie ise tercih, dil, tema gibi düşük riskli kullanıcı ayarlarında sık kullanılır.</p><p>Bu başlıkta ezberden çok mantık önemlidir. Hangi bilginin nerede tutulmasının doğru olacağını bilmek, hem sınav başarısı hem de gerçek hayatta güvenli uygulama geliştirmek için gereklidir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Asp.Net Core MVC uygulamalarında Session kullanmak için yapılandırma ayarları hangi dosyada yapılmalıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Startup.cs</li><li><span class='opt'>B)</span> wwwroot</li><li><span class='opt'>C)</span> Packages</li><li><span class='opt'>D)</span> Program.cs</li><li><span class='opt'>E)</span> Framework</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Klasik ASP.NET Core ders anlatımında session ve servis yapılandırmaları Startup.cs üzerinden gösterilir. Yeni sürümlerde Program.cs kullanılabilse de sınav mantığında beklenen cevap Startup.cs’dir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Cookie’ler ile aşağıdaki bilgilerin hangisini tutmak en uygun olur?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Veri tabanı bilgilerini</li><li><span class='opt'>B)</span> Kullanıcı renk tercihlerini</li><li><span class='opt'>C)</span> Sunucu bilgilerini</li><li><span class='opt'>D)</span> Kullanıcı şifre bilgilerini</li><li><span class='opt'>E)</span> Kullanıcı yetki bilgilerini</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Cookie tarafında en uygun veri genellikle düşük riskli kullanıcı tercihleri gibi bilgilerdir. Tema, dil, renk seçimi gibi ayarlar buna örnektir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 9</div>
+      <h2>Cookie Okuma ve Kullanım Senaryoları</h2>
+      <div class='section-body'><p>Cookie yönetiminde iki temel iş vardır: veri yazmak ve veriyi geri okumak. İstemciden gelen cookie bilgileri request içinde okunur; yeni cookie üretimi ise response üzerinden yapılır.</p><p>Bu nedenle kullanıcı tercihi gibi verileri kaydedip sonraki isteklerde geri çağırmak mümkündür. Ama şifre, ham yetki bilgisi veya veritabanı bağlantı bilgisi gibi kritik veriler cookie için uygun değildir.</p><p>Sınavlarda bu ayrım özellikle önemlidir. Çünkü birçok seçenek yüzeyde mantıklı görünse de güvenlik ve mimari açıdan doğru kullanım her zaman aynı değildir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Asp.Net Core MVC projesinde “renk” isimli bir cookie değişkenine hangi kod ile ulaşılabilir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Context.Query.Cookies[&quot;renk&quot;]</li><li><span class='opt'>B)</span> Context.Request.Cookies[&quot;renk&quot;]</li><li><span class='opt'>C)</span> Context.Forms.Cookies[&quot;renk&quot;]</li><li><span class='opt'>D)</span> Session.Get.Cookies[&quot;renk&quot;]</li><li><span class='opt'>E)</span> Context.Response.Cookies[&quot;renk&quot;]</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>İstemciden gelen cookie bilgileri request üzerinden okunur. Response ise yeni cookie yazmak veya göndermek için kullanılır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Asp.Net Core uygulamalarında modele ait özellik değerinin mail adresine uygunluğunu denetleyen öznitelik aşağıdakilerden hangisidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> [MailAddress]</li><li><span class='opt'>B)</span> [EmailAddress]</li><li><span class='opt'>C)</span> [E-MailAddress]</li><li><span class='opt'>D)</span> [Mail]</li><li><span class='opt'>E)</span> [Email]</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Data Annotations içinde e-posta formatını doğrulamak için [EmailAddress] özniteliği kullanılır. Bu yapı sunucu taraflı doğrulamada da önemlidir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 10</div>
+      <h2>Data Annotations ile Model Doğrulama</h2>
+      <div class='section-body'><p>Model doğrulama, kullanıcının gönderdiği verinin belirlenen kurallara uyup uymadığını kontrol eder. ASP.NET Core içinde bu iş için Data Annotations adı verilen öznitelik yapıları çok yaygın biçimde kullanılır.</p><p>EmailAddress, StringLength, Range, Required ve Display gibi öznitelikler model üzerindeki alanlara açıklama, doğrulama ve görüntüleme davranışı kazandırır. Böylece tek tek manuel kontrol yazmadan temel kurallar tanımlanabilir.</p><p>Bu konu önemlidir çünkü form işlemenin yalnız veri almak değil, doğru veri almak anlamına geldiğini gösterir. Sorular genellikle hangi özniteliğin hangi amaca hizmet ettiğini ölçer.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir model içerisinde Display özniteliğinin kullanılabilmesi için hangi namespace ekli olmalıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> System.Threading.Task</li><li><span class='opt'>B)</span> System.Namespace</li><li><span class='opt'>C)</span> System.Linq</li><li><span class='opt'>D)</span> System.ComponentModel.DataAnnotations</li><li><span class='opt'>E)</span> System.Collections.Generic</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Display, Required, StringLength gibi öznitelikler DataAnnotations altında yer alır. Bu yüzden doğru namespace eklenmelidir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Bir Asp.Net Core uygulamasında özellik değeri uzunluğunun 20 karakteri aşmaması gerektiğini denetlemek için ilgili yere hangi ifade gelmelidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> [String(20)]</li><li><span class='opt'>B)</span> StringLength[20]</li><li><span class='opt'>C)</span> [StringMax(20)]</li><li><span class='opt'>D)</span> [StringLength(20)]</li><li><span class='opt'>E)</span> [Length(20)]</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> D</div>
+      <div class='explanation'>Maksimum karakter uzunluğunu belirlemek için doğru Data Annotation [StringLength(20)] biçimidir. Diğer yazımlar sözdizimsel olarak doğru değildir.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 11</div>
+      <h2>Sunucu Taraflı Validation ve Hata Mesajları</h2>
+      <div class='section-body'><p>Sunucu taraflı validation, gönderilen modelin gerçekten kurallara uyup uymadığını kontrol eden güvenlik ve doğruluk katmanıdır. İstemci tarafında JavaScript ile kontrol yapılabilir, fakat asıl güvenilir kontrol sunucu tarafında gerçekleştirilir.</p><p>ModelState.IsValid ifadesi bu noktada kritik rol oynar. Modeldeki validation kuralları çalıştıktan sonra bu özellik true ise veri uygun kabul edilir. Ayrıca özel hata mesajlarıyla kullanıcıya daha anlamlı geri bildirim verilebilir.</p><p>Sınavlarda çoğu zaman Required, ErrorMessage ve ModelState.IsValid bir arada düşünülür. Bu nedenle konu anlatımı sırasında bunları ayrı ayrı değil, tek bir veri doğrulama akışının parçaları gibi görmek gerekir.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir Asp.Net Core MVC uygulamasında model doğrulamanın sunucu tarafında gerçekleşmesi için hangi nesneye ait özellik true olmalıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> ModelState.IsValid</li><li><span class='opt'>B)</span> Data.IsTrue</li><li><span class='opt'>C)</span> Js.IsTrue</li><li><span class='opt'>D)</span> Model.IsTrue</li><li><span class='opt'>E)</span> ModelState.Valid</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> A</div>
+      <div class='explanation'>Sunucu tarafında model doğrulama sonrası kontrol genellikle ModelState.IsValid ile yapılır. Değer true ise model doğrulama aşamasını geçmiş demektir.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>Kullanıcı adı alanı boş geçilemez şeklinde hata mesajının oluşması için public string KullaniciAdi { get; set; } özelliğinin üstünde ne gelmelidir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> (&quot;Kullanıcı adı alanı boş geçilemez&quot;)</li><li><span class='opt'>B)</span> [Required(ErrorMessage = &quot;Kullanıcı adı alanı boş geçilemez&quot;)]</li><li><span class='opt'>C)</span> [Error(Message = &quot;Kullanıcı adı alanı boş geçilemez&quot;)]</li><li><span class='opt'>D)</span> ErrorMessage = &quot;Kullanıcı adı alanı boş geçilemez&quot;)</li><li><span class='opt'>E)</span> [Required(&quot;Kullanıcı adı alanı boş geçilemez&quot;)]</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> B</div>
+      <div class='explanation'>Boş geçilemez alan tanımlamak için [Required] kullanılır. Özel mesaj verilmek istenirse ErrorMessage parametresi ile birlikte yazılır.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+    <section class='section-card'>
+      <div class='topic-label'>Konu Başlığı 12</div>
+      <h2>EF Core, Migration ve Veritabanı Eşleme</h2>
+      <div class='section-body'><p>EF Core, nesneler ile ilişkisel veritabanı tabloları arasında köprü kuran ORM yapısıdır. Bu sayede geliştirici çoğu veritabanı işlemini daha nesne tabanlı ve düzenli biçimde yapabilir.</p><p>Migration mantığı ise modelde yapılan değişikliklerin veritabanına kontrollü biçimde uygulanmasını sağlar. Önce migration dosyası üretilir, sonra Update-Database ile veritabanına işlenir.</p><p>Bu başlık sınavda çok önemlidir çünkü öğrenciler sıklıkla Add-Migration ile Update-Database farkını karıştırır. Ayrıca sınıf, property, tablo ve kolon arasındaki eşleştirme mantığı tam oturmadığında EF Core soruları askıda kalır.</p></div>
+      <div class='callout-grid'>
+        <div class='callout blue'><strong>Sınavda dikkat</strong> Bu başlıkta yalnız terimi tanımak yetmez; yapının neden kullanıldığını ve uygulama akışındaki yerini de bilmek gerekir.</div>
+        <div class='callout purple'><strong>Hızlı tekrar</strong><ul class='mini-list'><li>Kavramı tanı</li><li>Kullanım amacını düşün</li><li>Benzer yapılarla farkını ayır</li><li>Sorudaki ana kelimeyi yakala</li></ul></div>
+      </div>
+      <div class='question-wrap'>
+        <div class='question-title'>Benzeri Soru Alanları</div>
+        
+    <div class='question-card'>
+      <div class='q-text'>Bir Asp.Net Core MVC uygulamasında migration oluşturduktan sonra migration işlemini yürütmek için Package Manager Console’da hangi komut çalıştırılmalıdır?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Add-Migration</li><li><span class='opt'>B)</span> Select-Database</li><li><span class='opt'>C)</span> Update-Database</li><li><span class='opt'>D)</span> Add-Sql</li><li><span class='opt'>E)</span> Add-Database</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> C</div>
+      <div class='explanation'>Add-Migration değişiklik dosyasını oluşturur; Update-Database ise bu migration’ı veritabanına uygular. İkisi karıştırılmamalıdır.</div>
+    </div>
+    
+    <div class='question-card'>
+      <div class='q-text'>EF Core kullanılan bir Asp.Net Core projesinde sınıf özellikleri veri tabanında hangi öğeye karşılık gelir?</div>
+      <ul class='options'><li><span class='opt'>A)</span> Tablo Kayıtlarına</li><li><span class='opt'>B)</span> Sql örneklerine</li><li><span class='opt'>C)</span> Veritabanlarına</li><li><span class='opt'>D)</span> Tablolara</li><li><span class='opt'>E)</span> Tablo Sütunlarına / Kolonlarına</li></ul>
+      <div class='answer'><strong>Doğru Cevap:</strong> E</div>
+      <div class='explanation'>Entity sınıfındaki property’ler, veritabanında çoğunlukla tablo sütunlarına karşılık gelir. Sınıfın kendisi tabloyu, nesne örnekleri ise kayıtları temsil eder.</div>
+    </div>
+    
+      </div>
+    </section>
+    
+</div>
+</body>
+</html>
