@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Siber Güvenlik - Benzeri Sorulu Tam Not</title>
+<style>
+  :root {
+    --bg: #f5f7fb;
+    --panel: #ffffff;
+    --panel-soft: #f8fbff;
+    --text: #1f2a44;
+    --muted: #61708a;
+    --line: #dbe5f1;
+    --accent: #5b8def;
+    --accent-soft: #eaf2ff;
+    --dark: #21324d;
+    --ok: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #eef3fb 0%, #f8fafd 100%);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .container {
+    width: min(1120px, calc(100% - 32px));
+    margin: 32px auto 60px;
+  }
+  .hero {
+    background: linear-gradient(135deg, #ffffff 0%, #eef5ff 100%);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    padding: 34px 34px 28px;
+    box-shadow: 0 18px 40px rgba(61, 93, 152, 0.08);
+  }
+  .badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .2px;
+  }
+  h1 {
+    margin: 16px 0 10px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--dark);
+  }
+  .lead {
+    margin: 0;
+    color: var(--muted);
+    font-size: 17px;
+  }
+  .note-box {
+    margin-top: 22px;
+    background: #fffdf7;
+    border: 1px solid #f2e6b8;
+    border-radius: 18px;
+    padding: 18px 20px;
+    color: #5b4a1f;
+    font-size: 15px;
+  }
+  .section-card {
+    margin-top: 22px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 10px 25px rgba(51, 76, 120, 0.05);
+  }
+  .section-card h2 {
+    margin: 0 0 14px;
+    font-size: 27px;
+    color: var(--dark);
+  }
+  .section-body p {
+    margin: 0 0 14px;
+    color: #33415c;
+    font-size: 16px;
+  }
+  .question-wrap {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--line);
+  }
+  .question-title {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 7px 12px;
+    border-radius: 12px;
+    background: #eef6ff;
+    color: #2f5da8;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .question-card {
+    background: var(--panel-soft);
+    border: 1px solid #dce9fb;
+    border-radius: 18px;
+    padding: 18px;
+    margin-bottom: 16px;
+  }
+  .q-meta {
+    font-size: 13px;
+    font-weight: 700;
+    color: #5572a8;
+    margin-bottom: 8px;
+  }
+  .q-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #22314d;
+    margin-bottom: 12px;
+  }
+  .options {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+  }
+  .options li {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e5edf8;
+    color: #3c4c68;
+  }
+  .opt {
+    font-weight: 700;
+    color: #244784;
+    display: inline-block;
+    width: 28px;
+  }
+  .answer, .explanation {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .answer { color: var(--ok); }
+  .explanation { color: var(--muted); }
+  .footer {
+    text-align: center;
+    color: #50607d;
+    padding: 28px 12px 10px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  @media (max-width: 760px) {
+    .container { width: min(100% - 20px, 1120px); margin-top: 20px; }
+    .hero { padding: 24px 20px; border-radius: 22px; }
+    h1 { font-size: 30px; }
+    .section-card { padding: 20px; border-radius: 20px; }
+    .section-card h2 { font-size: 23px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge">Siber Güvenlik</div>
+      <h1>Siber Güvenlik Ders Notu</h1>
+      <p class="lead">Konu anlatımı, kavramsal bütünlük ve benzeri sorular bir araya getirilerek sınav odaklı ama öğretici bir çalışma akışı oluşturuldu.</p>
+      <div class="note-box">
+        Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.
+      </div>
+    </header>
+
+    <section class="section-card">
+      <h2>1. Siber Güvenliğe Giriş ve Bilgi Güvenliğinin Temelleri</h2>
+      <div class="section-body"><p>Siber güvenlik; bilgiye, bilgi sistemlerine ve bu sistemleri kullanan insanlara yönelik riskleri azaltmayı amaçlayan çok katmanlı bir koruma alanıdır.</p><p>Ders sorularında en sık tekrar eden yapı CIA üçlemesidir. Buradaki temel ilkeler gizlilik, bütünlük ve erişilebilirliktir.</p><p>Gizlilik, bilginin yalnızca yetkili kişilerce görülmesini; bütünlük, bilginin bozulmadan ve izinsiz değiştirilmeden korunmasını; erişilebilirlik ise ihtiyaç duyulduğunda bilgiye ulaşılabilmesini ifade eder.</p><p>Sınavlarda bu kavramlar bazen doğrudan tanım olarak, bazen de örnek olay üzerinden sorulur. Özellikle verinin izinsiz değiştirilmesi bütünlük; hizmete ulaşamama ise erişilebilirlik problemi olarak düşünülmelidir.</p><p>Bu yüzden tanımı ezberlemekten çok olayla kavramı eşleştirmek gerekir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıda yer alan üçlemelerden hangisinde CIA üçlemesi doğru olarak verilmiştir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Gizlilik – Bütünlük – Erişilebilirlik</li><li><span class='opt'>B)</span> Şeffaflık – Bütünlük – Erişilebilirlik</li><li><span class='opt'>C)</span> Gizlilik – Bütünlük – Denetlenebilirlik</li><li><span class='opt'>D)</span> Gizlilik – Güvenlik – Denetlenebilirlik</li><li><span class='opt'>E)</span> Gizlilik – Güvenlik – Erişilebilirlik</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> CIA üçlemesi siber güvenliğin en temel kavramsal çerçevesidir. Şeffaflık ya da denetlenebilirlik bu üçlüye dahil değildir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Bir işletmedeki verilerin yetkisiz bir kullanıcı tarafından izinsiz olarak değiştirilmesi bilgi güvenliğinin hangi ilkesine aykırıdır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Gizlilik ilkesi</li><li><span class='opt'>B)</span> Kontrol ilkesi</li><li><span class='opt'>C)</span> Şeffaflık ilkesi</li><li><span class='opt'>D)</span> Erişilebilirlik ilkesi</li><li><span class='opt'>E)</span> Bütünlük ilkesi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Verinin yetkisiz biçimde değiştirilmesi doğrudan bütünlük ilkesinin ihlalidir. Burada sorun veriye erişmekten çok veriyi bozmak ya da değiştirmektir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>2. Tehdit, Güvenlik Açığı, Risk ve Saldırı Mantığı</h2>
+      <div class="section-body"><p>Siber güvenlikte tehdit, zarar doğurma potansiyeli taşıyan durum veya eylemdir. Güvenlik açığı ise tehdidin yararlanabileceği zayıflıktır.</p><p>Risk, tehdit ile açıklığın birleşmesi sonucu oluşan olası zarar düzeyini düşünmeye yardımcı olur. Saldırı ise bu zayıflığın fiilen istismar edilmesiyle ortaya çıkar.</p><p>Çıkmış sorularda özellikle güvenlik açığı tanımı, saldırgan motivasyonları ve hangi ifadenin doğrudan saldırı türü olmadığı sık şekilde karşımıza çıkar.</p><p>Ayrıca politik ve ekonomik motivasyon gibi unsurlar saldırgan davranışını açıklarken, coğrafi unsur çoğu zaman motivasyon kategorisinde değerlendirilmez.</p><p>Bu başlıkta kavramlar birbirine karıştığı için seçenekler arasında küçük kelime farkları çok belirleyicidir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">“………., bir sistemdeki tehditleri mümkün kılan ve tehdit unsurlarını bunlardan yararlanmaya teşvik eden boşluklar veya zayıf noktalardır.” Yukarıda verilen boşluğa aşağıdakilerden hangisi gelmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Karşı önlemler</li><li><span class='opt'>B)</span> Güvenlik açıkları</li><li><span class='opt'>C)</span> Siber tehditler</li><li><span class='opt'>D)</span> Siber saldırılar</li><li><span class='opt'>E)</span> Varlıklar</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Tehdidin yararlanabildiği boşluk ve zayıf noktalar güvenlik açığıdır. Saldırı ile açıklığı birbirine karıştırmamak gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">I. Politik II. Coğrafi III. Ekonomik Yukarıdakilerden hangisi ya da hangileri bir saldırgana ait motivasyon değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> II ve III</li><li><span class='opt'>B)</span> I ve II</li><li><span class='opt'>C)</span> I ve III</li><li><span class='opt'>D)</span> Yalnız II</li><li><span class='opt'>E)</span> Yalnız I</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> D</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Saldırgan motivasyonları daha çok politik, ekonomik, ideolojik ya da kişisel çıkara dayanır. Coğrafi unsur burada doğrudan motivasyon sayılmaz.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>3. Kimlik Doğrulama, Parola Güvenliği ve Erişim Kontrolü</h2>
+      <div class="section-body"><p>Kimlik doğrulama, sisteme bağlanan kişinin gerçekten iddia ettiği kişi olup olmadığını sınar. En klasik yöntem kullanıcı adı ve parola ikilisidir.</p><p>Ancak modern güvenlik anlayışında tek faktörlü yapı yeterli görülmez. Çok faktörlü doğrulama, biyometrik yöntemler ve tek kullanımlık parolalar güvenlik düzeyini artırır.</p><p>NIST güvenlik düzeyleriyle ilgili sorular, hangi seviyede daha güçlü doğrulama gerektiğini ayırt etmeyi ölçer. Özellikle üst seviyelerde çok faktörlü doğrulama beklendiği unutulmamalıdır.</p><p>Parola güvenliğinde en temel hata, aynı parolayı birçok hesapta kullanmaktır. Karmaşık, uzun ve tekrar etmeyen parola kullanımı temel koruma sağlar.</p><p>Bu bölümde sınav mantığı genellikle &#x27;hangisi yanlıştır&#x27; biçiminde kurulur; dolayısıyla iyi görünen ama aslında zayıf olan seçeneği bulmak gerekir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">“İnternet üzerinden gerçekleştirilen kimlik doğrulama işlemlerinde geleneksel olarak ……ve …… kullanılır.” Yukarıdaki cümlede yer alan boşluklara sırasıyla aşağıdaki ikililerden hangisi getirilmelidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Kullanıcı adı / parmak izi</li><li><span class='opt'>B)</span> Kullanıcı adı / biyometrik doğrulama</li><li><span class='opt'>C)</span> Retina okuma / parola</li><li><span class='opt'>D)</span> Parola / parmak izi</li><li><span class='opt'>E)</span> Kullanıcı adı / parola</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Geleneksel internet kimlik doğrulaması kullanıcı adı ve parola ile yapılır. Parmak izi ya da biyometrik yöntemler daha yeni katmanlar olarak düşünülmelidir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi parola güvenliği açısından doğru olmayan bir yaklaşımdır?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Aynı parolayı birden fazla hesapta kullanmak</li><li><span class='opt'>B)</span> Karmaşık ve uzun parolalar tercih etmek</li><li><span class='opt'>C)</span> Düz metinden oluşmayan parolalar kullanmak</li><li><span class='opt'>D)</span> Önemli parolaları başkaları ile paylaşmamak</li><li><span class='opt'>E)</span> Kullanılan parolaları sık aralıklarla değiştirmek</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Aynı parolayı birden fazla hesapta kullanmak en sık yapılan güvenlik hatalarından biridir. Tek bir sızıntı, birçok hesabı aynı anda riske atar.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>4. Sosyal Mühendislik, Oltalama ve Kullanıcı Hataları</h2>
+      <div class="section-body"><p>Siber saldırıların önemli bir kısmı teknik bir zafiyetten çok insan davranışını hedefler. Sosyal mühendislik bu nedenle siber güvenliğin merkezindedir.</p><p>Oltalama saldırılarında amaç; parola, kart bilgisi, kişisel veri ya da doğrulama bilgilerini ele geçirmektir. Buna karşılık doğrudan sunucu hizmetini engellemek oltalamanın ana amacı değildir.</p><p>Tarayıcı korsanları, istenmeyen eklentiler ve sahte yönlendirmeler kullanıcı tarafındaki riskleri artırır. Güvenlik duvarını düşürmek gibi yanlış uygulamalar bu riskleri büyütür.</p><p>Casus yazılım, kullanıcının tarayıcı geçmişini ve alışkanlıklarını izleyerek bilgiyi uzaktaki sistemlere gönderebilir. Bu yüzden yalnızca virüs kavramına odaklanmak eksik olur.</p><p>Bu bölümde saldırıların psikolojik yönünü anlamak, teknik detay kadar önemlidir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi oltalama saldırısının amaçlarından birisi değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Kullanıcının kredi kartı bilgilerini ele geçirmek</li><li><span class='opt'>B)</span> Kullanıcı parolalarını ele geçirmek</li><li><span class='opt'>C)</span> Sunucu hizmetini engellemek</li><li><span class='opt'>D)</span> Kimlik avı yapmak</li><li><span class='opt'>E)</span> Kullanıcıların ATM pin kodlarını ele geçirmek</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Oltalama saldırısı kullanıcıyı kandırıp gizli bilgiyi almak ister. Hizmet engelleme ise farklı bir saldırı amacıdır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">“………., genellikle kullanıcıların tarayıcı geçmişlerine bakmak ve alışkanlıklarını takip etmek amacıyla kullanıcıların bilgilerini toplar ve bu bilgileri kullanıcının rızası olmadığı hâlde uzaktaki sunuculara gönderir.” Yukarıdaki cümlede yer alan boşluğa gelecek kavram aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Casus yazılım</li><li><span class='opt'>B)</span> Korkuluk</li><li><span class='opt'>C)</span> Arka kapı</li><li><span class='opt'>D)</span> Tavşan</li><li><span class='opt'>E)</span> Zombi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Tarayıcı geçmişini izleyen ve kullanıcı bilgisini dışarı gönderen zararlı casus yazılımdır. Bu tür sorularda davranış tanımından kavramı bulmak gerekir.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>5. Zararlı Yazılımlar ve Kötücül Kod Türleri</h2>
+      <div class="section-body"><p>Zararlı yazılımlar aynı görünse de çalışma mantıkları farklıdır. Solucan, tetiklenmeye ihtiyaç duymadan kendi kendine yayılabilen türdür.</p><p>Rootkit, işletim sisteminin normal çalışma akışına gizlice müdahale ederek isteğin gerçek programa ulaşmasını engelleyebilir ve sahte yanıtlar üretebilir.</p><p>Melez zararlılar, birkaç kötü amaçlı yazılımın özelliklerini bir arada taşır. Bu yüzden soru kökünde verilen davranış kalıbını dikkatle okumak gerekir.</p><p>Tarayıcı ayarlarını değiştiren, reklam gösteren, veri toplayan ya da gizli erişim sağlayan zararlıların isimleri birbirine yakın görünür; fakat işlevleri farklıdır.</p><p>Bu konuda ezber yerine &#x27;nasıl davranıyor?&#x27; sorusu üzerinden tür ayrımı yapmak daha kalıcıdır.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıda verilen bilgilerden hangisi solucan için doğrudur?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Yararlı yazılım gibi davranarak bilgisayara yüklenen zararlı koddur.</li><li><span class='opt'>B)</span> Bilgisayarda virüs tehdidi olduğuna dair uyarı penceresi açan zararlı bir türdür.</li><li><span class='opt'>C)</span> Bilgisayar sistemine yerleştikten sonra aktif hale gelmek için tetiklenmeye ihtiyaç duymaz.</li><li><span class='opt'>D)</span> Birkaç farklı zararlı türünün karakteristik özelliklerini bir arada barındırabilen zararlı türdür.</li><li><span class='opt'>E)</span> Kullanıcıların bilgisi dahilinde olmadan tarayıcı ayarlarını değiştiren bir zararlı türdür.</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> C</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Solucanların temel özelliği aktifleşmek için ayrıca tetiklenmeye ihtiyaç duymamasıdır. Bu yönüyle birçok zararlıdan ayrılır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">“………., genellikle kullanıcıların tarayıcı geçmişlerine bakmak ve alışkanlıklarını takip etmek amacıyla kullanıcıların bilgilerini toplar ve bu bilgileri kullanıcının rızası olmadığı hâlde uzaktaki sunuculara gönderir.” Yukarıdaki cümlede yer alan boşluğa gelecek kavram aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Casus yazılım</li><li><span class='opt'>B)</span> Korkuluk</li><li><span class='opt'>C)</span> Arka kapı</li><li><span class='opt'>D)</span> Tavşan</li><li><span class='opt'>E)</span> Zombi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Soruda verilen davranış veri toplama ve uzaktaki sunucuya gönderme olduğundan doğru kavram casus yazılımdır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>6. Saldırı Türleri: DoS, DDoS, MITM ve Ağ Temelli Tehditler</h2>
+      <div class="section-body"><p>DoS ve DDoS saldırılarında amaç, sistemi aşırı veya anlamsız trafik altında bırakarak hizmet veremez hale getirmektir. Eksik TCP bağlantıları, bozuk IP paketleri ya da yoğun ICMP istekleri bu mantığa örnektir.</p><p>MITM yani ortadaki adam saldırılarında saldırgan iletişimin arasına girer. Wi‑Fi dinleme, HTTP sahtekarlığı, e‑posta ele geçirme ve SSL üzerinden araya girme bu kapsamda düşünülür.</p><p>SQL enjeksiyonu ise farklı bir saldırı sınıfıdır; veri tabanı sorgu mantığını hedefler. Sınavlarda özellikle bu ayrımı ölçen sorular vardır.</p><p>Bir saldırı türü sorulduğunda rootkit gibi bir zararlı yazılım seçeneği bazen saldırı türlerinin arasına karıştırılır. Burada soru, yöntem ile araç arasındaki farkı ölçer.</p><p>Ağ tabanlı tehditlerde kavramları aynı aile içinde mi, yoksa farklı sınıfta mı düşünmek gerektiğine dikkat edilmelidir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi bir saldırı türü değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> DDoS</li><li><span class='opt'>B)</span> Rootkit</li><li><span class='opt'>C)</span> DoS</li><li><span class='opt'>D)</span> MITM</li><li><span class='opt'>E)</span> Kaba Kuvvet</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> B</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> DDoS, DoS, MITM ve kaba kuvvet saldırı yöntemi olarak düşünülürken rootkit daha çok bir zararlı yazılım türüdür.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi ortadaki adam saldırılarının (MITM) türlerinden biri değildir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> SQL enjeksiyonu</li><li><span class='opt'>B)</span> Wi-Fi ağının gizlice dinlenmesi</li><li><span class='opt'>C)</span> HTTP sahtekarlığı</li><li><span class='opt'>D)</span> E-posta ele geçirme</li><li><span class='opt'>E)</span> SSL ele geçirme</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> SQL enjeksiyonu veri tabanı ve uygulama katmanı saldırısıdır. MITM ise iletişim kanalına araya girmeyi hedefler.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>7. Kriptografi, Anahtar Mantığı ve Şifreleme Türleri</h2>
+      <div class="section-body"><p>Kriptografi, veriyi yetkisiz kişilere karşı korumak için kullanılan şifreleme biliminin genel adıdır. Kriptanaliz ise şifreli verinin çözülmesini, yani deşifre edilmesini ifade eder.</p><p>Asimetrik şifrelemede açık ve gizli anahtar çifti kullanılır. Bir kişi karşı tarafa güvenli mesaj gönderecekse alıcının açık anahtarı ile şifreleme yapar; çözme işlemi ise alıcının gizli anahtarıyla olur.</p><p>RSA asimetrik şifrelemenin klasik örneklerinden biridir. DES, 3DES ve AES ise simetrik ya da modern blok şifreleme sorularında tekrar eden başlıklardır.</p><p>Sınavlarda bazen doğrudan algoritma adı, bazen anahtar uzunluğu ya da alt anahtar mantığı, bazen de bir senaryo üzerinden hangi anahtarın kullanılacağı sorulur.</p><p>Bu yüzden tanım, kullanım amacı ve tarafların hangi anahtarı ne zaman kullandığı birlikte öğrenilmelidir.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Final Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi asimetrik şifreleme yöntemlerinden biridir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> RSA</li><li><span class='opt'>B)</span> Kriptografi</li><li><span class='opt'>C)</span> Güvenlik duvarı</li><li><span class='opt'>D)</span> Kimlik doğrulama</li><li><span class='opt'>E)</span> Sızma testi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> RSA, açık ve gizli anahtar çiftine dayalı asimetrik şifreleme yöntemidir. Bu nedenle klasik soru kalıbında doğrudan ayırt edilir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Final Benzeri Soru</div>
+      <div class="q-text">Karşı tarafa ulaşan şifrelenmiş verinin veya metnin deşifre edilmesi (çözülmesi) işlemi aşağıdakilerden hangisidir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Kriptanaliz</li><li><span class='opt'>B)</span> Kriptografi</li><li><span class='opt'>C)</span> Güvenlik duvarı</li><li><span class='opt'>D)</span> Kimlik doğrulama</li><li><span class='opt'>E)</span> Sızma testi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> A</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Şifreli metni çözme işi kriptanaliz olarak adlandırılır. Kriptografi ise genel koruma ve şifreleme alanının adıdır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>8. Sızma Testleri, Güvenlik Duvarları ve Kablosuz Ağ Güvenliği</h2>
+      <div class="section-body"><p>Sızma testleri, bir sistemdeki zafiyetleri kontrollü biçimde ortaya çıkarmak için yapılır. Kara kutu, gri kutu ve beyaz kutu gibi türler bilginin test yapan kişiye ne kadar verildiğine göre değişir.</p><p>Sızma testi öncesinde sistem yöneticisinin beklentilerinin, kapsamın ve kuralların belirlenmesi gerekir. Raporlama ise sürecin sonundaki aşamadır.</p><p>Güvenlik duvarı, belirli trafiğe izin verirken başka trafiği reddeden koruma mekanizmasıdır. Ağ güvenliğinde temel savunma katmanlarından biridir.</p><p>Kablosuz ağ güvenliğinde gizli mod, güçlü parola, yönlendirici ayarları ve gereksiz özelliklerin kapatılması önemlidir. Özellikle uPnP gibi özelliklerin rastgele açılması güvenlik zafiyeti oluşturabilir.</p><p>Sıfırıncı gün sömürüleri için güncel tutma, düzenli sızma testi ve açık alan Wi‑Fi ağlarında hassas işlem yapmama gibi önlemler öne çıkar.</p></div>
+      <div class="question-wrap">
+        <div class="question-title">Benzeri Sorular</div>
+        
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Final Benzeri Soru</div>
+      <div class="q-text">Aşağıdakilerden hangisi bir sızma testi öncesinde gerçekleştirilir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Güvenlik açıklarının kapatılması</li><li><span class='opt'>B)</span> Hali hazırdaki parolaların güçlendirilmesi</li><li><span class='opt'>C)</span> Ağa normalde kullanılmayan fazladan güvenlik önlemlerinin yerleştirilmesi</li><li><span class='opt'>D)</span> Raporlama</li><li><span class='opt'>E)</span> Sistem yöneticisinin isterlerinin belirlenmesi</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Sızma testine başlamadan önce kapsam ve beklenti belirlenir. Güvenlik açıklarını kapatma ve raporlama daha sonraki aşamalardır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="q-meta">2023-2024 Vize Benzeri Soru</div>
+      <div class="q-text">I. Düzenli olarak sızma testlerinin gerçekleştirilmesi II. Açık alanlarda verilen Wi­Fi hizmeti üzerinden banka ve ticaret işlemleri yapmamak III. Sistem veya yazılımın sürekli güncel tutulması Yukarıda yer alan maddelerden hangisi veya hangileri sıfırıncı gün sömürüsünün önüne geçebilmek amaçlı uygulanabilecek önlemlerdendir?</div>
+      <ul class="options"><li><span class='opt'>A)</span> Yalnız I</li><li><span class='opt'>B)</span> Yalnız II</li><li><span class='opt'>C)</span> I ve II</li><li><span class='opt'>D)</span> II ve III</li><li><span class='opt'>E)</span> I ve III</li></ul>
+      <div class="answer"><strong>Doğru cevap:</strong> E</div>
+      <div class="explanation"><strong>Kısa açıklama:</strong> Sıfırıncı gün açıklarına karşı düzenli test ve sürekli güncelleme güçlü önlemlerdendir. Açık ağlarda finansal işlem yapmamak da riski azaltır.</div>
+    </div>
+    
+      </div>
+    </section>
+
+    <div class="footer">Başarılar dilerim</div>
+  </div>
+</body>
+</html>
