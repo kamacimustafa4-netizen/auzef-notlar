@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pazarlama İlkeleri - Ders Notu</title>
+<style>
+  :root {
+    --bg: #f6f8fc;
+    --card: #ffffff;
+    --muted: #5f6b7a;
+    --text: #1e293b;
+    --primary: #6d8fd6;
+    --primary-soft: #e9f0ff;
+    --line: #dde5f0;
+    --accent: #2f5aa8;
+    --success: #eef8f1;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #f8fbff 0%, #f4f6fb 100%);
+    color: var(--text);
+    line-height: 1.72;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 34px 20px 48px;
+  }
+  .hero {
+    background: linear-gradient(135deg, #eef5ff 0%, #ffffff 100%);
+    border: 1px solid var(--line);
+    border-radius: 26px;
+    padding: 32px;
+    box-shadow: 0 14px 38px rgba(76, 104, 146, 0.08);
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #21457d;
+  }
+  .hero p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 16px;
+  }
+  .note-banner {
+    background: var(--primary-soft);
+    border: 1px solid #cddbff;
+    border-radius: 18px;
+    padding: 18px 20px;
+    margin: 22px 0 0;
+    color: #2d4d82;
+    font-weight: 600;
+  }
+  .topic-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(39, 62, 103, 0.06);
+    margin-top: 22px;
+    overflow: hidden;
+  }
+  .topic-header {
+    background: linear-gradient(135deg, #f3f7ff 0%, #edf3ff 100%);
+    border-bottom: 1px solid var(--line);
+    padding: 18px 24px;
+  }
+  .topic-header h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #294c86;
+  }
+  .topic-body {
+    padding: 22px 24px 24px;
+  }
+  .topic-body p {
+    margin: 0 0 14px;
+    font-size: 16px;
+  }
+  .exam-box {
+    margin-top: 22px;
+    background: #fafcff;
+    border: 1px dashed #cfd9ea;
+    border-radius: 18px;
+    padding: 18px;
+  }
+  .exam-box h3 {
+    margin: 0 0 14px;
+    font-size: 18px;
+    color: #31548f;
+  }
+  .question-card {
+    background: #fff;
+    border: 1px solid #e4ebf5;
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 14px;
+  }
+  .question-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #58709a;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .question-text {
+    font-weight: 700;
+    color: #24364d;
+    margin-bottom: 12px;
+  }
+  .options {
+    margin: 0;
+    padding-left: 20px;
+  }
+  .options li {
+    margin-bottom: 8px;
+    color: #324255;
+  }
+  .opt {
+    font-weight: 700;
+    color: #2c4e88;
+  }
+  .answer-box {
+    margin-top: 12px;
+    padding: 12px 14px;
+    background: #f3f8ff;
+    border: 1px solid #d8e6ff;
+    border-radius: 12px;
+    color: #2b4876;
+  }
+  .mini-note {
+    margin-top: 10px;
+    padding: 12px 14px;
+    background: var(--success);
+    border: 1px solid #d8efdf;
+    border-radius: 12px;
+    color: #355c42;
+  }
+  .footer {
+    margin-top: 28px;
+    text-align: center;
+    color: #506070;
+    font-weight: 700;
+    padding: 14px;
+  }
+  @media (max-width: 700px) {
+    .container { padding: 18px 12px 32px; }
+    .hero { padding: 24px 18px; border-radius: 22px; }
+    .hero h1 { font-size: 26px; }
+    .topic-header h2 { font-size: 19px; }
+    .topic-body, .topic-header { padding-left: 18px; padding-right: 18px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>Pazarlama İlkeleri<br>Benzeri Sorulu Ayrıntılı Ders Notu</h1>
+      <p>Bu içerik, ders çalışırken konuları daha net görmen, kavramlar arasındaki farkları ayırt etmen ve soru mantığını daha rahat kavraman için ders notu düzeninde hazırlanmıştır.</p>
+      <div class="note-banner">Bu not, çıkmış sorular baz alınarak daha anlaşılır, daha düzenli ve daha güçlü bir ders çalışma yapısı oluşturmak için hazırlanmıştır.</div>
+    </header>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>1. Pazarlamaya Giriş ve Temel Kavramlar</h2>
+      </div>
+      <div class="topic-body">
+        <p>Pazarlama; değer üretme, bu değeri hedef kitleye ulaştırma ve değişim ilişkisini yönetme sürecidir. Derste ilk öğrenilmesi gereken nokta, pazarlamanın yalnızca bir satış faaliyeti olmadığıdır. Çünkü pazarlama, ihtiyaçların belirlenmesinden müşteri memnuniyetine kadar uzanan geniş bir çerçevede ele alınır. Bu nedenle pazarlama kavramı tanımlanırken tüketiciler, müşteriler, aracılar ve toplum gibi farklı paydaşların birlikte düşünülmesi gerekir.</p>
+        <p>Pazar kavramı da bu bölümde temel bir yer tutar. Bir grubun pazar olarak kabul edilebilmesi için ortak bir ihtiyacın varlığı, satın alma gücü ve harcama isteğinin birlikte bulunması gerekir. İşletme açısından bakıldığında pazarlama, yalnızca mevcut ürünü satmanın değil, doğru ihtiyacı anlayıp buna uygun bir değer önerisi geliştirmenin disiplinidir. Bu yüzden bu başlık, dersin geri kalan tüm bölümlerini anlamanın temelidir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Tüketiciler, müşteriler, aracılar ve toplumun bütünü için değer ifade eden önerilerin oluşturulması, iletişimi, ulaştırılması ve değişimini içeren bir dizi faaliyet, kurum ve sürece ne ad verilmektedir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Pazarlama</li><li><span class='opt'>B)</span> Organizasyon</li><li><span class='opt'>C)</span> Reklam</li><li><span class='opt'>D)</span> Satış</li><li><span class='opt'>E)</span> Yönetme</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> A) Pazarlama</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soruda ana kavram Pazarlama seçeneği üzerinden ölçülür. Konunun tanımı ile seçenek mantığını birlikte düşünmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Hedef pazar içerisinde yer alan, tatmin edilecek ihtiyacı, harcayacak parası ve harcama isteği olan kişi, kurum veya kuruluş olarak tanımlanan pazarlama kavramı aşağıdakilerden hangisidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Pazarlamacı</li><li><span class='opt'>B)</span> Tüketici</li><li><span class='opt'>C)</span> Aracı</li><li><span class='opt'>D)</span> Üretici</li><li><span class='opt'>E)</span> Satıcı</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Tüketici</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soruda ana kavram Tüketici seçeneği üzerinden ölçülür. Konunun tanımı ile seçenek mantığını birlikte düşünmek gerekir.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>2. Müşteri Değeri, Memnuniyeti ve Müşteri İlişkileri</h2>
+      </div>
+      <div class="topic-body">
+        <p>Modern işletmeler için müşteriyi kazanmak kadar onu elde tutmak da önemlidir. Müşteri değeri kavramı, müşterinin elde ettiği toplam yarar ile katlandığı toplam maliyet arasındaki fark üzerinden değerlendirilir. Müşteri memnuniyeti ise beklenti ile algılanan performansın kıyaslanması sonucunda oluşur. Beklentinin altında kalan performans memnuniyetsizlik, üstüne çıkan performans ise tatmin ve sadakat doğurabilir.</p>
+        <p>Müşteri ilişkileri yönetimi, işletmenin müşterilerle uzun dönemli ve kazançlı ilişkiler kurmasını hedefleyen yönetim anlayışıdır. Bu yaklaşım kısa vadeli satış hedeflerine değil, müşteri bilgisinin doğru kullanılmasına, müşteriyi elde tutmaya ve yaşam boyu değeri artırmaya odaklanır. Özellikle sınavlarda müşteri yaşam boyu değeri ile müşteri ilişkileri yönetimi birbirine yakın kavramlar olarak sorulabilir; aralarındaki farkı bilmek gerekir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">“Müşteri değeri ve memnuniyeti sunarak kazançlı ilişkiler kurma, koruma ve artırmaya” ne ad verilmektedir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Veritabanlı pazarlama</li><li><span class='opt'>B)</span> Toplumsal pazarlama</li><li><span class='opt'>C)</span> Müşteri ilişkileri yönetimi</li><li><span class='opt'>D)</span> Algılanan müşteri değeri</li><li><span class='opt'>E)</span> Yaşam boyu müşteri değeri</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> C) Müşteri ilişkileri yönetimi</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soruda ana kavram Müşteri ilişkileri yönetimi seçeneği üzerinden ölçülür. Konunun tanımı ile seçenek mantığını birlikte düşünmek gerekir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Müşteri ilişkileri yönetimi aşağıdaki anlayışlardan hangisi ile daha çok ilişkilidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Müşteri deneyimi yönetimi</li><li><span class='opt'>B)</span> Satış anlayışı</li><li><span class='opt'>C)</span> Toplumsal pazarlama yaklaşımı</li><li><span class='opt'>D)</span> Üretim anlayışı</li><li><span class='opt'>E)</span> Kâr amacı olmayan yaklaşım</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> C) Toplumsal pazarlama yaklaşımı</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bu soru, müşteriyle kısa süreli satış değil uzun vadeli ilişki kurma mantığını ölçer. MİY, müşteriyi tanıma, elde tutma ve ilişkiyi kârlı biçimde sürdürme yaklaşımıdır.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>3. Pazarlama Anlayışlarının Gelişimi</h2>
+      </div>
+      <div class="topic-body">
+        <p>Pazarlama düşüncesi tarih boyunca farklı evrelerden geçmiştir. Üretim anlayışında düşük maliyetli ve yaygın üretim ön plandadır. Ürün anlayışında kaliteli ve teknik olarak güçlü ürünlerin kendiliğinden talep göreceği düşünülür. Satış anlayışında ise yoğun satış çabalarıyla tüketicinin ikna edilebileceği kabul edilir. Bu anlayışlar işletmenin bakış açısını ürün ve satış merkezli kurar.</p>
+        <p>Modern pazarlama anlayışı ise bu merkezî konumu müşteriye kaydırır. Burada asıl mesele, müşterinin ihtiyacını anlamak ve rakiplerden daha uygun değer üretmektir. Toplumsal pazarlama anlayışı ise buna toplumun uzun dönemli yararını da ekler. Bu yüzden soru kalıplarında genellikle &#x27;müşteri odaklılık&#x27;, &#x27;uzun dönemli kârlılık&#x27; ve &#x27;toplum yararı&#x27; kavramları ayırt ettirilir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Modern pazarlama anlayışına göre aşağıdaki ifadelerden hangisi yanlıştır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Pazarlama müşteriyi memnun ederken firma ihtiyaç ve isteklerini göz ardı etmemeli, denge kurulmalıdır.</li><li><span class='opt'>B)</span> Pazarlama, tüm işletme birimlerini kapsayan ve müşterinin gözüyle olaylara bakmayı ilke edinen yönetim felsefesidir.</li><li><span class='opt'>C)</span> Müşteri önemli olmakla birlikte kral değildir, her İsteği mutlaka yapılmak zorunda değildir.</li><li><span class='opt'>D)</span> Müşterinin isteklerine dikkat etmeye gerek yoktur.</li><li><span class='opt'>E)</span> Pazarlamanın amacı müşteriyi memnun etmektir.</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Müşterinin isteklerine dikkat etmeye gerek yoktur.</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Modern anlayış müşteriyi merkeze alır; müşterinin isteklerini bütünüyle yok saymak bu yaklaşımın mantığına aykırıdır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">“Modern pazarlama anlayışı ürün odaklı değil, ….. odaklı bir yaklaşım sergilemektedir.” ifadesinde boş bırakılan yere aşağıdaki ifadelerden hangisi getirilmelidir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> müşteri</li><li><span class='opt'>B)</span> satış</li><li><span class='opt'>C)</span> fiyat</li><li><span class='opt'>D)</span> pazar</li><li><span class='opt'>E)</span> kalite</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> A) müşteri</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Modern pazarlama ürünün teknik özelliklerinden çok müşterinin ihtiyacına ve algıladığı değere odaklanır.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>4. Pazarlama Çevresi ve Makro-Mikro Unsurlar</h2>
+      </div>
+      <div class="topic-body">
+        <p>Her işletme faaliyetlerini belirli bir çevre içinde sürdürür. Mikro çevre; müşteriler, rakipler, aracılar, tedarikçiler ve kamuoyu gibi işletmeye yakın unsurlardan oluşur. Makro çevre ise işletmenin daha geniş çevresini belirleyen demografik, ekonomik, doğal, teknolojik, politik-yasal ve sosyokültürel güçleri kapsar. İşletme bu unsurları doğrudan kontrol edemese de, pazarlama stratejilerini belirlerken bunları dikkate almak zorundadır.</p>
+        <p>Özellikle makro çevre sorularında teknolojik değişim, demografik yapı, ekonomik satın alma gücü ve doğal çevre sorunları sık öne çıkar. Buradaki temel mantık, işletmenin çevresel değişimi okuyup fırsat ve tehditleri doğru yorumlamasıdır. Sınavlarda yanlış seçenekler genellikle bir çevre unsurunu başka bir çevre başlığıyla karıştıracak şekilde hazırlanır.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Makro çevre unsurları ile ilgili aşağıdaki bilgilerden hangisi yanlıştır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Kültürel çevre toplumun temel değerlerini, algılarını, tercihlerini ve davranışlarını etkileyen kurumlar ve diğer güçlerden oluşur.</li><li><span class='opt'>B)</span> Politik ve yasal çevre; kanunlar, devlet kurumları ve toplumdaki grupları ve bireyleri etkileyen ya da sınırlayan baskı gruplarından oluşur.</li><li><span class='opt'>C)</span> Dünya ve ülke nüfusunun miktarı, cinsiyet dağılımı, coğrafi dağılımı, eğitim düzeyi gibi faktörler demografik çevre faktörleri arasında yer alır.</li><li><span class='opt'>D)</span> Teknolojik çevrede gerçekleşen yenilikler ve buluşlar tüketici davranışlarını ve işletmeleri sadece olumlu olarak etkileyebilir.</li><li><span class='opt'>E)</span> Ekonomik çevre faktörleri tüketicinin satın alma gücü ve harcama kalıplarını etkiler.</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Teknolojik çevrede gerçekleşen yenilikler ve buluşlar tüketici davranışlarını ve işletmeleri sadece olumlu olarak etkileyebilir.</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Makro çevre unsurları işletmenin doğrudan kontrol edemediği geniş çevresel faktörlerdir. Teknolojik gelişmeler yalnızca olumlu değil, bazen tehdit oluşturacak biçimde de etki edebilir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdaki trendlerden hangisi doğal çevre sorunlarından biri değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Tüketici satın alma davranışındaki değişim</li><li><span class='opt'>B)</span> Enerji fiyatlarındaki artış</li><li><span class='opt'>C)</span> Hammadde yetersizği</li><li><span class='opt'>D)</span> Hükümetin doğal kaynak yönetimine müdahalesi</li><li><span class='opt'>E)</span> Artan nüfus</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Artan nüfus</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Doğal çevre sorunları kıtlık, enerji maliyetleri ve çevre baskısı gibi unsurları içerir. Her toplumsal trend doğal çevre sorunu sayılmaz.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>5. Tüketici Davranışı ve Satın Alma Süreci</h2>
+      </div>
+      <div class="topic-body">
+        <p>Tüketici davranışı, bireylerin ya da grupların mal, hizmet, fikir veya deneyimleri seçerken, satın alırken, kullanırken ve elden çıkarırken gösterdikleri davranışları ifade eder. Bu davranışlar rastlantısal değildir; çeşitli güdüler, çevresel etkiler, sosyal çevre ve kişisel özellikler tarafından şekillendirilir. Bu nedenle tüketici davranışı dinamik, çok boyutlu ve değişken bir süreç olarak ele alınır.</p>
+        <p>Satın alma süreci genel olarak problem fark etme, bilgi arama, alternatifleri değerlendirme, satın alma kararı ve satın alma sonrası davranışlar şeklinde ilerler. Ayrıca sosyal risk, psikolojik risk ve performans riski gibi kavramlar da tüketicinin kararsızlık yaşadığı durumları açıklar. Ders sorularında özellikle referans grupları, sosyal etki ve satın alma sürecindeki belirsizlikler üzerinden kavram soruları gelir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Tüketici davranışına ilişkin verilen özelliklerden hangisi yanlıştır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Çeşitli faaliyetlerden oluşur.</li><li><span class='opt'>B)</span> Güdülenmez.</li><li><span class='opt'>C)</span> Çevre faktörlerinden etkilenir.</li><li><span class='opt'>D)</span> Dinamik bir süreçtir.</li><li><span class='opt'>E)</span> Değişik rollerle ilgilenir.</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Güdülenmez.</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Tüketici davranışı rastgele değil güdülenmiş ve çevreden etkilenen bir süreçtir. Bu yüzden &#x27;güdülenmez&#x27; ifadesi yanlıştır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2024-2025 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Tüketicilerin satın alma sürecinde “ailem, arkadaşlarım ne düşünür“ diye belirsizlik içinde bulunması ne tür bir risk algılamasıdır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Zaman riski</li><li><span class='opt'>B)</span> Performans riski</li><li><span class='opt'>C)</span> Psikolojik risk</li><li><span class='opt'>D)</span> Sosyal risk</li><li><span class='opt'>E)</span> Fiziksel risk</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Sosyal risk</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Sosyal risk, kişinin çevresindeki insanların değerlendirmesinden çekinmesiyle ilgilidir. Ürünün başkaları tarafından nasıl algılanacağı burada belirleyicidir.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>6. Pazar Bölümlendirme ve Hedef Pazar Seçimi</h2>
+      </div>
+      <div class="topic-body">
+        <p>Toplam pazar genellikle heterojen bir yapıdadır. Bu pazarı benzer ihtiyaçlara, özelliklere ve davranışlara sahip alt gruplara ayırma işlemine pazar bölümlendirme denir. İşletmeler bu sayede herkes için tek bir teklif sunmak yerine, belirli müşteri grupları için daha uygun çözümler geliştirebilir. Demografik, coğrafi, psikografik ve davranışsal değişkenler bölümleme ölçütleri arasında yer alır.</p>
+        <p>Hedef pazar ise işletmenin hizmet vermek için seçtiği bölüm ya da bölümlerdir. Pazar bölümlendirme; hedef seçiminde, boşlukların görülmesinde ve farklılaştırılmış stratejilerin geliştirilmesinde temel rol oynar. Eğitim, yaş, şehir, ülke ve cinsiyet gibi değişkenlerin hangi kategoriye girdiğini net biçimde ayırt etmek sınav açısından önemlidir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">1. Okuryazar olmayan 2. İlkokul mezunları 3. Lise mezunları 4. Üniversite mezunları 5. Lisansüstü mezunlar Yukarıda verilen bölümlendirilmiş pazar aşağıda verilen kriterlerden hangisine göre yapılmıştır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Eğitim</li><li><span class='opt'>B)</span> Ülke</li><li><span class='opt'>C)</span> Yaş</li><li><span class='opt'>D)</span> Cinsiyet</li><li><span class='opt'>E)</span> Şehir</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> A) Eğitim</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Verilen gruplar eğitim düzeyine göre ayrılmıştır. Bu nedenle kullanılan bölümleme değişkeni demografik nitelikte olan eğitimdir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi pazar bölümlendirmenin faydalarından biri değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Farklılaştırıcı pazarlama stratejilerinin geliştirilmesini sağlar.</li><li><span class='opt'>B)</span> Fırsat ve tehditlerin belirlenmesinde faydalıdır.</li><li><span class='opt'>C)</span> Hedef pazar seçimine temel oluşturur.</li><li><span class='opt'>D)</span> Pazar bölümünün anlaşılmasını ve bunları karşılayacak pazarlama karması paketi oluşturulmasını sağlar.</li><li><span class='opt'>E)</span> Pazardaki boşlukların görünmesini engeller.</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Pazardaki boşlukların görünmesini engeller.</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bölümlendirme, pazardaki fırsatları görünür kılar; onları gizlemez. Amaç daha uygun hedefleme ve daha etkili pazarlama karması geliştirmektir.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>7. Örgütsel ve Endüstriyel Pazarlar</h2>
+      </div>
+      <div class="topic-body">
+        <p>Örgütsel pazarlar, mal ve hizmetleri kişisel tüketim için değil; üretim yapmak, yeniden satmak ya da kurumsal amaçlarla kullanmak için satın alan işletme ve kuruluşlardan oluşur. Endüstriyel pazarlar da bu yapının temel türlerinden biridir. Bu pazarlarda alıcı sayısı az, satın alma süreci ise daha karmaşık ve profesyoneldir. Talep çoğu zaman nihai tüketici pazarından türediği için &#x27;türetilmiş talep&#x27; olarak açıklanır.</p>
+        <p>Endüstriyel satın alma karar sürecinde ihtiyaçların tanımlanması, ürün niteliklerinin belirlenmesi, tedarikçi araştırma, teklif alma, tedarikçi seçimi ve performans değerlendirme gibi aşamalar bulunur. Sınavlarda bu süreç adımlarıyla örgütsel pazarın tüketici pazarından farkları karşılaştırmalı olarak sorulur.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi endüstriyel pazarın özelliklerinden biri değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Çapraz satış süreci</li><li><span class='opt'>B)</span> Yakın satıcı-müşteri ilişkisi</li><li><span class='opt'>C)</span> Az miktarda satın alım yapan çok sayıda alıcı</li><li><span class='opt'>D)</span> Profesyonel satın alma</li><li><span class='opt'>E)</span> Düşük rekabet yoğunluğu</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Düşük rekabet yoğunluğu</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Endüstriyel pazarlarda alıcı sayısı genellikle azdır ve satın alma profesyoneldir. Çok sayıda küçük alıcı yapısı daha çok tüketici pazarına yakındır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Vize</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Örgütsel pazarlar ile tüketici pazarları arasında aşağıda yer verilen ifadelerden hangisi yanlıştır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Örgütsel pazarlarda talep, tüketim pazarlarına kıyasla çok daha dalgalı ve değişkendir.</li><li><span class='opt'>B)</span> Örgütsel pazarlarda satın alma süreçleri tüketici pazarlarından daha karmaşıktır.</li><li><span class='opt'>C)</span> Örgütsel pazarlarda daha az sayıda alıcı bulunmaktadır.</li><li><span class='opt'>D)</span> Örgütsel pazarlar tüketici pazarlarına göre daha az kar sunmaktadır.</li><li><span class='opt'>E)</span> Örgütsel alıcıların satın alma karar sürecinde, alıcı ve satıcılar genellikle daha fazla birbirine bağımlıdır.</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Örgütsel pazarlar tüketici pazarlarına göre daha az kar sunmaktadır.</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Örgütsel pazarlarda süreç daha karmaşıktır, alıcı sayısı daha azdır ve ilişkiler daha bağımlıdır. &#x27;Daha az kâr sunar&#x27; gibi genellemeler doğru kabul edilmez.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>8. Ürün, Hizmet ve Hizmetlerin Özellikleri</h2>
+      </div>
+      <div class="topic-body">
+        <p>Ürün, ihtiyaç ve istekleri karşılamak amacıyla pazara sunulan her türlü somut ya da soyut değerdir. Pazarlamada ürün yalnızca fiziksel nesne anlamına gelmez; hizmetler, fikirler, deneyimler ve çözümler de ürün kapsamında değerlendirilebilir. Öz ürün, somut ürün ve zenginleştirilmiş ürün ayrımı ürünün farklı katmanlarını anlamak açısından önemlidir.</p>
+        <p>Hizmetler ise soyutluk, ayrılmazlık, heterojenlik ve dayanıksızlık gibi özellikler taşır. Hizmet satın almadan önce tutulamaz, tam olarak denenemez ve çoğu zaman üretim ile tüketim eş zamanlı gerçekleşir. Ayrıca çalışan performansındaki farklılıklar hizmet kalitesinde değişkenlik yaratır. Bu nedenle hizmet pazarlaması, klasik ürün pazarlamasına göre farklı hassasiyetler içerir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Hizmetlerin dokunulmazlık özelliği ile ilgili olarak aşağıda verilenlerden hangisi yanlıştır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Satın alınmadan önce tutulmaz.</li><li><span class='opt'>B)</span> Satın alınmadan önce görülmez.</li><li><span class='opt'>C)</span> Satın alınmadan önce tadılmaz.</li><li><span class='opt'>D)</span> Satın alınmadan önce duyulmaz.</li><li><span class='opt'>E)</span> Satın alınmadan önce tahminde bulunulamaz.</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> E) Satın alınmadan önce tahminde bulunulamaz.</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Hizmet satın almadan önce görülemez, tutulamaz ya da denenemez; fakat tüketici yine de bazı ipuçlarıyla tahminde bulunabilir. Bu yüzden &#x27;tahminde bulunulamaz&#x27; ifadesi aşırıdır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi bir hizmet işletmesi örneği değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Otel</li><li><span class='opt'>B)</span> Kafeterya</li><li><span class='opt'>C)</span> Berber</li><li><span class='opt'>D)</span> Petrol rafinerisi</li><li><span class='opt'>E)</span> Banka</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Petrol rafinerisi</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Petrol rafinerisi fiziksel mal üreten bir sanayi işletmesidir. Diğer seçenekler ağırlıklı olarak hizmet sunar.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>9. Pazarlama Karması, 4P-4C ve Fayda Türleri</h2>
+      </div>
+      <div class="topic-body">
+        <p>Pazarlama karması, işletmenin hedef pazarda kullanabildiği temel araçların bütünüdür. Klasik modelde bu araçlar ürün, fiyat, dağıtım ve tutundurma olarak dört başlıkta toplanır. Daha müşteri odaklı yorumda ise 4C yaklaşımıyla müşteri değeri, müşteriye maliyet, kolaylık ve iletişim boyutları öne çıkar. Bu dönüşüm, işletme merkezli bakıştan müşteri merkezli bakışa geçişi gösterir.</p>
+        <p>Pazarlama aynı zamanda şekil, yer, zaman ve mülkiyet faydası yaratarak ürünün tüketici için anlamını güçlendirir. Örneğin zaman faydası ürünü ihtiyaç duyulan anda hazır bulundurmakla ilgilidir. Dağıtım ise üretim ile tüketim arasındaki boşluğu kapatan kritik karmalardan biridir. 4P ve fayda türleri sorularında kavramları birbiriyle karıştırmamak gerekir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Modern pazarlama anlayışına göre işletmeler açısından 4P, müşteriler açısından 4C ele alınmaktadır. Aşağıdakilerden hangisi 4C kapsamında değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Müşteri çözümü/Müşteri değeri</li><li><span class='opt'>B)</span> Müşteriye kolaylık</li><li><span class='opt'>C)</span> Müşteriyle arkadaşlık</li><li><span class='opt'>D)</span> Müşteriye maliyeti</li><li><span class='opt'>E)</span> İletişim</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> C) Müşteriyle arkadaşlık</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> 4C modeli müşterinin gözünden düşünmeyi amaçlar. Arkadaşlık değil; müşteri değeri, maliyet, kolaylık ve iletişim esas alınır.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">1964 yılında E. Jerome McCarthy tarafından pazarlama karması (4P) kavramı dört ana grupta toplanarak sadeleştirilmiştir. Aşağıdakilerden hangisi bu modelde yer almaz?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Dağıtım</li><li><span class='opt'>B)</span> Ürün</li><li><span class='opt'>C)</span> Tutundurma</li><li><span class='opt'>D)</span> Teknoloji</li><li><span class='opt'>E)</span> Fiyat</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Teknoloji</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Klasik pazarlama karması ürün, fiyat, dağıtım ve tutundurmadan oluşur. Bu dört unsur birlikte 4P modelini oluşturur.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>10. Tutundurma, Doğrudan ve Elektronik Pazarlama</h2>
+      </div>
+      <div class="topic-body">
+        <p>Tutundurma faaliyetleri, hedef kitlenin bilgilendirilmesi, ikna edilmesi ve hatırlatılması için kullanılan iletişim çabalarını kapsar. Reklam, kişisel satış, halkla ilişkiler, satış geliştirme ve doğrudan pazarlama bu çerçevede değerlendirilir. Doğrudan satış daha çok yüz yüze temasla yürütülürken, doğrudan pazarlama telefon, televizyon, internet gibi araçlarla ölçülebilir tepki yaratmayı amaçlar.</p>
+        <p>Elektronik pazarlama ise dijital ağlar sayesinde hız, etkileşim, düşük maliyet ve kişiselleştirme avantajı sağlar. İnternet, zaman ve mekân sınırlarını azaltması bakımından pazarlama iletişiminde güçlü bir araçtır. Ancak her sektör aynı ölçüde dijital ortama taşınamaz. Bu başlıkta özellikle doğrudan satış ile doğrudan pazarlama farkı ve internetin sağladığı üstünlükler üzerinde durulmalıdır.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıda verilen doğrudan satış ve doğrudan pazarlama ile ilgili ifadelerden hangisi yanlıştır?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Doğrudan satışta, satış temsilcisi ile müşteri arasında temas kurulur.</li><li><span class='opt'>B)</span> Doğrudan pazarlamada, bazı iletişim araçları kullanılır (telefon, televizyon, internet vb.).</li><li><span class='opt'>C)</span> Doğrudan satış, pazarlamada kullanılan en etkili promosyon aracı olsa da diğer araçlarla karşılaştırıldığında satış gücü yaratma ve elde tutma maliyeti daha yüksektir.</li><li><span class='opt'>D)</span> En ucuz pazarlama yöntemi doğrudan satış ile gerçekleştirilir.</li><li><span class='opt'>E)</span> Doğrudan satışta, satış temsilcisi müşteriyle yüz yüze konuşur.</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) En ucuz pazarlama yöntemi doğrudan satış ile gerçekleştirilir.</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Doğrudan satış etkili olsa da en ucuz yöntem değildir; insan kaynağı ve temas maliyeti yüksektir. Soruda bu fark ölçülür.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi internetin, işletmeler ve müşteriler açısından üstünlüklerinden biri değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Pazarlama bütçesinden tasarruf</li><li><span class='opt'>B)</span> İletişim süresinin uzunluğu</li><li><span class='opt'>C)</span> Zengin bilgi ve karşılıklı etkileşim</li><li><span class='opt'>D)</span> Fırsat eşitliği</li><li><span class='opt'>E)</span> Sınırsız zaman ve mekân</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) İletişim süresinin uzunluğu</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> İnternet hız ve etkileşim sağlar; iletişim süresini uzatmak bir üstünlük değil dezavantajdır.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>11. Pazarlama Bilgi Sistemi ve Pazarlama Araştırması</h2>
+      </div>
+      <div class="topic-body">
+        <p>Pazarlama kararlarının isabetli olabilmesi için doğru, güncel ve işlenmiş bilgi gerekir. Pazarlama bilgi sistemi; bu bilgiyi düzenli biçimde toplamak, saklamak, analiz etmek ve yöneticilere sunmak için geliştirilmiş bütünleşik bir yapıdır. İşletme içi raporlar, pazarlama istihbaratı, araştırmalar ve karar destek sistemleri bu yapının parçaları olabilir.</p>
+        <p>Pazarlama araştırması ise belirli bir karar problemini çözmeye yönelik sistematik veri toplama sürecidir. Sürecin ilk adımı problemin ve araştırma amaçlarının doğru tanımlanmasıdır. Birincil veri belirli bir amaç için toplanır; ikincil veri ise daha önce başka amaçlarla elde edilmiş hazır bilgilerden oluşur. Sınavlarda hem bilgi sistemi amaçları hem de araştırma basamakları birlikte sorulabilir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi pazarlama bilgi sisteminin günümüz işletmeleri açısından önemli hale gelmesinde etkili olan nedenlerden biri değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> İşletmelerin yönetim yapısının zamanla karmaşıklaşması</li><li><span class='opt'>B)</span> Pazarlamanın, günümüzde ilk defa işletmeler tarafından ele alınması</li><li><span class='opt'>C)</span> Çevresel faktörlerdeki değişmeler</li><li><span class='opt'>D)</span> Çevresel faktörlerdeki gelişmeler</li><li><span class='opt'>E)</span> İşletmelerin pazarlama faaliyetlerinin zamanla karmaşık bir hâl almaya başlaması</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> B) Pazarlamanın, günümüzde ilk defa işletmeler tarafından ele alınması</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bilgi sistemleri çevresel ve örgütsel karmaşıklık arttıkça daha gerekli olur. &#x27;Pazarlamanın ilk defa ele alınması&#x27; gibi ifade gerçeği yansıtmaz.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2023-2024 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi pazarlama bilgi sisteminin amaçlarından biri değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> İnsanlarla iletişim ortamını ortadan kaldırmak</li><li><span class='opt'>B)</span> Karar verme sürecine destek sağlamak</li><li><span class='opt'>C)</span> Mevcut bilginin etkin kullanımını gerçekleştirmek</li><li><span class='opt'>D)</span> Öğrenen bir çevre yaratmak</li><li><span class='opt'>E)</span> Planlama sürecini yapısal hâle getirmek</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> A) İnsanlarla iletişim ortamını ortadan kaldırmak</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Bilgi sistemi iletişimi yok etmek için değil, kararları desteklemek ve bilgiyi etkin kullanmak için kurulur.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="topic-card">
+      <div class="topic-header">
+        <h2>12. Uluslararası Pazarlama, Sosyal Sorumluluk ve Sürdürülebilirlik</h2>
+      </div>
+      <div class="topic-body">
+        <p>İşletmeler büyümek, yeni müşterilere ulaşmak, iç pazardaki sınırlılıkları aşmak ve rekabet avantajı elde etmek için uluslararası pazarlara yönelir. En düşük riskli giriş biçimi genellikle ihracat olarak değerlendirilir. Daha ileri aşamalarda ortak girişim, doğrudan yatırım ve küresel pazarlama düzeylerine geçilebilir. Bu başlıkta hem giriş yöntemleri hem de işletmelerin neden dış pazarlara açıldığı önemlidir.</p>
+        <p>Öte yandan çağdaş pazarlama, yalnızca satış ve kâr değil; etik, toplum yararı ve sürdürülebilirlik boyutlarını da içerir. Sosyal sorumluluk güvenli ürün tasarımı, doğru bilgilendirme ve aldatıcı reklamlardan kaçınma gibi ilkeleri kapsar. Sosyal pazarlama ise toplumsal yarar amacıyla davranış değişikliği yaratmayı hedefler. Bu yüzden sosyal sorumluluk ile kâr maksimizasyonunu birbirinden ayırabilmek gerekir.</p>
+        <div class="exam-box">
+          <h3>Benzeri Sorular</h3>
+          
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıda verilenlerden hangisi sosyal sorumluluk alanlarından biri değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Şirketlerin kârların maksimize etmeye çalışması</li><li><span class='opt'>B)</span> Reklamlarda aldatıcı bilgiden kaçınılması</li><li><span class='opt'>C)</span> Güvenli ürünlerin paketlenmesi</li><li><span class='opt'>D)</span> Tüketiciye ürünle ilgili yeterli bilginin verilmesi</li><li><span class='opt'>E)</span> Güvenli ürünlerin tasarlanması</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> A) Şirketlerin kârların maksimize etmeye çalışması</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> Sosyal sorumluluk tüketiciyi korumayı ve doğru bilgilendirmeyi içerir; yalnızca kârı maksimize etmek bu alanın parçası değildir.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-meta"><span>2022-2023 Final</span><span>Benzeri Soru</span></div>
+      <div class="question-text">Aşağıdakilerden hangisi işletmeleri uluslararası pazarlamaya yönelten nedenlerden biri değildir?</div>
+      <ol class="options">
+        <li><span class='opt'>A)</span> Dış pazarlardaki vergi ve diğer teşvik avantajlarından yararlanmak</li><li><span class='opt'>B)</span> İç pazarlarda ömrünü tamamlamak üzere olan ürünlerin ömrünü uzatmak</li><li><span class='opt'>C)</span> Pazarın geliştirilmek istenmesi</li><li><span class='opt'>D)</span> Vergi vermemek</li><li><span class='opt'>E)</span> Dünya pazarlarının sunduğu potansiyel</li>
+      </ol>
+      <div class="answer-box"><strong>Doğru cevap:</strong> D) Vergi vermemek</div>
+      <div class="mini-note"><strong>Kısa açıklama:</strong> İşletmeler teşvik, yeni pazar ve büyüme için dışa açılır; vergi vermemek ise meşru bir pazarlama gerekçesi değildir.</div>
+    </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <div class="footer">Başarılar dilerim</div>
+  </div>
+</body>
+</html>
