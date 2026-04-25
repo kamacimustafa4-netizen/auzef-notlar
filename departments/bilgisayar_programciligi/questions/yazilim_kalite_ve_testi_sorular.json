@@ -1,0 +1,2464 @@
+{
+  "course": "Yazilim Kalite ve Testi",
+  "lesson_code": "YAZILIM_KALITE_VE_TESTI",
+  "exam_count": 7,
+  "exams": [
+    {
+      "title": "Yazılım Kalite ve Testi 2025-2026 Vize",
+      "exam_title": "Yazılım Kalite ve Testi 2025-2026 Vize",
+      "exam_type": "vize",
+      "year": "2025-2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_ve_Testi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi kurtarma testinin kontrolünü gerçekleştirdiği işlemlerden biri değildir?",
+          "options": {
+            "A": "Çöken bir modüldeki verilerin yeniden elde edilip edilemediği",
+            "B": "Yazılımdaki herhangi bir sorunda bilgi kaybı oluşup oluşmadığı",
+            "C": "Yazılımın dışarıdan saldırıya uğrayıp uğramadığı",
+            "D": "Çöken bir modülün yeniden eski haline gelip gelmediği",
+            "E": "Bir geri kurtarma işlemi yapıldığı takdirde zamanlamanın ne kadar olduğu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi fonksiyonel testlerin amaçlarından biri değildir?",
+          "options": {
+            "A": "Yazılım biriminin hatasız, güvenilir ve etkin bir şekilde çalışması",
+            "B": "Yazılım biriminin ihtiyaçları tam olarak karşılayıp karşılamadığının belirlenmesi",
+            "C": "Yazılım biriminin sistem gereksinimlerine uygun olması",
+            "D": "Yazılım biriminin kullanıcının isteklerine cevap vermesi",
+            "E": "Yazılım biriminin yüksek performansa sahip olması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İngilizce'de yazılım hatası için genellikle bug (böcek) kelimesinin kullanılmasının sebebi nedir?",
+          "options": {
+            "A": "Herhangi bir sebebi yoktur, rastgele konulmuş bir isimdir",
+            "B": "Yazılım hatalarının böceklere benzer şekilde zarar vermesi",
+            "C": "Böcek ve hata kelimelerinin İngilizce'de aynı kökten gelmesi",
+            "D": "Yazılım hatalarının fiziksel şeklinin böceğe benzemesi",
+            "E": "Tespit edilen ilk yazılım hatasının gerçekten bir böcek yüzünden gerçekleşmesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Geliştirilecek yazılımla ilgili, kodlardan önce test senaryolarının yazıldığı yaklaşıma verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Dokümantasyon Bazlı Yazılım",
+            "B": "Kodlama Tabanlı Geliştirme",
+            "C": "Test Güdümlü Geliştirme",
+            "D": "Analiz Bazlı Tasarım",
+            "E": "Bakım Temelli Yazılım"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Öğrenci numaralarının girildiği bir alana girilen tüm değerlerin test edilmesi mümkün değildir. Bunun sebebi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Alana girilebilecek doğru ya da yanlış sonsuz adet değer bulunması",
+            "B": "Alana girilen bir sayının öğrenci numarası olup olmamasının tespit edilememesi",
+            "C": "Alana girilecek değerlerin çift ya da tek olabilmesi",
+            "D": "Alana girilebilecek değerlerin farklı sayıda hane içerebilmesi",
+            "E": "Farklı alanların da öğrenci numarası değerini içerebilmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi bir mimarî ve /veya tasarım hatası değildir?",
+          "options": {
+            "A": "Yanlış sırada komut kullanmak",
+            "B": "Belirtilmemiş birincil veri ve veri işleme sınıfları",
+            "C": "Yazılım üzerinde gerçekleştirilen eksik inceleme",
+            "D": "Iş süreç tasarımının zayıf kalması",
+            "E": "Yazılımın müşterinin bilgisayarında çalışmaması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yeni bir cep telefonu modeli çıktığında bu model genellikle önceki modellerden faydalanılarak test edilir. Bu test işlemine ne isim verilmektedir?",
+          "options": {
+            "A": "N-Anahtar Testi (N-Switch Testing)",
+            "B": "Karar Testi (Decision Testing)",
+            "C": "Çevik Test (Agile Testing)",
+            "D": "Karşılaştırma Testi (Benchmark Test)",
+            "E": "Negatif Test (Negative Testing)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bazı yazılım testleri doğrudan yazılımın özelliklerini ve kriterlerini test etmeyi amaçlar. Aşağıdakilerden hangisi bu tip bir test değildir?",
+          "options": {
+            "A": "Sürdürülebilirlik Testi",
+            "B": "Güvenlik Testi",
+            "C": "Entegrasyon Testi",
+            "D": "Kurtarılabilirlik Testi",
+            "E": "Güvenilirlik Testi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi bir yazılım test raporunda genellikle bulunan bilgilerden biri değildir?",
+          "options": {
+            "A": "Hangi verilerin kullanıldığı",
+            "B": "Hangi testin uygulandığı",
+            "C": "Hangi bileşenin test edildiği",
+            "D": "Testi kimin gerçekleştirdiği",
+            "E": "Ne gibi sonuçlar elde edildiği"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Kurgusuz test\" ismine sahip olan yazılım testine bu isim aşağıdaki özelliklerinin hangisine bağlı olarak verilmiştir?",
+          "options": {
+            "A": "Test esnasında hangi verilerin kullanıldığı",
+            "B": "Testin nasıl planlandığı",
+            "C": "Test esnasında hangi teknolojilerin kullanıldığı",
+            "D": "Testin nasıl uygulandığı",
+            "E": "Yazılımın hangi parçasının test edildiği"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir yazılım biriminde küçük çaplı testler yapılmış ve daha büyük çaplı testler için hazırlık aşaması başlamışsa bu durumda bu yazılım biriminin aşağıdaki testlerden hangisini tamamladığı ifade edilir?",
+          "options": {
+            "A": "Öncül test",
+            "B": "Analiz testi",
+            "C": "Performans testi",
+            "D": "Duman testi",
+            "E": "Yük testi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdaki hangi değerlere sahip olan bir yazılım riskinin RPN değeri 12 değildir?",
+          "options": {
+            "A": "Sistem Açısından Önemine Göre: Veri Kaybı / Müşteri Açısından Önemine Göre: Düzeltilmesi İyi Olacak / Gerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan",
+            "B": "Sistem Açısından Önemine Göre: İşlevsellik Kaybı / Müşteri Açısından Önemine Göre: Zorunlu / Gerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan",
+            "C": "Sistem Açısından Önemine Göre: Kozmetik Risk / Müşteri Açısından Önemine Göre: İsteğe Bağlı / Gerçekleşme Olasılığına Göre: Muhtemel",
+            "D": "Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik Kaybı / Müşteri Açısından Önemine Göre: Düzeltilmesi İyi Olacak / Gerçekleşme Olasılığına Göre: Muhtemel",
+            "E": "Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik Kaybı / Müşteri Açısından Önemine Göre: Zorunlu / Gerçekleşme Olasılığına Göre: Mümkün"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi bir yazılım riskinin Müşteri Açısından Önemine göre yapılmış bir kategorilendirme değildir?",
+          "options": {
+            "A": "İsteğe bağlı",
+            "B": "Kritik",
+            "C": "Zorunlu",
+            "D": "Acil",
+            "E": "Önemli"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki şıklarda verilen test türlerinden hangileri, yazılımda değişiklik yapıldıktan sonraki durumları test eden testlerdir?",
+          "options": {
+            "A": "Kurulum Testi - Ölçeklenebilirlik Testi",
+            "B": "Eşzamanlılık Testi - Hacim Testi",
+            "C": "Saldırı Bazlı Test - Risk Bazlı Test",
+            "D": "Bakım Testi - Regresyon Testi",
+            "E": "Stres Testi - Yük Testi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerin hangisi bir yazılımda yapılabilecek doğrudan ölçmelere örnek olarak verilemez?",
+          "options": {
+            "A": "Yazılımcının kod yazma performansı",
+            "B": "Veri tabanındaki toplam tablo sayısı",
+            "C": "Yazılım dokümantasyonunun sayfa sayısı",
+            "D": "Yazılım testinin süresi",
+            "E": "Yazılım dosyalarının toplam boyutu"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdaki özelliklerden hangisinin bir yazılım geliştiricide olmasına gerek duyulmazken bir yazılım test uzmanında kesin olarak bulunması beklenir?",
+          "options": {
+            "A": "Programlama dilini iyi bilmek",
+            "B": "Şüphecilik",
+            "C": "Planlı olmak",
+            "D": "Analitik olmak",
+            "E": "Teknik ayrıntılara sahip olmak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Test karşılaştırma işlemi esnasında test karşılaştırıcı aşağıdakilerden hangilerini karşılaştırır?",
+          "options": {
+            "A": "Beklenen sonuç gerçekleşen sonuç",
+            "B": "Test girdisi - test çıktısı",
+            "C": "Koşul-test kapanışı",
+            "D": "Test koşulu - test ortamı",
+            "E": "Test senaryosu - test prosedürü"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yazılımlarda bazen bir birimin diğerini olumsuz olarak etkileyebildiği bilinmektedir. Bu durum aşağıdaki testlerin hangisiyle ortaya çıkabilir?",
+          "options": {
+            "A": "Kabul testi",
+            "B": "Entegrasyon testi",
+            "C": "Sistem testi",
+            "D": "Saha testi",
+            "E": "Birim testi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir yazılımda, sürekli aynı testler yapılması neticesinde belli bir süre sonra hiçbir hatanın bulunmaması aşağıdaki ilkelerin hangisi ile açıklanabilir?",
+          "options": {
+            "A": "İçerik Bağımlılık",
+            "B": "Varlığı Göster, Yokluğu Gösterme",
+            "C": "Erken Test Gereksinimi",
+            "D": "Hata Yokluğu Yanılgısı",
+            "E": "Tarım İlacı Paradoksu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Bir yazılım testinin aynı koşullar altında birden fazla kez yapılabilmesi aşağıdaki isimlerden hangisi ile ifade edilir?",
+          "options": {
+            "A": "Test Tekrarlanabilirliği",
+            "B": "Doğruluk",
+            "C": "Test Edilebilirlik",
+            "D": "Test Analitikliği",
+            "E": "Test Pratikliği"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yazılım Kalite ve Testi 2024-2025 Vize",
+      "exam_title": "Yazılım Kalite ve Testi 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_ve_Testi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yeni bir cep telefonu modeli çıktığında bu model genellikle önceki modellerden faydalanılarak test edilir. Bu test işlemine ne isim verilmektedir?",
+          "options": {
+            "A": "Karşılaştırma Testi (Benchmark Test)",
+            "B": "N-Anahtar Testi (N-Switch Testing)",
+            "C": "Çevik Test (Agile Testing)",
+            "D": "Karar Testi (Decision Testing)",
+            "E": "Negatif Test (Negative Testing)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi fonksiyonel testlerin amaçlarından biri değildir?",
+          "options": {
+            "A": "Yazılım biriminin kullanıcının isteklerine cevap vermesi",
+            "B": "Yazılım biriminin yüksek performansa sahip olması",
+            "C": "Yazılım biriminin hatasız, güvenilir ve etkin bir şekilde çalışması",
+            "D": "Yazılım biriminin sistem gereksinimlerine uygun olması",
+            "E": "Yazılım biriminin ihtiyaçları tam olarak karşılayıp karşılamadığının belirlenmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "\"Kurgusuz test\" ismine sahip olan yazılım testine bu isim aşağıdaki özelliklerinin hangisine bağlı olarak verilmiştir?",
+          "options": {
+            "A": "Test esnasında hangi verilerin kullanıldığı",
+            "B": "Testin nasıl planlandığı",
+            "C": "Testin nasıl uygulandığı",
+            "D": "Test esnasında hangi teknolojilerin kullanıldığı",
+            "E": "Yazılımın hangi parçasının test edildiği"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi bir yazılım test raporunda genellikle bulunan bilgilerden biri değildir?",
+          "options": {
+            "A": "Hangi verilerin kullanıldığı",
+            "B": "Hangi testin uygulandığı",
+            "C": "Hangi bileşenin test edildiği",
+            "D": "Ne gibi sonuçlar elde edildiği",
+            "E": "Testi kimin gerçekleştirdiği"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir yazılımda, sürekli aynı testler yapılması neticesinde belli bir süre sonra hiçbir hatanın bulunmaması aşağıdaki ilkelerin hangisi ile açıklanabilir?",
+          "options": {
+            "A": "Tarım İlacı Paradoksu",
+            "B": "Hata Yokluğu Yanılgısı",
+            "C": "Varlığı Göster, Yokluğu Gösterme",
+            "D": "Erken Test Gereksinimi",
+            "E": "İçerik Bağımlılık"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki hangi değerlere sahip olan bir yazılım riskinin RPN değeri 12 değildir?",
+          "options": {
+            "A": "Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik KaybıMüşteri Açısından Önemine Göre: ZorunluGerçekleşme Olasılığına Göre: Mümkün",
+            "B": "Sistem Açısından Önemine Göre: Veri KaybıMüşteri Açısından Önemine Göre: Düzeltilmesi İyi OlacakGerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan",
+            "C": "Sistem Açısından Önemine Göre: Kozmetik RiskMüşteri Açısından Önemine Göre: İsteğe BağıGerçekleşme Olasılığına Göre: Muhtemel",
+            "D": "Sistem Açısından Önemine Göre: İşlevsellik KaybıMüşteri Açısından Önemine Göre: ZorunluGerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan",
+            "E": "Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik KaybıMüşteri Açısından Önemine Göre: Düzeltilmesi İyi OlacakGerçekleşme Olasılığına Göre: Muhtemel"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki özelliklerden hangisinin bir yazılım geliştiricide olmasına gerek duyulmazken bir yazılım test uzmanında kesin olarak bulunması beklenir?",
+          "options": {
+            "A": "Analitik olmak",
+            "B": "Programlama dilini iyi bilmek",
+            "C": "Şüphecilik",
+            "D": "Planlı olmak",
+            "E": "Teknik ayrıntılara sahip olmak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir yazılım biriminde küçük çaplı testler yapılmış ve daha büyük çaplı testler için hazırlık aşaması başlamışsa bu durumda bu yazılım biriminin aşağıdaki testlerden hangisini tamamladığı ifade edilir?",
+          "options": {
+            "A": "Yük testi",
+            "B": "Duman testi",
+            "C": "Analiz testi",
+            "D": "Öncül test",
+            "E": "Performans testi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir yazılım testinin aynı koşullar altında birden fazla kez yapılabilmesi aşağıdaki isimlerden hangisi ile ifade edilir?",
+          "options": {
+            "A": "Test Pratikliği",
+            "B": "Test Edilebilirlik",
+            "C": "Test Analitikliği",
+            "D": "Test Tekrarlanabilirliği",
+            "E": "Doğruluk"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi kurtarma testinin kontrolünü gerçekleştirdiği işlemlerden biri değildir?",
+          "options": {
+            "A": "Yazılımdaki herhangi bir sorunda bilgi kaybı oluşup oluşmadığı",
+            "B": "Çöken bir modülün yeniden eski haline gelip gelmediği",
+            "C": "Yazılımın dışarıdan saldırıya uğrayıp uğramadığı",
+            "D": "Bir geri kurtarma işlemi yapıldığı takdirde zamanlamanın ne kadar olduğu",
+            "E": "Çöken bir modüldeki verilerin yeniden elde edilip edilemediği"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "İngilizce'de yazılım hatası için genellikle bug (böcek) kelimesinin kullanılmasının sebebi nedir?",
+          "options": {
+            "A": "Yazılım hatalarının fiziksel şeklinin böceğe benzemesi",
+            "B": "Böcek ve hata kelimelerinin İngilizce'de aynı kökten gelmesi",
+            "C": "Yazılım hatalarının böceklere benzer şekilde zarar vermesi",
+            "D": "Tespit edilen ilk yazılım hatasının gerçekten bir böcek yüzünden gerçekleşmesi",
+            "E": "Herhangi bir sebebi yoktur, rastgele konulmuş bir isimdir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bazı yazılım testleri doğrudan yazılımın özelliklerini ve kriterlerini test etmeyi amaçlar. Aşağıdakilerden hangisi bu tip bir test değildir?",
+          "options": {
+            "A": "Güvenlik Testi",
+            "B": "Güvenilirlik Testi",
+            "C": "Entegrasyon Testi",
+            "D": "Sürdürülebilirlik Testi",
+            "E": "Kurtarılabilirlik Testi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Geliştirilecek yazılımla ilgili, kodlardan önce test senaryolarının yazıldığı yaklaşıma verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Analiz Bazlı Tasarım",
+            "B": "Kodlama Tabanlı Geliştirme",
+            "C": "Bakım Temelli Yazılım",
+            "D": "Test Güdümlü Geliştirme",
+            "E": "Dokümantasyon Bazlı Yazılım"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Öğrenci numaralarının girildiği bir alana girilen tüm değerlerin test edilmesi mümkün değildir. Bunun sebebi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Alana girilebilecek doğru ya da yanlış sonsuz adet değer bulunması",
+            "B": "Farklı alanların da öğrenci numarası değerini içerebilmesi",
+            "C": "Alana girilecek değerlerin çift ya da tek olabilmesi",
+            "D": "Alana girilebilecek değerlerin farklı sayıda hane içerebilmesi",
+            "E": "Alana girilen bir sayının öğrenci numarası olup olmamasının tespit edilememesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi bir yazılım riskinin Müşteri Açısından Önemine göre yapılmış bir kategorilendirme değildir?",
+          "options": {
+            "A": "Acil",
+            "B": "Zorunlu",
+            "C": "Önemli",
+            "D": "İsteğe bağlı",
+            "E": "Kritik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Test karşılaştırma işlemi esnasında test karşılaştırıcı aşağıdakilerden hangilerini karşılaştırır?",
+          "options": {
+            "A": "Test koşulu - test ortamı",
+            "B": "Test senaryosu - test prosedürü",
+            "C": "Koşul-test kapanışı",
+            "D": "Beklenen sonuç - gerçekleşen sonuç",
+            "E": "Test girdisi - test çıktısı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerin hangisi bir yazılımda yapılabilecek doğrudan ölçmelere örnek olarak verilemez?",
+          "options": {
+            "A": "Yazılım dosyalarının toplam boyutu",
+            "B": "Yazılım testinin süresi",
+            "C": "Yazılım dokümantasyonunun sayfa sayısı",
+            "D": "Veri tabanındaki toplam tablo sayısı",
+            "E": "Yazılımcının kod yazma performansı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yazılımlarda bazen bir birimin diğerini olumsuz olarak etkileyebildiği bilinmektedir. Bu durum aşağıdaki testlerin hangisiyle ortaya çıkabilir?",
+          "options": {
+            "A": "Sistem testi",
+            "B": "Entegrasyon testi",
+            "C": "Saha testi",
+            "D": "Birim testi",
+            "E": "Kabul testi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi bir mimari ve/veya tasarım hatası değildir?",
+          "options": {
+            "A": "Belirtilmemiş birincil veri ve veri işleme sınıfları",
+            "B": "Yanlış sırada komut kullanmak",
+            "C": "Yazılım üzerinde gerçekleştirilen eksik inceleme",
+            "D": "İş süreç tasarımının zayıf kalması",
+            "E": "Yazılımın müşterinin bilgisayarında çalışmaması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki şıklarda verilen test türlerinden hangileri, yazılımda değişiklik yapıldıktan sonraki durumları test eden testlerdir?",
+          "options": {
+            "A": "Bakım Testi - Regresyon Testi",
+            "B": "Eşzamanlılık Testi - Hacim Testi",
+            "C": "Stres Testi - Yük Testi",
+            "D": "Kurulum Testi - Ölçeklenebilirlik Testi",
+            "E": "Saldırı Bazlı Test - Risk Bazlı Test"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yazılım Kalite ve Testi 2023-2024 Vize",
+      "exam_title": "Yazılım Kalite ve Testi 2023-2024 Vize",
+      "exam_type": "vize",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_ve_Testi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi birim testler için söylenemez?",
+          "options": {
+            "A": "Kod parçasının anlaşılmasını kolaylaştırır.",
+            "B": "Kod parçasındaki hata oranını azaltır.",
+            "C": "Kod parçasının başka bir kod parçası tarafından test edilmesini sağlar.",
+            "D": "Kod parçasındaki hataların daha hızlı bir şekilde bulunmasını sağlar.",
+            "E": "Kod parçasının hangi donanımda nasıl çalışacağını analiz eder."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kutu yaklaşımları ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Beyaz kutu testleri genellikle detaysız testlerdir.",
+            "B": "Beyaz kutu testlerinde dış etkiler testi etkilemez.",
+            "C": "Gri kutu testlerinde kısmî bir iç yapı bilgisi mevcuttur.",
+            "D": "Kara kutu testleri genellikle tek parça halinde yapılır.",
+            "E": "Kara kutu testleri algoritma testlerine uygundur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir yazılım riskinin sistem açısından kozmetik risk olarak adlandırılmasının sebebi aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": "İşlevsellik kaybına yol açmaktadır.",
+            "B": "Çözülmesi çok acildir.",
+            "C": "Kısa süreli çeşitli zararlar vermektedir.",
+            "D": "Görsellik veya kullanışlılık olarak zarar vermektedir.",
+            "E": "Veri kaybına sebep olmaktadır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi, diğer seçeneklerde verilenleri kapsayacak genel bir test ismidir?",
+          "options": {
+            "A": "Performans Testi",
+            "B": "Verimlilik Testi",
+            "C": "Stres Testi",
+            "D": "Yük Testi",
+            "E": "Hacim Testi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Test karşılaştırma işlemi esnasında test karşılaştırıcı aşağıdakilerden hangilerini karşılaştırır?",
+          "options": {
+            "A": "Test senaryosu – test prosedürü",
+            "B": "Koşul – test kapanışı",
+            "C": "Test koşulu – test ortamı",
+            "D": "Test girdisi – test çıktısı",
+            "E": "Beklenen sonuç – gerçekleşen sonuç"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Kara kutu testi aşağıdakilerin hangisi ile ilgilenir?",
+          "options": {
+            "A": "Modüllerin entegrasyonu",
+            "B": "Programlama dilinin yapısı",
+            "C": "Arayüzlerin kullanılabilirliği",
+            "D": "Algoritmanın karmaşıklığı",
+            "E": "Kodlardaki hata miktarı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir görme engelli kullanıcı, bir yazılımı kullanırken zorluk çekiyorsa, bu yazılım aşağıdaki testlerin hangisinde gerekli başarıyı gösteremez?",
+          "options": {
+            "A": "Erişilebilirlik Testi",
+            "B": "Fonksiyonalite Testi",
+            "C": "Rastgele Test",
+            "D": "Güvenlik Testi",
+            "E": "Maymun Testi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki özelliklerden hangisinin bir yazılım geliştiricide olmasına gerek duyulmazken bir yazılım test uzmanında kesin olarak bulunması beklenir?",
+          "options": {
+            "A": "Analitik olmak",
+            "B": "Şüphecilik",
+            "C": "Planlı olmak",
+            "D": "Teknik ayrıntılara sahip olmak",
+            "E": "Programlama dilini iyi bilmek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Öğrenci numaralarının girildiği bir alana girilen tüm değerlerin test edilmesi mümkün değildir. Bunun sebebi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Alana girilebilecek değerlerin farklı sayıda hane içerebilmesi",
+            "B": "Alana girilecek değerlerin çift ya da tek olabilmesi",
+            "C": "Farklı alanların da öğrenci numarası değerini içerebilmesi",
+            "D": "Alana girilebilecek doğru ya da yanlış sonsuz adet değer bulunması",
+            "E": "Alana girilen bir sayının öğrenci numarası olup olmamasının tespit edilememesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Modüller arasındaki uyumsuzluktan kaynaklanan riskler aşağıdaki isimlerin hangisi ile ifade edilmektedir?",
+          "options": {
+            "A": "Dokümantasyon Riskleri",
+            "B": "Performans Riskleri",
+            "C": "Entegrasyon Riskleri",
+            "D": "Arayüz Riskleri",
+            "E": "Sürdürülebilirlik Riskleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Test ve kalite kavramlarının zaman ile arasında nasıl bir ilişki vardır?",
+          "options": {
+            "A": "Test de kalite de kısa süreli işlemlerdir.",
+            "B": "Test kısa süreli, kalite uzun süreli bir işlemdir.",
+            "C": "Test ve kalitenin süreyle ilgisi bilinemez.",
+            "D": "Kalite kısa süreli, test uzun süreli bir işlemdir.",
+            "E": "Test de kalite de uzun süreli işlemlerdir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "I. Kullanılan yazılımda aritmetiksel işlemlerde 64 bit kullanılması gerekirken, yazılımın önceki sürümünde 16 bitlik değerlerin kullanılması ve bu durumun yazılımın yeni versiyonunda güncellenmemesi sonucunda hatalar oluşmuştur. II. Yazılımda kullanılan uzunluk ölçümlerinde İngiliz ölçü birimlerinin kullanılması sonucunda yazılımda çeşitli uyumsuzluklar yaşanmıştır. III. Bazı eski programlama dillerinde yıl bilgisinin 2 haneli olarak tasarlanması sonucunda 2000 yılının 00 şeklinde ifade edilmesi ile farklı sistemlerle beraber çalışma sorunu ortaya çıkmıştır. Yukarıda verilen yazılım hatalarının hangileri uyumluluk sorunu içermektedir?",
+          "options": {
+            "A": "I ve II",
+            "B": "I, II ve III",
+            "C": "Yalnız II",
+            "D": "Yalnız I",
+            "E": "I ve III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdaki hangi değerlere sahip olan bir yazılım riskinin RPN değeri 12 değildir?",
+          "options": {
+            "A": "Sistem Açısından Önemine Göre: Kozmetik Risk Müşteri Açısından Önemine Göre: İsteğe Bağlı Gerçekleşme Olasılığına Göre: Muhtemel",
+            "B": "Sistem Açısından Önemine Göre: Veri Kaybı Müşteri Açısından Önemine Göre: Düzeltilmesi İyi Olacak Gerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan",
+            "C": "Sistem Açısından Önemine Göre: İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Zorunlu Gerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan",
+            "D": "Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Düzeltilmesi İyi Olacak Gerçekleşme Olasılığına Göre: Muhtemel",
+            "E": "Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Zorunlu Gerçekleşme Olasılığına Göre: Mümkün"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi bir birim testi çeşidi değildir?",
+          "options": {
+            "A": "Hata Yakalama Yolları Testleri",
+            "B": "Big-Bang Testleri",
+            "C": "Sınır Koşulları Testleri",
+            "D": "Bağımsız Yollar Testleri",
+            "E": "Arayüz Testleri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Test işlemleri ile ilgili aşağıdaki rol ve açıklama eşleştirmelerinden hangisi yanlıştır?",
+          "options": {
+            "A": "Aktör: Test edilmekte olan yazılım bileşeni ile etkileşim halinde olan kullanıcıdır.",
+            "B": "Test direktörü: Test yöneticilerini yöneten üst düzey yöneticidir.",
+            "C": "Test mimarı: Bir test organizasyonunu tasarlayan kişidir.",
+            "D": "Test yöneticisi: Test aktivite ve kaynaklarının yönetiminden sorumlu kişidir.",
+            "E": "Test analisti: Yapılan testlerin maliyetlerini çıkartan kişidir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi bir belgelendirme hatası değildir?",
+          "options": {
+            "A": "Yazılımdaki kodlar ile kodların yorum kısımlarının eşleşmemesi",
+            "B": "Yazılımdaki veri tabanı tabloları arasındaki ilişkinin yanlış çizilmesi",
+            "C": "Yazılımda bazı noktalarda yanlış türde değişken kullanılması",
+            "D": "Yazılımdaki modüllerden birinin isminin kullanma kılavuzuna yanlış yazılması",
+            "E": "Yazılımdaki algoritmaların birkaçının akış şemasının yanlış çizilmesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi kurtarma testinin kontrolünü gerçekleştirdiği işlemlerden biri değildir?",
+          "options": {
+            "A": "Yazılımdaki herhangi bir sorunda bilgi kaybı oluşup oluşmadığı",
+            "B": "Bir geri kurtarma işlemi yapıldığı takdirde zamanlamanın ne kadar olduğu",
+            "C": "Yazılımın dışarıdan saldırıya uğrayıp uğramadığı",
+            "D": "Çöken bir modülün yeniden eski haline gelip gelmediği",
+            "E": "Çöken bir modüldeki verilerin yeniden elde edilip edilemediği"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Hartford Colesium Binası'nda uygulanan yazılımda bir formülün hesaplanmasında yapılan işlem hatası sonucunda büyük bir maddî kayıp meydana gelmiştir. Burada yapılan hata aşağıdakilerden hangisi ile ifade edilebilir?",
+          "options": {
+            "A": "Sözdizim hatası",
+            "B": "Anomali",
+            "C": "Tasarım hatası",
+            "D": "Mantık hatası",
+            "E": "Belgeleme hatası"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki test kavramlarından hangisi test yürütme işlemi ile ilgili değildir?",
+          "options": {
+            "A": "Test Süreç Grubu",
+            "B": "Kritik Test Süreçleri",
+            "C": "Test Direktörü",
+            "D": "Test Koşulu",
+            "E": "Test Kontrol"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi bir yazılımın farklı sistemlerde, farklı elemanlarla çalışması için yapılan testlerden biri değildir?",
+          "options": {
+            "A": "Kurulum Testi",
+            "B": "Uyumluluk Testi",
+            "C": "Taşınabilirlik Testi",
+            "D": "Birlikte Çalışabilirlik Testi",
+            "E": "Yük Testi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yazılım Kalite ve Testi 2022-2023 Vize",
+      "exam_title": "Yazılım Kalite ve Testi 2022-2023 Vize",
+      "exam_type": "vize",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_ve_Testi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir yazılım riskinin sistem açısından kozmetik risk olarak adlandırılmasının sebebi aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": "Veri kaybına sebep olmaktadır.",
+            "B": "Görsellik veya kullanışlılık olarak zarar vermektedir.",
+            "C": "Çözülmesi çok acildir.",
+            "D": "Kısa süreli çeşitli zararlar vermektedir.",
+            "E": "İşlevsellik kabına yol açmaktadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir yazılımı test ederken, önceden belirlenen durumların dışında, kimi zaman ani, plansız test yapma ihtiyaçları oluşabilir. Bu durumda yapılan testlere ne isim verilmektedir?",
+          "options": {
+            "A": "Veri Akış Testi",
+            "B": "Dış Kaynaklı Test",
+            "C": "Kurgusuz Test",
+            "D": "Dal Testi",
+            "E": "Geliştirme Testi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hartford Colesium Binası'nda uygulanan yazılımda bir formülün hesaplanmasında yapılan İşlem hatası sonucunda büyük bir maddî kayıp meydana gelmiştir. Burada yapılan hata aşağıdakilerden hangisi ile ifade edilebilir?",
+          "options": {
+            "A": "Sözdizim hatası",
+            "B": "Tasarım hatası",
+            "C": "Belgeleme hatası",
+            "D": "Mantık hatası",
+            "E": "Anomali"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "I. Kullanılan yazılımda aritmetiksel işlemlerde 64 bit kullanılması gerekirken, yazılımın önceki sürümünde 16 bitlik değerlerin kullanılması ve bu durumun yazılımın yeni versiyonunda güncellenmemesi sonucunda hatalar oluşmuştur. II. Yazılımda kullanılan uzunluk ölçümlerinde İngiliz ölçü birimlerinin kullanılması sonucunda yazılımda çeşitli uyumsuzluklar yaşanmıştır. III. Bazı eski programlama dillerinde yıl bilgisinin 2 haneli olarak tasarlanması sonucunda 2000 yılının 00 şeklinde ifade edilmesi ile farklı sistemlerle beraber çalışma sorunu ortaya çıkmıştır. Yukarıda verilen yazılım hatalarının hangileri uyumluluk sorunu içermektedir?",
+          "options": {
+            "A": "I ve III",
+            "B": "Yalnız II",
+            "C": "I ve II",
+            "D": "Yalnız I",
+            "E": "I, II ve III"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi bir birim testi çeşidi değildir?",
+          "options": {
+            "A": "Sınır Koşulları Testleri",
+            "B": "Bağımsız Yollar Testleri",
+            "C": "Hata Yakalama Yolları Testleri",
+            "D": "Big-Bang Testleri",
+            "E": "Arayüz Testleri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Test ve kalite kavramlarının zaman ile arasında nasıl bir ilişki vardır?",
+          "options": {
+            "A": "Test de kalite de uzun süreli işlemlerdir.",
+            "B": "Kalite kısa süreli, test uzun süreli bir işlemdir",
+            "C": "Test kısa süreli, kalite uzun süreli bir işlemdir.",
+            "D": "Test de kalite de kısa süreli işlemlerdir.",
+            "E": "Test ve kalitenin süresi ile ilgisi bilinemez."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki hangi değerlere sahip olan bir yazılım riskinin RPN değeri 12 değildir?",
+          "options": {
+            "A": "Sistem Açısından Önemine Göre: Kozmetik Risk Müşteri Açısından Önemine Göre: İsteğe Bağlı Gerçekleşme Olasılığına Göre: Muhtemel",
+            "B": "Sistem Açısından Önemine Göre: İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Zorunlu Gerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan",
+            "C": "Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Düzeltilmesi İyi Olacak Gerçekleşme Olasılığına Göre: Muhtemel",
+            "D": "Sistem Açısından Önemine Göre: Giderilebilir İşlevsellik Kaybı Müşteri Açısından Önemine Göre: Zorunlu Gerçekleşme Olasılığına Göre: Mümkün",
+            "E": "Sistem Açısından Önemine Göre: Veri Kaybı Müşteri Açısından Önemine Göre: Düzeltilmesi İyi Olacak Gerçekleşme Olasılığına Göre: İhtimal Dahilinde Olmayan"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Test işlemleri ile ilgili aşağıdaki roller ve açıklamaları eşleştirmelerinden hangisi yanlıştır?",
+          "options": {
+            "A": "Test yöneticisi: Test aktivite ve kaynaklarının yönetiminden sorumlu kişidir.",
+            "B": "Test analisti: Yapılan testlerin maliyetlerini çıkartan kişidir.",
+            "C": "Test direktörü: Test yöneticilerini yöneten üst düzey yöneticidir.",
+            "D": "Test mimarı: Bir test organizasyonunu tasarlayan kişidir.",
+            "E": "Aktör: Test edilmekte olan yazılım bileşeni ile etkileşim halinde olan kullanıcıdır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi, diğer seçeneklerde verilenleri kapsayacak genel bir test ismidir?",
+          "options": {
+            "A": "Stres Testi",
+            "B": "Performans Testi",
+            "C": "Yük Testi",
+            "D": "Hacim Testi",
+            "E": "Verimlilik Testi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi bir belgelendirme hatası değildir?",
+          "options": {
+            "A": "Yazılımdaki algoritmaların birkaçının akış şemasının yanlış çizilmesi",
+            "B": "Yazılımdaki veri tabanı tabloları arasındaki ilişkinin yanlış çizilmesi",
+            "C": "Yazılımdaki kodlar ile kodların yorum kısımlarının eşleşmemesi",
+            "D": "Yazılımdaki modüllerden birinin isminin kullanma kılavuzuna yanlış yazılması",
+            "E": "Yazılımda bazı noktalarda yanlış türde değişken kullanılması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Genellikle test senaryolarında X ile gösterilen veri setleri denenir. Ancak esasen doğru bir test için Y ile gösterilen veri setinin de denenmesi gerekmektedir. Y ile gösterilen veri setlerinin denendiği bu testlere genellikle ne ad verilir?",
+          "options": {
+            "A": "Doğru test",
+            "B": "Analitik test",
+            "C": "Objektif test",
+            "D": "Negatif test",
+            "E": "Yalın test"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Modüller arasındaki uyumsuzluktan kaynaklanan riskler aşağıdaki isimlerin hangisi ile ifade edilmektedir?",
+          "options": {
+            "A": "Arayüz Riskleri",
+            "B": "Sürdürülebilirlik Riskleri",
+            "C": "Entegrasyon Riskleri",
+            "D": "Dokümantasyon Riskleri",
+            "E": "Performans Riskleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "\"Kullanıcılar, tasarımı ilk kullandıklarında yerine getirmeleri gereken görevleri kolaylıkla yapabiliyorlar mı?\" sorusunun cevabı aşağıdaki kriterlerden hangisini karşılamaktadır?",
+          "options": {
+            "A": "Verimlilik",
+            "B": "Hata yapılabilirlik",
+            "C": "Hatırlanabilirlik",
+            "D": "Memnuniyet",
+            "E": "Öğrenilebilirlik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki test kavramlarından hangisi test yürütme işlemi ile ilgili değildir?",
+          "options": {
+            "A": "Test Direktörü",
+            "B": "Test Kontrol",
+            "C": "Test Süreç Grubu",
+            "D": "Kritik Test Süreçleri",
+            "E": "Test Koşulu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Bir yazılım biriminde küçük çaplı testler yapılmış ve daha büyük çaplı testler için hazırlık aşaması başlamışsa bu durumda bu yazılım biriminin aşağıdaki testlerden hangisini tamamladığı ifade edilir?",
+          "options": {
+            "A": "Analiz testi",
+            "B": "Yük testi",
+            "C": "Duman testi",
+            "D": "Öncül test",
+            "E": "Performans testi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdaki özelliklerden hangisinin bir yazılım geliştiricide olmasına gerek duyulmazken bir yazılım test uzmanında kesin olarak bulunması beklenir?",
+          "options": {
+            "A": "Şüphecilik",
+            "B": "Analitik olmak",
+            "C": "Teknik ayrıntılara sahip olmak",
+            "D": "Planlı olmak",
+            "E": "Programlama dilini iyi bilmek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Test karşılaştırma işlemi esnasında test karşılaştırıcı aşağıdakilerden hangilerini karşılaştırır?",
+          "options": {
+            "A": "Test girdisi - test çıktısı",
+            "B": "Beklenen sonuç - gerçekleşen sonuç",
+            "C": "Test senaryosu - test prosedürü",
+            "D": "Test koşulu - test ortamı",
+            "E": "Koşul - test kapanışı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Kutu yaklaşımları ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Beyaz kutu testleri genellikle detaysız testlerdir.",
+            "B": "Beyaz kutu testlerinde dış etkiler testi etkilemez.",
+            "C": "Kara kutu testleri genellikle tek parça halinde yapılır.",
+            "D": "Gri kutu testlerinde kısmî bir iç yapı bilgisi mevcuttur.",
+            "E": "Kara kutu testleri algoritma testlerine uygundur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıdaki şekillerde Müşterinin Tarif Ettiği ve Gerçekte Müşterinin İhtiyacı Olan modüllerin karşılaştırılması mizahî bir şekilde verilmiştir. Bu şekiller, yazılım test işlemlerinin hangi kısmının önemli olduğunu göstermektedir?",
+          "options": {
+            "A": "Analiz",
+            "B": "Hazırlık",
+            "C": "Bakım",
+            "D": "implementasyon",
+            "E": "Tasarım"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi kurtarma testinin kontrolünü gerçekleştirdiği işlemlerden biri değildir?",
+          "options": {
+            "A": "Çöken bir modülün yeniden eski haline gelip gelmediği",
+            "B": "Yazılımdaki herhangi bir sorunda bilgi kaybı oluşup oluşmadığı",
+            "C": "Bir geri kurtarma işlemi yapıldığı takdirde zamanlamanın ne kadar olduğu",
+            "D": "Yazılımın dışarıdan saldırıya uğrayıp uğramadığı",
+            "E": "Çöken bir modüldeki verilerin yeniden elde edilip edilemediği"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yazılım Kalite ve Testi 2024-2025 Final",
+      "exam_title": "Yazılım Kalite ve Testi 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_ve_Testi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir yazılım bileşeninde X değişkeninin değerinin Y değişkenine bağlı olduğu biliniyorsa, bu durumda test senaryo sayısını düşürmek için aşağıdaki test tekniklerinin hangisi uygulanmalıdır?",
+          "options": {
+            "A": "İkili Test",
+            "B": "Kullanıcı Senaryosu",
+            "C": "Sınıflandırma Ağacı",
+            "D": "Karar Tablosu",
+            "E": "Durum Geçişi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi yazılım süreçleri arasında sayılamaz?",
+          "options": {
+            "A": "Müşteri-satıcıya direkt etkisi olan süreçler",
+            "B": "Destek süreçleri",
+            "C": "Analiz süreçleri",
+            "D": "Mühendislik süreçleri",
+            "E": "Organizasyon süreçleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Kullanılabilirlik testleri ile ilgili aşağıdaki işlemlerden hangisi en son gerçekleştirilir?",
+          "options": {
+            "A": "Test ortamını hazırlama",
+            "B": "Katılımcı ayarlama",
+            "C": "Test yürütme",
+            "D": "Verileri analiz etme",
+            "E": "Test planını hazırlama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir yazılım riskinin sistem açısından kozmetik risk olarak adlandırılmasının sebebi aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": "Çözülmesi çok acildir.",
+            "B": "İşlevsellik kaybına yol açmaktadır.",
+            "C": "Görsellik veya kullanışlılık olarak zarar vermektedir.",
+            "D": "Veri kaybına sebep olmaktadır.",
+            "E": "Kısa süreli çeşitli zararlar vermektedir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi fonksiyonel olmayan testlerde test edilen bir husus değildir?",
+          "options": {
+            "A": "Tekrar kullanım",
+            "B": "Hata ayıklama",
+            "C": "Kullanılabilirlik",
+            "D": "Birlikte çalışabilirlik",
+            "E": "Ölçeklenebilirlik"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "\"Bir yazılım bileşeni ya da sisteminin işlevleri yerine getirip getirmediğini inceleyen metriklere ………….. metrikleri adı verilir.\" Yukarıdaki cümle içerisinde yer alan boşluğa aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Fonksiyonalite",
+            "B": "Sürdürülebilirlik",
+            "C": "Kullanılabilirlik",
+            "D": "Taşınabilirlik",
+            "E": "Uyumluluk"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki kalite ile ilgili kavramlar ve eşleştirmelerinden hangisi yanlıştır?",
+          "options": {
+            "A": "Standart Dışı İzin: Şartlara uymayan ürünlere gerektiğinde şartlı şartsız çıkış izni verme işlemi",
+            "B": "Doğrulama: Belirlenen şartların karşılandığını gösteren objektif delillere dayalı olarak teyit etme işlemi",
+            "C": "Düzeltici Faaliyet: Belirlenen bir uygunsuzluğun ana sebebini ortadan kaldırmak ve tekrarını engellemek için yapılan faaliyetler",
+            "D": "Önleyici Faaliyet: Potansiyel bir testi ortadan kaldırmak için yapılan faaliyetler",
+            "E": "Uygunsuzluk: Gerekliliklere uymama durumu"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yazılım Kullanılabilirlik Ölçüm Envanteri'nde aşağıdaki başlıkların hangisi ele alınmaz?",
+          "options": {
+            "A": "Hakimiyet",
+            "B": "Analitiklik",
+            "C": "Etki",
+            "D": "Verimlilik",
+            "E": "Yardımcılık"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir yazılım test otomasyonunun kararlı bir sürüme sahip olmasının gerekli olmama nedeni aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yazılımların zaman içinde değişmesi ve güncellenmeye ihtiyaç duyması",
+            "B": "Yazılımların farklı türlerdeki testleri gerçekleştirmesi",
+            "C": "Yazılımların analiz edilmesi",
+            "D": "Yazılımların farklı yazılımlarla entegre olması",
+            "E": "Yazılımların farklı işlemler gerçekleştirmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi yazılım test otomasyonlarına verilen desteği ifade eden bir kavram değildir?",
+          "options": {
+            "A": "Müşteri desteği",
+            "B": "Makaleler",
+            "C": "Bloglar",
+            "D": "Teknik personel",
+            "E": "Entegrasyon"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Gözden Geçirme işleminde Kişisel Hazırlık ile Yeniden Çalışma arasındaki işlem aşağıdaki isimlerden hangisi ile ifade edilemez?",
+          "options": {
+            "A": "Değerlendirme",
+            "B": "Gözden geçirme toplantısı",
+            "C": "Kaydetme",
+            "D": "İnceleme",
+            "E": "Analiz"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi bir belgelendirme hatası değildir?",
+          "options": {
+            "A": "Yazılımda bazı noktalarda yanlış türde değişken kullanılması",
+            "B": "Yazılımdaki modüllerden birinin isminin kullanma kılavuzuna yanlış yazılması",
+            "C": "Yazılımdaki kodlar ile kodların yorum kısımlarının eşleşmemesi",
+            "D": "Yazılımdaki algoritmaların birkaçının akış şemasının yanlış çizilmesi",
+            "E": "Yazılımdaki veri tabanı tabloları arasındaki ilişkinin yanlış çizilmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/YAZ_L_M_KALITE_VE_TESTI_2024_2025_final_soru_12.jpg",
+          "image_file": "YAZ_L_M_KALITE_VE_TESTI_2024_2025_final_soru_12.jpg",
+          "image_path": "resim-sorular/YAZ_L_M_KALITE_VE_TESTI_2024_2025_final_soru_12.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Genellikle test senaryolarında X ile gösterilen veri setleri denenir. Ancak esasen doğru bir test için Y ile gösterilen veri setinin de denenmesi gerekmektedir. Y ile gösterilen veri setlerinin denendiği bu testlere genellikle verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Doğru test",
+            "B": "Objektif test",
+            "C": "Analitik test",
+            "D": "Negatif test",
+            "E": "Yalın test"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi ISTQB'nin yapmakta olduğu özelleşmiş testlerde kontrol edilen bir metriktir?",
+          "options": {
+            "A": "Güvenilirlik",
+            "B": "Uyumluluk",
+            "C": "İzlenebilirlik",
+            "D": "Performans",
+            "E": "Taşınabilirlik"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi bir kurumdaki test araçlarının değerlendirilmesi, uyarlanması, dağıtımı ve desteğinin devam etmesi için başarı faktörleri arasında yer almaz?",
+          "options": {
+            "A": "Kullanıcılardan geribildirimleri toplamak",
+            "B": "Belirli bir aracın kullanıcılarına destek sağlamak",
+            "C": "Her testi birçok kez gerçekleştirmek",
+            "D": "Araç kullanımını ve faydalarını izlemek",
+            "E": "Aracın kullanımı için süreçleri uyarlamak ve geliştirmek"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Özellik Gizleme Faktörü, Ortalama Ata Sayısı, Eşleme Faktörü gibi kriterler aşağıdaki metrik kümelerinin hangisinde yer almaktadır?",
+          "options": {
+            "A": "Yordamsal Kod Metrikleri",
+            "B": "Sürdürülebilirlik Metrikleri",
+            "C": "Nesneye Yönelik Kod Metrikleri",
+            "D": "Uyumluluk Metrikleri",
+            "E": "Taşınabilirlik Metrikleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Türkiye'deki yazılım projelerinin kalitesi konusunda yapılan çalışmaların toplandığı dokümantasyona verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Türkiye Yazılım Dergisi",
+            "B": "Türkiye Yazılım Kalite Raporu",
+            "C": "Türkiye Yazılım Testçileri Doküman",
+            "D": "Türkiye Yazılım Projeleri Analizi",
+            "E": "Türkiye Yazılım Planlaması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi bir proje riski değildir?",
+          "options": {
+            "A": "Politik sorunlar",
+            "B": "Tedarikçi sorunları",
+            "C": "Kurumsal sorunlar",
+            "D": "Teknik sorunlar",
+            "E": "Hesaplama hataları"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Katibin gözden geçiricilerin yaptığı işi beğenmemesi ve bu konuyla ilgili hakaret etmesi, gözden geçirmeyi başarısız kılan aşağıdaki faktörlerin hangisine örnek olarak gösterilebilir?",
+          "options": {
+            "A": "İyi Tanımlanmamış Rol ve Sorumluluklar",
+            "B": "Yetersiz Bireysel Hazırlık",
+            "C": "Eğitim Eksikliği",
+            "D": "Toplantı Gündeminden Sapma",
+            "E": "Amacını Aşan Eleştiriler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Verilerin rastgele olarak seçildiği ve bir hayvanın bilgisayar/yazılım kullanmasına atıfta bulunularak isimlendirilen yazılım testinin ismi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kedi Testi",
+            "B": "Maymun Testi",
+            "C": "Köpek Testi",
+            "D": "Kuş Testi",
+            "E": "Yılan Testi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yazılım Kalite ve Testi 2023-2024 Final",
+      "exam_title": "Yazılım Kalite ve Testi 2023-2024 Final",
+      "exam_type": "final",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_ve_Testi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "\"Bir sınıf içerisinde yer alan kalıtımdan gelen metot sayısı ile metot sayısının toplamıdır.\" şeklinde tanımlanan metrik aşağıdaki kısaltmaların hangisi ile ifade edilmektedir?",
+          "options": {
+            "A": "AHF",
+            "B": "CBO",
+            "C": "LCOM",
+            "D": "RFC",
+            "E": "MHF"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir yazılım testinin ne kadar süreceği ile ilgili aşağıdaki kriterlerden hangisi geçerli değildir?",
+          "options": {
+            "A": "Yazılımlar yazılımın başında belirlenen bir süre boyunca test edilmelidir.",
+            "B": "Yazılımlar rastgele sayıda test edilmelidir.",
+            "C": "Yazılımlar yazılımın başında belirlenen bir maliyet boyunca test edilmelidir.",
+            "D": "Yazılımlar proje yöneticisinin belirlediği koşullar sağlanana kadar test edilmelidir.",
+            "E": "Yazılımlar ideal yazılım bileşeni elde edilene kadar test edilmelidir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yazılım testleri ile ilgili aşağıdaki kavramların hangisi, sistemin beklenen dışında bir durumla karşılaşmasını ifade eder?",
+          "options": {
+            "A": "Kusur",
+            "B": "Arıza",
+            "C": "Yanlışlık",
+            "D": "İnsan hatası",
+            "E": "Anomali"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yazılım test sertifikalarına ihtiyaç duyulmasının temel sebebi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yazılım testinin yazılım geliştirme sürecinde yer alması",
+            "B": "Yazılım testinde farklı rollerin yer alması",
+            "C": "Yazılım testinin gittikçe büyüyen bir alan olması",
+            "D": "Yazılım testinin planlamaya ihtiyaç duyması",
+            "E": "Yazılım testi ile ilgili sürekli olarak otomasyonlar kullanılması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi bir yazılım testinin sınıflandırma şekillerinden biri değildir?",
+          "options": {
+            "A": "Birincil amaçlar",
+            "B": "Yapılış zamanı",
+            "C": "Fonksiyonalite",
+            "D": "Seviye",
+            "E": "Uygulandığı modül"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "I. Üzerinden Geçme II.Teknik Gözden Geçirme III.Teftiş Yukarıda verilen yöntemlerden hangisi veya hangileri hem resmî hem gayrıresmî olabilmektedir?",
+          "options": {
+            "A": "II ve III",
+            "B": "I ve III",
+            "C": "Yalnız I",
+            "D": "Yalnız III",
+            "E": "I ve II"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi, bir yazılım bileşeninde kontrollü olarak sorunlar yaratılarak yapılan testlerden biri değildir?",
+          "options": {
+            "A": "Emniyet Testi",
+            "B": "Standartlara Uyumluluk Testi",
+            "C": "Sağlamlık Testi",
+            "D": "Saldırı Bazlı Test",
+            "E": "Arıza Durumu Testi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir web yazılım test otomasyonunun açık kaynaklı olması aşağıdaki özelliklerin hangisini doğrudan etkilemektedir?",
+          "options": {
+            "A": "Entegrasyon",
+            "B": "Maliyet",
+            "C": "Platform uyumluluğu",
+            "D": "Kullanıcı deneyimi gereksinimi",
+            "E": "Test türü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Klasik bir gözden geçirme sürecinde aşağıdaki rollerin hangisi yer almamaktadır?",
+          "options": {
+            "A": "Yönetici",
+            "B": "Yazar",
+            "C": "Analist",
+            "D": "Kaydedici",
+            "E": "Gözden Geçirici"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir yazılım testinde yalnızca üniversite mezunları geçerli sınıf ise diğer tüm seçenekler geçersiz sınıf ise bu durumda aşağıdaki tekniklerden hangisini uygulamak gereklidir?",
+          "options": {
+            "A": "Karar tablosu denklik sınıfı",
+            "B": "Sürekli değer denklik sınıfı",
+            "C": "Ayrık değerler denklik sınıfı",
+            "D": "Tek seçimli denklik sınıfı",
+            "E": "Sınır değer denklik sınıfı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi Güvenlik/Güvenilirlik Metrikleri arasında yer almaz?",
+          "options": {
+            "A": "Sağlamlık",
+            "B": "Olgunluk",
+            "C": "Hata Toleransı",
+            "D": "Analitiklik",
+            "E": "Kurtarılabilirlik"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Regresyon Testi hangi özelliği ile diğer entegrasyon testlerinden ayrılır?",
+          "options": {
+            "A": "Daha önceden test edilmiş ve düzeltilmiş yapılar ile ilgilenir",
+            "B": "Sadece donanım entegrasyonu ile ilgilenir",
+            "C": "Klasik yöntemler ile entegrasyon sağlar",
+            "D": "Sadece mobil yazılımlar ile ilgilenir",
+            "E": "Yazılımların en üst versiyonu ile ilgilenir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yazılım testi ile ilgili kavramlar ve açıklamaları eşleştirmelerinden hangisi yanlıştır?",
+          "options": {
+            "A": "Test Öğesi: Test üzerinde uygulanan veri seti",
+            "B": "Test Kaydı: Testlerin yürütülmesi ile ilgili detayların tutulması",
+            "C": "Test Stratejisi: Testin uygulanma şekli",
+            "D": "Test Yaklaşımı: Test stratejisinin hayata geçirilmesi",
+            "E": "Test Kuluçkası: Testin yürütülmesi için gerekli olan taklit uygulamalar"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi her yazılımda oluşabilecek ortak riskler arasında yer almaz?",
+          "options": {
+            "A": "projenin büyüklüğü ve bu büyüklük içerisinde önceden tahmin edilemeyen unsurlar",
+            "B": "mobil uygulama piyasasının değişmesi ile ürünün yeterince indirilmemesi",
+            "C": "müşterinin/kullanıcının tutumu ve proje ekibinden beklentileri",
+            "D": "projedeki yazılımların, kodların, algoritmaların, ara yüzlerin, veri tabanlarının ve diğer elemanların geliştirilme ortamı",
+            "E": "kullanılan tüm teknolojiler"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıdaki şekil aşağıda verilen analiz ölçeklerinden hangisine aittir?",
+          "options": {
+            "A": "Öznel Zihinsel Çaba Sorusu",
+            "B": "Çalışma Sonrası Sistem Kullanılabilirlik Anketi",
+            "C": "Standartlaştırılmış Evrensel Yüzdelik Sıra Anketi",
+            "D": "Tek Kolay Soru",
+            "E": "Beklenti Derecelendirmesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "\"ISTQB'nin kuruluşunda yer alan ülkelere bakıldığında ISTQB'nin bir …………. kuruluşu olarak başladığı ifade edilebilir.\" Yukarıdaki boşluğa gelebilecek uygun ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Asya",
+            "B": "Afrika",
+            "C": "Avrupa",
+            "D": "Avustralya",
+            "E": "Amerika"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisinin test edilmesi kullanılabilirlik testi olarak kabul edilemez?",
+          "options": {
+            "A": "Web sitesi",
+            "B": "Cep telefonu ekranı",
+            "C": "Buzdolabı elektronik paneli",
+            "D": "Öğrenci işleri otomasyonu arayüzü",
+            "E": "Veri tabanı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Hatalı bir ürün tespit edildiğinde bu ürünün tek başına incelenmesi yerine bu ürünü ortaya çıkaran tüm işlemlerin incelenmesini öngören kalite türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Süreç yoluyla kalite",
+            "B": "Araç yoluyla kalite",
+            "C": "Hammadde yoluyla kalite",
+            "D": "Ürün yoluyla kalite",
+            "E": "Personel yoluyla kalite"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir yazılımın kalitesiz olması ile ilgili birçok sebep bulunmaktadır. Bunlardan birisi olan \"bir yazılımın kolay anlaşılabilir ve kullanılabilir olmaması\" aşağıdaki kategorilerin hangisine girer?",
+          "options": {
+            "A": "Test ekibi tarafındaki sebepler",
+            "B": "Analistler tarafındaki sebepler",
+            "C": "Müşteri tarafındaki sebepler",
+            "D": "Danışmanlar tarafındaki sebepler",
+            "E": "Yazılım ekibi tarafındaki sebepler"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki durumların hangisi \"doğrulama sapması\"na örnek olarak gösterilebilir?",
+          "options": {
+            "A": "Test uzmanının kodunda bulduğu hatayı yazılım geliştiricinin kabul etmemesi",
+            "B": "Yazılım geliştiricinin analist ile anlaşamaması",
+            "C": "Test uzmanının çok yoğun bir şekilde test yapması sonucu testlerin sorunlu olması",
+            "D": "Yazılım proje lideri ile test uzmanının farklı testleri gerçekleştirmek istemesi",
+            "E": "Kullanıcı istekleri ile yazılım geliştirme ekibinin isteklerinin örtüşmemesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yazilim Kalite ve Testi 2024-2025 Butunleme",
+      "exam_title": "Yazilim Kalite ve Testi 2024-2025 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_ve_Testi_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ISO standartlarında yer alan kalite terimleri ile ilgili kısaltmalar ve açıklamalarından hangisi yanlıştır?",
+          "options": {
+            "A": "R: Replay/Yeniden yapılabilir",
+            "B": "A: Achievable/Ulaşılabilir",
+            "C": "T: Timing/Zamana bağlı",
+            "D": "S: Specified/Belirli",
+            "E": "M: Measurable/Ölçülebilir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yazılım testi ile ilgili aşağıdaki işlemlerin hangisi test yöneticisinin sorumluluğunda değildir?",
+          "options": {
+            "A": "Tahmin",
+            "B": "Gözetim",
+            "C": "Kontrol",
+            "D": "Uygulama",
+            "E": "Planlama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "ISTQB İleri Seviye bir sertifika almak için aşağıdaki şartların hangisini sağlamak gereklidir?",
+          "options": {
+            "A": "En az 100 yazılım testi işlemi gerçekleştirmek",
+            "B": "Temel Seviye sertifikası almak",
+            "C": "Güvenlik testi konusunda çalışmak",
+            "D": "En az 3 sene test konusunda çalışmak",
+            "E": "Test konusunda uluslararası bir kuruluşta çalışmak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir web sitesinin birçok versiyonunun incelendiği ve karşılaştırıldığı kullanılabilirlik testlerine ne ad verilmektedir?",
+          "options": {
+            "A": "Laboratuvar Testleri",
+            "B": "Geri Bildirim Testleri",
+            "C": "İzleme testi",
+            "D": "Otomatik Test",
+            "E": "A/B Testi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "\"Kullanıcılar, tasarımı ilk kullandıklarında yerine getirmeleri gereken görevleri kolaylıkla yapabiliyorlar mı?\" sorusunun cevabı aşağıdaki kriterlerden hangisini karşılamaktadır?",
+          "options": {
+            "A": "Hatırlanabilirlik",
+            "B": "Öğrenilebilirlik",
+            "C": "Hata yapılabilirlik",
+            "D": "Verimlilik",
+            "E": "Memnuniyet"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Web uygulaması testlerinde aşağıdaki hangi şıkta verilen test genellikle en son olarak yapılır?",
+          "options": {
+            "A": "Performans testi",
+            "B": "Fonksiyonellik testi",
+            "C": "Uyumluluk testi",
+            "D": "Güvenlik testi",
+            "E": "Arayüz testi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "\"Bir sınıf içerisinde yer alan kalıtımdan gelen metot sayısı ile metot sayısının toplamıdır.\" Yukarıdaki şekilde tanımlanan metrik aşağıdaki kısaltmaların hangisi ile ifade edilmektedir?",
+          "options": {
+            "A": "CBO",
+            "B": "LCOM",
+            "C": "RFC",
+            "D": "AHF",
+            "E": "MHF"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi yazılım test ilerleme raporları içerisinde yer almaz?",
+          "options": {
+            "A": "Çıkış kriterleri",
+            "B": "Testi yapacak kişilerin rolleri",
+            "C": "Kalan riskler",
+            "D": "Gerçekleştirilen testlerin özeti",
+            "E": "O test dönemi sırasında neler olduğuna dair bilgiler"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi her yazılımda oluşabilecek ortak riskler arasında yer almaz?",
+          "options": {
+            "A": "Mobil uygulama piyasasının değişmesi ile ürünün yeterince indirilmemesi",
+            "B": "Yazılımların geliştirilme ortamı",
+            "C": "Projenin büyüklüğü ve tahmin edilemeyen unsurlar",
+            "D": "Kullanılan tüm teknolojiler",
+            "E": "Müşterinin tutumu ve beklentileri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "I. Üzerinden Geçme II. Teknik Gözden Geçirme III. Teftiş Yukarıda verilen yöntemlerden hangisi veya hangileri hem resmi hem gayrıresmî olabilmektedir?",
+          "options": {
+            "A": "I ve III",
+            "B": "II ve III",
+            "C": "I ve II",
+            "D": "Yalnız III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisinin test edilmesi kullanılabilirlik testi olarak kabul edilemez?",
+          "options": {
+            "A": "Cep telefonu ekranı",
+            "B": "Veri tabanı",
+            "C": "Buzdolabı elektronik paneli",
+            "D": "Web sitesi",
+            "E": "Öğrenci işleri otomasyonu arayüzü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi web yazılım test otomasyonlarında sıklıkla uygulanan bir test çeşidi değildir?",
+          "options": {
+            "A": "Beyaz kutu testi",
+            "B": "Masaüstü test",
+            "C": "Mobil test",
+            "D": "Web testi",
+            "E": "API testi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Arıza Durumu, Etki ve Kritiklik Analizi (ADEKA)'da aşağıdakilerden hangisi bulunmaz?",
+          "options": {
+            "A": "Olası arıza durumlarını analiz etmek",
+            "B": "Kritiklik analizi yapmak",
+            "C": "Hataları çözmek",
+            "D": "Riskleri belirlemek",
+            "E": "Arızaların oluşmasını engellemeye çalışmak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi bir ISTQB sertifikasına sahip olmanın avantajları arasında yer almaz?",
+          "options": {
+            "A": "İşverenlerin güvendiği becerilerin bağımsız doğrulaması",
+            "B": "Kariyer ilerlemesini desteklemek için beceriler geliştirme",
+            "C": "Profesyonel güvenilirliği artırma",
+            "D": "Test çeşitliliğinin artması",
+            "E": "Taşınabilir yetenek kanıtı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Kutu yaklaşımları ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Beyaz kutu testlerinde dış etkiler testi etkilemez.",
+            "B": "Kara kutu testleri algoritma testlerine uygundur.",
+            "C": "Kara kutu testleri genellikle tek parça halinde yapılır.",
+            "D": "Beyaz kutu testleri genellikle detaysız testlerdir.",
+            "E": "Gri kutu testlerinde kısmi bir iç yapı bilgisi mevcuttur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yazılım testlerine verilen isimler kimi zaman testin nasıl yapıldığı, kimi zaman hangi veriler kullanıldığı, kimi zaman ne zaman yapıldığı, kimi zaman hangi amaçla yapıldığı vb. konularda kullanıcıya fikir vermektedir. Aşağıdaki test isimleri ile verdiği fikirler arasındaki eşleştirmenin hangisi yanlıştır?",
+          "options": {
+            "A": "Sözdizimsel Test - Yazılımın hangi kısmının test edildiği",
+            "B": "Dış Kaynaklı Test - Kim tarafından yapıldığı",
+            "C": "Sistem Testi - Testin hangi yaklaşımla yapıldığı",
+            "D": "Sınır Değer Testi - Test senaryolarının nasıl belirlendiği",
+            "E": "Kontrol Listesine Dayalı Test - Verilerin nereden elde edildiği"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "\"…. dayalı gözden geçirme bir gözden geçirme türüdür.\" Yukarıdaki cümledeki boşluğa aşağıdakilerden hangisi getirilemez?",
+          "options": {
+            "A": "Provalara",
+            "B": "Role",
+            "C": "Bakış açısına",
+            "D": "Senaryolara",
+            "E": "Tekniğe"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Kalite maliyetleri genel olarak \"tespit etme maliyetleri\" ve \"önleme maliyetleri\" olarak gruplandırılabilir. Burada tespit edilen veya önlenen en önemli eleman aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Hata",
+            "B": "Süreç",
+            "C": "Ürün",
+            "D": "Analiz",
+            "E": "Yazılım"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi izlenebilirlik çeşitleri arasında yer almaktadır?",
+          "options": {
+            "A": "Tek yönlü izlenebilirlik - Çok yönlü izlenebilirlik",
+            "B": "Tekli izlenebilirlik - Çoklu izlenebilirlik",
+            "C": "Aktif izlenebilirlik - Pasif izlenebilirlik",
+            "D": "Otomatik izlenebilirlik - Manuel izlenebilirlik",
+            "E": "Dikey izlenebilirlik - Yatay izlenebilirlik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi bir yazılım testi giriş kriteri olarak ele alınamaz?",
+          "options": {
+            "A": "Test verilerinin ve diğer gerekli kaynakların varlığı",
+            "B": "Test ortamının kullanılabilir olması",
+            "C": "Gerekli test araçlarının kullanılabilir olması",
+            "D": "Önceki test seviyelerinin çıkış kriterlerini karşılayan test öğeleri",
+            "E": "Planlanan testlerin koşturulmuş olması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

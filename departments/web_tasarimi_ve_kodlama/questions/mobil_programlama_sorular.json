@@ -1,0 +1,1586 @@
+{
+  "course": "Mobil Programlama",
+  "lesson_code": "MOBIL_PROGRAMLAMA",
+  "exam_count": 6,
+  "exams": [
+    {
+      "title": "Mobil Programlama 2024-2025 Vize",
+      "exam_title": "Mobil Programlama 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Mobil_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kendi arayüz bileşenimizi üretmek istediğimizde, arayüz bileşeni sınıfını tanımlamasında, @override ile işaretleyip yazmak zorunda olduğumuz fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "runApp",
+            "B": "main",
+            "C": "build",
+            "D": "create",
+            "E": "init"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mobil Programlama 2010-2020 Vize",
+      "exam_title": "Mobil Programlama 2010-2020 Vize",
+      "exam_type": "vize",
+      "year": "2010-2020",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Mobil_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 12,
+          "question": "2010-2020 yılları arasındaki istatistiklere göre 2020 civarında akıllı telefon pazarında en fazla kullanılan işletim sistemi hangisidir?",
+          "options": {
+            "A": "iOS",
+            "B": "WindowsPhone",
+            "C": "Android",
+            "D": "SymbianOS",
+            "E": "HarmonyOS"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdaki veri türlerinden hangisi Jenerik (Generic) bir türdür?",
+          "options": {
+            "A": "Boolean",
+            "B": "double",
+            "C": "Null",
+            "D": "List",
+            "E": "Object"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "'package:flutter/services.dart' kütüphanesi üzerinden kullanabileceğimiz rootBundle yapısı kullanılma sebebi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "RAM'de her tür key-value veri çifti oluşturabilmek için.",
+            "B": "Telefonun temel konfigürasyon verilerine erişmek için.",
+            "C": "Widget ağacının en tepedeki elemanına erişmek için.",
+            "D": "Uygulama içerisindeki tüm varlıklara(assets) erişmek için.",
+            "E": "Telefonun kamera, mikrofon gibi donanımlarına erişmek için."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki ihtiyaçlardan hangisi için arayüz bileşenlerinizi bir Container widgetı içerisine toplamazsınız?",
+          "options": {
+            "A": "Kenar özellikleri (border) ayarlamak için",
+            "B": "Arkaplan rengi (color) ayarlamak için",
+            "C": "Dış kenar boşluğu (margin) ayarlamak için",
+            "D": "İç kenar boşluğu (padding) ayarlamak için",
+            "E": "İçerdiği objeleri yan yana (soldan sağa) sıralamak için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Column widgetı içerisindeki crossAxisAlignment parametresi aşağıdakilerden hangisi için düzenleme sağlar?",
+          "options": {
+            "A": "İçerdiği elemanların dikey taşma yapmaması için",
+            "B": "İçerdiği elemanların yatay taşma yapmaması için",
+            "C": "İçereceği eleman sayısının çalışma zamanı tespiti için",
+            "D": "İçerdiği elemanların dikeyde yerleşimi için",
+            "E": "İçerdiği elemanların yatayda yerleşimi için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "https : // pub. dev internet adresi aşağıdaki tanımlardan hangisi için hizmet vermektedir?",
+          "options": {
+            "A": "Android ve iOS işletim sistemlerinin özelliklerinin anlatıldığı yer",
+            "B": "Flutter ve Dart için açık kaynak kütüphanelerin paylaşıldığı yer",
+            "C": "Dart programlama dilinin dokümantasyonunun bulunduğu yer",
+            "D": "Flutter ve Dart uygulamalarının çevrimiçi yazılıp çalıştırılabileceği yer",
+            "E": "Flutter çerçevesi dokümantasyonunun bulunduğu yer"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_17.jpg",
+          "image_file": "MOBIL_PROGRAMLAMA_2010_2020_vize_soru_17.jpg",
+          "image_path": "resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_17.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir sınıf tanımlaması için yukarıdaki kod bloğu bulunmaktadır. Bu kod bloğunun çağrılma zamanı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sınıfın bellekten örneğinin silineceği zaman",
+            "B": "Sınıfın bellekte her örneği oluşturulurken",
+            "C": "Sınıf için tanımlı olmayan bir fonksiyon çağrılırsa",
+            "D": "Sınıf için yapıcı fonksiyonlar çağrıldıktan sonra",
+            "E": "Sınıfın bellekte ilk örneği oluşturulurken"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "MaterialApp arayüz bileşeninin routes parametresinin aldığı değer türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Map<String, Widget>",
+            "B": "Map<String, WidgetBuilder>",
+            "C": "List<WidgetBuilder>",
+            "D": "List<Widget>",
+            "E": "Map<int, Widget>"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki ifadelerden hangisi Flutter Çerçevesi (Framework) için yanlış bir bilgidir?",
+          "options": {
+            "A": "Flutter, Dart'tan bağımsız ayrı bir programlama dili değildir.",
+            "B": "Dart programlama dilinde görebileceğiniz her şey bir objedir (object).",
+            "C": "Dart programlama dilinde bir değişkenin herhangi bir türden veri tutmasını istiyorsak \"Object\" türünde oluşturulabilir.",
+            "D": "Dart; global, yerel ve static değişken tanımlamalarına izin vermektedir.",
+            "E": "Dart programlama dili güçlü tip tanımlı (strongly typed) bir dildir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mobil Programlama 2010-2020 Vize",
+      "exam_title": "Mobil Programlama 2010-2020 Vize",
+      "exam_type": "vize",
+      "year": "2010-2020",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Mobil_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 2,
+          "question": "2010-2020 yılları arasındaki istatistiklere göre 2020 civarında akıllı telefon pazarında en fazla kullanılan işletim sistemi hangisidir?",
+          "options": {
+            "A": "HarmonyOS",
+            "B": "iOS",
+            "C": "WindowsPhone",
+            "D": "Android",
+            "E": "SymbianOS"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "'package:flutter/services.dart' kütüphanesi üzerinden kullanabileceğimiz rootBundle yapısı kullanılma sebebi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Telefonun kamera, mikrofon, GPS sensörü gibi donanımlarına erişmek için.",
+            "B": "Widget (Arayüz bileşeni) ağacının en tepedeki elemanına erişmek için.",
+            "C": "Uygulama içerisindeki tüm varlıklara (assets) erişmek için.",
+            "D": "Telefonun temel konfigürasyon verilerine erişmek için.",
+            "E": "RAM'de her tür key-value (anahtar-değer) veri çifti oluşturabilmek için."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_3.jpg",
+          "image_file": "MOBIL_PROGRAMLAMA_2010_2020_vize_soru_3.jpg",
+          "image_path": "resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_3.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Satırı ile Flutter projesine eklenecek Material Kütüphanesindeki bileşenler aşağıdaki hangi aşamada fayda sağlamaktadır?",
+          "options": {
+            "A": "Aynı anda birden fazla arayüz görüntüsünün hazırlanması ve bellekte saklanması.",
+            "B": "Uygulama içerisinde kendi özel arayüz bileşeni çözümünün üretibilmesi.",
+            "C": "Kullanıcı arayüzü etkileşimlerinin dokunmatik ekran üzerinde parmak ile gerçekleşmesi.",
+            "D": "Uygulama geliştirirken Dart kodları içerisine Java, Kotlin kodlarını gömebilmek.",
+            "E": "Arayüz bileşenlerinin Android uygulamalarında kullanılana"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_4.jpg",
+          "image_file": "MOBIL_PROGRAMLAMA_2010_2020_vize_soru_4.jpg",
+          "image_path": "resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_4.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıdaki kod satırı hata vermeden çalışan bir uygulamanın parçası ise yaptığı işlemle ilgili olarak aşağıdaki yorumlardan hangisi doğrudur?",
+          "options": {
+            "A": "names bir Map örneğidir ve verilen liste bu Map objesine 0,1,2 indeksleri ile kaydedilir.",
+            "B": "names bir Object örneğidir ve verine String ifadelerden sonuncusu names'e kaydedilir.",
+            "C": "names bir String örneğidir ve 'Seth' ifadesi names'e kaydedilir.",
+            "D": "names bir Set örneğidir ve verilen liste bu Set objesine çakışmasız kaydedilir.",
+            "E": "names bir List örneğidir ve verilen liste bu List objesinin sonuna eklenir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki veri türlerinden hangisi Jenerik (Generic) bir türdür?",
+          "options": {
+            "A": "double",
+            "B": "List",
+            "C": "Object",
+            "D": "Null",
+            "E": "Boolean"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_6.jpg",
+          "image_file": "MOBIL_PROGRAMLAMA_2010_2020_vize_soru_6.jpg",
+          "image_path": "resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_6.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki kod bloğunun ekran çıktısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "NaN",
+            "B": "3",
+            "C": "null",
+            "D": "5",
+            "E": "0"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "–enable-windows-desktop ifadesi Windows bir işletim sistemi için Flutter projesi yazmayı mümkün kılmaktadır. Bu ifade hangi terminal komutuna parametre olarak yazılır?",
+          "options": {
+            "A": "flutter config",
+            "B": "flutter platform",
+            "C": "flutter create",
+            "D": "flutter doctor",
+            "E": "flutter enable"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Flutter'daki arayüz bileşenlerinin (widget) nasıl çalıştıkları ve hangi parametreleri aldıklarını en detaylı şekilde öğrenme biçimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Dart dokümantasyonundan",
+            "B": "Flutter API dokümantasyonundan",
+            "C": "Android API dokümantasyonundan",
+            "D": "GitHub Örneklerinden",
+            "E": "Flutter Cookbook dokümantasyonundan"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_9.jpg",
+          "image_file": "MOBIL_PROGRAMLAMA_2010_2020_vize_soru_9.jpg",
+          "image_path": "resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_9.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıdaki şekilde kodlaması başlayan bir Widget sınıfı için hangi seçenek her zaman doğrudur?",
+          "options": {
+            "A": "TobboxA içerisinde setState() metodu ile arayüz güncellemesi tetiklenir.",
+            "B": "TobboxA Widget'ı kullanıcı ile etkileşimde bulunabilir.",
+            "C": "TabboxA Widget'ı en dış katmandaki Widgettir.",
+            "D": "TobboxA Widget'ı en iç katmandaki Widgettır.",
+            "E": "TobboxA Widgeti bir Container içerisinde yer almalıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdaki operatörlerden hangisi bir listedeki içeriği bir başka listeye kopyalamak için kullanılır?",
+          "options": {
+            "A": "??= (iki soru işareti eşittir)",
+            "B": ": (iki nokta üst üste)",
+            "C": "=> (eşittir büyüktür)",
+            "D": "...? (üç nokta soru işareti)",
+            "E": ".. (iki nokta)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Dart programlama dili için aşağıda verilen ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Fonksiyon tanımlamasında fonksiyona bir isim verilmesi zorunlu değildir.",
+            "B": "Fonksiyon tanımlamasında geri dönüş türünün yazılması zorunlu değildir.",
+            "C": "Fonksiyon tanımlamasında return ile geri dönüş yoksa fonksiyon null değer döner.",
+            "D": "Fonksiyon çağrısında normal parametrelere değer girilmesi zorunlu değildir.",
+            "E": "Fonksiyon tanımlamasında parametrelerin türünün belirtilmesi zorunlu değildir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi Flutter Navigator API'ında bulunan temel bileşenlerden biri değildir?",
+          "options": {
+            "A": "Screen",
+            "B": "Route",
+            "C": "Router",
+            "D": "Navigator",
+            "E": "Page"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Column widgeti içerisindeki crossAxsisAlignment parametresi aşağıdakilerden hangisi için düzenleme sağlar?",
+          "options": {
+            "A": "İçerdiği elemanların dikey taşma yapmaması için",
+            "B": "İçerdiği elemanların yatay taşma yapmaması için",
+            "C": "İçerdiği elemanların dikeyde yerleşimi için",
+            "D": "İçereceği eleman sayısının çalışma zamanı tespiti için",
+            "E": "İçerdiği elemanların yatayda yerleşimi için"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi Flutter çerçevesinin arayüz düzenlemesi için koyduğu kısıtlardan biri değildir?",
+          "options": {
+            "A": "Widget ağacı her 4ms'de bir yenilenmek zorundadır. Eğer yenilenmezse ekranda titreme olacaktır.",
+            "B": "Bir widget ekranda hangi konumda olacağını asla bilemez ve buna karar veremez.",
+            "C": "Bir widget kendi boyutunu ancak üst seviye bileşenin verdiği kısıtlar arasında seçebilir.",
+            "D": "Bir üst seviyedeki widgetın boyutu belirleyebilmesi de onun üstündeki widget'a bağlı olacağından tam widget ağacı işlenmeden arayüzün nasıl olacağı bilinemez.",
+            "E": "Bir widget üst seviyeden daha fazla bir boyutta olmak ister ve üst seviyenin alttaki widgetları nasıl yerleştireceği ile ilgili bilgisi yoksa alttaki elemanın verdiği ölçü değerleri yok sayılır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Kullanıcı etkileşimi olmayacak kendi arayüz bileşenimizi tasarlamak istiyorsak hangi sınıftan miras almamız uygun çözümdür?",
+          "options": {
+            "A": "Scaffold",
+            "B": "Stateless Widget",
+            "C": "Container",
+            "D": "MaterialApp",
+            "E": "Widget"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Flutter projesinin en hızlı güncellemelerini alacağımız kanalı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Trouble",
+            "B": "Master",
+            "C": "Stable",
+            "D": "Beta",
+            "E": "Dev"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "MaterialApp arayüz bileşeninin routes parametresinin aldığı değer türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "List",
+            "B": "Map",
+            "C": "Map",
+            "D": "List",
+            "E": "Map"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_18.jpg",
+          "image_file": "MOBIL_PROGRAMLAMA_2010_2020_vize_soru_18.jpg",
+          "image_path": "resim-sorular/MOBIL_PROGRAMLAMA_2010_2020_vize_soru_18.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir sınıf tanımlaması için yukarıdaki kod bloğu bulunmaktadır. Bu kod bloğunun çağrılma zamanı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sınıfın bellekte ilk örneği oluşturulurken",
+            "B": "Sınıfın bellekten örneğinin silineceği zaman",
+            "C": "Sınıf için tanımlı olmayan bir fonksiyon çağrılırsa",
+            "D": "Sınıfın bellekte her örneği oluşturulurken",
+            "E": "Sınıf için yapıcı fonksiyonlar çağrıldıktan sonra"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi Navigator 2.0 API ile gelen bileşenlerden biri değildir?",
+          "options": {
+            "A": "Page",
+            "B": "RouterInformationParser",
+            "C": "Router",
+            "D": "RouterDelegate",
+            "E": "Scaffold"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mobil Programlama 2025-2026 Final",
+      "exam_title": "Mobil Programlama 2025-2026 Final",
+      "exam_type": "final",
+      "year": "2025-2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Mobil_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Dart programlama dilinde bir değişken tanımlamasının alt çizgi(_) ile başlaması ne anlama gelmektedir?",
+          "options": {
+            "A": "Değişkenin sabit olarak tanımlandığını belirtir. Üzerinde değişiklik yapılamaz.",
+            "B": "Değişkenin private olarak tanımlandığını belirtir. Sınıfın dışından erişilemez.",
+            "C": "Değişkenin static olarak tanımlandığını belirtir. Sınıfın tüm örneklerinden erişilebilir.",
+            "D": "Değişkenin object olarak tanımlandığını belirtir. Her türden veriyi saklayabilir.",
+            "E": "Değişkenin public olarak tanımlandığını belirtir. Sınıfın dışından erişilebilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Flutter'daki test paketi ile unit test işlemi yapıldığında yukarıdaki gibi bir test koşulunun sağlanması için boş bırakılan yere ne gelecektir?",
+          "options": {
+            "A": "assert",
+            "B": "lookup",
+            "C": "expect",
+            "D": "find",
+            "E": "search"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Dart programlama dilinde arkaplanda çalışacak bir iş parçacığı (multi-thread yaklaşımı) için kullanılan bileşenin adı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "process",
+            "B": "isolate",
+            "C": "thread",
+            "D": "background",
+            "E": "channel"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki satırlardan hangisi kalıcı depolama alanında uygulamaların kendine ait klasörüne erişmek için path_provider kütüphanesi aracılığı ile kullanılan kodlamadır?",
+          "options": {
+            "A": "Directory dir = path(\"Data/Data\");",
+            "B": "Directory dir = path(\"AppFolder/Module/Data\");",
+            "C": "Directory dir = await getTemporaryDirectory();",
+            "D": "Directory dir = await getApplicationDocumentsDirectory();",
+            "E": "Directory dir = getCacheDir();"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "pubspec.yaml dosyasındaki gereksinimler (dependencies) kısmında paket yönetiminin en güncel sürümü bulması için versiyon numarası önüne aşağıdaki sembollerden hangisi gelmektedir?",
+          "options": {
+            "A": "?",
+            "B": "^",
+            "C": "*",
+            "D": "+",
+            "E": "%"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki operatörlerden hangisi bir listedeki içeriği bir başka listeye kopyalamak için kullanılır?",
+          "options": {
+            "A": ".. (iki nokta)",
+            "B": "?? (iki soru işareti eşittir)",
+            "C": ": (iki nokta üst üste)",
+            "D": "...? (üç nokta soru işareti)",
+            "E": "=> (eşittir büyüktür)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "MaterialApp arayüz bileşeninin onGenerateRoute parametresi, ________ parametresi olan bir fonksiyon alır. Yükarıdaki cümlede boş bırakılan yere yazılması gereken kelime aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "AssetBundle",
+            "B": "RouteSettings",
+            "C": "rootBundle",
+            "D": "Page",
+            "E": "NavigatorSettings"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Flutter geliştiricilerinin sunmuş olduğu widgetların tamamının tanıtımı ve anlatımlarına Flutter dokümanındaki aşağıdaki başlıklardan hangisinin altından erişilmektedir?",
+          "options": {
+            "A": "Deployment",
+            "B": "Flutter Widgets",
+            "C": "Widget Catalog",
+            "D": "Testing and Debugging",
+            "E": "Flutter in Action"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi Flutter'ın durum tabanlı arayüz çizimi yaklaşımının genel tanımlamasıdır?",
+          "options": {
+            "A": "ilustrative",
+            "B": "derivative",
+            "C": "imperative",
+            "D": "declarative",
+            "E": "decorative"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Flutter'ın arayüz çizimi ile ilgili olarak aşağıdaki yorumlardan hangisi doğrudur?",
+          "options": {
+            "A": "Yeni bir ekranın açılması için ikinci Ekran.show() tarzında bir çağrı yapılabilir.",
+            "B": "Bir butonun içerisinde bir widget oluşturularak bu widget ağacına dinamik olarak eklenebilir.",
+            "C": "Bir verideki değişim arayüzün bağımsız bölgelerinde güncelleme gerektiriyorsa Stateful Widget kullanmak iyi çözümdür.",
+            "D": "Provider paketi bize internette sunulan ücretsiz webservislerinin bilgilerini getirmektedir.",
+            "E": "Uygulama içerisindeki veri değişikliği arayüz güncellemesi gerektiriyorsa bu bir model olarak tanımlanmalı ve değişiklikler takip edilmelidir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Flutter'da her uygulama için varsayılan bir SharedPreferences dosyası oluşturulmaktadır. Bu dosyanın bir referansını elde etmek için aşağıdaki kodlamalardan hangisi kullanılır?",
+          "options": {
+            "A": "final prefs = await SharedPreferences.getInstance();",
+            "B": "final prefs = File.SharedPreferences();",
+            "C": "final prefs = await SharedPreferences.getValue();",
+            "D": "final prefs = await SharedPreferences.tInstance();",
+            "E": "final prefs = new SharedPreferences() -> SharedPreferences.default;"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Plugin (Eklenti) ile Package (Paket) arasındaki farklılık aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Package sadece Dart kodlarından oluşurken Plugin platform kodlaması ile bir köprü oluşturur.",
+            "B": "Package boyutu daha büyüktür. Plugin ise küçük kütüphanelerdir.",
+            "C": "Plugin'de Package'ye göre asset ve diğer bileşenler de bulunabilir.",
+            "D": "Plugin her projeye uyarken package sadece Dart uygulamalarına eklenir.",
+            "E": "Plugin sadece Dart kodlarından oluşurken Package platform kodlaması ile bir köprü oluşturur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi bir uygulamada yazılan kodların dağıtım sürümünde tersine mühendislikle çözülmesini engellemek adına derleme aşamasında kullanılacak bir etikettir?",
+          "options": {
+            "A": "-obfuscate",
+            "B": "-mix-code",
+            "C": "-clear-code",
+            "D": "-fix",
+            "E": "--refactor"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Visual Studio Code IDE'si içerisinde aktif Flutter çalıştırma kipi IDE ana ekranı içerisinde nerede görüntülenmektedir?",
+          "options": {
+            "A": "Karşılama (Welcome) ekranında",
+            "B": "Sol üst köşede",
+            "C": "Sağ alt köşede",
+            "D": "Sağ üst köşede",
+            "E": "Sol alt köşede"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Eğer bir animasyon oluşturulurken birden fazla geçiş aralığı belirlemek isteniyorsa; (örneğin bir containerdaki renk geçişlerinin trafik lambasındaki gibi sarı – yeşil – kırmızı arasında homojen olmayacak bir şekilde değişmesi), aşağıdakilerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "TweenColors",
+            "B": "TweenPairs",
+            "C": "MultipleTween",
+            "D": "Constant Tween",
+            "E": "TweenSequences"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Flutter'da içeriği sürekli değişebilen veri tabanı ve web servisleri gibi veri kaynakları için unit test işleminin belli bir anlık görüntü üzerine uygulanabilmesi için kullanılan paketin adı nedir?",
+          "options": {
+            "A": "Expresso",
+            "B": "Turkish Coffee",
+            "C": "Filter",
+            "D": "Mockito",
+            "E": "Cappuccino"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Column widget içerisindeki crossAxisAlignment parametresi aşağıdakilerden hangisi için düzenleme sağlar?",
+          "options": {
+            "A": "İçerdiği elemanların yatay taşma yapmaması için",
+            "B": "İçereceği eleman sayısının çalışma zamanı tespiti için",
+            "C": "İçerdiği elemanların yatayda yerleşimi için",
+            "D": "İçerdiği elemanların dikeyde yerleşimi için",
+            "E": "İçerdiği elemanların dikey taşma yapmaması için"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıdaki kod parçasında \"setState\" içerisinde \"active\" değeri güncellenmiş ve bu değere göre hiyerarşide içteki bir widget arkaplan rengini seçecektir. Hal böyle iken, setState metodu arayüz bileşenlerinin oluşturduğu ağaçta güncellenecek arayüz bileşeninden daha dış seviyede bulunuyorsa, arayüz güncellenmesinde değişen veri içteki arayüz bileşenlerine (widget) aktarılma yöntemi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Hiyerarşide içeride kalan widget'ın yapıcı fonksiyonuyla",
+            "B": "Hiyerarşide içeride kalan widget'in build fonksiyonuyla",
+            "C": "Scaffold widget'ının child parametresine beslenecek fonksiyonla",
+            "D": "StatefulWidget'in createState fonksiyonuyla",
+            "E": "Stateful Widget'ın yapıcı(constructor) fonksiyonuyla"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Firebase özelliklerinin kullanıma başlanmasından önce aşağıdaki fonksiyonlardan hangisi çağrılmalıdır?",
+          "options": {
+            "A": "init()",
+            "B": "load()",
+            "C": "connect()",
+            "D": "firebase_core()",
+            "E": "initializeApp()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "dart:convert kütüphanesinde Json metnini bir objeye çevirmek için kullanılan fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "toJson()",
+            "B": "fromJson()",
+            "C": "jsonEncode()",
+            "D": "serialize()",
+            "E": "jsonDecode()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mobil Programlama 2024-2025 Final",
+      "exam_title": "Mobil Programlama 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Mobil_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Plugin (Eklenti) ile Package (Paket) arasındaki farklılık aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Plugin sadece Dart kodlarından oluşurken Package platform kodlaması ile bir köprü oluşturur.",
+            "B": "Package sadece Dart kodlarından oluşurken Plugin platform kodlaması ile bir köprü oluşturur.",
+            "C": "Package boyutu daha büyüktür. Plugin ise küçük kütüphanelerdir.",
+            "D": "Plugin her projeye uyarken package sadece Dart uygulamalarına eklenir.",
+            "E": "Plugin'de Package'ye göre asset ve diğer bileşenler de bulunabilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Flutter'da, provider kütüphanesi kullanılarak bir veri modeli oluşturulacaksa, bu veri modeli aşağıdaki sınıflardan hangisinden miras almalıdır?",
+          "options": {
+            "A": "ChangeNotifier",
+            "B": "Consumer",
+            "C": "Provider",
+            "D": "ChangeNotifier Provider",
+            "E": "DataModel"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir Flutter uygulamasının çalışma zamanı davranışlarını takip etmek için kullanılan araç setinin adı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "VisualStudioCode",
+            "B": "Android SDK Manager",
+            "C": "VirtualDeviceManager",
+            "D": "Development Tools",
+            "E": "DartDev Tools"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki if koşulu aşağıdaki hangi kontrolü gerçekleştirir?",
+          "options": {
+            "A": "Dönen sonucun bir html sayfası olup olmadığını teyit eder.",
+            "B": "Erişilen web servisinin başarılı bir cevap döndüğünü teyit eder.",
+            "C": "Dönen sonucun bir Json dosyası olup olmadığını teyit eder.",
+            "D": "Erişilen web servisinin getirdiği verinin 200'e eşit olup olmadığını kontrol eder.",
+            "E": "Erişilen web servisinin başarısız bir cevap döndüğünü teyit eder."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Ekran tazelenmesinde kullanıcının bir sıçrama görmemesi için ekran tazeleme hızının kaç milisaniyeyi (ms) geçmemesi gerekir?",
+          "options": {
+            "A": "32",
+            "B": "10",
+            "C": "16",
+            "D": "120",
+            "E": "60"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Flutter'da uygulanacak bir animasyonun sürekli tekrar etmesi isteniyorsa oluşturulacak widgetın aşağıdaki sınıflardan hangisinden miras alması uygun olur?",
+          "options": {
+            "A": "AnimatedContainer",
+            "B": "AnimatedAlign",
+            "C": "AnimatedWidget",
+            "D": "Widget Transition",
+            "E": "Animated PhysicalModel"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir paketin belli bir sürümünün kullanımı zorunluluğu varsa bunu belirtmek için `pubspec.yaml` dosyasında aşağıdaki başlıklardan hangisi kullanılır?",
+          "options": {
+            "A": "dependency_mandatory",
+            "B": "dependency_overrides",
+            "C": "dependency_must",
+            "D": "dependency_downgrade",
+            "E": "dependency_chosen"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Akıllı telefonlarda veritabanlarının saklanması için belirtilen varsayılan klasöre erişmek için aşağıdaki fonksiyonlardan hangisi kullanılır?",
+          "options": {
+            "A": "getSqlDirectory()",
+            "B": "getDatabasesDirectory()",
+            "C": "getDatabasesPath()",
+            "D": "getSqlitePath()",
+            "E": "setDataPath()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"App State\" (Uygulama durumu) Flutter'da veri değişiminin bir durum ile uygulama genelinde takibini sağlayan yaklaşımdır. Aşağıdakilerden hangisi için \"App State\" yaklaşımını kullanmak gereksiz olacaktır?",
+          "options": {
+            "A": "Bir animasyonlu widgetın animasyonu oynatımında",
+            "B": "Bir sosyal ağ uygulamasının bildirim göstermesinde",
+            "C": "Bir e-ticaret uygulamasında sepet kısmının inşasında",
+            "D": "Kullanıcı oturum açma işlevinde",
+            "E": "Kullanıcı tercihlerinin değişiminde"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi Flutter uygulama boyutunu azaltmak için kullanılacak yöntemlerden biri değildir?",
+          "options": {
+            "A": "Kütüphanelerden yüklenen kaynakların en aza indirilmesi",
+            "B": "Kullanılmayan kaynakların projeden çıkarılması",
+            "C": "PNG ve JPEG dosyalarını sıkıştırarak kullanma",
+            "D": "Dağıtım sürümü üretilirken -split-debug-info etiketinin kullanımı",
+            "E": "Android ve iOS SDK sürümlerinin düşük tutulması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıdaki kod parçasında \"setState\" içerisinde \"_active\" değeri güncellenmiş ve bu değere göre hiyerarşide içteki bir widget arkaplan rengini seçecektir. Hal böyle iken, setState metodu arayüz bileşenlerinin oluşturduğu ağaçta güncellenecek arayüz bileşeninden daha dış seviyede bulunuyorsa, arayüz güncellenmesinde değişen veri içteki arayüz bileşenlerine (widget) aktarılma yöntemi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Hiyerarşide içeride kalan widget'in build fonksiyonuyla",
+            "B": "Stateful Widget'in yapıcı(constructor) fonksiyonuyla",
+            "C": "Scaffold widget'ının child parametresine beslenecek fonksiyonla",
+            "D": "Stateful Widget'in createState fonksiyonuyla",
+            "E": "Hiyerarşide içeride kalan widget'ın yapıcı fonksiyonuyla"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Dart programlama dilinde bir değişken tanımlamasının alt çizgi ( _ ) ile başlaması ne anlama gelmektedir?",
+          "options": {
+            "A": "Değişkenin public olarak tanımlandığını belirtir. Sınıfın dışından erişilebilir.",
+            "B": "Değişkenin object olarak tanımlandığını belirtir. Her türden veriyi saklayabilir.",
+            "C": "Değişkenin static olarak tanımlandığını belirtir. Sınıfın tüm örneklerinden erişilebilir.",
+            "D": "Değişkenin private olarak tanımlandığını belirtir. Sınıfın dışından erişilemez.",
+            "E": "Değişkenin sabit olarak tanımlandığını belirtir. Üzerinde değişiklik yapılamaz."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Kullanıcının ekrana tıklama etkileşimini yakalayacak bir arayüz bileşeninde GestureDetector kullanılıyorsa, GestureDetector yapıcı fonksiyonunun aşağıdaki parametrelerinden hangisinin verilmesi gerekir?",
+          "options": {
+            "A": "builder",
+            "B": "onTap",
+            "C": "build",
+            "D": "onStart",
+            "E": "onCreate"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Firebase özelliklerinin kullanıma başlanmasından önce aşağıdaki fonksiyonlardan hangisi çağrılmalıdır?",
+          "options": {
+            "A": "connect()",
+            "B": "init()",
+            "C": "load()",
+            "D": "initializeApp()",
+            "E": "firebase_core()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi `flutter_test` paketi içerisindeki Matcher sabitlerinden biri değildir?",
+          "options": {
+            "A": "matchesGoldenFile",
+            "B": "findsNWidgets",
+            "C": "findsWidgets",
+            "D": "findsClass",
+            "E": "findsNothing"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Floor kütüphanesini kullanarak yukarıdaki gibi bir sorgu yazmak istenirse aşağıdakilerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "@Sql('SELECT * FROM Person WHERE id = ?')",
+            "B": "@Sql('SELECT * FROM Person WHERE $id=$ :id')",
+            "C": "@Query('SELECT * FROM Person WHERE id = :id')",
+            "D": "@Query('SELECT * FROM Person WHERE id = ?')",
+            "E": "@RawQuery('SELECT * FROM Person WHERE id = 2')"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "GridView düzenleyici arayüz bileşeni için aşağıdaki tanımlardan hangisi uygundur?",
+          "options": {
+            "A": "Kaydırılabilir bir ızgara (tablo) görünümü sağlar.",
+            "B": "İçeriğin üst üste bindirilmesini sağlar.",
+            "C": "Kaydırılabilir bir liste görünümü sağlar.",
+            "D": "İç boşluk(padding), dış boşluk(margin), kenarlık(border), arkaplan rengi(background color) gibi özellikleri atamayı sağlar.",
+            "E": "Önemli noktaları vurgulamak için köşeleri yuvarlatılmış ve gölge efekti olan bir çerçeve sağlar."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Hata yakalama için yazılan try-catch-finally kod kümesinde finally bloğu …… için vardır. Yukarıdaki cümlede yer alan boşluğa aşağıdaki seçeneklerden hangisi gelmelidir?",
+          "options": {
+            "A": "hata olsun olmasın try-catch bloğu sonunda çalışacak kodu yazmak",
+            "B": "alt fonksiyon çağrılarında bir hata oluşursa onlara tepki verecek kodu yazmak",
+            "C": "hiç hata oluşmadığında çalıştırılacak kodu yazmak",
+            "D": "catch bloklarında yakalanamamış hataları yakalamak",
+            "E": "hatayı düzeltmek için gereken kodu yazmak"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıda şeffaflık değerinin değiştirildiği bir animasyon kodu verilmektedir. Buradaki \" duration: \" parametresi kullanılma amacı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Animasyonun kaç defa tekrarlanacağını belirtmek için",
+            "B": "Animasyonun ne zaman çalışacağını belirtmek için",
+            "C": "Animasyonda çizilecek alanın boyutlarını belirtmek için",
+            "D": "Animasyondaki geçişin ne kadar süreceğini belirtmek için",
+            "E": "Animasyondaki şeffaflık değerini vermek için"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi Navigator API içerisinde bulunulan sayfadan bir önceki sayfaya dönmeyi sağlayan fonksiyon çağrısıdır?",
+          "options": {
+            "A": "Navigator.push",
+            "B": "Navigator.move",
+            "C": "Navigator.return",
+            "D": "Navigator.back",
+            "E": "Navigator.pop"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mobil Programlama 2024-2025 Butunleme",
+      "exam_title": "Mobil Programlama 2024-2025 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Mobil_Programlama_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Flutter'daki provider kütüphanesi ile sağlanan uygulama seviyesi durum yönetiminde aşağıdaki hangi widget ile sayfadaki belli bir alanın güncellenmesi sağlanır?",
+          "options": {
+            "A": "Consumer",
+            "B": "ChangeNotifier",
+            "C": "Provider",
+            "D": "MultiProvider",
+            "E": "Listener"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi Flutter çerçevesinde uygulamanın test ve bakım süreci için yanlış bir ifadedir?",
+          "options": {
+            "A": "Uygulamanın dağıtımı profile kipinde derleme ile yapılır.",
+            "B": "Flutter'da unit test senaryoları proje kökündeki test adında bir klasörde oluşturulur.",
+            "C": "Test paketi expect adındaki fonksiyon çağrısı ile test sonucunun başarılı olup olmadığını değerlendirir.",
+            "D": "Uygulama dağıtımı boyutu platforma ve cihaza göre değişiklik gösterebilir.",
+            "E": "Uygulamanın varsayılan derleme kipi debug'dır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki çağrılardan hangisi Navigator API içerisinde isimlendirilmiş bir yolu çağırmak (ekrana getirmek) için kullanılan fonksiyondur?",
+          "options": {
+            "A": "Navigator.popNamed",
+            "B": "Navigator.moveNamed",
+            "C": "Navigator.returnNamed",
+            "D": "Navigator.pushNamed",
+            "E": "Navigator.backNamed"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Flutter ve Dart içerisinden Firebase özelliklerine erişmek için kullanılan kütüphaneler koleksiyonunun adı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "intl",
+            "B": "Destiny",
+            "C": "Provider",
+            "D": "FireInTheHole",
+            "E": "FlutterFire"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Flutter geliştiricilerinin sunmuş olduğu widgetların tamamının tanıtımı ve anlatımlarına Flutter dokümanındaki aşağıdaki başlıklardan hangisinin altından erişilmektedir?",
+          "options": {
+            "A": "Deployment",
+            "B": "Flutter in Action",
+            "C": "Widget Catalog",
+            "D": "Testing and Debugging",
+            "E": "Flutter Widgets"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "http paketindeki http.get() fonksiyonunun dönüş değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Future <http.Request>",
+            "B": "http.Response",
+            "C": "http.Request",
+            "D": "http.State",
+            "E": "Future<http.Response>"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "pubspec.yaml dosyasına yeni bir paket bağımlılığı tanımladığınızda bunun kullanıma hazır olması için terminalde aşağıdaki komutlardan hangisi çalıştırılır?",
+          "options": {
+            "A": "flutter work",
+            "B": "flutter create package",
+            "C": "flutter pub get",
+            "D": "flutter build apk",
+            "E": "flutter run"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Sqlite ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "DateTime veri türü Sqlite veritabanında tanımlı bir veri türü değildir. Zaman verileri rakam veya String olarak saklanmaktadır.",
+            "B": "İşletim sistemi içerisinde sürekli açık bir sqlite servisi çalışmak zorundadır. Uygulamalar bu servis sayesinde veritabanlarına erişir.",
+            "C": "Sqlite ilişkisel bir veritabanı modeli sunar.",
+            "D": "iOS ve Android işletim sistemlerinde yerel olarak gelmektedir. Akıllı telefon uygulamalarda doğrudan kullanılabilir.",
+            "E": "Bir kolonda farklı satırlarda farklı değer türünde veri saklanabilir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Flutter kod içerisinde projeye dahil edilmiş varlıklara(assets) erişmek için……….. kullanılır. Yukarıdaki cümlede boş bırakılan alana aşağıdaki ifadelerden hangisi yazılmalıdır?",
+          "options": {
+            "A": "AssetFolder",
+            "B": "AssetString",
+            "C": "AssetBundle",
+            "D": "AssetStream",
+            "E": "AssetMap"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "double get right => left + width; Dart Programlama dilinde bir sınıf içerisinde yukarıdaki kodun işlevini hangisi doğru ifade etmektedir?",
+          "options": {
+            "A": "right sınıf içinde sadece okunabilir bir tanımlama olarak eklenir.",
+            "B": "left ve width degerleri güncellenmek istendiğinde bu satır çalıştırılır.",
+            "C": "get adında yeni bir değişken tanımlamaktadır.",
+            "D": "right adında yeni bir değişken tanımlamaktadır.",
+            "E": "right sınıf içinde sadce yazılabilir bir tanımlama olarak eklenir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "DartDevTools içerisindeki \"Performance View\" aracı aşağıdaki işlevlerden hangisini yerine getirmek için vardır?",
+          "options": {
+            "A": "Uygulamanın ekran tazelemesi için geçen süreyi ve her bir olayın gerçekleşme süresini gösterir.",
+            "B": "Uygulama içerisindeki varlıkların bir listesini gösterir.",
+            "C": "Uygulamanın ayarlar ekranını gösterir.",
+            "D": "Uygulamanın dağıtım paketlerindeki eksikleri hesaplar ve dağıtıma uygun olması için gerekli bileşenleri listeler.",
+            "E": "Ekrandaki her bir widgetın kapladığı alanı ve yerleşim planını gösterir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi Material düzenleyici arayüz bileşenlerinden biridir?",
+          "options": {
+            "A": "Text",
+            "B": "FlatButton",
+            "C": "Icon",
+            "D": "Asset",
+            "E": "ListTile"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Eğer bir web servisi veya veritabanı verisi ile test işlemi yapılacaksa, taklit veri kaynağı oluşturmak için kullanılan paketin adı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Slave",
+            "B": "Tester",
+            "C": "Copy",
+            "D": "Mockito",
+            "E": "Capuccino"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Flutter uygulamasının performansı hakkında aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Ekranda yenilenecek kısımları yönetmek için geniş (daha fazla ekran bölgesini kapsayan) tek bir Stateful Widget kullanımı performansı iyileştirir.",
+            "B": "Arayüz çiziminde alt elemanlar değişmiyor olsa dahi yeniden çizim adımında tüm alt ağaç baştan render edilmek zorundadır. Bu durumu bertaraf edecek bir çözüm yoktur.",
+            "C": "Widget ağacında iç içe yer alan birden fazla Stateless Widget için sadece bir tane build() metodu üzerinden geçtiğimizde ekran hazırlanır. İçteki widgetların build() metotları üzerinden geçilmez.",
+            "D": "Uygulamanın oluşan Android ve iOS paket boyutu cihaza marketten indirilen boyutundan daha büyük olmaktadır.",
+            "E": "Flutter uygulamaları farklı platformlar için tek bir dağıtım paketi üzerinden paylaştırılır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki bilgilerden hangisi Flutter'da veri saklama işlemleri açısından yanlış bir ifadedir?",
+          "options": {
+            "A": "Flutter'da dosya sistemine erişimde path_provider ile yollar belirlenmelidir.",
+            "B": "Uygulamanın geçici dosyalarını kullanıcı veya işletim sistemi herhangi bir anda silebilir.",
+            "C": "Uygulamanın kendine ait dosyalarını kaydedeceği klasöre getApplicationDocumentsDirectory() ile ulaşılır.",
+            "D": "Android'de uygulamaların kendine ait alanına başka uygulamaların erişme hakkı yoktur.",
+            "E": "Flutter'da dosya sistemine bir dosya kaydedilemez. Bunun yerine sqlite ve shared_preferences kullanılması gerekir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "AnimatedContainer kullanarak Flutter'da bir animasyon oluşturmak istenirse, bu animasyon aşağıdaki özelliklerden hangisini değiştiremez?",
+          "options": {
+            "A": "Border (Kenarlık)",
+            "B": "Font Size (Font Boyutu)",
+            "C": "Color (Renk)",
+            "D": "Padding (İç Boşluk)",
+            "E": "Margin (Dış Boşluk)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi sınıfların hangi türden miras aldığını bulmak adına kullanılan tür kontrol operatörüdür?",
+          "options": {
+            "A": "with",
+            "B": "as",
+            "C": "like",
+            "D": "to",
+            "E": "in"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi Flutter'da uygulama seviyesi durum yönetimi için kullanılan kütüphanenin adıdır?",
+          "options": {
+            "A": "firebase",
+            "B": "material",
+            "C": "provider",
+            "D": "http",
+            "E": "intl"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "dependencies :url_launcher: '> 5.4.0 <6.0.0' pubspec.yaml dosyası içerisinde yukarıdaki gibi bir satır varsa bu paket projeye nasıl dahil olacaktır?",
+          "options": {
+            "A": "url_launcher'a bağımlı olan başka paketlerde bağımlılıklar 6.0.0'a yükseltilecektir.",
+            "B": "url_launcher'a olan bağımlılıklar 5.4.0 ila 6.0.0 arasındaki bir sürümü kullanacaktır.",
+            "C": "url_launcher'ın son sürümü kullanılır.",
+            "D": "url_launcher projeye dahil edilmeyecek sadece sürüm aralığı takip edilecektir.",
+            "E": "url_launcher'ın 5.4.0 ile 6.0.0 arasındaki sürümleri görmezden gelinir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Stateful Widget'tan miras alınarak oluşturulacak bir arayüz bileşeni içerisinde setState() fonksiyonun olması gereken yer aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "createState() metodu içerisinde.",
+            "B": "build metodu içerisinde.",
+            "C": "Arayüz güncellenmesinin gerektiği yerdeki kodu sarmalayacak yerde.",
+            "D": "Sınıf içerisinde değil, runApp metodu içerisinde.",
+            "E": "Sınıfın yapıcı fonksiyonunun içerisinde."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

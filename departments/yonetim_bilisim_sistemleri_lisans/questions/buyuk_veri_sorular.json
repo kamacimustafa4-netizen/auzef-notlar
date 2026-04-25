@@ -1,0 +1,1864 @@
+{
+  "course": "Büyük Veri",
+  "lesson_code": "BUYUK_VERI",
+  "exam_count": 5,
+  "exams": [
+    {
+      "title": "Büyük Veri 2024-2025 Vize",
+      "exam_title": "Büyük Veri 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Buyuk_Veri_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi semantik web'in temel hedeflerinden biri değildir?",
+          "options": {
+            "A": "Paylaşılabilir veritabanlarının oluşturulması",
+            "B": "Mevcut veritabanlarının entegrasyonu",
+            "C": "Veri kaynaklarının planlanması",
+            "D": "Satıcı yazılımının değerlendirilmesi",
+            "E": "Dağıtık web servislerinin oluşturulması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi semantik web için standart geliştiren bir organizasyondur?",
+          "options": {
+            "A": "Uluslararası Network Organizasyonu (International Network Commission-INC)",
+            "B": "Uluslararası Modelleme Organizasyonu (International Modelling Commission-IMC)",
+            "C": "Uluslararası Bilgisayar Organizasyonu (International Computer Commission-ICC)",
+            "D": "Uluslararası Mekanik Organizasyonu (International Mechanical Commission-IMC)",
+            "E": "Uluslararası Elektroteknik Organizasyonu (International Electrotechnical Commission-IEC)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi veri mahremiyetinin uygulanmasında ön plana çıkan doğru bir sınıflandırmadır?",
+          "options": {
+            "A": "Erişilebilir veri - Kapsamlı veri",
+            "B": "Büyük veri - Smart veri",
+            "C": "Enformasyon verisi - Analiz verisi",
+            "D": "Anonim veri - Kapalı veri",
+            "E": "Hassas veri - Genel veri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıda verilen bilgilerden hangisi bilgi piramidi için yanlıştır?",
+          "options": {
+            "A": "Enformasyon, veri işleme, düzenleme, hesaplama, raporlama içeriğinden oluşur.",
+            "B": "Veri, sembollerin içeriğinden oluşur.",
+            "C": "Bilgelik, keşfetme, buluş, muhakeme ve değer içeriklerinden oluşur.",
+            "D": "Büyük veri, sembollerden parçalara ulaşma içeriğinden oluşur.",
+            "E": "Bilgi, enformasyon işleme, yeniden şekillendirme öğrenme, yapma içeriğinden oluşur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "……………….. varlıkları ilişkileriyle birlikte tanımlayan felsefecilerin kullandığı bir sözcüktür ve semantik web en temel bileşenidir. Yukarıdaki cümlede verilen boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Akıllı ajanlar",
+            "B": "Arka plan çıkarma",
+            "C": "Eliminasyon",
+            "D": "Ontoloji",
+            "E": "Modelleme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi büyük veri teknolojilerinin fonksiyonellik-teknoloji araçları eşleştirmesinde yanlış olarak verilmiştir?",
+          "options": {
+            "A": "Sorgu Dili - Tableau",
+            "B": "Veri işleme - MapReduce",
+            "C": "Görselleştirme – Google Charts",
+            "D": "Veri Ambarı - HadoopDB",
+            "E": "İstatistik & Makine Öğrenmesi - Weka"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Açık veri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Sadece veri sahibi tarafından düzenlenebilir.",
+            "B": "Herhangi bir telif hakkına sahip değildir.",
+            "C": "Nitelik ve paylaşım gereksinimine tabidir.",
+            "D": "Herkes tarafından dağıtılabilir.",
+            "E": "Herkes tarafından kullanabilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "\"…… yılında Londralı bilim insanı ……'in sunduğu istatistiksel veri analizi, büyük veri için milat olarak kabul edilir.\" Yukarıdaki cümlede verilen boşluklara aşağıdaki cümlelerden hangisi gelmelidir?",
+          "options": {
+            "A": "1928 – Fritz Pfleumer",
+            "B": "1663 - John Graunt",
+            "C": "1865 - Richard Millar Devens",
+            "D": "1724 – Arthur Samuel",
+            "E": "1884 - Dr. Herman Hollerith"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi veri maskeleme yöntemlerinden biri değildir?",
+          "options": {
+            "A": "Deterministik Veri Maskeleme",
+            "B": "Anında Veri Maskeleme",
+            "C": "Durağan Veri Maskeleme",
+            "D": "Dinamik Veri Maskeleme",
+            "E": "Statik Veri Maskeleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "I. Verinin aktarılacağı tarafın büyüklüğü II. Verinin çeşitliliği III. Veriden sağlanmak istenen fayda IV. Verinin niceliği V. Verinin büyüklüğü — Anonimleştirme yöntemleri uygulanırken veri sorumluları tarafından dikkate alınması gereken özellikler ile ilgili yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "III ve IV",
+            "B": "II, III ve V",
+            "C": "IV ve V",
+            "D": "I, III ve V",
+            "E": "I, IV"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi büyük verideki kaygılardan biri değildir?",
+          "options": {
+            "A": "Veri gizliliği",
+            "B": "Veri mahremiyeti",
+            "C": "Veri güvenliği",
+            "D": "Veri büyüklüğü",
+            "E": "Veri ayrımcılığı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "I. Uluslararası Açık Bilgi (Open Knowledge International, OKI) II. Açık Devlet Ortaklığı (Open Government Partnership, OGP) III. Kapalı Veri İzleme (Close Data Watch) IV. Kalkınma İçin Açık Veri (Open Data for Development, OD4D) V. Global Açık Veri İnisiyatifi (Global Open Data Initiative, GODI) Dünyadaki açık veri örnekleri ile ilgili yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "II, IV ve V",
+            "B": "I ve III",
+            "C": "I, II, IV ve V",
+            "D": "I, II ve III",
+            "E": "I, IV ve V"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıda verilen bilgilerden hangisi anonimleştirme için yanlıştır?",
+          "options": {
+            "A": "Anonimleştirme işleminin temel amacı, veriyi paylaşılabilir kılmaktır.",
+            "B": "Anonimleştirmede veri kayıplarındaki artış veri kalitesini düşürür.",
+            "C": "Hassas verilerinin ifşa edilmesini önlemek amacıyla yapılan bir işlemdir.",
+            "D": "Anonimleştirmede veri kalitesinin düşmesi veriden sağlanacak faydanın azalmasına neden olur.",
+            "E": "Anonimleştirme işlemi sırasında veri kaybı kesinlikle olmamalıdır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi verinin sınıflandırılmış gruplarından biri değildir?",
+          "options": {
+            "A": "Karanlık veri",
+            "B": "Anlamlı Veri",
+            "C": "Gri veri",
+            "D": "Erişilebilir veri",
+            "E": "Veri parçası"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi veri mahremiyeti ile ilgili doğru bir bilgidir?",
+          "options": {
+            "A": "Veri paylaşımının kötü amaçlı kullanımını önlemek için yapılır.",
+            "B": "Verinin kiminle hangi amaçla paylaşacağına dair sınırları ortadan kaldırmak için yapılır.",
+            "C": "Veriden gizli örüntüleri ortaya çıkararak verinin anlamlandırılmasının önlenmesi için yapılır.",
+            "D": "Veriden kişiye ulaşmayı sağlayacak ilişkileri mümkün olduğunca ortaya çıkarmak için yapılır.",
+            "E": "Veriden bir kişiye doğrudan veya dolaylı olarak erişimi sağlamak için yapılır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Açık verinin kullanımı ile sağlanan faydalar ve örneklerin eşleştirilmesinde aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Her bir aile, enerji tüketimlerini ölçümleyip azaltarak açık veriden yarar sağlaması – Enerji kazanımı",
+            "B": "Toplu taşıma aracı kullanan vatandaşların yoldaki problemler ve gecikmeler hakkında bilgi sahibi olması - Güvenliğe katkı",
+            "C": "Yapılan bilimsel araştırmaların kamuya açılması, ilgili konu hakkında çalışan kişilerin bunlardan yararlanması – Bilimsel gelişim",
+            "D": "Ölümlü trafik kazalarının büyük oranda engellenmesi - Hayat kurtarıcı çözümler üzerindeki etkisi",
+            "E": "Acil durumlara müdahale süresi azaltılması - Hayat kurtarıcı çözümler üzerindeki etkisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi hassas bilgilere verilen örneklerden biri değildir?",
+          "options": {
+            "A": "Sigorta verileri",
+            "B": "Banka verileri",
+            "C": "Tapu verileri",
+            "D": "Enerji verileri",
+            "E": "Eğitim verileri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi büyük veride yapı açısından doğru bir sınıflandırmadır?",
+          "options": {
+            "A": "Karanlık Yapı - Gri Yapı - Açık Yapı",
+            "B": "Elektronik Yapı - Hibrit Yapı - Fiziksel Yapı",
+            "C": "Yapısal - Yarı Yapısal - Yapısal Olmayan",
+            "D": "Erişilebilir - Yarı Erişilebilir - Erişilebilir Olmayan",
+            "E": "Homojen - Yarı Homojen - Heterojen"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "İnsan kaynakları yönetimi gibi organizasyon içindeki belirli bir kullanıcı grubunun belirli taleplerini karşılamak amacıyla geliştirilen büyük veri teknolojisi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Dağıtık sistem",
+            "B": "Bulut bilişim",
+            "C": "Data mart",
+            "D": "Büyük tablo",
+            "E": "Meta veri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki şıklarda verilen bilim insanlarından hangisi büyük verinin tarihsel gelişiminde \"Makine Öğrenimi\" terimini ilk olarak ortaya atmıştır?",
+          "options": {
+            "A": "Arthur Samuel",
+            "B": "Tim Berners",
+            "C": "Fritz Pfleumer",
+            "D": "John Graunt",
+            "E": "R.J.T Morris"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Büyük Veri 2023-2024 Vize",
+      "exam_title": "Büyük Veri 2023-2024 Vize",
+      "exam_type": "vize",
+      "year": "2023-2024",
+      "question_count": 23,
+      "source_url": "",
+      "file_name": "Buyuk_Veri_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "I. Uluslararası açık bilgi(open knowledge international, OKI) II. Açık devlet ortaklığı (open government partnership, OGP) III. Akşam kapalı veri izleme(claus data watch) IV. Kalkınma için açık veri(open data for development, OD4D) V. Global açık veri inisiyatifi (global open data initiative GODI) Dünyadaki açık bir örnekleriyle ilgili yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "1,2,3",
+            "B": "1,4,5",
+            "C": "1,2,4,5",
+            "D": "1,3",
+            "E": "2,4,5"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi semantik web'in temel hedeflerinden biri değildir?",
+          "options": {
+            "A": "Paylaşılabilir veri tabanlarının oluşması.",
+            "B": "Satıcı yazılımının değerlendirilmesi.",
+            "C": "Mevcut veri tabanının entegrasyonu.",
+            "D": "Veri kaynaklarının planlanması.",
+            "E": "Dağıtık web servislerinin oluşturulması."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda verilen bilgilerden hangisi bilgi piramidi için yanlıştır?",
+          "options": {
+            "A": "Enformasyon, veri işleme, düzenleme, hesaplama, raporlama içeriğinden oluşur.",
+            "B": "Veri, sembollerin içeriğinden oluşur.",
+            "C": "Büyük veri, sembollerden parçalara ulaşma içeriğinden oluşur.",
+            "D": "Bilgi, enformasyon işleme, yeniden şekillendirme, öğrenme, yapma içeriğinden oluşur.",
+            "E": "Bilgelik, keşfetme buluş, muhakeme ve değer içeriklerden oluşur."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi anonim eleştirmenin ilkelerinden biri değildir?",
+          "options": {
+            "A": "Ananemle eşime iş ve çalışma modellerini dikkate almalıdır.",
+            "B": "Anonim eleştirme, çoğul bir çözüm olarak ele alınmalıdır.",
+            "C": "Anonim eleştirme veri kümesinin niceliğine bağlı gerçekleşmelidir.",
+            "D": "Anonimleştiriciler veri kümesinin niteliğine bağlı gerçekleşmelidir.",
+            "E": "Anonim eleştirme seviyelendirilmelidir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "\"Semantik web sayesinde makinelerin etkileşiminin yanında ……. etkileşimini de üst seviyeye ulaşması beklenmektedir.\" Yukarıdaki cümlede verilen boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Makine- insan.",
+            "B": "Makine- makine",
+            "C": "Web- insan.",
+            "D": "İnsan- insan.",
+            "E": "Web- makine"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Büyük verilerin gerçek zamanla akışını işlemek için tasarlanmış büyük veri teknolojisi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Storm.",
+            "B": "Data mart.",
+            "C": "Meta veri.",
+            "D": "Dağıtık Sistem.",
+            "E": "Bulut bilişim."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi açık verinin faydalarından biri değildir?",
+          "options": {
+            "A": "Verim harmanlama çalışmaları ile veri kalitesinin artırılması ve veri alanının yapacak kullanımlar için bir zemin oluşturması.",
+            "B": "Veriyi kullanan farklı paydaşlar tarafından yenilikçi çözümlerin üretilmesi.",
+            "C": "Hesap verilebilirlik özelliği ile tüketicinin güvenini kazanma",
+            "D": "Veriye sadece veri sahibinin erişebildiği için veri mahremiyetinin korunması.",
+            "E": "Verinin sektörler arası çapraz kullanımı sayesinde maliyetlerin düşmesi ve etkinliğin artması."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi büyük veride yapı açısından doğru bir sınıflandırmadır?",
+          "options": {
+            "A": "Erişilebilir- yarı erişilebilir- erişilebilir olmayan.",
+            "B": "Yapısal- yarı yapısal- yapısal olmaya",
+            "C": "Karanlık yapı- gri yapı- açık yapı.",
+            "D": "Elektronik yapı- hibrit yapı- fiziksel yapı.",
+            "E": "Homojen- yere homojen- heterojen."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi verinin sınıflandırılmış gruplarından biri değildir?",
+          "options": {
+            "A": "Veri parçası.",
+            "B": "Gri veri.",
+            "C": "Anlamlı veri.",
+            "D": "Erişilebilir veri.",
+            "E": "Karanlık veri."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "İnsan kaynakları yöntemi gibi organizasyon içindeki belirli bir kullanıcı grubunun belirli taleplerini karşılamak amacıyla geliştirilen büyük veri teknolojisi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Büyük tablo.",
+            "B": "Dağıtık sistem.",
+            "C": "Meta veri.",
+            "D": "Data mart.",
+            "E": "Bulut bilişim."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Verilerin açık hale getirilmesi ile verinin bazı temel özellikleri korunmaktadır. Aşağıdakilerden hangisi bu özelliklerden biri değildir?",
+          "options": {
+            "A": "Verinin tekrar kullanımı.",
+            "B": "Verinin anonim eleştirilmesi.",
+            "C": "Verinin tekrar dağıtılması.",
+            "D": "Evrensel katılım.",
+            "E": "Veriye erişim"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdaki şıklarda verilen bilim insanlarından hangisi büyük verinin tarihsel gelişiminde makinenin öğrenimi terimini ilk ortaya atmıştır?",
+          "options": {
+            "A": "Arthur Samuel.",
+            "B": "Fritz plummer.",
+            "C": "R.J.K. T. Morris.",
+            "D": "Tim berners.",
+            "E": "John Ground"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "I. Verenin aktarılacağı tarafın büyüklüğü. II. Verinin çeşitliliği. III. Verilen sallamak istenen faydA) IV. Verinin niteliği. V. Verinin büyüklüğü. Anonim eleştirme yöntemleri uygulanırken, veri sorumluları tarafından dikkate alınması gereken özellikler ile ilgili yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "4, 5",
+            "B": "2 ve 4",
+            "C": "1, 3, 5",
+            "D": "2, 3, 5",
+            "E": "1, 4"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi hassas verilere verilen örneklerden biri değildir?",
+          "options": {
+            "A": "Eğitim verileri.",
+            "B": "Banka verileri.",
+            "C": "Tapu verileri.",
+            "D": "Sigorta verileri.",
+            "E": "Enerji verileri."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Açık veri ile ilgili aşağıdaki verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Herkes tarafından kullanılabilir.",
+            "B": "Nitelik ve paylaşım gereksinimine tabidir.",
+            "C": "Sadece veri sahibi tarafından düzenlenebilir.",
+            "D": "Herkes tarafından dağıtılabilir.",
+            "E": "Herhangi bir telif hakkına sahip değildir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi büyük verideki kaygılardan biri değildir?",
+          "options": {
+            "A": "Veri mahremiyeti",
+            "B": "Veri ayrımcılığı",
+            "C": "Veri güvenliği",
+            "D": "Veri büyüklüğü",
+            "E": "Veri gizliliği"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "\"…….. Yılında Londralı bilim insanı ……. in sunduğu istatistiksel veri analizi, büyük veri için milat olarak kabul edilir.\" Yukarıdaki cümlede verilen boşluklara aşağıdaki cümlelerden hangisi gelmelidir?",
+          "options": {
+            "A": "1663 - John Ground",
+            "B": "1928 - Fritz Pfleumer",
+            "C": "1724 - Arthur Samuel.",
+            "D": "1865- Richard Miller devens",
+            "E": "1884 – Dr. Hermsematik weban hollerith"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi büyük veri kaygılarından biri değildir?",
+          "options": {
+            "A": "Veri mahremiyeti.",
+            "B": "Veri ayrımcılığı.",
+            "C": "Veri gizliliği.",
+            "D": "Veri güvenliği.",
+            "E": "Veri büyüklüğü."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi veri maskeleme yöntemlerinden biri değildir?",
+          "options": {
+            "A": "Anında veri maskeleme",
+            "B": "Dinamik veri maskeleme",
+            "C": "Statik veri maskeleme",
+            "D": "Deterministik veri maskeleme",
+            "E": "Durağan veri maskeleme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Verinin anonimleştirilmesinde esinden kullanılan istatistiksel yöntemlerle ilgili aşağıdaki verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "T- yakınlık yöntemi, veri kümesinin yakınlık derecelerine göre, alt sınıflara ayrılarak anonim hale getirilmesi sürecidir.",
+            "B": "La- çeşitlilik, aynı değişken kombinasyonlarında denk gelen hassas değişkenlerinin oluşturduğu çeşitliliği dikkate almaktadır.",
+            "C": "K- anonimlik lettre çeşitliliğin eksikleri üzerinden yürütülen çalışmalar ile oluşturulmuştur.",
+            "D": "L- çeşitlilik yöntemi, kişisel veriler de çeşitlilik sağlar.",
+            "E": "K-anonimlik, belli kombinasyonlarda tekel özellikler gösteren kişilere özgü bilgilerin açığa çıkmasını engellemek için verilmiştir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Semantik veriye duyulan ihtiyacın ortaya çıkmasında dönüm noktası olarak kabul edilen olay aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "1980 lerin başlarında Çin'e ortaya çıkan teknolojik araştırmaların anlamlandırılması da ortaya çıkmıştır.",
+            "B": "1700 lerin ortalarında ingiltere'de bilgisayar destekli üretim programının bir sonucu olarak ortaya çıkmıştır.",
+            "C": "1970 lerin ortalarında birleşik bilgisayar destekli üretim programının bir sonucu olarak ABD hava kuvvetlerinde ortaya çıktı.",
+            "D": "1009 yüzlerin başlarında rusya'da geliştirilen uzay ve havacılık dairesi çalışmalarında ortaya çıkmıştır.",
+            "E": "1800 kırkların başında nasa uzay ajansının büyük veriyi modellemesini de ortaya çıkmıştır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Aşağıdakilerden hangisi veri mahremiyetinin uygulanmasında ön plana çıkan doğru bir sınıflandırmadır?",
+          "options": {
+            "A": "Anonim veri- kapalı veri",
+            "B": "Erişilebilir veri- kapsamlı veri.",
+            "C": "Büyük bir- smart veri.",
+            "D": "Hassas veri- genel veri.",
+            "E": "Enformasyon verisi- analiz verisi."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "Aşağıdakilerden hangisi semantik web için standart geliştirme getiren bir organizasyondur?",
+          "options": {
+            "A": "Uluslararası network organizasyonu, international network commision – inc",
+            "B": "Uluslararası bilgisayar organizasyonu, international computer commision.ıcc",
+            "C": "Uluslararası modelleme organizasyonu. International modelling, commision commision. imc",
+            "D": "Uluslararası mekanik organizasyonu, international mechanical commision imc",
+            "E": "Uluslararası elektronik organizasyonu international elektrotechnical commision iec"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Büyük Veri 2024-2025 Final",
+      "exam_title": "Büyük Veri 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Buyuk_Veri_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi veri gelişimi sırasında kullanılan isimlerden biri değildir?",
+          "options": {
+            "A": "Smart Veri",
+            "B": "Gri Veri",
+            "C": "Kapsamlı Veri",
+            "D": "Büyük Veri",
+            "E": "Veri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Sağlık hizmetleri verileri, kamuya açık hale getirilmemesi için yetkisiz erişime karşı güvence altına alınması gereken son derece hassas verilerdir ve ayrıca sağlık hizmeti sahtekarlığı da saldırganlardan önlenebilir. Bu nedenle, …….. sağlık alanındaki en önemli ve zorlu görevlerden biridir. Yukarıdaki cümlede verilen boşluğa aşağıdaki cümlelerden hangisi gelmelidir?",
+          "options": {
+            "A": "Verinin hacmi",
+            "B": "Verinin toplanması",
+            "C": "Veri güvenliği",
+            "D": "Verinin hızı",
+            "E": "Verinin ekonomik değeri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi mahremiyet yaklaşımlarında ele alınan boyutlardan biridir?",
+          "options": {
+            "A": "Erişilebilirlik mahremiyeti",
+            "B": "Boyut mahremiyeti",
+            "C": "Gizlilik mahremiyeti",
+            "D": "Açıklık mahremiyeti",
+            "E": "Bilgi mahremiyeti"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Nicel ve nitel analiz yöntemleri arasındaki temel fark aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Nitel veri küçük veri kümelerini, nicel veri büyük veri kümelerini analiz eder.",
+            "B": "Betimsel istatistik nitel analizde, kavramsal istatistik nicel analizde kullanılır.",
+            "C": "İki yöntem de analiz için farklı teknolojiler kullanır.",
+            "D": "Nitel analiz, nicel analizden daha kesin sonuçlar üretir.",
+            "E": "Nicel analiz sayısal verilerle, nitel analiz soyut verilerle yapılan analizdir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi PySpark için doğru bir tanımlamadır?",
+          "options": {
+            "A": "Python ile Spark iş birliği sonucu ortaya çıkmış olup Python kütüphanesinin ismidir.",
+            "B": "Apache Spark tarafından oluşturulmuş son versiyondur.",
+            "C": "Gerçek zamanlı verileri işlemek amacıyla oluşturulmuş bir R dili kütüphanesidir.",
+            "D": "Büyük verideki gizli örüntüleri analiz etmek için oluşturulmuş bir veri tabanı uygulamasıdır.",
+            "E": "Rastgele dağıtılmış veri kümelerini işlemek için oluşturulmuş bir teknolojidir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "I. Klinik referanslar II. Genomik veriler III. Statik veriler IV. Yayınlar Sağlık hizmetlerinde birçok kaynaktan çok sayıda veri üretilmektedir. Yukarıda verilenlerden hangileri sağlık hizmetlerindeki büyük veri kaynaklarındandır?",
+          "options": {
+            "A": "I ve III",
+            "B": "I, II ve IV",
+            "C": "Il ve III",
+            "D": "I ve IV",
+            "E": "I, II ve III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi Apache Spark mimarisinde yer alan bir bileşendir?",
+          "options": {
+            "A": "Task spliter (İşlem bölütleme)",
+            "B": "Cluster manager (Küme yönetimi)",
+            "C": "Session runner (Oturum yürütücü)",
+            "D": "System program (Sistem programı)",
+            "E": "OS session (İşletim sistemi oturumu)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi Apache Spark ile bir büyük veri analizi süreci için hatalı bir bilgi içermektedir?",
+          "options": {
+            "A": "SparkContext komutu ile projenin içindeki değişkenlerin içeriği görüntülenir.",
+            "B": "Init() komutu ile yüklenen kütüphaneler çalışır hale getirilir.",
+            "C": "Pip install komutu ile Python'a yeni kütüphaneler yüklenir.",
+            "D": "Import komutu ile yüklü kütüphaneler projeye dâhil edilir.",
+            "E": "SparkSession.builder komutu sayesinde yerel bilgisayarda çok çekirdekli bir uygulama başlatılabilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"Semantik web sayesinde makinelerin etkileşiminin yanında …….. etkileşiminin de üst seviyeye ulaşması beklenmektedir.\" Yukarıdaki cümlede verilen boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "İnsan - İnsan",
+            "B": "Web Makine",
+            "C": "Makine İnsan",
+            "D": "Makine Makine",
+            "E": "Web - İnsan"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "…….. büyük veri analizlerini iletmek, anlamak ve geliştirmek için resimler, diyagramlar ya da animasyonlar oluşturmak için kullanan bir tekniktir. Yukarıdaki cümlede verilen boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Zaman serisi analizi",
+            "B": "Optimizasyon",
+            "C": "Doğal dil işleme",
+            "D": "Sinyal işleme",
+            "E": "Büyük veri görselleştirme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Herkesin özgürce ve yeniden kullanabileceği ve yeniden dağıtılabilen, yalnızca nitelik ve paylaşım gereksinimine tabi olan veridir. Tanımı verilen veri çeşidi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Gri veri",
+            "B": "Karanlık veri",
+            "C": "Semantik veri",
+            "D": "Açık veri",
+            "E": "Büyük veri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi işletmelerin büyük veri kaynaklarından biri değildir?",
+          "options": {
+            "A": "Personel",
+            "B": "Müşteri",
+            "C": "Doküman",
+            "D": "Web ve mobil uygulama",
+            "E": "Ürün"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi yapay zekânın veriden elde ettiği amaçlardan biri değildir?",
+          "options": {
+            "A": "Tahminde bulunma",
+            "B": "Kümeleme",
+            "C": "Sınıflandırma",
+            "D": "Bölütleme",
+            "E": "Yakımsama, optimizasyon"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Dolandırıcılıktan teröre kadar değişen güvenlik sorunlarını çözmek için büyük veri analitiği yöntemlerini kullanarak çözümler üretmektedir. Sistemlerini CIA destekleriyle geliştirmiş ve ABD hükümeti ve güvenlik kurumları tarafından yaygın bir şekilde kullanılmaktadır. Yukarıda verilen bilgiler hangi kurumun büyük veri uygulaması sayesinde gerçekleştirilmiştir?",
+          "options": {
+            "A": "Palantir Technologies",
+            "B": "Amerikan Kroger Şirketi",
+            "C": "Commonbond Platformu",
+            "D": "CERN Büyük Hadron Çarpıştırıcısı",
+            "E": "Tennessee Valley Authority (Tennessee Vadisi Yönetimi)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Karıştırma ve permütasyon olarak da bilinir, veri kümesi öznitelik değerlerini orijinal kayıtlara karşılık gelmeyecek şekilde yeniden düzenlemek maksadıyla kullanılan bir tekniktir. Yukarıda açıklanan veriyi anonimleştirme tekniği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veriyi Maskeleme",
+            "B": "Veri Değiştirme",
+            "C": "Genelleme",
+            "D": "Takma Adlandırma",
+            "E": "Veri Bozulması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi Konvolüsyonel Sinir Ağları (CNN) için kesinlikle yanlış bir ifadedir?",
+          "options": {
+            "A": "İleri beslemeli gelişmiş bir yapay sinir ağıdır.",
+            "B": "Hayvan görsel korteksinden ilham almıştır.",
+            "C": "Derin sinir ağlarının başında gelmektedir.",
+            "D": "Geri beslemeli bir yapay sinir ağıdır.",
+            "E": "Girişleri iki veya üç boyutlu görüntü olarak varsaymaktadır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi bilgi güvenliğinin ana unsurlardan biri değildir?",
+          "options": {
+            "A": "Erişilebilirlik",
+            "B": "Sürdürülebilirlik",
+            "C": "Gizlilik",
+            "D": "Güvenirlilik",
+            "E": "Bütünlük"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Python ortamında kullanılan \"map\" komutu aşağıdaki hangi işlemi gerçekleştirmek için kullanılır?",
+          "options": {
+            "A": "Tüm harfleri sıralamak için",
+            "B": "Özelliklerin frekans değerlerini büyükten küçüğe sıralamak için",
+            "C": "Kelimelerin benzerliğine göre frekanslarını bulmak için",
+            "D": "Tüm özellikleri haritalamak, yeni özellik ekleme, çıkarma, revize etmek için",
+            "E": "Modelin tüm parametrelerini görüntülemek için"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi bulut bilişimin veri etkileşiminde olduğu bir bileşen değildir?",
+          "options": {
+            "A": "Dayanıklılık",
+            "B": "Süreklilik",
+            "C": "Anlamlılık",
+            "D": "Erişim",
+            "E": "Gizlilik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi Kişisel Verileri Koruma Kurulu'nun görev ve yetkilerinden değildir?",
+          "options": {
+            "A": "Veri sorumluları sicilinin tutulmasını sağlamak",
+            "B": "Özel nitelikli kişisel verilerin işlenmesi için aranan yeterli önlemleri belirlemek",
+            "C": "Veri sorumlusunun ve temsilcisinin görev, yetki ve sorumluluklarına ilişkin düzenleyici işlem yapmak",
+            "D": "Veri güvenliğine ilişkin yükümlülükleri belirlemek amacıyla düzenleyici işlem yapmak",
+            "E": "Anonimleşen verilerden kimlik bilgilerinin belirlenmesini sağlamak"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Büyük Veri 2023-2024 Final",
+      "exam_title": "Büyük Veri 2023-2024 Final",
+      "exam_type": "final",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Buyuk_Veri_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi büyük veri teknolojilerinin bilinirlik seviyelerini belirleyen kategorilerden biri değildir?",
+          "options": {
+            "A": "Analitik çözümlerin bilinirliği",
+            "B": "Kurumsal olarak büyük verinin bilinirliği",
+            "C": "Yönetim stratejilerinin bilinirliği",
+            "D": "Verideki anlamlı örüntülerin bilinirliği",
+            "E": "Veri yönetimi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Anonimleştirme işleminin temel amacı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Verileri depolamak",
+            "B": "Veri kayıplarını en aza indirmek",
+            "C": "Veriyi çeşitli katma değerler elde etmek adına paylaşılabilir kılmak",
+            "D": "Verileri eşleştirmek",
+            "E": "Mahremiyet duyarlı verilerin korunmasını sağlamak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Dolandırıcılıktan teröre kadar değişen güvenlik sorunlarını çözmek için büyük veri analitiği yöntemlerini kullanarak çözümler üretmektedir. Sistemlerini CIA destekleriyle geliştirmiş ve ABD hükümeti ve güvenlik kurumları tarafından yaygın bir şekilde kullanılmaktadır. Yukarıda verilen bilgiler hangi kurumun büyük veri uygulaması sayesinde gerçekleştirilmiştir?",
+          "options": {
+            "A": "Amerikan Kroger Şirketi",
+            "B": "Tennessee Valley Authority (Tennessee Vadisi Yönetimi)",
+            "C": "Palantir Technologies",
+            "D": "Commonbond Platformu",
+            "E": "CERN Büyük Hadron Çarpıştırıcısı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": ">> reduceByKey Yukarıdaki Python komutu aşağıdaki işlemlerden hangisini gerçekleştirmek için yazılmıştır?",
+          "options": {
+            "A": "Kelimelerin frekans değerlerini büyükten küçüğe sıralamak için",
+            "B": "Kelimelerin uzunluklarına göre sıralamaları bulmak için",
+            "C": "Küçük harften oluşan kelimeleri büyük barfe dönüştürmek için",
+            "D": "Büyük harften oluşan kelimeleri küçük harfe dönüştürmek için",
+            "E": "Kelimelerin benzerliğine göre frekanslarını bulmak için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "I. Bütünlük II. Pazarlanabilirlik III. Gizlilik IV. Erişilebilirlik V. Saklanabilirlik Yukarıdakilerden hangileri bilgi güvenliğinin ana unsurlarındandır?",
+          "options": {
+            "A": "II-V",
+            "B": "I-III",
+            "C": "1-II-V",
+            "D": "II-IV-V",
+            "E": "I-III-IV"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi Apache Spark mimarisinde yer alan bir bileşendir?",
+          "options": {
+            "A": "Task spliter (İşlem bölütleme)",
+            "B": "OS session (İşletim sistemi oturumu)",
+            "C": "System program (Sistem programı)",
+            "D": "Session runner (Oturum yürütücü)",
+            "E": "Cluster manager (Küme yönetimi)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Sosyal ve ekonomik yönden toplum faydasını amaçlayan açık veriler, toplumsal ve kurumsal yapıların ihtiyaçlarına cevap veren yenilikçi çözümler sunmalıdır. Yukarıda bahsedilen özellik açık verinin hangi ilkesi ile ilgilidir?",
+          "options": {
+            "A": "İnovasyon odaklılık",
+            "B": "İşlenebilirlik",
+            "C": "Kapsayıcılık",
+            "D": "Güncellik",
+            "E": "Yeniden kullanılabilirlik"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "I. Makine tarafından oluşturulan veriler II. İnsan tarafından üretilen veriler III. Davranış verileri IV. Kronolojik veriler Yukarıdakilerden hangilerinde sağlık hizmetlerindeki büyük veri kaynakları doğru şekilde gruplandırılmıştır?",
+          "options": {
+            "A": "I, II ve IV",
+            "B": "I ve III",
+            "C": "1 ve IV",
+            "D": "I, II ve III",
+            "E": "II ve II"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi mahremiyet koruma modellerinden biri olan yukarıdan aşağıya özelleştirme döngüsü aşamalarından biri değildir?",
+          "options": {
+            "A": "Bilgi kaybının hesaplanması",
+            "B": "En iyi genelleştirme yönteminin belirlenmesi",
+            "C": "En iyi bölütleyen boyutunun bulunması",
+            "D": "En iyi genelleştirmenin bulunması",
+            "E": "Mevcut verinin anonimlik gereksinimini karşılayıp karşılamadığının belirlenmesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi kapsamlı bir büyük veri analiz aşamalarından biri değildir?",
+          "options": {
+            "A": "Sınıf belirleme",
+            "B": "Doğru teknolojiyi entegre etme",
+            "C": "İhtiyaçları belirleme",
+            "D": "Soruları belirleme",
+            "E": "Verileri temizleme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi ülkemizde özel sektör tarafından gerçekleştirilen başarılı büyük veri uygulamalarından biri olan EnerjiSA ile ilgili yanlış bir bilgidir?",
+          "options": {
+            "A": "Müşteri verilerine yönelik tek bir havuz oluşturmak üzere çözüm ortağıyla birlikte kayıtları birleştirip temizlemiş ve bu şekilde çift kopyalar azaltılarak daha az kayıt elde edilmiştir.",
+            "B": "Elde edilen müşteri verileri, Milli Eğitim Bakanlığı ve Savunma Sanayii gibi dış kuruluşların verileriyle eşleştirilerek zenginleştirilmiş, müşteri bilgilerinin tamlık oranı artırılmıştır.",
+            "C": "Elektrik dağıtımı ve satışından oluşan iki ana iş kolu bulunan enerji şirketidir.",
+            "D": "14 ilde 10.1 milyon müşteriye ulaşarak yaklaşık 21 milyonu aşkın kullanıcıya dağıtım hizmeti sağlamaktadır.",
+            "E": "Çeşitli uygulamalar ile dijital dönüşümünü gerçekleştiren EnerjiSA, sanal gerçeklik uygulamalarıyla da teknolojik etkinliğini artırmıştır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Büyük veri analizinde kullanılan temel iki yöntem aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çevrim İçi Veri Analizi - Çevrim Dışı Veri Analizi",
+            "B": "Nicel Veri Analizi - Nitel Veri Analizi",
+            "C": "Erişilebilir Veri Analizi Erişimsiz Veri Analizi",
+            "D": "Kapsamlı Veri Analizi - Sınırlı Veri Analizi",
+            "E": "Sayısal Veri Analizi - Sözel Veri Analizi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Sağlık Bakanlığının büyük veriyi yönetmek için oluşturduğu altyapı çözümlerinden ……, sağlık sektöründe yer alan kurum ve kuruluşların kaynaklarını ve sağlıkla ilgili anonim verileri ortak kullanabilmeleri ve güvenli yollardan hızlı veri iletişimi yapabilmeleri amacıyla oluşturulan sağlık özel ağıdır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Sağlıkta Dönüşüm Programı (SDP)",
+            "B": "Sağlıkta Tasarruf Programı (STP)",
+            "C": "Sağlıkta Büyük Veri Ağı (SBVA)",
+            "D": "Sağlık Bilişim Ağı (SBA)",
+            "E": "Sağlıkta Yapay Zekâ Programı (SYZP)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Büyük verinin tarihsel gelişimi hangi olaylara dayanmaktadır?",
+          "options": {
+            "A": "Veri toplama merkezlerinin gelişimine",
+            "B": "İstatistik yöntemlerle veriden anlamlı sonuçlar çıkarmaya",
+            "C": "Laboratuvarlarda deneysel çalışmalardan elde edilen verilerin toplanmasına",
+            "D": "İşletim sistemleri ve veri tabanları yazılımlarının gelişmesine",
+            "E": "Bilgisayar yazılım algoritmalarının gelişimine"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi PySpark için doğru bir tanımlamadır?",
+          "options": {
+            "A": "Python ile Spark iş birliği sonucu ortaya çıkmış olup Python kütüphanesinin ismidir.",
+            "B": "Büyük verideki gizli örüntüleri analiz etmek için oluşturulmuş bir veri tabanı uygulamasıdır.",
+            "C": "Apache Spark tarafından oluşturulmuş son versiyondur.",
+            "D": "Gerçek zamanlı verileri işlemek amacıyla oluşturulmuş bir R dili kütüphanesidir.",
+            "E": "Rastgele dağıtılmış veri kümelerini işlemek için oluşturulmuş bir teknolojidir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "…… varlıkları ilişkileriyle birlikte tanımlayan felsefecilerin kullandığı bir sözcüktür ve semantik web, en temel bileşenidir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Akıllı ajanlar",
+            "B": "Eliminasyon",
+            "C": "Arka plan çıkarma",
+            "D": "Modelleme",
+            "E": "Ontoloji"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi Kişisel Verileri Koruma Kurumunun (KVKK) büyük verideki ihlallerin azaltılmasına yönelik önerdiği teknik önlemlerden biri değildir?",
+          "options": {
+            "A": "Saldırı tespit ve önleme sistemleri oluşturulmalıdır.",
+            "B": "Yetkilendirme matrisi oluşturulmalıdır.",
+            "C": "Ağ ortamının güvenliği sağlanmalıdır.",
+            "D": "Veriler üzerinde analiz işlemleri engellenmelidir.",
+            "E": "Sızma testleri yapılarak kurum güvenliği test edilmelidir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi veri miktarının artmasına bağlı olarak performans değişimi ile ilgili yanlış bir bilgidir?",
+          "options": {
+            "A": "Veri miktarının azalması orta ölçekli sinir ağlarının performansını etkilememektedir.",
+            "B": "Veri miktarı artıkça derin sinir ağlarının performansı azalır.",
+            "C": "Büyük veri ile en yüksek performans derin sinir ağları ile elde edilmektedir.",
+            "D": "Veri miktarının artması sığ sinir ağlarını geleneksel öğrenme algoritmalarından daha performanslı hâle getirir.",
+            "E": "Veri miktarı azaldıkça geleneksel öğrenme algoritmalarının performansı yükselir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi yapay zekâyı modellemede kullanılan yöntemlerden biri değildir?",
+          "options": {
+            "A": "Görselleştirme",
+            "B": "Simülasyon",
+            "C": "Hipotez testi",
+            "D": "Veri madenciliği",
+            "E": "Optimizasyon"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi Pyspark ortamında sayfalama amacıyla kullanılır?",
+          "options": {
+            "A": "take() komutu",
+            "B": "init() komutu",
+            "C": "file() komutu",
+            "D": "lambda() komutu",
+            "E": "page() komutu"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Büyük Veri 2022-2023 Final",
+      "exam_title": "Büyük Veri 2022-2023 Final",
+      "exam_type": "final",
+      "year": "2022-2023",
+      "question_count": 23,
+      "source_url": "",
+      "file_name": "Buyuk_Veri_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "\"İnsan davranış kalıplarını ve mekansal ifadesini, matematik ve geometri bakımından, yani konumsal analiz açısından açıklamaya çalışan bir analiz türüdür.\" Yukarıda bahsi geçen analiz yöntemi hangisinde verilmiştir?",
+          "options": {
+            "A": "Mekansal değildir",
+            "B": "Mekansal ilkesi",
+            "C": "analiz yaklaşımı",
+            "D": "Mekansal yöntemi",
+            "E": "Mekansal analiz"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kişisel veri işlemesine ilişkin aşağıda verilen ilkelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Veri sahiplerinin sisteme işlenen verileri düzeltme ve değiştirme hakkının ilkesi",
+            "B": "olmaması. yaklaşımı",
+            "C": "Veri sahiplerinin sisteme işlenen verileri düzeltme ve değiştirme hakkının olmaması.",
+            "D": "Veri sahiplerinin sisteme işlenen verileri düzeltme ve değiştirme hakkının değildir",
+            "E": "Veri sahiplerinin sisteme işlenen verileri düzeltme ve değiştirme hakkının yöntemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangisi veri mahremiyeti ile ilgili doğru bir bilgidir?",
+          "options": {
+            "A": "Veri paylaşımının kötü amaçlı kullanımını önlemek için değildir",
+            "B": "Veri paylaşımının kötü amaçlı kullanımını önlemek için yöntemi",
+            "C": "yapılır. yaklaşımı",
+            "D": "Veri paylaşımının kötü amaçlı kullanımını önlemek için yapılır.",
+            "E": "Veri paylaşımının kötü amaçlı kullanımını önlemek için ilkesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Açık verinin kullanımı ile sağlanan faydalar ve örneklerin eşleşmesinde hangisi yanlıştır?",
+          "options": {
+            "A": "Toplu taşıma aracı kullanan vatandaşların yoldaki problemler ve gecikmeler hakkında bilgi sahibi olması –Güvenliğe değildir",
+            "B": "Toplu taşıma aracı kullanan vatandaşların yoldaki problemler ve gecikmeler hakkında bilgi sahibi olması –Güvenliğe katkı",
+            "C": "Toplu taşıma aracı kullanan vatandaşların yoldaki problemler ve gecikmeler hakkında bilgi sahibi olması –Güvenliğe ilkesi",
+            "D": "katkı yaklaşımı",
+            "E": "Toplu taşıma aracı kullanan vatandaşların yoldaki problemler ve gecikmeler hakkında bilgi sahibi olması –Güvenliğe yöntemi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "\"Karıştırma ve permütasyon olarak da bilinir, veri kümesi öz nitelik değerlerini orijinal kayıtlara karşılık gelmeyecek şekilde yeniden düzenlemek maksadıyla kullanılan bir tekniktir.\" Yukarıda açıklanan veriyi anonimleştirme tekniği hangisidir?",
+          "options": {
+            "A": "Veri ilkesi",
+            "B": "Veri yöntemi",
+            "C": "Veri değiştirme",
+            "D": "Veri değildir",
+            "E": "değiştirme yaklaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hangisi bulut bilişimin veri etkileşiminde olduğu bir bileşen değildir?",
+          "options": {
+            "A": "Anlamlılık ilkesi",
+            "B": "Anlamlılık yöntemi",
+            "C": "Anlamlılık",
+            "D": "Anlamlılık yaklaşımı",
+            "E": "Anlamlılık değildir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "\"Bilginin yetkisi olmayan kişilerin eline geçmesinin engellenmesidir. Bir başka deyişle bilgiye erişim yetkisi bulunmayan kişilerin bilgiye erişip değiştirmesini veya herhangi bir şekilde kullanmasını kısıtlamaktır.\" Açıklaması verilen bilgi güvenliği unsuru hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "Gizlilik ilkesi",
+            "B": "Gizlilik yöntemi",
+            "C": "Gizlilik değildir",
+            "D": "Gizlilik",
+            "E": "Gizlilik yaklaşımı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangisi işletmelerin müşterilerden elde ettiği büyük veri kaynaklarından biri değildir?",
+          "options": {
+            "A": "Fiyat ilkesi",
+            "B": "Fiyat yaklaşımı",
+            "C": "Fiyat",
+            "D": "Fiyat yöntemi",
+            "E": "Fiyat değildir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangisi sağlık hizmetlerindeki büyük veri kaynaklarının gruplandırılması içerisinde yer almaz?",
+          "options": {
+            "A": "Kronolojik veriler",
+            "B": "Kronolojik yöntemi",
+            "C": "Kronolojik ilkesi",
+            "D": "veriler yaklaşımı",
+            "E": "Kronolojik değildir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "I. Yüksek riskli hastaları belirleme ve yardım etme II. Gereksiz acil servis ziyaretlerinin önlenmesi III. Sağlık verisinin ekonomik değerinin azaltılması Sağlık hizmetlerinde büyük verinin analitiğinin faydaları ile ilgili yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "I ve II",
+            "B": "II ve III",
+            "C": "Yalnız I",
+            "D": "Yalnız II",
+            "E": "I, II ve III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Hangisi T.CSağlık Bakanlığı'nın büyük veri ortamına verdiği isimdir?",
+          "options": {
+            "A": "Açık veri portalı",
+            "B": "Açık veri ilkesi",
+            "C": "portalı yaklaşımı",
+            "D": "Açık veri değildir",
+            "E": "Açık veri yöntemi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Hangisi makine öğrenmesi tanımı olarak verilebilir?",
+          "options": {
+            "A": "Bilgisayara açıkça kod yazmadan öğrenme kabiliyetini kazandıran çalışma yöntemi",
+            "B": "Bilgisayara açıkça kod yazmadan öğrenme kabiliyetini kazandıran çalışma değildir",
+            "C": "Bilgisayara açıkça kod yazmadan öğrenme kabiliyetini kazandıran çalışma ilkesi",
+            "D": "Bilgisayara açıkça kod yazmadan öğrenme kabiliyetini kazandıran çalışma alanı",
+            "E": "alanı yaklaşımı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": ">>reduceByKey Yukarıdaki komut hangi işlemi gerçekleştirmek için yazılmıştır?",
+          "options": {
+            "A": "Kelimelerin benzerliğine göre referanslarını bulmak ilkesi",
+            "B": "Kelimelerin benzerliğine göre referanslarını bulmak değildir",
+            "C": "Kelimelerin benzerliğine göre referanslarını bulmak yöntemi",
+            "D": "Kelimelerin benzerliğine göre referanslarını bulmak için",
+            "E": "için yaklaşımı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Hangisi ''Spark Stereaming'' bileşeni için doğru bir ifadedir?",
+          "options": {
+            "A": "Gerçek zamanlı akış verilerini işlemek için kullanılan Spark yöntemi",
+            "B": "Gerçek zamanlı akış verilerini işlemek için kullanılan Spark bileşenidir.",
+            "C": "Gerçek zamanlı akış verilerini işlemek için kullanılan Spark ilkesi",
+            "D": "Gerçek zamanlı akış verilerini işlemek için kullanılan Spark değildir",
+            "E": "bileşenidir. yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Hangisi PySpark için doğru bir tanımlmadır?",
+          "options": {
+            "A": "Python ile Spark işbirliği sonucu ortaya çıkmış olup Python kütüphanesinin değildir",
+            "B": "ismidir. yaklaşımı",
+            "C": "Python ile Spark işbirliği sonucu ortaya çıkmış olup Python kütüphanesinin ilkesi",
+            "D": "Python ile Spark işbirliği sonucu ortaya çıkmış olup Python kütüphanesinin yöntemi",
+            "E": "Python ile Spark işbirliği sonucu ortaya çıkmış olup Python kütüphanesinin ismidir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Hangisi Konvolüsyonel Sinir Ağları (CNN)'nın derinliğini ayarlamak için yapılması gereken işlemdir?",
+          "options": {
+            "A": "Sırasıyla konvolüsyon katmanı, ReLU katmanı ve Pooling katmanlarının tekrarlanması ile derinlik ilkesi",
+            "B": "Sırasıyla konvolüsyon katmanı, ReLU katmanı ve Pooling katmanlarının tekrarlanması ile derinlik değildir",
+            "C": "Sırasıyla konvolüsyon katmanı, ReLU katmanı ve Pooling katmanlarının tekrarlanması ile derinlik yöntemi",
+            "D": "ayarlanır. yaklaşımı",
+            "E": "Sırasıyla konvolüsyon katmanı, ReLU katmanı ve Pooling katmanlarının tekrarlanması ile derinlik ayarlanır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Hangisi Apple'ın yeni sağlık uygulaması ResearchKit için verilmiş yanlış bir bilgidir?",
+          "options": {
+            "A": "Bu uygulama, yaklaşık 770 milyon tüketicinin verisine erişmekte, toplamakta ve yönetmekte ve ekonomik durumlarını analiz ilkesi",
+            "B": "Bu uygulama, yaklaşık 770 milyon tüketicinin verisine erişmekte, toplamakta ve yönetmekte ve ekonomik durumlarını analiz etmektedir.",
+            "C": "Bu uygulama, yaklaşık 770 milyon tüketicinin verisine erişmekte, toplamakta ve yönetmekte ve ekonomik durumlarını analiz değildir",
+            "D": "Bu uygulama, yaklaşık 770 milyon tüketicinin verisine erişmekte, toplamakta ve yönetmekte ve ekonomik durumlarını analiz yöntemi",
+            "E": "etmektedir. yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Hangisi büyük verinin tarihsel gelişiminde önemli bir dönüm noktası olmuştur?",
+          "options": {
+            "A": "Smart veri ile büyük veriyi analiz etmek ve raporlayabilmek",
+            "B": "Smart veri ile büyük veriyi analiz etmek ve yöntemi",
+            "C": "Smart veri ile büyük veriyi analiz etmek ve ilkesi",
+            "D": "Smart veri ile büyük veriyi analiz etmek ve değildir",
+            "E": "raporlayabilmek yaklaşımı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Hangisi semantik işleme adımlarından biri değildir?",
+          "options": {
+            "A": "özellik değildir",
+            "B": "özellik çıkarma",
+            "C": "çıkarma yaklaşımı",
+            "D": "özellik yöntemi",
+            "E": "özellik ilkesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": ">>word_freq.filter(lambda x:x[1][0:2]=0''AN).take(10) Yukarıdaki komut aşağıdaki hangi işlemi gerçekleştirmek için yazılmıştır?",
+          "options": {
+            "A": "görüntülemek. yaklaşımı",
+            "B": "İlk iki karakteri'' AN'' olan 10 adet kelimeyi değildir",
+            "C": "İlk iki karakteri'' AN'' olan 10 adet kelimeyi ilkesi",
+            "D": "İlk iki karakteri'' AN'' olan 10 adet kelimeyi görüntülemek.",
+            "E": "İlk iki karakteri'' AN'' olan 10 adet kelimeyi yöntemi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "\"Tek başına çok fazla işlem gücü olmayan bir veya daha fazla bilgisayar/sunucu içeren bir mamirinin üzerindeki bilgisayar/sunucu sayısını arttırılarak daha güçlü işlem gücüne sahip bir sisteme dönüştürülmesine ….. denir.\" Yukarıdaki cümlede verilen boşluğa aşağıdaki cümlelerden hangisi gelmelidir?",
+          "options": {
+            "A": "Yatay ölçekleme",
+            "B": "Yatay değildir",
+            "C": "Yatay yöntemi",
+            "D": "ölçekleme yaklaşımı",
+            "E": "Yatay ilkesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "\"Bilgi güvenliğindeki ihlallerin tespit edilmesi üzerine kurum ve kuruluşlara kanunlar çerçevesinde yasal yükümlülükler getirilmiştir.\" Hangisi bu yükümlülüklerin amaçlarından değildir?",
+          "options": {
+            "A": "Kötü amaçlı faaliyetler yürüten tarafların hukuki anlamda ellerinin değildir",
+            "B": "Kötü amaçlı faaliyetler yürüten tarafların hukuki anlamda ellerinin yöntemi",
+            "C": "Kötü amaçlı faaliyetler yürüten tarafların hukuki anlamda ellerinin güçlendirilmesi",
+            "D": "Kötü amaçlı faaliyetler yürüten tarafların hukuki anlamda ellerinin ilkesi",
+            "E": "güçlendirilmesi yaklaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "Hangisi gerçek zamanlı veri işleme bileşenlerinden değildir?",
+          "options": {
+            "A": "NoSQL",
+            "B": "NoSQL ilkesi",
+            "C": "NoSQL yöntemi",
+            "D": "NoSQL değildir",
+            "E": "NoSQL yaklaşımı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

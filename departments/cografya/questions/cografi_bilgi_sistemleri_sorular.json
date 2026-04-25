@@ -1,0 +1,2475 @@
+{
+  "course": "Cografi Bilgi Sistemleri",
+  "lesson_code": "COGRAFI_BILGI_SISTEMLERI",
+  "exam_count": 8,
+  "exams": [
+    {
+      "title": "Coğrafi Bilgi Sistemleri 2024-2025 Vize",
+      "exam_title": "Coğrafi Bilgi Sistemleri 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Cografi_Bilgi_Sistemleri_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi korudukları özellikler bakımından bir projeksiyon türüdür?",
+          "options": {
+            "A": "Veri",
+            "B": "Nokta",
+            "C": "Şekil",
+            "D": "Dik Kenar",
+            "E": "Açı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi coğrafi veri toplama yöntemlerinden biri değildir?",
+          "options": {
+            "A": "Arazi ölçümleri",
+            "B": "Uzaktan algılama",
+            "C": "Tarama",
+            "D": "Entegrasyon",
+            "E": "GPS"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi raster ve vektör veri modelinin farklılıklarından biri değildir?",
+          "options": {
+            "A": "Raster veri modeli vektör veri modelinden daha hassastır ve noktasal kesin koordinat verir.",
+            "B": "Raster veri modeli bindirme analizlerinde daha avantajlıyken vektör veri modeli şebeke analizlerinde daha avantajlıdır.",
+            "C": "Raster veri modelinin temel veri elemanı piksel, vektör veri modelinin temel veri elemanı ise noktadır.",
+            "D": "Raster veri modelinde boş pikseller de saklandığı için veri büyüklüğü disk ortamında daha fazla yer tutar. Vektör veri modelinde sadece harita elemanlarının nokta koordinatları saklandığı için diskte daha az yer tutar.",
+            "E": "Raster veri modelinde veri büyüklüğü harita yoğunluğuna bağlı değilken vektör veri modelinde veri büyüklüğü harita yoğunluğuna bağlıdır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi harita projeksiyonunu ifade etmektedir?",
+          "options": {
+            "A": "Merkezinde bir ışık kaynağı bulunan küresel dünyanın, ekvatora teğet olarak çizilen bir silindire iz düşürülmesi sonucu elde edilen haritasıdır.",
+            "B": "Yeryüzünün iki boyutlu düzlemde matematiksel bağıntılar veya geometrik ilişkiler yardımıyla temsil edilmesi işlemidir.",
+            "C": "Verilerin birleşerek bir bütünlük oluşturmasıdır.",
+            "D": "Sayısal veri teknolojisidir.",
+            "E": "Sayısal verilerin çakıştırılması işlemidir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki verilerden hangisi veri üretimi sırasında bir nokta verisinin tablosuna otomatik olarak eklenir?",
+          "options": {
+            "A": "Adı",
+            "B": "Alan bilgisi",
+            "C": "Dairesellik indeksi",
+            "D": "X ve Y koordinatları",
+            "E": "Çevre uzunluğu bilgisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi raster verilerde kullanılan en yaygın geometrik şekildir?",
+          "options": {
+            "A": "Dikdörtgen",
+            "B": "Üçgen",
+            "C": "Daire",
+            "D": "Kare",
+            "E": "Beşgen"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bilgisayar temelli ilk CBS projesi aşağıdaki ülkelerden hangisinde uygulanmıştır?",
+          "options": {
+            "A": "ABD",
+            "B": "Kanada",
+            "C": "Almanya",
+            "D": "İngiltere",
+            "E": "Fransa"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi Türkiye için 6°lik genişlikli dilim orta meridyenleridir?",
+          "options": {
+            "A": "37°, 43°, 49°, 55°",
+            "B": "17°, 23°, 29°, 35°",
+            "C": "27°, 33°, 39°, 45°",
+            "D": "47°, 53°, 59°, 65°",
+            "E": "57°, 63°, 69°, 75°"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi 1990-2000 tarih aralığında CBS'nin tarihsel sürecindeki döneme karşılık gelmektedir?",
+          "options": {
+            "A": "Gerileme",
+            "B": "Gelişme",
+            "C": "Başlangıç",
+            "D": "Ticarileşme",
+            "E": "Durgunluk"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi coğrafi bilgi sistemlerinin katman yapısı ve veri tipi uyarınca doğru bir eşlemedir?",
+          "options": {
+            "A": "Otobüs - Durağı - Poligon",
+            "B": "Sayısal Arazi Modeli - Piksel",
+            "C": "Parsel - Nokta",
+            "D": "Göl - Çizgi",
+            "E": "Ağaç - Çizgi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi şekillerin orijinal yüzeydeki büyüklüklerini koruyan projeksiyon sistemidir? (Soru iptal edilmiştir.)",
+          "options": {
+            "A": "Açı Koruyan",
+            "B": "Silindir",
+            "C": "Küremsi",
+            "D": "Düzlemsel",
+            "E": "Konik"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi ArcGIS yazılımlarının masaüstü versiyonlarında veri tabanı tasarlamayı sağlayan ara yüzdür?",
+          "options": {
+            "A": "ArcGlobe",
+            "B": "ArcToolbox",
+            "C": "ArcMap",
+            "D": "ArcScene",
+            "E": "ArcCatalog"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi daha çok CAD yazılımı olarak kullanılmaktadır?",
+          "options": {
+            "A": "MapInfo",
+            "B": "QGIS",
+            "C": "NetCAD",
+            "D": "Esri",
+            "E": "ENVI"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi coğrafi bilgi sistemlerinin uygulama alanlarından biri değildir?",
+          "options": {
+            "A": "Biyomedikal",
+            "B": "Arkeoloji",
+            "C": "Yer bilimleri",
+            "D": "Mühendislik",
+            "E": "Tarım"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi Konumsal Bilgi Sistemlerine bir örnektir?",
+          "options": {
+            "A": "Bankacılık",
+            "B": "Haberleşme",
+            "C": "Yönetim",
+            "D": "Muhasebe",
+            "E": "Kent Bilgi Sistemi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "CBS'nin karar vermede kullanılmasına yönelik gerçekleştirilen ilk uygulamada aşağıdaki hastalıklardan hangisi haritalandırılmıştır?",
+          "options": {
+            "A": "Aids",
+            "B": "Kolera",
+            "C": "Covid-19",
+            "D": "Verem",
+            "E": "Kanser"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi kutupların haritalanmasında kullanılan en yaygın projeksiyon sistemidir?",
+          "options": {
+            "A": "Küremsi",
+            "B": "Açı Koruyan",
+            "C": "Konik",
+            "D": "Silindir",
+            "E": "Düzlemsel"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi ArcGIS yazılımlarının masaüstü versiyonlarında karmaşık mekânsal analizlerin yapıldığı (yakınlık analizi, veri dönüşümü vb.) ara yüzdür?",
+          "options": {
+            "A": "ArcToolbox",
+            "B": "ArcScene",
+            "C": "ArcMap",
+            "D": "ArcCatalog",
+            "E": "ArcGlobe"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi yazılım geliştirme yeteneklerinin olmasını zorunlu tutan CBS türüdür?",
+          "options": {
+            "A": "Masaüstü CBS",
+            "B": "Sunucu CBS",
+            "C": "Developer CBS",
+            "D": "Web CBS",
+            "E": "Mobil CBS"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi daha çok askerî çalışmalarda tercih edilen CBS yazılımıdır?",
+          "options": {
+            "A": "MapInfo",
+            "B": "QGIS",
+            "C": "Intergraph",
+            "D": "Esri",
+            "E": "NetCAD"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Coğrafi Bilgi Sistemleri 2022-2023 Vize",
+      "exam_title": "Coğrafi Bilgi Sistemleri 2022-2023 Vize",
+      "exam_type": "vize",
+      "year": "2022-2023",
+      "question_count": 16,
+      "source_url": "",
+      "file_name": "Cografi_Bilgi_Sistemleri_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi veri kavramına karşılık gelmektedir?",
+          "options": {
+            "A": "Yaş",
+            "B": "Telefon no",
+            "C": "Adres",
+            "D": "Uyruk",
+            "E": "Doğum tarihi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi CBS'nin bileşenlerinden biri değildir?",
+          "options": {
+            "A": "Personel",
+            "B": "Harita",
+            "C": "Donanım",
+            "D": "Veri",
+            "E": "Yazılım"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi açık kaynak kodlu bir CBS yazılımıdır?",
+          "options": {
+            "A": "ENVI",
+            "B": "Mapinfo",
+            "C": "QGIS",
+            "D": "NetCAD",
+            "E": "Esri"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Veriler ile ilgili aşağıdaki bilgilerden hangisi doğrudur?",
+          "options": {
+            "A": "Raster veri modeli, vektör veri modeline göre daha hassastır.",
+            "B": "Piksel, bir vektör veri modeli elemanıdır.",
+            "C": "Çözünürlük arttıkça veri boyutu küçülür.",
+            "D": "Nokta, öz nitelik veri tipinin temel veri elemanıdır.",
+            "E": "Raster veri modeli, düzenli grid yapısında satır ve kolonlardan oluşmaktadır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi daha çok CAD yazılımı olarak kullanılmaktadır?",
+          "options": {
+            "A": "Esri",
+            "B": "ENVI",
+            "C": "NetCAD",
+            "D": "Mapinfo",
+            "E": "QGIS"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi CBS ortamında konumsal veri tipi nokta olarak tanımlanması gereken bir nesnedir?",
+          "options": {
+            "A": "Yol",
+            "B": "Ağaç",
+            "C": "Göl",
+            "D": "Parsel",
+            "E": "Dere"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "1 cm'nin 600 km'lik bir mesafeye denk geldiği bir haritada kesir ölçek aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "1/600.000",
+            "B": "1/6.000.000",
+            "C": "1/60.000",
+            "D": "1/60.000.000",
+            "E": "1/6.000"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi konumsal veri tipine örnektir?",
+          "options": {
+            "A": "Nüfus",
+            "B": "Bitki örtüsü adı",
+            "C": "Komşu iller",
+            "D": "Ekonomi",
+            "E": "İklim durumu"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi CBS ortamında konumsal veri tipi poligon olarak tanımlanması gereken bir nesnedir?",
+          "options": {
+            "A": "Göl",
+            "B": "Ağaç",
+            "C": "Bayrak direği",
+            "D": "Tramvay hattı",
+            "E": "Otobüs durağı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki yön kavramlarından hangisinin yeri değişkenlik gösterir?",
+          "options": {
+            "A": "Akşam yıldızı",
+            "B": "Grid kuzeyi",
+            "C": "Kutup yıldızı",
+            "D": "Manyetik kuzey",
+            "E": "Gerçek kuzey"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi büyük ölçekli haritalara ait bir özellik değildir?",
+          "options": {
+            "A": "Paydası küçüktür.",
+            "B": "Gösterilen alan dardır.",
+            "C": "Bozulma azdır.",
+            "D": "İzohipsler arası yükselti farkı azdır.",
+            "E": "Ayrıntı azdır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi CBS ortamında konumsal veri tipi çizgi olarak tanımlanması gereken bir nesnedir?",
+          "options": {
+            "A": "Deniz",
+            "B": "Göl",
+            "C": "Ağaç",
+            "D": "Otobüs durağı",
+            "E": "Demir yolu"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi coğrafi bir bilgi değildir?",
+          "options": {
+            "A": "Işık hızı",
+            "B": "Nüfus",
+            "C": "Yol tarifi",
+            "D": "Bitki örtüsü",
+            "E": "İklim durumu"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki bilim dallarından hangisi CBS ile ilgili değildir?",
+          "options": {
+            "A": "Kartografya",
+            "B": "Jeodezi",
+            "C": "Jeoloji",
+            "D": "Ekonomi",
+            "E": "Coğrafya"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi daha çok uzaktan algılama çalışmalarında kullanılan bir yazılımdır?",
+          "options": {
+            "A": "MapInfo",
+            "B": "NetCAD",
+            "C": "Esri",
+            "D": "QGIS",
+            "E": "ENVI"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdaki dönemlerin hangisinde CBS yazılımları hızlı bir büyüme göstermiştir?",
+          "options": {
+            "A": "1970-1980",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Coğrafi Bilgi Sistemleri 2000-2010 Vize",
+      "exam_title": "Coğrafi Bilgi Sistemleri 2000-2010 Vize",
+      "exam_type": "vize",
+      "year": "2000-2010",
+      "question_count": 4,
+      "source_url": "",
+      "file_name": "Cografi_Bilgi_Sistemleri_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi CBS'nin kullanıldığı yere ve amaca bağlı olarak aldığı isimlerden biri değildir?",
+          "options": {
+            "A": "Doğal kaynak bilgi sistemi",
+            "B": "Konumsal bilgi sistemi",
+            "C": "Arazi bilgi sistemi",
+            "D": "Afet bilgi sistemi",
+            "E": "Kent bilgi sistemi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "CBS alanındaki en büyük pazar payına sahip yazılım aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Autodesk",
+            "B": "Esri",
+            "C": "NetCAD GIS",
+            "D": "Intergraph",
+            "E": "Mapinfo"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki kesir ölçeklerin hangisi en küçüktür?",
+          "options": {
+            "A": "1/10.000.000",
+            "B": "1/100.000",
+            "C": "1/1.000",
+            "D": "1/1.000.000",
+            "E": "1/10.000"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi küçük ölçekli haritalara ait bir özellik değildir?",
+          "options": {
+            "A": "Gösterilen alan geniştir.",
+            "B": "Bozulma fazladır.",
+            "C": "İzohipsler arası yükselti farkı fazladır.",
+            "D": "Ayrıntı fazladır.",
+            "E": "Paydası büyüktür."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Coğrafi Bilgi Sistemleri 2024-2025 Final",
+      "exam_title": "Coğrafi Bilgi Sistemleri 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Cografi_Bilgi_Sistemleri_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi vektörel nokta verisinin temel özelliğidir?",
+          "options": {
+            "A": "Birden fazla X ve Y koordinatı ile temsil edilir.",
+            "B": "Her bir poligon tek bir raster hücresi ile temsil edilir.",
+            "C": "En fazla iki X ve Y koordinatı ile temsil edilir.",
+            "D": "Tek bir X ve Y koordinatı ile temsil edilir.",
+            "E": "Başlangıç ve bitiş noktası aynıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisinde farklı türdeki bilgileri haritalarda anlatabilmek için nokta, çizgi ve alan sembollerinin farklı biçimlerdeki (şekil, doku, boyut, ton, renk, yön) gösterimini ilk olarak keşfeden kişi doğru olarak verilmiştir?",
+          "options": {
+            "A": "Ocak",
+            "B": "Turoğlu",
+            "C": "Bertin",
+            "D": "Döker",
+            "E": "Yomralıoğlu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "I. En az bir sunucu ve bir istemciden oluşan, sunucunun bir CBS sunucusu ve isterncinin bir web tarayıcısı, masaüstü uygulaması veya mobil uygulama olduğu bir tür dağıtılmış bilgi sistemidir. II. Masaüstü bilgisayar, tablet veya akıllı mobil cihazlar üzerinden herhangi bir yazılım ve depolama birimine ihtiyaç duymaksızın internet üzerinden başka sunuculara bağlanarak hizmet alma modelidir. Yukarıda tanımları verilen kavramlar sırasıyla aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Web CBS - Bulut Bilişim",
+            "B": "Bulut Bilişim - Sunucu CBS",
+            "C": "Web CBS - Mobil CBS",
+            "D": "Mobil CBS - Bulut Bilişim",
+            "E": "Bulut Bilişim - Web CBS"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "I. Sanallaştırma teknolojisi sunucuların ve depolama cihazlarının paylaşımının ve kullanımının artırılmasına izin vermektedir. II. Uygulamalar arasında bir fiziksel sunucudan diğerine kolayca transfer edilebilmektedir. Yukarıda bilgiler Bulut Bilişimin hangi özelliğini ifade etmektedir?",
+          "options": {
+            "A": "Hızlı kullanım",
+            "B": "Abone modeli",
+            "C": "Merkezi veri tabanı",
+            "D": "Kolay veri transferi",
+            "E": "Daha az masraf"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/COGRAFI_BILGI_SISTEMLERI_2024_2025_final_soru_4.jpg",
+          "image_file": "COGRAFI_BILGI_SISTEMLERI_2024_2025_final_soru_4.jpg",
+          "image_path": "resim-sorular/COGRAFI_BILGI_SISTEMLERI_2024_2025_final_soru_4.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "ArcGIS Online ya da ArcGIS for Server'da oluşturulan servisler kullanıcılar tarafından farklı şekillerde kullanılabilmektedir. Bu açıklama dikkate alındığında farklılıklara örnek olarak yukarıda yer alan görseldeki ok simgelerinin altına aşağıdakilerden hangisi yazılamaz?",
+          "options": {
+            "A": "Masaüstü",
+            "B": "Web haritaları",
+            "C": "GPS",
+            "D": "Mobil",
+            "E": "Web uygulamaları"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki bilim dallarından hangisi CBS ile ilgili değildir?",
+          "options": {
+            "A": "Jeoloji",
+            "B": "Ekonomi",
+            "C": "Coğrafya",
+            "D": "Kartografya",
+            "E": "Jeodezi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi ayı boyutlara sahip karelerin birleşmesi ile oluşan veri türüdür?",
+          "options": {
+            "A": "Poligon",
+            "B": "Sözel",
+            "C": "Vektör",
+            "D": "Raster",
+            "E": "Çizgi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi coğrafya alanında arazi kullanım çalışmalarına yönelik CBS uygulamaları arasında yer almaktadır?",
+          "options": {
+            "A": "Toprak nemini belirleme",
+            "B": "Arazi kullanımındaki değişiklikler",
+            "C": "Kalkerli arazileri tespit etme",
+            "D": "Buzullardaki erime seviyelerini analiz etme",
+            "E": "Topografik haritalama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi belirli bir merkezi referans alarak etrafında etki bantlarının oluşturulduğu yüzey analizidir?",
+          "options": {
+            "A": "Network",
+            "B": "Hidroloji",
+            "C": "Tampon bölge",
+            "D": "Bakı",
+            "E": "Eğim"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi ArcGIS yazılımına ait bir arayüzdür?",
+          "options": {
+            "A": "ArcGIS Online",
+            "B": "ArcGIS Mobile",
+            "C": "ArcGIS Survey",
+            "D": "ArcGIS Dashboard",
+            "E": "ArcMap"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi herhangi bir katmanda bilinmeyen noktaların öznitelik değerlerinin, bilinen noktaların öznitelik değerleri kullanılarak bulunması ve olasılıkları değerlendirme işlemine verilen addır?",
+          "options": {
+            "A": "Hidroloji",
+            "B": "Eğim",
+            "C": "Bakı",
+            "D": "Network",
+            "E": "Enterpolasyon"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi coğrafya alanında hidroloji çalışmalarına yönelik CBS uygulamaları arasında yer almaktadır?",
+          "options": {
+            "A": "Ormandaki ağaç türleri",
+            "B": "Sel öncesi ve sonrası afet durumu",
+            "C": "Buzullardaki erime oranı",
+            "D": "Denizlerdeki milsilaj yoğunluğu",
+            "E": "Denizlerdeki kirletici yoğunluğu"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi ArcGIS yazılımlarının masaüstü versiyonlarında haritacılık faaliyetlerinin yapıldığı, haritaların düzenlendiği ve verilerin üretildiği ara yüzdür?",
+          "options": {
+            "A": "ArcGlobe",
+            "B": "ArcCatalog",
+            "C": "ArcToolbox",
+            "D": "ArcScene",
+            "E": "ArcMap"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki kesir ölçeklerin hangisi en küçüktür?",
+          "options": {
+            "A": "1/10.000.000",
+            "B": "1/1.000.000",
+            "C": "1/1.000",
+            "D": "1/100.000",
+            "E": "1/10.000"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi çok değişkenli haritalar için yanlıştır?",
+          "options": {
+            "A": "Nokta, çizgi ve poligon sembollerini bir arada kullanmak zordur",
+            "B": "Anlatılan konuyu renk, sembol vb. karışıklığa sebep olmadan ön plana çıkarır",
+            "C": "Karşılaştırma yapmak için kullanılır.",
+            "D": "İki veya daha fazla değişkeni gösterir.",
+            "E": "Farklı ölçeklerde hazırlanır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi akarsu ağı üretmede kullanılan aşamalardan biri değildir?",
+          "options": {
+            "A": "Akım toplanma",
+            "B": "Akış yönleri",
+            "C": "SYM doldurma işlemi",
+            "D": "Görünürlük belirleme",
+            "E": "Eşik değer belirleme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi CBS'nin avantajları arasında yer almaz?",
+          "options": {
+            "A": "Mekânsal analizler gerçekleştirilebilmesi",
+            "B": "Zamansal analizlerin gerçekleştirilebilmesi",
+            "C": "Coğrafi veritabanı yönetimi imkânı",
+            "D": "Karar destek mekanizması sağlaması",
+            "E": "Kullanılan verilere kolay erişim imkanı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Mekânsal çalışmalar ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Çözünürlük düştükçe SYM'de jeomorfolojik birimleri ayırt etmek güçleşir.",
+            "B": "SYM yükseklik bilgileri barındıran bir raster veri modeline sahiptir.",
+            "C": "Eğim analizi için vektörel bir katman kullanılır.",
+            "D": "Hidrolojik analizlerde D8 modeli yaygın olarak kullanılır.",
+            "E": "Bakı analizi için SYM (sayısal yükseklik modeli) kullanılır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Düşey datum aşağıdakilerden hangisine göre belirlenir?",
+          "options": {
+            "A": "Ortalama deniz seviyesi",
+            "B": "Ülkelerin ortalama yüksekliği",
+            "C": "Küresel elipsoit modeli",
+            "D": "Kullanılan projeksiyon tipi",
+            "E": "Küresel geoit modeli"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi bir haritanın ana unsurları arasında yer almaz?",
+          "options": {
+            "A": "Kuzey oku",
+            "B": "Yön",
+            "C": "Başlık",
+            "D": "Lejant",
+            "E": "Koordinat bilgileri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Coğrafi Bilgi Sistemleri 2022-2023 Final",
+      "exam_title": "Coğrafi Bilgi Sistemleri 2022-2023 Final",
+      "exam_type": "final",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Cografi_Bilgi_Sistemleri_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi CBS'nin suç konusundaki uygulamalarına bir örnektir?",
+          "options": {
+            "A": "Sahadaki cinayetlerin alansal dağılımı",
+            "B": "Sahadaki ölen insanların alansal dağılımı",
+            "C": "Doğal afetlerin neden olduğu ölümlerin alansal dağılımı",
+            "D": "Alandaki nüfusun dağılımı",
+            "E": "Ambulansların ulaşım sürelerinin belirlenmesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "I. En az bir sunucu ve bir istemciden oluşan, sunucunun bir CBS sunucusu ve istemcinin bir web tarayıcısı, masaüstü uygulaması veya mobil uygulama olduğu bir tür dağıtılmış bilgi sistemidir. II. Masaüstü bilgisayar, tablet veya akıllı mobil cihazlar üzerinden herhangi bir yazılım ve depolama birimine ihtiyaç duymaksızın internet üzerinden başka sunuculara bağlanarak hizmet alma modelidir. Yukarıda tanımları verilen kavramlar sırasıyla aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Mobil CBS - Bulut Bilişim",
+            "B": "Web CBS - Bulut Bilişim",
+            "C": "Bulut Bilişim - Sunucu CBS",
+            "D": "Web CBS – Mobil CBS",
+            "E": "Bulut Bilişim - Web CBS"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi CBS'nin coğrafya araştırmalarındaki uygulama örneklerinden değildir?",
+          "options": {
+            "A": "İklim çalışmaları",
+            "B": "Bitkilerin dağılışı",
+            "C": "Arazi kullanımı",
+            "D": "Toprak sınıflandırmaları",
+            "E": "Kayıp şehirlerin aranması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "İnternet aracılığıyla kullandığımız haritalara verilen isim aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kabartma",
+            "B": "Dijital",
+            "C": "Tematik",
+            "D": "Topoğrafya",
+            "E": "Siyasi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi CBS'nin tarım alanındaki uygulamalarına bir örnektir?",
+          "options": {
+            "A": "Alandaki nüfusun dağılışı",
+            "B": "Deniz seviyesi değişimlerinin araştırılması",
+            "C": "Hava tahmini",
+            "D": "Akarsuların morfometrik özellikleri",
+            "E": "Üretim miktarının tahmini"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Nokta, çizgi ve alansal objelerin birbirleri ile olan konumsal ilişkilerini inceleyen bilim dalı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "GPS",
+            "B": "CBS",
+            "C": "Topoloji",
+            "D": "Metaveri",
+            "E": "Topoğrafya"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi araçlarda kullanılan navigasyon sistemleri ile ilgili mekânsal analiz türüne ait bir örnektir?",
+          "options": {
+            "A": "Network",
+            "B": "Eğim",
+            "C": "Hidroloji",
+            "D": "Enterpolasyon",
+            "E": "Bakı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi bir harita oluşturmak için gereken CBS işlem adımları arasında yer almaz?",
+          "options": {
+            "A": "Veri toplama",
+            "B": "Veri analizi",
+            "C": "Veri yönetimi",
+            "D": "Veri depolama",
+            "E": "Veri sorgulama"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Dünyanın ekvatordan şişkin, kuzey ve güney yönlerinden basık olduğu şekil aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Elipsoit",
+            "B": "Daire",
+            "C": "Geoit",
+            "D": "Küre",
+            "E": "Çember"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Verinin verisi olarak tanımlanan, bir veri setinin kim tarafından ne zaman üretildiği, ne zaman, hangi yöntemle güncellendiği gibi detayları içeren kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Topoloji",
+            "B": "Analiz",
+            "C": "Metadata",
+            "D": "Konum",
+            "E": "Bilgi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi topolojik veri modelinin temel ilkelerinden biridir?",
+          "options": {
+            "A": "Komşuluk",
+            "B": "Uzaklık",
+            "C": "Bağlanırlık",
+            "D": "Çözünürlük",
+            "E": "Ayrıklık"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "I. Nokta II. Piksel III. Çizgi IV. Fotoğraf V. Resim Yukarıdakilerden hangisi ya da hangileri raster veri modeli ile ilgilidir?",
+          "options": {
+            "A": "I, III, IV",
+            "B": "I, II, III",
+            "C": "I, II, V",
+            "D": "II, IV, V",
+            "E": "II, III, IV"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "….. sayesinde çok büyük boyutlardaki ya da çok farklı katmanlardaki bilgilerin tek bilgisayarda tutulması, güçlü donanım ve yazılıma ihtiyaç duyulması gibi sorunlar giderilmektedir. Yukarıda verilen boşluğa aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Sunucu CBS",
+            "B": "Web CBS",
+            "C": "Mobil CBS",
+            "D": "Desktop CBS",
+            "E": "İnternet CBS"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "DCM'nin açılımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Digital Cartographic Monitoring",
+            "B": "Digital Cartographic Member",
+            "C": "Digital Cartographic Manager",
+            "D": "Digital Cartographic Management",
+            "E": "Digital Cartographic Model"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki sayılardan hangisi SYM (Sayısal Yükseklik Modeli) üzerinden drenaj özellikleri çıkarılırken güney yönünü gösterir?",
+          "options": {
+            "A": "16",
+            "B": "2",
+            "C": "8",
+            "D": "4",
+            "E": "1"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Karşılaştırma amacıyla iki veya daha fazla değişkeni gösteren haritalama türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çok değişkenli haritalama",
+            "B": "Harita serisi",
+            "C": "Harita kompozisyonu",
+            "D": "Harita sembolizasyonu",
+            "E": "Harita tasarım ilkesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdaki yazılımlardan hangisini mimar meslek kimliğine sahip kullanıcılar daha çok tercih etmektedir?",
+          "options": {
+            "A": "NetCAD",
+            "B": "Intergraph",
+            "C": "Esri",
+            "D": "AutoDesk",
+            "E": "MapInfo"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Türkiye'de topografik haritaların üretiminde aşağıdaki datum sistemlerinden hangisi kullanılmaktadır?",
+          "options": {
+            "A": "WGS84",
+            "B": "NAD27",
+            "C": "ARC1950",
+            "D": "GRS19801",
+            "E": "Tokyo1927"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi kullanıcıların yalnızca şahsi bilgisayarlarında kullanabildikleri bir CBS yazılım türüdür?",
+          "options": {
+            "A": "Mobil CBS",
+            "B": "Masaüstü CBS",
+            "C": "Web CBS",
+            "D": "Network CBS",
+            "E": "Sunucu CBS"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "CBS'nin problemleri çözmede önemli bir araç olmasını sağlayan özelliği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sorgu",
+            "B": "Veri tabanı oluşturma",
+            "C": "Harita çizme",
+            "D": "Mekânsal analiz",
+            "E": "Tablosal veri oluşturma"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Cografi Bilgi Sistemleri 2024-2025 Butunleme",
+      "exam_title": "Cografi Bilgi Sistemleri 2024-2025 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Cografi_Bilgi_Sistemleri_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi topolojik veri modelinin temel ilkelerinden biridir?",
+          "options": {
+            "A": "Çözünürlük",
+            "B": "Komşuluk",
+            "C": "Uzaklık",
+            "D": "Ayrıklık",
+            "E": "Bağlanırlık"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi CBS'nin nüfus araştırmalarındaki uygulama örneklerinden biridir?",
+          "options": {
+            "A": "Eğim hesabı",
+            "B": "Arazi kullanım sınıflarının belirlenmesi",
+            "C": "Sıcaklık haritası üretimi",
+            "D": "Akarsu dizin analizi",
+            "E": "Ortalama hane halkı büyüklüğü haritası üretimi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi küçük ölçekli haritalara ait bir özellik değildir?",
+          "options": {
+            "A": "İzohipsler arası yükselti farkı fazladır.",
+            "B": "Ayrıntı fazladır.",
+            "C": "Bozulma fazladır.",
+            "D": "Gösterilen alan geniştir.",
+            "E": "Paydası büyüktür."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi komşuluk ilişkisine örnek verilemez?",
+          "options": {
+            "A": "Kavak MYO'ya yakın olan oteller",
+            "B": "Kavak MYO ile tren istasyonu arasındaki uzaklık",
+            "C": "Kavak MYO'ya 500 metre mesafedeki kafeler",
+            "D": "Kavak MYO'ya 5 dakika yürüme mesafesindeki marketler",
+            "E": "Kavak MYO'ya 10 dakika ulaşım mesafesindeki bankamatikler"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi bir ağ analizi ile yapılan fonksiyonlardan biri değildir?",
+          "options": {
+            "A": "Maliyet matrisi çıkarma",
+            "B": "Güzergâh tespiti için durak konularını ekleme",
+            "C": "En uygun güzergâhı belirleme",
+            "D": "Herhangi bir yola 100 metre mesafedeki alanları belirleme",
+            "E": "En yakın hizmet alanını belirleme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisine coğrafi olayların zaman içindeki değişimlerini göstermek için ihtiyaç vardır?",
+          "options": {
+            "A": "Farklı yıllarda yapılmış harita ya da uydu görüntülerine",
+            "B": "Sadece güncel bilgilere",
+            "C": "Geçmiş bilgilere",
+            "D": "Günümüzdeki durumlarına",
+            "E": "Gelecekteki durumlarına"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "• Masaüstü bir yazılıma gerek kalmadan harita hizmetleri ve veri gruplarını yayımlamak • Harita ve verilere her yerden ulaşım imkânı • Denetim erişimi, kullanıcı ayarları ve içerik paylaşımı • Özelleştirilmiş galeri içeriği ile birlikte ana sayfasında görünüm Yukarıda özellikleri verilen Web CBS uygulaması aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "AcGIS for Desktop",
+            "B": "GIS Cloud",
+            "C": "ArcGIS Online",
+            "D": "Google Maps API",
+            "E": "MapInfo"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir kaza olayı için hastanenin belirlenmesi, bir suç mahalli için polis araçlarının tespiti, bir müşterinin adresi için depoların belirlenmesi gibi örnekler….. belirleme problemlerine örnek olarak verilebilir. Yukarıda verilen boşluğa aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "servis alanları",
+            "B": "en yakın hizmet noktası",
+            "C": "en uygun yol",
+            "D": "konum tahsisi",
+            "E": "en yakın hizmet alanı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi aralık ve oran verilerini kategorilere ayırmak için belirlenen dört temel sınıflandırma şeması arasında yer almaz?",
+          "options": {
+            "A": "Histogram",
+            "B": "Standard Deviation",
+            "C": "Natural Breaks",
+            "D": "Equal Interval",
+            "E": "Quantile"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi CBS'nin sağlık araştırmalarındaki uygulama örneklerinden biri değildir?",
+          "options": {
+            "A": "Domuz gribi vaka dağılışı",
+            "B": "Maymun çiçeği yoğunluk haritası",
+            "C": "Kanser hastalarının il bazlı sayıları",
+            "D": "İl bazlı tarımsal ürün rekolte tahmin haritaları",
+            "E": "Covid 19 yayılım haritası"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdaki verilenlerden hangisi Web CBS ile ilgili değildir?",
+          "options": {
+            "A": "Web haritaları ArcGIS for Desktop'ta açılır.",
+            "B": "Web haritaları üzerine açıklayıcı bilgiler vermek için notlar eklenebilir.",
+            "C": "Web haritalarında sadece vektörel veriler kullanılır.",
+            "D": "Web haritalarının çeşitli paylaşım özellikleri vardır.",
+            "E": "Web haritaları web uygulamalarına dönüştürülebilir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "I. Nokta II. Piksel III. Çizgi IV. Poligon V. Resim Yukarıdakilerden hangileri topolojik veri modeli ile ilgilidir?",
+          "options": {
+            "A": "I, II ve V",
+            "B": "I, III ve IV",
+            "C": "III, IV ve V",
+            "D": "I, II ve III",
+            "E": "II, III ve V"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi açık kaynak kodlu bir CBS yazılımıdır?",
+          "options": {
+            "A": "ENVI",
+            "B": "NetCAD",
+            "C": "Esri",
+            "D": "MapInfo",
+            "E": "QGIS"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki yazılımlardan hangisini mimar meslek kimliğine sahip kullanıcılar daha çok tercih etmektedir?",
+          "options": {
+            "A": "NetCAD",
+            "B": "Intergraph",
+            "C": "MapInfo",
+            "D": "Esri",
+            "E": "AutoDesk"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi CBS'nin kullanıldığı yere ve amaca bağlı olarak aldığı isimlerden biri değildir?",
+          "options": {
+            "A": "Afet bilgi sistemi",
+            "B": "Kent bilgi sistemi",
+            "C": "Konumsal bilgi sistemi",
+            "D": "Arazi bilgi sistemi",
+            "E": "Doğal kaynak bilgi sistemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "I. Kişisel bilgisayar II. Notebook III. Sunucu IV. Total Station V. İş istasyonu Yukarıdaki internet erişimi olan cihazlardan hangisi ile Web CBS kullanıcıları bulut üzerindeki verilerine erişim sağlayamaz?",
+          "options": {
+            "A": "V",
+            "B": "II",
+            "C": "I",
+            "D": "IV",
+            "E": "III"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Türkiye'de topografik haritaların üretiminde aşağıdaki datum sistemlerinden hangisi kullanılmaktadır?",
+          "options": {
+            "A": "WGS84",
+            "B": "Tokyo1927",
+            "C": "GRS19801",
+            "D": "NAD27",
+            "E": "ARC1950"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi coğrafya alanında jeoloji çalışmalarında gerçekleştirilen CBS uygulamaları arasında yer almaktadır?",
+          "options": {
+            "A": "Sel baskınlarını haritalama",
+            "B": "Buzullardaki erime seviyelerini analiz etme",
+            "C": "Kalkerli arazileri tespit etme",
+            "D": "Ticari binaların yoğunluğunu belirleme",
+            "E": "Toprak nemini belirleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "CBS'de yapılan haritalarda alan sembolü ile gösterilen nesneler bazı durumlarda nokta sembolü ile temsil edilmektedir. Yukarıdaki açıklamaya göre bu durumun sebebi aşağıdaki kavramlardan hangisi ile açıklanabilir?",
+          "options": {
+            "A": "Harita projeksiyonu",
+            "B": "Koordinat sistemi",
+            "C": "Datum",
+            "D": "Ölçek",
+            "E": "Koordinat"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi CBS'nin bileşenlerinden biri değildir?",
+          "options": {
+            "A": "Harita",
+            "B": "Yazılım",
+            "C": "Donanım",
+            "D": "Veri",
+            "E": "Personel"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Cografi Bilgi Sistemleri 2023-2024 Butunleme",
+      "exam_title": "Cografi Bilgi Sistemleri 2023-2024 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Cografi_Bilgi_Sistemleri_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi ArcGIS yazılımına ait bir arayüzdür?",
+          "options": {
+            "A": "ArcMap",
+            "B": "ArcGIS Online",
+            "C": "ArcGIS Mobile",
+            "D": "ArcGIS Dashboard",
+            "E": "ArcGIS Survey"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir haritada görselleştirme işlemi gerçekleştirilmeden kişi hangi soruları sorarsa amacına ulaşmış olur?",
+          "options": {
+            "A": "Neyi? Kime? Söylerim.",
+            "B": "Neyi? Kime? Nasıl? Söylerim.",
+            "C": "Kime? Nasıl? Söylerim",
+            "D": "Neyi? Söylerim",
+            "E": "Neyi? Nasıl? Söylerim."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "CBS servislerinin web üzerinde oluşturulması, yönetilmesi ve dağıtımına olanak veren ve masaüstü, mobil ve web haritalama uygulamalarının desteklediği bir Cloud CBS altyapısına sahiptir. Yukarıda açıklaması verilen kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "ArcGIS Online",
+            "B": "ArcGIS for Desktop",
+            "C": "ArcGIS for Server",
+            "D": "ArcGIS Dashboard",
+            "E": "Portal for ArcGIS"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi CBS'nin tarım alanındaki uygulamalarına bir örnektir?",
+          "options": {
+            "A": "Deniz seviyesi değişimlerinin araştırılması",
+            "B": "Üretim miktarının tahmini",
+            "C": "Hava tahmini",
+            "D": "Alandaki nüfusun dağılışı",
+            "E": "Akarsuların morfometrik özellikleri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi CBS'nin suç konusundaki uygulamalarına bir örnektir?",
+          "options": {
+            "A": "Doğal afetlerin neden olduğu ölümlerin alansal dağılımı",
+            "B": "Sahadaki cinayetlerin alansal dağılımı",
+            "C": "Alandaki nüfusun dağılımı",
+            "D": "Sahadaki ölen insanların alansal dağılımı",
+            "E": "Ambulansların ulaşım sürelerinin belirlenmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi CBS'nin avantajları arasında yer almaz?",
+          "options": {
+            "A": "Kullanılan verilere kolay erişim imkânı",
+            "B": "Karar destek mekanizması sağlaması",
+            "C": "Coğrafi veritabanı yönetimi imkânı",
+            "D": "Mekânsal analizler gerçekleştirilebilmesi",
+            "E": "Zamansal analizlerin gerçekleştirilebilmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi CBS'nin coğrafya araştırmalarındaki uygulama örneklerinden biri değildir?",
+          "options": {
+            "A": "Bitkilerin dağılışı",
+            "B": "Arazi kullanımı",
+            "C": "İklim çalışmaları",
+            "D": "Toprak sınıflandırmaları",
+            "E": "Kayıp şehirlerin aranması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir projede Samsun Üniversitesi Kavak kampüsüne 500m-1000m-1500m mesafelerdeki kafeler ve bankamatiklerin bulunması istenmektedir. Aşağıdakilerden hangisinde böyle bir talep için sırasıyla yapılacak analizler doğru olarak verilmiştir?",
+          "options": {
+            "A": "Bakı, sorgulama",
+            "B": "Çakıştırma, sorgulama",
+            "C": "Tampon bölge, sorgulama",
+            "D": "Eğim, sorgulama",
+            "E": "Sorgulama, tampon bölge"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi bir ağ analizi ile yapılan fonksiyonlardan biri değildir?",
+          "options": {
+            "A": "En uygun güzergâhı belirleme",
+            "B": "Güzergâh tespiti için durak konularını ekleme",
+            "C": "En yakın hizmet alanını belirleme",
+            "D": "Herhangi bir yola 100 metre mesafedeki alanları belirleme",
+            "E": "Maliyet matrisi çıkarma"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi vektörel nokta verisinin temel özelliğidir?",
+          "options": {
+            "A": "Birden fazla X ve Y koordinatı ile temsil edilir.",
+            "B": "Her bir poligon tek bir raster hücresi ile temsil edilir.",
+            "C": "Tek bir X ve Y koordinatı ile temsil edilir.",
+            "D": "Başlangıç ve bitiş noktası aynıdır.",
+            "E": "En fazla iki X ve Y koordinatı ile temsil edilir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Düşey datum aşağıdakilerden hangisine göre belirlenir?",
+          "options": {
+            "A": "Ortalama deniz seviyesi",
+            "B": "Kullanılan projeksiyon tipi",
+            "C": "Küresel elipsoit modeli",
+            "D": "Ülkelerin ortalama yüksekliği",
+            "E": "Küresel geoit modeli"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi CBS'de sorulması gereken soru tiplerinden biri değildir?",
+          "options": {
+            "A": "Nerede olduğu hakkındaki sorular",
+            "B": "Alansal değişim ile ilgili sorular",
+            "C": "Hangi alansal unsurlar ile ilişkili olduğu sorular",
+            "D": "Nasıl dağıldığı ile ilgili sorular",
+            "E": "Banka hesap bilgileri ile ilgili sorular"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdaki ağ analizi fonksiyonlarından hangisi bir kaza mahallinden 3, 5 ve 7 dakika mesafedeki hastanelerin belirlenmesi için kullanılır?",
+          "options": {
+            "A": "Maliyet matrisi oluşturma",
+            "B": "En uygun güzergâh belirleme",
+            "C": "En yakın hizmet alanı belirleme",
+            "D": "Tampon bölge belirleme",
+            "E": "Servis alanları belirleme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi bir haritanın ana unsurları arasında yer almaz?",
+          "options": {
+            "A": "Koordinat bilgileri",
+            "B": "Kuzey oku",
+            "C": "Başlık",
+            "D": "Lejant",
+            "E": "Yön"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "I. İstemci/sunucu yapısındadır. II. Etkileşimli bir sistemdir. III. Statik bir sistemdir. IV. Dağıtık bir sistemdir. Yukarıdakilerden hangisi ya da hangileri Web CBS'nin özellikleri arasında yer almaktadır?",
+          "options": {
+            "A": "II ve IV",
+            "B": "Yalnız I",
+            "C": "I, II ve IV",
+            "D": "Yalnız III",
+            "E": "I, II, III ve IV"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi daha çok askerî çalışmalarda tercih edilen CBS yazılımıdır?",
+          "options": {
+            "A": "NetCAD",
+            "B": "Intergraph",
+            "C": "Esri",
+            "D": "QGIS",
+            "E": "Mapinfo"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi aynı boyutlara sahip karelerin birleşmesi ile oluşan veri türüdür?",
+          "options": {
+            "A": "Çizgi",
+            "B": "Poligon",
+            "C": "Sözel",
+            "D": "Raster",
+            "E": "Vektör"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi kutupların haritalanmasında kullanılan en yaygın projeksiyon sistemidir?",
+          "options": {
+            "A": "Düzlemsel",
+            "B": "Silindir",
+            "C": "Küremsi",
+            "D": "Konik",
+            "E": "Açı koruyan"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Haritalardaki görselleştirme ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Nüfus yoğunluğu gibi sayısal ifadeler renk grupları ile gösterilir.",
+            "B": "Haritalarda yer alan il sınırları lejantta poligon simgesi ile gösterilir.",
+            "C": "Haritalarda yer alan akarsular lejantta çizgi simgesi ile gösterilir.",
+            "D": "Haritalarda yer alan bitki örtüsü lejantta nokta simgesi ile gösterilir.",
+            "E": "Haritalarda yer alan yollar lejantta çizgi simgesi ile gösterilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "…. sayesinde çok büyük boyutlardaki ya da çok farklı katmanlardaki bilgilerin tek bilgisayarda tutulması, güçlü donanım ve yazılıma ihtiyaç duyulması gibi sorunlar giderilmektedir.",
+          "options": {
+            "A": "Mobil CBS",
+            "B": "Sunucu CBS",
+            "C": "İnternet CBS",
+            "D": "Web CBS",
+            "E": "Desktop CBS"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Cografi Bilgi Sistemleri 2022-2023 Butunleme",
+      "exam_title": "Cografi Bilgi Sistemleri 2022-2023 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Cografi_Bilgi_Sistemleri_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi coğrafi bilgi sistemlerinin uygulama alanlarından biri değildir?",
+          "options": {
+            "A": "Biyomedikal",
+            "B": "Yer bilimleri",
+            "C": "Tarım",
+            "D": "Arkeoloji",
+            "E": "Mühendislik"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi belirli bir merkezi referans alarak etrafında etki bantlarının oluşturulduğu yüzey analizidir?",
+          "options": {
+            "A": "Bakı",
+            "B": "Tampon bölge",
+            "C": "Hidroloji",
+            "D": "Network",
+            "E": "Eğim"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi komşuluk ilişkisine örnek verilemez?",
+          "options": {
+            "A": "Kavak MYO'ya yakın olan oteller",
+            "B": "Kavak MYO'ya 10 dakika ulaşım mesafesindeki bankamatikler",
+            "C": "Kavak MYO'ya 5 dakika yürüme mesafesindeki marketler",
+            "D": "Kavak MYO ile tren istasyonu arasındaki uzaklık",
+            "E": "Kavak MYO'ya 500 metre mesafedeki kafeler"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "UTM projeksiyonunun birimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "cm",
+            "B": "dm",
+            "C": "mm",
+            "D": "km",
+            "E": "m"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Mekânsal çalışmalar ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bakı analizi için SYM (sayısal yükseklik modeli) kullanılır.",
+            "B": "Çözünürlük düştükçe SYM'de jeomorfolojik birimleri ayırt etmek güçleşir.",
+            "C": "Eğim analizi için vektörel bir katman kullanılır.",
+            "D": "Hidrolojik analizlerde D8 modeli yaygın olarak kullanılır.",
+            "E": "SYM yükseklik bilgileri barındıran bir raster veri modeline sahiptir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "I. Sanallaştırma teknolojisi sunucuların ve depolama cihazlarının paylaşımının ve kullanımının artırılmasına izin vermektedir. II. Uygulamalar arasında bir fiziksel sunucudan diğerine kolayca transfer edilebilmektedir. Yukarıda bilgiler Bulut bilişimin hangi özelliğini ifade etmektedir?",
+          "options": {
+            "A": "Abone modeli",
+            "B": "Merkezi veri tabanı",
+            "C": "Hızlı kullanım",
+            "D": "Daha az masraf",
+            "E": "Kolay veri transferi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi yazılım geliştirme yeteneklerinin olmasını zorunlu tutan CBS türüdür?",
+          "options": {
+            "A": "Masaüstü CBS",
+            "B": "Sunucu CBS",
+            "C": "Mobil CBS",
+            "D": "Web CBS",
+            "E": "Developer CBS"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi coğrafya alanında arazi kullanım çalışmalarına yönelik CBS uygulamaları arasında yer almaktadır?",
+          "options": {
+            "A": "Buzullardaki erime seviyelerini analiz etme",
+            "B": "Toprak nemini belirleme",
+            "C": "Kalkerli arazileri tespit etme",
+            "D": "Arazi kullanımındaki değişiklikler",
+            "E": "Topoğrafik haritalama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi coğrafi bilgi sistemlerinin katman yapısı ve veri tipi uyarınca doğru bir eşlemedir?",
+          "options": {
+            "A": "Göl - Çizgi",
+            "B": "Sayısal Arazi Modeli - Piksel",
+            "C": "Ağaç - Çizgi",
+            "D": "Parsel - Nokta",
+            "E": "Otobüs Durağı - Poligon"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi coğrafya alanında tarım çalışmalarında gerçekleştirilen CBS uygulamaları arasında yer almaktadır?",
+          "options": {
+            "A": "Yıllık rekolte tahmini",
+            "B": "Terörist sığınaklarının analizi",
+            "C": "Orman türlerini ayırt etme",
+            "D": "Orman yangınlarını tespit etme",
+            "E": "Jeolojik birimlerin tespiti"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi bir projeksiyon tipi değildir?",
+          "options": {
+            "A": "Düzlemsel",
+            "B": "Konik",
+            "C": "Açı koruyan",
+            "D": "Küremsi",
+            "E": "Silindir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "I. Facebook II. Instagram III. ArcGIS Online IV. ICloud Yukarıda verilen firma ve ürünlerin ortak özelliği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sosyal ağ yapısına sahip olmaları",
+            "B": "Açık kaynaklı GIS yazılımları olmaları",
+            "C": "Bulut bilişimi kullanmaları",
+            "D": "Ücretli olmaları",
+            "E": "Harita yapımında altlık olmaları"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi raster ve vektör veri modelinin farklılıklarından biri değildir?",
+          "options": {
+            "A": "Raster veri modelinde boş pikseller de saklandığı için veri büyüklüğü disk ortamında daha fazla yer tutar. Vektör veri modelinde sadece harita elemanlarının nokta koordinatları saklandığı için diskte daha az yer tutar.",
+            "B": "Raster veri modelinde veri büyüklüğü harita yoğunluğuna bağlı değilken vektör veri modelinde veri büyüklüğü harita yoğunluğuna bağlıdır.",
+            "C": "Raster veri modelinin temel veri elemanı piksel, vektör veri modelinin temel veri elemanı ise noktadır.",
+            "D": "Raster veri modeli vektör veri modelinden daha hassastır ve noktasal kesin koordinat verir.",
+            "E": "Raster veri modeli bindirme analizlerinde daha avantajlıyken vektör veri modeli şebeke analizlerinde daha avantajlıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "CBS'nin karar vermede kullanılmasına yönelik gerçekleştirilen ilk uygulamada aşağıdaki hastalıklardan hangisi haritalandırılmıştır?",
+          "options": {
+            "A": "Verem",
+            "B": "Covid-19",
+            "C": "Kolera",
+            "D": "Kanser",
+            "E": "Aids"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi harita üzerinde yer almaz?",
+          "options": {
+            "A": "Topoloji",
+            "B": "Grid",
+            "C": "Veri kaynağı",
+            "D": "Harita gövdesi",
+            "E": "Yerleşik alan"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi Bulut bilişimin avantajlarından biri değildir?",
+          "options": {
+            "A": "Sabit internet bağlantısı gereksinimi",
+            "B": "Düşük donanım maliyeti",
+            "C": "Anında güncelleme",
+            "D": "Artırılmış dosya formati uyumu",
+            "E": "Düşük yazılım maliyeti"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi bir bilgisayar laboratuvarındaki tüm bilgisayarların ana bilgisayara bağlanarak bir lisans üstünden CBS yazılımlarını kullanmalarına olanak sağlayan CBS türüdür?",
+          "options": {
+            "A": "Web CBS",
+            "B": "Sunucu CBS",
+            "C": "Mobil CBS",
+            "D": "Masaüstü CBS",
+            "E": "Network CBS"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi dijital harita uygulamaları kullanıcıları için doğru bir yaklaşım değildir?",
+          "options": {
+            "A": "Kolay",
+            "B": "Sade",
+            "C": "Yavaş",
+            "D": "Hızlı",
+            "E": "Basit"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi harita ile ilgili kavramlardan biri değildir?",
+          "options": {
+            "A": "Kuzey oku",
+            "B": "Obje",
+            "C": "Lejant",
+            "D": "Başlık",
+            "E": "Ölçek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi coğrafya alanında jeoloji çalışmalarında gerçekleştirilen CBS uygulamaları arasında yer almaktadır?",
+          "options": {
+            "A": "Sel baskınlarını haritalama",
+            "B": "Toprak nemini belirleme",
+            "C": "Ticari binaların yoğunluğunu belirleme",
+            "D": "Buzullardaki erime seviyelerini analiz etme",
+            "E": "Kalkerli arazileri tespit etme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

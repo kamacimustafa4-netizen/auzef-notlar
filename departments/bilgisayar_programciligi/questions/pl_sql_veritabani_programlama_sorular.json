@@ -1,0 +1,975 @@
+{
+  "course": "PL SQL Veritabani Programlama",
+  "lesson_code": "PL_SQL_VERITABANI_PROGRAMLAMA",
+  "exam_count": 3,
+  "exams": [
+    {
+      "title": "PL/SQL Veritabanı Programlama 2025-2026 Vize",
+      "exam_title": "PL/SQL Veritabanı Programlama 2025-2026 Vize",
+      "exam_type": "vize",
+      "year": "2025-2026",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "PL_SQL_Veritabani_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "PL/SQL koşul yapılarıyla ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "Koşul yapılarında mantıksal önermeler yalnızca TRUE ise ilgili koşul bloğu çalıştırılır.",
+            "B": "IF-THEN-ELSIF koşul yapısında hiçbir koşul sağlanmıyorsa program çalışma zamanı hata verir.",
+            "C": "CASE koşul yapısında ELSE bloğunun bulunması isteğe bağlıdır.",
+            "D": "IF-THEN koşul yapısında kontrol edilecek mantıksal önermeler soldan sağa doğru değerlendirilir.",
+            "E": "ELSE bloğunun çalıştırılması için kendisinden önceki koşulların sağlanmamış olması gerekir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi NUMBER veri tipinden türetilmiş veri tiplerinden biri değildir?",
+          "options": {
+            "A": "DOUBLE PRECISION",
+            "B": "DECIMAL",
+            "C": "REAL",
+            "D": "PLS_INTEGER",
+            "E": "SMALLINT"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi PL/SQL dilinin özelliklerinden biridir?",
+          "options": {
+            "A": "PL/SQL dilinde değişken ve sabitler mutlaka bir veri tipiyle birlikte bildirilmelidir.",
+            "B": "PL/SQL kaynak kodunda bir hata varsa hatanın olduğu satıra kadar olan kodlar çalıştırılır.",
+            "C": "PL/SQL komutları önce yorumlanır ve bir ara forma dönüştürülür.",
+            "D": "Kaynak kodda ihtiyaç duyulan herhangi bir satırda değişken ve sabitler tanımlanabilir.",
+            "E": "PL/SQL, tüm veri tabanlarında yerleşik olarak kuruludur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen PL/SQL programının çıktısı aşağıdaki hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "-1-1-1",
+            "B": "1-11",
+            "C": "-11-1",
+            "D": "111",
+            "E": "-111"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "PL/SQL dilinde program akışını bir sonraki ifadeye aktarmak için kullanılan deyim aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "EXIT;",
+            "B": "NULL;",
+            "C": "BREAK;",
+            "D": "GOTO;",
+            "E": "RETURN;"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verilen PL/SQL programının çıktısı aşağıdaki hangi seçenekte verilmiştir?",
+          "options": {
+            "A": "321",
+            "B": "32-1",
+            "C": "3-2-1",
+            "D": "12-3",
+            "E": "-3-2-1"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen PL/SQL programının çıktısı aşağıdaki hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "15",
+            "B": "-15",
+            "C": "9",
+            "D": "19",
+            "E": "-19"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi PL/SQL dil bileşenlerinden biri değildir?",
+          "options": {
+            "A": "Döngü yapıları",
+            "B": "İstisna işleme",
+            "C": "Karar/koşul yapıları",
+            "D": "Grafiksel kullanıcı arayüzü (GUI)",
+            "E": "Paket yapısı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki fonksiyonlardan hangisi veri tabanında geçerli tarih ve zaman bilgisini döndürür?",
+          "options": {
+            "A": "LOCALTIMESTAMP",
+            "B": "SYSTIMESTAMP",
+            "C": "CURRENT_DATE",
+            "D": "CURRENT_TIMESTAMP",
+            "E": "SYSDATE"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi PL/SQL dilinde bir döngüyü koşullu sonlandırmak için kullanılır?",
+          "options": {
+            "A": "NULL",
+            "B": "CONTINUE",
+            "C": "EXIT WHEN",
+            "D": "BREAK",
+            "E": "GOTO"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıda bir kısmı verilen PL/SQL kodundaki değişkenlerin değerleri büyükten küçüğe aşağıdaki hangi seçenekte sıralanmıştır?",
+          "options": {
+            "A": "n2 > n3 > n1",
+            "B": "n3 > n1 > n2",
+            "C": "n2 > n1 > n3",
+            "D": "n1 > n3 > n2",
+            "E": "n3 > n2 > n1"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "PL/SQL dilinde tüm IF koşul yapılarıyla ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Koşulda birden fazla mantıksal önerme bulunuyorsa bunlar soldan sağa doğru çalıştırılır.",
+            "B": "IF-THEN-ELSIF yapısında bir koşul sağlanmışsa sonraki koşullar kontrol edilmez.",
+            "C": "Koşul yapılarında ELSE deyiminin bulunması zorunludur.",
+            "D": "Koşul yapılarında ELSE deyimi en sonda bulunmalıdır.",
+            "E": "IF-THEN-ELSIF yapısında koşullar yukarıdan aşağıya doğru çalıştırılır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıda bir kısmı verilen PL/SQL kodunda status değişkeninin FALSE olması için boş bırakılan yere aşağıdakilerden hangisi yazılabilir?",
+          "options": {
+            "A": "-5",
+            "B": "10.5",
+            "C": "-6.0",
+            "D": "-10.5",
+            "E": "-6"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "PL/SQL kod mimarisiyle ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Anonim bloklar, ismiyle çağrılıp tekrar kullanılabilirler.",
+            "B": "İstisna işleme bölümünün yerleşimi deklarasyon bölümünden öncedir.",
+            "C": "Kod mimarisinde en az iki bölüm bulunmalıdır.",
+            "D": "Deklarasyon ve uygulama bölümü varsa istisna işleme bölümünün olması zorunludur.",
+            "E": "Uygulama bölümünün olması zorunlu, deklarasyon ve istisna işleme bölümü isteğe bağlıdır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi PL/SQL LOB veri tiplerinden biri değildir?",
+          "options": {
+            "A": "BFILE",
+            "B": "BLOB",
+            "C": "CLOB",
+            "D": "NCLOB",
+            "E": "NLOB"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi PL/SQL isimli blok yapılarından biridir?",
+          "options": {
+            "A": "Begin",
+            "B": "Declare",
+            "C": "Function",
+            "D": "Module",
+            "E": "Exception"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "İki veya daha fazla karakter dizgesini birleştirmek için kullanılan PL/SQL operatörü aşağıdaki seçeneklerin hangisinde verilmiştir?",
+          "options": {
+            "A": ".",
+            "B": "+",
+            "C": "''",
+            "D": "||",
+            "E": "**"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "PL/SQL veri tipi dönüşümüyle ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "BINARY_DOUBLE bir sayı PLS_INTEGER değişkene atanırsa ondalıklı kısım atılır.",
+            "B": "Küçük nümerik veri tiplerinden büyük nümerik veri tiplerine dönüşüm yapılabilir.",
+            "C": "Karakter değerleri sayıya çevrilebiliyorsa örtük dönüşümle nümerik değişkenlere atanabilir.",
+            "D": "Tam sayıdan ondalıklı sayıya yapılan örtük dönüşümde değer kaybı olmaz.",
+            "E": "Bir değeri, ulusal karakter veri tipine dönüştürmek için TO_NCHAR() fonksiyonu kullanılır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "PL/SQL'de anonim bloklarla ilgili aşağıda verilenlerden hangisi doğrudur?",
+          "options": {
+            "A": "Kaynak kod her çalıştırmada derleyici tarafından tekrar kontrol edilir.",
+            "B": "Kodun herhangi bir yerinden ismiyle çağrılıp çalıştırılabilirler.",
+            "C": "İstisna işleme bloğunda derleme zamanı hataları işlenir.",
+            "D": "Anonim blokta deklarasyon bölümünün yer alması zorunludur.",
+            "E": "İsimli bloklara göre daha performanslı çalışır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "PL/SQL Veritabanı Programlama 2024-2025 Vize",
+      "exam_title": "PL/SQL Veritabanı Programlama 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "PL_SQL_Veritabani_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "PL/SQL veri tipi dönüşümüyle ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "BINARY DOUBLE veri tipinde bir sayı PLS_INTEGER veri tipinde bir değişkene atanırsa sayının ondalıklı kısmı atılır, sadece tam kısmı kullanılır.",
+            "B": "Bir değeri, ulusal karakter veri tipine dönüştürmek için TO_NCHAR() fonksiyonu kullanılır.",
+            "C": "Tanım aralığı büyük nümerik veri tiplerinden tanım aralığı küçük veri tiplerine dönüşüm yapılabilir.",
+            "D": "Karakter veri tipindeki değerler sayıya çevrilebiliyorsa örtük dönüşümle nümerik veri tipinde değişkenlere atanabilir.",
+            "E": "Tam sayı veri tipinden ondalıklı sayı veri tipine yapılan örtük veri tipi dönüşümünde sayının değerinde kayıp olmaz."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi NUMBER veri tipinden türetilmiş veri tiplerinden biri değildir?",
+          "options": {
+            "A": "PLS_INTEGER",
+            "B": "DOUBLE PRECISION",
+            "C": "SMALLINT",
+            "D": "DECIMAL",
+            "E": "REAL"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_2.jpg",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_2.jpg",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_2.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen PL/SQL programının çıktısı aşağıdaki hangi seçenekte verilmiştir?",
+          "options": {
+            "A": "32-1",
+            "B": "-3-2-1",
+            "C": "321",
+            "D": "3-2-1",
+            "E": "12-3"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "PL/SQL kod mimarisiyle ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Kod mimarisinde deklarasyon, uygulama veya istisna işleme bölümlerinden en az ikisi bulunmalıdır.",
+            "B": "Deklarasyon ve uygulama işleme bölümü varsa istisna işleme bölümünün de olması zorunludur.",
+            "C": "Uygulama bölümünün olması zorunlu, deklarasyon ve istisna işleme bölümünün olması ise isteğe bağlıdır.",
+            "D": "Anonim bloklar, ismiyle çağrılıp tekrar kullanılabilirler.",
+            "E": "İstisna işleme bölümünün yerleşimi deklarasyon bölümünden sonra, uygulama bölümünden öncedir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_4.jpg",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_4.jpg",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_4.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda bir kısmı verilen PL/SQL kodundaki değişkenlerin değerleri büyükten küçüğe aşağıdaki hangi seçenekte sıralanmıştır?",
+          "options": {
+            "A": "n3>n2>n1",
+            "B": "n2>n3>n1",
+            "C": "n3>n1>n2",
+            "D": "n1>n3>n2",
+            "E": "n2>n1>n3"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "PL/SQL dilinde program akışını bir sonraki ifadeye aktarmak için kullanılan deyim aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "NULL;",
+            "B": "RETURN;",
+            "C": "BREAK;",
+            "D": "GOTO;",
+            "E": "EXIT;"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi PL/SQL LOB veri tiplerinden biri değildir?",
+          "options": {
+            "A": "BFILE",
+            "B": "BLOB",
+            "C": "CLOB",
+            "D": "NLOB",
+            "E": "NCLOB"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki fonksiyonlardan hangisi veri tabanında geçerli tarih ve zaman bilgisini döndürür?",
+          "options": {
+            "A": "LOCALTIMESTAMP",
+            "B": "CURRENT_TIMESTAMP",
+            "C": "SYSDATE",
+            "D": "SYSTIMESTAMP",
+            "E": "CURRENT_DATE"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_8.jpg",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_8.jpg",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_8.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıda verilen PL/SQL programının çıktısı aşağıdaki hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "-15",
+            "B": "9",
+            "C": "15",
+            "D": "-19",
+            "E": "19"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_9.jpg",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_9.jpg",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_9.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda verilen PL/SQL programının çıktısı aşağıdaki hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "-11-1",
+            "B": "1-11",
+            "C": "-111",
+            "D": "111",
+            "E": "-1-1-1"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "PL/SQL koşul yapılarıyla ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "IF-THEN koşul yapısında kontrol edilecek mantıksal önermeler soldan sağa doğru değerlendirilir.",
+            "B": "IF-THEN-ELSIF koşul yapısında hiçbir koşul sağlanmıyorsa program çalışma zamanı hata verir.",
+            "C": "CASE koşul yapısında ELSE bloğunun bulunması isteğe bağlıdır.",
+            "D": "Koşul yapılarında mantıksal önermeler yalnızca TRUE ise ilgili koşul bloğu çalıştırılır aksi halde çalıştırılmaz.",
+            "E": "ELSE bloğunun çalıştırılması için kendisinden önceki koşulların sağlanmamış olması gerekir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi PL/SQL isimli blok yapılarından biridir?",
+          "options": {
+            "A": "Exception",
+            "B": "Begin",
+            "C": "Declare",
+            "D": "Module",
+            "E": "Function"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi PL/SQL dil bileşenlerden biri değildir?",
+          "options": {
+            "A": "Paket yapısı",
+            "B": "Karar/koşul yapıları",
+            "C": "Döngü yapıları",
+            "D": "İstisna işleme",
+            "E": "Grafiksel kullanıcı arayüzü (GUI)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "PL/SQL'de anonim bloklarla ilgili aşağıda verilenlerden hangisi doğrudur?",
+          "options": {
+            "A": "Kodun herhangi bir yerinden ismiyle çağrılıp çalıştırılabilirler.",
+            "B": "İsimli bloklara göre daha performanslı çalışır.",
+            "C": "İstisna işleme bloğunda derleme zamanı hataları ve çalışma zamanı hataları işlenir.",
+            "D": "Kaynak kod her çalıştırmada derleyici tarafından tekrar kontrol edilir.",
+            "E": "Anonim blokta deklarasyon bölümü ve uygulama bölümünün yer alması zorunludur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "PL/SQL dilinde tüm IF koşul yapılarıyla ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Koşul yapılarında ELSE deyimi en sonda bulunmalıdır.",
+            "B": "Koşul yapılarında ELSE deyiminin bulunması zorunludur.",
+            "C": "Koşulda birden fazla mantıksal önerme bulunuyorsa bunlar soldan sağa doğru çalıştırılır.",
+            "D": "IF-THEN-ELSIF yapısında koşullar yukarıdan aşağıya doğru çalıştırılır.",
+            "E": "IF-THEN-ELSIF yapısında bir koşul sağlanmışsa sonraki koşullar kontrol edilmez."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi PL/SQL dilinin özelliklerinden biridir?",
+          "options": {
+            "A": "PL/SQL komutları önce yorumlanır ve bir ara forma dönüştürülür, daha sonra bu ara form derlenerek çalıştırılır.",
+            "B": "PL/SQL dilinde değişken ve sabitler mutlaka bir veri tipiyle birlikte bildirilmelidir.",
+            "C": "Kaynak kodda ihtiyaç duyulan herhangi bir satırda değişken ve sabitler tanımlanabilir.",
+            "D": "PL/SQL kaynak kodunda bir hata varsa hatanın olduğu satıra kadar olan kodlar çalıştırılır, hatadan sonraki kodlar çalıştırılmaz.",
+            "E": "PL/SQL, tüm veri tabanlarında yerleşik olarak kuruludur ve hepsinde kullanılabilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi PL/SQL dilinde bir döngüyü koşullu sonlandırmak için kullanılır?",
+          "options": {
+            "A": "NULL",
+            "B": "GOTO",
+            "C": "EXIT WHEN",
+            "D": "CONTINUE",
+            "E": "BREAK"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_17.jpg",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_17.jpg",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_vize_soru_17.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıda bir kısmı verilen PL/SQL kodunda status değişkeninin FALSE olması için … üç noktayla boş bırakılan yere aşağıdaki seçeneklerden hangisi yazılabilir?",
+          "options": {
+            "A": "-6.0",
+            "B": "-10.5",
+            "C": "-6",
+            "D": "10.5",
+            "E": "-5"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "İki veya daha fazla karakter dizgesini birleştirmek için kullanılan PL/SQL operatörü aşağıdaki seçeneklerin hangisinde verilmiştir?",
+          "options": {
+            "A": ".",
+            "B": "\"",
+            "C": "+",
+            "D": "**",
+            "E": "||"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "PL/SQL Veritabanı Programlama 2024-2025 Final",
+      "exam_title": "PL/SQL Veritabanı Programlama 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "PL_SQL_Veritabani_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıdaki PL/SQL programı çalıştırıldığında aşağıdaki çıktılardan hangisi elde edilir?",
+          "options": {
+            "A": "%",
+            "B": "!",
+            "C": "$",
+            "D": "&",
+            "E": "#"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_1.png",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_1.png",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_1.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıda verilen PL/SQL programının çıktısı veya çalışmasıyla ilgili aşağıda verilen şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Ekrana 0 çıktılar.",
+            "B": "Derleyici hata verir.",
+            "C": "Program istisna verir ve ekrana \"Uyumsuz değer!\" çıktılar.",
+            "D": "Program istisna işleme bloğunda işlenenlerden farklı bir istisna verir.",
+            "E": "Program istisna verir ve ekrana \"Sıfıra bölme hatası!\" çıktılar."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "PL/SQL paketlerle ilgili aşağıda verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Paket yapısında paket gövdesinin bulunması zorunlu değildir.",
+            "B": "Paket başlığındaki kodlar değiştirilip tekrar derlendiğinde paket gövdesi de tekrar derlenmelidir.",
+            "C": "Paket gövdesinde paket başlığında bildirilen alt programlar haricinde alt program tanımlanamaz.",
+            "D": "Paket başlığı paket gövdesinden önce derlenmelidir.",
+            "E": "Paket gövdesindeki kodlar değiştirilip tekrar derlendiğinde paket başlığının tekrar derlenmesi gerekmez."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_3.png",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_3.png",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_3.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen programın çıktısı aşağıdaki hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "1.5",
+            "B": "1",
+            "C": "2",
+            "D": "2.5",
+            "E": "3"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıda verilen alt programlardan hangisi geçerli ve doğru tanımlanmıştır?",
+          "options": {
+            "A": "CREATE OR REPLACE PROCEDURE deneme (z) IS BEGIN z := z + 5; END;",
+            "B": "CREATE OR REPLACE PROCEDURE deneme (a NUMBER, b PLS_INTEGER) RETURN NUMBER IS BEGIN RETURN a + b; END;",
+            "C": "CREATE OR REPLACE PROCEDURE deneme (y REAL) AS x NUMBER := 5; BEGIN x:= x + y; END;",
+            "D": "CREATE OR REPLACE FUNCTION deneme RETURN NUMBER (x DOUBLE, y FLOAT) IS BEGIN RETURN x + y; END;",
+            "E": "CREATE OR REPLACE FUNCTION deneme (c DOUBLE, d FLOAT) IS BEGIN RETURN c + d; END"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_5.png",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_5.png",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_5.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verilen triggerla ilgili verilen şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "Satır seviyesi triggerdır.",
+            "B": "jobs tablosu tamamen silindiğinde (DROP) tetiklenir.",
+            "C": "INSERT veya DELETE olaylarına bağlı çalışır.",
+            "D": "jobs tablosuna bağlı çalışır.",
+            "E": "Olaylardan önce çalışır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Oturumda geçerli tarih saat ve saat dilimini döndüren fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "CURRENT_DATE",
+            "B": "LOCALTIMESTAMP",
+            "C": "SYSTIMESTAMP",
+            "D": "SYSDATE",
+            "E": "CURRENT_TIMESTAMP"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Kursörün açık olup olmadığı bilgisini veren kursör öz niteliği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "SQL%ISOPEN",
+            "B": "OPEN cursor",
+            "C": "SQL%FOUND",
+            "D": "SQL%NOTFOUND",
+            "E": "SQL%ROWCOUNT"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "PL/SQL koleksiyonlarıyla ilgili aşağıda verilen şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Değişken boyutlu dizi koleksiyonunda (VARRAY) ilk elemanın indisi 1'dir.",
+            "B": "Değişken boyutlu dizi koleksiyonunda (VARRAY) eleman sayısı baştan belirtilmez.",
+            "C": "İlişkisel dizi koleksiyonuna (Associative array) elemanlar sıralı bir şekilde eklenmeyebilir.",
+            "D": "İlişkisel dizi koleksiyonunda (Associative array) eleman sayısı baştan belirtilir.",
+            "E": "İç içe tablo koleksiyonunda (Nested table) ilk elemanın indisi 0'dır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda verilen krsr_job isimli kursör kullanılarak min_salary değeri 20000'den büyük satırlar FOR döngüsüyle konsola çıktılanmak istenmektedir. Programın çalışması için … üç nokta ile boş bırakılan satıra aşağıdaki şıklardan hangisi gelmelidir?",
+          "options": {
+            "A": "FOR min_salary IN krsr_job (20000) LOOP",
+            "B": "FOR krsr_job(20000) IN min_salary LOOP",
+            "C": "FOR rec IN krsr_job (20000) LOOP",
+            "D": "FOR rec(20000) IN krsr_job LOOP",
+            "E": "FOR rec IN min_salary (20000) LOOP"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıda verilen programın çalışması için üç nokta ile boş bırakılan satıra aşağıdaki şıklardan hangisi gelmelidir?",
+          "options": {
+            "A": "rec_regions HR.regions%ROWTYPE;",
+            "B": "rec_regions HR.regions%TYPE;",
+            "C": "rec_regions %ROWTYPE%HR.regions ;",
+            "D": "rec_regions HR.regions;",
+            "E": "regions HR.rec_regions%ROWTYPE;"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_11.png",
+          "image_file": "PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_11.png",
+          "image_path": "resim-sorular/PL_SQL_VERITABAN_PROGRAMLAMA_2024_2025_final_soru_11.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "BLPR3504 PL/SQL VERİTABANI PROGRAMLAMA",
+            "B": "BLPR3504 PL/SQL VERİTABANI PROGRAMLAMA",
+            "C": "BLPR3504 PL/SQL VERİTABANI PROGRAMLAMA",
+            "D": "BLPR3504 PL/SQL VERİTABANI PROGRAMLAMA",
+            "E": "BLPR3504 PL/SQL V ERİTABANI PROGRAMLAMA"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "İstisnalarla ilgili aşağıda verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "OTHERS işleyicisi ön tanımlı tüm istisnaları işleyebilir.",
+            "B": "Her istisnanın bir ismi olmayabilir.",
+            "C": "İstisna işlemek isteğe bağlıdır.",
+            "D": "İstisna mutlaka kendi bloğunda işlenmelidir.",
+            "E": "İstisna işlenmezse program aniden sonlanır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "PL/SQL kod mimarisiyle ilgili aşağıda verilenlerden hangisi doğrudur?",
+          "options": {
+            "A": "PL/SQL kodunda çalışma zamanı hataları kodun DECLARE bölümünde işlenir.",
+            "B": "Programda kullanılacak değişkenler kodun herhangi bir satırında bildirilip kullanılabilir.",
+            "C": "Anonim bloklar derlendiğinde veri tabanına kaydedilirler.",
+            "D": "İsimli bloklar, anonim bloklara göre daha hızlı çalışırlar.",
+            "E": "İç içe blok yapısında içteki blokta DECLARE bölümünün olması zorunludur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıda verilen PL/SQL koleksiyon metodlarından hangisi değişken boyutlu dizide veya iç içe tabloda belirtilen eleman mevcutsa TRUE değerini döndürür?",
+          "options": {
+            "A": "CURRENT",
+            "B": "TRIM",
+            "C": "COUNT",
+            "D": "EXTEND",
+            "E": "EXISTS"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bir alt programa yalnızca belirtilen birimin (örneğin alt program) erişebilmesi için hangi cümlecik kullanılır?",
+          "options": {
+            "A": "DEFAULT COLLATION",
+            "B": "AUTHID",
+            "C": "DEFINER",
+            "D": "ACCESSIBLE BY",
+            "E": "DISABLE"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "SELECT FOR UPDATE deyiminde bir başka kullanıcı tarafından kilitlenmiş satırların atlanmasını sağlayan komut aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "NOWAIT",
+            "B": "SKIP LOCKED",
+            "C": "ROLLBACK",
+            "D": "CONTINUE",
+            "E": "COMMIT"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

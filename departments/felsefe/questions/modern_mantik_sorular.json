@@ -1,0 +1,3647 @@
+{
+  "course": "Modern Mantik",
+  "lesson_code": "MODERN_MANTIK",
+  "exam_count": 11,
+  "exams": [
+    {
+      "title": "Modern Mantık 2025-2026 Vize",
+      "exam_title": "Modern Mantık 2025-2026 Vize",
+      "exam_type": "vize",
+      "year": "2025-2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi (x ∧ y) ifadesinin üç değerli mantıktaki eş değeridir?",
+          "options": {
+            "A": "min (x,y) + 1",
+            "B": "min (1, 1 - x + y)",
+            "C": "max (x, y)",
+            "D": "min (x, y)",
+            "E": "max (x, y) - 1"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi [(~q ∧ p) → (q → p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "[(~q ∧ D) → (q → D)]",
+            "B": "D",
+            "C": "(Y → Y)",
+            "D": "[(~q ∧ Y) → (q → Y)]",
+            "E": "Y"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Lukasiewicz – Tarski notasyonunda eklemler hangi tarafa yazılır?",
+          "options": {
+            "A": "İlk önermeden sonra",
+            "B": "İkinci önermeden sonra",
+            "C": "Sağ başa",
+            "D": "Sol başa",
+            "E": "Ortaya"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Saçmaya İndirgeme Yöntemiyle bir ifadenin yanlışlanabilirliği denetlenmektedir. Buna göre [(~p v p) → q] ifadesinin yanlışlanabilmesi, q önermesi hangi doğruluk değerini aldığında mümkün olur?",
+          "options": {
+            "A": "Geçersiz",
+            "B": "Doğru",
+            "C": "Yanlış",
+            "D": "Ne yanlış ne doğru",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "~p ↔ q ifadesi için aşağıdakilerden hangisi en uygundur?",
+          "options": {
+            "A": "Geçersiz - tutarlı",
+            "B": "Geçerli - tutarsız",
+            "C": "Geçerli - tutarlı",
+            "D": "Tutarsız",
+            "E": "Ne geçerli ne tutarlı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Baharın gelişinin A, insanların mutlu olmasının ise B ile temsil edilmesi durumunda \"Bahar gelir ise insanlar mutlu olur.\" önermesi aşağıdakilerden hangisiyle gösterilir?",
+          "options": {
+            "A": "(AB)",
+            "B": "(A → B)",
+            "C": "(AB)",
+            "D": "(A v B)",
+            "E": "(A ∧ B)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "I. Geçersizdir. II. Geçerlidir. III. Tutarlıdır. ~(p ↔ ~q) → q ifadesi için yukarıdakilerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "I ve III",
+            "C": "Yalnız I",
+            "D": "I ve II",
+            "E": "Yalnız II"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "\"Sonuçta mantık bilimi sayesinde yeni yapay diller kullanarak doğru düşüncenin …….. sınırları da genişletilecektir.\" Yukarıdaki boşluğu dolduracak en uygun ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "denetlenebilirlik",
+            "B": "sezgisellik",
+            "C": "betimlenebilirlik",
+            "D": "ifade",
+            "E": "iletişim"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Çok değerli mantık kuralları göz önünde bulundurulduğunda aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "\"p veya q\" gibi bir ifadede tarafların ikisi de 0 değerini almışsa sonuç 1 olur.",
+            "B": "\"p ve q\" gibi bir ifadede tarafların ikisi de 1 değerini almışsa sonuç 0 olur.",
+            "C": "\"p ve q\" gibi bir ifadede taraflardan en az birisi 1 değerini almışsa sonuç kesinlikle 1 olur.",
+            "D": "\"p veya q\" gibi bir ifadede tarafların ikisi de 1 değerini almışsa sonuç 1 olur.",
+            "E": "\"p ve q\" gibi bir ifadede tarafların ikisi de 0 değerini almışsa sonuç 1 olur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Methods of Logic\" adlı eserin yazarı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Russell",
+            "B": "Frege",
+            "C": "Quine",
+            "D": "Leibniz",
+            "E": "Aristoteles"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi bir önermenin kıyasta ele alınış tarzlarından biri değildir?",
+          "options": {
+            "A": "Olumlu",
+            "B": "Tüzel",
+            "C": "Tümel",
+            "D": "Olumsuz",
+            "E": "Tikel"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Tam normal biçime indirgeme işleminin neticesi, sekiz farklı bileşenin hiçbirini içermiyorsa ilgili önerme için aşağıdakilerden hangisi söylenir?",
+          "options": {
+            "A": "Geçersiz-Tutarlı",
+            "B": "Geçerli-Tutarlı",
+            "C": "Denk-Tutarsız",
+            "D": "Geçerli-Tutarsız",
+            "E": "Geçersiz-Tutarsız"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Çelişmezlik ilkesi aşağıdaki seçeneklerden hangisinde doğru olarak tanımlanmıştır?",
+          "options": {
+            "A": "Bir şey ya doğrudur ya da yanlıştır.",
+            "B": "Bir şey sadece kendisidir, kendisi olmayan olamaz.",
+            "C": "Bazı şeyler başka şeylere dönüşür.",
+            "D": "Bazı şeyler bazen doğru bazen yanlıştır.",
+            "E": "Bir şey ne ise o'dur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bir çıkarımın saçmaya indirgeme yöntemi ile denetlenirken daha ilk işlemde \"yanlış\" olabildiği tespit edilmişse ilgili çıkarım için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Geçerli",
+            "B": "Tutarsız",
+            "C": "Geçersiz",
+            "D": "Tutarlı",
+            "E": "Eş değer"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Doğruluk değerine ilişkin türlü biçimlerdeki belirsizlikleri konu edinen, böylece iki değerli sistemin dışına çıkarak onu genişleten çok değerli mantık sistemlerinin ilk örneği, 1920 yılında ortaya konan üç değerli mantıktır. Yukarıda ifade edilen \"üç değerli mantık\" sisteminin kurucusu aşağıdaki isimlerden hangisidir?",
+          "options": {
+            "A": "Lukasiewicz",
+            "B": "Russell",
+            "C": "Gödel",
+            "D": "Frege",
+            "E": "Aristoteles"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Herhangi bir ifadenin \"geçerli olması onun tüm doğruluk durumları için….. değeri alması, \"tutarlı\" olması ise en az bir doğruluk durumu için …… olması anlamına gelir. Yukarıdaki parçada boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "\"yanlış\", \"doğru\"",
+            "B": "\"doğru\", \"yanlış\"",
+            "C": "\"belirsiz\", \"doğru\"",
+            "D": "\"yanlış\", \"belirsiz\"",
+            "E": "\"doğru\", \"doğru\""
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Üçüncü hâlin imkânsızlığı ilkesi aşağıdakilerden hangisinde doğru olarak tanımlanmıştır?",
+          "options": {
+            "A": "Herhangi bir önerme ya \"doğru\" ya da \"yanlış\" olabilir; bunlardan başka bir değer alamaz.",
+            "B": "Bir şey ne ise odur.",
+            "C": "Bazı önermeler başka önermelere dönüşebilir.",
+            "D": "Bazı önermeler bazen \"doğru\" bazen \"yanlış\"tır.",
+            "E": "Bir şey sadece kendisidir; kendisi olmayan olamaz."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi [(q ↔ ~q) v (p → q)] → q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(D ↔ ~Y) v (Y → Y)] → D",
+            "B": "[(Y ↔ D) v (p → D)] → Y",
+            "C": "[(Y ↔ D) v (p → Y)] → Y",
+            "D": "[(Y ↔ ~q) v (D → Y)] → Y",
+            "E": "[(Y ↔ Y) v (D → q)] → q"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "~[~(p ↔ ~q)] ∧ ~p ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, D, D, Y",
+            "B": "D, Y, Y, D",
+            "C": "D, Y, Y, Y",
+            "D": "Y, Y, D, D",
+            "E": "Y, Y, D, Y"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Lukasiewicz-Tarski notasyonuna göre aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "\"Veya\", \"K\" harfi ile gösterilir.",
+            "B": "\"Ve\", \"D\" harfi ile gösterilir.",
+            "C": "\"Ancak ve ancak\", \"C\" harfi ile gösterilir.",
+            "D": "\"Değil\", \"N\" harfi ile gösterilir.",
+            "E": "\"İçerme\", \"E\" harfi ile gösterilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2024-2025 Vize",
+      "exam_title": "Modern Mantık 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 18,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Doğruluk değerleri Y, D, Y, D olan bir ifadenin değilinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, Y, Y, Y",
+            "B": "D, Y, D, Y",
+            "C": "D, Y, Y, D",
+            "D": "Y, D, D, Y",
+            "E": "D, Y, D, D"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Baharın gelişinin A, insanların mutlu olmasının ise B ile temsil edilmesi durumunda \"Bahar gelir ise insanlar mutlu olur.\" önermesi aşağıdakilerden hangisiyle gösterilir?",
+          "options": {
+            "A": "(A → B)",
+            "B": "(A ∧ B)",
+            "C": "(A ↑ B)",
+            "D": "(A ← B)",
+            "E": "(A ∨ B)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki eş değerliklerden hangisi yanlıştır?",
+          "options": {
+            "A": "D ∨ A = D",
+            "B": "A ∨ D = D",
+            "C": "Y ∨ A = A",
+            "D": "A → D = A",
+            "E": "A ∧ D = A"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "(p ↔ ∼q) ifadesi Lukasiewicz­Tarski notasyonuna göre nasıl yazılmalıdır?",
+          "options": {
+            "A": "EpNq",
+            "B": "ApNq",
+            "C": "CpNq",
+            "D": "CNpq",
+            "E": "NpNq"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "İki önermenin aynı anda tasdikinin yani birlikte doğrulanmasının zorunlu olduğu durumu ifade eden eklemin gösterimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "↑",
+            "B": "∼",
+            "C": "∧",
+            "D": "→",
+            "E": "∨"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi [(∼q ∧ p)→(q → p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "D",
+            "B": "[(∼q ∧ Y)→(q → Y)]",
+            "C": "Y",
+            "D": "(Y → Y)",
+            "E": "[(∼q ∧ D)→(q → D)]"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "p ↔ ~ q ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Y, Y, Y, Y",
+            "B": "Y, D, D, Y",
+            "C": "D,Y, Y, Y",
+            "D": "D, D, D, Y",
+            "E": "D, Y, Y, D"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi klasik mantıkta kullanılan önerme gösterimlerinden biri değildir?",
+          "options": {
+            "A": "SoP",
+            "B": "SaP",
+            "C": "SıP",
+            "D": "SeP",
+            "E": "SuP"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki eş değerliklerden hangisi doğrudur?",
+          "options": {
+            "A": "(A → B) = (A ∧ B)",
+            "B": "(A → B) = (A ∨ B)",
+            "C": "(A → B) = (∼A ∧ B)",
+            "D": "(A → B) = (A ∨ ∼B)",
+            "E": "(A → B) = (∼A ∨ B)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki ifadelerden hangisi \"yanlış\" değildir?",
+          "options": {
+            "A": "(Y ∨ D) → Y",
+            "B": "(D ∧ Y)",
+            "C": "D → (Y ∨ Y)",
+            "D": "A → (A ∨ D)",
+            "E": "(Y ∧ A)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "(p→q) ∧ ∼p ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Y, Y, D, D",
+            "B": "D, Y, Y, D",
+            "C": "Y, D, D, Y",
+            "D": "D, D, D, Y",
+            "E": "D,Y, Y, Y"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Herhangi bir ifadenin \"geçerli\" olması onun tüm doğruluk durumları için ….. değeri alması, \"tutarlı\" olması ise en az bir doğruluk durumu için ….. olması anlamına gelir. Yukarıdaki parçada boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "``belirsiz``, ``doğru``",
+            "B": "``yanlış``, ``doğru``",
+            "C": "``yanlış``, ``belirsiz``",
+            "D": "``doğru``, ``yanlış``",
+            "E": "``doğru``, ``doğru``"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi gerçeklendiğinde [(p → q) → q] ifadesi \"yanlış\" olur?",
+          "options": {
+            "A": "p = D, q = D",
+            "B": "p = B, q = B",
+            "C": "p= Y, q = Y",
+            "D": "p = D, q = Y",
+            "E": "p = Y, q = D"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Lukasiewicz–Tarski notasyonuna göre aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "``Ve``, ``D`` harfi ile gösterilir.",
+            "B": "``Değil``, ``N`` harfi ile gösterilir.",
+            "C": "``Ancak ve ancak``, ``C`` harfi ile gösterilir.",
+            "D": "``İçerme``, ``E`` harfi ile gösterilir.",
+            "E": "``Veya``, ``K`` harfi ile gösterilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi ∼p →(q v ∼r) ifadesinin Lukasiewicz–Tarski notasyonu ile yazılmış şeklidir?",
+          "options": {
+            "A": "ENpAqNr",
+            "B": "KNpAqNr",
+            "C": "CNpKqNr",
+            "D": "CNpAqNr",
+            "E": "ANpEqNr"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "p, q, r gibi üç değişkenli bir ifadenin \"tam normal biçime indirgeme yöntemi\" ile geçerli olup olmadığı denetleniyor. Denetleme sonucu \"geçersiz\" ise sonuç satırında en fazla kaç \"pqr\" sıralı üçlüsü olabilir?",
+          "options": {
+            "A": "7",
+            "B": "0",
+            "C": "8",
+            "D": "1",
+            "E": "5"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi (∼x ∧ ∼y) ifadesinin üç değerli mantıktaki eş değeridir?",
+          "options": {
+            "A": "max [(1/2-x), (1/2-y)]",
+            "B": "min [(1-x), 1/2]",
+            "C": "min [(1-x), (1-y)]",
+            "D": "max [1/2, (1-y)]",
+            "E": "min (x - y)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "\"Methods of Logic\" adlı eserin yazarı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Aristoteles",
+            "B": "Quine",
+            "C": "Leibniz",
+            "D": "Russell",
+            "E": "Frege"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2023-2024 Vize",
+      "exam_title": "Modern Mantık 2023-2024 Vize",
+      "exam_type": "vize",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Doğruluk değerleri D, Y, Y, D olan bir ifadenin değilinin değilinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, D, D, Y",
+            "B": "D, Y, Y, D",
+            "C": "D, D, Y, D",
+            "D": "Y, D, D, D",
+            "E": "Y, Y, D, Y"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "∼(p ↔ ∼q) ifadesi Lukasiewicz-Tarski notasyonuna göre nasıl yazılmalıdır?",
+          "options": {
+            "A": "EpNq",
+            "B": "NpNq",
+            "C": "NEpq",
+            "D": "pNq",
+            "E": "NEpNq"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "(q ↔ ∼q)∨(p →q) ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, D, D, Y",
+            "B": "D, Y, Y, D",
+            "C": "Y, D, D, D",
+            "D": "D, Y, D, D",
+            "E": "Y, Y, D, Y"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi [ (∼p→ p)∧(q→∼p)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "∼q→q",
+            "B": "Y→q",
+            "C": "q→q",
+            "D": "[ (D→Y)∧(q→D)] →q",
+            "E": "[ (Y→D)∧(q→Y)] →q"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "I. Geçersizdir. II. Geçerlidir. III. Tutarlıdır. ∼(p↔∼q) → q ifadesi için yukarıdakilerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "I ve III",
+            "C": "I ve II",
+            "D": "Yalnız II",
+            "E": "Yalnız III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi Lukasiewicz–Tarski notasyonunun sağladığı katkılardandır?",
+          "options": {
+            "A": "Fizik ifadelerini açık kılar.",
+            "B": "Mantık işlemlerinin bilgisayar diline aktarılmasında kolaylık sağlar.",
+            "C": "Özdeşlik ilkesinin göz önünde bulundurulmasını sağlar.",
+            "D": "Kıyas denetlemelerini belirginleştirir.",
+            "E": "Klasik mantık tartışmalarını yeniden gündeme getirir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi [ (q ↔ ∼q)∨(p →q)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[ (Y ↔ Y)∨(D →q)]→q",
+            "B": "[ (D ↔ Y)∨(p →D)]→Y",
+            "C": "[ (Y ↔ D)∨(p →Y)]→Y",
+            "D": "[ (Y ↔ ∼q)∨(D →Y)]→Y",
+            "E": "[ (D ↔ ∼Y)∨(Y →Y)]→D"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi [(∼q→ p)↔(r→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(∼q→ D)↔(r→D)]",
+            "B": "[(∼q→ D)↔(r→∼Y)]",
+            "C": "[(∼q→ Y)↔(r→Y)]",
+            "D": "[(∼q→ p)↔(D→∼p)]",
+            "E": "[(∼q→ Y)↔(r→∼D)]"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"Sonuçta mantık bilimi sayesinde yeni yapay diller kullanarak doğru düşüncenin ….. sınırları da genişletilecektir.\" Yukarıdaki boşluğu dolduracak en uygun ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "sezgisellik",
+            "B": "ifade",
+            "C": "iletişim",
+            "D": "denetlenebilirlik",
+            "E": "betimlenebilirlik"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi [ (q↔ ∼r)∨(p →r)]→r ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "D",
+            "B": "[ (q↔ Y)∨(p →Y)]→D",
+            "C": "[ (q↔ Y)∨(p →D)]→Y",
+            "D": "[ (D ↔ Y)∨(D →Y)]→Y",
+            "E": "[ (q ↔ Y)∨(D →Y)]→Y"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi bir önermenin kıyasta ele alınış tarzlarından biri değildir?",
+          "options": {
+            "A": "Tümel",
+            "B": "Tikel",
+            "C": "Tüzel",
+            "D": "Olumsuz",
+            "E": "Olumlu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi [ (q↔ ∼r)∨(p →r)]→[ r∧(p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[ (q↔ D)∨(p →D)]→[ D∧( p↔q)]",
+            "B": "[ (D↔ Y)∨(p →Y)]→[ Y∧( p↔D)]",
+            "C": "[ (q↔ Y)∨(p →D)]→[ Y∧( p↔q)]",
+            "D": "[ (q↔ Y)∨(D)]→[ Y∧( p↔q)]",
+            "E": "[ (q↔ D)∨(p →Y)]→[ Y∧( p↔q)]"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "A ∼ A I. D Y II. B Y III. Y D D: Doğru, Y: Yanlış, B: Belirsiz değerleri için yukarıdakilerden hangisi veya hangileri yanlıştır?",
+          "options": {
+            "A": "Yalnız II",
+            "B": "Yalnız I",
+            "C": "I ve II",
+            "D": "Yalnız III",
+            "E": "II ve III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Çelişmezlik ilkesi aşağıdaki seçeneklerden hangisinde doğru olarak tanımlanmıştır?",
+          "options": {
+            "A": "Bir şey sadece kendisidir, kendisi olmayan olamaz.",
+            "B": "Bazı şeyler başka şeylere dönüşür.",
+            "C": "Bir şey ya doğrudur ya da yanlıştır.",
+            "D": "Bazı şeyler bazen doğru bazen yanlıştır.",
+            "E": "Bir şey ne ise o'dur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi (q v r) ifadesinin Lukasiewicz–Tarski notasyonu ile yazılmış şeklidir?",
+          "options": {
+            "A": "Lqr",
+            "B": "Nqr",
+            "C": "Eqr",
+            "D": "Aqr",
+            "E": "Kqr"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "p, q, r gibi üç değişkenli, iki farklı ifadenin \"tam normal biçime indirgeme yöntemi\" ile özdeş olup olmadıkları denetleniyor. Denetleme sonucu \"özdeş değil\" ise sonuç satırında en fazla kaç \"pqr\" sıralı üçlüsü olabilir?",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "5",
+            "D": "4",
+            "E": "7"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "(p V q) gibi bir ifadede D: Doğru, Y: Yanlış, B: Belirsiz değerlerini gösterdiğinde aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "(D V B) = D",
+            "B": "(D V D) = D",
+            "C": "(Y V Y) = Y",
+            "D": "(Y V B) = B",
+            "E": "(B V B) = Y"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "p, q, r gibi üç değişkenli, iki farklı ifadenin \"tam normal biçime indirgeme yöntemi\" ile özdeş olup olmadıkları denetleniyor. Denetleme sonucu \"özdeş\" ise sonuç satırında kaç \"pqr\" sıralı üçlüsü olmalıdır?",
+          "options": {
+            "A": "6",
+            "B": "5",
+            "C": "8",
+            "D": "3",
+            "E": "1"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi [(∼r↔ p)→(q→∼r)]∨r ifadesinin Quine Yöntemi ile çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "(∼ p→ ∼q)]∨D",
+            "B": "[(Y↔ p)→(q→D)]∨D",
+            "C": "(p→D)∨Y",
+            "D": "D",
+            "E": "D∨Y"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi klasik mantıkta kullanılan önerme gösterimlerinden biridir?",
+          "options": {
+            "A": "SoP",
+            "B": "SiP",
+            "C": "SüP",
+            "D": "SöP",
+            "E": "SuP"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2022-2023 Vize",
+      "exam_title": "Modern Mantık 2022-2023 Vize",
+      "exam_type": "vize",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi [ (q↔ ~q) v(p →q)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(Y ↔ Y) v (D →q)]→q",
+            "B": "[(Y ↔ ~q) v (D →Y)]→Y",
+            "C": "[(D ↔ ~Y) v (Y →Y)]→D",
+            "D": "[ (D ↔ Y) v (p →D)]→Y",
+            "E": "[(Y ↔ D) v (p →Y)]→Y"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "p, q, r gibi üç değişkenli, iki farklı ifadenin \"tam normal biçime indirgeme yöntemi\" ile özdeş olup olmadıkları denetleniyor. Denetleme sonucu \"özdeş\" ise sonuç satırında kaç \"pqr\" sıralı üçlüsü olmalıdır?",
+          "options": {
+            "A": "8",
+            "B": "1",
+            "C": "6",
+            "D": "5",
+            "E": "3"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "~p ↔ q ifadesi için aşağıdakilerden hangisi en uygundur?",
+          "options": {
+            "A": "Tutarsız",
+            "B": "Geçerli - tutarlı",
+            "C": "Geçersiz - tutarlı",
+            "D": "Geçerli - tutarsız",
+            "E": "Ne geçerli ne tutarlı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "p, q, r gibi üç değişkenli, iki farklı ifadenin \"tam normal biçime indirgeme yöntemi\" ile özdeş olup olmadıkları denetleniyor. Denetleme sonucu \"özdeş değil\" ise sonuç satırında en fazla kaç \"pqr\" sıralı üçlüsü olabilir?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "7"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir çıkarımın, saçmaya indirgeme yöntemi ile denetlenirken daha ilk işlemde \"yanlış\" olabildiği tespit edilmişse ilgili çıkarım için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Geçersiz",
+            "B": "Eşdeğer",
+            "C": "Tutarsız",
+            "D": "Tutarlı",
+            "E": "Geçerli"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi [ (q↔ ~r)v(p →r)]→r ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(q↔ Y)v (p →D)]→Y",
+            "B": "D",
+            "C": "[(q↔ Y)v(p →Y)]→D",
+            "D": "[(D ↔ Y)v (D →Y)]→Y",
+            "E": "[(q ↔ Y)v(D →Y)]→Y"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Üçüncü hâlin imkânsızlığı ilkesi aşağıdakilerden hangisinde doğru olarak tanımlanmıştır?",
+          "options": {
+            "A": "Bazı önermeler başka önermelere dönüşebilir.",
+            "B": "Herhangi bir önerme ya \"doğru\" ya da \"yanlış\" olabilir; bunlardan başka bir değer alamaz.",
+            "C": "Bazı önermeler bazen \"doğru\" bazen \"yanlış\"tır.",
+            "D": "Bir şey ne ise odur.",
+            "E": "Bir şey sadece kendisidir; kendisi olmayan olamaz."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi [ (q↔ ~r)v(p →r)]→[ r∧( p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(q↔ Y)v(D)]→[ Y∧( p↔q)]",
+            "B": "[(q↔ Y)v(p →D)]→[ Y∧( p↔q)]",
+            "C": "[(q↔ D)v(p →D)]→[ D∧( p↔q)]",
+            "D": "[(q↔ D)v(p →Y)]→[ Y∧( p↔q)]",
+            "E": "[(D↔ Y)v(p →Y)][ Y∧( p↔D)]"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Çok-değerli mantık işlemleri göz önünde bulundurulduğunda aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "(p → q) = min [1, (1 – p) + q]",
+            "B": "~ p= (1 - p)",
+            "C": "(p v q) = max (p, q)",
+            "D": "(p ↔ q) = 1 -lp -ql",
+            "E": "p Ʌ q = min (q)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi Lukasiewicz-Tarski notasyonunun sağladığı katkılardandır?",
+          "options": {
+            "A": "Kıyas denetlemelerini belirginleştirir.",
+            "B": "Özdeşlik ilkesinin göz önünde bulundurulmasını sağlar.",
+            "C": "Mantık işlemlerinin bilgisayar diline aktarılmasında kolaylık sağlar.",
+            "D": "Klasik mantık tartışmalarını yeniden gündeme getirir.",
+            "E": "Fizik ifadelerini açık kılar."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi bir önermenin kıyasta ele alınış tarzlarından biri değildir?",
+          "options": {
+            "A": "Tümel",
+            "B": "Tikel",
+            "C": "Olumlu",
+            "D": "Tüzel",
+            "E": "Olumsuz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "(q↔~q)v (p →q) ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, Y, D, D",
+            "B": "Y, Y, D, Y",
+            "C": "D, Y, Y, D",
+            "D": "Y, D, D, D",
+            "E": "D, D, D, Y"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "~p → q ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, D, D, Y",
+            "B": "D, Y, Y, D",
+            "C": "Y, D, D, Y",
+            "D": "Y, Y, D, D",
+            "E": "D,Y, Y, Y"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bir çıkarımın, saçmaya indirgeme yöntemi ile denetlenirken daha ilk işlemde \"doğru\" olabildiği tespit edilmişse ilgili çıkarım için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Eşdeğer",
+            "B": "Tutarsız",
+            "C": "Tutarlı",
+            "D": "Geçersiz",
+            "E": "Geçerli"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "I. Geçersizdir. II. Geçerlidir. III. Tutarlıdır. ~(p↔~q) → q ifadesi için yukarıdakilerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "Yalnız II",
+            "B": "I ve III",
+            "C": "I ve II",
+            "D": "Yalnız III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi (q v r) ifadesinin Lukasiewicz-Tarski notasyonu ile yazılmış şeklidir?",
+          "options": {
+            "A": "Lqr",
+            "B": "Kqr",
+            "C": "Eqr",
+            "D": "Aqr",
+            "E": "Ngr"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "~(p↔~q) ifadesi Lukasiewicz-Tarski notasyonuna göre nasıl yazılmalıdır?",
+          "options": {
+            "A": "EpNq",
+            "B": "pNq",
+            "C": "NpNq",
+            "D": "NEpNq",
+            "E": "NEpq"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Doğruluk değerleri D, Y, Y, D olan bir ifadenin değilinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Y, D, D, Y",
+            "B": "D, Y, D, D",
+            "C": "D, Y, Y, Y",
+            "D": "D, Y, Y, D",
+            "E": "D, D, D, Y"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "(p V q) gibi bir ifadede D: Doğru, Y: Yanlış, B: Belirsiz değerlerini gösterdiğinde aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "(Y V B) = B",
+            "B": "(B V B) = Y",
+            "C": "(D V D) = D",
+            "D": "(Y V Y) = Y",
+            "E": "(D V B) = D"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "p, q, r gibi üç değişkenli bir ifadenin \"tam normal biçime indirgeme yöntemi\" ile geçerli olup olmadığı denetleniyor. Denetleme sonucu \"geçersiz\" ise sonuç satırında kaç \"pqr\" sıralı üçlüsü olmalıdır?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "8",
+            "D": "5",
+            "E": "0"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2020-2021 Vize",
+      "exam_title": "Modern Mantık 2020-2021 Vize",
+      "exam_type": "vize",
+      "year": "2020-2021",
+      "question_count": 21,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi [(∼ r↔ p) → (q →∼ r)] ∨ r ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "[(D ↔ p) → (q → D)] ∨ Y",
+            "B": "[(Y ↔ p) → (q → D)] ∨ D",
+            "C": "[(Y ↔ p ) → (q → Y)] ∨ D",
+            "D": "( p → D) ∨ Y",
+            "E": "D"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "∼ (p↔∼ q) → q ifadesi için aşağıdakilerden hangisi veya hangileri doğrudur? I. geçersizdir II. geçerlidir III. tutarlıdır",
+          "options": {
+            "A": "yalnız I",
+            "B": "I ve II",
+            "C": "I ve III",
+            "D": "II",
+            "E": "III"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi [ (∼ p → p) ∧ (q →∼ p)] →∼ q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "q →∼ q",
+            "B": "[(D→ Y ) ∧ (q → D)] →∼ q",
+            "C": "[(Y→ D )∧ (q → Y)] → ∼ q",
+            "D": "∼q →∼ q",
+            "E": "( Y∧ D ) → ∼ q"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi [ (∼ q ∧ p) → (q → p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "Y",
+            "B": "[( D ∧ p) → (y → p)]",
+            "C": "p → D",
+            "D": "Y → p",
+            "E": "[( Y ∧ p) → ( D → p)]"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "\"∼ (p ↔q )\" ifadesi Lukasiewicz-Tarski Notasyonuyla yazıldığında nasıl bir yeniden yazımla karşılaşılacaktır?",
+          "options": {
+            "A": "NEpNq",
+            "B": "NEpq",
+            "C": "EpNq",
+            "D": "NpNq",
+            "E": "pNq"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "\"p, q ve r\" gibi üç değişkenli bir çıkarım \"Tam Normal Biçime İndirgeme\" yöntemiyle eşdeğerlikleri denetleniyor. Denetleme sonucu \"eşdeğerlik değil\" ise sonuç satırında en fazla kaç farklı pqr sıralı üçlüsü olabilir?",
+          "options": {
+            "A": "8",
+            "B": "7",
+            "C": "6",
+            "D": "5",
+            "E": "4"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Çelişmezlik ilkesi aşağıdaki şıklardan hangisinde doğru olarak tanımlanmıştır?",
+          "options": {
+            "A": "Bazı şeyler bazen doğru bazen yanlıştır.",
+            "B": "Bazı şeyler başka şeylere dönüşür.",
+            "C": "Bir şey ya doğrudur ya da yanlıştır.",
+            "D": "Bir şey sadece kendisidir, kendisi olmayan olamaz.",
+            "E": "Bir şey ne ise o'dur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Lukasiewicz-Tarski Notasyonunda eklemler hangi tarafa yazılır?",
+          "options": {
+            "A": "Ortaya",
+            "B": "Sağ başa",
+            "C": "Sol başa",
+            "D": "İkinci önermeden sonra",
+            "E": "İlk önermeden sonra"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "(q↔∼q) ∨ (p→ q) ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, Y, D, D",
+            "B": "Y, Y, Y, D",
+            "C": "D, D, Y, Y",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Doğruluk değerleri D, Y, Y, D olan bir ifadenin değilinin değili aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Y, Y, D, Y",
+            "B": "D, D, D, Y",
+            "C": "Y, D, D, D",
+            "D": "D, D, D, Y",
+            "E": "D, Y, Y, D"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "~p ↔ q ifadesi için aşağıdakilerden hangisi en uygundur?",
+          "options": {
+            "A": "ne geçerli ne tutarlı",
+            "B": "geçerli, tutarlı",
+            "C": "tutarsız",
+            "D": "geçerli, tutarsız",
+            "E": "geçersiz, tutarlı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi klasik mantıkta kullanılan önerme gösterimlerinden biridir?",
+          "options": {
+            "A": "SüP",
+            "B": "SiP",
+            "C": "SöP",
+            "D": "SoP",
+            "E": "SuP"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi bir önermenin kıyasta ele alınış tarzlarından biri değildir?",
+          "options": {
+            "A": "Tümel",
+            "B": "Olumlu",
+            "C": "Tikel",
+            "D": "Tüzel",
+            "E": "Olumsuz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Kategorik önermelerin gösterimleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Tümel-olumlu: SaP",
+            "B": "Tümel-olumsuz: SeP",
+            "C": "Tikel-olumlu: SıP",
+            "D": "Tikel-olumsuz: SoP",
+            "E": "Tikel-olumsuz: SuP"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "\"Kategorik bir önermenin temel unsurları ………, ……… ve …………. tır. \" önermesine sırasıyla aşağıdakilerden hangisinin gelmesi gerekir?",
+          "options": {
+            "A": "özne, yüklem, koşaç",
+            "B": "nesne, tümleç, yargı",
+            "C": "yargı, belirtili nesne, tikel",
+            "D": "tümel, mümkün, özne",
+            "E": "tikel, yüklem, belirtisiz nesne"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi ∼[ (∼p→ p)→(q→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "Y",
+            "B": "∼ ( D → Y)",
+            "C": "∼ ( Y → D )",
+            "D": "q",
+            "E": "∼ ( D → ∼ q )"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Lukasiewicz-Tarski Notasyonunun parantezsiz yazıma imkan sağlaması aşağıdakilerden hangisine imkan vermektedir?",
+          "options": {
+            "A": "Matematik işlemlerinin bilgisayar diline aktarılmasında kolaylık sağlamaktadır.",
+            "B": "Mantık işlemlerinin bilgisayar diline aktarılmasında kolaylık sağlamaktadır.",
+            "C": "Klasik Mantık tartışmalarını yeniden gündeme getirmiştir.",
+            "D": "Kıyas denetlemesini kolaylaştırmıştır.",
+            "E": "Özdeşlik ilkesini göz önünde bulundurmaktadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "[(p ∧ q) → r] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Doğru\" değeri alacak ilk önerme hangisi olmalıdır?",
+          "options": {
+            "A": "p",
+            "B": "q",
+            "C": "r",
+            "D": "s",
+            "E": "t"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Saçmaya indirgeme yöntemi ile denetlenen bir çıkarımın sonuç satırında en az bir \"yanlış\" değeri bulunuyorsa, bu ifade için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Geçerli",
+            "B": "Geçersiz",
+            "C": "Tutarlı",
+            "D": "Tutarsız",
+            "E": "Eşdeğer"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Üç öncül ve bir sonuçtan oluşan bir çıkarım doğruluk tablosu yöntemiyle denetlenmektedir. Bu çıkarımın sonuç satırı en az bir \"yanlış\" değeri içeriyorsa, söz konusu çıkarım için aşağıdakilerden hangisi söylenir?",
+          "options": {
+            "A": "Geçerli",
+            "B": "Geçersiz",
+            "C": "Tutarlı",
+            "D": "Eşdeğer",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Saçmaya indirgeme yöntemi ile denetlenen bir çıkarımın sonuç satırında en az bir \"doğru\" değeri bulunuyorsa, bu ifade için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Geçerli",
+            "B": "Geçersiz",
+            "C": "Tutarlı",
+            "D": "Tutarsız",
+            "E": "Eşdeğer"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2019-2020 Vize",
+      "exam_title": "Modern Mantık 2019-2020 Vize",
+      "exam_type": "vize",
+      "year": "2019-2020",
+      "question_count": 16,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kategorik Önermelerin gösterileri ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Sop",
+            "B": "Sop yöntemi",
+            "C": "Sop değildir",
+            "D": "Sop ilkesi",
+            "E": "Sop yaklaşımı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Lukasiewicz –Tarski notasyonunun parantezsiz yazıma imkan sağlması aşağıdakilerden hangisine imkan vermektedir?",
+          "options": {
+            "A": "Mantık işlemlerinin bilgisayar diline aktarılmasına kolaylık ilkesi",
+            "B": "Mantık işlemlerinin bilgisayar diline aktarılmasına kolaylık değildir",
+            "C": "Mantık işlemlerinin bilgisayar diline aktarılmasına kolaylık sağlamaktadır.",
+            "D": "Mantık işlemlerinin bilgisayar diline aktarılmasına kolaylık yöntemi",
+            "E": "sağlamaktadır. yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi kıyasta alınmış tarzlardan değildir?",
+          "options": {
+            "A": "Tüzel değildir",
+            "B": "Tüzel ilkesi",
+            "C": "Tüzel yöntemi",
+            "D": "Tüzel yaklaşımı",
+            "E": "Tüzel"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Saçmaya indirgeme yöntemi ile denetlenen bir çıkarımın sonuç satırında en az bir \"doğru\" değeri bulunuyorsa bu ifade için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Geçerli ( ilkesi",
+            "B": "!) yaklaşımı",
+            "C": "Geçerli ( !)",
+            "D": "Geçerli ( yöntemi",
+            "E": "Geçerli ( değildir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Saçmaya indirgeme yöntemi ile denetlenen bir çıkarımın sonuç satırında en az bir \"yanlış\" değeri bulunuyorsa bu ifade için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Geçersiz değildir",
+            "B": "Geçersiz yaklaşımı",
+            "C": "Geçersiz",
+            "D": "Geçersiz ilkesi",
+            "E": "Geçersiz yöntemi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Antik Yunan'da kullanılan ve latincesi reduction ad absurdum olan yöntem hangisidir?",
+          "options": {
+            "A": "Saçmaya indirgeme değildir",
+            "B": "Saçmaya indirgeme yöntemi",
+            "C": "Saçmaya indirgeme ilkesi",
+            "D": "yöntemi yaklaşımı",
+            "E": "Saçmaya indirgeme yöntemi seçeneği 5"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Doğrulıuk değerleri olan D Y B için aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "I ve II",
+            "B": "I, II ve III",
+            "C": "Yalnız II",
+            "D": "Yalnız I",
+            "E": "II ve III"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "∼ ( p↔∼q ) → q ifadesi için aşağıdakilerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "i ve iii",
+            "B": "i ve yöntemi",
+            "C": "i ve değildir",
+            "D": "iii yaklaşımı",
+            "E": "i ve ilkesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi ~ [ (~ p→ p) → (q →~ p)] ifadesinin quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "q değildir",
+            "B": "q yöntemi",
+            "C": "q yaklaşımı",
+            "D": "q ilkesi",
+            "E": "q"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "∼ ( p↔∼q ) → q ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, D, D, yöntemi",
+            "B": "D, D, D, değildir",
+            "C": "D, D, D, Y",
+            "D": "D, D, D, ilkesi",
+            "E": "Y yaklaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Saçmaya indirgeme yöntemi\" hangi mantık ilkesini kendisine zemin olarak kullanır?",
+          "options": {
+            "A": "Üçüncü Halin İmkansızlığı",
+            "B": "İmkansızlığı yaklaşımı",
+            "C": "Üçüncü Halin yöntemi",
+            "D": "Üçüncü Halin değildir",
+            "E": "Üçüncü Halin ilkesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Doğrulıuk değerleri olan D Y B için aşağıdaki ifadelerden A V B için hangisi yanlıştır ?",
+          "options": {
+            "A": "-D D D",
+            "B": "-D D B",
+            "C": "-D D B",
+            "D": "-Y Y Y",
+            "E": "-Y D B"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Polonyalı mantıkçı olan Jan Lukasiew,cz tarafından ortaya konan mantık sistemi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "3 değerli değildir",
+            "B": "3 değerli ilkesi",
+            "C": "3 değerli yöntemi",
+            "D": "mantık yaklaşımı",
+            "E": "3 değerli mantık"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "P V q nun LT notasyonuyla gösterimi hangisidir?",
+          "options": {
+            "A": "Apq ilkesi",
+            "B": "Apq yöntemi",
+            "C": "Apq değildir",
+            "D": "Apq yaklaşımı",
+            "E": "Apq"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "(q <-> q') V ( p – > q) önermesinin doğruluk tablosu nedir?",
+          "options": {
+            "A": "Y.D.D",
+            "B": "Y.D.D yöntemi",
+            "C": "Y.D.D yaklaşımı",
+            "D": "Y.D.D ilkesi",
+            "E": "Y.D.D değildir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdaki hangisi yanlıştır?",
+          "options": {
+            "A": "(pq) yaklaşımı",
+            "B": "( p ∧ q) = max değildir",
+            "C": "( p ∧ q) = max (pq)",
+            "D": "( p ∧ q) = max yöntemi",
+            "E": "( p ∧ q) = max ilkesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2025-2026 Final",
+      "exam_title": "Modern Mantık 2025-2026 Final",
+      "exam_type": "final",
+      "year": "2025-2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi \"iki değerli mantık\" örneklerinden değildir?",
+          "options": {
+            "A": "Odadaki sıcaklığın 20 derece olması veya olmaması",
+            "B": "Arabanın duruyor olması veya durmuyor olması",
+            "C": "Kapının kilitli olması veya olmaması",
+            "D": "Çiçeklerin çok seviliyor olması veya az seviliyor olması",
+            "E": "Işığın açık olması veya olmaması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir çıkarımın, saçmaya indirgeme yöntemi ile denetlenirken daha ilk işlemde \"doğru\" olabildiği tespit edilmişse ilgili çıkarım için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Eş değer",
+            "B": "Tutarlı",
+            "C": "Geçersiz",
+            "D": "Tutarsız",
+            "E": "Geçerli"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "~p ↔ q ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Y, Y, D, D",
+            "B": "D, Y, Y, Y",
+            "C": "D, D, D, Y",
+            "D": "D, Y, Y, D",
+            "E": "Y, D, D, Y"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "((p → q) ∨ r) ile ((p ∨ q) ∨ r) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Özdeş",
+            "C": "Tutarlı",
+            "D": "Belirsiz",
+            "E": "Tutarlı değil"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki eş değerliklerden hangisi doğrudur?",
+          "options": {
+            "A": "~∀x Fx ≡ ∃x ~Fx",
+            "B": "∀x Fx ≡ ∃x Fx",
+            "C": "~∀x Fx ≡ ∃x Fx",
+            "D": "∀x Fx ≡ ~∃x Fx",
+            "E": "~∀x Fx ≡ ∃x ~~Fx"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "∼[ ∀x (Fx→Gx) ↔ ∀y (Hy v Ty) ] ve [ [∀x (Fx ˄ Gx)∼∀y (Hy v Ty)]v [∼∀x (Fx ˄ Gx) ∀y (Hy v Ty)] ] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Tutarlı değil",
+            "B": "Belirsiz",
+            "C": "Özdeş",
+            "D": "Tutarlı",
+            "E": "Özdeş değil"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "~(p ↔ ~q) ifadesi Lukasiewicz-Tarski (Polonya) notasyonuna göre nasıl yazılmalıdır?",
+          "options": {
+            "A": "NEpq",
+            "B": "EpNq",
+            "C": "NEpNq",
+            "D": "pNq",
+            "E": "NpNq"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "(p V q) gibi bir ifadede D: Doğru, Y: Yanlış, B: Belirsiz (1/2) değerlerini gösterdiğinde aşağıdakilerden hangisi yanlıştır? (Lukasiewicz 3 Değerli Mantığı)",
+          "options": {
+            "A": "(D V B) = D",
+            "B": "(Y V B) = B",
+            "C": "(B V B) = Y",
+            "D": "(Y V Y) = Y",
+            "E": "(D V D) = D"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "∃y Ty ifadesinin (a, b, c) evrenindeki açılımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ta v Tb ^ Tc",
+            "B": "Ta → Tb → Tc",
+            "C": "Ta v Tb v Tc",
+            "D": "Ta ^ Tb v Tc",
+            "E": "Ta ^ Tb ^ Tc"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "(p → q) v (q → r) ifadesinin çözümleyici çizelgesinde kaç çatal açma işlemi yapmak gerekir?",
+          "options": {
+            "A": "5",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "4"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdaki eş değerliklerden hangisi yanlıştır?",
+          "options": {
+            "A": "(A → B) ≡ (A' v B)",
+            "B": "~(A ^ B) ≡ (A' v B')",
+            "C": "∼(A ∨ B) = (A' ∧ B')",
+            "D": "(A → B') = (A ∨ B)",
+            "E": "(A ↔ B) = (AB ∨ A'B')"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "\"Niceleyicinin eş değerliği\" kurallarına göre aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "∃xFx = ∀xFx",
+            "B": "~∃xFx = ∀xFx",
+            "C": "∃x~Fx = ∀x~Fx",
+            "D": "∃xFx = ∀x~Fx",
+            "E": "~∃xFx = ∀x~Fx"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "\"Bütün insanlar konuşur.\" önermesinin niceleme mantığındaki gösterimi, sembolleştirmeye ilişkin uygulama kuralları dikkate alındığında aşağıdakilerden hangisi olmalıdır?",
+          "options": {
+            "A": "∀x (İx → ~Kx)",
+            "B": "∀x (İx → Kx)",
+            "C": "~∀x (İx → Kx)",
+            "D": "~∀x (~İx → ~Kx)",
+            "E": "∀x (~İx → Kx)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi modal mantığın özellikle yapay zekâ alanında kullanılmasının sebebidir?",
+          "options": {
+            "A": "Modal mantık sistemlerinin güçlü formel diller sayesinde çok daha ayrıntılı, nesnel ve geniş ölçüde ele alınır hale gelmesi",
+            "B": "Modal mantığın diğer mantık sistemleri gibi içeriksiz ve sadece biçimsel bir yapıya sahip olması",
+            "C": "Modal mantık sistemlerinin modaliteler dışında kalan önermelerle ilgilenmiyor olması",
+            "D": "Modal mantık önermelerinin günlük konuşma dilinden kopuk bir yapıya sahip olması",
+            "E": "Aristoteles'in modal mantık çalışmalarının Orta Çağ da yeniden okunması"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi [(q ↔ ~r) v (p → r)] → r ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(D ↔ Y) v (D → Y)] → Y",
+            "B": "D",
+            "C": "[(q ↔ Y) v (p → D)] → Y",
+            "D": "[(q ↔ Y) v (p → Y)] → D",
+            "E": "[(q ↔ Y) v (D → Y)] → Y"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "∃y(Fy ∧ Gy) ifadesinin (a, b) evrenindeki açılımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "(Fa ∨ Ga) ∨ (Fb ∨ Gb)",
+            "B": "(Fa ∨ Gb)",
+            "C": "(Fa ∧ Gb)",
+            "D": "(Fa ∨ Ga) ∧ (Fb ∨ Gb)",
+            "E": "(Fa ∧ Ga) ∨ (Fb ∧ Gb)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "((p → q) v r) ile ((p' v q) v r) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Tutarlı",
+            "B": "Özdeş",
+            "C": "Belirsiz",
+            "D": "Tutarlı değil",
+            "E": "Özdeş değil"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "[ ∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ve ∼[ ∃x (Ax→Bx) ∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Geçerli",
+            "C": "Özdeş",
+            "D": "Belirsiz",
+            "E": "Tutarlı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Tam yansımalı bağıntının gösterimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "∃x Bxx",
+            "B": "∀x Bxx",
+            "C": "~∀x Bxx",
+            "D": "∀x ~Bxx",
+            "E": "~∃x Bxx"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki eşdeğerliklerden hangisi doğrudur?",
+          "options": {
+            "A": "(A ↔ B) = (A → B') ∧ (B → A')",
+            "B": "(A ↔ B) = (A' → B) ∧ (B' → A)",
+            "C": "(A ↔ B) = (A → B) ∧ (B → A)",
+            "D": "(A ↔ B) = (A'' → B) ∧ (B → A')",
+            "E": "(A ↔ B) = (A → B') ∧ (B' → A)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2024-2025 Final",
+      "exam_title": "Modern Mantık 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "((p → q) ∨ r) ile ((p' ∨ q) ∨ r) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Tutarlı değil",
+            "C": "Tutarlı",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "∼(p↔∼q) → q ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Y, D, D, D",
+            "B": "Y, Y, D, Y",
+            "C": "D, D, D, D",
+            "D": "D, Y, Y, D",
+            "E": "D, D, D, Y"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "\"Bazı insanlar bütün pastaları yediler.\" önermesinin niceleme mantığındaki gösterimi, sembolleştirmeye ilişkin uygulama kuralları dikkate alındığında aşağıdakilerden hangisi olmalıdır?",
+          "options": {
+            "A": "∃x (∼İx ∧ ∀y (Py → ∼Yxy))",
+            "B": "∃x (İx ∧ ∀y (Py → Yxy))",
+            "C": "∃x (∼İx ∧ ∀y (Py → Yxy))",
+            "D": "∀x (İx ∧ ∃y (Py → Yxy))",
+            "E": "∃x (İx → ∀y (Py ∧ Yxy))"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "\"Ayşe'nin acıkmış olması mümkündür ve yemek yemesi zorunludur.\" ifadesi aşağıdakilerden hangisinde doğru olarak gösterilmiştir?",
+          "options": {
+            "A": "◊q∧∽q",
+            "B": "◊p∨◊q",
+            "C": "◊p∧∽□p",
+            "D": "◊p∧□q",
+            "E": "◊p∨□q"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki eş değerliklerden hangisi yanlıştır?",
+          "options": {
+            "A": "(A → B) = (A' ∨ B)",
+            "B": "(A → B') = (A ∨ B)",
+            "C": "(A ↔ B) = (AB ∨ A'B')",
+            "D": "∼(A ∨ B) = (A' ∧ B')",
+            "E": "∼(A ∧ B) = (A' ∨ B')"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Lukasiewicz-Tarski Notasyonu, Lukasiewicz ve Tarski'nin mensubu bulundukları mantık okuluna izafeten, ……… ya da ………. notasyonu olarak da adlandırılmaktadır. Yukarıdaki ifadede boş bırakılan yerlere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Varşova - Polonya",
+            "B": "Paris - Fransa",
+            "C": "Ankara - Türkiye",
+            "D": "Roma - İtalya",
+            "E": "Moskova - Rusya"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "∃y(Fy ∧ Gy) (a,b) evrenindeki açılımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "(Fa ∧ Ga) ∨ (Fb ∧ Gb)",
+            "B": "(Fa ∨ Ga) ∨ (Fb ∨ Gb)",
+            "C": "(Fa ∨ Ga) ∧ (Fb ∨ Gb)",
+            "D": "(Fa ∨ Gb)",
+            "E": "(Fa ∧ Gb)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Saçmaya İndirgeme Yöntemiyle bir ifadenin yanlışlanabilirliği denetlenmektedir. Buna göre [(∼p ∨ p) → q] ifadesinin yanlışlanabilmesi, q önermesi hangi doğruluk değerini aldığında mümkün olur?",
+          "options": {
+            "A": "Geçersiz",
+            "B": "Doğru",
+            "C": "Yanlış",
+            "D": "Ne yanlış ne doğru",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "(p → q) ∧ (q → r) ifadesinin çözümleyici çizelgesinde çatal açma işlemi kaç defa yapılmalıdır?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "5",
+            "E": "3"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "İnsan: İ, Ölümlü: Ö ile gösterildiğinde \"Bütün insanlar ölümlüdür.\" önermesinin sembolik gösterimi aşağıdakilerden hangisi olur?",
+          "options": {
+            "A": "∀x(İx → ∼Öx)",
+            "B": "∃x(∼İx → Öx)",
+            "C": "∀x(İx → Öx)",
+            "D": "∃x(İx → Öx)",
+            "E": "∼∀x(İx → Öx)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "∀x􏰀x önermesinin çelişiği yani ∼∀x􏰀x önermesinin eş değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "∃x𝛹x",
+            "B": "∃x∼x",
+            "C": "∃x𝛹xx",
+            "D": "∃x∼𝛹x",
+            "E": "∀xx"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "∼[ ∀x (Fx→Gx) ↔ ∀y (Hy v Ty) ] ve [ [∀x (Fx ˄ Gx)∼∀y (Hy v Ty)]v [∼∀x (Fx ˄ Gx) ∀y (Hy v Ty)] ] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Belirsiz",
+            "C": "Tutarlı değil",
+            "D": "Özdeş",
+            "E": "Tutarlı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "[∀x (Px →Fx) → ∼∀y (Cy → Dy)] ve [∼∀x (Px →Fx) v ∼∀y (Cy → Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Özdeş",
+            "C": "Tutarsız",
+            "D": "Belirsiz",
+            "E": "Geçerli değil"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "\"Karpuz şeftali kadar lezzetlidir\" önermesindeki \"kadar lezzetli olma\" bağıntısı, tanıma göre, aşağıdaki özelliklerden hangisini bir şeyin kendisiyle de gerçekleştirebileceği bir bağıntı olması sebebiyle taşımaktadır?",
+          "options": {
+            "A": "Yansıma",
+            "B": "Bakışım",
+            "C": "Kısmi yansıma",
+            "D": "Kısmi bakışım",
+            "E": "Geçişlilik"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki eş değerliklerden hangisi doğrudur?",
+          "options": {
+            "A": "(A → B) = (A ∨ B)",
+            "B": "(A → B) = (A ∨ B')",
+            "C": "(A → B) = (A' ∨ B)",
+            "D": "(A → B) = (A ∧ B)",
+            "E": "(A → B) = (A' ∧ B)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi (x ∨ y) ifadesinin üç değerli mantıktaki eş değeridir?",
+          "options": {
+            "A": "max (x, y)",
+            "B": "max (x, y) - 1",
+            "C": "min (x, y)",
+            "D": "min (1 + x + y)",
+            "E": "min (x, y) + 2"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi ∼[ (∼p→ p)→(q→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "∼[ D→(q→Y)]",
+            "B": "q",
+            "C": "∼[ (Y→ D)→(q→Y)]",
+            "D": "∼( D→ ∼q)",
+            "E": "p"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıda verilen eş değerliklerden hangisi doğrudur?",
+          "options": {
+            "A": "NMp=NMNNp",
+            "B": "NCNpq=NCpq",
+            "C": "ANqNp=ANqp",
+            "D": "NMpNp=NNMpNp",
+            "E": "NMNpq=NMpq"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "∃x∼Fx ifadesinin (a, b, c) evrenindeki açılımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "∼Fa∨∼Fb∧∼Fc",
+            "B": "∼Fa∧Fb∨∼Fc",
+            "C": "∼Fa∨∼Fb∨∼Fc",
+            "D": "∼Fa∧∼Fb∧∼Fc",
+            "E": "∼Fa → Fb → ∼Fc"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2023-2024 Final",
+      "exam_title": "Modern Mantık 2023-2024 Final",
+      "exam_type": "final",
+      "year": "2023-2024",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Karşıtlık karesi göz önünde bulundurulduğunda \"□p\" gibi bir ifadenin karşıtının altığı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "∼◊p",
+            "B": "◊p",
+            "C": "◊□p",
+            "D": "p",
+            "E": "∼□p"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "(p → q) gibi bir ifadede D: Doğru, Y: Yanlış, B: Belirsiz değerlerini gösterdiğinde aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "(Y → B) = D",
+            "B": "(B → D) = Y",
+            "C": "(Y → D) = D",
+            "D": "(D → B) = B",
+            "E": "(D → Y) = Y"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki eş değerliklerden hangisi yanlıştır?",
+          "options": {
+            "A": "∼(A ∨ B) = (A' ∧ B')",
+            "B": "(A ↔ B) = (AB ∨ A'B')",
+            "C": "∼(A ↔ B) = (AB' ∨ AB')",
+            "D": "∼(A ∧ B) = (A' ∨ B')",
+            "E": "(A → B) = (A' ∨ B)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "((p → q) ∨ r) ile ((p' ∨ q) ∨ r) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş",
+            "B": "Tutarlı",
+            "C": "Tutarlı değil",
+            "D": "Belirsiz",
+            "E": "Özdeş değil"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki eş değerliklerden hangisi doğrudur?",
+          "options": {
+            "A": "∼∀xFx = ∃x∼∼Fx",
+            "B": "∀xFx = ∃xFx",
+            "C": "∼∀xFx = ∃x∼Fx",
+            "D": "∀xFx = ∼∃xFx",
+            "E": "∼∼∀xFx = ∃xFx"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "I. Tutarlıdır. II. Geçerlidir. III. Geçersizdir. (q ↔ ∼q)∨(p →q) ifadesi için yukarıdakilerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "I ve III",
+            "B": "Yalnız II",
+            "C": "I ve II",
+            "D": "Yalnız I",
+            "E": "Yalnız III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "\"Bütün insanlar konuşur.\" önermesinin niceleme mantığındaki gösterimi, sembolleştirmeye ilişkin uygulama kuralları dikkate alındığında aşağıdakilerden hangisi olmalıdır?",
+          "options": {
+            "A": "∼∀x (∼İx → ∼Kx)",
+            "B": "∀x (İx → Kx)",
+            "C": "∼∀x (İx → Kx)",
+            "D": "∀x (İx → ∼Kx)",
+            "E": "∀x (∼İx → Kx)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir çıkarımın saçmaya indirgeme yöntemi ile denetlenirken daha ilk işlemde \"yanlış\" olabildiği tespit edilmişse ilgili çıkarım için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Geçerli",
+            "B": "Eş değer",
+            "C": "Tutarsız",
+            "D": "Tutarlı",
+            "E": "Geçersiz"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "∼[∼∀y (Cy v Dy) v ∀x(Cx v Dx)] ve [∀y (Cy v Dy) ∧ ∼∀x(Cx v Dx)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Geçerli değil",
+            "B": "Özdeş",
+            "C": "Özdeş değil",
+            "D": "Belirsiz",
+            "E": "Geçerli"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "∃yTy ifadesinin (a, b, c) evrenindeki açılımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ta → Tb → Tc",
+            "B": "Ta ∧ Tb ∨ Tc",
+            "C": "Ta ∨ Tb ∧ Tc",
+            "D": "Ta ∨ Tb ∨ Tc",
+            "E": "Ta ∧ Tb ∧ Tc"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "\"p\" gibi bir önermenin doğruluk değerinin \"0\" olması durumunda \"şp\" (şüpheli) önermesinin doğruluk değeri aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": "2/3",
+            "B": "1",
+            "C": "3/2",
+            "D": "1/2",
+            "E": "0"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangileri çelişiktir?",
+          "options": {
+            "A": "∃x~ Fx ve ∃x~ Fx",
+            "B": "∃x Fx ve ∃x Fx",
+            "C": "∃x ~Fx ve ~∃x ~Fx",
+            "D": "~∃x Fx ve ~∃x Fx",
+            "E": "~∀x Fx ve ~∀x Fx"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bağıntılar mantığına göre aşağıdaki tanımlardan hangisi doğrudur?",
+          "options": {
+            "A": "Herhangi bir bağıntının yansımalı olması mümkün ama zorunlu değilse bu bağıntı yansımasız bağıntı adını alır.",
+            "B": "Herhangi bir bağıntının yansımasız olması mümkün ama zorunlu değilse bu bağıntı kısmi yansımasız bağıntı adını alır.",
+            "C": "Herhangi bir bağıntının yansımalı olması mümkün ama zorunlu değilse bu bağıntı kısmi yansımasız bağıntı adını alır.",
+            "D": "Herhangi bir bağıntının yansımasız olması mümkün ama zorunlu değilse bu bağıntı yansımasız bağıntı adını alır.",
+            "E": "Herhangi bir bağıntının yansımasız olması zorunlu ama mümkün değilse bu bağıntı kısmi yansımasız bağıntı adını alır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "\"Bazı insanlar naziktir.\" önermesinin niceleme mantığındaki gösterimi, sembolleştirmeye ilişkin uygulama kuralları dikkate alındığında aşağıdakilerden hangisi olmalıdır?",
+          "options": {
+            "A": "∃x (İx ∧ Nx)",
+            "B": "∃x (İx ∧ ∼Nx)",
+            "C": "∃x (∼İx ∧ Nx)",
+            "D": "∼∃x (İx ∧ Nx)",
+            "E": "∼∃x (∼İx ∧ ∼Nx)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi [(p↔ ∼r)∨(p →r)]→[ r∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(Y↔ ∼r)∨(Y →r)]→[ r∧(Y↔q)]",
+            "B": "[(Y↔ ∼r)∨(D →r)]→[ r∧(D↔q)]",
+            "C": "[(D↔ ∼r)∨(D →r)]→[r∧(D↔q)]",
+            "D": "[(Y↔ ∼r)∨(Y →r)]→[ r∧(D↔q)]",
+            "E": "[(Y↔ ∼r)∨(D →r)]→[ q]"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "∀yGy ifadesinin (a, b, c) evrenindeki açılımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ga → Gb → Gc",
+            "B": "Ga ∨ Gb ∧ Gc",
+            "C": "Ga ∧ Gb ∨ Gc",
+            "D": "Ga ∨ Gb ∨ Gc",
+            "E": "Ga ∧ Gb ∧ Gc"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Çok değerli mantık kuralları göz önünde bulundurulduğunda aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "\"p veya q\" gibi bir ifadede tarafların ikisi de 0 değerini almışsa sonuç 1 olur.",
+            "B": "\"p ve q\" gibi bir ifadede tarafların ikisi de 0 değerini almışsa sonuç 1 olur.",
+            "C": "\"p veya q\" gibi bir ifadede tarafların ikisi de 1 değerini almışsa sonuç 1 olur.",
+            "D": "\"p ve q\" gibi bir ifadede taraflardan en az birisi 1 değerini almışsa sonuç kesinlikle 1 olur.",
+            "E": "\"p ve q\" gibi bir ifadede tarafların ikisi de 1 değerini almışsa sonuç 0 olur."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2022-2023 Final",
+      "exam_title": "Modern Mantık 2022-2023 Final",
+      "exam_type": "final",
+      "year": "2022-2023",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "I. Tutarlıdır. II. Geçerlidir. III. Geçersizdir. (q ↔ ∼q)∨(p →q) ifadesi için yukarıdakilerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "I ve III",
+            "C": "Yalnız II",
+            "D": "I ve II",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "∼[ ∃x (Ax→Bx) → ∀y (Cy v Dy)] ve [ ∼∃x (Ax→Bx)∼∀y (Cy v Dy) ] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş",
+            "B": "Tutarlı değil",
+            "C": "Tutarlı",
+            "D": "Geçersiz",
+            "E": "Özdeş değil"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "∀y(Ay→ By) ∀y (Cy v Dy) ve [∼∀y (Cy v Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş",
+            "B": "Belirsiz",
+            "C": "Özdeş değil",
+            "D": "Geçerli",
+            "E": "Geçersiz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "\"Niceleyicinin eş değerliği\" kurallarına göre aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "~∃x Fx = ∀x ~Fx",
+            "B": "~∃x Fx = ∀x Fx",
+            "C": "∃x Fx = ∀x ~Fx",
+            "D": "∃x ~ Fx = ∀x ~Fx",
+            "E": "∃x Fx = ∀x Fx"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi [(∼q↔ ∼r)∨(q→r)]→[ q∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(∼D↔ ∼r)∨(D→r)]→[ Y∧(∼ p↔q)]",
+            "B": "[(∼D↔ ∼r)∨(Y→r)]→[D∧(∼ D↔q)]",
+            "C": "[(∼Y↔ ∼r)∨(Y→r)]→[ Y∧(∼ p↔Y)]",
+            "D": "[(∼Y↔ ∼r)∨(Y→r)]→[ D∧(∼ p↔D)]",
+            "E": "[(∼Y↔ ∼r)∨(Y→r)]→[ Y∧(∼ p↔D)]"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "∼[∀y (Cy → Dy)→ ∼∀y (Cy .Dy)] ve [∀y (Cy → Dy) . ∀y (Cy .Dy)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "Tutarlı",
+            "B": "Belirsiz",
+            "C": "Özdeş değil",
+            "D": "Geçerli değil",
+            "E": "Özdeş"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "(∀x Fx ∀y Hy) ve (∃z Hz ∀x Hx ∃y Fy) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Geçerli değil",
+            "B": "Özdeş",
+            "C": "Belirsiz",
+            "D": "Özdeş değil",
+            "E": "Geçerli"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi [(∼q→ p)↔(r→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(∼q→ p)↔(D→∼p)]",
+            "B": "[(∼q→ Y)↔(r→Y)]",
+            "C": "[(∼q→ Y)↔(r→∼D)]",
+            "D": "[(∼q→ D)↔(r→D)]",
+            "E": "[(∼q→ D)↔(r→∼Y)]"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi klasik mantıkta kullanılan önerme gösterimlerinden biridir?",
+          "options": {
+            "A": "SuP",
+            "B": "SoP",
+            "C": "SiP",
+            "D": "SöP",
+            "E": "SüP"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "D: Doğru, Y: Yanlış, B: Belirsiz değerleri için yukarıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "2",
+            "B": "5",
+            "C": "3",
+            "D": "1",
+            "E": "4"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Çelişmezlik ilkesi aşağıdaki seçeneklerden hangisinde doğru olarak tanımlanmıştır?",
+          "options": {
+            "A": "Bir şey ya doğrudur ya da yanlıştır.",
+            "B": "Bir şey sadece kendisidir, kendisi olmayan olamaz.",
+            "C": "Bazı şeyler bazen doğru bazen yanlıştır.",
+            "D": "Bir şey ne ise o'dur.",
+            "E": "Bazı şeyler başka şeylere dönüşür."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "A ~ A I. D Y II. B Y III. Y D D: Doğru, Y: Yanlış, B: Belirsiz değerleri için yukarıdakilerden hangisi veya hangileri yanlıştır?",
+          "options": {
+            "A": "I ve II",
+            "B": "Yalnız III",
+            "C": "Yalnız II",
+            "D": "Yalnız I",
+            "E": "II ve III"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "[∀x(Cx .Dx)→ ∼∀x (Cx .Dx)] ve [∼∀x(Cx .Dx) v ∼∀x (Cx .Dx)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Geçerli",
+            "B": "Geçerli değil",
+            "C": "Özdeş",
+            "D": "Belirsiz",
+            "E": "Özdeş değil"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi modal mantığın özellikle yapay zekâ alanında kullanılmasının sebebidir?",
+          "options": {
+            "A": "Modal mantığın diğer mantık sistemleri gibi içeriksiz ve sadece biçimsel bir yapıya sahip olması",
+            "B": "Modal mantık sistemlerinin modaliteler dışında kalan önermelerle ilgilenmiyor olması",
+            "C": "Modal mantık önermelerinin günlük konuşma dilinden kopuk bir yapıya sahip olması",
+            "D": "Modal mantık sistemlerinin güçlü formel diller sayesinde çok daha ayrıntılı, nesnel ve geniş ölçüde ele alınır hâle gelmesi",
+            "E": "Aristoteles'in modal mantık çalışmalarının Orta Çağ'da yeniden okunması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "∼[∀x(Cx .Dx)→ ∼∀x (Cx .Dx)] ve [∀x(Cx .Dx) . ∀x (Cx .Dx)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Geçerli",
+            "C": "Tutarlı",
+            "D": "Geçerli değil",
+            "E": "Özdeş"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "[ ∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ve ∼[ ∃x (Ax→Bx) ∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Tutarlı",
+            "B": "Özdeş",
+            "C": "Belirsiz",
+            "D": "Özdeş değil",
+            "E": "Geçerli"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "∼[ ∃x (Ax→Bx) ∀y (Cy → Dy)]→∼∀x (Fx→Gx) ve [ ∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Geçerli",
+            "C": "Tutarlı",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi \"iki değerli mantık\" örneklerinden değildir?",
+          "options": {
+            "A": "Odadaki sıcaklığın 20 derece olması veya olmaması",
+            "B": "Işığın açık olması veya olmaması",
+            "C": "Arabanın duruyor olması veya durmuyor olması (hareket etmesi)",
+            "D": "Kapının kilitli olması veya olmaması",
+            "E": "Çiçeklerin çok seviliyor olması veya az seviliyor olması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "[∀x(Cx↔Dx)↔ ∼∀y(Cy v Dy)] ve [∀x(Cx .Dx)∼∀y (Cy ↔ Dy)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Tutarlı",
+            "C": "Geçerli değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantik 2022-2023 Butunleme",
+      "exam_title": "Modern Mantik 2022-2023 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2022-2023",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "∼[∼∀y (Cy v Dy) v ∀x(Cx v Dx)] ve [∀y (Cy v Dy) . ∼∀x(Cx v Dx)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Belirsiz",
+            "C": "Geçerli",
+            "D": "Özdeş",
+            "E": "Geçerli değil"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "[∀y (Cy .Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z (Cz v Dz)↔ ∀y (Cy .Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş",
+            "B": "Özdeş değil",
+            "C": "Geçerli",
+            "D": "Geçerli değil",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi modaliteler kapsamında ele alınmaz?",
+          "options": {
+            "A": "İmkânlı",
+            "B": "İmkânsız",
+            "C": "Zorunlu",
+            "D": "Olumsal",
+            "E": "Pozitif"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "[∀z(Cz v Dz) ∼∀y (Cy v Dy)] ve∼[∀z(Cz v Dz) v ∀y (Cy Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Geçerli",
+            "C": "Belirsiz",
+            "D": "Özdeş",
+            "E": "Geçerli değil"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi [(∼r↔ p)→(q→∼r)]∨r ifadesinin Quine Yöntemi ile çözümü sırasındaki aşamalardan biri değildir?",
+          "options": {
+            "A": "(p→D)∨Y",
+            "B": "[(Y↔ p)→(q→D)]∨D",
+            "C": "(∼ p→ ∼q)]∨D",
+            "D": "D∨Y",
+            "E": "D"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "∼[Ax→ ∼∀y (Cy v Dy)] ve [∼Ax∼ ∀y (Cy Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş değil",
+            "B": "Geçersiz",
+            "C": "Geçerli",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangileri çelişiktir?",
+          "options": {
+            "A": "∀x Fx ve ~∃x ~Fx",
+            "B": "∃x Fx ve ~∀x ~ Fx",
+            "C": "∃x~ Fx ve ∃x~ Fx",
+            "D": "~∃x Fx ve ∃x Fx",
+            "E": "∃x~ Fx ve ~∀x Fx"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Çok değerli mantık kuralları göz önünde bulundurulduğunda aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "\"p ve q\" gibi bir ifadede tarafların ikisi de 0 değerini almışsa sonuç 1 olur.",
+            "B": "\"p veya q\" gibi bir ifadede tarafların ikisi de 1 değerini almışsa sonuç 1 olur.",
+            "C": "\"p ve q\" gibi bir ifadede taraflardan en az birisi 1 değerini almışsa sonuç kesinlikle 1 olur.",
+            "D": "\"p veya q\" gibi bir ifadede tarafların ikisi de 0 değerini almışsa sonuç 1 olur.",
+            "E": "\"p ve q\" gibi bir ifadede tarafların ikisi de 1 değerini almışsa sonuç 0 olur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi çelişiktir?",
+          "options": {
+            "A": "∀x Fx ve ∀x Fx",
+            "B": "~∀x Fx ve ~∀x Fx",
+            "C": "∀x ~ Fx ve ∀x~ Fx",
+            "D": "~ ∀x~ Fx ve ~∀x ~ Fx",
+            "E": "∀x Fx ve ~∀x Fx"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Sonuçta mantık bilimi sayesinde yeni yapay diller kullanarak doğru düşüncenin ….. sınırları da genişletilecektir.\" Yukarıdaki boşluğu dolduracak en uygun ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "iletişim",
+            "B": "denetlenebilirlik",
+            "C": "ifade",
+            "D": "sezgisellik",
+            "E": "betimlenebilirlik"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "∼[ ∃x (Ax→Bx) → ∀y (Cy v Dy) ] ve [ ∼∀x (Ax→Bx)∼∀y (Cy v Dy) ] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Tutarlı değil",
+            "B": "Özdeş değil",
+            "C": "Tutarlı",
+            "D": "Belirsiz",
+            "E": "Özdeş"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Doğruluk değerleri D, Y, Y, D olan bir ifadenin değilinin değilinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D, D, D, Y",
+            "B": "Y, Y, D, Y",
+            "C": "D, Y, Y, D",
+            "D": "D, D, Y, D",
+            "E": "Y, D, D, D"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "[Ax ∀y (Cy v Dy)] ve∼[Ax→ ∼∀y (Cy v Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Geçerli değil",
+            "B": "Geçerli",
+            "C": "Özdeş",
+            "D": "Özdeş değil",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi yalın bir önermedir?",
+          "options": {
+            "A": "Ayşe'nin finalden yüksek not alması muhtemeldir.",
+            "B": "Zaman ve tarihin birbirinden farklı konuları içeren kavramlar olması mümkün değildir.",
+            "C": "Kedi kanatlıdır.",
+            "D": "Yüksekten bırakılan bir cismin düşmesi zorunludur.",
+            "E": "Ahmet'in Tuğba'yı satrançta yenmesi mümkündür."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Çok değerli mantık kuralları göz önünde bulundurulduğunda aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "p → q = min⁡ [1, (1 – p) + q ]",
+            "B": "p ∨ q = max⁡ ( p , q)",
+            "C": "p ∧ q = min ⁡( p , q)",
+            "D": "∼ p = 1 - p",
+            "E": "p ∨ q = min ( p )"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi [(∼q↔ ∼r)→(q→r)] ifadesinin Quine Yöntemi ile çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "∼r→D",
+            "B": "[(D↔ ∼r)→(D→r)]",
+            "C": "Y",
+            "D": "r→Y",
+            "E": "q→Y"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "∼∃y(Ay→ By)(Ax→Bx)∀y (Cy v Dy) ve [∀x (Cx v Dx) ∼∀y (Cy v Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Özdeş",
+            "B": "Geçersiz",
+            "C": "Geçerli",
+            "D": "Özdeş değil",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

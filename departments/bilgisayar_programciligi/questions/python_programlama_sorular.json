@@ -1,0 +1,2464 @@
+{
+  "course": "Python Programlama",
+  "lesson_code": "PYTHON_PROGRAMLAMA",
+  "exam_count": 7,
+  "exams": [
+    {
+      "title": "Python Programlama 2025-2026 Vize",
+      "exam_title": "Python Programlama 2025-2026 Vize",
+      "exam_type": "vize",
+      "year": "2025-2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Python_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıdaki Python kod bloğu çalıştırıldığında aşağıdaki seçeneklerden hangisi döner?",
+          "options": {
+            "A": "Geçer!",
+            "B": "45",
+            "C": "FF",
+            "D": "85",
+            "E": "20"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi Python kodlarının üzerine yazıldığı bir dosya (betik/script dosyası) olabilir?",
+          "options": {
+            "A": "vize.exe",
+            "B": "vize.r",
+            "C": "vize.py",
+            "D": "vize.ipython",
+            "E": "vize.python"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen Python kod bloğu çalıştırıldığında z değişkeninin aldığı değer, aşağıdaki seçeneklerden hangisinde a değişkeninin son değerine eşittir?",
+          "options": {
+            "A": "a = 20, b = 10, a *= b",
+            "B": "a = 1200, b = 30, a %= b",
+            "C": "a = 150, b = 5, a -= b",
+            "D": "a = 100, b = 60, a += b",
+            "E": "a = 40, b = 2, a **= b"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2025_2026_vize_soru_3.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2025_2026_vize_soru_3.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2025_2026_vize_soru_3.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki ekran görüntüsünde yer alan metnin \"çoklu yorum satırı\"na dönüştürülebilmesi için aşağıdaki seçeneklerden hangisi kullanılabilir?",
+          "options": {
+            "A": "Yalnızca 7. satıra (üç adet tırnak işareti) eklenmelidir.",
+            "B": "8. ve 10. satırlara # (bir adet diyez işareti) eklenmelidir.",
+            "C": "7. ve 11. satırlara # (bir adet diyez işareti) eklenmelidir.",
+            "D": "7. ve 11. satırlara \" (üç adet tırnak işareti) eklenmelidir.\"",
+            "E": "8. satıra # (bir adet diyez işareti) eklenmelidir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir yazılım şirketindeki programcı aynı anda iki farklı Python projesinde görev almaktadır; ancak görev aldığı projelerin biri NumPy'ın 1.10 diğeri ise 1.14 versiyonu ile sorunsuz çalışmaktadır. Bu durumda aşağıdakilerden hangisi programcıya en uygun tavsiye olacaktır?",
+          "options": {
+            "A": "NumPy'ın eski versiyonunu gerektiren projenin iptal edilmesi.",
+            "B": "NumPy'ın yeniden yüklenmesi.",
+            "C": "NumPy'ın yeni versiyonunu gerektiren projenin iptal edilmesi.",
+            "D": "Projeler için farklı bütünleşik geliştirme ortamları kullanılması.",
+            "E": "Projeler için farklı sanal ortamların (Virtual Environment) kullanılması."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Windows'ta CMD ekranı üzerinden Python kodlama gerçekleştirebilmek için programcı aşağıdaki komutlardan hangisini yazmalıdır?",
+          "options": {
+            "A": "py-enter",
+            "B": "python",
+            "C": "cd python",
+            "D": "get python",
+            "E": ".. python"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi Python'da hatalı bir değişken tanımlamasıdır?",
+          "options": {
+            "A": "zeki = \"zeki\"",
+            "B": "tur_han = 50",
+            "C": "elif = \"elif\"",
+            "D": "ilkim = \"1\"",
+            "E": "ECEM = \"ecem\""
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "metin = \"Kırk kırık küp\" olarak veriliyor. Buna göre aşağıdaki kod satırı çalıştırıldığında x'in değeri kaç olur? x = len(metin) – metin.find(\"k\", 0, len(metin))",
+          "options": {
+            "A": "10",
+            "B": "11",
+            "C": "0",
+            "D": "14",
+            "E": "4"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi Python'da koşul ifadeleri ile ilgili bir terim değildir?",
+          "options": {
+            "A": "if",
+            "B": "elif",
+            "C": "match-case",
+            "D": "else",
+            "E": "for"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıdaki Python kod bloğu çalıştırıldığında aşağıdaki seçeneklerden hangisi döndürülür?",
+          "options": {
+            "A": "['2', '4', '6', '8']",
+            "B": "['8', '6', '4', '2']",
+            "C": "['1', '3', '5', '7']",
+            "D": "['1', '2', '3', '4', '5', '6', '7', '8']",
+            "E": "[]"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "sayi = 50 print(sayi % 3) if sayi % 3 != 0 else print(\"0\") Yukarıda verilen kod bloğu çalıştırıldığında aşağıda verilen seçeneklerden hangisi döndürülür?",
+          "options": {
+            "A": "16",
+            "B": "50",
+            "C": "0",
+            "D": "2",
+            "E": "3"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "A=[3,5,7,9,11] veriliyor. Listenin ilk elemanı olarak 1'in eklenebilmesi için aşağıdaki seçeneklerden hangisi çalıştırılmalıdır?",
+          "options": {
+            "A": "A.insert(0, 1)",
+            "B": "A.insert(1)",
+            "C": "A.append(1)",
+            "D": "A.insert(1,0)",
+            "E": "A.append(1,0)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "a, b, c = 5.0, True, 20 Yukarıda verilenlere göre aşağıdakilerden hangisinde s bir tam sayıdır (int)?",
+          "options": {
+            "A": "s = a + b",
+            "B": "s = a + c**2",
+            "C": "s = 2.0 * (c >= a)",
+            "D": "s = c // 3 - a",
+            "E": "s = 2 * (c > a)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Yukarıda verilenlere göre odeme değişkeninin son değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "90",
+            "B": "50",
+            "C": "110",
+            "D": "0",
+            "E": "100"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "x = (0,1,2,3) veriliyor. Buna göre aşağıdaki kod satırı çalıştırıldığında hangi seçenek döner? x[2] = 5",
+          "options": {
+            "A": "5, 2 ile 3'ün arasına eklenir.",
+            "B": "x'te 1 yerine 5 atanır.",
+            "C": "x'te 2 yerine 5 atanır.",
+            "D": "x, veri yapısı gereği eleman atanması işlemine izin vermez, hata mesajı döndürülür.",
+            "E": "5, 1 ile 2'nin arasında eklenir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "a1 = [1,2,3] a2 = (1,2,3) a3 = {1,2,3} Yukarıda verilen Python nesnelerinden hangisi ya da hangilerinde 2 elemanı yerine 5 atanabilir?",
+          "options": {
+            "A": "al ve a2",
+            "B": "al, a2 ve a3",
+            "C": "Yalnızca a1",
+            "D": "Yalnızca a3",
+            "E": "a2 ve a3"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "I. PyCharm II. Spyder III. IDLE IV. Jupyter Notebook V. Saturn Yukarıdakilerden kaç tanesi Python geliştirme ortamlarındandır?",
+          "options": {
+            "A": "5",
+            "B": "3",
+            "C": "4",
+            "D": "1",
+            "E": "2"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıda verilen kod satırlarına göre aşağıdaki seçeneklerden hangisi gerçekleşir?",
+          "options": {
+            "A": "Kullanıcıdan bir sayı alınmak istenmektedir, ancak input() fonksiyonundan geri dönen değer için veri tipi dönüşümü yapılmadığından ikinci satırdaki kod çalıştırıldığında hata mesajı döndürülür.",
+            "B": "Ekrana 0 yazdırılır.",
+            "C": "x'e \"Lütfen bir sayı giriniz:\" değeri atanır. Bu nedenle de x+5 kod satırı çalışmaz, hata mesajı döndürülür.",
+            "D": "Kullanıcıdan bir sayı alınır ve x değişkenine atanır. Ardından kullanıcının girdiği sayıya 5 eklenerek ekrana yazdırılır.",
+            "E": "Ekrana 5 yazdırılır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıdaki şekilde çerçeve içine alınmış Spyder bölmesinin adı aşağıdaki seçeneklerden hangisinde verilmiştir?",
+          "options": {
+            "A": "Değişken gezgini",
+            "B": "IPython konsolu",
+            "C": "Yardım penceresi",
+            "D": "Grafikler alanı",
+            "E": "Python betik dosyası"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "x = [1,3,5,7,9] Python'da yukarıdaki gibi bir x listesi veriliyor. Aşağıdaki seçeneklerin hangisi bu liste elemanlarının tersten yazdırılmasını sağlar?",
+          "options": {
+            "A": "x[:1]",
+            "B": "x[::1]",
+            "C": "x[:1:1]",
+            "D": "x[-1:]",
+            "E": "x[::-1]"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Python Programlama 2024-2025 Vize",
+      "exam_title": "Python Programlama 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Python_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen Python kod bloğu aşağıdaki seçeneklerden hangisi ile tamamlanırsa, futbol, tenis, basketbol ve yüzme seçenekleri dışında bir seçenek girildiğinde \"Lütfen geçerli bir spor dali giriniz.\" uyarısı ekrana yazdırılır?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_1.jpg",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_vize_soru_1.jpg",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_1.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıda verilen Python kodları ile ilgili aşağıdaki seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "Kod bloğunun hatasız çalışması için if bloğundan sonra mutlaka else bloğu eklenmelidir.",
+            "B": "Kod bloğunun hatasız çalışması için if bloğundan sonra mutlaka elif bloğu eklenmelidir.",
+            "C": "Python kod bloğu hata vermeden çalıştırılır.",
+            "D": "Kod bloğunun hatasız çalışması için 2. satırda = yerine kullanılmalıdır.",
+            "E": "Kod bloğunun hatasız çalışması için 1. satırda = yerine kullanılmalıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi Python dilinin nesneye yönelimli programlama yapısına özgü kavramlardan biri değildir?",
+          "options": {
+            "A": "Sınıf",
+            "B": "Değişken",
+            "C": "Kapsülleme",
+            "D": "Çok biçimlilik",
+            "E": "Nesne"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_3.jpg",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_vize_soru_3.jpg",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_3.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen konsol ekranıdan Python'a erişim sağlamak için komut satırına aşağıdakilerden hangisi yazılmalıdır?",
+          "options": {
+            "A": "enter",
+            "B": "get python",
+            "C": "python()",
+            "D": "enter(python)",
+            "E": "python"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi Python programlama dili hakkında yanlış bir ifadedir?",
+          "options": {
+            "A": "Python dilinde yazılan kodlar, modül ya da paket halinde gruplandırılabilir.",
+            "B": "Python kodlarındaki istisna durumların (exceptions) yakalanması mümkün değildir.",
+            "C": "Python'da kodların satır satır çalıştırılması mümkündür.",
+            "D": "Python yorumlayıcı (interpreter) kullanır.",
+            "E": "Python dili otomatik bellek yönetimi prensibini kullanır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_5.jpg",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_vize_soru_5.jpg",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_5.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verilen kodlar çalıştırıldığında b'nin değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "15",
+            "B": "0",
+            "C": "6",
+            "D": "5",
+            "E": "1"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "x = [1, 3, 5, 7, 9] Python'da yukarıdaki gibi bir x listesi veriliyor. Aşağıdaki seçeneklerin hangisi bu liste elemanlarının tersten yazdırılmasını sağlar?",
+          "options": {
+            "A": "x[: : -1]",
+            "B": "x[: 1]",
+            "C": "x[:: 1]",
+            "D": "x[:1:]",
+            "E": "x[-1:]"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "x = 10 y = 4 z = x * y**2 Yukarıda verilen Python kod bloğu çalıştırıldığında z değişkeninin aldığı değer, aşağıdaki seçeneklerden hangisinde a değişkeninin son değerine eşittir?",
+          "options": {
+            "A": "a = 150b = 5a -= b",
+            "B": "a = 1200b = 30a &= b",
+            "C": "a = 20b = 10a *= b",
+            "D": "a = 100b = 60a += b",
+            "E": "a = 40b = 2a **= b"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "a1 = [1, 2, 3] a2 = (1, 2, 3) a3 = {1, 2, 3} Yukarıda verilen Python nesnelerinden hangisi ya da hangilerinde 2 elemanı yerine 5 atanabilir?",
+          "options": {
+            "A": "a2 ve a3",
+            "B": "a1, a2 ve a3",
+            "C": "Yalnızca a1",
+            "D": "a1 ve a2",
+            "E": "Yalnızca a3"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "tatil = {\"deniz\", \"gunes\", \"kum\"} tatil.pop() Yukarıdaki Python kod bloğu çalıştırıldığında aşağıdaki seçeneklerden hangisi gerçekleşir?",
+          "options": {
+            "A": "deniz elemanı kümeden çıkarılır.",
+            "B": "tatil kümesi tamamen kaldırılır.",
+            "C": "kum elemanı kümeden çıkarılır.",
+            "D": "Kümeler için pop() adlı bir fonksiyon tanımlı olmadığından kod bloğu çalıştırıldığında hata mesajı döndürülür.",
+            "E": "gunes elemanı kümeden çıkarılır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi Python'da hatalı bir değişken tanımlamasıdır?",
+          "options": {
+            "A": "tur_han = 50",
+            "B": "elif = \"elif\"",
+            "C": "ECEM = \"ecem\"",
+            "D": "iLkim=\"1\"",
+            "E": "zekI = \"zeki\""
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_11.jpg",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_vize_soru_11.jpg",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_11.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukarıda verilenlere göre odeme değişkeninin son değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "0",
+            "B": "110",
+            "C": "100",
+            "D": "50",
+            "E": "90"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_12.jpg",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_vize_soru_12.jpg",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_12.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıdaki şekilde çerçeve içine alınmış Spyder bölmesinin adı aşağıdaki seçeneklerden hangisinde verilmiştir?",
+          "options": {
+            "A": "Grafikler alanı",
+            "B": "Yardım penceresi",
+            "C": "IPython konsolu",
+            "D": "Python betik dosyası",
+            "E": "Değişken gezgini"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Spyder'da yeni bir Python betik dosyası üzerindeki kodların satır satır çalıştırılmasını sağlayan varsayılan klavye kısayolu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "F5",
+            "B": "F9",
+            "C": "Cltrl+Enter",
+            "D": "Ctrl+Shift+Enter",
+            "E": "F12"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "ogrNotu = 20 notDegeri = 85 print(\"FF\") if notDegeri < 45 else print( \"Geçer!\") Yukarıdaki Python kod bloğu çalıştırıldığında aşağıdaki seçeneklerden hangisi döner?",
+          "options": {
+            "A": "Geçer!",
+            "B": "20",
+            "C": "FF",
+            "D": "45",
+            "E": "85"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_15.jpg",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_vize_soru_15.jpg",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_15.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yukarıdaki ekran görüntüsünde yer alan metnin \"çoklu yorum satırı\"na dönüştürülebilmesi için aşağıdaki seçeneklerden hangisi kullanılabilir?",
+          "options": {
+            "A": "7. ve 11. satırlara # (bir adet diyez işareti) eklenmelidir.",
+            "B": "Yalnızca 7. satıra '''''' (üç adet tırnak işareti) eklenmelidir.",
+            "C": "8. ve 10. satırlara # (bir adet diyez işareti) eklenmelidir.",
+            "D": "8. satıra # (bir adet diyez işareti) eklenmelidir.",
+            "E": "7. ve 11. satırlara '''''' (üç adet tırnak işareti) eklenmelidir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdaki Python kodlarından hangisi çalıştırıldığında hata vermez ve x değişkenin veri tipi boolean (bool) olur?",
+          "options": {
+            "A": "z, x = True, True, False",
+            "B": "x = 1, -10, 0, 1",
+            "C": "x, y = \"1\", \"2\", \"3\"",
+            "D": "x, y, z = \"True\", \"50\", 850",
+            "E": "x, y = True, \"False\""
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_17.jpg",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_vize_soru_17.jpg",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_vize_soru_17.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıdaki Python kod bloğunun ilk satırı çalıştırıldığında kullanıcı \"sarı\" girişi yaparsa, match-case ifadesi çalıştırıldığında aşağıdaki seçeneklerden hangisi elde edilir?",
+          "options": {
+            "A": "Kod bloğu çalışmaz, hata döndürür.",
+            "B": "Sıcak Renk",
+            "C": "Doğal Renk",
+            "D": "Soğuk Renk",
+            "E": "Lütfen geçerli bir renk giriniz."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki kod satırlarından hangisi çalıştırıldığında hata dönmez ve bir elemanlı bir demet tanımlanmış olur?",
+          "options": {
+            "A": "a = [1, ]",
+            "B": "a = {1, }",
+            "C": "a = (1, )",
+            "D": "a = (1)",
+            "E": "a = (, 1)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "a = {\"1\": \"2\", \"3\": \"4\", \"5\": \"6\", \"7\": 8″} list (a.values()) Yukarıdaki Python kod bloğu çalıştırıldığında aşağıdaki seçeneklerden hangisi döndürülür?",
+          "options": {
+            "A": "['2', '4', '6', '8']",
+            "B": "['1', '3', '5', '7']",
+            "C": "[]",
+            "D": "['8', '6', '4', '2']",
+            "E": "['1', '2', '3', '4', '5', '6', '7', '8']"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Python Programlama 2023-2024 Vize",
+      "exam_title": "Python Programlama 2023-2024 Vize",
+      "exam_type": "vize",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Python_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hangisi Python' da hatalı ayrılmış bir anahtar sözcüktür?",
+          "options": {
+            "A": "elif",
+            "B": "false",
+            "C": "if",
+            "D": "else",
+            "E": "true9."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "print(\"Merhaba\\nDünya!\") Yukarıdaki kod parçasının çıktısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Merhaba Dünya!",
+            "B": "Merhaba\\nDünya!",
+            "C": "Merhaba Dünya!",
+            "D": "Merhaba",
+            "E": "Dünya!"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Python'da, bir fonksiyon içinde tanımlanan ve yalnızca o fonksiyon içinde erişilebilir ve kullanılabilen değişkenler …….. olarak adlandırılır. Yukarıdaki cümledeki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Açık alan değişkenleri",
+            "B": "Kapalı alan değişkenleri",
+            "C": "Genel alan değişkenleri",
+            "D": "Yerleşik alan değişkenleri",
+            "E": "Yerel alan değişkenleri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki kod çalıştırıldığında ekrana gelen sonuç aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "16",
+            "B": "6",
+            "C": "8",
+            "D": "9",
+            "E": "12"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Python'da aşağıdakilerden hangisi bir değişken adlandırma kuralı ihlalidir değildir?",
+          "options": {
+            "A": "%ogrenci",
+            "B": "@ogrenci",
+            "C": "!ogrenci",
+            "D": "#ogrenci",
+            "E": "_ogrenci"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki değişken isimlerinden hangisi Deve (Camel) notasyonunda yazılmıştır?",
+          "options": {
+            "A": "ogrenci_no",
+            "B": "_OgrenciAdi",
+            "C": "ogrenciAdi",
+            "D": "Ogrenci_adi",
+            "E": "OgrenciNumarasi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir fonksiyona sınırsız sayıda parametre göndermek için kullanılacak operatör aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "æ",
+            "B": "*",
+            "C": "%",
+            "D": "&",
+            "E": "++3"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Python programlama dili hangi tür bir dildir?",
+          "options": {
+            "A": "Obje yönelimli",
+            "B": "Yüksek seviyeli",
+            "C": "Düşük seviyeli",
+            "D": "Yapısal",
+            "E": "Fonksiyonel"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "while döngüsünü kullanırken, döngünün ne zaman sonlanacağını dikkatlice düşünmeniz gerekir. Aksi takdirde, döngü sonsuza kadar dönebilir ve bu da bir hata durumuna yol açabilir. Bu sorunu önlemek için, döngünün ne zaman sonlanacağını belirleyen bir …… ifadesi kullanmanız gerekir. Yukarıdaki cümledeki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "işlem",
+            "B": "algoritma",
+            "C": "for",
+            "D": "deyim",
+            "E": "koşul"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Atlama deyimleri döngüler içerisinde koşulların sağlanmadığı durumlarda işlemi iptal etmek, işlem yapmamak veya atlamak için kullanılan deyimlerdir. ….. kod akışını bir daha dönmemek üzere blok sonuna aktarır …… bulunduğu noktadan sonraki deyimleri çalıştırmadan ilk başa döndürür. ….. hiçbir işlem yapılmayacak yapılarda kullanılır. Yukarıdaki paragraftaki boşluklara sırasıyla aşağıdakilerden hangileri gelmelidir?",
+          "options": {
+            "A": "pass, continue, break",
+            "B": "break, continue, pass",
+            "C": "for, while, break",
+            "D": "break, pass, continue",
+            "E": "for, break , pass"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıdaki kod parçasında, bilet değişkeninin değeri 123457 ise, ekrana hangi çıktı verilir?",
+          "options": {
+            "A": "Kazanmadınız.",
+            "B": "Belirtilen değere göre değişir.",
+            "C": "Hata verir.",
+            "D": "Tebrikler büyük ikramiyeyi kazandınız!",
+            "E": "Amorti kazandınız!"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Mantıksal 've' fonksiyonu ile aynı olan yerleşik fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "all",
+            "B": "min",
+            "C": "any",
+            "D": "abs",
+            "E": "sum"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir fonksiyon ifade bloğunu tanımlamak için kullanılan anahtar kelime aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "func",
+            "B": "fonksiyon",
+            "C": "definition",
+            "D": "def",
+            "E": "function"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Python programlama dilinin ilk sürümü hangi tarihte piyasaya sürülmüştür?",
+          "options": {
+            "A": "1980",
+            "B": "1991",
+            "C": "1995",
+            "D": "1990",
+            "E": "1985"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki şıklardan hangisinde değişken adlandırma için kural doğru değildir?",
+          "options": {
+            "A": "Değişken adları 10 karakterden fazla olabilir.",
+            "B": "Değişken adları anahtar kelimeler olarak kullanılamaz.",
+            "C": "Değişken adları harf, rakam veya alt çizgi içerebilir.",
+            "D": "Değişken adları sayılarla başlayabilir.",
+            "E": "Değişken adları büyük/küçük harfe duyarlıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yukardaki kod Python 3.9 ile çalıştırıldığında ekrana ne yazar?",
+          "options": {
+            "A": "Çalışmaz hata üretir.",
+            "B": "İşlemci üreticinizi tanıyamadık.",
+            "C": "İşlemci üreticiniz AMD'dir.",
+            "D": "İşlemci üreticiniz ARM'dir.",
+            "E": "İşlemci üreticiniz Intel'dir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bilgisayar programlarının kodlanması için kullanılan ilk ilkel programlama dili, aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Python",
+            "B": "C++",
+            "C": "C#",
+            "D": "Analitik Motor",
+            "E": "C"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıdaki kod parçasında, kullanıcı 123456 girer ise, ekrana hangi çıktı verilir?",
+          "options": {
+            "A": "Büyük ikramiyeyi kazandınız! Amorti kazandınız!",
+            "B": "Kazanmadınız.",
+            "C": "Amorti kazandınız!",
+            "D": "Büyük ikramiyeyi kazandınız!",
+            "E": "Büyük ikramiyeyi kazandınız! Kazanmadınız."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Python programlama dilinin adı aşağıdakilerden hangisinden gelmektedir?",
+          "options": {
+            "A": "Bir matematiksel formülden",
+            "B": "Bir müzik parçasından",
+            "C": "Bir bilgisayar bilimcisinin adından",
+            "D": "Bir ingiliz komedi grubu olan Monty Python'dan",
+            "E": "Bir yılan türünden"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Ders notlarına göre bilgisayar programlarının işlevsel olabilmesi için bilgisayarlarda gerekli olan iki unsur nedir?",
+          "options": {
+            "A": "Donanım ve yazılım",
+            "B": "İşletim sistemi ve programlama dili",
+            "C": "Yazılım ve programlama dili",
+            "D": "Donanım, yazılım ve işletim sistemi",
+            "E": "Yazılım ve işletim sistemi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Python Programlama 2022-2023 Vize",
+      "exam_title": "Python Programlama 2022-2023 Vize",
+      "exam_type": "vize",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Python_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi Python' da geçersiz tanımlayıcıdır?",
+          "options": {
+            "A": "Öğrenci1",
+            "B": "ogrenciAdi",
+            "C": "Ogrenci1",
+            "D": "1.Ogrenci",
+            "E": "Ogrenci_Adi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki kod çalıştırıldığında ekranda aşağıdaki seçeneklerden hangisi görülecektir?",
+          "options": {
+            "A": "Elif",
+            "B": "Ahmet",
+            "C": "Ayşe",
+            "D": "Boş ekran gelir.",
+            "E": "Merhaba"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilmiş olan kod çalıştırıldıktan sonra, klavyeden sayi1 için 10 , sayi2 için 20 ve islem için – girilirse çıkan sonuç ekranda nasıl görünür?",
+          "options": {
+            "A": "Yanlış işlem girdiniz",
+            "B": "Traceback (most recent call last): File \"....\", line 8, in print(\"{} - {} = {}\".format(sayi1,sayi2,sayi1-sayi2))TypeError: unsupported operand type(s) for -: 'int' and 'str'",
+            "C": "10 * 20 = 200",
+            "D": "10 - 20 = -10",
+            "E": "10 + 20 = -10"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Python, popüler bir programlama dilidir. 1991 yılında ….. tarafından tasarlanmıştır. Yukarıdaki cümlede boş bırakılan yere aşağıdaki seçeneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Dennis Ritchie",
+            "B": "Linus Torvalds",
+            "C": "Charles Babbage",
+            "D": "Bill Gates",
+            "E": "Guido van Rossum"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Ondalık sayıyı tam sayıya çeviren fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "float()",
+            "B": "str()",
+            "C": "ord()",
+            "D": "complex()",
+            "E": "int()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi satırın devamını sağlayan kaçış karakteridir?",
+          "options": {
+            "A": "#",
+            "B": ",",
+            "C": "-",
+            "D": "?",
+            "E": "\\"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Python kodlama dilinde kullanıcıdan veri alınması gereken durumlarda kullanılması gereken kod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "input()",
+            "B": "printf()",
+            "C": "put()",
+            "D": "get()",
+            "E": "print()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukardaki kod çalıştırıldığında ekranda ne görülecektir?",
+          "options": {
+            "A": "Hata üretir",
+            "B": "19",
+            "C": "None",
+            "D": "\"Hesaplayamadım\"",
+            "E": "14"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Python Programlama dili aşağıdaki hangi programlama paradigmasını desteklemez?",
+          "options": {
+            "A": "Yapısal Programlama (Structured Programming)",
+            "B": "Fonksiyonel Programlama (Functional Programming)",
+            "C": "Mantıksal Programlama (Logic Programming)",
+            "D": "Emirli Programlama (Imperative Programming)",
+            "E": "Nesneye Dayalı Programlama (Object-oriented Programming)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukardaki gibi return deyimi barındırmayan bir fonksiyon çalıştığında toplam değişkenin değeri …..şeklindedir. Boşluğa aşağıdaki seçeneklerden hangisi gelmelidir?",
+          "options": {
+            "A": "False",
+            "B": "None",
+            "C": "Null",
+            "D": "12",
+            "E": "True"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Python kaynak kodlarının dosya uzantısı aşağıdaklerden hangisdir?",
+          "options": {
+            "A": ".exe",
+            "B": ".pyc",
+            "C": ".py",
+            "D": ".ipynp",
+            "E": ".c"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi hatalı karmaşık sayı tanımlamasıdır?",
+          "options": {
+            "A": "complex(12,7)",
+            "B": "12+7j",
+            "C": "12+j",
+            "D": "1j",
+            "E": "12+1j"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir sayının mutlak değerini döndüren yerleşik fonksiyon asağıdakilerden hangisidir?",
+          "options": {
+            "A": "max()",
+            "B": "abs()",
+            "C": "len()",
+            "D": "min()",
+            "E": "mutlak()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Yukarıdaki kod çalıştırıldığında ekranda görülecek ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "0,1,2,3,4",
+            "B": "0,1,2,3,4,",
+            "C": "0,1,2,3,4,5,6,7,8,9,10",
+            "D": "0,1,2,3,4,5",
+            "E": "0,1,2,3,4,5,"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki deyimlerden hangisi koşullu döngüdür?",
+          "options": {
+            "A": "if",
+            "B": "while",
+            "C": "if else",
+            "D": "match / case",
+            "E": "for"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bir fonksiyona sınırsız sayıda parametre gönderilebilmesi için hangi operatör kullanılabilir?",
+          "options": {
+            "A": "*",
+            "B": "&",
+            "C": "+",
+            "D": "%",
+            "E": "/"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yorumlanarak çalıştırılan diller, derlenmiş dillere nazaran daha …..çalışır. Yukarıdaki cümlede boş bırakılan yere aşağıdaki seçeneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "optimize",
+            "B": "güvenilir",
+            "C": "yavaş",
+            "D": "hızlı",
+            "E": "etkin"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Tanımlandıktan sonra ömrü program çalıştığı sürece geçerli olan değişkenler, ….. olarak adlandırılmaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdaki seçeneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "kapalı değişken",
+            "B": "yerleşik değişken",
+            "C": "yerel değişken",
+            "D": "genel değişken",
+            "E": "özel değişken"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıda kullanıcının girdiği iki sayı birbirine eşitse bu sayının 4'e göre modunu alıp ekrana yazdıran python kodu bulunmaktadır. Programın düzgün çalışması için 1, 2, 3, 4 ve 5. satırlarda bulunan …..ifadesi yerine gelmesi gereken operatör ve ifadeler aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "1. satır int, 2. satır int, 3. satır ==, 4. satır %, 5. satır else:",
+            "B": "1. satır int, 2. satır int, 3. satır !=, 4. satır //, 5. satır elif sayi1 == sayi2:",
+            "C": "1. satır int, 2. satır int, 3. satır =, 4. satır //, 5. satır elif sayi1 != sayi2:",
+            "D": "1. satır int, 2. satır int, 3. satır !=, 4. satır %, 5. satır elif sayi1 == sayi2:",
+            "E": "1. satır int, 2. satır int, 3. satır =, 4. satır %, 5. satır elif sayi1 != sayi2:"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki kodlardan hangisinde örtülü tür dönüştürme yapılmıştır?",
+          "options": {
+            "A": "a = 7, b = 8.8, toplam = a + b",
+            "B": "a = 7, b = 8.8, toplam = float(a) + b",
+            "C": "a = 7, b = 8, toplam = a + b",
+            "D": "a = 7, b = 8, toplam = int(a + b)",
+            "E": "a = 7.7, b = 8.8, toplam = int(a + b)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Python Programlama 2024-2025 Final",
+      "exam_title": "Python Programlama 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Python_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıdaki Python kodları yardımı ile iki küme tanımlanıyor. Bu durumda {0, 1, 7, 8, 9, 11, 99} elde edilmesi için aşağıdaki kod satırlarından hangisi çalıştırılmalıdır?",
+          "options": {
+            "A": "k1 and k2",
+            "B": "k1 | k2",
+            "C": "k1 & k2",
+            "D": "k2 - k1",
+            "E": "k1 - k2"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_1.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_1.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_1.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Eğer hafta sonu hava güzelse, pikniğe giderim. Yukarıdaki örnek cümledekine benzer bir karar alma durumu Python programlamada aşağıdaki yapılardan hangisi ile temsil edilebilir?",
+          "options": {
+            "A": "Fonksiyonlar",
+            "B": "Sınıflar",
+            "C": "Koşul ifadeleri",
+            "D": "Döngüler",
+            "E": "Paketler"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki seçeneklerin hangisinde verilen lambda fonksiyonu doğru bir biçimde tanımlanmıştır?",
+          "options": {
+            "A": "fonk = lambda x: False if x != 2024 else True",
+            "B": "fonk lambda x: False (if x ! 2024) (else True)",
+            "C": "fonk lambda x(False if x != 2024 else True)",
+            "D": "fonk lambda (x: False if x != 2024 else True)",
+            "E": "fonk lambda x: if x != 2024 False else True"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_3.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_3.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_3.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki seçeneklerin hangisinde yukarıda verilen \"Futbolcu\" sınıfının bir örneği doğru biçimde oluşturulmuştur?",
+          "options": {
+            "A": "oyuncum = Futbolcu (7, \"Süleyman\", \"Seba\", 25, \"Sağ Açık\")",
+            "B": "oyuncum = Futbolcu (\"Suleyman\", \"Seba\")",
+            "C": "oyuncum = Futbolcu (25, \"Süleyman\", \"Seba\")",
+            "D": "oyuncum = Futbolcu (\"Suleyman\", \"Seba\", \"Sağ Açık\", 7, 25)",
+            "E": "oyuncum = Futbolcu (\"Süleyman\", \"Seba\", 25, \"Sağ Açık\")"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_4.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_4.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_4.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıdaki DataFrame'den Sehir sütununu kaldırmak için aşağıdaki seçeneklerden hangisi kullanılabilir?",
+          "options": {
+            "A": "df.del (\"Sehir\", axis = 1)",
+            "B": "df.remove (\"Sehir\", axis = 1)",
+            "C": "df.drop(\"Sehir\", axis = 0)",
+            "D": "df.del (\"Sehir\", axis = 0)",
+            "E": "df.drop(\"Sehir\", axis = 1)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_5.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_5.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_5.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıdaki ekran görüntüsünün elde edilebilmesi için aşağıda … ile verilen boşluğa aşağıdaki seçeneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "for j in range(i, len(A))",
+            "B": "for i in range(0, i)",
+            "C": "for j in range(0, i+1)",
+            "D": "for i in range(0, i+1)",
+            "E": "for j in range(0, i)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_6.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_6.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_6.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen kod satırı çalıştırıldığında l1'in son durumu hangi seçenekte doğru biçimde verilmiştir?",
+          "options": {
+            "A": "[1, 5, 15]",
+            "B": "[1, 15]",
+            "C": "[5, 1, 5, 15, 5]",
+            "D": "[1, 15, 5]",
+            "E": "[1, 5, 15, 5, 5]"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_7.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_7.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_7.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukarıdaki Python kodları çalıştırıldığında ekrana kaç adet + yazdırılır?",
+          "options": {
+            "A": "1",
+            "B": "4",
+            "C": "5",
+            "D": "2",
+            "E": "0"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıda verilen seçeneklerin hangisinde z değişkeninin veri tipi tam sayıdır?",
+          "options": {
+            "A": "z = 121 - 1.8",
+            "B": "z = 97 // 2",
+            "C": "z = 1.1 ** 2",
+            "D": "z = 30 * 1.0",
+            "E": "z = 12 / 7"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_9.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_9.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_9.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda verilen Python kodlarına göre kapsülleme (encapsulation) kullanılarak gizlenen değişken aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "bakiye",
+            "B": "mktr",
+            "C": "hesabim",
+            "D": "bakiye goster",
+            "E": "BankaHesap"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_10.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_10.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_10.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıdaki Python kodunda … ile verilen boşluğun aşağıdaki seçeneklerin hangisi ile tamamlanması uygun olur?",
+          "options": {
+            "A": "and",
+            "B": "else",
+            "C": "match",
+            "D": "elif",
+            "E": "case"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıda verilen seçeneklerin hangisinde yapılan veri tipi dönüşümü hata mesajı döndürür?",
+          "options": {
+            "A": "float (30)",
+            "B": "int (2.5)",
+            "C": "float (True)",
+            "D": "bool (\"Elif\")",
+            "E": "float(\"Elif\")"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_12.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_12.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_12.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıda tanımlanan a adlı NumPy dizisi için a.size kodu çalıştırılırsa aşağıdakilerden hangisi elde edilir?",
+          "options": {
+            "A": "(10,1)",
+            "B": "10",
+            "C": "(2,5)",
+            "D": "5",
+            "E": "2"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_13.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_13.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_13.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Yukarıda verilen Python kodları ile 5 dışında kalan tüm elemanların toplamı elde edilmek isteniyor. Buna göre ile belirtilen boşluğa aşağıdaki seçeneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "top",
+            "B": "pass",
+            "C": "break",
+            "D": "say",
+            "E": "continue"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki seçeneklerden hangisi Python'daki hazır (buliltin) fonksiyonlardan biri değildir?",
+          "options": {
+            "A": "max()",
+            "B": "type()",
+            "C": "print()",
+            "D": "getwd()",
+            "E": "sum()"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_15.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_15.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_15.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yukarıda verilen \"Bilgisayar\" sınıfına göre aşağıdaki seçeneklerin hangisi hata döndürür?",
+          "options": {
+            "A": "bilg.sabitDisk",
+            "B": "bilg.model",
+            "C": "bilg.ABC",
+            "D": "bilg.mark",
+            "E": "bilg.islemci"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_16.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_16.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_16.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıda bir mağazanın indirim hesaplamak için kullandığı Python fonksiyonu yer almaktadır. indirim_hesapla(900) fonksiyonuna göre 900TL'lik alış-veriş yapan bir müşterinin ödeme miktarı aşağıdaki seçeneklerin hangisinde verilmiştir?",
+          "options": {
+            "A": "0",
+            "B": "900",
+            "C": "110",
+            "D": "810",
+            "E": "90"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Python'da tek satırlık bir yorum eklemek için aşağıdaki karakterlerden hangisi kullanılır?",
+          "options": {
+            "A": "#",
+            "B": "*",
+            "C": "$",
+            "D": "!",
+            "E": "%"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "I. Veri bilimi çalışmaları. II. Matematik ve istatistik başta olmak üzere çeşitli bilimsel hesaplamalar. III. Yazılım geliştirme. IV. Oyun geliştirme. Yukarıda belirtilen alanların hangisi ya da hangilerinde Python programlama dili kullanılmaktadır?",
+          "options": {
+            "A": "I, II ve III",
+            "B": "I ve II",
+            "C": "Yalnız I",
+            "D": "Yalnız II",
+            "E": "I, II, III ve IV"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Python'da NumPy kütüphanesini çağırmak için aşağıdaki seçeneklerden hangisi kullanılabilir?",
+          "options": {
+            "A": "install numpy as np",
+            "B": "return numpy",
+            "C": "import numpy as np",
+            "D": "build numpy as np",
+            "E": "get numpy"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Python Programlama 2023-2024 Final",
+      "exam_title": "Python Programlama 2023-2024 Final",
+      "exam_type": "final",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Python_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen Python kod satırlarında yer alan pass deyimi hakkında aşağıdaki seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "else bloğunda oluşacak hataların göz ardı edilmesini sağlar.",
+            "B": "if bloğunda oluşacak hataların göz ardı edilmesini sağlar.",
+            "C": "secim değişkeninin aldığı değer icecekler listesi içinde bulunmazsa herhangi bir işlemin gerçekleştirilmeyeceğini belirtir.",
+            "D": "secim değişkeninin aldığı değer icecekler listesi içinde bulunursa herhangi bir işlemin gerçekleştirilmemesini sağlar.",
+            "E": "Varsayılan olarak ekrana: Seçim bulunamadı. Yazdırılmasını sağlar."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıda verilen Python kodları ile ilgili aşağıdaki seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "Parametre alan ve değer döndüren bir fonksiyon tanımlanmıştır.",
+            "B": "Parametre almayan ve değer döndürmeyen bir fonksiyon tanımlanmıştır.",
+            "C": "Parametre alan ve değer döndürmeyen bir fonksiyon tanımlanmıştır.",
+            "D": "Parametre almayan ve değer döndüren bir fonksiyon tanımlanmıştır.",
+            "E": "fonksiyonum adlı fonksiyon çağrılmıştır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen sorunun doğru şıkkını işaretleyiniz.",
+          "options": {
+            "A": "enumerate",
+            "B": "break",
+            "C": "zip",
+            "D": "numerate",
+            "E": "continue"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıda verilen seçeneklerden hangisi Python'da kullanıcı tarafından tanımlanan bir fonksiyon (user defined function) oluşturmak için kullanılır?",
+          "options": {
+            "A": "else",
+            "B": "if",
+            "C": "pass",
+            "D": "break",
+            "E": "def"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "… özelliklerin ve metotların tek bir sınıf içinde paketlenmesini ifade eder. Yukarıdaki tanım, aşağıdaki seçeneklerden hangisindeki kavrama aittir?",
+          "options": {
+            "A": "Örnek",
+            "B": "Kapsülleme (encapsulation)",
+            "C": "Nesneye yönelimli programlama",
+            "D": "Miras alma/kalıtım (inheritence)",
+            "E": "Çok biçimlilik (polymorphism)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Python'da A = [\"Python\", \"programlama\", \"dersini\", \"çok\", \"seviyorum\"] şeklinde tanımlanıyor. Buna göre; A[0 : len(A) : 2] Python kodu aşağıdaki seçeneklerden hangisini döndürür?",
+          "options": {
+            "A": "['Python', 'programlama', 'dersini', 'çok']",
+            "B": "['programlama', 'dersini', 'seviyorum']",
+            "C": "['Python', 'dersini', 'seviyorum']",
+            "D": "['Python', 'programlama', 'dersini', 'çok', 'seviyorum']",
+            "E": "['programlama', 'dersini', 'çok', 'seviyorum']"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen Python kodlarına göre sonuc değişkeninin veri tipi nedir?",
+          "options": {
+            "A": "liste",
+            "B": "sözlük",
+            "C": "demet",
+            "D": "str",
+            "E": "int"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki seçeneklerden hangisinde Python değişken tanımlama kurallarına uygun bir tanımlama işlemi gerçekleştirilmemiştir?",
+          "options": {
+            "A": "for = 3",
+            "B": "sayi = 3",
+            "C": "myNum = \"3\"",
+            "D": "metin = 90",
+            "E": "kar_43 = 1900"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"veri\" adlı bir pandas DataFrame'inin V1 ve V2 adlı iki sütunu bulunmaktadır. Sütun adlarının sırasıyla ad ve soyad olarak değiştirilebilmesi için aşağıdakilerden hangisi kullanılabilir?",
+          "options": {
+            "A": "veri = veri.setname(columns={\"V1\": \"ad\", \"V2\": \"soyad\"})",
+            "B": "veri = veri.load(columns={\"V1\": \"ad\", \"V2\": \"soyad\"})",
+            "C": "veri = veri.usename(columns={\"V1\": \"ad\", \"V2\": \"soyad\"})",
+            "D": "veri = veri.rename(columns={\"V1\": \"ad\", \"V2\": \"soyad\"})",
+            "E": "veri = veri.relevel(columns={\"V1\": \"ad\", \"V2\": \"soyad\"})"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Python'da sınıf (class) kavramı ile ilgili verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bir sınıftan birden fazla örnek türetilebilir.",
+            "B": "Sınıflar, class anahtar kelimesiyle oluşturulur.",
+            "C": "Bir sınıfın özelliklerine dolar ($) sembolü kullanılarak erişilebilir.",
+            "D": "Bir sınıfın özelliklerine nokta (.) operatörü kullanılarak erişilebilir.",
+            "E": "Özellikler (attributes), bir sınıfa ait değişkenlerdir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "ad, soyad, yas, cinsiyet, gelir şeklinde 5 sütundan oluşan \"calisan\" adlı bir pandas DataFrame'i tanımlanıyor. Eğer tüm çalışanların ad ve soyadları elde edilmek istenirse aşağıdaki seçeneklerden hangisi kullanılabilir?",
+          "options": {
+            "A": "calisan[\"ad\",\"soyad\"]",
+            "B": "calisan[1:2]",
+            "C": "calisan(\"ad\",\"soyad\")",
+            "D": "calisan[1:3]",
+            "E": "calisan[[\"ad\",\"soyad\"]]"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukarıda Python kodlarında verilen while döngüsü ile bir \"sonsuz döngü\" elde edilebilmesi için kaç numaralı kod satırı kaldırılabilir?",
+          "options": {
+            "A": "5",
+            "B": "1",
+            "C": "4",
+            "D": "3",
+            "E": "2"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıda \"a\" adlı bir NumPy dizisi tanımlanıyor. Buna göre a.ndim kod satırı çalıştırıldığında aşağıdaki seçeneklerden hangisi elde edilir?",
+          "options": {
+            "A": "5",
+            "B": "int32",
+            "C": "(5,2)",
+            "D": "2",
+            "E": "10"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Python'da adSoyad = (\"elif\", \"kartal\") şeklinde tanımlanıyor. Buna göre; del adSoyad Python kodu ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "adSoyad listesini tamamen siler.",
+            "B": "adSoyad demetinin son elemanını siler.",
+            "C": "adSoyad demetini tamamen siler.",
+            "D": "adSoyad listesinin son elemanını siler.",
+            "E": "adSoyad sözlüğünü tamamen siler."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Nesneye yönelimli programlama gerçek dünyadaki … programlama ortamında modellenmesi şeklinde ifade edilebilir. Yukarıda … ile verilen boşluğa aşağıdaki seçeneklerden hangisinin gelmesi en uygundur?",
+          "options": {
+            "A": "insana özgü özelliklerin",
+            "B": "yalnızca cansız nesnelerin",
+            "C": "yalnızca canlı nesnelerin",
+            "D": "soyut kavramların",
+            "E": "canlı ve cansız nesnelerin"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "a = 50 b = 90.50 c = \"Beşiktaş\" d = \"E\" e = False biçiminde veriliyor. Buna göre isinstance(…. , float) Python kod satırında … ile belirtilen yere aşağıdaki seçeneklerde verilen değişken adlarından hangisi ya da hangileri getirilirse sonuç True elde edilir?",
+          "options": {
+            "A": "a ve b",
+            "B": "Yalnıca a",
+            "C": "Yalnızca c",
+            "D": "d ve e",
+            "E": "Yalnızca b"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıda verilen Python kod satırları çalıştırıldığında aşağıdaki seçeneklerden hangisi gerçekleşir?",
+          "options": {
+            "A": "1 ile 999 dâhil olmak üzere 1 ile 999 arasındaki tüm sayılar alt alta ekrana yazdırılır.",
+            "B": "0 ile 999 dâhil olmak üzere 0 ile 999 arasındaki tüm sayılar yan yana ekrana yazdırılır.",
+            "C": "0 ile 1000 dâhil olmak üzere 0 ile 1000 arasındaki tüm sayılar yan yana ekrana yazdırılır.",
+            "D": "0 ile 999 dâhil olmak üzere 0 ile 999 arasındaki tüm sayılar alt alta ekrana yazdırılır.",
+            "E": "0 ile 1000 dâhil olmak üzere 0 ile 1000 arasındaki tüm sayılar alt alta ekrana yazdırılır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "python -m venv sOrtam Yukarıda verilen kod satırı \"Spyder Terminal\" ekranında çalıştırılıyor. Buna göre, aşağıdakilerden hangisi gerçekleştirilmek istenmektedir?",
+          "options": {
+            "A": "Python betik (script) dosyası oluşturmak.",
+            "B": "Python sanal ortamı (virtual environment) oluşturmak.",
+            "C": "Python'da venv adlı bir değişken tanımlamak.",
+            "D": "Python'da sOrtam adlı bir değişken tanımlamak.",
+            "E": "Bilgisayardaki Python kurulumunu kaldırmak."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki seçeneklerden hangisi Spyder'daki \"değişken gezgini\" (variable explorer) olarak bilinen pencereyi tarif eder?",
+          "options": {
+            "A": "Yardım konularına erişilen penceredir.",
+            "B": "Değişken, dizi, liste, fonksiyon gibi Python nesnelerinin görülüp yönetildiği penceredir.",
+            "C": "Bilgisayardaki dosya ve klasörlerin görüldüğü penceredir.",
+            "D": "Oluşturulan grafiklerin gösterildiği penceredir.",
+            "E": "Python kodlarının yazıldığı penceredir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Yukarıda verilen Python kod satırları çalıştırıldığında aşağıdakilerden hangisi döndürülür?",
+          "options": {
+            "A": "None",
+            "B": "False",
+            "C": "1000",
+            "D": "True",
+            "E": "400"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Python Programlama 2022-2023 Final",
+      "exam_title": "Python Programlama 2022-2023 Final",
+      "exam_type": "final",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Python_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Tanımlanan nesnenin tipinin belli bir sınıfa ait olup olmadığını kontrol etmek için kullanılan fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "bool()",
+            "B": "int()",
+            "C": "istype()",
+            "D": "type()",
+            "E": "isinstance()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir nesnenin uzunluğunu döndüren fonksiyon aşağıdaki seçeneklerden hangisidir?",
+          "options": {
+            "A": "abs()",
+            "B": "print()",
+            "C": "input()",
+            "D": "len()",
+            "E": "length()"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıdaki kodun çıktısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "[33,44,12]",
+            "B": "[33,12]",
+            "C": "[22,33,44,12]",
+            "D": "[44,22,33,12}",
+            "E": "[33, 12, 33]"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi sayısal hesaplamalarda oluşan tüm hatalar için temel bir sınıftır?",
+          "options": {
+            "A": "ArithmeticError",
+            "B": "AssertionError",
+            "C": "ImportError",
+            "D": "KeyError",
+            "E": "StopIteration"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "İstisna oluşturmak için kullanılan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "try",
+            "B": "exception",
+            "C": "finally",
+            "D": "raise",
+            "E": "for"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki açıklama hangi dosya modunu göstermektedir? \"Dosya ekleme işlemi için açılır. Daha önceden varolan dosyanın en sonundan eklemeye devam eder. Eğer çağrılan dosya bulunamadıysa yeni bir dosya oluşturur.\"",
+          "options": {
+            "A": "r+",
+            "B": "w",
+            "C": "a",
+            "D": "w+",
+            "E": "r"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Python Bytecode program dosya uzantısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": ".c",
+            "B": ".py",
+            "C": ".java",
+            "D": ".byte",
+            "E": ".pyc"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıda bir sınıfa ait bazı üyeler verilmiştir. Bu üyelerden hangisi yarı-gizli(semi-private) üyedir?",
+          "options": {
+            "A": "personel =[]",
+            "B": "_personel =[]",
+            "C": "_ _personel=[]",
+            "D": "*personel =[]",
+            "E": "**personel=[]"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Python paket yükleyicisi içerisinde arama yapmak için kullanılan komut aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "show",
+            "B": "quest",
+            "C": "seek",
+            "D": "search",
+            "E": "find"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki seçeneklerden hangisi demet tanımlamasına örnek değildir?",
+          "options": {
+            "A": "e=(\"Demet\")",
+            "B": "b=(\"Demet\",)",
+            "C": "d=(\"Hakan\",1,3,4)",
+            "D": "c=12,33,44",
+            "E": "a=()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi Nesne Yönelimli Programlamanın temel özelliklerinden biri değildir?",
+          "options": {
+            "A": "Spagetti Programlama",
+            "B": "Sınıflar",
+            "C": "Kapsülleme",
+            "D": "Çok Biçimlilik",
+            "E": "Nesneler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "…..x …..60 …..y …..70: print(\"Merhaba Dünya\") Yukarıda verilmiş olan Python kodunda, x değişkeni değerinin 60 dan farklı ve y değişkeni değerinin 70 den büyük olması durumunda ekrana Merhaba Dünya yazdırmak için boş bırakılan yerlere sırasıyla aşağıdaki seçeneklerden hangisi eklenmelidir?",
+          "options": {
+            "A": "if , != , not , >",
+            "B": "if , == , and , >",
+            "C": "if , != , and , >",
+            "D": "if , != , or , >",
+            "E": "if , == , or , >"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aynı türdeki nesneleri tanımlayan bir taslak ….. olarak adlandırılır. Yukarıdaki boşluğa aşağıdaki seçeneklerden hangisi gelmelidir?",
+          "options": {
+            "A": "Liste",
+            "B": "Sınıf",
+            "C": "Metot",
+            "D": "Fonksiyon",
+            "E": "Küme"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "a = [67,90,22,33,44] print(a[-2]) Yukarıdaki kodun çıktısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "44",
+            "B": "67",
+            "C": "33",
+            "D": "90",
+            "E": "22"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi projeyi modüllere ayırmanın avantajı olarak sayılmamaktadır?",
+          "options": {
+            "A": "Yeniden Kullanılabilirlik",
+            "B": "Basitlik",
+            "C": "Hızlılık",
+            "D": "Sürdürülebilirlik",
+            "E": "Kapsam Belirleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yukarıda tanımlanmış olan fonksiyonda ekrana Fırtına var yazdırmak için hangi hesaplama yapılmalıdır?",
+          "options": {
+            "A": "hesapla(3,8)",
+            "B": "hesapla(3,4)",
+            "C": "hesapla",
+            "D": "hesapla(6,4)",
+            "E": "hesapla(7,3)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "match/case koşul ifadesi kaç yılında Python diline entegre edilmiştir?",
+          "options": {
+            "A": "2021",
+            "B": "2010",
+            "C": "2020",
+            "D": "1999",
+            "E": "2022"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi ikili gösterim için doğrudur?",
+          "options": {
+            "A": "0x101",
+            "B": "0b1010",
+            "C": "0B1020",
+            "D": "0o101",
+            "E": "101"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "….., python'ın fikirsel haklarını korumaktadır. Yukarıdaki boşluğa aşağıdaki seçeneklerden hangisi gelmelidir?",
+          "options": {
+            "A": "Charles Babbage",
+            "B": "Guido van Rossum",
+            "C": "Microsoft",
+            "D": "Python Yazılım Vakfı",
+            "E": "Bill Gates"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "from random import randint print(randint(10,30)) Yukarıdaki programın üretebileceği çıktı aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": "9",
+            "B": "8.5",
+            "C": "31",
+            "D": "12.7",
+            "E": "12"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

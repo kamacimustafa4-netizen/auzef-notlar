@@ -1,0 +1,1394 @@
+{
+  "course": "Mantik Cesitleri 1",
+  "lesson_code": "MANTIK_CESITLERI_1",
+  "exam_count": 4,
+  "exams": [
+    {
+      "title": "Mantık Çeşitleri 1 2024-2025 Vize",
+      "exam_title": "Mantık Çeşitleri 1 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Mantik_Cesitleri_1_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi bağıntıların mantıkta gösterim yöntemlerinden biri değildir?",
+          "options": {
+            "A": "Hasse diyagramı yöntemi",
+            "B": "Listeleme yöntemi",
+            "C": "Grafik yöntemi",
+            "D": "Bağıntılama yöntemi",
+            "E": "Tablo yöntemi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bağdaşmazlık ekleminin kuralları göz önünde bulundurulduğunda aşağıdaki gösterimlerden hangisi yanlıştır?",
+          "options": {
+            "A": "(p → q) = p | (q | q)",
+            "B": "~p = (p | p)",
+            "C": "(p ↔ q) = [(p |(q|q))|(q|(p|p))] | [(p |(q | q))|(q |(p | p))]",
+            "D": "(p ∧ q) = (p | q) | (p | q)",
+            "E": "(p ∨ q) = q| (q | p)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki filozoflardan hangisi mantıkta kendi adıyla anılan bir denetleme yöntemi geliştirmiştir?",
+          "options": {
+            "A": "William J. Ashley",
+            "B": "Lewis R. Binford",
+            "C": "Willard Van Orman Quine",
+            "D": "Bertrand Russell",
+            "E": "Robert J. Braidwood"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "\"Kuzeyinde\" bağıntısı bulabileceği bir zaman ya da yer yoktur. Londra'da olmadığı gibi Edinburg'da da yoktur çünkü bu ikisini yani tutmadan birbirine bağlar. Onun herhangi bir zamanda da bulunduğunu söyleyemeyiz. Oysa duyularla ya da içe bakışla kavranan her şey belli bir zamanda geçer. Demek ki \"Kuzeyinde\" bağıntısı şöyle şeylere göre kökten bir başkalıktadır. Ne uzamdadır ne zamandad Yukarıda yer alan görüş aşağıdaki isimlerden hangisine aittir?",
+          "options": {
+            "A": "B. Russell",
+            "B": "I. Kant",
+            "C": "S. Kripke",
+            "D": "G. Frege",
+            "E": "D. Hume"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "LT notasyonunda aşağıdaki gösterimlerden hangisi doğrudur?",
+          "options": {
+            "A": "(↔) için C",
+            "B": "(∨) için A",
+            "C": "(→) için K",
+            "D": "(↔) için D",
+            "E": "(∧) için E"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "19. yüzyıl mantıkçılarının \"bağıntı\" kavramı üzerindeki çalışmaları ve özellikle \"……\" bağıntının varlık alanının ne olduğu konusundaki düşünceleri, bu kavramın felsefede önem kazanmasını sağlamıştır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Aristoteles'in",
+            "B": "Descartes'in",
+            "C": "Farabi'nin",
+            "D": "Russell'ın",
+            "E": "Kripke'nin"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Sembolik mantıkta \"değilleme\" işlemi aşağıdaki sembollerden hangisi ile gösterilir?",
+          "options": {
+            "A": "*",
+            "B": "=",
+            "C": "+",
+            "D": "%",
+            "E": "~"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Geleneksel öznel-ilksel ayrımının sona erdirilmesi bizi, tümeller arasındaki içsel bağıntıların kurduğu ağ içerisinde bir düğüm olacak tikel ile baş başa bırakır.",
+          "options": {
+            "A": "A. N. Whitehead",
+            "B": "A. De Morgan",
+            "C": "G. Frege",
+            "D": "B. Blanshard",
+            "E": "A. J. Ayer"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "İki değerli önermeler mantığında doğruluk değeri \"Y\" ile gösterilen bir önerme için aşağıdakilerden hangisi söylenir?",
+          "options": {
+            "A": "Yanıtlanmamış",
+            "B": "Yanlış",
+            "C": "Yoksay",
+            "D": "Yanıtsız",
+            "E": "Yöneltilmiş"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Russell'a göre günümüzde \"idea\" sözcüğü, \"……\" ile kastettiği şeyden çok farklı çağrışımlar taşımaktadır.<br>Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Platon'un",
+            "B": "Kripke'nin",
+            "C": "Cantor'un",
+            "D": "Whitehead'ın",
+            "E": "Aristoteles'in"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "\"Internal and External Relations\" isimli makalenin yazarı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "B. Russell",
+            "B": "E. Nagel",
+            "C": "R. M. Rorty",
+            "D": "G. Frege",
+            "E": "B. Blanshard"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "(Y ∧ A) işleminin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "~A",
+            "B": "Y",
+            "C": "A",
+            "D": "B",
+            "E": "D"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir konuşma evreninde yer alan önerme sayısı \"3\" ise mümkün doğruluk durumlarının sayısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "32",
+            "B": "8",
+            "C": "2",
+            "D": "4",
+            "E": "15"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bağıntı kavramını inceleyen ilk önemli çalışma olarak gösterilen ve bağıntıların bazı özelliklerini ortaya koyan \"Logica Hamburgensis\" isimli eserin yazarı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "J. Jungius",
+            "B": "Aristoteles",
+            "C": "B. Russell",
+            "D": "R. Descartes",
+            "E": "G. Frege"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Geçişlilik (transitivity) bağıntı özelliğini inceleyen ilk mantıkçı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "G. Frege",
+            "B": "B. Russell",
+            "C": "A. De Morgan",
+            "D": "G. Cantor",
+            "E": "J. H. Lambert"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Küme teorisini geliştiren kişi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "G. Cantor",
+            "B": "G. Frege",
+            "C": "B. Russell",
+            "D": "A. De Morgan",
+            "E": "J. H. Lambert"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bağdaşmazlık eklemi içeren (p | D) ifadesinin eş değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "D",
+            "B": "Y",
+            "C": "D",
+            "D": "~p",
+            "E": "p"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Rorty benzer şekilde, bir tümelin başka tümel ya da tümellerle bir içsel bağıntı kurabileceği gibi dışsal bağıntı da kurabileceğini belirtmiş, buna örnek olarak \"……\" bağıntısını vermiştir. Nitekim bu bağıntı \"insanlık\" tümeliyle \"akıllılık\" tümeli arasında bir içsel bağıntı özelliği gösterirken \"insanlık\" tümeliyle \"filozofluk\" tümeli arasında dışsal bir bağıntı işlevi görmektedir. Yukarıdaki parçada boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "uzanma",
+            "B": "büyük olma",
+            "C": "isteme",
+            "D": "yaklaşma",
+            "E": "gerektirme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Teorik olarak \"n\" sayıda şey arasında bir ilişki kurulduğunda kaçlı bir bağıntı elde edilir?",
+          "options": {
+            "A": "n²'li",
+            "B": "n³'lü",
+            "C": "n'li",
+            "D": "n²'lü",
+            "E": "n³'lü"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mantık Çeşitleri 1 2022-2023 Vize",
+      "exam_title": "Mantık Çeşitleri 1 2022-2023 Vize",
+      "exam_type": "vize",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Mantik_Cesitleri_1_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "\"Bir şeyin doğasının onun tüm özelliklerini içerdiğini iddia etmek X hakkındaki tüm önermelerin analitik olduğunu kabul etmek anlamına gelir.\" görüşünü savunan İngiliz filozof aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "G. Frege",
+            "B": "Whitehead",
+            "C": "J. Heinrich Lambert",
+            "D": "Ayer",
+            "E": "Augustus De Morgan"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Geçişlilik (transitivity) bağıntı özelliği ilk kez aşağıdaki filozoflardan hangisi tarafından ele alınmıştır?",
+          "options": {
+            "A": "Augustus De Morgan",
+            "B": "Bertrand Russell",
+            "C": "J. Heinrich Lambert",
+            "D": "Aristoteles",
+            "E": "G. Boole"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "\"Mantıkta, herhangi bir önermede tek bir şeye ilişkin belirli bir özelliği ifade eden bir yüklem ….. yüklem olarak adlandırılır.\" Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "bakışımlı",
+            "B": "çoklu",
+            "C": "paylaşımlı",
+            "D": "bağıntılı",
+            "E": "tekli"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "\"A→D\" işleminin doğruluk değeri aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "D",
+            "B": "A",
+            "C": "~D",
+            "D": "Y",
+            "E": "~A"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Logistik ismi verilen yeni mantık anlayışını ilk geliştiren mantıkçı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "G. Cantor",
+            "B": "Augustus De Morgan",
+            "C": "G. Frege",
+            "D": "J. Heinrich Lambert",
+            "E": "Bertrand Russell"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Herhangi bir sembolik ifadeye ilişkin bir doğruluk tablosunda yer alan yorumların (interpretaiton) en az birinin \"yanlış\" olması durumunda aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Tutarlı",
+            "B": "Geçerli",
+            "C": "Akıl yürütmenin yanlışlığı",
+            "D": "Üçüncü hâlin olanaksızlığı",
+            "E": "Geçersiz"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Felsefe Sorunları (The Problems of Philosophy) adlı kitabın yazarı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "J. Heinrich Lambert",
+            "B": "G. Frege",
+            "C": "Aristoteles",
+            "D": "Augustus De Morgan",
+            "E": "Bertrand Russell"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir konuşma evreninde yer alan önerme sayısı \"n\" ise mümkün doğruluk durumlarının sayısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "2^n + 7",
+            "B": "2^n",
+            "C": "2^n + 2",
+            "D": "2^n + 5",
+            "E": "2^n + 3"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki filozoflardan hangisinin sembolik mantığa katkısı en azdır?",
+          "options": {
+            "A": "Herakleitos",
+            "B": "G. Boole",
+            "C": "J. Heinrich Lambert",
+            "D": "Bertrand Russell",
+            "E": "Augustus De Morgan"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Genel olarak tekli yüklemler bir ….., çoklu yüklemler ise ….. dile getirirler.\" Yukarıdaki cümlede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "çoklu - bağıntı",
+            "B": "bağıntı - bakışım",
+            "C": "özellik - bağıntı",
+            "D": "bağıntı - özellik",
+            "E": "bakışım - bağıntı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "\"İki iki daha dört eder gibi matematiksel bir bilgi, tek tek tikellerden tümevarım yoluyla elde edilen bir bilgi değildir.\" önermesi Russell'ın kabul ettiği bir önermedir. Bunun nedeni aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bu türden bilgiler bir tek örnek üzerine düşünülerek açıkça bilinebilmektedir.",
+            "B": "Bu türden bilgiler tümeller üzerine düşünülerek açıkça bilinebilmektedir.",
+            "C": "Bu türden bilgiler bütün örnekler üzerine düşünülerek açıkça bilinebilmektedir.",
+            "D": "Bu türden bilgiler hiçbir örnek üzerine düşünülmeden de açıkça bilinebilmektedir.",
+            "E": "Bu türden bilgiler tikel örnekler üzerine düşünülerek açıkça bilinebilmektedir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "İki değerli önermeler mantığında doğruluk değeri \"D\" ile gösterilen bir önerme için aşağıdakilerden hangisi söylenir?",
+          "options": {
+            "A": "Dayanaksız",
+            "B": "Dağıtılmış",
+            "C": "Doğru",
+            "D": "Desteklenmiş",
+            "E": "Değerli"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bağıntıların içselliği ve dışsallığını konu edinen \"Internal and External Relations\" isimli makalenin yazarı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Augustus De Morgan",
+            "B": "Richard M. Rorty",
+            "C": "G. Frege",
+            "D": "J. Heinrich Lambert",
+            "E": "Bertrand Russell"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bağdaşmazlık ekleminin kuralları göz önünde bulundurulduğunda aşağıdaki gösterimlerden hangisi doğrudur?",
+          "options": {
+            "A": "(p→q) = (q|q)",
+            "B": "~p = (p)",
+            "C": "(p∧q) = (p|q)|(q)",
+            "D": "(p∨q) = (p|p)|(q|q)",
+            "E": "(p∨q) = (p|p)|q"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Alfred North Whitehead ve Bertrand Russell tarafından tüm matematiksel doğrulukları sembolik mantıkla ifade edebilme, dolayısıyla matematiği mantığa indirgeme iddiasıyla hazırlanan üç ciltlik mantık eseri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Principia Differancia",
+            "B": "Principia Mathematica",
+            "C": "Logica Mathematica",
+            "D": "Principia Principia",
+            "E": "Principia Logica"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "\"Internal Relations\" adlı çalışmanın yazarı olan İngiliz filozof aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Whitehead",
+            "B": "G. Frege",
+            "C": "Augustus De Morgan",
+            "D": "Ayer",
+            "E": "J. Heinrich Lambert"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "\"↔\" ancak ve ancak ekleminin doğruluk değerleri aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "D, D, D, D",
+            "B": "D, D, Y, Y",
+            "C": "D, D, Y, D",
+            "D": "D, D, D, Y",
+            "E": "D, Y, Y, D"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "\"Edinburgh Londra'nın kuzeyindedir.\" önermesinde bağıntı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Güneyinde olma",
+            "B": "Edinburgh ile Londra arasındaki mesafe",
+            "C": "İngiltere'nin başkenti olma",
+            "D": "Kuzeyinde olma",
+            "E": "Olimpiyatlara ev sahipliği yapma"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Önermeler mantığı \"önermelerin hangi değeri\" taşıyor olmaları üzerine kurulmuştur?",
+          "options": {
+            "A": "Nesne",
+            "B": "Doğruluk değeri",
+            "C": "Yüklem",
+            "D": "Özne",
+            "E": "İçerik"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi 20. yüzyılın hemen başında Amerikalı mantıkçı Henry Maurice Sheffer (1882-1964) tarafından ortaya konulmuş bir eklemdir?",
+          "options": {
+            "A": "Değilleme",
+            "B": "Özdeşlik",
+            "C": "Bağdaşmazlık",
+            "D": "Tikel evetleme",
+            "E": "Tümel evetleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mantık Çeşitleri 1 2022-2023 Final",
+      "exam_title": "Mantık Çeşitleri 1 2022-2023 Final",
+      "exam_type": "final",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Mantik_Cesitleri_1_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıda ifade edilenlerden hangisi \"kısmi terslik ilişkisi\" taşır?",
+          "options": {
+            "A": "'x' kişisi 'y' kişisinin annesiyse 'y' kişisi 'x' kişisinin babasıdır.",
+            "B": "'x' kişisi 'y' kişisinin dedesiyse 'y' kişisi 'x' kişisinin torunudur.",
+            "C": "'x' kişisi 'y' kişisinin ebeveyniyse 'y' kişisi 'x' kişisinin çocuğudur.",
+            "D": "'x' kişisi 'y' kişisinin annesiyse 'y' kişisi 'x' kişisinin torunudur.",
+            "E": "'x' kişisi 'y' kişisinin torunuysa 'y' kişisi 'x' kişisinin babasının oğludur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "\"Ayşe, Bayram ve Sibel telefonda görüşüyor.\" Bu önerme sembolleştirdiğinde aşağıdakilerden hangisiyle gösterilir?",
+          "options": {
+            "A": "Ta",
+            "B": "Tsb",
+            "C": "Sabt",
+            "D": "Tas",
+            "E": "Tabs"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "I. Yansımalı II. Yansımasız III. Yansız Yukarıdaki bağıntılardan hangisi ya da hangileri yansıma grubu bağıntılarındandır?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "II ve III",
+            "C": "Yalnız I",
+            "D": "Yalnız II",
+            "E": "I ve II"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "I. Geçişimsiz II. Geçişmeli III. Ne geçişli ne de geçişsiz Yukarıdaki bağıntılardan hangisi veya hangileri geçişlilik grubu bağıntılarındandır?",
+          "options": {
+            "A": "II ve III",
+            "B": "I ve II",
+            "C": "Yalnız II",
+            "D": "Yalnız III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Herhangi bir sembolik ifadeye ilişkin bir doğruluk tablosunda yer alan yorumların (interpretaiton) tümünün \"doğru\" olması aşağıdakilerden hangisini verir?",
+          "options": {
+            "A": "Sezgisel",
+            "B": "Geçerli",
+            "C": "Geçersiz",
+            "D": "Üçüncü hâlin olanaksızlığı",
+            "E": "Akıl yürütmenin yanlışlığı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi yansıma grubu bağıntılarına bir örnek olarak verilemez?",
+          "options": {
+            "A": "Superman ile Spiderman denk güçtedir.",
+            "B": "Churchill, Stalin'le aynı yüzyılda yaşamıştır.",
+            "C": "Tekir, Sarman kadar yaramazdır.",
+            "D": "İstanbul çok nemlidir.",
+            "E": "Tekir'in sahibiyle Sarman'ın sahibi aynı kişidir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bağdaşmazlık ekleminin kuralları göz önünde bulundurulduğunda aşağıdaki gösterimlerden hangisi doğrudur?",
+          "options": {
+            "A": "(p→q) = p|(q)",
+            "B": "~p = (p|p)",
+            "C": "(p∨q) = (p|p)|(q)",
+            "D": "(p∧q) = (p|q)|(p)",
+            "E": "(p∨q) = (p)|(q|q)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "\"x nesnesi y nesnesi için bir bağıntı taşırken y nesnesi bu bağıntıyı z nesnesi için taşıyorsa x nesnesi aynı bağıntıyı z nesnesi için de taşır. Böyle bir bağıntı …… adını alır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "bileşik",
+            "B": "yansımasız",
+            "C": "ne yansımalı ne de yansımasız",
+            "D": "geçişli",
+            "E": "çapraz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"Günlük dildeki bir önermede bir bağıntı, kendisini gerçekleyen nesnelerin belli bir sıra içerisindeki yerlerine ilişkin bir bağıntıysa, bu bağıntı ….. adını alır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "ne yansımalı ne de yansımasız bağıntı",
+            "B": "yansımasız bağıntı",
+            "C": "bileşme bağıntısı",
+            "D": "bağlantı bağıntısı",
+            "E": "çaprazlık bağıntısı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Mantıkta, herhangi bir önermede birden fazla şey arasında yer alan bir ilişkiyi gösteren yüklem ….. yüklem olarak adlandırılır.\" Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "çoklu",
+            "B": "bakışımlı",
+            "C": "tekli",
+            "D": "kararlı",
+            "E": "paylaşımlı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "\"Bir bağıntının değillenmiş şekliyle tanımlanmış bir bağıntının değillenmesi ….. olarak adlandırılır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "çiftleme",
+            "B": "çift değilleme",
+            "C": "çapraz bağıntı",
+            "D": "değilleme",
+            "E": "tekrarlama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "\"Internal Relations\" adlı çalışmanın yazarı olan İngiliz filozof aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Augustus De Morgan",
+            "B": "Whitehead",
+            "C": "Ayer",
+            "D": "G. Frege",
+            "E": "J. Heinrich Lambert"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aritmetik bilgilerin şeylere, biz onları düşünsek de düşünmesek de uyması gerektiğini savunan mantıkçı kimdir?",
+          "options": {
+            "A": "Augustus De Morgan",
+            "B": "G. Cantor",
+            "C": "J. Heinrich Lambert",
+            "D": "G. Frege",
+            "E": "Bertrand Russell"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Tarski \"bileşim bağıntılarını\" aşağıdaki gösterimlerden hangisini kullanarak sembolleştirmektedir?",
+          "options": {
+            "A": "/",
+            "B": "<",
+            "C": "≠",
+            "D": "⊂",
+            "E": ">"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "\"Mantıkta herhangi bir bağıntı, zorunlu olarak her durumda yansıma özelliğini gerçekliyorsa …….. adını alır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "yansımasız bağıntı",
+            "B": "çapraz bağıntı",
+            "C": "kısmi yansımalı bağıntı",
+            "D": "bileşik bağıntı",
+            "E": "yansımalı bağıntı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi \"bakışımlı bağıntılara\" bir örnektir?",
+          "options": {
+            "A": "y < x",
+            "B": "x ≥ y",
+            "C": "x = y",
+            "D": "x ≤ ~ ~ y",
+            "E": "x < y"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "\"Uab\" şeklinde sembolleştirilen bir bağıntı aşağıdaki önermelerden hangisine denk olabilir?",
+          "options": {
+            "A": "Cemil köye gitti.",
+            "B": "Bayram uzaktadır.",
+            "C": "Ali, babasından utanır.",
+            "D": "Ali acıkmıştır.",
+            "E": "Bayram, Ali ve Cemil kardeştir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir konuşma evreninde yer alan önerme sayısı \"2\" ise mümkün doğruluk durumlarının sayısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "4",
+            "B": "16",
+            "C": "2",
+            "D": "8",
+            "E": "32"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki filozoflardan hangisinin \"on temel yüklem tipi\" üzerine çalışmaları günümüzde \"bağıntı\" kavramı bağlamında ele alınmaktadır?",
+          "options": {
+            "A": "Descartes",
+            "B": "Kripke",
+            "C": "Aristoteles",
+            "D": "Farabi",
+            "E": "Russell"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "\"Herhangi bir önermeyi meydana getiren özne ve nesne çifti, aralarındaki bağıntıyı karşılıklı olarak gerçekleyebiliyorlarsa yani bu önermedeki özne ve nesne yer değiştirse de önermenin doğruluğu değişmiyorsa, bu bağıntı ….. adını alır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "bakışımlı bağıntı",
+            "B": "ne yansımalı ne de yansımasız bağıntılar",
+            "C": "yansımasız bağıntı",
+            "D": "bileşik dağıntı",
+            "E": "çapraz bağıntı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mantik Cesitleri 1 2022-2023 Butunleme",
+      "exam_title": "Mantik Cesitleri 1 2022-2023 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2022-2023",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Mantik_Cesitleri_1_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bağıntıların içselliği ve dışsallığı sorunu üzerine \"Internal and External Relations\" isimli makaleyi kaleme alan mantıkçı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "G. Frege",
+            "B": "Leibniz",
+            "C": "J. Heinrich Lambert",
+            "D": "Augustus De Morgan",
+            "E": "Richard M. Rorty"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "\"Her 'x' ve bazı 'y'ler için, 'x', 'y' ile 'B' bağıntısını gerçekler veya 'y', 'x' ile 'B' bağıntısını gerçekler ise 'x' 'x'le 'B' bağıntısını gerçekler.\" şeklinde okunan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "(∀x)(Bxy V Byx) ⊃ Bxx)",
+            "B": "((∃y)(Bxy V Byx) ⊃ Bxx)",
+            "C": "(Bxy V Byx) ⊃ Bxx)",
+            "D": "(∀x)((∃y)(Bxy V Byx))",
+            "E": "(∀x)((∃y)(Bxy V Byx) ⊃Bxx)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Önermeler iki değerli mantık sistemine göre düşünüldüğünde aşağıdaki değerlerden hangisini alabilir?",
+          "options": {
+            "A": "Doğru - Yanlış",
+            "B": "Üretim – Tüketim",
+            "C": "Özne - Nesne",
+            "D": "Tümel – Tekil",
+            "E": "Siyah - Beyaz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "\"Mantık ve matematikte, herhangi bir evren içerisinde yer alan bir bağıntıyı gösteren bir alt-küme içerisindeki elemanlar arasında, bu bağıntı karşılıklı olarak gerçeklenebiliyorsa ….. adını alır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "kısmi yansımasız bağıntı",
+            "B": "ne yansımalı ne de yansımasız bağıntılar",
+            "C": "yansımasız bağıntı",
+            "D": "bileşik bağıntı",
+            "E": "bakışımlı bağıntı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "\"Logicism\" akımı olarak bilinen ve Russell'ın desteklediği akım aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Mekanikçilik",
+            "B": "Analizcilik",
+            "C": "Bürokratçılık",
+            "D": "Mantıkçılık",
+            "E": "Düşünsel evrimcilik"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "\"Begriffsschrift\" adlı kitabın yazarı kimdir?",
+          "options": {
+            "A": "Augustus De Morgan",
+            "B": "Bertrand Russell",
+            "C": "G. Frege",
+            "D": "J. Heinrich Lambert",
+            "E": "Aristoteles"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "\"Bazı bağıntılar ise yansıma özelliğini hiçbir şekilde gerçeklemezmiş gibi görünürlerken, istisnai durumlarda yansıma özelliği gösterebilmektedirler. Bu tür bağıntılar ….. olarak adlandırılırlar.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "bileşik bağıntılar",
+            "B": "ne yansımalı ne de yansımasız bağıntılar",
+            "C": "yansımasız bağıntılar",
+            "D": "çapraz bağıntılar",
+            "E": "yansımalı bağıntılar"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "\"Bağıntılar, aralarında ilişki kurdukları şeylerin sayısına göre adlandırılırlar.\" Buna göre aşağıdaki önermelerden hangisi ikili bağıntı örneğidir?",
+          "options": {
+            "A": "2, 4'ün kareköküdür.",
+            "B": "5, 2 ve 3'ün toplamıdır.",
+            "C": "Ali, Ayşe'yi Fatma ile tanıştırdı.",
+            "D": "Bağıntı, bakışım ve tikellik birbirleriyle karıştırılabilen özelliklerdir.",
+            "E": "Giresun, Ordu ile Trabzon arasındadır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"….. bağıntılar, herhangi bir evren içerisinde yer alan bir bağıntıyı gösteren bir alt-küme içerisindeki en az üç elemanın birbirleriyle oluşturdukları sıralı çiftler arasındaki bir ilişkiyi gösteren bağıntılardır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Ne yansımalı ne de yansımasız",
+            "B": "Çapraz",
+            "C": "Bileşik",
+            "D": "Yansımasız",
+            "E": "Geçişli"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Mantıkta herhangi bir bağıntı, hiçbir şekilde yansıma özelliğini gerçeklemiyorsa ….. adını alır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "çapraşık olmayan bağıntı",
+            "B": "çift değillemesiz bağıntı",
+            "C": "bakışımsız bağıntı",
+            "D": "yansımasız bağıntı",
+            "E": "bileşik olmayan bağıntı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bağıntıların üç temel özelliğini de taşıyan bağıntılara verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bakışım",
+            "B": "Karşılık",
+            "C": "Geçişlilik",
+            "D": "Denklik",
+            "E": "Yansıma"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "B geçişli bir bağıntı ise aşağıda verilmiş olanlardan hangi ikili arasında geçiş olabilir?",
+          "options": {
+            "A": "xBy ile yBz",
+            "B": "xBy ile zBz",
+            "C": "xBy ile yBy",
+            "D": "xBx ile yBz",
+            "E": "yBy ile yBz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi \"kısmi yansımalı bağıntılar\"ın bir gösterimidir?",
+          "options": {
+            "A": "(∃y)Byx",
+            "B": "(∀y)~~Byy",
+            "C": "(∀x)Bxx",
+            "D": "(∃x)~Bxx",
+            "E": "~(∀x)Bxy"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi \"çifte değilleme\" örneğidir?",
+          "options": {
+            "A": "~(Bxy)= Bxy",
+            "B": "~(~Bxy)= ~(~Bxy)",
+            "C": "~(~Bxy)=Bxy",
+            "D": "(~Bxy)= ~Bxy",
+            "E": "(Bxy)=Bxy"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "\"→\" ise ekleminin doğruluk değerleri aşağıdakilerden hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "D, D, D, D",
+            "B": "D, Y, D, D",
+            "C": "D, D, D, Y",
+            "D": "D, D, Y, Y",
+            "E": "Y, Y, Y, Y"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "İkili bir bağıntının sembolleştirilebilmesi için aşağıdakilerden hangisine ihtiyaç yoktur?",
+          "options": {
+            "A": "Önermenin öznesi",
+            "B": "Özne ile nesne arasındaki bağıntı",
+            "C": "Yüklemin değillenmesi",
+            "D": "Önermenin nesnesi",
+            "E": "Her unsurun gösterimi için farklı bir harfin kullanımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "\"Ayşe ve Fatma aynı evde yaşıyor.\" önermesi sembolleştirdiğinde aşağıdakilerden hangisiyle gösterilebilir?",
+          "options": {
+            "A": "FeA",
+            "B": "AEf",
+            "C": "Eaf",
+            "D": "Faa",
+            "E": "Aaa"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "\"Torunu olma\" bağıntısı ile \"dedesi olma\" bağıntısı hakkında aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "\"Torunu olma\" bağıntısı \"dedesi olma\" bağıntısının tersiyken \"dedesi olma\" bağıntısı \"torunu olma\" bağıntısının tam tersi olmaktadır.",
+            "B": "\"Torunu olma\" bağıntısı \"dedesi olma\" bağıntısının tersiyken \"dedesi olma\" bağıntısı \"torunu olma\" bağıntısının kısmî tersi olmaktadır.",
+            "C": "\"Torunu olma\" bağıntısı \"dedesi olma\" bağıntısının kısmî tersiyken \"dedesi olma\" bağıntısı da \"torunu olma\" bağıntısının kısmî tersi olmaktadır.",
+            "D": "\"Torunu olma\" bağıntısı \"dedesi olma\" bağıntısını içerirken \"dedesi olma\" bağıntısı \"torunu olma\" bağıntısını içermemektedir.",
+            "E": "\"Torunu olma\" bağıntısıyla \"dedesi olma\" bağıntısı arasında herhangi bir ilişki yoktur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "\"Herhangi bir bağıntının bakışımlı olması mümkün ama zorunlu değilse bu bağıntı ….. adını alır.\" önermesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "kısmi bakışımlı bağıntı",
+            "B": "kısmi yansımasız bağıntı",
+            "C": "bileşik bağıntı",
+            "D": "yansımasız bağıntı",
+            "E": "yansımalı bağıntı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "\"Görülebilir ki bir tümeli gösteren hiç olmazsa bir sözcük olmadan bir tümce kurulamaz.\" ifadesi hangi filozofa aittir?",
+          "options": {
+            "A": "G. Cantor",
+            "B": "Bertrand Russell",
+            "C": "G. Frege",
+            "D": "Leibniz",
+            "E": "Augustus De Morgan"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

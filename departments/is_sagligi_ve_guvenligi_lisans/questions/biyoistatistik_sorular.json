@@ -1,0 +1,1377 @@
+{
+  "course": "Biyoistatistik",
+  "lesson_code": "BIYOISTATISTIK",
+  "exam_count": 4,
+  "exams": [
+    {
+      "title": "Biyoistatistik 2023-2024 Vize",
+      "exam_title": "Biyoistatistik 2023-2024 Vize",
+      "exam_type": "vize",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Biyoistatistik_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir dağılımın simetrik olması hâlinde aşağıda verilen sıralamalardan hangisi doğrudur?",
+          "options": {
+            "A": "Aritmetik Ortalama > Mod = Medyan",
+            "B": "Aritmetik Ortalama = Mod > Medyan",
+            "C": "Aritmetik Ortalama = Medyan = Mod",
+            "D": "Aritmetik Ortalama > Medyan > Mod",
+            "E": "Aritmetik Ortalama < Medyan < Mod"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir öğrenci bir dönem boyunca girdiği matematik sınavlarından 92, 95 ve 98 puan almıştır. Öğrencinin matematik dersinde aldığı puanların aritmetik ortalaması nedir?",
+          "options": {
+            "A": "95",
+            "B": "91",
+            "C": "92",
+            "D": "96",
+            "E": "94"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda verilen ortalamalardan hangisi analitik (duyarlı) ortalamalar arasında yer almaz?",
+          "options": {
+            "A": "Medyan (Ortanca)",
+            "B": "Aritmetik ortalama",
+            "C": "Geometrik ortalama",
+            "D": "Kareli ortalama",
+            "E": "Duyarlı ortalama"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Verilerin, homojen alt gruplar şeklinde düzenlendiği sınıflanmış serilerin grafik sunumuna ….. denir. Yukarıdaki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "bindirmeli grafik",
+            "B": "daire dilimleri",
+            "C": "çubuk grafik",
+            "D": "histogram",
+            "E": "serpilme diyagramı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Birimleri, sıralamadan sadece türlerine göre kategorilere ayırmaya dayanan ölçüm düzeyine ….. denir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "sıralayıcı ölçüm düzeyi",
+            "B": "sınıflayıcı ölçün düzeyi",
+            "C": "belirleyici ölçüm düzeyi",
+            "D": "interval ölçüm düzeyi",
+            "E": "oran ölçüm düzeyi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Gruplama işlemi ile oluşturulan sınıflarda, sınıfın içinde kaç tane gözlemin yer aldığını gösteren değere….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "sınıf",
+            "B": "grup",
+            "C": "frekans",
+            "D": "tasnif",
+            "E": "gözlem"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "\"İstatistiki çalışmaya konu olan bir birimin sahip olduğu özelliklere ….. denir.\" Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "vasıf",
+            "B": "şık",
+            "C": "seri",
+            "D": "ölçek",
+            "E": "ölçüm düzeyi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Gözlem degerleri toplamı sıfır olduğunda ya da gözlem değerleri arasında negatif değer bulunduğunda aşağıda verilen seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "Geometrik ortalama en uygun ortalamadır.",
+            "B": "Aritmetik ortalama en uygun ortalamadır.",
+            "C": "Toplamı sıfır olan seride ortalama hesaplanmaz",
+            "D": "Negatif değer bulunan seride ortalama hesaplanamaz.",
+            "E": "Kareli ortalama en uygun ortalamadır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir istatistiki çalışma kapsamında toplanan verileri birbirine yakın homojen gruplara toplamak suretiyle oluşturulan alt ve üst sınırı belli aralıkların her birine….. denir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "sınır",
+            "B": "frekans",
+            "C": "birim",
+            "D": "tasnif",
+            "E": "sınıf"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir istatistiki çalışmaya, incelemeye ya da gözleme konu olan tüm birimlerin meydana getirdiği kütleye….. denir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "tam sayım",
+            "B": "ana kütle",
+            "C": "örnek kütle",
+            "D": "gözlem",
+            "E": "örnek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "I. Gruplama hem nitel hem nicel veriler için söz konusu olabilir. II. Gruplama İşleminde veriye yönelik bilgi kayıpları oluşur. III. Tasnif işlemi bilgi kaybına yol açar. Verilerin düzenlenmesi ile ilgili olarak yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "I ve II",
+            "B": "Yalnız III",
+            "C": "Yalnız II",
+            "D": "Yalnız I",
+            "E": "I ve III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Sınıflanmış bir dağılımda bir sınıfın alt sınırı ile üst sınırının toplanarak ikiye bölünmesi ile elde edilen ve o sınıfı temsil ettiği kabul edilen değere….. denir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "sınıf genişliği",
+            "B": "sınıf üst sınırı",
+            "C": "sınıf sayısı",
+            "D": "sınıf orta noktası",
+            "E": "sınıf alt sınırı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "İstatistiki araştırmaya konu olan bir birimin, uzun süre zarfında gözlenmesi mümkünse ya da bir birim uzun ömürlü olarak tanımlanıyorsa bu tür birimlere ….. denir. Yukarıdaki boşluğa aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "ani birim",
+            "B": "soyut birim",
+            "C": "devamlı birim",
+            "D": "somut birim",
+            "E": "maddi birim"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bir öğrenci, üniversite sınavına hazırlık aşamasında fen bilimleri alanında 4 deneme sınavına katılmış ve 60, 70, 80 ve 90 puanlarını almıştır. Buna göre, öğrencinin fen bilimleri testinde ortalama puanı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "95",
+            "B": "70",
+            "C": "98",
+            "D": "75",
+            "E": "60"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Bir bölgede gece sıcaklıkları 4 gün boyunca ölçülmüştür. Sıcaklık ölçüm sonuçları -4, 0, 2, 4 şeklinde tespit edilmiştir. Buna göre kareli ortalama sıcaklık nedir?",
+          "options": {
+            "A": "9",
+            "B": "4",
+            "C": "5",
+            "D": "3",
+            "E": "7"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "İstatistik çalışması yapılırken veri toplama İşleminin doğrudan araştırmacı tarafından yapılması hâlinde bu tür verilere ….. denir. Yukarıdaki boşluğa gelecek uygun seçenek aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "rölöve",
+            "B": "veri toplama",
+            "C": "birincil veri",
+            "D": "ikincil veri",
+            "E": "soru formu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aynı koşullar sağlanarak tekrar edildiğinde aynı sonuçları veren ve genellikle fizik, kimya vb. bilim alanlarında rastlanan olaylara ….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "kollektif olay",
+            "B": "tipik olay",
+            "C": "gözlem",
+            "D": "deney",
+            "E": "veri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Gözlem değerleri (3,4,5,6,7,8,8,9,9,9,10) olan ve 11 gözlemden oluşan serinin medyanı kaçtır?",
+          "options": {
+            "A": "7,25",
+            "B": "9.5",
+            "C": "9",
+            "D": "7",
+            "E": "8"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıda verilen sınıflanmış dağılımda sınıflara ilişkin sınıf orta noktaları sırasıyla hangi seçenekte doğru olarak verilmiştir?",
+          "options": {
+            "A": "15, 35, 65, 85",
+            "B": "10, 35, 60, 85",
+            "C": "0, 20, 50, 70",
+            "D": "20, 50, 70, 100",
+            "E": "10, 25, 60, 80"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Bir veri kümesinde kareli ortalama hesaplayabilmek için verinin ….. veya …… ölçeğinde ölçülmüş olması gerekir. Yukarıda boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "nominal-sıralayıcı",
+            "B": "sınıflayıcı-sıralayıcı",
+            "C": "nominal-ordinal",
+            "D": "kategorik-ordinal",
+            "E": "aralık-oran"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Biyoistatistik 2023-2024 Final",
+      "exam_title": "Biyoistatistik 2023-2024 Final",
+      "exam_type": "final",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Biyoistatistik_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Basit tesadüfi örneklemede, çekilen örneğin ortalaması, ana kütle ortalamasının ne tür bir tahminini vermektedir?",
+          "options": {
+            "A": "Duyarlı",
+            "B": "Kesin",
+            "C": "Doğru",
+            "D": "Sistematik hatasız",
+            "E": "Tutarlı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kadın doğum polikliniğine başvuracak hastalara bir form doldurtularak; hastanın yaşı, toplam gebelik sayısı, anlı doğum sayısı, düşük sayısı ve beden kitle indeksine yönelik veri toplanması planlanmaktadır.Buna göre, sayılan değişkenlerden hangisi sürekli değişken olarak nitelenebilir?(Not: Beden kitle indeksi= hastanın kilosu /hastanın boy uzunluğunun karesi)",
+          "options": {
+            "A": "Hastanın toplam gebelik sayısı",
+            "B": "Hastanın düşük sayısı",
+            "C": "Beden kitle indeksi",
+            "D": "Hastanın canlı doğum sayısı",
+            "E": "Hastanın yaşı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Gözlem sayısının çok fazla olması durumunda verileri düzenleme amacıyla kullanılan ve verilerin homojen gruplara/sınıflara ayrılmasını amaçlayan veri düzenleme yöntemine ……… denir. Yukarıdaki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "sınıf",
+            "B": "gözlem",
+            "C": "frekans",
+            "D": "tasnif",
+            "E": "gruplama"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Diyabet teşhisiyle tedavi görmekte olan bir hastanın bir süre boyunca açlık kan şekeri değerleri ölçülmüş ve 118, 112, 116, 118, 116,118, 117, 114, 118, 115 olarak belirlenmiştir. Buna göre açlık kan değerleri için mod değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "115",
+            "B": "114",
+            "C": "112",
+            "D": "116",
+            "E": "118"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir tesadüfi değişkenin alabileceği tüm değerler,bu değerlerin gerçekleşme olasılıkları ile birlikte ele alındığında ya da olasılıkların tüm birimlere nasıl dağıldığı gösterilerek ……… yaratılmış olur. Yukarıdaki boşluğa aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "beklenen değer",
+            "B": "tesadüfi deney",
+            "C": "örnek uzayı",
+            "D": "olasılık dağılımı",
+            "E": "tesadüfi değişken"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "X ve Y değişkenleri arasındaki korelasyon katsayısı r = 0,76 olarak hesaplanmıştır. Buna göre belirginlik katsayısı (determinasyon)katsayısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "0,1428",
+            "B": "0,5776",
+            "C": "0,9273",
+            "D": "0,8614",
+            "E": "0,2604"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Araştırma konusuna bağlı olarak ana kütlede yer alan birimlere ulaşmanın kolay olmadığı ve bu sebeple görüşülen her birimden alınan tavsiye ile bir sonraki gözlem biriminin tespit edildiği örnekleme yöntemi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Basit tesadüfi örnekleme",
+            "B": "Kolayda örnekleme",
+            "C": "Sistematik örnekleme",
+            "D": "Tabakalı (zümrelere görE) örnekleme",
+            "E": "Kartopu örnekleme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aritmetik ortalaması 9 kareli ortalaması 15 olan serinin standart sapması nedir?",
+          "options": {
+            "A": "12",
+            "B": "24",
+            "C": "81",
+            "D": "225",
+            "E": "15"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "İstatistik alanında yapılan bir çalışmanın konusunu oluşturan ve kollektif olay olarak nitelenen olayların her birine ….. denir. Yukarıdaki boşluğa gelecek uygun seçenek aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "şık",
+            "B": "değer",
+            "C": "vasıf",
+            "D": "veri",
+            "E": "birim"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir dağılım içinde herhangi bir birimin dağılım ortalamasından kaç standart sapma uzağa düştüğünü gösteren ölçüye ……… denir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "varyans",
+            "B": "değişim aralığı",
+            "C": "standart değer",
+            "D": "standart sapma",
+            "E": "değişim katsayısı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir hastanenin iç hastalıkları (dahiliye) bölümünde yatarak tedavi gören hastalar arasından tesadüfi olarak 21 kişi seçilmiştir. Bu hastaların diyastolik kan basıncı, önce A marka tansiyon ölçme cihazı ile ardından B marka tansiyon ölçme cihazı ile ölçülmüştür. Böylelikle her hasta için 2'şer ölçüm bilgisine ulaşılmıştır. Hastanenin başhekimi, bu hastaların farklı iki tansiyon cihazıyla elde edilmiş ölçümleri arasında 0,05 anlamlılık düzeyinde fark olup olmadığını sınamak istemektedir. Parametrik test varsayımları yerine getirildiğine göre yukarıdaki durum için aşağıdaki hipotez testlerinden hangisinin kullanılması gerekmektedir?",
+          "options": {
+            "A": "Kruskal Wallis H testi",
+            "B": "İki ortalama arasındaki farkın önemlilik testi",
+            "C": "İki eş arasındaki farkın önemlilik testi",
+            "D": "Ki-kare bağımsızlık testi",
+            "E": "Ana kütle ortalamasının testi (tek örneklem testi)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bir veri kümesini özetlemek, akılda kalıcı tek bir değer olarak ifade etmek ya da o veri kümesini temsil etmek amacıyla hesaplanan ve kullanılan istatistiki ölçülere verilen genel ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Genel değer",
+            "B": "Egemen değer",
+            "C": "Mod",
+            "D": "Ortalama",
+            "E": "Medyan"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "I. Basit indeksler II. Bileşik indeksler III. Değişik esaslı indeksler Yukarıdakilerden hangisi veya hangileri madde sayısına göre indeks türlerinden değildir?",
+          "options": {
+            "A": "I ve II",
+            "B": "Yalnız III",
+            "C": "Yalnız II",
+            "D": "Yalnız I",
+            "E": "II ve III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "I. Khi-kare dağılımı simetrik bir olasılık dağılımıdır. II. Khi-kare dağılımı asimetrik bir olasılık dağılımıdır. III. Khi-kare dağılımının şekli serbestlik derecesine göre değişir. Khi-kare dağılımı için yukarıda verilen ifadelerden hangisi ya da hangileri yanlıştır?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "I ve II",
+            "C": "Yalnız III",
+            "D": "II ve III",
+            "E": "Yalnız II"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Birden çok maddenin fiyatlarında baz yılı ya da başlangıç yılı fiyatına göre zaman içinde meydana gelen oransal değişimler aşağıda verileni ndekslerden hangisi ile ölçülür?",
+          "options": {
+            "A": "Değişik esaslı basit indeks",
+            "B": "Değişik esaslı Paasche indeksi",
+            "C": "Değişik esaslı Laspeyres indeksi",
+            "D": "Sabit esaslı bileşik indeks",
+            "E": "Sabit esaslı basit indeks"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bir araştırma sonucunda toplanan verilerin kontenjans tablosuyla düzenlenmesinde söz konusu tablonun hücre değerlerini oluşturan frekanslara ne denir?",
+          "options": {
+            "A": "Toplam frekans",
+            "B": "Gözlenen frekans",
+            "C": "Frekans",
+            "D": "Marjinal frekans",
+            "E": "Beklenen frekans"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Verileri düzenlemek amacıyla, verinin birbirine yakın şıklarını mümkün olduğunca homojen sınıflarda toplamak suretiyle oluşturulan serilere…….. denir. Yukarıdaki boşluğa gelecek uygun seçenek aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "ayrılmış seri",
+            "B": "sınıflanmış frekans serisi",
+            "C": "sıralanmış seri",
+            "D": "tasnif edilmiş seri",
+            "E": "düzenlenmiş seri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "İki değişken arasında doğrusal ilişki bulunmaması durumunda aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "r=0,95",
+            "B": "r=-0,99",
+            "C": "r = 0",
+            "D": "r =+1",
+            "E": "r = -1"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "I. Sınıflama (Nominal) II. Sıralama (Ordinal) III. Aralık (Interval) Parametrik hipotez testlerinden biri olan iki ortalama arasındaki farkın önemlilik testinin verinin ölçüm düzeyiyle ilgili varsayımı dikkate alındığında; bu test için verinin ölçüm düzeyi yukarıdakilerden hangisi veya hangileridir?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "Yalnız I",
+            "C": "Yalnız II",
+            "D": "I – II",
+            "E": "II – III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "İç Anadolu Bölgesi'nde bulunan dört ilin hava sıcaklıkları santigrat cinsinden ölçülmüştür. Bu ölçümler yukarıdaki tabloda sunulmuştur. Bu dört il için kareli ortalamayı kullanarak bulunacak sıcaklık ortalaması aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "1,87",
+            "B": "-0,50",
+            "C": "0,73",
+            "D": "1,22",
+            "E": "0,00"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Biyoistatistik 2022-2023 Final",
+      "exam_title": "Biyoistatistik 2022-2023 Final",
+      "exam_type": "final",
+      "year": "2022-2023",
+      "question_count": 18,
+      "source_url": "",
+      "file_name": "Biyoistatistik_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir veri kümesi içinde yer alan gözlem değerleri arasında önem farkı bulunması durumunda ortalama hesabı yapılırken ….. tercih edilmelidir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "medyan",
+            "B": "mod",
+            "C": "ağırlıklı ortalama",
+            "D": "geometrik ortalama",
+            "E": "aritmetik ortalama"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "\"Ana kütlede yer alan birimlerin değişkenliğinin yüksek olması yani heterojen bir ana kütle ile çalışılması durumunda güven sınırlarını daraltmak istendiğinde ….. gerekir.\" Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "örnek birim sayısını arttırmak",
+            "B": "olasılık değerini arttırmak",
+            "C": "örnek birim sayısını azaltmak",
+            "D": "olasılık değerini azaltmak",
+            "E": "büyük gözlem değerlerini örneğe almamak"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Çok sayıda birimden oluşan bir ana kütleden, az sayıda birimden oluşan örnek çekmek suretiyle hesaplanan örnek istatistiğinden hareketle ana kütle parametresini tahmin etme işlemine ….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "istatistik",
+            "B": "Örneklem",
+            "C": "örnekleme",
+            "D": "örnek kütle",
+            "E": "parametre"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Gruplama işlemi ile oluşturulan sınıflarda, sınıfın içinde kaç tane gözlemin yer aldığını gösteren değere….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "tasnif",
+            "B": "gözlem",
+            "C": "frekans",
+            "D": "sınıf",
+            "E": "grup"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Çeşitli X ve Y değişkenleri arasındaki korelasyon katsayıları aşağıda verilmiştir. Buna göre en güçlü ilişkiyi ifade eden katsayı hangi seçenekte yer almaktadır?",
+          "options": {
+            "A": "0,65",
+            "B": "-0,55",
+            "C": "0,95",
+            "D": "0,78",
+            "E": "-0,99"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Gözlem değerlerini küçükten büyüğe (ya da büyükten küçüğe) sıraladığımızda tam ortada yer alan değere….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "aritmetik ortalama",
+            "B": "kareli ortalama",
+            "C": "geometrik ortalama",
+            "D": "duyarlı ortalama",
+            "E": "medyan"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki tesadüfi değişkenlerden hangisi süreklidir?",
+          "options": {
+            "A": "Bir sigorta şirketinin yıllık poliçe sayısı",
+            "B": "Bir ülkede ithal edilen yıllık araç sayısı",
+            "C": "Bir satranç oyununun devam süresi",
+            "D": "Bir havayolu şirketinin bir yıl içinde taşıdığı yolcu sayısı",
+            "E": "Bir çiftlikte üretilen yıllık tavuk sayısı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "İki değişken arasındaki karşılıklı ilişkiyi yani iki değişkenin birlikte değişme derecesini ölçen katsayıya ….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "regresyon katsayısı",
+            "B": "belirsizlik katsayısı",
+            "C": "gini katsayısı",
+            "D": "korelasyon katsayısı",
+            "E": "belirginlik katsayısı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Nominal ya da ordinal verilerin birlikte düzenlendiği tablolara….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "olasılık tablosu",
+            "B": "korelasyon tablosu",
+            "C": "beklenen değer tablosu",
+            "D": "kontenjans tablosu",
+            "E": "khi-kare tablosu"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir veri toplama işlemi sonucunda tüm gözlem değerlerinin aynı olması başka bir ifadeyle eşit değer alması durumunda standart sapmanın değeri için aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "Bir şey söylenemez.",
+            "B": "Standart sapma 1'e eşit olur.",
+            "C": "Ortalamanın yarısına eşit olur.",
+            "D": "Standart sapma sıfıra eşittir.",
+            "E": "Aritmetik ortalamaya eşit olur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Kontenjans tablosu ile düzenlenmiş iki nominal ya da ordinal değişkenin birbiriyle ilişkili olup olmadığı ….. ile araştırılır. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "T testi",
+            "B": "F testi",
+            "C": "Z testi",
+            "D": "Wald testi",
+            "E": "Khi-kare bağımsızlık testi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bir hastanenin yatan hasta kısmındaki kişilerin bölümlere göre dağılımı aşağıdaki grafikte yer almaktadır. Bu hastaların %60'ının iç hastalıkları, %10'unun göz hastalıkları ve %30'unun cilt hastalıkları bölümünde yattığı görülmektedir. Bu bilginin sunulduğu grafik türü, aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bindirmeli grafik",
+            "B": "Çizgi grafiği",
+            "C": "Çubuk grafiği",
+            "D": "Histogram",
+            "E": "Serpilme diyagramı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir değişken ya da değişkenlerin değerlerinde zaman içinde veya mekanlar arasında ortaya çıkan değişmelerinin oransal ölçüsüne ….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "indeks",
+            "B": "baz yıl",
+            "C": "reel değer",
+            "D": "cari değer",
+            "E": "madde sepeti"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Gerçekte doğru olan temel hipotezin, hipotez Çözümlemesi sonucunda reddedilmesi durumunda ortaya çıkmaktadır. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "ikinci tip hata",
+            "B": "temel hata",
+            "C": "sistematik hata",
+            "D": "örnekleme hatası",
+            "E": "birinci tip hata"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Gözlem değerleri toplamı sıfır olduğunda ya da gözlem değerleri arasında negatif değer bulunduğunda aşağıda verilen seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "Negatif değer bulunan seride ortalama hesaplanamaz.",
+            "B": "Geometrik ortalama en uygun ortalamadır.",
+            "C": "Aritmetik ortalama en uygun ortalamadır.",
+            "D": "Kareli ortalama en uygun ortalamadır.",
+            "E": "Toplamı sıfır olan seride ortalama hesaplanmaz."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "\"İstatistiki çalışmaya konu olan bir birimin sahip olduğu özelliklere ….. denir.\" Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "şık",
+            "B": "vasıf",
+            "C": "ölçek",
+            "D": "ölçüm düzeyi",
+            "E": "seri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bir tesadüfi deney neticesinde ortaya çıkabilecek bütün mümkün sonuçlara sayısal bir değer verilmek suretiyle bir ….. tanımlanmış olur. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?A) olasılık dağılımı",
+          "options": {
+            "A": "",
+            "B": "tesadüfi değişken",
+            "C": "örnek uzayı",
+            "D": "mümkün sonuçlar kümesi",
+            "E": "tesadüfi deney"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aynı koşullar sağlanarak tekrar edildiğinde aynı sonuçları veren ve genellikle fizik, kimya vb. bilim alanlarında rastlanan olaylara ….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "deney",
+            "B": "tipik olay",
+            "C": "veri",
+            "D": "gözlem",
+            "E": "kollektif olay"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Biyoistatistik 2023-2024 Butunleme",
+      "exam_title": "Biyoistatistik 2023-2024 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Biyoistatistik_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıda çeşitli regresyon modelleri için hesaplanan belirsizlik katsayıları verilmiştir. Buna göre bağımlı değişkendeki değişmeleri açıklama oranı en yüksek model hangisidir?",
+          "options": {
+            "A": "0,16",
+            "B": "0,11",
+            "C": "0,04",
+            "D": "0,09",
+            "E": "0,13"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda verilen vasıflardan hangisi nitel vasfa örnektir?",
+          "options": {
+            "A": "Bel çevresi",
+            "B": "Kilo",
+            "C": "Boy",
+            "D": "Yaş",
+            "E": "Cinsiyet"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Tek bir maddenin fiyatlarında baz yılı ya da başlangıç yılı fiyatına göre zaman içinde meydana gelen oransal değişimler …….. ile ölçülür. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "değişik esaslı basit indeks",
+            "B": "sabit esaslı basit indeks",
+            "C": "sabit esaslı Paasche indeksi",
+            "D": "sabit esaslı bileşik indeks",
+            "E": "sabit esaslı Laspeyres indeksi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Örnekleme çalışmalarında örnek birim sayısı arttırılırsa yani örnek kütlede daha çok birime yer verilirse güven sınırlarının nasıl değişmesi beklenir?",
+          "options": {
+            "A": "Daralır.",
+            "B": "Bir şey söylenemez.",
+            "C": "Üç kat daralır.",
+            "D": "Genişler.",
+            "E": "Değişmez."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Verilerin küçükten büyüğe ya da büyükten küçüğe doğru sıralanması suretiyle oluşturulan seriye ….. denir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "sınıflanmış seri",
+            "B": "basit seri (dizi)",
+            "C": "bileşik seri",
+            "D": "tasnif edilmiş seri",
+            "E": "gruplanmış seri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda bir TV programının izlenmesi üzerinde cinsiyetin etkili bir faktör olup olmadığına yönelik olarak yapılan bir çalışmaya ilişkin kontenjans tablosu verilmektedir. Buna göre programı izleyen erkek sayısına yönelik gözlenen frekans aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "50",
+            "B": "35",
+            "C": "20",
+            "D": "55",
+            "E": "15"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Standart sapması 9,5 olan serinin varyansı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "90,25",
+            "B": "11,5",
+            "C": "21,5",
+            "D": "22,5",
+            "E": "3,5"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir örnekleme çalışmasında örnek kütle dağılma ölçüsü olan s değerinin 15 ve örnek birim sayısının 36 olması durumunda ortalamanın standart hatası değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "6,0",
+            "B": "2,5",
+            "C": "1,5",
+            "D": "2,0",
+            "E": "3,0"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıda verilen serinin ortalama sapması aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "4",
+            "B": "0",
+            "C": "5",
+            "D": "2",
+            "E": "3"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir ilde Mayıs ayı gündüz sıcaklıkları bir hafta boyunca gözlenerek günlük ortalama sıcaklık seviyeleri tespit edilmiştir. Bu sıcaklık değerleri,19, 20, 20, 22, 24, 24 ve 25 şeklindedir. Buna göre söz konusu hafta sıcaklığı için aritmetik ortalama aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "24",
+            "B": "25",
+            "C": "24,714",
+            "D": "22",
+            "E": "25,523"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Gözlem değerleri -2, 2, 4, 6 olan bir serinin kareli ortalaması aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "6,055",
+            "B": "2,655",
+            "C": "3,873",
+            "D": "7,757",
+            "E": "4,445"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "İstanbul'da bir mahallede yaşayan insanlara yaşları sorulmuştur. Elde edilen yaş verileri ise birbirine yakın homojen gruplar hâlinde raporlanmış olup yukarıdaki tabloda sunulmuştur. Bu şekilde yapılan veri düzenlemesine ne ad verilir?",
+          "options": {
+            "A": "Gruplama",
+            "B": "Vasıf",
+            "C": "Kısmi rölöve (derleme)",
+            "D": "Tasnif",
+            "E": "Frekans"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıda yer alan değişkenlerden hangisi kesikli bir değişkendir?",
+          "options": {
+            "A": "Üretilen margarinlerin ağırlıkları",
+            "B": "Bir atölyede dikilen gömleklerdeki kusur sayısı",
+            "C": "Üretilen deterjan kutularının ağırlığı",
+            "D": "Üretilen kumaşların rulo uzunluğu",
+            "E": "Üretilen konservelerin ağırlıkları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "I. Basit İndeksler II. Bileşik İndeksler III. Değişik Esaslı İndeksler Yukarıdakilerden hangisi veya hangileri esas alınan döneme göre indeks türlerindendir?",
+          "options": {
+            "A": "II – III",
+            "B": "Yalnız II",
+            "C": "I – II",
+            "D": "Yalnız III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "I. Temel ve alternatif hipotezlerin oluşturulması II. Anlamlılık düzeyinin belirlenmesi ve kritik değerin bulunması III. Test istatistiği değerinin hesaplanması IV. Kritik değer ile test istatistiği değerinin karşılaştırılması V. Test sonucunun yorumlanması Yukarıdaki hipotez testinin aşamaları aşağıdaki ifadelerden hangisinde doğru bir sıralama ile verilmiştir?",
+          "options": {
+            "A": "II-IV-III-I-V",
+            "B": "IV-V-I-II-III",
+            "C": "III-I-II-IV-V",
+            "D": "V-IV-I-III-II",
+            "E": "I-II-III-IV-V"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Tıp fakültesinde biyoistatistik dersi final sınavı gerçekleştirilmiş ve tesadüfi örnekleme yöntemiyle 25 kadın ve 25 erkek öğrencinin sınav puanları incelenmiştir. Biyoistatistik final sınav puanı açısından kadın ve erkek öğrenci grupları arasında 0,01 anlamlılık düzeyinde fark olup olmadığı araştırılmak istenmektedir. Parametrik test varsayımlarının yerine getirildiği durumda aşağıdaki hipotez testlerinden hangisinin kullanılması gerekir?",
+          "options": {
+            "A": "İki ortalama arasındaki farkın önemlilik testi",
+            "B": "Ki-kare bağımsızlık testi",
+            "C": "Kruskal Wallis H testi",
+            "D": "Ana kütle ortalamasının testi (tek örneklem testi)",
+            "E": "İki eş arasındaki farkın önemlilik testi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bir olasılık dağılımından söz edebilmek için, tüm mümkün sonuçlara yönelik olasılık değerlerinin toplamının …… olması gerekir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Sıfır",
+            "B": "Birden büyük",
+            "C": "Bir",
+            "D": "Yüz",
+            "E": "Birden küçük"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdaki katsayılardan hangisi belirginlik(determinasyon) katsayısı değeri olabilir?",
+          "options": {
+            "A": "-0,25",
+            "B": "+2,21",
+            "C": "+1,25",
+            "D": "+0,90",
+            "E": "-0,95"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "İki değişken arasında tam bağımsızlık olması,başka bir deyişle söz konusu iki değişkenin tamamen ilişkisiz olması durumunda khi-karedeğeri …… olur. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Negatif",
+            "B": "Yüz",
+            "C": "Bir",
+            "D": "Sonsuz",
+            "E": "Sıfır"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Bir sınıfta bulunan 10 öğrencinin ağırlıkları 55,70, 70, 60, 55, 65, 70, 60, 65, 70 olarak ölçülmüştür. Buna göre ağırlıkların mod değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "65",
+            "B": "Modu yoktur.",
+            "C": "60",
+            "D": "55",
+            "E": "70"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

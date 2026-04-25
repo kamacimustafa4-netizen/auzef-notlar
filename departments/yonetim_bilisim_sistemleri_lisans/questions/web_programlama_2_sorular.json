@@ -1,0 +1,358 @@
+{
+  "course": "Web Programlama 2",
+  "lesson_code": "WEB_PROGRAMLAMA_2",
+  "exam_count": 1,
+  "exams": [
+    {
+      "title": "Web Programlama 2 2024-2025 Final",
+      "exam_title": "Web Programlama 2 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Web_Programlama_2_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda yer alan Index() action metodu çağrıldığında ekrana hangi sayı basılır?",
+          "options": {
+            "A": "0",
+            "B": "3",
+            "C": "2",
+            "D": "4",
+            "E": "1"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki kod çalıştırıldığında veri tabanında aşağıdaki işlemlerden hangisi gerçekleşir?",
+          "options": {
+            "A": "Read",
+            "B": "Truncate",
+            "C": "Insert",
+            "D": "Update",
+            "E": "Delete"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Asp.Net Core uygulamalarında modele ait özellik değerinin mail adresine uygunluğunu denetleyen öznitelik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "[MailAddress]",
+            "B": "[EmailAddress]",
+            "C": "[E-MailAddress]",
+            "D": "[Mail]",
+            "E": "[Email]"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "adresine bir Http Get metodu isteği gönderildiğini varsayalım. Bu durumda RESTful mimarisine göre hangi işlemin yapılması beklenir?",
+          "options": {
+            "A": "Personel kayıtlarının http isteğinde gelen veriler ile güncellenmesi",
+            "B": "Http isteğinde gelen veriler doğrultusunda yeni bir personel kaydı eklenmesi",
+            "C": "Tüm personel kayıtlarının silinmesi",
+            "D": "Hata mesajı döndürmesi",
+            "E": "Tüm personel kayıtlarının listelenmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir Model sınıfı tanımlanmak istendiğinde bu sınıfın uzantısı aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": ".asp",
+            "B": ".html",
+            "C": ".js",
+            "D": ".cs",
+            "E": ".cshtml"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Asp.Net Core MVC'de SQL Server veri tabanı yönetim sisteminin EF Core ile birlikte kullanılacağı varsayıldığında, proje oluşturulduktan sonra projeye SQL Server'a ait aşağıdaki hangi veri sağlayıcısı eklenmelidir?",
+          "options": {
+            "A": "Microsoft.EntityFrameworkCore.SqlServer",
+            "B": "Microsoft.EfCore.SqlServer",
+            "C": "Microsoft.EntityFrameworkCore.InMemory",
+            "D": "MsSql.Data.EntityFrameworkCore",
+            "E": "Microsoft.EfCore.Sql"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir ASP.NET Core MVC uygulaması için varsayılan olarak oluşturulan layout aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Layout.cs",
+            "B": "_Layout.cshtml",
+            "C": "_Layout.cs",
+            "D": "view.cshtml",
+            "E": "Layout.cshtml"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir Asp.Net Core MVC uygulamasında bir model içerisinde yukarıdaki gibi tanımlı [Range(5, 10)] özniteliği ile Deger özelliği için nasıl bir kısıtlama sağlanmış olur?",
+          "options": {
+            "A": "Değer özelliğinin sadece 5 ve 10 değerlerini alabilmesi sağlanır.",
+            "B": "Değer özelliğinin maksimum 10 karakterli olması sağlanır.",
+            "C": "Değer özelliğinin minimum 5 karakterli olması sağlanır.",
+            "D": "Değer özelliğinin minimum 5, maksimum 10 karakterli olması sağlanır.",
+            "E": "Değer özelliğinin [5,10] arasında değerler alabilmesi sağlanır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Asp.Net Core MVC uygulamalarında bir model içerisinde kullanılan Display özelliği hangi tag helper ile kullanılır?",
+          "options": {
+            "A": "Input",
+            "B": "Textarea",
+            "C": "Select",
+            "D": "Text",
+            "E": "Label"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda yer alan kod bloğu Asp.Net Core uygulamalarında hangi sözdizimi yapısına uygundur?",
+          "options": {
+            "A": "C#",
+            "B": "Html",
+            "C": "LINQ-Method syntax",
+            "D": "LINQ-Query syntax",
+            "E": "Asp"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Form tag helper'ı ile siteler arası istek sahteciliği (CSRF) saldırısını önlemek için kullanılan özellik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "asp-protocol",
+            "B": "asp-area",
+            "C": "asp-host",
+            "D": "asp-antiforgery",
+            "E": "asp-page"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Asp.Net Core uygulamalarında kullanılan [ApiController] özniteliği için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "API'ye ait port numarasını ayarlar.",
+            "B": "Kullanıma hazır doğrulama ve model bağlama sağlar.",
+            "C": "Controller sınıfına miras verir.",
+            "D": "Postman kullanımına olanak tanır.",
+            "E": "Veri tabanına kayıt işlemlerinden sorumludur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "şeklinde tanımlı bir model elemanının tag helper ile kullanım biçimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bir Asp.Net Core MVC uygulamasında migration oluşturduktan sonra migration işlemini yürütmek (veritabanına uygulamak) için Package Manager Console Ekranı'nda aşağıdaki hangi komut çalıştırılmalıdır?",
+          "options": {
+            "A": "Add-Migration",
+            "B": "Select-Database",
+            "C": "Update-Database",
+            "D": "Add-Sql",
+            "E": "Add-Database"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıdaki kod çalıştırıldığında sonuc değişkenindeki değer ne olur?",
+          "options": {
+            "A": "2",
+            "B": "true",
+            "C": "3",
+            "D": "false",
+            "E": "5"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Cookie'ler ile aşağıdaki bilgilerin hangisini tutmak en uygun olur?",
+          "options": {
+            "A": "Veri tabanı bilgilerini",
+            "B": "Kullanıcı renk tercihlerini",
+            "C": "Sunucu bilgilerini",
+            "D": "Kullanıcı şifre bilgilerini",
+            "E": "Kullanıcı yetki bilgilerini"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bir Asp.Net Core MVC uygulamasında model doğrulamanın sunucu tarafında gerçekleşmesi için aşağıdaki hangi nesneye ait özellik true (doğru) olmalıdır?",
+          "options": {
+            "A": "ModelState.IsValid",
+            "B": "Data.IsTrue",
+            "C": "Js.IsTrue",
+            "D": "Model.IsTrue",
+            "E": "ModelState.Valid"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Sunucu taraflı Web frameworkler (çerçeveleri) ile ilgili olarak aşağıdaki seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Web frameworkler olmadan web programlama gerçekleştirilemez.",
+            "B": "Session (Oturum) yönetimi işlemlerini gerçekleştirebilirler.",
+            "C": "ORM'ler (Object-relational mapping) aracılığıyla veritabanı bağlantısı yapılandırma işlemini gerçekleştirebilirler.",
+            "D": "Form yönetimi ve doğrulaması işlemlerini gerçekleştirebilirler.",
+            "E": "URL yönlendirme işlemini gerçekleştirebilirler."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıdaki sınıf form elemanlarına model bağlama ile bağlanmak istendiğinde form nasıl tanımlanabilir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_PROGRAMLAMA_2_2024_2025_final_soru_19.jpg",
+          "image_file": "WEB_PROGRAMLAMA_2_2024_2025_final_soru_19.jpg",
+          "image_path": "resim-sorular/WEB_PROGRAMLAMA_2_2024_2025_final_soru_19.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Asp.Net Core Rest Api mimarisinde bir kaydı güncellemek istediğimizde bu isteğe yanıt veren metot aşağıdaki hangi öznitelik ile belirtilmelidir?",
+          "options": {
+            "A": "HttpGet",
+            "B": "HttpUpdate",
+            "C": "HttpDelete",
+            "D": "HttpPost",
+            "E": "HttpPut"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

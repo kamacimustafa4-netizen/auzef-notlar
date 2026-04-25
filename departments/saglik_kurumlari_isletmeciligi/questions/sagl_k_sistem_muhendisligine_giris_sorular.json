@@ -1,0 +1,709 @@
+{
+  "course": "Sağlık Sistem Mühendisliğine Giriş",
+  "lesson_code": "SAGL_K_SISTEM_MUHENDISLIGINE_GIRIS",
+  "exam_count": 2,
+  "exams": [
+    {
+      "title": "Sağlık Sistem Mühendisliğine Giriş 2024-2025 Vize",
+      "exam_title": "Sağlık Sistem Mühendisliğine Giriş 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Saglik_Sistem_Muhendisligine_Giris_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi sistemdeki israf noktaları arasında yer almaktadır?",
+          "options": {
+            "A": "Zaman",
+            "B": "Yöntem",
+            "C": "Teknik",
+            "D": "İnsan gücü",
+            "E": "Sistemde kullanılan her türlü olay ve nesne"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "I. Çıktısının olmaması II. Ölçülebilme III. Tanımlanabilme Yukarıdakilerden hangisi ya da hangileri süreç yönetiminde süreçlerin özellikleri arasında yer almaktadır?",
+          "options": {
+            "A": "II ve III",
+            "B": "I ve II",
+            "C": "Yalnız I",
+            "D": "Yalnız III",
+            "E": "I ve III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "I. İhtiyaçların sınırlılıkları II. Etkinlik analizleri III. Sistem dizaynı ve performansın analizi IV. Konfigürasyon yönetimi Yukarıdakilerden hangileri sistem mühendisliği sürecinin sistemin analiz ve kontrol dengesi aşamasında kullanılan araç ve yöntemler arasında yer almaktadır?",
+          "options": {
+            "A": "II, III ve IV",
+            "B": "I, III ve IV",
+            "C": "I ve II",
+            "D": "III ve IV",
+            "E": "II ve III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "I. Müşteriler II. Müşteri istekleri III. Ürün fiyatı Yukarıdaki ifadelerden hangisi veya hangileri süreçten beklenen tanımlanma aşamasında çok net olunması gereken başlıklardandır?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "I ve III",
+            "C": "Yalnız I",
+            "D": "II ve III",
+            "E": "I ve II"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "I. Sistemlerin bir yapısı vardır. II. Sistemlerin davranışı yoktur. III. Sistemlerin alt bileşenleri arasında ilişki veya bağlantılar söz konusudur. Yukarıdakilerden hangisi ya da hangileri sistemin genel karakteristik özellikleri arasında yer almaz?",
+          "options": {
+            "A": "I ve III",
+            "B": "Yalnız III",
+            "C": "Yalnız II",
+            "D": "Yalnız I",
+            "E": "II ve III"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Sistem tasarımında post-fordist sürecin getirdiği başlıca değişimlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Makineleşme",
+            "B": "Emek araçlarındaki değişim: \"Teknolojik Gelişme\"",
+            "C": "Mümkün olduğunca otomasyondan uzak iş geliştirme",
+            "D": "Bilgisayarlaşma",
+            "E": "Bilimsel dönem: Taylorizm"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Sistem tasarımında aşağıdaki yöntemlerden hangisi kullanılamaz?",
+          "options": {
+            "A": "Postfordist yöntem",
+            "B": "Toyota yöntemi",
+            "C": "Çekirdek teorisi",
+            "D": "Muda",
+            "E": "Kaizen"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Sistem yaklaşımında kapalı döngü yönetim sisteminin anlamı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sistem yönetiminde kısırlık oluşturacak kapalı yolların tespit edilmesi ile bunların açık döngüye çevrilmesidir.",
+            "B": "Sistem tasarımında tüm kişilerin açık ve kapalı davranış durumlarının insan kaynakları temel yönetim prensipleri uygulanması ile tam kapalı hale getirilmesi sonucu maaşları kimsenin bilmemesidir.",
+            "C": "Sistem tasarımının tam kapalı yapılması ve dış dünya ile tüm ilişkisinin koparılmasıdır.",
+            "D": "Sistem tasarımında tüm süreçlerin girdi çıktı ilişkileri ile sistemde kopma olmadan işlerin birbirini takip etmesidir.",
+            "E": "Sisteme dışardan müdahalenin kontrollü olmasıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "I. Sağlık yönetiminde finansman, örgütlenme, hizmet sunumu, politika, yönetim, planlama, çalışanlar ve hizmet alanlarına yönelik aktivitelerin ve sorunların çokluğu II. Mühendislik kavramının evrensel boyut değiştirmesi III. Sağlık yönetiminin doktorlardan alınmak istenmesi Yukarıdakilerden hangisi ya da hangileri sağlık sistem mühendisliğinin gelişmesinde etkili olmamıştır?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "I ve III",
+            "C": "Yalnız III",
+            "D": "II ve III",
+            "E": "I ve II"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Sağlık sistem mühendisliğinde aşağıdakilerden hangisi sonucunda bir değer oluşur?",
+          "options": {
+            "A": "Sağlık hizmetinin geliştirilmesi ve tedavi başarısının artırılması",
+            "B": "Sağlık hizmetlerine ilişkin yöntemlerin keşfi",
+            "C": "Sağlık hizmetinden faydalananların ihtiyaçlarının ve beklentilerinin tümünün karşılanması",
+            "D": "Sağlık hizmetinden faydalananların ihtiyaçlarının ve beklentilerinin mali kaynaklar ve ekip yeterlilikleri kadar karşılanması",
+            "E": "Sağlık hizmetinden faydalananların ihtiyaçlarının ve beklentilerinin planlamalar doğrultusunda gelişmesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi süreç yönetiminde değişim katmanı fonksiyonuna sahip değildir?",
+          "options": {
+            "A": "Psikolojik değişim",
+            "B": "Fiziksel değişim",
+            "C": "Bilgisel değişim",
+            "D": "Konumsal değişim",
+            "E": "Değersel değişim"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "I. Planlama ve bakım düzeyleri II. Finansal raporlamalar III. Organizasyonel sorumluluklar Yukarıdakilerden hangisi ya da hangileri bakım kavramının üzerinde durması gereken unsurlar arasındadır?",
+          "options": {
+            "A": "II ve III",
+            "B": "I ve III",
+            "C": "Yalnız III",
+            "D": "Yalnız II",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "I. Tedavi edici sağlık hizmetleri II. Rehabilite edici sağlık hizmetleri III. Hastaların maliyet analizi hizmetleri Yukarıdakilerden hangisi ya da hangileri sağlık sistemleri arasında yer almaz?",
+          "options": {
+            "A": "II ve III",
+            "B": "Yalnız I",
+            "C": "Yalnız III",
+            "D": "Yalnız II",
+            "E": "I ve III"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Değer akışı kavramının tanımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Hangi değerde mal veya hizmet satılacağının belirlenmesi, buna göre kimlere hangi görevlerin verileceğinin ve sorumluluklarının belirlenmesidir.",
+            "B": "İş akışı diyagramının tersidir.",
+            "C": "Satış fiyatının belirlenmesidir.",
+            "D": "Bir ürünün ham maddeden tüketicinin kullanımına hazır hale getirilmesine (nihai olarak kullanılıp atılmasına) kadar geçirdiği aşamalardır.",
+            "E": "Kimin neye değer verdiğinin anlaşılmasıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi, girdileri çıktılara dönüştüren, birbirleriyle ilişkili veya etkileşimli faaliyetler takımını ifade etmektedir?",
+          "options": {
+            "A": "Modelleme",
+            "B": "Süreç",
+            "C": "Sistem",
+            "D": "Sistem mühendisliği",
+            "E": "Analiz"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi bilginin tanımıdır?",
+          "options": {
+            "A": "Olaylardan ve nesnelerden elde edilen kayıtlardan, matematiksel ve mantıksal yöntemleri kullanarak geleceğe veya sorunlara çözüm geliştirmedir.",
+            "B": "Olayların ve nesnelerin tanımlanmasıdır.",
+            "C": "Elde edilen kayıtlardan matematiksel işlem ile yorum çıkarmadır.",
+            "D": "Olaylardan ve nesnelerden elde edilen kayıtlardır.",
+            "E": "Nesnelerden elde edilen kayıtların olaylara yansıtılmasıdır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "I. Belirsizlik Teorisi II. Toyota Yönetimi III. Kaizen Yukarıdaki yöntemlerden hangisi ya da hangileri sistem tasarımında kullanılmaktadır?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "Yalnız III",
+            "C": "I ve II",
+            "D": "I ve III",
+            "E": "II ve III"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "I. Tasarlanacak sistemin gerçekleşme ihtimalidir. II. Tasarlanacak sistemin gereklilik analizidir. III. Sistemin iyileştirme fırsatlarının analizidir. Yukarıdakilerden hangisi ya da hangileri fizibilite etüdü kavramını ifade etmez?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "Yalnız III",
+            "C": "I ve III",
+            "D": "II ve III",
+            "E": "I ve II"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki tanımlamalardan hangisi sağlık sistemini ifade etmektedir?",
+          "options": {
+            "A": "Vücudu oluşturan doku ve organlarda eksiklik, işlev bozukluğu, mikrop taşıma gibi durumların olmaması hâlidir.",
+            "B": "Sağlık alanını oluşturan tüm fonksiyon ve gerekliliklerin, amaç, hedef ve temel stratejiler doğrusunda örgütlenmesi ve birbiri ile ilişkili hizmetlerin faaliyetler takımı olarak tasarlanmasıdır.",
+            "C": "Nerede, nasıl davranacağını ve sorumluluklarını bilen, insanlarla iyi ilişkiler içinde olup büyüğünü, küçüğünü severek hoşgörülü davranan, çevresiyle barışık olma hâlidir.",
+            "D": "Yaşına uygun olarak düşünebilen, düşündüklerini anlaşılır şekilde ifade edebilen, başkalarını anlayabilen, yerinde ağlamasını ve gülmesini bilen, güçlüklerle mücadele edebilen, koşullara uygun hareket edebilen, başarılarda mutlu olup başarısızlıkları kabullenebilen, kendisiyle barışık olma halidir.",
+            "E": "Koruyucu sağlık hizmetleri, tedavi edici sağlık hizmetleri ve esinlendirici (rehabilite edici) sağlık hizmetleridir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "I. Lojistik destek elemanları II. Satın alma politikaları III. Stratejik planlama Yukarıdakilerden hangisi ya da hangileri bakım kavramının üzerinde durması gereken unsurlar arasında yer alır?",
+          "options": {
+            "A": "I ve II",
+            "B": "Yalnız I",
+            "C": "Yalnız III",
+            "D": "I ve III",
+            "E": "II ve III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sağlık Sistem Mühendisliğine Giriş 2023-2024 Vize",
+      "exam_title": "Sağlık Sistem Mühendisliğine Giriş 2023-2024 Vize",
+      "exam_type": "vize",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Saglik_Sistem_Muhendisligine_Giris_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Sistem tasarımında \"mükemmellik\" aşağıdaki anlamlardan hangisine gelmektedir?",
+          "options": {
+            "A": "Verimlilikle doğrudan bağlantılı olan ve yalın olarak hedeflerin düşünülmesi, ona ulaşmak için bütün fazlalıklar, engeller ve israfların ortadan kaldırılmasıdır.",
+            "B": "Ürün geliştirme için hizmet adımlarının detaylı bir biçimde analiz edilmesidir.",
+            "C": "Sistem tasarımını en az adımla yerine getirilmesidir.",
+            "D": "En iyi sağlık hizmetini vermek için tüm hastaların eksiksiz ve kayıpsız tedavi edilmesidir.",
+            "E": "İşlerin en iyi şekilde, başkalarında kesinlikle olmayan yöntemlerle, yenilikçi buluş ve fikirlerle yapılması ile tüm iç ve dış paydaşların hayranlığının kazanılması, başkaları tarafından örnek alınmasıdır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "I. Rekabet etmek için en iyiyi yapmak, daha iyiyi bulmak II. Oluşacak hatalar için önceden önlem almak III. Yeniden yapılanmaya ihtiyaç duyulmaması Yukarıdakilerden hangisi ya da hangileri süreç yönetimi uygulanmasındaki genel prensipler arasında yer almaktadır?",
+          "options": {
+            "A": "II ve III",
+            "B": "Yalnız III",
+            "C": "Yalnız II",
+            "D": "Yalnız I",
+            "E": "I ve II"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi sistemdeki israf noktaları arasında yer almaktadır?",
+          "options": {
+            "A": "Yöntem",
+            "B": "İnsan gücü",
+            "C": "Teknik",
+            "D": "Sistemde kullanılan her türlü olay ve nesne",
+            "E": "Zaman"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "I. Tedavi edici sağlık hizmetleri II. Rehabilite edici sağlık hizmetleri III. Hastaların maliyet analizi hizmetleri Yukarıdakilerden hangisi ya da hangileri sağlık sistemleri arasında yer almamaktadır?",
+          "options": {
+            "A": "I ve III",
+            "B": "Yalnız III",
+            "C": "Yalnız II",
+            "D": "II ve III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "I. Sistemlerin bir yapısı vardır. II. Sistemlerin davranışı yoktur. III. Sistemlerin alt bileşenleri arasında ilişki veya bağlantılar yoktur. Yukarıdakilerden hangisi ya da hangileri sistemin genel karakteristik özellikleri arasında yer almamaktadır?",
+          "options": {
+            "A": "II ve III",
+            "B": "Yalnız I",
+            "C": "Yalnız II",
+            "D": "Yalnız III",
+            "E": "I ve III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Sistem yaklaşımında kapalı döngü yönetim sistemi ne anlama gelmektedir?",
+          "options": {
+            "A": "Sistem tasarımının tam kapalı yapılması ve dış dünya ile tüm ilişkisinin koparılmasıdır.",
+            "B": "Sistem tasarımında tüm süreçlerin girdi çıktı ilişkileri ile sistemde kopma olmadan işlerin birbirini takip etmesidir.",
+            "C": "Sistem tasarımında tüm kişilerin açık ve kapalı davranış durumlarının insan kaynakları temel yönetim prensipleri uygulanması ile tam kapalı hale getirilmesi sonucu maaşları kimsenin bilmemesidir.",
+            "D": "Sistem yönetiminde kısırlık oluşturacak kapalı yolların tespit edilmesi ile bunların açık döngüye çevrilmesidir.",
+            "E": "Sisteme dışardan müdahalenin kontrollü olmasıdır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi dünyada yönetim modellerinin gelişiminde, bilimsel yönetim dönemini başlatmıştır?",
+          "options": {
+            "A": "Sanayi Devrimi",
+            "B": "Klasik yönetim teorisi",
+            "C": "Postmodern yönetim teorisi",
+            "D": "Neoklasik yönetim teorisi",
+            "E": "Modern yönetim teorisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "I. Tasarlanacak sistemin gerçekleşme ihtimalidir. II. Tasarlanacak sistemin gereklilik analizidir. III. Sistemin iyileştirme fırsatlarının analizidir. Yukarıdakilerden hangisi ya da hangileri fizibilite etüdü kavramını ifade etmemektedir?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "I ve II",
+            "C": "II ve III",
+            "D": "I ve III",
+            "E": "Yalnız III"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi bilginin tanımıdır?",
+          "options": {
+            "A": "Olaylardan ve nesnelerden elde edilen kayıtlardan, matematiksel ve mantıksal yöntemleri kullanarak geleceğe veya sorunlara çözüm geliştirmedir.",
+            "B": "Elde edilen kayıtlardan matematiksel işlem ile yorum çıkarmadır.",
+            "C": "Olaylardan ve nesnelerden elde edilen kayıtlardır.",
+            "D": "Olayların ve nesnelerin tanımlanmasıdır.",
+            "E": "Nesnelerden elde edilen kayıtların olaylara yansıtılmasıdır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki tanımlamalardan hangisi sağlık sistemini ifade etmektedir?",
+          "options": {
+            "A": "Sağlık alanını oluşturan tüm fonksiyon ve gerekliliklerin, amaç, hedef ve temel stratejiler doğrultusunda örgütlenmesi ve birbiri ile ilişkili hizmetlerin faaliyetler takımı olarak tasarlanmasıdır.",
+            "B": "Nerede, nasıl davranacağını ve sorumluluklarını bilen, insanlarla iyi ilişkiler içinde olup büyüğünü, küçüğünü severek hoşgörülü davranan, çevresiyle barışık olma hâlidir.",
+            "C": "Koruyucu sağlık hizmetleri, tedavi edici sağlık hizmetleri ve esinlendirici (rehabilite edici) sağlık hizmetleridir.",
+            "D": "Vücudu oluşturan doku ve organlarda eksiklik, işlev bozukluğu, mikrop taşıma gibi durumların olmaması hâlidir.",
+            "E": "Yaşına uygun olarak düşünebilen, düşündüklerini anlaşılır şekilde ifade edebilen, başkalarını anlayabilen, koşullara uygun hareket edebilen, başarılarda mutlu olup başarısızlıkları kabullenebilen, kendisiyle barışık olma hâlidir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Mevcut bir iş döngüsü tasarımında gereksiz adımlar tespit ederek bunları sistemden çıkarma aktivitesine ne ad verilir?",
+          "options": {
+            "A": "Gemba",
+            "B": "Esnek üretim",
+            "C": "Kaizen",
+            "D": "Muda",
+            "E": "6 Sigma"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "I. Çıktısının olmaması II. Ölçülebilme III. Tanımlanabilme Yukarıdakilerden hangisi ya da hangileri süreç yönetiminde süreçlerin özellikleri arasında yer almaktadır?",
+          "options": {
+            "A": "I ve III",
+            "B": "Yalnız III",
+            "C": "Yalnız I",
+            "D": "II ve III",
+            "E": "I ve II"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Sistem tasarımında aşağıdaki yöntemlerden hangisi kullanılamaz?",
+          "options": {
+            "A": "Postfordist yöntem",
+            "B": "Toyota yöntemi",
+            "C": "Çekirdek teorisi",
+            "D": "Kaizen",
+            "E": "Muda"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "I. Kavramsal Hazırlık – Tasarım II. Kullanma – Aşınma – Değiştirme III. Ürün veya Hizmet Geliştirme IV. Ayrıntılı Tasarım ve Geliştirme Yukarıdakilerden hangisi ya da hangileri ürün yaşam çevriminin kullanım aşamasında yer almaktadır?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "Yalnız II",
+            "C": "II ve III",
+            "D": "I ve II",
+            "E": "I ve III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "I. Sağlık yönetiminde finansman, örgütlenme, hizmet sunumu, politika, yönetim, planlama, çalışanlar ve hizmet alanlarına yönelik aktivitelerin ve sorunların çokluğu II. Mühendislik kavramının evrensel boyut değiştirmesi III. Sağlık yönetiminin doktorlardan alınmak istenmesi Yukarıdakilerden hangisi ya da hangileri sağlık sistem mühendisliğinin gelişmesinde etkili olmamıştır?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "II ve III",
+            "C": "I ve II",
+            "D": "I ve III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "I. Lojistik destek elemanları II. Satın alma politikaları III. Stratejik planlama Yukarıdaki unsurlardan hangisi ya da hangileri bakım kavramının üzerinde durması gereken unsurlar arasında yer almaktadır?",
+          "options": {
+            "A": "I ve III",
+            "B": "Yalnız I",
+            "C": "I ve II",
+            "D": "Yalnız III",
+            "E": "II ve III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "I. Planlama ve bakım düzeyleri II. Finansal raporlamalar III. Organizasyonel sorumluluklar Yukarıdakilerden hangisi ya da hangileri bakım kavramının üzerinde durması gereken unsurlar arasındadır?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "II ve III",
+            "C": "Yalnız III",
+            "D": "I ve III",
+            "E": "Yalnız II"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Sistem tasarımında post-fordist sürecin getirdiği başlıca değişimlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bilgisayarlaşma",
+            "B": "Mümkün olduğunca otomasyondan uzak iş geliştirme",
+            "C": "Emek araçlarındaki değişim: ``Teknolojik Gelişme``",
+            "D": "Makineleşme",
+            "E": "Bilimsel dönem: Taylorizm"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Değer akışı kavramının tanımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Satış fiyatının belirlenmesidir.",
+            "B": "Bir ürünün ham maddeden tüketicinin kullanımına hazır hâle getirilmesine (nihai olarak kullanılıp atılmasına) kadar geçirdiği aşamalardır.",
+            "C": "Hangi değerde mal veya hizmet satılacağının belirlenmesi, buna göre kimlere hangi görevlerin verileceğinin ve sorumluluklarının belirlenmesidir.",
+            "D": "Kimin neye değer verdiğinin anlaşılmasıdır.",
+            "E": "İş akışı diyagramının tersidir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi, girdileri çıktılara dönüştüren, birbirleriyle ilişkili veya etkileşimli faaliyetler takımını ifade etmektedir?",
+          "options": {
+            "A": "Sistem mühendisliği",
+            "B": "Sistem",
+            "C": "Analiz",
+            "D": "Modelleme",
+            "E": "Süreç"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1122 @@
+{
+  "course": "Algoritmalar Ve Programlamaya Giriş",
+  "lesson_code": "ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS",
+  "exam_count": 4,
+  "exams": [
+    {
+      "title": "Algoritmalar Ve Programlamaya Giriş 2025-2026 Vize",
+      "exam_title": "Algoritmalar Ve Programlamaya Giriş 2025-2026 Vize",
+      "exam_type": "vize",
+      "year": "2025-2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Algoritmalar_Ve_Programlamaya_Giris_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki özelliklerden hangisi bir algoritmanın iyi tasarlanmış olduğunu göstermez?",
+          "options": {
+            "A": "Algoritma, olası tüm durumlar için bir çözüm sunar.",
+            "B": "Algoritma, doğru ve istenen sonuca ulaşır.",
+            "C": "Algoritma, belirli bir problemi çözmek için açık ve net adımlar içerir.",
+            "D": "Algoritma, sonlu sayıda adımdan oluşur.",
+            "E": "Algoritma, her zaman en hızlı çözümü sunar."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir programda yıllık kira hesabı yapılmaktadır. Buna göre programda yıllık kira artış oranı olarak belirlenmiştir ve bu değer programın hiçbir yerinde değiştirilmemektedir. Yukarıdaki örnekte kullanılan verinin saklanmasıyla ilgili aşağıdakilerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Veri tipi uint'tir.",
+            "B": "Veri tipi double'dır.",
+            "C": "Veri, sabitte saklanır.",
+            "D": "Veri, değişkende saklanır.",
+            "E": "Veri tipi byte'tır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "\"….., bir algoritmanın veri miktarı arttıkça tamamlaması gereken maksimum adım sayısını ifade eder.\" Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Zaman karmaşıklığı",
+            "B": "Alan karmaşıklığı",
+            "C": "Çalışma süresi",
+            "D": "Bellek gereksinimi",
+            "E": "Algoritma türü"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi ile ifade edilen bir algoritma diğerlerine göre daha yavaş çalışır?",
+          "options": {
+            "A": "O(log n)",
+            "B": "O(n log n)",
+            "C": "O(1)",
+            "D": "O(n)",
+            "E": "O(n³)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yapılan bir sınavdan öğrenciler sırasıyla şu notları almıştır: Öğrenci_1: 92 puan, Öğrenci_2: 75 puan, Öğrenci_3: 49 puan. Yukarıdaki kaba kodda öğrencinin aldığı puana göre harf notu hesaplanmaktadır. Buna göre öğrenciler sırasıyla hangi harf notlarını almıştır?",
+          "options": {
+            "A": "Öğrenci_1: AA, Öğrenci_2: BA, Öğrenci_3: CA",
+            "B": "Öğrenci_1: BA, Öğrenci_2: CA, Öğrenci_3: CC",
+            "C": "Öğrenci_1: AA, Öğrenci_2: BB, Öğrenci_3: FF",
+            "D": "Öğrenci_1: BA, Öğrenci_2: BB, Öğrenci_3: CC",
+            "E": "Öğrenci_1: BA, Öğrenci_2: BB, Öğrenci_3: CB"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi algoritmalarda geçerli bir karakter veri tipi örneğidir?",
+          "options": {
+            "A": "True",
+            "B": "30.12.2024",
+            "C": "3.14",
+            "D": "'e'",
+            "E": "205"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "I. Bu yapılar sayesinde sıralı bir algoritmadaki bazı adımlar atlanır. II. Bu yapılar bir seçim yapılmasını sağlar. III. Bu yapıların kullanımı bir algoritmada ardışık işlem yapılmasını zorunlu kılar. IV. Bu yapılar sayesinde döngü kullanımı ortadan kalkar. Koşullu yapılar ile ilgili olarak yukarıdaki ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "Yalnız II",
+            "C": "II ve IV",
+            "D": "I ve II",
+            "E": "I ve III"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "\"….., algoritma geliştirilmesine yardımcı olan, formal olmayan, bilgisayar tarafından çalıştırılmayan, herhangi bir programlama dilinin yazım kurallarına bağlı kalınmasını zorunlu kılmayan bir nitelik taşımaktadır.\" Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Program",
+            "B": "Kodlama",
+            "C": "Sözlü ifade",
+            "D": "Kaba kod",
+            "E": "Program kodu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki seçeneklerden hangisi ogrenci_isim değişkenine \"Ahmet Yılmaz\" değerinin atanmasını sağlar?",
+          "options": {
+            "A": "ogrenci isim \"Ahmet Yılmaz\"",
+            "B": "ogrenci isim \"Ahmet Yılmaz\"",
+            "C": "ogrenci isim: \"Ahmet\"",
+            "D": "ogrenci adı & \"Ahmet\"",
+            "E": "ogrenci_isim = \"Ahmet Yılmaz\""
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2025_2026_vize_soru_9.png",
+          "image_file": "ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2025_2026_vize_soru_9.png",
+          "image_path": "resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2025_2026_vize_soru_9.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Verilen akış diyagramında gösterilen program (kelime okuma ve i=1,6 döngüsü) ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Programda seçimli yapı bulunmamaktadır.",
+            "B": "Kullanıcı tarafından bir kelime girilmesi istenmektedir.",
+            "C": "Girilen kelime kullanıcının istediği kadar yazdırılacaktır.",
+            "D": "Programda bir adet for döngüsü çalışmaktadır.",
+            "E": "i programda önceden tanımlanmıştır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "13579 çıktısını elde etmek için aşağıdaki kodlardan hangisi kullanılabilir?",
+          "options": {
+            "A": "FOR i = 1 TO 9 STEP 2YAZ iNEXT i",
+            "B": "FOR i = 1 TO 9YAZ iNEXT i++",
+            "C": "FOR i = 1 TO 10YAZ iNEXT i",
+            "D": "FOR i = 0 TO 10 STEP 2YAZ iNEXT i",
+            "E": "FOR i = 0 TO 9YAZ iNEXT i"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukarıdaki program, sayının sırasıyla 10, -5 ve 0 girilmesi durumlarında aşağıdaki hangi sonuçları döndürür?",
+          "options": {
+            "A": "Sonuç: 36, Sonuç: 0, Sonuç: 5",
+            "B": "Sonuç: 36, Sonuç: 3, Sonuç: 5",
+            "C": "Sonuç: 36, Sonuç: 0, Sonuç: 3",
+            "D": "3, 36, 5",
+            "E": "36, 5, 3"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir algoritmada sayac değişkeninin her seferinde 3 katına çıkması için aşağıdaki ifadelerden hangisi kullanılır?",
+          "options": {
+            "A": "sayac ++3",
+            "B": "sayac = sayac + 3",
+            "C": "sayac = sayac + 1",
+            "D": "sayac = sayac * 3",
+            "E": "sayac = 3"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Algoritmaların analizinde kullanılan notasyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Teta notasyonu",
+            "B": "Beta notasyonu",
+            "C": "O notasyonu",
+            "D": "Sigma notasyonu",
+            "E": "Alfa notasyonu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "0 2 4 6 8 10 çıktı değerlerini elde etmek için aşağıdaki kodlardan hangisi doğru kullanılmıştır?",
+          "options": {
+            "A": "FOR i = 0 TO 10 STEP 1YAZ iNEXT i++",
+            "B": "FOR i = 0 TO 10 STEP 2YAZ iNEXT i",
+            "C": "FOR i = 0 TO 10YAZ i",
+            "D": "FOR i = 1 TO 10YAZ iNEXT i",
+            "E": "FOR i = 2 TO 10YAZ iNEXT i"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Kullanıcı, çıkış kelimesini girmediği müddetçe çalışan ve girilen kelimeyi ekrana yazdıran ve tekrardan kullanıcıdan kelime girmesini isteyen bir kaba kodda boş bırakılan satıra aşağıdaki ifadelerden hangisi getirilmelidir?",
+          "options": {
+            "A": "YAZ (çıkış)",
+            "B": "OKU çıkış",
+            "C": "YAZ (\"kelime\")",
+            "D": "OKU",
+            "E": "OKU kelime"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "I. Koşullu yapılar, bir algoritmada belirli adımların yalnızca belirli şartlar sağlandığında yapılmasını sağlar. II. Koşullu yapılar, belirli bir duruma göre alternatif yollar seçilmesini mümkün kılar. III. Koşullu yapılar, döngü yapıları ile birlikte kullanılabilir. IV. Koşullu yapılar, bir algoritmada işlem sırasını kesinleştirir ve alternatif sunmaz. Koşullu yapılaryla ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+          "options": {
+            "A": "I ve II",
+            "B": "I, II ve III",
+            "C": "II ve III",
+            "D": "I, III ve IV",
+            "E": "II ve IV"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir öğrenci ders kapsamında iki farklı sınava girmektedir. Vize sınavının 'ını final sınavının 'ını hesaplayıp toplam geçme puanını hesaplayan ve sonucu kullanıcıya gösteren programda soru işareti (YAZ (?)) ile ifade edilen alana ne yazılmalıdır?",
+          "options": {
+            "A": "vize",
+            "B": "gecmePuani",
+            "C": "toplamPuanı",
+            "D": "final",
+            "E": "Yazdır(gecmePuani)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıda kaba kodunda döngü kaç kere sonuç yazdırır?",
+          "options": {
+            "A": "4 kere",
+            "B": "5 kere",
+            "C": "6 kere",
+            "D": "3 kere",
+            "E": "Sonsuz kere"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "\"Hava soğuduysa üzerine kalın bir kazak giy.\" cümlesi ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Havanın sıcak olması durumunda ne yapılacağı bellidir.",
+            "B": "Hava ile ilgili sadece bir koşulun kontrolü yapılır.",
+            "C": "Kazak giyme eylemi bir koşula bağlıdır.",
+            "D": "Koşulun doğru olması durumunda hangi eylemin yapılacağı bellidir.",
+            "E": "Havanın soğuk olması bu cümlede bir koşul ifade eder."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritmalar Ve Programlamaya Giriş 2025-2026 Final",
+      "exam_title": "Algoritmalar Ve Programlamaya Giriş 2025-2026 Final",
+      "exam_type": "final",
+      "year": "2025-2026",
+      "question_count": 8,
+      "source_url": "",
+      "file_name": "Algoritmalar_Ve_Programlamaya_Giris_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir kullanıcıdan alınan A sayısının üç katının 4 fazlası ile yine kullanıcıdan alınan B sayısının beş eksiğinin 2 katı birbiriyle toplanmaktadır. Bu işlemler sonucunda elde edilen toplam, önce C değişkenine atanmaktadır. Ardından C değişkeni yazdırılmaktadır. Verilen kaba kodda soru işareti bulunan satırlara hangi şıktaki ifadeler gelmelidir?",
+          "options": {
+            "A": "C = (A*3+4) + (B*2-5) YAZ (C)",
+            "B": "C = (A+3)+4 * (B-5) YAZ (C)",
+            "C": "C = (A*3+4) + ((B-5)*2) YAZ (C)",
+            "D": "A=A*3+4, B=B-5*2 YAZ (C)",
+            "E": "C = (A*3+4) – ((B+5)*2) YAZ (A + B)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "I. Diziler sayısal olmayan değerleri tutabilir. II. Diziler mantıksal değerleri tutabilir. III. Dizideki elemanların pozisyonunu işaret etmek için indis değeri kullanılır. IV. Aynı dizinin içinde farklı tiplerde eleman bulunabilir. Diziler ile ilgili olarak yukarıdaki ifadelerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "II, III ve IV",
+            "B": "I, II ve III",
+            "C": "Yalnız I",
+            "D": "Yalnız II",
+            "E": "Yalnız IV"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi bir akış diyagramında sadece bir kez kullanabilecek elemanlardandır?",
+          "options": {
+            "A": "Koşul",
+            "B": "Alt program",
+            "C": "Döngü",
+            "D": "Fonksiyon",
+            "E": "Başla"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "I. Özyinelemeli fonksiyonlar, geri değer döndürmeyen alt programlarda kullanılırlar. II. Bu yapı, kodun uzamasına sebep olur. III. Programın kendi kendisini çağırdığı bir yapı söz konusudur. IV. Programın kendisini çağırması bir noktada sonlanmalı, programın sonsuz döngüye düşmemesine dikkat edilmelidir. Yukarıda özyinelemeli alt programlar ile ilgili bazı ifadeler yer almaktadır. Bu ifadelerden hangisi veya hangileri yanlıştır?",
+          "options": {
+            "A": "I ve II",
+            "B": "II ve III",
+            "C": "I, III ve IV",
+            "D": "Yalnız II",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir bilgisayar programı, 1'den N'ye kadar olan sayıların içinden sadece çift olanları ekrana yazdırmaktadır. Programın her sayıyı kontrol ederken hangi adımları izlemesi gerektiğini ve nasıl çalıştığını en iyi açıklayan seçenek aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Program 1'den N'ye kadar olan sayıları sırayla kontrol eder, her sayıyı ikiye böler ve kalan sıfırsa bu sayıyı ekrana yazdırır.",
+            "B": "Program, tek sayıları ekrana yazdırır ve çift sayıları atlar.",
+            "C": "Program, N'yi ikiye böler ve sonucu doğrudan ekrana yazdırır.",
+            "D": "Program, 1'den N'ye kadar olan tüm sayıları bir listeye ekler ve listeyi ekrana yazdırır.",
+            "E": "Program sadece 1 ile N arasındaki tüm sayıları ekrana yazdırır, herhangi bir koşul kullanmaz."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir hastanenin poliklinik hizmet saatleri 09:00-18:00 arasındadır. Girilen saati kontrol ederek hastanenin poliklinik hizmet saatleri dışında olduğunu belirten doğru kod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "dışındayız.\") yaklaşımı",
+            "B": "EĞER (saat < 09:00 VEYA saat > 18:00) ise YAZ (\"Poliklinik hizmet saatleri yöntemi",
+            "C": "EĞER (saat < 09:00 VEYA saat > 18:00) ise YAZ (\"Poliklinik hizmet saatleri değildir",
+            "D": "EĞER (saat < 09:00 VEYA saat > 18:00) ise YAZ (\"Poliklinik hizmet saatleri ilkesi",
+            "E": "EĞER (saat < 09:00 VEYA saat > 18:00) ise YAZ (\"Poliklinik hizmet saatleri dışındayız.\")"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "\"Herhangi bir öğrencinin final sınav notu 40'a eşit ve 40'tan düşükse, final sınavı geçersiz sayılır.\" Yukarıdaki ifadenin tersi şıklardan hangisinde verilen kaba kodda doğru ifade edilmiştir?",
+          "options": {
+            "A": "EĞER Deniz sınavdan 60 tan yüksek alırsa YAZ(\"Deniz başarılıdır.\")",
+            "B": "EĞER Deniz sınavdan 60 tan düşük alırsa YAZ (\"Deniz başarısızdır.\")",
+            "C": "EĞER Deniz sınavdan 40'tan düşük alırsa YAZ(\"Deniz'in sınavı geçersizdir.\")",
+            "D": "EĞER Deniz sınavdan 40 tan yüksek alırsa YAZ(\"Deniz'in sınavı geçerli sayılır.\")",
+            "E": "EĞER Deniz sınavdan 60'tan düşük alırsa YAZ (\"Deniz'in sınavı geçerlidir.\")"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir arama algoritması için aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Aranan eleman dizinin ilk elemanı olamaz.",
+            "B": "Her arama algoritması dizideki değerleri tek tek tarar.",
+            "C": "Aranan eleman ilgili dizide bulunmak zorundadır, aksi halde algoritma çalışmaya başlayamaz.",
+            "D": "Aranan elemanın dizide olmaması algoritmanın verimliliği açısından olabilecek en kötü durumu ifade eder.",
+            "E": "Arama algoritmalarının performansı sıralama algoritmalarından farklı olarak, veri boyutuna göre değişmez."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritmalar Ve Programlamaya Giriş 2024-2025 Final",
+      "exam_title": "Algoritmalar Ve Programlamaya Giriş 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 15,
+      "source_url": "",
+      "file_name": "Algoritmalar_Ve_Programlamaya_Giris_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "80 ve üzeri not alan öğrencilerin sayısını hesaplayan algoritmayı yazmak için yukarıda verilen kodda eksik bırakılan yerlere sırasıyla hangi değerler gelmelidir?",
+          "options": {
+            "A": "5, 90, 1",
+            "B": "6, 85, 1",
+            "C": "5, 60, 1",
+            "D": "5, 80, 1",
+            "E": "6, 85, 1"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https: //raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_1.jpg",
+          "image_file": "ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_1.jpg",
+          "image_path": "output_single_exam/images/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_1.jpg",
+          "source_image_url": "https: //i0.wp.com/lolonolo.com/wp-content/uploads/2025/12/Algoritmalar-ve-Programlamaya-Giris-2024-2025-Final-Sorulari-Guz-1.-soru-min.jpg? resize=380%2C274&ssl=1"
+        },
+        {
+          "id": 2,
+          "question": "carpim = 1 FOR i = 1 TO 5 carpim = carpim * i NEXT i YAZ(carpim) Yukarıdaki kaba kodda verilen işlemin en son adımındaki çıktısı nedir?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "24",
+            "D": "6",
+            "E": "120"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_2.jpg",
+          "image_file": "ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_2.jpg",
+          "image_path": "resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_2.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda bir ana program ve geriye değer döndürmeyen bir alt programa ait kaba kodlar verilmiştir. Kaba kodlarda boş bırakılan yerlere gelmesi gereken ifadeler sırasıyla hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "return, main",
+            "B": "main, return",
+            "C": "return, void",
+            "D": "void, call",
+            "E": "function, call"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "BAŞLA OKU (vize) OKU (final) gecmePuani = vize * 0.4 + final * 0.6 YAZ (?) BİTİR Bir öğrenci ders kapsamında iki farklı sınava girmektedir. Vize sınavının yüzde 40'ını, final sınavının yüzde 60'ını hesaplayıp toplam geçme puanını hesaplayan ve sonucu kullanıcıya gösteren programda soru işareti olan yere ne yazılmalıdır?",
+          "options": {
+            "A": "Yazdır(gecmePuani)",
+            "B": "final",
+            "C": "gecmePuani",
+            "D": "toplamPuani",
+            "E": "vize"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Arama algoritmaları için aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Arama algoritmaları temel olarak diziyi tarayarak istenen elemanı bulmaya çalışır.",
+            "B": "Aranan eleman dizide bulunmayabilir.",
+            "C": "Aranan elemanın dizideki ilk eleman olması algoritmanın verimliliği açısından olabilecek en kötü durumu ifade eder.",
+            "D": "Arama algoritmalarının her biri farklı şekillerde çalışır.",
+            "E": "Bazı arama algoritmalarının çalışabilmesi için belli birtakım ön şartların sağlanması gerekir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https: //raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2025_2026_final_render_d62f077c123aac69.png",
+          "image_file": "ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2025_2026_final_render_d62f077c123aac69.png",
+          "image_path": "output_single_exam/images/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2025_2026_final_render_d62f077c123aac69.png",
+          "source_image_url": "https: //i0.wp.com/lolonolo.com/wp-content/uploads/2025/12/Algoritmalar-ve-Programlamaya-Giris-2024-2025-Final-Sorulari-Guz-5.-soru-min.jpg? resize=372%2C439&ssl=1"
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda bir ana program ve geriye değer döndürmeyen bir alt programa ait kaba kodlar verilmiştir. Kaba kodlarda boş bırakılan noktalı yerlere gelmesi gereken ifadeler sırasıyla hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "return, main",
+            "B": "main, return",
+            "C": "function, call",
+            "D": "void, call",
+            "E": "return, void"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "I. Böl ve fethet mantığına göre çalışan bir algoritma özyinelemeli (recursive) olarak çalışabilir. II. Bu mantığa göre, problem tek bir adımda çözülmeye çalışılmaz. III. Bu mantığa göre çalışan bir algoritma kullanıldığında, farklı alt kümelerden elde edilen sonuçlar birleştirilerek nihai sonuç elde edilir. IV. Tüm sıralama algoritmaları böl ve fethet mantığına göre çalışır. Böl ve fethet mantığına göre çalışan algoritmalar için yukarıdaki ifadelerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "I, III ve IV",
+            "B": "Yalnız II",
+            "C": "I ve II",
+            "D": "I, II ve III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https: //raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/Algoritma_programlamaya_giris_2024_2025_final_soru_7.png",
+          "image_file": "Algoritma_programlamaya_giris_2024_2025_final_soru_7.png",
+          "image_path": "output_single_exam/images/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS/Algoritma_programlamaya_giris_2024_2025_final_soru_7.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukarıdaki kaba koda göre A_sayısı = 20, B_sayısı=10 olduğu durumda hangi çıktı elde edilir?",
+          "options": {
+            "A": "B_sayısı, A_sayısından büyüktür.",
+            "B": "B, A'dan büyüktür.",
+            "C": "B, A'dan küçüktür.",
+            "D": "B_sayısı, A_sayısından küçüktür.",
+            "E": "10, 20'den küçüktür."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https: //raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_8.jpg",
+          "image_file": "ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_8.jpg",
+          "image_path": "output_single_exam/images/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_8.jpg",
+          "source_image_url": "https: //i0.wp.com/lolonolo.com/wp-content/uploads/2025/12/Algoritmalar-ve-Programlamaya-Giris-2024-2025-Final-Sorulari-Guz-8.-soru-min.jpg? resize=377%2C252&ssl=1"
+        },
+        {
+          "id": 9,
+          "question": "Yukarıdaki geri değer döndüren bir alt programın kaba kodunda boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "call",
+            "B": "return",
+            "C": "void",
+            "D": "main",
+            "E": "function"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "I. Akış diyagramlarında sadece sıralı programlar ifade edilir. II. Akış diyagramları problemin görsel olarak ifade edilmesini sağlar. III. Akış diyagramlarının ifade şekli programlama dillerine göre değişkenlik gösterir. IV. Akış diyagramı, standartlaştırılmış elemanlardan oluşur. Akış diyagramları ile ilgili olarak yukarıdaki ifadelerden hangisi ya da hangileri yanlıştır?",
+          "options": {
+            "A": "II ve IV",
+            "B": "I ve III",
+            "C": "Yalnız II",
+            "D": "Yalnız I",
+            "E": "II ve III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "1 3 5 7 9 11 Yukarıdaki çıktı değerlerini elde etmek için aşağıdaki kodlardan hangisi doğru yazılmıştır?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https: //raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_render_f6fc14cb21480771.png",
+          "image_file": "ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_render_f6fc14cb21480771.png",
+          "image_path": "output_single_exam/images/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_render_f6fc14cb21480771.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "I. Diziler sayısal olmayan değerleri tutabilir. II. Diziler mantıksal değerleri tutabilir. III. Dizideki elemanların pozisyonunu işaret etmek için indis değeri kullanılır. IV. Aynı dizinin içinde farklı tiplerde eleman bulunabilir. Diziler ile ilgili olarak yukarıdaki ifadelerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "II, III ve IV",
+            "B": "I, II ve III",
+            "C": "Yalnız I",
+            "D": "Yalnız II",
+            "E": "Yalnız IV"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_12.jpg",
+          "image_file": "ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_12.jpg",
+          "image_path": "resim-sorular/ALGORITMALAR_VE_PROGRAMLAMAYA_GIRIS_2024_2025_final_soru_12.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıda verilen akış diyagramında i değerinin başlangıç değeri 5 olmak üzere 5-100 arasındaki tek sayıların küpünün hesaplanması ve sonucun yazdırılması sağlanmaktadır. Buna göre akış diyagramında boş bırakılan yere aşağıdaki seçeneklerden hangisi gelmelidir?",
+          "options": {
+            "A": "i = i++",
+            "B": "++i",
+            "C": "i++",
+            "D": "i = i + 1",
+            "E": "i = i + 2"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "BAŞLA ? YAZ (Kullanıcı_adı) BİTİR Yukarıdaki örnek programda kullanıcıdan adını girmesi istenmektedir. Bunun için soru işareti olan yere gelmesi gereken satır hangi şıkta doğru yazılmıştır?",
+          "options": {
+            "A": "GİR (kullanıcı_adı)",
+            "B": "AL kullanıcı_adı",
+            "C": "OKU (Kullanıcı_adı)",
+            "D": "YAZ \"kullanıcı_adı\"",
+            "E": "OKU kullanıcı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi bilinen bir arama algoritmasıdır?",
+          "options": {
+            "A": "Hızlı arama",
+            "B": "Dizi arama",
+            "C": "Çapraz arama",
+            "D": "Eleman arama",
+            "E": "İkili arama"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritmalar Ve Programlamaya Giriş 2023-2024 Final",
+      "exam_title": "Algoritmalar Ve Programlamaya Giriş 2023-2024 Final",
+      "exam_type": "final",
+      "year": "2023-2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Algoritmalar_Ve_Programlamaya_Giris_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "I. Bu akış diyagramının kaba kodu şu şekilde ifade edilebilir: BAŞLA toplam_1 = 0, toplam_2 = 0 FOR i = 1 TO 100 EĞER (i ≥ 50) İSE (toplam_1 = toplam_1 + i) EĞER (i < 50) İSE (toplam_2 = toplam_2 + i) NEXT i YAZ (toplam_1, toplam_2) BİTİR II.Bu akış diyagramında, 0 ve 100 arasındaki sayılardan, 50'ye eşit ve 50'nin üzerinde olan sayıların toplamı \"toplam_1\", 50'den küçük olan sayıların toplamı \"toplam_2\" değişkenlerinde saklanmaktadır. Bu değişkenlerin tuttuğu toplam sonuçları ekrana yazdırılmaktadır. III. Bu akış diyagramında for döngüsünden yararlanılmıştır. IV. Bu akış diyagramında sayılar her adımda ikişer artmaktadır. Yukarıda bir akış diyagramı verilmiştir. Bu akış diyagramı ile ilgili olarak aşağıdaki şıklardan hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "I, II ve III",
+            "B": "I ve II",
+            "C": "I, II ve IV",
+            "D": "Yalnız I",
+            "E": "III ve IV"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki akış diyagramında gösterilen program ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "i programda önceden tanımlanmıştır.",
+            "B": "Girilen kelime kullanıcının istediği kadar yazdırılacaktır.",
+            "C": "Kullanıcı tarafından bir kelime girilmesi istenmektedir.",
+            "D": "Programda bir adet for döngüsü çalışmaktadır.",
+            "E": "Programda seçimli yapı bulunmamaktadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "I. Özyinelemeli fonksiyonlar, geri değer döndürmeyen alt programlarda kullanılırlar. II. Bu yapı, kodun uzamasına sebep olur. III. Programın kendi kendisini çağırdığı bir yapı söz konusudur. IV. Programın kendisini çağırması bir noktada sonlanmalı, programın sonsuz döngüye düşmemesine dikkat edilmelidir. Yukarıda özyinelemeli alt programlar ile ilgili bazı ifadeler yer almaktadır. Bu ifadelerden hangisi veya hangileri yanlıştır?",
+          "options": {
+            "A": "II ve III",
+            "B": "I ve II",
+            "C": "Yalnız I",
+            "D": "I, III ve IV",
+            "E": "Yalnız II"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir öğrenci ders kapsamında iki farklı sınava girmektedir. Birinci sınavın %30'unu, ikinci sınavın %70'ini hesaplayıp toplam sınav puanını hesaplayan ve sonucu kullanıcıya gösteren programda soru işareti olan yere ne yazılmalıdır?",
+          "options": {
+            "A": "toplamPuan",
+            "B": "ikinciÖdev",
+            "C": "ödevPuanı",
+            "D": "Yazdır(toplam)",
+            "E": "birinciÖdev"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Tasarlanan iki ayrı kaba kodda şu işlemler yapılmaktadır: \"Her iki kaba kodda da kullanıcının birer sayı girmesi istenir. Birinci kaba kodda sayı 10'dan küçükse sayının 5 katı hesaplanır, sayı ve sonuç ekrana yazdırılır. İkinci kaba kodda sayı 10'a eşit veya 10'dan büyükse sayının 2 katının 8 fazlası hesaplanır. Ekrana sadece sonuç yazdırılır.\" Verilen anlatıma göre yukarıdaki kaba kodlardan hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "III ve IV",
+            "B": "II ve IV",
+            "C": "Yalnız II",
+            "D": "II ve III",
+            "E": "I ve II"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir iş yerinin mesai saatleri 8:30-17:30 arasındadır. Girilen saati kontrol ederek iş yerinin mesai saatleri dışında olduğunu belirten kaba kod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "EĞER (saat > 8:30 VE saat < 17:30) ise YAZ (\"Mesai saatleri dışındayız.\")",
+            "B": "EĞER (saat > 8:30 VEYA saat < 17:30) ise YAZ (\"Mesai saatleri dışındayız.\")",
+            "C": "EĞER (saat < 17:30) ise YAZ (\"Mesai saatleri dışındayız.\")",
+            "D": "EĞER (saat > 8:30 VE saat >17:30) ise YAZ (\"Mesai saatleri dışındayız.\")",
+            "E": "EĞER (saat 17:30) ise YAZ (\"Mesai saatleri dışındayız.\")"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "I. Alt programlar, programın yapısal olmasını sağlar. II. Alt programlar, ilgili programın sadece bir yerinde çalıştırılabilir, birden fazla kez kullanılamaz. III. Ana program tarafından alt program çağrılırken, ilgili parametre türünün alt programda tanımlanan veri türü ile uyumlu olması gerekir. IV. Alt programlar, ana bir programa ihtiyaç duymadan tek başına çalışabilen yapılardır. Alt programlar ile ilgili olarak yukarıdaki ifadelerden hangisi ya da hangileri yanlıştır?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "I ve III",
+            "C": "Yalnız I",
+            "D": "II ve IV",
+            "E": "III ve IV"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "I. Tek boyutlu diziler satırlar ve sütunlardan oluşur. II. Birden fazla tek boyutlu dizinin bir araya gelmesi ile iki boyutlu diziler oluşur. III. Tek bir indis değeri kullanımı yeterlidir. IV. İki for döngüsü kullanılarak oluşturulabilir. Tek boyutlu diziler ile ilgili olarak yukarıdaki ifadelerden hangisi ya da hangileri yanlıştır?",
+          "options": {
+            "A": "I, II ve III",
+            "B": "Yalnız II",
+            "C": "II ve III",
+            "D": "Yalnız I",
+            "E": "I ve IV"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"….., algoritma geliştirilmesine yardımcı olan, formal olmayan, bilgisayar tarafından çalıştırılmayan, herhangi bir programlama dilinin yazım kurallarına bağlı kalınmasını zorunlu kılmayan bir nitelik taşımaktadır.\" Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Sözlü ifade",
+            "B": "Kodlama",
+            "C": "Kaba kod",
+            "D": "Program kodu",
+            "E": "Program"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıdaki programda A'nın çift sayı olup olmamasına göre iki farklı hesap yapılmaktadır. Buna göre A'nın çift sayı olup olmadığının kontrol edilmesi için programda soru işareti olan yere yazılması gerekenler hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "A * 2 = 0",
+            "B": "A = %2",
+            "C": "A = A + 2",
+            "D": "A % 2 = 0",
+            "E": "A / 2 = 0"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "I. Diziler sayısal olmayan değerleri tutabilir. II. Diziler mantıksal değerleri tutabilir. III. Dizideki elemanların pozisyonunu işaret etmek için indis değeri kullanılır. IV. Aynı dizinin içinde farklı tiplerde eleman bulunabilir. Diziler ile ilgili olarak yukarıdaki ifadelerden hangisi veya hangileri yanlıştır?",
+          "options": {
+            "A": "II, III ve IV",
+            "B": "Yalnız II",
+            "C": "I, II ve III",
+            "D": "Yalnız I",
+            "E": "Yalnız IV"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukarıda verilen akış diyagramında i değeri -5 ve 18 arasındaki değerleri alıp döngünün her adımında 2 artmaktadır. Buna göre akış diyagramında boş bırakılan yere gelmesi gereken ifadeler aşağıdaki hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "i = 18, -5, 1",
+            "B": "i = -5, 18, 2",
+            "C": "i = 5, -18, 2",
+            "D": "i = -5, 2, 18",
+            "E": "i = -18, 5, 2"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıda verilen kaba kodun çıktısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "120",
+            "B": "5",
+            "C": "0",
+            "D": "1",
+            "E": "24"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "I. Arama algoritmalarının hepsinde, aranan elemanın içinde bulunduğu dizinin küçükten büyüğe sıralanmış olması gerekir. II. Bir arama algoritması kullanılarak aranan bir eleman ilgili dizide bulunmazsa, başka bir algoritma ile eleman bulunabilir. III. Tüm sıralama algoritmaları aynı performansla çalışır. IV. Bazı sıralama algoritmaları problemi daha küçük parçalara bölerek ele alır. Arama ve sıralama algoritmaları ile ilgili olarak yukarıdaki ifadelerden hangisi veya hangileri yanlıştır?",
+          "options": {
+            "A": "II ve III",
+            "B": "Yalnız II",
+            "C": "II ve IV",
+            "D": "I, II ve III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "I. Algoritma yardımı ile bir problemin çözümüne dair adımlar tek tek veya aşama aşama ifade edilemez. II. Bir arama algoritması, istenen elemanı dizide arayabilmek için, dizi elemanlarının sıralanmış olmasını gerektirebilir. III. Arama algoritmalarının performansı algoritmadan algoritmaya farklılık gösterir. IV. Sıralama algoritmalarından bazıları, elemanların karşılaştırılarak sıralanması mantığına göre çalışır. Algoritmalar ile ilgili olarak yukarıdaki ifadelerden hangisi ya da hangileri yanlıştır?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "I, II ve IV",
+            "C": "I ve III",
+            "D": "II ve IV",
+            "E": "Yalnız II"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "I. Akış diyagramlarında seçimli yapılar ve döngü yapıları ifade edilebilir. II. Akış diyagramları problemin görsel olarak ifade edilmesini sağlar. III. Akış diyagramlarının ifade şekli programlama dillerine göre değişkenlik gösterir. IV. Akış diyagramı, standartlaştırılmış elemanlardan oluşur. Akış diyagramları ile ilgili olarak yukarıdaki ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "I ve III",
+            "B": "III ve IV",
+            "C": "Yalnız II",
+            "D": "I, II ve IV",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıda bir ana program ve geriye değer döndüren bir alt programa ait kaba kodlar verilmiştir. Ana programda soru işareti bulunan satıra gelmesi gereken doğru ifade aşağıdaki şıklardan hangisinde verilmiştir?",
+          "options": {
+            "A": "eleman, adet()",
+            "B": "elemanlar(), adet",
+            "C": "dizi, eleman_sayısı",
+            "D": "dizi, adet()",
+            "E": "eleman, eleman_sayısı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Kullanıcı tarafından girilen bir A sayısının iki katının 5 fazlası, girilen bir B sayısının üç eksiğinin 5 katı hesaplanmaktadır. Elde edilen değerler toplanmakta ve sonuç C değişkenine atandıktan sonra C değişkeni ekrana yazdırılmaktadır. Bahsedilen bu programın kaba kodunda yukarıda boş bırakılan iki satıra hangi şıktaki ifadeler gelmelidir?",
+          "options": {
+            "A": "(A * 2) + 5 + (B - 3 * 5) YAZ(C)",
+            "B": "C = A * 2 + 5 + (B - 3 * 5) YAZ(C)",
+            "C": "C = (A * 2 + 5) + ((B – 3) * 5) YAZ(C)",
+            "D": "A = A * 2 + 5 B = B – 3 * 5 YAZ(C = A + B)",
+            "E": "C = (A * 2 + 5) + ((B * 5) -3) YAZ(A + B)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Çift boyutlu dizilerde doğrusal arama yapmanın zaman karmaşıklığı aşağıdakilerden hangisi ile ifade edilir?",
+          "options": {
+            "A": "O(n)",
+            "B": "O(n logn)",
+            "C": "O(n²)",
+            "D": "O(n³)",
+            "E": "O(logn)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Bir arama algoritması için aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Aranan eleman ilgili dizide bulunmak zorundadır, aksi halde algoritma çalışmaya başlayamaz.",
+            "B": "Aranan eleman dizinin ilk elemanı olamaz.",
+            "C": "Arama algoritmalarının performansı sıralama algoritmalarından farklı olarak, veri boyutuna göre değişmez.",
+            "D": "Her arama algoritması dizideki değerleri tek tek tarar.",
+            "E": "Aranan elemanın dizide olmaması algoritmanın verimliliği açısından olabilecek en kötü durumu ifade eder."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}
