@@ -1,0 +1,1847 @@
+{
+  "course": "Bilgisayar Organizasyonu",
+  "lesson_code": "BILGISAYAR_ORGANIZASYONU",
+  "exam_count": 5,
+  "exams": [
+    {
+      "title": "Bilgisayar Organizasyonu 2025 Vize",
+      "exam_title": "Bilgisayar Organizasyonu 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Bilgisayar_Organizasyonu_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hangisi en temel fiziksel mantık elemanıdır?",
+          "options": {
+            "A": "Tümleşik Devre",
+            "B": "Flip-Flop",
+            "C": "Latch",
+            "D": "Ardışıl Devre",
+            "E": "Logic Gate"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir sistemde 8 bitlik 10011000 bilgisi eşlik biti ile iletilmek istenmektedir. Buna göre aşağıdakilerden hangisi iletilmelidir?",
+          "options": {
+            "A": "100110001",
+            "B": "010011011",
+            "C": "10011000",
+            "D": "110011011",
+            "E": "100110000"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Sözel şekilde belirtilen ayı zamanda bir boolean cebri kuralı olan x çarpı x in tersi ifadesinin sonucu nedir?",
+          "options": {
+            "A": "1",
+            "B": "X",
+            "C": "x çarpı x in tersi",
+            "D": "0",
+            "E": "x+1"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Algoritma nedir?",
+          "options": {
+            "A": "Nesne kodu",
+            "B": "Donanım birimi",
+            "C": "Ürün yazılımı",
+            "D": "Bir problemi çözmek için gereken mantıksal adım dizisi",
+            "E": "Bir programlama dili"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi \"geri besleme\" ifadesinin tanımıdır?",
+          "options": {
+            "A": "Devreye önceki girişlerin bir sonucudur.",
+            "B": "Devrenin durumunun ne zaman güncelleneceğine karar vermektir.",
+            "C": "Birçok bilgi hattından veri seçmektir.",
+            "D": "Bir devrenin çıktısının aynı devreye giriş olarak verilmesidir.",
+            "E": "Bool fonksiyonudur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Eşlik biti ne amaçla kullanılır?",
+          "options": {
+            "A": "Hata düzeltme",
+            "B": "Veri iletimi",
+            "C": "Hata tespiti",
+            "D": "Bit kaydırma",
+            "E": "Özel karakter iletimi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yüksek seviyeli programlama dillerini ……. çevirmek için assembler kullanılır. Yukarıda boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Nesne koduna",
+            "B": "Pythona",
+            "C": "Firmware",
+            "D": "Kaynak programa",
+            "E": "Makine diline"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi genel amaçlı bir bilgisayarın donanım birimlerindendir?",
+          "options": {
+            "A": "Assembly",
+            "B": "Firmware",
+            "C": "Giriş/Çıkış Birimi",
+            "D": "Assembler",
+            "E": "Derleyici"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "İşaretli tamsayı olduğu bilinen bir sayının en yüksek değerlikli bitinde yer alan sayı 1 ise bu sayı hakkında hangisi doğrudur?",
+          "options": {
+            "A": "Negatiftir.",
+            "B": "Tamsayıdır.",
+            "C": "Pozitiftir.",
+            "D": "Anlamsızdır.",
+            "E": "Özel karakterdir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "110111001011₂ Sayısının 16lık tabanda gösterimi hangisidir?",
+          "options": {
+            "A": "9DB",
+            "B": "CBD",
+            "C": "9CB",
+            "D": "DCB",
+            "E": "BCD"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir bilgisayarın işlem yapma hızı hangi seçenektekiler ile doğrudan ilgilidir?",
+          "options": {
+            "A": "ALU-Control Unit",
+            "B": "Datapath - Control Unit",
+            "C": "Register - Datapath",
+            "D": "Control Unit - Register",
+            "E": "ALU-BUS"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bir vektörlü kesme modunda vektörün içeriği nedir?",
+          "options": {
+            "A": "Kesmeye neden olan durum",
+            "B": "Kesme üreten cihazın adresi",
+            "C": "Kesme servis rutini",
+            "D": "Master adresi",
+            "E": "Slave adresi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi sayı sistemidir?",
+          "options": {
+            "A": "EBCDIC",
+            "B": "BINARY",
+            "C": "UNICODE",
+            "D": "ASCII",
+            "E": "BCD"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Sistemdeki tüm bileşenleri senkronize etmekten ……. sorumludur. Yukarıda yer alan cümledeki boşluğa gelecek uygun ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "CPU",
+            "B": "Veri yolu",
+            "C": "Clock",
+            "D": "Register",
+            "E": "ALU"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi işlemci ile etkileşimli modda çalışan cihazlardandır?",
+          "options": {
+            "A": "Terminaller",
+            "B": "Depolama Cihazları",
+            "C": "A/D dönüştürücüler",
+            "D": "Yazıcılar",
+            "E": "D/A dönüştürücüler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi çıkış cihazıdır?",
+          "options": {
+            "A": "Tarayıcı",
+            "B": "Assembler",
+            "C": "Klavye",
+            "D": "Fare",
+            "E": "Monitör"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi genel G/C cihazlarından değildir?",
+          "options": {
+            "A": "Yazıcılar",
+            "B": "Terminaller",
+            "C": "Veri Yolu",
+            "D": "Depolama birimleri",
+            "E": "A/D ve D/A dönüştürücüler"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Control Unit ……. 'a hangi registerları kullanacağını ve hangi işlemi yapacağını söyler. Yukarıdaki ifadede boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "ALU",
+            "B": "Control Unit",
+            "C": "Status Register",
+            "D": "Instruction Register",
+            "E": "Interrupt"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi kontrol biriminin görevlerinden değildir?",
+          "options": {
+            "A": "Komutların yürütülmesini izlemek",
+            "B": "Verilerin aktarılmasını izlemek",
+            "C": "Aktif görevlere kesme uygulamak",
+            "D": "ALU'ya yapacağı işlemi bildirmek",
+            "E": "Verileri iletmek"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/BILGISAYAR_ORGANIZASYONU_2025_vize_soru_19.jpg",
+          "image_file": "BILGISAYAR_ORGANIZASYONU_2025_vize_soru_19.jpg",
+          "image_path": "resim-sorular/BILGISAYAR_ORGANIZASYONU_2025_vize_soru_19.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Şekildeki mantık kapılarının soldan sağa doğru sırası hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "AND-OR-NOT",
+            "B": "OR-NAND-AND",
+            "C": "AND-NOR-NOT",
+            "D": "NOT-OR-NAND",
+            "E": "AND-NAND-NOR"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgisayar Organizasyonu 2024 Vize",
+      "exam_title": "Bilgisayar Organizasyonu 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Bilgisayar_Organizasyonu_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yüksek seviyeli programlama dillerini………. çevirmek için assembler kullanılır. Yukarıda boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Pythona",
+            "B": "Nesne koduna",
+            "C": "Firmware",
+            "D": "Kaynak programa",
+            "E": "Makine diline"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Dijital sistemlerde var ya da yok, yüksek ya da düşük gibi anlamlarda kullanılan sayı sistemi hangisidir?",
+          "options": {
+            "A": "Octal",
+            "B": "Binary",
+            "C": "Hexadecimal",
+            "D": "Decimal",
+            "E": "Ternary"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi genel G/Ç cihazlarından değildir?",
+          "options": {
+            "A": "Veri Yolu",
+            "B": "Depolama birimleri",
+            "C": "Yazıcılar",
+            "D": "A/D ve D/A dönüştürücüler",
+            "E": "Terminaller"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi \"geri besleme\" ifadesinin tanımıdır?",
+          "options": {
+            "A": "Birçok bilgi hattından veri seçmektir.",
+            "B": "Devrenin durumunun ne zaman güncelleneceğine karar vermektir.",
+            "C": "Bool fonksiyonudur.",
+            "D": "Bir devrenin çıktısının aynı devreye giriş olarak verilmesidir.",
+            "E": "Devreye önceki girişlerin bir sonucudur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi işlemci ile etkileşimli modda çalışan cihazlardandır?",
+          "options": {
+            "A": "Depolama Cihazları",
+            "B": "Yazıcılar",
+            "C": "D/A dönüştürücüler",
+            "D": "Terminaller",
+            "E": "A/D dönüştürücüler"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Sistemteki tüm bileşenleri senkronize etmekten ……. sorumludur. Yukarıda yer alan cümledeki boşluğa gelecek uygun ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri yolu",
+            "B": "Register",
+            "C": "CPU",
+            "D": "Clock",
+            "E": "ALU"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "İşaretli tamsayı olduğu bilinen bir sayının en yüksek değerlikli bitinde yer alan sayı 1 ise bu sayı hakkında hangisi doğrudur?",
+          "options": {
+            "A": "Negatiftir.",
+            "B": "Anlamsızdır.",
+            "C": "Tamsayıdır.",
+            "D": "Özel karakterdir.",
+            "E": "Pozitiftir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir bilgisayarın işlem yapma hızı hangi seçenektekiler ile doğrudan ilgilidir?",
+          "options": {
+            "A": "ALU-BUS",
+            "B": "ALU-Control Unit",
+            "C": "Control Unit - Register",
+            "D": "Register-Datapath",
+            "E": "Datapath-Control Unit"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi çıkış cihazıdır?",
+          "options": {
+            "A": "Assembler",
+            "B": "Klavye",
+            "C": "Fare",
+            "D": "Tarayıcı",
+            "E": "Monitör"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Eşlik biti ne amaçla kullanılır?",
+          "options": {
+            "A": "Hata tespiti",
+            "B": "Veri iletimi",
+            "C": "Bit kaydırma",
+            "D": "Özel karakter iletimi",
+            "E": "Hata düzeltme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi genel amaçlı bir bilgisayarın donanım birimlerindendir?",
+          "options": {
+            "A": "Giriş Çıkış Birimi",
+            "B": "Firmware",
+            "C": "Assembly",
+            "D": "Derleyici",
+            "E": "Assembler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Sözel şekilde belirtilen aynı zamanda bir boolean cebri kuralı olan x çarpı x in tersi ifadesinin sonucu nedir?",
+          "options": {
+            "A": "1",
+            "B": "x çarpı x in tersi",
+            "C": "0",
+            "D": "X",
+            "E": "x+1"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir sistemde 8 bitlik 10011000 bilgisi eşlik biti ile iletilmek istenmektedir. Buna göre aşağıdakilerden hangisi iletilmelidir?",
+          "options": {
+            "A": "100110000",
+            "B": "110011011",
+            "C": "010011011",
+            "D": "100110001",
+            "E": "10011000"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Veri depolamaktan sorumlu temel birim hangisidir?",
+          "options": {
+            "A": "Datapath",
+            "B": "Register",
+            "C": "Veriyolu",
+            "D": "ALU",
+            "E": "Control Unit"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "ALU (Aritmetik ve Mantık Birimi)'nun görevi değildir?",
+          "options": {
+            "A": "Bellek biriminden alınan verileri işlemek",
+            "B": "Diğer birimlerin faaliyetlerini kontrol etmek",
+            "C": "MBR de yer alan veriler üzerinde aritmetik mantık işlemleri gerçekleştirmek",
+            "D": "İşlenen verileri bellek birimine geri depolamak",
+            "E": "ACC de yer alan veriler üzerinde aritmetik mantık işlemleri gerçekleştirmek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/BILGISAYAR_ORGANIZASYONU_2024_vize_soru_15.jpg",
+          "image_file": "BILGISAYAR_ORGANIZASYONU_2024_vize_soru_15.jpg",
+          "image_path": "resim-sorular/BILGISAYAR_ORGANIZASYONU_2024_vize_soru_15.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yukarıda belirtilen sistem (devre) için çıkış ifadesi Q değeri nedir?",
+          "options": {
+            "A": "Q = x + y",
+            "B": "Q = x - y",
+            "C": "Q = 1",
+            "D": "Q = x + 1",
+            "E": "Q = 0"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi kontrol biriminin görevlerinden değildir?",
+          "options": {
+            "A": "ALU'ya yapacağı işlemi bildirmek",
+            "B": "Verilerin aktarılmasını izlemek",
+            "C": "Verileri iletmek",
+            "D": "Komutların yürütülmesini izlemek",
+            "E": "Aktif görevlere kesme uygulamak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Hangisi en temel fiziksel mantık elemanıdır?",
+          "options": {
+            "A": "Latch",
+            "B": "Flip-Flop",
+            "C": "Logic Gate",
+            "D": "Ardışıl Devre",
+            "E": "Tümleşik Devre"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir vektörlü kesme modunda vektörün içeriği nedir?",
+          "options": {
+            "A": "Master adresi",
+            "B": "Kesme servis rutini",
+            "C": "Kesmeye neden olan durum",
+            "D": "Kesme üreten cihazın adresi",
+            "E": "Slave adresi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi sayı sistemidir?",
+          "options": {
+            "A": "ASCII",
+            "B": "BINARY",
+            "C": "UNICODE",
+            "D": "EBCDIC",
+            "E": "BCD"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgisayar Organizasyonu 2024 Final",
+      "exam_title": "Bilgisayar Organizasyonu 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Bilgisayar_Organizasyonu_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Donanım karmaşıklığını ve maliyeti azaltmak için tasarlanan sistemlere ne ad verilmektedir?",
+          "options": {
+            "A": "Gömülü sistem",
+            "B": "İşletim sistemi",
+            "C": "Network",
+            "D": "RTOS",
+            "E": "CPU"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "9 bloklu bir ön bellekte doğrudan eşleme yöntemi ile ana belleğin 11. bloğu ön belleğin hangi bloğuna eşlenir?",
+          "options": {
+            "A": "0",
+            "B": "4",
+            "C": "6",
+            "D": "1",
+            "E": "2"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi verileri kontrol eden ve ağ trafiğini yöneten güçlü bilgisayarları ifade etmektedir?",
+          "options": {
+            "A": "Bridge",
+            "B": "Host",
+            "C": "İstemci",
+            "D": "Router",
+            "E": "Sunucu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Denetleyici izin talep eden cihazlar arasındaki öncelikleri çözen ve aralarında en yüksek öncelikli cihaza yetki gönderen veri yolu tahkim tekniği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Daisy-chain",
+            "B": "Kontrol",
+            "C": "Bağımsız",
+            "D": "Polling",
+            "E": "N sıralı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "İşlenenlerin tamamının bellekte yer aldığı komut seti mimarisi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yükleme",
+            "B": "Bellekten belleğe",
+            "C": "Bellekten yazmaca",
+            "D": "Yazmaçtan belleğe",
+            "E": "Depolama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi bellekten belleğe komut seti mimarisinin özelliklerindendir?",
+          "options": {
+            "A": "İşlenen, üzerinde bir işlem gerçekleştirilmeden önce bir yazmaca yüklenmelidir.",
+            "B": "Tüm işlenenler bellektedir.",
+            "C": "Yazmaçtaki sonuç, gerektiğinde bellekte saklanır.",
+            "D": "İşlenenlerden en az biri bir yazmaçtadır.",
+            "E": "Tüm işlenenler yazmaçtadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Ön bellek için yaygın olarak hangi tip RAM kullanılır?",
+          "options": {
+            "A": "SDRAM",
+            "B": "ROM",
+            "C": "RAM",
+            "D": "SRAM",
+            "E": "DRAM"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "0-1-2-3-4-5-6-7-8-9-A-B-C-D-E-F rakamları hangi sayı sistemine aittir?",
+          "options": {
+            "A": "Octal",
+            "B": "Ternary",
+            "C": "Binary",
+            "D": "Decimal",
+            "E": "Hexadecimal"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "OSI modelinin en alt katmanı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sunum",
+            "B": "Fiziksel",
+            "C": "Ağ erişimi",
+            "D": "Nakil",
+            "E": "Ağ"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "I. Bus master, komut hatlarındaki sinyali kaldırır ve ardından adres ve data hatlarını temizler. II. Slave, aktarım onay sinyalini (ACK) master'a geri gönderir. III. Bus master, uygun komut sinyalini üretir. IV. Veri yolu yöneticisi, bellek veya G/Ç adreslerini adres hatlarına yerleştirir. V. Slave, gelen verileri kabul ederek yazma işlemini gerçekleştirir veya okuma işlemi için verileri data hatlarına yerleştirir. Yukarıda verilen multibus veri aktarımı aşamaları aşağıdaki seçeneklerin hangisinde doğru şekilde sıralanmıştır?",
+          "options": {
+            "A": "II-V-I-IV-III",
+            "B": "II-I-V-III-IV",
+            "C": "II-I-III-IV-V",
+            "D": "I-II-V-III-IV",
+            "E": "IV-III-II-I-V"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Çevre birimleri tümleşik işlemciye aşağıdakilerden hangisi aracılığıyla bağlanır?",
+          "options": {
+            "A": "G/Ç arayüzü",
+            "B": "Bellek",
+            "C": "İşletim sistemi",
+            "D": "İşlemci",
+            "E": "Kernel"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Multibus II sistem veri yolu, ….. bir tahkim şeması kullanır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "seri",
+            "B": "paralel",
+            "C": "dağıtık",
+            "D": "PCI-express bağlantılı",
+            "E": "bellek genişletmeli"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Çoklu görev aşağıdakilerden hangisi tarafından uygulanır?",
+          "options": {
+            "A": "Kernel",
+            "B": "Watchdog timer",
+            "C": "Firmware",
+            "D": "İşletim sistemi",
+            "E": "Network"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Yalnızca zaman geçirmeye yarayan komut seti talimatı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "SHIFT",
+            "B": "NOP",
+            "C": "HLT",
+            "D": "OR",
+            "E": "NOR"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisinde program dönüşümü doğru sıra ile verilmiştir?",
+          "options": {
+            "A": "Nesne kodu – Kaynak program",
+            "B": "Nesne kodu - Yürüt",
+            "C": "Kaynak program - Yürütme",
+            "D": "Kaynak program - Sonuç",
+            "E": "Kaynak program – Nesne kodu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi genel amaçlı bir register'ın özelliklerinden değildir?",
+          "options": {
+            "A": "Veri yazılabilir.",
+            "B": "Sistemdeki sayıları mimariden mimariye değişir.",
+            "C": "Sistemdeki elemanların senkronizasyonunu sağlar.",
+            "D": "Control unit tarafından adreslenir.",
+            "E": "Veriler okunabilir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "DeMorgan kuralına göre aşağıdakilerden hangisine eşittir?",
+          "options": {
+            "A": "????̅̅+̅????",
+            "B": "????̅̅̅ ????̅̅̅",
+            "C": "???? + ????",
+            "D": "???? − ????",
+            "E": "????????"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Mevcut CPU hızına göre daha düşük bellek hızına sahip bir sistemde aşağıdakilerden hangisi görülür?",
+          "options": {
+            "A": "Sistem hızlanır.",
+            "B": "Sistem hata verir.",
+            "C": "Sistem hızı değişmez",
+            "D": "Sistem yavaşlar.",
+            "E": "Sistem kendini kapatır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "CPU'nun giriş ve çıkışı gerçekleştiren özel komutlara sahip olduğu G/Ç türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Komut tabanlı G/Ç",
+            "B": "Bellek eşlemeli G/Ç",
+            "C": "Adresli G/Ç",
+            "D": "Genel G/Ç",
+            "E": "İzole G/Ç"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "5 katmanlı TCP/IP modelinde en alttaki katman aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ağ",
+            "B": "Sunum",
+            "C": "Fiziksel",
+            "D": "Nakil",
+            "E": "Ağ erişimi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgisayar Organizasyonu 2021 Final",
+      "exam_title": "Bilgisayar Organizasyonu 2021 Final",
+      "exam_type": "final",
+      "year": "2021",
+      "question_count": 25,
+      "source_url": "",
+      "file_name": "Bilgisayar_Organizasyonu_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir problemi çözmek için gereken mantıksal adım dizisi nedir?",
+          "options": {
+            "A": "Yazılım",
+            "B": "Algoritma",
+            "C": "Assembly",
+            "D": "Assembler",
+            "E": "Nesne kodu"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangisi Multibus II alt Sistemlerinden değildir?",
+          "options": {
+            "A": "PCI-express baglantisi",
+            "B": "G/ç genişletmeleri için iSBX veri yolu",
+            "C": "Seri ve paralel sistem veri yollanı",
+            "D": "Bellek genişletme veri yolu",
+            "E": "CPU veri yolu"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İletilen bilgilerin alıcı ana bilgisayarlar ile gönderen ana bilgisayarlar arasında taşındığı yollara ne ad verilir?",
+          "options": {
+            "A": "Link",
+            "B": "Network",
+            "C": "Brigde",
+            "D": "Router",
+            "E": "Host"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "ASCII vey aEBCDIC kodu kullanılan karakter dizileri karakter başına ne kadar yer kaplar?",
+          "options": {
+            "A": "1 bayt",
+            "B": "4 bit",
+            "C": "8 bayt",
+            "D": "1 bit",
+            "E": "4 bayt"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangisi Multibus II nin özelliklerinden değildir?",
+          "options": {
+            "A": "G/ç genişletmeleri için iSBX veri yolu kullanır.",
+            "B": "CPU-bellek veri yolu ve sistem veri yolu arasındaki etkinliklerin ayrılmasıyla yüksek performansı elde edilir.",
+            "C": "Ses ve görüntü için HDMI aktarımını destekler.",
+            "D": "Dağıtık bir tahkim şeması kullanır.",
+            "E": "Ara bağlantı alanındaki durumu kendi kendine test etme ve raporlama yeteneğine sahiptir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Eşler arası ağ mimarisi ile ilgili hangisi yanlıştır?",
+          "options": {
+            "A": "Ağ üzerindeki her bilgisayarın eşit yeteneği ve sorumluluğu vardır.",
+            "B": "istemciler ve sunucular arasında kesin bir ayrım yoktur.",
+            "C": "Ağır yükler altında istemci/sunucuya göre daha düşük performanssunarlar.",
+            "D": "İstemci/sunucu ağlarından daha basittirler.",
+            "E": "Ağdaki her bilgisayar ya bir istemci ya da sunucudur."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Çok amaçlı kullanılabilen kapı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "NAND",
+            "B": "XOR",
+            "C": "NOR",
+            "D": "NOT",
+            "E": "AND"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir veya birkaç önceden belirlenmiş görevi gerçekleştirmek için tasarlanmış özel amaçlı bir sistemlere nedenir?",
+          "options": {
+            "A": "Gömülü sistem",
+            "B": "RTOS",
+            "C": "CPU",
+            "D": "Network",
+            "E": "İşletim sistemi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "8 bloklu bir ön bellekte doğrudan eşleme yöntemi ile ana belleğin 8. Bloğu ön belleğin hangi bloğuna eşlenir?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "0",
+            "D": "6",
+            "E": "8"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "101001012 sayısının 1'e tümleyeni kaçtır?",
+          "options": {
+            "A": "10100000²",
+            "B": "11100101²",
+            "C": "01011010²",
+            "D": "10000001²",
+            "E": "01011011²"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "13DA8A2D sayısının big Endian gösteriminde 2. Baytta hangi sayı bulunur?",
+          "options": {
+            "A": "1D",
+            "B": "13",
+            "C": "DA",
+            "D": "A2",
+            "E": "8A"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aranan verinin bulunduğu Ana bellek bloğunun tamamının ön belleğe yüklenmesine ne denir?",
+          "options": {
+            "A": "Bütünsellik ilkesi",
+            "B": "Tamamlama ilkesi",
+            "C": "Yerellik ilkesi",
+            "D": "Topluluk ilkesi",
+            "E": "Blok ilkesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Hangi bellek türünü yeniden programlamadan önce içindeki verilerin silinmesi gereklidir?",
+          "options": {
+            "A": "PROM",
+            "B": "EEPROM",
+            "C": "Flash Bellek",
+            "D": "EPROM",
+            "E": "ROM"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Sistem veri yolu bileşenleri hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "adres veri yolu- talimat veriyolu- data veri yolu",
+            "B": "adres veri yolu- DMA veri yolu- data veri yolu",
+            "C": "adres veri yolu- kontrol veri yolu- data veri yolu",
+            "D": "adres veri yolu-kontrol veri yolu- G/ç veri yolu",
+            "E": "işlemci veri yolu- kontrol veri yolu- data veri yolu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi VMEbus görevlerindendir?",
+          "options": {
+            "A": "Cihazlar arasındaki etkileşimi kesin olarak tanımlayan protokolleri belirtmek",
+            "B": "Arayüzlü cihazların dahili faaliyetlerini bozarak cihazlar arasında iletişimi engellemek",
+            "C": "Performansın sistemin ara yüzü ile sinirh olduğu bir sistem sağlamak.",
+            "D": "Tasarimcinin sistem uyumluluğunu etkileyerek maliyeti ve/veyaperformansi optimize için geniş bir tasarim araligi sağlamak",
+            "E": "Sistem protokolunu açıklayan terminoloji ve tanimlan gizlemek."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Ana bellek için ……. ve önbellek için…….. olacak şekilde her iki teknoloji de sıklıkla birlikte kullanılır. Boşluğa gelecek kelimeler hangisinde doğru sırada verilmiştir?",
+          "options": {
+            "A": "ROM RAM",
+            "B": "PROM-SRAM",
+            "C": "DRAM-SRAM",
+            "D": "DRAM-PROM",
+            "E": "RAM-SRAM"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Hangisi bir ağ bileşeni değildir?",
+          "options": {
+            "A": "Router",
+            "B": "Bellek",
+            "C": "Brigde",
+            "D": "Link",
+            "E": "Host"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "10100101² sayısının 2'ye tümleyenikaçtır?",
+          "options": {
+            "A": "01011010²",
+            "B": "11011010²",
+            "C": "10000001²",
+            "D": "01011011²",
+            "E": "11011011²"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "13DA8A2D sayısının littleEndian gösteriminde 2. Baytta hangi sayı bulunur?",
+          "options": {
+            "A": "2D",
+            "B": "8A",
+            "C": "13",
+            "D": "A2",
+            "E": "DA"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Bir BOOL cebri değişkeni kaç farklı değer alabilir?",
+          "options": {
+            "A": "4",
+            "B": "0",
+            "C": "3",
+            "D": "2",
+            "E": "1"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Ağ referans modellerinin en üst katmanı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Fiziksel",
+            "B": "Nakit",
+            "C": "Sunum",
+            "D": "Ağ",
+            "E": "Uygulama"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Dijital sistemlerde kullanılan en çok sayı sistemi hangisidir?",
+          "options": {
+            "A": "Ternary",
+            "B": "Decimal",
+            "C": "Hexadecimal",
+            "D": "Octal",
+            "E": "Binary"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "İnternet hangi ag türündendir?",
+          "options": {
+            "A": "WLAN",
+            "B": "PAN",
+            "C": "LAN",
+            "D": "MAN",
+            "E": "WAN"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 24,
+          "question": "Sık erişilen verileri ana bellekte depolamak yerine CPU ya daha yakın depolayarak bellek erişimini hızlandırmak için kullanılan birim aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "RAM",
+            "B": "Ana bellek",
+            "C": "sabit disk",
+            "D": "ön bellek",
+            "E": "ara bellek"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 25,
+          "question": "Aşağıdakilerden hangisi genel amaçlı bir bilgisayarın donanım birimlerinden değildir?",
+          "options": {
+            "A": "Kontrol birimi",
+            "B": "Aritmetik ve mantık birimi",
+            "C": "Bellek birimi",
+            "D": "Derleyici",
+            "E": "Giriş/ çıkış birimi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgisayar Organizasyonu 2021 Final",
+      "exam_title": "Bilgisayar Organizasyonu 2021 Final",
+      "exam_type": "final",
+      "year": "2021",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Bilgisayar_Organizasyonu_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Gelen iletişim bağlantılarından aldığı verileri giden iletişim bağlantıları aracılığıyla ileten aygıtlara ne ad verilir?",
+          "options": {
+            "A": "Host",
+            "B": "Network",
+            "C": "Brigde",
+            "D": "Router",
+            "E": "Link"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Veri yolu denetleyicisinin görevi nedir?",
+          "options": {
+            "A": "veri yolu meşguliyetini kaldırmak",
+            "B": "veri yolunu açıp kapatmak",
+            "C": "Veri yolu yöneticisini belirlemek.",
+            "D": "Veri yolu iletişimini sağlamak.",
+            "E": "Veri yoluna enerji sağlamak."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir CPU'nun iki ana bileşeni hangisidir?",
+          "options": {
+            "A": "Register-Datapath",
+            "B": "Control Unit - Register",
+            "C": "Datpath - Control Unit",
+            "D": "ALU-BUS",
+            "E": "ALU - Control Unit"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi kontrol biriminin görevlerinden değildir?",
+          "options": {
+            "A": "Verilerin aktarılmasını izlemek",
+            "B": "ALU'ya yapacağı işlemi bildirmek.",
+            "C": "verileri iletmek",
+            "D": "Komutların yürütülmesini izlemek.",
+            "E": "Aktif görevlere kesme uygulamak."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir taramanın başlangıcında veya belirli zaman aralıklarında belirli bir değerle başlatılan hata denetleme mekanizması aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kernel",
+            "B": "Watchdog Timer",
+            "C": "RTOS",
+            "D": "BELLEK",
+            "E": "CPU"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Tüm gömülü sistemlerde bulunan ve sistemin başlatılmasını sağlayan öğe aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kernel",
+            "B": "Watchdog timer",
+            "C": "CPU",
+            "D": "Frimware",
+            "E": ""
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangisi bir veri yolu tahkim tekniğidir?",
+          "options": {
+            "A": "Zorunlu istek",
+            "B": "Daisy-chain",
+            "C": "Denetleyici",
+            "D": "N sirali",
+            "E": "Kontrol"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "İşaretli tam sayı gösteriminde bir sayının negatif olduğu nasıl belirtilir?",
+          "options": {
+            "A": "En düşük değerlikli bit 1 dir.",
+            "B": "Sayının önünd bulunur.",
+            "C": "En yüksek değerlikli bit 1 dir.",
+            "D": "En yüksek değerlikli bit 0 dir.",
+            "E": "En düşük değerlikli bit 0 dir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangi RAM türünde güç mevcut olduğu sürece veri kaybı olmaz?",
+          "options": {
+            "A": "DDRAM",
+            "B": "EDORAM",
+            "C": "SDROM",
+            "D": "DRAM",
+            "E": "SRAM"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "LAN lar hangi teknolojiye dayanır?",
+          "options": {
+            "A": "Ethernet",
+            "B": "Bluetooth",
+            "C": "Wireless",
+            "D": "Router",
+            "E": "GSM"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir registerin görevi nedir?",
+          "options": {
+            "A": "Veri iletimi",
+            "B": "Veri işleme",
+            "C": "Veri kontrolü",
+            "D": "Veri depolama",
+            "E": "Veri değiştirme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bellek adres alanının bir kısmını kullanan G/Ç türü hangisidir?",
+          "options": {
+            "A": "İzole G/Ç",
+            "B": "Ortak G/Ç",
+            "C": "Adresli G/Ç",
+            "D": "Genel G/Ç",
+            "E": "Bellek eşlemeli G/Ç"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "D/A Dönüştürücünün çıkışında hangisi görülür?",
+          "options": {
+            "A": "Yürütülecek talimat adresi",
+            "B": "tek eşlik biti",
+            "C": "Bir sensör tarafından tespit edilen dijital sinyal",
+            "D": "n-bit dijital bilgi girişlerine karşılık gelen analog voltaj",
+            "E": "Cihaz tarafından üretilen analog sinyalin dijital bit modeli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Mümkün olabilecek en yüksek hızlı işlemler için operandlar nerede saklanmalıdır?",
+          "options": {
+            "A": "ACC",
+            "B": "PC",
+            "C": "Bellek",
+            "D": "IR",
+            "E": "ALU"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Bellek hızı CPU'ya göre çok düşük olduğunda sistemin tamamı nasıl etkilenir?",
+          "options": {
+            "A": "sistem çalışmaz",
+            "B": "Hızlanır.",
+            "C": "Yavaşlar",
+            "D": "Sistem hata verir.",
+            "E": "Değişmez."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "ALU (Arithmetik ve Mantık Birimi)'nun görevi nedir?",
+          "options": {
+            "A": "Bellek biriminden alınan verileri işler ve işlenen verileri bellek birimine geri depolar.",
+            "B": "Programları depolar",
+            "C": "Programları makine diline çevirir.",
+            "D": "Diğer birimlerin faaliyetlerini kontrol eder.",
+            "E": "Program sayaç yazmacı ve Adres yazmacı üzerinde aritmetik ve mantık işlemleri gerçekleştirir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerin hangisinde 16 lık sayı tabanının rakamları doğru verilmiştir?",
+          "options": {
+            "A": "0-1-2-3-4-5-6-7-8-9-10-A-B-C-D-E",
+            "B": "0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15",
+            "C": "1-2-3-4-5-6-7-8-9-A-B-C-D-E-F-G",
+            "D": "0-1-2-3-4-5-6-7-8-9-A-B-C-D-E-F",
+            "E": "1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Verileri bölümlere ayırarak bir ağ üzerindeki trafik miktarını azaltan birim aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Host",
+            "B": "Network",
+            "C": "Brigde",
+            "D": "Link",
+            "E": "Router"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir devrenin çıktısının aynı devreye giriş olarak verilmesine ne denir?",
+          "options": {
+            "A": "Bool işlevi",
+            "B": "Flip-Flop",
+            "C": "Ardışıl Devre",
+            "D": "Geri besleme",
+            "E": "Kombinasyonel devre"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi asenkron veri iletişiminde bulunmaz?",
+          "options": {
+            "A": "kontrol sinyali",
+            "B": "Slave",
+            "C": "Clock",
+            "D": "Master",
+            "E": "Veri yolu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

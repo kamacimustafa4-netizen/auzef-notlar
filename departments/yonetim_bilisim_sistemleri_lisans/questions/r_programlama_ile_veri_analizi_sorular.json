@@ -1,7 +1,7 @@
 {
   "course": "R Programlama İle Veri Analizi",
   "lesson_code": "R_PROGRAMLAMA_ILE_VERI_ANALIZI",
-  "exam_count": 3,
+  "exam_count": 5,
   "exams": [
     {
       "title": "R Programlama İle Veri Analizi 2024-2025 Vize",
@@ -342,7 +342,7 @@
       "exam_title": "R Programlama İle Veri Analizi 2023-2024 Vize",
       "exam_type": "vize",
       "year": "2023-2024",
-      "question_count": 20,
+      "question_count": 10,
       "source_url": "",
       "file_name": "R_Programlama_Ile_Veri_Analizi_Vize_Sorulari.docx",
       "questions": [
@@ -356,7 +356,7 @@
             "D": "yenilistem=liste(vektor1,cerceve1, matris1)",
             "E": "yenilistem=list(\"vektor1\", \"çerçeve1\", \"matris1\")"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_1.jpg",
           "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_1.jpg",
@@ -373,7 +373,7 @@
             "D": "RStudio'yu kurmak için gerekli olan dosyaları sağlar.",
             "E": "Bu site artık R dilini destekleme özelliği taşımıyor."
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_2.jpg",
           "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_2.jpg",
@@ -390,7 +390,7 @@
             "D": "matrisY=matrix(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)",
             "E": "matrisY=matris(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_3.jpg",
           "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_3.jpg",
@@ -407,7 +407,7 @@
             "D": "havadurumu=factor(c(\"bulutlu\", \"güneşli\",\"yağmurlu\"))",
             "E": "havadurumu=factor(c(yağmurlu, güneşli,bulutlu,yağmurlu, güneşli, güneşli))"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_4.jpg",
           "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_4.jpg",
@@ -424,7 +424,7 @@
             "D": "Sütun",
             "E": "Hücre"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_5.jpg",
           "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_5.jpg",
@@ -441,7 +441,7 @@
             "D": "RStudio programı aktif hale getirilir.",
             "E": "Jupyter'de R programı aktif hale getirilir."
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_6.jpg",
           "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_6.jpg",
@@ -458,7 +458,7 @@
             "D": "kazan=data.frame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar2, satır)",
             "E": "satır=data.frame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar2, satır)"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -475,7 +475,7 @@
             "D": "Sayısal",
             "E": "Matris"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -492,7 +492,7 @@
             "D": "Sayısal değişken tanımlamak için",
             "E": "Bellekte oluşturulan değişkenleri görüntülemek için"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -509,30 +509,52 @@
             "D": "Oluşturulması zordur.",
             "E": "İki boyutludur."
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
           "image_path": "",
           "source_image_url": ""
-        },
+        }
+      ]
+    },
+    {
+      "title": "R Programlama İle Veri Analizi 2021 Vize",
+      "exam_title": "R Programlama İle Veri Analizi 2021 Vize",
+      "exam_type": "vize",
+      "year": "2021",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "R_Programlama_Ile_Veri_Analizi_Vize_Sorulari.docx",
+      "questions": [
         {
           "id": 11,
           "question": "\"Ali\", 34, 2021 verilerini liste olarak oluşturan ve listem adlı bir değişkene atayan komut hangi şıkta doğru olarak verilmiştir?",
           "options": {
-            "A": "listem <- list(Ali, 34, 2021)",
-            "B": "listem <- list(\"Ali\", 34, 2021)",
-            "C": "listem <- list(\"Ali\", \"34\", \"2021\")",
-            "D": "listem=list(\"Ali\", 34, 2021)",
-            "E": "listem <- listem(\"Ali\", 34, 2021)"
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_11.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_11.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_11.jpg",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
           "source_image_url": ""
-        },
+        }
+      ]
+    },
+    {
+      "title": "R Programlama İle Veri Analizi 2021 Vize",
+      "exam_title": "R Programlama İle Veri Analizi 2021 Vize",
+      "exam_type": "vize",
+      "year": "2021",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "R_Programlama_Ile_Veri_Analizi_Vize_Sorulari.docx",
+      "questions": [
         {
           "id": 12,
           "question": "Yukarıda verilen şekil göz önüne alınacaktır. Bu şekle göre:\"58960\" elemanının indis değeri ne olur?",
@@ -545,9 +567,9 @@
           },
           "correct_answer": "A",
           "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_12.jpg",
+          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_12.jpg",
+          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_12.jpg",
           "source_image_url": ""
         },
         {
@@ -562,9 +584,9 @@
           },
           "correct_answer": "A",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_13.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_13.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_13.jpg",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_13.jpg",
+          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_13.jpg",
+          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_13.jpg",
           "source_image_url": ""
         },
         {
@@ -579,9 +601,9 @@
           },
           "correct_answer": "D",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_14.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_14.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_14.jpg",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_14.jpg",
+          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_14.jpg",
+          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_14.jpg",
           "source_image_url": ""
         },
         {
@@ -613,9 +635,9 @@
           },
           "correct_answer": "A",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_16.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_16.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_16.jpg",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_16.jpg",
+          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_16.jpg",
+          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_16.jpg",
           "source_image_url": ""
         },
         {
@@ -630,9 +652,9 @@
           },
           "correct_answer": "C",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_17.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_17.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_17.jpg",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_17.jpg",
+          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_17.jpg",
+          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_17.jpg",
           "source_image_url": ""
         },
         {

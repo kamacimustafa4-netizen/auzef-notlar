@@ -1,7 +1,7 @@
 {
   "course": "PL SQL Veritabani Programlama",
   "lesson_code": "PL_SQL_VERITABANI_PROGRAMLAMA",
-  "exam_count": 3,
+  "exam_count": 4,
   "exams": [
     {
       "title": "PL/SQL Veritabanı Programlama 2025-2026 Vize",
@@ -963,6 +963,306 @@
             "E": "COMMIT"
           },
           "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "PL SQL Veritabani Programlama 2024 Butunleme",
+      "exam_title": "PL SQL Veritabani Programlama 2024 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2024",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "PL_SQL_Veritabani_Programlama_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "PL/SQL alt program parametre modlarından hangisi, bir alt program parametre modundan hangisi, bir alt programın alt programa dışarıdan alındığını ve alt program içerisinde işlenebileceğini ifade eder?",
+          "options": {
+            "A": "IN OUT",
+            "B": "OUT",
+            "C": "IN",
+            "D": "AS",
+            "E": "OUT IN"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "PL/SQL dilinde döngülerle ilgili aşağıda verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Döngüleri sonlandırmak için EXIT veya EXIT WHEN deyimleri kullanılır.",
+            "B": "While döngüsünün çalışması için koşulun TRUE olması gerekir.",
+            "C": "Döngü iterasyonu sayısını gereken durumlarda FOR döngüsünde REVERSE anahtar kelimesi kullanılır.",
+            "D": "Döngü içinde mevcut iterasyonu atlayıp bir sonraki iterasyona geçmek için CONTINUE veya CONTINUE WHEN deyimleri kullanılır.",
+            "E": "Her döngü en az bir kere çalışır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "PL/SQL anonim blok mimarisinde kod bölümlerinin sıralaması hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "Uygulama – İstisna işleme – Deklarasyon",
+            "B": "İstisna işleme – Deklarasyon – Uygulama",
+            "C": "Deklarasyon – Uygulama – İstisna işleme",
+            "D": "Deklarasyon – İstisna işleme – Uygulama",
+            "E": "Uygulama – Deklarasyon – İstisna işleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki niteliklerden hangisi kürsörle ilişkili sorgudan etkilenen satır sayısını verir?",
+          "options": {
+            "A": "%ROWCOUNT",
+            "B": "%SQLCOUNT",
+            "C": "%FOUND",
+            "D": "%COUNT",
+            "E": "%NOTFOUND"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi PLS_INTEGER alt veri tiplerinden biri değildir?",
+          "options": {
+            "A": "SIGNTYPE",
+            "B": "SIMPLE_INTEGER",
+            "C": "BINARY_FLOAT",
+            "D": "POSITIVE",
+            "E": "NATURAL"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "PL/SQL'de veri tipine uyumsuz bir değer verilmesi durumunda oluşan istisna aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "DUP_VAL_ON_INDEX",
+            "B": "INVALID_VALUE",
+            "C": "INVALID_NUMBER",
+            "D": "INVALID_CURSOR",
+            "E": "VALUE_ERROR"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki şıklardan hangisinde değerlerin birer VARCHAR2 veri tipinde değer saklayabilen anahtarlarını (indekslerini) PLS_INTEGER veri tipi ile ilişkisel Dizi (Associative Array) doğru tanımlanmıştır?",
+          "options": {
+            "A": "TYPE t_assoc_arry IS VARRAY(10) OF VARCHAR2(100 BYTE);",
+            "B": "TYPE t_assoc_arry IS TABLE OF VARCHAR2(100) INDEX BY PLS_INTEGER;",
+            "C": "TYPE t_assoc_arry IS TABLE OF VARCHAR2(100);",
+            "D": "TYPE t_assoc_arry IS TABLE OF VARCHAR2(100);",
+            "E": "TYPE t_assoc_arry IS TABLE OF PLS_INTEGER INDEX BY VARCHAR2(100);"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "PL/SQL dilinde girdi/çıktı komutlarının yer aldığı paket aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "DBMS",
+            "B": "DBMS_INOUT",
+            "C": "DBMS_OUTPUT",
+            "D": "PUT_LINE",
+            "E": "SERVEROUTPUT"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşikar kursörü kapatmak için aşağıdaki deyimlerden hangisi kullanılır?",
+          "options": {
+            "A": "RETURN",
+            "B": "CLOSE",
+            "C": "EXIT",
+            "D": "FETCH",
+            "E": "END"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki değişkenlerden hangisinin değeri diğerlerinden farklıdır?",
+          "options": {
+            "A": "sayi NUMBER(5,0) := 12345;",
+            "B": "sayi NUMBER(5,0) := 12345.123;",
+            "C": "sayi NUMBER(5,0) := 12345.456;",
+            "D": "sayi NUMBER(5) := 12345;",
+            "E": "sayi NUMBER(5) := 12345.678;"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "PL/SQL paketlerle ilgili aşağıda verilenlerden hangisi doğrudur?",
+          "options": {
+            "A": "Paket gövdesinde aşırı yüklenen alt programlar paket başlığında bir kere bildirilmelidir.",
+            "B": "Paket başlığı ve gövdesi aynı anda tanımlanmalıdır.",
+            "C": "Paket başlığında alt program bildirilmemişse dahi paket gövdesi tanımlanmalıdır.",
+            "D": "Paket başlığında bildirilmeyen alt programlar paket gövdesinde tanımlanamaz.",
+            "E": "Paket gövdesinde alt programlar haricinde anonim bloklar yer alabilir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdaki literallerden hangisi geçersizdir?",
+          "options": {
+            "A": "dil NVARCHAR2 (50) := '=PL/SQL';",
+            "B": "pi NUMBER := 3,14;",
+            "C": "g BINARY_DOUBLE := 9.8d;",
+            "D": "adet BINARY_FLOAT := 1.53f;",
+            "E": "sayi NUMBER := 3.28E-2;"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "İki veya daha fazla karakter dizesini birleştirmek için kullanılan operatör aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "&",
+            "B": "||",
+            "C": ".",
+            "D": "&&",
+            "E": "+"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "departments tablosunun department_name kolonundaki değişiklikten önce çalışacak olan trg_upd_dept_name isimli satır seviyesi bir trigger tanımlamak için aşağıdaki şıklardan hangisi doğru bir sözdizimine sahiptir?",
+          "options": {
+            "A": "Doğru değildir",
+            "B": "Doğru seçenek",
+            "C": "Doğru ilkesi",
+            "D": "seçenek yaklaşımı",
+            "E": "Doğru yöntemi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "PL/SQL'de bir Record değişkeninin veri alanlarına erişmek için kullanılan operatör aşağıdakilerden hangisidir?",
+          "options": {
+            "A": ".",
+            "B": "->",
+            "C": "=>",
+            "D": ":=",
+            "E": "new"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "PL/SQL'de Trigger ve Procedure yapılarıyla ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Trigger pasif yapılabilir; Procedure ise pasif yapılamaz.",
+            "B": "Trigger sunucu tarafından otomatik çalıştırılır; Procedure ise kullanıcı çağırdığı zaman çalıştırılır.",
+            "C": "Trigger yapısı özü itibariyle bir prosedürdür.",
+            "D": "Trigger ve Procedure yapılarının her ikisi parametre alabilir.",
+            "E": "Trigger paket başlığında bildirilemez ve paket gövdesinde tanımlanamaz; Procedure ise paket başlığında bildirilebilir ve paket gövdesinde tanımlanabilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdaki şıkların hangisinde sırasıyla tam sayı ve ondalıklı sayı veri tiplerinde parametre alan ve PLS_INTEGER veri tipinde değer döndüren PL/SQL fonksiyon örneği verilmiştir?",
+          "options": {
+            "A": ": yaklaşımı",
+            "B": ": ilkesi",
+            "C": ":",
+            "D": ": değildir",
+            "E": ": yöntemi"
+          },
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",

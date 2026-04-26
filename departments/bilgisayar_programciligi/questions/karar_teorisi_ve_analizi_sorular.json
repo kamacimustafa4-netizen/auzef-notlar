@@ -1,8 +1,1061 @@
 {
   "course": "Karar Teorisi Ve Analizi",
   "lesson_code": "KARAR_TEORISI_VE_ANALIZI",
-  "exam_count": 1,
+  "exam_count": 4,
   "exams": [
+    {
+      "title": "Karar Teorisi Ve Analizi 2025 Vize",
+      "exam_title": "Karar Teorisi Ve Analizi 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Karar_Teorisi_Ve_Analizi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": ". Karmaşık hesaplamalar yapamaz. . Aynı olay karşısında iki farklı kişi iki farklı olasılık demektir. . Yüksek derecede yanlı olabilmektedir. Yukarıda yazılı olan özellikler hangi olasılık teorisinin bakış açısını yansıtmaktadır?",
+          "options": {
+            "A": "Objektif",
+            "B": "Göreceli",
+            "C": "Sübjektif",
+            "D": "Deneysel",
+            "E": "Frekansçı Yaklaşım"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki fonksiyonlardan hangisinde marjinal fayda diğerlerine göre daha yüksektir?",
+          "options": {
+            "A": "8x + 10",
+            "B": "10x + 8",
+            "C": "5x + 20",
+            "D": "5x + 18",
+            "E": "7x + 12"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "St. Petersburg paradoksunda cevaplanması istenilen temel soru aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bu oyunun bir kişiye maliyeti ne zaman minimum olur?",
+            "B": "Kaç kişi bu oyunu oynamak için belirlenen bedeli öder?",
+            "C": "Bu oyunun bir kişiye maliyeti kaç paradır?",
+            "D": "Bu oyun oynamaya razı olmanın getirisi nedir?",
+            "E": "Bir kişi bu oyunu oynamak için kaç para vermeye razıdır?"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Alternatif durumların hangisinin gerçekleşeceğiyle ilgili belirli ihtimallere sahip olunması halinde yapılan tercihlere ne denilmektedir?",
+          "options": {
+            "A": "Şüphe altında tercih",
+            "B": "Olasılık altında tercih",
+            "C": "Risk altında tercih",
+            "D": "Kesinlik altında tercih",
+            "E": "Belirsizlik altında tercih"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "\"………. kuralına göre en iyi sonuç verenler arasından maksimum olanı tercih edilmelidir\" ifadesindeki boşluğa aşağıdaki hangi kavram gelmelidir?",
+          "options": {
+            "A": "Maksimum",
+            "B": "Maksimin",
+            "C": "Maksimax",
+            "D": "Minimax",
+            "E": "Maksmaks"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıdaki karar tablosunda aşağıdaki hangi tercih ve durumun gerçekleşmesi koşuluyla B sonucu elde edilir?",
+          "options": {
+            "A": "Tercih 2, Durum 2",
+            "B": "Tercih 1, Durum 2",
+            "C": "B sonucu hiçbir koşulda gerçekleşmez.",
+            "D": "Tercih 1, Durum 1",
+            "E": "Tercih 2, Durum 1"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "\"A tercihi her durumda B tercihinden daha iyi sonuçlar veriyorsa, A tercihini B'ye göre………. karar olarak tanımlamak mümkündür\" ifadesindeki boşluğa aşağıdakilerden hangisinin gelmesi uygundur?",
+          "options": {
+            "A": "Güçlü baskın",
+            "B": "Güçlü dominant",
+            "C": "Zayıf baskın",
+            "D": "Dominant baskın",
+            "E": "Zayıf dominant"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukarıdaki karar tablosunda havanın yağışlı olma ihtimali yüzde 60 ise, şemsiyesiz dışarı çıkmanın beklenen faydasının değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "10",
+            "B": "8",
+            "C": "6",
+            "D": "20",
+            "E": "12"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"İki (T,M) durum karşısında tercih belli ise, 3. durum (Y) iki durum arasındaki tercihi etkilememektedir.\" Bu aksiyomun adı nedir?",
+          "options": {
+            "A": "Yansımalılık",
+            "B": "Tamlık",
+            "C": "Görecelilik",
+            "D": "Bağımsızlık",
+            "E": "Geçişkenlik"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bernoulli'ye göre insanlar karar alma sürecinde neyi maksimize etmektedir?",
+          "options": {
+            "A": "Beklenen refahı",
+            "B": "Beklenen değeri",
+            "C": "Beklenen mutluluğu",
+            "D": "Beklenen getiriyi",
+            "E": "Beklenen faydayı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "\"……… denilen şey; en az 2 alternatif arasında seçim yapma işidir\". Yukarıdaki boşluğa uygun olan seçenek aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Karar",
+            "B": "Alternatif",
+            "C": "Normatif",
+            "D": "Tespit",
+            "E": "Denge"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "\"Karar vericinin ……. durumlar üzerinde kontrol gücü yoktur\" ifadesindeki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Olası",
+            "B": "Opsiyon",
+            "C": "Riskli",
+            "D": "Alternatif",
+            "E": "Belirli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıdaki karar tablosunda Tercih 1'in güçlü baskın karar olması için X ve Y yerine sırasıyla aşağıdaki ikililerden hangisi gelmelidir?",
+          "options": {
+            "A": "(X,Y)=12, 7",
+            "B": "(X,Y)=11, 4",
+            "C": "(X,Y)=4, 8",
+            "D": "(X,Y)=9, 8",
+            "E": "(X,Y)=9, 7"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Seçim Kümesi: {E1, E2} , Alternatif Durumlar Kümesi: {A1, A2, A3} ,Sonuç Kümesi: {Q1,Q2, …Q6} olan karar tablosu aşağıdakilerden hangisine benzer?",
+          "options": {
+            "A": "2 satırlı ve 3 sütunlu bir şekle",
+            "B": "6 satırlı ve 3 sütunlu bir şekle",
+            "C": "3 satırlı ve 2 sütunlu bir şekle",
+            "D": "2 satırlı ve 6 sütunlu bir şekle",
+            "E": "1 satırlı ve 2 sütunlu bir şekle"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Karar ağaçlarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Kollar ve kolların bağlı olduğu daire ya da kutulardan meydana gelmektedir.",
+            "B": "Bir ağacın gövdesine bağlı dallarından esinlenilerek tasarlanmıştır.",
+            "C": "Belirli durumlarda kendimize ya da geleceğe dönük nasıl davranacağınızı gösterir.",
+            "D": "Karar ağaçlarında ortaya çıkacak sonuç dalların sonunda yazmaktadır.",
+            "E": "Olaylar ya da durumlar zincirine bağlı zamana yayılan karar alma süreçlerini gösterir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Karar teorisinin gelişimine aşağıda yer alan bilimlerden hangileri katkı sunmuştur?",
+          "options": {
+            "A": "Mantık, Matematik, Ekonomi ve Psikoloji Bilimleri",
+            "B": "Psikoloji, Sinir ve Davranış Bilimleri",
+            "C": "Sosyal ve Fen Bilimleri",
+            "D": "Sosyal Bilimler",
+            "E": "Ekonomi, Psikoloji ve Sinir Bilimleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "P(A)=X ifadesinde A neyi göstermektedir?",
+          "options": {
+            "A": "İhtimalin sembolünü",
+            "B": "Olasılığı",
+            "C": "Bir kişiyi",
+            "D": "Herhangi bir olayı",
+            "E": "Sonucu"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdaki kavramlardan hangisi karar alma süreçlerinde bilginin ölçeğine göre tanımlanan bir kategori değildir?",
+          "options": {
+            "A": "Kesinlik",
+            "B": "Belirsizlik",
+            "C": "Risk",
+            "D": "Bilgisizlik",
+            "E": "Şüphe"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Olasılığın sayısal olarak ölçülemediği durumlarda hangi kavramı kullanmak daha doğrudur?",
+          "options": {
+            "A": "Fayda",
+            "B": "Belirsizlik",
+            "C": "Kesinlik",
+            "D": "Şüphe",
+            "E": "Risk"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Yukarıdaki karar tablosunda Tercih 2'nin zayıf baskın karar olması için X ve Y yerine sırasıyla aşağıdaki ikililerden hangisinin gelmesi uygundur?",
+          "options": {
+            "A": "(X,Y)=(7,8)",
+            "B": "(X,Y)=(7,7)",
+            "C": "(X,Y)=(9,8)",
+            "D": "(X,Y)=(5,8)",
+            "E": "(X,Y)=(8,8)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Karar Teorisi Ve Analizi 2024 Vize",
+      "exam_title": "Karar Teorisi Ve Analizi 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Karar_Teorisi_Ve_Analizi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "\"….. fayda, bir tercih ya da seçim sonucu elde edilecek faydanın sıralanabileceğini söylerken, … fayda teorisi ise elde edilecek faydanın ölçülebileceğini ifade etmektedir.\"Bu ifadede boşluklara sırasıyla hangi kavramlar gelmelidir?",
+          "options": {
+            "A": "Ordinal / Baskın",
+            "B": "Kardinal / Baskın",
+            "C": "Güçlü / Ordinal",
+            "D": "Ordinal / Kardinal",
+            "E": "Baskın / Zayıf"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bernoulli'ye göre insanlar karar alma sürecinde neyi maksimize etmektedir?",
+          "options": {
+            "A": "Beklenen mutluluğu",
+            "B": "Beklenen faydayı",
+            "C": "Beklenen değeri",
+            "D": "Beklenen getiriyi",
+            "E": "Beklenen refahı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "\"Ahmet karşısına çıkan iki alternatifle ilgili mutlaka tercihini beyan etmelidir.\" Bu ifade tercihlerin sağlaması gereken hangi özelliği vurgulamaktadır?",
+          "options": {
+            "A": "Tamlık",
+            "B": "Yansımalık",
+            "C": "Bağımsızlık",
+            "D": "Aksiyomatik",
+            "E": "Geçişkenlik"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Karar teorisinin gelişimine aşağıda yer alan bilimlerden hangileri katkı sunmuştur?",
+          "options": {
+            "A": "Psikoloji, Sinir ve Davranış Bilimleri",
+            "B": "Ekonomi, Psikoloji ve Sinir Bilimleri",
+            "C": "Sosyal ve Fen Bilimleri",
+            "D": "Sosyal Bilimler",
+            "E": "Mantık, Matematik, Ekonomi ve Psikoloji Bilimleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "A, B ve C şeklinde 3 alternatifi olan Ahmet'in tercihler arasında A ≽ C ve C ≽ B şeklinde bir ilişki varsa geçişkenlik aksiyomu gereği Ahmet'in nasıl bir karar alması beklenmektedir?",
+          "options": {
+            "A": "B ≽ C",
+            "B": "A ≽ B",
+            "C": "A ≽ C",
+            "D": "B ≽ A",
+            "E": "C ≽ A"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki sembollerden hangisi güçlü ve zayıf tercihi sırasıyla ifade etmektedir?",
+          "options": {
+            "A": "∼ ve ≻",
+            "B": "≽ ve ≻",
+            "C": "∼ ve ≻",
+            "D": "≻ ve ∼",
+            "E": "≻ ve ≽"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Olasılığın ölçülemediği durumlarda hangi kavramı kullanmak daha doğrudur?",
+          "options": {
+            "A": "Belirsizlik",
+            "B": "Risk",
+            "C": "Şüphe",
+            "D": "Kesinlik",
+            "E": "Fayda"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangi durumun gerçekleşeceği hakkında kesin bir bilgiye sahipsek, verdiğimiz karar nasıl adlandırılır?",
+          "options": {
+            "A": "Kayıtsızlık altında karar",
+            "B": "Şüphe altında karar",
+            "C": "Kesinlik altında karar",
+            "D": "Risk altında karar",
+            "E": "Belirsizlik altında karar"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yarın havanın yağmurlu olma ihtimali yüzde 40, Beşiktaş'ın oynayacağı maçı kazanma olasılığı yüzde 60 kabul edilmektedir. Bu durumda yarın hem havanın yağmurlu hem de Beşiktaş'ın maçı kazanma ihtimali yüzde kaçtır?",
+          "options": {
+            "A": "24",
+            "B": "33",
+            "C": "50",
+            "D": "25",
+            "E": "30"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Karar vericinin …. durumlar üzerinde kontrol gücü yoktur\" ifadesindeki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Belirli",
+            "B": "Riskli",
+            "C": "Olası",
+            "D": "Opsiyon",
+            "E": "Alternatif"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Ahmet'in fayda fonksiyonu u=2w şeklindedir. w sembolü bu fonksiyonda Ahmet'in zenginliğini ifade etmektedir. Bir dükkân sahibi olan Ahmet'in önümüzdeki sene dükkânının değeri eşit olasılıkla ya 640.000 TL ya da 250.000 TL değerinde olacaktır. Bu bilgiler ışığında Ahmet'in dükkânını satmaya razı olacağı minimum fiyat kaç TL'dir?",
+          "options": {
+            "A": "445.000",
+            "B": "890.000",
+            "C": "500.000",
+            "D": "1.280.000",
+            "E": "950.000"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "\"İki (T,M) durum karşısında tercih belli ise, 3. durum (Y) iki durum arasındaki tercihi etkilememektedir.\"Bu aksiyomun adı nedir?",
+          "options": {
+            "A": "Geçişkenlik",
+            "B": "Tamlık",
+            "C": "Görecelilik",
+            "D": "Bağımsızlık",
+            "E": "Yansımalılık"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdaki kavramlardan hangisi karar alma süreçlerinde bilginin ölçeğine göre tanımlanan bir kategori değildir?",
+          "options": {
+            "A": "Belirsizlik",
+            "B": "Bilgisizlik",
+            "C": "Risk",
+            "D": "Şüphe",
+            "E": "Kesinlik"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "\"A tercihi her durumda B tercihinden daha iyi sonuçlar veriyorsa, A tercihini B'ye göre ………. karar olarak tanımlamak mümkündür.\" ifadesindeki boşluğa aşağıdakilerden hangisinin gelmesi uygundur?",
+          "options": {
+            "A": "Güçlü baskın",
+            "B": "Güçlü dominant",
+            "C": "Güçlü olmayan baskın",
+            "D": "Zayıf baskın",
+            "E": "Zayıf dominant"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Karar teorisiyle ilgili farklı bilimlerin ya da perspektiflerin açıklama çabası kaotik görünse de, bu yaklaşımlar genel olarak ikiye ayrılmaktadır. Bu iki yaklaşım aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Etkisiz / Betimleyici",
+            "B": "Betimleyici / Davranış",
+            "C": "Açıklayıcı / Normatif",
+            "D": "Normatif / Betimleyici",
+            "E": "Normatif / Tanımlayıcı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "P(A) = X ifadesinde A neyi göstermektedir?",
+          "options": {
+            "A": "Bir kişiyi",
+            "B": "Herhangi bir olayı",
+            "C": "Sonucu",
+            "D": "Olasılığı",
+            "E": "İhtimalin sembolünü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bir seçmen A partisine oy vermesinin nedenleri olarak bir takım evrensel ilkelere atıf yapmaktadır. Bu bilgiye göre bu seçmenin karar alma sürecini hangi yaklaşım daha iyi açıklayacaktır?",
+          "options": {
+            "A": "Alternatif",
+            "B": "Betimleyici",
+            "C": "Beklenen Fayda",
+            "D": "Belirsizlik",
+            "E": "Normatif"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Seçim Kümesi: {E1, E2}, Alternatif Durumlar Kümesi: {A1, A2, A3}, Sonuç Kümesi: {Q1, Q2, …Q6} olan karar tablosu aşağıdakilerden hangisine benzer?",
+          "options": {
+            "A": "2 satırlı ve 6 sütunlu bir şekle",
+            "B": "3 satırlı ve 2 sütunlu bir şekle",
+            "C": "1 satırlı ve 2 sütunlu bir şekle",
+            "D": "6 satırlı ve 3 sütunlu bir şekle",
+            "E": "2 satırlı ve 3 sütunlu bir şekle"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Karar ağaçlarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bir ağacın gövdesine bağlı dallarından esinlenilerek tasarlanmıştır.",
+            "B": "Belirli durumlarda kendimize ya da geleceğe dönük nasıl davranacağımızı gösterir.",
+            "C": "Karar ağaçlarında ortaya çıkacak sonuç dalların sonunda yazmaktadır.",
+            "D": "Olaylar ya da durumlar zincirine bağlı zamana yayılan karar alma süreçlerini gösterir.",
+            "E": "Kollar ve kolların bağlı olduğu daire ya da kutulardan meydana gelmektedir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki fonksiyonlardan hangisinde marjinal fayda diğerlerine göre daha yüksektir?",
+          "options": {
+            "A": "8x + 10",
+            "B": "10x + 8",
+            "C": "5x + 20",
+            "D": "5x + 18",
+            "E": "7x + 12"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Karar Teorisi Ve Analizi 2024 Final",
+      "exam_title": "Karar Teorisi Ve Analizi 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Karar_Teorisi_Ve_Analizi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıdaki oyun tablosunda (A,D)'nin güçlü baskın denge olabilmesi için X ve Y yerine hangi sayılar gelmelidir?",
+          "options": {
+            "A": "X=6,8 Y=5,8",
+            "B": "X=7,7 Y=5,8",
+            "C": "X=8,6 Y=5,5",
+            "D": "X=7,4 Y=5,8",
+            "E": "X=8,6 Y=5,8"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "1. Problemi tanımla 2. Gerçek problemi tanımlayacak model kur 3. Olası çözümleri tespit et ve çözümleri değerlendir 4. Karşılaştır, seç ve probleme çözüm tavsiyesinde bulun Yukarıda karar alma süreçleriyle ilgili basit bir akış bulunmaktadır. Bu akışlar ilkinden sonuncusuna kadar doğru olarak sıralandığında aşağıdakilerden hangisi doğru olur?",
+          "options": {
+            "A": "1, 3, 2 ve 4",
+            "B": "1, 2, 3 ve 4",
+            "C": "3, 2, 1 ve 4",
+            "D": "2, 1, 4 ve 3",
+            "E": "2, 1, 3 ve 4"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "P(S ve Q)= P(S)×P(Q) durumunda S ve Q olaylarıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "S ve Q birbiriyle bağımsızdır",
+            "B": "S ve Q birbirlerini etkilemektedir",
+            "C": "S ve Q aynı anda gerçekleşmektedir",
+            "D": "S ve Q aynı anda gerçekleşmemektedir",
+            "E": "Q S'yi etkilerken, S Q'yu etkilememektedir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "– ……….. getirisi 50 olan bir oyunda, …………….. getirinin 50'nin altında ya da üstünde olması durumlarından hangisinin tercih edildiği, kişinin riski sevip sevmediği şeklinde ölçülmektedir. – ifadesindeki boşluklara sırasıyla aşağıdaki hangi ifadeler gelmelidir?",
+          "options": {
+            "A": "Kesin, ortalama",
+            "B": "Ortalama, beklenen",
+            "C": "Kesin, risk",
+            "D": "Beklenen, kesin",
+            "E": "Denk, kesin"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "– Oyun teorisi analizinde, ………. ortamda oyuncuların kararlarının birbirlerini etkileme durumu vardır.- ifadesinde boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "İnteraktif",
+            "B": "Belirsiz",
+            "C": "Riskli",
+            "D": "Dinamik",
+            "E": "Alternatif"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Tercihlerin fayda fonksiyonu tarafından temsil edilebilmesi ya da gösterilebilmesi için sağlaması gereken toplam beş prensip (aksiyom) bulunmaktadır. Aşağıdakilerden hangisi bu aksiyomlardan biri değildir?",
+          "options": {
+            "A": "Geçişkenlik",
+            "B": "Tamlık",
+            "C": "Arşimet",
+            "D": "Belirsizlik",
+            "E": "Bağımsızlık"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen oyunda Ahmet ve Ayşe için sırasıyla güçlü baskın strateji aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "B ve C",
+            "B": "B ve B",
+            "C": "A ve A",
+            "D": "C ve A",
+            "E": "B ve A"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Oyun teorisinde aşağıdaki hangi koşulda tekrarlanan silme işlemine başvurarak oyunun dengesini bulmak mümkündür?",
+          "options": {
+            "A": "Oyuncunun hangi stratejiyi tercih edeceğini bilmesi durumunda",
+            "B": "Karşı oyuncunun hangi stratejiyi tercih edeceğinin bilinmesi durumunda",
+            "C": "Baskın stratejinin mevcudiyeti durumunda",
+            "D": "Baskın stratejinin mevcut olmaması durumunda",
+            "E": "Nash dengesinin mevcut olması durumunda"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "– Binlerce kar resmi kullanılarak kar görüntüsü modele öğretilir. Ardından kar olarak etiketlenmeyen resimlerden hangilerinin kar olduğunu tespit eder.- ifadesi aşağıdaki hangi makine öğrenmesi yöntemine uygundur?",
+          "options": {
+            "A": "Desteklenmiş",
+            "B": "Kayıtsız",
+            "C": "Kontrolsüz",
+            "D": "Denetimsiz",
+            "E": "Denetimli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıdaki karar tablosunda havanın yağışlı olma ihtimali yüzde 60 ise, şemsiyesiz dışarı çıkmanın beklenen faydasının değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "8",
+            "B": "6",
+            "C": "10",
+            "D": "20",
+            "E": "12"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "– Bir oyunla ilgili tercih bağıntısı (>) belirli sayıda ödül olmak kaydıyla ………. ile gösterilebilir (temsil edilebilir). Eğer ki u: X→R şeklinde bir fonksiyon varsa öyle ki A > B ancak ve ancak – şeklinde devam eden ifadede boş bırakılan yere gelmesi gereken kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Semboller",
+            "B": "Betimleyici fayda",
+            "C": "Beklenen fayda",
+            "D": "Normatif fayda",
+            "E": "Tercihler"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdaki sembollerden hangisi zayıf ve güçlü tercihi sırasıyla ifade etmektedir?",
+          "options": {
+            "A": "> , ≿",
+            "B": "~ , ≿",
+            "C": "> , ~",
+            "D": "~ , >",
+            "E": "≿ , >"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "– Karar destek sistemlerinin esnek olması gerekir. – cümlesinin vurguladığı ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kararların daha hızlı alınabilmesini",
+            "B": "Farklı karar destek sistemleriyle entegre edilebilmesini",
+            "C": "Konu edindiği ortamdaki ve karar alma süreçlerindeki değişimlere karşı kolay modifiye edilmesini",
+            "D": "Karar destek sistemlerinin güvenilir olduğunu",
+            "E": "Kararların daha etkin alınabilmesini"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "– ………. kuralına göre en iyi sonuç verenler arasından maksimum olanı tercih edilmelidir – ifadesindeki boşluğa aşağıdaki həngi kavram gelmelidir?",
+          "options": {
+            "A": "Maksimax",
+            "B": "Maksimum",
+            "C": "Maksimin",
+            "D": "Maksmaks",
+            "E": "Minimax"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıdaki karar tablosunda Tercih 2'nin zayıf baskın karar olması için X ve Y yerine sırasıyla aşağıdaki ikiliierden hangisinin gelmesi uygundur?",
+          "options": {
+            "A": "(X,Y)=(7,7)",
+            "B": "(X,Y) = (5,8)",
+            "C": "(X,Y)=(9,8)",
+            "D": "(X,Y) = (8,8)",
+            "E": "(X,Y) = (7,8)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Risk türleriyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Risk nötr biri için kesin olan ile riskli olan arasında net bir ayrım yoktur",
+            "B": "Riskten kaçınan biri standart sapması yüksek olanı tercih eder",
+            "C": "Riski seven biri her zaman riski olanı, güvenli olana tercih eder",
+            "D": "Riskten kaçınan biri her zaman güvenli olanı, riskli olana tercih eder",
+            "E": "Risk nötr biri alternatifler arasında kayıtsızdır"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "– Oyuncunun güçlü baskın ya da zayıf baskın dışındaki seçimleri diğer oyuncunun ne yaptığından bağımsız bir şekilde ………. getiriyle sonuçlanır.- Yukarıdaki cümlede boş bırakılan yere gelecek kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Belirsiz",
+            "B": "Maksimum",
+            "C": "Düşük",
+            "D": "Yüksek",
+            "E": "Aynı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "– Otomatik karar alma sistemleri tasarlamak ya da karar destek sistemleri geliştirmek için ………. çok iyi bir şekilde modellenerek istenilen hedeflerin gerçekleştirilmesi gerekmektedir. – ifadesinde boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Tehlikenin",
+            "B": "Riskin",
+            "C": "İhtimallerin",
+            "D": "Alternatiflerin",
+            "E": "Belirsizliğin"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıdaki karar tablosunda aşağıdaki hangi tercih ve durumun gerçekleşmesi koşuluyla B sonucu elde edilir?",
+          "options": {
+            "A": "Tercih 2, Durum 1",
+            "B": "Tercih 2, Durum 2",
+            "C": "Tercih 1, Durum 1",
+            "D": "Tercih 1, Durum 2",
+            "E": "B sonucu hiçbir koşulda gerçekleşmez"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Yukarıdaki karar tablosunda sırasıyla kaç tercih ve alternatif mevcuttur?",
+          "options": {
+            "A": "2,3",
+            "B": "3,2",
+            "C": "4,2",
+            "D": "4,3",
+            "E": "3,4"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
     {
       "title": "Karar Teorisi Ve Analizi 2024-2025 Butunleme",
       "exam_title": "Karar Teorisi Ve Analizi 2024-2025 Butunleme",

@@ -1,14 +1,14 @@
 {
   "course": "Veri Yapıları",
   "lesson_code": "VERI_YAP_LAR",
-  "exam_count": 2,
+  "exam_count": 9,
   "exams": [
     {
       "title": "Veri Yapıları 2024-2025 Vize",
       "exam_title": "Veri Yapıları 2024-2025 Vize",
       "exam_type": "vize",
       "year": "2024-2025",
-      "question_count": 15,
+      "question_count": 8,
       "source_url": "",
       "file_name": "Veri_Yapilari_Vize_Sorulari.docx",
       "questions": [
@@ -22,7 +22,7 @@
             "D": "Çift yönlü bağlı listenin sonuna eleman ekler.",
             "E": "Çift yönlü bağlı listenin başından eleman siler."
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_1.jpg",
           "image_file": "VERI_YAP_LAR_2024_2025_vize_soru_1.jpg",
@@ -39,7 +39,7 @@
             "D": "Listenin ilk düğümünün adresi",
             "E": "Son düğümün adresi"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_2.jpg",
           "image_file": "VERI_YAP_LAR_2024_2025_vize_soru_2.jpg",
@@ -56,7 +56,7 @@
             "D": "Tek yönlü bağlı listenin sonuna eleman ekler.",
             "E": "Tek yönlü bağlı listenin başına eleman ekler."
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_3.jpg",
           "image_file": "VERI_YAP_LAR_2024_2025_vize_soru_3.jpg",
@@ -73,7 +73,7 @@
             "D": "Çift yönlü bağlı listenin sonundaki elemanı siler.",
             "E": "Çift yönlü bağlı listede kaç eleman olduğunu tespit eder."
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_4.jpg",
           "image_file": "VERI_YAP_LAR_2024_2025_vize_soru_4.jpg",
@@ -90,7 +90,7 @@
             "D": "Dairesel çift yönlü bağlı liste",
             "E": "Tek yönlü bağlı liste"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -107,7 +107,7 @@
             "D": "Dizi",
             "E": "Bilgi"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_6.jpg",
           "image_file": "VERI_YAP_LAR_2024_2025_vize_soru_6.jpg",
@@ -124,7 +124,7 @@
             "D": "A97350",
             "E": "A97170"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -141,7 +141,154 @@
             "D": "\" \"",
             "E": "/**/"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Yapıları 2022 Vize",
+      "exam_title": "Veri Yapıları 2022 Vize",
+      "exam_type": "vize",
+      "year": "2022",
+      "question_count": 13,
+      "source_url": "",
+      "file_name": "Veri_Yapilari_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "C programlama dilinde, bağlı listelerin düğümleri için bellekte yer ayırılması işlemi hangi fonksiyon ile gerçekleştirilir?",
+          "options": {
+            "A": "malloc()",
+            "B": "return",
+            "C": "main()",
+            "D": "struct",
+            "E": "free()"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda verilenlerden hangisi \"işlendiğinde veya düzenlendiğinde anlamlı çıktı oluşturan, en düşük soyut veya işlenmemiş ham girdiyi\" ifade eder?",
+          "options": {
+            "A": "Veri",
+            "B": "Programlama dili komutları",
+            "C": "Operatör",
+            "D": "Enformasyon",
+            "E": "Bilgi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen şekil hangi veri yapısını temsil eder?",
+          "options": {
+            "A": "Tek yönlü dairesel bağlı liste veri yapısı",
+            "B": "Çift yönlü dairesel bağlı liste veri yapısı",
+            "C": "Tek yönlü bağlı Liste veri yapısı",
+            "D": "Çift yönlü bağlı liste veri yapısı",
+            "E": "Dizi veri yapısı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Çift yönlü bağlı listelerde bir düğümde kaç adet işaretçi vardır?",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "0",
+            "D": "4",
+            "E": "1"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Tek yönlü bağlı listenin son elemanın sonraki (next) işaretçisinin listenin ilk düğümünü işaret etmesiyle oluşan veri yapısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çift Yönlü Dairesel Bağlı Liste",
+            "B": "Yığın",
+            "C": "Çift Yönlü Bağlı Liste",
+            "D": "Tek Yönlü Dairesel Bağlı Liste",
+            "E": "Dizi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Çift yönlü bağlı listelerde ilk düğümün önceki (prev) işaretçisinin varsayılan değeri nedir?",
+          "options": {
+            "A": "Listede yer alan herhangi bir düğümün adresi",
+            "B": "Son düğümün adresi",
+            "C": "NULL",
+            "D": "Bellekteki başka bir listenin ilk düğümünün adresi",
+            "E": "Kendisinden sonra gelen ilk düğümün adresi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen şekil aşağıdaki veri yapılarından hangisini ifade eder?",
+          "options": {
+            "A": "Dairesel Tek Yönlü Bağlı Liste",
+            "B": "Tek Yönlü Bağlı Liste",
+            "C": "Yığın (Stack)",
+            "D": "Dairesel Çift Yönlü bağlı Liste",
+            "E": "Çift Yönlü Bağlı Liste"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "C programlama dilinde klavyeden veri okumak için kullanılan fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "#include",
+            "B": "printf()",
+            "C": "stdio.h",
+            "D": "main()",
+            "E": "scanf()"
+          },
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -150,21 +297,100 @@
         },
         {
           "id": 9,
-          "question": "int A[]={1,5,3,7,9} şeklinde verilen dizininin bellekteki adresi 2000 olduğuna göre bu dizide indisi 4 (dört) olan elemanın adresi aşağıdakilerden hangisidir?",
+          "question": "Yukarıdaki programın ekran çıktısı için aşağıdakilerden hangisi söylenebilir?",
           "options": {
-            "A": "2012",
-            "B": "2016",
-            "C": "2004",
-            "D": "2000",
-            "E": "2008"
+            "A": "Bu program dizinin bellekte kaplayacağı alanı Byte olarak ekrana yazdırır.",
+            "B": "Bu program dizinin bir elemanının bellekte kaplayacağı alanı Byte olarak ekrana yazdırır.",
+            "C": "Bu program dizinin elemanlarını ekrana yazdırır.",
+            "D": "Bu program dizinin eleman sayısını ekrana yazdırır.",
+            "E": "Bu program ekran için herhangi bir çıktı üretmez."
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
           "image_path": "",
           "source_image_url": ""
         },
+        {
+          "id": 10,
+          "question": "Herhangi bir elemanı bulunmayan bağlı listelere ne ad verilir?",
+          "options": {
+            "A": "Tek Yönlü Bağlı Liste",
+            "B": "Tek Yönlü Dairesel Bağlı Liste",
+            "C": "Boş Liste",
+            "D": "Çift Yönlü Dairesel Bağlı Liste",
+            "E": "Çift Yönlü Bağlı Liste"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıda verilen goster() fonksiyonunda düğümler arasında traversal (dolaşma) işlemi kaçıncı satırdaki ifade ile gerçekleştirilmektedir?",
+          "options": {
+            "A": "6",
+            "B": "3",
+            "C": "2",
+            "D": "7",
+            "E": "5"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukarıda verilen fonksiyonun işlevi aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Çift Yönlü bağlı listenin ilk elemanını siler.",
+            "B": "Çift yönlü bağlı listenin son elemanını siler.",
+            "C": "Çift Yönlü bağlı listenin başına eleman ekler.",
+            "D": "Çift yönlü bağlı listenin sonuna eleman ekler.",
+            "E": "Çift yönlü bağlı listende düğümlerin arasına yeni eleman ekler."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "int A[4][4] şeklinde bir dizi tanımlanıyor ve A dizisinin bellek adresi 1000 olarak veriliyor. Bu diziye ait A[2][2] elemanının bellek adresi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "1080",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Yapıları 2008 Vize",
+      "exam_title": "Veri Yapıları 2008 Vize",
+      "exam_type": "vize",
+      "year": "2008",
+      "question_count": 6,
+      "source_url": "",
+      "file_name": "Veri_Yapilari_Vize_Sorulari.docx",
+      "questions": [
         {
           "id": 10,
           "question": "Çift yönlü bağlı listeler için aşağıda verilen ifadelerden hangisi yanlıştır?",
@@ -175,11 +401,11 @@
             "D": "Liste üzerinde çift yönlü hareket edilemez.",
             "E": "Her düğümün onceki (prev) ve sonraki (next) adında iki işaretçisi olduğu için liste işlemleri görece daha yavaştır."
           },
-          "correct_answer": "C",
+          "correct_answer": "D",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_10.jpg",
-          "image_file": "VERI_YAP_LAR_2024_2025_vize_soru_10.jpg",
-          "image_path": "resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_10.jpg",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2008_vize_soru_10.jpg",
+          "image_file": "VERI_YAP_LAR_2008_vize_soru_10.jpg",
+          "image_path": "resim-sorular/VERI_YAP_LAR_2008_vize_soru_10.jpg",
           "source_image_url": ""
         },
         {
@@ -192,7 +418,7 @@
             "D": "Bağlı listenin başına eleman eklemek için yazılmıştır.",
             "E": "Bağlı listenin sonuna eleman eklemek için yazılmıştır."
           },
-          "correct_answer": "D",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -209,7 +435,7 @@
             "D": "malloc()",
             "E": "main()"
           },
-          "correct_answer": "A",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -243,11 +469,11 @@
             "D": "Ağaç Veri Yapısı.",
             "E": "Bağlı Liste Veri Yapısı."
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_14.jpg",
-          "image_file": "VERI_YAP_LAR_2024_2025_vize_soru_14.jpg",
-          "image_path": "resim-sorular/VERI_YAP_LAR_2024_2025_vize_soru_14.jpg",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2008_vize_soru_14.jpg",
+          "image_file": "VERI_YAP_LAR_2008_vize_soru_14.jpg",
+          "image_path": "resim-sorular/VERI_YAP_LAR_2008_vize_soru_14.jpg",
           "source_image_url": ""
         },
         {
@@ -260,7 +486,165 @@
             "D": "200",
             "E": "350"
           },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Yapıları 2000 Vize",
+      "exam_title": "Veri Yapıları 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Veri_Yapilari_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 9,
+          "question": "int A[]={1,5,3,7,9} şeklinde verilen dizininin bellekteki adresi 2000 olduğuna göre bu dizide indisi 4 (dört) olan elemanın adresi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Yapıları 2000 Vize",
+      "exam_title": "Veri Yapıları 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 7,
+      "source_url": "",
+      "file_name": "Veri_Yapilari_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 14,
+          "question": "int A[20][10][5] şeklinde tanımlanan bir dizinin kaç elemanı vardır?",
+          "options": {
+            "A": "50",
+            "B": "35",
+            "C": "15",
+            "D": "200",
+            "E": "1000"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Tek yönlü bağlı listenin son elemanında, listenin başındaki elemanı gösterecek bir işaretçi bulundurularak oluşturulan veri yapılarına ne ad verilir?",
+          "options": {
+            "A": "Dizi veri yapısı",
+            "B": "Çift yönlü bağlı listen veri yapısı",
+            "C": "Tek yönlü dairesel bağlı liste veri yapısı",
+            "D": "Çift yönlü dairesel bağlı liste veri yapısı",
+            "E": "Tek yönlü bağlı Liste veri yapısı"
+          },
           "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Çift yönlü bağlı bir listede tek bir düğüm varsa bu düğümün işaretçileri için aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "Çift Yönlü Bağlı Listede tek bir düğüm varsa, bu düğümde sadece onceki (prev) adlı işaretçi yer alır.",
+            "B": "Çift Yönlü Bağlı Listede tek bir düğüm varsa, bu düğümde herhangi bir işaretçi yer almaz.",
+            "C": "Çift Yönlü Bağlı Listede tek bir düğüm varsa, bu düğümde en az 3 (üç) işaretçi yer alır.",
+            "D": "Çift Yönlü Bağlı Listede tek bir düğüm varsa, bu düğümde sadece sonraki (next) adlı işaretçi yer alır.",
+            "E": "Çift Yönlü Bağlı Listede tek bir düğüm varsa, bu düğümde hem sonraki (next) adlı işaretçi hem de onceki (prev) adlı işaretçi yer alır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "int C[]={1,0,3,0,0} şeklinde verilen dizinin bellekteki adresi 1500 olduğuna göre bu dizide indisi 3 (üç) olan elemanın adresi kaçtır?",
+          "options": {
+            "A": "1516",
+            "B": "1512",
+            "C": "1508",
+            "D": "1500",
+            "E": "1504"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "C programlama dilinde ekranda formatlı çıktı oluşturmak için kullanılan fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "printf()",
+            "B": "scanf()",
+            "C": "main()",
+            "D": "stdio.h",
+            "E": "#include"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "C programlama dilinde kullanılan yeni satır kontrol karakteri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\b",
+            "D": "\\v",
+            "E": "\\a"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Yukarıda verilen şekil hangi bağlı liste türünü temsil etmek için çizilmiştir?",
+          "options": {
+            "A": "Tek yönlü bağlı liste",
+            "B": "Verilen şekil bağlı listelerden herhangi birini temsil etmez.",
+            "C": "Çift yönlü bağlı liste",
+            "D": "Dairesel çift yönlü bağlı liste",
+            "E": "Dairesel tek yönlü bağlı liste"
+          },
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -288,7 +672,7 @@
             "D": "Herhangi bir sınırlama yoktur.",
             "E": "4"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -305,7 +689,7 @@
             "D": "19",
             "E": "29"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -322,7 +706,7 @@
             "D": "a",
             "E": "b"
           },
-          "correct_answer": "D",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_final_soru_3.png",
           "image_file": "VERI_YAP_LAR_2024_2025_final_soru_3.png",
@@ -339,7 +723,7 @@
             "D": "83",
             "E": "200"
           },
-          "correct_answer": "C",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_final_soru_4.png",
           "image_file": "VERI_YAP_LAR_2024_2025_final_soru_4.png",
@@ -356,7 +740,7 @@
             "D": "I",
             "E": "II"
           },
-          "correct_answer": "D",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -390,7 +774,7 @@
             "D": "Çift Yönlü Bağlı Liste",
             "E": "Yığım Veri Yapısı"
           },
-          "correct_answer": "D",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_final_soru_7.png",
           "image_file": "VERI_YAP_LAR_2024_2025_final_soru_7.png",
@@ -407,7 +791,7 @@
             "D": "III",
             "E": "I"
           },
-          "correct_answer": "B",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -424,7 +808,7 @@
             "D": "Overflow",
             "E": "BadSector"
           },
-          "correct_answer": "A",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -441,7 +825,7 @@
             "D": "21212",
             "E": "11122"
           },
-          "correct_answer": "B",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_final_soru_10.png",
           "image_file": "VERI_YAP_LAR_2024_2025_final_soru_10.png",
@@ -458,7 +842,7 @@
             "D": "0",
             "E": "24"
           },
-          "correct_answer": "A",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -475,7 +859,7 @@
             "D": "5",
             "E": "6"
           },
-          "correct_answer": "A",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_final_soru_12.png",
           "image_file": "VERI_YAP_LAR_2024_2025_final_soru_12.png",
@@ -492,7 +876,7 @@
             "D": "A, B, E, H",
             "E": "E, G, H"
           },
-          "correct_answer": "C",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -509,7 +893,7 @@
             "D": "Çift Yönlü Bağlı Liste Veri Yapısı",
             "E": "Tek Yönlü Bağlı Liste Veri Yapısı"
           },
-          "correct_answer": "A",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_YAP_LAR_2024_2025_final_soru_14.png",
           "image_file": "VERI_YAP_LAR_2024_2025_final_soru_14.png",
@@ -526,7 +910,7 @@
             "D": "70",
             "E": "Kuyruktan eleman silme işlemi gerçekleşmez."
           },
-          "correct_answer": "E",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -612,6 +996,294 @@
             "E": "1040"
           },
           "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Yapıları 2022 Final",
+      "exam_title": "Veri Yapıları 2022 Final",
+      "exam_type": "final",
+      "year": "2022",
+      "question_count": 6,
+      "source_url": "",
+      "file_name": "Veri_Yapilari_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Çift yönlü bağlı listelerde Ilk düğümün önceki (Prev) Işaretçısının varsayılan değerl aşağıdakl seçeneklerin hangisinde verilmiştir?",
+          "options": {
+            "A": "Son düğümün sonraki işaretçisi",
+            "B": "ilk düğümü takip eden düğümün önceki işaretçisi",
+            "C": "İlk düğümün sonraki işaretçisi",
+            "D": "Son düğümün önceki işaretçisi",
+            "E": "NULL"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda verllen fonksiyonlardan hangisi yığın (stack) verl yapısında yığından eleman çıkarmak Için kullanılır?",
+          "options": {
+            "A": "size()",
+            "B": "pop()",
+            "C": "peek()",
+            "D": "empty()",
+            "E": "push(ints)"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda verilenlerden hangisi kuyruk veri yapısının özelliği değildir?",
+          "options": {
+            "A": "Doğrusaldır.",
+            "B": "FIFO prensibi ile çalışır.",
+            "C": "Kuyruğa önce gelen elemanlar kuyruktan önce çıkar.",
+            "D": "LIFO prensibi ile çalışır.",
+            "E": "Kuyruğa en son gelen eleman kuyruktan en son çıkar"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir Ikill ağacın dördüncü seviyesinde (k=4) maksimum kaç düğüm olabilir?",
+          "options": {
+            "A": "32",
+            "B": "2",
+            "C": "16",
+            "D": "4",
+            "E": "8"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Sıralı olmayan 10 (On) elemanlı bir dizinin bütün elemanları kabarcık sıralaması algoritması ile kaç adımda tamamen sıralanır?",
+          "options": {
+            "A": "7",
+            "B": "5",
+            "C": "1",
+            "D": "9",
+            "E": "10"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Kuyruk verl yapısında boş bir kuyruktan eleman silinmesi istendiğinde sistemden dönen hata aşağıdaki seçeneklerin hangisinde verilmiştir?",
+          "options": {
+            "A": "Bad Sector",
+            "B": "Herhangi bir hata dönmez.",
+            "C": "Overflow",
+            "D": "Underflow",
+            "E": "Stackoverflow"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Yapıları 2004 Final",
+      "exam_title": "Veri Yapıları 2004 Final",
+      "exam_type": "final",
+      "year": "2004",
+      "question_count": 8,
+      "source_url": "",
+      "file_name": "Veri_Yapilari_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 8,
+          "question": "Bir sıralama algoritması, sıralanacak dizinin Içinde, değerleri birbirine eşit olan öğelerin, sıralama İşleminden sonra da birbirlerine göre olan konumlanının korumasını garanti etmiyorsa bu algoritma için aşağıdakı seçeneklerde verllenlerden hangisi kesin olarak söylenebilir?",
+          "options": {
+            "A": "Yavaş çalışan bir sıralama algoritmasıdır.",
+            "B": "Kararsız bir sıralama algoritmasıdır.",
+            "C": "Hiyerarşik bir sıralama algoritmasıdır.",
+            "D": "Hızlı çalışan bir sıralama algoritmasıdır.",
+            "E": "Kararlı bir sıralama algoritmasıdır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakı veri yapılarından hangisi hlyerarşik verl yapısıdır?",
+          "options": {
+            "A": "Ağaç veri yapısı",
+            "B": "Bağlı liste veri yapısı",
+            "C": "Yığın veri yapısı",
+            "D": "Dizi veri yapısı",
+            "E": "Kuyruk veri yapısı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Int A[5][6][4] şeklinde tanımlanan bir dizide kaç yüzey vardır?",
+          "options": {
+            "A": "1200",
+            "B": "5",
+            "C": "6",
+            "D": "24",
+            "E": "30"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Dalresel tek yönlü bağlı liste lle tek yönlü bağlı Ilste arasındaki farklılık aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Dairesel tek yönlü bağlı listelerin son düğümünün sonraki (next) işaretçisi listenin ilk düğümünü işaret eder, tek yönlü bağlı listelerin son düğümünün sonraki (next) işaretçisinin değeri NULL'dir.",
+            "B": "Dairesel tek yönlü bağlı listelerde tek yönlü hareket edilebilir, tek yönlü bağlı listelerde çift yönlü hareket edilebilir.",
+            "C": "Dairesel tek yönlü bağlı listelerin düğümlerinde iki İşaretçi vardır, tek yönlü bağlı listelerin düğümlerinde bir işaretçi vardır.",
+            "D": "Dairesel tek yönlü bağlı listelerin düğümlerinde bir İşaretçi vardır, tek yönlü bağlı listelerin düğümlerinde iki işaretçi vardır.",
+            "E": "Dairesel tek yönlü bağlı listelerde çift yönde hareket edilebilir, tek yönlü bağlı listelerde tek yönlü hareket edilebilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Çözülmesi gereken problemin doğasından dolayı, elemanlara sadece bir noktadan sırayla erişilmesi gerektiği durumlarda kullanılan verl yapısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yığın veri yapısı",
+            "B": "Ağaç veri yapısı",
+            "C": "Dizi veri yapısı",
+            "D": "Kuyruk veri yapısı",
+            "E": "Bağlı liste veri yapısı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yığınların dizi uygulamasında yığına eleman eklemek veya yığından eleman çıkarmak için top adlı bir değişkenden yararlanılır. Başlangıçta bu değişkene ilk değer olarak aşağıdakl seçeneklerde verilmiş sayılardan hangisi atanır?",
+          "options": {
+            "A": "-2",
+            "B": "2",
+            "C": "-1",
+            "D": "1",
+            "E": "0"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Kuyruk verl yapısında dolu olan bir kuyruğa, eleman eklenmek istendiğinde aşağıdakl seçeneklerde verllenlerden hangisi hata olarak döner?",
+          "options": {
+            "A": "Overflow",
+            "B": "Stackoverflow",
+            "C": "Underflow",
+            "D": "BadSector",
+            "E": "Herhangi bir hata dönmez."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "C programlama dilinde, bağlı listelerin düğümlerini bellekten silmek (düğümler İçin bellekte aynılan adresleri serbest bırakmak) Için aşağıdakı fonksiyonlardan hangisi kullanılır?",
+          "options": {
+            "A": "return",
+            "B": "struct",
+            "C": "malloc()",
+            "D": "main()",
+            "E": "free()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Yapıları 2000 Final",
+      "exam_title": "Veri Yapıları 2000 Final",
+      "exam_type": "final",
+      "year": "2000",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Veri_Yapilari_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 7,
+          "question": "Int A[5][4][3] dizinin bellek adresl 2000 'dır. Buna göre dizinin A[0][0][0] elemanının adresl aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",

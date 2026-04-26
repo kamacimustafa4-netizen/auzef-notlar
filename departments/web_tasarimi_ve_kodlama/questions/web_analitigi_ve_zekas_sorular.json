@@ -1,0 +1,709 @@
+{
+  "course": "Web Analitiği ve Zekâsı",
+  "lesson_code": "WEB_ANALITIGI_VE_ZEKAS",
+  "exam_count": 2,
+  "exams": [
+    {
+      "title": "Web Analitiği ve Zekâsı 2025 Vize",
+      "exam_title": "Web Analitiği ve Zekâsı 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Web_Analitigi_ve_Zek_si_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi R dili hakkında doğrudur?",
+          "options": {
+            "A": "Platform bağımsızdır, çeşitli işletim sistemlerinde çalışabilir.",
+            "B": "Ticari ve bireysel kullanım için mutlaka ücret ödenmelidir.",
+            "C": "Veri madenciliği, yapay zekâ ve makine öğrenmesi gibi alanlarda kullanılamaz.",
+            "D": "Kapalı kaynak kodludur, topluluk katkısına kapalıdır.",
+            "E": "Yalnızca RStudio geliştirme ortamında çalışabilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir data frame'de (veri çerçevesinde) saklanan bir veri setinin ilk birkaç satırını görüntülemek için aşağıda verilen R fonksiyonlarından hangisi kullanılır?",
+          "options": {
+            "A": "tail()",
+            "B": "head()",
+            "C": "glimpse()",
+            "D": "first_row()",
+            "E": "summary()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir web-analitiği veri setinde sayfa görüntüleme sayısı, ortalama oturum süresi ve hemen çıkma oranı gibi değişkenler hangi veri tipindedir?",
+          "options": {
+            "A": "Mantıksal",
+            "B": "Metinsel",
+            "C": "Sayısal (Nümerik)",
+            "D": "Kategorik",
+            "E": "Faktör"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki R kodu çalıştırıldığında aşağıda verilenlerden hangisi yazdırılır?",
+          "options": {
+            "A": "5",
+            "B": "8",
+            "C": "NA",
+            "D": "3",
+            "E": "x+y"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "R'da bir MS Excel veri dosyasını okumak için aşağıdaki fonksiyonlardan hangisi kullanılabilir?",
+          "options": {
+            "A": "run_excel()",
+            "B": "install_excel()",
+            "C": "read_excel()",
+            "D": "import_excel()",
+            "E": "load_excel()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "R programlama dilinin lisans türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "MIT",
+            "B": "BSD",
+            "C": "GPL",
+            "D": "Apache",
+            "E": "Creative Commons"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir web sunucusunun kullanıcıların web sitesi etkileşimlerine ait ham verileri otomatik olarak kaydettiği dosyalara verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Form verileri",
+            "B": "Çerezler (cookies)",
+            "C": "Proxy verisi",
+            "D": "Sosyal medya verileri",
+            "E": "Sunucu logları (server logs)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Web analitiğinde … bir web sitesinin performansını nicel olarak ifade eden ölçümler sunar. Yukarıdaki tanımda … ile verilen boşluğa aşağıdaki kavramlardan hangisi getirilmelidir?",
+          "options": {
+            "A": "boyutlar",
+            "B": "cihaz türleri",
+            "C": "coğrafi konumlar",
+            "D": "trafik kaynakları",
+            "E": "metrikler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıdaki R kod bloğunda satın alma ( purchase ) ve sepete ekleme ( add_to_cart ) olaylarını çekmek için … ile verilen boşluğa aşağıdaki ifadelerden hangisi getirilmelidir?",
+          "options": {
+            "A": "\"eventName=='purchase' AND eventName=='add_to_cart'\"",
+            "B": "\"eventName=='purchase' * eventName=='add_to_cart'\"",
+            "C": "\"eventName=='purchase' != eventName=='add_to_cart'\"",
+            "D": "\"eventName=='purchase' OR eventName=='add_to_cart'\"",
+            "E": "\"eventName=='purchase' == eventName=='add_to_cart'\""
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki işlemlerden hangisi yapay kodlama (dummy coding) yöntemi ile gerçekleştirilir?",
+          "options": {
+            "A": "Nümerik nitelikleri kategorilere ayırmak.",
+            "B": "Veri setindeki eksik değerleri doldurmak.",
+            "C": "Tekrar eden gözlemleri farklılaştırmak.",
+            "D": "Kategorik bir değişkeni sayısal formatta temsil etmek.",
+            "E": "Nümerik değerleri belirli sayısal aralıklara indirmek, normalize etmek."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi Çapraz Endüstri Standard Süreç Modeli'ndeki (CRISP-DM) modelin uygulamaya geçirilmesi ( deployment ) aşamasının temel amacını en iyi şekilde açıklar?",
+          "options": {
+            "A": "Modelin eğitim (train) ve test olarak ikiye ayrılması.",
+            "B": "Veri setindeki niteliklerin sayılarının azaltılması.",
+            "C": "Veri setindeki eksik değerlere sahip olan örneklerin veri setinden çıkartılması.",
+            "D": "Kurulan modelin, iş süreçlerinde gerçek verilerle kullanılmaya başlanması.",
+            "E": "Model parametrelerinin optimize edilmesi."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "R programlama dilinde veri setindeki eksik değerleri tespit etmek için aşağıdaki fonksiyonlardan hangisi kullanılabilir?",
+          "options": {
+            "A": "duplicated()",
+            "B": "is.na()",
+            "C": "prop.table()",
+            "D": "table()",
+            "E": "unique()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "veri <- veri[!duplicated(veri), ] Yukarıdaki R kodunun işlevi aşağıdakilerden hangisinde doğru biçimde verilmiştir?",
+          "options": {
+            "A": "Veri setinden tekrarlayan satırları çıkarıp, veri setindeki benzersiz satırları almak.",
+            "B": "Veri setindeki yalnızca tekrarlayan (duplicated) satırları almak.",
+            "C": "Veri setini kalıcı olarak silmek.",
+            "D": "Veri setine yeni bir sütun eklemek.",
+            "E": "Veri setindeki tüm eksik değerleri filtrelemek."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "aggregate(Revenue ~ UserType, data = veri , FUN = mean) Yukarıda verilen R kodu ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Revenue sütunu esas alınarak veri seti gruplar ve her gruba ait UserType sütununun ortalama değeri hesaplanır.",
+            "B": "Revenue sütunu esas alınarak veri seti gruplar ve her gruba ait UserType sütununun aranca değeri hesaplanır.",
+            "C": "UserType sütunu esas alınarak veri seti gruplar ve her gruba ait Revenue sütununun en yüksek değeri hesaplanır.",
+            "D": "UserType sütunu esas alınarak veri seti gruplar ve her gruba ait Revenue sütununun ortanca değeri hesaplanır.",
+            "E": "UserType sütunu esas alınarak veri seti gruplar ve her gruba ait Revenue sütununun ortalama değeri hesaplanır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Web zekâsının temel amacı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veritabanı yönetimini kolaylaştırmak",
+            "B": "Sadece sosyal medya verilerini incelem",
+            "C": "Geleneksel medya kullanımını artırmak",
+            "D": "Web üzerinden değerli bilgileri ortaya çıkarmak ve analiz etmek",
+            "E": "Sadece büyük veriyi değerlendirmek"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Google Analytics üzerinden aşağıdaki metriklerden hangisi, web sitesine gelen ziyaretlerde \"sayfa görüntülenme sayısını\" ifade eder?",
+          "options": {
+            "A": "averageSessionDuration",
+            "B": "totalUsers",
+            "C": "eventCount",
+            "D": "sessions",
+            "E": "screenPageViews"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıda verilenlerden hangisi web analitiği süreci adımlarından biri değildir ?",
+          "options": {
+            "A": "Veritabanını sıralama",
+            "B": "Veri önişleme",
+            "C": "Soru sorma",
+            "D": "Veri analizi",
+            "E": "Veri toplama"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıda verilen R kodu çalıştırıldığında aşağıdaki hangi mesajı yazdırılır?",
+          "options": {
+            "A": "0",
+            "B": "Hiçbir şey yazdırılmaz.",
+            "C": "Sıfır",
+            "D": "Negatif",
+            "E": "Pozitif"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "veri <- _______(\"sinav.csv\") Yukarıdaki R kodu kullanılarak geçerli çalışma dizininde bulunan sinav.csv dosyası okunup bir Data Frame'e (veri çerçevesine) atamaya çalışılmaktadır. Aşağıdaki hangi fonksiyon bu veri okuma işlemini gerçekleştirir?",
+          "options": {
+            "A": "write.csv()",
+            "B": "read.csv()",
+            "C": "load()",
+            "D": "read.table2()",
+            "E": "source()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Web analitiğinde hemen çıkma oranı (bounce rate) aşağıdaki anlamlardan hangisine gelmektedir?",
+          "options": {
+            "A": "Bir sayfayı ziyaret edenlerin, başka hiçbir sayfaya geçmeden siteden ayrılma yüzdesi.",
+            "B": "Ziyaretçinin belirli bir sayfada ortalama kalma süresinin yüzdesi.",
+            "C": "Oturum başına düşen sayfa görüntülenme sayısının artış oranı.",
+            "D": "Yalnızca mobil kullanıcılarda oluşan tıklama hatalarını ölçen oran.",
+            "E": "Ziyaretçilerin siteye giriş saatlerinin yoğunluğu."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı 2025 Final",
+      "exam_title": "Web Analitiği ve Zekâsı 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Web_Analitigi_ve_Zek_si_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki R kodlarından hangisi, k-ortalamalar algoritması ile bir kümeleme modeli oluşturur?",
+          "options": {
+            "A": "summary(mean(veri$Revenue))",
+            "B": "kmeans(veri, centers = 5, nstart = 25)",
+            "C": "tree(revenue ~ x, data=veri)",
+            "D": "lm(revenue ~ pageviews, data = veri)",
+            "E": "hclust(mean(veri))"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir ziyaretçinin bir web sitesine girdikten sonra başka hiçbir sayfayı ziyaret etmeden çıkması durumunda aşağıda verilen hangi metrik artar?",
+          "options": {
+            "A": "Ortalama oturum süresi",
+            "B": "Sayfa derinliği",
+            "C": "Tıklama oranı",
+            "D": "Hemen çıkma oranı",
+            "E": "Dönüşüm oranı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki seçeneklerden hangisi web analitiği kapsamında veri toplamak için kullanılan veri kaynaklarından biri değildir?",
+          "options": {
+            "A": "BIOS ayar dosyaları",
+            "B": "Çerezler",
+            "C": "Sunucu logları",
+            "D": "JavaScript sayfa etiketleri",
+            "E": "Clickstream verisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki seçeneklerde verilen R fonksiyonlarından hangisi, k-ortalamalar algoritmasının oluşturduğu kümeleri görselleştirmek için kullanılır?",
+          "options": {
+            "A": "summary(kmeans_model)",
+            "B": "fviz_cluster(kmeans_model, data = veri)",
+            "C": "plot(kmeans_model)",
+            "D": "hist(kmeans_model)",
+            "E": "cor(kmeans_model)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_4.jpg",
+          "image_file": "WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_4.jpg",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_4.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verilen kullanıcı tanımlı R fonksiyonunun görevi aşağıdaki seçeneklerin hangisinde doğru şekilde ifade edilmiştir?",
+          "options": {
+            "A": "Verilen iki sayıyı çarpar ve sonucu döndürür.",
+            "B": "Verilen iki metinsel ifadeyi yan yana yazdırır.",
+            "C": "Verilen ilk sayının ikinci sayıya bölümünden kalanı bulur.",
+            "D": "Verilen ilk sayının, ikinci sayı kadar kuvvetini alır ve sonucu döndürür.",
+            "E": "Mantıksal (logical) iki değeri tersine çevirir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "caret::dummyVars(\" ~ Device\", data = veri) Bir araştırmacı R'da yukarıdaki kod satırında verildiği gibi caret paketinden dummyVars() fonksiyonunu çağırmışsa, aşağıdaki seçeneklerde verilenlerden hangisini gerçekleştirecek demektir?",
+          "options": {
+            "A": "aykırı değer tespiti",
+            "B": "veri tamamlama",
+            "C": "veri ayrıklaştırma",
+            "D": "yapay kodlama",
+            "E": "tekrar eden verilerin tespiti"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_6.jpg",
+          "image_file": "WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_6.jpg",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_6.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki kod bloğunda sınıflandırma performans metriklerinin pozitif sınıf olarak \"sadık\" kategorisini seçmesi için … ile verilen boşluğa aşağıdaki seçeneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "positive == \"sadık\"",
+            "B": "positive = \"sadık\"",
+            "C": "kayıp = \"negative\"",
+            "D": "negative = \"kayıp\"",
+            "E": "sadık = \"positive\""
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi R'da veri görselleştirme için kullanılan kütüphanelerden biri değildir?",
+          "options": {
+            "A": "shiny",
+            "B": "ggplot2",
+            "C": "lattice",
+            "D": "dplyr",
+            "E": "plotly"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Web zekâsı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Yapay zekâ ve makine öğrenmesi tekniklerini içerir.",
+            "B": "Webden gizli örüntü ve şablonları belirlemek için veri bilimi yöntemlerinden yararlanır.",
+            "C": "Yalnızca sosyal medya ile ilgili veri analizine odaklanır.",
+            "D": "Web tabanlı hizmetlerin optimizasyonunda kullanılır.",
+            "E": "Web üzerindeki verilerden önemli bilgileri çıkarmayı amaçlar."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Farklı küme sayılarına göre yapılan kümeleme analizleri sonucu elde edilen Silhouette indeksi değerleri aşağıdaki seçeneklerde yer almaktadır. Buna göre aşağıdaki hangi seçenekte verilen kümeleme performansı diğerlerine göre en iyisidir?",
+          "options": {
+            "A": "0.28",
+            "B": "0.8",
+            "C": "0.35",
+            "D": "0.50",
+            "E": "0.85"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_10.jpg",
+          "image_file": "WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_10.jpg",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_10.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıdaki R kod satırı ile oluşturulacak grafik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kutu grafiği",
+            "B": "Çizgi grafiği",
+            "C": "Yoğunluk grafiği",
+            "D": "Çubuk grafiği",
+            "E": "Histogram"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bir sınıflandırma modelinde \"Doğruluk\" (accuracy) değeri aşağıdaki seçeneklerin hangisinde doğru biçimde açıklanmıştır?",
+          "options": {
+            "A": "Pozitif olarak tahmin edilen örneklerin ne kadarının gerçekten pozitif olduğunu gösterir.",
+            "B": "Sadece negatif sınıfın doğru tahmin edilme oranını ifade eder.",
+            "C": "Doğru sınıflandırılan örneklerin (TP+TN), tüm tahminlere oranıdır (TP+FP+FN+TN).",
+            "D": "Yanlış sınıflandırılan örneklerin (FP+FN) tüm tahminlere oranıdır (TP+FP+FN+TN).",
+            "E": "Tüm pozitif ve negatif örneklerin toplamını verir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "alt_kurallar <- kurallar[quality(kurallar )$confidence > 0.70] Yukarıdaki R kod bloğu, apriori algoritması ile oluşturulan kuralların içinden güven değeri yüzde 70'den büyük olanları filtrelemektedir. Aşağıdaki hangi fonksiyon bu filtreleme sonucunda elde edilen kural alt kümesinin ekrana yazdırılmasını sağlar?",
+          "options": {
+            "A": "plot(alt_kurallar)",
+            "B": "summary(alt_kurallar)",
+            "C": "subset(alt_kurallar)",
+            "D": "inspect(alt_kurallar)",
+            "E": "merge(alt_kurallar)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "ggplot(veri, aes(x = CihazTuru)) + geom_bar(fill = \"yellow\") Yukarıdaki R kod bloğu çalıştırıldığında aşağıdaki grafik türlerinden hangisi elde edilir?",
+          "options": {
+            "A": "Çizgi grafiği",
+            "B": "Çubuk grafiği",
+            "C": "Saçılım grafiği",
+            "D": "Kutu grafiği",
+            "E": "Histogram"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_14.jpg",
+          "image_file": "WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_14.jpg",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_14.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıda verilen ekran görüntüsüne göre web trafiği analizinde kullanılacak veri seti için aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Veri setinde toplamda 200 adet etiket, 15 adet gözlem bulunur.",
+            "B": "Veri setinde toplamda 200 adet nitelik, 15 adet gözlem bulunur.",
+            "C": "Veri setinde toplamda 200 adet örnek, 15 adet etiket bulunur.",
+            "D": "Veri setinde toplamda 200 adet sütun, 15 adet satır bulunur.",
+            "E": "Veri setinde toplamda 200 adet gözlem, 15 adet nitelik bulunur."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "A -> B şeklinde tanımlanan bir kural için güven değeri aşağıda verilen hangi olasılığı ifade eder?",
+          "options": {
+            "A": "P(A) x P(B)",
+            "B": "P(A|B)",
+            "C": "P(A ∪ B)",
+            "D": "1 - P(A ∩ B)",
+            "E": "P(B|A)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "veriSeti adlı bir data frame'de (veri çerçevesinde) eksik değerlerin sütun bazında sayısını hesaplamak için aşağıda verilen R kodlarından hangisi kullanılır?",
+          "options": {
+            "A": "na_summary(veriseti)",
+            "B": "missing_values(veriseti)",
+            "C": "count_na(veriseti)",
+            "D": "sum(is.na(veriseti))",
+            "E": "colSums(is.na(veriseti))"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_17.jpg",
+          "image_file": "WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_17.jpg",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKAS_2025_final_soru_17.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıdaki R kodu ile bir işlem veri seti (transactions) üzerinde apriori algoritması çalıştırılmaktadır. apriori() fonksiyonundaki aşağıdaki parametrelerden hangisi, bir kuralın taşıması gereken en düşük güven değerini belirlemektedir?",
+          "options": {
+            "A": "supp",
+            "B": "trans",
+            "C": "conf",
+            "D": "minlen",
+            "E": "parameter"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "a <- 10L b <- 2.50 c <- a + b class(c) Yukarıdaki R kodu çalıştırıldığında c değişkeninin veri tipi (class) aşağıdaki seçeneklerin hangisinde verilmiştir?",
+          "options": {
+            "A": "integer",
+            "B": "factor",
+            "C": "numeric",
+            "D": "character",
+            "E": "logical"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "tahminler <- knn(train = X_egitim, test = X_test, cl = y_egitim, k = 3) Yukarıda k-En Yakın Komşu algoritması kullanılarak yapılan bir sınıflandırma adımı görülmektedir. knn() fonksiyonundaki parametrelerden hangisi eğitim veri setindeki hedef niteliği ifade eder?",
+          "options": {
+            "A": "cl",
+            "B": "tahminler",
+            "C": "k",
+            "D": "train",
+            "E": "test"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

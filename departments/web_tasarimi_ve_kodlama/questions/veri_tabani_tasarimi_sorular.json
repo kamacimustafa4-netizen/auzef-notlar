@@ -1,8 +1,217 @@
 {
   "course": "Veri Tabani Tasarimi",
   "lesson_code": "VERI_TABANI_TASARIMI",
-  "exam_count": 11,
+  "exam_count": 14,
   "exams": [
+    {
+      "title": "Veri Tabanı Tasarımı 2048 Vize",
+      "exam_title": "Veri Tabanı Tasarımı 2048 Vize",
+      "exam_type": "vize",
+      "year": "2048",
+      "question_count": 8,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Tasarimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 8,
+          "question": "Farklı veri kaynaklarının bir araya getirilmesiyle oluşturulan birleşik veri yapısına ne ad verilir?",
+          "options": {
+            "A": "Veri ambarı",
+            "B": "Veri kümesi",
+            "C": "İkincil veri",
+            "D": "XML",
+            "E": "Veri tabanı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Verilerin satır ve sütunlar şeklinde kaydedildiği yapıya ne ad verilir?",
+          "options": {
+            "A": "JSON",
+            "B": "Veri tabanı",
+            "C": "Veri kümesi",
+            "D": "Veri ambarı",
+            "E": "Birincil veri"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangi nitelik, fonksiyonel bağımlılık ifadesinin sol tarafına eklenmek için en uygundur?",
+          "options": {
+            "A": "yazar",
+            "B": "yol",
+            "C": "baslik",
+            "D": "dil",
+            "E": "isbn"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Ölçüm, sayım, deney, gözlem ya da araştırma yöntemiyle elde edilen kayıtlara ne denir?",
+          "options": {
+            "A": "Bilgelik",
+            "B": "Enformasyon",
+            "C": "Veri",
+            "D": "Bilgi",
+            "E": "İstatistik"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Hangi nitelik, fonksiyonel bağımlılık ifadesinin sol tarafına eklenmek için uygundur?",
+          "options": {
+            "A": "id",
+            "B": "cinsiyet",
+            "C": "kimlikSeri",
+            "D": "telefonNumarasi",
+            "E": "postaKodu"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Hangisi, Codd'un motivasyonlarından biri değildir?",
+          "options": {
+            "A": "Tüm kullanıcı ve programcıların anlayabilecekleri basit bir yapı ortaya koymak.",
+            "B": "Daha yüksek saklama kapasitesi elde edilmesi.",
+            "C": "SQL tarzı bir dil oluşturulması.",
+            "D": "Bir üst seviye dil oluşturmak.",
+            "E": "Fiziksel ve mantıksal beklentilerin birbirinden ayrılması."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Hangisi veri tabanı gösterim şekillerinden biri değildir?",
+          "options": {
+            "A": "IDEF1X",
+            "B": "Kaz ayağı",
+            "C": "EXPREES",
+            "D": "Chen",
+            "E": "SQL"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Bit – Bayt dönüşümü dışındaki birim dönüşümler, bir alt birimin kaç katı olarak hesaplanmaktadır? (Örneğin; 1 gigabayt = ? megabayt)",
+          "options": {
+            "A": "100",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Tabanı Tasarımı 2048 Vize",
+      "exam_title": "Veri Tabanı Tasarımı 2048 Vize",
+      "exam_type": "vize",
+      "year": "2048",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Tasarimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 16,
+          "question": "İhtiyaca göre toplanan veri türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Enformasyon",
+            "B": "Birincil veri",
+            "C": "Bilgi",
+            "D": "İkincil veri",
+            "E": "Veri kümesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bilgisayarların çalışmasını sağlayan 1'ler ve 0'lar, neyin varlığı ve yokluğu ile oluşturulur?",
+          "options": {
+            "A": "Işık",
+            "B": "Elektrik",
+            "C": "Ses",
+            "D": "Görüntü",
+            "E": "Veri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Hangisi fonksiyonel bağımlılık gösterimine uygundur?",
+          "options": {
+            "A": "a → {b, c, d}",
+            "B": "a → a",
+            "C": "a, b → c",
+            "D": "a → b ; c ; d",
+            "E": "[a, b] → c"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
     {
       "title": "Veri Tabanı Tasarımı 2025-2026 Vize",
       "exam_title": "Veri Tabanı Tasarımı 2025-2026 Vize",
@@ -1061,7 +1270,7 @@
       "exam_title": "Veri Tabanı Tasarımı 2022-2023 Vize",
       "exam_type": "vize",
       "year": "2022-2023",
-      "question_count": 18,
+      "question_count": 7,
       "source_url": "",
       "file_name": "Veri_Tabani_Tasarimi_Vize_Sorulari.docx",
       "questions": [
@@ -1075,7 +1284,7 @@
             "D": "songorulduguipadresi",
             "E": "KAYIT_TARİHİ"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1092,7 +1301,7 @@
             "D": "Veri",
             "E": "Değer"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1109,7 +1318,7 @@
             "D": "Toplanacak veriyle ilgili ayrıntılı çalışma gerektirmesi.",
             "E": "Düşük maliyetle elde edilmesi."
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1126,7 +1335,7 @@
             "D": "Tutarsızlıktan kaçınma.",
             "E": "İçerik ve yöntemden bağımsızlık."
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1143,7 +1352,7 @@
             "D": "aciklama",
             "E": "kimlikNumarasi"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1160,7 +1369,7 @@
             "D": "Hiyerarşik veri tabanı",
             "E": "Geleneksel dosya temelli"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1175,196 +1384,9 @@
             "B": "4096",
             "C": "1024",
             "D": "8192",
-            "E": "2048"
+            "E": ""
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Farklı veri kaynaklarının bir araya getirilmesiyle oluşturulan birleşik veri yapısına ne ad verilir?",
-          "options": {
-            "A": "Veri ambarı",
-            "B": "Veri kümesi",
-            "C": "İkincil veri",
-            "D": "XML",
-            "E": "Veri tabanı"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Verilerin satır ve sütunlar şeklinde kaydedildiği yapıya ne ad verilir?",
-          "options": {
-            "A": "JSON",
-            "B": "Veri tabanı",
-            "C": "Veri kümesi",
-            "D": "Veri ambarı",
-            "E": "Birincil veri"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Hangi nitelik, fonksiyonel bağımlılık ifadesinin sol tarafına eklenmek için en uygundur?",
-          "options": {
-            "A": "yazar",
-            "B": "yol",
-            "C": "baslik",
-            "D": "dil",
-            "E": "isbn"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Ölçüm, sayım, deney, gözlem ya da araştırma yöntemiyle elde edilen kayıtlara ne denir?",
-          "options": {
-            "A": "Bilgelik",
-            "B": "Enformasyon",
-            "C": "Veri",
-            "D": "Bilgi",
-            "E": "İstatistik"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Hangi nitelik, fonksiyonel bağımlılık ifadesinin sol tarafına eklenmek için uygundur?",
-          "options": {
-            "A": "id",
-            "B": "cinsiyet",
-            "C": "kimlikSeri",
-            "D": "telefonNumarasi",
-            "E": "postaKodu"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Hangisi, Codd'un motivasyonlarından biri değildir?",
-          "options": {
-            "A": "Tüm kullanıcı ve programcıların anlayabilecekleri basit bir yapı ortaya koymak.",
-            "B": "Daha yüksek saklama kapasitesi elde edilmesi.",
-            "C": "SQL tarzı bir dil oluşturulması.",
-            "D": "Bir üst seviye dil oluşturmak.",
-            "E": "Fiziksel ve mantıksal beklentilerin birbirinden ayrılması."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Hangisi veri tabanı gösterim şekillerinden biri değildir?",
-          "options": {
-            "A": "IDEF1X",
-            "B": "Kaz ayağı",
-            "C": "EXPREES",
-            "D": "Chen",
-            "E": "SQL"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Bit – Bayt dönüşümü dışındaki birim dönüşümler, bir alt birimin kaç katı olarak hesaplanmaktadır? (Örneğin; 1 gigabayt = ? megabayt)",
-          "options": {
-            "A": "100",
-            "B": "2048",
-            "C": "1024",
-            "D": "10",
-            "E": "1000"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "İhtiyaca göre toplanan veri türü aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Enformasyon",
-            "B": "Birincil veri",
-            "C": "Bilgi",
-            "D": "İkincil veri",
-            "E": "Veri kümesi"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Bilgisayarların çalışmasını sağlayan 1'ler ve 0'lar, neyin varlığı ve yokluğu ile oluşturulur?",
-          "options": {
-            "A": "Işık",
-            "B": "Elektrik",
-            "C": "Ses",
-            "D": "Görüntü",
-            "E": "Veri"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Hangisi fonksiyonel bağımlılık gösterimine uygundur?",
-          "options": {
-            "A": "a → {b, c, d}",
-            "B": "a → a",
-            "C": "a, b → c",
-            "D": "a → b ; c ; d",
-            "E": "[a, b] → c"
-          },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2778,286 +2800,14 @@
       ]
     },
     {
-      "title": "Veri Tabani Tasarimi 2024-2025 Butunleme",
-      "exam_title": "Veri Tabani Tasarimi 2024-2025 Butunleme",
+      "title": "Veri Tabani Tasarimi 2048 Butunleme",
+      "exam_title": "Veri Tabani Tasarimi 2048 Butunleme",
       "exam_type": "butunleme",
-      "year": "2024-2025",
-      "question_count": 19,
+      "year": "2048",
+      "question_count": 3,
       "source_url": "",
       "file_name": "Veri_Tabani_Tasarimi_Butunleme_Sorulari.docx",
       "questions": [
-        {
-          "id": 1,
-          "question": "Para transfer yazılımı için oluşturulan veri tabanı tasarımında SistemAyarlari tablosunun diğer tablolarla ilişki biçimi aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Çoğa bir",
-            "B": "Bire bir",
-            "C": "Çoğa çok",
-            "D": "Bire çok",
-            "E": "İlişkisi yok"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Ders ve Ogrenci (öğrenci) tabloları arasındaki ilişki türü aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Çoğa bir",
-            "B": "Bire bir",
-            "C": "Çoğa çok",
-            "D": "Bire çok",
-            "E": "İlişkisi yok"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Urun (ürün) ile Musteri (müşteri) tabloları arasındaki ilişki türü aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Bire bir",
-            "B": "Çoğa bir",
-            "C": "Bire çok",
-            "D": "Çoğa az",
-            "E": "Çoğa çok"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "Aşağıdaki niteliklerden hangisi fonksiyonel bağımlılık ifadesinin sol tarafına eklenmek için en uygundur?",
-          "options": {
-            "A": "baslik",
-            "B": "ad",
-            "C": "evAdresi",
-            "D": "ePosta",
-            "E": "soyad"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "Alan/Anahtar Normal Form (Domain/Key Normal Form) aşağıdaki norm formların hangisinden sonra gelir?",
-          "options": {
-            "A": "Boyce-Codd Normal Form",
-            "B": "Üçüncü Normal Form",
-            "C": "Dördüncü Normal Form",
-            "D": "Beşinci Normal Form",
-            "E": "Altıncı Normal Form"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "Veri eklemek için kullanılan SQL komutu hangisidir?",
-          "options": {
-            "A": "UPDATE",
-            "B": "INSERT INTO",
-            "C": "DELETE",
-            "D": "SHOW",
-            "E": "SELECT"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Bir tablonun kendisiyle ilişkili olması durumunda aşağıdakilerden hangisi doğrudur?",
-          "options": {
-            "A": "İlişki türü her zaman bire birdir",
-            "B": "Bire çok ilişkide ikincil anahtar kullanılır",
-            "C": "İkincil anahtar kullanılmaz",
-            "D": "Çoğa çok ilişki mümkün değildir",
-            "E": "Bire çok ilişki mümkün değildir"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Double veri tipi sayesinde… Yukarıdaki cümleden boşluk bırakılan yere aşağıdakilerden hangisinin getirilmesi daha uygundur?",
-          "options": {
-            "A": "daha büyük ondanlıklı sayılar saklanabilir.",
-            "B": "tam sayılar iki katı büyüklüğünde saklanır.",
-            "C": "ikili tipte veri saklanabilir.",
-            "D": "iki sayı birden saklanabilir.",
-            "E": "iki karakter birlikte saklanabilir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Veri silmek için kullanılan SQL komutu hangisidir?",
-          "options": {
-            "A": "INSERT INTO",
-            "B": "DELETE",
-            "C": "SELECT",
-            "D": "UPDATE",
-            "E": "SHOW"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Bir tabloda hem id hem de plaka niteliklerinin bulunması aşağıdaki hangi normal forma aykırıdır?",
-          "options": {
-            "A": "İkinci normal form",
-            "B": "Beşinci normal form",
-            "C": "Birinci normal form",
-            "D": "Üçüncü normal form",
-            "E": "Dördüncü normal form"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Bir tablonun kendisiyle çoğa çok ilişkili olması durumunda yapılması gereken aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Tek tabloda çözülmelidir",
-            "B": "İlişki bire çoğa dönüştürülmelidir",
-            "C": "Bağlantı tablosu oluşturulmalıdır",
-            "D": "İki ayrı tablo oluşturulmalıdır",
-            "E": "İlişki kurulamaz"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Verilerin satır ve sütunlar şeklinde kaydedildiği yapıya verilen ad aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Veri tabanı",
-            "B": "Veri kümesi",
-            "C": "JSON",
-            "D": "Birincil veri",
-            "E": "Veri ambarı"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Ses tabanlı sosyal medya yazılımı için oluşturulan veri tabanı tasarımında ses kayıtları saklanma biçimi aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Harici bir veri tabanında",
-            "B": "Kullanici tablosunda",
-            "C": "Ileti tablosunda blob olarak",
-            "D": "Dosya yolu veri tabanında, dosya sunucuda",
-            "E": "Doğrudan veri tabanında"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Aşağıdakilerden hangisi birincil anahtar türlerinden biri değildir?",
-          "options": {
-            "A": "Azalan sayısal",
-            "B": "Rastgele sayısal",
-            "C": "Alfanümerik",
-            "D": "Kontrollü",
-            "E": "Sıralı sayısal"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Bağlantısız varlıklar ile ilgili aşağıdakilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Veri tabanında bulunmaları bir hatadır.",
-            "B": "Sistem ayarlarını tutmak için kullanılabilir.",
-            "C": "Diğer tablolarla ilişkisi olmayan tablolardır.",
-            "D": "Analiz amaçlı veri tabanlarında bulunabilirler.",
-            "E": "Birden fazla bağlantısız varlık grubu olabilir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Bit-Bayt dönüşümü dışındaki birim dönüşümler, bir alt birimin kaç katı olarak hesaplanmaktadır? (Örneğin; 1 gigabayt = ? megabayt)",
-          "options": {
-            "A": "10",
-            "B": "1000",
-            "C": "1024",
-            "D": "2048",
-            "E": "100"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
         {
           "id": 17,
           "question": "Bir veritabanı, mümkün olan en az sayıda tablo ile oluşturulmalıdır. Bu durum hangi normal form ile uygulanmaktadır?",
@@ -3103,6 +2853,289 @@
             "E": "Satis"
           },
           "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Tabani Tasarimi 2024-2025 Butunleme",
+      "exam_title": "Veri Tabani Tasarimi 2024-2025 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2024-2025",
+      "question_count": 16,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Tasarimi_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Para transfer yazılımı için oluşturulan veri tabanı tasarımında SistemAyarlari tablosunun diğer tablolarla ilişki biçimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çoğa bir",
+            "B": "Bire bir",
+            "C": "Çoğa çok",
+            "D": "Bire çok",
+            "E": "İlişkisi yok"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Ders ve Ogrenci (öğrenci) tabloları arasındaki ilişki türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çoğa bir",
+            "B": "Bire bir",
+            "C": "Çoğa çok",
+            "D": "Bire çok",
+            "E": "İlişkisi yok"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Urun (ürün) ile Musteri (müşteri) tabloları arasındaki ilişki türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bire bir",
+            "B": "Çoğa bir",
+            "C": "Bire çok",
+            "D": "Çoğa az",
+            "E": "Çoğa çok"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki niteliklerden hangisi fonksiyonel bağımlılık ifadesinin sol tarafına eklenmek için en uygundur?",
+          "options": {
+            "A": "baslik",
+            "B": "ad",
+            "C": "evAdresi",
+            "D": "ePosta",
+            "E": "soyad"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Alan/Anahtar Normal Form (Domain/Key Normal Form) aşağıdaki norm formların hangisinden sonra gelir?",
+          "options": {
+            "A": "Boyce-Codd Normal Form",
+            "B": "Üçüncü Normal Form",
+            "C": "Dördüncü Normal Form",
+            "D": "Beşinci Normal Form",
+            "E": "Altıncı Normal Form"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Veri eklemek için kullanılan SQL komutu hangisidir?",
+          "options": {
+            "A": "UPDATE",
+            "B": "INSERT INTO",
+            "C": "DELETE",
+            "D": "SHOW",
+            "E": "SELECT"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir tablonun kendisiyle ilişkili olması durumunda aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "İlişki türü her zaman bire birdir",
+            "B": "Bire çok ilişkide ikincil anahtar kullanılır",
+            "C": "İkincil anahtar kullanılmaz",
+            "D": "Çoğa çok ilişki mümkün değildir",
+            "E": "Bire çok ilişki mümkün değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Double veri tipi sayesinde… Yukarıdaki cümleden boşluk bırakılan yere aşağıdakilerden hangisinin getirilmesi daha uygundur?",
+          "options": {
+            "A": "daha büyük ondanlıklı sayılar saklanabilir.",
+            "B": "tam sayılar iki katı büyüklüğünde saklanır.",
+            "C": "ikili tipte veri saklanabilir.",
+            "D": "iki sayı birden saklanabilir.",
+            "E": "iki karakter birlikte saklanabilir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Veri silmek için kullanılan SQL komutu hangisidir?",
+          "options": {
+            "A": "INSERT INTO",
+            "B": "DELETE",
+            "C": "SELECT",
+            "D": "UPDATE",
+            "E": "SHOW"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir tabloda hem id hem de plaka niteliklerinin bulunması aşağıdaki hangi normal forma aykırıdır?",
+          "options": {
+            "A": "İkinci normal form",
+            "B": "Beşinci normal form",
+            "C": "Birinci normal form",
+            "D": "Üçüncü normal form",
+            "E": "Dördüncü normal form"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir tablonun kendisiyle çoğa çok ilişkili olması durumunda yapılması gereken aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Tek tabloda çözülmelidir",
+            "B": "İlişki bire çoğa dönüştürülmelidir",
+            "C": "Bağlantı tablosu oluşturulmalıdır",
+            "D": "İki ayrı tablo oluşturulmalıdır",
+            "E": "İlişki kurulamaz"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Verilerin satır ve sütunlar şeklinde kaydedildiği yapıya verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri tabanı",
+            "B": "Veri kümesi",
+            "C": "JSON",
+            "D": "Birincil veri",
+            "E": "Veri ambarı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Ses tabanlı sosyal medya yazılımı için oluşturulan veri tabanı tasarımında ses kayıtları saklanma biçimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Harici bir veri tabanında",
+            "B": "Kullanici tablosunda",
+            "C": "Ileti tablosunda blob olarak",
+            "D": "Dosya yolu veri tabanında, dosya sunucuda",
+            "E": "Doğrudan veri tabanında"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi birincil anahtar türlerinden biri değildir?",
+          "options": {
+            "A": "Azalan sayısal",
+            "B": "Rastgele sayısal",
+            "C": "Alfanümerik",
+            "D": "Kontrollü",
+            "E": "Sıralı sayısal"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Bağlantısız varlıklar ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Veri tabanında bulunmaları bir hatadır.",
+            "B": "Sistem ayarlarını tutmak için kullanılabilir.",
+            "C": "Diğer tablolarla ilişkisi olmayan tablolardır.",
+            "D": "Analiz amaçlı veri tabanlarında bulunabilirler.",
+            "E": "Birden fazla bağlantısız varlık grubu olabilir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bit-Bayt dönüşümü dışındaki birim dönüşümler, bir alt birimin kaç katı olarak hesaplanmaktadır? (Örneğin; 1 gigabayt = ? megabayt)",
+          "options": {
+            "A": "10",
+            "B": "1000",
+            "C": "1024",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",

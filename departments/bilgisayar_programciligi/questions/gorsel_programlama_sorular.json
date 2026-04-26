@@ -1,0 +1,1422 @@
+{
+  "course": "Görsel Programlama",
+  "lesson_code": "GORSEL_PROGRAMLAMA",
+  "exam_count": 5,
+  "exams": [
+    {
+      "title": "Görsel Programlama 2025 Vize",
+      "exam_title": "Görsel Programlama 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Gorsel_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Formun başlangıçta işletim sisteminin varsayılan konumunda açılması için formun StartPosition özelliğine aşağıdaki hangi değer verilmelidir?",
+          "options": {
+            "A": "Manual",
+            "B": "WindowsDefaultLocation",
+            "C": "WindowsDefaultBounds",
+            "D": "CenterScreen",
+            "E": "CenterParent"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Formun kullandığı sistem kaynaklarını serbest bırakmak için kullanılan metod aşağıdaki hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "Hide()",
+            "B": "Exit()",
+            "C": "Application.Exit()",
+            "D": "Dispose()",
+            "E": "Close()"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "TextBox kontrolünde içeriği varsayılan değere döndürmek için aşağıda verilen metodlardan hangisi kullanılır?",
+          "options": {
+            "A": "ResetText()",
+            "B": "Start()",
+            "C": "DeselectAll()",
+            "D": "Default()",
+            "E": "Clear()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Form1 isimli formun görsel kontrolleriyle ilgili kodlar aşağıdaki hangi kaynak kod dosyasına kaydedilir?",
+          "options": {
+            "A": "Form1.csproj",
+            "B": "Form1.cs",
+            "C": "Program.cs",
+            "D": "Form1.sln",
+            "E": "Form1.Designer.cs"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/GORSEL_PROGRAMLAMA_2025_vize_soru_4.jpg",
+          "image_file": "GORSEL_PROGRAMLAMA_2025_vize_soru_4.jpg",
+          "image_path": "resim-sorular/GORSEL_PROGRAMLAMA_2025_vize_soru_4.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verilen Bul butonun tıklanma koduna göre yukarıdaki resimde Keman, Gitar ve Piyano seçildiğinde mesaj penceresinde gözükecek çıktı aşağıdakilerden hangisidir? (CheckBox kontrolleri yukarıdan aşağıya sırayla isimlenmiştir.)",
+          "options": {
+            "A": "&",
+            "B": "#",
+            "C": "%",
+            "D": "#",
+            "E": "$"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "ListBox kontrolünün değerleri içinde belirli bir indisteki elemanı koleksiyondan silmek için aşağıda verilen metodlardan hangisi kullanılır?",
+          "options": {
+            "A": "Delete()",
+            "B": "Remove()",
+            "C": "Pop()",
+            "D": "Push()",
+            "E": "RemoveAt()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki kontrollerden hangisi kullanıcının açılır listeden tek bir seçim yapması için kullanılır?",
+          "options": {
+            "A": "ComboBox",
+            "B": "CheckedListBox",
+            "C": "CheckBox",
+            "D": "RadioButton",
+            "E": "ListBox"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Konsol ara yüzü ve grafiksel kullanıcı ara yüzü ile ilgili aşağıda verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Grafiksel kullanıcı ara yüzüne sahip yazılımlarda kullanıcı etkileşimi daha yüksektir.",
+            "B": "Konsol ara yüzünde yer alan form elemanları tıklama, seçme, yazma, seçme gibi çeşitli kullanıcı etkileşimleri sunar.",
+            "C": "Konsol ara yüzü, kullanıcıdan veri alma ve program çıktılarını gösterme işlevlerine sahiptir.",
+            "D": "Grafiksel kullanıcı ara yüzüne sahip yazılımlarda pencere ve form kontrolleri kullanılır.",
+            "E": "Konsol ara yüzünde çalıştırılacak programların komut ve parametrelerini bilmek gereklidir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "string x = comboBox1.Items[comboBox1.Sele ctedIndex].ToString(); Yukarıdaki kod satırının işlevi aşağıdaki hangi seçenekte verilmiştir?",
+          "options": {
+            "A": "ComboBox kontrolünde seçili elemanın indisini alır.",
+            "B": "ComboBox kontrolünde seçili elemanın değerini alır.",
+            "C": "ComboBox kontrolünde seçili değerin seçimini kaldırır.",
+            "D": "ComboBox kontrolünde bir indisi seçili hale getirir.",
+            "E": "ComboBox kontrolünde seçili indisin seçimini kaldırır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "İletişim Kutuları sekmesinde yer alan kontrol pencerelerini görüntülemek için aşağıdaki metodlardan hangisi kullanılır?",
+          "options": {
+            "A": "ShowDialog()",
+            "B": "DisplayDialog()",
+            "C": "Display()",
+            "D": "Run()",
+            "E": "VisibleDialog()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Formda Enter tuşuna basıldığında çalıştırılacak butonun ayarlandığı Form özelliği aşağıdaki şıkların hangisinde doğru olarak belirtilmiştir?",
+          "options": {
+            "A": "AcceptButton",
+            "B": "Enabled",
+            "C": "ControlBox",
+            "D": "ImeMode",
+            "E": "AllowDrop"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdaki kontrollerden hangisi menü ve araç çubuklarının yerleşimi için formu üst, alt, sağ ve sol panellere böler?",
+          "options": {
+            "A": "FlowLayoutPanel",
+            "B": "TableLayoutPanel",
+            "C": "StatusStrip",
+            "D": "ToolStripContainer",
+            "E": "ToolStrip"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıda verilen olaylardan hangisi formun düzeni değiştiğinde tetiklenir?",
+          "options": {
+            "A": "LocationChanged",
+            "B": "VisibleChanged",
+            "C": "Resize",
+            "D": "Leave",
+            "E": "Layout"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi WinForms arayüz çerçevesinin özelliklerinden biridir?",
+          "options": {
+            "A": "Etkili veri bağlama özelliklerini destekler.",
+            "B": "WinForms uygulaması geliştirmek için XAML dilini bilmek gereklidir.",
+            "C": "Sürükle-bırak yöntemiyle arzulanan form tasarımının kolayca oluşturulmasını sağlar.",
+            "D": "Büyük çaplı ve kurumsal uygulamalar için idealdir.",
+            "E": "Vektör tabanlı grafik kullanır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Form kontrolleri (elemanları) Visual Studio editöründe aşağıdaki hangi panel, pencere veya ekranda listelenir?",
+          "options": {
+            "A": "Tasarımcı Ekranı",
+            "B": "Araç Kutusu",
+            "C": "Çözüm Gezgini Paneli",
+            "D": "Kod Ekranı",
+            "E": "Özellikler Penceresi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "'partial' anahtar kelimesinin işlevi aşağıdaki şıkların hangisinde doğru olarak belirtilmiştir?",
+          "options": {
+            "A": "Formun kontrollerini çağırır.",
+            "B": "Program çalıştırıldığında ilk çağrılan metoddur.",
+            "C": "Sınıfın kodlarının birden fazla kaynak kod dosyasına ayrılmasını sağlar.",
+            "D": "Form olaylarının bildirimini sağlar.",
+            "E": "Formun görsel kontrollerinin bildirimini sağlar."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Dokümanı yazıcıya göndermek için aşağıda verilen kontrollerden hangisi kullanılır?",
+          "options": {
+            "A": "PrintPreview Dialog",
+            "B": "PageSetupDialog",
+            "C": "PrintDocument",
+            "D": "PrintSetupDialog",
+            "E": "PrintDialog"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Formu satır ve sütun halinde çerçevelere bölen ve her hücre içerisine yalnızca tek bir kontrol eklenmesine izin veren form kontrolü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "FlowLayoutPanel",
+            "B": "Panel",
+            "C": "GroupBox",
+            "D": "TableLayoutPanel",
+            "E": "TabControl"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Klavye olaylarının çalışma sıralaması aşağıdaki hangi seçenekte doğru olarak belirtilmiştir?",
+          "options": {
+            "A": "KeyUp, KeyDown ve KeyPress",
+            "B": "KeyDown, KeyUp ve KeyPress",
+            "C": "KeyPress, KeyDown ve KeyUp",
+            "D": "KeyDown, KeyPress ve KeyUp",
+            "E": "KeyUp, KeyPress ve KeyDown"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "StatusStrip kontrolünde aşağıdaki bileşenlerden hangisi bulunamaz?",
+          "options": {
+            "A": "StatusLabel",
+            "B": "ProgressBar",
+            "C": "TextBox",
+            "D": "DropDownButton",
+            "E": "SplitButton"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Görsel Programlama 2024 Vize",
+      "exam_title": "Görsel Programlama 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Gorsel_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Formun başlangıçta işletim sisteminin varsayılan konumunda açılması için formun StartPosition özelliğine aşağıdaki hangi değer verilmelidir?",
+          "options": {
+            "A": "Manual",
+            "B": "WindowsDefaultBounds",
+            "C": "CenterParent",
+            "D": "CenterScreen",
+            "E": "WindowsDefaultLocation"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "İletişim Kutuları sekmesinde yer alan kontrol pencerelerini görüntülemek için aşağıdaki metodlardan hangisi kullanılır?",
+          "options": {
+            "A": "DisplayDialog()",
+            "B": "VisibleDialog()",
+            "C": "ShowDialog()",
+            "D": "Display()",
+            "E": "Run()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıdaki kod satırının işlevi aşağıdaki hangi seçenekte verilmiştir?",
+          "options": {
+            "A": "ComboBox kontrolünde bir indisi seçili hale getirir.",
+            "B": "ComboBox kontrolünde seçili elemanın indisini alır.",
+            "C": "ComboBox kontrolünde seçili indisin seçimini kaldırır.",
+            "D": "ComboBox kontrolünde seçili elemanın değerini alır.",
+            "E": "ComboBox kontrolünde seçili değerin seçimini kaldırır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Formun kullandığı sistem kaynaklarını serbest bırakmak için kullanılan metod aşağıdaki hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "Application.Exit()",
+            "B": "Exit()",
+            "C": "Dispose()",
+            "D": "Close()",
+            "E": "Hide()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Dokümanı yazıcıya göndermek için aşağıda verilen kontrollerden hangisi kullanılır?",
+          "options": {
+            "A": "PrintSetupDialog",
+            "B": "PrintDocument",
+            "C": "PrintDialog",
+            "D": "PrintPreviewDialog",
+            "E": "PageSetupDialog"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Form1 isimli formun görsel kontrolleriyle ilgili kodlar aşağıdaki hangi kaynak kod dosyasına kaydedilir?",
+          "options": {
+            "A": "Program.cs",
+            "B": "Form1.sln",
+            "C": "Form1.cs",
+            "D": "Form1.csproj",
+            "E": "Form1.Designer.cs"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "ListBox kontrolünün değerleri içinde belirli bir indisteki elemanı koleksiyondan silmek için aşağıda verilen metodlardan hangisi kullanılır?",
+          "options": {
+            "A": "RemoveAt()",
+            "B": "Delete()",
+            "C": "Push",
+            "D": "Pop",
+            "E": "Remove()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki kontrollerden hangisi menü ve araç çubuklarının yerleşimi için formu üst, alt, sağ ve sol panellere böler?",
+          "options": {
+            "A": "TableLayoutPanel",
+            "B": "FlowLayoutPanel",
+            "C": "StatusStrip",
+            "D": "ToolStrip",
+            "E": "ToolStripContainer"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıda verilen Bul butonun tıklanma koduna göre yukarıdaki resimde Keman, Gitar ve Piyano seçildiğinde mesaj penceresinde gözükecek çıktı aşağıdakilerden hangisidir? (CheckBox kontrolleri yukarıdan aşağıya sırayla isimlenmiştir.)",
+          "options": {
+            "A": "&",
+            "B": "*",
+            "C": "/",
+            "D": "$",
+            "E": "#"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Formda Enter tuşuna basıldığında çalıştırılacak butonun ayarlandığı Form özelliği aşağıdaki şıkların hangisinde doğru olarak belirtilmiştir?",
+          "options": {
+            "A": "ImeMode",
+            "B": "AllowDrop",
+            "C": "ControlBox",
+            "D": "Enabled",
+            "E": "AcceptButton"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Konsol arayüzü ve grafiksel kullanıcı arayüzü ile ilgili aşağıda verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Grafiksel kullanıcı arayüzüne sahip yazılımlarda kullanıcı etkileşimi daha yüksektir.",
+            "B": "Konsol arayüzünde çalıştırılacak programların komut ve parametrelerini bilmek gereklidir.",
+            "C": "Grafiksel kullanıcı arayüzüne sahip yazılımlarda pencere ve form kontrolleri kullanılır.",
+            "D": "Konsol arayüzü, kullanıcıdan veri alma ve program çıktılarını gösterme işlevlerine sahiptir.",
+            "E": "Konsol arayüzünde yer alan form elemanları tıklama, seçme, yazma, seçme gibi çeşitli kullanıcı etkileşimleri sunar."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "'partial' anahtar kelimesinin işlevi aşağıdaki şıkların hangisinde doğru olarak belirtilmiştir?",
+          "options": {
+            "A": "Formun kontrollerini çağırır.",
+            "B": "Formun görsel kontrollerinin bildirimini sağlar.",
+            "C": "Form olaylarının bildirimini sağlar.",
+            "D": "Sınıfın kodlarının birden fazla kaynak kod dosyasına ayrılmasını sağlar.",
+            "E": "Program çalıştırıldığında ilk çağrılan metottur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "StatusStrip kontrolünde aşağıdaki bileşenlerden hangisi bulunamaz?",
+          "options": {
+            "A": "StatusLabel",
+            "B": "DropDownButton",
+            "C": "ProgressBar",
+            "D": "SplitButton",
+            "E": "TextBox"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi WinForms arayüz çerçevesinin özelliklerinden biridir?",
+          "options": {
+            "A": "WinForms uygulaması geliştirmek için XAML dilini bilmek gereklidir.",
+            "B": "Etkili veri bağlama özelliklerini destekler.",
+            "C": "Sürükle-bırak yöntemiyle arzulanan form tasarımının kolayca oluşturulmasını sağlar.",
+            "D": "Vektör tabanlı grafik kullanır.",
+            "E": "Büyük çaplı ve kurumsal uygulamalar için idealdir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Formu satır ve sütun halinde çerçevelere bölen ve her hücre içerisine yalnızca tek bir kontrol eklenmesine izin veren form kontrolü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "GroupBox",
+            "B": "FlowLayoutPanel",
+            "C": "TabControl",
+            "D": "TableLayoutPanel",
+            "E": "Panel"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "TextBox kontrolünde içeriği varsayılan değere döndürmek için aşağıda verilen metodlardan hangisi kullanılır?",
+          "options": {
+            "A": "ResetText()",
+            "B": "DeselectAll()",
+            "C": "Start()",
+            "D": "Clear()",
+            "E": "Default()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdaki kontrollerden hangisi kullanıcının açılır listeden tek bir seçim yapması için kullanılır?",
+          "options": {
+            "A": "CheckedListBox",
+            "B": "CheckBox",
+            "C": "ListBox",
+            "D": "RadioButton",
+            "E": "ComboBox"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Form kontrolleri (elemanları) Visual Studio editöründe aşağıdaki hangi panel, pencere veya ekranda listelenir?",
+          "options": {
+            "A": "Tasarımcı Ekranı",
+            "B": "Araç Kutusu",
+            "C": "Kod Ekranı",
+            "D": "Özellikler Penceresi",
+            "E": "Çözüm Gezgini Paneli"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Klavye olaylarının çalışma sıralaması aşağıdaki hangi seçenekte doğru olarak belirtilmiştir?",
+          "options": {
+            "A": "KeyDown, KeyPress ve KeyUp",
+            "B": "KeyUp, KeyPress ve KeyDown",
+            "C": "KeyUp, KeyDown ve KeyPress",
+            "D": "KeyPress, KeyDown ve KeyUp",
+            "E": "KeyDown, KeyUp ve KeyPress"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıda verilen olaylardan hangisi formun düzeni değiştiğinde tetiklenir?",
+          "options": {
+            "A": "Layout",
+            "B": "LocationChanged",
+            "C": "VisibleChanged",
+            "D": "Resize",
+            "E": "Leave"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Görsel Programlama 2025 Final",
+      "exam_title": "Görsel Programlama 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 12,
+      "source_url": "",
+      "file_name": "Gorsel_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "DriveInfo[] suruculer = DriveInfo.GetDriv es(); Yukarıdaki kod satırının işlevi aşağıda verilen seçeneklerin hangisinde doğru ifade edilmiştir?",
+          "options": {
+            "A": "DriveInfo dizisine sistemdeki sürücülerin türünü aktarır.",
+            "B": "DriveInfo dizisine sistemdeki sürücülerin listesini aktarır.",
+            "C": "DriveInfo dizisine sistemdeki sürücülerin üreticilerini aktarır.",
+            "D": "DriveInfo dizisine sistemdeki sürücülerin isimlerini aktarır.",
+            "E": "DriveInfo dizisine sistemdeki sürücülerin kök dizinlerini aktarır"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kullanıcının dataGridView1 isimli kontrolde birden fazla hücre, satır veya sütunu seçebilmesi aşağıdaki kod satırlarından hangisiyle sağlanır?",
+          "options": {
+            "A": "dataGridView1.SelectedCells = true;",
+            "B": "dataGridView1.SelectedColumns = true;",
+            "C": "dataGridView1.MultiSelect = true;",
+            "D": "dataGridView1.SelectedRows = true;",
+            "E": "dataGridView1.SelectionMode = true;"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "DirectoryNotFoundException istisnası aşağıdaki durumlarından hangisi oluştuğunda meydana gelir?",
+          "options": {
+            "A": "Klasör bulunamadığında oluşan istisna",
+            "B": "Sürücü bulunamadığında oluşan istisna",
+            "C": "Dosya bulunamadığında oluşan istisna",
+            "D": "Akışın sonuna gelindiğinde oluşan istisna",
+            "E": "Arabellekte taşma meydana geldiğinde oluşan istisna"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Uygulamada yer alan projeler, projelere ait formların tasarım ve kod dosyaları Visual Studio editöründe aşağıdaki hangi ekran, pencere veya panelde listelenir?",
+          "options": {
+            "A": "Araç Kutusu",
+            "B": "Çözüm Gezgini",
+            "C": "Kod Ekranı",
+            "D": "Özellikler Paneli",
+            "E": "Tasarımcı Ekranı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "ClickOnce ile uygulamanın kurulum dosyasını oluşturmak için Visual Studio editöründe aşağıdaki menü yollarından hangisi izlenmelidir?",
+          "options": {
+            "A": "Derle - Çözümü Yayımla",
+            "B": "Derle - Seçimi Yayımla",
+            "C": "Test - Yayımla",
+            "D": "Derle - Toplu Derleme",
+            "E": "Proje - Seçimi Yayımla"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir WinForms projesinde görsel bileşenlere ait kodlar aşağıdaki dosyalardan hangisinde yer alır?",
+          "options": {
+            "A": "Project.csproj",
+            "B": "Program.cs",
+            "C": "Form1.Designer.cs",
+            "D": "Form1.cs",
+            "E": "Solution.sln"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/GORSEL_PROGRAMLAMA_2025_final_soru_6.jpg",
+          "image_file": "GORSEL_PROGRAMLAMA_2025_final_soru_6.jpg",
+          "image_path": "resim-sorular/GORSEL_PROGRAMLAMA_2025_final_soru_6.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen kod satırının işlevi aşağıdaki seçeneklerin hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "Kullanıcının DataGridView kontrolünde ızgarada sütun başlıklarını seçebilmesini sağlar.",
+            "B": "Kullanıcı DataGridView kontrolünde ızgarada bir hücreye tıkladığında tıklanan hücrenin seçili olmasını sağlar.",
+            "C": "Kullanıcı DataGridView kontrolünde ızgarada bir hücreye tıkladığında tüm kolonun seçili olmasını sağlar.",
+            "D": "Kullanıcının DataGridView kontrolünde ızgarada satır başlıklarını seçebilmesini sağlar.",
+            "E": "Kullanıcı DataGridView kontrolünde ızgarada bir hücreye tıkladığında tüm satırın seçili olmasını sağlar."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıda verilen olaylardan hangisi formun ekrandaki konumu veya boyutları değiştiğinde tetiklenir?",
+          "options": {
+            "A": "RegionChanged",
+            "B": "AutoSizeChanged",
+            "C": "EnabledChanged",
+            "D": "LocationChanged",
+            "E": "VisibleChanged"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "ComboBox kontrolünde seçili elemanın indisi aşağıdaki hangi özellik ile elde edilir?",
+          "options": {
+            "A": "GetItemIndex",
+            "B": "SelectedIndex",
+            "C": "GetSelectedIndex",
+            "D": "SelectedItem",
+            "E": "GetItemText"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "DataTable veri yapısında veriye kısıt koymak için aşağıdaki özelliklerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "Index",
+            "B": "ForeignKey",
+            "C": "Constraints",
+            "D": "PrimaryKey",
+            "E": "MasterKey"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Setup Project yöntemiyle uygulamanın sistemdeki tüm kullanıcılara kurulması için aşağıdaki özelliklerden hangisi True olarak ayarlanmalıdır?",
+          "options": {
+            "A": "SetupAllUsers",
+            "B": "AllUsers",
+            "C": "InstallAllUsers",
+            "D": "InstallUsers",
+            "E": "InstallAll"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Setup Project (Kurulum Projesi) ile uygulamanın kurulum dosyasını oluşturmak için Visual Studio editörüne kurulması gereken uzantı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Görsel Programlama 2024 Final",
+      "exam_title": "Görsel Programlama 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Gorsel_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Veri tabanı tablolarına benzer bir yapıya sahip olup veri saklamak, düzenlemek ve işlemek için kullanılan sınıf aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "DataGridView",
+            "B": "DataAdapter",
+            "C": "DataList",
+            "D": "DataSet",
+            "E": "DataTable"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki resimde örneklendiği gibi MonthCalendar kontrolünün belirli bir tarih aralığını seçmesi için kontrolün aşağıdaki hangi özelliği kullanılır?",
+          "options": {
+            "A": "DateRange",
+            "B": "Dates",
+            "C": "SelectionDateRange",
+            "D": "Range",
+            "E": "SelectionRange"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi konsol arayüzünün dezavantajlarından biridir?",
+          "options": {
+            "A": "Minimum sistem kaynağı kullanır.",
+            "B": "Kullanıcı dostu arayüzdür.",
+            "C": "Servis uygulamalarının kontrolünü sağlar.",
+            "D": "Uygulamaların komut ve parametrelerini bilmek gerekmektedir.",
+            "E": "Zengin kullanıcı etkileşimi sağlar."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "SplitContainer kontrolünün formu çalışma zamanı dikey veya yatay olarakbölmesini ayarlamak için aşağıdaki hangi özellik kullanılır?",
+          "options": {
+            "A": "Direction",
+            "B": "FlowDirection",
+            "C": "Orientation",
+            "D": "Align",
+            "E": "RightToLeft"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verilen kod satırının işlevi aşağıdaki hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "dosyaAdi isimli dosyanın bulunduğu sürücüyü string veri tipinde değişkene atar.",
+            "B": "dosyaAdi isimli dosyanın bulunduğu klasörü string veri tipinde değişkene atar.",
+            "C": "dosyaAdi isimli dosyanın uzantısını string veri tipinde değişkene atar.",
+            "D": "dosyaAdi isimli dosyayla ilgili istisnayı string veri tipinde değişkene atar.",
+            "E": "dosyaAdi isimli dosyayı oluşturan kullanıcıyı string veri tipinde değişkene atar."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verilen kod satırının işlevi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "ComboBox kontrolünde seçili indisin seçimini kaldırır ve indisi dizge veri tipinde değişkene atar.",
+            "B": "ComboBox kontrolünde bir indisi seçili hale getirir ve dizge veri tipinde değişkene atar.",
+            "C": "ComboBox kontrolünde seçili elemanın indisini alır ve dizge veri tipinde değişkene atar.",
+            "D": "ComboBox kontrolünde seçili elemanın değerini alır ve dizge veri tipinde değişkene atar.",
+            "E": "ComboBox kontrolünde seçili indislerin sayısını alır ve dizge veri tipinde değişkene atar."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "FileFormatException istisnası aşağıdaki durumlarından hangisi oluştuğunda meydana gelir?",
+          "options": {
+            "A": "Dosya formatından kaynaklanan bir hata olduğunda.",
+            "B": "Dosya boyutu çok büyük olduğunda.",
+            "C": "Dosya yolu çok uzun olduğunda.",
+            "D": "Belirtilen klasörde dosya bulunamadığında.",
+            "E": "Dosya yolunda Türkçe karakter olduğunda."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Baş taraftaki 012 alan kodu isteğe bağlı ve takip eden diğer numaraları zorunlu olmak üzere (012) 345-67-89 formatında veri girilmesi için MaskedTextBox kontrolünün Mask özelliği aşağıdakilerden hangisi olarak ayarlanmalıdır?",
+          "options": {
+            "A": "(000) ___ -__-__",
+            "B": "(000) 999-99-99",
+            "C": "(999) 000-00-00",
+            "D": "(###) 999-99-99",
+            "E": "(###) 000-00-00"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Setup Project yöntemiyle uygulamanın sistemdeki tüm kullanıcılara kurulması için aşağıdaki özelliklerden hangisi True olarak ayarlanmalıdır?",
+          "options": {
+            "A": "InstallUsers",
+            "B": "InstallAllUsers",
+            "C": "AllUsers",
+            "D": "InstallAll",
+            "E": "SetupAllUsers"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Formun boyutu otomatik ölçeklendiğinde tetiklenen form olayı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Size",
+            "B": "AutoSizeChanged",
+            "C": "Resize",
+            "D": "AutoWindowChanged",
+            "E": "EnabledChanged"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Birden fazla seçenek arasından yalnızca bir tanesinin seçilmesini sağlayan form elemanı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "RadioButton",
+            "B": "CheckedListBox",
+            "C": "CheckBox",
+            "D": "RichTextBox",
+            "E": "GroupBox"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Formun veya formda seçili bileşenin özelliklerini ayarlamak için aşağıdaki ekranlardan veya panellerden hangisi kullanılır?",
+          "options": {
+            "A": "Kod Ekranı",
+            "B": "Özellikler Paneli",
+            "C": "Çözüm Gezgini Paneli",
+            "D": "Araç Kutusu",
+            "E": "Tasarımcı Ekranı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "ClickOnce ile bir projenin varsayılan kurulum yolu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "bin\\debug",
+            "B": "debug\\release",
+            "C": "bin\\publish",
+            "D": "publish\\release",
+            "E": "bin\\relase"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "DataGridView kontrolünün veri kaynağını ayarlamak için kullanılan özellik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "DataSet",
+            "B": "DataMember",
+            "C": "DataTable",
+            "D": "DataSource",
+            "E": "Table"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıdaki kod satırının işlevi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "DataGridView kontrolünde seçili sütunun indisini alır.",
+            "B": "DataGridView kontrolünde seçili sütunun değerini alır.",
+            "C": "DataGridView kontrolünde satırların değerini geri döndürür.",
+            "D": "DataGridView kontrolünde seçili satırın indisini alır.",
+            "E": "DataGridView kontrolünde seçili satırın değerini alır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Birden fazla form veya pencere içeren uygulama penceresi türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çocuk (Child) form",
+            "B": "Çok belgeli arayüz (Multiple Document Interface - MDI)",
+            "C": "WinForm",
+            "D": "Tekli belge arayüzü (Single Document Interface - SDI)",
+            "E": "WPF"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "NumericUpDown kontrolünde yukarı veya aşağı butonlara basıldığında değerin istenilen şekilde artması veya azalması için kontrolün aşağıdaki hangi özelliği kullanılır?",
+          "options": {
+            "A": "Modifiers",
+            "B": "Decrement",
+            "C": "Exchanger",
+            "D": "ChangedValue",
+            "E": "Increment"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdaki kontrollerden hangisi kapsama / gruplama kontrollerinden biridir?",
+          "options": {
+            "A": "FlowLayoutPanel kontrolü",
+            "B": "OpenFileDialog kontrolü",
+            "C": "ProgressBar kontrolü",
+            "D": "ListView kontrolü",
+            "E": "ToolStrip kontrolü"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi System.IO ad alanına ait değildir?",
+          "options": {
+            "A": "BinaryStream",
+            "B": "FileInfo",
+            "C": "Path",
+            "D": "DriveInfo",
+            "E": "StringWriter"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi bir uygulamanın kurulumunu sağlayan yerleşik Visual Studio yöntemlerinden biridir?",
+          "options": {
+            "A": "Wizard",
+            "B": "InstallPackages",
+            "C": "ShareApp",
+            "D": "InstallProject",
+            "E": "ClickOnce"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Görsel Programlama 2022 Final",
+      "exam_title": "Görsel Programlama 2022 Final",
+      "exam_type": "final",
+      "year": "2022",
+      "question_count": 8,
+      "source_url": "",
+      "file_name": "Gorsel_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 13,
+          "question": "Yukarıda verilen PictureBox kontrolünde yer alan resmin, kontrolün boyutlarına göre uzatılması için aşağıdaki kod satırından hangisi kullanılmalıdır?",
+          "options": {
+            "A": "pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;",
+            "B": "pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;",
+            "C": "pictureBox1.SizeMode = PictureBoxSizeMode.FixedSingle;",
+            "D": "pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;",
+            "E": "pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/GORSEL_PROGRAMLAMA_2022_final_soru_13.jpg",
+          "image_file": "GORSEL_PROGRAMLAMA_2022_final_soru_13.jpg",
+          "image_path": "resim-sorular/GORSEL_PROGRAMLAMA_2022_final_soru_13.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Yukarıda verilen C# kodunda, TextBox kontrolündeki mevcut içerikte aranılan bir değerin varlığını kontrol etmek için aşağıdaki metotlardan hangisi kullanılır?",
+          "options": {
+            "A": "Select",
+            "B": "GetItemChecked",
+            "C": "Focus",
+            "D": "GetItemText",
+            "E": "Contains"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki kod satırından hangisi ProgressBar kontrolünün animasyonlu gösterilmesi için kullanılır?",
+          "options": {
+            "A": "progressBar1.Style = ProgressBarStyle.Marquee;",
+            "B": "progressBar1.Style = ProgressBarStyle.Continuous;",
+            "C": "progressBar1.PerformStep();",
+            "D": "progressBar1.Style = ProgressBarStyle.Blocks;",
+            "E": "progressBar1.Style = ProgressBarStyle.RightToLeft;"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "WinForms uygulamalarında, formun alt tarafına durum çubuğu eklemek için kullanılan form kontrolü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "FlowLayoutPanel",
+            "B": "ToolTip",
+            "C": "ToolStrip",
+            "D": "StatusStrip",
+            "E": "ToolStripContainer"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/GORSEL_PROGRAMLAMA_2022_final_soru_16.jpg",
+          "image_file": "GORSEL_PROGRAMLAMA_2022_final_soru_16.jpg",
+          "image_path": "resim-sorular/GORSEL_PROGRAMLAMA_2022_final_soru_16.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıda verilen C# kodunda aşağıdaki hangi form olayına yer verilmemiştir?",
+          "options": {
+            "A": "Paint",
+            "B": "FormClosing",
+            "C": "Load",
+            "D": "Shown",
+            "E": "VisibleChanged"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "string dosya = @\"deneme.txt\"; string yeni_uzanti = Path.________(dosya, \".rtf\"); Yukarıda verilen kodda dosyanın uzantısını değiştirmek için boş bırakılan yerde kullanılması gereken metod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "GetFileName",
+            "B": "HasExtension",
+            "C": "GetDirectoryName",
+            "D": "ChangeExtension",
+            "E": "GetExtension"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "MaskedTextBox kontrolünde kullanıcının isteğe bağlı rakam veya boşluk girmesi için kullanılan maske karakteri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "?",
+            "B": "0",
+            "C": "L",
+            "D": "9",
+            "E": "$"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "WinForms uygulamalarında, menülere klavye kısayolu eklemek için kullanılan özellik aşağıdaki seçeneklerin hangisinde verilmiştir?",
+          "options": {
+            "A": "ShortcutKeys",
+            "B": "ControlKeys",
+            "C": "Shortcut",
+            "D": "ShortKeys",
+            "E": "Keys"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

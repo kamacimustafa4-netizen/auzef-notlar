@@ -1,7 +1,7 @@
 {
   "course": "Modern Mantik",
   "lesson_code": "MODERN_MANTIK",
-  "exam_count": 11,
+  "exam_count": 13,
   "exams": [
     {
       "title": "Modern Mantık 2025-2026 Vize",
@@ -1760,7 +1760,7 @@
             "D": "Sop ilkesi",
             "E": "Sop yaklaşımı"
           },
-          "correct_answer": "D",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1828,7 +1828,7 @@
             "D": "Geçersiz ilkesi",
             "E": "Geçersiz yöntemi"
           },
-          "correct_answer": "E",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1845,7 +1845,7 @@
             "D": "yöntemi yaklaşımı",
             "E": "Saçmaya indirgeme yöntemi seçeneği 5"
           },
-          "correct_answer": "D",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1862,7 +1862,7 @@
             "D": "Yalnız I",
             "E": "II ve III"
           },
-          "correct_answer": "C",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1879,7 +1879,7 @@
             "D": "iii yaklaşımı",
             "E": "i ve ilkesi"
           },
-          "correct_answer": "A",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1896,7 +1896,7 @@
             "D": "q ilkesi",
             "E": "q"
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1913,7 +1913,7 @@
             "D": "D, D, D, ilkesi",
             "E": "Y yaklaşımı"
           },
-          "correct_answer": "C",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1930,7 +1930,7 @@
             "D": "Üçüncü Halin değildir",
             "E": "Üçüncü Halin ilkesi"
           },
-          "correct_answer": "E",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1947,7 +1947,7 @@
             "D": "-Y Y Y",
             "E": "-Y D B"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1964,7 +1964,7 @@
             "D": "mantık yaklaşımı",
             "E": "3 değerli mantık"
           },
-          "correct_answer": "A",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1981,7 +1981,7 @@
             "D": "Apq yaklaşımı",
             "E": "Apq"
           },
-          "correct_answer": "B",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1998,7 +1998,7 @@
             "D": "Y.D.D ilkesi",
             "E": "Y.D.D değildir"
           },
-          "correct_answer": "C",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2015,7 +2015,137 @@
             "D": "( p ∧ q) = max yöntemi",
             "E": "( p ∧ q) = max ilkesi"
           },
-          "correct_answer": "D",
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2000 Vize",
+      "exam_title": "Modern Mantık 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 7,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 21,
+          "question": "\"Quine yöntemi\" olarak bilinen ve Amerikalı filozof Willard Van Orman Quine'nın (1908–2000) geliştirdiği yöntem aşağıdaki kitaplardan hangisinde aktarılmıştır?",
+          "options": {
+            "A": "Methods of Logic",
+            "B": "Methods of Mathematics",
+            "C": "Methods of Physics",
+            "D": "Methods of Arithmetic",
+            "E": "Methods of Transformation"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Quine yöntemi hangi denetleme yöntemiyle bir arada iş görmektedir?",
+          "options": {
+            "A": "Saçmaya İndirgeme",
+            "B": "Doğruluk Tablosu",
+            "C": "Tam Normal Biçime İndirgeme",
+            "D": "Lukasiewicz- Tarski Notasyonu",
+            "E": "Çok Değerli Mantık"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "Quine yöntemine göre aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "A ∧ D = A",
+            "B": "D ∧ A = A",
+            "C": "A ∧ Y = Y",
+            "D": "Y ∧ A = Y",
+            "E": "Y ∧ Y = D"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 24,
+          "question": "[(p ∧ q) → r] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Doğru\" değeri alacak ilk önerme hangisi olmalıdır?",
+          "options": {
+            "A": "p",
+            "B": "q",
+            "C": "r",
+            "D": "s",
+            "E": "t"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 25,
+          "question": "[(p ∧ q) → r] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Yanlış\" değeri alacak ilk önerme hangisi olmalıdır?",
+          "options": {
+            "A": "p",
+            "B": "q",
+            "C": "r",
+            "D": "s",
+            "E": "t"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 26,
+          "question": "[(p ∧ q) → (r ∨ t) ] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Yanlış\" değeri alacak ikinci önerme hangisi olmalıdır?",
+          "options": {
+            "A": "p",
+            "B": "q",
+            "C": "r",
+            "D": "s",
+            "E": "t"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 27,
+          "question": "[(p ∧ q) → (r ∨ t) ] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Doğru\" değeri alacak ikinci önerme hangisi olmalıdır?",
+          "options": {
+            "A": "p",
+            "B": "q",
+            "C": "r",
+            "D": "s",
+            "E": "t"
+          },
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3045,7 +3175,7 @@
             "D": "Geçersiz",
             "E": "Özdeş değil"
           },
-          "correct_answer": "D",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3062,7 +3192,7 @@
             "D": "Geçerli",
             "E": "Geçersiz"
           },
-          "correct_answer": "A",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3079,7 +3209,7 @@
             "D": "∃x ~ Fx = ∀x ~Fx",
             "E": "∃x Fx = ∀x Fx"
           },
-          "correct_answer": "D",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3096,7 +3226,7 @@
             "D": "[(∼Y↔ ∼r)∨(Y→r)]→[ D∧(∼ p↔D)]",
             "E": "[(∼Y↔ ∼r)∨(Y→r)]→[ Y∧(∼ p↔D)]"
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3113,7 +3243,7 @@
             "D": "Geçerli değil",
             "E": "Özdeş"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3130,7 +3260,7 @@
             "D": "Özdeş değil",
             "E": "Geçerli"
           },
-          "correct_answer": "C",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3164,7 +3294,7 @@
             "D": "SöP",
             "E": "SüP"
           },
-          "correct_answer": "C",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3181,7 +3311,7 @@
             "D": "1",
             "E": "4"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3198,7 +3328,7 @@
             "D": "Bir şey ne ise o'dur.",
             "E": "Bazı şeyler başka şeylere dönüşür."
           },
-          "correct_answer": "D",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3232,7 +3362,7 @@
             "D": "Belirsiz",
             "E": "Özdeş değil"
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3266,7 +3396,7 @@
             "D": "Geçerli değil",
             "E": "Özdeş"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3283,7 +3413,7 @@
             "D": "Özdeş değil",
             "E": "Geçerli"
           },
-          "correct_answer": "A",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3300,7 +3430,7 @@
             "D": "Özdeş",
             "E": "Belirsiz"
           },
-          "correct_answer": "C",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3333,6 +3463,816 @@
             "C": "Geçerli değil",
             "D": "Özdeş",
             "E": "Belirsiz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Modern Mantık 2021 Final",
+      "exam_title": "Modern Mantık 2021 Final",
+      "exam_type": "final",
+      "year": "2021",
+      "question_count": 47,
+      "source_url": "",
+      "file_name": "Modern_Mantik_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi [(p↔ ∼r)∨(p →r)]→[ r∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(Y ↔ ∼ r) ∨ (Y → r)] → [ r ∧ (D ↔ q)]",
+            "B": "[( D ↔ ∼ r) ∨ (D → r)] → [ r ∧ (D ↔ q)]",
+            "C": "[(Y ↔ ∼ r) ∨ (Y → r)] → [ r ∧ (Y ↔ q)]",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "\"~(p ↔ ∼ q)\" ifadesi Lukasiewicz -Tarski notasyonunuyla yazıldığında nasıl bir yeniden yazımla karşılaşılacaktır?",
+          "options": {
+            "A": "NEpNq",
+            "B": "NEpq",
+            "C": "EpNq",
+            "D": "NpNq",
+            "E": "pNq"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi [(∼q↔ ∼r)→(q→r)]↔[ q∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(D ↔ ∼ r) → (Y → r)] ↔ [Y ∧ (∼ p↔ D)]",
+            "B": "[(Y ↔ ∼ r) → (D → r)] ↔ [D ∧ (∼ p↔ D)]",
+            "C": "[(D↔ ∼ r) → (Y → r)] ↔ [D ∧ ( p↔ D)]",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi [(∼q→ p)↔(r→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "options": {
+            "A": "[(∼ q→ p) ↔ (D →∼p)]",
+            "B": "[(∼ q→ p) ↔ ( Y → D)]",
+            "C": "[( q→ p) ↔ (D →∼p)]",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi ∼ (q v r)\" ifadesinin LT notasyonu ile yazılmış şeklidir?",
+          "options": {
+            "A": "Eqr",
+            "B": "Nqr",
+            "C": "Kqr",
+            "D": "Aqr",
+            "E": "Lqr"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi klasik mantıkta kullanılan önerme gösterimlerinden biridir?",
+          "options": {
+            "A": "SüP",
+            "B": "SiP",
+            "C": "SöP",
+            "D": "SoP",
+            "E": "SuP"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "∼[∼∀y (Cy v Dy) v ∀x ( Cx v Dx)] ve [∀y (Cy v Dy).∼∀x (Cx v Dx)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "∼[∼∃x(Ax→ Bx)→∀y (Cy v Dy)] ve [∼∃x(Ax→ Bx) ∼∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "[∀y (Cy → Dy)→ ∼ ∀y(Cy .Dy)] ve [∼∀y(Cy → Dy) v∼∀y(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "∼[Ax→∼ ∀y(Cy .Dy)] ve [∼Ax ∀y(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "∼[Ax v∼ ∀y(Cy v Dy)] ve [∼Ax v ∀y (Cy Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "[ ∃x (Ax→Bx)∀y (Cy v Dy)] →∼∀x (Fx→Gx) ve ∼[ ∃x (Ax∧Bx) ∀y (Cy ∧ Dy) ]v ∼∀x(Fx→Gx) ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Özdeş değil",
+            "C": "Geçerli",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "∼[Cy (Cy → Dy) →∼∀y (Cy . Dy)] ve [∀y (Cy → Dy) . ∀y (Cy . Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Modal mantığın özellikle yapay zeka alanında kullanılmasının sebebi, aşağıdaki şıklardan hangisinde doğru bir biçimde verilmiştir?",
+          "options": {
+            "A": "Modal mantık sistemlerinin güçlü formel diller sayesinde çok daha ayrıntılı, nesnel ve geniş ölçüde ele alınır hale gelmesi",
+            "B": "Aristoteles'in modal mantık çalımalarının Ortaçağ'da yeniden okunması",
+            "C": "Modal mantığın diğer mantık sistemleri gibi içeriksiz ve sadece biçimsel bir yapıya sahip olması",
+            "D": "Modal mantık sistemlerinin modaliteler dışında önermelerle ilgilenmiyor olması",
+            "E": "Modal mantık önermelerinin günlük konuşma dilinden kopuk bir yapıya sahip olması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi \"iki değerli mantık\" örnekleri dışında bir örnektir?",
+          "options": {
+            "A": "Işığın açık olması veya açık olmaması.",
+            "B": "Arabanın duruyor olması veya durmuyor olması (hareket etmesi).",
+            "C": "Odadaki sıcaklığın 20 derece olmaması veya olmaması.",
+            "D": "Çiçeklerin çok seviliyor olması veya az seviliyor olması.",
+            "E": "Kapının kilitli olması veya olmaması."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "∼∃x (Ax→Bx) ↔ (Ax→ Bx) ∀y (Cy v Dy) ve [∼∃x(Ax→Bx) ↔∼∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "[∀z (Cz v Dz) ∼∀y (Cy v Dy)] ve ∼[∀z(Cz v Dz) v ∀y ( Cy Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Belirsiz",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "[∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (CxvDx) ∨ ∼∀y (Cy∨Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "[∀x (Cx ↔ Dx) ↔ ∼∀y (Cy v Dy)] ve [∀x (Cx.Dx)∼∀y (Cy ↔ Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "∼∃y (Ay→By) (Ax→Bx) ∀y (Cy v Dy)] ve [∀x (Cx v Dx)∼∀y (Cy v Dy) ] ifadeleri hakkında aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Özdeş değil",
+            "C": "Geçerli",
+            "D": "Belirsiz",
+            "E": "Özdeş"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "[∀y (Cy.Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z(Cz → Dz) ↔vy∼∀y(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "[∼∃x(Ax→ Bx).∀y (Cx Dx)] ve [∼∀x(Cx.Dx) ↔ ∼∃x (Ax → Bx))] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "[∀x (Cx .Dx) →∼∀x (Cx. Dx)] ve [∼∀x (Cx. Dx) ∨ ∼∀y (Cy.Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 24,
+          "question": "(∀xTx ↔∼∃yHy) [∃z Hz →∼∃y∼Ty)(∼∃y∼Ty →∼∃yHy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 25,
+          "question": "Lukaslewicz-Tarski notasyonunun parantezsiz yazma imkan sağlaması aşağıdakilerden hangisine imkan vermektedir?",
+          "options": {
+            "A": "Matematik işlemlerinin bilgisayar diline aktarılmasında kolaylık sağlamaktadır.",
+            "B": "Mantık işlemlerinin bilgisayar diline aktarılmasında kolaylık sağlamaktadır.",
+            "C": "Klasik Mantık tartışmalarını yeniden gündeme getirmiştir.",
+            "D": "Kıyas denetlemesini kolaylaştırmıştır.",
+            "E": "Özdeşlik ilkesini göz önünde bulundurmaktadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 26,
+          "question": "(Ax→∼ ∀y(Cy v Dy)] ve [∼Ax v ∼∀y(Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 27,
+          "question": "D: Doğru, Y: Yanlış, B: Belirsiz değerleri için aşağıdakilerden hangisi yanlıştır? I. D,Y II. B, Y III. Y, D",
+          "options": {
+            "A": "I-II",
+            "B": "Yalnız I",
+            "C": "Yalnız II",
+            "D": "II-III",
+            "E": "Yalnız III"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 28,
+          "question": "∼ [∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (Cx∨Dx).∀y (Cy Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 29,
+          "question": "[∼∃x(Ax→ Bx).∀x (Cx Dx)] ve [∼∀x(Cx.Dx) ↔ ∼∃x (Ax → Bx))] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 30,
+          "question": "[Ax v∼ ∀y(Cy v Dy)] ve [∼Ax v ∼∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 31,
+          "question": "∀y (Ay→By) ∀y (Cy v Dy)] ve [∼∀y (Cy v Dy) ] ifadeleri hakkında aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Özdeş değil",
+            "C": "Geçerli",
+            "D": "Belirsiz",
+            "E": "Özdeş"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 32,
+          "question": "[∀x (Cx. Dx) → ∼∀x (Cx. Dx)] ve [∼∀x (Cx. Dx)v∼∀x (Cx. Dx)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 33,
+          "question": "∼ [∀x (Cx .Dx) →∼∀x (Cx. Dx)] ve [∀x (Cx. Dx). ∀x (Cx.Dx) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 34,
+          "question": "∼[∼∃x(Ax v Bx) →∀y (Cy v Dy)] ve [∼∃x(Ax v Bx) ∼∀y (Cy v Dy))] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 35,
+          "question": "∼[Ax ↔∼ ∀y(Cy v Dy)] ve [Ax v∼∀y (Cy→ Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 36,
+          "question": "(∀xFx ∀yHy) ve [∃z Hz ∀x Hx ∃y Fy) ifadeleri hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 37,
+          "question": "∼∃x(Ax→ Bx) ↔∀y (Ax ? Bx) ∀y (Cy v Dy) ve [ ∼∃x(Ax→ Bx) ↔∼∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 38,
+          "question": "[∀y (Cy v Dy) ↔ ∼∀x ( Cx v Dx)] ve [∼∀x (Cx v Dx) ↔∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 39,
+          "question": "[∼∃x(Ax→ Bx)→∀y (Cy v Dy)] ve [∼∀y(Cy v Dy) ↔ ∼∃x(Ax→ Bx)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 40,
+          "question": "[∀y (Cy.Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z(Cz v Dz) ↔vy(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 41,
+          "question": "∼[∀x (Cx v Dx) v ∼∀y ( Cy v Dy)] ve [∼∀x (Cx v Dx).∀y (Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 42,
+          "question": "∀y (Ay →By) ∀y (Cy v Dy)] ve [∼∀y(Cy v Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 43,
+          "question": "∼ [∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (Cx∨Dx) v ∼∀y (Cy Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 44,
+          "question": "∼[Ax→∼vy) (Cy v Dy)] ve [Ax v ∼∀y (Cy → Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 45,
+          "question": "∼[∀y (Cy → Dy)→ ∼ ∀y(Cy .Dy)] ve [∀y(Cy → Dy).∀y(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Belirsiz"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 46,
+          "question": "∼[Ax↔∼∀y (Cy v Dy) ve [Ax ∼∀y (Cy↔ Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Hiçbiri",
+            "B": "Geçerli değil",
+            "C": "Özdeş değil",
+            "D": "Özdeş",
+            "E": "Geçerli"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 47,
+          "question": "Aşağıdakilerden hangisi çelişiktir?",
+          "options": {
+            "A": "∃x Fx ve ∃x Fx",
+            "B": "∃x ~ Fx ve ~∃x ~ Fx",
+            "C": "~∀x Fx ve ~ ∀x ~ Fx",
+            "D": "∀x ~ Fx ve ~ ∀x Fx",
+            "E": "∃x Fx ve ∃x ~ Fx"
           },
           "correct_answer": "C",
           "explanation": "",

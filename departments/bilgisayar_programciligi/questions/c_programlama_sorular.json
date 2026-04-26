@@ -1,0 +1,984 @@
+{
+  "course": "C# Programlama",
+  "lesson_code": "C_PROGRAMLAMA",
+  "exam_count": 10,
+  "exams": [
+    {
+      "title": "C# Programlama 2025 Vize",
+      "exam_title": "C# Programlama 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki değer atamalarından hangisi geçerlidir?",
+          "options": {
+            "A": "string str = \"C:WindowsSystem32\";",
+            "B": "string str = 'C# .NET tabanlı dildir.';",
+            "C": "string str = \"C\" , \"#\";",
+            "D": "string str = \"\"\" namespace class \"\"\";",
+            "E": "string str = @\"string veri tipi \"alfanümerik\" değer alır.\";"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/C_PROGRAMLAMA_2025_vize_soru_1.jpg",
+          "image_file": "C_PROGRAMLAMA_2025_vize_soru_1.jpg",
+          "image_path": "resim-sorular/C_PROGRAMLAMA_2025_vize_soru_1.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "False : False",
+            "B": "True : False",
+            "C": "False : True",
+            "D": "True : True",
+            "E": "Null : True"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Veri tiplerinin değer aralıkları hangi şıkta doğru sıralanmıştır?",
+          "options": {
+            "A": "byte < short < int < long",
+            "B": "decimal > float > double > int",
+            "C": "sbyte < short < long < int",
+            "D": "long > int > byte > short",
+            "E": "long > double > float > byte > short"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2024 Vize",
+      "exam_title": "C# Programlama 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 11,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki değer atamalarından hangisi geçerlidir?",
+          "options": {
+            "A": "string str = @\"string veri tipi \"alfanümerik\" değer alır.\";",
+            "B": "string str = \"C:WindowsSystem32\";",
+            "C": "string str = 'C# .NET tabanlı dildir.;",
+            "D": "string str = \"\"\" namespace class \"\"\";",
+            "E": "string str = \"C\", \"#\";"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki kod parçacığında program çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "1",
+            "D": "-1",
+            "E": "0"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki değişken atamalarından hangisi geçerlidir?",
+          "options": {
+            "A": "int short = 1453;",
+            "B": "int t = 0x05AD;",
+            "C": "int x = 602E23;",
+            "D": "double y = 170010,78;",
+            "E": "int z = 0B170010;"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki C# koduna göre aşağıdaki şıklardan hangisi yanlıştır ?",
+          "options": {
+            "A": "Örtük veri tipi dönüşümü yapılmıştır.",
+            "B": "Kodda hata olduğundan dolayı derleyici hata verir.",
+            "C": "Aşikar veri tipi dönüşümü yapılmıştır.",
+            "D": "İşaretsiz tam sayı veri tipi kullanılmıştır.",
+            "E": "Toplam değişkeninin değeri 2.5'tir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıdaki kod parçasının çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "-1",
+            "B": "0",
+            "C": "null",
+            "D": "1",
+            "E": "5"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıdaki kodun çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "%",
+            "B": "-",
+            "C": "/",
+            "D": "*",
+            "E": "+"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki kodla ilgili program çıktısı hangi şıkta doğrudur?",
+          "options": {
+            "A": "-3.14 - 3.14",
+            "B": "Program çalışma zamanı hatası verir.",
+            "C": "null - 3.14 - null",
+            "D": "null - 3.14 - 3.14",
+            "E": "Program derleme hatası verir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukarıdaki ifadenin çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "True : False",
+            "B": "False : True",
+            "C": "True : True",
+            "D": "False : False",
+            "E": "Null : True"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarida verilen değişkenler kullanılarak 0.1:-1:10 çıktısı alınmak istenmektedir. Aşağıdaki şıklardan hangisi istenen çıktıyı verir?",
+          "options": {
+            "A": "Console.Write($\"{z}:{-x}:{-y}\");",
+            "B": "Console.Write(\"{0}:{1}:{2}\", z, -y, -x);",
+            "C": "Console.Write($\" {0} : {2} : {1}\");",
+            "D": "Console.Write(\"{2}:{0}:{1}\", -y, -x, z);",
+            "E": "Console.Write(\"{1}:{0}:{2}\", x, z, -y);"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Veri tiplerinin değer aralıkları hangi şıkta doğru sıralanmıştır?",
+          "options": {
+            "A": "byte < short < int < long",
+            "B": "long > int > byte > short",
+            "C": "decimal > float > double > int",
+            "D": "sbyte < short < long < int",
+            "E": "long > double > float > byte > short"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıdaki program çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2023 Vize",
+      "exam_title": "C# Programlama 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 4,
+          "question": "char harf = 'C'; char sembol = '#'; int yil = 2023; string bolumKodu = \"BLGPRG\"; Console.Write(\"{0} {2} {3} {1}\", sembol, bolumKodu, harf, yil); Yukarıdaki programın çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2023 Vize",
+      "exam_title": "C# Programlama 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 7,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 5,
+          "question": "Yukarıdaki programın çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "Programlama AUZEF",
+            "B": "AUZEF C#",
+            "C": "AUZEF AUZEF",
+            "D": "AUZEF AUZEFAUZEF",
+            "E": "AUZEF Programlama Bilgisayar C#"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/C_PROGRAMLAMA_2023_vize_soru_5.jpg",
+          "image_file": "C_PROGRAMLAMA_2023_vize_soru_5.jpg",
+          "image_path": "resim-sorular/C_PROGRAMLAMA_2023_vize_soru_5.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "int x = 0; int y = -1; int z = 1; if( y + z != x && y > z ) Console.WriteLine(\"*\"); else if( y > x || ++y > z ) Console.WriteLine(\"/\"); else if( y == x & x < z ) Console.WriteLine(\"+\"); else if( z >= x + y ) Console.WriteLine(\"-\"); else Console.WriteLine(\"%\"); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "-",
+            "B": "*",
+            "C": "/",
+            "D": "+",
+            "E": "%"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "bool stat = true; int x = -1, y = 2, z = 3; int result = !stat & ++x == 0 ? x / y : z + x – y; Console.Write(result); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "3",
+            "B": "1",
+            "C": "0",
+            "D": "2",
+            "E": "-1"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "int x = 4; x >>= 2; int y = ~x; Console.Write($\"{x} : {y}\"); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "16 : -15",
+            "B": "1 : 4",
+            "C": "-2 : 1",
+            "D": "-15 : 16",
+            "E": "1 : -2"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/C_PROGRAMLAMA_2023_vize_soru_8.jpg",
+          "image_file": "C_PROGRAMLAMA_2023_vize_soru_8.jpg",
+          "image_path": "resim-sorular/C_PROGRAMLAMA_2023_vize_soru_8.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıda verilen C# koduna göre aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "Toplam değişkeninin değeri 2.5'tir.",
+            "B": "Örtük veri tipi dönüşümü yapılmıştır.",
+            "C": "Kodda hata olduğundan dolayı derleyici hata verir.",
+            "D": "İşaretsiz tam sayı veri tipi kullanılmıştır.",
+            "E": "Aşikar veri tipi dönüşümü yapılmıştır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "sbyte a = -128; byte b = (byte)a; Console.Write(–b); Yukarıda verilen programla ilgili aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Kodda hata olduğundan dolayı derleme zamanı hata verir.",
+            "B": "İşaretsiz veri tipinden işaretli veri tipine dönüşüm yapılmıştır.",
+            "C": "Örtük veri tipi dönüşümü yapılmıştır.",
+            "D": "Program çalışma zamanı hata verir.",
+            "E": "Program tutarsız çıktı verecektir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdaki şıklarda verilen kodlardan hangisi derleme hatası vermez?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2023 Vize",
+      "exam_title": "C# Programlama 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 12,
+          "question": "Yukarıda tanımlanan değişkenlere göre konsol ekranına 3.14, 5, -2023 çıktısını veren komut hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "Console.WriteLine(\"{1}, {0}, {2}\", x, y, z);",
+            "B": "Console.WriteLine(\"{1}, {0}, {2}\", y, x, z);",
+            "C": "Console.WriteLine(\"{2}, {0}, {1}\", x, y, z);",
+            "D": "Console.Write(\"{2}, {1}, {3}\", y, x, z);",
+            "E": "Console.WriteLine(\"{0}, {2}, {1}\", y, x, z);"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "C# dilinde veri tipleriyle ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "var anahtar kelimesi ile tanımlanan değişkenin veri tipi, değişkene daha sonra farklı bir değer atandığında değiştirilemez.",
+            "B": "object veri tipinde bir değişken tanımlandığında değişkene değer atanması zorunludur.",
+            "C": "dynamic veri tipinde tanımlanan değişkenin veri tipi, değişkene daha sonra farklı bir değer atandığında değiştirilebilir.",
+            "D": "var anahtar kelimesi ile tanımlanan değişken her türden veriyi saklayabilir.",
+            "E": "dynamic veri tipinde tanımlanan değişkenlerin tür kontrolü çalışma zamanında yapılır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki değişken atamalarından hangisi geçerlidir?",
+          "options": {
+            "A": "int short = 1453;",
+            "B": "int z = 0B170010;",
+            "C": "int t = 0x05AD;",
+            "D": "double y = 170010,78;",
+            "E": "int x = 602E23;"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2023 Vize",
+      "exam_title": "C# Programlama 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 15,
+          "question": "İstanbul Üniversitesi 2023 AUZEF Yukarıdaki dizgeleri verildiği gibi üç satırda konsola çıktılayan kodlar hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "Console.WriteLine(\"İstanbul Üniversitesi\");",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2023 Vize",
+      "exam_title": "C# Programlama 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 2,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Kullanıcıdan alınan girdiyi tam sayı veri tipine çeviren ve bunu tam sayı veri tipine atayan program hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "double x = Convert.ToInt32(Console.ReadLine());",
+            "B": "uint x = Convert.ToDecimal(Console.Write());",
+            "C": "int x = Convert.ToInt32(Console.ReadLine());",
+            "D": "string x = Convert.ToInt32(Console.WriteLine());",
+            "E": "int x = Convert.ToDouble(Console.ReadLine());"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "int a = 1, b = -1; int? c = null; int result = b <= a ? c ?? 5 : 0; Console.Write(result); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "5",
+            "B": "-1",
+            "C": "1",
+            "D": "0",
+            "E": "null"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2023 Vize",
+      "exam_title": "C# Programlama 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 12,
+          "question": "C# dilinde veri tipleriyle ilgili aşağıdaki şıklardan hangisi yanlıştır ?",
+          "options": {
+            "A": "var anahtar kelimesi ile tanımlanan değişkenin veri tipi, değişkene daha sonra farklı bir değer atandığında değiştirilemez.",
+            "B": "dynamic veri tipinde tanımlanan değişkenlerin tür kontrolü çalışma zamanında yapılır.",
+            "C": "var anahtar kelimesi ile tanımlanan değişken her türden veriyi saklayabilir.",
+            "D": "object veri tipinde bir değişken tanımlandığında değişkene değer atanması zorunludur.",
+            "E": "dynamic veri tipinde tanımlanan değişkenin veri tipi, değişkene daha sonra farklı bir değer atandığında değiştirilebilir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Kullanıcıdan alınan girdiyi tam sayı veri tipine çeviren ve bunu tam sayı değişkende saklayan kod hangisidir?",
+          "options": {
+            "A": "uint x = Convert.ToDecimal(Console.Write());",
+            "B": "int x = Convert.ToInt32(Console.ReadLine());",
+            "C": "double x = Convert.ToInt32(Console.ReadLine());",
+            "D": "int x = Convert.ToDouble(Console.ReadLine());",
+            "E": "string x = Convert.ToInt32(Console.WriteLine());"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki iki satırlı kodlardan hangisi derleme hatası vermez ?",
+          "options": {
+            "A": "const string fakulte; fakulte = \"AUZEF\";",
+            "B": "char chr; Console.Write(\"{0}\", chr);",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2023 Vize",
+      "exam_title": "C# Programlama 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 2,
+      "source_url": "",
+      "file_name": "C_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 15,
+          "question": "Yukarıdaki kod parçasının çıktısı hangi şıkta doğrudur?",
+          "options": {
+            "A": "-1 : True",
+            "B": "0 : True",
+            "C": "-2 : True",
+            "D": "-2 : False",
+            "E": "-1 : False"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yukarıdaki programla ilgili hangi ifade doğrudur?",
+          "options": {
+            "A": "Program çalışma zamanı hata verir.",
+            "B": "İşaretsiz veri tipinden işaretli veri tipine dönüşüm yapılmıştır.",
+            "C": "Program tutarsız çıktı verecektir.",
+            "D": "Kodda hata olduğundan dolayı derleme zamanı hata verir.",
+            "E": "Örtük veri tipi dönüşümü yapılmıştır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "C# Programlama 2024 Final",
+      "exam_title": "C# Programlama 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 18,
+      "source_url": "",
+      "file_name": "C_Programlama_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıdaki C# kodunun çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "1:-5:-10",
+            "B": "-5:1:0:1",
+            "C": "-5:1:0",
+            "D": "1:0:-5:1",
+            "E": "1:-5:0"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıda verilen C# koduyla ilgili aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Program 10'dan 1'e kadar sayıları ekrana çıktılamaktadır.",
+            "B": "Kod derleme hatası verir.",
+            "C": "Program sorunsuz çalışır ve sonsuz döngüye girer.",
+            "D": "Döngünün başlangıç parametresinin değeri 1'dir.",
+            "E": "Program çalışma zamanı hata verir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen diller dizisinin ilk üç elemanını seçen kod satırı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "string[] ilk_uc = diller[^3..];",
+            "B": "string[] ilk_uc = diller[^..3];",
+            "C": "string[] ilk_uc = diller[..^3];",
+            "D": "string[] ilk_uc = diller[..3];",
+            "E": "string[] ilk_uc = diller[1..3];"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki C# programında boş bırakılan A, B ve C harflerinin yerine yazılması gerekenler sırasıyla hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "A:ref B:y C:out",
+            "B": "A:out B:y C:ref",
+            "C": "A:in B:y C:out",
+            "D": "A:out B:x C:ref",
+            "E": "A:ref B:x C:out"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verilen C# kodunun çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "&",
+            "B": "#",
+            "C": "$",
+            "D": "?",
+            "E": "*"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir metoda argümanın kopyasının değil kendisinin gönderilmesini sağlayan fakat aynı zamanda bu argüman için kullanılan değişkenin sadece bildiriminin yapılıp değerinin metodun içinden atanmasının gerektiği metod çağırma yöntemi için kullanılan anahtar kelime aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "params",
+            "B": "out",
+            "C": "ref",
+            "D": "in out",
+            "E": "in"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki C# kodunun işleyişi veya çıktısıyla ilgili verilen şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Program derleme hatası verir.",
+            "B": "Program istisna vermez ve ekrana 201 yazdırır.",
+            "C": "Program OverflowException istisnasını vererek \"Taşma hatası!\" çıktısını verir.",
+            "D": "Program IndexOutOfRangeException istisnasını vererek \"Geçersiz indis değeri!\" çıktısını ekrana yazdırır.",
+            "E": "Program istisna vererek \"Bilinmeyen bir hata!\" çıktısını ekrana yazdırır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "C# dilinde döngülerle ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "do while döngüsünde koşul döngünün sonunda kontrol edilir.",
+            "B": "continue anahtar kelimesi, döngünün bir sonraki indis değeriyle çalışmasını sağlar.",
+            "C": "Döngüler koşul sağlandığı müddetçe çalışır.",
+            "D": "Döngünün bütün iterasyonları tamamlanmadan döngüyü sonlandırmak için break anahtar kelimesi kullanılır.",
+            "E": "Döngüler en az bir kere çalışır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıdaki kod satırının çıktısı hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "null",
+            "B": "0",
+            "C": "1",
+            "D": "True",
+            "E": "False"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "C# dilinde istisna filtrelemek için kullanılması gereken anahtar kelime hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "try",
+            "B": "catch",
+            "C": "throw",
+            "D": "finally",
+            "E": "when"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıda verilen değer atamalarından hangisi yanlıştır?",
+          "options": {
+            "A": "int deger = 0b100_001;",
+            "B": "sbyte x = -128;",
+            "C": "float? hipotenus = 12f;",
+            "D": "ushort borc = -100;",
+            "E": "char kelime = '-';"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "C# dilinde operatörlerle ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "İkili operatörlerin çalışma önceliği tekli operatörlere göre daha yüksektir.",
+            "B": "Sondan azaltma operatörü önden artırma operatörüne göre daha önce çalıştırılır.",
+            "C": "&& operatörü, soldaki işlenenin değeri false ise sağdaki işleneni kontrol etmez.",
+            "D": "Çok sayıda değişkene aynı satırda aynı değer atandığında,atama işlemine en sağdaki değişkenden başlanır.",
+            "E": "!= operatörü, sağındaki ve solundaki işlenenlerin değeri eşitse false döner."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Stack (yığın) ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Tekrar eden elemanlardan yalnızca bir tanesi korunur.",
+            "B": "Veriye anahtar bilgisi ile erişim sağlanır.",
+            "C": "Veriyi anahtar-değer formatında saklar.",
+            "D": "Yapıdan eleman silinirken ilk eklenen eleman en önce silinir.",
+            "E": "Yeni eleman yapının en başına eklenir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "C# dilinde Generic olmayan (Non Generic) koleksiyonlar ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Saklayacağı eleman sayısının tanımlanırken baştan belirtilmesi zorunludur.",
+            "B": "Performans açısından Generic koleksiyonlara göre daha hızlıdırlar.",
+            "C": "Generic olmayan koleksiyonların elemanlara erişmek ve değer atamak için kutulama ve kutudan çıkarma işlemlerinin yapılması gerekir",
+            "D": "System.Collections.Generic alan uzayında tanımlıdırlar.",
+            "E": "Yalnızca aynı türdeki veriyi saklamak için kullanılır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıda verilen C# koduyla ilgili verilen şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Değişken isminde Türkçe karakter kullanıldığı için derleme hatası verir.",
+            "B": "Program -100200 çıktısını verir.",
+            "C": "Dış blokta tanımlı değişken iç blokta aynı isimde tekrar tanımlandığı için derleme hatası verir.",
+            "D": "Program 200-100 çıktısını verir.",
+            "E": "Değişken isminde alt çizgi karakteri kullanıldığı için derleme hatası verir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "InvalidCastException istisnasıyla ilgili aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Bir değişkene tanımlandığı veri tipinin kapasitesinin üzerinde değer atanmasından kaynaklanan istisnaları işler.",
+            "B": "Bellek taşmasından kaynaklanan istisnaları işler.",
+            "C": "Dizi sınırlarının dışındaki bir indise erişilmesinden kaynaklı istisnaları işler.",
+            "D": "Tip dönüşümünden kaynaklanan istisnaları işler.",
+            "E": "Dizilere uygun olmayan türde veri atanmasından kaynaklı istisnaları işler"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdaki şıklarda verilen metodlardan hangisi iki tane imzasız/işaretsiz tam sayı veri tipinde parametre alır ve geriye ondalıklı sayı veri tipinde değer döndürür?",
+          "options": {
+            "A": "public void Ortalama(short a, long b) { Console.Write((a + b) / 2); }",
+            "B": "public double Ortalama(ushort a, byte b) { return (a + b) / 2; }",
+            "C": "public float Ortalama(long a, int b) { return (a + b) / 2; }",
+            "D": "public double Ortalama(short a, sbyte b) { return (a + b) / 2; }",
+            "E": "public int Ortalama(double a, float b) { return (int)(a + b) / 2; {"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "C# dilinde 2 gün, 1 saat, 5 dakika ve 58 saniyelik süreyi saklayan kod satırı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "Time sure = new Time(2, 1, 5, 58);",
+            "B": "TimeSpan sure = new TimeSpan(2, 1, 5, 58);",
+            "C": "DateTime sure = new DateTime(2, 1, 5, 58);",
+            "D": "Date sure = new Date(2, 1, 5, 58);",
+            "E": "TimeOnly sure = new TimeOnly(2, 1, 5, 58);"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

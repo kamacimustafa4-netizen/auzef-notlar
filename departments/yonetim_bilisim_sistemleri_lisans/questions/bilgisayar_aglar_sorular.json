@@ -1,0 +1,1796 @@
+{
+  "course": "Bilgisayar Ağları",
+  "lesson_code": "BILGISAYAR_AGLAR",
+  "exam_count": 5,
+  "exams": [
+    {
+      "title": "Bilgisayar Ağları 2025 Vize",
+      "exam_title": "Bilgisayar Ağları 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Bilgisayar_Aglari_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi yakın mesafede kullanılabilecek bir kablosuz teknolojidir?",
+          "options": {
+            "A": "LTE",
+            "B": "Wimax",
+            "C": "CFN",
+            "D": "Uydu teknolojisi",
+            "E": "NFC"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda yer alanlardan hangisi bir topoloji türü değildir?",
+          "options": {
+            "A": "Örgü topoloji (mesh topology)",
+            "B": "Halka topoloji (ring topology)",
+            "C": "Yıldız topolojisi (star topology)",
+            "D": "Ortak yol topolojisi (bus topology)",
+            "E": "Genişletilmiş halka topolojisi (extended ring topology)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi standart ortaya koyan bir kuruluştur?",
+          "options": {
+            "A": "Bluetooth",
+            "B": "INSA",
+            "C": "ANSI",
+            "D": "WiFi",
+            "E": "NIC"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bilgisayarlar kullanılarak kaynak paylaşılmak istenildiğinde aşağıdakilerden hangisinin yapılması zorunludur?",
+          "options": {
+            "A": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde uygulamanın çalıştırılabilmesi için mutlaka SMTP protokolü kullanılmalıdır.",
+            "B": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde uygulamanın çalıştırılabilmesi için mutlaka yönlendirici kullanılmalıdır.",
+            "C": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde fiziksel aktarımın sağlanabilmesi için kablolu veya kablosuz bir aktarım birimi kullanılmalıdır.",
+            "D": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde uygulamanın çalıştırılabilmesi için mutlaka tekrarlayıcı kullanılmalıdır.",
+            "E": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde uygulamanın çalıştırılabilmesi için mutlaka tekrarlayıcı ve yönlendirici kullanılmalıdır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bilgisayar ağları ile ilgili aşağıda yer alan bilgilerden hangisi doğrudur?",
+          "options": {
+            "A": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları içerdikleri yönlendirici sayısına göre farklı isimler alırlar.",
+            "B": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları içerdikleri anahtar sayısına göre farklı isimler alırlar.",
+            "C": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları ölçeklerine; kapladıkları alanlara göre farklı isimler alırlar.",
+            "D": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları içerdikleri ağ cihazlarının sayısına göre farklı isimler alırlar.",
+            "E": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları içerdikleri yönlendirici ve anahtar sayısına göre farklı isimler alırlar."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir şehir içerisinde yer alan tüm kişilerin hizmet alabileceği bir ağ oluşturulmak istenmektedir. Şehir içerisinde yer alan belediye binaları içerisine de ayrı birer özel ağ yapısı oluşturulmak istenmektedir. Yukarıda yer alan senaryo içerisinde hangi ağ türleri yer alabilir/almaktadır?",
+          "options": {
+            "A": "MAN, PAN",
+            "B": "MAN, LAN",
+            "C": "MAN, SAN",
+            "D": "TAN, SAN",
+            "E": "MAN, WAN"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Geçityolu (gateway) cihazları hakkında aşağıda yer alan açıklamalardan hangisi doğrudur?",
+          "options": {
+            "A": "Farklı teknolojiye sahip ağları birbirlerine bağlarlar.",
+            "B": "Aynı teknolojiye sahip en fazla dört ağı birbirine bağlarlar.",
+            "C": "Aynı teknolojiye sahip en fazla üç ağı birbirine bağlarlar.",
+            "D": "Aynı teknolojiye sahip en fazla iki ağı birbirine bağlarlar.",
+            "E": "Yalnızca aynı teknolojiye sahip ağları birbirine bağlamak için kullanılırlar."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "I. Geniş Alan Ağı (WAN) II. Şehirsel Alan Ağı (MAN) III. Kişisel Alan Ağı (PAN) Yukarıdaki ağ türlerinden hangisi/hangileri farklı binalar arasında iletişim kurma amacıyla kullanılabilir?",
+          "options": {
+            "A": "I ve II",
+            "B": "I ve III",
+            "C": "Yalnız II",
+            "D": "Yalnız III",
+            "E": "II ve III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir yerleşke içerisinde laboratuvarlar yer almaktadır. Laboratuvarların her biri için ayrı birer ağ oluşturulmak istenmektedir. Aynı zamanda yerleşke içerisinde tüm kullanıcılara hizmet verecek ve yerleşke içerisinde yer alan laboratuvarları birbirine bağlayacak kapsayıcı bir ağ da kurulacaktır. Yukarıda yer alan senaryo için aşağıdaki seçeneklerin hangisinde en uygun iki ağ türünün ikisi de doğru olarak verilmiştir?",
+          "options": {
+            "A": "CAN, WAN",
+            "B": "WAN, MAN",
+            "C": "PAN, MAN",
+            "D": "CAN, LAN",
+            "E": "PAN, LAN"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Çift bükümlü kablolar kaça ayrılmaktadır?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "3",
+            "E": "6"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Ölçeklerine göre bilgisayar ağları düşünüldüğünde aşağıdakilerden hangisi bir ağ türü değildir?",
+          "options": {
+            "A": "Şehirsel Alan Ağı",
+            "B": "Yerel Alan Ağı",
+            "C": "Kişisel Alan Ağı",
+            "D": "Geniş Alan Ağı",
+            "E": "Hücresel Alan Ağı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdaki şıklardan hangisinde protokol ve standart ilişkisi hakkında yapılan açıklama doğrudur?",
+          "options": {
+            "A": "Bir protokolün standart olarak kabul edilebilmesi için en az 10 yıl kullanılmış olması gerekir.",
+            "B": "Bir protokol standart haline gelemez.",
+            "C": "Protokoller ve standartlar farklı kuruluşlar tarafından geliştirilir.",
+            "D": "Standartlar, protokollerden farklı olarak geniş kabul görmüş resmileştirilmişlerdir.",
+            "E": "Bir standardın protokol olarak kabul edilebilmesi için en az 10 yıl kullanılmış olması gerekir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "\"Ağda aynı anda yalnızca tek bir kullanıcının iletişim yapabilmesi istenmektedir. Taşınan verilerin komşu cihazlar üzerinden gönderilmesi istenmekte ve yüksek kurulum maliyeti istenmemektedir.\" Yukarıdaki senaryo için seçeneklerde yer alan hangi topoloji türü en yüksek faydayı sağlar?",
+          "options": {
+            "A": "Ortak yol topolojisi (bus topology)",
+            "B": "Yıldız topoloji (star topology)",
+            "C": "Halka topoloji (ring topology)",
+            "D": "Ağaç topoloji (tree topology)",
+            "E": "Örgü topoloji (mesh topology)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Verinin taşınması için ışığın taşıyıcı olarak kullanıldığı kablo türü aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Korumasız çift bükümlü kablo",
+            "B": "Fiber optik kablo",
+            "C": "Light optik kablo",
+            "D": "Koaksiyel kablo",
+            "E": "Korumalı çift bükümlü kablo"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi yıldız topolojisinin avantajlarından biridir?",
+          "options": {
+            "A": "Ağda yer alan tüm cihazlara ait veriler ortak yoldan iletilir.",
+            "B": "Ağda aynı anda yalnızca üç cihaz veri gönderip alabilir.",
+            "C": "Ağda yer alan tüm cihazlar birbirlerinin gönderdikleri verileri görebilir.",
+            "D": "Merkez harici bir yerde meydana gelecek arıza ağı etkilemez, ağda iletişim devam eder.",
+            "E": "Ağda aynı anda yalnızca tek bir cihaz veri gönderip alabilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Sinyaller ile ilgili aşağıda yer alan bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Sinyal iletimi esnasında gürültüden kaçınmaya çalışılır.",
+            "B": "Analog olarak kodlamış sinyaller sinüzoidal dalga oluştururlar.",
+            "C": "Analog sinyaller dijitale, dijital sinyaller analoga çevrilebilir.",
+            "D": "Sinyallerin tümü sinüzoidal dalga formundadır.",
+            "E": "Dijital olarak kodlanmış sinyaller kare dalga oluştururlar."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Herhangi bir zaman diliminde başarılı bir biçimde taşınabilen veri miktarına …….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "veri başarımı",
+            "B": "taşma oranı",
+            "C": "verim çerçevesi",
+            "D": "taşma çerçevesi",
+            "E": "verim oranı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir sinyalin bulunduğu ortam boyunca hareket etmesi için gereken minimum süreye …….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "yayın penceresi",
+            "B": "yayılım gecikmesi",
+            "C": "yayma penceresi",
+            "D": "yayma yaşam süresi",
+            "E": "yayın gecikmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki seçeneklerden hangisinde MAC adresine dayalı olarak veri iletimi gerçekleştiren iki cihaz türü de doğru olarak verilmiştir?",
+          "options": {
+            "A": "Anahtar, göbek",
+            "B": "Köprü, anahtar",
+            "C": "Köprü, göbek",
+            "D": "Tekrarlayıcı, anahtar",
+            "E": "Tekrarlayıcı, göbek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıda yer alan cihazlardan hangisi sinyalin yeniden üretilmesini sağlar?",
+          "options": {
+            "A": "Tekrarlayıcı",
+            "B": "Üretici",
+            "C": "Göbek",
+            "D": "Transfer edici",
+            "E": "Aktarıcı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgisayar Ağları 2024 Vize",
+      "exam_title": "Bilgisayar Ağları 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Bilgisayar_Aglari_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Herhangi bir zaman diliminde başarılı bir biçimde taşınabilen veri miktarına ……….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "veri başarımı",
+            "B": "taşıma oranı",
+            "C": "verim oranı",
+            "D": "verim çerçevesi",
+            "E": "taşıma çerçevesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Sinyaller ile ilgili aşağıda yer alan bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Analog sinyaller dijitale, dijital sinyaller analoga çevrilebilir.",
+            "B": "Analog olarak kodlanmış sinyaller sinüzoidal dalga oluştururlar.",
+            "C": "Dijital olarak kodlanmış sinyaller kare dalga oluştururlar.",
+            "D": "Sinyallerin tümü sinüzoidal dalga formundadır.",
+            "E": "Sinyal iletimi esnasında gürültüden kaçınmaya çalışılır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Geçityolu (gateway) cihazları hakkında aşağıda yer alan açıklamalardan hangisi doğrudur?",
+          "options": {
+            "A": "Farklı teknolojiye sahip ağları birbirlerine bağlarlar.",
+            "B": "Yalnızca aynı teknolojiye sahip ağları birbirine bağlamak için kullanılırlar.",
+            "C": "Aynı teknolojiye sahip en fazla dört ağı birbirine bağlarlar.",
+            "D": "Aynı teknolojiye sahip en fazla iki ağı birbirine bağlarlar.",
+            "E": "Aynı teknolojiye sahip en fazla üç ağı birbirine bağlarlar."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir sinyalin bulunduğu ortam boyunca hareket etmesi için gereken minimum süreye…….. denir. Yukarıda boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "yayma yaşam süresi",
+            "B": "yayın gecikmesi",
+            "C": "yayın penceresi",
+            "D": "yayma penceresi",
+            "E": "yayılım gecikmesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Çift bükümlü kablolar kaça ayrılmaktadır?",
+          "options": {
+            "A": "5",
+            "B": "2",
+            "C": "4",
+            "D": "6",
+            "E": "3"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bilgisayarlar kullanılarak kaynak paylaşılmak istenildiğinde aşağıdakilerden hangisinin yapılması zorunludur?",
+          "options": {
+            "A": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde uygulamanın çalıştırılabilmesi için mutlaka tekrarlayıcı kullanılmalıdır.",
+            "B": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde uygulamanın çalıştırılabilmesi için mutlaka tekrarlayıcı ve yönlendirici kullanılmalıdır.",
+            "C": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde uygulamanın çalıştırılabilmesi için mutlaka yönlendirici kullanılmalıdır.",
+            "D": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde fiziksel aktarımın sağlanabilmesi için kablolu veya kablosuz bir aktarım birimi kullanılmalıdır.",
+            "E": "Bir bilgisayar ağı oluşturulmalı, bilgisayar ağı içerisinde uygulamanın çalıştırılabilmesi için mutlaka SMTP protokolü kullanılmalıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "\"Ağda aynı anda yalnızca tek bir kullanıcının iletişim yapabilmesi istenmektedir. Taşınan verilerin komşu cihazlar üzerinden gönderilmesi istenmekte ve yüksek kurulum maliyeti istenmemektedir.\" Yukarıdaki senaryo için seçeneklerde yer alan hangi topoloji türü en yüksek faydayı sağlar?",
+          "options": {
+            "A": "Yıldız topoloji (star topology)",
+            "B": "Örgü topoloji (mesh topoloji)",
+            "C": "Ortak yol topolojisi (bus topology)",
+            "D": "Ağaç topolojisi (tree topology)",
+            "E": "Halka topoloji (ring topology)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "MAC adresine dayalı olarak veri iletimi gerçekleştiren iki cihaz türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Köprü, göbek",
+            "B": "Tekrarlayıcı, anahtar",
+            "C": "Anahtar, göbek",
+            "D": "Tekrarlayıcı, göbek",
+            "E": "Köprü, anahtar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir yerleşke içerisinde laboratuvarlar yer almaktadır. Laboratuvarların her biri için ayrı birer ağ oluşturulmak istenmektedir. Aynı zamanda yerleşke içerisinde tüm kullanıcılara hizmet verecek ve yerleşke içerisinde yer alan laboratuvarları birbirine bağlayacak kapsayıcı bir ağ da kurulacaktır. Yukarıda yer alan senaryo için aşağıdaki seçeneklerin hangisinde en uygun iki ağ türünün ikisi de doğru olarak verilmiştir?",
+          "options": {
+            "A": "PAN, LAN",
+            "B": "CAN, WAN",
+            "C": "CAN, LAN",
+            "D": "WAN, MAN",
+            "E": "PAN, MAN"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi yıldız topolojisinin avantajlarından biridir?",
+          "options": {
+            "A": "Ağda aynı anda yalnızca tek bir cihaz veri gönderip alabilir.",
+            "B": "Ağda yer alan tüm cihazlara ait veriler ortak yoldan iletilir.",
+            "C": "Ağda aynı anda yalnızca üç cihaz veri gönderip alabilir.",
+            "D": "Merkez harici bir yerde meydana gelecek arıza ağı etkilemez, ağda iletişim devam eder.",
+            "E": "Ağda yer alan tüm cihazlar birbirlerinin gönderdikleri verileri görebilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdaki cihazlardan hangisi sinyalin yeniden üretilmesini sağlar?",
+          "options": {
+            "A": "Göbek",
+            "B": "Tekrarlayıcı",
+            "C": "Üretici",
+            "D": "Transfer edici",
+            "E": "Aktarıcı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Verinin taşınması için ışığın taşıyıcı olarak kullanıldığı kablo türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Fiber optik kablo",
+            "B": "Koaksiyel kablo",
+            "C": "Korumalı çift bükümlü kablo",
+            "D": "Korumasız çift bükümlü kablo",
+            "E": "Light optik kablo"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir şehir içerisinde yer alan tüm kişilerin hizmet alabileceği bir ağ oluşturulmak istenmektedir. Şehir içerisinde yer alan belediye binaları içerisine de ayrı birer özel ağ yapısı oluşturulmak istenmektedir. Yukarıda yer alan senaryo içerisinde hangi ağ türleri yer alabilir/almaktadır?",
+          "options": {
+            "A": "MAN, LAN",
+            "B": "MAN, SAN",
+            "C": "MAN, PAN",
+            "D": "MAN, WAN",
+            "E": "TAN, SAN"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Ölçeklerine göre bilgisayar ağları düşünüldüğünde aşağıdakilerden hangisi bir ağ türü değildir?",
+          "options": {
+            "A": "Geniş Alan Ağı",
+            "B": "Şehirsel Alan Ağı",
+            "C": "Yerel Alan Ağı",
+            "D": "Kişisel Alan Ağı",
+            "E": "Hücresel Alan Ağı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki şıklardan hangisinde protokol ve standart ilişkisi hakkında yapılan açıklama doğrudur?",
+          "options": {
+            "A": "Protokoller ve standartlar farklı kuruluşlar tarafından geliştirilir.",
+            "B": "Bir protokol standart haline gelemez.",
+            "C": "Bir protokolün standart olarak kabul edilebilmesi için en az 10 yıl kullanılmış olması gerekir.",
+            "D": "Bir standardın protokol olarak kabul edilebilmesi için en az 10 yıl kullanılmış olması gerekir.",
+            "E": "Standartlar, protokollerden farklı olarak geniş kabul görmüş resmileştirilmişlerdir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi bir topoloji türü değildir?",
+          "options": {
+            "A": "Ortak yol topolojisi (bus topology)",
+            "B": "Yıldız topolojisi (star topology)",
+            "C": "Örgü topoloji (mesh topology)",
+            "D": "Genişletilmiş halka topolojisi (extended ring topology)",
+            "E": "Halka topoloji (ring topology)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Gürültü ile ilgili aşağıda verilenlerden hangisi doğrudur?",
+          "options": {
+            "A": "Gürültü, yalnızca dijital sinyalin içerisine karışan, iletilmek istenen verinin en az 20ms gecikmesine sebep olan her tür etkidir.",
+            "B": "Gürültü iletilmek istenilen herhangi bir verinin içine karışan, iletilmek istenilen veri içerisinde olması istenmeyen her tür etkidir.",
+            "C": "Gürültü, yalnızca dijital sinyalin içerisine karışan, iletilmek istenen verinin en az 10ms gecikmesine sebep olan her tür etkidir.",
+            "D": "Gürültü iletilmek istenilen herhangi bir verinin içerisine karışan, iletilmek istenilen veri içerisinde olması istenmeyen her tür etkidir.",
+            "E": "Gürültü iletilmek istenilen herhangi bir verinin içine karışan, iletilmek istenen verinin en az 20ms gecikmesine sebep olan her tür etkidir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bilgisayar ağları ile ilgili aşağıda yer alan bilgilerden hangisi doğrudur?",
+          "options": {
+            "A": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları içerdikleri yönlendirici sayısına göre farklı isimler alırlar.",
+            "B": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları ölçeklerine; kapladıkları alanlara göre farklı isimler alırlar.",
+            "C": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları içerdikleri yönlendirici ve anahtar sayısına göre farklı isimler alırlar.",
+            "D": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları içerdikleri ağ cihazlarının sayısına göre farklı isimler alırlar.",
+            "E": "Bir bilgisayar ağı farklı coğrafi alanları kaplayabilir; farklı boyutlarda bilgisayar ağları oluşturmak mümkündür. Bilgisayar ağları içerdikleri anahtar sayısına göre farklı isimler alırlar."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi standart ortaya koyan bir kuruluştur?",
+          "options": {
+            "A": "WiFi",
+            "B": "NIC",
+            "C": "Bluetooth",
+            "D": "INSA",
+            "E": "ANSI"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "I. Geniş Alan Ağı (WAN) II. Şehirsel Alan Ağı (MAN) III. Kişisel Alan Ağı (PAN) Yukarıdaki ağ türlerinden hangisi/hangileri farklı binalar arasında iletişim kurma amacıyla kullanılabilir?",
+          "options": {
+            "A": "Yalnız II",
+            "B": "I, III",
+            "C": "II, III",
+            "D": "Yalnız III",
+            "E": "I, II"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgisayar Ağları 2025 Final",
+      "exam_title": "Bilgisayar Ağları 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Bilgisayar_Aglari_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıda yer alan şıklardan hangisinde bulunan cihaz yalnızca verinin fiziksel olarak aktarımı ile ilgilenir?",
+          "options": {
+            "A": "Yönlendirici",
+            "B": "Göbek",
+            "C": "Geçityolu",
+            "D": "Anahtar",
+            "E": "Köprü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir yönlendirici içerisinde aşağıdakilerden hangisi yer alır?",
+          "options": {
+            "A": "Giriş bağlantı noktası",
+            "B": "Göbek",
+            "C": "Fiber optik kablo",
+            "D": "Geçit yolu",
+            "E": "Tekrarlayıcı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İnternet altyapısını yansıtan anahtarlama türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Parça anahtarlama",
+            "B": "Sabit anahtarlama",
+            "C": "Örgü anahtarlama",
+            "D": "Paket anahtarlama",
+            "E": "Devre anahtarlama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "FTP protokolünün kullanım amacı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Alan adlarına karşılık gelen IP adreslerinin bulunması",
+            "B": "Uçtan uca bağlantı açılması",
+            "C": "Dosya aktarımı",
+            "D": "Web sayfalarının görüntülenmesi",
+            "E": "E-posta aktarımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Jetonlu Halka (Token Ring) ne tür bir Ortam Erişim Kontrolü (MAC) protokolüdür?",
+          "options": {
+            "A": "Son erişim protokolü",
+            "B": "Sıra beklemeli protokol",
+            "C": "Kanal bölümleme protokolü",
+            "D": "Rastgele erişim protokolü",
+            "E": "İlk erişim protokolü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "I. Geniş Alan Ağı (WAN) II. Şehirsel Alan Ağı (MAN) III. Yerel Alan Ağı (LAN) IV. Kampüs Alan Ağı (CAN)V. Kişisel Alan Ağı (PAN) Yukarıdaki ağ türlerinin kapsadıkları alanlar büyükten küçüğe sıralandığında sıralama nasıl olmalıdır?",
+          "options": {
+            "A": "I, II, IV, III, V",
+            "B": "I, II, IV, V, III",
+            "C": "II, I, IV, III, V",
+            "D": "I, II, III, IV, V",
+            "E": "II, I, III, IV, V"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Gürültü ile ilgili aşağıda verilenlerden hangisi doğrudur?",
+          "options": {
+            "A": "Gürültü iletilmek istenilen herhangi bir verinin içerisine karışan, iletilmek istenilen veri içerisinde olması istenmeyen her tür etkidir.",
+            "B": "Gürültü, yalnızca dijital sinyalin içerisine karışan, iletilmek istenen verinin en az 10ms gecikmesine sebep olan her tür etkidir.",
+            "C": "Gürültü, yalnızca dijital sinyalin içerisine karışan, iletilmek istenilen verinin en az 20ms gecikmesine sebep olan her tür etkidir.",
+            "D": "Gürültü iletilmek istenilen herhangi bir verinin içine karışan, iletilmek istenilen verinin en az 10ms gecikmesine sebep olan her tür etkidir.",
+            "E": "Gürültü iletilmek istenilen herhangi bir verinin içine karışan, iletilmek istenilen verinin en az 20ms gecikmesine sebep olan her tür etkidir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Katmanlı mimari yapı içerisinde veri, aşağıdaki katmanlarım hangisinde çerçeve (frame) olarak anılmaktadır?",
+          "options": {
+            "A": "Sunum katmanı",
+            "B": "Fiziksel katman",
+            "C": "Veri bağı katmanı",
+            "D": "Oturum katmanı",
+            "E": "Taşıma katmanı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Devre anahtarlamalı ağlarda veri aktarımı gerçekleştirme faz adedi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "3",
+            "D": "5",
+            "E": "1"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi verinin uçtan uca taşınması için kullanılan protokol ikilisidir?",
+          "options": {
+            "A": "FTP, IP",
+            "B": "SMTP, HTTP",
+            "C": "MAC, SMTP",
+            "D": "SMTP, FTP",
+            "E": "TCP, UDP"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi OSI referans modeli ağ katmanında çalışan protokollerden biridir?",
+          "options": {
+            "A": "TCP",
+            "B": "DNS",
+            "C": "MAC",
+            "D": "ICMP",
+            "E": "FTP"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi İnternet Mühendisliği Görev Grubu'na ait kısaltmadır?",
+          "options": {
+            "A": "IEGG",
+            "B": "EIGF",
+            "C": "IETG",
+            "D": "IENF",
+            "E": "IETF"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi itme prensibi ile çalışan uygulama katmanı protokolüdür?",
+          "options": {
+            "A": "FTP",
+            "B": "Telnet",
+            "C": "HTTP",
+            "D": "SMTP",
+            "E": "DNS"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bir verinin iletilmesinde, taşıma sisteminin performansı aşağıda yer alanlardan hangisine bağlı değildir?",
+          "options": {
+            "A": "Verim oranı",
+            "B": "Veri genişliği",
+            "C": "Bant genişliği",
+            "D": "Yayılım gecikmesi",
+            "E": "Fiziksel aktarım birimi (veri aktarılan sinyalin türü)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Katmanlı mimari yapısı içerisinde verilerin yanına protokollerin gerektirdiği bilgiler eklenir. Bu bilgilerin adı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ek (Attachment)",
+            "B": "Yük (payload)",
+            "C": "Veri (Data)",
+            "D": "Başlık (Header)",
+            "E": "Sağlama (Checksum)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıda yer alan protokollerden hangisi taşıma katmanında çalışmaktadır?",
+          "options": {
+            "A": "TCP",
+            "B": "SMTP",
+            "C": "ICMP",
+            "D": "IP",
+            "E": "DNS"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Ağ topolojisi aşağıdakilerden hangisini ifade eder?",
+          "options": {
+            "A": "Ağ içerisinde bulunan bilgisayarların ve cihazların sayısını",
+            "B": "Ağ içerisinde bulunan bilgisayarların işletim sistemini",
+            "C": "Ağ içerisinde bulunan bilgisayarların ve cihazların bağlanma biçimini",
+            "D": "Ağ içerisinde bulunan cihazların kablo türlerini",
+            "E": "Ağ içerisinde bulunan bilgisayarların ve cihazların konfigürasyonunu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi ethernet yapısı içerisinde yer alan ortam erişim kontrolü (MAC) protokolüdür?",
+          "options": {
+            "A": "CDMA",
+            "B": "Jetonlu halka (Token ring)",
+            "C": "TDMA",
+            "D": "FDMA",
+            "E": "CSMA/CD"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir segment içerisinde R bitinin 1 olması ne anlama gelmektedir?",
+          "options": {
+            "A": "İlgili verinin, veri parçasının son verisi olduğu anlamına gelmektedir.",
+            "B": "İlgili verinin, veri alındığına dair onay amacıyla gönderildiği anlamına gelmektedir.",
+            "C": "İlgili verinin, ağda öncelikli olarak taşınması istendiği anlamına gelmektedir.",
+            "D": "İlgili verinin, üç yollu el sıkışma amacıyla gönderildiği anlamına gelmektedir.",
+            "E": "İlgili verinin, mevcut bağlantıyı sonlandırarak yeni bir bağlantı başlatmak amacıyla gönderildiği anlamına gelmektedir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Acknowledgement number olarak bilinen bilgilendirme (onay) numarası alanı aşağıdakilerden hangisi için kullanılmaktadır?",
+          "options": {
+            "A": "Göndericinin veri içeriğini değiştirmesine onay verildiğini bildirmek için kullanılmaktadır.",
+            "B": "Göndericinin ilettiği verinin alıcı tarafından elde edildiği bilgisinin taşınması için kullanılmaktadır.",
+            "C": "Göndericinin veriyi iletmesini durdurmak için kullanılmaktadır.",
+            "D": "Göndericinin veri iletimini geciktirmesi amacıyla kullanılmaktadır.",
+            "E": "Göndericinin gönderdiği veri sayısının azaltılmasının onaylandığını bildirmek için kullanılmaktadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgisayar Ağları 2024 Final",
+      "exam_title": "Bilgisayar Ağları 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Bilgisayar_Aglari_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Fiziksel katmanda aşağıda yer alan cihazlardan hangisi çalışmaktadır?",
+          "options": {
+            "A": "Tekrarlayıcı (Repeater)",
+            "B": "Yönlendirici (Router)",
+            "C": "Köprü (Bridge)",
+            "D": "Anahtar (Switch)",
+            "E": "Denetleyici (Controller)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "25 numaralı bağlantı noktasını kullanan uygulama katmanı protokolü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Telnet",
+            "B": "DNS",
+            "C": "FTP",
+            "D": "HTTP",
+            "E": "SMTP"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda yer alan protokollerden hangisi taşıma katmanında çalışmaktadır?",
+          "options": {
+            "A": "ICMP",
+            "B": "TCP",
+            "C": "IP",
+            "D": "SMTP",
+            "E": "DNS"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi verilerin aktarılması için iki TCP bağlantısı açılmasını gerektiren uygulama katmanı protokolüdür?",
+          "options": {
+            "A": "FTP",
+            "B": "HTTP",
+            "C": "SMTP",
+            "D": "Telnet",
+            "E": "DNS"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "OSI referans modelinin 4. katmanı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri bağı katmanı",
+            "B": "Sunum katmanı",
+            "C": "Fiziksel katman",
+            "D": "Taşıma katmanı",
+            "E": "Ağ katmanı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıda yer alan topolojilerden hangisi fazla güç tüketimi dezavantajına sahiptir?",
+          "options": {
+            "A": "Ağaç topoloji",
+            "B": "Halka topoloji",
+            "C": "Örgü topoloji",
+            "D": "Yıldız topoloji",
+            "E": "Ortak yol topolojisi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Devre anahtarlamalı ağlarda veri aktarımı kaç fazda gerçekleşir?",
+          "options": {
+            "A": "4",
+            "B": "2",
+            "C": "5",
+            "D": "1",
+            "E": "3"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi standartlaştırılmış bir teknolojidir?",
+          "options": {
+            "A": "IP",
+            "B": "Intercat",
+            "C": "SMTP",
+            "D": "TCP",
+            "E": "Bluetooth"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi tekrarlayıcı (repeater) cihazlarının görevleri arasında yer alır?",
+          "options": {
+            "A": "İletilmek istenilen sinyalin yeniden üretilmesi",
+            "B": "İletilmek istenen verinin şifrelenmesi",
+            "C": "İletilmek istenen verinin şifresinin çözülmesi",
+            "D": "İletilmek istenen sinyalin içeriğinin denetlenmesi",
+            "E": "İletilmek istenen sinyalin taşıma şeklinin değiştirilmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Ortam erişim kontrolü (MAC) protokolleri kaça ayrılmaktadır?",
+          "options": {
+            "A": "2",
+            "B": "5",
+            "C": "6",
+            "D": "4",
+            "E": "3"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Katmanlı mimari yapı içerisinde veri, hangi katmanda paket olarak anılmaktadır?",
+          "options": {
+            "A": "Sunum katmanı",
+            "B": "Veri bağı katmanı",
+            "C": "Ağ katmanı",
+            "D": "Taşıma katmanı",
+            "E": "Uygulama katmanı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bir segment içerisinde S bitinin 1 olması ne anlama gelmektedir?",
+          "options": {
+            "A": "İlgili verinin, veri parçasının son verisi olduğu",
+            "B": "İlgili verinin, veri iletimini başlatma amacıyla gönderildiği",
+            "C": "İlgili verinin, veri alındığına dair onay amacıyla gönderildiği",
+            "D": "İlgili verinin, üç yollu el sıkışma amacıyla gönderildiği",
+            "E": "İlgili verinin, veri iletimini durdurma amacıyla gönderildiği"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi UDP segment biçimi içerisinde yer alır?",
+          "options": {
+            "A": "Flags: Bayraklar",
+            "B": "Sequence number: Sıra numarası",
+            "C": "Dest port: Hedef bağlantı noktası",
+            "D": "Acknowledgement number: Bilgilendirme (onay) numarası",
+            "E": "Time to live: Yaşam süresi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bir laboratuvar içerisinde veri düşük maliyetle aktarılmak istenmektedir. Cihazların hareket edebilmesi, birkaç metre uzaklığa gidebilmeleri istenmektedir. Verilerin aktarılacağı ortamda gürültüye maruz kalma olasılığı yoktur. Yukarıda verilen senaryoya göre verinin aktarımı için hangi teknolojinin seçilmesi daha uygundur?",
+          "options": {
+            "A": "Ethernet",
+            "B": "UTP",
+            "C": "STP",
+            "D": "Bluetooth",
+            "E": "Uydu teknolojileri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi yönlendiriciler üzerinde çalışan yönlendirme protokollerinden biridir?",
+          "options": {
+            "A": "OSPF",
+            "B": "ARP",
+            "C": "TCP",
+            "D": "SMTP",
+            "E": "Ethernet"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi taşıma sisteminin sınırlarını belirleyen ölçütlerdendir?",
+          "options": {
+            "A": "Yaşam ömrü",
+            "B": "Yayılım gecikmesi",
+            "C": "IP versiyonu",
+            "D": "Bağlantı noktası",
+            "E": "Çarpışma sayısı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi paylaşımlı bir hat kullanımına dayanan anahtarlama türüdür?",
+          "options": {
+            "A": "Parça anahtarlama",
+            "B": "Paket anahtarlama",
+            "C": "Örgü anahtarlama",
+            "D": "Sabit anahtarlama",
+            "E": "Devre anahtarlama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi bir ortam erişim kontrolü protokolü (MAC protokolü) türüdür?",
+          "options": {
+            "A": "Çarpışma desteği protokolü",
+            "B": "Sıra bölümleme protokolü",
+            "C": "Kanal erişim protokolü",
+            "D": "Rastgele erişim protokolü",
+            "E": "Kanal tespit protokolü"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir yönlendirici içerisinde aşağıdakilerden hangisi yer alır?",
+          "options": {
+            "A": "Tekrarlayıcı",
+            "B": "Fiber optik kablo",
+            "C": "Giriş bağlantı noktası",
+            "D": "Geçit yolu",
+            "E": "Göbek"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "IPv4 ve IPv6 adreslerine ait bit sayıları sırasıyla aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "32 bit, 64 bit",
+            "B": "32 bit, 128 bit",
+            "C": "64 bit, 32 bit",
+            "D": "128 bit, 256 bit",
+            "E": "32 bit, 256 bit"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgisayar Ağları 2023 Final",
+      "exam_title": "Bilgisayar Ağları 2023 Final",
+      "exam_type": "final",
+      "year": "2023",
+      "question_count": 22,
+      "source_url": "",
+      "file_name": "Bilgisayar_Aglari_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Katmanlı mimari yapısı içersinde verilerin yanına protokollerin gerektirdiği bilgiler eklenir. Bu bilgilerin adı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ek (Attachment)",
+            "B": "SAğlama (Checksum)",
+            "C": "Veri (Data)",
+            "D": "Yük (Payload)",
+            "E": "Başlık (Header)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hata düzeltme teknikleri OSI referans modelinin hangi katmanında tanımlıdır?",
+          "options": {
+            "A": "5",
+            "B": "2",
+            "C": "3",
+            "D": "6",
+            "E": "4"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Üç yollu el sıkışma (three way handshake) için aşağıda yer alan açıklamalardan hangisi doğrudur?",
+          "options": {
+            "A": "Kullanımı zaman maliyetini etkilemez.",
+            "B": "Kullanımı zaman maliyetini 10ms düşürür.",
+            "C": "Kullanımı zaman maliyetini yükseltir.",
+            "D": "Kullanımı zaman maliyetini 10ms yükseltir.",
+            "E": "Kullanımı zaman maliyetini düşürür."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Ağda aynı anda yalnızca tek kullanıcının iletişim yapabilmesi istenmektedir. Taşınan verilerin komşu cihazlar üzerinden gönderilmesi istenmekte ve yüksek kurulum maliyeti istenmemektedir. Yukarıdaki senaryo için uygun seçeneklerde yer alan hangi topoloji türü en yüksek faydayı sağlar?",
+          "options": {
+            "A": "Halka Topolojisi (ring topology)",
+            "B": "Örgü Topoloji (mesh topolog)",
+            "C": "Yıldız Topoloji ( star topology)",
+            "D": "Ağaç Topolojisi (Tree topology)",
+            "E": "Ortak yol Topolojisi (hub topology)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi itme prensibi ile çalışan uygulama katmanı protokolüdür?",
+          "options": {
+            "A": "FTP",
+            "B": "DNS",
+            "C": "SMTP",
+            "D": "Telnet",
+            "E": "HTTP"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Çift bükümlü kablolar kaça ayrılmaktadır?",
+          "options": {
+            "A": "5",
+            "B": "3",
+            "C": "2",
+            "D": "6",
+            "E": "4"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi HTTP protokolü cevap mesajları içerisinde yer alabilecek durum kodlarından biridir?",
+          "options": {
+            "A": "403 Not Found (Bulunamadı)",
+            "B": "400 Not Found (Bulunamadı)",
+            "C": "401 Not Found (Bulunamadı)",
+            "D": "404 Not Found (Bulunamadı)",
+            "E": "402 Not Found (Bulunamadı)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıda yer alan protokollerden hangisi akış kontrol mekanizmasına sahiptir?",
+          "options": {
+            "A": "IP",
+            "B": "ICMP",
+            "C": "Ethernet",
+            "D": "TCP",
+            "E": "UDP"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hattın kullanıcıya rezerve edildiği anahtarlama türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Parça anahtarlama",
+            "B": "Paket anahtarlama",
+            "C": "Devre anahtarlama",
+            "D": "Sabit anahtarlama",
+            "E": "Örgü anahtarlama"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir yönlendirici içerisinde aşağıdakilerden hangisi yer alır?",
+          "options": {
+            "A": "İletme yapısı",
+            "B": "Yönlendirilme yapısı",
+            "C": "Bağlama yapısı",
+            "D": "Anahtarlama yapısı",
+            "E": "Çaprazlama yapısı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi veri bağı katmanının görevlerindendir?",
+          "options": {
+            "A": "Akış kontrolü",
+            "B": "Verilerin yeniden boyutlandırılması",
+            "C": "Veri şifreleme",
+            "D": "Verilerin sıkıştırılması",
+            "E": "Şifrelenen verinin şifresinin çözülmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "İki ağı birbirine bağlamak için aşağıdakilerden hangisi kullanılır?",
+          "options": {
+            "A": "Üretici",
+            "B": "Köprü",
+            "C": "Bağlayıcı",
+            "D": "Tekrarlayıcı",
+            "E": "Yönetici"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi TCP segment biçimi arasında yer alır?",
+          "options": {
+            "A": "time to live: yaşam süresi",
+            "B": "destination IP address: hedef IP adresi",
+            "C": "hop limit: atlama limiti",
+            "D": "source IP address: Kaynak IP adresi",
+            "E": "receive window : alınan pencere boyut"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Veri bağı katmanı sırasıyla hangi katmandan hizmet almakta, hangi katmana hizmet vermektedir?",
+          "options": {
+            "A": "Fiziksel katman - Uygulama katmanı",
+            "B": "Taşıma katmanı - Ağ katmanı",
+            "C": "Oturum katmanı - Sunum katmanı",
+            "D": "Ağ katmanı - Taşıma katmanı",
+            "E": "Uygulama katmanı - Fiziksel katman"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi Uluslararası Telekominikasyon Birliği'ne ait kısaltmadır?",
+          "options": {
+            "A": "TUII",
+            "B": "ITU",
+            "C": "TUI",
+            "D": "UTI",
+            "E": "IITU"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Heterojen ağlar arasında iletişimin desteklenebilmesi için destek sağlayan katman aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Fiziksel katman",
+            "B": "Uygulama katmanı",
+            "C": "Ağ katmanı",
+            "D": "Veribağı katmanı",
+            "E": "Taşıma katmanı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "OSI referans modelinin hangi katmanlarında güvenilirlik sunulmaktadır?",
+          "options": {
+            "A": "1, 2",
+            "B": "5, 6",
+            "C": "2, 4",
+            "D": "4, 5",
+            "E": "2, 3"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Telefon altyapısını yansıtan anahtarlama türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Örgü anahtarlama",
+            "B": "Parça anahtarlama",
+            "C": "Paket anahtarlama",
+            "D": "Devre anahtarlama",
+            "E": "Sabit anahtarlama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir verinin iletilmesinde taşıma sisteminin performansı aşağıda yer alan alanlardan hangisine bağlı değildir?",
+          "options": {
+            "A": "bant genişliği",
+            "B": "verim oranı",
+            "C": "veri genişliği",
+            "D": "fiziksel aktarım birimi (veri aktarılan sinyalin türü)",
+            "E": "yayılım gecikmesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi durumsuz bir uygulama katmanı protokolüdür?",
+          "options": {
+            "A": "TCP",
+            "B": "ICMP",
+            "C": "IP",
+            "D": "HTTP",
+            "E": "UDP"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "I. PAN II. WAN III. MAN IV. CAN Bir bina içerisinde yer alan ağ türlerinden hangisi veya hangileri kurulabilir?",
+          "options": {
+            "A": "Sadece I",
+            "B": "II ve IV",
+            "C": "I, II ve III",
+            "D": "I, III, IV",
+            "E": "II ve III"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Katmanlı mimari yapı içerisinde veri, hangi katmanda çerçeve (frame) olarak anılmaktadır?",
+          "options": {
+            "A": "Fiziksel katman",
+            "B": "Sunum katmanı",
+            "C": "Taşıma katmanı",
+            "D": "Oturum katmanı",
+            "E": "Veri katmanı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

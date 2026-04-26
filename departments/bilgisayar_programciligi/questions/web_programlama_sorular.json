@@ -1,14 +1,14 @@
 {
   "course": "Web Programlama",
   "lesson_code": "WEB_PROGRAMLAMA",
-  "exam_count": 7,
+  "exam_count": 9,
   "exams": [
     {
       "title": "Web Programlama 2025-2026 Vize",
       "exam_title": "Web Programlama 2025-2026 Vize",
       "exam_type": "vize",
       "year": "2025-2026",
-      "question_count": 17,
+      "question_count": 7,
       "source_url": "",
       "file_name": "Web_Programlama_Vize_Sorulari.docx",
       "questions": [
@@ -22,7 +22,7 @@
             "D": "integer double string",
             "E": "string double string"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -39,7 +39,7 @@
             "D": "Değişkenin değerini iki katına çıkarır.",
             "E": "Değişkenin türünü değiştirir."
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -56,7 +56,7 @@
             "D": "Echo",
             "E": "Response.Write(\"Merhaba Dünya\")"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -73,7 +73,7 @@
             "D": "Double",
             "E": "Object"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -90,7 +90,7 @@
             "D": "settype($sayi, integer);",
             "E": "gettype( sayi,object);"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -107,7 +107,7 @@
             "D": "I like Audi, Mercedes and Opel.",
             "E": "I like Opel, Audi and Mercedes."
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -120,181 +120,11 @@
           "options": {
             "A": "1997-Brendan Eich",
             "B": "1993-Tim Berners-Lee",
-            "C": "2000-Larry Page",
-            "D": "1995-Mark Zuckerberg",
-            "E": "1994-Rasmus Lerdorf"
+            "C": "",
+            "D": "",
+            "E": ""
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "PHP'de while ve do…while döngüleri arasındaki temel fark aşağıdaki seçeneklerden hangisinde belirtilmiştir?",
-          "options": {
-            "A": "while sonsuz döngülerde kullanılmaktadır.",
-            "B": "while önce koşulu kontrol etmekteyken, do...while önce istenen işlemi yapıp, sonra koşulu kontrol etmektedir.",
-            "C": "while sadece sabitlerle çalışmaktadır.",
-            "D": "do...while koşul sağlanmazsa çalışmaz.",
-            "E": "do...while if ile birlikte kullanılmaktadır."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Aşağıdaki ifadelerden hangisi PHP'de bir döngüyü ya da yapıyı kırmak için kullanılmaktadır?",
-          "options": {
-            "A": "break",
-            "B": "default",
-            "C": "continue",
-            "D": "end",
-            "E": "case"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Yukarıda verilen PHP kodunun çıktısı aşağıdaki seçenekte doğru verilmiştir?",
-          "options": {
-            "A": "0",
-            "B": "4",
-            "C": "1",
-            "D": "3",
-            "E": "2"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Yukarıdaki PHP kodunun çıktısı hangi şıkta doğru verilmiştir?",
-          "options": {
-            "A": "Birinci İkinci",
-            "B": "Çıktı vermez",
-            "C": "Birinci",
-            "D": "Undefined variable $a",
-            "E": "İkinci"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Aşağıda verilen PHP ile ilgili temel bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "PHP sunucu taraflı çalışan bir programlama dilidir.",
-            "B": "PHP HTML etiketleri içerisine gömülür.",
-            "C": "HTML kodları dinamik, PHP ise statik sayfalar sağlar.",
-            "D": "PHP, tırnak kullanmasanız da bir değişkenin sayı olup olmadığını anlar.",
-            "E": "PHP etiketleri içerisine yazılır."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Aşağıdaki seçenekler arasında, PHP'nin açılımını doğru şekilde belirten ifadeyi işaretleyiniz.",
-          "options": {
-            "A": "Personal Hypertext Processor",
-            "B": "Public Home Page",
-            "C": "Private Home Processor",
-            "D": "Private Hypertext Processor",
-            "E": "Personal Home Page"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "PHP'de veri türleriyle ilgili aşağıdaki seçeneklerden hangisi yanlıştır?",
-          "options": {
-            "A": "Integer veri türü, sadece pozitif tam sayılar içermektedir.",
-            "B": "Array veri türü, bir veya birden fazla değeri depolamak için kullanılmaktadır.",
-            "C": "Float veri türü, ondalık sayıları saklamak için kullanılmaktadır.",
-            "D": "Boolean türü \"true\" veya \"false\" olmak üzere iki değerden birini alabilir.",
-            "E": "String veri türü, metin verilerini temsil etmektedir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "$dersler dizisinin alfabetik olarak sıralanmasını sağlayan fonksiyon aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "krsort($dersler);",
-            "B": "sort($dersler);",
-            "C": "arsort($dersler);",
-            "D": "rsort($dersler);",
-            "E": "ksort($dersler);"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Aşağıdakilerden hangisi PHP'de ilişkilendirilmiş bir dizi tanımlamak için kullanılmaktadır?",
-          "options": {
-            "A": "$dizi (\"ad\", \"yas\");",
-            "B": "$isimler [\"Ali\", \"Veli\", \"Ayşe\"];",
-            "C": "$yaslar = 10=>25 25,1 1=>301;",
-            "D": "$sayi = 5;",
-            "E": "$bilgiler = [\"ad\" => \"Ali\", \"yas\" => 25];"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Yukarıdaki PHP kod bloğunun çıktısı aşağıdaki seçeneklerden hangisidir?",
-          "options": {
-            "A": "a=4 b=3",
-            "B": "A, B'ye eşit değildir",
-            "C": "A, B'ye eşittir",
-            "D": "a=4 b=3",
-            "E": "Hata verir"
-          },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -659,7 +489,7 @@
       "exam_title": "Web Programlama 2024-2025 Vize",
       "exam_type": "vize",
       "year": "2024-2025",
-      "question_count": 19,
+      "question_count": 2,
       "source_url": "",
       "file_name": "Web_Programlama_Vize_Sorulari.docx",
       "questions": [
@@ -673,7 +503,7 @@
             "D": "EastWest",
             "E": "NorthEastSouth"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_PROGRAMLAMA_2024_2025_vize_soru_1.png",
           "image_file": "WEB_PROGRAMLAMA_2024_2025_vize_soru_1.png",
@@ -687,299 +517,10 @@
             "A": "1994 - Rasmus Lerdorf",
             "B": "1995 - Mark Zuckerberg",
             "C": "1993 - Tim Berners-Lee",
-            "D": "2000 - Larry Page",
-            "E": "1997 - Brendan Eich"
+            "D": "",
+            "E": ""
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Aşağıda verilen PHP ile ilgili temel bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "PHP <?php?> etiketi içerisine yazılır.",
-            "B": "PHP sunucu taraflı çalışan bir programlama dilidir.",
-            "C": "PHP, tırnak kullanmasanız da bir değişkenin sayı olup olmadığını anlar.",
-            "D": "PHP HTML etiketleri içerisine gömülür.",
-            "E": "HTML kodları dinamik, PHP ise statik sayfalar sağlar."
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "PHP'de veri türleriyle ilgili aşağıdaki seçeneklerden hangisi yanlıştır?",
-          "options": {
-            "A": "Integer veri türü, sadece pozitif tam sayılar içermektedir.",
-            "B": "Boolean türü \"true\" veya \"false\" olmak üzere iki değerden birini alabilir.",
-            "C": "Array veri türü, bir veya birden fazla değeri depolamak için kullanılmaktadır.",
-            "D": "Float veri türü, ondalık sayıları saklamak için kullanılmaktadır.",
-            "E": "String veri türü, metin verilerini temsil etmektedir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "Yukarıdaki php kod satırlarının çıktısı ekranda gözükme biçimi aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "string double string",
-            "B": "integer double string",
-            "C": "3 3.2 Hello",
-            "D": "string double string",
-            "E": "integer double string"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "PHP'de while ve do…while döngüleri arasındaki temel fark aşağıdaki seçeneklerden hangisinde belirtilmiştir?",
-          "options": {
-            "A": "do...while koşul sağlanmazsa çalışmaz.",
-            "B": "while önce koşulu kontrol etmekteyken, do...while önce istenen işlemi yapıp, sonra koşulu kontrol etmektedir.",
-            "C": "do...while if ile birlikte kullanılmaktadır.",
-            "D": "while sadece sabitlerle çalışmaktadır.",
-            "E": "while sonsuz döngülerde kullanılmaktadır."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Aşağıdakilerden hangisi PHP'de kullanılan bir veri türü değildir?",
-          "options": {
-            "A": "Double",
-            "B": "Character",
-            "C": "Object",
-            "D": "Array",
-            "E": "Integer"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_PROGRAMLAMA_2024_2025_vize_soru_7.png",
-          "image_file": "WEB_PROGRAMLAMA_2024_2025_vize_soru_7.png",
-          "image_path": "resim-sorular/WEB_PROGRAMLAMA_2024_2025_vize_soru_7.png",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Yukarıda verilen PHP kodunun çıktısı aşağıdaki seçenekte doğru verilmiştir?",
-          "options": {
-            "A": "3",
-            "B": "0",
-            "C": "2",
-            "D": "1",
-            "E": "4"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "PHP'de bir dizi elemanına erişmek için hangi yapı kullanılmaktadır? Ör.5",
-          "options": {
-            "A": "$dizi['indis']",
-            "B": "$dizi {indis}",
-            "C": "$dizi->indis",
-            "D": "$dizi[5]",
-            "E": "$dizi(indis)"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Aşağıdaki ifadelerden hangisi PHP'de bir döngüyü ya da yapıyı kırmak için kullanılmaktadır?",
-          "options": {
-            "A": "default",
-            "B": "case",
-            "C": "continue",
-            "D": "end",
-            "E": "break"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "PHP ile hazırlanmış web programlarının veya web sayfalarının çalışabilmesi için aşağıdaki yazılımlardan hangisinin bulunması gerekmektedir?",
-          "options": {
-            "A": "Web sunucu ve PHP yorumlayıcı",
-            "B": "Veritabanı ve PHP yorumlayıcı",
-            "C": "Veri tabanı ve web sunucu",
-            "D": "Sadece web sunucu",
-            "E": "Sadece PHP yorumlayıcı"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "$a -= $b; Komutunun anlamı aşağıdkai kod parçalarından hangisine benzerdir?",
-          "options": {
-            "A": "$b = $a - $b;",
-            "B": "$a = $a - $b;",
-            "C": "$a = $b - $b;",
-            "D": "$b = $a + $a;",
-            "E": "$b = $a - $a;"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "PHP ve HTML ile ilgili aşağıdakilerden hangisi yanlıştır?",
-          "options": {
-            "A": "PHP script (betik) bir dildir.",
-            "B": "HTML sunucu tarafında çalışarak etkileşimi sağlar.",
-            "C": "HTML ile veritabanı işlemleri gerçekleştirilemez.",
-            "D": "PHP ile veritabanı işlemleri gerçekleştirilebilir.",
-            "E": "HTML bir metin düzenleme dilidir."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Aşağıdaki seçenekler arasında, PHP'nin açılımını doğru şekilde belirten ifadeyi işaretleyiniz.",
-          "options": {
-            "A": "Personal Hypertext Processor",
-            "B": "Private Home Processor",
-            "C": "Public Home Page",
-            "D": "Personal Home Page",
-            "E": "Private Hypertext Processor"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Yukarıdaki kod bloğunun çıktısı aşağıdaki seçeneklerden hangisidir?",
-          "options": {
-            "A": "a=4 b=3",
-            "B": "Hata verir",
-            "C": "A, B'ye eşit değildir",
-            "D": "a=4b=3",
-            "E": "A, B'ye eşittir"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "do…while döngüsünün while döngüsünden farkı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "do...while döngüsü sadece koşul sağlanıyorsa çalışır.",
-            "B": "do...while döngüsü koşul false olana kadar çalışır.",
-            "C": "do...while döngüsü koşul true olduğunda hiç çalışmaz.",
-            "D": "do...while döngüsü koşul false olduğunda her zaman çalışmaya devam eder.",
-            "E": "do...while döngüsü her durumda en az bir kez çalışır."
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "PHP'de string (metin) birleştirme işlemi için hangi operatör kullanılmaktadır?",
-          "options": {
-            "A": "-",
-            "B": "*",
-            "C": "+",
-            "D": ".",
-            "E": "%"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "PHP'de ++ operatörü hangi amaçla kullanılmaktadır?",
-          "options": {
-            "A": "Değişkenin değerini bir azaltır.",
-            "B": "Değişkenin türünü değiştirir.",
-            "C": "Değişkenin değerini bir arttırır.",
-            "D": "Değişkenin değerini iki katına çıkarır.",
-            "E": "Değişkenin değerini sıfırlar."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Aşağıdakilerden hangisi PHP'de ilişkilendirilmiş bir dizi tanımlamak için kullanılmaktadır?",
-          "options": {
-            "A": "$dizi = (\"ad\", \"yas\");",
-            "B": "$yaslar = [0 => 25, 1 => 30];",
-            "C": "$isimler = [\"Ali\", \"Veli\", \"Ayşe\"];",
-            "D": "$sayi = 5;",
-            "E": "$bilgiler = [\"ad\" => \"Ali\", \"yas\" => 25];"
-          },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1331,6 +872,487 @@
             "E": "Kullanılabilirlilik değildir"
           },
           "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Programlama 2000 Vize",
+      "exam_title": "Web Programlama 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 10,
+      "source_url": "",
+      "file_name": "Web_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 8,
+          "question": "PHP'de while ve do…while döngüleri arasındaki temel fark aşağıdaki seçeneklerden hangisinde belirtilmiştir?",
+          "options": {
+            "A": "while sonsuz döngülerde kullanılmaktadır.",
+            "B": "while önce koşulu kontrol etmekteyken, do...while önce istenen işlemi yapıp, sonra koşulu kontrol etmektedir.",
+            "C": "while sadece sabitlerle çalışmaktadır.",
+            "D": "do...while koşul sağlanmazsa çalışmaz.",
+            "E": "do...while if ile birlikte kullanılmaktadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki ifadelerden hangisi PHP'de bir döngüyü ya da yapıyı kırmak için kullanılmaktadır?",
+          "options": {
+            "A": "break",
+            "B": "default",
+            "C": "continue",
+            "D": "end",
+            "E": "case"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda verilen PHP kodunun çıktısı aşağıdaki seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "0",
+            "B": "4",
+            "C": "1",
+            "D": "3",
+            "E": "2"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıdaki PHP kodunun çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "Birinci İkinci",
+            "B": "Çıktı vermez",
+            "C": "Birinci",
+            "D": "Undefined variable $a",
+            "E": "İkinci"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıda verilen PHP ile ilgili temel bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "PHP sunucu taraflı çalışan bir programlama dilidir.",
+            "B": "PHP HTML etiketleri içerisine gömülür.",
+            "C": "HTML kodları dinamik, PHP ise statik sayfalar sağlar.",
+            "D": "PHP, tırnak kullanmasanız da bir değişkenin sayı olup olmadığını anlar.",
+            "E": "PHP etiketleri içerisine yazılır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdaki seçenekler arasında, PHP'nin açılımını doğru şekilde belirten ifadeyi işaretleyiniz.",
+          "options": {
+            "A": "Personal Hypertext Processor",
+            "B": "Public Home Page",
+            "C": "Private Home Processor",
+            "D": "Private Hypertext Processor",
+            "E": "Personal Home Page"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "PHP'de veri türleriyle ilgili aşağıdaki seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Integer veri türü, sadece pozitif tam sayılar içermektedir.",
+            "B": "Array veri türü, bir veya birden fazla değeri depolamak için kullanılmaktadır.",
+            "C": "Float veri türü, ondalık sayıları saklamak için kullanılmaktadır.",
+            "D": "Boolean türü \"true\" veya \"false\" olmak üzere iki değerden birini alabilir.",
+            "E": "String veri türü, metin verilerini temsil etmektedir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "$dersler dizisinin alfabetik olarak sıralanmasını sağlayan fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "krsort($dersler);",
+            "B": "sort($dersler);",
+            "C": "arsort($dersler);",
+            "D": "rsort($dersler);",
+            "E": "ksort($dersler);"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi PHP'de ilişkilendirilmiş bir dizi tanımlamak için kullanılmaktadır?",
+          "options": {
+            "A": "$dizi (\"ad\", \"yas\");",
+            "B": "$isimler [\"Ali\", \"Veli\", \"Ayşe\"];",
+            "C": "$yaslar = 10=>25 25,1 1=>301;",
+            "D": "$sayi = 5;",
+            "E": "$bilgiler = [\"ad\" => \"Ali\", \"yas\" => 25];"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıdaki PHP kod bloğunun çıktısı aşağıdaki seçeneklerden hangisidir?",
+          "options": {
+            "A": "a=4 b=3",
+            "B": "A, B'ye eşit değildir",
+            "C": "A, B'ye eşittir",
+            "D": "a=4 b=3",
+            "E": "Hata verir"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Programlama 2000 Vize",
+      "exam_title": "Web Programlama 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "Web_Programlama_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 3,
+          "question": "Aşağıda verilen PHP ile ilgili temel bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "PHP <?php?> etiketi içerisine yazılır.",
+            "B": "PHP sunucu taraflı çalışan bir programlama dilidir.",
+            "C": "PHP, tırnak kullanmasanız da bir değişkenin sayı olup olmadığını anlar.",
+            "D": "PHP HTML etiketleri içerisine gömülür.",
+            "E": "HTML kodları dinamik, PHP ise statik sayfalar sağlar."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "PHP'de veri türleriyle ilgili aşağıdaki seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Integer veri türü, sadece pozitif tam sayılar içermektedir.",
+            "B": "Boolean türü \"true\" veya \"false\" olmak üzere iki değerden birini alabilir.",
+            "C": "Array veri türü, bir veya birden fazla değeri depolamak için kullanılmaktadır.",
+            "D": "Float veri türü, ondalık sayıları saklamak için kullanılmaktadır.",
+            "E": "String veri türü, metin verilerini temsil etmektedir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıdaki php kod satırlarının çıktısı ekranda gözükme biçimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "string double string",
+            "B": "integer double string",
+            "C": "3 3.2 Hello",
+            "D": "string double string",
+            "E": "integer double string"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "PHP'de while ve do…while döngüleri arasındaki temel fark aşağıdaki seçeneklerden hangisinde belirtilmiştir?",
+          "options": {
+            "A": "do...while koşul sağlanmazsa çalışmaz.",
+            "B": "while önce koşulu kontrol etmekteyken, do...while önce istenen işlemi yapıp, sonra koşulu kontrol etmektedir.",
+            "C": "do...while if ile birlikte kullanılmaktadır.",
+            "D": "while sadece sabitlerle çalışmaktadır.",
+            "E": "while sonsuz döngülerde kullanılmaktadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi PHP'de kullanılan bir veri türü değildir?",
+          "options": {
+            "A": "Double",
+            "B": "Character",
+            "C": "Object",
+            "D": "Array",
+            "E": "Integer"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_PROGRAMLAMA_2000_vize_soru_7.png",
+          "image_file": "WEB_PROGRAMLAMA_2000_vize_soru_7.png",
+          "image_path": "resim-sorular/WEB_PROGRAMLAMA_2000_vize_soru_7.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukarıda verilen PHP kodunun çıktısı aşağıdaki seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "3",
+            "B": "0",
+            "C": "2",
+            "D": "1",
+            "E": "4"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "PHP'de bir dizi elemanına erişmek için hangi yapı kullanılmaktadır? Ör.5",
+          "options": {
+            "A": "$dizi['indis']",
+            "B": "$dizi {indis}",
+            "C": "$dizi->indis",
+            "D": "$dizi[5]",
+            "E": "$dizi(indis)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki ifadelerden hangisi PHP'de bir döngüyü ya da yapıyı kırmak için kullanılmaktadır?",
+          "options": {
+            "A": "default",
+            "B": "case",
+            "C": "continue",
+            "D": "end",
+            "E": "break"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "PHP ile hazırlanmış web programlarının veya web sayfalarının çalışabilmesi için aşağıdaki yazılımlardan hangisinin bulunması gerekmektedir?",
+          "options": {
+            "A": "Web sunucu ve PHP yorumlayıcı",
+            "B": "Veritabanı ve PHP yorumlayıcı",
+            "C": "Veri tabanı ve web sunucu",
+            "D": "Sadece web sunucu",
+            "E": "Sadece PHP yorumlayıcı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "$a -= $b; Komutunun anlamı aşağıdkai kod parçalarından hangisine benzerdir?",
+          "options": {
+            "A": "$b = $a - $b;",
+            "B": "$a = $a - $b;",
+            "C": "$a = $b - $b;",
+            "D": "$b = $a + $a;",
+            "E": "$b = $a - $a;"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "PHP ve HTML ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "PHP script (betik) bir dildir.",
+            "B": "HTML sunucu tarafında çalışarak etkileşimi sağlar.",
+            "C": "HTML ile veritabanı işlemleri gerçekleştirilemez.",
+            "D": "PHP ile veritabanı işlemleri gerçekleştirilebilir.",
+            "E": "HTML bir metin düzenleme dilidir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki seçenekler arasında, PHP'nin açılımını doğru şekilde belirten ifadeyi işaretleyiniz.",
+          "options": {
+            "A": "Personal Hypertext Processor",
+            "B": "Private Home Processor",
+            "C": "Public Home Page",
+            "D": "Personal Home Page",
+            "E": "Private Hypertext Processor"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıdaki kod bloğunun çıktısı aşağıdaki seçeneklerden hangisidir?",
+          "options": {
+            "A": "a=4 b=3",
+            "B": "Hata verir",
+            "C": "A, B'ye eşit değildir",
+            "D": "a=4b=3",
+            "E": "A, B'ye eşittir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "do…while döngüsünün while döngüsünden farkı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "do...while döngüsü sadece koşul sağlanıyorsa çalışır.",
+            "B": "do...while döngüsü koşul false olana kadar çalışır.",
+            "C": "do...while döngüsü koşul true olduğunda hiç çalışmaz.",
+            "D": "do...while döngüsü koşul false olduğunda her zaman çalışmaya devam eder.",
+            "E": "do...while döngüsü her durumda en az bir kez çalışır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "PHP'de string (metin) birleştirme işlemi için hangi operatör kullanılmaktadır?",
+          "options": {
+            "A": "-",
+            "B": "*",
+            "C": "+",
+            "D": ".",
+            "E": "%"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "PHP'de ++ operatörü hangi amaçla kullanılmaktadır?",
+          "options": {
+            "A": "Değişkenin değerini bir azaltır.",
+            "B": "Değişkenin türünü değiştirir.",
+            "C": "Değişkenin değerini bir arttırır.",
+            "D": "Değişkenin değerini iki katına çıkarır.",
+            "E": "Değişkenin değerini sıfırlar."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi PHP'de ilişkilendirilmiş bir dizi tanımlamak için kullanılmaktadır?",
+          "options": {
+            "A": "$dizi = (\"ad\", \"yas\");",
+            "B": "$yaslar = [0 => 25, 1 => 30];",
+            "C": "$isimler = [\"Ali\", \"Veli\", \"Ayşe\"];",
+            "D": "$sayi = 5;",
+            "E": "$bilgiler = [\"ad\" => \"Ali\", \"yas\" => 25];"
+          },
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",

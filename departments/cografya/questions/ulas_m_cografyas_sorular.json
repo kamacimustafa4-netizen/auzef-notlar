@@ -1,26 +1,77 @@
 {
   "course": "Ulaşım Coğrafyası",
   "lesson_code": "ULAS_M_COGRAFYAS",
-  "exam_count": 1,
+  "exam_count": 16,
   "exams": [
     {
-      "title": "Ulaşım Coğrafyası 2005-2019 Final",
-      "exam_title": "Ulaşım Coğrafyası 2005-2019 Final",
-      "exam_type": "final",
-      "year": "2005-2019",
-      "question_count": 5,
+      "title": "Ulaşım Coğrafyası 2025 Vize",
+      "exam_title": "Ulaşım Coğrafyası 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
       "source_url": "",
-      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "file_name": "Ulasim_Cografyasi_Vize_Sorulari.docx",
       "questions": [
         {
-          "id": 16,
-          "question": "Türkiye'de 2005-2019 yılları arasında en fazla tren kazasının yaşandığı yıl aşağıdakilerden hangisidir?",
+          "id": 1,
+          "question": "Matematik konum aşağıdaki seçeneklerin hangisinde doğru olarak tanımlanmıştır?",
           "options": {
-            "A": "2008",
-            "B": "2018",
-            "C": "2011",
-            "D": "2012",
-            "E": "2005"
+            "A": "Bir mekânın koordinat sistemine göre yeryüzünde yer aldığı noktadır",
+            "B": "Bir mekânın sanayi merkezlerine göre yeryüzünde yer aldığı noktadır",
+            "C": "Bir mekânın dağlara göre yeryüzünde yer aldığı noktadır",
+            "D": "Bir mekânın ulaşım güzergahlarına göre yeryüzünde yer aldığı noktadır",
+            "E": "Bir mekânın denizlere göre yeryüzünde yer aldığı noktadır"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Helenistik çağa kadar Anadolu yollarının önemli özelliği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sınır Bölgelerinde yoğunlaşması",
+            "B": "İç kesimlerde yoğunlaşması",
+            "C": "Başkent çevresinde yoğunlaşması",
+            "D": "Limanların çevresinde yoğunlaşması",
+            "E": "Ticaret bölgelerinde yoğunlaşması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi ulaşımı bir bütün olarak etkileyen ekstrem hava olaylarından biri değildir?",
+          "options": {
+            "A": "Buzlanma",
+            "B": "Tipi",
+            "C": "Meltem",
+            "D": "Sis",
+            "E": "Sağanak Yağış"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Ham maddelerin çeşitli işlemlerden geçirilerek fiziksel ve kimyasal içeriklerinin değiştirmek suretiyle ihtiyaç duyulan forma dönüştürülmesi süreci olarak tanımlanabilecek olan kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Turizm",
+            "B": "Endüstri",
+            "C": "Ticaret",
+            "D": "Ulaşım",
+            "E": "Lojistik"
           },
           "correct_answer": "B",
           "explanation": "",
@@ -29,6 +80,3129 @@
           "image_path": "",
           "source_image_url": ""
         },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi yük taşıyan gemi sınıflandırmasında yer alan gemi türlerinden biri değildir?",
+          "options": {
+            "A": "Canlı hayvan gemileri",
+            "B": "Dökme yük gemileri",
+            "C": "Soğutuculu gemiler",
+            "D": "Ro-Ro gemiler",
+            "E": "Kruvaziyer gemileri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Tarihsel süreç boyunca meydana gelen bir takım buluş ve gelişmeler ulaşımın bugünkü seviyesine gelmesine zemin hazırlamıştır. Buna göre; I. Tekerleğin kullanılması II. Yelkenin kullanılması III. Balonun kullanılması tarihsel gelişim sürecine göre aşağıdaki seçeneklerin hangisinde doğru olarak sıralanmıştır?",
+          "options": {
+            "A": "III-II-I",
+            "B": "II-I-III",
+            "C": "II-III-I",
+            "D": "I-II-III",
+            "E": "I-III-II"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Dünya genelinde ülkelerin ulaşım sistemlerini kullanma ağırlıklarının farklılık göstermesi ulaşımın hangi yönde önemine işaret etmektedir?",
+          "options": {
+            "A": "Çevresel yönden önemine",
+            "B": "Siyasal yönden önemine",
+            "C": "Tarihsel yönden önemine",
+            "D": "Ekonomik yönden önemine",
+            "E": "Sosyal yönden önemine"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Cumhuriyetin ilk yıllarında demir yolu ağırlıklı bir ulaşım politikası izlenirken, 1950'li yıllardan itibaren politika yaklaşımları kara yolu ulaşımı ağırlıklı bir hal almıştır. Bu durumun oluşmasında aşağıdakilerden hangisi etkili olmamıştır?",
+          "options": {
+            "A": "Dünya'da olduğu gibi Türkiye'de de bireysel taşımaya yönelik rağbetin artması",
+            "B": "Demir yolu ulaşımında yakıt maliyetlerinin yüksek olması",
+            "C": "Kara yolu ulaşımının aktarmasız ulaşım sağlayan bir sistem olması",
+            "D": "Ülke idari politikalarında yaşanan değişimler",
+            "E": "Motorlu taşıt sayısında meydana gelen artış"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"İnsanın ve onun ürettiği mal ve hizmetlerin çeşitli araçlarla bir sahadan başka bir sahaya taşınması faaliyeti\" olarak tanımlanan kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Lokasyon",
+            "B": "Mekân",
+            "C": "Ulaşım",
+            "D": "Sistem",
+            "E": "Çevre"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi tarımsal üretimi etkileyen Beşeri Coğrafya faktörlerinden biri değildir?",
+          "options": {
+            "A": "Su kaynakları",
+            "B": "Tarımsal örgütlenme",
+            "C": "İşleme ve pazarlama",
+            "D": "Zararlılarla mücadele",
+            "E": "Makineleşme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi Süveyş Kanalının açılmasının sonuçlarından biri değildir?",
+          "options": {
+            "A": "Akdeniz'in deniz yolu ulaşımındaki önemini pekiştirmesine zemin hazırlamıştır",
+            "B": "Mısır devletine önemli bir stratejik imkân sağlamıştır",
+            "C": "Dünyanın siyasal alanında önemli gelişmelere sebep olmuştur",
+            "D": "Amerika ile Asya arasındaki ulaşım süresini kısaltmıştır",
+            "E": "Dünyanın ekonomik alanında önemli gelişmelere sebep olmuştur"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Mevcut sistemlerden oldukça farklı bir işleyiş mekanizmasına sahip olan boru hatlarıyla ulaşım hangi dönemde uygulama alanına taşınmıştır?",
+          "options": {
+            "A": "18. yüzyıl sonları",
+            "B": "19. yüzyıl başları",
+            "C": "18. yüzyıl başları",
+            "D": "17. yüzyıl sonları",
+            "E": "19. yüzyıl sonları"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir sahanın özel konumunun belirlenmesinde aşağıdakilerden hangisinden yararlanılmaz?",
+          "options": {
+            "A": "Dağlık alanlar",
+            "B": "Gelişmiş ticaret sahaları",
+            "C": "Büyükşehirler",
+            "D": "Su kütleleri",
+            "E": "Meridyenler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki kavramlardan hangisi \"nerede\" sorusuna cevap verir?",
+          "options": {
+            "A": "Entegrasyon",
+            "B": "Lokasyon",
+            "C": "Kolonizasyon",
+            "D": "Kalibrasyon",
+            "E": "Animasyon"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Kruvaziyer Turizmi aşağıdaki seçeneklerin hangisinde doğru olarak tanımlanmıştır?",
+          "options": {
+            "A": "Gemi turizmidir",
+            "B": "Gastronomi turizmidir",
+            "C": "İnanç turizmidir",
+            "D": "Kayak turizmidir",
+            "E": "Spor turizmidir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yüzyıllar boyunca Asya ile Avrupa arasında ticaret, toplumsal ilişki, dini etkileşim, kültür, siyaset ilişkilerinin genel adı olan İpek Yolunun önemini yitirmesinde aşağıdakilerden hangisi etkili olmuştur?",
+          "options": {
+            "A": "Yeni ekonomik pazarların oluşması",
+            "B": "Demir yolu ulaşımının gelişmesi",
+            "C": "Doğu-Batı arasındaki ticaretin önemini yitirmesi",
+            "D": "Avrupa ülkelerinin ekonomik olarak zayıflaması",
+            "E": "Yeni ulaşım rotalarının bulunması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Makadam yol tipi aşağıdaki seçeneklerin hangisinde doğru olarak tanımlanmıştır?",
+          "options": {
+            "A": "Beton-asfalt karışımı dökülerek yapılan yol",
+            "B": "Toprak zemin sıkıştırılarak yapılan yol",
+            "C": "İri taşlar üzerine asfalt dökülerek yapılan yol",
+            "D": "Kırık taşların döşenerek üzerinden silindir geçirilip sertleştirilerek yapılan yol",
+            "E": "Küçük taşlar üzerinde beton dökülerek yapılan yol"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "I-Hitit II-Roma III-Bizans IV-Selçuklu V-Osmanlı Yukarıdakilerden hangilerinin ortak özelliği karayollarının başkente doğru yoğunlaşmasıdır?",
+          "options": {
+            "A": "II-III-IV-V",
+            "B": "I-II-IV-V",
+            "C": "I-III-IV-V",
+            "D": "I-II-III",
+            "E": "II-IV-V"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Birleşmiş Milletler Dünya Çevre ve Kalkınma Komisyonu tarafından hazırlanan ve sürdürülebilirlik kapsamında gerçekleştirilen çalışma ve yayınların çoğunlukla dayandırıldığı rapor aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Brundtland Raporu",
+            "B": "Sustainland Raporu",
+            "C": "Netherland Raporu",
+            "D": "Hinterland Raporu",
+            "E": "Commonfuture Raporu"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Tekerleğin icadı beraberinde yeni bir taşıma aracını da gündeme getirmiştir. M.Ö. 3000'li yıllarda icat edildiği kabul edilen arabalar aşağıdaki topluluklarda hangisi tarafından ilk kez kullanılmıştır?",
+          "options": {
+            "A": "Persler",
+            "B": "Romalılar",
+            "C": "Babiller",
+            "D": "Sümerler",
+            "E": "Lidyalılar"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2022 Vize",
+      "exam_title": "Ulaşım Coğrafyası 2022 Vize",
+      "exam_type": "vize",
+      "year": "2022",
+      "question_count": 18,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yüklerin 2 ya da daha fazla ulaştırma türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Multimodal",
+            "B": "Multimodal yöntemi",
+            "C": "Multimodal yaklaşımı",
+            "D": "Multimodal değildir",
+            "E": "Multimodal ilkesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Ulaşım araçlarında meydana gelen gelişmelerle birlikte daha uzak mesafelere gitme imkanlarının ortaya çıkması insanların çevrelerini daha hızlı ve iyi tanımalarını beraberinde getirmiş,ulaşım ağlarını iyi organize eden devletler,bulundukları coğrafi mekanda uzun süre hakimiyetlerini sürdürmüşlerdir. Yukarıdaki tanım hangi ulaşımın önemini anlatmaktadır?",
+          "options": {
+            "A": "olarak yaklaşımı",
+            "B": "Tarihsel yöntemi",
+            "C": "Tarihsel ilkesi",
+            "D": "Tarihsel olarak",
+            "E": "Tarihsel değildir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Dünyanın en uzun demiryolu ulaşımını sağlayan Seikan Tüneli hangi ülkededir?",
+          "options": {
+            "A": "Japonya yöntemi",
+            "B": "Japonya ilkesi",
+            "C": "Japonya",
+            "D": "Japonya yaklaşımı",
+            "E": "Japonya değildir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Laerdal Tüneli hangi ülkededir?",
+          "options": {
+            "A": "Norveç yaklaşımı",
+            "B": "Norveç değildir",
+            "C": "Norveç yöntemi",
+            "D": "Norveç",
+            "E": "Norveç ilkesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Balonla ilk uçuşu yapan Montgolfer Kardeşler hangi hayvan/hayvanları sepete koymuştur?",
+          "options": {
+            "A": "sadece ilkesi",
+            "B": "sadece değildir",
+            "C": "sadece Ördek",
+            "D": "sadece yöntemi",
+            "E": "Ördek yaklaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Korint Kanalı hangi su kütleleri arasında ulaşıma imkân vermektedir?",
+          "options": {
+            "A": "Ege denizi-Adriyatik yöntemi",
+            "B": "Ege denizi-Adriyatik değildir",
+            "C": "Denizi yaklaşımı",
+            "D": "Ege denizi-Adriyatik Denizi",
+            "E": "Ege denizi-Adriyatik ilkesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Süveyş Kanalı için hangisi söylenemez?",
+          "options": {
+            "A": "birleştirir yaklaşımı",
+            "B": "Asya ile Amerikayı değildir",
+            "C": "Asya ile Amerikayı birleştirir",
+            "D": "Asya ile Amerikayı ilkesi",
+            "E": "Asya ile Amerikayı yöntemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "İki yüksek dağ kütlesi arasında nispeten alçak, dağlık sahayı katetmeye en elverişli dar ve uzun sahalar olarak tanımlanabilecek olan …………………tarihsel süreç boyunca özellikle yüksek ve engebeli topoğrafyanın yaygın olduğu bölgelerde kara yolu ve demir yolu ulaşımı için hayati önem taşımışlardır. Yukarıda cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Geçitler yöntemi",
+            "B": "Geçitler",
+            "C": "Geçitler değildir",
+            "D": "Geçitler ilkesi",
+            "E": "Geçitler yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Dünyanın en eski metrosu olan Londra metrosu hangi yıl faaliyete geçmiştir?",
+          "options": {
+            "A": "1861",
+            "B": "1863",
+            "C": "1865",
+            "D": "1862",
+            "E": "1864"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Karayolunun en avantajlı yönü nedir?",
+          "options": {
+            "A": "gerektirmemesi yaklaşımı",
+            "B": "başlangıç ve varış noktaları arasında aktarma değildir",
+            "C": "başlangıç ve varış noktaları arasında aktarma ilkesi",
+            "D": "başlangıç ve varış noktaları arasında aktarma gerektirmemesi",
+            "E": "başlangıç ve varış noktaları arasında aktarma yöntemi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Sisten en çok etkilenen ulaşım yolu hangisidir?",
+          "options": {
+            "A": "Deniz değildir",
+            "B": "Deniz yolu",
+            "C": "Deniz ilkesi",
+            "D": "yolu yaklaşımı",
+            "E": "Deniz yöntemi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Hangileri ulaşım bileşenlerinden değildir?",
+          "options": {
+            "A": "Coğrafi bileşeni",
+            "B": "Coğrafi yöntemi",
+            "C": "Coğrafi değildir",
+            "D": "Coğrafi ilkesi",
+            "E": "bileşeni yaklaşımı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Kiel kanalı hangi su kütleleri arasındadır?",
+          "options": {
+            "A": "Baltık denizi-kuzey buz ilkesi",
+            "B": "denizi yaklaşımı",
+            "C": "Baltık denizi-kuzey buz denizi",
+            "D": "Baltık denizi-kuzey buz yöntemi",
+            "E": "Baltık denizi-kuzey buz değildir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "hava alanı seçiminde etkisi en azdır?",
+          "options": {
+            "A": "sıcaklığı yaklaşımı",
+            "B": "rüzgarın ilkesi",
+            "C": "rüzgarın yöntemi",
+            "D": "rüzgarın değildir",
+            "E": "rüzgarın sıcaklığı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "\"Bir aracı oluşturan düzen, düzenek, tertibat,üzerinde inceleme yapılan belirli sınırlarla çevrilmiş olan evrenin bir parçası,organizmada aynı işlevleri gerçekleştirmek için birbirleriyle ilgili bağlantılı organların oluşturduğu birlik veya grup\"olarak tanılanan kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "sistem",
+            "B": "sistem yaklaşımı",
+            "C": "sistem değildir",
+            "D": "sistem yöntemi",
+            "E": "sistem ilkesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Ulaşıma ilişkin, bilgi yönetimi ve analizlerin gerçekleştirilmesi için gerekli yöntem ve araçları kapsamaktadır. Ulaşım faaliyetlerinin en verimli şekilde düzenlenmesi ve dağılımı (ne zaman ve nereye) hesap bilimleri kullanılarak ortaya konulmaktadır?",
+          "options": {
+            "A": "matematik ve bilgisayar yöntemi",
+            "B": "bilimleri yaklaşımı",
+            "C": "matematik ve bilgisayar ilkesi",
+            "D": "matematik ve bilgisayar değildir",
+            "E": "matematik ve bilgisayar bilimleri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Ulaşımın gelişmesinde etkili olan en önemli olay…?",
+          "options": {
+            "A": "sanayi ilkesi",
+            "B": "sanayi değildir",
+            "C": "sanayi devrimi",
+            "D": "sanayi yöntemi",
+            "E": "devrimi yaklaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "İlk lokomotif ne zaman yapılmıştır?",
+          "options": {
+            "A": "1805",
+            "B": "1804",
+            "C": "1802",
+            "D": "1806",
+            "E": "1803"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2021 Vize",
+      "exam_title": "Ulaşım Coğrafyası 2021 Vize",
+      "exam_type": "vize",
+      "year": "2021",
+      "question_count": 12,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Dünyanın en işlek havaalanlarından biri olan Heathrow Havaalanı aşağıdaki ülkelerin hangisinde yer almaktadır?",
+          "options": {
+            "A": "İngiltere ilkesi",
+            "B": "İngiltere değildir",
+            "C": "İngiltere",
+            "D": "İngiltere yaklaşımı",
+            "E": "İngiltere yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Motorlu araçlarla ulaşımda yeni bir aşamaya gelinmesine zemin hazırlayan dört zamanlı motor Alman Mühendis Nikolaus Otto tarafından hangi yıl icad edilmiştir?",
+          "options": {
+            "A": "1878",
+            "B": "1876",
+            "C": "1875",
+            "D": "1879",
+            "E": "1877"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Havaalanının yer seçiminde hangisinin etkisi en azdır?",
+          "options": {
+            "A": "Bitki yöntemi",
+            "B": "Bitki ilkesi",
+            "C": "Bitki değildir",
+            "D": "örtüsü yaklaşımı",
+            "E": "Bitki örtüsü"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi havaalanlarının işlevlerinde biri değildir?",
+          "options": {
+            "A": "Hava yöntemi",
+            "B": "Hava tahmini",
+            "C": "Hava değildir",
+            "D": "tahmini yaklaşımı",
+            "E": "Hava ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "1903 yılında uçakla ilk uçuşu aşağıdakilerden hangisi gerçekleştirmiştir?",
+          "options": {
+            "A": "Wright yöntemi",
+            "B": "Wright kardeşler",
+            "C": "Wright ilkesi",
+            "D": "Wright değildir",
+            "E": "kardeşler yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi mesafe kavramı içinde yer almaz?",
+          "options": {
+            "A": "Nüfus değildir",
+            "B": "Nüfus yöntemi",
+            "C": "Nüfus ilkesi",
+            "D": "yoğunluğu yaklaşımı",
+            "E": "Nüfus yoğunluğu"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Lokasyon aşağıdaki sorulardan hangisine cevap verir?",
+          "options": {
+            "A": "Nerede",
+            "B": "Nerede yaklaşımı",
+            "C": "Nerede yöntemi",
+            "D": "Nerede değildir",
+            "E": "Nerede ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "\"Bir aracı oluşturan düzen, düzenek, tertibat,üzerinde inceleme yapılan belirli sınırlarla çevrilmiş olan evrenin bir parçası,organizmada aynı işlevleri gerçekleştirmek için birbirleriyle ilgili bağlantılı organların oluşturduğu birlik veya grup\"olarak tanılanan kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sistem",
+            "B": "Sistem yaklaşımı",
+            "C": "Sistem değildir",
+            "D": "Sistem yöntemi",
+            "E": "Sistem ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "I.Kızıldeniz – Umman Denizi arasında yer alan Hürmüz Boğazı II.Basra Körfezi ile Umman Denizi bağlantısını sağlayan Babül Mendep III.Tren Denizi- Yunan Denizi arasındaki Messina Boğazı Bağlantı sağladıkları su kütleleri bakımından aşağıdaki eşleştirmelerden hangisi veya hangileri doğrudur?",
+          "options": {
+            "A": "I ve II",
+            "B": "II ve III",
+            "C": ":Yalnız III",
+            "D": "Yalnız II",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Sistem kavramı pek çok alanda yaygın olarak kullanılan bir kavram niteliğindedir. Aşağıdakilerden hangisi \"sistem\"i tanımlayan ifadelerden biri değildir?",
+          "options": {
+            "A": "araç yaklaşımı",
+            "B": "Haber bilgi veya görüntü ulaştırılmasına yarayan araç",
+            "C": "Haber bilgi veya görüntü ulaştırılmasına yarayan ilkesi",
+            "D": "Haber bilgi veya görüntü ulaştırılmasına yarayan değildir",
+            "E": "Haber bilgi veya görüntü ulaştırılmasına yarayan yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi denizyolu güzergâhlarının şekillenmesinde etkili olan beşeri faktörlerden biri değildir?",
+          "options": {
+            "A": "Topografyası yaklaşımı",
+            "B": "Deniz değildir",
+            "C": "Deniz Topografyası",
+            "D": "Deniz ilkesi",
+            "E": "Deniz yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi sürdürülebilirliğin boyutlarından biri değildir?",
+          "options": {
+            "A": "Siyasal yöntemi",
+            "B": "Siyasal boyut",
+            "C": "Siyasal ilkesi",
+            "D": "boyut yaklaşımı",
+            "E": "Siyasal değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2011 Vize",
+      "exam_title": "Ulaşım Coğrafyası 2011 Vize",
+      "exam_type": "vize",
+      "year": "2011",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 13,
+          "question": "Büyük veya küçük ölçekte su kütlelerini (akarsu,dere,boğaz,körfez vb.) daha kolay aşmak istemenin bir sonucu olarak ortaya çıkan çeşitli tip,özellik ve uzunluktaki köprüler kara yolu ulaşımında etkili rol oynayan unsurlardan birini teşkil ekmektedir. Belirtilen çerçevede 2011 yılında kullanıma açılan ve Çin sınırları içinde yer alan \"Qingdao Haiwan Köprüsü\" kaç km uzunluğundadır?",
+          "options": {
+            "A": "km yaklaşımı",
+            "B": "42,5 ilkesi",
+            "C": "42,5 yöntemi",
+            "D": "42,5 değildir",
+            "E": "42,5 km"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "I.Bakım-onarım II.Biletleme III.Hava tahmini Yukarıdakilerden hangisi veya hangileri havaalanlarının işlevlerinde değildir?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "Yalnız II",
+            "C": "II ve III",
+            "D": "I ve II",
+            "E": "Yalnızca III"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "\"Çevresel açıdan uygun ulaştırma`,verimli ulaştırma, güvenli ulaştırma, sosyal olarak kabul edilebilir ulaştırma\" aşağıdakilerden hangisine ait ilkelerdir?",
+          "options": {
+            "A": "Ulaşımda değildir",
+            "B": "Sürdürülebilirlik yaklaşımı",
+            "C": "Ulaşımda ilkesi",
+            "D": "Ulaşımda yöntemi",
+            "E": "Ulaşımda Sürdürülebilirlik"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "İki yüksek dağ kütlesi arasında nispeten alçak dağlık sahayı katetmeye en elverişli dar ve uzun sahalar olarak tanımlanabilecek olan ………tarihsel süreç boyunca özellikle yüksek ve engebeli topoğrafyanın yaygın olduğu bölgelerde kara yolu ve demir yolu ulaşımı için hayati önem taşımışlardır. Yukarıda cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Geçitler yöntemi",
+            "B": "Geçitler",
+            "C": "Geçitler değildir",
+            "D": "Geçitler ilkesi",
+            "E": "Geçitler yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi demiryolu ulaşımının karayolu ulaşımına göre avantajlarından biri değildir?",
+          "options": {
+            "A": "Arazi kamulaştırmasının daha fazla yöntemi",
+            "B": "olması yaklaşımı",
+            "C": "Arazi kamulaştırmasının daha fazla olması",
+            "D": "Arazi kamulaştırmasının daha fazla değildir",
+            "E": "Arazi kamulaştırmasının daha fazla ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "I.Süveyş Kanalı II.Korinth Kanalı III.Kiel Kanalı Sahip oldukları uzunluklar dikkate alınarak yukarıdaki kanalların büyükten küçüğe doğru sıralanmaları aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "I ve II",
+            "B": "I-III-II",
+            "C": "Yalnız I",
+            "D": "Yalnız II",
+            "E": "II ve III"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Dünyanın en uzun karayolu tüneli kabul olarak edilen Laerdal tünelinin yaklaşık uzunluğu aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "24 ilkesi",
+            "B": "km yaklaşımı",
+            "C": "24 değildir",
+            "D": "24 km",
+            "E": "24 yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Dünyanın araçla geçilebilen en yüksek geçidi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Semo la ilkesi",
+            "B": "Semo la geçidi",
+            "C": "Semo la değildir",
+            "D": "Semo la yöntemi",
+            "E": "geçidi yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Baltık Denizini ile Kuzey Buz Denizi arasında yer alan Kiel Kanalının uzunluğu aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "100",
+            "B": "98",
+            "C": "97",
+            "D": "99",
+            "E": "96"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Balonla ilk uçuşu 19 Eylül 1783 tarihinde gerçekleştiren Montgolfier Kardeşler ilk denemelerinde balonun sepetine I.Ördek II.İnek III.Kedi Hayvanlarından hangilerini yerleştirmişlerdir?",
+          "options": {
+            "A": "Yalnız I",
+            "B": "I ve II",
+            "C": "II ve III",
+            "D": "Yalnız II",
+            "E": "Yalnızca I"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "79,7 km lik uzunluğuyla dünyanın en uzun demiryolu köprülerinden biri olan Weinan Weihe Köprüsü hangi ülkede yer almaktadır?",
+          "options": {
+            "A": "Çin yaklaşımı",
+            "B": "Çin",
+            "C": "Çin değildir",
+            "D": "Çin ilkesi",
+            "E": "Çin yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 24,
+          "question": "Orta Amerika'nın en güney ülkesi Panama topraklarında yer alan kanal,Güney Amerika kıtasının en güney ucu olan Horn Burnu'ndan dolaşma zorunluluğunu ortadan kaldıran panama kanalının açılmasına yönelik çalışmaları gerçekleştirenler kimlerdir?",
+          "options": {
+            "A": "Fransızlar",
+            "B": "Fransızlar yaklaşımı",
+            "C": "Fransızlar yöntemi",
+            "D": "Fransızlar ilkesi",
+            "E": "Fransızlar değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 25,
+          "question": "Aşağıdakilerden hangisi dünya deniz yolu ulaşımına katkı sağlayan boğazlardan biri değildir?",
+          "options": {
+            "A": "Korinth yaklaşımı",
+            "B": "Korinth ilkesi",
+            "C": "Korinth yöntemi",
+            "D": "Korinth",
+            "E": "Korinth değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 26,
+          "question": "Aşağıdakilerden hangisi 1813'te tasarladığı ve saatte 22 km hıza ulaşabilen makinesiyle demir yolu ulaşımının gelişmesinde bir dönüm noktasına gelinmesine katkı sağlamıştır?",
+          "options": {
+            "A": "William ilkesi",
+            "B": "William yöntemi",
+            "C": "William Hedley",
+            "D": "William değildir",
+            "E": "Hedley yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 27,
+          "question": "Teknolojik gelişmelerin ve yeniliklerin, yeni dağıtım ağ ve araçlarının ortaya çıkması ile var olan bazı sistemlerin ortadan kalkması üzerindeki etkisine dikkati çeken ulaşım bileşeni aşağıdakilerden hangisidir?",
+          "options": {
+            "A": ":Teknoloji ilkesi",
+            "B": ":Teknoloji yöntemi",
+            "C": ":Teknoloji",
+            "D": ":Teknoloji yaklaşımı",
+            "E": ":Teknoloji değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 28,
+          "question": "Jean François Pilatre sepetinde insanların olduğu balonla ilk uçuşu hangi yıl gerçekleştirmiştir?",
+          "options": {
+            "A": "1795",
+            "B": "1793",
+            "C": "1791",
+            "D": "1792",
+            "E": "1794"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 29,
+          "question": "Sepetinde insanların olduğu balonla ilk uçuşu aşağıdakilerden hangisi gerçekleştirmiştir?",
+          "options": {
+            "A": "Jean François Pilatre de ilkesi",
+            "B": "Jean François Pilatre de Rozier",
+            "C": "Rozier yaklaşımı",
+            "D": "Jean François Pilatre de değildir",
+            "E": "Jean François Pilatre de yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2011 Vize",
+      "exam_title": "Ulaşım Coğrafyası 2011 Vize",
+      "exam_type": "vize",
+      "year": "2011",
+      "question_count": 14,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 30,
+          "question": "2011 yılında kullanan yolcu sayısına göre; I.Tokyo International Airport (Japonya) II.London Heathrow Airport (İngiltere) III.Paris Charles de Gaulle Airport (Fransa) Büyükten küçüğe sıralanışı aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Yalnız II",
+            "B": "Yalnız I",
+            "C": "I ve II",
+            "D": "II ve III",
+            "E": "II-I-III"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 31,
+          "question": "Dünyanın en uzun viyadüğü olan Millau Viyadüğü hangi ülke sınırları içinde yer almaktadır?",
+          "options": {
+            "A": "Fransa yaklaşımı",
+            "B": "Fransa yöntemi",
+            "C": "Fransa değildir",
+            "D": "Fransa ilkesi",
+            "E": "Fransa"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 32,
+          "question": "Dünyanın en uzun demir yolu tüneli olan Seikan Tüneli hangi ülkede bulunmaktadır?",
+          "options": {
+            "A": "Japonya ilkesi",
+            "B": "Japonya yöntemi",
+            "C": "Japonya",
+            "D": "Japonya yaklaşımı",
+            "E": "Japonya değildir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 33,
+          "question": "Aşağıdakilerden hangisi bir lokomotif ve bu lokomotifin çektiği vagon kombinasyonunda müteşekkil araçlarla gerçekleştirilen demiryolu ulaşımımın kendi içinde ayrılan türlerinden biri değildir?",
+          "options": {
+            "A": "Lokomotiflerin itme yöntemi",
+            "B": "gücü yaklaşımı",
+            "C": "Lokomotiflerin itme değildir",
+            "D": "Lokomotiflerin itme ilkesi",
+            "E": "Lokomotiflerin itme gücü"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 34,
+          "question": "Aşağıdakilerden hangisi dünyadaki başlıca deniz yolu güzergâhlarından biri değildir?",
+          "options": {
+            "A": "Güney Atlantik değildir",
+            "B": "yolu yaklaşımı",
+            "C": "Güney Atlantik yolu",
+            "D": "Güney Atlantik yöntemi",
+            "E": "Güney Atlantik ilkesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 35,
+          "question": "Kiel Kanalının uluslararası statüsünü belirleyen Versailes Antlaşması hangi yıl imzalanmıştır?",
+          "options": {
+            "A": "1921",
+            "B": "1917",
+            "C": "1919",
+            "D": "1918",
+            "E": "1920"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 36,
+          "question": "Korint Kanalı hangi su kütleleri arasında ulaşıma imkân vermektedir?",
+          "options": {
+            "A": "Ege Denizi ile Adriyatik yöntemi",
+            "B": "Ege Denizi ile Adriyatik değildir",
+            "C": "Denizi yaklaşımı",
+            "D": "Ege Denizi ile Adriyatik Denizi",
+            "E": "Ege Denizi ile Adriyatik ilkesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 37,
+          "question": "Aşağıdakilerden hangisi sistemin temel özelliklerinden biridir?",
+          "options": {
+            "A": "Amaç değildir",
+            "B": "Amaç yaklaşımı",
+            "C": "Amaç",
+            "D": "Amaç ilkesi",
+            "E": "Amaç yöntemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 38,
+          "question": "Bugünkü neslin ulaşım ihtiyaçların gelecek nesillerin ihtiyaçlarını (çevre, ekonomi, toplumsal) gözeterek sağlamak\" anlamına gelen kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ulaşımda değildir",
+            "B": "Ulaşımda sürdürülebilirlik",
+            "C": "Ulaşımda ilkesi",
+            "D": "Ulaşımda yöntemi",
+            "E": "sürdürülebilirlik yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 39,
+          "question": "Aşağıdakilerden hangisi yeryüzü şekillerinin olumsuzluk teşkil ettiği alanlarda gerçekleştirilen müdahalelerden biridir?",
+          "options": {
+            "A": "viyadük yaklaşımı",
+            "B": "viyadük",
+            "C": "viyadük ilkesi",
+            "D": "viyadük değildir",
+            "E": "viyadük yöntemi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 40,
+          "question": ". Ulaşım sektöründe hangi ulaşım sistem ve araçlarına öncelik verileceği,gelişmenin hangi yönde gerçekleştirileceği ulaşımın hangi yöndeki önemine işaret etmektedir?",
+          "options": {
+            "A": "Tarihsel yöntemi",
+            "B": "Tarihsel Önemi",
+            "C": "Tarihsel değildir",
+            "D": "Tarihsel ilkesi",
+            "E": "Önemi yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 41,
+          "question": "Aşağıdakilerden hangisi ulaşımı oluşturan temel bileşenlerden biridir?",
+          "options": {
+            "A": "Bileşeni yaklaşımı",
+            "B": "Çevre değildir",
+            "C": "Çevre Bileşeni",
+            "D": "Çevre yöntemi",
+            "E": "Çevre ilkesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 42,
+          "question": "Aşağıdakilerden hangisi karayolu ulaşımının tarihsel gelişiminde dönem noktalarından biri olarak değerlendirilemez?",
+          "options": {
+            "A": "Pervanenİn yöntemi",
+            "B": "Pervanenİn bulunması",
+            "C": "bulunması yaklaşımı",
+            "D": "Pervanenİn ilkesi",
+            "E": "Pervanenİn değildir"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 43,
+          "question": "Aşağıdakilerden hangisi yolcu taşımacılığı konusunda ulaşımın temel şartlarından biri sayılamaz?",
+          "options": {
+            "A": "Yüksek yolcu kapasitesi",
+            "B": "Yüksek yolcu değildir",
+            "C": "Yüksek yolcu yöntemi",
+            "D": "Yüksek yolcu ilkesi",
+            "E": "kapasitesi yaklaşımı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2025 Final",
+      "exam_title": "Ulaşım Coğrafyası 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İstanbul­Ankara arasında demiryolu bağlantısı hangi yıl sağlanmıştır?",
+          "options": {
+            "A": "1896",
+            "B": "1903",
+            "C": "1884",
+            "D": "1888",
+            "E": "1892"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Osmanlı İmparatorluğu döneminde ilk petrol aramaları hangi yıl başlamıştır?",
+          "options": {
+            "A": "1869",
+            "B": "1877",
+            "C": "1902",
+            "D": "1887",
+            "E": "1912"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "I.Bakım-onarım II.Biletleme III.Hava tahmini Yukarıdakilerden hangisi veya hangileri havaalanlarının işlevlerinden değildir?",
+          "options": {
+            "A": "Yalnız II",
+            "B": "I ve II",
+            "C": "I ve III",
+            "D": "Yalnız I",
+            "E": "Yalnız III"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2024 Final",
+      "exam_title": "Ulaşım Coğrafyası 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İstanbul'un iki yakası arasında Boğaz'ın altından geçerek karayolu ulaşımına imkân veren Avrasya Tüneli hangi yıl hizmete girmiştir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2023 Final",
+      "exam_title": "Ulaşım Coğrafyası 2023 Final",
+      "exam_type": "final",
+      "year": "2023",
+      "question_count": 23,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yol yüzeyinin betonla kaplaması yöntemi ilk kez hangi ülkede uygulanmıştır?",
+          "options": {
+            "A": "İskoçya yöntemi",
+            "B": "İskoçya yaklaşımı",
+            "C": "İskoçya değildir",
+            "D": "İskoçya ilkesi",
+            "E": "İskoçya"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Dünya genelinde ülkelerin ulaşım sistemlerini kullanma ağırlıklarının farklılık göstermesi ulaşımın hangi yönde önemini işaret etmektedir?",
+          "options": {
+            "A": "Ekonomik",
+            "B": "Ekonomik değildir",
+            "C": "Ekonomik yaklaşımı",
+            "D": "Ekonomik ilkesi",
+            "E": "Ekonomik yöntemi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir sahanın özel konumunun belirlenmesinde aşağıdakilerden hangisinden yararlanılmaz?",
+          "options": {
+            "A": "Meridyen değildir",
+            "B": "Meridyen yaklaşımı",
+            "C": "Meridyen",
+            "D": "Meridyen ilkesi",
+            "E": "Meridyen yöntemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi tarımsal üretimi etkileyen beşeri coğrafya faktörlerinden biri değildir?",
+          "options": {
+            "A": "Su ilkesi",
+            "B": "Su değildir",
+            "C": "Su yöntemi",
+            "D": "Su",
+            "E": "Su yaklaşımı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Dünyanın en geniş ve en dar boğazları aşağıdaki seçeneklerin hangisinde doğru eşleştirilmiştir?",
+          "options": {
+            "A": "Malakka yöntemi",
+            "B": "İstanbul yaklaşımı",
+            "C": "Malakka ilkesi",
+            "D": "Malakka İstanbul",
+            "E": "Malakka değildir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Selçuklu Devleti'nin karayollarının birleştiği şehir aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Konya değildir",
+            "B": "Konya",
+            "C": "Konya yöntemi",
+            "D": "Konya yaklaşımı",
+            "E": "Konya ilkesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "İstanbul-Ankara arasında demiryolu bağlantısı hangi yıl sağlanmıştır?",
+          "options": {
+            "A": "1891",
+            "B": "1894",
+            "C": "1890",
+            "D": "1892",
+            "E": "1893"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Uçakla ilk uçuş hangi yıl gerçekleşmiştir?",
+          "options": {
+            "A": "1904",
+            "B": "1905",
+            "C": "1901",
+            "D": "1902",
+            "E": "1903"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hem yük ve hem de yolcunun taşınması nedeniyle gerçek manada demiryolu ulaşımının başlangıcı olarak kabul edilen hat hangi şehirler arasında inşa?",
+          "options": {
+            "A": "Liverpool-Manchester değildir",
+            "B": "Liverpool-Manchester ilkesi",
+            "C": "Liverpool-Manchester yöntemi",
+            "D": "Liverpool-Manchester",
+            "E": "Liverpool-Manchester yaklaşımı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi Türkiye'nin deniz yolu ulaşımına ilişkin yüksek bir potansiyeli sahip olmasını sağlayan unsurlardan biri değildir?",
+          "options": {
+            "A": "ulaşıma uygun çok sayıda akarsuyun ilkesi",
+            "B": "olması yaklaşımı",
+            "C": "ulaşıma uygun çok sayıda akarsuyun değildir",
+            "D": "ulaşıma uygun çok sayıda akarsuyun yöntemi",
+            "E": "ulaşıma uygun çok sayıda akarsuyun olması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Mont Golfier kardeşlerin balon kullanılmak suretiyle havada kalma fikrini hayata geçirmelerinin çıkış noktasını oluşturan gaz aşağıdakilerden?",
+          "options": {
+            "A": "hidrojen değildir",
+            "B": "hidrojen ilkesi",
+            "C": "hidrojen yöntemi",
+            "D": "hidrojen yaklaşımı",
+            "E": "hidrojen"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bugünkü şehir hatları işletmesinin ilk nüvesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Şirket-i yöntemi",
+            "B": "Şirket-i değildir",
+            "C": "Hayriye yaklaşımı",
+            "D": "Şirket-i Hayriye",
+            "E": "Şirket-i ilkesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "I-Ördek II-Koyun III-Kedi Balonla ilk uçuşu gerçekleştiren montgolfier Kardeşler ilk denemelerinde balonun sepetine Hayvanlarından hangisini veya hangilerini yerleştirmişlerdir?",
+          "options": {
+            "A": "1-2",
+            "B": "1-2 yaklaşımı",
+            "C": "1-2 ilkesi",
+            "D": "1-2 yöntemi",
+            "E": "1-2 değildir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki demir yolu hatlarından hangisinin işletmeye açılmasıyla Osmanlı Devleti demiryolu ulaşım sistemine dahil olmuştur?",
+          "options": {
+            "A": "hattı yaklaşımı",
+            "B": "İskenderiye – Kahire demiryolu hattı",
+            "C": "İskenderiye – Kahire demiryolu değildir",
+            "D": "İskenderiye – Kahire demiryolu yöntemi",
+            "E": "İskenderiye – Kahire demiryolu ilkesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Cumhuriyet döneminde izmir-ankara arasında hava yolu ulaşımı seferleri ilk kez hangi yıl başlamıştır?",
+          "options": {
+            "A": "1938",
+            "B": "1939",
+            "C": "1941",
+            "D": "1937",
+            "E": "1940"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Türkiye'yi Avrupa'ya bağlayan ilk ticari uçuşlar aşağıdaki şirketlerden hangisi tarafından gerçekleştirilmiştir?",
+          "options": {
+            "A": "Franco-Romen ilkesi",
+            "B": "Franco-Romen değildir",
+            "C": "Franco-Romen yaklaşımı",
+            "D": "Franco-Romen yöntemi",
+            "E": "Franco-Romen"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "İskenderiye Kahire demiryolu hattının eski etkinliğinin büyük ölçüde yitirmesinde etkili olan temel faktör aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "açılması yaklaşımı",
+            "B": "Süveyş kanalının yöntemi",
+            "C": "Süveyş kanalının ilkesi",
+            "D": "Süveyş kanalının açılması",
+            "E": "Süveyş kanalının değildir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi sanayi devrimi ile birlikte demiryolu ulaşımının gelişmesinde etkili olan faktörlerden biri değildir?",
+          "options": {
+            "A": "hızla azalan yöntemi",
+            "B": "hızla azalan ilkesi",
+            "C": "nüfus yaklaşımı",
+            "D": "hızla azalan nüfus",
+            "E": "hızla azalan değildir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi boru hatlarıyla taşımanın bir ulaşım sistemi olmasında etkili olmuştur?",
+          "options": {
+            "A": "ihtiyacı yaklaşımı",
+            "B": "enerji ilkesi",
+            "C": "enerji ihtiyacı",
+            "D": "enerji yöntemi",
+            "E": "enerji değildir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi Türkiye'de hava yoluyla ulaşımının gelişmesinde etkili faktörlerden biri değildir?",
+          "options": {
+            "A": "Kuzey Guney yönunde fiziki mesafenin uzun yöntemi",
+            "B": "Kuzey Guney yönunde fiziki mesafenin uzun olması",
+            "C": "olması yaklaşımı",
+            "D": "Kuzey Guney yönunde fiziki mesafenin uzun ilkesi",
+            "E": "Kuzey Guney yönunde fiziki mesafenin uzun değildir"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Günümüzdeki kıtalar Aşan bir düzeye ve genişliğe ulaşan boru hatlarıyla taşımacılığı 19 yüzyılın sonlarında başlatan isimler aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Nobel ilkesi",
+            "B": "kardeşler yaklaşımı",
+            "C": "Nobel değildir",
+            "D": "Nobel kardeşler",
+            "E": "Nobel yöntemi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Aşağıdakilerden hangisi Kent içi ulaşımın temel kriterlerinden biri değildir?",
+          "options": {
+            "A": "çevre hassasiyeti az olan ilkesi",
+            "B": "çevre hassasiyeti az olan yöntemi",
+            "C": "çevre hassasiyeti az olan ulaşım",
+            "D": "çevre hassasiyeti az olan değildir",
+            "E": "ulaşım yaklaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "Osmanlı Döneminde petrol arama ilk kez 1887 de başlamış.",
+          "options": {
+            "A": "İlk petrol imztiyazı Ahmet necati efendiye 1887 de İskenderun için yöntemi",
+            "B": "verilmiştir. yaklaşımı",
+            "C": "İlk petrol imztiyazı Ahmet necati efendiye 1887 de İskenderun için değildir",
+            "D": "İlk petrol imztiyazı Ahmet necati efendiye 1887 de İskenderun için verilmiştir.",
+            "E": "İlk petrol imztiyazı Ahmet necati efendiye 1887 de İskenderun için ilkesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2020 Final",
+      "exam_title": "Ulaşım Coğrafyası 2020 Final",
+      "exam_type": "final",
+      "year": "2020",
+      "question_count": 5,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 11,
+          "question": "2020 yılı itibariyle dünyanın en uzun demiryolu tüneli olarak kabul edilen Gotthard Base Tüneli hangi ülkede bulunmaktadır?",
+          "options": {
+            "A": "Almanya",
+            "B": "Fransa",
+            "C": "İspanya",
+            "D": "İsviçre",
+            "E": "Hollanda"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Özellikle turizm sezonunda turistlere yönelik gerçekleştirilen özel seferlerin adı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Partner",
+            "B": "Carter",
+            "C": "Special Flight",
+            "D": "Charter",
+            "E": "VIP"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi, Türkiye'nin ilk demiryolu hattını İzmir-Aydın arasında inşa edilmesinin temel sebeplerinden biri değildir?",
+          "options": {
+            "A": "Yörenin topoğrafik şartlar bakımından uygun olması",
+            "B": "Nüfus bakımından kalabalık olması",
+            "C": "Orta Doğu'nun kontrol altına alınarak Hindistan yollarının denetlenebilmesi bakımında stratejik bir öneme sahip olması",
+            "D": "Ticari potansiyelinin yüksek olması",
+            "E": "İngiliz sanayisinin ihtiyaç duyduğu ham maddeye kolay ulaşılabilecek bir yöre olması"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi Türkiye'nin ham petrol boru hatlarından biri değildir?",
+          "options": {
+            "A": "Adıyaman-Sarıl Ham Petrol Boru Hattı",
+            "B": "Suriye-Türkiye Ham Petrol Boru Hattı",
+            "C": "Irak-Türkiye Ham Petrol Boru Hattı",
+            "D": "Ceyhan-Kırıkkale Ham Petrol Boru Hattı",
+            "E": "Batman-Dörtyol Ham Petrol Boru Hattı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi dünyanın en yüksek yük taşıma kapasitesine sahip olan kargo uçağı niteliğindedir?",
+          "options": {
+            "A": "Antonov",
+            "B": "Airbus",
+            "C": "Aeroflot",
+            "D": "Aerotime",
+            "E": "Boeing"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2020 Final",
+      "exam_title": "Ulaşım Coğrafyası 2020 Final",
+      "exam_type": "final",
+      "year": "2020",
+      "question_count": 14,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi Anadolu topraklarında demiryolu hattı inşa etmemiştir?",
+          "options": {
+            "A": "Fransızlar",
+            "B": "İtalyanlar",
+            "C": "Almanlar",
+            "D": "İngilizler",
+            "E": "Türkler"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Tarımsal ürünün türü, taşıma zamanının ve taşıma yapılacak aracın belirlenmesinde en önemli etkendir. Bu bakımdan aşağıdaki ürünlerden hangisinin taşımasında daha fazla hassasiyet gösterilmesi gerekir?",
+          "options": {
+            "A": "Portakal",
+            "B": "Çilek",
+            "C": "Elma",
+            "D": "Fındık",
+            "E": "Buğday"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Dünyanın en fazla uçak ve yolcu transferine sahne olan havaalanlarından biri olan Beijing Havaalanı hangi ülkede bulunmaktadır?",
+          "options": {
+            "A": "Singapur",
+            "B": "Güney Kore",
+            "C": "ABD",
+            "D": "Japonya",
+            "E": "Çin"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki ülkelerden hangisi hava yolu ulaşımı açısından dünyada ilk sırada yer alır?",
+          "options": {
+            "A": "Türkiye",
+            "B": "Almanya",
+            "C": "Fransa",
+            "D": "ABD",
+            "E": "İngiltere"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi toplu taşımanın bileşenlerinden biri değildir?",
+          "options": {
+            "A": "Güzergah",
+            "B": "Garaj",
+            "C": "Taşıt",
+            "D": "Taşıt",
+            "E": "Bilet"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi boru hatlarıyla taşımacılığın özelliklerinden biri sayılmaz?",
+          "options": {
+            "A": "Topografik şartlardan etkilenmemesi",
+            "B": "Çok miktarda yükü kısa sürede ulaştırması",
+            "C": "Sıvının taşınmasına daha elverişli olması",
+            "D": "Sabotaj ve kaçaklara açık bir niteliğe sahip olması",
+            "E": "Taşımada fazla enerji gerektirmemesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Günümüzde İstanbul Boğazı'nda uygulanan transit geçit şartları hangi anlaşmayla belirlenmiştir?",
+          "options": {
+            "A": "Lozan Antlaşması",
+            "B": "Berlin Antlaşması",
+            "C": "Bern Antlaşması",
+            "D": "İstanbul Antlaşması",
+            "E": "Montro ( Montreux ) Antlaşması"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki illerden hangisinin sınırları dahilinde bir liman yer almamaktadır?",
+          "options": {
+            "A": "Kütahya",
+            "B": "İzmir",
+            "C": "Kocaeli",
+            "D": "Balıkesir",
+            "E": "Mersin"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "I-Balonlar II-Helikopterler III-Uydular IV-Füzeler Yukarıda belirtilen hava araçlarından hangisiyle/hangileriyle hem yük hem de yolcu taşınması söz konusudur?",
+          "options": {
+            "A": "Sadece II",
+            "B": "III ve IV",
+            "C": "Sadece I",
+            "D": "I ve III",
+            "E": "I ve II"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Türkiye'nin ilk uluslararası doğal gaz boru hattı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Türkiye-Yunanistan-İtalya doğalgaz boru hattı",
+            "B": "Azerbaycan-Türkiye doğalgaz boru hattı",
+            "C": "Mavi Akım doğalgaz boru hattı",
+            "D": "İran-Türkiye doğalgaz boru hattı",
+            "E": "Rusya Federasyonu-Türkiye doğalgaz boru hattı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi tarihsel süreç boyunca Türkiye'nin ulaşım faktörlerine ayrıcalıklı bir özellik kazandıran unsurlardan biri değildir?",
+          "options": {
+            "A": "Az sayıda ülkeyle komşu olması",
+            "B": "Çok farklı siyasal yapılara sahip olması",
+            "C": "Üç tarafının denizlerle çevrili olması",
+            "D": "Çok farklı ekonomik yapılara sahip ülkeler arasında köprü konumunda olması",
+            "E": "Çok farklı sosyal yapılara sahip ülkeler arasında köprü konumunda olması"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdaki iç suların hangisinden ulaşımda yararlanılmaktadır?",
+          "options": {
+            "A": "Van Gölü",
+            "B": "Burdur Gölü",
+            "C": "Manyas Gölü",
+            "D": "Beyşehir Gölü",
+            "E": "Tuz Gölü"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Şehir içi ulaşım kapsamında, aşağıdakilerden hangisi kentin merkezine doğru yoğunlaşan trafik yükünü azaltmak için başvurulacak yöntemlerden biri sayılamaz?",
+          "options": {
+            "A": "Orta ve büyük ölçekli sanayileri kent dışına almak",
+            "B": "Merkez dışında yeni yerleşim alanları oluşturmak",
+            "C": "Dolaşım ve otopark kısıtlamaları yapmak",
+            "D": "Esnek sinyalizasyona geçmek",
+            "E": "Kara yolu ulaşımına ağırlık vermek"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "İstanbul Boğazı üzerine inşa edilen üçüncü köprü olan Yavuz Sultan Selim Köprüsü hangi yıl hizmete girmiştir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2019 Final",
+      "exam_title": "Ulaşım Coğrafyası 2019 Final",
+      "exam_type": "final",
+      "year": "2019",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 4,
+          "question": "I.Trabzon Havaalanı II.Diyarbakır Havaalanı III.Gaziantep Havaalanı Yukarıdaki öncüller 2019 yılı verilerine göre toplam yolcu taşıma bakımından büyükten küçüğe doğru aşağıdaki seçeneklerin hangisinde doğru olarak sıralanmıştır?",
+          "options": {
+            "A": "I-III-II",
+            "B": "II-I-III",
+            "C": "II-III-I",
+            "D": "I-II-III",
+            "E": "III-II-I"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki havalimanlarından hangisi bütünüyle turizm faaliyetlerine hizmet etmek üzere inşa edilmiştir?",
+          "options": {
+            "A": "Şakirpaşa Havalimanı",
+            "B": "Adnan Menderes Havalimanı",
+            "C": "Dalaman Havalimanı",
+            "D": "Mersin Havalimanı",
+            "E": "Erhaç Havalimanı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Dünyanın en uzun demiryolu köprüsü olarak kabul edilen Danyang­Kunshan Köprüsü'nün yaklaşık uzunluğu aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "165 km",
+            "B": "126 km",
+            "C": "111 km",
+            "D": "103 km",
+            "E": "143 km"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "1863 yılında hizmete giren dünyanın en eski metrosu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Londra Metrosu",
+            "B": "Paris Metrosu",
+            "C": "Newyork Metrosu",
+            "D": "Moskova Metrosu",
+            "E": "İstanbul Tünel"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Ulaşım sistemlerinin gaz emisyonuna etkisi veya katkısı en fazladan en aza doğru aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Denizyolu Ulaşımı-Havayolu Ulaşımı-Demiryolu Ulaşımı",
+            "B": "Havayolu Ulaşımı-Demiryolu Ulaşımı- Denizyolu Ulaşımı",
+            "C": "Havayolu Ulaşımı-Denizyolu Ulaşımı-Demiryolu Ulaşımı",
+            "D": "Demiryolu Ulaşımı-Denizyolu Ulaşımı-Havayolu Ulaşımı",
+            "E": "Denizyolu Ulaşımı-Demiryolu Ulaşımı-Havayolu Ulaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "İnşasında kullanılan malzemenin türü yanında inşa mimarisine göre de köprüler birbirinden farklılaşmaktadır. Bu çerçevede aşağıdakilerden hangisi inşa mimarisine göre bir köprü türü değildir?",
+          "options": {
+            "A": "Kiriş köprüler",
+            "B": "Halat destekli köprüler",
+            "C": "Asma köprüler",
+            "D": "Kemer köprüler",
+            "E": "Beton köprüler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Teknolojik gelişmelerin ve yeniliklerin, yeni dağıtım ağ ve araçlarının ortaya çıkması ile var olan bazı sistemlerin ortadan kalkması üzerindeki etkisine dikkati çekmektedir. Bu kapsamda teknolojik gelişmeler aşağıdakilerden hangisi üzerinde en fazla olumsuz etkide bulunmuştur?",
+          "options": {
+            "A": "Telefon",
+            "B": "Televizyon",
+            "C": "Radyo",
+            "D": "Bilgisayar",
+            "E": "Telgraf"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Türkiye­İran sınırında yer alan demiryolu sınır kapısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kapıköy",
+            "B": "Akyaka",
+            "C": "Uzunköprü",
+            "D": "Nusaybin",
+            "E": "Kapıkule"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi kentiçi ulaşımda altyapı çalışmalarını etkileyen veya belirleyen faktörlerden biri değildir?",
+          "options": {
+            "A": "Yöneticileri yaklaşım ve hassasiyetleri",
+            "B": "Finansmanın kaynağı",
+            "C": "Altyapının sağlamlığı",
+            "D": "Yolcu talep düzeyi",
+            "E": "Altyapının estetik görünümü"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi bir ulaşım sisteminin toplu taşıma sayılabilmesi için sahip olması gereken özelliklerden biri değildir?",
+          "options": {
+            "A": "Sisteme erişimi sağlayan ve genellikle önceden belirlenmiş durakların olması",
+            "B": "Aynı anda birden fazla yolculuğun yapılmasına olanak sağlaması",
+            "C": "Ulaşım hizmetinin serbest bir güzergâh üzerinde verilmesi",
+            "D": "Taşıma hizmetlerinin belli bir ücret karşılığında verilmesi",
+            "E": "Ücretin ödenmesi koşuluyla herkesin kullanımına açık olması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi Çanakkale ve İstanbul Boğazları'nın benzer yönlerinden biri değildir?",
+          "options": {
+            "A": "İdari yönetimleri",
+            "B": "Uzunlukları",
+            "C": "Uzanış yönleri",
+            "D": "Ulaşım fonksiyonları",
+            "E": "Akıntıları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "I.Süveyş Kanalı II.Korint Kanalı III.Kiel Kanalı Yukarıda belirtilen kanalların sahip oldukları uzunluklara göre büyükten küçüğe doğru sıralanışları aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "I-II-III",
+            "B": "I-III-II",
+            "C": "II-III-I",
+            "D": "II-I-III",
+            "E": "III-II-I"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "I.Akdeniz II.Karadeniz III.Ege Denizi Yukarıdaki denizler; Türkiye'nin kıyı uzunlukları bakımından uzundan kısaya aşağıdaki seçeneklerin hangisinde doğru şekilde sıralanmıştır?",
+          "options": {
+            "A": "I-III-II",
+            "B": "III-I-II",
+            "C": "III-II-I",
+            "D": "I-II-III",
+            "E": "II-I-III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Dünya'da sivil havacılığın hızla gelişmesi, uluslararası havacılık kurallarına uyum sağlanması ve Türkiye'de sivil havacılık faaliyetlerinin düzenlenmesi ve denetlenmesini sağlamak amacıyla 1954 yılında oluşturulan kurum aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Devlet Hava Meydanları İşletmesi",
+            "B": "Türk Teyyare Cemiyeti",
+            "C": "Türk Hava Yolları",
+            "D": "Sivil Havacılık Dairesi Başkanlığı",
+            "E": "Türk Hava Postaları"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "22 Haziran 1935 tarihinde yürürlüğe giren 2804 sayılı Kanun'la devlet adına arama ve sondaj faaliyetlerini yürütme görevi aşağıdaki kurumlardan hangisine verilmiştir?",
+          "options": {
+            "A": "Türkiye Neft Yağı Müessesesi",
+            "B": "Maden Tetkik Arama Enstitüsü",
+            "C": "Türkiye Madencilik İşletmesi",
+            "D": "Türk Petrol Kurumu",
+            "E": "Petrol Arama ve İşletme Anonim Şirketi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Birleşmiş Milletler Avrupa Ekonomik Komisyonu (UN/ECE) bünyesinde yapılan çalışmalarla oluşturulmuş yollar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "A yollar",
+            "B": "ECO yollar",
+            "C": "TEN-T yolları",
+            "D": "E yollar",
+            "E": "TEM yolları"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Zaman zaman havaalanlarının şehir merkezlerine oldukça uzak sahalarda inşa edilmesinde en fazla etkili faktör aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "iklim özellikleri",
+            "B": "Ekonomik nedenler",
+            "C": "Çevresel hassasiyetler",
+            "D": "Topografik şartlar",
+            "E": "Politik nedenler"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2016 Final",
+      "exam_title": "Ulaşım Coğrafyası 2016 Final",
+      "exam_type": "final",
+      "year": "2016",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 2,
+          "question": "Ulaşım sistemlerinin gaz emisyonuna etkisi veya katkışı en fazladan en aza doğru aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Havayolu Ulaşımı-Demiryolu Ulaşımı-Denizyolu Ulaşımı",
+            "B": "Denizyolu Ulaşımı-Demiryolu Ulaşımı-Havayolu Ulaşımı",
+            "C": "Demiryolu Ulaşımı-Denizyolu Ulaşımı-Havayolu Ulaşımı",
+            "D": "Havayolu Ulaşımı-Denizyolu Ulaşımı-Demiryolu Ulaşımı",
+            "E": "Denizyolu Ulaşımı-Havayolu Ulaşımı-Demiryolu Ulaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Türkiye'de Türk uçaklarıyla ticari anlamda uçuşlar hangi iller arasında gerçekleştirilmiştir?",
+          "options": {
+            "A": "İstanbul-İzmir",
+            "B": "İstanbul-Antalya",
+            "C": "İstanbul-Eskişehir",
+            "D": "Ankara-İzmir",
+            "E": "İstanbul-Adana"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Koyun ve keçiler kesildikten sonra derileri, göğüs tarafından biraz yarılıp özenle yüzüldükten sonra dikilerek ayaklarının bağlanması işlemiyle yapılan denizyolu ulaşım aracı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Şambren",
+            "B": "Dombrun",
+            "C": "Kelek",
+            "D": "Tulum",
+            "E": "Bot"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi Türkiye-Irak arasında konumlanmış olan karayolu sınır kapılarından biri değildir?",
+          "options": {
+            "A": "Ovaköy",
+            "B": "Aktepe",
+            "C": "Habur",
+            "D": "Derecik",
+            "E": "Kapıköy"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Konteynerlenmiş yükler için endüstri standardı olarak kullanılmaya başlanan ölçü biriminin kısa yazılışı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "TEU",
+            "B": "TON",
+            "C": "EKO",
+            "D": "RDF",
+            "E": "MNG"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi İstanbul kent içi karayolu ulaşımına hizmet eden tünellerden biri değildir?",
+          "options": {
+            "A": "Kâğıthane-Piyalepaşa Tüneli",
+            "B": "Fatih- Eyüp Tüneli",
+            "C": "Kasımpaşa - Sütlüce Tüneli",
+            "D": "Bomonti-Dolmabahçe Tüneli",
+            "E": "Sarıyer-Çayırbaşı Tüneli"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki ifadelerden hangisi tarih bileşeni kapsamında yer alır?",
+          "options": {
+            "A": "Kaza ve sürücü davranışları ile seyahat uzaklığı üzerinde etkili olan sosyal göstergeleri içerir.",
+            "B": "Ulaşım şartları sonucu teknolojide, ekonomide ve sosyal çevrede meydana gelen değişimleri irdeler.",
+            "C": "Ulaşımın arazi kullanımı üzerindeki olumsuz etkileri ile gürültü gibi unsurları içerir.",
+            "D": "Esas olarak altyapı etkinliği ve ulaşım tipinin teknolojiyle etkileşimini kapsar.",
+            "E": "Farklı faaliyetler yürüten sektörlerin ulaşıma ilişkin taleplerinin değerlendirilmesi görevini üstlenir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Karayolu ulaşımını diğer ulaşım sistemlerine göre üstün kılan en önemli özelliği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ekonomik ulaşım sağlaması",
+            "B": "Güvenli ulaşım sağlaması",
+            "C": "Konforlu ulaşım sağlaması",
+            "D": "Aktarmasız ulaşım sağlaması",
+            "E": "Hızlı ulaşım sağlaması"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Osmanlı döneminde deniz yolu ulaşımıyla ilgili aşağıdakilerden hangisi söylenemez?",
+          "options": {
+            "A": "Anadolu'yu çevreleyen denizlere hâkim olmuştur.",
+            "B": "Daha ziyade askeri amaçlı denizcilik hâkimdir.",
+            "C": "Deniz yolu ulaşımından önemli ölçüde vergi almıştır.",
+            "D": "Oldukça gelişmiş bir donanmaya sahiptir.",
+            "E": "Büyük bir ticari filoya sahiptir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2015 Final",
+      "exam_title": "Ulaşım Coğrafyası 2015 Final",
+      "exam_type": "final",
+      "year": "2015",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 15,
+          "question": "Haydarpaşa-İzmit demiryolu hattı devlet eliyle yapılmasına karşın sonraki dönemlerde hatların yabancı şirketler tarafından yeniden inşa edilmesinin temel sebebi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Politik tercih",
+            "B": "Maddi yetersizlik",
+            "C": "Teknik yetersizlik",
+            "D": "İşgücü Yetersizliği",
+            "E": "Batılı devletlerin baskısı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2015 Final",
+      "exam_title": "Ulaşım Coğrafyası 2015 Final",
+      "exam_type": "final",
+      "year": "2015",
+      "question_count": 23,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 16,
+          "question": "2015 yılı verilerine göre İstanbul'da günlük yolculuklar en fazla aşağıdaki taşıma araçlarından (otomobil hariç) hangisiyle gerçekleştirilmiştir?",
+          "options": {
+            "A": "Minibüsler",
+            "B": "Servis araçları",
+            "C": "Metrobüsler",
+            "D": "Metro",
+            "E": "Tramvay"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Türkiye'de Doğu Anadolu Bölgesine yönelik gerçekleştirilen ilk hava yolu seferi aşağıdakilerden hangisine yapılmıştır?",
+          "options": {
+            "A": "Van",
+            "B": "Erzurum",
+            "C": "Ağrı",
+            "D": "Malatya",
+            "E": "Kars"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Türkiye Cumhuriyeti döneminde hava yoluyla gerçekleştirilen ilk yurt dışı seferi aşağıdaki ülkelerden hangisine yapılmıştır?",
+          "options": {
+            "A": "Almanya",
+            "B": "İngiltere",
+            "C": "Fransa",
+            "D": "Yunanistan",
+            "E": "Bulgaristan"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki garlardan hangisinin mimarı Alman A. Jasmund'dur?",
+          "options": {
+            "A": "Sirkeci Garı",
+            "B": "Konya Garı",
+            "C": "Haydarpaşa Garı",
+            "D": "Alsancak Garı",
+            "E": "Ankara Garı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Topografik unsurların kara yolu ulaşımı üzerindeki engelleyici özellikleri; vadiler takip edilerek veya geçit, tünel ve köprülerden yararlanılarak aşılmaya çalışılmaktadır. Topografik şartlar dikkate alındığında Türkiye'de kara yolu ulaşımının hangi yönlerden daha zor gerçekleşmesi beklenir?",
+          "options": {
+            "A": "Kuzey-Güney",
+            "B": "Tüm yönler",
+            "C": "Güneydoğu-Güneybatı",
+            "D": "Doğu-Batı",
+            "E": "Kuzeydoğu-Kuzeybatı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Zigana Geçidi hangi iller arasında geçişe izin vermektedir?",
+          "options": {
+            "A": "Pozantı-Adana",
+            "B": "Of-Bayburt",
+            "C": "Karaman-Silifke",
+            "D": "Bayburt-Erzurum",
+            "E": "Trabzon-Gümüşhane"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Kara yolu ulaşımında geçitler engebeli sahaların aşılmasında son derece önemli bir rol oynar. Bu bakımdan Türkiye'nin kara yolu ulaşımında kullanılan en yüksek rakıma sahip geçit aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Eğribel Geçidi",
+            "B": "Kop Geçidi",
+            "C": "Soğanlı Geçidi",
+            "D": "Sertavul Geçidi",
+            "E": "Zigana Geçidi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "1903 yılında uçakla ilk uçuşu aşağıdakilerden hangisi gerçekleştirmiştir?",
+          "options": {
+            "A": "Wright kardeşler",
+            "B": "Jean Francois",
+            "C": "Werner Kardeşler",
+            "D": "Montgolfier Kardeşler",
+            "E": "William Hedley"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 24,
+          "question": "Aşağıdaki garlardan hangisi bir Türk mimar tarafından inşa edilmiştir?",
+          "options": {
+            "A": "Kırşehir Garı",
+            "B": "Alsancak Garı",
+            "C": "Haydarpaşa Garı",
+            "D": "Sirkeci Garı",
+            "E": "Ankara Garı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 25,
+          "question": "Taleplere bağlı olarak hava yolu ulaşımı, toplam ulaşım hizmetleri içinde payını hızla arttırmaya devam etmektedir. Adı geçen ulaşım sistemi sadece yolcu taşımada değil aynı zamanda kargo taşımacılığında da giderek daha fazla yer almaya başlamış bulunmaktadır. Bu çerçevede aşağıdaki ülkelerden hangisinde hava yoluyla yük taşımacılığı en yüksek orandadır?",
+          "options": {
+            "A": "ABD",
+            "B": "Rusya",
+            "C": "İspanya",
+            "D": "Almanya",
+            "E": "Türkiye"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 26,
+          "question": "Türkiye Cumhuriyeti döneminde kablolu standart sondaj kulesiyle açılan ilk derin petrol kuyusu, aşağıdaki illerden hangisinde açılmıştır?",
+          "options": {
+            "A": "Adıyaman",
+            "B": "Batman",
+            "C": "İskenderun",
+            "D": "Mardin",
+            "E": "Kırklareli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 27,
+          "question": "Türkiye'de ilk hızlı tren hattı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Konya-Ankara hızlı tren hattı",
+            "B": "İzmir-Ankara hızlı tren hattı",
+            "C": "Eskişehir-Ankara hızlı tren hattı",
+            "D": "Sivas-Ankara hızlı tren hattı",
+            "E": "İstanbul-Ankara hızlı tren hattı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 28,
+          "question": "Türkiye -İran sınırında yer alan demir yolu kapısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kapıkule",
+            "B": "Kapıköy",
+            "C": "Nusaybin",
+            "D": "Uzunköprü",
+            "E": "Akyaka"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 29,
+          "question": "Zigana, Kop, Eğribel, Soğanlı, Sertavul, Gülek geçitlerinden kaç tanesi Karadeniz Bölgesi sınırları içinde yer alır?",
+          "options": {
+            "A": "5",
+            "B": "3",
+            "C": "2",
+            "D": "4",
+            "E": "1"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 30,
+          "question": "Havaalanının yer seçiminde hangisinin etkisi en azdır?",
+          "options": {
+            "A": "Topografik şartlar",
+            "B": "Diğer ulaşım sistemleriyle entegrasyon",
+            "C": "Bitki örtüsü",
+            "D": "Rüzgar yönü ve şiddeti",
+            "E": "Şehir merkezine mesafesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 31,
+          "question": "Ulaşım etkileşimi kapsamında ulaşım şartlarının gelişmesi aşağıdakilerden hangisi üzerinde en fazla etki yaratır?",
+          "options": {
+            "A": "Ticaret",
+            "B": "Hizmetler",
+            "C": "Sanayi",
+            "D": "Tarım",
+            "E": "Turizm"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 32,
+          "question": "Kasaba, ilçe ve bucak gibi belli başlı merkezleri birbirlerine, il merkezine, komşu illerdeki yakın ilçe merkezlerine, devlet yollarına, demiryolu istasyonlarına, limanlara, hava alanlarına ve kamu ihtiyacının gerektirdiği diğer yerlere bağlayan yollar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Otoyollar",
+            "B": "İl yolları",
+            "C": "Ana yollar",
+            "D": "Devlet yolları",
+            "E": "Çevre yolları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 33,
+          "question": "Türkiye'de ulaşım sistemlerinin şekillenmesinde ve etkinliğinde aşağıdaki fiziki coğrafya etkenlerinden hangisinin etkisi en fazladır?",
+          "options": {
+            "A": "Su kaynakları",
+            "B": "Toprak şartları",
+            "C": "İklim",
+            "D": "Yer şekilleri",
+            "E": "Bitki örtüsü"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 34,
+          "question": "Türkiye'nin aşağıdaki ülkelerin hangisiyle herhangi bir boru hattı bağlantısı bulunmamaktadır?",
+          "options": {
+            "A": "Ermenistan",
+            "B": "Rusya",
+            "C": "İran",
+            "D": "Yunanistan",
+            "E": "Gürcistan"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 35,
+          "question": "Aşağıdakilerden hangisi toplu taşımanın otomobille ulaşıma göre avantajlarından biri değildir?",
+          "options": {
+            "A": "Daha az şeritli yollara ihtiyaç duyması",
+            "B": "Enerji tüketiminde tasarruf sağlanması",
+            "C": "Daha fazla trafik sıkışıklığına sebep olması",
+            "D": "Toplumsal eşitlik ilkesine uygun olması",
+            "E": "Yüksek taşıma kapasitesi olması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 36,
+          "question": "Türkiye'nin petrol ve doğalgaz boru hatları bakımından bir kavşak noktası olmasında aşağıdakilerden hangisinin payı en düşüktür?",
+          "options": {
+            "A": "Coğrafi konumunun elverişli olması",
+            "B": "Fosil yakıtlar bakımından büyük ölçüde dışa bağımlı olması",
+            "C": "Zengin petrol ve doğalgaz kaynaklarına yakın olması",
+            "D": "Petrol ve doğalgazın ucuz yakıtlar olması",
+            "E": "Enerji arz ve talebi bakımından doğu ve batı ekonomileri arasında bir köprü durumunda olması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 37,
+          "question": "İlk demiryolu ulaştırması hangi şehirler arasında gerçekleştirilmiştir?",
+          "options": {
+            "A": "Glasgow-Edinburg",
+            "B": "Newcastle-Sunderland",
+            "C": "Stokholm-Darling",
+            "D": "Liverpool-Manchester",
+            "E": "Nottingham-Derby"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 38,
+          "question": "Sahip oldukları demiryolu uzunlukları bakımından en uzun demir yolu ağına sahip ülkeler büyükten küçüğe aşağıdaki seçeneklerden hangisinde en doğru şekilde sıralanmıştır?",
+          "options": {
+            "A": "Rusya-ABD-Çin",
+            "B": "Çin-ABD-Rusya",
+            "C": "ABD-Rusya-Hindistan",
+            "D": "ABD-Rusya-Çin",
+            "E": "ABD-Çin-Rusya"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2005-2019 Final",
+      "exam_title": "Ulaşım Coğrafyası 2005-2019 Final",
+      "exam_type": "final",
+      "year": "2005-2019",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 16,
+          "question": "Türkiye'de 2005-2019 yılları arasında en fazla tren kazasının yaşandığı yıl aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ulaşım Coğrafyası 2005 Final",
+      "exam_title": "Ulaşım Coğrafyası 2005 Final",
+      "exam_type": "final",
+      "year": "2005",
+      "question_count": 4,
+      "source_url": "",
+      "file_name": "Ulasim_Cografyasi_Final_Sorulari.docx",
+      "questions": [
         {
           "id": 17,
           "question": "Bursa Şehri ile Uludağ'da bulunan turistik tesisler arasında ulaşım sağlayan Bursa teleferik hattı hangi yıl hizmete açılmıştır?",
@@ -56,7 +3230,7 @@
             "D": "Büyük havaalanları",
             "E": "Küçük havaalanları"
           },
-          "correct_answer": "D",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -73,7 +3247,7 @@
             "D": "Almanya",
             "E": "Fransa"
           },
-          "correct_answer": "A",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -90,7 +3264,7 @@
             "D": "1972",
             "E": "1982"
           },
-          "correct_answer": "A",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",

@@ -1,0 +1,1745 @@
+{
+  "course": "Veri Tabanı Yönetimi",
+  "lesson_code": "VERI_TABAN_YONETIMI",
+  "exam_count": 5,
+  "exams": [
+    {
+      "title": "Veri Tabanı Yönetimi 2025 Vize",
+      "exam_title": "Veri Tabanı Yönetimi 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Yonetimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Veri tabanına erişimde doğrudan SQL kullanmadan sorgulama yapmayı sağlayan programlama kütüphanesine verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Nesne-İlişkisel Eşleme",
+            "B": "Nesne Yönelimli Programlama",
+            "C": "Varlık-İlişki Diyagramı",
+            "D": "İlişkisel Veri Tabanları",
+            "E": "Yapısal Sorgu Dili"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bilgiye ulaşma süreci, Rowley'in Bilgelik Hiyerarşisi'ne göre sırasıyla hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "Veri - Bilgelik - Bilgi",
+            "B": "Bilgelik - Enformasyon - Bilgi",
+            "C": "Veri - Enformasyon - Bilgi",
+            "D": "Veri - Bilgi - Bilgelik",
+            "E": "Enformasyon - Veri - Bilgi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi yüksek miktarda veri toplamak için elverişli bir ortam sunmaktadır?",
+          "options": {
+            "A": "İş yerinde kullanılan bir mikrodalga fırın",
+            "B": "Otonom sürüşe sahip bir araç",
+            "C": "Bir anteni istenmeyen frekanslardan koruyan izolasyon sistemi",
+            "D": "Çözünürlüğü yüksek bir bilgisayar faresi",
+            "E": "Dizüstü bilgisayarı uygun şekilde soğutan bir stand"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi en çok kullanılan veri tabanı yönetim sistemlerinden biri değildir ?",
+          "options": {
+            "A": "Postgre SQL",
+            "B": "Oracle",
+            "C": "MySQL",
+            "D": "Splunk",
+            "E": "Microsoft SQL Server"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Veri sorgulamak için geliştirilmiş üst seviye dilin adı nedir?",
+          "options": {
+            "A": "Yapısal Seçme Dili",
+            "B": "Yapısal Sorgu Dili",
+            "C": "Yapısal Filtreleme Dili",
+            "D": "Yapılandırılmamış Sorgu Dili",
+            "E": "Yapı Sorgulama Dili"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Microsoft ekosistemiyle en uyumlu şekilde çalışan VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Redis",
+            "B": "MySQL",
+            "C": "SQL Server",
+            "D": "MariaDB",
+            "E": "Elastic Search"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi özgür yazılım felsefesinin sunduğu temel özgürlüklerden biri değildir ?",
+          "options": {
+            "A": "Yazılımı değiştirerek, değiştirilmiş kopyayı dağıtabilme",
+            "B": "Herhangi bir amaç için yazılımı sınırsız kullanma",
+            "C": "Yazılımı dağıtabilme",
+            "D": "Yazılımın kodlarını inceleyebilme",
+            "E": "Yazılımı kullanırken kullanım verilerinin kayıt altına alınması gerekliliği"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Veri tabanı yönetimi ile bilgisayar programlama arasındaki ilişki aşağıdaki hangi seçenekte doğru biçimde verilmiştir?<",
+          "options": {
+            "A": "Bilgisayar programlamada veri tabanı kullanımı zorunludur.",
+            "B": "Her bir veri tabanı tek bir programlama diliyle kullanılır.",
+            "C": "Geliştirilen bilgisayar programı bir veri tabanına giriş ya da sorgulama yapabilir.",
+            "D": "Veri tabanları genellikle yerel (istemci - client) bilgisayarda kuruludur.",
+            "E": "Veri tabanı yönetimi de bir bilgisayar programlama türüdür."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Genellikle donanım kapasitesi çok küçük cihazlar üzerinde çalıştırılan, minimum özellik ve gereksinime sahip VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "MySQL",
+            "B": "Redis",
+            "C": "SQL Server",
+            "D": "PostgreSQL",
+            "E": "SQLite"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "SQLAlchemy ile ilgili aşağıdakilerden hangisi yanlıştır ?",
+          "options": {
+            "A": "Nesne yönelimli programlamadan faydalanır.",
+            "B": "Python dili içerisinde çalışır.",
+            "C": "Bir yazılım kütüphanesidir.",
+            "D": "Özel bir araç ile arayüz üzerinden yönetilir.",
+            "E": "Arka planda SQL dilinden faydalanır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Genellikle internet tabanlı uygulamalarda kullanılan popüler VTYS (Veri Tabanı Yönetim Sistemi) aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "MySQL",
+            "B": "SQLite",
+            "C": "Redis",
+            "D": "Microsoft Access",
+            "E": "Oracle Database"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi yeni bir kayıt eklemek için kullanılan komuttur?",
+          "options": {
+            "A": "CREATE",
+            "B": "DELETE",
+            "C": "SHOW",
+            "D": "SELECT",
+            "E": "INSERT INTO"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "SQLAlchemy ile yazılmış yukarıdaki kod verilen seçeneklerden hangisini gerçekleştirir?",
+          "options": {
+            "A": "Calisan tablosunda ad niteliği Emre olan kayıtların ilkini döndürür.",
+            "B": "Calisan tablosunda ad niteliği Emre olmayan kayıtları döndürür.",
+            "C": "Calisan tablosunda ad niteliği Emre olan kayıtları siler.",
+            "D": "Calisan tablosunda ad niteliği Emre olan kayıtların tümünü döndürür.",
+            "E": "Calisan tablosunda Emre kaydı olup olmadığını kontrol eder."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "SQL ile ilgili aşağıdaki şıklardan hangisi yanlıştır ?",
+          "options": {
+            "A": "Çeşitli VTYS (Veri Tabanı Yönetim Sistemi)'ler içinde gelişmiş versiyonları bulunur.",
+            "B": "Programlama dilleri SQL sayesinde veri tabanı ile etkileşime geçer.",
+            "C": "Çoğu VTYS (Veri Tabanı Yönetim Sistemi) ile uyumlu çalışır.",
+            "D": "Veri yönetimi için tek başına kullanılamaz.",
+            "E": "Çoğu programlama dilleriyle uyumlu çalışır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Python dilinde SQL komutunu çalıştırmak için kullanılan fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "sql_function",
+            "B": "connect",
+            "C": "execute",
+            "D": "run",
+            "E": "cursor"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi Codd'un ilişkisel veri modeli ve ilişkisel veri tabanını önerme motivasyonlarından birisidir?",
+          "options": {
+            "A": "Yeni bir orta seviye dil ortaya çıkartmak",
+            "B": "Yeni bir üst seviye dil ortaya çıkartmak",
+            "C": "Programlama dillerinin yapısında önemli bir değişiklik yapmak",
+            "D": "İnternet ortamında kullanılabilecek bir dil ortaya çıkartmak",
+            "E": "Yeni bir alt seviye dil ortaya çıkartmak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bir veri tabanı için, veri yönetiminin sağlıklı gerçekleşebilmesi, veri yapısının veriyi etkin şekilde içermesi ve ihtiyaca göre özel filtrelerin uygulanabilmesi için doğru şekilde gerçekleştirilmesi gereken veri tabanı oluşturma sürecine verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri tabanını elde etme",
+            "B": "Veri tabanı yaratma",
+            "C": "Veri tabanını kazanma",
+            "D": "Veri tabanı kurgulama",
+            "E": "Veri tabanı tasarımı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi veri tabanı ile etkin şekilde etkileşime geçme yöntem veya yaklaşımlarından birisi değildir ?",
+          "options": {
+            "A": "Microsoft Excel",
+            "B": "DBeaver",
+            "C": "SQLAlchemy",
+            "D": "SQL",
+            "E": "ORM"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıda verilen SQL sorgusu hangi amaçla kullanılır?",
+          "options": {
+            "A": "Kullanicilar tablosunda yer alan, yaşı 50'den büyük güvenlik görevlilerini sorgulamak",
+            "B": "Kullanicilar tablosunda yer alan güvenlik görevlilerini sorgulamak",
+            "C": "Kullanicilar tablosunda yer alan, yaşı 50'den küçük güvenlik görevlilerini sorgulamak",
+            "D": "Kullanicilar tablosunda yer alan, yaşı 50 ve üstü olan güvenlik görevlilerini sorgulamak",
+            "E": "Tüm tablodaki, yaşı en az 50 yaşın üzerindeki güvenlik görevlilerini sorgulamak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "T-SQL, hangi VTYS'nin özelleşmiş ve daha yetenekli hâle getirilmiş veri sorgulama dilidir?",
+          "options": {
+            "A": "Redis",
+            "B": "SQL Server",
+            "C": "Oracle Database",
+            "D": "MySQL",
+            "E": "SQLite"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Tabanı Yönetimi 2024 Vize",
+      "exam_title": "Veri Tabanı Yönetimi 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Yonetimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi veri tabanı ile etkin şekilde etkileşime geçme yöntem veya yaklaşımlarından birisi değildir?",
+          "options": {
+            "A": "SQL",
+            "B": "Microsoft Excel",
+            "C": "SQLAlchemy",
+            "D": "ORM",
+            "E": "DBeaver"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Veri sorgulamak için geliştirilmiş üst seviye dilin adı nedir?",
+          "options": {
+            "A": "Yapısal Seçme Dili",
+            "B": "Yapılandırılmamış Sorgu Dili",
+            "C": "Yapısal Sorgu Dili",
+            "D": "Yapı Sorgulama Dili",
+            "E": "Yapısal Filtreleme Dili"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Genellikle internet tabanlı uygulamalarda kullanılan popüler VTYS (Veri Tabanı Yönetim Sistemi) aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "SQLite",
+            "B": "Oracle Database",
+            "C": "Microsoft Access",
+            "D": "MySQL",
+            "E": "Redis"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "session.query(Calisan).filter(Calisan.ad=='Emre').all()) SQLAlchemy ile yazılmış yukardaki kod verilen seçeneklerden hangisini gerçekleştirir?",
+          "options": {
+            "A": "Calisan tablosunda ad niteliği Emre olan kayıtların tümünü döndürür.",
+            "B": "Calisan tablosunda ad niteliği Emre olan kayıtları siler.",
+            "C": "Calisan tablosunda Emre kaydı olup olmadığını kontrol eder.",
+            "D": "Calisan tablosunda ad niteliği Emre olmayan kayıtları döndürür.",
+            "E": "Calisan tablosunda ad niteliği Emre olan kayıtların ilkini döndürür."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi özgür yazılım felsefesinin sunduğu temel özgürlüklerden biri değildir?",
+          "options": {
+            "A": "Yazılımı kullanırken kullanım verilerinin kayıt altına alınması gerekliliği",
+            "B": "Herhangi bir amaç için yazılımı sınırsız kullanma",
+            "C": "Yazılımı dağıtabilme",
+            "D": "Yazılımın kodlarını inceleyebilme",
+            "E": "Yazılımı değiştirerek, değiştirilmiş kopyayı dağıtabilme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Veri tabanına erişimde doğrudan SQL kullanmadan sorgulama yapmayı sağlayan programlama kütüphanesine verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Varlık-İlişki Diyagramı",
+            "B": "İlişkisel Veri Tabanları",
+            "C": "Nesne Yönelimli Programlama",
+            "D": "Yapısal Sorgu Dili",
+            "E": "Nesne-İlişkisel Eşleme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "SQL ile ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "Veri yönetimi için tek başına kullanılamaz.",
+            "B": "Çoğu VTYS (Veri Tabanı Yönetim Sistemi) ile uyumlu çalışır.",
+            "C": "Çoğu programlama dilleriyle uyumlu çalışır.",
+            "D": "Programlama dilleri SQL sayesinde veri tabanı ile etkileşime geçer.",
+            "E": "Çeşitli VTYS (Veri Tabanı Yönetim Sistemi)'ler içinde gelişmiş versiyonları bulunur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "SELECT * FROM Kullanicilar WHERE yas > 50 AND unvan = \"Güvenlik Görevlisi\" Yukarıda verilen SQL sorgusu hangi amaçla kullanılır?",
+          "options": {
+            "A": "Kullanicilar tablosunda yer alan, yaşı 50 ve üstü olan güvenlik görevlilerini sorgulamak",
+            "B": "Kullanicilar tablosunda yer alan, yaşı 50'den büyük güvenlik görevlilerini sorgulamak",
+            "C": "Tüm tablolarda yer alan 50 yaşın üzerindeki güvenlik görevlilerini sorgulamak",
+            "D": "Kullanicilar tablosunda yer alan güvenlik görevlilerini sorgulamak",
+            "E": "Kullanicilar tablosunda yer alan, yaşı 50'den küçük güvenlik görevlilerini sorgulamak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yapılandırılmamış veri kümeleri için kullanılan ve verileri tablolar yerine ilişkili dokümanlar olarak saklayan VTYS (Veri Tabanı Yönetim Sistemi) aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "MySQL",
+            "B": "SQL Server",
+            "C": "Oracle Database",
+            "D": "PostgreSQL",
+            "E": "MongoDB"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Veri sorgulamak için kullanılan SQL komutu hangisidir?",
+          "options": {
+            "A": "SHOW",
+            "B": "DESTROY",
+            "C": "INSERT",
+            "D": "SELECT",
+            "E": "READ"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi Codd'un ilişkisel veri modeli ve ilişkisel veri tabanını önerme motivasyonlarından birisidir?",
+          "options": {
+            "A": "Yeni bir üst seviye dil ortaya çıkartmak",
+            "B": "İnternet ortamında kullanılabilecek bir dil ortaya çıkartmak",
+            "C": "Programlama dillerinin yapısında önemli bir değişiklik yapmak",
+            "D": "Yeni bir orta seviye dil ortaya çıkartmak",
+            "E": "Yeni bir alt seviye dil ortaya çıkartmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi yeni bir kayıt eklemek için kullanılan komuttur?",
+          "options": {
+            "A": "CREATE",
+            "B": "INSERT INTO",
+            "C": "DELETE",
+            "D": "SELECT",
+            "E": "SHOW"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi yüksek miktarda veri toplamak için elverişli bir ortam sunmaktadır?",
+          "options": {
+            "A": "Bir anteni istenmeyen frekanslardan koruyan izolasyon sistemi",
+            "B": "Çözünürlüğü yüksek bir bilgisayar faresi",
+            "C": "Dizüstü bilgisayarı uygun şekilde soğutan bir stand",
+            "D": "İş yerinde kullanılan bir mikrodalga fırın",
+            "E": "Otonom sürüşe sahip bir araç"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi en çok kullanılan veri tabanı yönetim sistemlerinden biri değildir?",
+          "options": {
+            "A": "MySQL",
+            "B": "Oracle",
+            "C": "Microsoft SQL Server",
+            "D": "Splunk",
+            "E": "PostgreSQL"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Codd'un ilişkisel veri modeli ve ilişkisel veri tabanını önerme motivasyonlarından biri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Fiziksel ve mantıksal boyutları birbirinden ayırmak",
+            "B": "Yeni bir kod editörü üretmek",
+            "C": "Ticari geliri artırmak",
+            "D": "Büyük veri üzerinde çalışma yapabilmek",
+            "E": "Bilgisayar programlamaya olan ihtiyacı ortadan kaldırmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Ağırlıklı olarak B2B (işletmeden işletmeye) hizmet sağlayan VTYS (Veri Tabanı Yönetim Sistemi) aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Oracle Database",
+            "B": "MySQL",
+            "C": "MariaDB",
+            "D": "Microsoft Access",
+            "E": "SQLite"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bilgiye ulaşma süreci, Rowley'in Bilgelik Hiyerarşisi'ne göre sırasıyla hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "Bilgelik - Enformasyon - Bilgi",
+            "B": "Veri - Enformasyon - Bilgi",
+            "C": "Veri - Bilgelik - Bilgi",
+            "D": "Veri - Bilgi - Bilgelik",
+            "E": "Enformasyon - Veri - Bilgi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "SQLAlchemy ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Nesne yönelimli programlamadan faydalanır.",
+            "B": "Özel bir araç ile arayüz üzerinden yönetilir.",
+            "C": "Bir yazılım kütüphanesidir.",
+            "D": "Arka planda SQL dilinden faydalanır.",
+            "E": "Python dili içerisinde çalışır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "SQL ile ilgili aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Yalnızca veri çıkışı için kullanılır.",
+            "B": "Öğrenmesi zordur.",
+            "C": "Yalnızca Windows işletim sisteminde çalışır.",
+            "D": "Deneyim gerektirir.",
+            "E": "Bilgisayar programlarının veri tabanına erişmesini sağlar."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Veri tabanı yönetimi ile bilgisayar programlama arasındaki ilişki aşağıdaki hangi seçenekte doğru biçimde verilmiştir?",
+          "options": {
+            "A": "Bilgisayar programlamada veri tabanı kullanımı zorunludur.",
+            "B": "Veri tabanı yönetimi de bir bilgisayar programlama türüdür.",
+            "C": "Her bir veri tabanı tek bir programlama diliyle kullanılır.",
+            "D": "Geliştirilen bilgisayar programı bir veri tabanına giriş ya da sorgulama yapabilir.",
+            "E": "Veri tabanları genellikle yerel (istemci - client) bilgisayarda kuruludur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Tabanı Yönetimi 2023 Vize",
+      "exam_title": "Veri Tabanı Yönetimi 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Yonetimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Ağırlıklı olarak B2B (işletmeden işletmeye) hizmet sağlayan VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Microsoft Access",
+            "B": "Oracle Database",
+            "C": "SQlite",
+            "D": "MariaDB",
+            "E": "MYSQL"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "SQL hangi VTYS'nin özelleşmiş ve daha yetenekli hale getirilmiş veri sorgulama dilidir?",
+          "options": {
+            "A": "Orade Database",
+            "B": "MYSQL",
+            "C": "SQL Server",
+            "D": "Redis",
+            "E": "SQLite"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Veri tabanı için, veri yönetiminin sağlıklı gerçekleşebilmesi, veri yapısının veriyi etkin şekilde içermesi ve ihtiyaca göre özel filtrelerin uygulanabilmesi için doğru şekilde gerçekleştirilmesi gereken veri tabanı oluşturma sürecine ne ad verilir?",
+          "options": {
+            "A": "Veri tabanını kazanma",
+            "B": "Veri tabanı yaratma",
+            "C": "Veri tabanı tasarım",
+            "D": "Veri tabanını elde etme",
+            "E": "Veri tabanı kurgulama"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Session.query(Calisan).filter(Calisan.ad=='Emre').all() SQLAlchemy ile yazılmış yukardaki kod verilen seçeneklerden hangisini gerçekleştirir?",
+          "options": {
+            "A": "Calisan tablosunda ad niteliği Emre olan kayıtların ilkini döndürür.",
+            "B": "Calisan tablosunda ad niteliği Emre olan kayıtların tümünü döndürür.",
+            "C": "Calisan tablosunda Emre kaydı olup olmadığını kontrol eder.",
+            "D": "Calisan tablosunda ad niteliği Emre olan kayıtları siler.",
+            "E": "Calisan tablosunda ad niteliği Emre olmayan kayıtları döndürür."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Python dilinden faydalanabilmek için aşağıda verilen hangi yazılım kullanılabilir?",
+          "options": {
+            "A": "SQL Server",
+            "B": "Anaconda",
+            "C": "SQL",
+            "D": "SQLAlchemy",
+            "E": "DBeaver"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi veri tabanı ile etkin şekilde etkileşime geçme yöntemlerinden birisi değildir?",
+          "options": {
+            "A": "SQLAlchemy",
+            "B": "Microsoft Excell",
+            "C": "SQL",
+            "D": "DBeaver",
+            "E": "ORM"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Veri tabanına erişimde doğrudan SQL kullanmadan sorgulama yapmayı sağlayan programlama kütüphanesine verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Varlık-İlişki Diyagrami",
+            "B": "Yapisal Sorgu Dili",
+            "C": "İlişkisel Veri Tabanları",
+            "D": "Nesne-İlişkisel Eşleme",
+            "E": "Nesne Yonelimii Programlama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "SQL ile ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "Veri yönetimi için tek başına kullanılamaz,",
+            "B": "Çeşitli VTYS'ler içinde gelişmis versiyonları bulunur.",
+            "C": "Programlama dilleri SQL sayesinde veritabanı ile etkileşime geçer.",
+            "D": "Çoğu programlama dilleriyle uyumlu çalışır.",
+            "E": "Çoğu YTYS de uyumlu çalışır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "SQL ile ilgili aşağıdaki şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Öğrenmesi zordur.",
+            "B": "Yalnızca veri çıkışı için kullanılır.",
+            "C": "Yalnızca Windows işletim sisteminde çalışır.",
+            "D": "Deneyim gerektirir.",
+            "E": "Bilgisayar programlarinin veri tabanına erişmesini sağlar"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Verilerin bellek üzerinde tutulup diske hemen yazılmaması sayesinde çok hızlı veri giriş çıkışına olanak sağlayan VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Redis",
+            "B": "MongoDB",
+            "C": "MYSQL",
+            "D": "SQL Server",
+            "E": "Microsoft Access"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi ilişkisel veri tabanları ile MS Excel yazılımı arasındaki farklardan biridir?",
+          "options": {
+            "A": "kayıtların elektronik ortamda saklanmasa",
+            "B": "Dosya boyutu büyüklüğü",
+            "C": "Veri depolamayı sağlaması",
+            "D": "Verinin satır ve sütunlara bağlı olarak saklanması",
+            "E": "Eş zamanlı kullanıcı sayısı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Veri tabanı tasarımının iyi bir şekilde gerçekleştirildiğinden emin olmak için uyulması gereken adımlar bütününe ne ad verilir?",
+          "options": {
+            "A": "Veritabanı ilkeleri",
+            "B": "Normal formlar",
+            "C": "Üst seviye dil",
+            "D": "Veri yapıları",
+            "E": "Sistem analizi ve tasarımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "SQLAlchemy ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Python dili içerisinde çalışır.",
+            "B": "Arka planda SQL dilinden faydalanır.",
+            "C": "Bir yazılım kütüphanesidir.",
+            "D": "Nesne yönelimli programlamadan faydalanır.",
+            "E": "Özel bir araç ile arayüz üzerinden yönetir"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi özgür yazılım felsefesinin sunduğu temel özgürlüklerden biri değildir?",
+          "options": {
+            "A": "Yazılımı kullanırken kullanım verilerinin kayıt altına alınması gerekliligi",
+            "B": "Yazılı degiştirerek, değiştirilmiş kopyayı dağıtabilme",
+            "C": "Herhangi bir amaç yazılımı sırırsız kullanma",
+            "D": "Yazılım kodlarını inceleyebilme",
+            "E": "Yazılımı dağıtabilme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Genellikle donanım kapasitesi çok düşük cihazlar üzerinde çalıştırılan, minimum özellik ve gereksinime sahip VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Redis",
+            "B": "SQL Server",
+            "C": "MySQL",
+            "D": "SQLite",
+            "E": "PostgreSQL"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Genellikle internet tabanlı uygulamalarda kullanılan popüler VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Oracle Database",
+            "B": "MySQL",
+            "C": "SQLite",
+            "D": "Microsoft Access",
+            "E": "Redis"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "T-SQL, hangi VTYS'nin özelleşmil ve daha yetenekli hale getirilmiş veri sorgulama dilidir?",
+          "options": {
+            "A": "Oracle Database",
+            "B": "MySQL",
+            "C": "SQL Server",
+            "D": "Redis",
+            "E": "SQLite"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Microsoft ekosistemiyle en uyumlu şekilde çalışan VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Elastic Search",
+            "B": "SQL Server",
+            "C": "MariaDB",
+            "D": "Redis",
+            "E": "MySQL"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bilgiye ulaşma süreci, Rowley'in Bilgelik Hiyerarşisi'ne göre sırasıyla hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "Bilgelik-Enformasyon-Bilgi",
+            "B": "Veri Enformasyon-Bilgi",
+            "C": "Enformasyon-Veri Bilgi",
+            "D": "Veri-Bilgelik-Bilgi",
+            "E": "Veri Bilgi Bilgelik"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Tabanı Yönetimi 2025 Final",
+      "exam_title": "Veri Tabanı Yönetimi 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Yonetimi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıdaki SQL sorgusunun amacı aşağıdaki şıklardan hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Maaşı 50000'den fazla olan çalışanlar için her bir birimdeki toplam çalışan sayısı ve birim bazında maaşların ortalaması",
+            "B": "Bir birimde 50000'den fazla maaş alan çalışanların listesi",
+            "C": "Çalışanların ortalama maaşlarının 50000'den fazla olduğu birimlerin listesi",
+            "D": "50000'den fazla maaş veren birimlerin listesi",
+            "E": "Maaşı 50000'den fazla olanların çalıştıkları birimler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir tablo için üretilen birincil anahtarların başka bir tablo içerisinde yer alması durumunda aldığı ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Nitelik",
+            "B": "Zaman damgası",
+            "C": "Bağlantı",
+            "D": "Tablo",
+            "E": "İkincil anahtar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi CRUD yapısının bileşenlerinden birisi değildir?",
+          "options": {
+            "A": "Sorgula",
+            "B": "Güncelle",
+            "C": "Sırala",
+            "D": "Sil",
+            "E": "Oluştur"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen SQL sorgusuna bakarak, bu kodun ne yaptığını en iyi aşağıdaki hangi seçenek açıklar?",
+          "options": {
+            "A": "Her filmin yönetmenini listeler.",
+            "B": "En çok film çeken yönetmeni bulur.",
+            "C": "En az film çeken yönetmeni bulur.",
+            "D": "Her yönetmenin çektiği film sayısını hesaplar ve yönetmenleri alfabetik sırayla listeler.",
+            "E": "Her yönetmenin çektiği film sayısını hesaplar, yönetmen adlarını ve film sayılarını azalan sırayla listeler."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi VTYS'nin güvenliğinin sağlanması için uygulanabilecek yöntemlerden birisidir?",
+          "options": {
+            "A": "Kullanıcılara, ihtiyaçlara uygun yetkilerin tanımlanmalıdır.",
+            "B": "VTYS'ler yalnızca alt seviye programlama dilleriyle birlikte kullanılmalıdır.",
+            "C": "Veri, birden fazla VTYS'ye bölerek saklanmalıdır.",
+            "D": "Hassas veri içeren VTYS'lerin internet erişimi kapatılmalıdır.",
+            "E": "Her bilgisayarda bir VTYS kopyası bulunmalıdır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Genellikle Microsoft teknolojileriyle birlikte kullanılan VTYS (Veri Tabanı Yönetim Sistemi) aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Snowflake",
+            "B": "MySQL",
+            "C": "Oracle Database",
+            "D": "MongoDB",
+            "E": "SQL Server"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Veri tabanı tablolarının kod yazmadan, grafiksel arayüz kullanarak tanımlanmasını sağlayan yöntem aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri tabanı yönetim sistemi",
+            "B": "Veri tabanı yönetim aracı",
+            "C": "ORM",
+            "D": "Programlama dili",
+            "E": "Yapısal sorgu dili"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi bir birleştirme türü değildir?",
+          "options": {
+            "A": "Sol taraflı birleştirme (left join)",
+            "B": "İç içe birleştirme (inner join)",
+            "C": "Sağ taraflı birleştirme (right join)",
+            "D": "Tamamlayıcı birleştirme (full outer join)",
+            "E": "Ayırt edici birleştirme (exclusive join)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıdaki SQL sorgusu aşağıdaki hangi işlemi gerçekleştirir?",
+          "options": {
+            "A": "Belirli bir ürünün stok miktarını belirtilen miktar kadar azaltır.",
+            "B": "Belirli bir ürünü veri tabanından siler.",
+            "C": "Tüm ürünlerin stok miktarını belirtilen miktar kadar azaltır.",
+            "D": "Belirli bir ürünün stok miktarını belirtilen miktar kadar artırır.",
+            "E": "Belirli bir ürünün fiyatını günceller."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Veritabanına doğrudan sorgu göndermek ya da SQLAlchemy adlı ORM paketini kullanabilmek üzere; Python dilinde programlar hazırlayabilmek ve çalıştırabilmek için aşağıda verilen hangi yazılım kullanılabilir?",
+          "options": {
+            "A": "Anaconda",
+            "B": "SQLAlchemy",
+            "C": "SQL Server",
+            "D": "DBeaver",
+            "E": "SQL"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "CRUD yapısının hangi sorgu türünde \"*\" kullanılsa bile sütun adı belirtilmemelidir?",
+          "options": {
+            "A": "UPDATE",
+            "B": "DELETE",
+            "C": "INSERT",
+            "D": "SELECT",
+            "E": "FROM"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "İki tabloda yer alan tüm kayıtların sonuçlara eklenmesi, aşağıdaki hangi türdeki birleştirmenin sonucudur?",
+          "options": {
+            "A": "Ayırt edici birleştirme (exclusive join)",
+            "B": "Tamamlayıcı birleştirme (full outer join)",
+            "C": "Sol taraflı birleştirme (left join)",
+            "D": "Sağ taraflı birleştirme (right join)",
+            "E": "İç içe birleştirme (inner join)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Veri tabanı yönetimi sürecinin başında eldeki en önemli girdi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ham veri kümesi",
+            "B": "Seçilen programlama dilinin özellikleri",
+            "C": "Sistem tasarımı dokümanı",
+            "D": "Kullanıcı yetkilendirmeleri",
+            "E": "Fiziksel altyapı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Veri tabanı tasarlamak proje olarak değerlendirilebiliyorsa, veri tabanı yönetimi aşağıdakilerden hangisi olarak değerlendirilebilir?",
+          "options": {
+            "A": "Altyapı",
+            "B": "Katkı",
+            "C": "Nitelik",
+            "D": "Süreç",
+            "E": "Proje"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi doğru bir fonksiyon kullanım şeklidir?",
+          "options": {
+            "A": "rasgele-sayi[1,100];",
+            "B": "RASGELESAYI 1-100;",
+            "C": "rasgeleSayi(1,100);",
+            "D": "(rasgeleSayi) 1-100;",
+            "E": "$rasgeleSayi = 1,100;"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Kitaplar tablosunda yer alan kayıtlar için, hangi kategoriye ait kaç kitap olduğu bilgisini getiren SQL komutu aşağıdaki hangi seçenekte doğru sunulmuştur?",
+          "options": {
+            "A": "SELECT FROM Kitaplar GROUP BY kategori",
+            "B": "",
+            "C": "SELECT kategori, COUNT(*) as \"Kitap Sayısı\" FROM Kitaplar ORDER BY kategori",
+            "D": "SELECT kategori, COUNT(*) as \"Kitap Sayısı\" FROM Kitaplar GROUP BY kategori SELECT COUNT(*) as \"Kitap Sayısı\" FROM Kitaplar",
+            "E": ""
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi ilişkisel veri tabanlarının avantajlarından biri değildir?",
+          "options": {
+            "A": "Yapılandırılmış veri üzerinde çalışmayı sağlaması",
+            "B": "Ölçeklenebilir olması",
+            "C": "İnternet olmadan çalışmasının mümkün olmaması",
+            "D": "Platform bağımsız çalışabilmesi",
+            "E": "Saklama hacmini azaltması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Verilerin bellek üzerinde tutulup diske hemen yazılmaması sayesinde çok hızlı veri giriş çıkışına olanak sağlayan VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Microsoft Access",
+            "B": "SQL Server",
+            "C": "MongoDB",
+            "D": "Redis",
+            "E": "MySQL"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "SELECT sorgusunda tüm sütunları seçmek için kullanılan işaret hangisidir?",
+          "options": {
+            "A": "^",
+            "B": "*",
+            "C": "#",
+            "D": "!",
+            "E": "x"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi büyük veri kavramı için doğrudur?",
+          "options": {
+            "A": "Dijitalleştirilememiş veri",
+            "B": "Veri tabanında saklanmayan veri",
+            "C": "Mobil cihaza sığmayacak büyüklükteki veri",
+            "D": "Başa çıkılamayacak ölçüde büyük miktarda veri",
+            "E": "Yapısal olmayan veri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Tabanı Yönetimi 2024 Final",
+      "exam_title": "Veri Tabanı Yönetimi 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Yonetimi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen T-SQL komutunun görevi, aşağıdaki hangi şıkta uygun şekilde açıklanmıştır?",
+          "options": {
+            "A": "Her bir ürün için, verilen tarih aralığındaki satışları sorgulayarak hasılatı hesaplar.",
+            "B": "Verilen ürün için satış bilgilerini sorgular.",
+            "C": "Ürünleri tarih aralığına göre sıralar.",
+            "D": "Bir ürün için belirli tarih aralığındaki satışları sorgular.",
+            "E": "Tüm ürünleri ve satış miktarlarını sorgular."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kitaplar tablosunda yer alan kayıtlar için, hangi kategoriye ait kaç kitap olduğu bilgisini getiren SQL komutu aşağıdaki hangi seçenekte doğru sunulmuştur?",
+          "options": {
+            "A": "SELECT kategori FROM Kitaplar GROUP BY kategori",
+            "B": "SELECT COUNT(*) as \"Kitap Sayısı\" FROM Kitaplar",
+            "C": "SELECT kategori, COUNT(*) as \"Kitap Sayısı\" FROM Kitaplar GROUP BY kategori",
+            "D": "SELECT * FROM Kitaplar GROUP BY kategori",
+            "E": "SELECT kategori, COUNT(*) as \"Kitap Sayısı\" FROM Kitaplar ORDER BY kategori"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "CRUD yapısı aşağıdakilerden hangisini içermez?",
+          "options": {
+            "A": "Sil",
+            "B": "Filtrele",
+            "C": "Oluştur",
+            "D": "Sorgula",
+            "E": "Güncelle"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Verilerin bellek üzerinde tutulup diske hemen yazılmaması sayesinde çok hızlı veri giriş çıkışına olanak sağlayan VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "MySQL",
+            "B": "Microsoft Access",
+            "C": "SQL Server",
+            "D": "Redis",
+            "E": "MongoDB"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verilen SQL sorgusunun amacı, aşağıdaki hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "Farklı unvanlarla çalışan sayısını listeler.",
+            "B": "Farklı unvanlarla çalışanların maaşlarını gruplandırarak listeler.",
+            "C": "Farklı unvanlarla çalışanların toplam maaşını listeler.",
+            "D": "Farklı unvanlarla çalışanların en düşük ve en yüksek maaşlarını listeler.",
+            "E": "Farklı unvanlarla çalışanların ortalama maaşını listeler."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir veri tabanı için, veri yönetiminin sağlıklı gerçekleşebilmesi, veri yapısının veriyi etkin şekilde içermesi ve ihtiyaca göre özel filtrelerin uygulanabilmesi için doğru şekilde gerçekleştirilmesi gereken veri tabanı oluşturma sürecine verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri tabanı tasarımı",
+            "B": "Veri tabanını kazanma",
+            "C": "Veri tabanı kurgulama",
+            "D": "Veri tabanını elde etme",
+            "E": "Veri tabanı yaratma"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Birden fazla tablonun birleştirilmesi için kullanılan, işaret edici özelliği sayesinde veri bütünlüğünü garanti altına alan en önemli veri tabanı bileşeni aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bağlantılar",
+            "B": "Anahtarlar",
+            "C": "Tablolar",
+            "D": "Nitelikler",
+            "E": "Saklama alanları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi ilişkisel veri tabanlarının avantajlarından biri değildir?",
+          "options": {
+            "A": "Platform bağımsız çalışabilmesi",
+            "B": "Ölçeklenebilir olması",
+            "C": "Saklama hacmini azaltması",
+            "D": "Yapılandırılmış veri üzerinde çalışmayı sağlaması",
+            "E": "İnternet olmadan çalışmasının mümkün olmaması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi bir veri tabanıyla etkileşime geçme yöntemlerinden biri değildir?",
+          "options": {
+            "A": "SQL",
+            "B": "Veri tabanı yönetim aracı (DBeaver vb.)",
+            "C": "ORM",
+            "D": "FTP",
+            "E": "Programlama dili (Python vb.)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki seçeneklerden hangisinde yer alan SQL sorgusu, devamsız gün sayısının (devam) 20'den fazla olan kayıtlarını silmek için kullanılır?",
+          "options": {
+            "A": "UPDATE Kullanicilar SET silindi = 1 WHERE devam > 20",
+            "B": "DELETE * FROM Kullanicilar WHERE devam > 20",
+            "C": "UPDATE Kullanicilar SET silindi = 1",
+            "D": "DELETE FROM Kullanicilar WHERE devam >= 20",
+            "E": "DELETE FROM Kullanicilar WHERE devam > 20"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıdaki SQL sorgusunun açıklaması hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "Geçerli bir pasaporta sahip kullanıcıları listeler.",
+            "B": "Pasaportu olan ve yaşı 18'den küçük olan kullanıcıları listeler.",
+            "C": "18 yaşından büyük ve istihdam edilen ya da geçerli bir pasaporta sahip olan kullanıcıları listeler.",
+            "D": "18 yaşından büyük ve istihdam edilen kullanıcıların pasaport durumunu günceller.",
+            "E": "İstihdam edilen ve pasaportu olan kullanıcıların yaşını sorgular."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Genellikle donanım kapasitesi çok küçük cihazlar üzerinde alıştırılan, minimum özellik ve gereksinime sahip VTYS aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "SQLite",
+            "B": "PostgreSQL",
+            "C": "Redis",
+            "D": "SQL Server",
+            "E": "MySQL"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Veri tabanında kullanıcı ve sistem yetkilendirmeleri hangi amaçla yapılır?",
+          "options": {
+            "A": "Ölçeklenebilirliği sağlamak için",
+            "B": "Maliyeti düşürmek için",
+            "C": "Yedekleme yapmayı kolaylaştırmak için",
+            "D": "Performansı artırmak için",
+            "E": "Güvenliği sağlamak için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Eldeki bilgisayarın kapasitesinin yetersiz gelmesi durumunda teknik özelliklerinin iyileştirilmesi olarak tanımlanan ölçeklendirme yöntemi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İç",
+            "B": "Dikey",
+            "C": "Yapay",
+            "D": "Fiziksel",
+            "E": "Yatay"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_TABAN_YONETIMI_2024_final_soru_14.png",
+          "image_file": "VERI_TABAN_YONETIMI_2024_final_soru_14.png",
+          "image_path": "resim-sorular/VERI_TABAN_YONETIMI_2024_final_soru_14.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıdaki SQL birleştirme sonucu, hangi tür birleştirmedir?",
+          "options": {
+            "A": "İç içe (inner join)",
+            "B": "Sol taraflı (left join)",
+            "C": "Tamamlayıcı (full outer join)",
+            "D": "Sağ taraflı (right join)",
+            "E": "Ayırt edici (exclusive join)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bir tablo için üretilen birincil anahtarların başka bir tablo içerisinde yer alması durumunda aldığı ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Tablo",
+            "B": "Nitelik",
+            "C": "Bağlantı",
+            "D": "Zaman damgası",
+            "E": "İkincil anahtar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıdaki SQL sorgusu aşağıdaki hangi işlemi gerçekleştirir?",
+          "options": {
+            "A": "Belirli bir ürünün fiyatını günceller.",
+            "B": "Tüm ürünlerin stok miktarını belirtilen miktar kadar azaltır.",
+            "C": "Belirli bir ürünün stok miktarını belirtilen miktar kadar artırır.",
+            "D": "Belirli bir ürünün stok miktarını belirtilen miktar kadar azaltır.",
+            "E": "Belirli bir ürünü veri tabanından siler."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Veri tabanı yönetim sistemi seçiminde aşağıdakilerden hangisi dikkate alınmaz?",
+          "options": {
+            "A": "Maliyet",
+            "B": "Güvenlik",
+            "C": "Yöneticinin kişisel tercihleri",
+            "D": "Performans",
+            "E": "Ölçeklenebilirlik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Veri tabanı yönetimini, nesne yönelimli programlamanın bir parçası haline getiren teknoloji aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Anaconda",
+            "B": "Python",
+            "C": "ORM",
+            "D": "SQL",
+            "E": "VTYS"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Yukarıda verilen SQL sorgusuna bakarak, bu kodun ne yaptığını en iyi aşağıdaki hangi seçenek açıklar?",
+          "options": {
+            "A": "En çok film çeken yönetmeni bulur.",
+            "B": "Her yönetmenin çektiği film sayısını hesaplar, yönetmen adlarını ve film sayılarını azalan sırayla listeler.",
+            "C": "Her filmin yönetmenini listeler.",
+            "D": "Her yönetmenin çektiği film sayısını alfabetik sırayla listeler.",
+            "E": "En az film çeken yönetmeni bulur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,45 +1,28 @@
 {
   "course": "Yaşlı sağlığı",
   "lesson_code": "YASL_SAGL_G",
-  "exam_count": 1,
+  "exam_count": 29,
   "exams": [
     {
-      "title": "Yaşlı sağlığı 2024-2025 Final",
-      "exam_title": "Yaşlı sağlığı 2024-2025 Final",
-      "exam_type": "final",
-      "year": "2024-2025",
-      "question_count": 20,
+      "title": "Yaşlı sağlığı 2050 Vize",
+      "exam_title": "Yaşlı sağlığı 2050 Vize",
+      "exam_type": "vize",
+      "year": "2050",
+      "question_count": 19,
       "source_url": "",
-      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
       "questions": [
         {
-          "id": 1,
-          "question": "Yaşlılıkta soluk alıp vermede gözle görülür olan değişiklik aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Dakikadaki soluk alıp verme sayısının azalması",
-            "B": "Akciğer zayıflaması",
-            "C": "Hormonal eksiklikler",
-            "D": "Hareketlilikte azalma",
-            "E": "Hızlı yorulma"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
           "id": 2,
-          "question": "Aşağıdakilerden hangisi yaşlı bireylerin sosyal yaşamını etkileyen durumlardan biri değildir?",
+          "question": "Dünya sağlık örgütü istatistiklerine göre 2050 yılına ulaşıldığında nüfusun 65 yaş üstü olma miktarı aşağıdakilerden hangisidir?",
           "options": {
-            "A": "Hareket kabiliyetinin sınırlanması",
-            "B": "Çocukların evden ayrılması sonucunda aile küçülmesi",
-            "C": "Görünüşleri yüzünden dışlanma",
-            "D": "Emekli olmak",
-            "E": "Ev dışındaki yaşamda kısıtlılıklar"
+            "A": "Her beşten biri",
+            "B": "Her binden biri",
+            "C": "Her yüzden biri",
+            "D": "Her ondan biri",
+            "E": "Her ikiden biri"
           },
-          "correct_answer": "E",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -48,13 +31,13 @@
         },
         {
           "id": 3,
-          "question": "Erişkinlerin yaklaşık günlük uyku süresi uzunluğu aşağıdakilerden hangisidir?",
+          "question": "Aşağıdakilerden hangisi yaşlı nüfusun kendi içerisinde ayrıldığı alt gruplardan birisidir?",
           "options": {
-            "A": "8 saat",
-            "B": "12 saat",
-            "C": "3 saat",
-            "D": "5 saat",
-            "E": "10 saat"
+            "A": "75 ve üzeri \"çok yaşlı\"",
+            "B": "75 - 64 yaş grubu ''orta yaşlı''",
+            "C": "65 – 84 yaş grubu \"yaşlı\"",
+            "D": "45 – 55 yaş grubu \"genç yaşlı\"",
+            "E": "85 ve üzeri ''en yaşlı yaşlı''"
           },
           "correct_answer": "E",
           "explanation": "",
@@ -65,47 +48,13 @@
         },
         {
           "id": 4,
-          "question": "Yaşlı dostu çevre programı aşağıdaki örgütlerin hangisi tarafından oluşturulmuştur?",
+          "question": "Aşağıdakilerden hangisi evde bakım tanımını ifade etmek için kullanılmamaktadır?",
           "options": {
-            "A": "Yeşilay",
-            "B": "Birleşmiş Milletler",
-            "C": "NATO",
-            "D": "Dünya Sağlık Örgütü",
-            "E": "Kızılay"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "Aşağıdakilerden hangisi bellek işlevlerinin güçlenmesine katkı sağlayan yollardan biri değildir?",
-          "options": {
-            "A": "Kitap okumak",
-            "B": "Ağırlık kaldırmak",
-            "C": "Bulmaca çözmek",
-            "D": "Anılarını yazmak",
-            "E": "Hobiler geliştirmek"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "Aşağıdakilerden hangisi Ülkemizdeki yaşlı dostu kentlerden biri değildir?",
-          "options": {
-            "A": "İzmir",
-            "B": "Amasya",
-            "C": "Kastamonu",
-            "D": "Diyarbakır",
-            "E": "İstanbul"
+            "A": "Evde uzun süreli bakım",
+            "B": "Sürekli bakım",
+            "C": "Topluma dayalı uzun, süreli bakım",
+            "D": "Kesintili bakım",
+            "E": "Devamlı bakım"
           },
           "correct_answer": "D",
           "explanation": "",
@@ -115,14 +64,65 @@
           "source_image_url": ""
         },
         {
-          "id": 7,
-          "question": "Aşağıdakilerden hangisi Türkiye'de yaşlılara uygulama alanında götürülen hizmetlerden biridir?",
+          "id": 5,
+          "question": "Bireylerde aşağıdaki hangi yaştan sonra nöral süreçlerde yavaşlama görülür?",
           "options": {
-            "A": "Seyahat yardımı",
-            "B": "Spor faaliyetleri",
-            "C": "Evde bakım",
-            "D": "Eğlence faaliyetleri",
-            "E": "Eğitim faaliyetleri"
+            "A": "45",
+            "B": "25",
+            "C": "50",
+            "D": "15",
+            "E": "18"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yuvarlak hatlı mobilyalar aşağıdaki hangi kişilerin evlerinde tercih edilmelidir?",
+          "options": {
+            "A": "Dullar",
+            "B": "Gençler",
+            "C": "Evliler",
+            "D": "Olgunlar",
+            "E": "Yaşlılar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yaşlıların zorlanmadan çıkabildikleri merdivenlerin basamak yüksekliği en fazla olması gereken miktar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "180 mm",
+            "B": "170 mm",
+            "C": "140 mm",
+            "D": "200 mm",
+            "E": "160 mm"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi yaşlılığın değerlendirilmesinde kullanılabilecek hastalık yükü ölçütlerinden biri değildir?",
+          "options": {
+            "A": "50 yaş üstü nüfus beklentisi",
+            "B": "Yeti yitimine ayarlanmış yaşam yılları",
+            "C": "Yaşam yılı kaybı",
+            "D": "Yeti yitimine bağlı yaşam yılı kayıpları",
+            "E": "Doğumda sağlıklı yaşam yılı beklentisi"
           },
           "correct_answer": "A",
           "explanation": "",
@@ -132,14 +132,31 @@
           "source_image_url": ""
         },
         {
-          "id": 8,
-          "question": "Aşağıdakilerden hangisi yaşlılarda egzersiz programlarının sağladığı katkılardan biri değildir?",
+          "id": 9,
+          "question": "Kemik dokusundaki kayıplara verilen ad aşağıdakilerden hangisidir?",
           "options": {
-            "A": "Çeviklik",
-            "B": "Denge",
-            "C": "Esneklik",
-            "D": "Kuvvet çevikliğin gelişmesi",
-            "E": "Sodyum dengesi"
+            "A": "Kemik çürümesi",
+            "B": "Osteoporoz",
+            "C": "Kemik zayıflaması",
+            "D": "Kemik ölümü",
+            "E": "Kemik kırılması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi Türkiye'de yaşlılara uygulama alanında götürülen hizmetlerden biri değildir?",
+          "options": {
+            "A": "Kurumsal bakım",
+            "B": "Sosyal güvenlik uygulamaları",
+            "C": "Eğitim faaliyetleri",
+            "D": "Sosyal yardım",
+            "E": "Evde bakım"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -148,6 +165,2567 @@
           "image_path": "",
           "source_image_url": ""
         },
+        {
+          "id": 11,
+          "question": "Merkezi sinir sistemi işlevlerinde gerileme sonucunun en çok görüldüğü duyu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Düşünme",
+            "B": "İşitme",
+            "C": "Koku alma",
+            "D": "Tat alma",
+            "E": "Dokunma"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Avrupa ülkeleri nüfus yapılarına göre aşağıdaki gruplardan hangisi olarak değerlendirilmektedir?",
+          "options": {
+            "A": "Çok yaşlı toplum",
+            "B": "Genç toplum",
+            "C": "Çok genç toplum",
+            "D": "Yaşlı toplum",
+            "E": "Olgun toplum"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi Viyana'da gerçekleştirilen Uluslararası Eylem Planında yaşlılara götürülecek hizmetlere yönelik önerilerden biri değildir?",
+          "options": {
+            "A": "Sağlık bakım sistemleriyle sosyal sistemler arasında işbirliği olmalı",
+            "B": "Kurumlardaki kalite artırılmalı",
+            "C": "Rehabilitasyon kolaylıkları sağlanmalı",
+            "D": "Eğitim imkânları sağlanmalı",
+            "E": "Sağlığı geliştirmeye önem verilmeli"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi Sosyal Hizmetler ve Çocuk Esirgeme Kurumu kanununun amaçlarından biri değildir?",
+          "options": {
+            "A": "Korunmaya bakıma ya da yardıma muhtaç kişilere götürülen sosyal hizmetler",
+            "B": "İhtiyacı olanların tüm eğitim masraflarını karşılamak",
+            "C": "Muhtaç yaşlı kimseleri korumak, bakmak",
+            "D": "Muhtaç yaşlı kimseleri korumak, bakmak, sosyal ve psikolojik ihtiyaçlarını karşılamak",
+            "E": "Sosyal hizmet faaliyetinin düzenlenmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi günümüzde yaşlı nüfusun oranının en fazla olduğu ülkelerden biridir?",
+          "options": {
+            "A": "Türkiye",
+            "B": "İtalya",
+            "C": "ABD",
+            "D": "İngiltere",
+            "E": "Kanada"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Kas kuvveti aşağıdaki hangi yaşlarda maksimal düzeydedir?",
+          "options": {
+            "A": "5-10",
+            "B": "40-50",
+            "C": "20-30",
+            "D": "10-20",
+            "E": "30-40"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi yaşlılığın sınıflandırılmalarından biri değildir?",
+          "options": {
+            "A": "İleri yaşlılık",
+            "B": "Orta yaşlılık",
+            "C": "Yaşlılık",
+            "D": "Aşırı yaşlılık",
+            "E": "Çok ileri yaşlılık"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdaki başlıklardan hangisi yaşlılığın tanım başlıklarından biri olamaz?",
+          "options": {
+            "A": "Kişisel Yaşlılık",
+            "B": "Kronolojik Yaşlılık",
+            "C": "Fizyolojik yaşlılık",
+            "D": "Psikolojik yaşlılık",
+            "E": "Ekonomik yaşlılık"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi yaşlılarda kemik kayıplarının nedenlerinden biridir?",
+          "options": {
+            "A": "Dolaşım sisteminde bozukluklar",
+            "B": "Sinir sisteminde bozukluklar",
+            "C": "Ağır iş yapma",
+            "D": "Çalışmama",
+            "E": "Beslenme bozukluğu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi evde bakım gereksinimi duyan kişiye yardım edenlerden biri olamaz?",
+          "options": {
+            "A": "Mesleği evde bakım vermek olan kişiler",
+            "B": "Komşu",
+            "C": "Aile",
+            "D": "Gönüllüler",
+            "E": "Cerrah"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2050 Vize",
+      "exam_title": "Yaşlı sağlığı 2050 Vize",
+      "exam_type": "vize",
+      "year": "2050",
+      "question_count": 10,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Dünya sağlık örgütü istatistiklerine göre 2050 yılına ulaşıldığında nüfusun 65 yaş üstü olma miktarı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Her yüzden biri",
+            "B": "Her binden biri",
+            "C": "Her ondan biri",
+            "D": "Her beşten biri",
+            "E": "Her ikiden biri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi yaşlılarda kemik kayıplarının nedenlerinden biridir?",
+          "options": {
+            "A": "Çalışmama",
+            "B": "Dolaşım sisteminde bozukluklar",
+            "C": "Beslenme bozukluğu",
+            "D": "Ağır iş yapma",
+            "E": "Sinir sisteminde bozukluklar"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi yaşlılığın değerlendirilmesinde kullanılabilecek hastalık yükü ölçütlerinden biri değildir?",
+          "options": {
+            "A": "50 yaş üstü nüfus beklentisi",
+            "B": "Yaşam yılı kaybı",
+            "C": "Doğumda sağlıklı yaşam yılı beklentisi",
+            "D": "Yeti yitimine ayarlanmış yaşam yılları",
+            "E": "Yeti yitimine bağlı yaşam yılı kayıpları"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Yuvarlak hatlı mobilyalar aşağıdaki hangi kişilerin evlerinde tercih edilmelidir?",
+          "options": {
+            "A": "Olgunlar",
+            "B": "Evliler",
+            "C": "Dullar",
+            "D": "Gençler",
+            "E": "Yaşlılar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Kas kuvveti aşağıdaki hangi yaşlarda maksimal düzeydedir?",
+          "options": {
+            "A": "10-20",
+            "B": "40-50",
+            "C": "20-30",
+            "D": "5-10",
+            "E": "30-40"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdaki başlıklardan hangisi başlık yaşlılığın tanım başlıklarından biri olamaz?",
+          "options": {
+            "A": "Ekonomik yaşlılık",
+            "B": "Fizyolojik yaşlılık",
+            "C": "Kronolojik Yaşlılık",
+            "D": "Psikolojik yaşlılık",
+            "E": "Kişisel Yaşlılık"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi günümüzde yaşlı nüfusun oranının en fazla olduğu ülkelerden biridir?",
+          "options": {
+            "A": "Kanada",
+            "B": "İngiltere",
+            "C": "Türkiye",
+            "D": "ABD",
+            "E": "İtalya"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi evde bakım tanımını ifade etmek için kullanılmamaktadır?",
+          "options": {
+            "A": "Evde uzun süreli bakım",
+            "B": "Kesintili bakım",
+            "C": "Devamlı bakım",
+            "D": "Sürekli bakım",
+            "E": "Topluma dayalı uzun, süreli bakım"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi Türkiye'de yaşlılara uygulama alanmda götürülen hizmetlerden biri değildir?",
+          "options": {
+            "A": "Sosyal yardım",
+            "B": "Evde bakım",
+            "C": "Kurumsal bakım",
+            "D": "Sosyal güvenlik uygulamaları",
+            "E": "Eğitim faaliyetleri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi Sosyal Hizmetler ve Çocuk Esirgeme Kurumu kanununun amaçlarından biri değildir?",
+          "options": {
+            "A": "Muhtaç yaşlı kimseleri korumak, bakmak",
+            "B": "Korunmaya bakıma ya da yardıma muhtaç kişilere götürülen sosyal hizmetler",
+            "C": "Sosyal hizmet faaliyetinin düzenlenmesi",
+            "D": "Muhtaç yaşlı kimseleri korumak, bakmak, sosyal ve psikolojik ihtiyaçlarını karşılamak",
+            "E": "İhtiyacı olanların tüm eğitim masraflarını karşılamak"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2050 Vize",
+      "exam_title": "Yaşlı sağlığı 2050 Vize",
+      "exam_type": "vize",
+      "year": "2050",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 30,
+          "question": "Dünyada son 30 yılda 60 yaş ve üzeri kişi sayısı ikiye katlanmış olup 2050 yılında ise ……….. da fazla artması beklenmektedir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "İki yöntemi",
+            "B": "İki ilkesi",
+            "C": "İki kattan",
+            "D": "kattan yaklaşımı",
+            "E": "İki değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2050 Vize",
+      "exam_title": "Yaşlı sağlığı 2050 Vize",
+      "exam_type": "vize",
+      "year": "2050",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 14,
+          "question": "Dünyada son 30 yılda 60 yaş ve üzeri kişi sayısı ikiye katlanmış olup 2050 yılında ise ………………… da fazla artması beklenmektedir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Altı kattan",
+            "B": "Dört kattan",
+            "C": "Beş kattan",
+            "D": "Üç kattan",
+            "E": "İki kattan"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Enerji metabolizması, ısı düzenlenmesi gibi birçok vücut fonksiyonunda etkili olan tiroit hormonunun salgılanma kapasitesi 20 ile 80 yaşları arasında ………… oranında düşer. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "%70",
+            "B": "%50",
+            "C": "%40",
+            "D": "%60",
+            "E": "%30"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Dünya Sağlık Örgütü (DSÖ) yaşlılık dönemi için kronolojik tanımlamayı dikkate almakta ve bu dönemi \"…….. yaş ve üzeri\" olarak kabul etmektedir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "55",
+            "B": "65",
+            "C": "75",
+            "D": "85",
+            "E": "45"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yaşlıların büyük bir kısmı (%……), özellikle de çok ileri yaşlı grubundakilerin (%……..) çocuklarıyla aynı evi paylaşmaktadır. Yukarıdaki boşluklara uygun olan ifadeler aşağıdaki seçeneklerden hangisinde verilmiştir?",
+          "options": {
+            "A": "35-67",
+            "B": "56-78",
+            "C": "44-57",
+            "D": "40-60",
+            "E": "60-70"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "SHÇEK'nin hangi dairesi yaşlıların kaldığı huzurevleri ile ilgilenir?",
+          "options": {
+            "A": "Çocuk Hizmetleri Dairesi",
+            "B": "Erkek Hizmetleri Dairesi",
+            "C": "Yaşlı Hizmetleri Dairesi",
+            "D": "Kadın Hizmetleri Dairesi",
+            "E": "İhtiyar Hizmetleri Dairesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yaşlılıkta her ……….. yıllık yaşam diliminde aktif vücut dokusunun yaklaşık %3-5'lik bir bölümünün kaybı söz konusudur. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "On beş",
+            "B": "Bir",
+            "C": "Yirmi",
+            "D": "On",
+            "E": "Beş"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "İngiltere'de yaşlı erkeklerin ………… tek başına yaşamaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yarısı",
+            "B": "Dörtte biri",
+            "C": "Beşte biri",
+            "D": "Üçte biri",
+            "E": "Tamamı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Yaşlıların yaşadığı evlerin oturma odalarındaki ……………… ve kanepeler sağlam ve güvenli olmalı, eğilme ya da sallanma yapmamalıdır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Masa",
+            "B": "Komidin",
+            "C": "Sehpa",
+            "D": "Yürüteç",
+            "E": "Sandalye"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Yaşlanmanın fizyolojik bir sonucu olarak ……….. kasının dejenerasyonu sonucunda kan debisi azalır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Böbrek",
+            "B": "Kalp",
+            "C": "Mide",
+            "D": "Akciğer",
+            "E": "Karaciğer"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "Gençlerde dakikada 200 civarı olan kalp atım sayısı, 65 yaşında dakikada ………….'lara kadar düşer. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "175-180",
+            "B": "195-200",
+            "C": "155-160",
+            "D": "185-190",
+            "E": "165-170"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 24,
+          "question": "Yaşlıların yaşadığı evlerde oturma kalkma eyleminin olduğu tüm alanlarda ……………………. bulunmalıdır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Görsel uyarılar",
+            "B": "Sesli uyarılar",
+            "C": "Tutunma kolları",
+            "D": "Işıklı uyarılar",
+            "E": "İzli uyarılar"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 25,
+          "question": "Kemik dokusundaki kalsiyum kaybı ………. yaşındaki erkeklerde yaklaşık %8,8, bayanlarda 13,8'dir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "60",
+            "B": "70",
+            "C": "65",
+            "D": "55",
+            "E": "50"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 26,
+          "question": "Aşağıdakilerden hangisi Uluslararası Eylem Planı'nda yaşlılara götürülecek hizmetlerden biri değildir?",
+          "options": {
+            "A": "Toplumda bağımsız yaşam desteklenmelidir.",
+            "B": "Kurumlarda kalite artırılmalıdır.",
+            "C": "Rehabilitasyon kolaylıkları sağlanmalıdır.",
+            "D": "Yalnızca gerektiğinde kurumsallaşma olmalıdır.",
+            "E": "Ailelere eğitim verilmelidir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 27,
+          "question": "Dünya Sağlık Örgütü'nün 21. yüzyılda \"Herkes İçin Sağlık\" temasında hedef; ev ortamında sağlıklı bir düzeyde yaşayabilen 80'li yaşlarda insanların oranın en az ……… arttırılmasıdır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "%40",
+            "B": "%50",
+            "C": "%60",
+            "D": "%80",
+            "E": "%70"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 28,
+          "question": "Yaşlıların yaşadığı evlerin mutfaklarında özellikle bıçak kullanılan çalışma yüzeylerinde ………………….. kullanılmamalıdır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kırmızı ışık",
+            "B": "Mat ışık",
+            "C": "Sarı ışık",
+            "D": "Yeşil ışık",
+            "E": "Parlak ışık"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 29,
+          "question": "Yaşlanma ile birlikte ortaya çıkan değişiklikler arasında en çok dikkati çekenler…………….sistemi ve …………………..sistemi ile ilgili olanlardır. Yukarıdaki boşluklara uygun olan ifadeler aşağıdaki seçeneklerden hangisinde verilmiştir?",
+          "options": {
+            "A": "Üreme – Boşaltım",
+            "B": "Sindirim – Boşaltım",
+            "C": "Solunum – Üreme",
+            "D": "Solunum – Boşaltım",
+            "E": "Kalp damar – Solunum"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 30,
+          "question": "Avustralya'da …………yaş üzerindeki erkeklerin %13'ü yalnız yaşamaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "55",
+            "B": "65",
+            "C": "95",
+            "D": "85",
+            "E": "75"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 31,
+          "question": "Yaşlılara götürülecek hizmetlere yönelik \"Uluslararası Eylem Planı\" Avrupa'nın hangi şehrinde gerçekleştirilmiştir?",
+          "options": {
+            "A": "Viyana",
+            "B": "Berlin",
+            "C": "Budapeşte",
+            "D": "Hamburg",
+            "E": "Paris"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 32,
+          "question": "Biyolojik olarak takvim yaşı ilerleyen insana ne ad verilir?",
+          "options": {
+            "A": "Amca",
+            "B": "Ergen",
+            "C": "Dede",
+            "D": "Büyükbaba",
+            "E": "Yaşlı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2025 Vize",
+      "exam_title": "Yaşlı sağlığı 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yaşlıların geçirdiği düşme sebepli kırıkların ev ortamında gerçekleşme yüzdesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "100",
+            "B": "50",
+            "C": "30",
+            "D": "85",
+            "E": "15"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2025 Vize",
+      "exam_title": "Yaşlı sağlığı 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 6,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 31,
+          "question": "Dünya Sağlık Örgütünün tahminlerine göre doğumda yaşam beklentisi 2025 yılında……olarak belirtilmektedir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "75",
+            "B": "73",
+            "C": "74",
+            "D": "76",
+            "E": "77"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 32,
+          "question": "Aşağıdakilerden hangisi Sosyal Hizmetler ve Çocuk Esirgeme Kurumu kanununun amaçlarından biri değildir?",
+          "options": {
+            "A": "İhtiyacı olanların tüm eğitim masraflarını ilkesi",
+            "B": "İhtiyacı olanların tüm eğitim masraflarını karşılamak",
+            "C": "İhtiyacı olanların tüm eğitim masraflarını değildir",
+            "D": "karşılamak yaklaşımı",
+            "E": "İhtiyacı olanların tüm eğitim masraflarını yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 33,
+          "question": "Yaşlılıkta soluk alıp vermede gözle görülür olan değişiklik nedir?",
+          "options": {
+            "A": "Dakikadaki soluk alıp verme sayısının yöntemi",
+            "B": "Dakikadaki soluk alıp verme sayısının ilkesi",
+            "C": "Dakikadaki soluk alıp verme sayısının azalması",
+            "D": "azalması yaklaşımı",
+            "E": "Dakikadaki soluk alıp verme sayısının değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 34,
+          "question": "Yaşlılığa özel hizmetlerin hedefi aşağıdakilerden hangisi değildir?",
+          "options": {
+            "A": "Yaşlının fonksiyonel kapasitesinin arttırılması",
+            "B": "Yaşlının fonksiyonel kapasitesinin ilkesi",
+            "C": "arttırılması yaklaşımı",
+            "D": "Yaşlının fonksiyonel kapasitesinin yöntemi",
+            "E": "Yaşlının fonksiyonel kapasitesinin değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 35,
+          "question": "Yuvarlak hatlı mobilyalar hangi kişilerin evlerinde tercih edilmelidir?",
+          "options": {
+            "A": "Yaşlılar ilkesi",
+            "B": "Yaşlılar yaklaşımı",
+            "C": "Yaşlılar değildir",
+            "D": "Yaşlılar",
+            "E": "Yaşlılar yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 36,
+          "question": "Bir kişi ……yaşına geldiğinde solunum kapasitesi 30 yaşındaki değerin yarısına iner. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "68",
+            "B": "72",
+            "C": "70",
+            "D": "69",
+            "E": "71"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2025 Vize",
+      "exam_title": "Yaşlı sağlığı 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 37,
+          "question": "Aşağıdakilerden hangisi 2025 yılında en büyük yaşlı oranına sahip olması beklenen 5 ülkeden biri değildir?",
+          "options": {
+            "A": "ABD yaklaşımı",
+            "B": "ABD",
+            "C": "ABD ilkesi",
+            "D": "ABD değildir",
+            "E": "ABD yöntemi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 38,
+          "question": "Yaşlılığın sınıflandırılmasında \"orta yaşlılık\" hangi yaşlar arasını kapsar?",
+          "options": {
+            "A": "40-65 yöntemi",
+            "B": "40-65 değildir",
+            "C": "40-65 yaş",
+            "D": "40-65 ilkesi",
+            "E": "yaş yaklaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 39,
+          "question": "Darülaceze hangi yılda kurulmuştur?",
+          "options": {
+            "A": "1897",
+            "B": "1893",
+            "C": "1895",
+            "D": "1894",
+            "E": "1896"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 40,
+          "question": "Yaşlanma ile birlikte erkeklerde…………..kadınlarda………dönemleri fizyolojik değişimlere sebep olur. Yukarıdaki cümlede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Andropoz-Menopoz",
+            "B": "Andropoz-Menopoz değildir",
+            "C": "Andropoz-Menopoz ilkesi",
+            "D": "Andropoz-Menopoz yaklaşımı",
+            "E": "Andropoz-Menopoz yöntemi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 41,
+          "question": "Aşağıdakilerden hangisi ıslak zeminler için güvenlik listesinde yoktur?",
+          "options": {
+            "A": "olmalıdır yaklaşımı",
+            "B": "Telefon, bardak, ilaçlar gibi önemli maddeleri koyabilecek küçük sabit masa/ komedin yöntemi",
+            "C": "Telefon, bardak, ilaçlar gibi önemli maddeleri koyabilecek küçük sabit masa/ komedin ilkesi",
+            "D": "Telefon, bardak, ilaçlar gibi önemli maddeleri koyabilecek küçük sabit masa/ komedin değildir",
+            "E": "Telefon, bardak, ilaçlar gibi önemli maddeleri koyabilecek küçük sabit masa/ komedin olmalıdır"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 42,
+          "question": "Kemik dokusundaki kayıplara ne ad verilir?",
+          "options": {
+            "A": "Osteoporoz yaklaşımı",
+            "B": "Osteoporoz",
+            "C": "Osteoporoz değildir",
+            "D": "Osteoporoz ilkesi",
+            "E": "Osteoporoz yöntemi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 43,
+          "question": "Aşağıdakilerden hangisinin yaşlılarda ev kazaları görülme sıklığını azaltacağı düşünülmektedir?",
+          "options": {
+            "A": "Evleri rahatlatıcı renklere değildir",
+            "B": "Evleri rahatlatıcı renklere boyamak",
+            "C": "Evleri rahatlatıcı renklere yöntemi",
+            "D": "Evleri rahatlatıcı renklere ilkesi",
+            "E": "boyamak yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 44,
+          "question": "''Herkese Sağlık-Türkiye'nin Hedef ve Stratejileri'' projesi hangi bakanlık tarafından hedeflenmektedir?",
+          "options": {
+            "A": "Sağlık Bakanlığı",
+            "B": "Sağlık yöntemi",
+            "C": "Bakanlığı yaklaşımı",
+            "D": "Sağlık değildir",
+            "E": "Sağlık ilkesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 45,
+          "question": "1982 yılında Birleşmiş Milletler Dünya Kurultayına UNESCO tarafından hazırlanan ….. ve ….. adlı rapor sunulmuştur. Yukarıdaki cümlede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Yaşlanma yaklaşımı",
+            "B": "Eğitim – ilkesi",
+            "C": "Eğitim – Yaşlanma",
+            "D": "Eğitim – yöntemi",
+            "E": "Eğitim – değildir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2025 Vize",
+      "exam_title": "Yaşlı sağlığı 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 12,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 47,
+          "question": "Nüfus projeksiyonlarına göre 2025 yılında 65 yaş ve üzeri nüfusun ……… milyona ulaşacağı tahmin edilmektedir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "8,5",
+            "B": "6,5",
+            "C": "7,5",
+            "D": "9,5",
+            "E": "5,5"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 48,
+          "question": "Yapılan bir çalışmaya göre düşme nedenli kırıkların %…….'inin evde gerçekleştiği saptanmıştır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "65",
+            "B": "95",
+            "C": "75",
+            "D": "85",
+            "E": "100"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 49,
+          "question": "Yaşlılık haftası hangi tarihlerde kutlanır?",
+          "options": {
+            "A": "07-13 Mart",
+            "B": "18-24 Mart",
+            "C": "13-19 Mart",
+            "D": "21-27 Mart",
+            "E": "15-21 Mart"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 50,
+          "question": "………. birlikte nöronların ölmesine bağlı olarak beyin hacminde küçülme ve ağırlığında azalma olmaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yaşlılıkla",
+            "B": "Bebeklikle",
+            "C": "Ergenlikle",
+            "D": "Gençlikle",
+            "E": "Çocuklukla"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 51,
+          "question": "……… sisteminin mineral içeriğindeki azalma, kas gücünde zayıflama ve kas kütlesinde azalma sonucunda yaşlıda hareket yeteneği düşer. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Boşaltma",
+            "B": "İskelet",
+            "C": "Üreme",
+            "D": "Dolaşım",
+            "E": "Sinir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 52,
+          "question": "16 -Yaşlılar için toplumda……………yaşam desteklenmeli. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Birlikte",
+            "B": "Ailece",
+            "C": "Eşiyle",
+            "D": "Akrabalarla",
+            "E": "Bağımsız"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 53,
+          "question": "Dünya Sağlık Örgütü (DSÖ) yaşlılık dönemi olarak ……………… grubu almaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "65 yaş ve üzeri",
+            "B": "85 yaş ve üzeri",
+            "C": "75 yaş ve üzeri",
+            "D": "55 yaş ve üzeri",
+            "E": "95 yaş ve üzeri"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 54,
+          "question": "Darülaceze'nin kuruluş yılı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "1695",
+            "B": "1595",
+            "C": "1495",
+            "D": "1795",
+            "E": "1895"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 55,
+          "question": "Kan şekerinin düzenlenmesi, ………. yaşlardaki erkeklerde %20, bayanlardaysa %30'lara kadar düşer…Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "60'lı",
+            "B": "100'lü",
+            "C": "70'li",
+            "D": "80'li",
+            "E": "90′"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 56,
+          "question": "Ülkemizde yapılan bir araştırmada 200 emekli insanın ……….emeklilik sonrasında ruhsal bozukluk görülmüştür. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "%43'ünde",
+            "B": "%53'ünde",
+            "C": "%23'ünde",
+            "D": "%33'ünde",
+            "E": "%13'ünde"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 57,
+          "question": "SHÇEK'nin açılımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sosyal Hizmetler Çocuk Esirgeme Kurumu",
+            "B": "Sağlık Hizmetleri Çocuk Ev Edindirme Kurumu",
+            "C": "Sosyal Hizmetler Çalık Esirgeme Kurumu",
+            "D": "Sosyal Hizmetler Ev Edindirme Kurumu",
+            "E": "Sağlık Hizmetleri Çocuk Esirgeme Kurumu"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 58,
+          "question": "20–30 yaşlarında maksimal düzeyde olan kas kuvveti, 65 yaşlarında yaklaşık ……… oranında azalır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "%100",
+            "B": "%80",
+            "C": "%60",
+            "D": "%90",
+            "E": "%70"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2025 Vize",
+      "exam_title": "Yaşlı sağlığı 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 4,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 61,
+          "question": "Dünya Sağlık Örgütü'nün tahminlerine göre, doğumda yaşam beklentisi 2025 yılında……olarak belirtilmektedir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "75",
+            "B": "65",
+            "C": "55",
+            "D": "95",
+            "E": "85"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 62,
+          "question": "Her ………… yaşlıdan birinin kronik bir rahatsızlığı bulunmaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "6",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "7"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 63,
+          "question": "Yaşlılar için yalnızca gerektiğinde kurumsallaşma olmalı, ………….. bakım desteklenmeli. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Otelde",
+            "B": "Akrabada",
+            "C": "Huzurevinde",
+            "D": "Evde",
+            "E": "Okulda"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 64,
+          "question": "………… yaşından sonra kendini yenileme yeteneğinden yoksun olan beyindeki sinir hücreleri olan nöronların kaybı hızlanmaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "60",
+            "B": "70",
+            "C": "90",
+            "D": "80",
+            "E": "50"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2024 Vize",
+      "exam_title": "Yaşlı sağlığı 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 10,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi Viyana'da gerçekleştirilen Uluslararası Eylem Planında yaşlılara götürülecek hizmetlere yönelik önerilerden biri değildir?",
+          "options": {
+            "A": "Kurumlardaki kalite artırılmalı",
+            "B": "Sağlık bakım sistemleriyle sosyal sistemler arasında işbirliği olmalı.",
+            "C": "Sağlığı geliştirmeye önem verilmeli",
+            "D": "Eğitim imkânları sağlanmalı",
+            "E": "Rehabilitasyon kolaylıkları sağlanmalı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Avrupa ülkeleri nüfus yapılarına göre aşağıdaki gruplardan hangisi olarak değerlendirilmektedir?",
+          "options": {
+            "A": "Olgun toplum",
+            "B": "Çok genç toplum",
+            "C": "Çok yaşlı toplum",
+            "D": "Yaşlı toplum",
+            "E": "Genç toplum"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Merkezi sinir sistemi işlevlerinde gerileme sonucunun en çok görüldüğü duyu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Düşünme",
+            "B": "Tat alma",
+            "C": "Koku alma",
+            "D": "İşitme",
+            "E": "Dokunma"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yaşlıların geçirdiği düşme sebepli kırıkların ev ortamında gerçekleşme yüzdesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "15",
+            "B": "50",
+            "C": "85",
+            "D": "100",
+            "E": "30"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi yaşlılığın sınıflandırılmalarından biri değildir?",
+          "options": {
+            "A": "Orta yaşlılık",
+            "B": "Aşırı Yaşlılık",
+            "C": "Yaşlılık",
+            "D": "Çok ileri yaşlılık",
+            "E": "İleri yaşlılık"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bireylerde aşağıdaki hangi yaştan sonra nöral süreçlerde yavaşlama görülür?",
+          "options": {
+            "A": "45",
+            "B": "15",
+            "C": "18",
+            "D": "25",
+            "E": "50"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Kemik dokusundaki kayıplara verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Osteoporoz",
+            "B": "Kemik zayıflaması",
+            "C": "Kemik çürümesi",
+            "D": "Kemik ölümü",
+            "E": "Kemik kırılması"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yaşlıların zorlanmadan çıkabildikleri merdivenlerin basamak yüksekliği en fazla olması gereken miktar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "180 mm",
+            "B": "160 mm",
+            "C": "140 mm",
+            "D": "200 mm",
+            "E": "170 mm"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi evde bakım gereksinimi duyan kişiye yardım edenlerden biri olamaz?",
+          "options": {
+            "A": "Komşu",
+            "B": "Cerrah",
+            "C": "Mesleği evde bakım vermek olan kişiler",
+            "D": "Gönüllüler",
+            "E": "Aile"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi yaşlı nüfusun kendi içerisinde ayrıldığı alt gruplardan birisidir?",
+          "options": {
+            "A": "85 ve üzeri \"'en yaşlı yaşlı\"",
+            "B": "75 ve üzeri \"çok yaşlı\"",
+            "C": "65-84 yaş grubu \"yaşlı\"",
+            "D": "75-64 yaş grubu \"orta yaşlı\"",
+            "E": "45-55 yaş grubu \"genç yaşlı\""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2021 Vize",
+      "exam_title": "Yaşlı sağlığı 2021 Vize",
+      "exam_type": "vize",
+      "year": "2021",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yaşlılık sorunları ile ilgili bir terim olan gerontoloji ile anlatılmak istenen aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yaşlanma olayını konu edinen bilim dalı",
+            "B": "dalı yaklaşımı",
+            "C": "Yaşlanma olayını konu edinen bilim yöntemi",
+            "D": "Yaşlanma olayını konu edinen bilim değildir",
+            "E": "Yaşlanma olayını konu edinen bilim ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2010 Vize",
+      "exam_title": "Yaşlı sağlığı 2010 Vize",
+      "exam_type": "vize",
+      "year": "2010",
+      "question_count": 25,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 5,
+          "question": "Toplumun yaş yapısı hakkında bilgi veren ölçütlerden biri olan yaşlılık indeksi Türkiye'de 2010 nüfusuna göre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "26.8",
+            "B": "27,8",
+            "C": "28,8",
+            "D": "24,8",
+            "E": "25,8"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "………yaşından sonra kendini yenileme yeteneğinden yoksun olan beyindeki sinir hücreleri olan nöronların kaybı hızlanmaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "59",
+            "B": "60",
+            "C": "61",
+            "D": "58",
+            "E": "62"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi yaşlılığa özel hizmetlerin hedeflerinden biridir?",
+          "options": {
+            "A": "Yaşlıya bakım kalitesinin arttırılması",
+            "B": "Yaşlıya bakım kalitesinin ilkesi",
+            "C": "arttırılması yaklaşımı",
+            "D": "Yaşlıya bakım kalitesinin değildir",
+            "E": "Yaşlıya bakım kalitesinin yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi yatak odası için güvenlik listesinde bulunmaktadır?",
+          "options": {
+            "A": "Yatak odasından banyo/ tuvalete giden koridora gece lambası ilkesi",
+            "B": "Yatak odasından banyo/ tuvalete giden koridora gece lambası yöntemi",
+            "C": "Yatak odasından banyo/ tuvalete giden koridora gece lambası kullanılmalıdır",
+            "D": "kullanılmalıdır yaklaşımı",
+            "E": "Yatak odasından banyo/ tuvalete giden koridora gece lambası değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Sosyal gerontoloji araştırmaları aşağıdakilerden hangisini içermez?",
+          "options": {
+            "A": "Yaşlı ilkesi",
+            "B": "Yaşlı hastalıkları",
+            "C": "Yaşlı yöntemi",
+            "D": "Yaşlı değildir",
+            "E": "hastalıkları yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yaşlıların zorlanmadan çıkabildikleri merdivenlerin basamak yüksekliği en fazla ne olmalıdır?",
+          "options": {
+            "A": "140 değildir",
+            "B": "140 ilkesi",
+            "C": "140 mm",
+            "D": "140 yöntemi",
+            "E": "mm yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi günümüzde yaşlı nüfusun oranının en fazla olduğu ülkelerden biridir?",
+          "options": {
+            "A": "İtalya",
+            "B": "İtalya değildir",
+            "C": "İtalya ilkesi",
+            "D": "İtalya yaklaşımı",
+            "E": "İtalya yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Özellikle ……………bölgesinde meydana gelen kireçlenmeler, şekil bozuklukları, beyine giden damarlara yaptığı bası nedeniyle beyin kan akımında bir azalmaya yol açar. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Boyun",
+            "B": "Boyun ilkesi",
+            "C": "Boyun yöntemi",
+            "D": "Boyun değildir",
+            "E": "Boyun yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yaşlılara götürülecek hizmetlere yönelik \"Uluslararası Eylem Planı\" aşağıdaki şehirlerin hangisinde gerçekleştirilmiştir?",
+          "options": {
+            "A": "Viyana yöntemi",
+            "B": "Viyana yaklaşımı",
+            "C": "Viyana değildir",
+            "D": "Viyana",
+            "E": "Viyana ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Dünya Sağlık Örgütü (DSÖ- yaşlılık dönemi olarak …………….grubu almaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "65 yaş ve üzeri",
+            "B": "65 yaş ve yöntemi",
+            "C": "65 yaş ve ilkesi",
+            "D": "65 yaş ve değildir",
+            "E": "üzeri yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yaşlıların geçirdiği düşme sebepli kırıkların yüzde kaçı ev ortamlarında gerçekleşmektedir?",
+          "options": {
+            "A": "86",
+            "B": "87",
+            "C": "83",
+            "D": "84",
+            "E": "85"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi yaşlılığın değerlendirilmesinde kullanılabilecek hastalık yükü ölçütlerinden biri değildir?",
+          "options": {
+            "A": "50 yaş üstü nüfus beklentisi",
+            "B": "50 yaş üstü nüfus değildir",
+            "C": "beklentisi yaklaşımı",
+            "D": "50 yaş üstü nüfus ilkesi",
+            "E": "50 yaş üstü nüfus yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yaşlılık haftası hangi günler arasında kutlanır?",
+          "options": {
+            "A": "18-24 ilkesi",
+            "B": "18-24 yöntemi",
+            "C": "18-24 Mart",
+            "D": "Mart yaklaşımı",
+            "E": "18-24 değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yaşlılığa özel hizmetlerin hedefleri aşağıdakilerden hangisi değildir?",
+          "options": {
+            "A": "Yaşlıya farklı eğitim olanakları ilkesi",
+            "B": "sunulması yaklaşımı",
+            "C": "Yaşlıya farklı eğitim olanakları yöntemi",
+            "D": "Yaşlıya farklı eğitim olanakları değildir",
+            "E": "Yaşlıya farklı eğitim olanakları sunulması"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yaşlılık sorunları ile ilgili bir terim olan geriatri ile anlatılmak istenen aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yaşlılık ve hastalıklarını konu edinen tıp ilkesi",
+            "B": "dalı yaklaşımı",
+            "C": "Yaşlılık ve hastalıklarını konu edinen tıp dalı",
+            "D": "Yaşlılık ve hastalıklarını konu edinen tıp değildir",
+            "E": "Yaşlılık ve hastalıklarını konu edinen tıp yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi mutfak için güvenlik listesinde bulunmaktadır?",
+          "options": {
+            "A": "kullanılmamalıdır yaklaşımı",
+            "B": "Özellikle bıçak kullanılan çalışma yüzeylerinde parlak ışık kullanılmamalıdır",
+            "C": "Özellikle bıçak kullanılan çalışma yüzeylerinde parlak ışık ilkesi",
+            "D": "Özellikle bıçak kullanılan çalışma yüzeylerinde parlak ışık yöntemi",
+            "E": "Özellikle bıçak kullanılan çalışma yüzeylerinde parlak ışık değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Aşağıdakilerden hangisi yatak odası için güvenlik listesinde yoktur?",
+          "options": {
+            "A": "Kaymayan terlikler yöntemi",
+            "B": "Kaymayan terlikler kullanılmalıdır",
+            "C": "Kaymayan terlikler ilkesi",
+            "D": "kullanılmalıdır yaklaşımı",
+            "E": "Kaymayan terlikler değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Aşağıdakilerden hangisi yaşlıların büyük çoğunluğunun ev içerisinde yapabildiği görevlerdendir?",
+          "options": {
+            "A": "Banyo değildir",
+            "B": "Banyo ilkesi",
+            "C": "yapmak yaklaşımı",
+            "D": "Banyo yapmak",
+            "E": "Banyo yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "Aşağıdakilerden hangisi yaşlı nüfusun kendi içerisinde ayrıldığı alt gruplardan birisidir?",
+          "options": {
+            "A": "85 ve üzeri ''en yaşlı yöntemi",
+            "B": "85 ve üzeri ''en yaşlı yaşlı''",
+            "C": "85 ve üzeri ''en yaşlı değildir",
+            "D": "yaşlı'' yaklaşımı",
+            "E": "85 ve üzeri ''en yaşlı ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 24,
+          "question": "Sosyal gerontoloji teorileri, sosyal ………. süreçlerini açıklamaya çalışırlar. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Yaşlanma yaklaşımı",
+            "B": "Yaşlanma yöntemi",
+            "C": "Yaşlanma değildir",
+            "D": "Yaşlanma ilkesi",
+            "E": "Yaşlanma"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 25,
+          "question": "Ülkemizde yaşlıların yüzde kaçının herhangi bir geliri yoktur?",
+          "options": {
+            "A": "29",
+            "B": "31",
+            "C": "30",
+            "D": "32",
+            "E": "33"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 26,
+          "question": "Yaşlıların yaşadığı evlerde yatak odasından banyo/tuvalete giden koridorda ……… kullanılmalıdır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Gece ilkesi",
+            "B": "Gece lambası",
+            "C": "lambası yaklaşımı",
+            "D": "Gece yöntemi",
+            "E": "Gece değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 27,
+          "question": "Cumhuriyet'in kuruluşundan sonra 1927 yılında yapılan ilk sayımda Türkiye nüfusu, ……….. milyon olarak sayılmıştır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "11,6",
+            "B": "12,6",
+            "C": "14,6",
+            "D": "15,6",
+            "E": "13.6"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 28,
+          "question": "Viyana'da gerçekleştirilen Uluslararası Eylem Planında yaşlılara götürülecek hizmetlere yönelik aşağıdaki öneriler ortaya konmuştur. Buna göre yaşlılar için toplumda……..yaşam desteklenmelidir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Bağımsız yaklaşımı",
+            "B": "Bağımsız",
+            "C": "Bağımsız yöntemi",
+            "D": "Bağımsız değildir",
+            "E": "Bağımsız ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 29,
+          "question": "Biyolojik olarak takvim yaşı ilerleyen insana ne ad verilir?",
+          "options": {
+            "A": "Yaşlı ilkesi",
+            "B": "Yaşlı yöntemi",
+            "C": "Yaşlı",
+            "D": "Yaşlı değildir",
+            "E": "Yaşlı yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2010 Vize",
+      "exam_title": "Yaşlı sağlığı 2010 Vize",
+      "exam_type": "vize",
+      "year": "2010",
+      "question_count": 5,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 33,
+          "question": "Toplumun yaş yapısı hakkında bilgi veren ölçütlerden biri olan yaşlılık indeksi Türkiye'de 2010 nüfusuna göre kaçtır?",
+          "options": {
+            "A": "25,8",
+            "B": "26,8",
+            "C": "25,6",
+            "D": "24,5",
+            "E": "28,8"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 34,
+          "question": "Kızılay Derneği hangi yıl kurulmuştur?",
+          "options": {
+            "A": "1568",
+            "B": "1868",
+            "C": "1768",
+            "D": "1968",
+            "E": "1668"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 35,
+          "question": "Sosyal gerentoloji araştırmaları aşağıdakilerden hangisini içermez?",
+          "options": {
+            "A": "Sosyal etkileşim",
+            "B": "Yaşamdan hoşnut olmak",
+            "C": "Sosyal kalıtım",
+            "D": "Hobiler",
+            "E": "Yaşlı hastalıkları"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 36,
+          "question": "Türkiye'de 1940'lı yıllarda erkekler 30 yaşına, kadınlar ise 33 yaşına kadar yaşarken günümüzde bu süre erkekler için …….'e, kadınlar için ise……….'ya çıkmıştır. Yukarıdaki boşluklara uygun olan ifadeler aşağıdaki seçeneklerden hangisinde verilmiştir?",
+          "options": {
+            "A": "41-46",
+            "B": "51-56",
+            "C": "61-66",
+            "D": "71-76",
+            "E": "81-86"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 37,
+          "question": "………… yılında Sağlık Bakanlığı tarafından Ulusal Yaşlı Sağlığı Programı'nın geliştirilmesi ve uygulanması hedeflenmiştir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2008 Vize",
+      "exam_title": "Yaşlı sağlığı 2008 Vize",
+      "exam_type": "vize",
+      "year": "2008",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 2,
+          "question": "TNSA-2008 sonuçlarına göre 65 yaş ve üzerinde olanların %……. sağlık güvencesi bulunmamaktadır ve yaş ilerledikçe sağlık güvencesi olmayanların yüzdesi de artmaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "12'sinin ilkesi",
+            "B": "12'sinin değildir",
+            "C": "12'sinin yöntemi",
+            "D": "12'sinin",
+            "E": "12'sinin yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi yaşlılarda kemik kayıplarının nedenlerinden biridir?",
+          "options": {
+            "A": "Beslenme bozukluğu",
+            "B": "Beslenme ilkesi",
+            "C": "Beslenme değildir",
+            "D": "bozukluğu yaklaşımı",
+            "E": "Beslenme yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yaşlılar için yalnızca gerektiğinde kurumsallaşma olmalı, ………bakım desteklenmeli. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Evde",
+            "B": "Evde değildir",
+            "C": "Evde yöntemi",
+            "D": "Evde yaklaşımı",
+            "E": "Evde ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2008 Vize",
+      "exam_title": "Yaşlı sağlığı 2008 Vize",
+      "exam_type": "vize",
+      "year": "2008",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 5,
+          "question": "Türkiye Nüfus ve Sağlık Araştırmaları 2008 sonuçlarına göre 65 yaş ve üzerinde olanların …………… sağlık güvencesi bulunmamaktadır ve yaş ilerledikçe sağlık güvencesi olmayanların yüzdesi de artmaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "%13'ünün",
+            "B": "%15'inin",
+            "C": "%12'sinin",
+            "D": "%14'ünün",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "1982 yılında Birleşmiş Milletler Dünya Kurultayı'na UNESCO tarafından hazırlanan ……………. adlı rapor sunulmuştur. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Eğitim ve Yaşlanma",
+            "B": "Eğitim ve Ergenlik",
+            "C": "Eğitim ve Kadınlar",
+            "D": "Eğitim ve Çocuklar",
+            "E": "Eğitim ve Gençlik"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Biyolojik yaşlanma ne zaman başlar?",
+          "options": {
+            "A": "50 yaşından sonra",
+            "B": "7 yaşından itibaren",
+            "C": "Ergenlikten itibaren",
+            "D": "Doğumla birlikte",
+            "E": "Yumurtanın döllenmesiyle"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yaşlanma; …………. ile başlayan zaman akışı içinde normal olarak ortaya çıkan değişimler toplamıdır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Döllenme",
+            "B": "Çocukluk",
+            "C": "60 yaş",
+            "D": "Bebeklik",
+            "E": "50 yaş"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yaşlıya evinde hizmet vermek amacıyla SHÇEK, ……… yılında bakacak kimsesi olmayan yaşlılara kendi evlerinde eğitimli yardımcılarla bakma olanağını sağlayan bir projeyi uygulamaya koymuştur. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "1994",
+            "B": "1998",
+            "C": "1996",
+            "D": "1997",
+            "E": "1995"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Özellikle …………….bölgesinde meydana gelen kireçlenmeler, şekil bozuklukları, beyine giden damarlara yaptığı bası nedeniyle beyin kan akımında bir azalmaya yol açar. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bel",
+            "B": "Boyun",
+            "C": "Baş",
+            "D": "Omuz",
+            "E": "Karın"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Dünya Sağlık Örgütü'nün 21. yüzyılda \"Herkes İçin Sağlık\" temasında beşinci hedef doğrudan ……………… ile ilgilidir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ergen sağlığı",
+            "B": "Yaşlı sağlığı",
+            "C": "Çocuk sağlığı",
+            "D": "Kadın sağlığı",
+            "E": "Erkek sağlığı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Beyin ağırlığı, 80 yaşındaki bireylerde genç erişkinlere göre …… azalma gösterir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "%20",
+            "B": "%16",
+            "C": "%15",
+            "D": "%30",
+            "E": "%17"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Avustralya'da 65 yaş üzerindeki kadınların ……… yalnız yaşamaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "%29'u",
+            "B": "%19'u",
+            "C": "%59'u",
+            "D": "%39'u",
+            "E": "%49'u"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2002 Vize",
+      "exam_title": "Yaşlı sağlığı 2002 Vize",
+      "exam_type": "vize",
+      "year": "2002",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 38,
+          "question": "Kanada'da her 10 evden ……. en az bir yaşlı yaşamaktadır. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "5'inde",
+            "B": "3'ünde",
+            "C": "7'sinde",
+            "D": "6'sında",
+            "E": "4'ünde"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 39,
+          "question": "Sosyal gerontoloji teorileri, sosyal ………….. süreçlerini açıklamaya çalışırlar. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Gençleşme",
+            "B": "Bebeklik",
+            "C": "Çocukluk",
+            "D": "Ergenlik",
+            "E": "Yaşlanma"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 40,
+          "question": "Yaşlılıkta oluşan değişiklikler insan organizmasının doğal bir gelişimidir. Bu değişikliklerden de birçok faktör sorumludur. Bunlardan bir diğeri ……………… dir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Az uyuma",
+            "B": "Görme kaybı",
+            "C": "Az yeme",
+            "D": "Hareketsizlik",
+            "E": "İşitme kaybı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 41,
+          "question": "Yaşlanma ile birlikte erkeklerde…………..kadınlarda………dönemleri fizyolojik değişimlere sebep olur. Yukarıdaki boşluklara uygun olan ifadeler aşağıdaki seçeneklerden hangisinde verilmiştir?",
+          "options": {
+            "A": "İhtiyarlık – Gençlik",
+            "B": "Andropoz – Menapoz",
+            "C": "Gençlik – İhtiyarlık",
+            "D": "Gençlik – Gençlik",
+            "E": "Yakışıklılık – Güzellik"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 42,
+          "question": "Aşağıdakilerden hangisi yaşlılık sorunları ile ilgili bir terim olan \"gerontoloji\"nin tanımıdır?",
+          "options": {
+            "A": "Babalık olayını konu edinen bilim dalıdır.",
+            "B": "Yaşlanma olayını konu edinen bilim dalıdır",
+            "C": "Annelik olayını konu edinen bilim dalıdır.",
+            "D": "Ergenlik olayını konu edinen bilim dalıdır.",
+            "E": "Bebeklik olayını konu edinen bilim dalıdır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 43,
+          "question": "Bir kişi …… yaşına geldiğinde solunum kapasitesi 30 yaşındaki değerin yarısına iner. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "60",
+            "B": "90",
+            "C": "50",
+            "D": "70",
+            "E": "80"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 44,
+          "question": "Aşağıdakilerden hangisi yaşlılık sorunları ile ilgili bir terim olan \"geriatri\"nin tanımıdır?",
+          "options": {
+            "A": "Çocukluk ve hastalıklarını konu edinen tıp dalıdır.",
+            "B": "Annelik ve hastalıklarını konu edinen tıp dalıdır.",
+            "C": "Yaşlılık ve hastalıklarını konu edinen tıp dalıdır",
+            "D": "Ergenlik ve hastalıklarını konu edinen tıp dalıdır.",
+            "E": "Bebeklik ve hastalıklarını konu edinen tıp dalıdır"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 45,
+          "question": "Yaşlanmanın fizyolojik bir sonucu olarak duyu organlarının zayıflaması en çok …………..ve …………zayıflaması şeklinde olur. Yukarıdaki boşluklara uygun olan ifadeler aşağıdaki seçeneklerden hangisinde verilmiştir?",
+          "options": {
+            "A": "Görme – İşitme",
+            "B": "Görme – Konuşma",
+            "C": "Konuşma – İşitme",
+            "D": "Koku alma – Görme",
+            "E": "İşitme – Koku alma"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 46,
+          "question": "………………… olduğu evlerde genel olarak mobilya seçiminde köşeli mobilyalar yerine çocuk odalarında olduğu gibi yuvarlak hatlı mobilyalar tercih edilmelidir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Erkeklerin",
+            "B": "Yaşlıların",
+            "C": "Ergenlerin",
+            "D": "Gençlerin",
+            "E": "Kızların"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2000 Vize",
+      "exam_title": "Yaşlı sağlığı 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 2,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 59,
+          "question": "Türkiye'de doğumda beklenen yaşam süresi 1990- 2000 yılları arasında ……………. yıla yükselmiştir. Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "77,3 yıla yükselmiştir.",
+            "B": "69,7 yıla yükselmiştir.",
+            "C": "68,1 yıla yükselmiştir.",
+            "D": "67,8 yıla yükselmiştir.",
+            "E": "78,5 yıla yükselmiştir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 60,
+          "question": "Yaşlıların yaşadığı evde banyo kapısı …………açılır olmalıdır Yukarıda verilen boşluğa uygun olan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yukarı",
+            "B": "Kilitli",
+            "C": "İçeri",
+            "D": "Dışarı",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2050 Final",
+      "exam_title": "Yaşlı sağlığı 2050 Final",
+      "exam_type": "final",
+      "year": "2050",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 40,
+          "question": "Dünyada son 30 yılda 60 yaş ve üzeri kişi sayısı ikiye katlanmış olup 2050 yılında ise ………………… da fazla artması beklenmektedir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "İki yöntemi",
+            "B": "İki ilkesi",
+            "C": "İki kattan",
+            "D": "kattan yaklaşımı",
+            "E": "İki değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 41,
+          "question": "Genel olarak yaşlı istismarı, ………….. bireyin sağlık veya iyilik hâlini tehdit eden veya zarar veren herhangi bir davranıştır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Yaşlı yöntemi",
+            "B": "Yaşlı değildir",
+            "C": "Yaşlı",
+            "D": "Yaşlı ilkesi",
+            "E": "Yaşlı yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 42,
+          "question": "\"Yaşlılarda günde ………….. porsiyon sebze-meyve tüketilmelidir.\" Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "5-7 değildir",
+            "B": "5-7 yöntemi",
+            "C": "5-7 ilkesi",
+            "D": "5-7",
+            "E": "5-7 yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2025 Final",
+      "exam_title": "Yaşlı sağlığı 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 12,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
         {
           "id": 9,
           "question": "Aşağıdakilerden hangisi 2025 yılında en büyük yaşlı oranına sahip olması beklenen 5 ülkeden biri değildir?",
@@ -158,7 +2736,7 @@
             "D": "ABD",
             "E": "Çin"
           },
-          "correct_answer": "B",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -175,7 +2753,7 @@
             "D": "Çaresizlik",
             "E": "Fiziksel yaralar"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -192,7 +2770,7 @@
             "D": "Biyofizyolojik testler",
             "E": "Biyokimyasal testler"
           },
-          "correct_answer": "A",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -209,7 +2787,7 @@
             "D": "Arjantin",
             "E": "Meksika"
           },
-          "correct_answer": "C",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -226,7 +2804,7 @@
             "D": "Kadın Sağlığı",
             "E": "Ergen Sağlığı"
           },
-          "correct_answer": "B",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -243,7 +2821,7 @@
             "D": "Beyin sintigrafisi",
             "E": "Ultrason"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -260,7 +2838,7 @@
             "D": "Düzenli koşular",
             "E": "Spor salonu çalışmaları"
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -277,7 +2855,7 @@
             "D": "Konuşma terapisti",
             "E": "Cerrah"
           },
-          "correct_answer": "C",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -294,7 +2872,7 @@
             "D": "Evleri rahatlatıcı renklere boyamak",
             "E": "Bakıcı tutulması"
           },
-          "correct_answer": "C",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -311,7 +2889,7 @@
             "D": "Alıcı",
             "E": "Aracı"
           },
-          "correct_answer": "D",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -345,7 +2923,1358 @@
             "D": "Kalp - damar sisteminde yavaşlama",
             "E": "Hareket ve motor becerilerinde gerileme"
           },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2025 Final",
+      "exam_title": "Yaşlı sağlığı 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 29,
+          "question": "Dünya Sağlık Örgütünün tahminlerine göre doğumda yaşam beklentisi 2025 yılında……olarak belirtilmektedir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "75",
+            "B": "73",
+            "C": "74",
+            "D": "76",
+            "E": "77"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 30,
+          "question": "Dünya Sağlık Örgütü (DSÖ) yaşlılık dönemi olarak ………………….grubu almaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "65 yaş ve üzeri",
+            "B": "65 yaş ve yöntemi",
+            "C": "65 yaş ve ilkesi",
+            "D": "65 yaş ve değildir",
+            "E": "üzeri yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 31,
+          "question": "Yaşlılara sağlanan kurumsal bakım hizmetleri kapsamında Sosyal Hizmetler ve Çocuk Esirgeme Kurumu ve diğer bazı kuruluşların kurdukları 180 huzurevinin kapasitesi ise 16.368'dir. Buna göre 65 yaş ve üzeri yaklaşık her ………. yaşlıya bir yatak düşmektedir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "216",
+            "B": "213",
+            "C": "214",
+            "D": "215",
+            "E": "212"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 32,
+          "question": "Türkiye Cumhuriyeti Anayasasının ……….'inci maddesi yaşlıların ve organ yetersizliği olan özürlülerin korunmasına yöneliktir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "63",
+            "B": "60",
+            "C": "61",
+            "D": "62",
+            "E": "59"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 33,
+          "question": "Yeti yitimi olan bireylere yönelik Sosyal Hizmetler ve Çocuk Esirgeme Kurumu bünyesinde yer alan …….adet yataklı kuruluş bulunmaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "28",
+            "B": "32",
+            "C": "29",
+            "D": "31",
+            "E": "30"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 34,
+          "question": "ABD'de ………… yılında özel yaşlı istismarı yasası oluşturulmuştur. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "1981",
+            "B": "1980",
+            "C": "1978",
+            "D": "1979",
+            "E": "1977"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 35,
+          "question": "Aşağıdakilerden hangisi kendi kendini ihmalin belirtilerinden biri değildir?",
+          "options": {
+            "A": "Çok iştahlı değildir",
+            "B": "Çok iştahlı yöntemi",
+            "C": "Çok iştahlı olma",
+            "D": "Çok iştahlı ilkesi",
+            "E": "olma yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 36,
+          "question": "Aşağıdakilerden hangisi ülkemizdeki yaşlı dostu kentlerden biri değildir?",
+          "options": {
+            "A": "Erzurum değildir",
+            "B": "Erzurum",
+            "C": "Erzurum yöntemi",
+            "D": "Erzurum yaklaşımı",
+            "E": "Erzurum ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 37,
+          "question": "Aşağıdakilerden hangisi yaşlılarda konuşma bozuklukları sebeplerinden biri değildir?",
+          "options": {
+            "A": "Hazımsızlık yöntemi",
+            "B": "Hazımsızlık ilkesi",
+            "C": "Hazımsızlık yaklaşımı",
+            "D": "Hazımsızlık değildir",
+            "E": "Hazımsızlık"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2024-2025 Final",
+      "exam_title": "Yaşlı sağlığı 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "question_count": 8,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yaşlılıkta soluk alıp vermede gözle görülür olan değişiklik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Dakikadaki soluk alıp verme sayısının azalması",
+            "B": "Akciğer zayıflaması",
+            "C": "Hormonal eksiklikler",
+            "D": "Hareketlilikte azalma",
+            "E": "Hızlı yorulma"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi yaşlı bireylerin sosyal yaşamını etkileyen durumlardan biri değildir?",
+          "options": {
+            "A": "Hareket kabiliyetinin sınırlanması",
+            "B": "Çocukların evden ayrılması sonucunda aile küçülmesi",
+            "C": "Görünüşleri yüzünden dışlanma",
+            "D": "Emekli olmak",
+            "E": "Ev dışındaki yaşamda kısıtlılıklar"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Erişkinlerin yaklaşık günlük uyku süresi uzunluğu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "8 saat",
+            "B": "12 saat",
+            "C": "3 saat",
+            "D": "5 saat",
+            "E": "10 saat"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yaşlı dostu çevre programı aşağıdaki örgütlerin hangisi tarafından oluşturulmuştur?",
+          "options": {
+            "A": "Yeşilay",
+            "B": "Birleşmiş Milletler",
+            "C": "NATO",
+            "D": "Dünya Sağlık Örgütü",
+            "E": "Kızılay"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi bellek işlevlerinin güçlenmesine katkı sağlayan yollardan biri değildir?",
+          "options": {
+            "A": "Kitap okumak",
+            "B": "Ağırlık kaldırmak",
+            "C": "Bulmaca çözmek",
+            "D": "Anılarını yazmak",
+            "E": "Hobiler geliştirmek"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi Ülkemizdeki yaşlı dostu kentlerden biri değildir?",
+          "options": {
+            "A": "İzmir",
+            "B": "Amasya",
+            "C": "Kastamonu",
+            "D": "Diyarbakır",
+            "E": "İstanbul"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi Türkiye'de yaşlılara uygulama alanında götürülen hizmetlerden biridir?",
+          "options": {
+            "A": "Seyahat yardımı",
+            "B": "Spor faaliyetleri",
+            "C": "Evde bakım",
+            "D": "Eğlence faaliyetleri",
+            "E": "Eğitim faaliyetleri"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi yaşlılarda egzersiz programlarının sağladığı katkılardan biri değildir?",
+          "options": {
+            "A": "Çeviklik",
+            "B": "Denge",
+            "C": "Esneklik",
+            "D": "Kuvvet çevikliğin gelişmesi",
+            "E": "Sodyum dengesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2024 Final",
+      "exam_title": "Yaşlı sağlığı 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Özellikle yaşlılarda bellek işlevlerinde bozulma sonucu aşağıdaki hastalıklardan hangisi ortaya çıkar?",
+          "options": {
+            "A": "Kemik hastalıkları",
+            "B": "Kanser hastalığı",
+            "C": "Romatizma",
+            "D": "Demans",
+            "E": "Kalp hastalığı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Dünyada son 30 yılda 60 yaş ve üzeri kişi sayısı kaç katına çıkmıştır?",
+          "options": {
+            "A": "16",
+            "B": "4",
+            "C": "8",
+            "D": "2",
+            "E": "32"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi insan iletişim sürecinin ögelerinden biri değildir?",
+          "options": {
+            "A": "Çevre",
+            "B": "Alıcı",
+            "C": "Kaynak",
+            "D": "Mesaj",
+            "E": "Aracı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi yaşlılarda beslenme durumunun değerlendirilmesinde kullanılmaz?",
+          "options": {
+            "A": "Diyet öyküsü",
+            "B": "Biyofizyolojik testler",
+            "C": "Hastalık testleri",
+            "D": "Biyokimyasal testler",
+            "E": "Antropometrik ölçümler"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Erişkinlerin yaklaşık günlük uyku süresi uzunluğu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "12 saat",
+            "B": "3 saat",
+            "C": "8 saat",
+            "D": "5 saat",
+            "E": "10 saat"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yaşlılıkta soluk alıp vermede gözle görülür olan değişiklik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Hormonal eksiklikler",
+            "B": "Dakikadaki soluk alıp verme sayısının azalması",
+            "C": "Hızlı yorulma",
+            "D": "Akciğer zayıflaması",
+            "E": "Hareketlilikte azalma"
+          },
           "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Rowe ve Kahn'nın \"başarılı yaşlanma\" görüşleri aşağıdakilerden hangisiyle tanımlanmaz?",
+          "options": {
+            "A": "Bilişsel fonksiyonların devam etmesi",
+            "B": "Fiziksel fonksiyonların devam etmesi",
+            "C": "Hastalık ve maluliyet olmaması",
+            "D": "Yaşamla bağlantılı olması",
+            "E": "Yeni teknolojilere uyum sağlayamaması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi insanın yaşlanma sürecinde ortaya çıkan fiziksel değişimlerden biri değildir?",
+          "options": {
+            "A": "Kalp-damar sisteminde yavaşlama",
+            "B": "Hareket ve motor becerilerinde gerileme",
+            "C": "Kişinin IQ değerinde artış",
+            "D": "Duygularda azalma",
+            "E": "Görme-işitme duyularında bozukluklar"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi yaşlılığa özel hizmetlerin hedefleri arasında yer almaz?",
+          "options": {
+            "A": "Yaşlının fonksiyonel kapasitesinin arttırılması",
+            "B": "Erken tanı ve tedavinin arttırılması",
+            "C": "Yaşlıya bakım kalitesinin arttırılması",
+            "D": "Kurum muhtaçlığının ve gereksiz kurum kullanımının azaltılması",
+            "E": "Yaşlıya farklı eğitim olanakları sunulması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Herkese Sağlık-Türkiye'nin Hedef ve Stratejileri Projesi\" aşağıdaki bakanlıkların hangisi tarafından hedeflenmektedir?",
+          "options": {
+            "A": "Kültür ve Turizm Bakanlığı",
+            "B": "Aile, Çalışma ve Sosyal Hizmetler Bakanlığı",
+            "C": "Sağlık Bakanlığı",
+            "D": "Eğitim Bakanlığı",
+            "E": "Hazine ve Maliye Bakanlığı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi yatak odası için güvenlik listesinde yoktur?",
+          "options": {
+            "A": "Giyinirken oturabilecek kollukları olan sağlam bir sandalye bulundurulmalıdır.",
+            "B": "Kaymayan terlikler kullanılmalıdır.",
+            "C": "Isıtıcı, elektrikli battaniye vb. açıkken uyunmamalıdır.",
+            "D": "Telefon prizi bulunmalıdır.",
+            "E": "Yatak etrafında bol miktarda yürüyüş yolu bırakılmalıdır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yaşlılar için en uygun egzersiz formu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Aerobik çalışmalar",
+            "B": "Spor salonu çalışmaları",
+            "C": "Düzenli koşular",
+            "D": "Kelebek yüzme",
+            "E": "Hızlı yürüme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi evde bakım hizmeti sunmak üzere oluşturulan ekipte yer almaz?",
+          "options": {
+            "A": "Cerrah",
+            "B": "Diyet uzmanı",
+            "C": "Konuşma terapisti",
+            "D": "Fizyoterapist",
+            "E": "Evde bakım hemşiresi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "İlk kez evde bakım programlarının uygulanmaya başladığı ülke aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Meksika",
+            "B": "Japonya",
+            "C": "Türkiye",
+            "D": "ABD",
+            "E": "Arjantin"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi yaşlı bireylerin sosyal yaşamını etkileyen durumlardan biri değildir?",
+          "options": {
+            "A": "Görünüşleri yüzünden dışlanma",
+            "B": "Hareket kabiliyetinin sınırlanması",
+            "C": "Ev dışındaki yaşamda kısıtlılıklar",
+            "D": "Emekli olmak",
+            "E": "Çocukların evden ayrılması sonucunda aile küçülmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi yaşlı istismar türlerinden biri olan psikolojik istismarın içinde yer almaz?",
+          "options": {
+            "A": "Korku",
+            "B": "Çekingenlik",
+            "C": "İnkâr",
+            "D": "Çaresizlik",
+            "E": "Fiziksel yaralar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi Ülkemizdeki yaşlı dostu kentlerden biri değildir?",
+          "options": {
+            "A": "İzmir",
+            "B": "Diyarbakır",
+            "C": "Amasya",
+            "D": "Kastamonu",
+            "E": "İstanbul"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yaşlılarda fiziksel aktivitenin belirlenmesinde en sık aşağıdaki hangi yöntem kullanılır?",
+          "options": {
+            "A": "Koşu sırasında kalp atış hızı ölçümü",
+            "B": "Yürüme hızının ölçümü",
+            "C": "Koşu sonrasında kalp atış hızı ölçümü",
+            "D": "Yürüyüş sırasında kalp atış hızı ölçümü",
+            "E": "Koşu hızının ölçümü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi vücut bileşiminin yağ doku ve yağsız vücut kitlesinin belirlenmesi amacıyla kullanılan bir yöntem değildir?",
+          "options": {
+            "A": "Beyin sintigrafisi",
+            "B": "Ultrason",
+            "C": "Manyetik rezonans",
+            "D": "Biyoelektriksel empedans",
+            "E": "Bilgisayarlı tomografi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi yaşlı istismarı veya ihmallerinden biri değildir?",
+          "options": {
+            "A": "Duygusal istismar",
+            "B": "Cinsel istismar",
+            "C": "Ekonomik istismar",
+            "D": "Güç gerektiren işlerde yardım etme",
+            "E": "Fiziksel istismar"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2021 Final",
+      "exam_title": "Yaşlı sağlığı 2021 Final",
+      "exam_type": "final",
+      "year": "2021",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ABD nüfus yapısına göre hangi grupta değerlendirilmektedir?",
+          "options": {
+            "A": "Yaşlı ilkesi",
+            "B": "toplum yaklaşımı",
+            "C": "Yaşlı toplum",
+            "D": "Yaşlı yöntemi",
+            "E": "Yaşlı değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Enerji metabolizması, ısı düzenlenmesi gibi birçok vücut fonksiyonlarında etkili olan tiroit hormonunun salgılanma kapasitesi 20 ile 80 yaşları arasında …………oranında düşer. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "50 yaklaşımı",
+            "B": "% ilkesi",
+            "C": "% değildir",
+            "D": "% yöntemi",
+            "E": "% 50"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Cumhuriyet'in kuruluşundan sonra 1927 yılında yapılan ilk sayımda Türkiye nüfusu, ……….. milyon olarak sayılmıştır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "11,6",
+            "B": "12,6",
+            "C": "14,6",
+            "D": "15,6",
+            "E": "13.6"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yaşlılık sorunları ile ilgili bir terim olan geriatri ile anlatılmak istenen aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yaşlılık ve hastalıklarını konu edinen tıp ilkesi",
+            "B": "dalı yaklaşımı",
+            "C": "Yaşlılık ve hastalıklarını konu edinen tıp dalı",
+            "D": "Yaşlılık ve hastalıklarını konu edinen tıp değildir",
+            "E": "Yaşlılık ve hastalıklarını konu edinen tıp yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yaşlıların yaşadığı evlerde yatak odasından banyo/tuvalete giden koridorda ……… kullanılmalıdır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Gece ilkesi",
+            "B": "Gece lambası",
+            "C": "lambası yaklaşımı",
+            "D": "Gece yöntemi",
+            "E": "Gece değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Kızılay Derneği hangi yılda kurulmuştur?",
+          "options": {
+            "A": "1870",
+            "B": "1869",
+            "C": "1867",
+            "D": "1868",
+            "E": "1866"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yaşlanma ile birlikte erkeklerde…………..kadınlarda………dönemleri fizyolojik değişimlere sebep olur. Yukarıdaki cümlede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Andropoz-Menopoz",
+            "B": "Andropoz-Menopoz değildir",
+            "C": "Andropoz-Menopoz ilkesi",
+            "D": "Andropoz-Menopoz yaklaşımı",
+            "E": "Andropoz-Menopoz yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "1982 yılında Birleşmiş Milletler Dünya Kurultayına UNESCO tarafından hazırlanan ………….. ve ………… adlı rapor sunulmuştur. Yukarıdaki cümlede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Yaşlanma yaklaşımı",
+            "B": "Eğitim – ilkesi",
+            "C": "Eğitim – Yaşlanma",
+            "D": "Eğitim – yöntemi",
+            "E": "Eğitim – değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Beyin ağırlığı 80 yaşındaki bireylerde genç erişkinlere göre …………azalma gösterir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "%17 yöntemi",
+            "B": "%17",
+            "C": "%17 değildir",
+            "D": "%17 yaklaşımı",
+            "E": "%17 ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2011 Final",
+      "exam_title": "Yaşlı sağlığı 2011 Final",
+      "exam_type": "final",
+      "year": "2011",
+      "question_count": 2,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 27,
+          "question": "Ülkemizde ……………………. \"Korunmaya, bakıma ve yardıma muhtaç, çocuk, sakat ve yaşlıların tespiti, bunların korunması, bakımı, yetiştirilmesi ve rehabilitasyonlarını sağlamak\" ile yükümlüdür. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Bakanlığı yaklaşımı",
+            "B": "Aile ve Sosyal Politikalar yöntemi",
+            "C": "Aile ve Sosyal Politikalar ilkesi",
+            "D": "Aile ve Sosyal Politikalar Bakanlığı",
+            "E": "Aile ve Sosyal Politikalar değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 28,
+          "question": "Özellikle ……………bölgesinde meydana gelen kireçlenmeler, şekil bozuklukları, beyine giden damarlara yaptığı bası nedeniyle beyin kan akımında bir azalmaya yol açar. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Boyun",
+            "B": "Boyun ilkesi",
+            "C": "Boyun yöntemi",
+            "D": "Boyun değildir",
+            "E": "Boyun yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2008 Final",
+      "exam_title": "Yaşlı sağlığı 2008 Final",
+      "exam_type": "final",
+      "year": "2008",
+      "question_count": 2,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 38,
+          "question": "TNSA-2008 sonuçlarına göre 65 yaş ve üzerinde olanların %……. sağlık güvencesi bulunmamaktadır ve yaş ilerledikçe sağlık güvencesi olmayanların yüzdesi de artmaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "12'sinin ilkesi",
+            "B": "12'sinin değildir",
+            "C": "12'sinin yöntemi",
+            "D": "12'sinin",
+            "E": "12'sinin yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 39,
+          "question": "Beden Kitle indeksi'nin yaşam boyu ………………………. arasında tutulması yeterli ve dengeli beslenmenin bir göstergesi kabul edilir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "20,0-24,9 değildir",
+            "B": "20,0-24,9 yöntemi",
+            "C": "20,0-24,9 yaklaşımı",
+            "D": "20,0-24,9",
+            "E": "20,0-24,9 ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2003 Final",
+      "exam_title": "Yaşlı sağlığı 2003 Final",
+      "exam_type": "final",
+      "year": "2003",
+      "question_count": 8,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 10,
+          "question": "Ülkemizde yapılan Ulusal Hane halkı Araştırması (2003) sonuçlarına göre, Türkiye'de nüfusun %………'sinin hareketsiz (sedanter) yaşamaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "18,3",
+            "B": "20,32",
+            "C": "19,3",
+            "D": "21,3",
+            "E": "22,3"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Kas güçsüzlüğü ve sonucunda meydana gelen denge ve yürüme bozukluğu, yaşlılarda düşmenin en önemli risk faktörlerindendir. Düşmeler, ……….. yaş üzerinde yaralanma sonucu ölüme yol açan nedenler arasında ilk sırada yer almaktadır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "75",
+            "B": "74",
+            "C": "76",
+            "D": "77",
+            "E": "73"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Darülaceze hangi yılda kurulmuştur?",
+          "options": {
+            "A": "1897",
+            "B": "1893",
+            "C": "1895",
+            "D": "1894",
+            "E": "1896"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yaşlı dostu çevre programı aşağıdaki örgütlerden hangisi tarafından oluşturulmuştur?",
+          "options": {
+            "A": "örgütü yaklaşımı",
+            "B": "Dünya sağlık örgütü",
+            "C": "Dünya sağlık ilkesi",
+            "D": "Dünya sağlık yöntemi",
+            "E": "Dünya sağlık değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi psikolojik/duygusal istismarın olası belirtilerinden biri değildir?",
+          "options": {
+            "A": "Şakacılık ilkesi",
+            "B": "Şakacılık değildir",
+            "C": "Şakacılık yaklaşımı",
+            "D": "Şakacılık yöntemi",
+            "E": "Şakacılık"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yaşlılığa vurgu yapmak üzere Birleşmiş Milletler tarafından……………yılında, yaşlanma konusunda hükümetler ve toplumların kapasitesini güçlendirmek amacıyla \"Viyana Uluslararası Yaşlanma Eylem Planı\" hazırlanmıştır. Eylem planında yer alan başlıklardan biri de \"Barınma ve Çevre\" başlığıdır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "1984",
+            "B": "1981",
+            "C": "1985",
+            "D": "1982",
+            "E": "1983"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Fraility and Injuries: Cooperative Studies of Intervention Techniques (FICSIT) tarafından yapılan metaanalize göre,………………….. yaşlılarda düşme riski anlamlı ölçüde azalmıştır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Egzersiz yöntemi",
+            "B": "Egzersiz değildir",
+            "C": "Egzersiz yapan",
+            "D": "Egzersiz ilkesi",
+            "E": "yapan yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Birleşmiş Milletler tarafından ——— ılında \"Madrid Uluslararası Yaşlanma Eylem Planı\" kabul edilmiştir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "A değildir",
+            "B": "A ilkesi",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2003 Final",
+      "exam_title": "Yaşlı sağlığı 2003 Final",
+      "exam_type": "final",
+      "year": "2003",
+      "question_count": 5,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 43,
+          "question": "Ülkemizde yapılan Ulusal Hane halkı Araştırması (2003) sonuçlarına göre, Türkiye'de nüfusun ……………'unun yetersiz düzeyde fiziksel aktivitede bulunduğu görülmüştür. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "%15,99",
+            "B": "%15,99 değildir",
+            "C": "%15,99 yaklaşımı",
+            "D": "%15,99 ilkesi",
+            "E": "%15,99 yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 44,
+          "question": "Aşağıdakilerden hangisi bellek işlevlerinin güçlenmesine katkı sağlayan yollardan biri değildir?",
+          "options": {
+            "A": "Spor yöntemi",
+            "B": "Spor değildir",
+            "C": "Spor yapmak",
+            "D": "yapmak yaklaşımı",
+            "E": "Spor ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 45,
+          "question": "Aşağıdakilerden hangisi insanın yaşlanma sürecinde ortaya çıkan fiziksel değişimlerden biri değildir?",
+          "options": {
+            "A": "Kişinin IQ değerinde artış",
+            "B": "Kişinin IQ değerinde yöntemi",
+            "C": "Kişinin IQ değerinde değildir",
+            "D": "artış yaklaşımı",
+            "E": "Kişinin IQ değerinde ilkesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 46,
+          "question": "Aşağıdakilerden hangisi insan iletişim sürecinin öğelerinden biri değildir?",
+          "options": {
+            "A": "Dokunma yaklaşımı",
+            "B": "Dokunma ilkesi",
+            "C": "Dokunma",
+            "D": "Dokunma değildir",
+            "E": "Dokunma yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 47,
+          "question": "\"Huzurevleri ile Yaşlı Bakım ve Rehabilitasyon Merkezleri Yönetmeliği\" hangi yıl yürürlüğe girmiştir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2002 Final",
+      "exam_title": "Yaşlı sağlığı 2002 Final",
+      "exam_type": "final",
+      "year": "2002",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 18,
+          "question": "Bel çevresinin erkeklerde …….. cm aşmaması önerilmektedir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "100",
+            "B": "101",
+            "C": "104",
+            "D": "102",
+            "E": "103"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi konuşma organlarından biri değildir?",
+          "options": {
+            "A": "Mide yöntemi",
+            "B": "Mide",
+            "C": "Mide yaklaşımı",
+            "D": "Mide ilkesi",
+            "E": "Mide değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Yaşlıların her öğünde tüketmesi gereken kaç farklı besin grubu vardır?",
+          "options": {
+            "A": "6",
+            "B": "4",
+            "C": "2",
+            "D": "5",
+            "E": "3"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "Önceden hareketsiz bir yaşam süren, yaptıkları egzersizlerle kondüsyon düzeyini geliştiren kişilerde kalp damar sistemi hastalığından ölüm riskinin ise %…….. azaldığı bulunmuştur. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "42",
+            "B": "40",
+            "C": "43",
+            "D": "41",
+            "E": "44"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "Yaşlılarda yüksek tansiyon …………………..bunama (demans) ya sebep olabilir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Düzenli tedavi edilmezse",
+            "B": "Düzenli tedavi ilkesi",
+            "C": "Düzenli tedavi değildir",
+            "D": "edilmezse yaklaşımı",
+            "E": "Düzenli tedavi yöntemi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "İlk kez evde bakım programlarının uygulanmaya başladığı ülke aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "ABD ilkesi",
+            "B": "ABD değildir",
+            "C": "ABD yöntemi",
+            "D": "ABD",
+            "E": "ABD yaklaşımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 24,
+          "question": "Beslenme durumunun değerlendirilmesinde antropometrik ölçümlerden en pratik olanı boy, ağırlık ölçümü ve …………………… indeksi dir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Beden ilkesi",
+            "B": "kitle yaklaşımı",
+            "C": "Beden kitle",
+            "D": "Beden yöntemi",
+            "E": "Beden değildir"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 25,
+          "question": "İleri yaşlarda kondisyon düzeyini arttıran kişilerde toplam ölüm riski yüzde kaç azalmaktadır?",
+          "options": {
+            "A": "44",
+            "B": "42",
+            "C": "45",
+            "D": "46",
+            "E": "43"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 26,
+          "question": "Avrupa Parlamentosu ve Avrupa Birliği tarafından ……….. yılı \"Avrupa Aktif Yaşlanma ve Nesiller arası Dayanışma Yılı\" olarak kabul edilmiştir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yaşlı sağlığı 2002 Final",
+      "exam_title": "Yaşlı sağlığı 2002 Final",
+      "exam_type": "final",
+      "year": "2002",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Yasli_sagligi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 48,
+          "question": "Evde bakımın olumlu yönlerinden biri …………………….enfeksiyonlarından korunulmasıdır. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Hastane değildir",
+            "B": "Hastane yaklaşımı",
+            "C": "Hastane ilkesi",
+            "D": "Hastane yöntemi",
+            "E": "Hastane"
+          },
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",

@@ -1,7 +1,7 @@
 {
   "course": "Spor Bilimlerinde Arastirma Yontemleri",
   "lesson_code": "SPOR_BILIMLERINDE_ARASTIRMA_YONTEMLERI",
-  "exam_count": 7,
+  "exam_count": 9,
   "exams": [
     {
       "title": "Spor Bilimlerinde Araştırma Yöntemleri 2024-2025 Vize",
@@ -1763,7 +1763,7 @@
       "exam_title": "Spor Bilimlerinde Arastirma Yontemleri 2024-2025 Butunleme",
       "exam_type": "butunleme",
       "year": "2024-2025",
-      "question_count": 20,
+      "question_count": 13,
       "source_url": "",
       "file_name": "Spor_Bilimlerinde_Arastirma_Yontemleri_Butunleme_Sorulari.docx",
       "questions": [
@@ -1777,7 +1777,7 @@
             "D": "Boy",
             "E": "Medeni durum"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1794,7 +1794,7 @@
             "D": "Eşleme",
             "E": "Korelasyon"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1811,7 +1811,7 @@
             "D": "Katılımcı sayısı",
             "E": "Güç"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1828,7 +1828,7 @@
             "D": "r değeri 0,6'dır.",
             "E": "Bu ilişkinin anlamlılık düzeyi eldeki verilerle değerlendirilemez."
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1845,7 +1845,7 @@
             "D": "Uç değerler (dışlaklar) kolayca fark edilir.",
             "E": "Verinin dağılımı özelliği hakkında bilgi verir."
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1862,7 +1862,7 @@
             "D": "Varyans Analizi",
             "E": "Mann-Whitney U Testi"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1879,7 +1879,7 @@
             "D": "t tablosu",
             "E": "Regresyon tablosu"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1896,7 +1896,7 @@
             "D": "1.5",
             "E": "1.64"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1913,7 +1913,7 @@
             "D": "Kesitsel Araştırmalar",
             "E": "Vaka-Kontrol Çalışması"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1930,7 +1930,7 @@
             "D": "1",
             "E": "-1"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1947,7 +1947,7 @@
             "D": "Kartil",
             "E": "Persantil"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1964,7 +1964,7 @@
             "D": "Eşleştirilmiş Örneklem T Testi",
             "E": "Bağımsız Örneklem T Testi"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1981,126 +1981,7 @@
             "D": "H1: Kadın hastaların depresyon skoru ortalaması = Erkek hastaların depresyon skoru ortalaması",
             "E": "H1: Kadın hastaların depresyon skoru ortalaması > Erkek hastaların depresyon skoru ortalaması"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Bir sağlık ocağına kayıtlı 34 hastanın 1999 yılında hemoglobin değerleri ölçülüyor; aynı hastaların 2000 yılında da hemoglobin değerleri ölçülüyor. Normallik varsayımı sağlanıyorsa hemoglobin değerleri açısından fark olup olmadığını aşağıdakilerden hangisi ile test ederiz?",
-          "options": {
-            "A": "Eşleştirilmiş örneklem T testi",
-            "B": "Z testi",
-            "C": "Mann-Whitney U Testi",
-            "D": "Varyans Analizi",
-            "E": "Wilcoxon Testi"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "İki ortalama farkının hipotez testinin yapıldığı bir çalışmada t dağılımı test istatistiği th=4.37 ve tablo değeri tc=2.021 olarak belirlenmiştir. Bu hipotez testi için aşağıdakilerden hangisi doğrudur?",
-          "options": {
-            "A": "H0 ret, H1 kabul edilir.",
-            "B": "H1 ret edilir.",
-            "C": "H0 ve H1 belirsizdir.",
-            "D": "H0 kabul, H1 ret edilir.",
-            "E": "H0 kabul edilir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Aşağıdakilerden hangisi örnek büyüklüğünü etkilemez?",
-          "options": {
-            "A": "Alfa hata değeri",
-            "B": "Ortalama büyüklüğü",
-            "C": "Standart sapma",
-            "D": "Sapma (d) değeri",
-            "E": "Varyans"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/SPOR_BILIMLERINDE_ARASTIRMA_YONTEMLERI_2024_2025_butunleme_soru_16.jpg",
-          "image_file": "SPOR_BILIMLERINDE_ARASTIRMA_YONTEMLERI_2024_2025_butunleme_soru_16.jpg",
-          "image_path": "resim-sorular/SPOR_BILIMLERINDE_ARASTIRMA_YONTEMLERI_2024_2025_butunleme_soru_16.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Yukarıdaki tabloya göre sol el kullanan kadınların beklenen değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "44",
-            "B": "20",
-            "C": "76",
-            "D": "23",
-            "E": "66"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Cinsiyetlere göre (erkek-kadın) Hipertansiyon (Var-Yok) karşılaştırmasının yapılacağı bir araştırmada aşağıdaki testlerden hangisi uygulanabilir?",
-          "options": {
-            "A": "One-way ANOVA testi",
-            "B": "Bağımlı gruplar t testi",
-            "C": "Bağımsız gruplar t testi",
-            "D": "Mc-Nemar testi",
-            "E": "Ki-kare testi"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Populasyondan şansa bağlı seçilen gruba ne ad verilir?",
-          "options": {
-            "A": "Alt tabaka",
-            "B": "Örneklem",
-            "C": "Denek",
-            "D": "Grup",
-            "E": "Örnek"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Örnekleme ile ilgili aşağıdakilerden hangisi doğrudur?",
-          "options": {
-            "A": "Araştırmaya katılamayanların verileri toplanmadığı için sonucu etkilemez.",
-            "B": "Örneklem ile popülasyon arasındaki ilişki ölçülemez.",
-            "C": "Örnek büyüklüğü ve örnekleme hatası arasında pozitif bir ilişki vardır.",
-            "D": "Örneklem büyüklüğü hesaplanırken güven düzeyini araştırmacının kendisi belirler.",
-            "E": "Örnekleme yöntemini araştırmacı en iyi bildiği yönteme göre seçer."
-          },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2114,7 +1995,7 @@
       "exam_title": "Spor Bilimlerinde Arastirma Yontemleri 2022-2023 Butunleme",
       "exam_type": "butunleme",
       "year": "2022-2023",
-      "question_count": 20,
+      "question_count": 4,
       "source_url": "",
       "file_name": "Spor_Bilimlerinde_Arastirma_Yontemleri_Butunleme_Sorulari.docx",
       "questions": [
@@ -2128,7 +2009,7 @@
             "D": "Akılda kalıcı sunum için diksiyon ve sunum becerileri hakimiyeti gereklidir.",
             "E": "Sahnede beden dili hakimiyeti önemli değildir."
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2145,7 +2026,7 @@
             "D": "Zemin açık sarı - Vurgu kırmızı",
             "E": "Zemin mavi - Vurgu turuncu"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2162,7 +2043,7 @@
             "D": "İstatistiksel güç",
             "E": "Hata düzeyi"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2174,18 +2055,29 @@
           "question": "Excel yazılımı kaç yılında tamamlanmış ve piyasaya sürülmüştür?",
           "options": {
             "A": "1989",
-            "B": "2011",
-            "C": "1979",
-            "D": "1999",
-            "E": "1889"
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
           "image_path": "",
           "source_image_url": ""
-        },
+        }
+      ]
+    },
+    {
+      "title": "Spor Bilimlerinde Arastirma Yontemleri 2011 Butunleme",
+      "exam_title": "Spor Bilimlerinde Arastirma Yontemleri 2011 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2011",
+      "question_count": 16,
+      "source_url": "",
+      "file_name": "Spor_Bilimlerinde_Arastirma_Yontemleri_Butunleme_Sorulari.docx",
+      "questions": [
         {
           "id": 5,
           "question": "Yukarıdaki tabloya göre sol el kullanan erkeklerin beklenen değeri aşağıdakilerden hangisidir?",
@@ -2452,6 +2344,136 @@
             "E": "Kohort çalışması"
           },
           "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Spor Bilimlerinde Arastirma Yontemleri 2000 Butunleme",
+      "exam_title": "Spor Bilimlerinde Arastirma Yontemleri 2000 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2000",
+      "question_count": 7,
+      "source_url": "",
+      "file_name": "Spor_Bilimlerinde_Arastirma_Yontemleri_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 14,
+          "question": "Bir sağlık ocağına kayıtlı 34 hastanın 1999 yılında hemoglobin değerleri ölçülüyor; aynı hastaların 2000 yılında da hemoglobin değerleri ölçülüyor. Normallik varsayımı sağlanıyorsa hemoglobin değerleri açısından fark olup olmadığını aşağıdakilerden hangisi ile test ederiz?",
+          "options": {
+            "A": "Eşleştirilmiş örneklem T testi",
+            "B": "Z testi",
+            "C": "Mann-Whitney U Testi",
+            "D": "Varyans Analizi",
+            "E": "Wilcoxon Testi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "İki ortalama farkının hipotez testinin yapıldığı bir çalışmada t dağılımı test istatistiği th=4.37 ve tablo değeri tc=2.021 olarak belirlenmiştir. Bu hipotez testi için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "H0 ret, H1 kabul edilir.",
+            "B": "H1 ret edilir.",
+            "C": "H0 ve H1 belirsizdir.",
+            "D": "H0 kabul, H1 ret edilir.",
+            "E": "H0 kabul edilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi örnek büyüklüğünü etkilemez?",
+          "options": {
+            "A": "Alfa hata değeri",
+            "B": "Ortalama büyüklüğü",
+            "C": "Standart sapma",
+            "D": "Sapma (d) değeri",
+            "E": "Varyans"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/SPOR_BILIMLERINDE_ARASTIRMA_YONTEMLERI_2000_butunleme_soru_16.jpg",
+          "image_file": "SPOR_BILIMLERINDE_ARASTIRMA_YONTEMLERI_2000_butunleme_soru_16.jpg",
+          "image_path": "resim-sorular/SPOR_BILIMLERINDE_ARASTIRMA_YONTEMLERI_2000_butunleme_soru_16.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıdaki tabloya göre sol el kullanan kadınların beklenen değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "44",
+            "B": "20",
+            "C": "76",
+            "D": "23",
+            "E": "66"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Cinsiyetlere göre (erkek-kadın) Hipertansiyon (Var-Yok) karşılaştırmasının yapılacağı bir araştırmada aşağıdaki testlerden hangisi uygulanabilir?",
+          "options": {
+            "A": "One-way ANOVA testi",
+            "B": "Bağımlı gruplar t testi",
+            "C": "Bağımsız gruplar t testi",
+            "D": "Mc-Nemar testi",
+            "E": "Ki-kare testi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Populasyondan şansa bağlı seçilen gruba ne ad verilir?",
+          "options": {
+            "A": "Alt tabaka",
+            "B": "Örneklem",
+            "C": "Denek",
+            "D": "Grup",
+            "E": "Örnek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Örnekleme ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Araştırmaya katılamayanların verileri toplanmadığı için sonucu etkilemez.",
+            "B": "Örneklem ile popülasyon arasındaki ilişki ölçülemez.",
+            "C": "Örnek büyüklüğü ve örnekleme hatası arasında pozitif bir ilişki vardır.",
+            "D": "Örneklem büyüklüğü hesaplanırken güven düzeyini araştırmacının kendisi belirler.",
+            "E": "Örnekleme yöntemini araştırmacı en iyi bildiği yönteme göre seçer."
+          },
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",

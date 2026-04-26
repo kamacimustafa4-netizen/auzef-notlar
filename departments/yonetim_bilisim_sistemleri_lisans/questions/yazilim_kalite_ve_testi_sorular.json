@@ -1,7 +1,7 @@
 {
   "course": "Yazilim Kalite Ve Testi",
   "lesson_code": "YAZILIM_KALITE_VE_TESTI",
-  "exam_count": 7,
+  "exam_count": 9,
   "exams": [
     {
       "title": "Yazılım Kalite Ve Testi 2025-2026 Vize",
@@ -710,7 +710,7 @@
       "exam_title": "Yazılım Kalite Ve Testi 2023-2024 Vize",
       "exam_type": "vize",
       "year": "2023-2024",
-      "question_count": 20,
+      "question_count": 11,
       "source_url": "",
       "file_name": "Yazilim_Kalite_Ve_Testi_Vize_Sorulari.docx",
       "questions": [
@@ -724,7 +724,7 @@
             "D": "Kod parçasındaki hataların daha hızlı bir şekilde bulunmasını sağlar.",
             "E": "Kod parçasının hangi donanımda nasıl çalışacağını analiz eder."
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -741,7 +741,7 @@
             "D": "Kara kutu testleri genellikle tek parça halinde yapılır.",
             "E": "Kara kutu testleri algoritma testlerine uygundur."
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -758,7 +758,7 @@
             "D": "Görsellik veya kullanışlılık olarak zarar vermektedir.",
             "E": "Veri kaybına sebep olmaktadır."
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -775,7 +775,7 @@
             "D": "Yük Testi",
             "E": "Hacim Testi"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -792,7 +792,7 @@
             "D": "Test girdisi – test çıktısı",
             "E": "Beklenen sonuç – gerçekleşen sonuç"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -809,7 +809,7 @@
             "D": "Algoritmanın karmaşıklığı",
             "E": "Kodlardaki hata miktarı"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -826,7 +826,7 @@
             "D": "Güvenlik Testi",
             "E": "Maymun Testi"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -843,7 +843,7 @@
             "D": "Teknik ayrıntılara sahip olmak",
             "E": "Programlama dilini iyi bilmek"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -860,7 +860,7 @@
             "D": "Alana girilebilecek doğru ya da yanlış sonsuz adet değer bulunması",
             "E": "Alana girilen bir sayının öğrenci numarası olup olmamasının tespit edilememesi"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -877,7 +877,7 @@
             "D": "Arayüz Riskleri",
             "E": "Sürdürülebilirlik Riskleri"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -894,13 +894,86 @@
             "D": "Kalite kısa süreli, test uzun süreli bir işlemdir.",
             "E": "Test de kalite de uzun süreli işlemlerdir."
           },
-          "correct_answer": "B",
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yazılım Kalite Ve Testi 2022-2023 Vize",
+      "exam_title": "Yazılım Kalite Ve Testi 2022-2023 Vize",
+      "exam_type": "vize",
+      "year": "2022-2023",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_Ve_Testi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir yazılım riskinin sistem açısından kozmetik risk olarak adlandırılmasının sebebi aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": "Veri kaybına sebep olmaktadır.",
+            "B": "Görsellik veya kullanışlılık olarak zarar vermektedir.",
+            "C": "Çözülmesi çok acildir.",
+            "D": "Kısa süreli çeşitli zararlar vermektedir.",
+            "E": "İşlevsellik kabına yol açmaktadır."
+          },
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
           "image_path": "",
           "source_image_url": ""
         },
+        {
+          "id": 2,
+          "question": "Bir yazılımı test ederken, önceden belirlenen durumların dışında, kimi zaman ani, plansız test yapma ihtiyaçları oluşabilir. Bu durumda yapılan testlere ne isim verilmektedir?",
+          "options": {
+            "A": "Veri Akış Testi",
+            "B": "Dış Kaynaklı Test",
+            "C": "Kurgusuz Test",
+            "D": "Dal Testi",
+            "E": "Geliştirme Testi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hartford Colesium Binası'nda uygulanan yazılımda bir formülün hesaplanmasında yapılan İşlem hatası sonucunda büyük bir maddî kayıp meydana gelmiştir. Burada yapılan hata aşağıdakilerden hangisi ile ifade edilebilir?",
+          "options": {
+            "A": "Sözdizim hatası",
+            "B": "Tasarım hatası",
+            "C": "Belgeleme hatası",
+            "D": "Mantık hatası",
+            "E": "Anomali"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yazılım Kalite Ve Testi 2000 Vize",
+      "exam_title": "Yazılım Kalite Ve Testi 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 9,
+      "source_url": "",
+      "file_name": "Yazilim_Kalite_Ve_Testi_Vize_Sorulari.docx",
+      "questions": [
         {
           "id": 12,
           "question": "I. Kullanılan yazılımda aritmetiksel işlemlerde 64 bit kullanılması gerekirken, yazılımın önceki sürümünde 16 bitlik değerlerin kullanılması ve bu durumun yazılımın yeni versiyonunda güncellenmemesi sonucunda hatalar oluşmuştur. II. Yazılımda kullanılan uzunluk ölçümlerinde İngiliz ölçü birimlerinin kullanılması sonucunda yazılımda çeşitli uyumsuzluklar yaşanmıştır. III. Bazı eski programlama dillerinde yıl bilgisinin 2 haneli olarak tasarlanması sonucunda 2000 yılının 00 şeklinde ifade edilmesi ile farklı sistemlerle beraber çalışma sorunu ortaya çıkmıştır. Yukarıda verilen yazılım hatalarının hangileri uyumluluk sorunu içermektedir?",
@@ -1057,65 +1130,14 @@
       ]
     },
     {
-      "title": "Yazılım Kalite Ve Testi 2022-2023 Vize",
-      "exam_title": "Yazılım Kalite Ve Testi 2022-2023 Vize",
+      "title": "Yazılım Kalite Ve Testi 2000 Vize",
+      "exam_title": "Yazılım Kalite Ve Testi 2000 Vize",
       "exam_type": "vize",
-      "year": "2022-2023",
-      "question_count": 20,
+      "year": "2000",
+      "question_count": 17,
       "source_url": "",
       "file_name": "Yazilim_Kalite_Ve_Testi_Vize_Sorulari.docx",
       "questions": [
-        {
-          "id": 1,
-          "question": "Bir yazılım riskinin sistem açısından kozmetik risk olarak adlandırılmasının sebebi aşağıdakilerden hangisi olabilir?",
-          "options": {
-            "A": "Veri kaybına sebep olmaktadır.",
-            "B": "Görsellik veya kullanışlılık olarak zarar vermektedir.",
-            "C": "Çözülmesi çok acildir.",
-            "D": "Kısa süreli çeşitli zararlar vermektedir.",
-            "E": "İşlevsellik kabına yol açmaktadır."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Bir yazılımı test ederken, önceden belirlenen durumların dışında, kimi zaman ani, plansız test yapma ihtiyaçları oluşabilir. Bu durumda yapılan testlere ne isim verilmektedir?",
-          "options": {
-            "A": "Veri Akış Testi",
-            "B": "Dış Kaynaklı Test",
-            "C": "Kurgusuz Test",
-            "D": "Dal Testi",
-            "E": "Geliştirme Testi"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Hartford Colesium Binası'nda uygulanan yazılımda bir formülün hesaplanmasında yapılan İşlem hatası sonucunda büyük bir maddî kayıp meydana gelmiştir. Burada yapılan hata aşağıdakilerden hangisi ile ifade edilebilir?",
-          "options": {
-            "A": "Sözdizim hatası",
-            "B": "Tasarım hatası",
-            "C": "Belgeleme hatası",
-            "D": "Mantık hatası",
-            "E": "Anomali"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
         {
           "id": 4,
           "question": "I. Kullanılan yazılımda aritmetiksel işlemlerde 64 bit kullanılması gerekirken, yazılımın önceki sürümünde 16 bitlik değerlerin kullanılması ve bu durumun yazılımın yeni versiyonunda güncellenmemesi sonucunda hatalar oluşmuştur. II. Yazılımda kullanılan uzunluk ölçümlerinde İngiliz ölçü birimlerinin kullanılması sonucunda yazılımda çeşitli uyumsuzluklar yaşanmıştır. III. Bazı eski programlama dillerinde yıl bilgisinin 2 haneli olarak tasarlanması sonucunda 2000 yılının 00 şeklinde ifade edilmesi ile farklı sistemlerle beraber çalışma sorunu ortaya çıkmıştır. Yukarıda verilen yazılım hatalarının hangileri uyumluluk sorunu içermektedir?",

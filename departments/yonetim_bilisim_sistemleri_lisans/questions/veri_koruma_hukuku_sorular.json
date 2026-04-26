@@ -1,8 +1,1072 @@
 {
   "course": "Veri Koruma Hukuku",
   "lesson_code": "VERI_KORUMA_HUKUKU",
-  "exam_count": 1,
+  "exam_count": 5,
   "exams": [
+    {
+      "title": "Veri Koruma Hukuku 2025 Vize",
+      "exam_title": "Veri Koruma Hukuku 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Koruma_Hukuku_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Veri işleme şartları bağlamında aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Kanunda öngörülen hallerden herhangi birinin varlığına rağmen ilgili kişinin açık rızası talep edilebilir.",
+            "B": "Kanunlarda öngörülen hallerin varlığında sağlık ve cinsel hayata ilişkin veriler dışında kalan özel nitelikli kişisel veriler işlenebilir.",
+            "C": "Veri sorumlusu tarafından \"meşru menfaat\" şartına dayanıldığında denge testi yapılmalıdır.",
+            "D": "Fiili imkansızlık nedeniyle rızasını açıklayamayacak durumda bulunan kişinin hayatı veya beden bütünlüğünün korunması için veri işlemenin zorunlu olması şartı çerçevesinde yalnızca kişisel veriler işlenebilir.",
+            "E": "İlgili kişinin kendisi tarafından alenileştirilen kişisel verileri yalnızca alenileştirme amacı kapsamında işlenebilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisinin, yalnızca yurtdışında yerleşik olan veri sorumluları tarafından atanması gerekir?",
+          "options": {
+            "A": "Veri sorumlusu",
+            "B": "İlgili kişi",
+            "C": "Veri işleyen",
+            "D": "Veri sorumlusu temsilcisi",
+            "E": "Veri sorumlusu irtibat kişisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangi işlem \"kişisel verilerin işlenmesi\" kapsamında değerlendirilemez?",
+          "options": {
+            "A": "Aydınlatma",
+            "B": "Erişilebilir hale getirme",
+            "C": "Saklama",
+            "D": "Aktarma",
+            "E": "Silme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Açık rıza ile ilgili olarak aşağıda verilen bilgilerden hangisi doğrudur?",
+          "options": {
+            "A": "İspat yükü ilgili kişidedir.",
+            "B": "Ancak diğer veri işleme şartlarının yokluğunda son seçenek olarak başvurulmalıdır.",
+            "C": "Hizmet sunumu için şart koşulabilmelidir.",
+            "D": "Şekil şartı bulunmaktadır.",
+            "E": "Geri alınamaz olmalıdır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında korunmaz?",
+          "options": {
+            "A": "Ahmet'in kredi kartı ekstresi",
+            "B": "Ahmet'in akıllı bilekliğinde tutulan sağlık verileri",
+            "C": "Ahmet'in şirketinin mali bilançosu",
+            "D": "Ahmet'in telefon rehberi",
+            "E": "Ahmet'in şirketinin personel listesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Davranışsal biyometri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Fizyolojik biyometri türleri gibi tekil tanımlayıcıdır.",
+            "B": "Davranışsal biyometri türleri hızla artmaktadır.",
+            "C": "Ek donanım ihtiyacı olmaksızın kullanılabilmektedir.",
+            "D": "Bireylerin davranış modelleri ve örüntüsü ile ilgilidir.",
+            "E": "Fizyolojik biyometriye göre çeşitleri daha kısıtlıdır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "I. Politikanın hazırlanma amacı II. Hukuka uygun imha için alınan teknik ve idari tedbirler III. İmhada kullanılacak donanıma ait teknik bilgiler IV. Saklama ve imha süreleri V. Periyodik imha süreleri Yukarıdakilerden hangileri Kişisel Veri Saklama ve İmha Politikası'nda bulunması gereken unsurlar arasında yer almaktadır?",
+          "options": {
+            "A": "I, II ve V",
+            "B": "II ve III",
+            "C": "II, III ve V",
+            "D": "I, II, IV ve V",
+            "E": "IV ve V"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Türk Ceza Kanunu'nun ilgili hükmü uyarınca süresi geçmiş olmasına karşın verileri sistem içinde yok etmeyenler hakkında öngörülen ceza nedir?",
+          "options": {
+            "A": "Dört yıldan sekiz yıla kadar hapis cezası",
+            "B": "Elli bin ila yüz bin lira arasında para cezası",
+            "C": "Bir yıldan üç yıla kadar hapis cezası",
+            "D": "Bir yıldan iki yıla kadar hapis cezası",
+            "E": "İki yıldan dört yıla kadar hapis cezası"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hasta Hafize, sağlık hizmeti almak üzere Dr. Aliye'nin özel muayenehanesine gidiyor. Muayenehaneye girdikten sonra görevliye kimliğini veriyor, hasta girişi yapılıyor. Sırası geldiğinde Dr. Aliye'nin odasına giriyor, şikayetlerini söylüyor ve muayene oluyor. Sonrasında rahatsızıkları ile ilgili bilgiler ve reçete edilen ilaçlar sisteme giriliyor. Aşağıdakilerden hangisi anılan veri işleme sürecinde Dr. Aliye'nin dayandığı veri işleme şartı olmalıdır?",
+          "options": {
+            "A": "6698 sayılı Kanun m. 5/2'deki hukuki sebeplerden birisi",
+            "B": "Bir hakkın korunması için veri işlemenin zorunlu olması",
+            "C": "İlgili kişi tarafından veri sorumlusuna açık rıza verilmesi",
+            "D": "Beden bütünlüğünün korunması için zorunlu olması",
+            "E": "Tıbbi teşhis, tedavi ve bakım hizmetlerinin yürütülmesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Kişisel verilerin silinmesini talep etme hakkının en temel dayanağı hangi düzenlemede yer alır?",
+          "options": {
+            "A": "Kişisel Verileri İmha Yönetmeliği",
+            "B": "Veri Sorumlusuna Başvuru Tebliği",
+            "C": "Kişisel Verilerin Korunması Kanunu",
+            "D": "Türkiye Cumhuriyeti Anayasası",
+            "E": "5237 sayılı Türk Ceza Kanunu"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi \"Beş Göz (Five Eyes)\" ülkelerinden birisi değildir?",
+          "options": {
+            "A": "Almanya",
+            "B": "Amerika Birleşik Devletleri",
+            "C": "Yeni Zelanda",
+            "D": "Avustralya",
+            "E": "Birleşik Krallık"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Özel nitelikli kişisel verilerin işlenmesine ilişkin olarak aşağıdaki önermelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Sağlık ve cinsel hayata ilişkin kişisel veriler, Kanun m. 6/3'te öngörülen şartlarla işlenebilir.",
+            "B": "Sağlık ve cinsel hayata ilişkin olanlar dışında kalan özel nitelikli kişisel veriler, kanunlarda öngörülen hällerde işlenebilir.",
+            "C": "Sağlık ve cinsel hayata ilişkin kişisel veriler, kanunlarda öngörülen hållerde işlenebilir.",
+            "D": "Özel nitelikli kişisel veriler, ilgili kişinin açık rızasının varlığına istinaden işlenebilir.",
+            "E": "Özel nitelikli kişisel verilerin işlenmesinde kurul tarafından belirlenen yeterli önlemler alımır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Periyodik imhanın gerçekleştirileceği zaman aralığı en fazla ne kadar olabilir?",
+          "options": {
+            "A": "Üç ay",
+            "B": "Bir ay",
+            "C": "Altı ay",
+            "D": "Bir yıl",
+            "E": "Beş yıl"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "I. İlgili kişi II. Veri işleyen III. Veri sorumlusu IV. Veri sorumlusu temsilcisi V. Veri sorumlusu irtibat kişisi Yukarıdakilerden hangisi veya hangileri veri işleme sürecinin tarafı olamaz?",
+          "options": {
+            "A": "Yalnız II",
+            "B": "II ve V",
+            "C": "Yalnız V",
+            "D": "IV ve V",
+            "E": "I ve II"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi dijital dünyada bırakılan ayak izlerinden dolayı gerçekleşemez?",
+          "options": {
+            "A": "Toplumsal bir olayın yönlendirilmesi",
+            "B": "Normalde satın alınması düşünülmeyen bir ürünün alınması",
+            "C": "Belirli bir konu hakkında algının değiştirilmesi",
+            "D": "Siyasi tercihin etkilenmesi",
+            "E": "Doğal afetin tetiklenmesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Uygulama ve hizmetlerde \"arka kapı\" bırakılması için hükümetler tarafından öne sürülen temel gerekçe aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ulusal güvenliğin sağlanması",
+            "B": "Vergilendirmenin yapılması",
+            "C": "Uygulama güvenliğinin denetlenmesi",
+            "D": "Uygulamaların kullanıcı sayılarının tespiti",
+            "E": "Suçun ve suçlunun tespiti"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "6698 sayılı Kişisel Verilerin Korunması Kanunu'nun yayım tarihinden önce işlenmiş olan kişisel verilerin belirli bir süre içerisinde kanun hükümlerine uygun hâle getirilmesi, aksi hâlde imha edilmesi gerekir. Kanun hükümlerine uygun hale getirme için öngörülen süre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İki yıl",
+            "B": "Beş yıl",
+            "C": "Bir yıl",
+            "D": "Altı ay",
+            "E": "Üç ay"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi kişisel veri işleme faaliyeti olarak değerlendirilemez?",
+          "options": {
+            "A": "Bir şirketin, müşterilerine ait kişisel verilerini excel dosyasında tutması",
+            "B": "Bir araştırmacının, internet üzerinden yaptığı anket ile kişisel veri toplaması",
+            "C": "Bir şirketin, müşterilerine ait verilerini bulut ortamında tutması",
+            "D": "Bir şirketin, insan kaynakları departmanında özlük dosyalarının alfabetik sıraya göre dizili kilitli dolaplarda tutması",
+            "E": "Bir bakkalın, borçlulara ilişkin bilgileri içeren veresiye defterini herhangi bir kritere göre sıralı olmaksızın sayfalara rastgele yazması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Sanal dünyada alınan aksiyonların nasıl sonuçlanabileceği hakkında fikir yürütülmemesi aşağıda verilen sosyal psikoloji kavramlarından hangisiyle ilintilidir?",
+          "options": {
+            "A": "Teşhir etme",
+            "B": "Boş verme",
+            "C": "Umursamama",
+            "D": "Kimliksizleşme",
+            "E": "Rahatlama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi özel nitelikli kişisel veri değildir?",
+          "options": {
+            "A": "Genetik ve biyometrik veri",
+            "B": "Irk ve etnik köken",
+            "C": "Ceza mahkumiyeti ve güvenlik tedbirleri",
+            "D": "Dernek, vakıf veya sendika üyeliği",
+            "E": "Bireyin finansal verileri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Koruma Hukuku 2024 Vize",
+      "exam_title": "Veri Koruma Hukuku 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Koruma_Hukuku_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Türk Ceza Kanunu'nun ilgili hükmü uyarınca süresi geçmiş olmasına karşın verileri sistem içinde yok etmeyenler hakkında öngörülen ceza nedir?",
+          "options": {
+            "A": "Dört yıldan sekiz yıla kadar hapis cezası",
+            "B": "Elli bin ila yüz bin lira arasında para cezası",
+            "C": "Bir yıldan üç yıla kadar hapis cezası",
+            "D": "Bir yıldan iki yıla kadar hapis cezası",
+            "E": "İki yıldan dört yıla kadar hapis cezası"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi \"Beş Göz (Five Eyes)\" ülkelerinden birisi değildir?",
+          "options": {
+            "A": "Almanya",
+            "B": "Amerika Birleşik Devletleri",
+            "C": "Yeni Zelanda",
+            "D": "Avustralya",
+            "E": "Birleşik Krallık"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Uygulama ve hizmetlerde \"arka kapı\" bırakılması için hükümetler tarafından öne sürülen temel gerekçe aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ulusal güvenliğin sağlanması",
+            "B": "Vergilendirmenin yapılması",
+            "C": "Uygulama güvenliğinin denetlenmesi",
+            "D": "Uygulamaların kullanıcı sayılarının tespiti",
+            "E": "Suçun ve suçlunun tespiti"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Sanal dünyada alınan aksiyonların nasıl sonuçlanabileceği hakkında fikir yürütülmemesi aşağıda verilen sosyal psikoloji kavramlarından hangisiyle ilintilidir?",
+          "options": {
+            "A": "Teşhir etme",
+            "B": "Boş verme",
+            "C": "Umursamama",
+            "D": "Kimliksizleşme",
+            "E": "Rahatlama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Veri işleme şartları bağlamında aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Kanunda öngörülen hallerden herhangi birinin varlığına rağmen ilgili kişinin açık rızası talep edilebilir.",
+            "B": "Kanunlarda öngörülen hallerin varlığında sağlık ve cinsel hayata ilişkin veriler dışında kalan özel nitelikli kişisel veriler işlenebilir.",
+            "C": "Veri sorumlusu tarafından \"meşru menfaat\" şartına dayanıldığında denge testi yapılmalıdır.",
+            "D": "Fiili imkansızlık nedeniyle rızasını açıklayamayacak durumda bulunan kişinin hayatı veya beden bütünlüğünün korunması için veri işlemenin zorunlu olması şartı çerçevesinde yalnızca kişisel veriler işlenebilir.",
+            "E": "İlgili kişinin kendisi tarafından alenileştirilen kişisel verileri yalnızca alenileştirme amacı kapsamında işlenebilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangi işlem \"kişisel verilerin işlenmesi\" kapsamında değerlendirilemez?",
+          "options": {
+            "A": "Aydınlatma",
+            "B": "Erişilebilir hale getirme",
+            "C": "Saklama",
+            "D": "Aktarma",
+            "E": "Silme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında korunmaz?",
+          "options": {
+            "A": "Ahmet'in kredi kartı ekstresi",
+            "B": "Ahmet'in akıllı bilekliğinde tutulan sağlık verileri",
+            "C": "Ahmet'in şirketinin mali bilançosu",
+            "D": "Ahmet'in telefon rehberi",
+            "E": "Ahmet'in şirketinin personel listesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "6698 sayılı Kişisel Verilerin Korunması Kanunu'nun yayım tarihinden önce işlenmiş olan kişisel verilerin belirli bir süre içerisinde kanun hükümlerine uygun hâle getirilmesi, aksi hâlde imha edilmesi gerekir. Kanun hükümlerine uygun hale getirme için öngörülen süre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İki yıl",
+            "B": "Beş yıl",
+            "C": "Bir yıl",
+            "D": "Altı ay",
+            "E": "Üç ay"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Periyodik imhanın gerçekleştirileceği zaman aralığı en fazla ne kadar olabilir?",
+          "options": {
+            "A": "Üç ay",
+            "B": "Bir ay",
+            "C": "Altı ay",
+            "D": "Bir yıl",
+            "E": "Beş yıl"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisinin, yalnızca yurtdışında yerleşik olan veri sorumluları tarafından atanması gerekir?",
+          "options": {
+            "A": "Veri sorumlusu",
+            "B": "İlgili kişi",
+            "C": "Veri işleyen",
+            "D": "Veri sorumlusu temsilcisi",
+            "E": "Veri sorumlusu irtibat kişisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi kişisel veri işleme faaliyeti olarak değerlendirilemez?",
+          "options": {
+            "A": "Bir şirketin, müşterilerine ait kişisel verilerini excel dosyasında tutması",
+            "B": "Bir araştırmacının, internet üzerinden yaptığı anket ile kişisel veri toplaması",
+            "C": "Bir şirketin, müşterilerine ait verilerini bulut ortamında tutması",
+            "D": "Bir şirketin, insan kaynakları departmanında özlük dosyalarının alfabetik sıraya göre dizili kilitli dolaplarda tutması",
+            "E": "Bir bakkalın, borçlulara ilişkin bilgileri içeren veresiye defterini herhangi bir kritere göre sıralı olmaksızın sayfalara rastgele yazması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Davranışsal biyometri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Fizyolojik biyometri türleri gibi tekil tanımlayıcıdır.",
+            "B": "Davranışsal biyometri türleri hızla artmaktadır.",
+            "C": "Ek donanım ihtiyacı olmaksızın kullanılabilmektedir.",
+            "D": "Bireylerin davranış modelleri ve örüntüsü ile ilgilidir.",
+            "E": "Fizyolojik biyometriye göre çeşitleri daha kısıtlıdır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Kişisel verilerin silinmesini talep etme hakkının en temel dayanağı hangi düzenlemede yer alır?",
+          "options": {
+            "A": "Kişisel Verileri İmha Yönetmeliği",
+            "B": "Veri Sorumlusuna Başvuru Tebliği",
+            "C": "Kişisel Verilerin Korunması Kanunu",
+            "D": "Türkiye Cumhuriyeti Anayasası",
+            "E": "5237 sayılı Türk Ceza Kanunu"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Hasta Hafize, sağlık hizmeti almak üzere Dr. Aliye'nin özel muayenehanesine gidiyor. Muayenehaneye girdikten sonra görevliye kimliğini veriyor, hasta girişi yapılıyor. Sırası geldiğinde Dr. Aliye'nin odasına giriyor, şikayetlerini söylüyor ve muayene oluyor. Sonrasında rahatsızlıkları ile ilgili bilgiler ve reçete edilen ilaçlar sisteme giriliyor. Aşağıdakilerden hangisi anılan veri işleme sürecinde Dr. Aliye'nin dayandığı veri işleme şartı olmalıdır?",
+          "options": {
+            "A": "6698 sayılı Kanun m. 5/2'deki hukuki sebeplerden birisi",
+            "B": "Bir hakkın korunması için veri işlemenin zorunlu olması",
+            "C": "İlgili kişi tarafından veri sorumlusuna açık rıza verilmesi",
+            "D": "Beden bütünlüğünün korunması için zorunlu olması",
+            "E": "Tıbbi teşhis, tedavi ve bakım hizmetlerinin yürütülmesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "I. Politikanın hazırlanma amacı, II. Hukuka uygun imha için alınan teknik ve idari tedbirler, III. İmhada kullanılacak donanıma ait teknik bilgiler, IV. Saklama ve imha süreleri, V. Periyodik imha süreleri. Yukarıdakilerden hangileri Kişisel Veri Saklama ve İmha Politikası'nda bulunması gereken unsurlar arasında yer almaktadır?",
+          "options": {
+            "A": "I, II ve V",
+            "B": "II ve III",
+            "C": "II, III ve V",
+            "D": "I, II, IV ve V",
+            "E": "IV ve V"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi özel nitelikli kişisel veri değildir?",
+          "options": {
+            "A": "Genetik ve biyometrik veri",
+            "B": "Irk ve etnik köken",
+            "C": "Ceza mahkumiyeti ve güvenlik tedbirleri",
+            "D": "Dernek, vakıf veya sendika üyeliği",
+            "E": "Bireyin finansal verileri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi dijital dünyada bırakılan ayak izlerinden dolayı gerçekleşemez?",
+          "options": {
+            "A": "Toplumsal bir olayın yönlendirilmesi",
+            "B": "Normalde satın alınması düşünülmeyen bir ürünün alınması",
+            "C": "Belirli bir konu hakkında algının değiştirilmesi",
+            "D": "Siyasi tercihin etkilenmesi",
+            "E": "Doğal afetin tetiklenmesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "I. İlgili kişi, II. Veri işleyen, III. Veri sorumlusu, IV. Veri sorumlusu temsilcisi, V. Veri sorumlusu irtibat kişisi. Yukarıdakilerden hangisi veya hangileri veri işleme sürecinin tarafı olamaz?",
+          "options": {
+            "A": "Yalnız II",
+            "B": "II ve V",
+            "C": "Yalnız V",
+            "D": "IV ve V",
+            "E": "I ve II"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Özel nitelikli kişisel verilerin işlenmesine ilişkin olarak aşağıdaki önermelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Sağlık ve cinsel hayata ilişkin kişisel veriler, Kanun m. 6/3'te öngörülen şartlarla işlenebilir.",
+            "B": "Sağlık ve cinsel hayata ilişkin olanlar dışında kalan özel nitelikli kişisel veriler, kanunlarda öngörülen hâllerde işlenebilir.",
+            "C": "Sağlık ve cinsel hayata ilişkin kişisel veriler, kanunlarda öngörülen hâllerde işlenebilir.",
+            "D": "Özel nitelikli kişisel veriler, ilgili kişinin açık rızasının varlığına istinaden işlenebilir.",
+            "E": "Özel nitelikli kişisel verilerin işlenmesinde kurul tarafından belirlenen yeterli önlemler alınır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Açık rıza ile ilgili olarak aşağıda verilen bilgilerden hangisi doğrudur?",
+          "options": {
+            "A": "İspat yükü ilgili kişidedir.",
+            "B": "Ancak diğer veri işleme şartlarının yokluğunda son seçenek olarak başvurulmalıdır.",
+            "C": "Hizmet sunumu için şart koşulabilmelidir.",
+            "D": "Şekil şartı bulunmaktadır.",
+            "E": "Geri alınamaz olmalıdır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Koruma Hukuku 2023 Vize",
+      "exam_title": "Veri Koruma Hukuku 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Veri_Koruma_Hukuku_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kişisel verilerin ilgili kullanıcılar için hiçbir şekilde erişilemez ve tekrar kullanılamaz hale getirilmesi işlemine ne ad verilir?",
+          "options": {
+            "A": "Kişisel verilerin silinmesi.",
+            "B": "Kişisel verilerin imha edilmesi.",
+            "C": "Kişisel verilerin anonim hale gelmesi.",
+            "D": "Kişisel verilerin ilgili kişiden gizlenmesi.",
+            "E": "Kişisel verilerin yok edilmesi."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kişisel verilerin silinmesi talep etme hakkının en temel dayanağı hangi düzenlemede yer alır?",
+          "options": {
+            "A": "Kişisel verileri imha yönetmeliği",
+            "B": "Veri sorumlusuna başvuru tebliğ",
+            "C": "Kişisel verilerin korunması kanunu",
+            "D": "Türkiye Cumhuriyeti anayasası",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki çevrim içi servislerden hangisi PRISM gözetim programı kapsamında ABD istihbaratına veri sağlayan şirketlerden biri değildir?",
+          "options": {
+            "A": "Apple",
+            "B": "Tiktok",
+            "C": "Google",
+            "D": "Facebook",
+            "E": "Microsoft"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Davranışsal biyometri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Fizyolojik biyometri türleri gibi tekil tanımlayıcıdır.",
+            "B": "Ek donanım ihtiyacı olmaksızın kullanılabilmektedir.",
+            "C": "Davranışsal biyometri türleri hızla artmaktadır.",
+            "D": "Bireyin davranış modelleri ve örtüsü ile ilgilidir.",
+            "E": "Fizyolojik geometriye göre çeşitleri daha kısıtlıdır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Dijital takip ve gözetim alanındaki düzenlemeleri hızlandırıcı etki yapan ve kilometre taşı niteliğindeki olay aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Soğuk savaş.",
+            "B": "Sovyetler Birliği'nin dağılması.",
+            "C": "İnternetin yaygınlaşması.",
+            "D": "İkinci Dünya Savaşı",
+            "E": "11 Eylül olayları."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi \"kişisel verilen işlenmesi\" kapsamında değerlendirilemez?",
+          "options": {
+            "A": "Aktarma.",
+            "B": "Saklama.",
+            "C": "Aydınlatma.",
+            "D": "Silme.",
+            "E": "Erişilebilir hale getirme."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Periyodik imhan gerçekleşeceği zaman aralığı en fazla ne kadar olabilir?",
+          "options": {
+            "A": "Üç ay",
+            "B": "Bir ay",
+            "C": "Bir yıl",
+            "D": "Beş yıl",
+            "E": "Altı ay"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi \"Beş Göz (Five Eyes)\" ülkelerinden birisi değildir?",
+          "options": {
+            "A": "Yeni Zelanda.",
+            "B": "Almanya.",
+            "C": "Birleşik Krallık.",
+            "D": "Amerika Birleşik Devletleri.",
+            "E": "Avustralya."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Türk Ceza Kanunu'nun ilgili hükmü uyarınca süresi geçmiş olmasına karşın verilen sistem içinde yok etmeyenler hakkında öngörülen ceza nedir?",
+          "options": {
+            "A": "4 yıldan 8 yıla kadar hapis cezası.",
+            "B": "2 yıldan 4 yıla kadar hapis cezası.",
+            "C": "1 yıldan 3 yıla kadar hapis cezası.",
+            "D": "50.000 ile 100.000 TL arasında para cezası.",
+            "E": "1 yıldan 2 yıla kadar hapis cezası."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "I. İlgili Kişi II. Veri İşleyen III. Veri Sorumlusu IV. Veri sorumlusu temsilcisi V. Veri sorumlusu irtibat kişisi Yukarıdakilerden hangisi veya hangileri veri işleme sürecinin tarafı olamaz?",
+          "options": {
+            "A": "Yalnız V",
+            "B": "Yalnız II",
+            "C": "II ve V",
+            "D": "IV ve V",
+            "E": "I ve II"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Açık rıza ile ilgili olarak aşağıda verilen bilgilerden hangisi doğrudur?",
+          "options": {
+            "A": "Şekil şartı bulunmaktadır.",
+            "B": "Hizmet sunumu için şart koşula bilmelidir.",
+            "C": "Ancak diğer veri işleme şartlarının yok olduğunda son seçenek olarak başvurulmalıdır.",
+            "D": "Geri alınamaz olmalıdır.",
+            "E": "İspat yükü ilgili kişidir."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Hasta Hafize, sağlık hizmeti almak üzere Dr. Aliye'nin özel muayenesine gidiyor. Muayenehaneye girdikten sonra görevliye kimliğini veriyor. Hasta girişi yapılıyor. Sırası geldiğinde Dr. Aliye'nin odasına giriyor. Şikayetlerini söylüyor ve muayene oluyor. Sonrasında rahatsızlığıyla ilgili bilgiler ve reçete edilen ilaçlar sisteme iriliyor. Ben hangisi alınan veri işleme sürecinde doktor Aliye'nin dayandığı veri işleme şartı olmalıdır?",
+          "options": {
+            "A": "Tıbbi teşhis tedavi ve bakım hizmetlerinin yürütülmesi.",
+            "B": "Bir hakkın korunması için veri işlemenin zorunlu olması.",
+            "C": "6698 sayılı kanunun m. 5/2 'deki hukuki sebeplerden birisi.",
+            "D": "Beden bütünlüğünün korunması için zorunlu olması.",
+            "E": "İlgili kişi tarafından veri sorumlusuna açık rıza verilmemesi."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi dijital dünyada bırakılan ayak izlerinden dolayı gerçekleşmez?",
+          "options": {
+            "A": "Belirli bir konu hakkında algının değiştirilmesi.",
+            "B": "Toplumsal bir olayın yönlendirilmesi.",
+            "C": "Normal de satın alınması düşünülmeyen bir ürünün alınması.",
+            "D": "Doğal afetin tetiklenmesi.",
+            "E": "Siyasi tercihin etkilenmesi."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Sanal dünyada alınan aksiyonların nasıl sonuçlanabileceği hakkında fikir yürütülmemesi aşağıda verilen sosyal psikoloji kavramlarından hangisiyle ilintilidir?",
+          "options": {
+            "A": "Teşhir etme.",
+            "B": "Kimliksizleştirme.",
+            "C": "Boş verme.",
+            "D": "Umursamama.",
+            "E": "Rahatlama."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Kişisel verilerin aktarımı ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Açık rıza ile yurt içinde aktarılabilir.",
+            "B": "Açık rıza ile yurtdışına aktarılabilir.",
+            "C": "Açık rızanın yokluğunda, yalnızca kanunda öngörülen hallerin varlığında yurt içinde aktarılabilir.",
+            "D": "Açık rızanın yokluğunda, yalnızca kanun da öngörülen hallerin varlığında yurtdışına aktarılabilir.",
+            "E": "Diğer kanunlarda yer alan hükümler saklıdır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi kişisel verilerin işlenmesi için geçerli veri işleme şartlarından birisi değildir?",
+          "options": {
+            "A": "Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu olması.",
+            "B": "İlgili kişinin kendi tarafından alenileştirilmiş olması.",
+            "C": "Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması.",
+            "D": "Kanunlarda açıkça öngörülmesi.",
+            "E": "Ulusal güvenliğin korunması için gerekli olması."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi veri işleme sürecinin tarafı olabilir?",
+          "options": {
+            "A": "Veri sorumlusu şirketin tüzel kişiliği.",
+            "B": "Veri sorumlusu temsilcisi.",
+            "C": "Veri sorumlusu şirketin Genel Müdürü.",
+            "D": "Veri sorumlusu irtibat kişisi.",
+            "E": "Veri sorumlusu şirketin yönetim kurulu."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi özel nitelikli kişisel veri değildir?",
+          "options": {
+            "A": "Ceza mahkumiyeti ve güvenlik tedbirleri",
+            "B": "Dernek vakıf veya sendika üyeliği",
+            "C": "Bireyin finansal verileri",
+            "D": "Genetik ve biyometrik veri",
+            "E": "Irk ve etnik köken"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "6698 sayılı kişisel verilerin korunması kanunu hangi tarihte yürürlüğe girmiştir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Koruma Hukuku 2016 Vize",
+      "exam_title": "Veri Koruma Hukuku 2016 Vize",
+      "exam_type": "vize",
+      "year": "2016",
+      "question_count": 1,
+      "source_url": "",
+      "file_name": "Veri_Koruma_Hukuku_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi 6.698 sayılı kişisel verilerin korunması kanunu kapsamında korunmaz?",
+          "options": {
+            "A": "Ahmet in kredi kartı ekstresi.",
+            "B": "Ahmet'in telefon rehberi.",
+            "C": "Ahmet'in şirketinin personel listesi.",
+            "D": "Ahmet'in akıllı bilekliğini de tutulan sağlık verileri.",
+            "E": "Şirketinin mali bilançosu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
     {
       "title": "Veri Koruma Hukuku 2022-2023 Final",
       "exam_title": "Veri Koruma Hukuku 2022-2023 Final",

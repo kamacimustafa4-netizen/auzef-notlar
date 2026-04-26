@@ -1,0 +1,358 @@
+{
+  "course": "Veri Tabanı Yönetim Sistemleri",
+  "lesson_code": "VERI_TABAN_YONETIM_SISTEMLERI",
+  "exam_count": 1,
+  "exams": [
+    {
+      "title": "Veri Tabanı Yönetim Sistemleri 2024 Vize",
+      "exam_title": "Veri Tabanı Yönetim Sistemleri 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Tabani_Yonetim_Sistemleri_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İki veya daha fazla veri tabanı tablosunun tüm olası eşleştirmelerini bir araya getiren cebirsel işlem aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kesişim",
+            "B": "Birleşim",
+            "C": "Kartezyen Çarpım",
+            "D": "Fark",
+            "E": "Doğal Birleşim"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Veri tabanı tablolarında satır ve sütunların kesiştiği noktaya ne ad verilir?",
+          "options": {
+            "A": "Alan",
+            "B": "Kayıt",
+            "C": "Form",
+            "D": "Hücre",
+            "E": "Sayfa"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Herhangi bir veri tabanı tablosu içerisinde çeşitli tekrarlı veriler mevcutsa bu tablonun hangi normal formda olduğu söylenebilir?",
+          "options": {
+            "A": "1NF",
+            "B": "4NF",
+            "C": "2NF",
+            "D": "3NF",
+            "E": "5NF"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Sırasıyla, k,n ve m elemanlı üç tablonun kartezyen çarpımı sonucunda oluşan tablonun eleman sayısı kaç olur?",
+          "options": {
+            "A": "kxm",
+            "B": "Bilinemez",
+            "C": "kxn",
+            "D": "kxmxn",
+            "E": "Yapılacak işleme göre değişir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir veri tabanının mantıksal yapısını tanımlarken kullanılan kavramlar, işlemler ve kurallar bütününe ne ad verilir?",
+          "options": {
+            "A": "Veri deposu",
+            "B": "Veri ambarı",
+            "C": "Veri tabam",
+            "D": "Veri mimarisi",
+            "E": "Veri modeli"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi bir veri tabam tablosunda yapılan seçim işleminde kullanılabilecek olan bir karşılaştırma işlemi değildir?",
+          "options": {
+            "A": "Eşit değildir",
+            "B": "Küçüktür",
+            "C": "Büyüktür",
+            "D": "Eşittir",
+            "E": "Elemanıdır"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir veri tabanı tablosundaki bir alandaki tüm verilerin ortak olarak sahip olması gereken özellik aşağıdaki isimlerin hangisi ile ifade edilebilir?",
+          "options": {
+            "A": "Veri adı",
+            "B": "Veri türü",
+            "C": "Veri alanı",
+            "D": "Veri nesnesi",
+            "E": "Veri sayfası"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Varlık ilişki modelinde nesne, yer, kişi gibi kavramlar hangi öğe ile temsil edilir?",
+          "options": {
+            "A": "İlişki",
+            "B": "Sütun",
+            "C": "Nitelik",
+            "D": "Satır",
+            "E": "Varlık"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Kredi (KrediNo, Ad, Soyad, KrediMiktari) şeklinde belirtilmiş olan bir tabloda yalnızca KrediMiktari 5000 TL'nin üzerinde olan işlemlerin sorgulatılması için aşağıdaki İşlemlerden hangisi kullanılır?",
+          "options": {
+            "A": "Atma",
+            "B": "Birleşim",
+            "C": "Kesişim",
+            "D": "Kartezyen çarpım",
+            "E": "Seçim"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Ortak sütunlara sahip olan iki veya daha fazla veri tabam tablosu arasında kurulan bağlantı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Görünüm",
+            "B": "İlişki",
+            "C": "Varlık",
+            "D": "Form",
+            "E": "Veri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir veri tabanı tablosunda bir alanın içerisindeki verilerin VARCHAR(10) olması demek ne anlama gelmektedir?",
+          "options": {
+            "A": "Veriler en az 10(on) karakter uzunluğunda olmalıdır.",
+            "B": "Bu alana en az 10 adet veri girilebilir.",
+            "C": "Veriler kesin 10(on) karakter uzunluğunda olmalıdır.",
+            "D": "Veriler en fazla 10(on) karakter uzunluğunda olmalıdır.",
+            "E": "Bu alana en fazla 10 adet veri girilebilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Bir veri tabanı tablosundaki bir sütuna ait verilerin başka bir tablonun sütunundan getirilmesini sağlayan anahtar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Birleşik anahtar",
+            "B": "Aday anahtar",
+            "C": "İkincil anahtar",
+            "D": "Birincil anahtar",
+            "E": "Yabancı anahtar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Normal formlar ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Normalleştirme işlemi temelde veri tekrarını engellemek için yapılır.",
+            "B": "Birinci normal formda hazırlanmış bir tabloda ekleme, silme ve güncelleme sırasında sorunlar olabilir.",
+            "C": "Normal formun derecesi arttıkça bozulma oranı da artmaktadır.",
+            "D": "Boyce-Codd Normal Formu Üçüncü ve Dördüncü Normal Formlar arasında yer alır.",
+            "E": "Birinci normal formdan ikinci normal forma geçişte kısmi bağımlılıkların ortadan kaldırılması gerekmektedir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Veri girişi yapılacak bir tablodaki sütunun değer alıp almaması gerektiğini belirlemek için kullanılan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Check",
+            "B": "View",
+            "C": "Not Null",
+            "D": "Unique",
+            "E": "Default"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Veri tabanlarında tablolar elle ya da sorgu ile oluşturulabilir. Aşağıdakilerden hangisi sorgu ile tablo oluşturmayı sağlayan deyimdir?",
+          "options": {
+            "A": "DROP TABLE",
+            "B": "CREATE TABLE",
+            "C": "DELETE TABLE",
+            "D": "INSERT TABLE",
+            "E": "FILL TABLE"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Tabloda depolanan her satırı benzersiz şekilde tanımlayan bir veya daha çok alandan oluşabilen anahtar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Süper Anahtar",
+            "B": "İkincil Anahtar",
+            "C": "Yedek Anahtar",
+            "D": "Birincil Anahtar",
+            "E": "Yabancı Anahtar"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bir veri tabanı tablosunda yer alan öğrencilerin öğrenci no, ad, soyad gibi bilgilerinin tutulduğu kısımlara ne ad verilir?",
+          "options": {
+            "A": "Satır",
+            "B": "Alan",
+            "C": "Bilgi",
+            "D": "Kayıt",
+            "E": "Dosya"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir anahtara bağlı olmayan geçişli bağımlılıklar tablolara dönüştürüldüğü zaman veri tabanlarındaki hangi normal form elde edilmiş olur?",
+          "options": {
+            "A": "5NF",
+            "B": "4NF",
+            "C": "INF",
+            "D": "2NF",
+            "E": "3NF"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi bir veri tabanı tablosundaki bir alanın adı olabilir?",
+          "options": {
+            "A": "Veri Tabanı",
+            "B": "Öğretmen",
+            "C": "Rüya",
+            "D": "Meslek",
+            "E": "1306"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi \"birincil anahtar\" alanı için uygun değildir?",
+          "options": {
+            "A": "TC kimlik numarası",
+            "B": "Müşteri numarası",
+            "C": "Otomatik olarak artan bir sayı",
+            "D": "Doğum tarihi",
+            "E": "Memur sicil numarası"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

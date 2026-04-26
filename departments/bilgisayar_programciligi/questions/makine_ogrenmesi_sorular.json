@@ -1,0 +1,2486 @@
+{
+  "course": "Makine Öğrenmesi",
+  "lesson_code": "MAKINE_OGRENMESI",
+  "exam_count": 9,
+  "exams": [
+    {
+      "title": "Makine Öğrenmesi 2025 Vize",
+      "exam_title": "Makine Öğrenmesi 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi doğru makine öğrenmesi modelinin seçimi işlemi esnasında dikkat edilmesi gereken hususlardan biri değildir?",
+          "options": {
+            "A": "Toplanan verilerin uygun bir şekilde biçimlendirilmesi.",
+            "B": "Performans metriğinin arzu edilen doğruluk seviyesine ulaşıncaya kadar modelin eğitiminin tekrarlanması.",
+            "C": "Toplanan verilerin doğru bir şekilde etiketlenmesi.",
+            "D": "Kullanılacak algoritmaların performans metriklerini modelleme.",
+            "E": "Potansiyel veri girişlerinin doğru belirlenmesi."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "K-En komşuluk algoritması için aşağıda verilen bilgilerden hangisi hatalı olarak verilmiştir?",
+          "options": {
+            "A": "Tercih edilen küçük 'k' değeri gürültünün etkisi altında kalabilir.",
+            "B": "'k' değeri performansı doğrudan etkileyen bir hiperparametredir.",
+            "C": "Tercih edilen büyük 'k' değeri sınırların belirsizleşmesine neden olabilir.",
+            "D": "K-NN'de uzaklık için kullanılan en yaygın yöntem Öklid denklemidir.",
+            "E": "Genelde 'k' değeri deneme yanılma yöntemi ile belirlenir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda verilen bilgilerden hangisi Naive Bayes algoritmasının avantajları arasında gösterilemez?",
+          "options": {
+            "A": "Hem sürekli hem de kategorik verileri işleyebilir.",
+            "B": "İlgisiz verilere duyarlı değildir ve tuttuğu varsayımları takip etmez.",
+            "C": "Çok sayıda veri noktası ve öngörücü ile düşük ölçeklenebilirliğe sahiptir.",
+            "D": "Diğer ayrım yapan modellere göre daha hızlı bir yakınsamaya sahiptir.",
+            "E": "Büyük miktarda eğitim verisine ihtiyaç duymaz."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "\"………… veri bilimi ve makine öğrenmesi uygulamaları için popüler bir Python ve R dağıtımı olan …………'nın grafiksel bir kullanıcı arayüzüdür.\" Yukarıdaki ifadede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Python Navigator - Anaconda",
+            "B": "Python - Kullanıcı arayüzü",
+            "C": "Jupiter Lab - Anaconda",
+            "D": "Anaconda – R Dili",
+            "E": "Anaconda Navigator – Anaconda"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Sayısal (frekans) veriler için kullanılan, özellikle metin sınıflandırma problemlerinde tercih edilen makine öğrenmesi algoritması aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Multinomial Naive Bayes",
+            "B": "Linear Naive Bayes",
+            "C": "Gaussian Naive Bayes",
+            "D": "Bernouli Naive Bayes",
+            "E": "Laplace Naive Bayes"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "\"……….. en büyük avantajlarından biri, bilimsel hesaplama, veri analizi ve makine öğrenmesi için gereken birçok kütüphaneyi ve aracı bir araya getirmesidir.\" Yukarıda verilen cümledeki noktalı yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Python",
+            "B": "Anaconda Navigator",
+            "C": "JupyterLab",
+            "D": "Spider",
+            "E": "Java"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "K-En komşuluk algoritmasının çalışma prensibi aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Veri ile eğitim setindeki tüm veriler arasındaki uzaklık prensibine göre hesaplanır.",
+            "B": "Test verisinin en küçük hata hesaplamaları için gaussian dağılımına göre hesaplanır.",
+            "C": "Veri seti ile eğitim setindeki tüm verilerin ortalama ağırlıklarının dağılımı prensibine göre hesaplanır.",
+            "D": "Etiketli verilerin uzaydaki genel dağılımına göre en küçük karesel hata prensibine göre hesaplanır.",
+            "E": "Kümeleme algoritmalarının kesişim ve birleşim prensibine göre hesaplanır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıda verilen bilgilerden hangisi Naive Bayes algoritmasının temelinde yatan hesaplama ilkesidir?",
+          "options": {
+            "A": "En küçük karesel hata ilkesi",
+            "B": "Uzaklık ilkesi",
+            "C": "Birliktelik ilkesi",
+            "D": "Yerel minimumlar ilkesi",
+            "E": "Olasılık ilkesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"…………., çeşitli karmaşık süreçleri içeren ve kesin olarak tanımlanması zor olan bir kavram olup bilgi edinme, deneyim kazanma ve davranışsal değişiklikleri içeren bir süreç olarak tanımlanabilir.\" Yukarıda verilen cümledeki noktalı yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Konuşma",
+            "B": "Denklem Çıkarımı",
+            "C": "Öğrenme",
+            "D": "Kümeleme",
+            "E": "İstatistik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıda verilen makine öğrenmesi türleri ile gerçek dünya problemleri eşleştirilmesinden hangisi hatalı olarak verilmiştir?",
+          "options": {
+            "A": "Denetimsiz Öğrenme - Araç Asistanları",
+            "B": "Denetimsiz Öğrenme - Müşteri Kategorizasyonu",
+            "C": "Denetimsiz Öğrenme - Sosyal Medya Analitiği",
+            "D": "Denetimli Öğrenme - Tahminleyici Sistemler",
+            "E": "Denetimli Öğrenme - E-posta Sınıflandırıcıları"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "I. 1995 yılında Guido van Rossum tarafından geliştirildi. II. Geliştirmesi kolay bir programlama dili. III. Geniş kütüphanesi ve çok yönlülüğü. IV. Kolay sözdizimi. Yukarıdaki bilgilerden hangileri Python programlama dili için doğru verilmiştir?",
+          "options": {
+            "A": "II, III ve IV",
+            "B": "III ve IV",
+            "C": "II ve III",
+            "D": "I, II ve IV",
+            "E": "I, III ve IV"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "\"Özellikle oyun oynamada ve karmaşık durum uzaylarına sahip problemlerde kullanılan bir arama algoritması\" Yukarıda bilgisi verilen algoritma aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Temporal Difference Algoritması",
+            "B": "Apriori Search Algoritması",
+            "C": "Q-Learning Algoritması",
+            "D": "Monte-Carlo Tree Search Algoritması",
+            "E": "Asynchronous Actor-Critic Agents Algoritması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi makine öğrenmesinin dünyadaki önemli anahtar noktaları arasında gösterilemez?",
+          "options": {
+            "A": "Güvenlik ve Savunma",
+            "B": "Ulaşım ve Taşımacılık",
+            "C": "Tıp ve Sağlık",
+            "D": "Uzay ve Astronomi",
+            "E": "Finans ve Yatırım"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "\"Bir hava durumu uygulaması, geçmiş verilere dayanarak gelecekteki sıcaklık veya yağmur olasılığını tahmin etmeye çalışır.\" Bu uygulamayı en doğru şekilde geliştirmek için aşağıda verilen hangi makine öğrenmesi türü kullanılır?",
+          "options": {
+            "A": "Derin Öğrenme",
+            "B": "Denetimsiz Öğrenme",
+            "C": "Transfer Öğrenme",
+            "D": "Denetimli Öğrenme",
+            "E": "Pekiştirmeli Öğrenme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "\"…………., veri yoğun dünyamızda bilgi çıkarmanın ve kararlar almamızın önemli bir aracı haline gelmiştir.\" Yukarıda verilen cümledeki noktalı yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Olasılık",
+            "B": "Matematik",
+            "C": "Makine öğrenmesi",
+            "D": "Mühendislik",
+            "E": "Büyük Veri Teknolojileri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "\"Doğal dil işleme projeleri için oluşturulmuş bir kütüphanedir. Metin madenciliği, metin analizi ve dil işleme görevleri için geniş bir araç ve İngilizce dilindeki metinler için büyük miktarda veri tabanı ve kaynak içerir.\" Python ortamı için verilen kütüphane aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Tensorflow",
+            "B": "Natural Language Toolkit",
+            "C": "Keras",
+            "D": "Scikit-Learn",
+            "E": "Matplotlib"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıda verilen bilgilerden hangisi Naive Bayes algoritması için doğru değildir?",
+          "options": {
+            "A": "Eğitim verileri üzerinden olasılıklar hesaplanarak yeni gelen test verileri sınıflandırılır.",
+            "B": "Eğitim için kullanılan veri miktarı arttıkça test verisinin doğru kategoriye atanma olasılığı azalır.",
+            "C": "Test için kullanılan her bir özelliğin diğer özelliklerden bağımsız olarak sınıf etiketini etkilediği varsayılır.",
+            "D": "Sınıflandırıcı belirli bir miktar eğitim verisi ile beslenerek öğrenmeye başlar.",
+            "E": "Eğitim verilerinin belirli bir sınıf veya kategoriye ait olması beklenir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "\"…………….., veri setindeki genel eğilimin dışına çıkan veya diğer verilere kıyasla belirgin bir fark gösteren gözlemlerdir.\" Yukarıda verilen ifadede boş bırakılan yere aşağıdaki seçeneklerin hangisi gelmelidir?",
+          "options": {
+            "A": "Ham Veri",
+            "B": "Kesikli Veri",
+            "C": "Sürekli Veri",
+            "D": "Eksik Veri",
+            "E": "Aykırı Veri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "K-En komşuluk algoritması kullanılarak gerçekleştirilen uygulamalarda modelin performansı için aşağıda verilen hangi metrik kullanılamaz?",
+          "options": {
+            "A": "F1 Skoru",
+            "B": "Doğruluk",
+            "C": "Destek",
+            "D": "Kesinlik",
+            "E": "Duyarlılık"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıda verilen tabirlerden hangisi yapay zekanın temel amaçları arasında yer almaz?",
+          "options": {
+            "A": "Bilgisayarın görevlerini yerine getirme",
+            "B": "Problem çözme",
+            "C": "Düşünme",
+            "D": "Dil anlama ve insan gibi davranma",
+            "E": "Öğrenme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Makine Öğrenmesi 2025 Vize",
+      "exam_title": "Makine Öğrenmesi 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden seçeneklerden hangisinde sıralı kategorik veriye örnek verilmiştir?",
+          "options": {
+            "A": "Kırmızı - beyaz - yeşil",
+            "B": "Veteriner - doktor - hakim - akademisyen",
+            "C": "Küçük - orta - büyük",
+            "D": "Sağlıklı - hasta",
+            "E": "Var - yok"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Histogramlarla ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Niteliklerin sağa ya da sola çarpık olup olmadığı görülebilir.",
+            "B": "Sürekli nitelikler için çizimi uygundur.",
+            "C": "Histogram iki nitelik arasındaki pozitif ve negatif yönlü ilişkileri ortaya koyar.",
+            "D": "Niteliklerin simetrik dağılıma sahip olup olmadığı görülebilir.",
+            "E": "Histogram üzerinde yer alan sütunlara ait hem yükseklik hem genişlik bilgi vericidir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda verilen grafik türlerinden hangisinde bir niteliğe ait aykırı değerler görülebilir?",
+          "options": {
+            "A": "Sütun grafiği (yatay)",
+            "B": "Isı haritası",
+            "C": "Sütun grafiği (dikey)",
+            "D": "Pasta grafiği",
+            "E": "Kutu grafiği"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Günümüzdeki yapay zekâ çalışmaları üretken yapay zekâ (Generative AI) olarak adlandırılmaktadır. Aşağıdakilerden hangisi üretken yapay zekâ sistemlerine örnek gösterilemez?",
+          "options": {
+            "A": "Farklı grafik ya da illüstrasyon oluşturan sistemler",
+            "B": "Otomatik metin oluşturan sistemler",
+            "C": "Rastgele resim üreten sistemler",
+            "D": "Bir web sitesinin kullanıcı etkileşimlerini analiz etmek için kullanılan bir veri tabanı yönetim sistemi",
+            "E": "Daha önce mevcut olmayan bir şarkı, ses efekti ya da ses kaydı oluşturan sistemler."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_4.jpg",
+          "image_file": "MAKINE_OGRENMESI_2025_vize_soru_4.jpg",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_4.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verilen Python kodlarını (KMeans(n_clusters=5)) çalıştıran bir araştırmacı hangi algoritmayı ve parametreyi kullanıyor olabilir?",
+          "options": {
+            "A": "k-Ortalamalar Algoritması, Küme Sayısı = 7",
+            "B": "k-En Yakın Komşu Algoritması, Komşu Sayısı = 5",
+            "C": "k-Ortalamalar Algoritması, Küme Sayısı = 3",
+            "D": "k-Ortalamalar Algoritması, Küme Sayısı = 5",
+            "E": "k-En Yakın Komşu Algoritması, Komşu Sayısı = 7"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_5.jpg",
+          "image_file": "MAKINE_OGRENMESI_2025_vize_soru_5.jpg",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_5.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verilen grafiğin (yatay histogram) çizilebilmesi için aşağıdaki seçeneklerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "sns.histplot(data=veri, y=\"sepal_length\")",
+            "B": "sns.boxplot(data=veri, y=\"sepal_length\")",
+            "C": "sns.heatmap(data=veri, y=\"sepal_length\")",
+            "D": "sns.boxplot(data=veri, x=\"sepal_length\")",
+            "E": "sns.histplot(data=veri, x=\"sepal_length\")"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "cagrilar: Bir bankanın çağrı merkezine gelen aramaların sayısı (500, 750, 1000, …). cagrilar niteliğinin veri tipi için aşağıdaki seçeneklerden hangisi en uygundur?",
+          "options": {
+            "A": "Sıralı kategorik",
+            "B": "Sürekli",
+            "C": "İkili kategorik",
+            "D": "Nominal",
+            "E": "Ayrık"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir Pandas DataFrame olarak verilen musteri adlı veri setinin özet bilgisini görüntülemek için aşağıdaki seçeneklerden hangisi kullanılabilir?",
+          "options": {
+            "A": "musteri.set()",
+            "B": "musteri.describe()",
+            "C": "musteri.desc()",
+            "D": "musteri.get()",
+            "E": "musteri.brief()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi makine öğrenmesi stratejilerinden biridir?",
+          "options": {
+            "A": "Ezberlemeli öğrenme",
+            "B": "Eklemeli öğrenme",
+            "C": "Rastgele öğrenme",
+            "D": "Danışmanlı öğrenme",
+            "E": "Eksiltmeli öğrenme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi tipik bir makine öğrenmesi modeli bileşenlerden biri değildir?",
+          "options": {
+            "A": "Nitelikler",
+            "B": "Kullanılan makine öğrenmesi algoritmasına ait parametreler",
+            "C": "Veri setinde iki sürekli niteliği görselleştirmede kullanılan Python kodu",
+            "D": "Eğitim verisi",
+            "E": "Makine öğrenmesi algoritması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_10.jpg",
+          "image_file": "MAKINE_OGRENMESI_2025_vize_soru_10.jpg",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_10.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıda verilen Maaş niteliğinin kategorik hale getirilebilmesi için aşağıda verilen yöntemlerden hangisi kullanılabilir?",
+          "options": {
+            "A": "Veri temizleme",
+            "B": "Veri özetleme",
+            "C": "Yapay (dummy) kodlama",
+            "D": "Veri normalizasyonu",
+            "E": "Veri ayrıklaştırma"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_11.jpg",
+          "image_file": "MAKINE_OGRENMESI_2025_vize_soru_11.jpg",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_11.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukarıdaki tabloda kişilerin ev sahipliği durumunu gösteren evSahipligi niteliği verilmektedir. Bu nitelikteki eksik verinin (?) tamamlanmasına yönelik aşağıda verilen ifadelerden hangisi en uygundur?",
+          "options": {
+            "A": "Nitelikte sayıca en az ve sayıca en fazla olan kategoriler birleştirilerek eksik veri yerine atanabilir.",
+            "B": "Nitelik yalnızca bir makine öğrenmesi algoritması kullanılarak doldurulabilir.",
+            "C": "Nitelikteki sayıca en fazla olan kategori eksik veri yerine atanabilir.",
+            "D": "Nitelikteki eksik veri tamamlanamaz, çünkü nitelik sayısal değildir.",
+            "E": "Nitelikteki eksik veri tamamlanamaz, gözlem tümüyle veri setinden kaldırılmalıdır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdaki seçeneklerden hangisindeki Python fonksiyonu, bir sütun grafiğinin yatay biçimde oluşturulmasını sağlar?",
+          "options": {
+            "A": "plt.bard()",
+            "B": "plt.bar()",
+            "C": "plt.barv()",
+            "D": "plt.barh()",
+            "E": "plt.bary()"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki görevlerin hangisini k-Ortalamalar Algoritmasını kullanarak gerçekleştirmek daha uygundur?",
+          "options": {
+            "A": "Bir e-ticaret şirketinin, müşterilerini alışveriş alışkanlıkları (alışveriş miktarı, alınan ürün türleri vb.) göre kümelemesi.",
+            "B": "Bir abonelik hizmeti sağlayıcısının, abonelerinin demografik ve kullanım geçmişi özellikleri ile müşterilerin sadık olup olmadığı durumunu gösteren nitelikleri kullanarak müşteri kaybını öngörmesi.",
+            "C": "Bir doktorun, hastaların semptom ve test sonuçları verilerine dayanarak, yeni gelen bir hastanın durumunu öngörmesi.",
+            "D": "Bir finans şirketinin belirli bir hisse senedi değerini bir sonraki gün için tahmin etmesi.",
+            "E": "Bir emlak şirketinin, evlerin konum, metrekare, oda sayısı, banyo sayısı gibi özellikleri ile fiyat bilgisine göre yeni bir evin fiyatını tahmin etmesi."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_14.jpg",
+          "image_file": "MAKINE_OGRENMESI_2025_vize_soru_14.jpg",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_14.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Tabloda kahve örneklerinin (O1, O2, O3, O4 ve O5) kahveTuru niteliği yapay (dummy) kodlama kullanılarak verilmiştir. kahveTuru niteliğinde, Americano, Cappuccino, Latte, Mocha ve Türk Kahvesi çeşitleri bulunmakta olup, örnekler verilen kahve türlerinden yalnızca birine aittir. Yukarıda verilenlere göre, Örnek 4'ün (O4) kahveTuru aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Mocha",
+            "B": "Americano",
+            "C": "Türk Kahvesi",
+            "D": "Cappuccino",
+            "E": "Latte"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdaki seçeneklerden hangisi makine öğrenmesinin temel unsurları arasında yer almaz?",
+          "options": {
+            "A": "Performans",
+            "B": "Algoritma",
+            "C": "Görev",
+            "D": "Deneyim (veri)",
+            "E": "Analizde kullanılan programlama dili"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Makine öğrenmesi stratejileri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Ajan, çevre, eylem gibi kavramlar pekiştirmeli öğrenme ile ilişkilidir.",
+            "B": "Danışmanlı öğrenmede veri setinde bir hedef niteliğin bulunmasına ihtiyaç duyulmaz.",
+            "C": "Sınıflandırma problemleri, danışmanlı öğrenmeden faydalanılarak çözülebilir.",
+            "D": "Pekiştirmeli öğrenme, ödül-ceza prensibine dayalıdır.",
+            "E": "Bir şirket danışmansız öğrenme algoritmalarından faydalanarak müşterilerini kümelere ayırabilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_17.jpg",
+          "image_file": "MAKINE_OGRENMESI_2025_vize_soru_17.jpg",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_17.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıda verilen kontenjans tablosuna göre doğru tahmin edilen Düşük risk grubundaki müşterilerin sayısı aşağıdaki seçeneklerden hangisinde doğru biçimde verilmiştir?",
+          "options": {
+            "A": "10",
+            "B": "3",
+            "C": "5",
+            "D": "15",
+            "E": "2"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıda verilen görev türlerinden hangisi danışmansız öğrenme kapsamına girmez?",
+          "options": {
+            "A": "Birliktelik kuralları",
+            "B": "Sınıflandırma",
+            "C": "Boyut azaltma",
+            "D": "Anormallik tespiti",
+            "E": "Kümeleme"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_19.jpg",
+          "image_file": "MAKINE_OGRENMESI_2025_vize_soru_19.jpg",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2025_vize_soru_19.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "kOrtalamalar algoritması kullanılarak gerçekleştirilen kümeleme sonucunda elde edilen kümeler ve küme merkezleri yukarıdaki tabloda verilmiştir. Buna göre; örnek veri (3,6) hangi kümeye benzerlik gösterir ve atanır?",
+          "options": {
+            "A": "Küme 5",
+            "B": "Küme 2",
+            "C": "Küme 4",
+            "D": "Küme 1",
+            "E": "Küme 3"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Makine Öğrenmesi 2024 Vize",
+      "exam_title": "Makine Öğrenmesi 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 7,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Ticaret sitelerinde bir ürünün satın alınması durumunda diğer ürünlerin satın alınma olasılığını belirlemek için aşağıda verilen hangi makine öğrenmesi yöntemi en uygun olarak kullanılır?",
+          "options": {
+            "A": "Q-Learning",
+            "B": "Apriori",
+            "C": "Monte-Carlo Tree Search (MCTS)",
+            "D": "K-Means",
+            "E": "Naive Bayes"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Makine öğrenmesi dünyada birçok sektörün iş süreçlerine etki eden önemli bir anahtar noktası olmuştur. Aşağıdakilerden hangisi bu önemli sektörlerden biri değildir?",
+          "options": {
+            "A": "Finans ve Yatırım",
+            "B": "Özelleştirilmiş Deneyimler",
+            "C": "Moda Tasarımı",
+            "D": "Veriye Dayalı Kararlar",
+            "E": "Tıp ve Sağlık Bakımı"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Naive Bayes sınıflandırıcısının aşağıda verilen hangi özelliği, onun \"naive\" (saf) olarak adlandırılmasına neden olmuştur?",
+          "options": {
+            "A": "Özellikler arasındaki bağımsızlık varsayımı",
+            "B": "Çok sınıflı sınıflandırma yapabilmesi",
+            "C": "Metin madenciliği uygulamalarında sıkça kullanılması",
+            "D": "Olasılık temelli olması",
+            "E": "Hızlı eğitim süresine sahip olması"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir makine öğrenmesi için oluşturulan veri setindeki aykırı değerler öğrenme sürecinde neden problem oluşturabilir?",
+          "options": {
+            "A": "Modelin boyutunu azaltır.",
+            "B": "Veri setini daha büyük yapar.",
+            "C": "Modelin eğitim süresini kısaltır.",
+            "D": "Modeli yanıltabilir.",
+            "E": "Modelin doğruluğunu artırır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Regresyon ve Sınıflandırma arasındaki ana ayrım aşağıda verilen bilgilerden hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "Kullanılan programlama diline dayanır.",
+            "B": "Tahmin edilen değerlerin türüne dayanır.",
+            "C": "Kullanılan veri setinin boyutuna dayanır.",
+            "D": "Eğitim süresine dayanır.",
+            "E": "Kullanılan algoritmalara dayanır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıda verilen hangi algoritma, veri setindeki benzerlikleri koruyarak veriyi iki veya üç boyuta indirger?",
+          "options": {
+            "A": "t-SEN",
+            "B": "Prensip Bileşen Analizi (PCA)",
+            "C": "K-Means",
+            "D": "DBSCAN",
+            "E": "Hiyerarşik Kümeleme"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Makine öğrenmesinin \"Oyun ve Eğlence\" alanında yaşanılan hangi önemli dönüm noktası aşağıda yanlış verilmiştir?",
+          "options": {
+            "A": "1997: IBM'in Deep Blue'su, Garry Kasparov'u yendi.",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Makine Öğrenmesi 2024 Vize",
+      "exam_title": "Makine Öğrenmesi 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Makine öğrenmesi stratejileri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bir şirket danışmansız öğrenme algoritmalarından faydalanarak müşterilerini kümelere ayırabilir.",
+            "B": "Pekiştirmeli öğrenme, ödül-ceza prensibine dayalıdır.",
+            "C": "Sınıflandırma problemleri, danışmanlı öğrenmeden faydalanılarak çözülebilir.",
+            "D": "Ajan, çevre, eylem gibi kavramlar pekiştirmeli öğrenme ile ilişkilidir.",
+            "E": "Danışmanlı öğrenmede veri setinde bir hedef niteliğin bulunmasına ihtiyaç duyulmaz."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Turing Testi ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Testte, bir insan denek karşısına başka bir insan ve bir bilgisayar (yapay zekâ sistemi) çıkarılır.",
+            "B": "Testte, yalnızca bilgisayarlar (yapay zekâ sistemi) kullanılır, test insan denek içermez.",
+            "C": "Alan Turing tarafindan geliştirilmiştir.",
+            "D": "Testin amacı, bir yapay zekâ sistemin (bilgisayar ya da makine) insan zekâsını alt edip edemeyeceğinin ortaya çıkarılması üzerinedir.",
+            "E": "Test, insan denek tarafından sorulan sorulara başka bir insan ve bir bilgisayar (yapay zekâ sistemi) tarafından verilen cevapların değerlendirilmesini kapsar."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "ogrenci veri seti ile ilgili yukarıda verilen Python kodlarına göre gerçekleştirilen işlem için aşağıdakilerden hangisi en uygundur?",
+          "options": {
+            "A": "ogrenci veri seti yüzde 80'i test, yüzde 20'si eğitim olmak üzere ikiye ayrılmıştır.",
+            "B": "ogrenci veri setinin yüzde 80'inin yarısı eğitim yarısı da test veri seti olarak ikiye ayrılmıştır.",
+            "C": "ogrenci veri seti yüzde 80'i test, yüzde 20'si eğitim olmak üzere tabakalı örnekleme kullanılarak ikiye ayrılmıştır.",
+            "D": "ogrenci veri seti yüzde 20'si test, yüzde 80'i eğitim olmak üzere tabakalı örnekleme kullanılarak ikiye ayrılmıştır.",
+            "E": "ogrenci veri seti yüzde 20'si test, yüzde 80'i eğitim olmak üzere ikiye ayrılmıştır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen Maaş niteliğinin kategorik hale getirilebilmesi için aşağıda verilen yöntemlerden hangisi kullanılabilir?",
+          "options": {
+            "A": "Veri özetleme",
+            "B": "Veri temizleme",
+            "C": "Yapay (dummy) kodlama",
+            "D": "Veri ayrıklaştırma",
+            "E": "Veri normalizasyonu"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verilen kontenjans tablosuna göre doğru tahmin edilen Düşük risk grubundaki müşterilerin sayısı aşağıdaki seçeneklerden hangisinde doğru biçimde verilmiştir?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "10",
+            "D": "2",
+            "E": "15"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi makine öğrenmesi stratejilerinden biridir?",
+          "options": {
+            "A": "Rastgele öğrenme",
+            "B": "Eklemeli öğrenme",
+            "C": "Danışmanlı öğrenme",
+            "D": "Ezberlemeli öğrenme",
+            "E": "Eksiltmeli öğrenme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki seçeneklerden hangisindeki Python fonksiyonu, bir sütun grafiğinin yatay biçimde oluşturulmasını sağlar?",
+          "options": {
+            "A": "plt.bar()",
+            "B": "plt.barh()",
+            "C": "plt.barvo",
+            "D": "plt.bard()",
+            "E": "plt.bary()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıda verilen görev türlerinden hangisi danışmansız öğrenme kapsamına girmez?",
+          "options": {
+            "A": "Sınıflandırma",
+            "B": "Boyut azaltma",
+            "C": "Birliktelik kuralları",
+            "D": "Anormallik tespiti",
+            "E": "Kümeleme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıda verilen Python kodlarını çalıştıran bir araştırmacı hangi algoritmayı ve bu algoritma için aşağıdaki hangi parametreyi kullanıyor olabilir?",
+          "options": {
+            "A": "k-En Yakın Komşu Algoritması, Komşu Sayısı=7",
+            "B": "k-En Yakın Komşu Algoritması, Komşu Sayısı=5",
+            "C": "k-Ortalamalar Algoritması, Küme Sayısı=7",
+            "D": "k-Ortalamalar Algoritması, Küme Sayısı=5",
+            "E": "k-Ortalamalar Algoritması, Küme Sayısı=3"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarda verilen YAŞ niteliği [0, 1] aralığında min-maks normalizasyon yöntemi kullanılarak normalize edilmek isteniyor. Normalizasyon sonrası; YAŞ niteliğinin yeni değerleri sırasıyla hangi seçenekte doğru bir biçimde verilmiştir?",
+          "options": {
+            "A": "0-1-0-1",
+            "B": "1-0.75 -0.50 -0",
+            "C": "0-1-0.25 -0.75",
+            "D": "0.05 -0.25 -0.75 - 1",
+            "E": "1-0-0.25 -0.75"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Histogramlarla ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Niteliklerin sağa ya da sola çarpık olup olmadığı görülebilir.",
+            "B": "Niteliklerin simetrik dağılıma sahip olup olmadığı görülebilir.",
+            "C": "Histogram iki nitelik arasındaki pozitif ve negatif yönlü ilişkileri ortaya koyar.",
+            "D": "Histogram üzerinde yer alan sütunlara ait hem yükseklik hem genişlik bilgi vericidir.",
+            "E": "Sürekli nitelikler için çizimi uygundur."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıda verilen grafik türlerinden hangisinde bir niteliğe ait aykırı değerler görülebilir?",
+          "options": {
+            "A": "Kutu grafiği",
+            "B": "Sütun grafiği (dikey)",
+            "C": "Isı haritası",
+            "D": "Pasta grafiği",
+            "E": "Sütun grafiği (yatay)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir veri setinde diğer gözlemlerden önemli ölçüde uzak olan gözlemlere verilen ad aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Aykırı değer",
+            "B": "Hatalı değerler",
+            "C": "Eksik değerler",
+            "D": "Tam değerler",
+            "E": "Tekrar eden değerler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki seçeneklerde verilen Python kodlarının hangisi market adlı veri setindeki tekrar eden gözlemlerin elde edilmesine yöneliktir?",
+          "options": {
+            "A": "sample(market, 10)",
+            "B": "market.duplicated(keep=``first``)",
+            "C": "pd.get_dummies(market)",
+            "D": "market.dtypes",
+            "E": "market.isnull().sum()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki seçeneklerden hangisi makine öğrenmesinin temel unsurları arasında yer almaz?",
+          "options": {
+            "A": "Deneyim (veri)",
+            "B": "Performans",
+            "C": "Algoritma",
+            "D": "Görev",
+            "E": "Analizde kullanılan programlama dili"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdaki seçeneklerde verilen Python kütüphanelerinden hangileri veri görselleştirme üzerine özelleşmiştir?",
+          "options": {
+            "A": "Pandas, Scikit-learn",
+            "B": "Tensorflow, Keras",
+            "C": "Scikit-learn, Tensorflow",
+            "D": "Matplotlib, Seaborn",
+            "E": "NumPy, Pandas"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bir Pandas DataFrame olarak verilen musteri adlı veri setinin özet bilgisini görüntülemek için aşağıdaki seçeneklerden hangisi kullanılabilir?",
+          "options": {
+            "A": "musteri.get()",
+            "B": "musteri.brief()",
+            "C": "musteri.set()",
+            "D": "musteri.desc()",
+            "E": "musteri.describe()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "k-Ortalamalar algoritması kullanılarak gerçekleştirilen kümeleme sonucunda elde edilen kümeler ve küme merkezleri yukarıdaki tabloda verilmiştir. Buna göre; örnek veri (3,6) hangi kümeye benzerlik gösterir ve atanır?",
+          "options": {
+            "A": "Küme 2",
+            "B": "Küme 1",
+            "C": "Küme 3",
+            "D": "Küme 5",
+            "E": "Küme 4"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden seçeneklerden hangisinde sıralı kategorik veriye örnek verilmiştir?",
+          "options": {
+            "A": "Küçük - orta - büyük",
+            "B": "Veteriner - doktor - hakim - akademisyen",
+            "C": "Var - yok",
+            "D": "Sağlıklı - hasta",
+            "E": "Kırmızı beyaz - yeşil"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "k-Ortalamalar algoritması ile farklı küme sayıları (k=3,4,5,6,7) kullanılarak 5 ayrı kümeleme analizi gerçekleştirilmiştir. Analizler sonucunda elde edilen Silhouette katsayısı değerlerine göre aşağıdaki hangi küme sayısını seçmek en uygundur?",
+          "options": {
+            "A": "k=4",
+            "B": "k=5",
+            "C": "k=7",
+            "D": "k=6",
+            "E": "k=3"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Makine Öğrenmesi 2016 Vize",
+      "exam_title": "Makine Öğrenmesi 2016 Vize",
+      "exam_type": "vize",
+      "year": "2016",
+      "question_count": 5,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 8,
+          "question": "Python programlama dilinin hangi özelliği, yazılan kodun farklı işletim sistemlerinde çalıştırılabilmesini sağlar?",
+          "options": {
+            "A": "Geniş kütüphane ekosistemi",
+            "B": "Dinamik yapısı",
+            "C": "Platform bağımsızlığı",
+            "D": "Güçlü topluluk desteği",
+            "E": "Açık kaynaklı olması"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Naive Bayes sınıflandırıcısı için aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Hızlı eğitim süresine sahiptir.",
+            "B": "Metin madenciliği uygulamalarında sıkça kullanılır.",
+            "C": "Olasılık temelli bir algoritmadır.",
+            "D": "Çok sınıflı sınıflandırma problemlerinde kullanılamaz.",
+            "E": "Özelliklerin birbirine bağımsız olduğunu varsayar."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Python programlama dilinde hangi kütüphane, bilimsel hesaplamalar için temel paket olarak kabul edilir?",
+          "options": {
+            "A": "Matplotlib",
+            "B": "Keras",
+            "C": "Scikit-learn",
+            "D": "Pandas",
+            "E": "NumPy"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıda verilen hangi makine öğrenmesi türü, bir bilgisayar programının dinamik bir ortamda belirli bir hedefe ulaşmak için nasıl hareket etmesi gerektiğini öğrenmesine odaklanır?",
+          "options": {
+            "A": "Transfer Öğrenme",
+            "B": "Arı Denetimli Öğrenme",
+            "C": "Denetimli Öğrenme",
+            "D": "Pekiştirmeli Öğrenme",
+            "E": "Denetimsiz Öğrenme"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi makine öğrenmesinin tarihsel gelişiminde önemli bir dönüm noktası değildir?",
+          "options": {
+            "A": "1986: Rumelhart, Hinton ve Williams, geri yayılım sürecini detaylandırdı.",
+            "B": "1950: Alan Turing, Turing Testi'ni tanıttı.",
+            "C": "1997: Schmidhuber ve Hochreiter, LSTM'yi tanıttı.",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Makine Öğrenmesi 2015 Vize",
+      "exam_title": "Makine Öğrenmesi 2015 Vize",
+      "exam_type": "vize",
+      "year": "2015",
+      "question_count": 8,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 13,
+          "question": "Python programlama dili ile makine öğrenmesi uygulaması geliştirme sürecinde hangi aşamada veri setinin sayısal verilerden oluşması kontrolü yapılmalıdır?",
+          "options": {
+            "A": "Kodlama",
+            "B": "Tasarım ve Planlama",
+            "C": "Ön Hazırlıklar",
+            "D": "Optimizasyon",
+            "E": "Dağıtım"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıda verilen hangi algoritma, bir değer tabanlı öğrenme yöntemidir ve ajanın optimal bir eylem politikası oluşturmasına yardımcı olur?",
+          "options": {
+            "A": "Asynchronous Actor-Critic Agents (A3C)",
+            "B": "Q-Learning",
+            "C": "Monte-Carlo Tree Search (MCTS)",
+            "D": "Temporal Difference (TD)",
+            "E": "Apriori"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "K-En yakın komşuluk (K-NN) algoritmasının temel fikri aşağıdaki seçeneklerin hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "Veri setindeki her iki öğe arasındaki uzaklığı maksimize etmek.",
+            "B": "Veri setindeki her iki öğe arasındaki uzaklığı minimize etmek.",
+            "C": "Tüm veri setini kümeler halinde sınıflandırmak.",
+            "D": "En yakın 'k' komşunun ortalamasını almak.",
+            "E": "Bir öğenin sınıfının, en yakın komşularının sınıflarına dayanarak tahmin edilmesi."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Destek Vektör Makinelerinin (SVM) çözüm uzayında hangi doğru, iki sınıf arasında en uygun ayrımı sağlar?",
+          "options": {
+            "A": "Çekirdek fonksiyonu",
+            "B": "Destek vektörü",
+            "C": "Hiper düzlem",
+            "D": "Karar doğrusu",
+            "E": "Sınır düzlemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Destek Vektör Makineleri (SVM) aşağıda verilen hangi ilkeyi benimser?",
+          "options": {
+            "A": "Yapısal risk artırma",
+            "B": "Doğrusal risk artırma",
+            "C": "Ampirik risk minimizasyonu",
+            "D": "Ampirik risk artırma",
+            "E": "Yapısal risk minimizasyonu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıda verilen bilgilerden hangisi Python programlama dili için doğru bir ifade değildir?",
+          "options": {
+            "A": "\"try-except\" komutu geliştirilen uygulamada hata yakalama işlemi için kullanılır.",
+            "B": "\"lambda\" komutu anonim fonksiyonlar oluşturmak için kullanılır.",
+            "C": "\"def\" komutu koşullu dallanma işlemleri için kullanılır.",
+            "D": "\"pip install\" komutu ile kütüphaneler Python ortamında kullanılabilmek için yükleme işlemini gerçekleştirir.",
+            "E": "\"while\" komutu döngü işlemleri için kullanılır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıda verilen bilgilerden hangisi denetimli öğrenme için doğru bir ifadedir?",
+          "options": {
+            "A": "Etiketli bir veri kümesinin kullanılmasına dayanır.",
+            "B": "Yalnızca sınıflandırma problemleri için kullanılır.",
+            "C": "Etiketlenmemiş veri setleriyle çalışan bir makine öğrenmesi yaklaşımıdır.",
+            "D": "Veri setindeki her veri parçasının sonucunun bilinmediği bir yaklaşımdır.",
+            "E": "Yalnızca regresyon problemleri için kullanılır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıda verilen hangi yöntem, büyük veri kümelerinden bilgi çıkarma süreci olarak tanımlanır?",
+          "options": {
+            "A": "Veri Madenciliği",
+            "B": "Veri Bilimi",
+            "C": "Makine Öğrenmesi",
+            "D": "Örüntü Tanıma",
+            "E": "İstatistiksel Analiz"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Makine Öğrenmesi 2025 Final",
+      "exam_title": "Makine Öğrenmesi 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "k-En Yakın Komşu Algoritması'nın karar aşamasında kullanılan çoğunluk oylaması (majority voting) ile ilgili aşağıda verilenlerden hangisi doğrudur?",
+          "options": {
+            "A": "Sınıfı etiketi bilinmeyen x örneğine en yakın k komşunun sınıf etiketlerine bakılır. Sayıca en fazla olan sınıf etiketi atanır.",
+            "B": "Sınıfı etiketi bilinmeyen x örneğine en yakın k komşunun sınıf etiketlerine bakılır. Sayıca en az olan sınıf etiketi atanır.",
+            "C": "Sınıfı etiketi bilinmeyen x örneğine en yakın k komşu arasında ağırlığı (weight) en fazla olan sınıf etiketi atanır.",
+            "D": "Sınıfı etiketi bilinmeyen x örneğine en yakın k komşu arasında ağırlığı (weight) en az olan sınıf etiketi atanır.",
+            "E": "Sınıfı etiketi bilinmeyen x örneğine en yakın k komşu arasında her zaman en yakınındaki gözleme ait sınıf etiketi atanır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "from sklearn.metrics import … Çoklu doğrusal regresyon analizi sonucunda modelin performansını değerlendirmek isteyen bir araştırmacının yukarıda … ile verilen boşluğu aşağıdaki seçeneklerin hangisi ile doldurması uygun olur?",
+          "options": {
+            "A": "recall score",
+            "B": "mean_squared_error",
+            "C": "classification_report",
+            "D": "confusion matrix",
+            "E": "ConfusionMatrix Display"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir araştırmacı veri setinde yer alan tüm nümerik nitelikleri [0,1] aralığına ölçeklendirmek istiyor. Bunun için aşağıda verilen Python kodlarından hangisi kullanılabilir?",
+          "options": {
+            "A": "from matplotlib.cbook import boxplot_stats",
+            "B": "from sklearn.model_selection import train_test_split",
+            "C": "import seaborn as sns",
+            "D": "from sklearn.preprocessing import StandardScaler",
+            "E": "from sklearn.preprocessing import MinMaxScaler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "I. ID3 II. ID4.5 III. C4.5 IV. C5.0 V. CART Yukarıda verilenlerden hangisi ya da hangileri sınıflandırma için kullanılabilen karar ağacı algoritmalarındandır?",
+          "options": {
+            "A": "Yalnızca III",
+            "B": "I, III, IV ve V",
+            "C": "I, II ve III",
+            "D": "I, III ve IV",
+            "E": "Yanlızca I"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıdaki tabloya göre, sisteme zararlı yazılım bulaştığı bilinen bir durumda (\"Evet\"), söz konusu sistemde güncelleme gecikmesi olma (\"Var\") koşullu olasılığı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "4/5",
+            "B": "1",
+            "C": "3/4",
+            "D": "1/2",
+            "E": "0"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir e-ticaret şirketinin günlük satış gelirini açıklamaya yönelik potansiyel değişkenler, bu değişkenlere ait tahmini beta (𝛽) katsayıları ve p-değerleri yukarıdaki gibidir. Yukarıdaki tabloda yer alan beş bağımsız değişkenden hangisinin modele istatistiksel açıdan anlamlı bir katkı sağlamadığı söylenebilir?",
+          "options": {
+            "A": "Reklam Harcaması (TL)",
+            "B": "Müşteri Memnuniyeti",
+            "C": "Web Site Trafiği (tıklama)",
+            "D": "Ortalama Sepet Tutarı (TL)",
+            "E": "Sosyal Medya Etkileşimi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "….. import KNeighborsClassifier k-En Yakın Komşu Algoritması ile Python'da çalışmak isteyen bir araştırmacı yukarıda…… ile verilen kod satırını aşağıdaki seçeneklerden hangisi ile tamamlamalıdır?",
+          "options": {
+            "A": "from sklearn.model_selection",
+            "B": "import matplotlib.pyplot",
+            "C": "from sklearn.neighbors",
+            "D": "from sklearn.preprocessing",
+            "E": "from sklearn.metrics"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "x = veri.yas y = veri.mutluluk … plt.xlabel(\"Yaş\") plt.ylabel(\"Mutluluk Oranı\") Yukarıdaki Python kod bloğu ile iki nitelik arasında doğrusal bir ilişkinin olup olmadığı grafik üzerinde incelenmek isteniyor. Bunun için yukarıda … ile boş bırakılan boşluğa aşağıdaki seçeneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "plt.scatter(x, y)",
+            "B": "plt.boxplot(x, y)",
+            "C": "plt.heatmap(x, y)",
+            "D": "plt.hist(x, y)",
+            "E": "plt.pic(x, y)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi yapay sinir ağlarında kullanılan bir öğrenme algoritmasıdır?",
+          "options": {
+            "A": "k-Ortalamalar Algoritması",
+            "B": "k-En Yakın Komşu Algoritması",
+            "C": "C5.0 Algoritması",
+            "D": "Geriye Yayılım Algoritması",
+            "E": "Naive Bayes Algoritması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "k-Ortalamalar algoritması kullanılarak gerçekleştirilen kümeleme analizi sonucunda elde edilen kümeler ve küme merkezleri yukarıdaki tabloda verilmiştir. Buna göre; örnek veri (20,21) aşağıdaki kümlerden hangisine benzerlik gösterir ve atanır?",
+          "options": {
+            "A": "K1",
+            "B": "K5",
+            "C": "K2",
+            "D": "K3",
+            "E": "K4"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir akıllı telefon üreticisi, farklı kullanım alışkanlıklarının günlük batarya tüketimine nasıl etki ettiğini anlamak amacıyla bir çoklu doğrusal regresyon modeli kurmuştur. Analiz sonucunda edilen model sabiti (𝛽0 ), CPU kullanım oranı katsayısı (𝛽1 ) ve ekran parlaklığı katsayısı (𝛽2 ) aşağıda verilmiştir: 𝛽0 = 2 . 5𝛽1 = 0 . 05𝛽2 = 0 . 03 Bu çoklu doğrusal regresyon modeline göre, CPU kullanım oranı 40 ve ekran parlaklık seviyesi 70 birim olan bir akıllı telefonun tahmini günlük ortalama batarya tüketimi miktarı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "8.3",
+            "B": "3.7",
+            "C": "6.6",
+            "D": "2.5",
+            "E": "5.5"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "…, bilgisayarların deneyimlerden (verilerden) öğrenmesini sağlamak ve dünyayı bir kavramlar hiyerarşisi açısından anlamak (yani karmaşık kavramları daha basit olanlardan oluşturarak öğrenmek) olarak görülebilir. Yukarıda … ile verilen boşluğa aşağıdaki seçeneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Danışmansız öğrenme",
+            "B": "Derin öğrenme",
+            "C": "Tembel öğrenme",
+            "D": "Danışmanlı öğrenme",
+            "E": "Pekiştirmeli öğrenme"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi Naive Bayes Sınıflandırıcı ile ilgili yanlış bir ifadedir?",
+          "options": {
+            "A": "Naive Bayes Sınıflandırıcı adındaki \"naive\", bu algoritmanın sınıflandırma için kullanılan tahmini sağlayan nitelikler arasındaki bağımsızlık varsayımı nedeni ile verilmiştir.",
+            "B": "Naive Bayes Sınıflandırıcı ile gerçekleştirilen analizler sonucunda olasılığı en yüksek çıkan sınıf değeri, sınıfı bilinmeyen örneğin sınıfı olarak atanır.",
+            "C": "Naive Bayes Sınıflandırıcı Bayes Teoremi'ne dayanır.",
+            "D": "Naive Bayes Sınıflandırıcı ile Bayes Sınıflandırıcı (Full Bayes Classifier) birbirinin aynısı yöntemlerdir.",
+            "E": "Naive Bayes Sınıflandırıcı ile çalışırken niteliklerin veri tipinin sürekli olması durumunda normal dağılıma uygun dağıldığı kabul edilebilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "model = …(criterion=\"gini\", max_depth=3, random_state = 123) Yukarıdaki Python kod satırında bir CART sınıflandırıcı modeli oluşturulmak istenmektedir. Bunun için … ile verilen boşluğa aşağıdaki seçeneklerde verilen ifadelerden hangisi getirilmelidir?",
+          "options": {
+            "A": "DecisionClassifier",
+            "B": "TClassifier",
+            "C": "DTRegressor",
+            "D": "Decision Tree Regressor",
+            "E": "Decision Tree Classifier"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "from sklearn.model_selection import StratifiedKFold k = 10 n = 2 perf_deg = StratifiedKFold(n_splits=k, shuffle=True, random_state=5) Bir araştırmacı model performans değerlendirmesi aşaması için yukarıdaki Python kod bloğunu çağırıyorsa aşağıda verilen performans değerlendirme yöntemlerinden hangisini kullanmaktadır?",
+          "options": {
+            "A": "Tabakalı 5-kat çapraz geçerleme",
+            "B": "Tabakalı 10-kat çapraz geçerleme",
+            "C": "Tabakalı ikili ayırma",
+            "D": "Tabakalı 2-kat çapraz geçerleme",
+            "E": "Tekrarlı ikili ayırma"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "I. Euclidean (Öklid) II. Manhattan III. Chebyshev IV. Cosine V. Jaccard VI. Adam Yukarıdaki uzaklık fonksiyonlarından hangisi ya da hangileri k-En Yakın Komşu Algoritması'nın uzaklık fonksiyonu olarak kullanılabilir?",
+          "options": {
+            "A": "I, II, III, IV ve V",
+            "B": "I, II ve III",
+            "C": "I, II, III ve IV",
+            "D": "I ve VI",
+            "E": "I ve II"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "model = Sequential(name=\"YSA Modelim\") Keras kütüphanesi yardımı ile bir yapay sinir ağı modeli oluşturulurken, modele bir girdi katmanı eklemek için aşağıdaki seçeneklerin hangisi kullanılabilir?",
+          "options": {
+            "A": "model.add(InputLayer(input_shape=(X_train.shape[1],), name=\"Girdi_Katmani\"))",
+            "B": "model.insert(InputLayer(input_shape=(X_train.shape[1],), name=\"Girdi_Katmani\"))",
+            "C": "model.append(InputLayer(input_shape=(X_train.shape[1],), name=\"Girdi_Katmani\"))",
+            "D": "model.get(InputLayer(input_shape=(X_train.shape[1],), name=\"Girdi_Katmani\"))",
+            "E": "model.create(InputLayer(input_shape=(X_train.shape[1],), name=\"Girdi_Katmani\"))"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdaki seçeneklerden hangisi ayrık (discrete) veri örneği değildir?",
+          "options": {
+            "A": "Bir futbol takımının attığı gol sayısı.",
+            "B": "Bir fabrikanın günlük ürettiği ürün adedi.",
+            "C": "Zar atıldığında üst yüze gelen nokta sayısı.",
+            "D": "Bir sınıftaki öğrenci sayısı.",
+            "E": "Bir kişinin boyu."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıda verilen tabloya göre; karar ağaçlarında niteliklerin belirsizliğini ölçmek için kullanılan Entropi değeri Proje Tamamlanma Durumu niteliği için aşağıdaki seçeneklerin hangisi kullanılarak doğru biçimde hesaplanabilir?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2025_final_soru_19.jpg",
+          "image_file": "MAKINE_OGRENMESI_2025_final_soru_19.jpg",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2025_final_soru_19.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki seçeneklerde verilenlerden hangisi büyük dil modellerine (large language models) bir örnektir?",
+          "options": {
+            "A": "Turing Testi",
+            "B": "IoT",
+            "C": "API",
+            "D": "ChatGPT",
+            "E": "Deep Blue"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Makine Öğrenmesi 2024 Final",
+      "exam_title": "Makine Öğrenmesi 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Makine öğrenmesinde kullanılan özellik mühendisliğinde hangi veri seçim yöntemi, \"özelliklerin hedef değişkenle olan ilişkisini değerlendirmek için istatistiksel testleri\" kullanır?",
+          "options": {
+            "A": "Filtre Tabanlı Seçim",
+            "B": "Gömülü Seçim",
+            "C": "Rastgele Seçim",
+            "D": "Sarma Tabanlı Seçim",
+            "E": "Ayrık Değer Seçimi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "\"….., veri setindeki genel eğilimin dışına çıkan veya diğer verilere kıyasla belirgin bir fark gösteren gözlemlerdir.\" Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "Eksik değerler",
+            "B": "Normal dağılım değerleri",
+            "C": "Yanlış değerler",
+            "D": "Aykırı değerler",
+            "E": "Ortalama değerler"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Regresyon modellerinde kullanılan metriklerden biri olan R-Kare değeri için aşağıda verilen hangi performansın en iyi olduğu söylenebilir?",
+          "options": {
+            "A": "R-Kare değeri = 0.2",
+            "B": "R-Kare değeri = 1.2",
+            "C": "R-Kare değeri = - 0.2",
+            "D": "R-Kare değeri = 0.99",
+            "E": "R-Kare değeri = 0.7"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yapay zeka ile ilgili etik kurallar hangi temel prensiplere dayanmalıdır?",
+          "options": {
+            "A": "Kâr elde etme ve rekabetçi olma",
+            "B": "Sadece insanlar için kullanılma",
+            "C": "İnsan onurunu koruma ve insanlara zarar verme",
+            "D": "Teknolojik üstünlük sağlama ve inovasyon",
+            "E": "Toplumsal çıkarları yok sayma"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Makine öğrenmesi modellerinde kullanılan hangi metrik bir regresyon modelinin hata terimlerinin oto korelasyonunu ölçer?",
+          "options": {
+            "A": "Ortalama Karesel Hata (MSE)",
+            "B": "Kök Ortalama Kare Hata (RMSE)",
+            "C": "Durbin-Watson İstatistiği",
+            "D": "Ortalama Mutlak Hata (MAE)",
+            "E": "Shapiro-Wilk Testi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Denetim öğrenme algoritmalarından biri olan Apriori algoritmasında \"sıkça bir arada görülen öğeleri belirlemek\" için hangi metrik kullanılır?",
+          "options": {
+            "A": "Destek",
+            "B": "Birliktelik",
+            "C": "Rastgele eşleşme",
+            "D": "Lift",
+            "E": "Güven"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Destek vektör makineleriyle sınıflandırma işleminde margin değeri nasıl hesaplanır?",
+          "options": {
+            "A": "Karar doğruları altında kalan alandan",
+            "B": "Sınır düzlemleri arasındaki mesafeden",
+            "C": "İki düzleme de eşit uzaklıkta bulunan orta düzlemden",
+            "D": "Karar doğruları üzerinde kalan düzlemden",
+            "E": "İki veri kümesinin merkezleri arasındaki dağılımdan"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Doğrusal Regresyon ve t-Dağıtılmış Stokastik Komşu Gömme (t-SNE) algoritmalarının benzer ve farklı yönleri nelerdir?",
+          "options": {
+            "A": "İkisi de regresyon amaçlı kullanılır; t-SNE regresyon katsayılarını belirler.",
+            "B": "İkisi de ilişkilendirme analizi amaçlı kullanılır; t-SNE Apriori algoritmasını kullanır.",
+            "C": "İkisi de hiyerarşik kümeleme amaçlı kullanılır; t-SNE hiyerarşik kümeleme yapar.",
+            "D": "İkisi de kümeleme amaçlı kullanılır; t-SNE çok katmanlı analiz yapar.",
+            "E": "İkisi de boyut azaltma amaçlı kullanılır; t-SNE doğrusal olmayan ilişkileri belirler."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Denetimsiz öğrenmede veri setindeki bağımlı değişken ile bağımsız değişken arasındaki (birliktelik kuralı) ilişki aşağıdaki yöntemlerden hangisi ile bulunabilir?",
+          "options": {
+            "A": "Naive bayes algoritması",
+            "B": "Destek vektör makineleri algoritması",
+            "C": "Apriori algoritması",
+            "D": "Karar Ağaçları",
+            "E": "K-En komşuluk algoritması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi makine öğrenmesi modelinin uygulanması ile ilgili hatalı veya eksik bir bilgidir?",
+          "options": {
+            "A": "Hangi algoritmaların kullanacağı seçilir ve ne kadar iyi performans gösterdiğini görmek için test edilir",
+            "B": "Makine öğrenmesinden önce verilerin mutlaka istatistiksel olarak analizi gerçekleştirilir",
+            "C": "Veriler toplanır, biçimlendirilir ve gerekirse (bazı öğrenme türlerinde etiket yoktur) veriler etiketlenir",
+            "D": "Bu algoritmaların performansının arzu edilen doğruluk seviyesine ulaşıncaya kadar modelin eğitimi tekrarlanır",
+            "E": "Sorunu çözmek için dikkate alınması gereken potansiyel veri girişleri belirlenir"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Makine öğrenmesinde kullanılan özellik mühendisliğinde hangi veri dönüşüm yöntemi \"belirli bir eşiğe göre özellikleri iki değerli (0 ve 1) hale getirme işlemi\" için kullanılabilir?",
+          "options": {
+            "A": "Logaritmik Dönüşüm",
+            "B": "One-hot Encoding",
+            "C": "Standartlaştırma",
+            "D": "Box-Cox Dönüşümü",
+            "E": "Binarizasyon"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Denetim öğrenme algoritmalarından biri olan Apriori algoritmasında \"bir müşterinin bir ürünü satın alması durumunda diğer bir ürünün satın alınma olasılığını\" belirlemek için hangi metrik kullanılır?",
+          "options": {
+            "A": "Lift",
+            "B": "Güven",
+            "C": "Destek",
+            "D": "Regresyon",
+            "E": "Kolerasyon"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Denetim öğrenme algoritmalarından biri olan Apriori algoritması hangi özelliği dolayısıyla büyük veri kümeleri üzerinde çalışmaya uygundur?",
+          "options": {
+            "A": "Hafıza kullanımını optimize etme özelliği",
+            "B": "Yalnızca önceden tanımlanmış veri türlerinde çalışma özelliği",
+            "C": "Sadece çoklu işlemcili bilgisayarlarda çalışma özelliği",
+            "D": "Sadece küçük veri kümeleri ile çalışma özelliği",
+            "E": "Performans sorunlarına yol açmama özelliği"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıda verilen bilgilerden hangisi makine öğrenmesinin temel unsurlarından biri değildir?",
+          "options": {
+            "A": "Python ortamında kodlama",
+            "B": "Öğrenme algoritmaları",
+            "C": "Eğitim ve değerlendirme",
+            "D": "Tune edilme ve geliştirme",
+            "E": "Model oluşturma"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "\"Mevcut veriye dayanarak yeni özniteliklerin oluşturulması sürecidir.\" Yukarıdaki tanımda ifade edilen süreç aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri örnekleme",
+            "B": "Veri dönüştürme",
+            "C": "Özellik türetme",
+            "D": "Veri ölçeklendirme",
+            "E": "Aykırı değer tespiti"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Python programlama dilinin öğrenilmesini ve uygulanmasını kolay kılan en önemli özelliği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Birçok kütüphane ile entegrasyonunun güçlü olması",
+            "B": "Dijital kaynaklarının fazla ve çok fazla doküman olması",
+            "C": "Gramerinin diğer programlama dillerine yakın olması",
+            "D": "Donanım kaynaklarını optimum kullanması",
+            "E": "Dilinin temiz, okunabilir ve minimalist sözdizimi olması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıda verilen hangi etik ilke yapay zeka sistemlerinin siber saldırılara karşı dirençli olmasını gerektirir?",
+          "options": {
+            "A": "Hesap Verebilirlik",
+            "B": "Şeffaflık",
+            "C": "Gizlilik ve Veri Yönetişimi",
+            "D": "Teknik Sağlamlık ve Güvenlik",
+            "E": "Çeşitlilik, Ayırımcılık Yapmama ve Adalet"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Makine öğrenmesi modellerinin performans metriklerinden olan F1 Skoru, aşağıdaki hangi iki metriğin harmonik ortalamasıdır?",
+          "options": {
+            "A": "Doğruluk (Accuracy) ve Duyarlılık (Recall)",
+            "B": "Özgüllük (Specificity) ve Duyarlılık (Recall)",
+            "C": "Hassasiyet (Precision) ve Doğruluk (Accuracy)",
+            "D": "Hassasiyet (Precision) ve Duyarlılık (Recall)",
+            "E": "Doğruluk (Accuracy) ve Özgüllük (Specificity)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Makine öğrenmesi modelleri için özellik çıkarma ve özellik seçimi neden önemlidir ve hangi durumlarda kullanılır?",
+          "options": {
+            "A": "Karmaşıklığı artırmak için; büyük veri setlerinde",
+            "B": "Boyut azaltma için; veri setlerini daha az boyutta temsil etmek için",
+            "C": "Doğrusal regresyon analizi yapmak için; küçük veri setlerinde",
+            "D": "K-ortalama kümeleme için; karmaşık veri yapılarında",
+            "E": "Doğrusal olmayan ilişkileri belirlemek için; büyük veri setlerinde"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "\"Önyargısız yapay zeka\" geliştirmenin etik açıdan çözeceği sorun aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Yapay zekanın insanlarla iletişim kurmasını engeller.",
+            "B": "Yapay zekanın veri mahremiyetine saygı göstermesi önyargısını azaltabilir.",
+            "C": "Yapay zekada yaşanan hız problemleri sorununu çözebilir",
+            "D": "Sadece teknik bir sorun olduğu durumları önler",
+            "E": "Cinsiyet, ırk ve diğer önyargıları azaltabilir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Makine Öğrenmesi 2024 Final",
+      "exam_title": "Makine Öğrenmesi 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Makine_Ogrenmesi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen tabloya göre; karar ağaçlarında niteliklerin belirsizliğini ölçmek için kullanılan Entropi değeri Kredi Riski niteliği için aşağıdaki seçeneklerin hangisinde doğru hesaplanmıştır?",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/MAKINE_OGRENMESI_2024_final_soru_1.png",
+          "image_file": "MAKINE_OGRENMESI_2024_final_soru_1.png",
+          "image_path": "resim-sorular/MAKINE_OGRENMESI_2024_final_soru_1.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "I. Euclidean (Öklid) II. Manhattan III. Chebyshev IV. Cosine V. Gower 1- Yukarıda verilen fonksiyonlardan kaç tanesi k-En Yakın Komşu Algoritmasında uzaklık hesaplamak için kullanılabilir?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "3",
+            "D": "1",
+            "E": "2"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "cagrilar: Bir bankanın çağrı merkezine gelen aramaların sayısı (500, 750, 1000, …). cagrilar niteliğinin veri tipi için aşağıdaki seçeneklerden hangisi en uygundur?",
+          "options": {
+            "A": "Sürekli",
+            "B": "Sıralı kategorik",
+            "C": "İkili kategorik",
+            "D": "Nominal",
+            "E": "Ayrık"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir nöronun girdileri (x1, x2) ve ağırlıkları (w1, w2) yukarıda verilmiştir. Bu nöronun net girdisi ağırlıklı toplam (weighted sum) fonksiyonu kullanılarak hesaplanırsa; nöronun net girdisi aşağıdaki seçeneklerden hangisi olur?",
+          "options": {
+            "A": "40",
+            "B": "30",
+            "C": "10",
+            "D": "50",
+            "E": "20"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki seçeneklerden hangisi doğrusal regresyon analizi öncesinde dikkat edilmesi gereken temel varsayımlar arasında yer almaz?",
+          "options": {
+            "A": "Sayısal niteliklerin veri setinden çıkartılması",
+            "B": "Normal (Gauss) dağılımı kontrolüC) Veri setindeki gürültünün kaldırılması",
+            "C": "Veri setindeki gürültünün kaldırılması",
+            "D": "Doğrusallık varsayımı kontrolü",
+            "E": "Eş doğrusallığın (colinearity) kaldırılması"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "– Bana arkadaşını söyle, sana kim olduğunu söyleyeyim – atasözü ile özdeşleşen makine öğrenmesi algoritması aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "k-Ortalamalar Algoritması",
+            "B": "Karar Ağaçları",
+            "C": "Doğrusal Regresyon Analizi",
+            "D": "k-En Yakın Komşu Algoritması",
+            "E": "Yapay Sinir Ağları"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki grafikte verilen çok katmanlı yapay sinir ağı modelinde (?) ile verilen katmanın adı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çıktı katmanı",
+            "B": "Ortanca katman",
+            "C": "Ara (gizli) katman",
+            "D": "Girdi katmanı",
+            "E": "Kök düğüm katmanı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir restoran, müşterilerin ödediği toplam hesap tutarını (tutar) kullanarak müşterinin vereceği bahşişi (bahsis) tahmin etmek için basit doğrusal regresyon analizi gerçekleştiriyor. Analiz sonucunda model sabiti (β0) ve tutar değişkeni katsayısı (β1) yukarıda verilmiştir. Doğrusal regresyon modeline göre; toplam 150 TL'lik hesap ödeyen bir müşterinin bahşiş bırakacağı miktar aşağıdakilerden hangisidir? β0=5, β1=0.20",
+          "options": {
+            "A": "50",
+            "B": "105",
+            "C": "90",
+            "D": "35",
+            "E": "75"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Öksürük ve Teşhis tablosuna göre; Covid olduğu bilinen bir hastanın öksürüğü olma (koşullu) olasılığı nedir?",
+          "options": {
+            "A": "1/5",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "2/5",
+            "E": "2/3"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki görevlerin hangisini k-Ortalamalar Algoritmasını kullanarak gerçekleştirmek daha uygundur?",
+          "options": {
+            "A": "Bir e-ticaret şirketinin, müşterilerini alışveriş alışkanlıklarına göre kümelemesi.",
+            "B": "Bir finans şirketinin belirli bir hisse senedi değerini bir sonraki gün için tahmin etmesi.",
+            "C": "Bir abonelik hizmeti sağlayıcısının, abonelerinin demografik ve kullanım geçmişi özellikleri ile müşterilerin sadık olup olmadığı durumunu gösteren nitelikleri kullanarak müşteri kaybını öngörmesi.",
+            "D": "Bir doktorun, hastaların semptom ve test sonuçları verilerine dayanarak, yeni gelen bir hastanın durumunu öngörmesi.",
+            "E": "Bir emlak şirketinin, evlerin konum, metrekare, oda sayısı, banyo sayısı gibi özellikleri ile fiyat bilgisine göre yeni bir evin fiyatını tahmin etmesi."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Çoklu doğrusal regresyon analizinde niteliklerin (beta) katsayılarına bakılarak model için anlamlı olup olmadıklarına aşağıdakilerden hangisi kullanılarak karar verilir?",
+          "options": {
+            "A": "p-değeri 0.05'ten küçükse, nitelik model için anlamlıdır.",
+            "B": "p-değeri 0.1'den küçükse, nitelik model için anlamlıdır.",
+            "C": "p2 değeri 1'den büyükse, nitelik model için anlamlıdır.",
+            "D": "p-değeri 0.05'ten büyükse, nitelik model için anlamlıdır.",
+            "E": "R2 değeri 1'e yakınsa, nitelik model için anlamlıdır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Derin öğrenme kavramındaki derinlik aşağıdakilerden hangisini ifade eder?",
+          "options": {
+            "A": "Eğitim veri setindeki örnek sayısı.",
+            "B": "Kullanılan yapay sinir ağı modeli sayısı.",
+            "C": "Test veri setindeki örnek sayısı.",
+            "D": "Modeldeki katman sayısı.",
+            "E": "Veri setindeki nitelik sayısı."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıdaki grafiğin çizilebilmesi için aşağıdaki seçeneklerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "sns.histplot(data=veri, x=\"sepal_length\")",
+            "B": "sns.heatmap(data=veri, y=\"sepal_length\")",
+            "C": "sns.boxplot(data=veri, y=\"sepal_length\")",
+            "D": "sns.histplot(data=veri, y=\"sepal_length\")",
+            "E": "sns.boxplot(data=veri, x=\"sepal_length\")"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "k-En Yakın Komşu Algoritması ile ilgili verilen seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bir danışmanlı öğrenme algoritmasıdır.",
+            "B": "Algoritmadaki k, veri setine göre ayarlanması gereken bir hiperparametredir (hyperparameter).",
+            "C": "Yalnızca sınıflandırma problemlerinin çözümünde kullanılabilir.",
+            "D": "Sınıfı bilinmeyen örneğin sınıfına karar verilirken, çoğunluk oylaması (majority voting) ya da ağırlıklı oylama (weighted voting) kullanılabilir.",
+            "E": "Bir tembel öğrenme (lazy learning) algoritması olarak da bilinmektedir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki bilim insanlarından hangisi yapay zekânın isim babası olarak bilinmektedir?",
+          "options": {
+            "A": "John McCarthy",
+            "B": "Alan Turing",
+            "C": "Hans Moravec",
+            "D": "Marvin Minsky",
+            "E": "Elon Musk"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi bir karar ağacı algoritması değildir?",
+          "options": {
+            "A": "CART",
+            "B": "C5.0",
+            "C": "ID8.15",
+            "D": "C4.5",
+            "E": "ID3"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Naive Bayes algoritması ile ilgili verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Algoritmanın en önemli özelliklerinden biri \"bağımsızlık varsayımı\"dır.",
+            "B": "Analizler sonunda, sınıfı bilinmeyen bir örneğe, olasılığı en düşük çıkan sınıf atanır.",
+            "C": "Bir danışmanlı öğrenme algoritmasıdır.",
+            "D": "Bayes Teoremi'ne dayanır.",
+            "E": "Veri setinde sürekli nitelik olması durumunda, sürekli değerlerin normal dağılıma (Gauss dağılımına) uygun dağıldığı kabulüne göre sürekli niteliklerin normal dağılım için olasılık yoğunluk fonksiyonu hesaplanabilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Karar ağaçları ile sınıflandırmadaki amaç; …… bulmak için etiketlenmemiş bir gözlemin niteliklerini test ederek ağaç boyunca bir …… bulmaktır. Yukarıdaki tanımda. verilen boşluklara sırasıyla aşağıdaki şıklarda verilen hangi ikili gelmelidir?",
+          "options": {
+            "A": "sınıf etiketini - dal",
+            "B": "üst düğümünü - yaprak",
+            "C": "üst düğümünü - kök düğüm",
+            "D": "dal - yaprak",
+            "E": "sınıf etiketini - yol"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıdaki tabloda kişilerin ev sahipliği durumunu gösteren evSahipligi niteliği verilmektedir. Bu nitelikteki eksik verinin (?) tamamlanmasına yönelik aşağıda verilen ifadelerden hangisi en uygundur?",
+          "options": {
+            "A": "Nitelikte sayıca en az ve sayıca en fazla olan kategoriler birleştirilerek eksik veri yerine atanabilir.",
+            "B": "Nitelikteki eksik veri tamamlanamaz, gözlem tümüyle veri setinden kaldırılmalıdır.",
+            "C": "Nitelikteki sayıca en fazla olan kategori eksik veri yerine atanabilir.",
+            "D": "Nitelikteki eksik veri tamamlanamaz, çünkü nitelik sayısal değildir.",
+            "E": "Nitelik yalnızca bir makine öğrenmesi algoritması kullanılarak doldurulabilir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Bir araştırmacı Python'da Naive Bayes modelinin performansını değerlendirmek için tabakalı 10-kat çapraz geçerleme yöntemini kullanmak istiyor. Yukarıda verilen işlemin gerçekleştirilebilmesine yönelik aşağıda verilen seçeneklerden hangisi kullanılabilir?",
+          "options": {
+            "A": "cv_model = StratifiedKFold(n_splits=1, shuffle=True, random_state=10)",
+            "B": "cv_model = StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+            "C": "cv_model = StratifiedKFold(n_splits=5, shuffle=True, random_state=5)",
+            "D": "cv_model = StratifiedKFold(n_splits=2, shuffle=True, random_state=5)",
+            "E": "cv_model = StratifiedKFold(n_splits=5, shuffle=True, random_state=2)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

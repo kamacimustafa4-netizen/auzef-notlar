@@ -1,7 +1,7 @@
 {
   "course": "Klasik Mantik",
   "lesson_code": "KLASIK_MANTIK",
-  "exam_count": 11,
+  "exam_count": 13,
   "exams": [
     {
       "title": "Klasik Mantık 2025-2026 Vize",
@@ -2830,7 +2830,7 @@
             "D": "Şartlı kıyas",
             "E": "Zincirleme kıyas"
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2847,7 +2847,7 @@
             "D": "Ignoration elenchi",
             "E": "Fallacia plurium interogationum"
           },
-          "correct_answer": "D",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2864,7 +2864,7 @@
             "D": "Datisi",
             "E": "Ferio"
           },
-          "correct_answer": "C",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2881,7 +2881,7 @@
             "D": "4eMMa4o",
             "E": "Me2Ma2o"
           },
-          "correct_answer": "C",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2932,7 +2932,7 @@
             "D": "bütün",
             "E": "kalemler"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2949,7 +2949,7 @@
             "D": "Şartlı kıyas",
             "E": "Modus ponendo tollens"
           },
-          "correct_answer": "A",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2966,7 +2966,7 @@
             "D": "Kıyas öncül adı verilen",
             "E": "Orta terim, sonuçta geçmemelidir"
           },
-          "correct_answer": "C",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2983,7 +2983,7 @@
             "D": "Modus ponens",
             "E": "Modüs ponendo tollers"
           },
-          "correct_answer": "C",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3000,7 +3000,7 @@
             "D": "Bazı kalemler beyazdır",
             "E": "Bütün beyazlar kağıttır"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3017,7 +3017,7 @@
             "D": "Geçerli",
             "E": "Yanlış"
           },
-          "correct_answer": "E",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3034,7 +3034,7 @@
             "D": "Çelişik",
             "E": "Belirsiz"
           },
-          "correct_answer": "C",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3068,7 +3068,7 @@
             "D": "Sıp",
             "E": "Sup"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3085,7 +3085,7 @@
             "D": "Yalnız I",
             "E": "Yalnız II"
           },
-          "correct_answer": "D",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3102,7 +3102,7 @@
             "D": "Modus ponens",
             "E": "Modus ilkesi"
           },
-          "correct_answer": "C",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -3979,6 +3979,340 @@
       ]
     },
     {
+      "title": "Klasik Mantık 2016 Final",
+      "exam_title": "Klasik Mantık 2016 Final",
+      "exam_type": "final",
+      "year": "2016",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Klasik_Mantik_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi genel terimdir?",
+          "options": {
+            "A": "İyi",
+            "B": "Güzel",
+            "C": "Sefil",
+            "D": "Tatlı",
+            "E": "Kibarlık"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi somut terimdir?",
+          "options": {
+            "A": "Adalet",
+            "B": "Egemenlik",
+            "C": "Zarafet",
+            "D": "İnsan",
+            "E": "Nezaket"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangileri doğrudur? I. Dil içinde anlam taşıyan en küçük birimler ise terimlerdir. II. Terimler her türlü maddi ve manevi nesneleri, tek tek olayları, yani kısaca olguları ifade etmeye yararlar. III. Terimlerin iki görevi vardır: Her türlü olguya işaret etmek ve (işaret ettiği olgularla ilgili) bir anlam taşımak.",
+          "options": {
+            "A": "I",
+            "B": "II",
+            "C": "I, II ve III",
+            "D": "III",
+            "E": "V"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "\"Sebze\" teriminin kaplamı aşağıdakilerden hangisidir? (2016 vize)",
+          "options": {
+            "A": "Bitki",
+            "B": "Canlı cisim",
+            "C": "Maydanoz",
+            "D": "Portakal",
+            "E": "Duygusuz cisim"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bazı kalemler yazar' önermesi yanlışsa 'Tüm kalemler yazar' önermesinin doğruluk değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Doğru",
+            "B": "Belirsiz",
+            "C": "Tutarlı",
+            "D": "Geçerli",
+            "E": "Yanlış"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi önerme değildir?",
+          "options": {
+            "A": "Felsefe nedir?",
+            "B": "Aristoteles bir filozoftor.",
+            "C": "Aristoteles'in mantık çalışmaları metafizik öğretisinin temelinde yer alır.",
+            "D": "Kıyas öğretisi Aristoteles tarafından ortaya koyulmuştur.",
+            "E": "Bugün yağmur yağacak."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hiçbir balık kırmızı değildir.\" önermesi doğruysa \"Bazı balıklar kırmızıdır.\" önermesinin doğruluk değeri nedir?",
+          "options": {
+            "A": "Doğru",
+            "B": "Yanlış",
+            "C": "Belirsiz",
+            "D": "Altık",
+            "E": "Çelişik"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "'Tüm kuşlar uçar' önermesi doğruysa 'hiçbir kuş uçmaz' önermesinin doğruluk değeri aşağıdakilerden hangisidir? (2016 vize)",
+          "options": {
+            "A": "Yanlış",
+            "B": "Doğru",
+            "C": "Belirsiz",
+            "D": "Çelişik",
+            "E": "Karşıt"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"Bütün bulutlar beyazdır\" önermesi doğru ise \"Hiçbir bulut beyaz değildir\" önermesinin doğruluk değeri nedir? (2016 vize)",
+          "options": {
+            "A": "Doğru",
+            "B": "Belirsiz",
+            "C": "Yanlış",
+            "D": "Altık",
+            "E": "Çelişik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Bütün önlükler beyazdır.\" önermesi yanlışsa \"Bazı önlükler beyazdır\" önermesinin doğruluk değeri nedir?",
+          "options": {
+            "A": "Doğru",
+            "B": "Yanlış",
+            "C": "Belirsiz",
+            "D": "Altık",
+            "E": "Çelişik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bazı çalışkan (kişiler) öğrencidir\" önermesi klasik mantıkta nasıl sembolize edilir?",
+          "options": {
+            "A": "Sop",
+            "B": "Sap",
+            "C": "Pas",
+            "D": "Sep",
+            "E": "Pıs"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi karmaşık ifadelerin çeşitlerinden biri değildir? (2016 vize) I. Modal II. Kategorik III. Ayrık IV. Bileşik V. Hipotetik",
+          "options": {
+            "A": "Yalnız I",
+            "B": "III ve V",
+            "C": "II ve III",
+            "D": "I, II, III",
+            "E": "I ve II"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi hipotetik bir önermedir?",
+          "options": {
+            "A": "Şiirleri veya şarkıları antolojiden okur.",
+            "B": "Kurt Gödel yirminci yüzyılın en büyük mantıkçısıdır.",
+            "C": "Yağmur yağarsa denizde yüzmeyeceğim.",
+            "D": "Bilgi gösterimi ve doğal dil işleme yapay zekânın alanları arasında yer alır.",
+            "E": "Varlık ve zaman felsefenin iki temel kavramıdır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki ifadelerden hangisinde özne yükleme tam olarak dağıtılmıştır?",
+          "options": {
+            "A": "Bazı balıklar karada yaşar.",
+            "B": "Tüm balıklar yüzer.",
+            "C": "Bazı kalemler beyaz değildir.",
+            "D": "Bir kısım öğrenciler okula gelmedi.",
+            "E": "Suyun bir kısmını içti."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi bir çıkarım türü değildir?",
+          "options": {
+            "A": "Kıyas",
+            "B": "Zincirleme kıyas",
+            "C": "Doğrudan çıkarım",
+            "D": "Dolaylı çıkarım",
+            "E": "Tahmin etme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "\"Bazı hayvanlar memelidir\" önermesinin döndürmesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bazı hayvanlar memeli değildir.",
+            "B": "Bazı memeliler hayvan değildir.",
+            "C": "Tüm hayvanlar memelidir.",
+            "D": "Bazı memeliler hayvandır.",
+            "E": "Hiçbir memeli hayvan değildir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Akıl yürütme ve mantıksal çıkarım ile ilgili dile getirilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Akıl yürütmeler de mantıksal çıkarımlar gibi bir sistem içinde değerlendirilebilir.",
+            "B": "Akıl yürütmeler eksik önermeli kıyaslardan oluşabilir.",
+            "C": "Mantıksal çıkarımlardaki öncüller ve sonuçlar sadece harflerle sembolleştirilebilir ancak akıl yürütmelerdeki öncüller ve sonuçlar sayılarla sembolleştirilebilir.",
+            "D": "Mantıksal çıkarımda tüm öncüller ve sonuçlar denetlenebilirken, akıl yürütmelerde bazı öncüller bulunmayabilir.",
+            "E": "Akıl yürütmelerdeki önermeler sembolik dille ifade edilebilir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdaki önermelerden hangisinde özne, yükleme tam olarak dağıtılmıştır? (2016 vize)",
+          "options": {
+            "A": "Bazı kalemler beyazdır.",
+            "B": "Bazı dondurmalar beyazdır.",
+            "C": "Bazı romanlar biyografiktir.",
+            "D": "Hiçbir memeli uçmaz.",
+            "E": "Bazı memeliler yüzer."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Tümel olumlu önermenın celişiği nedir?",
+          "options": {
+            "A": "Tikel olumlu önerme",
+            "B": "Assetorik olumlu önerme",
+            "C": "Tikel olumsuz önerme",
+            "D": "Tümel olumsuz önerme e)Kategorik olumlu önerme",
+            "E": ""
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
       "title": "Klasik Mantik 2024-2025 Butunleme",
       "exam_title": "Klasik Mantik 2024-2025 Butunleme",
       "exam_type": "butunleme",
@@ -4348,7 +4682,7 @@
             "D": "6",
             "E": "2"
           },
-          "correct_answer": "C",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4365,7 +4699,7 @@
             "D": "17",
             "E": "15"
           },
-          "correct_answer": "E",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4382,7 +4716,7 @@
             "D": "Birinci öncülün büyük terim ve orta terimden oluşması gerekir.",
             "E": "Orta terim sonuçta da geçmelidir."
           },
-          "correct_answer": "B",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4399,7 +4733,7 @@
             "D": "Modus Ponens",
             "E": "Modus Tollens"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4416,7 +4750,7 @@
             "D": "Argumentum ad ignorantiam",
             "E": "Argumentum ad baculum"
           },
-          "correct_answer": "D",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4450,7 +4784,7 @@
             "D": "Belirsiz",
             "E": "Doğru"
           },
-          "correct_answer": "E",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4484,7 +4818,7 @@
             "D": "Peirce",
             "E": "Boole"
           },
-          "correct_answer": "B",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4501,7 +4835,7 @@
             "D": "I, II ve III",
             "E": "Yalnız I"
           },
-          "correct_answer": "A",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4518,7 +4852,7 @@
             "D": "Çalış",
             "E": "Kap"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4535,7 +4869,7 @@
             "D": "Bazı felsefi dizgeler metafizik değildir.",
             "E": "Her tür metafizik bir felsefi dizge içerir."
           },
-          "correct_answer": "E",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4569,7 +4903,7 @@
             "D": "Ignoratio elenchi",
             "E": "Argumentum ad baculum"
           },
-          "correct_answer": "E",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4586,7 +4920,7 @@
             "D": "Çeşme",
             "E": "Akar"
           },
-          "correct_answer": "D",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4603,7 +4937,7 @@
             "D": "Sevgi",
             "E": "Mutluluk"
           },
-          "correct_answer": "B",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4637,7 +4971,7 @@
             "D": "Egemenlik",
             "E": "Özgürlük"
           },
-          "correct_answer": "D",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4654,7 +4988,7 @@
             "D": "Zarafet",
             "E": "Egemenlik"
           },
-          "correct_answer": "E",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -4671,7 +5005,409 @@
             "D": "Cesare",
             "E": "Fesapo"
           },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Klasik Mantik 2016 Butunleme",
+      "exam_title": "Klasik Mantik 2016 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2016",
+      "question_count": 23,
+      "source_url": "",
+      "file_name": "Klasik_Mantik_Butunleme_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi tekil terimdir?",
+          "options": {
+            "A": "Yıldızlar",
+            "B": "Adaletsiz",
+            "C": "İyi",
+            "D": "Yalnızlık",
+            "E": "Özgürlük"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi \"kuş\" teriminin kaplamı değildir? I. Gagalı II. Tüylü III. Kanatlı IV. Uçan V. Omurgalı",
+          "options": {
+            "A": "I ve V",
+            "B": "II ve IV",
+            "C": "I, III ve V",
+            "D": "I, II ve IV",
+            "E": "Yalnız V"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "'Hiçbir fil şarkı söylemez' önermesi yanlışsa 'Bazı filler şarkı söylemez' önermesinin doğruluk değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Doğru",
+            "B": "Belirsiz",
+            "C": "Tutarlı",
+            "D": "Geçerli",
+            "E": "Yanlış"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi çiçek teriminin içlemidir?",
+          "options": {
+            "A": "Manolya",
+            "B": "Gül",
+            "C": "Papatya",
+            "D": "Orkide",
+            "E": "Canlı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "\"Meyve\" teriminin kaplamı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bitki",
+            "B": "Canlı cisim",
+            "C": "Maydanoz",
+            "D": "Portakal",
+            "E": "Duygusuz cisim"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aristoteles'in mantık kitaplarından biri değildir? (2016 vize)",
+          "options": {
+            "A": "Kategoriler",
+            "B": "I. Analitikler",
+            "C": "Poetika",
+            "D": "II. Analitikler",
+            "E": "Metafizik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi karmaşık ifadelerin çeşitlerinden biri değildir? (2016 vize) I. Modal II. Kategorik III. Ayrık IV. Bileşik V. Hipotetik",
+          "options": {
+            "A": "Yalnız I",
+            "B": "III ve V",
+            "C": "II ve III",
+            "D": "I, II, III",
+            "E": "I ve II"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bütün şemsiyeler siyahtır\" önermesinin tersine döndürmesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bazı şemsiyeler siyahtır.",
+            "B": "Hiçbir şemsiye siyah değildir.",
+            "C": "Bütün şemsiyeler siyah değildir.",
+            "D": "Bazı siyahlar şemsiyedir.",
+            "E": "Hiçbir şemsiye siyah-olmayan değildir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"Bazı telefonlar dokunmatiktir\" önermesinin döndürmesi aşağıdakilerden hangisidir? (2016 vize)",
+          "options": {
+            "A": "Bazı telefonlar dokunmatik değildir.",
+            "B": "Bazı dokunmatik şeyler telefondur.",
+            "C": "Bazı dokunmatik şeyler telefon değildir.",
+            "D": "Tüm telefon dokunmatiktir.",
+            "E": "Hiçbir dokunmatik şey telefon değildir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi mantık önermesi değildir?",
+          "options": {
+            "A": "Fizik nedir?",
+            "B": "Aristoteles bir filozoftur.",
+            "C": "Aristoteles'in mantık çalışmaları metafizik öğretisinin temelinde yer alır.",
+            "D": "Kıyas öğretisi Aristoteles tarafından ortaya koyulmuştur.",
+            "E": "Bugün yağmur yağacak."
+          },
           "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Hangi türden modal önermelerin hem kendisi hem de tersi doğru olamaz?",
+          "options": {
+            "A": "Assetorik",
+            "B": "Zorunlu",
+            "C": "Mümkün",
+            "D": "Apodektik",
+            "E": "Kategorik"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi bir çıkarım türü değildir?",
+          "options": {
+            "A": "Kıyas",
+            "B": "Zincirleme kıyas",
+            "C": "Doğrudan çıkarım",
+            "D": "Dolaylı çıkarım",
+            "E": "Tahmin etme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden mantıksal çıkarım ile ilgili dile getirilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Objektif bir biçimde denetlenebilir olması",
+            "B": "Formel bir dil vasıtasıyla ifade edilebilmesi",
+            "C": "Herkesin aynı sonucu elde etmesi",
+            "D": "Önermelerin sembolik hale getirilebilmesi",
+            "E": "Formel sistemler aracılığıyla denetlenememesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Bazı çalışkan (kişiler) öğrencidir\" önermesi klasik mantıkta nasıl sembolize edilir?",
+          "options": {
+            "A": "Sop",
+            "B": "Sap",
+            "C": "Pas",
+            "D": "Sep",
+            "E": "Pıs"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "\"Bazı hayvanlar memelidir\" önermesinin döndürmesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bazı hayvanlar memeli değildir.",
+            "B": "Bazı memeliler hayvan değildir.",
+            "C": "Tüm hayvanlar memelidir.",
+            "D": "Bazı memeliler hayvandır.",
+            "E": "Hiçbir memeli hayvan değildir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisinde özne ve yüklem dağıtılmamıştır?",
+          "options": {
+            "A": "Bazı kâğıtlar ilkesi",
+            "B": "Bazı kâğıtlar beyazdır",
+            "C": "Bazı kâğıtlar değildir",
+            "D": "Bazı kâğıtlar yöntemi",
+            "E": "beyazdır yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Dil içinde anlam taşıyan en küçük birimler aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çıkarımlar",
+            "B": "Önermeler",
+            "C": "Terimler",
+            "D": "Cümleler",
+            "E": "Kıyaslar"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "\"Bütün filozoflar yazardır\" önermesi doğru ise \"Hiçbir filozof yazar değildir\" önermesinin doğruluk değeri nedir?(Sonucu YANLIŞ olan bu soruya benzer bir soru)",
+          "options": {
+            "A": "Doğru",
+            "B": "Belirsiz",
+            "C": "Altık",
+            "D": "Yanlış",
+            "E": "Çelişik"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki önermelerden hangisinde özne yükleme tam olarak dağıtılmıştır?",
+          "options": {
+            "A": "Bazı çocuklar süt içmez.",
+            "B": "Bazı dondurmalar beyazdır.",
+            "C": "Bazı kalemler kırmızı yazar.",
+            "D": "Bazı kuşlar uçar.",
+            "E": "Hiçbir hayvan fotosentez yapmaz."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi Aristoteles'in kategorilerinden değildir?",
+          "options": {
+            "A": "İlinek",
+            "B": "Nicelik",
+            "C": "Nitelik",
+            "D": "Görelik",
+            "E": "Etki"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "\"Bütün kalemler beyazdır\" önermesi yanlışsa \"Bazı kalemler beyazdır\" önermesinin doğruluk değeri nedir?",
+          "options": {
+            "A": "Doğru",
+            "B": "Yanlış",
+            "C": "Belirsiz",
+            "D": "Altık",
+            "E": "Çelişik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 22,
+          "question": "\"Bütün öğrenciler çalışkandır.\" önermesinin tersine döndürmesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bazı öğrenciler çalışkandır.",
+            "B": "Hiçbir öğrenci çalışkan değildir.",
+            "C": "Bütün çalışkanlar öğrenci değildir.",
+            "D": "Bazı çalışkanlar öğrencidir.",
+            "E": "Hiçbir öğrenci çalışkan-olmayan değildir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 23,
+          "question": "Sebze\" teriminin kaplamı aşağıdakilerden hangisidir? (2016 vize)",
+          "options": {
+            "A": "Bitki",
+            "B": "Canlı cisim",
+            "C": "Maydanoz",
+            "D": "Portakal",
+            "E": "Duygusuz cisim"
+          },
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",

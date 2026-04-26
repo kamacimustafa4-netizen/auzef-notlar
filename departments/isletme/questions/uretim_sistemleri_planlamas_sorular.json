@@ -1,7 +1,7 @@
 {
   "course": "Üretim Sistemleri Planlaması",
   "lesson_code": "URETIM_SISTEMLERI_PLANLAMAS",
-  "exam_count": 6,
+  "exam_count": 8,
   "exams": [
     {
       "title": "Üretim Sistemleri Planlaması 2024-2025 Vize",
@@ -359,7 +359,7 @@
       "exam_title": "Üretim Sistemleri Planlaması 2022-2023 Vize",
       "exam_type": "vize",
       "year": "2022-2023",
-      "question_count": 20,
+      "question_count": 9,
       "source_url": "",
       "file_name": "Uretim_Sistemleri_Planlamasi_Vize_Sorulari.docx",
       "questions": [
@@ -373,7 +373,7 @@
             "D": "Üretim tahmini",
             "E": "Talep tahmini"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -390,7 +390,7 @@
             "D": "Tüketiciden gelen talep doğrultusunda iş gücüne yönelen dönemsel talebin değişmesi",
             "E": "Tüketiciden gelen bilgi hammadde kaynağına ulaşana kadar tahmine kaynaklık eden verinin değişmesi"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -407,7 +407,7 @@
             "D": "Beyaz eşya",
             "E": "Endüstriyel ekmek"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -424,7 +424,7 @@
             "D": "Depolama",
             "E": "Pazarlama"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -441,7 +441,7 @@
             "D": "Büyüme",
             "E": "Olgunluk"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -458,7 +458,7 @@
             "D": "3",
             "E": "2"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -475,7 +475,7 @@
             "D": "Nihai tüketici beğeni, şikayet, istek ve sipariş gibi bilgiler sunar.",
             "E": "Talep tahmininde kullanılan bilginin ve mamulün hareket yönü birbirine terstir."
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -492,7 +492,7 @@
             "D": "Çevrim stoku",
             "E": "Ayrıştırma stoku"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -503,200 +503,13 @@
           "id": 9,
           "question": "Bir fabrikada üretilen ürüne olan yıllık talep 10.000 birimdir. Günlük üretim hızı 100 birim, günlük talep de 40 birimdir. Yıllık elde bulundurma maliyeti 1 TL, hazırlık maliyetiyse 200 TL'dir. Bir defada üretilmesi gereken ekonomik üretim miktarı kaç birimdir?",
           "options": {
-            "A": "2000",
-            "B": "10.000",
-            "C": "40",
-            "D": "2582",
-            "E": "100"
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "ABC stok sınıflandırması yapıldığında \"yıllık kullanım kümülatif yüzdesi\" olarak %83'e denk gelen stok birimi aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "A003",
-            "B": "A005",
-            "C": "A001",
-            "D": "A009",
-            "E": "A010"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Yapılan tahminlerde son dört mevsimdeki tahmin hataları yukarıdaki gibi olduğuna göre bu yöntemin ortalama mutlak sapma (MAD) değeri kaçtır?",
-          "options": {
-            "A": "8",
-            "B": "2",
-            "C": "0",
-            "D": "1",
-            "E": "4"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Yenileme miktarından etkilenmeyen sabit olan maliyet kalemi hangisidir?",
-          "options": {
-            "A": "Elde bulundurma maliyeti",
-            "B": "Elde bulundurmama maliyet",
-            "C": "Ceza maliyeti",
-            "D": "Hazırlık maliyeti",
-            "E": "Birim maliyet"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Siparişi verilen bir ipliğin tonu 1.560 TL, yıllık elde bulundurma oranı %25 ise bu ipliği bir yıl elde bulundurmanın maliyeti aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "15,6 TL",
-            "B": "390 TL",
-            "C": "7,5 TL",
-            "D": "39 TL",
-            "E": "75 TL"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Aşağıda farklı yöntemlerle yapılan talep tahmininin MAPE değerleri verilmiştir. Hangi değeri veren yöntem bir sonraki dönemin tahmininde kullanılır?",
-          "options": {
-            "A": "0,67",
-            "B": "0,14",
-            "C": "0,10",
-            "D": "0,014",
-            "E": "0,46"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Aşağıdaki düzeltme katsayılarından hangisinde, üstel düzeltmeye dayalı tahmin değeri basit yönteme dayalı tahmin değeriyle aynı olur?",
-          "options": {
-            "A": "Hesaplanamaz",
-            "B": "1",
-            "C": "0",
-            "D": "0,5",
-            "E": "1/dönem sayısı"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Tedarikçiden satın alınarak üretim sürecinde girdi olarak kullanılan ve belirli işlemlerin ardından bitmiş ürün hâlini alan stoklara ne denir?",
-          "options": {
-            "A": "Ölçek ekonomisi stokları",
-            "B": "Başlangıç stoku",
-            "C": "Yarı mamul stoku",
-            "D": "Hammadde stoku",
-            "E": "Mamul stoku"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Aşağıdaki yöntemlerden hangisi en uygun tahmin yöntemini seçmede kullanılır?",
-          "options": {
-            "A": "Tekli regresyon analizi",
-            "B": "Hareketli ortalamalar yöntemi",
-            "C": "İzleme sinyali yöntemi",
-            "D": "Mevsim indeksi",
-            "E": "Üssel düzeltme yöntemi"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Bir ürüne olan talep zamanla değişmiyorsa talep nasıl bir özellik göstermektedir?",
-          "options": {
-            "A": "Sabit",
-            "B": "Bilinmez",
-            "C": "Doğrusal",
-            "D": "Düzensiz",
-            "E": "Mevsimsel"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Direkt işçilik, direkt malzeme ve genel üretim maliyetleri toplamından oluşan maliyet aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Ceza maliyeti",
-            "B": "Hazırlık maliyeti",
-            "C": "Elde bulundurma maliyeti",
-            "D": "Elde bulundurmama maliyeti",
-            "E": "Birim maliyet"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Yıllık talep miktarı 6000 birim, sipariş maliyeti 100 TL, elde bulundurma maliyeti aylık 10 TL ise ESM yaklaşık olarak kaçtır?",
-          "options": {
-            "A": "346",
-            "B": "60",
-            "C": "100",
-            "D": "6000",
-            "E": "35"
-          },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1125,6 +938,204 @@
       ]
     },
     {
+      "title": "Üretim Sistemleri Planlaması 2000 Vize",
+      "exam_title": "Üretim Sistemleri Planlaması 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 11,
+      "source_url": "",
+      "file_name": "Uretim_Sistemleri_Planlamasi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 10,
+          "question": "ABC stok sınıflandırması yapıldığında \"yıllık kullanım kümülatif yüzdesi\" olarak %83'e denk gelen stok birimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "A003",
+            "B": "A005",
+            "C": "A001",
+            "D": "A009",
+            "E": "A010"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yapılan tahminlerde son dört mevsimdeki tahmin hataları yukarıdaki gibi olduğuna göre bu yöntemin ortalama mutlak sapma (MAD) değeri kaçtır?",
+          "options": {
+            "A": "8",
+            "B": "2",
+            "C": "0",
+            "D": "1",
+            "E": "4"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yenileme miktarından etkilenmeyen sabit olan maliyet kalemi hangisidir?",
+          "options": {
+            "A": "Elde bulundurma maliyeti",
+            "B": "Elde bulundurmama maliyet",
+            "C": "Ceza maliyeti",
+            "D": "Hazırlık maliyeti",
+            "E": "Birim maliyet"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Siparişi verilen bir ipliğin tonu 1.560 TL, yıllık elde bulundurma oranı %25 ise bu ipliği bir yıl elde bulundurmanın maliyeti aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "15,6 TL",
+            "B": "390 TL",
+            "C": "7,5 TL",
+            "D": "39 TL",
+            "E": "75 TL"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıda farklı yöntemlerle yapılan talep tahmininin MAPE değerleri verilmiştir. Hangi değeri veren yöntem bir sonraki dönemin tahmininde kullanılır?",
+          "options": {
+            "A": "0,67",
+            "B": "0,14",
+            "C": "0,10",
+            "D": "0,014",
+            "E": "0,46"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki düzeltme katsayılarından hangisinde, üstel düzeltmeye dayalı tahmin değeri basit yönteme dayalı tahmin değeriyle aynı olur?",
+          "options": {
+            "A": "Hesaplanamaz",
+            "B": "1",
+            "C": "0",
+            "D": "0,5",
+            "E": "1/dönem sayısı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Tedarikçiden satın alınarak üretim sürecinde girdi olarak kullanılan ve belirli işlemlerin ardından bitmiş ürün hâlini alan stoklara ne denir?",
+          "options": {
+            "A": "Ölçek ekonomisi stokları",
+            "B": "Başlangıç stoku",
+            "C": "Yarı mamul stoku",
+            "D": "Hammadde stoku",
+            "E": "Mamul stoku"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdaki yöntemlerden hangisi en uygun tahmin yöntemini seçmede kullanılır?",
+          "options": {
+            "A": "Tekli regresyon analizi",
+            "B": "Hareketli ortalamalar yöntemi",
+            "C": "İzleme sinyali yöntemi",
+            "D": "Mevsim indeksi",
+            "E": "Üssel düzeltme yöntemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir ürüne olan talep zamanla değişmiyorsa talep nasıl bir özellik göstermektedir?",
+          "options": {
+            "A": "Sabit",
+            "B": "Bilinmez",
+            "C": "Doğrusal",
+            "D": "Düzensiz",
+            "E": "Mevsimsel"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Direkt işçilik, direkt malzeme ve genel üretim maliyetleri toplamından oluşan maliyet aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ceza maliyeti",
+            "B": "Hazırlık maliyeti",
+            "C": "Elde bulundurma maliyeti",
+            "D": "Elde bulundurmama maliyeti",
+            "E": "Birim maliyet"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Yıllık talep miktarı 6000 birim, sipariş maliyeti 100 TL, elde bulundurma maliyeti aylık 10 TL ise ESM yaklaşık olarak kaçtır?",
+          "options": {
+            "A": "346",
+            "B": "60",
+            "C": "100",
+            "D": "6000",
+            "E": "35"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
       "title": "Üretim Sistemleri Planlaması 2025-2026 Final",
       "exam_title": "Üretim Sistemleri Planlaması 2025-2026 Final",
       "exam_type": "final",
@@ -1480,7 +1491,7 @@
       "exam_title": "Üretim Sistemleri Planlaması 2024-2025 Final",
       "exam_type": "final",
       "year": "2024-2025",
-      "question_count": 20,
+      "question_count": 14,
       "source_url": "",
       "file_name": "Uretim_Sistemleri_Planlamasi_Final_Sorulari.docx",
       "questions": [
@@ -1494,7 +1505,7 @@
             "D": "54",
             "E": "52"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_1.jpg",
           "image_file": "URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_1.jpg",
@@ -1511,7 +1522,7 @@
             "D": "15",
             "E": "7"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1528,7 +1539,7 @@
             "D": "0,14",
             "E": "0,46"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_3.jpg",
           "image_file": "URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_3.jpg",
@@ -1545,7 +1556,7 @@
             "D": "5.000 TL",
             "E": "101.789 TL"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1562,7 +1573,7 @@
             "D": "İşlem, gecikme ve beklenen sürelerin toplamıdır.",
             "E": "Tüm akış süreleri toplamının iş sayısına bölümüdür."
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1579,7 +1590,7 @@
             "D": "7000",
             "E": "1743"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1596,7 +1607,7 @@
             "D": "I, III ve IV",
             "E": "Yalnız I"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1613,7 +1624,7 @@
             "D": "Temel girdisi MRP' de belirlenen değerlerdir.",
             "E": "Mevcut kapasite ile gerekli olan ya da atıl kalan kapasiteyi belirleyen bir sistemdir."
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1630,7 +1641,7 @@
             "D": "846,6 kg",
             "E": "80 kg"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_9.jpg",
           "image_file": "URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_9.jpg",
@@ -1647,7 +1658,7 @@
             "D": "45.800 TL",
             "E": "99.300 TL"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1664,7 +1675,7 @@
             "D": "MRP-Talep tahmini-Ana üretim programı-Bütünleşik üretim planlama-Çizelgeleme",
             "E": "Talep tahmini-Bütünleşik üretim planlama-Ana üretim programı-MRP-Çizelgeleme"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1681,7 +1692,7 @@
             "D": "Ana üretim programı",
             "E": "Bütünleşik üretim planlama"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1698,7 +1709,7 @@
             "D": "0,2",
             "E": "0,5"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1712,112 +1723,10 @@
             "A": "360,55",
             "B": "1360,55",
             "C": "1000",
-            "D": "2000",
-            "E": "300,55"
+            "D": "",
+            "E": ""
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Bir ürüne ait gelecekteki satışların öngörülmesine ne ad verilir?",
-          "options": {
-            "A": "Talep tahmini",
-            "B": "Teknolojik tahmin",
-            "C": "Stok tahmini",
-            "D": "Üretim tahmini",
-            "E": "Ekonomik tahmin"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Aşağıda verilen sipariş miktarı belirleme yöntemlerinden hangisi miktar ve periyodu sabit olmayan, bir çeşit deneme- yanılma yöntemidir?",
-          "options": {
-            "A": "Yeniden sipariş yöntemi",
-            "B": "Gereksinime göre sipariş yöntemi",
-            "C": "En düşük birim maliyet yöntemi",
-            "D": "Ekonomik sipariş miktarı yöntemi",
-            "E": "Ekonomik sipariş periyodu yöntemi"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_16.jpg",
-          "image_file": "URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_16.jpg",
-          "image_path": "resim-sorular/URETIM_SISTEMLERI_PLANLAMAS_2024_2025_final_soru_16.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Yukarıda otomobil malzemeleri üretimi yapan bir firmanın Ocak-Haziran dönemi için aylık talep tahminleri ve çalışma günleri verilmiştir. Bu verilere göre iş gücü seviyesini sabit tutma stratejisi uygulanırsa, stoku elde bulundurmadan kaynaklanan maliyet ne kadar olur? (Elde Bulundurma Maliyeti : 4TL/birm.ay)",
-          "options": {
-            "A": "6400 TL",
-            "B": "4770 TL",
-            "C": "6360 TL",
-            "D": "7950 TL",
-            "E": "6240 TL"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Bir ürüne ait ESM 90 birim olarak bulunmuştur. 90 TL olan sipariş maliyetinin 10 TL'ye düşmesi ile yeni ESM değeri için aşağıdakilerden hangisi söylenebilir?",
-          "options": {
-            "A": "Dokuz katı artar.",
-            "B": "1/3'ü olur.",
-            "C": "1/9'u olur.",
-            "D": "Üç katı artar.",
-            "E": "Tahmin edilemez."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "İşletmelerin stok yönetimi hedefleriyle ilgili aşağıdakilerden hangisi söylenebilir?",
-          "options": {
-            "A": "Amaç, ne zaman ne kadar sipariş verileceğinin hesaplanmasıdır.",
-            "B": "Sipariş maliyetini yüksek tutar.",
-            "C": "Sipariş sayısını arttırarak tedarikçinin daha çok kazanmasını amaçlar.",
-            "D": "Elde bulundurma maliyetini maksimum seviyede tutmayı hedefler.",
-            "E": "İşçilerin daha verimli çalışmalarını sağlar."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Aşağıdaki ifadelerden hangisi ABC analizi için söylenemez?",
-          "options": {
-            "A": "A tipi stok kalemlerine harcanan toplam parasal değer, diğerlerine göre daha yüksektir.",
-            "B": "Az sayıda stok biriminin stok maliyetlerinin yüksek olduğu varsayımına dayanır.",
-            "C": "C tipi stok kalemleri için toplu sipariş verilebilir.",
-            "D": "Temeli pareto analizine dayanmaktadır.",
-            "E": "Her stok biriminin aynı dikkatle yönetilmesini savunur."
-          },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2169,6 +2078,119 @@
             "E": "4. hafta – 200 adet"
           },
           "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Üretim Sistemleri Planlaması 2000 Final",
+      "exam_title": "Üretim Sistemleri Planlaması 2000 Final",
+      "exam_type": "final",
+      "year": "2000",
+      "question_count": 6,
+      "source_url": "",
+      "file_name": "Uretim_Sistemleri_Planlamasi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 15,
+          "question": "Bir ürüne ait gelecekteki satışların öngörülmesine ne ad verilir?",
+          "options": {
+            "A": "Talep tahmini",
+            "B": "Teknolojik tahmin",
+            "C": "Stok tahmini",
+            "D": "Üretim tahmini",
+            "E": "Ekonomik tahmin"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıda verilen sipariş miktarı belirleme yöntemlerinden hangisi miktar ve periyodu sabit olmayan, bir çeşit deneme- yanılma yöntemidir?",
+          "options": {
+            "A": "Yeniden sipariş yöntemi",
+            "B": "Gereksinime göre sipariş yöntemi",
+            "C": "En düşük birim maliyet yöntemi",
+            "D": "Ekonomik sipariş miktarı yöntemi",
+            "E": "Ekonomik sipariş periyodu yöntemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/URETIM_SISTEMLERI_PLANLAMAS_2000_final_soru_16.jpg",
+          "image_file": "URETIM_SISTEMLERI_PLANLAMAS_2000_final_soru_16.jpg",
+          "image_path": "resim-sorular/URETIM_SISTEMLERI_PLANLAMAS_2000_final_soru_16.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıda otomobil malzemeleri üretimi yapan bir firmanın Ocak-Haziran dönemi için aylık talep tahminleri ve çalışma günleri verilmiştir. Bu verilere göre iş gücü seviyesini sabit tutma stratejisi uygulanırsa, stoku elde bulundurmadan kaynaklanan maliyet ne kadar olur? (Elde Bulundurma Maliyeti : 4TL/birm.ay)",
+          "options": {
+            "A": "6400 TL",
+            "B": "4770 TL",
+            "C": "6360 TL",
+            "D": "7950 TL",
+            "E": "6240 TL"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir ürüne ait ESM 90 birim olarak bulunmuştur. 90 TL olan sipariş maliyetinin 10 TL'ye düşmesi ile yeni ESM değeri için aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "Dokuz katı artar.",
+            "B": "1/3'ü olur.",
+            "C": "1/9'u olur.",
+            "D": "Üç katı artar.",
+            "E": "Tahmin edilemez."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "İşletmelerin stok yönetimi hedefleriyle ilgili aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "Amaç, ne zaman ne kadar sipariş verileceğinin hesaplanmasıdır.",
+            "B": "Sipariş maliyetini yüksek tutar.",
+            "C": "Sipariş sayısını arttırarak tedarikçinin daha çok kazanmasını amaçlar.",
+            "D": "Elde bulundurma maliyetini maksimum seviyede tutmayı hedefler.",
+            "E": "İşçilerin daha verimli çalışmalarını sağlar."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdaki ifadelerden hangisi ABC analizi için söylenemez?",
+          "options": {
+            "A": "A tipi stok kalemlerine harcanan toplam parasal değer, diğerlerine göre daha yüksektir.",
+            "B": "Az sayıda stok biriminin stok maliyetlerinin yüksek olduğu varsayımına dayanır.",
+            "C": "C tipi stok kalemleri için toplu sipariş verilebilir.",
+            "D": "Temeli pareto analizine dayanmaktadır.",
+            "E": "Her stok biriminin aynı dikkatle yönetilmesini savunur."
+          },
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",

@@ -1,7 +1,7 @@
 {
   "course": "Python Programlama",
   "lesson_code": "PYTHON_PROGRAMLAMA",
-  "exam_count": 7,
+  "exam_count": 9,
   "exams": [
     {
       "title": "Python Programlama 2025-2026 Vize",
@@ -1412,7 +1412,7 @@
       "exam_title": "Python Programlama 2024-2025 Final",
       "exam_type": "final",
       "year": "2024-2025",
-      "question_count": 20,
+      "question_count": 3,
       "source_url": "",
       "file_name": "Python_Programlama_Final_Sorulari.docx",
       "questions": [
@@ -1426,7 +1426,7 @@
             "D": "k2 - k1",
             "E": "k1 - k2"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_1.png",
           "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_1.png",
@@ -1443,7 +1443,7 @@
             "D": "Döngüler",
             "E": "Paketler"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1454,19 +1454,30 @@
           "id": 3,
           "question": "Aşağıdaki seçeneklerin hangisinde verilen lambda fonksiyonu doğru bir biçimde tanımlanmıştır?",
           "options": {
-            "A": "fonk = lambda x: False if x != 2024 else True",
-            "B": "fonk lambda x: False (if x ! 2024) (else True)",
-            "C": "fonk lambda x(False if x != 2024 else True)",
-            "D": "fonk lambda (x: False if x != 2024 else True)",
-            "E": "fonk lambda x: if x != 2024 False else True"
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_3.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_3.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_3.png",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
           "source_image_url": ""
-        },
+        }
+      ]
+    },
+    {
+      "title": "Python Programlama 2024 Final",
+      "exam_title": "Python Programlama 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "Python_Programlama_Final_Sorulari.docx",
+      "questions": [
         {
           "id": 4,
           "question": "Aşağıdaki seçeneklerin hangisinde yukarıda verilen \"Futbolcu\" sınıfının bir örneği doğru biçimde oluşturulmuştur?",
@@ -1479,9 +1490,9 @@
           },
           "correct_answer": "A",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_4.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_4.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_4.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_4.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_4.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_4.png",
           "source_image_url": ""
         },
         {
@@ -1496,9 +1507,9 @@
           },
           "correct_answer": "E",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_5.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_5.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_5.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_5.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_5.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_5.png",
           "source_image_url": ""
         },
         {
@@ -1513,9 +1524,9 @@
           },
           "correct_answer": "C",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_6.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_6.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_6.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_6.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_6.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_6.png",
           "source_image_url": ""
         },
         {
@@ -1530,9 +1541,9 @@
           },
           "correct_answer": "D",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_7.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_7.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_7.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_7.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_7.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_7.png",
           "source_image_url": ""
         },
         {
@@ -1564,9 +1575,9 @@
           },
           "correct_answer": "B",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_9.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_9.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_9.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_9.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_9.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_9.png",
           "source_image_url": ""
         },
         {
@@ -1581,9 +1592,9 @@
           },
           "correct_answer": "A",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_10.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_10.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_10.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_10.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_10.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_10.png",
           "source_image_url": ""
         },
         {
@@ -1615,9 +1626,9 @@
           },
           "correct_answer": "E",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_12.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_12.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_12.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_12.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_12.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_12.png",
           "source_image_url": ""
         },
         {
@@ -1632,9 +1643,9 @@
           },
           "correct_answer": "B",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_13.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_13.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_13.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_13.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_13.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_13.png",
           "source_image_url": ""
         },
         {
@@ -1666,9 +1677,9 @@
           },
           "correct_answer": "D",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_15.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_15.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_15.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_15.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_15.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_15.png",
           "source_image_url": ""
         },
         {
@@ -1683,9 +1694,9 @@
           },
           "correct_answer": "C",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_16.png",
-          "image_file": "PYTHON_PROGRAMLAMA_2024_2025_final_soru_16.png",
-          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_2025_final_soru_16.png",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_16.png",
+          "image_file": "PYTHON_PROGRAMLAMA_2024_final_soru_16.png",
+          "image_path": "resim-sorular/PYTHON_PROGRAMLAMA_2024_final_soru_16.png",
           "source_image_url": ""
         },
         {
@@ -2114,7 +2125,7 @@
       "exam_title": "Python Programlama 2022-2023 Final",
       "exam_type": "final",
       "year": "2022-2023",
-      "question_count": 20,
+      "question_count": 17,
       "source_url": "",
       "file_name": "Python_Programlama_Final_Sorulari.docx",
       "questions": [
@@ -2128,7 +2139,7 @@
             "D": "type()",
             "E": "isinstance()"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2145,7 +2156,7 @@
             "D": "len()",
             "E": "length()"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2162,7 +2173,7 @@
             "D": "[44,22,33,12}",
             "E": "[33, 12, 33]"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2179,7 +2190,7 @@
             "D": "KeyError",
             "E": "StopIteration"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2196,7 +2207,7 @@
             "D": "raise",
             "E": "for"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2213,7 +2224,7 @@
             "D": "w+",
             "E": "r"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2230,7 +2241,7 @@
             "D": ".byte",
             "E": ".pyc"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2247,7 +2258,7 @@
             "D": "*personel =[]",
             "E": "**personel=[]"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2264,7 +2275,7 @@
             "D": "search",
             "E": "find"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2281,7 +2292,7 @@
             "D": "c=12,33,44",
             "E": "a=()"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2298,7 +2309,7 @@
             "D": "Çok Biçimlilik",
             "E": "Nesneler"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2315,7 +2326,7 @@
             "D": "if , != , or , >",
             "E": "if , == , or , >"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2332,7 +2343,7 @@
             "D": "Fonksiyon",
             "E": "Küme"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2349,7 +2360,7 @@
             "D": "90",
             "E": "22"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2366,7 +2377,7 @@
             "D": "Sürdürülebilirlik",
             "E": "Kapsam Belirleme"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2383,7 +2394,7 @@
             "D": "hesapla(6,4)",
             "E": "hesapla(7,3)"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2394,19 +2405,30 @@
           "id": 17,
           "question": "match/case koşul ifadesi kaç yılında Python diline entegre edilmiştir?",
           "options": {
-            "A": "2021",
-            "B": "2010",
-            "C": "2020",
-            "D": "1999",
-            "E": "2022"
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "E": ""
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
           "image_path": "",
           "source_image_url": ""
-        },
+        }
+      ]
+    },
+    {
+      "title": "Python Programlama 2022 Final",
+      "exam_title": "Python Programlama 2022 Final",
+      "exam_type": "final",
+      "year": "2022",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "Python_Programlama_Final_Sorulari.docx",
+      "questions": [
         {
           "id": 18,
           "question": "Aşağıdakilerden hangisi ikili gösterim için doğrudur?",

@@ -1,7 +1,7 @@
 {
   "course": "Lojistik Yönetimi",
   "lesson_code": "LOJISTIK_YONETIMI",
-  "exam_count": 3,
+  "exam_count": 4,
   "exams": [
     {
       "title": "Lojistik Yönetimi 2024-2025 Vize",
@@ -373,7 +373,7 @@
             "D": "0,7",
             "E": "1"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -407,7 +407,7 @@
             "D": "Sipariş maliyeti",
             "E": "Maksimum stok düzeyi"
           },
-          "correct_answer": "A",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -424,7 +424,7 @@
             "D": "Arz-Talebe göre",
             "E": "Malzemenin şekline göre"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -458,7 +458,7 @@
             "D": "Hazırlık maliyeti",
             "E": "Birim maliyet"
           },
-          "correct_answer": "C",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -492,7 +492,7 @@
             "D": "C Tipi Stoklar",
             "E": "B Tipi Stoklar"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -526,7 +526,7 @@
             "D": "II, III ve IV",
             "E": "I ve V"
           },
-          "correct_answer": "E",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -560,7 +560,7 @@
             "D": "Ceza maliyeti",
             "E": "Birim maliyet"
           },
-          "correct_answer": "C",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -577,7 +577,7 @@
             "D": "Elleçleme",
             "E": "Talep yönetimi"
           },
-          "correct_answer": "D",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -594,7 +594,7 @@
             "D": "RSFE/MAD Oranı",
             "E": "Ortalama Mutlak Yüzde Hata (MAPE, Mean Absolute Percentage Error)"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -628,7 +628,7 @@
             "D": "Tahmin maliyetli ve zaman alan bir iştir.",
             "E": "Tahminde bulunmak için düzenli ve ayrıntılı veri setlerine ihtiyaç duyulur."
           },
-          "correct_answer": "E",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -679,7 +679,7 @@
             "D": "Mamul akışında hammadde dağıtıcıdan önce gelir.",
             "E": "Nihai tüketici beğeni, şikayet, istek, sipariş gibi bilgiler sunar."
           },
-          "correct_answer": "C",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -695,6 +695,238 @@
             "C": "Çevrim Stoku",
             "D": "Emniyet Stoku",
             "E": "Tedarik Stoku"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Lojistik Yönetimi 2000 Vize",
+      "exam_title": "Lojistik Yönetimi 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 13,
+      "source_url": "",
+      "file_name": "Lojistik_Yonetimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 8,
+          "question": "Belli bir modeldeki bilgisayar 2000 TL'ye alınmaktadırç Yıllık elde bulundurma oranı %30, yıllık talep 10.000 birimdir. Sipariş maliyeti sipariş başına 150 TL olduğuna göre, yaklaşık ESM nedir?",
+          "options": {
+            "A": "14",
+            "B": "70",
+            "C": "100",
+            "D": "140",
+            "E": "600"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Deniz yolu ile taşınan bir hammaddenin acil olarak havayolu ile sipariş verilmesi, işletmenin hangi stok maliyetiyle karşılaştığından dolayı bu siparişi verdiğinin göstergesidir?",
+          "options": {
+            "A": "Elde Bulundurma",
+            "B": "Sipariş",
+            "C": "Elde Bulundurmama",
+            "D": "Hazırlık",
+            "E": "Hepsi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir firmanın son bir yılda kullandığı parçalar, yıllık kullanım miktarları ve her parçanın birim maliyeti aşağıda verilmiştir. ABC Stok sınıflandırması yapıldığında aşağıdakilerden hangi stok biriminin \"yıllık kullanım yüzdesi\" %4 'ün altındadır?",
+          "options": {
+            "A": "A009",
+            "B": "A008",
+            "C": "A002",
+            "D": "A001",
+            "E": "A006"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Önümüzdeki aya ilişkin satış rakamlarını tahmin etmek için önceki üç aylık verilere başvuruyorsak ve son aya %50, önceki iki aya ise %25'er pay ayırıyorsak, aşağıdaki yöntemlerden hangisine başvurmuşuz demektir?",
+          "options": {
+            "A": "Basit Ortalama Yöntemi",
+            "B": "Hareketli Ortalama",
+            "C": "Ağırlıklı Hareketli Ortalama",
+            "D": "",
+            "E": "Mevsimsel Etki Ayrıştırma Yöntemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "ESM 100 adetse ve günlük talep 10 adetse, tedarik süresi 12 gün olduğunda yeniden sipariş noktası nedir?",
+          "options": {
+            "A": "120",
+            "B": "12",
+            "C": "20",
+            "D": "100",
+            "E": "10"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Siparişi verilen bir ipliğin tonu 1.560 TL, yıllık elde bulundurma oranı ise %25 ise, bu ipliği bir hafta elde bulundurmanın maliyeti nedir?",
+          "options": {
+            "A": "15,6 TL",
+            "B": "390 TL",
+            "C": "",
+            "D": "7,5 TL",
+            "E": "39 TL"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Korelasyon için aşağıdakilerden hangisi söylenemez?",
+          "options": {
+            "A": "Zaman faktörünün dışındaki faktörleri de değerlendirebilir.",
+            "B": "Birden fazla bağımsız değişkenle bir bağımlı değişkenin ilişkisini tarif edebilir.",
+            "C": "Mükemmel korelasyon %100 korelasyon yahut r = 1 şeklinde ifade edilir.",
+            "D": "Sıfır korelasyon iki değişken arasında ilişkisizlik anlamına gelir.",
+            "E": "Korelasyon her zaman neden sonuç ilişkisine dayanır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Bir süpermarkete tedarikçiden gelen çocuk bezleri önce sayılmakta ve stoklara kaydedilmektedir. Müşteriler tarafından satın alınan çocuk bezlerine ait stok kayıtları, kasadan geçerken güncellenmekte ve stok miktarı belli bir düzeye düştüğünde tedarikçiye sipariş verilmekte ve tekrardan stok yenilemesi gerçekleşmektedir. Bu doğrultuda stok yönetimi için aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "Periyodik gözden geçirmeye dayalı stok modelidir.",
+            "B": "Sürekli gözden geçirmeye dayalı stok modelidir.",
+            "C": "Yenileme çok hızlı gerçekleşmektedir.",
+            "D": "Talep deterministiktir.",
+            "E": "Talep kesikli dağılımla ifade edilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bir firmanın son bir yılda kullandığı parçalar, yıllık kullanım miktarları ve her parçanın birim maliyeti aşağıda verilmiştir. ABC stok sınıflandırması yapıldığında hangi parça kesinlikle C sınıfı stok kalemidir?",
+          "options": {
+            "A": "A001",
+            "B": "A002",
+            "C": "A009",
+            "D": "A008",
+            "E": "A007"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Korelasyon katsayısı (r) ile ilgili olarak aşağıdakilerden hangisi söylenemez?",
+          "options": {
+            "A": "Bir bağımsız değişken ile bağımlı değişken değişken arasındaki ilişkiyi inceler.",
+            "B": "(-) değerlerde, bağımlı değişken bağımsız değişkenden olumsuz etkilenir.",
+            "C": "r'nin bulunabileceği aralık 0 ile 1 arasıdır.",
+            "D": "Bağımsız değişken arttığında bağımlı değişken de artıyorsa 0 < ???? ≤ 1'dir.",
+            "E": "r değerinin 0 olması, söz konusu iki değişken arasında korelasyon olmadığı anlamına gelir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir baskı atölyesinde, yeni bir baskıya geçebilmek için 35 dk harcanmaktadır. Muhasebe kayıtlarına göre 35 dakika işletmeye 58 TL'ye mal olmaktadır. 58 TL aşağıdakilerden hangi stok maliyeti olarak kabul edilir?",
+          "options": {
+            "A": "Elde Bulundurma",
+            "B": "Birim",
+            "C": "Elde Bulundurmama",
+            "D": "Hazırlık",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir firmanın son bir yılda kullandığı parçalar, yıllık kullanım miktarları ve her parçanın birim maliyeti aşağıda verilmiştir. ABC Stok sınıflandırması yapıldığında \"yıllık kullanım kümülatif yüzdesi\" olarak %77'ye denk gelen stok birimi hangisidir?",
+          "options": {
+            "A": "A002",
+            "B": "A003",
+            "C": "A001",
+            "D": "A002",
+            "E": "A010"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Ekonomik Sipariş Miktarı modelinde diğer tüm maliyetler sabit kalmak kaydıyla sipariş maliyeti 2 katına çıkarsa ESM değişimi ne olur?",
+          "options": {
+            "A": "Yaklaşık %100 artar.",
+            "B": "Yaklaşık %41 artar.",
+            "C": "Değişmez.",
+            "D": "Yaklaşık %60 artar.",
+            "E": "Artar fakat soruya göre oran değişir."
           },
           "correct_answer": "B",
           "explanation": "",

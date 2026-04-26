@@ -1,8 +1,370 @@
 {
   "course": "Web Programlama 2",
   "lesson_code": "WEB_PROGRAMLAMA_2",
-  "exam_count": 1,
+  "exam_count": 4,
   "exams": [
+    {
+      "title": "Web Programlama 2 2022 Vize",
+      "exam_title": "Web Programlama 2 2022 Vize",
+      "exam_type": "vize",
+      "year": "2022",
+      "question_count": 3,
+      "source_url": "",
+      "file_name": "Web_Programlama_2_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Asp. Net Core MVC projesindehttp://localhost:3000/Personel/Hesapla url'si ilegelen istek hangi Controller ve Action tarafından karşılanır?",
+          "options": {
+            "A": "PersonelController – Hesapla Action",
+            "B": "HomeController – Index Action",
+            "C": "DefaultController – Index Action",
+            "D": "PersonelController – Index Action",
+            "E": "HomeController – Hesapla Action"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Web'in hangi aşamasında kullanıcıların yorum yapma ve geri bildirim olmadan, sadece bilgi alabildikleri bir ortam sunulmaktadır?",
+          "options": {
+            "A": "Web 2. 0",
+            "B": "Semantic Web",
+            "C": "Web 4. 0",
+            "D": "Web 1. 0",
+            "E": "Web 3. 0"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Asp. net Core projesi çalıştırıldığında hangi port numarası seçilir?",
+          "options": {
+            "A": "4000",
+            "B": "3000",
+            "C": "",
+            "D": "",
+            "E": ""
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Programlama 2 2000 Vize",
+      "exam_title": "Web Programlama 2 2000 Vize",
+      "exam_type": "vize",
+      "year": "2000",
+      "question_count": 17,
+      "source_url": "",
+      "file_name": "Web_Programlama_2_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 4,
+          "question": "Asp. Net Core MVC uygulamalarında Layout,varsayılan olarak hangi klasörün altında tanımlıdır?",
+          "options": {
+            "A": "View/Default",
+            "B": "Index/Default",
+            "C": "Controller/Shared",
+            "D": "Model/Shared",
+            "E": "View/Shared"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Asp. Net Core MVC uygulamalarında Controller'dacookie tanımlamak için hangi namespace(isimalanı ) projeye eklenmelidir?",
+          "options": {
+            "A": "System. Text. Json",
+            "B": "Microsoft. AspNetCore. Http",
+            "C": "Microsoft. AspNetCore. Json",
+            "D": "Microsoft. Extensions. Logging",
+            "E": "System. Collections. Generic"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir MVC modelinde kullanıcıya görsel bir arayüz sağlayan bileşen aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Controller",
+            "B": "Model",
+            "C": "View",
+            "D": "ViewBag",
+            "E": "Validation"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "@for (int i = 1; i < 3; i++ ) {@i. ToString( ) }Asp. Net Core MVC de bir View'de yukarıdaki kod çalıştırıldığında ekran görüntüsü ne olur?",
+          "options": {
+            "A": "123",
+            "B": "iii",
+            "C": "@i. ToString( ) @i. ToString( ) @i. ToString( )",
+            "D": "12",
+            "E": "@i. ToString( ) @i. ToString( )"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "[HttpPost]public string DegerAl( ) {return (\"txt\" ) ;}Yukarıda tanımlı metod UserController'ında ise bu metoda gönderim yapan form nasıl tanımlanabilir?",
+          "options": {
+            "A": "<form method=\"POST\"action=\"\\UserController\\DegerAl\">. . . </form>",
+            "B": "<form action=\"\\User\\DegerAl\">. . . </form>",
+            "C": "<form method=\"GET\"action=\"\\User\\DegerAl\">. . . </form>",
+            "D": "<form method=\"Get\"action=\"\\UserController\\DegerAl\">. . . </form>",
+            "E": "<form method=\"POST\"action=\"\\User\\DegerAl\">. . . </form>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Asp. Net Core MVC uygulamalarında Session kullanmak için yapılandırma ayarları hangi dosyada yapılmalıdır?",
+          "options": {
+            "A": "Startup. cs",
+            "B": "wwwroot",
+            "C": "Packages",
+            "D": "Program. cs",
+            "E": "Framework"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Net Core için aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Farklı platformlarda çalışabilir.",
+            "B": "Bulut ortamında barındırılabilir.",
+            "C": "Performansı yüksektir.",
+            "D": "Mikro servis mimarisine uyumludur.",
+            "E": "Açık kaynak değildir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Asp. Net Core MVC uygulamasında bir Html Formhttp://localhost:3000/Ogrenci/DegerAl?ogrAd=Hasan şeklinde gönderildi ise bu URL'den kaç farklı form elemanı değeri elde edilebilir?",
+          "options": {
+            "A": "5",
+            "B": "3",
+            "C": "2",
+            "D": "1",
+            "E": "4"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Ağ üzerindeki web kaynaklarının görüntülenmesinde hangi protokol kullanılır?",
+          "options": {
+            "A": "DNS",
+            "B": "IP",
+            "C": "HTTP",
+            "D": "SMTP",
+            "E": "FTP"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Asp. Net Core MVC projelerinde varsayılan olarak hangi Controller tanımlıdır?",
+          "options": {
+            "A": "Controller",
+            "B": "DefaultController",
+            "C": "HomeController",
+            "D": "IndexController",
+            "E": "ViewController"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Asp. Net Core MVC'de Controller'dan view'e Personel tipinde Per nesnesi gönderilmektedir. Bu Per nesnesine ait PerBirim özelliğinin değerine gönderimi gerçekleştirilen view içerisinden aşağıdaki kodlardan hangisi kullanılarak ulaşılabilir?",
+          "options": {
+            "A": "@m. PerBirim",
+            "B": "@PerBirim",
+            "C": "@Personel. Perbirim",
+            "D": "@Per. PerBirim",
+            "E": "@Model. PerBirim"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Asp. Net Core MVC uygulamalarında kullanılanLayout'a ait dosya uzantısı aşağıdakilerden hangisinde doğru verilmiştir?",
+          "options": {
+            "A": ". php",
+            "B": ". css",
+            "C": ". cshtml",
+            "D": ". js",
+            "E": ". cs"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Cookie'ler ile aşağıdaki bilgilerin hangisini tutmak en uygun olur?",
+          "options": {
+            "A": "Kullanıcı yetki bilgilerini",
+            "B": "Kullanıcı renk tercihlerini",
+            "C": "Sunucu bilgilerini",
+            "D": "Kullanıcı şifre bilgilerini",
+            "E": "Veri tabanı bilgilerini"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Html Form işlemlerinde bir çok seçenek içerisinden birden fazla seçim yapılmak istendiğinde hangi form eleman tipi kullanılabilir?",
+          "options": {
+            "A": "text",
+            "B": "checkbox",
+            "C": "button",
+            "D": "submit",
+            "E": "radio"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi Razor yorum-açıklama bloğu için doğru bir söz dizimidir?",
+          "options": {
+            "A": "@* açıklama*@",
+            "B": "<! Açıklama",
+            "C": "// açıklama",
+            "D": "{ açıklama }",
+            "E": "/* açıklama */"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Bir Html Form gönderilmek istendiğinde bu form hangi form elemanı tarafından gönderilir?",
+          "options": {
+            "A": "<input type=\"submit\">",
+            "B": "<input type=\"gonder\">",
+            "C": "<input type=\"radio\">",
+            "D": "<input type=\"hidden\">",
+            "E": "<input type=\"text\">"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıda verilen web frameworkleri (çerçeveleri ) ve programlama dilleri eşleşmelerinden hangisi yanlıştır?",
+          "options": {
+            "A": "Flask (Python )",
+            "B": "CodeIgniter(Javascript )",
+            "C": "Spring (Java )",
+            "D": "Laravel (Php )",
+            "E": "Asp. Net Core (C# )"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
     {
       "title": "Web Programlama 2 2024-2025 Final",
       "exam_title": "Web Programlama 2 2024-2025 Final",
@@ -22,7 +384,7 @@
             "D": "4",
             "E": "1"
           },
-          "correct_answer": "B",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -39,7 +401,7 @@
             "D": "Update",
             "E": "Delete"
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -56,7 +418,7 @@
             "D": "[Mail]",
             "E": "[Email]"
           },
-          "correct_answer": "C",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -73,7 +435,7 @@
             "D": "Hata mesajı döndürmesi",
             "E": "Tüm personel kayıtlarının listelenmesi"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -90,7 +452,7 @@
             "D": ".cs",
             "E": ".cshtml"
           },
-          "correct_answer": "C",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -107,7 +469,7 @@
             "D": "MsSql.Data.EntityFrameworkCore",
             "E": "Microsoft.EfCore.Sql"
           },
-          "correct_answer": "B",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -124,7 +486,7 @@
             "D": "view.cshtml",
             "E": "Layout.cshtml"
           },
-          "correct_answer": "D",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -141,7 +503,7 @@
             "D": "Değer özelliğinin minimum 5, maksimum 10 karakterli olması sağlanır.",
             "E": "Değer özelliğinin [5,10] arasında değerler alabilmesi sağlanır."
           },
-          "correct_answer": "D",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -158,7 +520,7 @@
             "D": "Text",
             "E": "Label"
           },
-          "correct_answer": "C",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -175,7 +537,7 @@
             "D": "LINQ-Query syntax",
             "E": "Asp"
           },
-          "correct_answer": "E",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -209,7 +571,7 @@
             "D": "Postman kullanımına olanak tanır.",
             "E": "Veri tabanına kayıt işlemlerinden sorumludur."
           },
-          "correct_answer": "A",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -226,7 +588,7 @@
             "D": "",
             "E": ""
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -243,7 +605,7 @@
             "D": "Add-Sql",
             "E": "Add-Database"
           },
-          "correct_answer": "A",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -277,7 +639,7 @@
             "D": "Kullanıcı şifre bilgilerini",
             "E": "Kullanıcı yetki bilgilerini"
           },
-          "correct_answer": "E",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -344,6 +706,289 @@
             "C": "HttpDelete",
             "D": "HttpPost",
             "E": "HttpPut"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Programlama 2 2022 Final",
+      "exam_title": "Web Programlama 2 2022 Final",
+      "exam_type": "final",
+      "year": "2022",
+      "question_count": 16,
+      "source_url": "",
+      "file_name": "Web_Programlama_2_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Blr Html Form gönderilmek istediğinde ve gönderim metodu tanımlanmadığında varsayılan olarak hangi metod lle gönderilir?",
+          "options": {
+            "A": "Method",
+            "B": "Get",
+            "C": "Action",
+            "D": "Model",
+            "E": "Post"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "I. First() metodunun aşırı yüklenmiş Ikl sürümü mevcuttur. II. First() metodunun hiç bir parametre almayan hall verl kaynağından ilk öğeyl döndürür. III. First () metodu parametre olarak bir koşul aldığında, koşulu karşılayan Ilk öğeyl döndürür. IV. First() metodu şartı sağlayan bir kayıt bulamadıysa null döndürür. LINQ First() metodu Için yukarıda verilenlerden hanglsl/hangilerl yanlıştır?",
+          "options": {
+            "A": "II ve III",
+            "B": "Yalnız I",
+            "C": "I, II ve III",
+            "D": "I ve III",
+            "E": "Yalnız IV"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir web API Isteğinde Istemcinin istediği eylemin başarıyla gerçekleştiğini belirtilen http durum kodu(http status code) aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "500",
+            "B": "100",
+            "C": "200",
+            "D": "300",
+            "E": "400"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Asp.Net Core MVC projesinde \"renk\" isimli bir cookle değişkenlne hangi kod lle ulaşılabilir?",
+          "options": {
+            "A": "Context.Query.Cookies[\"renk\"]",
+            "B": "Context.Request.Cookies[\"renk\"]",
+            "C": "Context.Forms.Cookies[\"renk\"]",
+            "D": "Session.Get.Cookies[\"renk\"]",
+            "E": "Context.Response.Cookies[\"renk\"]"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir yazılım mimarl modell olan MVC'nin açılımı nedir?",
+          "options": {
+            "A": "Model-ViewBag-C#",
+            "B": "Model-Vision-Component",
+            "C": "Model-View-Controller",
+            "D": "Model-Validation-Component",
+            "E": "Model-Validation-Controller"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yazılım geliştiriciler için önceden yazılmış bileşenler, kod parçacıkları ve uygulama şablonları sunan yapı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Web 2.0",
+            "B": "FrameWork",
+            "C": "Genel Web",
+            "D": "Web 1.0",
+            "E": "Web 4.0"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir model Içerisinde Display özniteliğinin kullanılabilmesi için hangi namespace ekll olmalıdır?",
+          "options": {
+            "A": "System.Threading.Task",
+            "B": "System.Namespace",
+            "C": "System.Linq",
+            "D": "System.ComponentModel.DataAnnotations",
+            "E": "System.Collections.Generic"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "———- public string KullanclAdl { get; set; } Bir Asp.Net Core uygulamasında özellik değerl uzunluğunun 20 karakteri aşmaması gerektiğinl denetlemek İçin Ile belirtilen yere seçeneklerden hangisi gelmelidir?",
+          "options": {
+            "A": "[String(20)]",
+            "B": "StringLength[20]",
+            "C": "[StringMax(20)]",
+            "D": "[StringLength(20)]",
+            "E": "[Length(20)]"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Asp.Net Core Mvc uygulamalarında blr Layout dosyasında aşağıdakilerden hangisi kesin olarak bulunmaz?",
+          "options": {
+            "A": "Menüler",
+            "B": "Html kodları",
+            "C": "Model sınıfı tanımları",
+            "D": "Javascript kütüphaneleri referansları",
+            "E": "Css kütüphane"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "———- public class ValuesController: ValuesController'ın bir AplController olduğu düşünüldüğünde, varsayılan olarak ValuesController'ün miras alabileceği sınıf aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "ApiController",
+            "B": "Base",
+            "C": "ApiBaseController",
+            "D": "API",
+            "E": "ControllerBase"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir Asp.Net Core MVC uygulamasında model doğrulamanın sunucu tarafında gerçekleşmesi Için hangi nesneye alt özellik true olmalıdır?",
+          "options": {
+            "A": "Model.IsTrue",
+            "B": "ModelState.Valid",
+            "C": "Js.IsTrue",
+            "D": "ModelState.IsValid",
+            "E": "Data.IsTrue"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Sorgu yeteneklerinin doğrudan C# dilinin entegrasyonuna dayalı olduğu bir dizl teknolojinin adı olan LINQ'nun tam adı nedir?",
+          "options": {
+            "A": "Language Integrated Query",
+            "B": "Language Interface Query",
+            "C": "Linked Interface Query",
+            "D": "Linked Integrated Query",
+            "E": "Last Intersection Query"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "<a href=\"/Kullanici/Index\">Tikla</a> html anchor etiketl, tag helper'lar lle nasıl tanımlanabilir?",
+          "options": {
+            "A": "<a asp-for=\"Index\" asp- controller=\"Kullanici\"Tikla</a>",
+            "B": "<a asp-for=\"Tikla\" >Tikla</a>",
+            "C": "<a asp-controller=\"Index\" asp-action=\"Kullanici\" >Tıkla</a>",
+            "D": "<a asp-for=\"Kaydet\" asp- action=\"Index\">Tikla</a>",
+            "E": "<a asp-controller=\"Kullanici\" asp-action=\"Index\" >Tikla</a>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "<form asp-controller=\"Kisl\" asp-action=\"Kaydet\" asp-route-id=\"10″> </form> şeklinde tanımlanan bir form tag helper'ı İçin üretllen Html çıktısı ne olur?",
+          "options": {
+            "A": "<form method=\"post\" action=\"/Kisi/Kaydet/10″></form>",
+            "B": "<form method=\"get\" action=\"/Kaydet/Kisi/10″></form>",
+            "C": "<form method=\"get\" action=\"/Kisi/Kaydet/10″></form>",
+            "D": "<form method=\"post\" action=\"/10/Kaydet/Kisi\"..></form>",
+            "E": "<form method=\"post\" action=\"self\">.</form>"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "public class KitaplıkContext: DbContext'In uygulamada kullanılabilmesi için, KitaplıkContext sınıfının hangi sınıftan türetilmesi gerekir?A) Context",
+          "options": {
+            "A": "",
+            "B": "SetDb",
+            "C": "DbSet",
+            "D": "DbContext",
+            "E": "Db"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "EF Core kullanılan bir Asp.Net Core projesinde sınıf özelliklerl (class propertles), verl tabanında hangi öğeye karşılık gelir?",
+          "options": {
+            "A": "Tablo Kayıtlarına",
+            "B": "Sql örneklerine",
+            "C": "Veritabanlarına",
+            "D": "Tablolara",
+            "E": "Tablo Sütunlarna / Kolanlarına"
           },
           "correct_answer": "E",
           "explanation": "",

@@ -1,0 +1,1779 @@
+{
+  "course": "Web Tasarımı",
+  "lesson_code": "WEB_TASAR_M",
+  "exam_count": 5,
+  "exams": [
+    {
+      "title": "Web Tasarımı 2025 Vize",
+      "exam_title": "Web Tasarımı 2025 Vize",
+      "exam_type": "vize",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Web_Tasarimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "\"Alan Adı Sistemi (Domain Name System-DNS) sunucuları ….. ile ….. hangi sunucuda ve hangi ….. yer aldığı bilgisini paylaşmaktadır.\" Yukarıda verilen ifadede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "kök sunucular-alan adının-IP adresinde",
+            "B": "kök sunucular-kullanıcı adının-alt sunucuda",
+            "C": "kök sunucular-IP adresinin-gizli sunucularda",
+            "D": "kullanıcı adı-IP adresinin-bilgisayarda",
+            "E": "kullanıcı adı-kök sunucularının-IP adresinde"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "\"Metinsel içeriklerin anlaşılır, uzun ve gereksiz cümlelerden arındırılmış olması gerekmektedir. Kopyalanmış ve orijinal olmayan metinler yerine web sitesine özgü farklı konularda insanların ihtiyaç duyduğu içerikler hazırlanmalıdır. Vurgulama yapılırken olumsuz etkiler bırakmayacak ölçüde sadelik esasına bağlı kalınmalıdır. Görsel öğeler ilgi çekici bile olsa gözü yormayacak renk tonlamalarına sahip olmalıdır. İçerikler arasında kullanıcının kaybolmaması ve yorulmaması gerekmektedir.\" Yukarıda ifade edilen durumlar hangi web tasarım ilkesi başlığı altında dikkat edilmesi gereken hususlar arasındadır?",
+          "options": {
+            "A": "İşlevsellik",
+            "B": "Kullanılabilirlik",
+            "C": "Tarayıcı uyumu",
+            "D": "Sayfa tasarımları",
+            "E": "İçerik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "<img> etiketi kullanılarak web sayfasına bir görselin eklenmesi sağlanır. Eklenecek görselin dosya yolunu belirtmek üzere <img> etiketi içerisinde kullanılması gereken parametre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "src",
+            "B": "href",
+            "C": "reference",
+            "D": "link",
+            "E": "source"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASAR_M_2025_vize_soru_3.png",
+          "image_file": "WEB_TASAR_M_2025_vize_soru_3.png",
+          "image_path": "resim-sorular/WEB_TASAR_M_2025_vize_soru_3.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki klasör yapısı göz önünde bulundurulduğunda, baglanti. html dosyasından iuLogo. jpg dosyasına bağlantı vermek için baglanti. html dosyasına <a href=\"…….\"> etiketi eklenmelidir. Bu etikette \"href\" parametresine atanması gereken ve \"……..\" şeklinde belirtilen değer aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "\"gorseller/iuLogo.jpg\"",
+            "B": "\"../gorseller/iuLogo.jpg\"",
+            "C": "\"WebSayfasi/iuLogo.jpg\"",
+            "D": "\"WebSayfasi/sayfalar/iuLogo.jpg\"",
+            "E": "\"iuLogo.jpg\""
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi biçimlendirme-işaretleme dilleri arasında yer almaz?",
+          "options": {
+            "A": "TexMLP",
+            "B": "GenCode",
+            "C": "HTML",
+            "D": "XML",
+            "E": "LaTeX"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi kapanışı olmayan etiketler arasında yer almaktadır?",
+          "options": {
+            "A": "<a>",
+            "B": "<body>",
+            "C": "<h1>",
+            "D": "<img>",
+            "E": "<head>"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Web sayfasında yer alacak bir metnin 12 punto (pt – font size) büyüklüğünde ve \"Arial\" yazı tipinde yazılması istenmektedir. Bu durumda sayfa için hazırlanan HTML kodları içerisinde ilgili metin için aşağıdaki etiketlerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "<text face=\"Arial\" size=5>",
+            "B": "<font text=\"Arial\" size=3>",
+            "C": "<font face=\"Arial\">",
+            "D": "<text face=\"Arial\" size=3>",
+            "E": "<font face=\"Arial\" size=5>"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "İnternet üzerindeki iletişim sırasında herhangi bir taraftan gönderilecek veri paketlenerek iletilmektedir. Temel olarak verinin iletimi sırasında ağda nasıl paketleneceğini ve içerisinde hata olup olmadığının ne şekilde denetleneceğini belirleyen kurallar dizisi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri Paketleme Protokolü (Data Packing Protocol-DPP)",
+            "B": "Postane Protokolü (Post Office Protocol-POP3)",
+            "C": "Dosya Transfer Protokolü (File Transfer Protocol-FTP)",
+            "D": "İletim Kontrol Protokolü/İnternet Protokolü (Transmission Control Protocol/Internet Protocol-TCP/IP)",
+            "E": "Hiper Metin Transfer Protokolü (Hyper Text Transfer Protokol-HTTP)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Müşterinin ihtiyaçlarına, web sitesinin kullanılacak iş alanına ve web sitesinin hedef kullanıcı profiline göre projenin genel konseptini belirleyen web sitesi geliştirme ekip üyesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Proje mimarı",
+            "B": "Web geliştirici",
+            "C": "Web tasarımcı",
+            "D": "İçerik tasarımcı",
+            "E": "Proje müşteri temsilcisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "\"Fare, klavye, monitör gibi donanımsal bileşenler vasıtasıyla kullanıcının etkileşimde bulunduğu simgeler, pencereler, düğmeler, hipermetinler ve panellerin bütünü ….. olarak ifade edilmektedir.\" Boşluğa aşağıdaki ifadelerden hangisi gelmelidir?",
+          "options": {
+            "A": "Web tasarımı",
+            "B": "Web arka planı",
+            "C": "Kullanıcı formu",
+            "D": "Metinsel kullanıcı arayüzü",
+            "E": "Grafiksel kullanıcı arayüzü"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "\"….. etiketinde, başlığın sayfanın neresinde görüntülenmesi talep ediliyorsa bunun etiket içerisinde belirtilebilmesi için ….. parametresinden yararlanılmaktadır.\" Boşluklara sırasıyla gelebilecek uygun ikili hangisidir?",
+          "options": {
+            "A": "<head>-title",
+            "B": "<h1>-weight",
+            "C": "<meta>-align",
+            "D": "<h1>-align",
+            "E": "<h3>-center"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi HTML versiyonlarından biri değildir?",
+          "options": {
+            "A": "HTML 4.01",
+            "B": "HTML 5.0",
+            "C": "HTML 1.0",
+            "D": "HTML 3.2",
+            "E": "HTML 1.5"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Türkçe içerik hazırlanacağı zaman Türkçe karakterlerde gösterim sorunu yaşanmaması için sırasıyla aşağıdaki hangi etiket ve parametresi kullanılmalıdır?",
+          "options": {
+            "A": "Meta, http-equiv",
+            "B": "Head, meta",
+            "C": "Meta, abstract",
+            "D": "Meta, charset",
+            "E": "Meta, keyword"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "İÜ AUZEF Web Tasarımı dersi için hazırlanan ders kitabında verilen açıklamalar doğrultusunda aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Alan Adı Sistemi (Domain Name System-DNS), IP adreslerinin URL bağlantı adresleri ile eşleştirilmesini sağlayan sistemdir.",
+            "B": "Aynı web sayfalarına erişim için istekte bulunan kullanıcıların oluşturacağı trafiği düzenlemek üzere dosya paylaşım sunucuları kullanılır.",
+            "C": "İnternet kelimesi \"interconnected network\" kelimelerinin kısaltılmış halidir.",
+            "D": "Bilgisayar ağları kavramı üzerine çalışmalar sonucunda geliştirilen tanımlar ilk kez ARPANET başlığı ile yayınlamıştır.",
+            "E": "WWW, farklı veri tiplerine internet ağı üzerinden etkileşimli olarak ulaşılmasını sağlayan web sayfaları topluluğudur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Web tarayıcıdaki sayfa alanında tanımlanan bağlantıya tıkladığında bağlantının nerede açılacağını belirleyen parametre ve tıklanan bağlantının yeni bir sayfada açılması için bu parametreye atanması gereken değer sırasıyla hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "target, blank_",
+            "B": "target, parent_",
+            "C": "target, _blank",
+            "D": "target, align",
+            "E": "target, _parent"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bazı web tarayıcıları HTML dosya tipini otomatik olarak algılayabilirken bazılarında bu özellik mevcut değildir. Bu nedenle uyumsuzluk sorunu oluşmaması adına aşağıdaki etiketlerden hangisi dosya başına eklenmelidir?",
+          "options": {
+            "A": "<HTML !DOCTYPE>",
+            "B": "<meta>",
+            "C": "<!DOCTYPE HTML >",
+            "D": "<head>",
+            "E": "<DOCTYPE HTM>"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "I. Test II. Geliştirme III. Tasarım IV. Hedef Belirleme V. Yayın, bakım ve güncelleme Yukarıda verilen web geliştirme süreci adımlarının doğru sıralanışı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "IV-V-I-II-III",
+            "B": "IV-III-II-I-V",
+            "C": "I-II-III-IV-V",
+            "D": "IV-II-III-I-V",
+            "E": "III-I-II-IV-V"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "\"Elektronik, kablosuz ve optik ağ teknolojileri kullanılarak, çeşitli protokoller ile iletişim kurmak amacıyla birbirine bağlı bilgisayarlar ağının tamamıdır\" tanımı aşağıdaki kavramlardan hangisine aittir?",
+          "options": {
+            "A": "İstemci",
+            "B": "İnternet",
+            "C": "Yerel ağ",
+            "D": "Sunucu",
+            "E": "Protokol"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Photoshop, Adobe Illustrator, FreeHand, Corel Draw, SWiSH Max gibi yazılımlar hangi faaliyete yönelik kullanılabilecek yazılımlardır?",
+          "options": {
+            "A": "Proje yönetimi",
+            "B": "Web sitesi-veri tabanı bağlantısı kurma",
+            "C": "Tasarım",
+            "D": "Kullanıcı deneyimi analizleri",
+            "E": "Web sitesi test faaliyetleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Sunucular web sitelerine erişim isteklerini HTTP çerçevesinde işlemektedir. Sunucu-istemci arasındaki iletişim esnasında çeşitli durum kodları üretilerek veri alışverişi hakkında genel bir sonuca varılabilmektedir. Aşağıdakilerden hangisi bu durum kodlarından biri değildir?",
+          "options": {
+            "A": "5**-sunucu hatası",
+            "B": "1**-bilgi",
+            "C": "4**-tarayıcı hatası",
+            "D": "2**-başarı",
+            "E": "3**-uyum"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı 2024 Vize",
+      "exam_title": "Web Tasarımı 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Web_Tasarimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "\"Fare, klavye, monitör gibi donanımsal bileşenler vasıtasıyla kullanıcının etkileşimde bulunduğu simgeler, pencereler, düğmeler, hiper metinler ve panellerin bütününü ….. olarak ifade edilmektedir.\" Boşluğa aşağıdaki ifadelerden hangisi gelmelidir?",
+          "options": {
+            "A": "Web tasarımı",
+            "B": "Grafiksel kullanıcı arayüzü",
+            "C": "Metinsel kullanıcı arayüzü",
+            "D": "Kullanıcı formu",
+            "E": "Web arka planı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Türkçe içerik hazırlanacağı zaman Türkçe karakterlerde gösterim sorunu yaşanmaması için sırasıyla aşağıdaki hangi etiket ve parametresi kullanılmalıdır?",
+          "options": {
+            "A": "Meta, http-equiv",
+            "B": "Meta, charset",
+            "C": "Meta, keyword",
+            "D": "Head, meta",
+            "E": "Meta, abstract"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "\"Sayfa bağlantıları, kullanıcının mümkün olan en kısa sürede ve kolaylıkla aradığı içeriğe ulaşacağı şekilde yapılandırılmış olmalıdır. Mümkün oldukça her sayfadan diğer tüm sayfalara erişilebilecek şekilde bağlantılar sağlanmalıdır.\" Yukarıdaki durum hangi web tasarım ilkesi kapsamında dikkat edilmesi gereken hususlar arasındadır?",
+          "options": {
+            "A": "İçerik",
+            "B": "Hedef",
+            "C": "İşlevsellik",
+            "D": "Tarayıcı uyumu",
+            "E": "Sayfa tasarımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki klasör yapısı göz önünde bulundurulduğunda, baglanti.html dosyasından iuLogo.jpg dosyasına bağlantı vermek için <a href=\"...\"> etiketi eklenmelidir. Bu etikette \"href\" parametresine atanması gereken ve \"……..\" şeklinde belirtilen değer aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "\"../gorseller/iuLogo.jpg\"",
+            "B": "\"WebSayfasi/sayfalar/iuLogo.jpg\"",
+            "C": "\"iuLogo.jpg\"",
+            "D": "\"WebSayfasi/iuLogo.jpg\"",
+            "E": "\"gorseller/iuLogo.jpg\""
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi günümüz web tarayıcıları arasında yer almaz ?",
+          "options": {
+            "A": "Chrome",
+            "B": "NeXTStep",
+            "C": "Safari",
+            "D": "Opera",
+            "E": "Firefox"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi kapanışı olmayan etiketler arasında yer almaktadır?",
+          "options": {
+            "A": "<head>",
+            "B": "<body>",
+            "C": "<a>",
+            "D": "<h1>",
+            "E": "<img>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Sunucular web sitelerine erişim isteklerini HTTP çerçevesinde işlemektedir. Sunucu-istemci arasındaki iletişim esnasında çeşitli durum kodları üretilerek veri alışverişi hakkında genel bir sonuca varılmaktadır. Aşağıdakilerden hangisi bu durum kodlarından biri değildir?",
+          "options": {
+            "A": "4** - tarayıcı hatası",
+            "B": "1** - bilgi",
+            "C": "2** - başarı",
+            "D": "3** - uyum",
+            "E": "5** - sunucu hatası"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "I- Test II- Geliştirme III- Tasarım IV- Hedef Belirleme V- Yayın, bakım ve güncelleme Yukarıda verilen web geliştirme süreci adımlarının doğru sıralanışı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "III-I-II-IV-V",
+            "B": "IV-II-III-I-V",
+            "C": "IV-III-II-I-V",
+            "D": "I-II-III-IV-V",
+            "E": ""
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"Elektronik, kablosuz ve optik ağ teknolojileri kullanılarak, çeşitli protokoller ile iletişim kurmak amacıyla birbirine bağlı bilgisayarlar ağının tamamıdır\" tanımı aşağıdaki kavramlardan hangisine aittir?",
+          "options": {
+            "A": "İnternet",
+            "B": "Protokol",
+            "C": "Sunucu",
+            "D": "Yerel ağ",
+            "E": "İstemci"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bazı web tarayıcıları HTML dosya tipini otomatik olarak algılayabilirken bazılarında bu özellik mevcut değildir. Bu nedenle uyumsuzluk sorunu oluşmaması adına aşağıdaki etiketlerden hangisi dosya başına eklenmelidir?",
+          "options": {
+            "A": "<meta>",
+            "B": "<head>",
+            "C": "<HTML !DOCTYPE>",
+            "D": "<!DOCTYPE HTML>",
+            "E": "<DOCTYPE HTM>"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi biçimlendirme-işaretleme dilleri arasında yer almaz ?",
+          "options": {
+            "A": "HTML",
+            "B": "LaTeX",
+            "C": "TexMLP",
+            "D": "GenCode",
+            "E": "XML"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "İÜ AUZEF Web Tasarımı dersi için hazırlanan ders kitabında verilen açıklamalar doğrultusunda aşağıdaki ifadelerden hangisi yanlıştır ?",
+          "options": {
+            "A": "Aynı web sayfalarına erişim için istekte bulunan kullanıcıların oluşturacağı trafiği düzenlemek üzere dosya paylaşım sunucuları kullanılır.",
+            "B": "Bilgisayar ağları kavramı üzerine çalışmalar sonucunda geliştirilen tanımlar ilk kez ARPANET başlığı ile yayınlanmıştır.",
+            "C": "Alan Adı Sistemi (Domain Name System-DNS), IP adreslerinin URL bağlantı adresleri ile eşleştirilmesini sağlar.",
+            "D": "İnternet kelimesi \"interconnected network\" kelimelerinin kısaltılmış hâlidir.",
+            "E": "WWW, farklı veri tiplerine internet ağı üzerinden etkileşimli olarak ulaşılmasını sağlayan web sayfaları topluluğudur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi HTML sürümlerinden biri değildir?",
+          "options": {
+            "A": "HTML 3.2",
+            "B": "HTML 4.01",
+            "C": "HTML 5.0",
+            "D": "HTML 1.0",
+            "E": "HTML 1.5"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Photoshop, Adobe Illustrator, FreeHand, Corel Draw, SWiSH Max gibi yazılımlar hangi faaliyete yönelik kullanılabilecek yazılımlardır?",
+          "options": {
+            "A": "Kullanıcı deneyimi analizleri",
+            "B": "Tasarım",
+            "C": "Web sitesi test faaliyetleri",
+            "D": "Web sitesi - veri tabanı bağlantısı kurma",
+            "E": "Proje yönetimi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Web sayfası içerisinde sırasız liste yapısı oluşturmak için hangi etiket kullanılır?",
+          "options": {
+            "A": "<dl>",
+            "B": "<ol>",
+            "C": "<list>",
+            "D": "<ul>",
+            "E": "<uol>"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Web tarayıcındaki sayfa alanında tanımlanan bağlantıya tıklandığında bağlantının nerede açılacağını belirleyen parametre ve tıklanan bağlantının yeni bir sayfada açılması için bu parametreye atanması gereken değer sırasıyla hangisidir?",
+          "options": {
+            "A": "Target, align",
+            "B": "Target, blank_",
+            "C": "Target, parent_",
+            "D": "Target, _parent",
+            "E": "Target, _blank"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "\"….. etiketinde, başlığın sayfanın neresinde görüntülenmesi talep ediliyorsa bunun etiket içerisinde belirtilebilmesi için ….. parametresinden yararlanılmaktadır.\" Boşluklara sırasıyla gelebilecek uygun ikili hangisidir?",
+          "options": {
+            "A": "<h3> - center",
+            "B": "<meta> - align",
+            "C": "<h1> - align",
+            "D": "<h1> - weight",
+            "E": "<head> - title"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Müşterinin ihtiyaçlarına, web sitesinin kullanılacak iş alanına ve web sitesinin hedef kullanıcı profiline göre projenin genel konseptini belirleyen web sitesi geliştirme ekibi üyesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İçerik tasarımcısı",
+            "B": "Web tasarımcısı",
+            "C": "Web geliştirici",
+            "D": "Proje mimarı",
+            "E": "Proje müşteri temsilcisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "<img> etiketi kullanılarak web sayfasına bir görselin eklenmesi sağlanır. Eklenecek görselin dosya yolunu belirtmek üzere <img> etiketi içerisinde kullanılması gereken parametre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "href",
+            "B": "source",
+            "C": "reference",
+            "D": "src",
+            "E": "link"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "\"Alan Adı Sistemi (Domain Name System-DNS) sunucuları ….. ile ….. hangi sunucuda ve hangi ….. paylaştığını iletir.\" Yukarıda verilen ifadede boş bırakılan yerlere sırayla aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Kök sunucular - kullanıcı adının - alt sunucuda",
+            "B": "Kullanıcı adı - kök sunucularının - IP adresinde",
+            "C": "Kullanıcı adı - IP adresinin - bilgisayarda",
+            "D": "Kök sunucular - alan adının - IP adresinde",
+            "E": "Kök sunucular - IP adresinin - gizli sunucularda"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı 2023 Vize",
+      "exam_title": "Web Tasarımı 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "question_count": 21,
+      "source_url": "",
+      "file_name": "Web_Tasarimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Türkçe içerik hazırlanacağı zaman Türkçe karakterlerde gösterim sorunu yaşanmaması için sırasıyla aşağıdaki hangi etiket ve parametresi kullanılmalıdır?",
+          "options": {
+            "A": "Head, meta",
+            "B": "Meta, keyword",
+            "C": "Meta, http-equiv",
+            "D": "Meta, abstract",
+            "E": "Meta, charset"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Sunucular web sitelerine erişim isteklerini HTTP çerçevesinde işlemektedir. Sunucu-istemci arasındaki iletişim esnasında çeşitli durum kodları üretilerek veri alışverişi hakkında genel bir sonuca varılabilmektedir. Aşağıdakilerden hangisi bu durum kodlarından biri değildir?",
+          "options": {
+            "A": "1**-bilgi",
+            "B": "5**-sunucu hatası",
+            "C": "3**-uyum",
+            "D": "4**-tarayıcı hatası",
+            "E": "2**-başarı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "….. etiketinde, başlığın sayfanın neresinde görüntülenmesi talep ediliyorsa bunun etiket içerisinde belirtilebilmesi için ….. parametresinden yararlanılmaktadır. Boşluklara sırasıyla gelebilecek uygun ikili hangisidir?",
+          "options": {
+            "A": "<h1>-align",
+            "B": "<meta>-align",
+            "C": "<h3>-center",
+            "D": "<head>-title",
+            "E": "<h1>-weight"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bazı web tarayıcıları HTML dosya tipini otomatik olarak algılayabilirken bazılarında bu özellik mevcut değildir. Bu nedenle uyumsuzluk sorunu oluşmaması adına aşağıdaki etiketlerden hangisi dosya başına eklenmelidir?",
+          "options": {
+            "A": "<DOCTYPE HTM>",
+            "B": "<HTML !DOCTYPE&g",
+            "C": "<!DOCTYPE HTML >",
+            "D": "<head>",
+            "E": "<meta>"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi HTML versiyonlarından biri değildir?",
+          "options": {
+            "A": "HTML 3.2",
+            "B": "HTML 1.0",
+            "C": "HTML 4.01",
+            "D": "HTML 1.5",
+            "E": "HTML 5.0"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Sayfa bağlantıları, kullanıcının mümkün olan en kısa sürede ve kolaylıkla aradığı içeriğe ulaşacağı şekilde yapılandırılmış olmalıdır. Sayfalar arasında kopukluk olmamalıdır. Mümkün oldukça her sayfadan diğer tüm sayfalara erişilebilecek şekilde bağlantılar sağlanmalıdır. Yukarıdaki durum hangi web tasarım ilkesi kapsamında dikkat edilmesi gereken hususlar arasındadır?",
+          "options": {
+            "A": "İşlevsellik",
+            "B": "Hedef",
+            "C": "Sayfa tasarımı",
+            "D": "Tarayıcı uyumu",
+            "E": "İçerik"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Müşterinin ihtiyaçlarına, web sitesinin kullanılacak iş alanına ve web sitesinin hedef kullanıcı profiline göre projenin genel konseptini belirleyen web sitesi geliştirme ekip üyesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İçerik tasarımcı",
+            "B": "Proje mimarı",
+            "C": "Proje müşteri temsilcisi",
+            "D": "Web geliştirici",
+            "E": "Web tasarımcı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi etiketine ait parametrelerden değildir?",
+          "options": {
+            "A": "Background",
+            "B": "Text",
+            "C": "Tlink",
+            "D": "Vlink",
+            "E": "Bgcolor"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Alan Adı Sistemi (Domain Name System-DNS) sunucuları ….. ile ….. hangi sunucuda ve hangi ….. yer aldığı bilgisini paylaşmaktadır. Yukarıda verilen ifadede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Kök sunucular-kullanıcı adının-alt sunucuda",
+            "B": "Kullanıcı adı-IP adresinin-bilgisayarda",
+            "C": "Kök sunucular-IP adresinin-gizli sunucularda",
+            "D": "Kullanıcı adı-kök sunucularının-IP adresinde",
+            "E": "Kök sunucular-alan adının-IP adresinde"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Elektronik, kablosuz ve optik ağ teknolojileri kullanılarak, çeşitli protokoller ile iletişim kurmak amacıyla birbirine bağlı bilgisayarlar ağının tamamıdır. Tanımı aşağıdaki kavramlardan hangisine aittir?",
+          "options": {
+            "A": "Protokol",
+            "B": "İstemci",
+            "C": "Sunucu",
+            "D": "İnternet",
+            "E": "Yerel ağ"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Fare, klavye, monitör gibi donanımsal bileşenler vasıtasıyla kullanıcının etkileşimde bulunduğu simgeler, pencereler, düğmeler, hipermetinler ve panellerin bütünü ….. olarak ifade edilmektedir. Boşluğa aşağıdaki ifadelerden hangisi gelmelidir?",
+          "options": {
+            "A": "Grafiksel kullanıcı arayüzü",
+            "B": "Web arka planı",
+            "C": "Web tasarımı",
+            "D": "Kullanıcı formu",
+            "E": "Metinsel kullanıcı arayüzü"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "İnternet üzerindeki iletişim sırasında herhangi bir taraftan gönderilecek veri paketlenerek iletilmektedir. Temel olarak verinin iletimi sırasında ağda nasıl paketleneceğini ve içerisinde hata olup olmadığının ne şekilde denetleneceğini belirleyen kurallar dizisi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Hiper Metin Transfer Protokolü (Hyper Text Transfer Protokol-HTTP)",
+            "B": "Dosya Transfer Protokolü (File Transfer Protocol-FTP)",
+            "C": "Postane Protokolü (Post Oce Protocol-POP3)",
+            "D": "Veri Paketleme Protokolü (Data Packing Protocol-DPP)",
+            "E": "İletim Kontrol Protokolü/İnternet Protokolü (Transmission Control Protocol/Internet Protocol-TCP/IP)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Metinsel içeriklerin anlaşılır, uzun ve gereksiz cümlelerden arındırılmış olması gerekmektedir. Kopyalanmış ve orijinal olmayan metinler yerine web sitesine özgü farklı konularda insanların ihtiyaç duyduğu içerikler hazırlanmalıdır. Vurgulama yapılırken olumsuz etkiler bırakmayacak ölçüde sadelik esasına bağlı kalınmalıdır. Görsel öğeler ilgi çekici bile olsa gözü yormayacak renk tonlamalarına sahip olmalıdır. İçerikler arasında kullanıcının kaybolmaması ve yorulmaması gerekmektedir. Yukarıda ifade edilen durumlar hangi web tasarım ilkesi başlığı altında dikkat edilmesi gereken hususlar arasındadır?",
+          "options": {
+            "A": "Kullanılabilirlik",
+            "B": "Tarayıcı uyumu",
+            "C": "İşlevsellik",
+            "D": "Sayfa tasarımları",
+            "E": "İçerik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Web sayfasında metinlere yer verilecektir. Bu metinlerin belirli bölümünü değil de hepsini birden biçimlendirmek üzere kullanılan etiket hangisidir?",
+          "options": {
+            "A": "<body>",
+            "B": "<title>",
+            "C": "<basefont>",
+            "D": "<font>",
+            "E": "<text>"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Web sayfası içerisinde sırasız liste yapısı oluşturmak için hangi etiket kullanılır?",
+          "options": {
+            "A": "<ul>",
+            "B": "<uol>",
+            "C": "<ol>",
+            "D": "<list>",
+            "E": "<dl>"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi biçimlendirme-işaretleme dilleri arasında yer almaz?",
+          "options": {
+            "A": "GenCode",
+            "B": "LaTeX",
+            "C": "TexMLP",
+            "D": "XML",
+            "E": "HTML"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi günümüz web tarayıcıları arasında yer almaz?",
+          "options": {
+            "A": "Firefox",
+            "B": "NeXTStep",
+            "C": "Chrome",
+            "D": "Safari",
+            "E": "Opera"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Web tarayıcıdaki sayfa alanında tanımlanan bağlantıya tıkladığında bağlantının nerede açılacağını belirleyen parametre ve tıklanan bağlantının yeni bir sayfada açılması için bu parametreye atanması gereken değer sırasıyla hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "Target, _blank",
+            "B": "Target, align",
+            "C": "Target, _parent",
+            "D": "Target, blank_",
+            "E": "Target, parent_"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Photoshop, Adobe Illustrator, FreeHand, Corel Draw, SWiSH Max gibi yazılımlar hangi faaliyete yönelik kullanılabilecek yazılımlardır?",
+          "options": {
+            "A": "Proje yönetimi",
+            "B": "Web sitesi-veri tabanı bağlantısı kurma",
+            "C": "Web tasarımı",
+            "D": "Kullanıcı deneyimi analizleri",
+            "E": "Web sitesi test faaliyetleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "I- Test II- Geliştirme III- Tasarım IV- Hedef Belirleme V- Yayın, bakım ve güncelleme Yukarıda verilen web geliştirme süreci adımlarının doğru sıralanışı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "IV-V-I-II-III",
+            "B": "III-I-II-IV-V",
+            "C": "IV-II-III-I-V",
+            "D": "IV-III-II-I-V",
+            "E": "I-II-III-IV-V"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 21,
+          "question": "…… diğer metin ve kaynaklara hiperbağlantılar ile referans gösterebillir, standart metinlerden farklı olarak imaj, fotoğraf, video, tablo, matematik formülleri vs. içerik sunabilirler. Yukarıdaki boşluğa aşağıdaki kavramlardan hangisi gelmelidir?",
+          "options": {
+            "A": "Etiketler",
+            "B": "Hipergörseller",
+            "C": "Hipermetinler",
+            "D": "Web kaynakları",
+            "E": "Komutlar"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı 2025 Final",
+      "exam_title": "Web Tasarımı 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Web_Tasarimi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "\"………………\" şeklindeki seçici yapısının amacı …………….. etiketlerinin biçimlendirilmesine ilişkin tanımlamaları gerçekleştirmektir. Yukarıdaki ifadede boş bırakılan yerlere sırasıyla gelmesi gerekenler hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": ".menu a {} - <a> - .menu a {}",
+            "B": "<a> - .menu {} - .menu a {}",
+            "C": ".menu a {} - .menu {} - <a>",
+            "D": ".menu {} - .menu a {} - <a>",
+            "E": ""
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bilgisayarınızda aşağıdaki tuşlardan hangisine bastığınızda, sunucunun web tarayıcı ile paylaştığı dosyanın içeriği olan birçok karakter topluluğu ve ifadelerin yer aldığı kod satırları gelir?",
+          "options": {
+            "A": "F9",
+            "B": "F11",
+            "C": "F8",
+            "D": "F10",
+            "E": "F12"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Arama motorlarında sitelerin görüntülenmesi konusunda gerekli çalışmalar aşağıdakilerden hangisi kapsamında gerçekleştirilir?",
+          "options": {
+            "A": "Arama motoru kaydı",
+            "B": "Web tasarımı",
+            "C": "Web geliştirme",
+            "D": "Kullanıcı deneyimi",
+            "E": "Arama motoru optimizasyonu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir tabloda iki sütun birleştirilmek istendiğinde aşağıdaki etiketlerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "<tr rowspan=2>",
+            "B": "<td colspan=2>",
+            "C": "<table colspan=2>",
+            "D": "<td rowspan=2>",
+            "E": "<tr colspan=2>"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "<h1> etiketinde, başlığın sayfanın neresinde görüntülenmesi talep ediliyorsa bunun etiket içerisinde belirtilebilmesi için ……………… parametresinden yararlanılmaktadır.\" Yukarıdaki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "meta",
+            "B": "align",
+            "C": "center",
+            "D": "title",
+            "E": "weight"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi <body> etiketine ait parametrelerden değildir?",
+          "options": {
+            "A": "tlink",
+            "B": "background",
+            "C": "text",
+            "D": "vlink",
+            "E": "bgcolor"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "……. parametresi ile birlikte bir öğenin kenarlık ve iç kenar dolgusunun belirlenen genişlik ve yükseklik içerisinde kalması sağlanır. Böylece öğenin boyutu, sadece belirlenen yükseklik ve genişlikten meydana gelir.\" Yukarıdaki ifadede boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "box-sizing",
+            "B": "box",
+            "C": "box-area",
+            "D": "box-size",
+            "E": "box-width"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Tabloyu açıklayıcı bir başlık oluşturulmak istendiğinde, bu tablo başlığı aşağıdaki hangi etiketin açılış ve kapanışı arasında yazılmalıdır?",
+          "options": {
+            "A": "<caption>",
+            "B": "<th>",
+            "C": "<thead>",
+            "D": "<tfoot>",
+            "E": "<table-title>"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "<div class=\"ozelAlan\"> etiketinin işlevi aşağıdakilerden hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "Sayfa içerisinde \"ozelAlan\" \"id\" tabanlı seçicisi ile biçimlendirilen bir alan oluşturmak.",
+            "B": "Sayfa içerisinde \"ozelAlan\" isim tabanlı seçicisi ile biçimlendirilen bir alan oluşturmak.",
+            "C": "Sayfa içerisinde \"ozelAlan\" sınıf tabanlı seçicisi ile biçimlendirilen bir alan oluşturmak.",
+            "D": "Sayfa içerisinde \"ozelAlan\" sınıf tabanlı seçicisi ile biçimlendirilen bir animasyon oluşturmak.",
+            "E": "Sayfa içerisinde \"ozelAlan\" nesne tabanlı seçicisi ile biçimlendirilen bir alan oluşturmak."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Tablonun herhangi bir hücresinde yer alan içeriği, hücre içerisindeki konumunu sağa yaslı olacak şekilde ayarlamak için aşağıdaki etiketlerden hangisi kullanılabilir?",
+          "options": {
+            "A": "<th align>",
+            "B": "<td right>",
+            "C": "<td align=\"left\">",
+            "D": "<th align=\"left\">",
+            "E": "<td align=\"right\">"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi JavaScript'te kullanılan veri tiplerinden değildir?",
+          "options": {
+            "A": "String",
+            "B": "Number",
+            "C": "Loop",
+            "D": "BigInt",
+            "E": "Boolean"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Sunucular web sitelerine erişim isteklerini HTTP çerçevesinde işlemektedir. Sunucu-istemci arasındaki iletişim esnasında çeşitli durum kodları üretilerek veri alışverişi hakkında genel bir sonuca varılabilmektedir. 3xx durum kodunun açıklaması aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bilgi",
+            "B": "Tarayıcı hatası",
+            "C": "Başarı",
+            "D": "Yönlendirme",
+            "E": "Sunucu hatası"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdakilerden hangisi web sayfasını farklı alanlara bölmek için kullanılan yapılardandır?",
+          "options": {
+            "A": "Menü",
+            "B": "Yatay çizgiler",
+            "C": "Mimariler",
+            "D": "Logolar",
+            "E": "Çerçeveler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Internet kelimesi ……………….. kelimelerinin kısaltılmış halidir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "intra network",
+            "B": "interstellar network",
+            "C": "interscan network",
+            "D": "interconnected network",
+            "E": "computer network"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi web tasarımı faaliyetine yönelik kullanılabilecek yazılımlardan değildir?",
+          "options": {
+            "A": "Adobe Illustrator",
+            "B": "MySQL",
+            "C": "FreeHand",
+            "D": "Photoshop",
+            "E": "Corel Draw"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdakilerden hangisi bir Belge Nesnesi Modeli (Document Object Model) olayı (event) değildir?",
+          "options": {
+            "A": "onload",
+            "B": "onmouseon",
+            "C": "onchange",
+            "D": "onunload",
+            "E": "onclick"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Sayfada kullanılacak bir başlığın, eklendiği satırdaki konumunu belirlemek üzere aşağıdaki parametrelerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "<opposite>",
+            "B": "<line>",
+            "C": "<center>",
+            "D": "<align>",
+            "E": "<position>"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Web sayfasına eklenecek bir çerçevenin kenar çizgilerinin (kenarlıklarının) olup olmayacağını belirlemek üzere kullanılan, kenarlık olmayacaksa 0, olacaksa 1 değerini alan ve <iframe> etiketi içerisinde kullanılan parametre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "border",
+            "B": "frameline",
+            "C": "borderline",
+            "D": "frameborder",
+            "E": "borderwidth"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Kullanıcı, <button> etiketi ile web sayfasına eklenmiş bir butona fare ile tıkladığında \"id\" değeri \"ilk\" olan bir öğenin yerine \"resim.jpeg\" adlı dosyanın gelmesini sağlayan kod satırı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<button onclick=\"document.getElementById('ilk').src='resim.jpeg'\">Tıkla</button>",
+            "B": "<button onchange document.getElementById('ilk').src=resim.jpeg>Tıkla</button>",
+            "C": "<button onclick=\"document.getElementById('ilk').innerHTML='resim.jpeg'\">Tıkla</button>",
+            "D": "<button onmouse-document.getElementById('ilk').src=resim.jpeg>Tıkla</button>",
+            "E": "<button onmouseon=\"document.getElementById('ilk').innerHTML='resim.jpeg'\">Tıkla</button>"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "\"Web'te sayfalar arasında veri iletimi sürecinde istek ve cevap mantığı işlemektedir. Buna göre bir sayfa üzerinden istekte bulunulur ve sunucu vasıtasıyla isteklere cevap verilir. Bu süreçte kullanılacak metodlar arasında ………………… yer almaktadır.\" Yukarıdaki ifadede boş bırakılan yere aşağıdakilerden hangisi gelemez?",
+          "options": {
+            "A": "Head",
+            "B": "Options",
+            "C": "Header",
+            "D": "Get",
+            "E": "Post"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı 2024 Final",
+      "exam_title": "Web Tasarımı 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Web_Tasarimi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Karakter serisinin belirli bölümünü almak üzere kullanılan metod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "toUpperCase()",
+            "B": "toLowerCase()",
+            "C": "slice()",
+            "D": "replace()",
+            "E": "concat()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Evrensel (global) seçici tanımlamak üzere kullanılan özel işaret aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "* (yıldız)",
+            "B": ". (nokta)",
+            "C": "& (ampersand)",
+            "D": "# (diyez)",
+            "E": "Herhangi bir özel işaret kullanılmaz."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "\"id\" tabanlı seçici tanımlamak üzere kullanılan özel işaret aşağıdakilerden hangisidir?",
+          "options": {
+            "A": ". (nokta)",
+            "B": "& (ampersand)",
+            "C": "* (yıldız)",
+            "D": "# (diyez)",
+            "E": "Herhangi bir işaret kullanılmaz."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir tabloda genel tablo dökümünün ya da tabloya ilişkin açıklamaların eklenebileceği bir alt bölüm oluşturmak üzere <table> etiketi altında kullanılan etiket aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<th>",
+            "B": "<tfoot>",
+            "C": "<thead>",
+            "D": "<tbody>",
+            "E": "<caption>"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "\"<h1> etiketinde, başlığın sayfanın neresinde görüntülenmesi talep ediliyorsa bunun etiket içerisinde belirtilebilmesi için …………….. parametresinden yararlanılmaktadır.\"",
+          "options": {
+            "A": "weight",
+            "B": "center",
+            "C": "meta",
+            "D": "align",
+            "E": "title"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Internet kelimesi …………………. kelimelerinin kısaltılmış halidir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "interconnected network",
+            "B": "computer network",
+            "C": "intra network",
+            "D": "interscan network",
+            "E": "interstellar network"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Sıralı liste yapısı oluşturmak için aşağıdaki etiketlerden hangisi öncelikle kullanılmalıdır?",
+          "options": {
+            "A": "<li>",
+            "B": "<list>",
+            "C": "<al>",
+            "D": "<ul>",
+            "E": "<ol>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir tabloda iki satır birleştirilmek istendiğinde aşağıdaki etiketlerden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "<td rowspan=2>",
+            "B": "<tr rowspan=2>",
+            "C": "<th colspan=2>",
+            "D": "<tr colspan=2>",
+            "E": "<td row-span=2>"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"……….. metodu ile veri gönderilirken veri herkese açıktır, form parametreleri adres çubuğunda görüntülenir ve karakter sayısında sınır vardır.\" Yukarıdaki ifadedeki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "get",
+            "B": "layer",
+            "C": "post",
+            "D": "input",
+            "E": "form"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Türkçe içerik hazırlanacağı zaman Türkçe karakterlerde gösterim sorunu yaşanmaması için gerekli tanımlamaların yapılması adına kullanılacak etiket aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<link>",
+            "B": "<charset>",
+            "C": "<utf>",
+            "D": "<title>",
+            "E": "<meta>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "const dizi1 = [100, 150, 45, 68, 17, 85, 179, 247, 23, 64]; Dizi içerisinde yer alan 179 sayısını bir a değişkenine atayan kod satırı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Let a = dizi1[\"179\"];",
+            "B": "Let a = dizi1[179];",
+            "C": "Let a = dizi1[7];",
+            "D": "Let a = dizi1[6];",
+            "E": "Let a = dizi1[7, \"179\"];"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Web geliştirme süreci en genel haliyle beş adımdan meydana gelir. Bu adımlardan üçüncüsü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Tasarım",
+            "B": "Yayın, bakım ve güncelleme",
+            "C": "Geliştirme",
+            "D": "Hedef Belirleme",
+            "E": "Test"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "I. Safari II. NeXTStep III. Netscape IV. Firefox V. Opera Yukarıda verilenlerden hangileri günümüz web tarayıcıları arasında yer alır?",
+          "options": {
+            "A": "IV ve V",
+            "B": "I, IV ve V",
+            "C": "II, IV ve V",
+            "D": "I, II ve III",
+            "E": "I ve V"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Tablonun herhangi bir hücresinde yer alan içeriği hücre içerisinde sağa yaslı olacak şekilde ayarlamak için aşağıdaki etiketlerden hangisi kullanılabilir?",
+          "options": {
+            "A": "<td align=\"left\">",
+            "B": "<th align=\"left\">",
+            "C": "<td right>",
+            "D": "<th align>",
+            "E": "<td align=\"right\">"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi web tasarımı faaliyetine yönelik kullanılabilecek yazılımlardan değildir?",
+          "options": {
+            "A": "Photoshop",
+            "B": "MySQL",
+            "C": "FreeHand",
+            "D": "Corel Draw",
+            "E": "Adobe Illustrator"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "\"CSS dosyalarını HTML dosyalarına entegre etmek için kullanılan <link> etiketi, yer aldığı dosya ile dış bir dosya arasında bağlantı kurulmasını sağlar. Etiket içerisinde yer alan ………. parametresi, bağlantı yapılan dış dosyaya hangi amaçla bağlanıldığını ifade etmek için kullanılır.\" Yukarıdaki cümlede boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "\"relation\"",
+            "B": "\"rel\"",
+            "C": "\"href\"",
+            "D": "\"source\"",
+            "E": "\"src\""
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yuvarlatılmış ve üstel notasyon kullanılarak yazılmış bir sayıyı içeren dizeyi döndüren metod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "parseInt()",
+            "B": "toString()",
+            "C": "toExponential()",
+            "D": "toFixed()",
+            "E": "Number()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "\"…… diğer metin ve kaynaklara hiperbağlantılar ile referans gösterebilir, imaj, fotoğraf, video, tablo, matematik formülleri vs. içerik sunabilirler.\" Yukarıdaki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Etiketler",
+            "B": "Komutlar",
+            "C": "Web kaynakları",
+            "D": "Hipermetinler",
+            "E": "Hipergörseller"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "\"file:///F:/webTasarim/WebSayfasi/iletisim.php?username=webTasarim&pas=123456&enter=Gönder\" Bir form vasıtasıyla kullanıcı adı ve şifre girilip ardından giriş düğmesine basıldığında yukarıdaki bağlantı adres çubuğunda görüntüleniyorsa, sayfalar arası istemci-sunucu sürecinde hangi metod kullanılmıştır?",
+          "options": {
+            "A": "Option",
+            "B": "Post",
+            "C": "Action",
+            "D": "Head",
+            "E": "Get"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Bir web sayfasında alt pencereler oluşturulmasına olanak sağlayan, sayfanın birden fazla alana bölünüp farklı görüntüleme seçenekleri sunan ana yapı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Formlar",
+            "B": "Listeler",
+            "C": "Çerçeveler",
+            "D": "Form Öğeleri",
+            "E": "Script Kodları"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}

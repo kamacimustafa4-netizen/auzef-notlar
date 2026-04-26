@@ -1,7 +1,7 @@
 {
   "course": "İstatistik Analiz",
   "lesson_code": "ISTATISTIK_ANALIZ",
-  "exam_count": 7,
+  "exam_count": 12,
   "exams": [
     {
       "title": "İstatistik Analiz 2025-2026 Vize",
@@ -1742,11 +1742,362 @@
       ]
     },
     {
+      "title": "İstatistik Analiz 2025 Final",
+      "exam_title": "İstatistik Analiz 2025 Final",
+      "exam_type": "final",
+      "year": "2025",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Istatistik_Analiz_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir konserve firması ürettiği konservelerin ağırlığını kalite standartları gereği düzenli olarak takip etmekte ve ortalama ağırlığı kontrol altında tutmaya çalışmaktadır. Bu amaçla günlük üretim içinden 49 konserve kutusu tesadüfi olarak seçilmiş ve örnek ortalaması 490 gr ve s = 14 gr olarak hesaplanmıştır. Temel ve alternatif hipotezler aşağıdaki gibi kurulmuştur: H0: μ = 500gr , H1: μ ≠ 500gr. Yukarıda verilenlere göre anakütle ortalamasının 500 gr olduğu şeklinde kurulan temel hipotezi test etmek üzere hesaplanan test istatistiği değeri (t hesaplanmış değer) ve alınan karar hangi seçenekte doğru olarak verilmiştir? (Tablo değerini 1,96 alınız).",
+          "options": {
+            "A": "Test istatistiği 10, H0 ret Konservelerin ortalama ağırlığı 500 gr.dan farklıdır.",
+            "B": "Test istatistiği +5, H0 ret Konservelerin ortalama ağırlığı 500 gr.dan farklıdır.",
+            "C": "Test istatistiği -10, H0 kabul Konservelerin ortalama ağırlığı 500 gr.dan farklıdır.",
+            "D": "Test istatistiği - 5, H0 ret Konservelerin ortalama ağırlığı 500 gr.dan farklıdır.",
+            "E": "Test istatistiği -5, H0 kabul Konservelerin ortalama ağırlığı 500 gr.dır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda tahmin edilen çeşitli regresyon modelleri için hesaplanmış belirginlik katsayıları verilmiştir. Buna göre bağımlı değişkendeki değişmeleri en çok açıklayabilen regresyon modelini gösteren hangi belirginlik katsayısıdır?",
+          "options": {
+            "A": "-0,95",
+            "B": "+0,93",
+            "C": "+0,78",
+            "D": "+0,65",
+            "E": "-0,28"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aralarında ilişki olduğu düşünülen iki değişken arasında hesaplanan doğrusal regresyon modeli, Yᵢ = 5,8 + 4,6 Xᵢ biçiminde tahmin edilmiştir. Buna göre bağımsız değişkenin değerinde meydana gelecek 1 birimlik artışın bağımlı değişken üzerinde etkisi ne olacaktır?",
+          "options": {
+            "A": "5,8 birim azaltacaktır.",
+            "B": "5,8 birim arttıracaktır.",
+            "C": "4,6 birim arttıracaktır.",
+            "D": "9,5 birim arttıracaktır.",
+            "E": "4,6 birim azaltacaktır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aralarında ilişki olduğu düşünülen iki değişken arasındaki birlikte değişme derecesini gösteren katsayıya ne ad verilir?",
+          "options": {
+            "A": "Belirginlik katsayısı",
+            "B": "Belirsizlik katsayısı",
+            "C": "Basit korelasyon katsayısı",
+            "D": "Determinasyon katsayısı",
+            "E": "Basit regresyon katsayısı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Margarin üreten bir firma, ürettiği ürünlerinin etiketinde ortalama ağırlığın 250 gr olduğunu ifade etmektedir. Bir grup tüketici ise ortalama ürün ağırlığının 250 gr.dan farklı olduğunu iddia etmektedir. Söz konusu iddia istatistik açıdan test edilmek istendiğinde kurulması gereken alternatif hipotez aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "H1: μ = 250gr",
+            "B": "H1: μ ≥ 250gr",
+            "C": "H1: μ ≤ 250gr",
+            "D": "H1: μ ≠ 250gr",
+            "E": "H1: X̄ ≠ 250gr"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir araştırma kapsamında 500 birimlik bir örneklem seçilmiş ve örneklem ortalaması 245 gr ve örneklem dağılma ölçüsü 26 gr olarak hesaplanmıştır. Buna göre örneklem ortalamasını ve örneklem dağılma ölçüsünü gösteren semboller hangi seçenekte doğru kullanılmıştır?",
+          "options": {
+            "A": "μ = 245 ve s = 26",
+            "B": ")X̄ = 245 𝑣𝑒 𝑠 = 26",
+            "C": ")X̄ = 245 𝑣𝑒 𝜎2 = 26",
+            "D": "α = 245 ve σ = 26",
+            "E": ")X̄ = 26 𝑣𝑒 𝑠 = 245"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aralarında ilişki olduğu düşünülen iki değişken arasında hesaplanan doğrusal regresyon modeli, Ȳᵢ = 7,5 + 6,55 Xᵢ biçiminde tahmin edilmiştir. Bağımsız değişkenin 10 değerini alması durumunda Y değişkenin tahminî değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "73",
+            "B": "6,55",
+            "C": "7,5",
+            "D": "90",
+            "E": "14,05"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "X ve Y değişkenleri arasında basit doğrusal korelasyon katsayısı hesaplanmış ve iki değişken arasında aynı yönlü ve güçlü bir ilişki bulunduğu ifade edilmiştir. Buna göre aşağıda verilen korelasyon katsayılarından hangisi hesaplanmış olabilir?",
+          "options": {
+            "A": "r = 0",
+            "B": "r = -0,99",
+            "C": "r = -0,4",
+            "D": "r = +0.5",
+            "E": "r = +0,95"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıda bir derginin satın alınması üzerinde cinsiyetin etkili bir faktör olup olmadığına dair yapılan bir çalışmaya ilişkin kontenjans tablosu verilmiştir. Buna göre, Kontenjans tablosunun serbestlik derecesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "4",
+            "B": "2",
+            "C": "6",
+            "D": "3",
+            "E": "5"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "I. Ki-kare dağılımı simetrik bir olasılık dağılımıdır. II. Ki-kare dağılımı asimetrik bir olasılık dağılımıdır. III. Ki-kare dağılımının şekli serbestlik derecesine göre değişir. Ki-kare dağılımı için yukarıda verilen ifadelerden hangisi ya da hangileri yanlıştır?",
+          "options": {
+            "A": "II ve III",
+            "B": "I ve II",
+            "C": "Yalnız I",
+            "D": "Yalnız III",
+            "E": "Yalnız II"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Ana kütle çerçevesine ulaşılamadığı, ana kütle hacminin çok büyük olduğu ya da gözlem birimlerinin coğrafi olarak geniş bir alana yayıldığı durumlarda tercih edilen örnekleme yöntemi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "kartopu örneklemesi",
+            "B": "kotalı örnekleme",
+            "C": "amaçlı örnekleme",
+            "D": "sistematik örnekleme",
+            "E": "küme örneklemesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Parametrik hipotez testlerinin temel varsayımlarından biri de verinin ölçüm düzeyi ile ilgilidir. Parametrik testlerin uygulanabilmesi için verinin ölçüm düzeyinin ….. veya….. olması varsayılmaktadır. Yukarıdaki ifadede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "sıralamalı - oran",
+            "B": "sıralamalı - aralık",
+            "C": "isimsel - aralık",
+            "D": "aralık - oran",
+            "E": "isimsel - sıralamalı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "10000 birimden oluşan bir anakütleden tesadüfi olarak 225 birimlik örneklem çekilmiş ve örnek kütle ortalaması 180, örnek dağılma ölçüsü ise 36 hesaplanmıştır. Yukarıda verilenlere göre ortalamanın standart hatası aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "2,4",
+            "B": "36,0",
+            "C": "0,4",
+            "D": "6,2",
+            "E": "5,0"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "X bağımsız değişkeni Y ise bağımlı değişkeni göstermek üzere X bağımsız değişkeninde meydana gelecek bir birimlik değişmenin Y bağımlı değişkeninde sebep olacağı değişim miktarını gösteren katsayı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Belirginlik katsayısı",
+            "B": "Regresyon katsayısı",
+            "C": "Korelasyon katsayısı",
+            "D": "Belirsizlik katsayısı",
+            "E": "Determinasyon katsayısı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yaşınız? …….. Yukarıda verilen soru örneği anket uygulamalarında kullamlan hangi soru tipine örnektir?",
+          "options": {
+            "A": "Kapalı uçlu soru",
+            "B": "Yarı kapalı uçlu soru",
+            "C": "Açık uçlu soru",
+            "D": "Beklenen uçlu soru",
+            "E": "Çoktan seçmeli soru"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bir imalat işletmesinde iki farklı tezgah ile üretim yapılmaktadır. Söz konusu iki tezgahta bir saat süresince üretilen ortalama ürün sayıları arasında fark olup olmadığı 0,05 anlamlılık düzeyinde araştırılmak istenmektedir. Bu amaçla tesadüfi olarak seçilen saatlerde yeterli sayıda gözlem yapılmış ve saat bazında üretilen ürün sayıları her iki tezgah için ayrı ayrı belirlenmiştir. Sözü edilen araştırmada parametrik test varsayımlarının sağlandığı durumda aşağıdaki hipotez testlerinden hangisinin kullanılması gerekir?",
+          "options": {
+            "A": "İki ortalama arasındaki farkın önemlilik testi",
+            "B": "Anakütle ortalamasının testi (tek örneklem t testi)",
+            "C": "Ki-kare bağımsızlık testi",
+            "D": "İki eş arasındaki farkın önemlilik testi",
+            "E": "Mann Whitney U testi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Parametrik test varsayımları sağlanamadığında \"iki eş arasındaki farkın önemlilik testi\" yerine kullanılması önerilen parametrik olmayan hipotez testi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İşaret testi",
+            "B": "Mann-Whitney U testi",
+            "C": "Kruskal-Wallis testi",
+            "D": "Friedman testi",
+            "E": "Wilcoxon Eşleştirilmiş iki örnek testi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bir havayolu şirketi müşterilerinin uçuş memnuniyetini belirlemek amacıyla bir örnekleme çalışması gerçekleştiriyor. Bu amaçla yurt içi uçuşlarda müşterisi olmuş 400 yolcuyu tesadüfi olarak seçerek yolculardan uçuş deneyimini 100 puan üzerinden değerlendirmesini istiyor. Örneklem ortalaması 86 puan ve örneklem dağılma ölçüsü (s değeri) 18 puan olarak hesaplanıyor. Buna göre anakütle ortalamasının yüzde 95 olasılıkla hesaplanacak güven sınırları aşağıdakilerden hangisidir? (Tablo değerini 1,96 alınız).",
+          "options": {
+            "A": "84,145 ≤ μ ≤ 87,855",
+            "B": "82,586 ≤ μ ≤ 89,414",
+            "C": "83,400 ≤ μ ≤ 88,600",
+            "D": "84,236 ≤ μ ≤ 87,764",
+            "E": "83,275 ≤ μ ≤ 88,725"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Anakütle ortalaması tahmin edilirken α = 0,12 alındığında, anakütle ortalamasının hesaplanan güven sınırlarının içinde bulunması olasılığı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "0,88",
+            "B": "0,12",
+            "C": "0,44",
+            "D": "0,06",
+            "E": "0,38"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıda sıralanan turizm alanlarından hangisi daha çok ilginizi çeker? (Tek şık seçiniz) Deniz turizmi () Kış turizmi () Kültür turizmi () Diğer (belirtiniz.)…… Yukarıda verilen soru örneği hangi soru türüne örnektir?",
+          "options": {
+            "A": "Ölçeklendirme sorusu",
+            "B": "Açık uçlu soru",
+            "C": "Kapalı uçlu soru",
+            "D": "Derecelendirme sorusu",
+            "E": "Yarı kapalı uçlu soru"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
       "title": "İstatistik Analiz 2024-2025 Final",
       "exam_title": "İstatistik Analiz 2024-2025 Final",
       "exam_type": "final",
       "year": "2024-2025",
-      "question_count": 20,
+      "question_count": 1,
       "source_url": "",
       "file_name": "Istatistik_Analiz_Final_Sorulari.docx",
       "questions": [
@@ -1760,13 +2111,24 @@
             "D": "32,47",
             "E": "44,97"
           },
-          "correct_answer": "D",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
           "image_path": "",
           "source_image_url": ""
-        },
+        }
+      ]
+    },
+    {
+      "title": "İstatistik Analiz 2024 Final",
+      "exam_title": "İstatistik Analiz 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 19,
+      "source_url": "",
+      "file_name": "Istatistik_Analiz_Final_Sorulari.docx",
+      "questions": [
         {
           "id": 2,
           "question": "Türkiye'de faaliyet gösteren bir mevduat bankasının yöneticisi, 01–30 Eylül 2024 döneminde müşterilerinin ortalama kredi kartı harcamasının 34.200 TL olduğunu belirtmiştir. Ancak bir araştırmacı, söz konusu banka kredi kartını kullanan kişiler arasından tesadüfi olarak 100 kişi seçmiş ve belirtilen dönemde bu kişilerin ortalama kredi kartı harcamasını 36.400 TL ve standart sapmayı 8.400 TL olarak hesaplamıştır. Normal dağılım varsayımı altında, anakütle ortalamasının varsayılan değeri ile örnek kütleden hareketle bulunan değer arasındaki farkın anlamlı olup olmadığını istatistiksel olarak test etmek için araştırmacının aşağıdaki testlerden hangisini tercih etmesi gerekir?",
@@ -1794,7 +2156,7 @@
             "D": "Basit korelasyon analizi",
             "E": "Basit regresyon analizi"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1811,7 +2173,7 @@
             "D": "IV",
             "E": "III"
           },
-          "correct_answer": "C",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1879,7 +2241,7 @@
             "D": "ABC bankası yöneticileri",
             "E": "Kamu ve özel tüm banka çalışanları"
           },
-          "correct_answer": "D",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1913,7 +2275,7 @@
             "D": "2,1",
             "E": "0,5"
           },
-          "correct_answer": "C",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1930,7 +2292,7 @@
             "D": "Harcanabilir kişisel aylık geliriniz kaç liradır?",
             "E": "Uzmanların bitkisel olmayan saç boyalarının kullanılmaması görüşüne katılıyor musunuz?"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1947,7 +2309,7 @@
             "D": "H₁ : X̄kadın = X̄erkek",
             "E": "H₁ : μkadın = μerkek"
           },
-          "correct_answer": "A",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1964,7 +2326,7 @@
             "D": "2",
             "E": "6"
           },
-          "correct_answer": "B",
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1981,7 +2343,7 @@
             "D": "H₁ : μ ≥ 980 lira",
             "E": "H₁ : X̄ ≠ 980 lira"
           },
-          "correct_answer": "E",
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -1998,7 +2360,7 @@
             "D": "Sistematik örnekleme",
             "E": "Küme örneklemesi"
           },
-          "correct_answer": "E",
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2015,11 +2377,11 @@
             "D": "Elektronik posta yoluyla",
             "E": "Yüz yüze"
           },
-          "correct_answer": "A",
+          "correct_answer": "C",
           "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ISTATISTIK_ANALIZ_2024_2025_final_soru_16.jpg",
-          "image_file": "ISTATISTIK_ANALIZ_2024_2025_final_soru_16.jpg",
-          "image_path": "resim-sorular/ISTATISTIK_ANALIZ_2024_2025_final_soru_16.jpg",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ISTATISTIK_ANALIZ_2024_final_soru_16.jpg",
+          "image_file": "ISTATISTIK_ANALIZ_2024_final_soru_16.jpg",
+          "image_path": "resim-sorular/ISTATISTIK_ANALIZ_2024_final_soru_16.jpg",
           "source_image_url": ""
         },
         {
@@ -2032,7 +2394,7 @@
             "D": "22,5",
             "E": "5"
           },
-          "correct_answer": "E",
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2066,7 +2428,7 @@
             "D": "II ve III",
             "E": "Yalnız I"
           },
-          "correct_answer": "C",
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2083,6 +2445,368 @@
             "D": "0,6265",
             "E": "0,2286"
           },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "İstatistik Analiz 2024 Final",
+      "exam_title": "İstatistik Analiz 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 16,
+      "source_url": "",
+      "file_name": "Istatistik_Analiz_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki anket uygulama biçimlerinden hangisinin maliyeti en düşüktür? (Anketin uygulanma biçiminin yanıtları değiştirmeyeceği ve aynı topluluğa uygulanacağı varsayılmaktadır.)",
+          "options": {
+            "A": "Kâğıt ve kalem kullanılarak yüz yüze yapılan anket uygulama",
+            "B": "Bilgisayar destekli telefon yoluyla anket uygulama",
+            "C": "Telefon yoluyla anket uygulama",
+            "D": "Elektronik posta yoluyla anket uygulama",
+            "E": "Posta yoluyla anket uygulama"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda verilen alfa (anlamlılık düzeyi) değerlerinden hangisi en geniş güven aralığını vermektedir?",
+          "options": {
+            "A": "0.10",
+            "B": "0,01",
+            "C": "0,02",
+            "D": "0,15",
+            "E": "0,05"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "I. Anakütle dağılımının (değişkenliğinin) artması güven sınırlarını genişletir. II. Örneklem hacminin arttırılması güven sınırlarını daraltır. III. Anakütle dağılımının (değişkenliğinin) artması güven sınırlarını daraltır. IV. Örneklem hacminin güven sınırları üzerinde etkisi yoktur. V. Örneklem hacminin arttırılması güven sınırlarını genişletir. Yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "II ve III",
+            "B": "I ve II",
+            "C": "III ve IV",
+            "D": "Yalnız IV",
+            "E": "IV ve V"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Çok fazla sayıda birim içeren bir ana kütleden çekilen örnek yardımıyla ana kütle ortalaması tahmin edilmek istenmiş ve ana kütle ortalamasının yüzde 95 olasılıkla 230 ile 260 değerleri arasında bulunacağı belirlenmiştir. Söz konusu tahmine….. denmektedir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "nokta tahmini",
+            "B": "istatistik tahmini",
+            "C": "aralık tahmini",
+            "D": "anakütle tahmini",
+            "E": "örnek tahmini"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yaşınız ( ) 15-19 ( ) 20-24 ( ) 25-29 ( ) 30-34 Yukarıda verilen soru hangi soru tipine örnektir?",
+          "options": {
+            "A": "Açık uçlu soru",
+            "B": "Çoktan seçmeli soru",
+            "C": "Beklenen uçlu soru",
+            "D": "Kapalı uçlu soru",
+            "E": "Yarı kapalı uçlu soru"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "\"Anakütle ortalaması önemlilik testi\" veya \"tek örneklem t testi\" olarak adlandırılan parametrik testin uygulanması için gerekli varsayımların sağlanamaması durumunda kullanılması önerilen parametrik olmayan hipotez testi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İşaret testi",
+            "B": "Friedman testi",
+            "C": "Kruskal-Wallis testi",
+            "D": "Mann-Whitney U testi",
+            "E": "Kolmogorov - Smirnov testi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "İki değişken arasında aynı yönlü ve güçlü korelasyon bulunması durumunda regresyon katsayısı için aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "Pozitif değer alır.",
+            "B": "Negatif değer alır.",
+            "C": "Anlamlı değildir.",
+            "D": "Ters yönlüdür.",
+            "E": "Sıfırdır."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Ana kütle standart sapmasının 35,75 ve örnek birim sayısının 121 olması durumunda ortalamanın standart hatası aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "4,00",
+            "B": "0,24",
+            "C": "3,00",
+            "D": "3,25",
+            "E": "0,30"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir basit regresyon modelinde belirsizlik katsayısı 0,15 olduğuna göre belirginlik katsayısının değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "0,05",
+            "B": "0,15",
+            "C": "1,85",
+            "D": "0,85",
+            "E": "1,15"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıda verilen örnekleme yöntemlerinden hangisi tesadüfi örnekleme yöntemleri arasında yer almaktadır?",
+          "options": {
+            "A": "Amaçlı örnekleme",
+            "B": "Kartopu örneklemesi",
+            "C": "Sistematik örnekleme",
+            "D": "Kolayda örnekleme",
+            "E": "Kota örneklemesi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Hipotez testi çözümlemesinin sonunda; hesaplanan test istatistiği ile kritik değer kıyaslanmaktadır. Test istatistiğinin seçilen anlamlılık düzeyi için belirlenen kritik değerden büyük olması durumunda… Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "karar alınabilmesi için yeniden örnekleme yapılmalıdır.",
+            "B": "temel hipotez ret edilmelidir.",
+            "C": "örneklem büyütülerek hipotez testi yinelenmelidir.",
+            "D": "temel hipotez ret edilemez.",
+            "E": "karar alınması için yeterli kanıt yoktur."
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "X ve Y aralarında ilişki bulunan iki değişkendir ve Σ(Xi-x̄)(Yᵢ-Ȳ)=105 olarak hesaplanmıştır. X bağımsız değişkeni için aritmetik ortalamadan sapmaların kareler toplamı 15 olduğuna göre regresyon katsayısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "7",
+            "B": "105",
+            "C": "0,1429",
+            "D": "27,111",
+            "E": "15"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Bir hastanenin yetişkin beslenme ve diyet polikliniğine başvuran 48 kişinin ağırlıkları kilogram cinsinden ölçülmüştür. Benzer sağlık durumuna ve demografik özelliklere sahip olan bu kişilerin kilo vermeleri için 3 ay süre ile aynı kilo verme programı uygulanmıştır. Üç ay sonunda bu 48 kişinin ağırlıkları yeniden ölçülmüştür. Dolayısıyla araştırmacının elinde kilo verme programı uygulanmadan önceki ağırlıklar ve uygulamadan sonraki (3 ay sonraki) ağırlıklar bulunmaktadır. Bu kapsamda 48 kişi tarafından uygulanan kilo verme programının kilo verme açısından başarılı olup olmadığını sınamak istenmektedir. Parametrik test varsayımları sağlanamadığına göre aşağıda verilen hipotez testlerinden hangisi kullanılmalıdır?",
+          "options": {
+            "A": "Anakütle ortalamasının testi (tek örneklem testi)",
+            "B": "Wilcoxon eşleştirilmiş iki örnek testi",
+            "C": "Kruskal Wallis H testi",
+            "D": "İki eş arasındaki farkın önemlilik testi",
+            "E": "İki ortalama arasındaki farkın önemlilik testi"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "İki değişken arasında mutlak kesinlik içinde değil, olasılık kuralları içinde gerçekleşen ilişkiye ……… ilişki denir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "zayıf",
+            "B": "sıralı",
+            "C": "baskın",
+            "D": "deterministik",
+            "E": "stokastik"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "I. Temel ve alternatif hipotezlerin oluşturulması II. Anlamlılık düzeyinin belirlenmesi ve kritik değerin bulunması III. Test istatistiği değerinin hesaplanması IV. Kritik değer ile test istatistiği değerinin karşılaştırılması V. Test sonucunun yorumlanması Yukarıdaki aşamalardan hangisi iki ortalama arasındaki farkın önemlilik testinin son adımını oluşturmaktadır?",
+          "options": {
+            "A": "II",
+            "B": "III",
+            "C": "IV",
+            "D": "I",
+            "E": "V"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "X ve Y değişkenleri arasında negatif yönlü ancak zayıf bir ilişki olduğunu gösteren korelasyon katsayısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "-0.17",
+            "B": "-0,91",
+            "C": "+0,29",
+            "D": "-0.80",
+            "E": "-0,85"
+          },
+          "correct_answer": "",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "İstatistik Analiz 2024 Final",
+      "exam_title": "İstatistik Analiz 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 4,
+      "source_url": "",
+      "file_name": "Istatistik_Analiz_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 17,
+          "question": "Bir mevduat bankası yöneticisi, 01–31 Mart 2024 döneminde müşterilerinin ortalama kredi kartı harcamasının 15500 lira olduğunu belirtmiştir. Ancak bir araştırmacı, söz konusu banka kredi kartını kullanan kişiler arasından tesadüfi olarak 100 kişi seçmiş ve belirtilen dönemde kaç lira harcama yaptıklarını sormuştur. Tesadüfi olarak seçilen bu kişilerin ortalama kredi kartı harcaması 16200 lira ve standart sapması 780 lira olarak hesaplanmıştır. Örnek kütleden hareketle tahmin edilen değerin anakütle ortalamasının varsayılan değerinden büyük olup olmadığını istatistiksel olarak test etmek için kurulması gereken alternatif hipotez aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "H1: mu < 16200",
+            "B": "H1: mu esit degildir 15500",
+            "C": "H1: mu = 16200",
+            "D": "H1: mu = 15500",
+            "E": "H1: mu > 15500"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "İki değişken arasında deterministik (mutlak) ilişki bulunması durumunda tahmin edilecek basit regresyon modeli için hesaplanacak belirginlik katsayısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "1",
+            "D": "4",
+            "E": "0"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Nominal ya da ordinal verilerin birlikte düzenlendiği tablo aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Olasılık tablosu",
+            "B": "Korelasyon tablosu",
+            "C": "Kontenjans tablosu",
+            "D": "Khi-kare tablosu",
+            "E": "Beklenen değer tablosu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Bir araştırma sonucunda toplanan verilerin kontenjans tablosuyla düzenlenmesi sonucunda oluşan gerçek frekanslara ………… frekans denir. Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "varsayılan",
+            "B": "toplam",
+            "C": "marjinal",
+            "D": "beklenen",
+            "E": "gözlenen"
+          },
           "correct_answer": "E",
           "explanation": "",
           "image_url": "",
@@ -2097,7 +2821,7 @@
       "exam_title": "İstatistik Analiz 2023-2024 Final",
       "exam_type": "final",
       "year": "2023-2024",
-      "question_count": 20,
+      "question_count": 10,
       "source_url": "",
       "file_name": "Istatistik_Analiz_Final_Sorulari.docx",
       "questions": [
@@ -2111,7 +2835,7 @@
             "D": "t dağılımı",
             "E": "student dağılımı"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2128,7 +2852,7 @@
             "D": "ana kütle varyansının / örnek birim sayısına",
             "E": "ana kütle varyansının / ana kütle birim sayısına"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2145,7 +2869,7 @@
             "D": "9,9",
             "E": "-4,3"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2162,7 +2886,7 @@
             "D": "0,65",
             "E": "1,65"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2179,7 +2903,7 @@
             "D": "Küme örneklemesi",
             "E": "Zümrelere göre örnekleme"
           },
-          "correct_answer": "B",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2196,7 +2920,7 @@
             "D": "Sürekli değişken",
             "E": "Bağımsız değişken"
           },
-          "correct_answer": "E",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2213,7 +2937,7 @@
             "D": "0,684",
             "E": "2,571"
           },
-          "correct_answer": "A",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2230,7 +2954,7 @@
             "D": "27,5",
             "E": "30"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2247,7 +2971,7 @@
             "D": "Beklenen uçlu soru",
             "E": "Açık uçlu soru"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
@@ -2264,13 +2988,24 @@
             "D": "0,8464",
             "E": "0,8548"
           },
-          "correct_answer": "C",
+          "correct_answer": "",
           "explanation": "",
           "image_url": "",
           "image_file": "",
           "image_path": "",
           "source_image_url": ""
-        },
+        }
+      ]
+    },
+    {
+      "title": "İstatistik Analiz 2023 Final",
+      "exam_title": "İstatistik Analiz 2023 Final",
+      "exam_type": "final",
+      "year": "2023",
+      "question_count": 10,
+      "source_url": "",
+      "file_name": "Istatistik_Analiz_Final_Sorulari.docx",
+      "questions": [
         {
           "id": 11,
           "question": "Türkiye'de faaliyet gösteren bir mevduat bankasının yöneticisi, 01-28 Şubat 2023 döneminde müşterilerinin ortalama kredi kartı harcamasının 1320 lira olduğunu belirtmiştir. Ancak bir araştırmacı, söz konusu banka kredi kartını kullanan kişiler arasından tesadüfi olarak 100 kişi seçmiş ve belirtilen dönemde kaç lira harcama yaptıklarını sormuştur. Tesadüfi olarak seçilen bu kişilerin ortalama kredi kartı harcaması 1400 lira ve standart sapması 16 lira olarak hesaplanmıştır. Örnek kütleden hareketle bulunan değerin ana kütle ortalamasının varsayılan değerinden farklı olup olmadığını istatistiksel olarak test etmek için kurulması gereken temel hipotez aşağıdakilerden hangisidir?",

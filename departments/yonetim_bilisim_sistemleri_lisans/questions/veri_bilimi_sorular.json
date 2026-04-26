@@ -1,0 +1,709 @@
+{
+  "course": "Veri Bilimi",
+  "lesson_code": "VERI_BILIMI",
+  "exam_count": 2,
+  "exams": [
+    {
+      "title": "Veri Bilimi 2024 Vize",
+      "exam_title": "Veri Bilimi 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Bilimi_Vize_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen Python programının çıktısı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "[1,2]",
+            "B": "[1,2,3]",
+            "C": "[1,3]",
+            "D": "[1]",
+            "E": "[3]"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_BILIMI_2024_vize_soru_1.jpg",
+          "image_file": "VERI_BILIMI_2024_vize_soru_1.jpg",
+          "image_path": "resim-sorular/VERI_BILIMI_2024_vize_soru_1.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Python programlama dilinde bir değişkenin değerini ekrana yazdırmak için aşağıda verilen komutlardan hangisi kullamlır?",
+          "options": {
+            "A": "Show()",
+            "B": "Clear()",
+            "C": "Shape()",
+            "D": "Print()",
+            "E": "List()"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "list1 = [6,23,3,2,0,9,8,75] Yukarıda verilen \"list1\" adlı listeyi göz önüne alarak bu listeden [23,2,9,75] elemanları içeren çıktıyı verecek söz dizimi (komut satırı) aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "print(list1[2:8:2])",
+            "B": "print(list1 [0:7:2])",
+            "C": "print(list1 [1:7:2] )",
+            "D": "print(list1 [1:8:2])",
+            "E": "print(list1[0:8:2])"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_BILIMI_2024_vize_soru_3.jpg",
+          "image_file": "VERI_BILIMI_2024_vize_soru_3.jpg",
+          "image_path": "resim-sorular/VERI_BILIMI_2024_vize_soru_3.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen Python kodunun çıktısı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "Sitede (3+1)daire yok",
+            "B": "(2+1) daire aramyor",
+            "C": "Sitede (2+1)daire yok",
+            "D": "(3+1) daire aramyor",
+            "E": "(1+1) daire aranıyor"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Programlama dillerinde yineleme ne amaçla kullanılır?",
+          "options": {
+            "A": "Talimatların uygulandığı sırayı takip etmek için",
+            "B": "Programın çalıştığından emin olmak için",
+            "C": "Programın daha iyi çalışması için",
+            "D": "Bir programdaki karar noktasını takip etmek için",
+            "E": "Program içindeki belli bir işlemin tekrarı için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Python'da oluşturulan `ogr=[\"Ahmet\", \"Işıl\", \"Mehmet\", \"Ayşe\", \"Kazım\", \"Zehra\", \"Turgay\"]` adlı listedeki elemanları Z-A'ya doğru sıralayacak söz dizimi (komut satırı) hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "sorted(ogr)",
+            "B": "sorted(ogr, reverse=True)",
+            "C": "ogr.reverse()",
+            "D": "ogr.remove()",
+            "E": "sorted(ogr, reverse=False)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "dizi2 = np.array([1,2,3,4,5,6,7]) print (?) Yukarıda verilen \"dizi2\" adlı dizinin [3, 4, 5] sayılarını ekrana yazdırmak için print() fonksiyonu içerisine yazılması gereken söz dizimi hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "print(dizi2[2:5])",
+            "B": "print(dizi2[3:6])",
+            "C": "print(dizi2[1:4])",
+            "D": "print(dizi2[2: 6])",
+            "E": "print(dizi2[2.5])"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "`set1 = set ([4, 5, (6, 7)])` `set1.update ([10, 11])` `print (set1)` Yukarıda verilen Python programının çıktısı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "(4, 5, (6, 7), 10, 11)",
+            "B": "(4,5,10, 11)",
+            "C": "(10, 11)",
+            "D": "(4,5,6,7)",
+            "E": "(4, 5, 6, 7, 10, 11)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Python dilinde kullanılan kontrol yapıları için aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Program başlamadan önce ve sona erdikten sonra ne olacağını belirler.",
+            "B": "Kontrol karakterlerinin giriş ve çıkışını yönetir.",
+            "C": "Python'a özgü veri yapılarını tanımlar.",
+            "D": "Programdaki satırları kontrol eder.",
+            "E": "Program içerisinde yer alan ifadelerin yürütme sırasını yönlendirir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıda verilen yeteneklerden hangisi veri bilimcinin direkt olarak bilgi sahibi olmasını gerektiren bir alan değildir?",
+          "options": {
+            "A": "Matematik bilgisi",
+            "B": "HTML, Javascript bilgisi",
+            "C": "Makine öğrenimi bilgisi",
+            "D": "İstatistik bilgisi",
+            "E": "Program bilgisi (Python vb.)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "for i in range(1, 5): print(i) Yukarıda verilen Python kodu ile elde edilecek çıktı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "1, 2, 3, 4, 5",
+            "B": "1, 2, 3, 4",
+            "C": "0, 1, 2, 3,4",
+            "D": "0,2,3,4",
+            "E": "2,3,4,5"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "(i) Python, üst düzey bir programlama dilidir. (ii) Python yorumlanmış bir dildir. (iii) Python derlenmiş bir dildir. (iv) Python programı yorumlanmadan önce derlenir. Python dili için yukarıda verilen ifadelerden hangisi ya da hangileri doğrudur?",
+          "options": {
+            "A": "ii, iv",
+            "B": "i, iv",
+            "C": "iii",
+            "D": "i, ii",
+            "E": "ii, iii"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Verilenler: rakam = [1, 2, 3] harf=[\"a\", \"b\", \"c\"] Çıktı: [(1, 'a'), (2, 'b'), (3, 'c')] Yukarıda verilen \"rakam\" ve \"harf\" adlı veri yapılarından \"çıktı\" adıyla verilen veri yapısını elde etmek için gerekli olan kod hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "x = (rakam, harf)set(x)",
+            "B": "x = zip(rakam, harf)dict(x)",
+            "C": "x = zip(rakam, harf)tuple(x)",
+            "D": "x = zip(rakam, harf)list(zip)",
+            "E": "x = zip(rakam, harf)list(x)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Makine öğrenmesi algoritmaları ile ilgili olarak aşağıda verilen ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Kümeleme işlemi denetimsiz algoritmalarla yapılır.",
+            "B": "Denetimli algoritmalarda veri eğitim ve test verisi olarak ayrılır.",
+            "C": "Denetimli algoritmalarda eğitim işlemi yapılır.",
+            "D": "Kümeleme işleminde etiketli veri kullanılmaz.",
+            "E": "Sınıflama işleminde etiketlenmiş veri kullanılmaz."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Karar ağacı algoritması için aşağıda verilen ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Denetimli bir algoritmadır.",
+            "B": "Çıkularının yorumlanması kolay olan bir algoritmadır.",
+            "C": "Girdileri, belli bir parametreye göre sınıflandıran bir algoritmadır.",
+            "D": "Makine öğrenmesi algoritmaları içerisinde yer alan bir algoritmadır.",
+            "E": "Sadece Kümeleme amaçlı kullanılan bir algoritmadır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Python'da kullanılan veri yapıları için aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Liste'lerin içerikleri değiştirilebilirken tuple'ların içerikleri değiştirilemez.",
+            "B": "Hem tuple hem de liste içerikleri değiştirilemez.",
+            "C": "Tuple ve liste'lerin tüm özellikleri aynıdır.",
+            "D": "Liste'lerin içerikleri değiştirilemezken tuple'ların içerikleri değiştirilebilir.",
+            "E": "Hem tuple'ların hem de liste'lerin içerikleri değiştirilebilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Python dilinde kullanılan # işareti ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Program koduna hatırlatma satıı eklemek için kullanılır.",
+            "B": "Program kodunu daha hızlı çalıştırmak için kullanılır.",
+            "C": "Program veya kodlarla ilgili açıklama yapmak için kullanılır.",
+            "D": "Ekran çıktısında çeşitli süsleme yapmak amaçı kullanılır.",
+            "E": "Kullanılmayan bir kod satırını pasif hale getirmek için kullamlır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/VERI_BILIMI_2024_vize_soru_17.jpg",
+          "image_file": "VERI_BILIMI_2024_vize_soru_17.jpg",
+          "image_path": "resim-sorular/VERI_BILIMI_2024_vize_soru_17.jpg",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıda verilen Python kodunun ekrana yazdıracağı sonuç hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "TRUEFALSETRUE",
+            "B": "FALSETRUE",
+            "C": "TRUETRUETRUE",
+            "D": "TRUE",
+            "E": "TRUEFALSE"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıda verilen ifadelerden hangisi temel Veri Bilimi kavramları içerisinde yer almaz?",
+          "options": {
+            "A": "Veri Tabanları",
+            "B": "Sayısal Analiz",
+            "C": "İstatistik",
+            "D": "Makine Öğrenimi",
+            "E": "Programlama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "tuple = (\"hasan\",\"ali\",\"c\", \"mehmet\",\"deniz\",\"f\",\"fatma\") yenituple = tuple[3:5] print(yenituple) Yukarıda verilen Python kodunun çalıştırılması sonucunda elde edilecek ekran çıktısı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "(\"hasan\",\"ali\", \"c\", \"mehmet\",\"deniz\",\"f\",\"fatma\")",
+            "B": "(\"mehmet\",\"deniz\",\"f\")",
+            "C": "(\"mehmet\",\"deniz\")",
+            "D": "(\"c\",\"mehmet\",\"deniz\")",
+            "E": "(\"hasan\",\"ali\", \"c\", \"mehmet\",\"deniz\")"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Veri Bilimi 2024 Final",
+      "exam_title": "Veri Bilimi 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Veri_Bilimi_Final_Sorulari.docx",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki ifadelerden hangisi en küçük kareler yönteminin amacını en iyi şekilde açıklamaktadır?",
+          "options": {
+            "A": "Ölçüm sonucu elde edilmiş veri noktalar arasındaki mesafeyi en aza indirmeyi sağlar.",
+            "B": "Hata kalıntıların toplamının en küçük değerini bize sağlayan kesişim ve eğimin (en iyi) değerlerini bulur.",
+            "C": "Ölçüm sonucu bulunan noktalardan geçecek doğrunun sadece eğimini bulmayı sağlar.",
+            "D": "Ölçüm sonucu bulunan noktalara mümkün olduğunca en uzak geçecek bir çizgi bulmayı sağlar.",
+            "E": "Ölçüm sonucu elde edilmiş veri noktalarına mümkün olduğu kadar yakın geçecek bir fonksiyon eğrisi bulmaya yarar."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Lojistik regrasyon modeli tahmin işleminde aşağıdaki yaklaşımlardan hangisini kullanır?",
+          "options": {
+            "A": "Negatif binom dağılım yaklaşımı",
+            "B": "Sıradan en küçük kareler (OLS) yaklaşımı",
+            "C": "Maksimum olasılık tahmini (MLS) yaklaşımı",
+            "D": "Poisson dağılım yaklaşımı",
+            "E": "Üstel tahmin dağılım yaklaşımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Algoritma kavramı ile ilgili aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Matematiksel işlemleri tanımlayan harfler ve sayılar topluluğudur.",
+            "B": "Girdi olarak bir değer alan ve girdiye bağlı olarak çıktı değeri üreten bir hesaplama prosedürüdür.",
+            "C": "Makine yapma bilimi, insanlar tarafından yapıldığında zekâ gerektiren görevleri yerine getirir.",
+            "D": "Matematiksel işlemler için kullanılan bir hesaplama tekniğidir.",
+            "E": "Makine öğrenimi tekniklerini kullanır. Burada program,"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Lojistik regresyon yöntemi aşağıdakilerden hangisini bulmak için kullanılır?",
+          "options": {
+            "A": "Sürekli tahmin edici değişkenler arasındaki doğrusal ilişki",
+            "B": "Sürekli tahmin edici değişkenler ile sonuç değişkeninin logiti arasındaki doğrusal ilişki",
+            "C": "Gözlemler arasındaki zıt ilişki",
+            "D": "Gözlemler arasındaki doğrusal ilişki",
+            "E": "Sürekli tahminî değişkenler ile sonuç değişkeni arasındaki doğrusal ilişki"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki bilişim firmalarından hangisi Python dilini resmî programlama dili olarak kabul etmiştir?",
+          "options": {
+            "A": "Microsoft",
+            "B": "Google",
+            "C": "Apple",
+            "D": "Amazon",
+            "E": "IBM"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verilen – dizi – adlı dizideki – 8 – sayısını ekrana yazdırmak için – print() – fonksiyonu içerisine yazılması gereken kodun söz dizimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "print(dizi[7,2])",
+            "B": "print(dizi[2,3])",
+            "C": "print(dizi[1,2])",
+            "D": "print(dizi[3,3])",
+            "E": "print(dizi[3,0])"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen denklem K-means kümeleme algoritmasında ne amaçla kullanılır?",
+          "options": {
+            "A": "Veriler ile veri merkezleri arasındaki mesafeyi hesaplamak için",
+            "B": "Veri uzunluklarını hesaplamak için",
+            "C": "Küme elemanlarının sayısını kontrol etmek için",
+            "D": "Veri merkezlerini hesaplamak için",
+            "E": "Küme sayılarını belirlemek için"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukarıda verilen – tesla – adlı liste veri yapısını – info- adlı veri çerçevesine dönüştürmek için – ? – yerine yazılması gereken kod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "info=pd.DataFrame(tesla)",
+            "B": "info=DataFrame(tesla)",
+            "C": "info=Datalist(tesla)",
+            "D": "info=pd.listFrame(tesla)",
+            "E": "info=list_DataFrame(tesla)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir arabanın satış fiyatı (1.000 $) ile yaşı (yıl olarak) arasındaki ilişki, belirli bir modeldeki rastgele araba örneklerinden tahmin edilerek aşağıdaki ilişki formülü elde edilmiştir. satışücreti=24.2-(1.182)yıl Bu denklemden aşağıdaki ifadelerden hangisi çıkarılabilir?",
+          "options": {
+            "A": "Otomobil her yıl yaşlandığında satış fiyatı yaklaşık 2420 $ düşer.",
+            "B": "Yeni bir arabanın maliyeti yaklaşık 23.018 $ olur.",
+            "C": "Yeni bir arabanın maliyeti yaklaşık 11.820 $ olur.",
+            "D": "Otomobil her yıl yaşlandığında satış fiyatı yaklaşık %11,82 düşer.",
+            "E": "Otomobil her yıl yaşlandığında satış fiyatı yaklaşık 1182 $ düşer."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "1. plt.legend() 2. x = np.linspace(1, 10, 20) 3. plt.show() 4. plt.xlabel('X-Etiket') 5. plt.plot(x, label='Örnek Çizim') Yukarıda numaralandırılmış kodlar ile çizim oluşturmak ve görüntülemek için verilen komutlar hangi sırayla çalıştırılmalıdır?",
+          "options": {
+            "A": "5-4-1-3-2",
+            "B": "2-4-5-1-3",
+            "C": "1-2-4-3-5",
+            "D": "4-2-1-3-5",
+            "E": "2-5-4-1-3"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıda verilen Python programının çıktısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "{elma, muz, çilek, portakal}",
+            "B": "{elma, çilek, portakal}",
+            "C": "{elma, muz, çilek}",
+            "D": "{çilek, portakal}",
+            "E": "{elma, muz, portakal}"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Python kütüphanesi ile oluşturulan yukarıdaki grafikte, grafik kenarlarının farklı renkte olmasını sağlayan parametre/argüman aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "color=",
+            "B": "linecolor=",
+            "C": "barcolor=",
+            "D": "edgecolor=",
+            "E": "facecolor="
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıda python'da oluşturulan listeye; – Zarife – adlı öğrenciyi ekleyecek söz dizimi (komut satırı) hangi seçenekte doğru olarak verilmiştir?",
+          "options": {
+            "A": "ogr.append[\"Zarife\"]",
+            "B": "ogr.add(\"Zarife\")",
+            "C": "ogr.append(\"Zarife\")",
+            "D": "ogr.add[\"Zarife\"]",
+            "E": "ogr.append(Zarife)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Gruplandırılmış bir verinin dağılımının en iyi temsilini ve her bir veri değerinin sıklığını gösteren grafik türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Çubuk grafiği",
+            "B": "Pasta dilimi grafiği",
+            "C": "Bar grafiği",
+            "D": "Histogram grafiği",
+            "E": "Scatter grafiği"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıda verilen görseli en doğru şekilde tanımlayan seçenek aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Keşifsel veri analizini temsil eder.",
+            "B": "Makine öğrenimini temsil eder.",
+            "C": "Python programlama sürecini tanımlar.",
+            "D": "Algoritmanın çalışmasını açıklar.",
+            "E": "Grafik çizim sürecini temsil eder."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bilgisayarın – C – ana dizinin altında yer alan – VERI – adlı dizinden – iller – adlı ve – csv – uzantılı dosyayı okumak için yazılması gereken Python komut satırı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "iller=pd.read_csv(C:/VERI/iller.csv)",
+            "B": "iller=pd.read.csv(\"C:/VERI/iller.csv\")",
+            "C": "iller=pd.read_csv(\"C:/VERI/iller.csv\")",
+            "D": "iller=read_csv(\"C:/VERI/iller.csv\")",
+            "E": "iller=pd.read_csv(\"C:/VERI/iller_csv\")"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıdaki Python kodunun vereceği sonuç aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "5",
+            "B": "0",
+            "C": "2",
+            "D": "1",
+            "E": "3"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Python'da K-means kütüphanesini çağırmak için çalışma sayfasına yazılması gereken kod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "from pandas.cluster import K-Means",
+            "B": "from sklearn.cluster import K-cluster",
+            "C": "from numpy.cluster import K-Means",
+            "D": "from mutplolib.cluster import K-Means",
+            "E": "from sklearn.cluster import K-Means"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıda verilen Python kodunun ekran çıktısının sonucu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "1, 2, 3, 4",
+            "B": "2, 4, 6, 8, 10",
+            "C": "6, 7, 8, 9",
+            "D": "6, 7, 8, 9, 10",
+            "E": "1, 3, 5, 7, 9"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Yukarıdaki Python dilinde oluşturulan ve adı \"data\" olan veri çerçevesi verilmiştir. Bu veri çerçevesinde kalın çizgilerle çevrelenmiş kayıtları görüntüleyen kod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "data.iloc[:,0:5]",
+            "B": "data.iloc[:,1:3]",
+            "C": "data.iloc[:,0:3]",
+            "D": "data.iloc[:,0:2]",
+            "E": "data.iloc[:,1:2]"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    }
+  ]
+}
