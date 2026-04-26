@@ -1,138 +1,200 @@
 {
-  "bolum": "Saglik Kurumlari Isletmeciligi",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilk.Ve Ink.Tar-1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+  "bolum": "Sağlık Kurumları İşletmeciliği",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlk.Ve İnk.Tar-1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+        },
+        {
+          "dersAdi": "Genel İktisat",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/genel_iktisat_sorular.json"
+        },
+        {
+          "dersAdi": "İşletme Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/isletme_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Tıbbi Dokümantasyon",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/tibbi_dokumantasyon_sorular.json"
+        },
+        {
+          "dersAdi": "Tıbbi Terminoloji",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/t_bbi_terminoloji_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili-1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1 ( İngilizce )",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlk.Ve İnk.Tar-2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+        },
+        {
+          "dersAdi": "İstatistik",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/istatistik_sorular.json"
+        },
+        {
+          "dersAdi": "Muhasebe",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/muhasebe_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Ekonomisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sağlık Sistem Mühendisliğine Giriş",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_sistem_muhendisligine_giris_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili-2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2 ( İngilizce )",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Genel Iktisat",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/genel_iktisat_sorular.json"
-    },
-    {
-      "dersAdi": "Halk Sagligi",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/halk_sagligi_sorular.json"
-    },
-    {
-      "dersAdi": "Hastane Otomasyonu",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/hastane_otomasyonu_sorular.json"
-    },
-    {
-      "dersAdi": "Insan Kaynaklari Yonetimi",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/insan_kaynaklari_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Is Sagligi ve Guvenligi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/is_sagligi_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "Isletme Yonetimi",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/isletme_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Istatistik",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/istatistik_sorular.json"
-    },
-    {
-      "dersAdi": "Muhasebe",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/muhasebe_sorular.json"
-    },
-    {
-      "dersAdi": "Saglik Hizmetleri Pazarlamasi",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/saglik_hizmetleri_pazarlamasi_sorular.json"
-    },
-    {
-      "dersAdi": "Sağlık Hukuku ve Mevzuatı",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_hukuku_ve_mevzuat_sorular.json"
-    },
-    {
-      "dersAdi": "Sağlık İşletmeleri Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_isletmeleri_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Sağlık İşletmelerinde Kalite Yönetimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_isletmelerinde_kalite_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Saglik Politikalari",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/saglik_politikalari_sorular.json"
-    },
-    {
-      "dersAdi": "Sağlık Sistem Mühendisliğine Giriş",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_sistem_muhendisligine_giris_sorular.json"
-    },
-    {
-      "dersAdi": "Satın Alma ve Malzeme Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sat_n_alma_ve_malzeme_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Tibbi Dokumantasyon",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/tibbi_dokumantasyon_sorular.json"
-    },
-    {
-      "dersAdi": "Tıbbi Terminoloji",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/t_bbi_terminoloji_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili-1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/turk_dili_1_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Halk Sağlığı",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/halk_sagligi_sorular.json"
+        },
+        {
+          "dersAdi": "İş Sağlığı ve Güvenliği",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/is_sagligi_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Hizmetleri Pazarlaması",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/saglik_hizmetleri_pazarlamasi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Hukuku ve Mevzuatı",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_hukuku_ve_mevzuat_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık İşletmeleri Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_isletmeleri_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Satın Alma ve Malzeme Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sat_n_alma_ve_malzeme_yonetimi_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Ergonomi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Hastane Otomasyonu",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/hastane_otomasyonu_sorular.json"
+        },
+        {
+          "dersAdi": "İnsan Kaynakları Yönetimi",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/insan_kaynaklari_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık İşletmelerinde Finansal Yönetim",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_isletmelerinde_kalite_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık İşletmelerinde Kalite Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/sagl_k_isletmelerinde_kalite_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Politikaları",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/saglik_kurumlari_isletmeciligi/questions/saglik_politikalari_sorular.json"
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

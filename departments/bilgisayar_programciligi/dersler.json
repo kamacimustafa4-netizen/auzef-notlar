@@ -1,110 +1,214 @@
 {
-  "bolum": "Bilgisayar Programciligi",
-  "dersler": [
-    {
-      "dersAdi": "Acik Kaynak Isletim Sistemleri",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/acik_kaynak_isletim_sistemleri_sorular.json"
+  "bolum": "Bilgisayar Programcılığı",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Açık Kaynak İşletim Sistemleri",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/acik_kaynak_isletim_sistemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Algoritmalar ve Programlamaya Giriş",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/algoritmalar_ve_programlamaya_giris_sorular.json"
+        },
+        {
+          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi 1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Programcılar İçin Matematik",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/programcilar_icin_matematik_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Veri Tabanı Tasarımı",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/veri_tabani_tasarimi_sorular.json"
+        },
+        {
+          "dersAdi": "İngilizce 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/ingilizce_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi 2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "C# Programlama",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/web_programlama_sorular.json"
+        },
+        {
+          "dersAdi": "Ofis Uygulamaları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Veri Tabanı Yönetimi",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/veri_tabani_tasarimi_sorular.json"
+        },
+        {
+          "dersAdi": "Web Tasarımı",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/veri_tabani_tasarimi_sorular.json"
+        },
+        {
+          "dersAdi": "İngilizce 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/ingilizce_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Algoritmalar ve Programlamaya Giriş",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/algoritmalar_ve_programlamaya_giris_sorular.json"
-    },
-    {
-      "dersAdi": "Ataturk Ilkeleri Ve Inkilap Tarihi 1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
-    },
-    {
-      "dersAdi": "Bilisim hukuku",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/bilisim_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Ingilizce 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/ingilizce_1_sorular.json"
-    },
-    {
-      "dersAdi": "Karar Teorisi Ve Analizi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/karar_teorisi_ve_analizi_sorular.json"
-    },
-    {
-      "dersAdi": "Mobil Programlama",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/mobil_programlama_sorular.json"
-    },
-    {
-      "dersAdi": "Nesneye Yonelik Programlama",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/nesneye_yonelik_programlama_sorular.json"
-    },
-    {
-      "dersAdi": "PL SQL Veritabani Programlama",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/pl_sql_veritabani_programlama_sorular.json"
-    },
-    {
-      "dersAdi": "Programcilar Icin Matematik",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/programcilar_icin_matematik_sorular.json"
-    },
-    {
-      "dersAdi": "Python Programlama",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/python_programlama_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Veri Tabani Tasarimi",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/veri_tabani_tasarimi_sorular.json"
-    },
-    {
-      "dersAdi": "Web Programlama",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/web_programlama_sorular.json"
-    },
-    {
-      "dersAdi": "Yazilim Kalite ve Testi",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/bilgisayar_programciligi/questions/yazilim_kalite_ve_testi_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Bilişim hukuku",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/bilisim_hukuku_sorular.json"
+        },
+        {
+          "dersAdi": "PL/SQL Veritabanı Programlama",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/pl_sql_veritabani_programlama_sorular.json"
+        },
+        {
+          "dersAdi": "Nesneye Yönelik Programlama",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/nesneye_yonelik_programlama_sorular.json"
+        },
+        {
+          "dersAdi": "Python Programlama",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/python_programlama_sorular.json"
+        },
+        {
+          "dersAdi": "Web Programlama",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/web_programlama_sorular.json"
+        },
+        {
+          "dersAdi": "Yazılım Kalite ve Testi",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/yazilim_kalite_ve_testi_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Bilgisayar Ağları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Bilişim Sistemleri Analiz Ve Tasarımı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Görsel Programlama",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/mobil_programlama_sorular.json"
+        },
+        {
+          "dersAdi": "Karar Teorisi Ve Analizi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/karar_teorisi_ve_analizi_sorular.json"
+        },
+        {
+          "dersAdi": "Makine Öğrenmesi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Mobil Programlama",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/bilgisayar_programciligi/questions/mobil_programlama_sorular.json"
+        },
+        {
+          "dersAdi": "Çıkmış sınav soruları, deneme sınavları, konu özekleri, soru açıklamaları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Öğrenme Yönetim Sistemi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

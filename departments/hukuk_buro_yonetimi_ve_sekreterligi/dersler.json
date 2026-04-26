@@ -1,103 +1,200 @@
 {
-  "bolum": "Hukuk Buro Yonetimi Ve Sekreterligi",
-  "dersler": [
-    {
-      "dersAdi": "A.I.Inkilap Tarihi-1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/a_i_inkilap_tarihi_1_sorular.json"
+  "bolum": "Hukuk Büro Yönetimi Ve Sekreterliği",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Anayasa Hukuku",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "A.İ.İnkılap Tarihi-1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/a_i_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Büro Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/buro_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Hukuki Yazışma",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/hukuki_yazisma_sorular.json"
+        },
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/hukukun_temel_kavramlari_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "A.İ.İnkılap Tarihi-2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/a_i_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "İdare Hukuku",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/idare_hukuku_sorular.json"
+        },
+        {
+          "dersAdi": "Medeni Usul Hukuku",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/medeni_hukuk_sorular.json"
+        },
+        {
+          "dersAdi": "Muhasebe",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/muhasebe_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Uyap – Ulusal yargı Ağı Bilişim Sistemi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/yabanci_dil_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Büro Yönetimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/buro_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Ceza Hukuku",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/ceza_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Etkili iletişim Becerileri",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/etkili_iletisim_becerileri_sorular.json"
-    },
-    {
-      "dersAdi": "Halkla Iliskiler",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/halkla_iliskiler_sorular.json"
-    },
-    {
-      "dersAdi": "Hukuki Yazisma",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/hukuki_yazisma_sorular.json"
-    },
-    {
-      "dersAdi": "Hukukun Temel Kavramlari",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/hukukun_temel_kavramlari_sorular.json"
-    },
-    {
-      "dersAdi": "Idare Hukuku",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/idare_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Medeni Hukuk",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/medeni_hukuk_sorular.json"
-    },
-    {
-      "dersAdi": "Muhasebe",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/muhasebe_sorular.json"
-    },
-    {
-      "dersAdi": "Takip Hukuku-1 Icra",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/takip_hukuku_1_icra_sorular.json"
-    },
-    {
-      "dersAdi": "Ticaret Hukuku",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/ticaret_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/yabanci_dil_1_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Ceza Hukuku",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/ceza_hukuku_sorular.json"
+        },
+        {
+          "dersAdi": "Etkili iletişim Becerileri",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/etkili_iletisim_becerileri_sorular.json"
+        },
+        {
+          "dersAdi": "Halkla İlişkiler",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/halkla_iliskiler_sorular.json"
+        },
+        {
+          "dersAdi": "Medeni Hukuk",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/medeni_hukuk_sorular.json"
+        },
+        {
+          "dersAdi": "Takip Hukuku-1 (İcra)",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/takip_hukuku_1_icra_sorular.json"
+        },
+        {
+          "dersAdi": "Ticaret Hukuku",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/ticaret_hukuku_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Adalet Psikolojisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Ceza Muhakemesi Hukuku",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/ceza_hukuku_sorular.json"
+        },
+        {
+          "dersAdi": "İnfaz Hukuku",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/idare_hukuku_sorular.json"
+        },
+        {
+          "dersAdi": "İnsan Hakları Hukuku",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kıymetli Evrak Hukuku",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Takip Hukuku-2 (İflas)",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/takip_hukuku_1_icra_sorular.json"
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

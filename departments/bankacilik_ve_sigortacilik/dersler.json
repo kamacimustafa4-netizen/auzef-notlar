@@ -1,47 +1,235 @@
 {
-  "bolum": "Bankacilik Ve Sigortacilik",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilkeler Ve Inkilap T -1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/bankacilik_ve_sigortacilik/questions/ataturk_ilkeler_ve_inkilap_t_1_sorular.json"
+  "bolum": "Bankacılık Ve Sigortacılık",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlkeler Ve İnkılap T -1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/ataturk_ilkeler_ve_inkilap_t_1_sorular.json"
+        },
+        {
+          "dersAdi": "Bankacılığa Giriş",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Genel İktisat",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/genel_iktisat_sorular.json"
+        },
+        {
+          "dersAdi": "Sigortacılığa Giriş",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Temel Hukuk",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili -1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil -1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlkeler Ve İnkılap T -2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/ataturk_ilkeler_ve_inkilap_t_1_sorular.json"
+        },
+        {
+          "dersAdi": "Borçlar Hukuk",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Finans Matematik",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İşyeri Uygulaması-1",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Temel Bankacılık Hizmetleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Temel Kredi Bilgileri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili -2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil -2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/yabanci_dil_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Genel Iktisat",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/bankacilik_ve_sigortacilik/questions/genel_iktisat_sorular.json"
-    },
-    {
-      "dersAdi": "Insan Iliskileri ve Iletisim Yontemleri",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/bankacilik_ve_sigortacilik/questions/insan_iliskileri_ve_iletisim_yontemleri_sorular.json"
-    },
-    {
-      "dersAdi": "Ticaret Hukuku",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/bankacilik_ve_sigortacilik/questions/ticaret_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili -1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/bankacilik_ve_sigortacilik/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil -1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/bankacilik_ve_sigortacilik/questions/yabanci_dil_1_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Dış Ticaret İşlemleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Hayat Sigortaları ( Hayat, Ferdi Kaza, Sağlık )",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İnsan İlişkileri ve İletişim Yöntemleri",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/insan_iliskileri_ve_iletisim_yontemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Kredi Taleplerinin Değerlendirilmesi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Mal Sigortaları ( Yangın-Müh, Kaza Sorumluluk, Nakliyat )",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Ticaret Hukuku",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/bankacilik_ve_sigortacilik/questions/ticaret_hukuku_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Bankalarda Fon Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Bireysel Emeklilik ve Sosyal Güvenlik Sistemi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Hasar Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İşyeri Uygulaması-2",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Reasürans Uygulamaları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sermaye Piyasaları ve Yatırım Araçları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yabancı Para Kredileri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Auzef Online deneme sınavları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "vize final",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Auzef çıkmış soru cevaplar , auzef online deneme sınavları , auzef vize soruları , auzef finalk sorualrı , auzef çan eğrisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

@@ -1,96 +1,214 @@
 {
-  "bolum": "Laborant Ve Veteriner Saglik",
-  "dersler": [
-    {
-      "dersAdi": "A. I. Ve Ink. Tarihi 1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/a_i_ve_ink_tarihi_1_sorular.json"
+  "bolum": "Laborant Ve Veteriner Sağlık",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "A. İ. Ve İnk. Tarihi 1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/a_i_ve_ink_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Mevzuat, Etik ve Hayvan Hakları",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/mevzuat_etik_ve_hayvan_haklar_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Anatomi ve Histoloji Bilgisi",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_anatomi_ve_histoloji_bilgisi_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Biyokimya ve Fizyoloji Bilgisi",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_biyokimya_ve_fizyoloji_bilgisi_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Laboratuvar Uygulama ve Prensipleri",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_laboratuvar_uygulama_ve_prensipleri_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "A. İ. Ve İnk. Tarihi 2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/a_i_ve_ink_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Çiftlik Hayvanları Dışındaki Türlerin Bakım ve Sağlığı -1",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Gıda Güvenliği ve Hijyeni",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Hayvan Besleme ve Rasyon Bilgisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Patojenlere Giriş",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Auzef Laborant",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "İnfeksiyöz Hastalıklar",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/infeksiyoz_hastal_klar_sorular.json"
-    },
-    {
-      "dersAdi": "Kliniğe Girişin Temel İlkeleri",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/klinige_girisin_temel_ilkeleri_sorular.json"
-    },
-    {
-      "dersAdi": "Klinik Uygulamasi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/klinik_uygulamasi_sorular.json"
-    },
-    {
-      "dersAdi": "Mevzuat, Etik ve Hayvan Hakları",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/mevzuat_etik_ve_hayvan_haklar_sorular.json"
-    },
-    {
-      "dersAdi": "Suru Sagligi Yonetimi",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/suru_sagligi_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Anatomi ve Histoloji Bilgisi",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_anatomi_ve_histoloji_bilgisi_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Biyokimya ve Fizyoloji Bilgisi",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_biyokimya_ve_fizyoloji_bilgisi_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Gıda Teknolojisi",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_g_da_teknolojisi_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Laboratuvar Uygulama ve Prensipleri",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_laboratuvar_uygulama_ve_prensipleri_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Veteriner Zootekni",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_veteriner_zootekni_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/laborant_ve_veteriner_saglik/questions/yabanci_dil_1_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Çiftlik Hayvanları Dışındaki Türlerin Bakımı ve Sağlığı- 2",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İnfeksiyöz Hastalıklar",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/infeksiyoz_hastal_klar_sorular.json"
+        },
+        {
+          "dersAdi": "Kliniğe Girişin Temel İlkeleri",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/klinige_girisin_temel_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Sürü Sağlığı Yönetimi",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/suru_sagligi_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Gıda Teknolojisi",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_g_da_teknolojisi_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Veteriner Zootekni",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/temel_veteriner_zootekni_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Acil Müdahale Teknikleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Doğum ve Suni Tohumlama",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Görüntüleme Teknikleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Hippoterapi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Klinik Uygulaması",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/laborant_ve_veteriner_saglik/questions/klinik_uygulamasi_sorular.json"
+        },
+        {
+          "dersAdi": "Operasyon, Anestezi Ve Sterilizasyon",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sağım Hijyeni ve Mastitis Profilaksisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

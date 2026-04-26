@@ -1,103 +1,200 @@
 {
-  "bolum": "Perakende Satis Ve Magaza Yonetimi",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilkeleri ve Inkilap Tarihi 1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+  "bolum": "Perakende Satış Ve Mağaza Yönetimi",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlkeleri ve İnkılap Tarihi 1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "İşletme Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/isletme_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama İlkeleri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Perakendeciliğe Giriş",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Temel Ekonomi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlkeleri ve İnkılap Tarihi 2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Bilimsel Araştırma Teknikleri",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/bilimsel_arastirma_teknikleri_sorular.json"
+        },
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/hukukun_temel_kavramlari_sorular.json"
+        },
+        {
+          "dersAdi": "Lojistik Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/lojistik_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/reklam_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/yabanci_dil_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Bilimsel Arastirma Teknikleri",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/bilimsel_arastirma_teknikleri_sorular.json"
-    },
-    {
-      "dersAdi": "Hukukun Temel Kavramlari",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/hukukun_temel_kavramlari_sorular.json"
-    },
-    {
-      "dersAdi": "Insan Kaynaklari Yonetimi",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/insan_kaynaklari_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Isletme Yonetimi",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/isletme_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Lojistik Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/lojistik_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Musteri Iliskileri Yonetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/musteri_iliskileri_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Pazarlama Ilkeleri",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/pazarlama_ilkeleri_sorular.json"
-    },
-    {
-      "dersAdi": "Reklam Yönetimi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/reklam_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Tuketici Davranislari",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/tuketici_davranislari_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Uluslararasi Pazarlama",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/uluslararasi_pazarlama_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/yabanci_dil_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yonetim Muhasebesi",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/yonetim_muhasebesi_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "İnsan Kaynakları Yönetimi",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/insan_kaynaklari_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Kategori Ve Alan Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Pazarlama Araştırmaları",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Tedarik Zinciri Ve Stok Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Toplam Kalite Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Tüketici Davranışları",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/tuketici_davranislari_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Mağaza Atmosferi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Müşteri İlişkileri Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/musteri_iliskileri_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Perakendecilikte Satış Yönetimi Ve Kişisel Satış",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Reklam Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/reklam_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası Pazarlama",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/uluslararasi_pazarlama_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim Muhasebesi",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/perakende_satis_ve_magaza_yonetimi/questions/yonetim_muhasebesi_sorular.json"
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

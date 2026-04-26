@@ -1,208 +1,394 @@
 {
-  "bolum": "Isletme",
-  "dersler": [
-    {
-      "dersAdi": "Bilimsel Araştırma Teknikleri",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/bilimsel_arast_rma_teknikleri_sorular.json"
+  "bolum": "İşletme",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlkeleri ve İnkılap Tarihi 2",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İstatistik",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/istatistik_sorular.json"
+        },
+        {
+          "dersAdi": "Mikro İktisat",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/mikro_iktisat_sorular.json"
+        },
+        {
+          "dersAdi": "Muhasebeye Giriş",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/muhasebeye_giris_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Matematik",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/temel_matematik_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/yabanc_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlkeleri ve İnkılap Tarihi 2",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İşletme Matematiği",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/temel_matematik_sorular.json"
+        },
+        {
+          "dersAdi": "Makro İktisat",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/mikro_iktisat_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/yabanc_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim Ve Organizasyon",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Auzef İşletme Açık Öğretim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Girişimcilik",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/girisimcilik_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "İnsan Kaynakları Yönetimi",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/insan_kaynaklar_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "İşletme Finansına Giriş",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/isletme_finans_na_giris_sorular.json"
+        },
+        {
+          "dersAdi": "Muhasebe",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/muhasebeye_giris_sorular.json"
+        },
+        {
+          "dersAdi": "Örgütsel Davranış",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/orgutsel_davran_s_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama İlkeleri",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Ticaret Hukuku",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/ticaret_hukuku_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Finansal Yönetim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İstatistik Analiz",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/istatistik_analiz_sorular.json"
+        },
+        {
+          "dersAdi": "Maliyet Muhasebesi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/yonetim_muhasebesi_sorular.json"
+        },
+        {
+          "dersAdi": "Örgüt Kültürü",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/orgut_kulturu_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/reklam_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Üretim Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/uretim_yonetimi_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "İnsan Kaynakları Yönetimi",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/insan_kaynaklar_yonetimi_sorular.json"
+    "3": {
+      "guz": [
+        {
+          "dersAdi": "Bilimsel Araştırma Teknikleri",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/bilimsel_arast_rma_teknikleri_sorular.json"
+        },
+        {
+          "dersAdi": "Liderlik Ve Motivasyon",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/liderlik_ve_motivasyon_sorular.json"
+        },
+        {
+          "dersAdi": "Performans Ve Ücret Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/performans_ve_ucret_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Vergi Sistemi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/turk_vergi_sistemi_sorular.json"
+        },
+        {
+          "dersAdi": "Üretim Sistemleri Planlaması",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/uretim_sistemleri_planlamas_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim Muhasebesi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/yonetim_muhasebesi_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Çalışma Sosyoloji",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kariyer Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/reklam_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Araştırmaları",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Tüketici Davranışları",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/tuketici_davran_slar_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim Bilişim Sistemleri",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/modern_uretim_sistemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Yöneylem Araştırması",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İşletme Açık Öğretim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "İş Sağlığı ve Güvenliği",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/is_sagl_g_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "İşletme Finansına Giriş",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/isletme_finans_na_giris_sorular.json"
-    },
-    {
-      "dersAdi": "İstatistik",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/istatistik_sorular.json"
-    },
-    {
-      "dersAdi": "İstatistik Analiz",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/istatistik_analiz_sorular.json"
-    },
-    {
-      "dersAdi": "Liderlik Ve Motivasyon",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/liderlik_ve_motivasyon_sorular.json"
-    },
-    {
-      "dersAdi": "Mikro İktisat",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/mikro_iktisat_sorular.json"
-    },
-    {
-      "dersAdi": "Modern Üretim Sistemleri",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/modern_uretim_sistemleri_sorular.json"
-    },
-    {
-      "dersAdi": "Muhasebeye Giriş",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/muhasebeye_giris_sorular.json"
-    },
-    {
-      "dersAdi": "Müşteri İlişkileri Yönetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/musteri_iliskileri_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Örgüt Kültürü",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/orgut_kulturu_sorular.json"
-    },
-    {
-      "dersAdi": "Örgütsel Davranış",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/orgutsel_davran_s_sorular.json"
-    },
-    {
-      "dersAdi": "Pazarlama İlkeleri",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/pazarlama_ilkeleri_sorular.json"
-    },
-    {
-      "dersAdi": "Performans Ve Ücret Yönetimi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/performans_ve_ucret_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Profesyonel Satış Yönetimi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/profesyonel_sat_s_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Reklam Yönetimi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/reklam_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Sermaye Piyasaları ve Finansal Kurumlar Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/sermaye_piyasalar_ve_finansal_kurumlar_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Stratejik Yönetim",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/stratejik_yonetim_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Matematik",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/temel_matematik_sorular.json"
-    },
-    {
-      "dersAdi": "Ticaret Hukuku",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/ticaret_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Tüketici Davranışları",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/tuketici_davran_slar_sorular.json"
-    },
-    {
-      "dersAdi": "Türk Dili 1",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Türk Vergi Sistemi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/turk_vergi_sistemi_sorular.json"
-    },
-    {
-      "dersAdi": "Üretim Sistemleri Planlaması",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/uretim_sistemleri_planlamas_sorular.json"
-    },
-    {
-      "dersAdi": "Üretim Yönetimi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/uretim_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Yabancı Dil 1",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/yabanc_dil_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yönetim Muhasebesi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/isletme/questions/yonetim_muhasebesi_sorular.json"
+    "4": {
+      "guz": [
+        {
+          "dersAdi": "Girişimcilik",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/girisimcilik_sorular.json"
+        },
+        {
+          "dersAdi": "Modern Üretim Sistemleri",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/modern_uretim_sistemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Profesyonel Satış Yönetimi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/profesyonel_sat_s_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Reklam Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/reklam_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sermaye Piyasaları ve Finansal Kurumlar Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/sermaye_piyasalar_ve_finansal_kurumlar_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Stratejik Yönetim",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/stratejik_yonetim_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Denetim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Endüstriyel Kalite Kontrol",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İş Sağlığı ve Güvenliği",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/is_sagl_g_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Küresel Pazarlama",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Müşteri İlişkileri Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/musteri_iliskileri_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Stratejileri",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/isletme/questions/pazarlama_ilkeleri_sorular.json"
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

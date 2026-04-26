@@ -1,96 +1,457 @@
 {
-  "bolum": "Halkla Iliskiler Ve Tanitim Lisans Uzaktan",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilk.ve Ink Tar-1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+  "bolum": "Halkla İlişkiler Ve Tanıtım",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlk.ve İnk Tar-1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+        },
+        {
+          "dersAdi": "Etkili İletişim Becerileri",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/etkili_iletisim_becerileri_sorular.json"
+        },
+        {
+          "dersAdi": "Halkla İlişkilere Giriş",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İletişim Tarihi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/iletisim_tarihi_sorular.json"
+        },
+        {
+          "dersAdi": "Reklama Giriş",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlk. ve İnk. Tar-2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+        },
+        {
+          "dersAdi": "Grafik Tasarım",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/grafik_tasarim_sorular.json"
+        },
+        {
+          "dersAdi": "Halkla İlişkiler Uygulamaları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kitle İletişim Kuramları",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kitle_iletisim_kuramlar_sorular.json"
+        },
+        {
+          "dersAdi": "Reklam Yapım Yönetim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "İstanbul Üniversitesi Auzef",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uzaktan Öğretim Lisans Programı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Halkla İlişkiler Ve Tanıtım Lisans (Uzaktan)",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Etkili İletişim Becerileri",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/etkili_iletisim_becerileri_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Bütünleşik Pazarlama İletişimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kitle İletişim Hukuku",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kitle_iletisim_kuramlar_sorular.json"
+        },
+        {
+          "dersAdi": "Kitle İletişimde Sosyal Sorumluluk Kampanyaları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Medyada Metin Yazarlığı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Senaryo",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sosyal Bilimlerde Araştırma Yöntemleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Kitle İletişimi Ve Tüketim",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Medya Analiz Yöntemleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Medya Etiği",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sosyal Psikoloji",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/sosyal_psikoloji_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası Ve Kültürlerarası İletişim Kampanyaları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Veri Gazeteciliği",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İstanbul Üniversitesi Auzef",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uzaktan Öğretim Lisans Programı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Halkla İlişkiler Ve Tanıtım Lisans (Uzaktan)",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Grafik Tasarim",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/grafik_tasarim_sorular.json"
+    "3": {
+      "guz": [
+        {
+          "dersAdi": "İkna Teorileri Ve Retorik",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/ikna_teorileri_ve_retorik_sorular.json"
+        },
+        {
+          "dersAdi": "Kişisel İmaj Yönetimi Ve İmaj Danışmanlığı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kurumsal İletişim",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kurumsal_iletisim_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Yönetiminde İletişim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Televizyon Analizi Ve Eleştiri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yazım teknikleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Kamuoyu Araştırmaları",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kamuoyu_arast_rmalar_sorular.json"
+        },
+        {
+          "dersAdi": "Kişilerarası İletişim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Medya Okur Yazarlığı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sosyal Medya",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası İletişim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yeni İletişim Ortamları",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kitle_iletisim_kuramlar_sorular.json"
+        },
+        {
+          "dersAdi": "İstanbul Üniversitesi Auzef",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uzaktan Öğretim Lisans Programı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Halkla İlişkiler",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Ikna Teorileri Ve Retorik",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/ikna_teorileri_ve_retorik_sorular.json"
-    },
-    {
-      "dersAdi": "İletişim Tarihi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/iletisim_tarihi_sorular.json"
-    },
-    {
-      "dersAdi": "İtibar Yönetimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/itibar_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Kamuoyu Araştırmaları",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kamuoyu_arast_rmalar_sorular.json"
-    },
-    {
-      "dersAdi": "Kitle İletişim Kuramları",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kitle_iletisim_kuramlar_sorular.json"
-    },
-    {
-      "dersAdi": "Kriz Ve Risk İletişimi Yönetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Kurumsal İletişim",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kurumsal_iletisim_sorular.json"
-    },
-    {
-      "dersAdi": "Sosyal Psikoloji",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/sosyal_psikoloji_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/yabanci_dil_1_sorular.json"
+    "4": {
+      "guz": [
+        {
+          "dersAdi": "Algı Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/itibar_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Fonetik Ve Diksiyon",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kriz Ve Risk İletişimi Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Küreselleşme Ve Medya",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Reklam Çözümlemesi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Siyasal İletişim",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kurumsal_iletisim_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Genel Haklar Ve Medya",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İtibar Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/itibar_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Marka İletişimi Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/halkla_iliskiler_ve_tanitim_lisans_uzaktan/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Medya Endüstrisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Medya Planlaması",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sosyal Sermaye Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İstanbul Üniversitesi Auzef",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uzaktan Öğretim Lisans Programı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

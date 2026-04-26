@@ -1,61 +1,387 @@
 {
-  "bolum": "Gazetecilik Lisans Uzaktan",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilkeleri Ve Inkilap Tarihi I",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/ataturk_ilkeleri_ve_inkilap_tarihi_i_sorular.json"
+  "bolum": "Gazetecilik",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi I",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/ataturk_ilkeleri_ve_inkilap_tarihi_i_sorular.json"
+        },
+        {
+          "dersAdi": "İletişim Tarihi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/iletisim_tarihi_sorular.json"
+        },
+        {
+          "dersAdi": "Kitle İletişim Kuramları",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kitle_iletisim_kuramlar_sorular.json"
+        },
+        {
+          "dersAdi": "Medya Ve Siyaset",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/medya_ve_siyaset_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Gazetecilik",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/temel_gazetecilik_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili I",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yabancı Dil I",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi II",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/ataturk_ilkeleri_ve_inkilap_tarihi_i_sorular.json"
+        },
+        {
+          "dersAdi": "Gazetecilik Türleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Haber Toplama Ve Yazma",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kültürel Antropoloji",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Basın Tarihi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili II",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yabancı Dil II",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "İletişim Tarihi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/iletisim_tarihi_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Kitle İletişim Hukuku",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kitle_iletisim_kuramlar_sorular.json"
+        },
+        {
+          "dersAdi": "Kitle İletişiminde Sosyal Sorumluluk Kampanyaları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Medya Ekolojisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Medya Ve Türk Dış Politikası",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Senaryo",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Televizyonda Yapım Yönetim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Kitle İletişimi Ve Tüketim",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Medya Etiği",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sosyal Psikoloji",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Sinema Tarihi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/iletisim_tarihi_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası Haber Ajansları Ve Ajans Haberciliği",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Veri Gazeteciliği",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "İtibar Yönetimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/itibar_yonetimi_sorular.json"
+    "3": {
+      "guz": [
+        {
+          "dersAdi": "Araştırmacı Gazetecilik",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/temel_gazetecilik_sorular.json"
+        },
+        {
+          "dersAdi": "İkna Kuramları Ve Retorik",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kurumsal İletişim",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kurumsal_iletisim_sorular.json"
+        },
+        {
+          "dersAdi": "Televizyon Analizi Ve Eleştirisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yazım Teknikleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yerel Gazetecilik",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/temel_gazetecilik_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Haber Analizi Ve Editörlüğü",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İletişim Çalışmalarında Araştırma Yöntemleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Medya Okur Yazarlığı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Televizyon Gazeteciliği",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası İletişim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yeni İletişim Ortamları",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kitle_iletisim_kuramlar_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Kitle İletişim Kuramları",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kitle_iletisim_kuramlar_sorular.json"
-    },
-    {
-      "dersAdi": "Kriz Ve Risk İletişimi Yönetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Kurumsal İletişim",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kurumsal_iletisim_sorular.json"
-    },
-    {
-      "dersAdi": "Medya Ve Siyaset",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/medya_ve_siyaset_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Gazetecilik",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/temel_gazetecilik_sorular.json"
+    "4": {
+      "guz": [
+        {
+          "dersAdi": "Ab Medya Ve Demokrasi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Ekonomi Ve Basın",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Fonetik Ve Diksiyon",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kriz Ve Risk İletişimi Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Küreselleşme Ve Medya",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Reklam Çözümlemeleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Dergi Medyası",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Genel Haklar Ve Medya",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İtibar Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/gazetecilik_lisans_uzaktan/questions/itibar_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Medya Endüstrisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Medya Planlaması",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Spor Basını",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Auzef Gazetecilik Lisans (Uzaktan)",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

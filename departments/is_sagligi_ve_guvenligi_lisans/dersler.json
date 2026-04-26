@@ -1,271 +1,408 @@
 {
-  "bolum": "Is Sagligi Ve Guvenligi Lisans",
-  "dersler": [
-    {
-      "dersAdi": "A. I. ve Ink. Tarihi-1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/a_i_ve_ink_tarihi_1_sorular.json"
+  "bolum": "İş Sağlığı Ve Güvenliği",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "A. İ. ve İnk. Tarihi-1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/a_i_ve_ink_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Temel matematik",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/temel_matematik_sorular.json"
+        },
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/hukukun_temel_kavramlari_sorular.json"
+        },
+        {
+          "dersAdi": "İlk Yardım",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/ilk_yardim_sorular.json"
+        },
+        {
+          "dersAdi": "İş Hijyeni",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_hijyeni_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili-1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil-1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "A. İ. ve İnk. Tarihi-2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/a_i_ve_ink_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Fizyoloji",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Genel Kimya",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/genel_kimya_sorular.json"
+        },
+        {
+          "dersAdi": "İş Hukuku",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili-2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil-2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/yabanci_dil_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Acil Durum Yonetimi",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/acil_durum_yonetimi_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Çalışma Alanlarında İş Sağlığı ve Güvenliği-1",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/calisma_alanlarinda_is_sagligi_ve_guvenligi_1_sorular.json"
+        },
+        {
+          "dersAdi": "İstatistik",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/istatistik_sorular.json"
+        },
+        {
+          "dersAdi": "İş Kazaları Ve Meslek Hastalıkları",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_kazalari_ve_meslek_hastaliklari_sorular.json"
+        },
+        {
+          "dersAdi": "Makine ve Teçhizat-1",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/makine_ve_techizat_1_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Biyoloji",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/temel_biyoloji_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Fizik",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/temel_fizik_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Çalışma Alanlarında İş Sağlığı ve Güvenliği – 2",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagligi_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "İş sağlığı Ve Güvenliği Mevzuatı – 1",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagl_g_ve_guvenligi_mevzuat_1_sorular.json"
+        },
+        {
+          "dersAdi": "iş Sağlığı Ve Güvenliği Yönetim Sistemi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagl_g_ve_guvenligi_yonetim_sistemi_sorular.json"
+        },
+        {
+          "dersAdi": "Makine Ve Teçhizat-2",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/makine_ve_techizat_2_sorular.json"
+        },
+        {
+          "dersAdi": "Risk Değerlendirmesi ve Metodolojisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sosyal Güvenlik Hukuku",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/sosyal_guvenlik_hukuku_sorular.json"
+        },
+        {
+          "dersAdi": "Auzef İSG Lisans",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Bakim Ve Onarimda Is sagligi Ve Guvenligi",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/bakim_ve_onarimda_is_sagligi_ve_guvenligi_sorular.json"
+    "3": {
+      "guz": [
+        {
+          "dersAdi": "Acil Durum Yönetimi",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/acil_durum_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "İstatistik Analiz",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/istatistik_analiz_sorular.json"
+        },
+        {
+          "dersAdi": "İş Güvenliği Eğitim Metodları",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_guvenligi_egitim_metodlari_sorular.json"
+        },
+        {
+          "dersAdi": "İş Sağlığı Ve Güvenliği Mevzuatı-2",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagligi_ve_guvenligi_mevzuati_2_sorular.json"
+        },
+        {
+          "dersAdi": "İşletme Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/isletme_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Yangın Tehlikesi ve yangın Güvenliği",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/yangin_tehlikesi_ve_yangin_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Biyoistatistik",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/biyoistatistik_sorular.json"
+        },
+        {
+          "dersAdi": "(Kaldırıldı)",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Ergonomi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Halk Sağlığı",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/halk_sagligi_sorular.json"
+        },
+        {
+          "dersAdi": "Lojistik İşlerinde İş Sağlığı ve Güvenliği",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/lojistik_islerinde_is_sagl_g_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Madenlerde İş Sağlığı Ve Güvenliği",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/madenlerde_is_sagl_g_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Toplam Kalite Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yapı İşlerinde İş Sağlığı Ve Güvenliği",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagligi_ve_guvenligi_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Biyoistatistik",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/biyoistatistik_sorular.json"
-    },
-    {
-      "dersAdi": "Calisma Alanlarinda Is Sagligi ve Guvenligi-1",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/calisma_alanlarinda_is_sagligi_ve_guvenligi_1_sorular.json"
-    },
-    {
-      "dersAdi": "Calisma Ortami Gozetimi Ve Periyodik Kontroller",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/calisma_ortami_gozetimi_ve_periyodik_kontroller_sorular.json"
-    },
-    {
-      "dersAdi": "Çalışmanın Seyri ve Sağlık",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/cal_sman_n_seyri_ve_sagl_k_sorular.json"
-    },
-    {
-      "dersAdi": "Elektrikle Çalışmalarda İş sağlığı Ve Güvenliği",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/elektrikle_cal_smalarda_is_sagl_g_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "Genel Kimya",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/genel_kimya_sorular.json"
-    },
-    {
-      "dersAdi": "Halk Sagligi",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/halk_sagligi_sorular.json"
-    },
-    {
-      "dersAdi": "Havalandirma ve Iklimlendirme",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/havalandirma_ve_iklimlendirme_sorular.json"
-    },
-    {
-      "dersAdi": "Hukukun Temel Kavramlari",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/hukukun_temel_kavramlari_sorular.json"
-    },
-    {
-      "dersAdi": "Ilk Yardim",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/ilk_yardim_sorular.json"
-    },
-    {
-      "dersAdi": "Insan Kaynaklari Yonetimi",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/insan_kaynaklari_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Is Guvenligi Egitim Metodlari",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_guvenligi_egitim_metodlari_sorular.json"
-    },
-    {
-      "dersAdi": "Is Hijyeni",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_hijyeni_sorular.json"
-    },
-    {
-      "dersAdi": "Is Kazalari Ve Meslek Hastaliklari",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_kazalari_ve_meslek_hastaliklari_sorular.json"
-    },
-    {
-      "dersAdi": "Is sagligi Ve Guvenligi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagligi_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "İş sağlığı Ve Güvenliği Mevzuatı – 1",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagl_g_ve_guvenligi_mevzuat_1_sorular.json"
-    },
-    {
-      "dersAdi": "Is Sagligi Ve Guvenligi Mevzuati-2",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagligi_ve_guvenligi_mevzuati_2_sorular.json"
-    },
-    {
-      "dersAdi": "iş Sağlığı Ve Güvenliği Yönetim Sistemi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagl_g_ve_guvenligi_yonetim_sistemi_sorular.json"
-    },
-    {
-      "dersAdi": "Isletme Yonetimi",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/isletme_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Istatistik",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/istatistik_sorular.json"
-    },
-    {
-      "dersAdi": "Istatistik Analiz",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/istatistik_analiz_sorular.json"
-    },
-    {
-      "dersAdi": "Isyerlerinde Gurultu ve Kontrolu",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/isyerlerinde_gurultu_ve_kontrolu_sorular.json"
-    },
-    {
-      "dersAdi": "Kisisel Koruyucu Donanimlar Uyari Isaretleri Ve Etiketleme",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/kisisel_koruyucu_donanimlar_uyari_isaretleri_ve_etiketleme_sorular.json"
-    },
-    {
-      "dersAdi": "Lojistik İşlerinde İş Sağlığı ve Güvenliği",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/lojistik_islerinde_is_sagl_g_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "Madenlerde İş Sağlığı Ve Güvenliği",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/madenlerde_is_sagl_g_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "Makine ve Techizat-1",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/makine_ve_techizat_1_sorular.json"
-    },
-    {
-      "dersAdi": "Makine Ve Teçhizat-2",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/makine_ve_techizat_2_sorular.json"
-    },
-    {
-      "dersAdi": "Radyasyonla Calismalarda is sagligi Ve Guvenligi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/radyasyonla_calismalarda_is_sagligi_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "Sosyal Guvenlik Hukuku",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/sosyal_guvenlik_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Biyoloji",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/temel_biyoloji_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Fizik",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/temel_fizik_sorular.json"
-    },
-    {
-      "dersAdi": "Temel matematik",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/temel_matematik_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili-1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil-1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/yabanci_dil_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yangin Tehlikesi ve yangin Guvenligi",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/yangin_tehlikesi_ve_yangin_guvenligi_sorular.json"
+    "4": {
+      "guz": [
+        {
+          "dersAdi": "Bakım Ve Onarımda İş sağlığı Ve Güvenliği",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/bakim_ve_onarimda_is_sagligi_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Çalışma Ortamı Gözetimi Ve Periyodik Kontroller",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/calisma_ortami_gozetimi_ve_periyodik_kontroller_sorular.json"
+        },
+        {
+          "dersAdi": "Havalandırma ve İklimlendirme",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/havalandirma_ve_iklimlendirme_sorular.json"
+        },
+        {
+          "dersAdi": "İşyerlerinde Gürültü ve Kontrolü",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/isyerlerinde_gurultu_ve_kontrolu_sorular.json"
+        },
+        {
+          "dersAdi": "Kişisel Koruyucu Donanımlar, Uyarı İşaretleri Ve Etiketleme",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/kisisel_koruyucu_donanimlar_uyari_isaretleri_ve_etiketleme_sorular.json"
+        },
+        {
+          "dersAdi": "Radyasyonla Çalışmalarda iş sağlığı Ve Güvenliği",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/radyasyonla_calismalarda_is_sagligi_ve_guvenligi_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Çalışmanın Seyri ve Sağlık",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/cal_sman_n_seyri_ve_sagl_k_sorular.json"
+        },
+        {
+          "dersAdi": "Elektrikle Çalışmalarda İş sağlığı Ve Güvenliği",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/elektrikle_cal_smalarda_is_sagl_g_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "İnsan Kaynakları Yönetimi",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/insan_kaynaklari_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "İş Sağlığı Ve Güvenliği Stajı",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagligi_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "İş Sağlığı Ve Güvenliği Uygulaması",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagligi_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Auzef İSG Lisans",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İş Sağlığı Ve Güvenliği Uzmanlığı Sınav Soruları ( Online Deneme )",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/is_sagligi_ve_guvenligi_lisans/questions/is_sagligi_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "İSG",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

@@ -1,152 +1,193 @@
 {
-  "bolum": "Auzef Marka Iletisimi",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilk.ve Ink Tar-1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+  "bolum": "Marka İletişimi",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlk.ve İnk Tar-1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+        },
+        {
+          "dersAdi": "Genel İktisat",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/genel_iktisat_sorular.json"
+        },
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/hukukun_temel_kavramlari_sorular.json"
+        },
+        {
+          "dersAdi": "İşletme Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/isletme_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama İlkeleri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlk. ve İnk. Tar-2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+        },
+        {
+          "dersAdi": "Girişimcilik",
+          "konu": 0,
+          "soru": 14,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/girisimcilik_sorular.json"
+        },
+        {
+          "dersAdi": "Marka Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/itibar_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Örgütsel Davranış",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/orgutsel_davranis_sorular.json"
+        },
+        {
+          "dersAdi": "Reklamcılık",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/reklamc_l_k_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/yabanci_dil_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Genel Iktisat",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/genel_iktisat_sorular.json"
-    },
-    {
-      "dersAdi": "Girisimcilik",
-      "konu": 0,
-      "soru": 14,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/girisimcilik_sorular.json"
-    },
-    {
-      "dersAdi": "Halkla Iliskiler",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/halkla_iliskiler_sorular.json"
-    },
-    {
-      "dersAdi": "Hukukun Temel Kavramlari",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/hukukun_temel_kavramlari_sorular.json"
-    },
-    {
-      "dersAdi": "Isletme Yonetimi",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/isletme_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "İtibar Yönetimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/itibar_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Kamuoyu Araştırmaları",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/kamuoyu_arast_rmalar_sorular.json"
-    },
-    {
-      "dersAdi": "Kriz Ve Risk İletişimi Yönetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Kurumsal İletişim",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/kurumsal_iletisim_sorular.json"
-    },
-    {
-      "dersAdi": "Marka Iletisimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/marka_iletisimi_sorular.json"
-    },
-    {
-      "dersAdi": "Musteri Iliskileri Yonetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/musteri_iliskileri_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Orgutsel Davranis",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/orgutsel_davranis_sorular.json"
-    },
-    {
-      "dersAdi": "Pazarlama Ilkeleri",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/pazarlama_ilkeleri_sorular.json"
-    },
-    {
-      "dersAdi": "Reklamcılık",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/reklamc_l_k_sorular.json"
-    },
-    {
-      "dersAdi": "Sosyal Psikoloji",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/sosyal_psikoloji_sorular.json"
-    },
-    {
-      "dersAdi": "Stratejik Yonetim",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/stratejik_yonetim_sorular.json"
-    },
-    {
-      "dersAdi": "Tuketici Davranislari",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/tuketici_davranislari_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Turkiye nin Toplumsal Yapisi",
-      "konu": 0,
-      "soru": 14,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/turkiye_nin_toplumsal_yapisi_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/auzef_marka_iletisimi/questions/yabanci_dil_1_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Halkla İlişkiler",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/halkla_iliskiler_sorular.json"
+        },
+        {
+          "dersAdi": "Kamuoyu Araştırmaları",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/kamuoyu_arast_rmalar_sorular.json"
+        },
+        {
+          "dersAdi": "Stratejik Yönetim",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/stratejik_yonetim_sorular.json"
+        },
+        {
+          "dersAdi": "Tüketici Davranışları",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/tuketici_davranislari_sorular.json"
+        },
+        {
+          "dersAdi": "Türkiye’nin Toplumsal Yapısı",
+          "konu": 0,
+          "soru": 14,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/turkiye_nin_toplumsal_yapisi_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "İtibar Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/itibar_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Kriz Ve Risk İletişimi Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/kriz_ve_risk_iletisimi_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Kurumsal İletişim",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/kurumsal_iletisim_sorular.json"
+        },
+        {
+          "dersAdi": "Müşteri İlişkileri Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/musteri_iliskileri_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sosyal Medya",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sosyal Psikoloji",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/auzef_marka_iletisimi/questions/sosyal_psikoloji_sorular.json"
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

@@ -1,278 +1,373 @@
 {
-  "bolum": "Insan Kaynaklari Yonetimi Lisans",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilk.ve Ink Tar-1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+  "bolum": "İnsan Kaynakları Yönetimi",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Bilimsel Araştırma Teknikleri",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/bilimsel_arastirma_teknikleri_sorular.json"
+        },
+        {
+          "dersAdi": "Çalışma Sosyolojisi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/calisma_psikolojisi_sorular.json"
+        },
+        {
+          "dersAdi": "Genel İktisat",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/genel_iktisat_sorular.json"
+        },
+        {
+          "dersAdi": "İşletme Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/isletme_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Atatürk İlk.ve İnk Tar-1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/hukukun_temel_kavramlari_sorular.json"
+        },
+        {
+          "dersAdi": "Muhasebe",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/muhasebe_sorular.json"
+        },
+        {
+          "dersAdi": "Örgütsel Davranış",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/orgutsel_davranis_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim Ve Organizasyon",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yonetim_ve_organizasyon_sorular.json"
+        },
+        {
+          "dersAdi": "Atatürk İlk. ve İnk. Tar-2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/ataturk_ilk_ve_ink_tar_1_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yabanci_dil_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Bilimsel Arastirma Teknikleri",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/bilimsel_arastirma_teknikleri_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Çalışma Psikolojisi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/calisma_psikolojisi_sorular.json"
+        },
+        {
+          "dersAdi": "Halkla İlişkiler",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/halkla_iliskiler_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Matematik",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/temel_matematik_sorular.json"
+        },
+        {
+          "dersAdi": "Üretim Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/uretim_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Yeni Yönetim Yaklaşımları",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yeni_yonetim_yaklas_mlar_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim Bilişim Sistemleri",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yonetim_bilisim_sistemleri_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Çalışma Ekonomisi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/calisma_ekonomisi_sorular.json"
+        },
+        {
+          "dersAdi": "Çalışma Hayatı ve Sorunları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İstatistik",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/istatistik_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/performans_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sosyal Güvenlik Hukuku",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/sosyal_guvenlik_hukuku_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Calisma Ekonomisi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/calisma_ekonomisi_sorular.json"
+    "3": {
+      "guz": [
+        {
+          "dersAdi": "İkna Teorileri ve Retorik",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/ikna_teorileri_ve_retorik_sorular.json"
+        },
+        {
+          "dersAdi": "İnsan Kaynakları Bulma ve Seçme",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/insan_kaynaklari_bulma_ve_secme_sorular.json"
+        },
+        {
+          "dersAdi": "İş Analizi ve İnsan Kaynakları Planlaması",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/is_analizi_ve_insan_kaynaklari_planlamasi_sorular.json"
+        },
+        {
+          "dersAdi": "İş Hukuku",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Özlük İşleri ve Bordrolama",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/ozluk_isleri_ve_bordrolama_sorular.json"
+        },
+        {
+          "dersAdi": "Stratejik Yönetim",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/stratejik_yonetim_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Ergonomi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Etkili İletişim Becerileri",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/etkili_iletisim_becerileri_sorular.json"
+        },
+        {
+          "dersAdi": "İş Değerleme ve Ücret Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/is_degerleme_ve_ucret_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "İşletmelerde Eğitim Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/isletmelerde_egitim_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Kurumsal Sosyal Sorumluluk",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/kurumsal_sosyal_sorumluluk_sorular.json"
+        },
+        {
+          "dersAdi": "Örgüt Kültürü",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/orgut_kulturu_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Calisma Psikolojisi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/calisma_psikolojisi_sorular.json"
-    },
-    {
-      "dersAdi": "Etkili İletişim Becerileri",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/etkili_iletisim_becerileri_sorular.json"
-    },
-    {
-      "dersAdi": "Genel Iktisat",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/genel_iktisat_sorular.json"
-    },
-    {
-      "dersAdi": "Halkla Iliskiler",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/halkla_iliskiler_sorular.json"
-    },
-    {
-      "dersAdi": "Hukukun Temel Kavramlari",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/hukukun_temel_kavramlari_sorular.json"
-    },
-    {
-      "dersAdi": "Ikna Teorileri ve Retorik",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/ikna_teorileri_ve_retorik_sorular.json"
-    },
-    {
-      "dersAdi": "IKY Güncel Konular ve Uygulamalar",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/iky_guncel_konular_ve_uygulamalar_sorular.json"
-    },
-    {
-      "dersAdi": "Insan Kaynaklari Bulma ve Secme",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/insan_kaynaklari_bulma_ve_secme_sorular.json"
-    },
-    {
-      "dersAdi": "Insan Kaynaklari Yonetimi",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/insan_kaynaklari_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Is Analizi ve Insan Kaynaklari Planlamasi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/is_analizi_ve_insan_kaynaklari_planlamasi_sorular.json"
-    },
-    {
-      "dersAdi": "İş Değerleme ve Ücret Yönetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/is_degerleme_ve_ucret_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "İş Etiği",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/is_etigi_sorular.json"
-    },
-    {
-      "dersAdi": "Is Sagligi ve Guvenligi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/is_sagligi_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "Isletme Yonetimi",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/isletme_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "İşletmelerde Eğitim Yönetimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/isletmelerde_egitim_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Istatistik",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/istatistik_sorular.json"
-    },
-    {
-      "dersAdi": "Kamu Personel Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/kamu_personel_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Koçluk Stratejileri",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/kocluk_stratejileri_sorular.json"
-    },
-    {
-      "dersAdi": "Kültürlerarası İletişim ve Sosyal Medya",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/kulturleraras_iletisim_ve_sosyal_medya_sorular.json"
-    },
-    {
-      "dersAdi": "Kurumsal Sosyal Sorumluluk",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/kurumsal_sosyal_sorumluluk_sorular.json"
-    },
-    {
-      "dersAdi": "Liderlik ve Motivasyon",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/liderlik_ve_motivasyon_sorular.json"
-    },
-    {
-      "dersAdi": "Muhasebe",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/muhasebe_sorular.json"
-    },
-    {
-      "dersAdi": "Örgüt Kültürü",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/orgut_kulturu_sorular.json"
-    },
-    {
-      "dersAdi": "Orgutsel Davranis",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/orgutsel_davranis_sorular.json"
-    },
-    {
-      "dersAdi": "Ozluk Isleri ve Bordrolama",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/ozluk_isleri_ve_bordrolama_sorular.json"
-    },
-    {
-      "dersAdi": "Performans Yonetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/performans_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Sosyal Guvenlik Hukuku",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/sosyal_guvenlik_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Stratejik Yonetim",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/stratejik_yonetim_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Matematik",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/temel_matematik_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Uluslararası İnsan Kaynakları Yönetimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/uluslararas_insan_kaynaklar_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Üretim Yönetimi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/uretim_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yabanci_dil_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yeni Yönetim Yaklaşımları",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yeni_yonetim_yaklas_mlar_sorular.json"
-    },
-    {
-      "dersAdi": "Yonetim Bilisim Sistemleri",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yonetim_bilisim_sistemleri_sorular.json"
-    },
-    {
-      "dersAdi": "Yonetim Ve Organizasyon",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/yonetim_ve_organizasyon_sorular.json"
+    "4": {
+      "guz": [
+        {
+          "dersAdi": "İş Sağlığı ve Güvenliği",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/is_sagligi_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Kamu Personel Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/kamu_personel_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Kariyer Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/uretim_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Liderlik ve Motivasyon",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/liderlik_ve_motivasyon_sorular.json"
+        },
+        {
+          "dersAdi": "Performans Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/performans_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Toplam Kalite Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "IKY Güncel Konular ve Uygulamalar",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/iky_guncel_konular_ve_uygulamalar_sorular.json"
+        },
+        {
+          "dersAdi": "İş Etiği",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/is_etigi_sorular.json"
+        },
+        {
+          "dersAdi": "Koçluk Stratejileri",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/kocluk_stratejileri_sorular.json"
+        },
+        {
+          "dersAdi": "Kültürlerarası İletişim ve Sosyal Medya",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/kulturleraras_iletisim_ve_sosyal_medya_sorular.json"
+        },
+        {
+          "dersAdi": "Proje Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/uretim_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası İnsan Kaynakları Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/insan_kaynaklari_yonetimi_lisans/questions/uluslararas_insan_kaynaklar_yonetimi_sorular.json"
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

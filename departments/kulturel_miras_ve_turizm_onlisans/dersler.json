@@ -1,166 +1,221 @@
 {
-  "bolum": "Kulturel Miras Ve Turizm Onlisans",
-  "dersler": [
-    {
-      "dersAdi": "Anadolu’nun Tarihi Coğrafyası",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/anadolu_nun_tarihi_cografyas_sorular.json"
+  "bolum": "Kültürel Miras Ve Turizm",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Anadolu Uygarlıklar Tarihi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/anadolu_uygarliklar_tarihi_sorular.json"
+        },
+        {
+          "dersAdi": "Arkeolojiye Giriş",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/arkeolojiye_giris_sorular.json"
+        },
+        {
+          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi 1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Genel Turizm Bilgisi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/genel_turizm_bilgisi_sorular.json"
+        },
+        {
+          "dersAdi": "Kültürel Miras Turizmine Giriş",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/kulturel_miras_turizmine_giris_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi 2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Kültürel Mirasın Korunması",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/kulturel_miras_n_korunmas_sorular.json"
+        },
+        {
+          "dersAdi": "Turizm Pazarlaması",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turizm_pazarlamas_sorular.json"
+        },
+        {
+          "dersAdi": "Türizm Ve Çevre",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turizm_ve_cevre_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yunan Roma Mimarisi Ve Sanatı",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/yunan_roma_mimarisi_ve_sanat_sorular.json"
+        },
+        {
+          "dersAdi": "Kültürel Miras Ve Turizm çıkmış sorular",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/kulturel_miras_turizmine_giris_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Anadolu Uygarliklar Tarihi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/anadolu_uygarliklar_tarihi_sorular.json"
-    },
-    {
-      "dersAdi": "Arkeolojiye Giriş",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/arkeolojiye_giris_sorular.json"
-    },
-    {
-      "dersAdi": "Ataturk Ilkeleri Ve Inkilap Tarihi 1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
-    },
-    {
-      "dersAdi": "Beşeri Faktörlerin Turizme Etkisi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/beseri_faktorlerin_turizme_etkisi_sorular.json"
-    },
-    {
-      "dersAdi": "Beylikler Devri Mimarisi Ve Sanatı",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/beylikler_devri_mimarisi_ve_sanat_sorular.json"
-    },
-    {
-      "dersAdi": "Bizans Mimarisi Ve Sanati",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/bizans_mimarisi_ve_sanati_sorular.json"
-    },
-    {
-      "dersAdi": "Doğal Faktörlerin Turizme Etkisi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/dogal_faktorlerin_turizme_etkisi_sorular.json"
-    },
-    {
-      "dersAdi": "Genel Turizm Bilgisi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/genel_turizm_bilgisi_sorular.json"
-    },
-    {
-      "dersAdi": "Kirsal Turizm",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/kirsal_turizm_sorular.json"
-    },
-    {
-      "dersAdi": "Kültürel Miras Turizmine Giriş",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/kulturel_miras_turizmine_giris_sorular.json"
-    },
-    {
-      "dersAdi": "Kültürel Mirasın Korunması",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/kulturel_miras_n_korunmas_sorular.json"
-    },
-    {
-      "dersAdi": "Muzecilik Dunya Ve Turkiye Muzeleri",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/muzecilik_dunya_ve_turkiye_muzeleri_sorular.json"
-    },
-    {
-      "dersAdi": "Osmanlı Mimarisi Ve Sanatı",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/osmanl_mimarisi_ve_sanat_sorular.json"
-    },
-    {
-      "dersAdi": "Resim Sanati Tarihi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/resim_sanati_tarihi_sorular.json"
-    },
-    {
-      "dersAdi": "Sanat Tarihi Ve Mitoloji",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/sanat_tarihi_ve_mitoloji_sorular.json"
-    },
-    {
-      "dersAdi": "Turizm Araştırmaları",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turizm_arast_rmalar_sorular.json"
-    },
-    {
-      "dersAdi": "Turizm Pazarlaması",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turizm_pazarlamas_sorular.json"
-    },
-    {
-      "dersAdi": "Türizm Ve Çevre",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turizm_ve_cevre_sorular.json"
-    },
-    {
-      "dersAdi": "Turizmde Etik",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turizmde_etik_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/yabanci_dil_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yunan Roma Mimarisi Ve Sanatı",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/yunan_roma_mimarisi_ve_sanat_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Beşeri Faktörlerin Turizme Etkisi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/beseri_faktorlerin_turizme_etkisi_sorular.json"
+        },
+        {
+          "dersAdi": "Bizans Mimarisi Ve Sanatı",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/bizans_mimarisi_ve_sanati_sorular.json"
+        },
+        {
+          "dersAdi": "Kırsal Turizm",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/kirsal_turizm_sorular.json"
+        },
+        {
+          "dersAdi": "Müzecilik: Dünya Ve Türkiye Müzeleri",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/muzecilik_dunya_ve_turkiye_muzeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Resim Sanatı Tarihi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/resim_sanati_tarihi_sorular.json"
+        },
+        {
+          "dersAdi": "Sanat Tarihi Ve Mitoloji",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/sanat_tarihi_ve_mitoloji_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Anadolu’nun Tarihi Coğrafyası",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/anadolu_nun_tarihi_cografyas_sorular.json"
+        },
+        {
+          "dersAdi": "Beylikler Devri Mimarisi Ve Sanatı",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/beylikler_devri_mimarisi_ve_sanat_sorular.json"
+        },
+        {
+          "dersAdi": "Doğal Faktörlerin Turizme Etkisi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/dogal_faktorlerin_turizme_etkisi_sorular.json"
+        },
+        {
+          "dersAdi": "Osmanlı Mimarisi Ve Sanatı",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/osmanl_mimarisi_ve_sanat_sorular.json"
+        },
+        {
+          "dersAdi": "Turizm Araştırmaları",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turizm_arast_rmalar_sorular.json"
+        },
+        {
+          "dersAdi": "Turizmde Etik",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/kulturel_miras_ve_turizm_onlisans/questions/turizmde_etik_sorular.json"
+        },
+        {
+          "dersAdi": "Çıkmış sorular",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Auzef Çıkmış sorulari, deneme sınavları,ünite soruları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

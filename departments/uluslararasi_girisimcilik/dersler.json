@@ -1,159 +1,380 @@
 {
-  "bolum": "Uluslararasi Girisimcilik",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilkeleri ve Inkilap Tarihi I",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/ataturk_ilkeleri_ve_inkilap_tarihi_i_sorular.json"
+  "bolum": "Uluslararası Girişimcilik",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlkeleri ve İnkılap Tarihi I",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/ataturk_ilkeleri_ve_inkilap_tarihi_i_sorular.json"
+        },
+        {
+          "dersAdi": "Girişimcilik",
+          "konu": 0,
+          "soru": 14,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/girisimcilik_sorular.json"
+        },
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/hukukun_temel_kavramlari_sorular.json"
+        },
+        {
+          "dersAdi": "İstatistik",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/istatistik_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Ekonomi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/temel_ekonomi_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili I",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlkeleri ve İnkılap Tarihi II",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/ataturk_ilkeleri_ve_inkilap_tarihi_i_sorular.json"
+        },
+        {
+          "dersAdi": "Dış Ticaret’e Giriş",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/d_s_ticaret_e_giris_sorular.json"
+        },
+        {
+          "dersAdi": "Muhasebe",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/muhasebe_sorular.json"
+        },
+        {
+          "dersAdi": "Örgütsel Davranış",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/orgutsel_davranis_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili II",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası İşletmecilik",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yabancı Dil 11",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/yabanci_dil_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Bilgi Teknolojileri",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/bilgi_teknolojileri_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Bilgi Teknolojileri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/bilgi_teknolojileri_sorular.json"
+        },
+        {
+          "dersAdi": "E-ticaret ve Müşteri Davranışı",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/e_ticaret_ve_musteri_davranisi_sorular.json"
+        },
+        {
+          "dersAdi": "Finansal Yönetim",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/finansal_yonetim_sorular.json"
+        },
+        {
+          "dersAdi": "Lojistik Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/lojistik_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama İlkeleri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Sürdürülebilirlik",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Dijital Ekonomi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/temel_ekonomi_sorular.json"
+        },
+        {
+          "dersAdi": "İnovatif Girişimcilik",
+          "konu": 0,
+          "soru": 14,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/girisimcilik_sorular.json"
+        },
+        {
+          "dersAdi": "Örgüt Kültürü",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/orgut_kulturu_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Stratejileri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Performans Göstergeleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası İnsan Kaynakları Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Dış Ticaret’e Giriş",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/d_s_ticaret_e_giris_sorular.json"
+    "3": {
+      "guz": [
+        {
+          "dersAdi": "Dijital İletişim Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Küresel Pazarlama",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Müşteri İlişkileri Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/musteri_iliskileri_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Start-uplar ve Yalın Girişimcilik",
+          "konu": 0,
+          "soru": 14,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/girisimcilik_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası Ticaret Hukuku",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Ürün ve Marka Yönetimi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/urun_ve_marka_yonetimi_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Çalışma Hayatı ve Sorunları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kurumsal Bilgi Sistemleri",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/kurumsal_bilgi_sistemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Tedarik ve Satın Alma",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası Finans",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Üretim Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/uretim_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim ve Organizasyon",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/yonetim_ve_organizasyon_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "E-ticaret ve Musteri Davranisi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/e_ticaret_ve_musteri_davranisi_sorular.json"
-    },
-    {
-      "dersAdi": "E-ticaret ve Yapay Zeka",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/e_ticaret_ve_yapay_zeka_sorular.json"
-    },
-    {
-      "dersAdi": "Finansal Yonetim",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/finansal_yonetim_sorular.json"
-    },
-    {
-      "dersAdi": "Girisimcilik",
-      "konu": 0,
-      "soru": 14,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/girisimcilik_sorular.json"
-    },
-    {
-      "dersAdi": "Hukukun Temel Kavramlari",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/hukukun_temel_kavramlari_sorular.json"
-    },
-    {
-      "dersAdi": "Istatistik",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/istatistik_sorular.json"
-    },
-    {
-      "dersAdi": "Kurumsal Bilgi Sistemleri",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/kurumsal_bilgi_sistemleri_sorular.json"
-    },
-    {
-      "dersAdi": "Lojistik Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/lojistik_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Muhasebe",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/muhasebe_sorular.json"
-    },
-    {
-      "dersAdi": "Musteri Iliskileri Yonetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/musteri_iliskileri_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Örgüt Kültürü",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/orgut_kulturu_sorular.json"
-    },
-    {
-      "dersAdi": "Orgutsel Davranis",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/orgutsel_davranis_sorular.json"
-    },
-    {
-      "dersAdi": "Pazarlama Ilkeleri",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/pazarlama_ilkeleri_sorular.json"
-    },
-    {
-      "dersAdi": "Stratejik Yonetim",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/stratejik_yonetim_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Ekonomi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/temel_ekonomi_sorular.json"
-    },
-    {
-      "dersAdi": "Üretim Yönetimi",
-      "konu": 0,
-      "soru": 5,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/uretim_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Urun ve Marka Yonetimi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/urun_ve_marka_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/yabanci_dil_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yonetim ve Organizasyon",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/uluslararasi_girisimcilik/questions/yonetim_ve_organizasyon_sorular.json"
+    "4": {
+      "guz": [
+        {
+          "dersAdi": "E-ticaret ve Yapay Zeka",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/e_ticaret_ve_yapay_zeka_sorular.json"
+        },
+        {
+          "dersAdi": "Proje Yönetimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/uretim_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Stratejik Yönetim",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/stratejik_yonetim_sorular.json"
+        },
+        {
+          "dersAdi": "Toplam Kalite Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası İşletmelerde Liderlik",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası Muhasebe",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/muhasebe_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Dijital Dönüşüm Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Kurumsal Sosyal Sorumluluk",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sosyal İnovasyon ve Girişimcilik",
+          "konu": 0,
+          "soru": 14,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/girisimcilik_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası İşletmelerde Eğitim ve Yetenek Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası Satış Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Yeni Yönetim Teknikleri ve Yapay Zeka",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/uluslararasi_girisimcilik/questions/e_ticaret_ve_yapay_zeka_sorular.json"
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

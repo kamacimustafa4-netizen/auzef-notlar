@@ -1,89 +1,207 @@
 {
-  "bolum": "E Ticaret Ve Pazarlama",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk Ilkeleri Ve Inkilap Tarihi 1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+  "bolum": "E-Ticaret ve Pazarlama",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi 1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Bilgi Teknolojileri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/bilgi_teknolojileri_sorular.json"
+        },
+        {
+          "dersAdi": "İşletme Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/isletme_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Lojistik Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/lojistik_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama İlkeleri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "İngilizce 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/ingilizce_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi 2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Dijital Pazarlama",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/dijital_pazarlama_iletisimi_ve_mobil_pazarlama_sorular.json"
+        },
+        {
+          "dersAdi": "E-Ticaret ve Depo Yönetimi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/e_ticaret_ve_musteri_davranisi_sorular.json"
+        },
+        {
+          "dersAdi": "E-Ticaret",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/e_ticaret_ve_musteri_davranisi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "İngilizce 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/ingilizce_1_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Bilgi Teknolojileri",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/bilgi_teknolojileri_sorular.json"
-    },
-    {
-      "dersAdi": "Dijital Pazarlama Iletisimi ve Mobil Pazarlama",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/dijital_pazarlama_iletisimi_ve_mobil_pazarlama_sorular.json"
-    },
-    {
-      "dersAdi": "E -Ticaret Ve Musteri Davranisi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/e_ticaret_ve_musteri_davranisi_sorular.json"
-    },
-    {
-      "dersAdi": "Ingilizce 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/ingilizce_1_sorular.json"
-    },
-    {
-      "dersAdi": "Isletme Yonetimi",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/isletme_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Lojistik Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/lojistik_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Musteri Iliskileri Yonetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/musteri_iliskileri_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Pazarlama Ilkeleri",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/pazarlama_ilkeleri_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Uluslararasi Pazarlama",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/uluslararasi_pazarlama_sorular.json"
-    },
-    {
-      "dersAdi": "Urun ve Marka Yonetimi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/e_ticaret_ve_pazarlama/questions/urun_ve_marka_yonetimi_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Dijital Pazarlama İletişimi ve Mobil Pazarlama",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/dijital_pazarlama_iletisimi_ve_mobil_pazarlama_sorular.json"
+        },
+        {
+          "dersAdi": "E -Ticaret Ve Müşteri Davranışı",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/e_ticaret_ve_musteri_davranisi_sorular.json"
+        },
+        {
+          "dersAdi": "E-Ticaret Yapay Zeka",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Proje Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/lojistik_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası Pazarlama",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/uluslararasi_pazarlama_sorular.json"
+        },
+        {
+          "dersAdi": "Ürün ve Marka Yönetimi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/urun_ve_marka_yonetimi_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Dijital Pazarlama ve Dönüşüm Optimizasyonu",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/dijital_pazarlama_iletisimi_ve_mobil_pazarlama_sorular.json"
+        },
+        {
+          "dersAdi": "E-Ticaret ve Web Tasarımı",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/e_ticaret_ve_musteri_davranisi_sorular.json"
+        },
+        {
+          "dersAdi": "E-Ticaret ve Tedarik Zinciri Yönetimi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/e_ticaret_ve_musteri_davranisi_sorular.json"
+        },
+        {
+          "dersAdi": "Müşteri İlişkileri Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/musteri_iliskileri_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Stratejileri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/e_ticaret_ve_pazarlama/questions/pazarlama_ilkeleri_sorular.json"
+        },
+        {
+          "dersAdi": "Sosyal Medya ve İçerik Pazarlama",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Auzef E-Ticaret ve Pazarlama Çıkmış Sorular",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

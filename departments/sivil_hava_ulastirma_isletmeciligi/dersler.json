@@ -1,103 +1,207 @@
 {
-  "bolum": "Sivil Hava Ulastirma Isletmeciligi",
-  "dersler": [
-    {
-      "dersAdi": "Ataturk I. Ve I.Tarihi-1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/ataturk_i_ve_i_tarihi_1_sorular.json"
+  "bolum": "Sivil Hava Ulaştırma İşletmeciliği",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "Atatürk İ. Ve İ.Tarihi-1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/ataturk_i_ve_i_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Bilgisayar Uygulamaları",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/bilgisayar_uygulamalari_sorular.json"
+        },
+        {
+          "dersAdi": "Finansal Muhasebe",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/finansal_muhasebe_sorular.json"
+        },
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/hukukun_temel_kavramlari_sorular.json"
+        },
+        {
+          "dersAdi": "İşletme Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/isletme_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/yabanci_dil_1_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Atatürk İ. Ve İ.Tarihi-2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/ataturk_i_ve_i_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Depo Tasarımı Ve Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/depo_tasarimi_ve_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Pazarlama Yönetimi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/havaliman_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sivil Havacılık",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yer Hizmetleri",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/yolcu_hizmetleri_sorular.json"
+        },
+        {
+          "dersAdi": "Auzef Sivil Hava Ulaştırma",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Bilgisayar Uygulamalari",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/bilgisayar_uygulamalari_sorular.json"
-    },
-    {
-      "dersAdi": "Depo Tasarimi Ve Yonetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/depo_tasarimi_ve_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Finansal Muhasebe",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/finansal_muhasebe_sorular.json"
-    },
-    {
-      "dersAdi": "Halkla Iliskiler",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/halkla_iliskiler_sorular.json"
-    },
-    {
-      "dersAdi": "Havacilik Hukuku",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/havacilik_hukuku_sorular.json"
-    },
-    {
-      "dersAdi": "Havalimanı Yönetimi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/havaliman_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Hukukun Temel Kavramlari",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/hukukun_temel_kavramlari_sorular.json"
-    },
-    {
-      "dersAdi": "Isletme Yonetimi",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/isletme_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Lojistik Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/lojistik_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Musteri Iliskileri Yonetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/musteri_iliskileri_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/yabanci_dil_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yolcu Hizmetleri",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/yolcu_hizmetleri_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Halkla İlişkiler",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/halkla_iliskiler_sorular.json"
+        },
+        {
+          "dersAdi": "Havacılık Hukuku",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/havacilik_hukuku_sorular.json"
+        },
+        {
+          "dersAdi": "Havalimanı Yönetimi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/havaliman_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Lojistik Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/lojistik_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Müşteri İlişkileri Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/musteri_iliskileri_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Yolcu Hizmetleri",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/yolcu_hizmetleri_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Hava Trafik Kuralları Ve Hizmetleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Havacılık Güvenliği",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Havacılık İşletmeciliği Terminolojisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Havayolu Yönetimi",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/sivil_hava_ulastirma_isletmeciligi/questions/havaliman_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Rezervasyon Ve Bilet Satışı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Satış Yönetimi Ve Kişisel Satış",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

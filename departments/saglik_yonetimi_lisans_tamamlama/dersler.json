@@ -1,131 +1,200 @@
 {
-  "bolum": "Saglik Yonetimi Lisans Tamamlama",
-  "dersler": [
-    {
-      "dersAdi": "Acil Hizmetlerin Yonetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/acil_hizmetlerin_yonetimi_sorular.json"
+  "bolum": "Sağlık Yönetimi",
+  "siniflar": {
+    "3": {
+      "guz": [
+        {
+          "dersAdi": "Acil Hizmetlerin Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/acil_hizmetlerin_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Bilimsel Araştırma Teknikleri",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/bilimsel_arastirma_teknikleri_sorular.json"
+        },
+        {
+          "dersAdi": "İlk Yardım",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/ilk_yardim_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık İletişimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/sagl_k_iletisimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık İşletmelerinde Risk Yönetimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/sagl_k_isletmelerinde_risk_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Kurumları Yönetiminde Güncel Gelişmeler",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/sagl_k_kurumlar_yonetiminde_guncel_gelismeler_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Halkla İlişkiler",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/halkla_iliskiler_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Eğitimi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/sagl_k_iletisimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık İşletmelerinde Lojistik Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_isletmelerinde_lojistik_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık İşletmelerinde Teknoloji Yönetimi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_isletmelerinde_lojistik_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Temel Hastalıklar Bilgisi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/temel_hastaliklar_bilgisi_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetimde Güncel Yaklaşımlar",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Auzef Sağlık Yönetimi Lisans Tamamlama",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     },
-    {
-      "dersAdi": "Bilimsel Arastirma Teknikleri",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/bilimsel_arastirma_teknikleri_sorular.json"
-    },
-    {
-      "dersAdi": "Dunyada Ve Turkiye de Saglik Sistemleri",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/dunyada_ve_turkiye_de_saglik_sistemleri_sorular.json"
-    },
-    {
-      "dersAdi": "Girisimcilik",
-      "konu": 0,
-      "soru": 14,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/girisimcilik_sorular.json"
-    },
-    {
-      "dersAdi": "Halkla Iliskiler",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/halkla_iliskiler_sorular.json"
-    },
-    {
-      "dersAdi": "Ilk Yardim",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/ilk_yardim_sorular.json"
-    },
-    {
-      "dersAdi": "Orgutsel Davranis",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/orgutsel_davranis_sorular.json"
-    },
-    {
-      "dersAdi": "Sağlık İletişimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/sagl_k_iletisimi_sorular.json"
-    },
-    {
-      "dersAdi": "Saglik Isletmelerinde Lojistik Yonetimi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_isletmelerinde_lojistik_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Sağlık İşletmelerinde Risk Yönetimi",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/sagl_k_isletmelerinde_risk_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Sağlık Kurumları Yönetiminde Güncel Gelişmeler",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/sagl_k_kurumlar_yonetiminde_guncel_gelismeler_sorular.json"
-    },
-    {
-      "dersAdi": "Saglik Sigortaciligi",
-      "konu": 0,
-      "soru": 8,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_sigortaciligi_sorular.json"
-    },
-    {
-      "dersAdi": "Saglik Sosyolojisi",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_sosyolojisi_sorular.json"
-    },
-    {
-      "dersAdi": "Saglik Turizmi Yonetimi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_turizmi_yonetimi_sorular.json"
-    },
-    {
-      "dersAdi": "Stratejik Yonetim",
-      "konu": 0,
-      "soru": 6,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/stratejik_yonetim_sorular.json"
-    },
-    {
-      "dersAdi": "Temel Hastaliklar Bilgisi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/temel_hastaliklar_bilgisi_sorular.json"
-    },
-    {
-      "dersAdi": "Tibbi Domumantasyon Ve Saglik Islemleri",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/tibbi_domumantasyon_ve_saglik_islemleri_sorular.json"
-    },
-    {
-      "dersAdi": "Tuketici Davranislari",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/tuketici_davranislari_sorular.json"
+    "4": {
+      "guz": [
+        {
+          "dersAdi": "Dünyada Ve Türkiye’de Sağlık Sistemleri",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/dunyada_ve_turkiye_de_saglik_sistemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Girişimcilik",
+          "konu": 0,
+          "soru": 14,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/girisimcilik_sorular.json"
+        },
+        {
+          "dersAdi": "Örgütsel Davranış",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/orgutsel_davranis_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Sigortacılığı",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_sigortaciligi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Sosyolojisi",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_sosyolojisi_sorular.json"
+        },
+        {
+          "dersAdi": "Stratejik Yönetim",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/stratejik_yonetim_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Marka Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Proje Yönetimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sağlık İşletmelerinde Yatırım Analizi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/sagl_k_isletmelerinde_risk_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Turizmi Yönetimi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/saglik_turizmi_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Tıbbi Dömümantasyon Ve Sağlık İşlemleri",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/tibbi_domumantasyon_ve_saglik_islemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Tüketici Davranışları",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/saglik_yonetimi_lisans_tamamlama/questions/tuketici_davranislari_sorular.json"
+        },
+        {
+          "dersAdi": "Auzef Sağlık Yönetimi Lisans Tamamlama",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }

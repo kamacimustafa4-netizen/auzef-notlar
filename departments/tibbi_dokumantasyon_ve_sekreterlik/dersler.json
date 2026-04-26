@@ -1,152 +1,263 @@
 {
-  "bolum": "Tibbi Dokumantasyon Ve Sekreterlik",
-  "dersler": [
-    {
-      "dersAdi": "A. I. Ve Ink. Tarihi 1",
-      "konu": 0,
-      "soru": 11,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/a_i_ve_ink_tarihi_1_sorular.json"
+  "bolum": "Tıbbi Dokümantasyon Ve Sekreterlik",
+  "siniflar": {
+    "1": {
+      "guz": [
+        {
+          "dersAdi": "A. İ. Ve İnk. Tarihi 1",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/a_i_ve_ink_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "İstatistik",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/istatistik_sorular.json"
+        },
+        {
+          "dersAdi": "Halkla İlişkiler",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/halkla_iliskiler_sorular.json"
+        },
+        {
+          "dersAdi": "Bilgi Teknolojileri",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/bilgi_teknolojileri_sorular.json"
+        },
+        {
+          "dersAdi": "Tıbbi Dokümantasyon",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 1",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 1",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Biyoistatistik",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/biyoistatistik_sorular.json"
+        },
+        {
+          "dersAdi": "(Kaldırıldı)",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/klavye_kullanimina_giris_kaldirildi_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "A. İ. Ve İnk. Tarihi 2",
+          "konu": 0,
+          "soru": 11,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/a_i_ve_ink_tarihi_1_sorular.json"
+        },
+        {
+          "dersAdi": "Çevre Sağlığı",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/cevre_sagligi_sorular.json"
+        },
+        {
+          "dersAdi": "İş Sağlığı ve Güvenliği",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/is_sagligi_ve_guvenligi_sorular.json"
+        },
+        {
+          "dersAdi": "Ofis Uygulamaları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Tıbbi Dokümantasyon ve Arşiv Bilgisi",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Dili 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/turk_dili_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yabancı Dil 2",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Auzef Tıbbi Dokümantasyon Ön Lisans",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_sorular.json"
+        },
+        {
+          "dersAdi": "Klavye Kullanımına Giriş (Kaldırıldı)",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/klavye_kullanimina_giris_kaldirildi_sorular.json"
+        },
+        {
+          "dersAdi": "Klavye Kullanımı (Kaldırıldı)",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/klavye_kullanimina_giris_kaldirildi_sorular.json"
+        }
+      ]
     },
-    {
-      "dersAdi": "Anatomi",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/anatomi_sorular.json"
-    },
-    {
-      "dersAdi": "Bilgi Teknolojileri",
-      "konu": 0,
-      "soru": 9,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/bilgi_teknolojileri_sorular.json"
-    },
-    {
-      "dersAdi": "Biyoistatistik",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/biyoistatistik_sorular.json"
-    },
-    {
-      "dersAdi": "Cevre Sagligi",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/cevre_sagligi_sorular.json"
-    },
-    {
-      "dersAdi": "Halk Sagligi",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/halk_sagligi_sorular.json"
-    },
-    {
-      "dersAdi": "Halkla Iliskiler",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/halkla_iliskiler_sorular.json"
-    },
-    {
-      "dersAdi": "Iletisim Bilimi",
-      "konu": 0,
-      "soru": 10,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/iletisim_bilimi_sorular.json"
-    },
-    {
-      "dersAdi": "Ilk Yardim",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/ilk_yardim_sorular.json"
-    },
-    {
-      "dersAdi": "Is Sagligi ve Guvenligi",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/is_sagligi_ve_guvenligi_sorular.json"
-    },
-    {
-      "dersAdi": "Istatistik",
-      "konu": 0,
-      "soru": 15,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/istatistik_sorular.json"
-    },
-    {
-      "dersAdi": "Klavye Kullanimina Giris Kaldirildi",
-      "konu": 0,
-      "soru": 4,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/klavye_kullanimina_giris_kaldirildi_sorular.json"
-    },
-    {
-      "dersAdi": "Orgutsel Davranis",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/orgutsel_davranis_sorular.json"
-    },
-    {
-      "dersAdi": "Saglik Hizmetlerinde Yonetim",
-      "konu": 0,
-      "soru": 3,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/saglik_hizmetlerinde_yonetim_sorular.json"
-    },
-    {
-      "dersAdi": "Tibbi Dokumantasyon",
-      "konu": 0,
-      "soru": 7,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_sorular.json"
-    },
-    {
-      "dersAdi": "Tibbi Dokumantasyon Ve ICD Sistemleri",
-      "konu": 0,
-      "soru": 2,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_ve_icd_sistemleri_sorular.json"
-    },
-    {
-      "dersAdi": "Tibbi Dokumantasyon Ve Saglik islemleri",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_ve_saglik_islemleri_sorular.json"
-    },
-    {
-      "dersAdi": "Turk Dili 1",
-      "konu": 0,
-      "soru": 13,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/turk_dili_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yabanci Dil 1",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/yabanci_dil_1_sorular.json"
-    },
-    {
-      "dersAdi": "Yaşlı sağlığı",
-      "konu": 0,
-      "soru": 1,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/yasl_sagl_g_sorular.json"
-    },
-    {
-      "dersAdi": "Yonetim Ve Organizasyon",
-      "konu": 0,
-      "soru": 12,
-      "not": 0,
-      "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/yonetim_ve_organizasyon_sorular.json"
+    "2": {
+      "guz": [
+        {
+          "dersAdi": "Anatomi",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/anatomi_sorular.json"
+        },
+        {
+          "dersAdi": "Halk Sağlığı",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/halk_sagligi_sorular.json"
+        },
+        {
+          "dersAdi": "İletişim Bilimi",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/iletisim_bilimi_sorular.json"
+        },
+        {
+          "dersAdi": "İlk Yardım",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/ilk_yardim_sorular.json"
+        },
+        {
+          "dersAdi": "Tıbbi Dokümantasyon Ve Sağlık işlemleri",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_ve_saglik_islemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim Ve Organizasyon",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/yonetim_ve_organizasyon_sorular.json"
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Fizyoloji",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Örgütsel Davranış",
+          "konu": 0,
+          "soru": 12,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/orgutsel_davranis_sorular.json"
+        },
+        {
+          "dersAdi": "Sağlık Eğitimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Sağlık Hizmetlerinde Yönetim",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/saglik_hizmetlerinde_yonetim_sorular.json"
+        },
+        {
+          "dersAdi": "Tıbbi Dokümantasyon Ve ICD Sistemleri",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_ve_icd_sistemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Yaşlı sağlığı",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/yasl_sagl_g_sorular.json"
+        },
+        {
+          "dersAdi": "Auzef Tıbbi Dokümantasyon Ön Lisans",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/tibbi_dokumantasyon_ve_sekreterlik/questions/tibbi_dokumantasyon_sorular.json"
+        },
+        {
+          "dersAdi": "PLay Google Mağazamız",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "-> İndir",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "iOS Uygulamamız",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ]
     }
-  ]
+  },
+  "dersler": []
 }
