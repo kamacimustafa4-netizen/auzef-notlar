@@ -27,9 +27,9 @@
         {
           "dersAdi": "Matematik-1",
           "konu": 0,
-          "soru": 2,
+          "soru": 0,
           "not": 0,
-          "questionFile": "departments/iktisat/questions/matematik_2_sorular.json"
+          "questionFile": ""
         },
         {
           "dersAdi": "Sosyolojiye Giriş",
@@ -51,6 +51,13 @@
           "soru": 12,
           "not": 0,
           "questionFile": "departments/iktisat/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Hukukun Temel Kavramları",
+          "konu": 0,
+          "soru": 10,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/hukukun_temel_kavramlari_sorular.json"
         }
       ],
       "bahar": [
@@ -102,6 +109,20 @@
           "soru": 12,
           "not": 0,
           "questionFile": "departments/iktisat/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Finansal Muhasebe",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/finansal_muhasebe_sorular.json"
+        },
+        {
+          "dersAdi": "İktisat Tarihi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/iktisat_tarihi_sorular.json"
         }
       ]
     },
@@ -148,15 +169,50 @@
           "soru": 4,
           "not": 0,
           "questionFile": "departments/iktisat/questions/mikro_iktisat_sorular.json"
+        },
+        {
+          "dersAdi": "İktisatçılar İçin İstatistik-1",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/istatistik_sorular.json"
+        },
+        {
+          "dersAdi": "Kamu Yönetimi",
+          "konu": 0,
+          "soru": 9,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/kamu_yonetimi_sorular.json"
+        },
+        {
+          "dersAdi": "Maliye Teorisine Giriş",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Muhasebe Değerleme ve Dönem Sonu İşlemleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Türk İktisat Tarihi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/iktisat_tarihi_sorular.json"
         }
       ],
       "bahar": [
         {
           "dersAdi": "Borçlar Hukuku",
           "konu": 0,
-          "soru": 8,
+          "soru": 0,
           "not": 0,
-          "questionFile": "departments/iktisat/questions/ticaret_hukuku_sorular.json"
+          "questionFile": ""
         },
         {
           "dersAdi": "Değerlendirme ve Dönem Sonu işlemler",
@@ -192,6 +248,27 @@
           "soru": 12,
           "not": 0,
           "questionFile": "departments/iktisat/questions/yonetim_ve_organizasyon_sorular.json"
+        },
+        {
+          "dersAdi": "Çalışma Ekonomisi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/calisma_ekonomisi_sorular.json"
+        },
+        {
+          "dersAdi": "iktisat Sosyolojisi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İktisatçılar İçin İstatistik-2",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/istatistik_sorular.json"
         }
       ]
     },
@@ -238,6 +315,34 @@
           "soru": 1,
           "not": 0,
           "questionFile": "departments/iktisat/questions/uluslararasi_iktisat_teorisi_ve_politikasi_sorular.json"
+        },
+        {
+          "dersAdi": "Karar alma Teknikleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Para Teorisi Ve Politikası",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/para_teorisi_ve_politikasi_sorular.json"
+        },
+        {
+          "dersAdi": "Türk Vergi Sistemleri",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/turk_vergi_sistemleri_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası İktisat Teorisi",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/uluslararasi_iktisat_teorisi_sorular.json"
         }
       ],
       "bahar": [
@@ -265,9 +370,9 @@
         {
           "dersAdi": "Maliyet Muhasebesi",
           "konu": 0,
-          "soru": 7,
+          "soru": 0,
           "not": 0,
-          "questionFile": "departments/iktisat/questions/yonetim_muhasebesi_sorular.json"
+          "questionFile": ""
         },
         {
           "dersAdi": "Örgütsel Davranış",
@@ -282,6 +387,41 @@
           "soru": 6,
           "not": 0,
           "questionFile": "departments/iktisat/questions/para_teorisi_ve_politikasi_sorular.json"
+        },
+        {
+          "dersAdi": "Bankacılık Ve Finans Kurumu",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Ekonometri",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/ekonometri_sorular.json"
+        },
+        {
+          "dersAdi": "Finans Analizi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "İktisat metodolojisi",
+          "konu": 0,
+          "soru": 3,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/iktisat_metodolojisi_sorular.json"
+        },
+        {
+          "dersAdi": "Matematiksel İktisat",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
         }
       ]
     },
@@ -328,15 +468,50 @@
           "soru": 3,
           "not": 0,
           "questionFile": "departments/iktisat/questions/iktisat_metodolojisi_sorular.json"
+        },
+        {
+          "dersAdi": "İktisadi Büyüme",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/iktisadi_buyume_sorular.json"
+        },
+        {
+          "dersAdi": "Türkiye Ekonomisi",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/turkiye_ekonomisi_sorular.json"
+        },
+        {
+          "dersAdi": "Uluslararası Para Ve Finans",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uygulamalı İstatistik",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/istatistik_sorular.json"
+        },
+        {
+          "dersAdi": "Yönetim Muhasebesi",
+          "konu": 0,
+          "soru": 7,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/yonetim_muhasebesi_sorular.json"
         }
       ],
       "bahar": [
         {
           "dersAdi": "Çevre Ekonomisi",
           "konu": 0,
-          "soru": 6,
+          "soru": 0,
           "not": 0,
-          "questionFile": "departments/iktisat/questions/turkiye_ekonomisi_sorular.json"
+          "questionFile": ""
         },
         {
           "dersAdi": "Güncel Ekonomik Sorunlar",
@@ -374,7 +549,28 @@
           "questionFile": "departments/iktisat/questions/uretim_yonetimi_sorular.json"
         },
         {
-          "dersAdi": "Auzef İktisat Açık Öğretim",
+          "dersAdi": "Finansal Yönetim",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/finansal_yonetim_sorular.json"
+        },
+        {
+          "dersAdi": "İktisadi Kalkınma",
+          "konu": 0,
+          "soru": 4,
+          "not": 0,
+          "questionFile": "departments/iktisat/questions/iktisadi_buyume_ve_kalkinma_sorular.json"
+        },
+        {
+          "dersAdi": "İktisadi Planlama Teknikleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Uluslararası Piyasalar Ve Türkiye",
           "konu": 0,
           "soru": 0,
           "not": 0,

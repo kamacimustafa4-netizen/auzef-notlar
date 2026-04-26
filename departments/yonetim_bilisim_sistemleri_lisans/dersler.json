@@ -44,6 +44,13 @@
           "soru": 0,
           "not": 0,
           "questionFile": ""
+        },
+        {
+          "dersAdi": "Yönetim Bilişim Sistemleri",
+          "konu": 0,
+          "soru": 1,
+          "not": 0,
+          "questionFile": "departments/yonetim_bilisim_sistemleri_lisans/questions/yonetim_bilisim_sistemleri_sorular.json"
         }
       ],
       "bahar": [
@@ -168,16 +175,16 @@
         {
           "dersAdi": "Veri Bilimi",
           "konu": 0,
-          "soru": 2,
+          "soru": 0,
           "not": 0,
-          "questionFile": "departments/yonetim_bilisim_sistemleri_lisans/questions/veri_yap_lar_sorular.json"
+          "questionFile": ""
         },
         {
           "dersAdi": "Veri Tabanı Yönetim Sistemleri",
           "konu": 0,
-          "soru": 1,
+          "soru": 0,
           "not": 0,
-          "questionFile": "departments/yonetim_bilisim_sistemleri_lisans/questions/yonetim_bilisim_sistemleri_sorular.json"
+          "questionFile": ""
         },
         {
           "dersAdi": "Web Programlama 1",
@@ -365,13 +372,6 @@
           "soru": 0,
           "not": 0,
           "questionFile": ""
-        },
-        {
-          "dersAdi": "Auzef Yönetim Bilişim Sistemleri Lisans",
-          "konu": 0,
-          "soru": 1,
-          "not": 0,
-          "questionFile": "departments/yonetim_bilisim_sistemleri_lisans/questions/yonetim_bilisim_sistemleri_sorular.json"
         }
       ]
     }

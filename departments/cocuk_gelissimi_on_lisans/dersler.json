@@ -4,39 +4,39 @@
     "1": {
       "guz": [
         {
-          "dersAdi": "Atatürk İlkeleri ve İnkılap tarihi-1",
+          "dersAdi": "Anatomi",
+          "konu": 0,
+          "soru": 15,
+          "not": 0,
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/anatomi_sorular.json"
+        },
+        {
+          "dersAdi": "Aİ İnklap tarihi-1",
           "konu": 0,
           "soru": 11,
           "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/ai_inklap_tarihi_1_sorular.json"
         },
         {
-          "dersAdi": "Çocuk Gelişimi-1",
+          "dersAdi": "Bilimsel Araştırma Teknkleri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Psikoloji",
           "konu": 0,
           "soru": 1,
           "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocuk_gelisimi_uygulamalar_sorular.json"
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/psikoloji_sorular.json"
         },
         {
-          "dersAdi": "Çocuk Sağlığı Ve Hastalıkları",
+          "dersAdi": "Sosyolojiye Giriş",
           "konu": 0,
-          "soru": 0,
+          "soru": 12,
           "not": 0,
-          "questionFile": ""
-        },
-        {
-          "dersAdi": "Çocuk Ve Oyun",
-          "konu": 0,
-          "soru": 0,
-          "not": 0,
-          "questionFile": ""
-        },
-        {
-          "dersAdi": "Okul Öncesi Eğitimde Araç Gereç Geliştirme",
-          "konu": 0,
-          "soru": 0,
-          "not": 0,
-          "questionFile": ""
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/sosyolojiye_giris_sorular.json"
         },
         {
           "dersAdi": "Türk Dili-1",
@@ -51,9 +51,7 @@
           "soru": 12,
           "not": 0,
           "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/yabanci_dil_1_sorular.json"
-        }
-      ],
-      "bahar": [
+        },
         {
           "dersAdi": "Anne Baba Eğitimi",
           "konu": 0,
@@ -62,32 +60,55 @@
           "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/anne_baba_egitimi_sorular.json"
         },
         {
-          "dersAdi": "Atatürk İlkeleri Ve İnkılap Tarihi-2",
+          "dersAdi": "Çocuk Gelişimi 1",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Çocuk Sağlığı ve Hastalıkları",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Temel Eğitimde Drama",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        }
+      ],
+      "bahar": [
+        {
+          "dersAdi": "Anne-Çocuk Beslenmesi",
+          "konu": 0,
+          "soru": 2,
+          "not": 0,
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/anne_cocuk_beslenmesi_sorular.json"
+        },
+        {
+          "dersAdi": "Aİ İnklap Tarihi-2",
           "konu": 0,
           "soru": 11,
           "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/ataturk_ilkeleri_ve_inkilap_tarihi_1_sorular.json"
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/ai_inklap_tarihi_1_sorular.json"
         },
         {
-          "dersAdi": "Çocukluk Döneminde Sanat ve Yaratıcılık",
+          "dersAdi": "Gelişim Psikolojisi",
           "konu": 0,
-          "soru": 5,
+          "soru": 1,
           "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocukluk_doneminde_sanat_sorular.json"
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/psikoloji_sorular.json"
         },
         {
-          "dersAdi": "Çocukluk ve Ergenlik Döneminde Gelişim",
+          "dersAdi": "İstatistik",
           "konu": 0,
-          "soru": 10,
+          "soru": 15,
           "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/bebeklik_doneminde_gelisim_ve_egitim_sorular.json"
-        },
-        {
-          "dersAdi": "Okul Öncesi Eğitim Programları-I",
-          "konu": 0,
-          "soru": 13,
-          "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/okul_oncesi_egitim_programlari_i_sorular.json"
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/istatistik_sorular.json"
         },
         {
           "dersAdi": "Türk Dili-2",
@@ -102,17 +123,87 @@
           "soru": 12,
           "not": 0,
           "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/yabanci_dil_1_sorular.json"
+        },
+        {
+          "dersAdi": "Yaşam Becerileri",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Çocuk Gelişimi 2",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Çocuk ve Oyun",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Erken Çocukluk Eğitimi",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
         }
       ]
     },
     "2": {
       "guz": [
         {
-          "dersAdi": "Bebeklik Ve Çocukluk Döneminde Normal Ve Atipik Gelişim",
+          "dersAdi": "Bebeklik Döneminde Gelişim Ve Eğitim",
           "konu": 0,
           "soru": 10,
           "not": 0,
           "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/bebeklik_doneminde_gelisim_ve_egitim_sorular.json"
+        },
+        {
+          "dersAdi": "Çocuk Resimlerinin Analizi",
+          "konu": 0,
+          "soru": 8,
+          "not": 0,
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocuk_resimlerinin_analizi_sorular.json"
+        },
+        {
+          "dersAdi": "Çocukluk Döneminde Sanat",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocukluk_doneminde_sanat_sorular.json"
+        },
+        {
+          "dersAdi": "Erken Çocukluk Döneminde Dil Edinimi",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/erken_cocukluk_doneminde_dil_edinimi_sorular.json"
+        },
+        {
+          "dersAdi": "Erken Müdahale Programları Ve Gelişimsel Destek",
+          "konu": 0,
+          "soru": 6,
+          "not": 0,
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/erken_mudahale_programlari_ve_gelisimsel_destek_sorular.json"
+        },
+        {
+          "dersAdi": "Resimli Çocuk Kitapları",
+          "konu": 0,
+          "soru": 5,
+          "not": 0,
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/resimli_cocuk_kitaplari_sorular.json"
+        },
+        {
+          "dersAdi": "Bebeklik Ve Çocukluk Döneminde Normal Ve Atipik Gelişim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
         },
         {
           "dersAdi": "Çocuk Edebiyatı",
@@ -122,83 +213,62 @@
           "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocuk_edebiyati_sorular.json"
         },
         {
-          "dersAdi": "Çocukla İletişim",
+          "dersAdi": "Okul Öncesi Eğitim Programları 1",
           "konu": 0,
-          "soru": 0,
+          "soru": 13,
           "not": 0,
-          "questionFile": ""
-        },
-        {
-          "dersAdi": "Davranış Yönetimi",
-          "konu": 0,
-          "soru": 0,
-          "not": 0,
-          "questionFile": ""
-        },
-        {
-          "dersAdi": "Değerler Eğitimi",
-          "konu": 0,
-          "soru": 0,
-          "not": 0,
-          "questionFile": ""
-        },
-        {
-          "dersAdi": "Sağlık Eğitimi",
-          "konu": 0,
-          "soru": 0,
-          "not": 0,
-          "questionFile": ""
-        },
-        {
-          "dersAdi": "İlk Yardım",
-          "konu": 0,
-          "soru": 2,
-          "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/ilk_yardim_sorular.json"
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/okul_oncesi_egitim_programlari_i_sorular.json"
         }
       ],
       "bahar": [
         {
-          "dersAdi": "Çocuk Gelişimi Stajı",
+          "dersAdi": "Çocuk Gelişimi Uygulaması",
           "konu": 0,
           "soru": 1,
           "not": 0,
           "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocuk_gelisimi_uygulamalar_sorular.json"
         },
         {
-          "dersAdi": "Çocuk Gelişimi Uygulamaları",
-          "konu": 0,
-          "soru": 1,
-          "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocuk_gelisimi_uygulamalar_sorular.json"
-        },
-        {
-          "dersAdi": "Çocuk Gelişimi Ve Eğitimi",
-          "konu": 0,
-          "soru": 1,
-          "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocuk_gelisimi_uygulamalar_sorular.json"
-        },
-        {
-          "dersAdi": "Çocukluk Döneminde Müzik Ve Sanat",
-          "konu": 0,
-          "soru": 5,
-          "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/cocukluk_doneminde_sanat_sorular.json"
-        },
-        {
-          "dersAdi": "Erken Müdahale Programları ve Gelişimsel Destek",
-          "konu": 0,
-          "soru": 6,
-          "not": 0,
-          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/erken_mudahale_programlari_ve_gelisimsel_destek_sorular.json"
-        },
-        {
-          "dersAdi": "Gelişimsel Psikopatoloji",
+          "dersAdi": "Çocuklarda Uyum ve Davranış Problemleri",
           "konu": 0,
           "soru": 0,
           "not": 0,
           "questionFile": ""
+        },
+        {
+          "dersAdi": "Çocukluk Ve Ergenlik Döneminde Gelişim",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Erken Çocukluk Eğitiminde Montessori yaklaşımı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Çocuk Gelişimi Stajı",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Çocuk Hakları Ve Hukuku",
+          "konu": 0,
+          "soru": 0,
+          "not": 0,
+          "questionFile": ""
+        },
+        {
+          "dersAdi": "Okul Öncesi Eğitim Programları 2",
+          "konu": 0,
+          "soru": 13,
+          "not": 0,
+          "questionFile": "departments/cocuk_gelissimi_on_lisans/questions/okul_oncesi_egitim_programlari_i_sorular.json"
         }
       ]
     }
