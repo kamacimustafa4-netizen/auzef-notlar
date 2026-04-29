@@ -319,6 +319,12 @@
   },
   {
     "department": "adalet",
+    "course": "Uyap",
+    "json_file": "departments/adalet/questions/uyap_sorular.json",
+    "exam_count": 4
+  },
+  {
+    "department": "adalet",
     "course": "Yargı Örgütü ve Tebligat",
     "json_file": "departments/adalet/questions/yarg_orgutu_ve_tebligat_sorular.json",
     "exam_count": 1
@@ -493,6 +499,12 @@
   },
   {
     "department": "bankacilik_ve_sigortacilik",
+    "course": "Dış Ticaret İşlemleri",
+    "json_file": "departments/bankacilik_ve_sigortacilik/questions/dis_ticaret_islemleri_sorular.json",
+    "exam_count": 2
+  },
+  {
+    "department": "bankacilik_ve_sigortacilik",
     "course": "Genel Iktisat",
     "json_file": "departments/bankacilik_ve_sigortacilik/questions/genel_iktisat_sorular.json",
     "exam_count": 10
@@ -514,6 +526,12 @@
     "course": "Kredi Taleplerinin Değerlendirilmesi",
     "json_file": "departments/bankacilik_ve_sigortacilik/questions/kredi_taleplerinin_degerlendirilmesi_sorular.json",
     "exam_count": 1
+  },
+  {
+    "department": "bankacilik_ve_sigortacilik",
+    "course": "Reasürans Uygulamaları",
+    "json_file": "departments/bankacilik_ve_sigortacilik/questions/reasurans_uygulamalari_sorular.json",
+    "exam_count": 2
   },
   {
     "department": "bankacilik_ve_sigortacilik",
@@ -2274,6 +2292,12 @@
     "exam_count": 16
   },
   {
+    "department": "gazetecilik_lisans_uzaktan",
+    "course": "Türk Dış Politikası",
+    "json_file": "departments/gazetecilik_lisans_uzaktan/questions/turk_dis_politikasi_sorular.json",
+    "exam_count": 10
+  },
+  {
     "department": "grafik_tasarimi_on_lisans",
     "course": "Ambalaj Grafigi Tasarimi",
     "json_file": "departments/grafik_tasarimi_on_lisans/questions/ambalaj_grafigi_tasarimi_sorular.json",
@@ -2611,6 +2635,12 @@
   },
   {
     "department": "hukuk_buro_yonetimi_ve_sekreterligi",
+    "course": "Ceza Muhakemesi Ve İnfaz Hukuku",
+    "json_file": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/ceza_muhakemesi_ve_infaz_hukuku_sorular.json",
+    "exam_count": 3
+  },
+  {
+    "department": "hukuk_buro_yonetimi_ve_sekreterligi",
     "course": "Etkili iletişim Becerileri",
     "json_file": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/etkili_iletisim_becerileri_sorular.json",
     "exam_count": 5
@@ -2698,6 +2728,12 @@
     "course": "Turk Dili 2",
     "json_file": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/turk_dili_2_sorular.json",
     "exam_count": 16
+  },
+  {
+    "department": "hukuk_buro_yonetimi_ve_sekreterligi",
+    "course": "Uyap",
+    "json_file": "departments/hukuk_buro_yonetimi_ve_sekreterligi/questions/uyap_sorular.json",
+    "exam_count": 4
   },
   {
     "department": "hukuk_buro_yonetimi_ve_sekreterligi",
@@ -4705,6 +4741,12 @@
   },
   {
     "department": "perakende_satis_ve_magaza_yonetimi",
+    "course": "E-Ticaret ve Tedarik Zinciri Yönetimi",
+    "json_file": "departments/perakende_satis_ve_magaza_yonetimi/questions/e_ticaret_ve_tedarik_zinciri_yonetimi_sorular.json",
+    "exam_count": 4
+  },
+  {
+    "department": "perakende_satis_ve_magaza_yonetimi",
     "course": "Hukukun Temel Kavramlari",
     "json_file": "departments/perakende_satis_ve_magaza_yonetimi/questions/hukukun_temel_kavramlari_sorular.json",
     "exam_count": 14
@@ -6559,27 +6601,27 @@
   },
   {
     "department": "tarih",
-    "course": "17.-18. Yuzyil Osmanli Tarihi",
-    "json_file": "departments/tarih/questions/17_18_yuzyil_osmanli_tarihi_sorular.json",
-    "exam_count": 10
-  },
-  {
-    "department": "tarih",
     "course": "1.Dunya Savasi Tarihi 1914-1918",
     "json_file": "departments/tarih/questions/1_dunya_savasi_tarihi_1914_1918_sorular.json",
     "exam_count": 7
   },
   {
     "department": "tarih",
-    "course": "20. Yuzyil Turkiye sinde Gayrimuslimler ve Kurumlari",
-    "json_file": "departments/tarih/questions/20_yuzyil_turkiye_sinde_gayrimuslimler_ve_kurumlari_sorular.json",
-    "exam_count": 6
+    "course": "17.-18. Yuzyil Osmanli Tarihi",
+    "json_file": "departments/tarih/questions/17_18_yuzyil_osmanli_tarihi_sorular.json",
+    "exam_count": 10
   },
   {
     "department": "tarih",
     "course": "2.Mesrutiyet Donemi Tarihi",
     "json_file": "departments/tarih/questions/2_mesrutiyet_donemi_tarihi_sorular.json",
     "exam_count": 10
+  },
+  {
+    "department": "tarih",
+    "course": "20. Yuzyil Turkiye sinde Gayrimuslimler ve Kurumlari",
+    "json_file": "departments/tarih/questions/20_yuzyil_turkiye_sinde_gayrimuslimler_ve_kurumlari_sorular.json",
+    "exam_count": 6
   },
   {
     "department": "tarih",
