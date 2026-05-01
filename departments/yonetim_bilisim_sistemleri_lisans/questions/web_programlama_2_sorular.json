@@ -1,872 +1,880 @@
 {
-    "course_name":  "Web Programlama 2",
-    "exams":  [
-                  {
-                      "exam_label":  "2024-2025 Final",
-                      "year":  "2024-2025",
-                      "exam_type":  "Final",
-                      "question_count":  20,
-                      "source_file":  "Web_Programlama-2_2024_2025_Final.docx",
-                      "questions":  [
-                                        {
-                                            "question_number":  1,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC’de SQL Server veri tabanı yönetim sisteminin EF Core ile birlikte kullanılacağı varsayıldığında, proje oluşturulduktan sonra projeye SQL Server’a ait aşağıdaki hangi veri sağlayıcısı eklenmelidir?",
-                                            "options":  {
-                                                            "A":  "Microsoft.EntityFrameworkCore.SqlServer",
-                                                            "B":  "Microsoft.EfCore.SqlServer",
-                                                            "C":  "Microsoft.EntityFrameworkCore.InMemory",
-                                                            "D":  "MsSql.Data.EntityFrameworkCore",
-                                                            "E":  "Microsoft.EfCore.Sql"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  2,
-                                            "context":  "",
-                                            "question":  "Sunucu taraflı Web frameworkler (çerçeveleri) ile ilgili olarak aşağıdaki seçeneklerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Web frameworkler olmadan web programlama gerçekleştirilemez.",
-                                                            "B":  "Session (Oturum) yönetimi işlemlerini gerçekleştirebilirler.",
-                                                            "C":  "ORM\u0027ler (Object-relational mapping) aracılığıyla veritabanı bağlantısı yapılandırma işlemini gerçekleştirebilirler.",
-                                                            "D":  "Form yönetimi ve doğrulaması işlemlerini gerçekleştirebilirler.",
-                                                            "E":  "URL yönlendirme işlemini gerçekleştirebilirler."
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  3,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core uygulamalarında modele ait özellik değerinin mail adresine uygunluğunu denetleyen öznitelik aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "[MailAddress]",
-                                                            "B":  "[EmailAddress]",
-                                                            "C":  "[E-MailAddress]",
-                                                            "D":  "[Mail]",
-                                                            "E":  "[Email]"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  4,
-                                            "context":  "public class Personel {public int PerNo {get; set;} public string PerBirim {get; set;}}",
-                                            "question":  "Yukarıdaki sınıf form elemanlarına model bağlama ile bağlanmak istendiğinde form nasıl tanımlanabilir?",
-                                            "options":  {
-                                                            "A":  "\u003cinput name=\"No\" /\u003e \u003cinput name=\"Birim\" /\u003e",
-                                                            "B":  "\u003cinput asp-for=\"Personel.PerNo\" /\u003e \u003cinput asp-for=\"Personel.PerBirim\" /\u003e",
-                                                            "C":  "\u003cinput name=\"PerNo\" /\u003e \u003cinput name=\"PerBirim\" /\u003e",
-                                                            "D":  "\u003cinput id=\"PerNo\" /\u003e \u003cinput id=\"PerBirim\" /\u003e",
-                                                            "E":  "\u003ctextarea name=\"PerNo\"\u003e\u003c/textarea\u003e \u003ctextarea name=\"PerBirim\"\u003e\u003c/textarea\u003e"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  5,
-                                            "context":  "",
-                                            "question":  "Cookie’ler ile aşağıdaki bilgilerin hangisini tutmak en uygun olur?",
-                                            "options":  {
-                                                            "A":  "Veri tabanı bilgilerini",
-                                                            "B":  "Kullanıcı renk tercihlerini",
-                                                            "C":  "Sunucu bilgilerini",
-                                                            "D":  "Kullanıcı şifre bilgilerini",
-                                                            "E":  "Kullanıcı yetki bilgilerini"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  6,
-                                            "context":  "public IActionResult Index() {new int[6] sayilar = {0, 1, 2, 3, 4, 5}; var sonuc = sayilar.FirstOrDefault(x =\u003e x % 3 == 0); return Content(sonuc.ToString());}",
-                                            "question":  "Yukarıda yer alan Index() action metodu çağrıldığında ekrana hangi sayı basılır?",
-                                            "options":  {
-                                                            "A":  "0",
-                                                            "B":  "3",
-                                                            "C":  "2",
-                                                            "D":  "4",
-                                                            "E":  "1"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  7,
-                                            "context":  "var sonuc = from x in Personel where x.PersonelNo \u003e 10 select x;",
-                                            "question":  "Yukarıda yer alan kod bloğu Asp.Net Core uygulamalarında hangi sözdizimi yapısına uygundur?",
-                                            "options":  {
-                                                            "A":  "C#",
-                                                            "B":  "Html",
-                                                            "C":  "LINQ-Method syntax",
-                                                            "D":  "LINQ-Query syntax",
-                                                            "E":  "Asp"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  8,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC uygulamalarında bir model içerisinde kullanılan Display özelliği hangi tag helper ile kullanılır?",
-                                            "options":  {
-                                                            "A":  "Input",
-                                                            "B":  "Textarea",
-                                                            "C":  "Select",
-                                                            "D":  "Text",
-                                                            "E":  "Label"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  9,
-                                            "context":  "Asp.Net Core MVC’de oluşturulan bir web APP’ye ait http: //localhost/api/Personel/ adresine bir Http Get metodu isteği gönderildiğini varsayalım.",
-                                            "question":  "Bu durumda RESTful mimarisine göre hangi işlemin yapılması beklenir?",
-                                            "options":  {
-                                                            "A":  "Personel kayıtlarının http isteğinde gelen veriler ile güncellenmesi",
-                                                            "B":  "Http isteğinde gelen veriler doğrultusunda yeni bir personel kaydı eklenmesi",
-                                                            "C":  "Tüm personel kayıtlarının silinmesi",
-                                                            "D":  "Hata mesajı döndürmesi",
-                                                            "E":  "Tüm personel kayıtlarının listelenmesi"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  10,
-                                            "context":  "[Range(5, 10)] public int Deger {get; set;}",
-                                            "question":  "Bir Asp.Net Core MVC uygulamasında bir model içerisinde yukarıdaki gibi tanımlı [Range(5, 10)] özniteliği ile Deger özelliği için nasıl bir kısıtlama sağlanmış olur?",
-                                            "options":  {
-                                                            "A":  "Değer özelliğinin sadece 5 ve 10 değerlerini alabilmesi sağlanır.",
-                                                            "B":  "Değer özelliğinin maksimum 10 karakterli olması sağlanır.",
-                                                            "C":  "Değer özelliğinin minimum 5 karakterli olması sağlanır.",
-                                                            "D":  "Değer özelliğinin minimum 5, maksimum 10 karakterli olması sağlanır.",
-                                                            "E":  "Değer özelliğinin [5, 10] arasında değerler alabilmesi sağlanır."
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  11,
-                                            "context":  "",
-                                            "question":  "Bir Asp.Net Core MVC uygulamasında model doğrulamanın sunucu tarafında gerçekleşmesi için aşağıdaki hangi nesneye ait özellik true (doğru) olmalıdır?",
-                                            "options":  {
-                                                            "A":  "ModelState.IsValid",
-                                                            "B":  "Data.IsTrue",
-                                                            "C":  "Js.IsTrue",
-                                                            "D":  "Model.IsTrue",
-                                                            "E":  "ModelState.Valid"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  12,
-                                            "context":  "",
-                                            "question":  "Bir Asp.Net Core MVC uygulamasında migration oluşturduktan sonra migration işlemini yürütmek (veritabanına uygulamak) için Package Manager Console Ekranı’nda aşağıdaki hangi komut çalıştırılmalıdır?",
-                                            "options":  {
-                                                            "A":  "Add-Migration",
-                                                            "B":  "Select-Database",
-                                                            "C":  "Update-Database",
-                                                            "D":  "Add-Sql",
-                                                            "E":  "Add-Database"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  13,
-                                            "context":  "public DateTime KayitTarihi {get; set;}",
-                                            "question":  "Şeklinde tanımlı bir model elemanının tag helper ile kullanım biçimi aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "\u003cinput asp-tag=\"KayitTarihi\" /\u003e",
-                                                            "B":  "\u003cinput text=\"KayitTarihi\" /\u003e",
-                                                            "C":  "\u003cinput asp-for=\"KayitTarihi\" /\u003e",
-                                                            "D":  "\u003cinput type=\"KayitTarihi\" /\u003e",
-                                                            "E":  "\u003cinput asp-label=\"KayitTarihi\" /\u003e"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  14,
-                                            "context":  "",
-                                            "question":  "Form tag helper’ı ile siteler arası istek sahteciliği (CSRF) saldırısını önlemek için kullanılan özellik aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "asp-protocol",
-                                                            "B":  "asp-area",
-                                                            "C":  "asp-host",
-                                                            "D":  "asp-antiforgery",
-                                                            "E":  "asp-page"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  15,
-                                            "context":  "List kitaplar = new List {new Kitap {Ad = \u0027A\u0027, Sayfa = 80}, new Kitap {Ad = \u0027B\u0027, Sayfa = 90}, new Kitap {Ad = \u0027C\u0027, Sayfa = 70}, new Kitap {Ad = \u0027D\u0027, Sayfa = 40}, new Kitap {Ad = \u0027E\u0027, Sayfa = 30}}; bool sonuc = kitaplar.All(x =\u003e x.Sayfa \u003e 50 \u0026\u0026 x.Sayfa \u003c 95);",
-                                            "question":  "Yukarıdaki kod çalıştırıldığında sonuc değişkenindeki değer ne olur?",
-                                            "options":  {
-                                                            "A":  "2",
-                                                            "B":  "true",
-                                                            "C":  "3",
-                                                            "D":  "false",
-                                                            "E":  "5"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  16,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core uygulamalarında kullanılan [ApiController] özniteliği için aşağıdakilerden hangisi doğrudur?",
-                                            "options":  {
-                                                            "A":  "API\u0027ye ait port numarasını ayarlar.",
-                                                            "B":  "Kullanıma hazır doğrulama ve model bağlama sağlar.",
-                                                            "C":  "Controller sınıfına miras verir.",
-                                                            "D":  "Postman kullanımına olanak tanır.",
-                                                            "E":  "Veri tabanına kayıt işlemlerinden sorumludur."
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  17,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core Rest Api mimarisinde bir kaydı güncellemek istediğimizde bu isteğe yanıt veren metot aşağıdaki hangi öznitelik ile belirtilmelidir?",
-                                            "options":  {
-                                                            "A":  "HttpGet",
-                                                            "B":  "HttpUpdate",
-                                                            "C":  "HttpDelete",
-                                                            "D":  "HttpPost",
-                                                            "E":  "HttpPut"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  18,
-                                            "context":  "var context = new KitapContext(); context.Add(new Kitap() {KitapAd = \u0027Budala\u0027, Yazar = \u0027Dostoyevsky\u0027}); context.SaveChanges();",
-                                            "question":  "Yukarıdaki kod çalıştırıldığında veri tabanında aşağıdaki işlemlerden hangisi gerçekleşir?",
-                                            "options":  {
-                                                            "A":  "Read",
-                                                            "B":  "Truncate",
-                                                            "C":  "Insert",
-                                                            "D":  "Update",
-                                                            "E":  "Delete"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  19,
-                                            "context":  "public class Personel {public int PerNo {get; set;} public string PerBirim {get; set;}}",
-                                            "question":  "Yukarıdaki sınıf form elemanlarına model bağlama ile bağlanmak istendiğinde form nasıl tanımlanabilir?",
-                                            "options":  {
-                                                            "A":  "\u003cinput name=\"No\" /\u003e \u003cinput name=\"Birim\" /\u003e",
-                                                            "B":  "\u003cinput asp-for=\"Personel.PerNo\" /\u003e \u003cinput asp-for=\"Personel.PerBirim\" /\u003e",
-                                                            "C":  "\u003cinput name=\"PerNo\" /\u003e \u003cinput name=\"PerBirim\" /\u003e",
-                                                            "D":  "\u003cinput id=\"PerNo\" /\u003e \u003cinput id=\"PerBirim\" /\u003e",
-                                                            "E":  "\u003cinput asp-controller=\"Personel\" asp-action=\"Kaydet\" /\u003e"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  20,
-                                            "context":  "",
-                                            "question":  "Bir Model sınıfı tanımlanmak istendiğinde bu sınıfın uzantısı aşağıdakilerden hangisi olabilir?",
-                                            "options":  {
-                                                            "A":  ".asp",
-                                                            "B":  ".html",
-                                                            "C":  ".js",
-                                                            "D":  ".cs",
-                                                            "E":  ".cshtml"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  },
-                  {
-                      "exam_label":  "2022 Final",
-                      "year":  "2022",
-                      "exam_type":  "Final",
-                      "question_count":  20,
-                      "source_file":  "Web_Programlama_2_2022_YilYok_Final.docx",
-                      "questions":  [
-                                        {
-                                            "question_number":  1,
-                                            "context":  "",
-                                            "question":  "Bir Html Form gönderilmek istendiğinde ve gönderim metodu tanımlanmadığında varsayılan olarak hangi metod ile gönderilir?",
-                                            "options":  {
-                                                            "A":  "Method",
-                                                            "B":  "Get",
-                                                            "C":  "Action",
-                                                            "D":  "Model",
-                                                            "E":  "Post"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  2,
-                                            "context":  "I. First() metodunun aşırı yüklenmiş iki sürümü mevcuttur. II. First() metodunun hiç bir parametre almayan hali veri kaynağından ilk öğeyi döndürür. III. First() metodu parametre olarak bir koşul aldığında, koşulu karşılayan ilk öğeyi döndürür. IV. First() metodu şartı sağlayan bir kayıt bulamadıysa null döndürür.",
-                                            "question":  "LINQ First() metodu için yukarıda verilenlerden hangisi/hangileri yanlıştır?",
-                                            "options":  {
-                                                            "A":  "II ve III",
-                                                            "B":  "Yalnız I",
-                                                            "C":  "I, II ve III",
-                                                            "D":  "I ve III",
-                                                            "E":  "Yalnız IV"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  3,
-                                            "context":  "",
-                                            "question":  "Bir form, post işlemi ile gönderildiğinde bu işlemi karşılayacak metod nasıl tanımlanabilir?",
-                                            "options":  {
-                                                            "A":  "public string Get() {return (\"deneme\");}",
-                                                            "B":  "public string HttpGet() {return (\"deneme\");}",
-                                                            "C":  "[HttpPost] public string Kaydet() {return (\"deneme\");}",
-                                                            "D":  "[HttpGet] public string Kaydet() {return (\"deneme\");}",
-                                                            "E":  "public string HttpPost() {return (\"deneme\");}"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  4,
-                                            "context":  "",
-                                            "question":  "Bir web API isteğinde istemcinin istediği eylemin başarıyla gerçekleştiğini belirten HTTP durum kodu aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "500",
-                                                            "B":  "100",
-                                                            "C":  "200",
-                                                            "D":  "300",
-                                                            "E":  "400"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  5,
-                                            "context":  "List\u003cKitap\u003e Kitaplar = new List\u003cKitap\u003e() {new Kitap(){KitapID=1, KitapSayfasi=90}, new Kitap(){KitapID=2, KitapSayfasi=80}, new Kitap(){KitapID=3, KitapSayfasi=90}, new Kitap(){KitapID=4, KitapSayfasi=40}, new Kitap(){KitapID=5, KitapSayfasi=30}}; var sonuc = Kitaplar.Max(s =\u003e s.KitapSayfasi);",
-                                            "question":  "Yukarıdaki kod çalıştırıldığında sonuç değişkenindeki değer ne olur?",
-                                            "options":  {
-                                                            "A":  "90",
-                                                            "B":  "30",
-                                                            "C":  "0",
-                                                            "D":  "330",
-                                                            "E":  "66"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  6,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC projesinde “renk” isimli bir cookie değişkenine hangi kod ile ulaşılabilir?",
-                                            "options":  {
-                                                            "A":  "Context.Query.Cookies[\"renk\"]",
-                                                            "B":  "Context.Request.Cookies[\"renk\"]",
-                                                            "C":  "Context.Forms.Cookies[\"renk\"]",
-                                                            "D":  "Session.Get.Cookies[\"renk\"]",
-                                                            "E":  "Context.Response.Cookies[\"renk\"]"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  7,
-                                            "context":  "",
-                                            "question":  "Bir yazılım mimari modeli olan MVC’nin açılımı nedir?",
-                                            "options":  {
-                                                            "A":  "Model-ViewBag-C#",
-                                                            "B":  "Model-Vision-Component",
-                                                            "C":  "Model-View-Controller",
-                                                            "D":  "Model-Validation-Component",
-                                                            "E":  "Model-Validation-Controller"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  8,
-                                            "context":  "",
-                                            "question":  "Yazılım geliştiriciler için önceden yazılmış bileşenler, kod parçacıkları ve uygulama şablonları sunan yapı aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "Web 2.0",
-                                                            "B":  "FrameWork",
-                                                            "C":  "Genel Web",
-                                                            "D":  "Web 1.0",
-                                                            "E":  "Web 4.0"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  9,
-                                            "context":  "",
-                                            "question":  "Bir model içerisinde Display özniteliğinin kullanılabilmesi için hangi namespace ekli olmalıdır?",
-                                            "options":  {
-                                                            "A":  "System.Threading.Task",
-                                                            "B":  "System.Namespace",
-                                                            "C":  "System.Linq",
-                                                            "D":  "System.ComponentModel.DataAnnotations",
-                                                            "E":  "System.Collections.Generic"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  10,
-                                            "context":  "public string KullaniciAdi {get; set;}",
-                                            "question":  "Bir Asp.Net Core uygulamasında özellik değeri uzunluğunun 20 karakteri aşmaması gerektiğini denetlemek için ilgili yere hangi ifade gelmelidir?",
-                                            "options":  {
-                                                            "A":  "[String(20)]",
-                                                            "B":  "StringLength[20]",
-                                                            "C":  "[StringMax(20)]",
-                                                            "D":  "[StringLength(20)]",
-                                                            "E":  "[Length(20)]"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  11,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core Mvc uygulamalarında bir Layout dosyasında aşağıdakilerden hangisi kesin olarak bulunmaz?",
-                                            "options":  {
-                                                            "A":  "Menüler",
-                                                            "B":  "Html kodları",
-                                                            "C":  "Model sınıfı tanımları",
-                                                            "D":  "Javascript kütüphaneleri referansları",
-                                                            "E":  "Css kütüphane"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  12,
-                                            "context":  "public class ValuesController: {}",
-                                            "question":  "ValuesController’ın bir ApiController olduğu düşünüldüğünde, varsayılan olarak ValuesController’ün miras alabileceği sınıf aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "ApiController",
-                                                            "B":  "Base",
-                                                            "C":  "ApiBaseController",
-                                                            "D":  "API",
-                                                            "E":  "ControllerBase"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  13,
-                                            "context":  "",
-                                            "question":  "I – Query String (Sorgu Dizisi), II – Hidden Fields (Gizli Alanlar), III – Session. Yukarıdakilerden hangisi/hangileri sunucu makinesinde tutulur?",
-                                            "options":  {
-                                                            "A":  "Yalnız III",
-                                                            "B":  "Yalnız I",
-                                                            "C":  "I ve II",
-                                                            "D":  "Yalnız II",
-                                                            "E":  "II ve III"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  14,
-                                            "context":  "",
-                                            "question":  "Bir Asp.Net Core MVC uygulamasında model doğrulamanın sunucu tarafında gerçekleşmesi için hangi nesneye ait özellik true olmalıdır?",
-                                            "options":  {
-                                                            "A":  "Model.IsTrue",
-                                                            "B":  "ModelState.Valid",
-                                                            "C":  "Js.IsTrue",
-                                                            "D":  "ModelState.IsValid",
-                                                            "E":  "Data.IsTrue"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  15,
-                                            "context":  "",
-                                            "question":  "Kullanıcı adı alanı boş geçilemez şeklinde hata mesajının oluşması için public string KullaniciAdi {get; set;} özelliğinin üstünde ne gelmelidir?",
-                                            "options":  {
-                                                            "A":  "(\"Kullanıcı adı alanı boş geçilemez\")",
-                                                            "B":  "[Required(ErrorMessage = \"Kullanıcı adı alanı boş geçilemez\")]",
-                                                            "C":  "[Error(Message = \"Kullanıcı adı alanı boş geçilemez\")]",
-                                                            "D":  "ErrorMessage = \"Kullanıcı adı alanı boş geçilemez\")",
-                                                            "E":  "[Required(\"Kullanıcı adı alanı boş geçilemez\")]"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  16,
-                                            "context":  "",
-                                            "question":  "Sorgu yeteneklerinin doğrudan C# dilinin entegrasyonuna dayalı olduğu bir dizi teknolojinin adı olan LINQ’nun tam adı nedir?",
-                                            "options":  {
-                                                            "A":  "Language Integrated Query",
-                                                            "B":  "Language Interface Query",
-                                                            "C":  "Linked Interface Query",
-                                                            "D":  "Linked Integrated Query",
-                                                            "E":  "Last Intersection Query"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  17,
-                                            "context":  "",
-                                            "question":  "\u0027\u003ca href=\"/Kullanici/Index\"\u003eTikla\u003c/a\u003e\u0027 html anchor etiketi, tag helper’lar ile nasıl tanımlanabilir?",
-                                            "options":  {
-                                                            "A":  "\u003ca asp-for=\"Index\" asp-controller=\"Kullanici\"\u003eTikla\u003c/a\u003e",
-                                                            "B":  "\u003ca asp-for=\"Tikla\"\u003eTikla\u003c/a\u003e",
-                                                            "C":  "\u003ca asp-controller=\"Index\" asp-action=\"Kullanici\"\u003eTıkla\u003c/a\u003e",
-                                                            "D":  "\u003ca asp-for=\"Kaydet\" asp-action=\"Index\"\u003eTikla\u003c/a\u003e",
-                                                            "E":  "\u003ca asp-controller=\"Kullanici\" asp-action=\"Index\"\u003eTikla\u003c/a\u003e"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  18,
-                                            "context":  "",
-                                            "question":  "\u0027\u003cform asp-controller=\"Kisi\" asp-action=\"Kaydet\" asp-route-id=\"10\"\u003e\u003c/form\u003e\u0027 şeklinde tanımlanan bir form tag helper’ı için üretilen Html çıktısı ne olur?",
-                                            "options":  {
-                                                            "A":  "\u003cform method=\"post\" action=\"/Kisi/Kaydet/10\"\u003e\u003c/form\u003e",
-                                                            "B":  "\u003cform method=\"get\" action=\"/Kaydet/Kisi/10\"\u003e\u003c/form\u003e",
-                                                            "C":  "\u003cform method=\"get\" action=\"/Kisi/Kaydet/10\"\u003e\u003c/form\u003e",
-                                                            "D":  "\u003cform method=\"post\" action=\"/10/Kaydet/Kisi\"\u003e\u003c/form\u003e",
-                                                            "E":  "\u003cform method=\"post\" action=\"self\"\u003e\u003c/form\u003e"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  19,
-                                            "context":  "public class KitaplıkContext: {}",
-                                            "question":  "DbContext’in uygulamada kullanılabilmesi için, KitaplıkContext sınıfının hangi sınıftan türetilmesi gerekir?",
-                                            "options":  {
-                                                            "A":  "Context",
-                                                            "B":  "SetDb",
-                                                            "C":  "DbSet",
-                                                            "D":  "DbContext",
-                                                            "E":  "Db"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  20,
-                                            "context":  "",
-                                            "question":  "EF Core kullanılan bir Asp.Net Core projesinde sınıf özellikleri (class properties), veri tabanında hangi öğeye karşılık gelir?",
-                                            "options":  {
-                                                            "A":  "Tablo Kayıtlarına",
-                                                            "B":  "Sql örneklerine",
-                                                            "C":  "Veritabanlarına",
-                                                            "D":  "Tablolara",
-                                                            "E":  "Tablo Sütunlarına / Kolonlarına"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  },
-                  {
-                      "exam_label":  "2022-2023 Vize",
-                      "year":  "2022-2023",
-                      "exam_type":  "Vize",
-                      "question_count":  20,
-                      "source_file":  "Web_Programlama_II_2022_2023_Vize.docx",
-                      "questions":  [
-                                        {
-                                            "question_number":  1,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC projesinde http: //localhost: 3000/Personel/Hesapla url’si ile gelen istek hangi Controller ve Action tarafından karşılanır?",
-                                            "options":  {
-                                                            "A":  "PersonelController – Hesapla Action",
-                                                            "B":  "HomeController – Index Action",
-                                                            "C":  "DefaultController – Index Action",
-                                                            "D":  "PersonelController – Index Action",
-                                                            "E":  "HomeController – Hesapla Action"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  2,
-                                            "context":  "",
-                                            "question":  "Aşağıdakilerden hangisi statik web anlayışını temsil eden ilk nesil web kavramıdır?",
-                                            "options":  {
-                                                            "A":  "Web 2.0",
-                                                            "B":  "Semantic Web",
-                                                            "C":  "Web 4.0",
-                                                            "D":  "Web 1.0",
-                                                            "E":  "Web 3.0"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  3,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core projesi çalıştırıldığında hangi port numarası seçilir?",
-                                            "options":  {
-                                                            "A":  "4000",
-                                                            "B":  "3000",
-                                                            "C":  "2000",
-                                                            "D":  "Rastgele Uygun Port",
-                                                            "E":  "1000"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  4,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC uygulamalarında Layout, varsayılan olarak hangi klasörün altında tanımlıdır?",
-                                            "options":  {
-                                                            "A":  "View/Default",
-                                                            "B":  "Index/Default",
-                                                            "C":  "Controller/Shared",
-                                                            "D":  "Model/Shared",
-                                                            "E":  "View/Shared"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  5,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC uygulamalarında Controller’da cookie tanımlamak için hangi namespace (isim alanı) projeye eklenmelidir?",
-                                            "options":  {
-                                                            "A":  "System.Text.Json",
-                                                            "B":  "Microsoft.AspNetCore.Http",
-                                                            "C":  "Microsoft.AspNetCore.Json",
-                                                            "D":  "Microsoft.Extensions.Logging",
-                                                            "E":  "System.Collections.Generic"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  6,
-                                            "context":  "",
-                                            "question":  "Bir MVC modelinde kullanıcıya görsel bir arayüz sağlayan bileşen aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "Controller",
-                                                            "B":  "Model",
-                                                            "C":  "View",
-                                                            "D":  "ViewBag",
-                                                            "E":  "Validation"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  7,
-                                            "context":  "",
-                                            "question":  "@for (int i = 1; i \u003c 3; i++) {@i.ToString()} Asp.Net Core MVC’de bir View’de yukarıdaki kod çalıştırıldığında ekran görüntüsü ne olur?",
-                                            "options":  {
-                                                            "A":  "123",
-                                                            "B":  "iii",
-                                                            "C":  "@i.ToString() @i.ToString() @i.ToString()",
-                                                            "D":  "12",
-                                                            "E":  "@i.ToString() @i.ToString()"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  8,
-                                            "context":  "",
-                                            "question":  "[HttpPost] public string DegerAl() {return (\"txt\");} Yukarıda tanımlı metod UserController’ında ise bu metoda gönderim yapan form nasıl tanımlanabilir?",
-                                            "options":  {
-                                                            "A":  "\u003cform method=\"POST\" action=\"\\UserController\\DegerAl\"\u003e...\u003c/form\u003e",
-                                                            "B":  "\u003cform action=\"\\User\\DegerAl\"\u003e...\u003c/form\u003e",
-                                                            "C":  "\u003cform method=\"GET\" action=\"\\User\\DegerAl\"\u003e...\u003c/form\u003e",
-                                                            "D":  "\u003cform method=\"Get\" action=\"\\UserController\\DegerAl\"\u003e...\u003c/form\u003e",
-                                                            "E":  "\u003cform method=\"POST\" action=\"\\User\\DegerAl\"\u003e...\u003c/form\u003e"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  9,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC uygulamalarında Session kullanmak için yapılandırma ayarları hangi dosyada yapılmalıdır?",
-                                            "options":  {
-                                                            "A":  "Startup.cs",
-                                                            "B":  "wwwroot",
-                                                            "C":  "Packages",
-                                                            "D":  "Program.cs",
-                                                            "E":  "Framework"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  10,
-                                            "context":  "",
-                                            "question":  ".Net Core için aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Farklı platformlarda çalışabilir.",
-                                                            "B":  "Bulut ortamında barındırılabilir.",
-                                                            "C":  "Performansı yüksektir.",
-                                                            "D":  "Mikro servis mimarisine uyumludur.",
-                                                            "E":  "Açık kaynak değildir."
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  11,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC uygulamasında bir Html Form \u0027http: //localhost: 3000/Ogrenci/DegerAl? ogrAd=Hasan\u0027 şeklinde gönderildi ise bu URL’den kaç farklı form elemanı değeri elde edilebilir?",
-                                            "options":  {
-                                                            "A":  "5",
-                                                            "B":  "3",
-                                                            "C":  "2",
-                                                            "D":  "1",
-                                                            "E":  "4"
-                                                        },
-                                            "answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  12,
-                                            "context":  "",
-                                            "question":  "Ağ üzerindeki web kaynaklarının görüntülenmesinde hangi protokol kullanılır?",
-                                            "options":  {
-                                                            "A":  "DNS",
-                                                            "B":  "IP",
-                                                            "C":  "HTTP",
-                                                            "D":  "SMTP",
-                                                            "E":  "FTP"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  13,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC projelerinde varsayılan olarak hangi Controller tanımlıdır?",
-                                            "options":  {
-                                                            "A":  "Controller",
-                                                            "B":  "DefaultController",
-                                                            "C":  "HomeController",
-                                                            "D":  "IndexController",
-                                                            "E":  "ViewController"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  14,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC’de Controller’dan view’e Personel tipinde Per nesnesi gönderilmektedir. Bu Per nesnesine ait PerBirim özelliğinin değerine gönderimi gerçekleştirilen view içerisinden aşağıdaki kodlardan hangisi kullanılarak ulaşılabilir?",
-                                            "options":  {
-                                                            "A":  "@m.PerBirim",
-                                                            "B":  "@PerBirim",
-                                                            "C":  "@Personel.PerBirim",
-                                                            "D":  "@Per.PerBirim",
-                                                            "E":  "@Model.PerBirim"
-                                                        },
-                                            "answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  15,
-                                            "context":  "",
-                                            "question":  "Asp.Net Core MVC uygulamalarında kullanılan Layout’a ait dosya uzantısı aşağıdakilerden hangisinde doğru verilmiştir?",
-                                            "options":  {
-                                                            "A":  ".php",
-                                                            "B":  ".css",
-                                                            "C":  ".cshtml",
-                                                            "D":  ".js",
-                                                            "E":  ".cs"
-                                                        },
-                                            "answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  16,
-                                            "context":  "",
-                                            "question":  "Cookie’ler ile aşağıdaki bilgilerin hangisini tutmak en uygun olur?",
-                                            "options":  {
-                                                            "A":  "Kullanıcı yetki bilgilerini",
-                                                            "B":  "Kullanıcı renk tercihlerini",
-                                                            "C":  "Sunucu bilgilerini",
-                                                            "D":  "Kullanıcı şifre bilgilerini",
-                                                            "E":  "Veri tabanı bilgilerini"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  17,
-                                            "context":  "",
-                                            "question":  "Html Form işlemlerinde birçok seçenek içerisinden birden fazla seçim yapılmak istendiğinde hangi form eleman tipi kullanılabilir?",
-                                            "options":  {
-                                                            "A":  "text",
-                                                            "B":  "checkbox",
-                                                            "C":  "button",
-                                                            "D":  "submit",
-                                                            "E":  "radio"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  18,
-                                            "context":  "",
-                                            "question":  "Aşağıdakilerden hangisi Razor yorum-açıklama bloğu için doğru bir söz dizimidir?",
-                                            "options":  {
-                                                            "A":  "@* açıklama*@",
-                                                            "B":  "\u003c! Açıklama",
-                                                            "C":  "// açıklama",
-                                                            "D":  "{açıklama}",
-                                                            "E":  "/* açıklama */"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  19,
-                                            "context":  "",
-                                            "question":  "Bir Html Form gönderilmek istendiğinde bu form hangi form elemanı tarafından gönderilir?",
-                                            "options":  {
-                                                            "A":  "\u003cinput type=\"submit\"\u003e",
-                                                            "B":  "\u003cinput type=\"gonder\"\u003e",
-                                                            "C":  "\u003cinput type=\"radio\"\u003e",
-                                                            "D":  "\u003cinput type=\"hidden\"\u003e",
-                                                            "E":  "\u003cinput type=\"text\"\u003e"
-                                                        },
-                                            "answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "question_number":  20,
-                                            "context":  "",
-                                            "question":  "Aşağıda verilen web frameworkleri (çerçeveleri) ve programlama dilleri eşleşmelerinden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Flask (Python)",
-                                                            "B":  "CodeIgniter (Javascript)",
-                                                            "C":  "Spring (Java)",
-                                                            "D":  "Laravel (Php)",
-                                                            "E":  "Asp.Net Core (C#)"
-                                                        },
-                                            "answer":  "B",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  }
-              ]
+  "course_name": "Web Programlama 2",
+  "exams": [
+    {
+      "exam_label": "2024-2025 Final",
+      "year": "2024",
+      "exam_type": "Final",
+      "question_count": 20,
+      "source_file": "Web_Programlama-2_2024_2025_Final.docx",
+      "questions": [
+        {
+          "question_number": 1,
+          "context": "",
+          "question": "Asp.Net Core MVC’de SQL Server veri tabanı yönetim sisteminin EF Core ile birlikte kullanılacağı varsayıldığında, proje oluşturulduktan sonra projeye SQL Server’a ait aşağıdaki hangi veri sağlayıcısı eklenmelidir?",
+          "options": {
+            "A": "Microsoft.EntityFrameworkCore.SqlServer",
+            "B": "Microsoft.EfCore.SqlServer",
+            "C": "Microsoft.EntityFrameworkCore.InMemory",
+            "D": "MsSql.Data.EntityFrameworkCore",
+            "E": "Microsoft.EfCore.Sql"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 2,
+          "context": "",
+          "question": "Sunucu taraflı Web frameworkler (çerçeveleri) ile ilgili olarak aşağıdaki seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Web frameworkler olmadan web programlama gerçekleştirilemez.",
+            "B": "Session (Oturum) yönetimi işlemlerini gerçekleştirebilirler.",
+            "C": "ORM'ler (Object-relational mapping) aracılığıyla veritabanı bağlantısı yapılandırma işlemini gerçekleştirebilirler.",
+            "D": "Form yönetimi ve doğrulaması işlemlerini gerçekleştirebilirler.",
+            "E": "URL yönlendirme işlemini gerçekleştirebilirler."
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 3,
+          "context": "",
+          "question": "Asp.Net Core uygulamalarında modele ait özellik değerinin mail adresine uygunluğunu denetleyen öznitelik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "[MailAddress]",
+            "B": "[EmailAddress]",
+            "C": "[E-MailAddress]",
+            "D": "[Mail]",
+            "E": "[Email]"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 4,
+          "context": "public class Personel {public int PerNo {get; set;} public string PerBirim {get; set;}}",
+          "question": "Yukarıdaki sınıf form elemanlarına model bağlama ile bağlanmak istendiğinde form nasıl tanımlanabilir?",
+          "options": {
+            "A": "<input name=\"No\" /> <input name=\"Birim\" />",
+            "B": "<input asp-for=\"Personel.PerNo\" /> <input asp-for=\"Personel.PerBirim\" />",
+            "C": "<input name=\"PerNo\" /> <input name=\"PerBirim\" />",
+            "D": "<input id=\"PerNo\" /> <input id=\"PerBirim\" />",
+            "E": "<textarea name=\"PerNo\"></textarea> <textarea name=\"PerBirim\"></textarea>"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 5,
+          "context": "",
+          "question": "Cookie’ler ile aşağıdaki bilgilerin hangisini tutmak en uygun olur?",
+          "options": {
+            "A": "Veri tabanı bilgilerini",
+            "B": "Kullanıcı renk tercihlerini",
+            "C": "Sunucu bilgilerini",
+            "D": "Kullanıcı şifre bilgilerini",
+            "E": "Kullanıcı yetki bilgilerini"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 6,
+          "context": "public IActionResult Index() {new int[6] sayilar = {0, 1, 2, 3, 4, 5}; var sonuc = sayilar.FirstOrDefault(x => x % 3 == 0); return Content(sonuc.ToString());}",
+          "question": "Yukarıda yer alan Index() action metodu çağrıldığında ekrana hangi sayı basılır?",
+          "options": {
+            "A": "0",
+            "B": "3",
+            "C": "2",
+            "D": "4",
+            "E": "1"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "var sonuc = from x in Personel where x.PersonelNo > 10 select x;",
+          "question": "Yukarıda yer alan kod bloğu Asp.Net Core uygulamalarında hangi sözdizimi yapısına uygundur?",
+          "options": {
+            "A": "C#",
+            "B": "Html",
+            "C": "LINQ-Method syntax",
+            "D": "LINQ-Query syntax",
+            "E": "Asp"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "Asp.Net Core MVC uygulamalarında bir model içerisinde kullanılan Display özelliği hangi tag helper ile kullanılır?",
+          "options": {
+            "A": "Input",
+            "B": "Textarea",
+            "C": "Select",
+            "D": "Text",
+            "E": "Label"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "Asp.Net Core MVC’de oluşturulan bir web APP’ye ait http: //localhost/api/Personel/ adresine bir Http Get metodu isteği gönderildiğini varsayalım.",
+          "question": "Bu durumda RESTful mimarisine göre hangi işlemin yapılması beklenir?",
+          "options": {
+            "A": "Personel kayıtlarının http isteğinde gelen veriler ile güncellenmesi",
+            "B": "Http isteğinde gelen veriler doğrultusunda yeni bir personel kaydı eklenmesi",
+            "C": "Tüm personel kayıtlarının silinmesi",
+            "D": "Hata mesajı döndürmesi",
+            "E": "Tüm personel kayıtlarının listelenmesi"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "[Range(5, 10)] public int Deger {get; set;}",
+          "question": "Bir Asp.Net Core MVC uygulamasında bir model içerisinde yukarıdaki gibi tanımlı [Range(5, 10)] özniteliği ile Deger özelliği için nasıl bir kısıtlama sağlanmış olur?",
+          "options": {
+            "A": "Değer özelliğinin sadece 5 ve 10 değerlerini alabilmesi sağlanır.",
+            "B": "Değer özelliğinin maksimum 10 karakterli olması sağlanır.",
+            "C": "Değer özelliğinin minimum 5 karakterli olması sağlanır.",
+            "D": "Değer özelliğinin minimum 5, maksimum 10 karakterli olması sağlanır.",
+            "E": "Değer özelliğinin [5, 10] arasında değerler alabilmesi sağlanır."
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 11,
+          "context": "",
+          "question": "Bir Asp.Net Core MVC uygulamasında model doğrulamanın sunucu tarafında gerçekleşmesi için aşağıdaki hangi nesneye ait özellik true (doğru) olmalıdır?",
+          "options": {
+            "A": "ModelState.IsValid",
+            "B": "Data.IsTrue",
+            "C": "Js.IsTrue",
+            "D": "Model.IsTrue",
+            "E": "ModelState.Valid"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 12,
+          "context": "",
+          "question": "Bir Asp.Net Core MVC uygulamasında migration oluşturduktan sonra migration işlemini yürütmek (veritabanına uygulamak) için Package Manager Console Ekranı’nda aşağıdaki hangi komut çalıştırılmalıdır?",
+          "options": {
+            "A": "Add-Migration",
+            "B": "Select-Database",
+            "C": "Update-Database",
+            "D": "Add-Sql",
+            "E": "Add-Database"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "public DateTime KayitTarihi {get; set;}",
+          "question": "Şeklinde tanımlı bir model elemanının tag helper ile kullanım biçimi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<input asp-tag=\"KayitTarihi\" />",
+            "B": "<input text=\"KayitTarihi\" />",
+            "C": "<input asp-for=\"KayitTarihi\" />",
+            "D": "<input type=\"KayitTarihi\" />",
+            "E": "<input asp-label=\"KayitTarihi\" />"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 14,
+          "context": "",
+          "question": "Form tag helper’ı ile siteler arası istek sahteciliği (CSRF) saldırısını önlemek için kullanılan özellik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "asp-protocol",
+            "B": "asp-area",
+            "C": "asp-host",
+            "D": "asp-antiforgery",
+            "E": "asp-page"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 15,
+          "context": "List kitaplar = new List {new Kitap {Ad = 'A', Sayfa = 80}, new Kitap {Ad = 'B', Sayfa = 90}, new Kitap {Ad = 'C', Sayfa = 70}, new Kitap {Ad = 'D', Sayfa = 40}, new Kitap {Ad = 'E', Sayfa = 30}}; bool sonuc = kitaplar.All(x => x.Sayfa > 50 && x.Sayfa < 95);",
+          "question": "Yukarıdaki kod çalıştırıldığında sonuc değişkenindeki değer ne olur?",
+          "options": {
+            "A": "2",
+            "B": "true",
+            "C": "3",
+            "D": "false",
+            "E": "5"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 16,
+          "context": "",
+          "question": "Asp.Net Core uygulamalarında kullanılan [ApiController] özniteliği için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "API'ye ait port numarasını ayarlar.",
+            "B": "Kullanıma hazır doğrulama ve model bağlama sağlar.",
+            "C": "Controller sınıfına miras verir.",
+            "D": "Postman kullanımına olanak tanır.",
+            "E": "Veri tabanına kayıt işlemlerinden sorumludur."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 17,
+          "context": "",
+          "question": "Asp.Net Core Rest Api mimarisinde bir kaydı güncellemek istediğimizde bu isteğe yanıt veren metot aşağıdaki hangi öznitelik ile belirtilmelidir?",
+          "options": {
+            "A": "HttpGet",
+            "B": "HttpUpdate",
+            "C": "HttpDelete",
+            "D": "HttpPost",
+            "E": "HttpPut"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 18,
+          "context": "var context = new KitapContext(); context.Add(new Kitap() {KitapAd = 'Budala', Yazar = 'Dostoyevsky'}); context.SaveChanges();",
+          "question": "Yukarıdaki kod çalıştırıldığında veri tabanında aşağıdaki işlemlerden hangisi gerçekleşir?",
+          "options": {
+            "A": "Read",
+            "B": "Truncate",
+            "C": "Insert",
+            "D": "Update",
+            "E": "Delete"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 19,
+          "context": "public class Personel {public int PerNo {get; set;} public string PerBirim {get; set;}}",
+          "question": "Yukarıdaki sınıf form elemanlarına model bağlama ile bağlanmak istendiğinde form nasıl tanımlanabilir?",
+          "options": {
+            "A": "<input name=\"No\" /> <input name=\"Birim\" />",
+            "B": "<input asp-for=\"Personel.PerNo\" /> <input asp-for=\"Personel.PerBirim\" />",
+            "C": "<input name=\"PerNo\" /> <input name=\"PerBirim\" />",
+            "D": "<input id=\"PerNo\" /> <input id=\"PerBirim\" />",
+            "E": "<input asp-controller=\"Personel\" asp-action=\"Kaydet\" />"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 20,
+          "context": "",
+          "question": "Bir Model sınıfı tanımlanmak istendiğinde bu sınıfın uzantısı aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": ".asp",
+            "B": ".html",
+            "C": ".js",
+            "D": ".cs",
+            "E": ".cshtml"
+          },
+          "answer": "D",
+          "explanation": ""
+        }
+      ],
+      "title": "2024 Final",
+      "exam_title": "2024 Final"
+    },
+    {
+      "exam_label": "2022 Final",
+      "year": "2022",
+      "exam_type": "Final",
+      "question_count": 20,
+      "source_file": "Web_Programlama_2_2022_YilYok_Final.docx",
+      "questions": [
+        {
+          "question_number": 1,
+          "context": "",
+          "question": "Bir Html Form gönderilmek istendiğinde ve gönderim metodu tanımlanmadığında varsayılan olarak hangi metod ile gönderilir?",
+          "options": {
+            "A": "Method",
+            "B": "Get",
+            "C": "Action",
+            "D": "Model",
+            "E": "Post"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 2,
+          "context": "I. First() metodunun aşırı yüklenmiş iki sürümü mevcuttur. II. First() metodunun hiç bir parametre almayan hali veri kaynağından ilk öğeyi döndürür. III. First() metodu parametre olarak bir koşul aldığında, koşulu karşılayan ilk öğeyi döndürür. IV. First() metodu şartı sağlayan bir kayıt bulamadıysa null döndürür.",
+          "question": "LINQ First() metodu için yukarıda verilenlerden hangisi/hangileri yanlıştır?",
+          "options": {
+            "A": "II ve III",
+            "B": "Yalnız I",
+            "C": "I, II ve III",
+            "D": "I ve III",
+            "E": "Yalnız IV"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 3,
+          "context": "",
+          "question": "Bir form, post işlemi ile gönderildiğinde bu işlemi karşılayacak metod nasıl tanımlanabilir?",
+          "options": {
+            "A": "public string Get() {return (\"deneme\");}",
+            "B": "public string HttpGet() {return (\"deneme\");}",
+            "C": "[HttpPost] public string Kaydet() {return (\"deneme\");}",
+            "D": "[HttpGet] public string Kaydet() {return (\"deneme\");}",
+            "E": "public string HttpPost() {return (\"deneme\");}"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 4,
+          "context": "",
+          "question": "Bir web API isteğinde istemcinin istediği eylemin başarıyla gerçekleştiğini belirten HTTP durum kodu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "500",
+            "B": "100",
+            "C": "200",
+            "D": "300",
+            "E": "400"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 5,
+          "context": "List<Kitap> Kitaplar = new List<Kitap>() {new Kitap(){KitapID=1, KitapSayfasi=90}, new Kitap(){KitapID=2, KitapSayfasi=80}, new Kitap(){KitapID=3, KitapSayfasi=90}, new Kitap(){KitapID=4, KitapSayfasi=40}, new Kitap(){KitapID=5, KitapSayfasi=30}}; var sonuc = Kitaplar.Max(s => s.KitapSayfasi);",
+          "question": "Yukarıdaki kod çalıştırıldığında sonuç değişkenindeki değer ne olur?",
+          "options": {
+            "A": "90",
+            "B": "30",
+            "C": "0",
+            "D": "330",
+            "E": "66"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 6,
+          "context": "",
+          "question": "Asp.Net Core MVC projesinde “renk” isimli bir cookie değişkenine hangi kod ile ulaşılabilir?",
+          "options": {
+            "A": "Context.Query.Cookies[\"renk\"]",
+            "B": "Context.Request.Cookies[\"renk\"]",
+            "C": "Context.Forms.Cookies[\"renk\"]",
+            "D": "Session.Get.Cookies[\"renk\"]",
+            "E": "Context.Response.Cookies[\"renk\"]"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "",
+          "question": "Bir yazılım mimari modeli olan MVC’nin açılımı nedir?",
+          "options": {
+            "A": "Model-ViewBag-C#",
+            "B": "Model-Vision-Component",
+            "C": "Model-View-Controller",
+            "D": "Model-Validation-Component",
+            "E": "Model-Validation-Controller"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "Yazılım geliştiriciler için önceden yazılmış bileşenler, kod parçacıkları ve uygulama şablonları sunan yapı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Web 2.0",
+            "B": "FrameWork",
+            "C": "Genel Web",
+            "D": "Web 1.0",
+            "E": "Web 4.0"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "",
+          "question": "Bir model içerisinde Display özniteliğinin kullanılabilmesi için hangi namespace ekli olmalıdır?",
+          "options": {
+            "A": "System.Threading.Task",
+            "B": "System.Namespace",
+            "C": "System.Linq",
+            "D": "System.ComponentModel.DataAnnotations",
+            "E": "System.Collections.Generic"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "public string KullaniciAdi {get; set;}",
+          "question": "Bir Asp.Net Core uygulamasında özellik değeri uzunluğunun 20 karakteri aşmaması gerektiğini denetlemek için ilgili yere hangi ifade gelmelidir?",
+          "options": {
+            "A": "[String(20)]",
+            "B": "StringLength[20]",
+            "C": "[StringMax(20)]",
+            "D": "[StringLength(20)]",
+            "E": "[Length(20)]"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 11,
+          "context": "",
+          "question": "Asp.Net Core Mvc uygulamalarında bir Layout dosyasında aşağıdakilerden hangisi kesin olarak bulunmaz?",
+          "options": {
+            "A": "Menüler",
+            "B": "Html kodları",
+            "C": "Model sınıfı tanımları",
+            "D": "Javascript kütüphaneleri referansları",
+            "E": "Css kütüphane"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 12,
+          "context": "public class ValuesController: {}",
+          "question": "ValuesController’ın bir ApiController olduğu düşünüldüğünde, varsayılan olarak ValuesController’ün miras alabileceği sınıf aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "ApiController",
+            "B": "Base",
+            "C": "ApiBaseController",
+            "D": "API",
+            "E": "ControllerBase"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "",
+          "question": "I – Query String (Sorgu Dizisi), II – Hidden Fields (Gizli Alanlar), III – Session. Yukarıdakilerden hangisi/hangileri sunucu makinesinde tutulur?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "Yalnız I",
+            "C": "I ve II",
+            "D": "Yalnız II",
+            "E": "II ve III"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 14,
+          "context": "",
+          "question": "Bir Asp.Net Core MVC uygulamasında model doğrulamanın sunucu tarafında gerçekleşmesi için hangi nesneye ait özellik true olmalıdır?",
+          "options": {
+            "A": "Model.IsTrue",
+            "B": "ModelState.Valid",
+            "C": "Js.IsTrue",
+            "D": "ModelState.IsValid",
+            "E": "Data.IsTrue"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 15,
+          "context": "",
+          "question": "Kullanıcı adı alanı boş geçilemez şeklinde hata mesajının oluşması için public string KullaniciAdi {get; set;} özelliğinin üstünde ne gelmelidir?",
+          "options": {
+            "A": "(\"Kullanıcı adı alanı boş geçilemez\")",
+            "B": "[Required(ErrorMessage = \"Kullanıcı adı alanı boş geçilemez\")]",
+            "C": "[Error(Message = \"Kullanıcı adı alanı boş geçilemez\")]",
+            "D": "ErrorMessage = \"Kullanıcı adı alanı boş geçilemez\")",
+            "E": "[Required(\"Kullanıcı adı alanı boş geçilemez\")]"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 16,
+          "context": "",
+          "question": "Sorgu yeteneklerinin doğrudan C# dilinin entegrasyonuna dayalı olduğu bir dizi teknolojinin adı olan LINQ’nun tam adı nedir?",
+          "options": {
+            "A": "Language Integrated Query",
+            "B": "Language Interface Query",
+            "C": "Linked Interface Query",
+            "D": "Linked Integrated Query",
+            "E": "Last Intersection Query"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 17,
+          "context": "",
+          "question": "'<a href=\"/Kullanici/Index\">Tikla</a>' html anchor etiketi, tag helper’lar ile nasıl tanımlanabilir?",
+          "options": {
+            "A": "<a asp-for=\"Index\" asp-controller=\"Kullanici\">Tikla</a>",
+            "B": "<a asp-for=\"Tikla\">Tikla</a>",
+            "C": "<a asp-controller=\"Index\" asp-action=\"Kullanici\">Tıkla</a>",
+            "D": "<a asp-for=\"Kaydet\" asp-action=\"Index\">Tikla</a>",
+            "E": "<a asp-controller=\"Kullanici\" asp-action=\"Index\">Tikla</a>"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 18,
+          "context": "",
+          "question": "'<form asp-controller=\"Kisi\" asp-action=\"Kaydet\" asp-route-id=\"10\"></form>' şeklinde tanımlanan bir form tag helper’ı için üretilen Html çıktısı ne olur?",
+          "options": {
+            "A": "<form method=\"post\" action=\"/Kisi/Kaydet/10\"></form>",
+            "B": "<form method=\"get\" action=\"/Kaydet/Kisi/10\"></form>",
+            "C": "<form method=\"get\" action=\"/Kisi/Kaydet/10\"></form>",
+            "D": "<form method=\"post\" action=\"/10/Kaydet/Kisi\"></form>",
+            "E": "<form method=\"post\" action=\"self\"></form>"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 19,
+          "context": "public class KitaplıkContext: {}",
+          "question": "DbContext’in uygulamada kullanılabilmesi için, KitaplıkContext sınıfının hangi sınıftan türetilmesi gerekir?",
+          "options": {
+            "A": "Context",
+            "B": "SetDb",
+            "C": "DbSet",
+            "D": "DbContext",
+            "E": "Db"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 20,
+          "context": "",
+          "question": "EF Core kullanılan bir Asp.Net Core projesinde sınıf özellikleri (class properties), veri tabanında hangi öğeye karşılık gelir?",
+          "options": {
+            "A": "Tablo Kayıtlarına",
+            "B": "Sql örneklerine",
+            "C": "Veritabanlarına",
+            "D": "Tablolara",
+            "E": "Tablo Sütunlarına / Kolonlarına"
+          },
+          "answer": "E",
+          "explanation": ""
+        }
+      ],
+      "title": "2022 Final",
+      "exam_title": "2022 Final"
+    },
+    {
+      "exam_label": "2022-2023 Vize",
+      "year": "2022",
+      "exam_type": "Vize",
+      "question_count": 20,
+      "source_file": "Web_Programlama_II_2022_2023_Vize.docx",
+      "questions": [
+        {
+          "question_number": 1,
+          "context": "",
+          "question": "Asp.Net Core MVC projesinde http: //localhost: 3000/Personel/Hesapla url’si ile gelen istek hangi Controller ve Action tarafından karşılanır?",
+          "options": {
+            "A": "PersonelController – Hesapla Action",
+            "B": "HomeController – Index Action",
+            "C": "DefaultController – Index Action",
+            "D": "PersonelController – Index Action",
+            "E": "HomeController – Hesapla Action"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 2,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi statik web anlayışını temsil eden ilk nesil web kavramıdır?",
+          "options": {
+            "A": "Web 2.0",
+            "B": "Semantic Web",
+            "C": "Web 4.0",
+            "D": "Web 1.0",
+            "E": "Web 3.0"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 3,
+          "context": "",
+          "question": "Asp.Net Core projesi çalıştırıldığında hangi port numarası seçilir?",
+          "options": {
+            "A": "4000",
+            "B": "3000",
+            "C": "2000",
+            "D": "Rastgele Uygun Port",
+            "E": "1000"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 4,
+          "context": "",
+          "question": "Asp.Net Core MVC uygulamalarında Layout, varsayılan olarak hangi klasörün altında tanımlıdır?",
+          "options": {
+            "A": "View/Default",
+            "B": "Index/Default",
+            "C": "Controller/Shared",
+            "D": "Model/Shared",
+            "E": "View/Shared"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 5,
+          "context": "",
+          "question": "Asp.Net Core MVC uygulamalarında Controller’da cookie tanımlamak için hangi namespace (isim alanı) projeye eklenmelidir?",
+          "options": {
+            "A": "System.Text.Json",
+            "B": "Microsoft.AspNetCore.Http",
+            "C": "Microsoft.AspNetCore.Json",
+            "D": "Microsoft.Extensions.Logging",
+            "E": "System.Collections.Generic"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 6,
+          "context": "",
+          "question": "Bir MVC modelinde kullanıcıya görsel bir arayüz sağlayan bileşen aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Controller",
+            "B": "Model",
+            "C": "View",
+            "D": "ViewBag",
+            "E": "Validation"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "",
+          "question": "@for (int i = 1; i < 3; i++) {@i.ToString()} Asp.Net Core MVC’de bir View’de yukarıdaki kod çalıştırıldığında ekran görüntüsü ne olur?",
+          "options": {
+            "A": "123",
+            "B": "iii",
+            "C": "@i.ToString() @i.ToString() @i.ToString()",
+            "D": "12",
+            "E": "@i.ToString() @i.ToString()"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "[HttpPost] public string DegerAl() {return (\"txt\");} Yukarıda tanımlı metod UserController’ında ise bu metoda gönderim yapan form nasıl tanımlanabilir?",
+          "options": {
+            "A": "<form method=\"POST\" action=\"\\UserController\\DegerAl\">...</form>",
+            "B": "<form action=\"\\User\\DegerAl\">...</form>",
+            "C": "<form method=\"GET\" action=\"\\User\\DegerAl\">...</form>",
+            "D": "<form method=\"Get\" action=\"\\UserController\\DegerAl\">...</form>",
+            "E": "<form method=\"POST\" action=\"\\User\\DegerAl\">...</form>"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "",
+          "question": "Asp.Net Core MVC uygulamalarında Session kullanmak için yapılandırma ayarları hangi dosyada yapılmalıdır?",
+          "options": {
+            "A": "Startup.cs",
+            "B": "wwwroot",
+            "C": "Packages",
+            "D": "Program.cs",
+            "E": "Framework"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "",
+          "question": ".Net Core için aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Farklı platformlarda çalışabilir.",
+            "B": "Bulut ortamında barındırılabilir.",
+            "C": "Performansı yüksektir.",
+            "D": "Mikro servis mimarisine uyumludur.",
+            "E": "Açık kaynak değildir."
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 11,
+          "context": "",
+          "question": "Asp.Net Core MVC uygulamasında bir Html Form 'http: //localhost: 3000/Ogrenci/DegerAl? ogrAd=Hasan' şeklinde gönderildi ise bu URL’den kaç farklı form elemanı değeri elde edilebilir?",
+          "options": {
+            "A": "5",
+            "B": "3",
+            "C": "2",
+            "D": "1",
+            "E": "4"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 12,
+          "context": "",
+          "question": "Ağ üzerindeki web kaynaklarının görüntülenmesinde hangi protokol kullanılır?",
+          "options": {
+            "A": "DNS",
+            "B": "IP",
+            "C": "HTTP",
+            "D": "SMTP",
+            "E": "FTP"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "",
+          "question": "Asp.Net Core MVC projelerinde varsayılan olarak hangi Controller tanımlıdır?",
+          "options": {
+            "A": "Controller",
+            "B": "DefaultController",
+            "C": "HomeController",
+            "D": "IndexController",
+            "E": "ViewController"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 14,
+          "context": "",
+          "question": "Asp.Net Core MVC’de Controller’dan view’e Personel tipinde Per nesnesi gönderilmektedir. Bu Per nesnesine ait PerBirim özelliğinin değerine gönderimi gerçekleştirilen view içerisinden aşağıdaki kodlardan hangisi kullanılarak ulaşılabilir?",
+          "options": {
+            "A": "@m.PerBirim",
+            "B": "@PerBirim",
+            "C": "@Personel.PerBirim",
+            "D": "@Per.PerBirim",
+            "E": "@Model.PerBirim"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 15,
+          "context": "",
+          "question": "Asp.Net Core MVC uygulamalarında kullanılan Layout’a ait dosya uzantısı aşağıdakilerden hangisinde doğru verilmiştir?",
+          "options": {
+            "A": ".php",
+            "B": ".css",
+            "C": ".cshtml",
+            "D": ".js",
+            "E": ".cs"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 16,
+          "context": "",
+          "question": "Cookie’ler ile aşağıdaki bilgilerin hangisini tutmak en uygun olur?",
+          "options": {
+            "A": "Kullanıcı yetki bilgilerini",
+            "B": "Kullanıcı renk tercihlerini",
+            "C": "Sunucu bilgilerini",
+            "D": "Kullanıcı şifre bilgilerini",
+            "E": "Veri tabanı bilgilerini"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 17,
+          "context": "",
+          "question": "Html Form işlemlerinde birçok seçenek içerisinden birden fazla seçim yapılmak istendiğinde hangi form eleman tipi kullanılabilir?",
+          "options": {
+            "A": "text",
+            "B": "checkbox",
+            "C": "button",
+            "D": "submit",
+            "E": "radio"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 18,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi Razor yorum-açıklama bloğu için doğru bir söz dizimidir?",
+          "options": {
+            "A": "@* açıklama*@",
+            "B": "<! Açıklama",
+            "C": "// açıklama",
+            "D": "{açıklama}",
+            "E": "/* açıklama */"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 19,
+          "context": "",
+          "question": "Bir Html Form gönderilmek istendiğinde bu form hangi form elemanı tarafından gönderilir?",
+          "options": {
+            "A": "<input type=\"submit\">",
+            "B": "<input type=\"gonder\">",
+            "C": "<input type=\"radio\">",
+            "D": "<input type=\"hidden\">",
+            "E": "<input type=\"text\">"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 20,
+          "context": "",
+          "question": "Aşağıda verilen web frameworkleri (çerçeveleri) ve programlama dilleri eşleşmelerinden hangisi yanlıştır?",
+          "options": {
+            "A": "Flask (Python)",
+            "B": "CodeIgniter (Javascript)",
+            "C": "Spring (Java)",
+            "D": "Laravel (Php)",
+            "E": "Asp.Net Core (C#)"
+          },
+          "answer": "B",
+          "explanation": ""
+        }
+      ],
+      "title": "2022 Vize",
+      "exam_title": "2022 Vize"
+    }
+  ],
+  "exam_count": 3,
+  "course": ""
 }

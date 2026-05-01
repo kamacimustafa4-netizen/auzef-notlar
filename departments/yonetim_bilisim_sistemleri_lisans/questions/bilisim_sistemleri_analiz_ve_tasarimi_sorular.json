@@ -1,1659 +1,1666 @@
 {
-    "course":  "Bilişim Sistemleri Analiz ve Tasarımı",
-    "lesson_code":  "BILI_IM_SISTEMLERI_ANALIZ_VE_TASARIMI",
-    "exams":  [
-                  {
-                      "title":  "Bilişim Sistemleri Analiz ve Tasarımı 2022-2023 Final",
-                      "exam_type":  "final",
-                      "year":  "2022-2023",
-                      "file_name":  "Bilişim_Sistemleri_Analiz_Ve_Tasarımı_2022_2023_Final.docx",
-                      "question_count":  23,
-                      "questions":  [
-                                        {
-                                            "id":  1,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Kullanılan süreç, son ürün olan yazılım ile adlandırılır.",
-                                                            "A":  "Her bir yazılım projesinden tek bir defa çizilir.",
-                                                            "C":  "Sadece 1 süreç içerir.",
-                                                            "D":  "Sistem ile harici varlıklar arasındaki veri akışını gösterir.",
-                                                            "E":  "Bağlam diyagramında harici varlıklar arasındaki akışa izin verilir."
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  2,
-                                            "question":  "Farklı sistem parçalarının benzer girdilere karşı aynı şekilde tepki üretmesi girditasarımının hangi kriteri ile alakalıdır?",
-                                            "options":  {
-                                                            "A":  "Yalınlık",
-                                                            "B":  "Etkililik",
-                                                            "C":  "Kullanılabilirlik",
-                                                            "D":  "Erişilebilirlik",
-                                                            "E":  "Kararlılık"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  3,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Podcast",
-                                                            "B":  "Sunumlar",
-                                                            "C":  "Gösterge paneli",
-                                                            "D":  "infografik",
-                                                            "E":  "Basılı materyal"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  4,
-                                            "question":  "Hızlı uygulama geliştirme ile ilgili aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Tasarım prototipleri ile gereksinimleri toplayabilir.",
-                                                            "B":  "Son ürüne en erken ulaşım esastır",
-                                                            "C":  "Çok uzun projelerde kullanılır",
-                                                            "D":  "Zaman kısıtlı projelerde tercih edilir",
-                                                            "E":  "Gereksinimlerin tamamının başlangıçta belirli olmasına gerek yoktur"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  5,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "IP sahteciliği",
-                                                            "B":  "Ara kapı",
-                                                            "C":  "Balık tutma (Yemleme)",
-                                                            "D":  "Araya girme",
-                                                            "E":  "Hizmet reddi"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  6,
-                                            "question":  "Fonksiyonel olmayan gereksinimler ile alakalı aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Ölçümü kolay değildir.",
-                                                            "B":  "Başarısızlık durumunda sistem bir bütün olarak kullanışsız hale gelir.",
-                                                            "C":  "Bir sistemin \"ne\" yapması gerektiğini ifade eder.",
-                                                            "D":  "İşlevleri destekleyen gereksinimlerdir.",
-                                                            "E":  "Performans ile alakalıdır."
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  7,
-                                            "question":  "Hangi veri tabanı modeli tarihsel sıralamada daha önce kullanılmıştır?",
-                                            "options":  {
-                                                            "A":  "Dosya tabanları",
-                                                            "B":  "Hiyerarşik",
-                                                            "C":  "Ağ",
-                                                            "D":  "İlişkisel",
-                                                            "E":  "Nesne Yönelimi"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  8,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Çoka-Çok",
-                                                            "A":  "Çoka-Bir",
-                                                            "C":  "Tekli ilişki",
-                                                            "D":  "Bire-Çok",
-                                                            "E":  "Bire-Bir"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  9,
-                                            "question":  "Veri akış diyagramlarında harici varlık bileşeninin kullanımı ile ilgili aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Bir harici varlık birden fazla süreçle etkileşime girmez.",
-                                                            "B":  "Harici varlıklar ile veri depoları arasında akış olmaz.",
-                                                            "C":  "Harici varlıklar arasında akışa izin verilmez.",
-                                                            "D":  "Harici varlıklar birden fazla tekrar edilebilir.",
-                                                            "E":  "Bütün veri akış diyagramı seviyelerinde kullanılabilir."
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  10,
-                                            "question":  "Veri sözlüklerinde veri depoları ile ilgili tablolarda hangi sütun yer almaz?",
-                                            "options":  {
-                                                            "A":  "Birincil anahtar",
-                                                            "B":  "Mantık modeli",
-                                                            "C":  "Veri deposu açıklaması",
-                                                            "D":  "Veri deposu adı",
-                                                            "E":  "Veri deposu numarası"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  11,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Sprinte Değerlendirme",
-                                                            "A":  "Açılış grafikleri",
-                                                            "B":  "Sprinte Planlama",
-                                                            "C":  "Sprint Retrospektif",
-                                                            "D":  "Günlük Scrum"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  12,
-                                            "question":  "Yığın ve çevrimiçi veri işleme süreçleri ile ilgili aşağıdakilerden hangisi doğrudur?",
-                                            "options":  {
-                                                            "A":  "Yığın işlemede işlem sırası tahmin edilemez.",
-                                                            "B":  "Çevrimiçi işleme nispeten daha az donanım ve programlama gerektirir.",
-                                                            "C":  "Yığın işlemede kurtarma ve yeniden başlatma kolaydır.",
-                                                            "D":  "Yığın işlemede olayın olduğu anda verinin işlenmesi esastır.",
-                                                            "E":  "Çevrimiçi işleme tek seferde daha fazla veri işler."
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  13,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Güvenirlik",
-                                                            "B":  "Test",
-                                                            "C":  "Kodlama",
-                                                            "D":  "Bakım",
-                                                            "E":  "Kurulum"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  14,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Sistem entegrasyonu",
-                                                            "B":  "Kapasite",
-                                                            "C":  "Erişim kontrolü",
-                                                            "D":  "Çok dillilik",
-                                                            "E":  "Özelleştirme"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  15,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Üst Yönetici Destek Sistemi",
-                                                            "B":  "Bilgi Çalışanı Sistemi",
-                                                            "C":  "Karar Destek Sistemi",
-                                                            "D":  "Coğrafi Bilgi Sistemi",
-                                                            "E":  "Yönetim Bilişim Sistemi"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  16,
-                                            "question":  "Risk yanıtı geliştirme faaliyetinin çıktısı hangi dokümandır?",
-                                            "options":  {
-                                                            "A":  "Risk kütüğü",
-                                                            "B":  "Yeni riskler",
-                                                            "C":  "Bilinen riskler",
-                                                            "D":  "Risk analiz",
-                                                            "E":  "Risk yönetim planı"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  17,
-                                            "question":  "Proje beyanı ile ilgili aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "İş paketi ile ekip elemanlarının eşleştirmelerini içerir.",
-                                                            "B":  "Maksimum izin verilen süre tahminlerini içerir.",
-                                                            "C":  "Son ürün ile ilgili tahminleri içerir.",
-                                                            "D":  "Ana amaç ve alt amaçları içerir.",
-                                                            "E":  "Proje riskleri ile ilgili bir liste içerir."
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  18,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Hız",
-                                                            "A":  "Esneklik",
-                                                            "C":  "Kapasite",
-                                                            "D":  "Erişim kontrolu",
-                                                            "E":  "Güvenirlik"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  19,
-                                            "question":  "Yaş bilgisinin girilmesi gereken bir ekranda 120 sayısından daha büyük bir değerin girişine müsaade edilmemesi hangi girdi kontrolü ile alakalıdır?",
-                                            "options":  {
-                                                            "A":  "Tutarlılık",
-                                                            "B":  "Aralık",
-                                                            "C":  "Veri tabanı",
-                                                            "D":  "Biçim",
-                                                            "E":  "Tamlık"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  20,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Aday",
-                                                            "A":  "Bileşik",
-                                                            "B":  "İkincil",
-                                                            "C":  "Süper",
-                                                            "D":  "Yabancı"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  21,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Çevresel",
-                                                            "A":  "Güvenirlik",
-                                                            "C":  "Etik",
-                                                            "D":  "Yasal",
-                                                            "E":  "Kullanılabilirlik"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  22,
-                                            "question":  "Karmaşık kural yapıları ve çokça kombinasyon olduğu durumlarda hangi mantıkmodelleme yapısı tercih edilmelidir?",
-                                            "options":  {
-                                                            "A":  "Yapısal dil",
-                                                            "B":  "Doğal dil işleme",
-                                                            "C":  "Çok kriterli karar verme",
-                                                            "D":  "Karar ağaçları",
-                                                            "E":  "Karar tabloları"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  23,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Güncelleme",
-                                                            "A":  "Aktivite",
-                                                            "C":  "Proje",
-                                                            "D":  "İş Paketi",
-                                                            "E":  "Aşama"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  },
-                  {
-                      "title":  "Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Final",
-                      "exam_type":  "final",
-                      "year":  "2023-2024",
-                      "file_name":  "Bilişim_Sistemleri_Analiz_Ve_Tasarımı_2023_2024_Final.docx",
-                      "question_count":  20,
-                      "questions":  [
-                                        {
-                                            "id":  1,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Günlük",
-                                                            "A":  "Sistem",
-                                                            "C":  "Birim",
-                                                            "D":  "Yönetim",
-                                                            "E":  "Kabul"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  2,
-                                            "question":  "Hata türleri ve etkileri analizinde gereksinimlerin eksik belirlenmesi riski ile ilgili şiddet için 7, olasılık için 8 ve tespit ihtimali için 10 değerleri belirlenmiştir. Bu durumda risk öncelik skoru aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "121",
-                                                            "B":  "8, 33",
-                                                            "C":  "66",
-                                                            "D":  "560",
-                                                            "E":  "25"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  3,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Ön değerlendirme",
-                                                            "B":  "Planlama",
-                                                            "C":  "Dağıtım",
-                                                            "D":  "Toplantı",
-                                                            "E":  "Hazırlık"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  4,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Etik",
-                                                            "A":  "Güvenirlik",
-                                                            "C":  "Kullanılabilirlik",
-                                                            "D":  "Çevresel",
-                                                            "E":  "Yasal"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  5,
-                                            "question":  "Nispeten kısa süreli projeler için toplam proje süresi aşağıdaki yöntemlerin hangisi ile belirlenir?",
-                                            "options":  {
-                                                            "A":  "Gantt",
-                                                            "B":  "Fizibilite",
-                                                            "C":  "Risk analizi",
-                                                            "D":  "İş Kırılımı",
-                                                            "E":  "Tornado grafiği"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  6,
-                                            "question":  "Yığın ve çevrimiçi veri işleme süreçleri ile ilgili aşağıdakilerden hangisi doğrudur?",
-                                            "options":  {
-                                                            "A":  "Yığın işlemede kurtarma ve yeniden başlatma kolaydır.",
-                                                            "B":  "Yığın işlemede işlem sırası tahmin edilemez.",
-                                                            "C":  "Yığın işlemede olayın olduğu anda verinin işlenmesi esastır.",
-                                                            "D":  "Çevrimiçi işleme nispeten daha az donanım ve programlama gerektirir.",
-                                                            "E":  "Çevrimiçi işleme tek seferde daha fazla veri işler."
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  7,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Bilgi Çalışanı Sistemi",
-                                                            "B":  "Karar Destek Sistemi",
-                                                            "C":  "Üst Yönetici Destek Sistemi",
-                                                            "D":  "Yönetim Bilişim Sistemi",
-                                                            "E":  "Coğrafi Bilgi Sistemi"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  8,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Altyapı sağlama hizmet modeli",
-                                                            "A":  "Veri sağlama hizmet modeli",
-                                                            "C":  "Platform sağlama hizmet modeli",
-                                                            "D":  "Analitik sağlama hizmet modeli",
-                                                            "E":  "Yazılım sağlama hizmet modeli"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  9,
-                                            "question":  "Farklı sistem parçalarının benzer girdilere karşı aynı şekilde tepki üretmesi girdi tasarımının aşağıdaki hangi kriteri ile alakalıdır?",
-                                            "options":  {
-                                                            "A":  "Yalınlık",
-                                                            "B":  "Erişilebilirlik",
-                                                            "C":  "Etkililik",
-                                                            "D":  "Kullanılabilirlik",
-                                                            "E":  "Kararlılık"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  10,
-                                            "question":  "Karmaşık kural yapıları ve çokça kombinasyon olduğu durumlarda aşağıdaki hangi mantık modelleme yapısı tercih edilmelidir?",
-                                            "options":  {
-                                                            "A":  "Doğal dil işleme",
-                                                            "B":  "Çok kriterli karar verme",
-                                                            "C":  "Karar tabloları",
-                                                            "D":  "Karar ağaçları",
-                                                            "E":  "Yapısal dil"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  11,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Kullanılan süreç, son ürün olan yazılım ile adlandırılır.",
-                                                            "A":  "Sistem ile harici varlıklar arasındaki veri akışını gösterir.",
-                                                            "C":  "Her bir yazılım projesinden tek bir defa çizilir.",
-                                                            "D":  "Bağlam diyagramında harici varlıklar arasındaki akışa izin verilir.",
-                                                            "E":  "Sadece 1 süreç içerir."
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  12,
-                                            "question":  "Gösterge paneli tasarımlarında grafikerin geleceği tahmin edebilme yeteneğini sağlamaları aşağıdaki hangi bileşen sayesindedir?",
-                                            "options":  {
-                                                            "A":  "Erişilebilirlik",
-                                                            "B":  "Senaryo tasarımı",
-                                                            "C":  "Görsel analitik",
-                                                            "D":  "Kullanılabilirlik",
-                                                            "E":  "Metin madenciliği"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  13,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Değerlendirme",
-                                                            "B":  "Raporlama",
-                                                            "C":  "Geciken sipariş kontrolü",
-                                                            "D":  "Sistem yönetimi",
-                                                            "E":  "İlan yönetimi"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  14,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Verim",
-                                                            "A":  "Bekleme süresi",
-                                                            "C":  "Bant genişliği",
-                                                            "D":  "Geri dönüş süresi",
-                                                            "E":  "Tepki süresi"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  15,
-                                            "question":  "Yazar ve kitap varlıkları arasındaki ilişkisi aşağıdaki ilişki türlerinden hangisine örnektir?",
-                                            "options":  {
-                                                            "A":  "Bire-Çok",
-                                                            "B":  "Çoka-Çok",
-                                                            "C":  "Çoka-Bir",
-                                                            "D":  "Bire-Bir",
-                                                            "E":  "Tekli İlişki"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  16,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Bire-Çok",
-                                                            "A":  "Çoka-Bir",
-                                                            "C":  "Tekli İlişki",
-                                                            "D":  "Çoka-Çok",
-                                                            "E":  "Bire-Bir"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  17,
-                                            "question":  "Hızlı uygulama geliştirme ile ilgili aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Gereksinimlerin tamamının başlangıçta belli olmasına gerek yoktur.",
-                                                            "B":  "Tasarım prototipleri ile gereksinimleri toplayabilir.",
-                                                            "C":  "Zaman kısıtlı projelerde tercih edilir.",
-                                                            "D":  "Çok uzun projelerde kullanılır.",
-                                                            "E":  "Son ürüne en erken ulaşım esastır."
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  18,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "En az 5 kural vardır.",
-                                                            "A":  "En fazla 2 kural oluşturulabilir.",
-                                                            "C":  "5 sütundan oluşur.",
-                                                            "D":  "En fazla 6 adet kural olabilir.",
-                                                            "E":  "Sütun sayısı en az 7 olmalıdır."
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  19,
-                                            "question":  "Proje beyanlarında aşağıdaki soruların hangisinin cevabı yer almaz?",
-                                            "options":  {
-                                                            "A":  "Projenin kapsamı nedir?",
-                                                            "B":  "Son kullanıcılar kimlerdir?",
-                                                            "C":  "Tahmini bütçe nedir?",
-                                                            "D":  "Projenin beklenen çıktıları nedir?",
-                                                            "E":  "Proje gereksinimleri nelerdir?"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  20,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Saygı",
-                                                            "B":  "Sadelik",
-                                                            "C":  "Test",
-                                                            "D":  "Geri bildirim",
-                                                            "E":  "İletişim"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  },
-                  {
-                      "title":  "Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Vize",
-                      "exam_type":  "vize",
-                      "year":  "2023-2024",
-                      "file_name":  "Bilişim_Sistemleri_Analiz_Ve_Tasarımı_2023_2024_Vize.docx",
-                      "question_count":  20,
-                      "questions":  [
-                                        {
-                                            "id":  1,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Uygulama",
-                                                            "A":  "Başlama",
-                                                            "B":  "Bakım",
-                                                            "C":  "Sonlandırma",
-                                                            "D":  "Planlama"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  2,
-                                            "question":  "Hangi yapısal metodolojide tasarım prototipleri kullanılır?",
-                                            "options":  {
-                                                            "A":  "Şelale Modeli",
-                                                            "B":  "Spiral Model",
-                                                            "C":  "Paralel Geliştirme",
-                                                            "D":  "v Modeli",
-                                                            "E":  "Aşamalı Geliştirme"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  3,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Evrimsel Prototipleme",
-                                                            "A":  "Spiral Model",
-                                                            "B":  "Şelale Modeli",
-                                                            "C":  "Çevik Modeller",
-                                                            "D":  "Aşamalı Geliştirme"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  4,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Karar destek sistemleri – Operasyonel seviye",
-                                                            "B":  "Bilgi çalışanı sistemleri – Orta (Taktiksel) seviye",
-                                                            "C":  "Üst yönetici destek sistemleri – Stratejik seviye",
-                                                            "D":  "Yönetim bilişim sistemleri – Orta (Taktiksel) seviye",
-                                                            "E":  "Hareket işleme sistemleri – Operasyonel seviye"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  5,
-                                            "question":  "Firmaların günlük faaliyetlerini etkileyen belirsizlikler hangi risk kalemi altında değerlendirilir?",
-                                            "options":  {
-                                                            "A":  "Proje riski",
-                                                            "B":  "Kullanıcı riski",
-                                                            "C":  "Günlük risk",
-                                                            "D":  "Ürün riski",
-                                                            "E":  "Süreç riski"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  6,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "İkincil Saklama Ünitesi (Sabit Disk)",
-                                                            "A":  "Ekran kartı",
-                                                            "C":  "Anakart",
-                                                            "D":  "Merkezi İşlem Birimi (CPU)",
-                                                            "E":  "Birincil Saklama Ünitesi (RAM)"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  7,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Süreç içerisindeki görevlerin eksik sonlanması",
-                                                            "B":  "Devamsızlık oranlarındaki düşüşler",
-                                                            "C":  "Hiçbir şekilde yerine getirilemeyen görevler",
-                                                            "D":  "Son üründe meydana gelen hatalar",
-                                                            "E":  "Sürekli yanlış çıktı veren raporlar"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  8,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Ağ",
-                                                            "A":  "Yazılım",
-                                                            "C":  "Donanım",
-                                                            "D":  "Prosedür",
-                                                            "E":  "Veri tabanı"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  9,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "1 - 2",
-                                                            "A":  "2 - 3 - 4",
-                                                            "C":  "1 - 2 - 3",
-                                                            "D":  "1 - 2 - 4",
-                                                            "E":  "3 - 4"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  10,
-                                            "question":  "‘Bir web sitesinin bir saatteki ortalama çökme sayısı 2, 7 olarak hesaplanmıştır. Bu ifadedeki 2, 7 değeri neye tekabül etmektedir?",
-                                            "options":  {
-                                                            "A":  "İhsan",
-                                                            "B":  "Bilgi",
-                                                            "C":  "Bilgelik",
-                                                            "D":  "Bilişim",
-                                                            "E":  "Veri Tartışmalı soru"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  11,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Acil durum planı",
-                                                            "A":  "Geri bildirim beyanı",
-                                                            "C":  "Risk şiddeti matrisi",
-                                                            "D":  "Yedekleme ve kurtarma beyanı",
-                                                            "E":  "Gereksinim listesi"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  12,
-                                            "question":  "Kütüphaneden alınan bir kitabın, çıkarken öğrenci tarafından kendi üzerine alındığı bilişim sistemi hangisine örnektir?",
-                                            "options":  {
-                                                            "A":  "Yönetim Bilişim Sistemi",
-                                                            "B":  "Karar Destek Sistemi",
-                                                            "C":  "Hareket İşleme Sistemi",
-                                                            "D":  "Bilgi Çalışanı Sistemi",
-                                                            "E":  "Üst Yönetici Destek Sistemi"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  13,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Müşteri katılımını yükseltir.",
-                                                            "B":  "Dokümantasyonu düşürür.",
-                                                            "C":  "Ürünün kabul görme ihtimalini artırır.",
-                                                            "D":  "Paydaşlar ile iletişimi artırır.",
-                                                            "E":  "Değişim yönetimi ile kapsam kaymasına neden olur."
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  14,
-                                            "question":  "Mantık modelleme hangi sistem geliştirme aşamasında yürütülen bir faaliyettir?",
-                                            "options":  {
-                                                            "A":  "Analiz",
-                                                            "B":  "Planlama",
-                                                            "C":  "İzleme",
-                                                            "D":  "Tasarım",
-                                                            "E":  "Uygulama"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  15,
-                                            "question":  "Scrum yönteminde proje yönetimi görevini hangi takım elemanı üstlenir?",
-                                            "options":  {
-                                                            "A":  "Patron",
-                                                            "B":  "Ustabaşı",
-                                                            "C":  "Scrum Ustası",
-                                                            "D":  "Lider",
-                                                            "E":  "Ürün Sahibi"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  16,
-                                            "question":  "Gerekli olan bir sunucunun satın alınmasına hangi fizibilite aşamasında karar verilir?",
-                                            "options":  {
-                                                            "A":  "Yasal",
-                                                            "B":  "Çizelge",
-                                                            "C":  "Organizasyonel",
-                                                            "D":  "Operasyonel",
-                                                            "E":  "Teknik"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  17,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Gereksinim",
-                                                            "A":  "Yalınlık",
-                                                            "C":  "Planlama",
-                                                            "D":  "Geçerlilik",
-                                                            "E":  "Ölçeklenebilirlik"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  18,
-                                            "question":  "Proje yürütme sürecindeki iş kırılımda yer alan her bir göreve ilgili personelin atanması için kullanılan matris yöntem aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "RACI",
-                                                            "B":  "SIMPLEX",
-                                                            "C":  "JAD",
-                                                            "D":  "CRUD",
-                                                            "E":  "RAD"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  19,
-                                            "question":  "Gösterge panelleri genelde hangi bilişim sisteminde tercih edilir?",
-                                            "options":  {
-                                                            "A":  "Üst Yönetici Destek Sistemi",
-                                                            "B":  "Süreç Kontrol Sistemleri",
-                                                            "C":  "Hareket İşleme Sistemi",
-                                                            "D":  "Bilgi Çalışanı Sistemi",
-                                                            "E":  "Ofis Otomasyon Sistemleri"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  20,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Kaynak yönetimi projeler için temel görevlerdendir.",
-                                                            "B":  "Her proje çıktısı değer yaratmalıdır.",
-                                                            "C":  "Projelerin kesin bir başlangıcı ve sonu vardır.",
-                                                            "D":  "Projeler kesin süreçlerdir, belirsizlik içermez.",
-                                                            "E":  "Projelerin benzersiz bir amacı vardır."
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  },
-                  {
-                      "title":  "Bilişim Sistemleri Analiz ve Tasarımı 2023-2024 Bütünleme",
-                      "exam_type":  "bütünleme",
-                      "year":  "2023-2024",
-                      "file_name":  "Bilişim_Sistemleri_Analiz_ve_Tasarımı_2023_2024_Butunleme.docx",
-                      "question_count":  20,
-                      "questions":  [
-                                        {
-                                            "id":  1,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Riski geliştirme",
-                                                            "B":  "Riski paylaşma",
-                                                            "C":  "Riski kabul etme",
-                                                            "D":  "Riskten yararlanma",
-                                                            "E":  "Riski devretme"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  2,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Ara kapı",
-                                                            "B":  "Hizmet reddi",
-                                                            "C":  "Araya girme",
-                                                            "D":  "Balık tutma (Yemleme)",
-                                                            "E":  "IP sahteciliği"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  3,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Erişim kontrolü",
-                                                            "B":  "Sistem entegrasyonu",
-                                                            "C":  "Çok dillilik",
-                                                            "D":  "Özelleştirme",
-                                                            "E":  "Kapasite"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  4,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Gözlem yapılırken mümkün olduğu kadar not almaktan kaçınılmalıdır.",
-                                                            "A":  "Gözlem yapılacak kişilere gözlem yapıldığı hissettirilmelidir.",
-                                                            "B":  "Gözlem yapılırken ön plana çıkılmamalıdır.",
-                                                            "C":  "Gözlem özellikle iş anındaki bireyler ile etkileşimli olarak yapılmalıdır.",
-                                                            "D":  "Gözlem yapılırken önemsiz faaliyetlere odaklanılması gerekir."
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  5,
-                                            "question":  "Yaş bilgisinin girilmesi gereken bir ekranda 120 sayısından daha büyük bir değerin girişine müsaade edilmemesi aşağıdaki hangi girdi kontrolü ile alakalıdır?",
-                                            "options":  {
-                                                            "A":  "Biçim",
-                                                            "B":  "Tamlık",
-                                                            "C":  "Aralık",
-                                                            "D":  "Veri tabanı",
-                                                            "E":  "Tutarlılık"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  6,
-                                            "question":  "Veri akış diyagramlarında harici varlık bileşeninin kullanımı ile ilgili aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Bir harici varlık birden fazla süreçle etkileşime girmez.",
-                                                            "B":  "Bütün veri akış diyagramı seviyelerinde kullanılabilir.",
-                                                            "C":  "Harici varlıklar arasında akışa izin verilmez.",
-                                                            "D":  "Harici varlıklar ile veri depoları arasında akış olmaz.",
-                                                            "E":  "Harici varlıklar birden fazla tekrar edilebilir."
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  7,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Süreçler birden fazla girdi alıp birden fazla çıktı üretebilir.",
-                                                            "A":  "Diyagramda temel fonksiyonlar süreç olarak verilir.",
-                                                            "B":  "Bağlam diyagramındaki akışlar ile dengeli olarak çizilir.",
-                                                            "C":  "Harici varlıklar diyagram içerisinde tekrar edilebilir.",
-                                                            "D":  "Veri depolarına diyagram içerisinde yer verilmez."
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  8,
-                                            "question":  "OSI referans modelinde aşağıdaki hangi aşama yer almaz?",
-                                            "options":  {
-                                                            "A":  "İletişim",
-                                                            "B":  "Dokümantasyon",
-                                                            "C":  "Fiziksel bağlantı",
-                                                            "D":  "Aktarım",
-                                                            "E":  "Servisler"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  9,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Aşama",
-                                                            "A":  "Aktivite",
-                                                            "C":  "Güncelleme",
-                                                            "D":  "Proje",
-                                                            "E":  "İş Paketi"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  10,
-                                            "question":  "Mantık modelleri aşağıdaki hangi veri akış elemanının iç yapısını açıklar?",
-                                            "options":  {
-                                                            "A":  "Veri deposu",
-                                                            "B":  "Süreç",
-                                                            "C":  "Harici varlık",
-                                                            "D":  "İç varlık",
-                                                            "E":  "Veri akışı"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  11,
-                                            "question":  "Fonksiyonel olmayan gereksinimler ile alakalı aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Bir sistemin ``ne`` yapması gerektiğini ifade eder.",
-                                                            "B":  "Performans ile alakalıdır.",
-                                                            "C":  "Başarısızlık durumunda sistem bir bütün olarak kullanışsız hale gelir.",
-                                                            "D":  "İşlevleri destekleyen gereksinimlerdir.",
-                                                            "E":  "Ölçümü kolay değildir."
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  12,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Bakım",
-                                                            "B":  "Kodlama",
-                                                            "C":  "Test",
-                                                            "D":  "Güvenirlik",
-                                                            "E":  "Kurulum"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  13,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Nesne Yönelimi",
-                                                            "B":  "Ağ",
-                                                            "C":  "Dosya tabanları",
-                                                            "D":  "Hiyerarşik",
-                                                            "E":  "İlişkisel"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  14,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Yapısal dil",
-                                                            "B":  "Çok kriterli karar verme",
-                                                            "C":  "Doğal dil işleme",
-                                                            "D":  "Karar tabloları",
-                                                            "E":  "Karar ağaçları"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  15,
-                                            "question":  "Risk analizi aşağıdaki hangi sistem geliştirme aşamasında yürütülen bir faaliyettir?",
-                                            "options":  {
-                                                            "A":  "Uygulama",
-                                                            "B":  "Analiz",
-                                                            "C":  "Planlama",
-                                                            "D":  "Tasarım",
-                                                            "E":  "İzleme"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  16,
-                                            "question":  "Proje beyanı ile ilgili aşağıdakilerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Son ürün ile ilgili tahminleri içerir.",
-                                                            "B":  "İş paketi ile ekip elemanlarının eşleştirmelerini içerir.",
-                                                            "C":  "Proje riskleri ile ilgili bir liste içerir.",
-                                                            "D":  "Maksimum izin verilen süre tahminlerini içerir.",
-                                                            "E":  "Ana amaç ve alt amaçları içerir."
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  17,
-                                            "question":  "Web sayfaları için mutlaka bir ana sayfa tasarlanması gerekliliğini ifade eden tasarım faktörü aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "Promosyon",
-                                                            "B":  "Grafikler",
-                                                            "C":  "Sunum Tipleri",
-                                                            "D":  "İçerik",
-                                                            "E":  "Metin"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  18,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Coğrafi Bilgi Sistemi",
-                                                            "A":  "Bilgi Çalışanı Sistemi",
-                                                            "C":  "Hareket İşleme Sistemi",
-                                                            "D":  "Yönetim Bilişim Sistemi",
-                                                            "E":  "Karar Destek Sistemi"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  19,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Süper",
-                                                            "A":  "Yabancı",
-                                                            "B":  "Aday",
-                                                            "C":  "Bileşik",
-                                                            "D":  "İkincil"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  20,
-                                            "question":  "Farklı teknolojilerin kullanılmasının zorunlu olduğu projeler için en doğru sistem geliştirme metodolojisi aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "Sistem prototipleme",
-                                                            "B":  "Paralel Geliştirme",
-                                                            "C":  "v modeli",
-                                                            "D":  "Şelale modeli",
-                                                            "E":  "Tasarım prototipleme"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  },
-                  {
-                      "title":  "Bilişim Sistemleri Analiz ve Tasarımı 2024-2025 Final",
-                      "exam_type":  "final",
-                      "year":  "2024-2025",
-                      "file_name":  "Bilişim_Sistemleri_Analiz_ve_Tasarımı_2024_2025_Final.docx",
-                      "question_count":  20,
-                      "questions":  [
-                                        {
-                                            "id":  1,
-                                            "question":  "Tek bir boş değere müsaade eden tamamen benzersiz değerler içeren anahtar türü aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "Yabancı",
-                                                            "B":  "Süper",
-                                                            "C":  "Birincil",
-                                                            "D":  "Tekil",
-                                                            "E":  "Aday"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  2,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Bağımsızlık",
-                                                            "A":  "Genelleştirilebilirlik",
-                                                            "C":  "Okunabilirlik",
-                                                            "D":  "Çevrilebilirlik",
-                                                            "E":  "Yalınlık"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  3,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "En az 5 kural vardır.",
-                                                            "A":  "En fazla 6 adet kural olabilir.",
-                                                            "C":  "Sütun sayısı en az 7 olmalıdır.",
-                                                            "D":  "En fazla 2 kural oluşturulabilir.",
-                                                            "E":  "5 sütundan oluşur."
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  4,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "İnfografik",
-                                                            "B":  "Sunumlar",
-                                                            "C":  "Podcast",
-                                                            "D":  "Gösterge paneli",
-                                                            "E":  "Basılı materyal"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  5,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Çevik Modeller",
-                                                            "A":  "Aşamalı Geliştirme",
-                                                            "B":  "Şelale Modeli",
-                                                            "C":  "Evrimsel Prototipleme",
-                                                            "D":  "Spiral Model"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  6,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Aktivite",
-                                                            "A":  "Güncelleme",
-                                                            "C":  "Aşama",
-                                                            "D":  "Proje",
-                                                            "E":  "İş Paketi"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  7,
-                                            "question":  "Proje beyanlarında aşağıdaki soruların hangisinin cevabı yer almaz?",
-                                            "options":  {
-                                                            "A":  "Projenin kapsamı nedir?",
-                                                            "B":  "Tahmini bütçe nedir?",
-                                                            "C":  "Projenin beklenen çıktıları nedir?",
-                                                            "D":  "Son kullanıcılar kimlerdir?",
-                                                            "E":  "Proje gereksinimleri nelerdir?"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  8,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Sürenin yanlış belirlenmesi",
-                                                            "B":  "Bütçenin yanlış modellenmesi",
-                                                            "C":  "Eksik veya yanlış gereksinimlerin oluşturulması",
-                                                            "D":  "Planlama faaliyetlerine yeteri kadar önem verilmemesi",
-                                                            "E":  "Çıktı tahminlerinin gerçekçi olmaması"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  9,
-                                            "question":  "Kütüphaneden alınan bir kitabın, çıkarken öğrenci tarafından kendi üzerine alındığı bilişim sistemi aşağıdaki sistemlerden hangisine örnektir?",
-                                            "options":  {
-                                                            "A":  "Bilgi Çalışanı Sistemi",
-                                                            "B":  "Yönetim Bilişim Sistemi",
-                                                            "C":  "Hareket İşleme Sistemi",
-                                                            "D":  "Karar Destek Sistemi",
-                                                            "E":  "Üst Yönetici Destek Sistemi"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  10,
-                                            "question":  "Sürücü güncelleme faaliyeti aşağıdaki bakım türlerinden hangisi içerisinde değerlendirilir?",
-                                            "options":  {
-                                                            "A":  "Düzeltici",
-                                                            "B":  "İyileştirici",
-                                                            "C":  "Uyarlayıcı",
-                                                            "D":  "Denetleyici",
-                                                            "E":  "Önleyici"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  11,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Sistem en fazla 3 fare tıklamasına müsaade etmelidir",
-                                                            "B":  "Sistem 3. fare tıklamasında ana sayfaya dönmelidir",
-                                                            "C":  "Sistem 3 tıklama ile arayüzleri kapatmaya müsaade etmelidir",
-                                                            "D":  "Sistemi çok kısa süre içerisinde üç tıklama yapılmasına müsaade etmemelidir",
-                                                            "E":  "Sistemde herhangi bir ekrana en fazla üç tıkla ulaşılmalıdır"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  12,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Esneklik",
-                                                            "A":  "Kapasite",
-                                                            "C":  "Güvenirlik",
-                                                            "D":  "Erişim kontrolü",
-                                                            "E":  "Hız"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  13,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Veri depolarına diyagram içerisinde yer verilmez.",
-                                                            "A":  "Harici varlıklar diyagram içerisinde tekrar edilebilir.",
-                                                            "B":  "Bağlam diyagramındaki akışlar ile dengeli olarak çizilir.",
-                                                            "C":  "Diyagramda temel fonksiyonlar süreç olarak verilir.",
-                                                            "D":  "Süreçler birden fazla girdi alıp birden fazla çıktı üretebilir."
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  14,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Veri Yolu",
-                                                            "B":  "Yıldız",
-                                                            "C":  "Örgü",
-                                                            "D":  "Halka",
-                                                            "E":  "Hiyerarşik"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  15,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Dokümantasyonu düşürür.",
-                                                            "B":  "Paydaşlar ile iletişimi artırır.",
-                                                            "C":  "Müşteri katılımını yükseltir.",
-                                                            "D":  "Değişim yönetimi ile kapsam kaymasına neden olur.",
-                                                            "E":  "Ürünün kabul görme ihtimalini artırır."
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  16,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Sistem ile harici varlıklar arasındaki veri akışını gösterir.",
-                                                            "A":  "Bağlam diyagramında harici varlıklar arasındakı akışa izin verilir.",
-                                                            "C":  "Sadece 1 süreç içerir.",
-                                                            "D":  "Her bir yazılım projesinden tek bir defa çizilir.",
-                                                            "E":  "Kullanılan süreç, son ürün olan yazılım ile adlandırılır."
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  17,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Karar tabloları",
-                                                            "B":  "Karar ağaçları",
-                                                            "C":  "Yapısal dil",
-                                                            "D":  "Çok kriterli karar verme",
-                                                            "E":  "Doğal dil işleme"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  18,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Etik",
-                                                            "A":  "Yasal",
-                                                            "C":  "Çevresel",
-                                                            "D":  "Güvenirlik",
-                                                            "E":  "Kullanılabilirlik"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  19,
-                                            "question":  "İlişkisel Veri tabanıda bulunan bir tabloda 2, 3 ve 4. sütunların işçi ve 5, 6, 7. sütunların ise iş bilgilerini içerdiği görülmektedir.Bu tablonun iki farklı tablo olarak tasarlanmasının zorlayan normalizasyon formu aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "2NF",
-                                                            "B":  "4NF",
-                                                            "C":  "ONF",
-                                                            "D":  "INF",
-                                                            "E":  "3NF"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  20,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Gözlem yapılırken mümkün olduğu kadar not almaktan kaçınılmalıdır.",
-                                                            "A":  "Gözlem yapılırken önemsiz faaliyetlere odaklanılması gerekir.",
-                                                            "B":  "Gözlem özellikle iş anındaki bireyler ile etkileşimli olarak yapılmalıdır.",
-                                                            "C":  "Gözlem yapılırken ön plana çıkılmamalıdır.",
-                                                            "D":  "Gözlem yapılacak kişilere gözlem yapıldığı hissettirilmelidir."
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  },
-                  {
-                      "title":  "Bilişim Sistemleri Analiz ve Tasarımı 2024-2025 Vize",
-                      "exam_type":  "vize",
-                      "year":  "2024-2025",
-                      "file_name":  "Bilişim_Sistemleri_Analiz_ve_Tasarımı_2024_2025_Vize.docx",
-                      "question_count":  20,
-                      "questions":  [
-                                        {
-                                            "id":  1,
-                                            "question":  "Risk yanıtı geliştirme faaliyetinin çıktısı hangi dokümandır?",
-                                            "options":  {
-                                                            "A":  "Risk analizi",
-                                                            "B":  "Yeni riskler",
-                                                            "C":  "Risk kütüğü",
-                                                            "D":  "Bilinen riskler",
-                                                            "E":  "Risk yönetim planı"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  2,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Coğrafi Bilgi Sistemi",
-                                                            "A":  "Bilgi Çalışanı Sistemi",
-                                                            "C":  "Hareket İşleme Sistemi",
-                                                            "D":  "Yönetim Bilişim Sistemi",
-                                                            "E":  "Karar Destek Sistemi"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  3,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Devamsızlık oranlarındaki düşüşler",
-                                                            "B":  "Hiçbir şekilde yerine getirilemeyen görevler",
-                                                            "C":  "Son üründe meydana gelen hatalar",
-                                                            "D":  "Sürekli yanlış çıktı veren raporlar",
-                                                            "E":  "Süreç içerisindeki görevlerin eksik sonlanması"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  4,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Ekran kartı",
-                                                            "A":  "Birincil Saklama Ünitesi (RAM)",
-                                                            "C":  "Anakart",
-                                                            "D":  "İkincil Saklama Ünitesi (Sabit Disk)",
-                                                            "E":  "Merkezi İşlem Birimi (CPU)"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  5,
-                                            "question":  "Hızlı uygulama geliştirme ile ilgili verilen aşağıdaki ifadelerden hangisi yanlıştır?",
-                                            "options":  {
-                                                            "A":  "Çok uzun projelerde kullanılır.",
-                                                            "B":  "Gereksinimlerin tamamının başlangıçta belli olmasına gerek yoktur.",
-                                                            "C":  "Son ürüne en erken ulaşım esastır.",
-                                                            "D":  "Tasarım prototipleri ile gereksinimleri toplayabilir.",
-                                                            "E":  "Zaman kısıtlı projelerde tercih edilir."
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  6,
-                                            "question":  "Mantık modelleme hangi sistem geliştirme aşamasında yürütülen bir faaliyettir?",
-                                            "options":  {
-                                                            "A":  "Tasarım",
-                                                            "B":  "Planlama",
-                                                            "C":  "İzleme",
-                                                            "D":  "Analiz",
-                                                            "E":  "Uygulama"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  7,
-                                            "question":  "“Bir web sitesinin bir saatteki ortalama çökme sayısı 2, 7” olarak hesaplanmıştır. Bu ifadedeki 2, 7 değeri aşağıdakilerden hangisine tekabül etmektedir?",
-                                            "options":  {
-                                                            "A":  "Bilgi",
-                                                            "B":  "Bilişim",
-                                                            "C":  "İhsan",
-                                                            "D":  "Bilgelik",
-                                                            "E":  "Veri"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  8,
-                                            "question":  "Farklı teknolojilerin kullanılmasının zorunlu olduğu projeler için en doğru sistem geliştirme metodolojisi aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "Tasarım prototipleme",
-                                                            "B":  "Şelale modeli",
-                                                            "C":  "Sistem prototipleme",
-                                                            "D":  "Paralel geliştirme",
-                                                            "E":  "v modeli"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  9,
-                                            "question":  "",
-                                            "options":  {
-                                                            "E":  "Planlama",
-                                                            "A":  "Bakım",
-                                                            "B":  "Uygulama",
-                                                            "C":  "Başlama",
-                                                            "D":  "Sonlandırma"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  10,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Geri bildirim",
-                                                            "B":  "İletişim",
-                                                            "C":  "Saygı",
-                                                            "D":  "Sadelik",
-                                                            "E":  "Test"
-                                                        },
-                                            "correct_answer":  "E",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  11,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Üst yönetici destek sistemleri - Stratejik seviye",
-                                                            "B":  "Bilgi çalışanı sistemleri - Orta (Taktiksel) seviye",
-                                                            "C":  "Karar destek sistemleri - Operasyonel seviye",
-                                                            "D":  "Yönetim bilişim sistemleri - Orta (Taktiksel) seviye",
-                                                            "E":  "Hareket işleme sistemleri - Operasyonel seviye"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  12,
-                                            "question":  "",
-                                            "options":  {
-                                                            "A":  "Çok kriterli karar verme",
-                                                            "B":  "Nominal grup tekniği",
-                                                            "C":  "Delphi",
-                                                            "D":  "Pazar dengesi analizi",
-                                                            "E":  "Ağırlıklı ortalama"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  13,
-                                            "question":  "Prince II proje sertifikasyonunda iş paketleri hangi aşamada belirlenir?",
-                                            "options":  {
-                                                            "A":  "Seçme",
-                                                            "B":  "Aşamaları Yönetme",
-                                                            "C":  "Sonlandırma",
-                                                            "D":  "Teslimatı Yönetme",
-                                                            "E":  "Yönlendirme"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  14,
-                                            "question":  "Risk analizi aşağıdaki hangi sistem geliştirme aşamasında yürütülen bir faaliyettir?",
-                                            "options":  {
-                                                            "A":  "Analiz",
-                                                            "B":  "Planlama",
-                                                            "C":  "Uygulama",
-                                                            "D":  "İzleme",
-                                                            "E":  "Tasarım"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  15,
-                                            "question":  "Proje yürütme sürecindeki iş kırılımda yer alan her bir göreve ilgili personelin atanması için kullanılan matris yöntem aşağıdakilerden hangisidir?",
-                                            "options":  {
-                                                            "A":  "CRUD",
-                                                            "B":  "JAD",
-                                                            "C":  "RAD",
-                                                            "D":  "RACI",
-                                                            "E":  "SIMPLEX"
-                                                        },
-                                            "correct_answer":  "D",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  16,
-                                            "question":  "Gösterge panelleri genelde aşağıda verilen bilişim sistemlerinden hangisinde tercih edilir?",
-                                            "options":  {
-                                                            "A":  "Ofis Otomasyon Sistemleri",
-                                                            "B":  "Bilgi Çalışanı Sistemi",
-                                                            "C":  "Üst Yönetici Destek Sistemi",
-                                                            "D":  "Hareket İşleme Sistemi",
-                                                            "E":  "Süreç Kontrol Sistemleri"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  17,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Donanım",
-                                                            "A":  "Yazılım",
-                                                            "C":  "Prosedür",
-                                                            "D":  "Veri tabanı",
-                                                            "E":  "Ağ"
-                                                        },
-                                            "correct_answer":  "B",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  18,
-                                            "question":  "Scrum yönteminde proje yönetimi görevini hangi takım elemanı üstlenir?",
-                                            "options":  {
-                                                            "A":  "Lider",
-                                                            "B":  "Patron",
-                                                            "C":  "Scrum Ustası",
-                                                            "D":  "Ustabaşı",
-                                                            "E":  "Ürün Sahibi"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  19,
-                                            "question":  "",
-                                            "options":  {
-                                                            "B":  "Gereksinim listesi",
-                                                            "A":  "Acil durum planı",
-                                                            "C":  "Risk şiddeti matrisi",
-                                                            "D":  "Yedekleme ve kurtarma beyanı",
-                                                            "E":  "Geri bildirim beyanı"
-                                                        },
-                                            "correct_answer":  "A",
-                                            "explanation":  ""
-                                        },
-                                        {
-                                            "id":  20,
-                                            "question":  "Gerekli olan bir sunucunun satın alınmasına hangi fizibilite aşamasında karar verilir?",
-                                            "options":  {
-                                                            "A":  "Operasyonel",
-                                                            "B":  "Organizasyonel",
-                                                            "C":  "Teknik",
-                                                            "D":  "Yasal",
-                                                            "E":  "Çizelge"
-                                                        },
-                                            "correct_answer":  "C",
-                                            "explanation":  ""
-                                        }
-                                    ]
-                  }
-              ]
+  "course": "Bilişim Sistemleri Analiz ve Tasarımı",
+  "lesson_code": "BILI_IM_SISTEMLERI_ANALIZ_VE_TASARIMI",
+  "exams": [
+    {
+      "title": "Bilişim Sistemleri Analiz ve Tasarımı 2022 Final",
+      "exam_type": "final",
+      "year": "2022",
+      "file_name": "Bilişim_Sistemleri_Analiz_Ve_Tasarımı_2022_2023_Final.docx",
+      "question_count": 23,
+      "questions": [
+        {
+          "id": 1,
+          "question": "",
+          "options": {
+            "B": "Kullanılan süreç, son ürün olan yazılım ile adlandırılır.",
+            "A": "Her bir yazılım projesinden tek bir defa çizilir.",
+            "C": "Sadece 1 süreç içerir.",
+            "D": "Sistem ile harici varlıklar arasındaki veri akışını gösterir.",
+            "E": "Bağlam diyagramında harici varlıklar arasındaki akışa izin verilir."
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Farklı sistem parçalarının benzer girdilere karşı aynı şekilde tepki üretmesi girditasarımının hangi kriteri ile alakalıdır?",
+          "options": {
+            "A": "Yalınlık",
+            "B": "Etkililik",
+            "C": "Kullanılabilirlik",
+            "D": "Erişilebilirlik",
+            "E": "Kararlılık"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "",
+          "options": {
+            "A": "Podcast",
+            "B": "Sunumlar",
+            "C": "Gösterge paneli",
+            "D": "infografik",
+            "E": "Basılı materyal"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "Hızlı uygulama geliştirme ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Tasarım prototipleri ile gereksinimleri toplayabilir.",
+            "B": "Son ürüne en erken ulaşım esastır",
+            "C": "Çok uzun projelerde kullanılır",
+            "D": "Zaman kısıtlı projelerde tercih edilir",
+            "E": "Gereksinimlerin tamamının başlangıçta belirli olmasına gerek yoktur"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "",
+          "options": {
+            "A": "IP sahteciliği",
+            "B": "Ara kapı",
+            "C": "Balık tutma (Yemleme)",
+            "D": "Araya girme",
+            "E": "Hizmet reddi"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Fonksiyonel olmayan gereksinimler ile alakalı aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Ölçümü kolay değildir.",
+            "B": "Başarısızlık durumunda sistem bir bütün olarak kullanışsız hale gelir.",
+            "C": "Bir sistemin \"ne\" yapması gerektiğini ifade eder.",
+            "D": "İşlevleri destekleyen gereksinimlerdir.",
+            "E": "Performans ile alakalıdır."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangi veri tabanı modeli tarihsel sıralamada daha önce kullanılmıştır?",
+          "options": {
+            "A": "Dosya tabanları",
+            "B": "Hiyerarşik",
+            "C": "Ağ",
+            "D": "İlişkisel",
+            "E": "Nesne Yönelimi"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "",
+          "options": {
+            "B": "Çoka-Çok",
+            "A": "Çoka-Bir",
+            "C": "Tekli ilişki",
+            "D": "Bire-Çok",
+            "E": "Bire-Bir"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Veri akış diyagramlarında harici varlık bileşeninin kullanımı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bir harici varlık birden fazla süreçle etkileşime girmez.",
+            "B": "Harici varlıklar ile veri depoları arasında akış olmaz.",
+            "C": "Harici varlıklar arasında akışa izin verilmez.",
+            "D": "Harici varlıklar birden fazla tekrar edilebilir.",
+            "E": "Bütün veri akış diyagramı seviyelerinde kullanılabilir."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "Veri sözlüklerinde veri depoları ile ilgili tablolarda hangi sütun yer almaz?",
+          "options": {
+            "A": "Birincil anahtar",
+            "B": "Mantık modeli",
+            "C": "Veri deposu açıklaması",
+            "D": "Veri deposu adı",
+            "E": "Veri deposu numarası"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "",
+          "options": {
+            "E": "Sprinte Değerlendirme",
+            "A": "Açılış grafikleri",
+            "B": "Sprinte Planlama",
+            "C": "Sprint Retrospektif",
+            "D": "Günlük Scrum"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Yığın ve çevrimiçi veri işleme süreçleri ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Yığın işlemede işlem sırası tahmin edilemez.",
+            "B": "Çevrimiçi işleme nispeten daha az donanım ve programlama gerektirir.",
+            "C": "Yığın işlemede kurtarma ve yeniden başlatma kolaydır.",
+            "D": "Yığın işlemede olayın olduğu anda verinin işlenmesi esastır.",
+            "E": "Çevrimiçi işleme tek seferde daha fazla veri işler."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "",
+          "options": {
+            "A": "Güvenirlik",
+            "B": "Test",
+            "C": "Kodlama",
+            "D": "Bakım",
+            "E": "Kurulum"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "",
+          "options": {
+            "A": "Sistem entegrasyonu",
+            "B": "Kapasite",
+            "C": "Erişim kontrolü",
+            "D": "Çok dillilik",
+            "E": "Özelleştirme"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "",
+          "options": {
+            "A": "Üst Yönetici Destek Sistemi",
+            "B": "Bilgi Çalışanı Sistemi",
+            "C": "Karar Destek Sistemi",
+            "D": "Coğrafi Bilgi Sistemi",
+            "E": "Yönetim Bilişim Sistemi"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "Risk yanıtı geliştirme faaliyetinin çıktısı hangi dokümandır?",
+          "options": {
+            "A": "Risk kütüğü",
+            "B": "Yeni riskler",
+            "C": "Bilinen riskler",
+            "D": "Risk analiz",
+            "E": "Risk yönetim planı"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Proje beyanı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "İş paketi ile ekip elemanlarının eşleştirmelerini içerir.",
+            "B": "Maksimum izin verilen süre tahminlerini içerir.",
+            "C": "Son ürün ile ilgili tahminleri içerir.",
+            "D": "Ana amaç ve alt amaçları içerir.",
+            "E": "Proje riskleri ile ilgili bir liste içerir."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "",
+          "options": {
+            "B": "Hız",
+            "A": "Esneklik",
+            "C": "Kapasite",
+            "D": "Erişim kontrolu",
+            "E": "Güvenirlik"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Yaş bilgisinin girilmesi gereken bir ekranda 120 sayısından daha büyük bir değerin girişine müsaade edilmemesi hangi girdi kontrolü ile alakalıdır?",
+          "options": {
+            "A": "Tutarlılık",
+            "B": "Aralık",
+            "C": "Veri tabanı",
+            "D": "Biçim",
+            "E": "Tamlık"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "",
+          "options": {
+            "E": "Aday",
+            "A": "Bileşik",
+            "B": "İkincil",
+            "C": "Süper",
+            "D": "Yabancı"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 21,
+          "question": "",
+          "options": {
+            "B": "Çevresel",
+            "A": "Güvenirlik",
+            "C": "Etik",
+            "D": "Yasal",
+            "E": "Kullanılabilirlik"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 22,
+          "question": "Karmaşık kural yapıları ve çokça kombinasyon olduğu durumlarda hangi mantıkmodelleme yapısı tercih edilmelidir?",
+          "options": {
+            "A": "Yapısal dil",
+            "B": "Doğal dil işleme",
+            "C": "Çok kriterli karar verme",
+            "D": "Karar ağaçları",
+            "E": "Karar tabloları"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 23,
+          "question": "",
+          "options": {
+            "B": "Güncelleme",
+            "A": "Aktivite",
+            "C": "Proje",
+            "D": "İş Paketi",
+            "E": "Aşama"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        }
+      ],
+      "exam_title": "Bilişim Sistemleri Analiz ve Tasarımı 2022 Final"
+    },
+    {
+      "title": "Bilişim Sistemleri Analiz ve Tasarımı 2023 Final",
+      "exam_type": "final",
+      "year": "2023",
+      "file_name": "Bilişim_Sistemleri_Analiz_Ve_Tasarımı_2023_2024_Final.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "",
+          "options": {
+            "B": "Günlük",
+            "A": "Sistem",
+            "C": "Birim",
+            "D": "Yönetim",
+            "E": "Kabul"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Hata türleri ve etkileri analizinde gereksinimlerin eksik belirlenmesi riski ile ilgili şiddet için 7, olasılık için 8 ve tespit ihtimali için 10 değerleri belirlenmiştir. Bu durumda risk öncelik skoru aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "121",
+            "B": "8, 33",
+            "C": "66",
+            "D": "560",
+            "E": "25"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "",
+          "options": {
+            "A": "Ön değerlendirme",
+            "B": "Planlama",
+            "C": "Dağıtım",
+            "D": "Toplantı",
+            "E": "Hazırlık"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "",
+          "options": {
+            "B": "Etik",
+            "A": "Güvenirlik",
+            "C": "Kullanılabilirlik",
+            "D": "Çevresel",
+            "E": "Yasal"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Nispeten kısa süreli projeler için toplam proje süresi aşağıdaki yöntemlerin hangisi ile belirlenir?",
+          "options": {
+            "A": "Gantt",
+            "B": "Fizibilite",
+            "C": "Risk analizi",
+            "D": "İş Kırılımı",
+            "E": "Tornado grafiği"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Yığın ve çevrimiçi veri işleme süreçleri ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Yığın işlemede kurtarma ve yeniden başlatma kolaydır.",
+            "B": "Yığın işlemede işlem sırası tahmin edilemez.",
+            "C": "Yığın işlemede olayın olduğu anda verinin işlenmesi esastır.",
+            "D": "Çevrimiçi işleme nispeten daha az donanım ve programlama gerektirir.",
+            "E": "Çevrimiçi işleme tek seferde daha fazla veri işler."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "",
+          "options": {
+            "A": "Bilgi Çalışanı Sistemi",
+            "B": "Karar Destek Sistemi",
+            "C": "Üst Yönetici Destek Sistemi",
+            "D": "Yönetim Bilişim Sistemi",
+            "E": "Coğrafi Bilgi Sistemi"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "",
+          "options": {
+            "B": "Altyapı sağlama hizmet modeli",
+            "A": "Veri sağlama hizmet modeli",
+            "C": "Platform sağlama hizmet modeli",
+            "D": "Analitik sağlama hizmet modeli",
+            "E": "Yazılım sağlama hizmet modeli"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Farklı sistem parçalarının benzer girdilere karşı aynı şekilde tepki üretmesi girdi tasarımının aşağıdaki hangi kriteri ile alakalıdır?",
+          "options": {
+            "A": "Yalınlık",
+            "B": "Erişilebilirlik",
+            "C": "Etkililik",
+            "D": "Kullanılabilirlik",
+            "E": "Kararlılık"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "Karmaşık kural yapıları ve çokça kombinasyon olduğu durumlarda aşağıdaki hangi mantık modelleme yapısı tercih edilmelidir?",
+          "options": {
+            "A": "Doğal dil işleme",
+            "B": "Çok kriterli karar verme",
+            "C": "Karar tabloları",
+            "D": "Karar ağaçları",
+            "E": "Yapısal dil"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "",
+          "options": {
+            "B": "Kullanılan süreç, son ürün olan yazılım ile adlandırılır.",
+            "A": "Sistem ile harici varlıklar arasındaki veri akışını gösterir.",
+            "C": "Her bir yazılım projesinden tek bir defa çizilir.",
+            "D": "Bağlam diyagramında harici varlıklar arasındaki akışa izin verilir.",
+            "E": "Sadece 1 süreç içerir."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Gösterge paneli tasarımlarında grafikerin geleceği tahmin edebilme yeteneğini sağlamaları aşağıdaki hangi bileşen sayesindedir?",
+          "options": {
+            "A": "Erişilebilirlik",
+            "B": "Senaryo tasarımı",
+            "C": "Görsel analitik",
+            "D": "Kullanılabilirlik",
+            "E": "Metin madenciliği"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "",
+          "options": {
+            "A": "Değerlendirme",
+            "B": "Raporlama",
+            "C": "Geciken sipariş kontrolü",
+            "D": "Sistem yönetimi",
+            "E": "İlan yönetimi"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "",
+          "options": {
+            "B": "Verim",
+            "A": "Bekleme süresi",
+            "C": "Bant genişliği",
+            "D": "Geri dönüş süresi",
+            "E": "Tepki süresi"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Yazar ve kitap varlıkları arasındaki ilişkisi aşağıdaki ilişki türlerinden hangisine örnektir?",
+          "options": {
+            "A": "Bire-Çok",
+            "B": "Çoka-Çok",
+            "C": "Çoka-Bir",
+            "D": "Bire-Bir",
+            "E": "Tekli İlişki"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "",
+          "options": {
+            "B": "Bire-Çok",
+            "A": "Çoka-Bir",
+            "C": "Tekli İlişki",
+            "D": "Çoka-Çok",
+            "E": "Bire-Bir"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Hızlı uygulama geliştirme ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Gereksinimlerin tamamının başlangıçta belli olmasına gerek yoktur.",
+            "B": "Tasarım prototipleri ile gereksinimleri toplayabilir.",
+            "C": "Zaman kısıtlı projelerde tercih edilir.",
+            "D": "Çok uzun projelerde kullanılır.",
+            "E": "Son ürüne en erken ulaşım esastır."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "",
+          "options": {
+            "B": "En az 5 kural vardır.",
+            "A": "En fazla 2 kural oluşturulabilir.",
+            "C": "5 sütundan oluşur.",
+            "D": "En fazla 6 adet kural olabilir.",
+            "E": "Sütun sayısı en az 7 olmalıdır."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Proje beyanlarında aşağıdaki soruların hangisinin cevabı yer almaz?",
+          "options": {
+            "A": "Projenin kapsamı nedir?",
+            "B": "Son kullanıcılar kimlerdir?",
+            "C": "Tahmini bütçe nedir?",
+            "D": "Projenin beklenen çıktıları nedir?",
+            "E": "Proje gereksinimleri nelerdir?"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "",
+          "options": {
+            "A": "Saygı",
+            "B": "Sadelik",
+            "C": "Test",
+            "D": "Geri bildirim",
+            "E": "İletişim"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        }
+      ],
+      "exam_title": "Bilişim Sistemleri Analiz ve Tasarımı 2023 Final"
+    },
+    {
+      "title": "Bilişim Sistemleri Analiz ve Tasarımı 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "file_name": "Bilişim_Sistemleri_Analiz_Ve_Tasarımı_2023_2024_Vize.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "",
+          "options": {
+            "E": "Uygulama",
+            "A": "Başlama",
+            "B": "Bakım",
+            "C": "Sonlandırma",
+            "D": "Planlama"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangi yapısal metodolojide tasarım prototipleri kullanılır?",
+          "options": {
+            "A": "Şelale Modeli",
+            "B": "Spiral Model",
+            "C": "Paralel Geliştirme",
+            "D": "v Modeli",
+            "E": "Aşamalı Geliştirme"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "",
+          "options": {
+            "E": "Evrimsel Prototipleme",
+            "A": "Spiral Model",
+            "B": "Şelale Modeli",
+            "C": "Çevik Modeller",
+            "D": "Aşamalı Geliştirme"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "",
+          "options": {
+            "A": "Karar destek sistemleri – Operasyonel seviye",
+            "B": "Bilgi çalışanı sistemleri – Orta (Taktiksel) seviye",
+            "C": "Üst yönetici destek sistemleri – Stratejik seviye",
+            "D": "Yönetim bilişim sistemleri – Orta (Taktiksel) seviye",
+            "E": "Hareket işleme sistemleri – Operasyonel seviye"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Firmaların günlük faaliyetlerini etkileyen belirsizlikler hangi risk kalemi altında değerlendirilir?",
+          "options": {
+            "A": "Proje riski",
+            "B": "Kullanıcı riski",
+            "C": "Günlük risk",
+            "D": "Ürün riski",
+            "E": "Süreç riski"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "",
+          "options": {
+            "B": "İkincil Saklama Ünitesi (Sabit Disk)",
+            "A": "Ekran kartı",
+            "C": "Anakart",
+            "D": "Merkezi İşlem Birimi (CPU)",
+            "E": "Birincil Saklama Ünitesi (RAM)"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "",
+          "options": {
+            "A": "Süreç içerisindeki görevlerin eksik sonlanması",
+            "B": "Devamsızlık oranlarındaki düşüşler",
+            "C": "Hiçbir şekilde yerine getirilemeyen görevler",
+            "D": "Son üründe meydana gelen hatalar",
+            "E": "Sürekli yanlış çıktı veren raporlar"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "",
+          "options": {
+            "B": "Ağ",
+            "A": "Yazılım",
+            "C": "Donanım",
+            "D": "Prosedür",
+            "E": "Veri tabanı"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "",
+          "options": {
+            "B": "1 - 2",
+            "A": "2 - 3 - 4",
+            "C": "1 - 2 - 3",
+            "D": "1 - 2 - 4",
+            "E": "3 - 4"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "‘Bir web sitesinin bir saatteki ortalama çökme sayısı 2, 7 olarak hesaplanmıştır. Bu ifadedeki 2, 7 değeri neye tekabül etmektedir?",
+          "options": {
+            "A": "İhsan",
+            "B": "Bilgi",
+            "C": "Bilgelik",
+            "D": "Bilişim",
+            "E": "Veri Tartışmalı soru"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "",
+          "options": {
+            "B": "Acil durum planı",
+            "A": "Geri bildirim beyanı",
+            "C": "Risk şiddeti matrisi",
+            "D": "Yedekleme ve kurtarma beyanı",
+            "E": "Gereksinim listesi"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Kütüphaneden alınan bir kitabın, çıkarken öğrenci tarafından kendi üzerine alındığı bilişim sistemi hangisine örnektir?",
+          "options": {
+            "A": "Yönetim Bilişim Sistemi",
+            "B": "Karar Destek Sistemi",
+            "C": "Hareket İşleme Sistemi",
+            "D": "Bilgi Çalışanı Sistemi",
+            "E": "Üst Yönetici Destek Sistemi"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "",
+          "options": {
+            "A": "Müşteri katılımını yükseltir.",
+            "B": "Dokümantasyonu düşürür.",
+            "C": "Ürünün kabul görme ihtimalini artırır.",
+            "D": "Paydaşlar ile iletişimi artırır.",
+            "E": "Değişim yönetimi ile kapsam kaymasına neden olur."
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "Mantık modelleme hangi sistem geliştirme aşamasında yürütülen bir faaliyettir?",
+          "options": {
+            "A": "Analiz",
+            "B": "Planlama",
+            "C": "İzleme",
+            "D": "Tasarım",
+            "E": "Uygulama"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Scrum yönteminde proje yönetimi görevini hangi takım elemanı üstlenir?",
+          "options": {
+            "A": "Patron",
+            "B": "Ustabaşı",
+            "C": "Scrum Ustası",
+            "D": "Lider",
+            "E": "Ürün Sahibi"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "Gerekli olan bir sunucunun satın alınmasına hangi fizibilite aşamasında karar verilir?",
+          "options": {
+            "A": "Yasal",
+            "B": "Çizelge",
+            "C": "Organizasyonel",
+            "D": "Operasyonel",
+            "E": "Teknik"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "",
+          "options": {
+            "B": "Gereksinim",
+            "A": "Yalınlık",
+            "C": "Planlama",
+            "D": "Geçerlilik",
+            "E": "Ölçeklenebilirlik"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "Proje yürütme sürecindeki iş kırılımda yer alan her bir göreve ilgili personelin atanması için kullanılan matris yöntem aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "RACI",
+            "B": "SIMPLEX",
+            "C": "JAD",
+            "D": "CRUD",
+            "E": "RAD"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Gösterge panelleri genelde hangi bilişim sisteminde tercih edilir?",
+          "options": {
+            "A": "Üst Yönetici Destek Sistemi",
+            "B": "Süreç Kontrol Sistemleri",
+            "C": "Hareket İşleme Sistemi",
+            "D": "Bilgi Çalışanı Sistemi",
+            "E": "Ofis Otomasyon Sistemleri"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "",
+          "options": {
+            "A": "Kaynak yönetimi projeler için temel görevlerdendir.",
+            "B": "Her proje çıktısı değer yaratmalıdır.",
+            "C": "Projelerin kesin bir başlangıcı ve sonu vardır.",
+            "D": "Projeler kesin süreçlerdir, belirsizlik içermez.",
+            "E": "Projelerin benzersiz bir amacı vardır."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        }
+      ],
+      "exam_title": "Bilişim Sistemleri Analiz ve Tasarımı 2023 Vize"
+    },
+    {
+      "title": "Bilişim Sistemleri Analiz ve Tasarımı 2023 Vize",
+      "exam_type": "bütünleme",
+      "year": "2023",
+      "file_name": "Bilişim_Sistemleri_Analiz_ve_Tasarımı_2023_2024_Butunleme.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "",
+          "options": {
+            "A": "Riski geliştirme",
+            "B": "Riski paylaşma",
+            "C": "Riski kabul etme",
+            "D": "Riskten yararlanma",
+            "E": "Riski devretme"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "",
+          "options": {
+            "A": "Ara kapı",
+            "B": "Hizmet reddi",
+            "C": "Araya girme",
+            "D": "Balık tutma (Yemleme)",
+            "E": "IP sahteciliği"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "",
+          "options": {
+            "A": "Erişim kontrolü",
+            "B": "Sistem entegrasyonu",
+            "C": "Çok dillilik",
+            "D": "Özelleştirme",
+            "E": "Kapasite"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "",
+          "options": {
+            "E": "Gözlem yapılırken mümkün olduğu kadar not almaktan kaçınılmalıdır.",
+            "A": "Gözlem yapılacak kişilere gözlem yapıldığı hissettirilmelidir.",
+            "B": "Gözlem yapılırken ön plana çıkılmamalıdır.",
+            "C": "Gözlem özellikle iş anındaki bireyler ile etkileşimli olarak yapılmalıdır.",
+            "D": "Gözlem yapılırken önemsiz faaliyetlere odaklanılması gerekir."
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Yaş bilgisinin girilmesi gereken bir ekranda 120 sayısından daha büyük bir değerin girişine müsaade edilmemesi aşağıdaki hangi girdi kontrolü ile alakalıdır?",
+          "options": {
+            "A": "Biçim",
+            "B": "Tamlık",
+            "C": "Aralık",
+            "D": "Veri tabanı",
+            "E": "Tutarlılık"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Veri akış diyagramlarında harici varlık bileşeninin kullanımı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bir harici varlık birden fazla süreçle etkileşime girmez.",
+            "B": "Bütün veri akış diyagramı seviyelerinde kullanılabilir.",
+            "C": "Harici varlıklar arasında akışa izin verilmez.",
+            "D": "Harici varlıklar ile veri depoları arasında akış olmaz.",
+            "E": "Harici varlıklar birden fazla tekrar edilebilir."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "",
+          "options": {
+            "E": "Süreçler birden fazla girdi alıp birden fazla çıktı üretebilir.",
+            "A": "Diyagramda temel fonksiyonlar süreç olarak verilir.",
+            "B": "Bağlam diyagramındaki akışlar ile dengeli olarak çizilir.",
+            "C": "Harici varlıklar diyagram içerisinde tekrar edilebilir.",
+            "D": "Veri depolarına diyagram içerisinde yer verilmez."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "OSI referans modelinde aşağıdaki hangi aşama yer almaz?",
+          "options": {
+            "A": "İletişim",
+            "B": "Dokümantasyon",
+            "C": "Fiziksel bağlantı",
+            "D": "Aktarım",
+            "E": "Servisler"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "",
+          "options": {
+            "B": "Aşama",
+            "A": "Aktivite",
+            "C": "Güncelleme",
+            "D": "Proje",
+            "E": "İş Paketi"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "Mantık modelleri aşağıdaki hangi veri akış elemanının iç yapısını açıklar?",
+          "options": {
+            "A": "Veri deposu",
+            "B": "Süreç",
+            "C": "Harici varlık",
+            "D": "İç varlık",
+            "E": "Veri akışı"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "Fonksiyonel olmayan gereksinimler ile alakalı aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bir sistemin ``ne`` yapması gerektiğini ifade eder.",
+            "B": "Performans ile alakalıdır.",
+            "C": "Başarısızlık durumunda sistem bir bütün olarak kullanışsız hale gelir.",
+            "D": "İşlevleri destekleyen gereksinimlerdir.",
+            "E": "Ölçümü kolay değildir."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "",
+          "options": {
+            "A": "Bakım",
+            "B": "Kodlama",
+            "C": "Test",
+            "D": "Güvenirlik",
+            "E": "Kurulum"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "",
+          "options": {
+            "A": "Nesne Yönelimi",
+            "B": "Ağ",
+            "C": "Dosya tabanları",
+            "D": "Hiyerarşik",
+            "E": "İlişkisel"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "",
+          "options": {
+            "A": "Yapısal dil",
+            "B": "Çok kriterli karar verme",
+            "C": "Doğal dil işleme",
+            "D": "Karar tabloları",
+            "E": "Karar ağaçları"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Risk analizi aşağıdaki hangi sistem geliştirme aşamasında yürütülen bir faaliyettir?",
+          "options": {
+            "A": "Uygulama",
+            "B": "Analiz",
+            "C": "Planlama",
+            "D": "Tasarım",
+            "E": "İzleme"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "Proje beyanı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Son ürün ile ilgili tahminleri içerir.",
+            "B": "İş paketi ile ekip elemanlarının eşleştirmelerini içerir.",
+            "C": "Proje riskleri ile ilgili bir liste içerir.",
+            "D": "Maksimum izin verilen süre tahminlerini içerir.",
+            "E": "Ana amaç ve alt amaçları içerir."
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Web sayfaları için mutlaka bir ana sayfa tasarlanması gerekliliğini ifade eden tasarım faktörü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Promosyon",
+            "B": "Grafikler",
+            "C": "Sunum Tipleri",
+            "D": "İçerik",
+            "E": "Metin"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "",
+          "options": {
+            "B": "Coğrafi Bilgi Sistemi",
+            "A": "Bilgi Çalışanı Sistemi",
+            "C": "Hareket İşleme Sistemi",
+            "D": "Yönetim Bilişim Sistemi",
+            "E": "Karar Destek Sistemi"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "",
+          "options": {
+            "E": "Süper",
+            "A": "Yabancı",
+            "B": "Aday",
+            "C": "Bileşik",
+            "D": "İkincil"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "Farklı teknolojilerin kullanılmasının zorunlu olduğu projeler için en doğru sistem geliştirme metodolojisi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sistem prototipleme",
+            "B": "Paralel Geliştirme",
+            "C": "v modeli",
+            "D": "Şelale modeli",
+            "E": "Tasarım prototipleme"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        }
+      ],
+      "exam_title": "Bilişim Sistemleri Analiz ve Tasarımı 2023 Vize"
+    },
+    {
+      "title": "Bilişim Sistemleri Analiz ve Tasarımı 2024 Final",
+      "exam_type": "final",
+      "year": "2024",
+      "file_name": "Bilişim_Sistemleri_Analiz_ve_Tasarımı_2024_2025_Final.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Tek bir boş değere müsaade eden tamamen benzersiz değerler içeren anahtar türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Yabancı",
+            "B": "Süper",
+            "C": "Birincil",
+            "D": "Tekil",
+            "E": "Aday"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "",
+          "options": {
+            "B": "Bağımsızlık",
+            "A": "Genelleştirilebilirlik",
+            "C": "Okunabilirlik",
+            "D": "Çevrilebilirlik",
+            "E": "Yalınlık"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "",
+          "options": {
+            "B": "En az 5 kural vardır.",
+            "A": "En fazla 6 adet kural olabilir.",
+            "C": "Sütun sayısı en az 7 olmalıdır.",
+            "D": "En fazla 2 kural oluşturulabilir.",
+            "E": "5 sütundan oluşur."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "",
+          "options": {
+            "A": "İnfografik",
+            "B": "Sunumlar",
+            "C": "Podcast",
+            "D": "Gösterge paneli",
+            "E": "Basılı materyal"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "",
+          "options": {
+            "E": "Çevik Modeller",
+            "A": "Aşamalı Geliştirme",
+            "B": "Şelale Modeli",
+            "C": "Evrimsel Prototipleme",
+            "D": "Spiral Model"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "",
+          "options": {
+            "B": "Aktivite",
+            "A": "Güncelleme",
+            "C": "Aşama",
+            "D": "Proje",
+            "E": "İş Paketi"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "Proje beyanlarında aşağıdaki soruların hangisinin cevabı yer almaz?",
+          "options": {
+            "A": "Projenin kapsamı nedir?",
+            "B": "Tahmini bütçe nedir?",
+            "C": "Projenin beklenen çıktıları nedir?",
+            "D": "Son kullanıcılar kimlerdir?",
+            "E": "Proje gereksinimleri nelerdir?"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "",
+          "options": {
+            "A": "Sürenin yanlış belirlenmesi",
+            "B": "Bütçenin yanlış modellenmesi",
+            "C": "Eksik veya yanlış gereksinimlerin oluşturulması",
+            "D": "Planlama faaliyetlerine yeteri kadar önem verilmemesi",
+            "E": "Çıktı tahminlerinin gerçekçi olmaması"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Kütüphaneden alınan bir kitabın, çıkarken öğrenci tarafından kendi üzerine alındığı bilişim sistemi aşağıdaki sistemlerden hangisine örnektir?",
+          "options": {
+            "A": "Bilgi Çalışanı Sistemi",
+            "B": "Yönetim Bilişim Sistemi",
+            "C": "Hareket İşleme Sistemi",
+            "D": "Karar Destek Sistemi",
+            "E": "Üst Yönetici Destek Sistemi"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "Sürücü güncelleme faaliyeti aşağıdaki bakım türlerinden hangisi içerisinde değerlendirilir?",
+          "options": {
+            "A": "Düzeltici",
+            "B": "İyileştirici",
+            "C": "Uyarlayıcı",
+            "D": "Denetleyici",
+            "E": "Önleyici"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "",
+          "options": {
+            "A": "Sistem en fazla 3 fare tıklamasına müsaade etmelidir",
+            "B": "Sistem 3. fare tıklamasında ana sayfaya dönmelidir",
+            "C": "Sistem 3 tıklama ile arayüzleri kapatmaya müsaade etmelidir",
+            "D": "Sistemi çok kısa süre içerisinde üç tıklama yapılmasına müsaade etmemelidir",
+            "E": "Sistemde herhangi bir ekrana en fazla üç tıkla ulaşılmalıdır"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "",
+          "options": {
+            "B": "Esneklik",
+            "A": "Kapasite",
+            "C": "Güvenirlik",
+            "D": "Erişim kontrolü",
+            "E": "Hız"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "",
+          "options": {
+            "E": "Veri depolarına diyagram içerisinde yer verilmez.",
+            "A": "Harici varlıklar diyagram içerisinde tekrar edilebilir.",
+            "B": "Bağlam diyagramındaki akışlar ile dengeli olarak çizilir.",
+            "C": "Diyagramda temel fonksiyonlar süreç olarak verilir.",
+            "D": "Süreçler birden fazla girdi alıp birden fazla çıktı üretebilir."
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "",
+          "options": {
+            "A": "Veri Yolu",
+            "B": "Yıldız",
+            "C": "Örgü",
+            "D": "Halka",
+            "E": "Hiyerarşik"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "",
+          "options": {
+            "A": "Dokümantasyonu düşürür.",
+            "B": "Paydaşlar ile iletişimi artırır.",
+            "C": "Müşteri katılımını yükseltir.",
+            "D": "Değişim yönetimi ile kapsam kaymasına neden olur.",
+            "E": "Ürünün kabul görme ihtimalini artırır."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "",
+          "options": {
+            "B": "Sistem ile harici varlıklar arasındaki veri akışını gösterir.",
+            "A": "Bağlam diyagramında harici varlıklar arasındakı akışa izin verilir.",
+            "C": "Sadece 1 süreç içerir.",
+            "D": "Her bir yazılım projesinden tek bir defa çizilir.",
+            "E": "Kullanılan süreç, son ürün olan yazılım ile adlandırılır."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "",
+          "options": {
+            "A": "Karar tabloları",
+            "B": "Karar ağaçları",
+            "C": "Yapısal dil",
+            "D": "Çok kriterli karar verme",
+            "E": "Doğal dil işleme"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "",
+          "options": {
+            "B": "Etik",
+            "A": "Yasal",
+            "C": "Çevresel",
+            "D": "Güvenirlik",
+            "E": "Kullanılabilirlik"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "İlişkisel Veri tabanıda bulunan bir tabloda 2, 3 ve 4. sütunların işçi ve 5, 6, 7. sütunların ise iş bilgilerini içerdiği görülmektedir.Bu tablonun iki farklı tablo olarak tasarlanmasının zorlayan normalizasyon formu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "2NF",
+            "B": "4NF",
+            "C": "ONF",
+            "D": "INF",
+            "E": "3NF"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "",
+          "options": {
+            "E": "Gözlem yapılırken mümkün olduğu kadar not almaktan kaçınılmalıdır.",
+            "A": "Gözlem yapılırken önemsiz faaliyetlere odaklanılması gerekir.",
+            "B": "Gözlem özellikle iş anındaki bireyler ile etkileşimli olarak yapılmalıdır.",
+            "C": "Gözlem yapılırken ön plana çıkılmamalıdır.",
+            "D": "Gözlem yapılacak kişilere gözlem yapıldığı hissettirilmelidir."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        }
+      ],
+      "exam_title": "Bilişim Sistemleri Analiz ve Tasarımı 2024 Final"
+    },
+    {
+      "title": "Bilişim Sistemleri Analiz ve Tasarımı 2024 Vize",
+      "exam_type": "vize",
+      "year": "2024",
+      "file_name": "Bilişim_Sistemleri_Analiz_ve_Tasarımı_2024_2025_Vize.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Risk yanıtı geliştirme faaliyetinin çıktısı hangi dokümandır?",
+          "options": {
+            "A": "Risk analizi",
+            "B": "Yeni riskler",
+            "C": "Risk kütüğü",
+            "D": "Bilinen riskler",
+            "E": "Risk yönetim planı"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "",
+          "options": {
+            "B": "Coğrafi Bilgi Sistemi",
+            "A": "Bilgi Çalışanı Sistemi",
+            "C": "Hareket İşleme Sistemi",
+            "D": "Yönetim Bilişim Sistemi",
+            "E": "Karar Destek Sistemi"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "",
+          "options": {
+            "A": "Devamsızlık oranlarındaki düşüşler",
+            "B": "Hiçbir şekilde yerine getirilemeyen görevler",
+            "C": "Son üründe meydana gelen hatalar",
+            "D": "Sürekli yanlış çıktı veren raporlar",
+            "E": "Süreç içerisindeki görevlerin eksik sonlanması"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "",
+          "options": {
+            "B": "Ekran kartı",
+            "A": "Birincil Saklama Ünitesi (RAM)",
+            "C": "Anakart",
+            "D": "İkincil Saklama Ünitesi (Sabit Disk)",
+            "E": "Merkezi İşlem Birimi (CPU)"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Hızlı uygulama geliştirme ile ilgili verilen aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Çok uzun projelerde kullanılır.",
+            "B": "Gereksinimlerin tamamının başlangıçta belli olmasına gerek yoktur.",
+            "C": "Son ürüne en erken ulaşım esastır.",
+            "D": "Tasarım prototipleri ile gereksinimleri toplayabilir.",
+            "E": "Zaman kısıtlı projelerde tercih edilir."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Mantık modelleme hangi sistem geliştirme aşamasında yürütülen bir faaliyettir?",
+          "options": {
+            "A": "Tasarım",
+            "B": "Planlama",
+            "C": "İzleme",
+            "D": "Analiz",
+            "E": "Uygulama"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "“Bir web sitesinin bir saatteki ortalama çökme sayısı 2, 7” olarak hesaplanmıştır. Bu ifadedeki 2, 7 değeri aşağıdakilerden hangisine tekabül etmektedir?",
+          "options": {
+            "A": "Bilgi",
+            "B": "Bilişim",
+            "C": "İhsan",
+            "D": "Bilgelik",
+            "E": "Veri"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "Farklı teknolojilerin kullanılmasının zorunlu olduğu projeler için en doğru sistem geliştirme metodolojisi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Tasarım prototipleme",
+            "B": "Şelale modeli",
+            "C": "Sistem prototipleme",
+            "D": "Paralel geliştirme",
+            "E": "v modeli"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "",
+          "options": {
+            "E": "Planlama",
+            "A": "Bakım",
+            "B": "Uygulama",
+            "C": "Başlama",
+            "D": "Sonlandırma"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "",
+          "options": {
+            "A": "Geri bildirim",
+            "B": "İletişim",
+            "C": "Saygı",
+            "D": "Sadelik",
+            "E": "Test"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "",
+          "options": {
+            "A": "Üst yönetici destek sistemleri - Stratejik seviye",
+            "B": "Bilgi çalışanı sistemleri - Orta (Taktiksel) seviye",
+            "C": "Karar destek sistemleri - Operasyonel seviye",
+            "D": "Yönetim bilişim sistemleri - Orta (Taktiksel) seviye",
+            "E": "Hareket işleme sistemleri - Operasyonel seviye"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "",
+          "options": {
+            "A": "Çok kriterli karar verme",
+            "B": "Nominal grup tekniği",
+            "C": "Delphi",
+            "D": "Pazar dengesi analizi",
+            "E": "Ağırlıklı ortalama"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "Prince II proje sertifikasyonunda iş paketleri hangi aşamada belirlenir?",
+          "options": {
+            "A": "Seçme",
+            "B": "Aşamaları Yönetme",
+            "C": "Sonlandırma",
+            "D": "Teslimatı Yönetme",
+            "E": "Yönlendirme"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "Risk analizi aşağıdaki hangi sistem geliştirme aşamasında yürütülen bir faaliyettir?",
+          "options": {
+            "A": "Analiz",
+            "B": "Planlama",
+            "C": "Uygulama",
+            "D": "İzleme",
+            "E": "Tasarım"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Proje yürütme sürecindeki iş kırılımda yer alan her bir göreve ilgili personelin atanması için kullanılan matris yöntem aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "CRUD",
+            "B": "JAD",
+            "C": "RAD",
+            "D": "RACI",
+            "E": "SIMPLEX"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "Gösterge panelleri genelde aşağıda verilen bilişim sistemlerinden hangisinde tercih edilir?",
+          "options": {
+            "A": "Ofis Otomasyon Sistemleri",
+            "B": "Bilgi Çalışanı Sistemi",
+            "C": "Üst Yönetici Destek Sistemi",
+            "D": "Hareket İşleme Sistemi",
+            "E": "Süreç Kontrol Sistemleri"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "",
+          "options": {
+            "B": "Donanım",
+            "A": "Yazılım",
+            "C": "Prosedür",
+            "D": "Veri tabanı",
+            "E": "Ağ"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "Scrum yönteminde proje yönetimi görevini hangi takım elemanı üstlenir?",
+          "options": {
+            "A": "Lider",
+            "B": "Patron",
+            "C": "Scrum Ustası",
+            "D": "Ustabaşı",
+            "E": "Ürün Sahibi"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "",
+          "options": {
+            "B": "Gereksinim listesi",
+            "A": "Acil durum planı",
+            "C": "Risk şiddeti matrisi",
+            "D": "Yedekleme ve kurtarma beyanı",
+            "E": "Geri bildirim beyanı"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "Gerekli olan bir sunucunun satın alınmasına hangi fizibilite aşamasında karar verilir?",
+          "options": {
+            "A": "Operasyonel",
+            "B": "Organizasyonel",
+            "C": "Teknik",
+            "D": "Yasal",
+            "E": "Çizelge"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        }
+      ],
+      "exam_title": "Bilişim Sistemleri Analiz ve Tasarımı 2024 Vize"
+    }
+  ],
+  "exam_count": 6
 }
