@@ -1,370 +1,17 @@
 {
-  "course": "Olasilik Ve Istatistik",
-  "lesson_code": "OLASILIK_VE_ISTATISTIK",
-  "exam_count": 7,
+  "course": "Olasılık ve İstatistik",
+  "lesson_code": "YBS_OLASILIK_VE_ISTATISTIK",
   "exams": [
     {
-      "title": "Olasılık Ve İstatistik 2024-2025 Vize",
-      "exam_title": "Olasılık Ve İstatistik 2024-2025 Vize",
+      "title": "Olasılık Ve İstatistik çıkmış sorular 2022 2023 Vize",
       "exam_type": "vize",
-      "year": "2024-2025",
+      "year": "2022-2023",
+      "file_name": "Olasılık_Ve_İstatistik_çıkmış_sorular_2022_2023_Vize.docx",
       "question_count": 20,
-      "source_url": "",
-      "file_name": "Olasilik_Ve_Istatistik_Vize_Sorulari.docx",
       "questions": [
         {
           "id": 1,
-          "question": "Gruplanmış açık uçlu olmayan serilerde grup / sınıf değerini bulmak için yapılan işlem aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Gruplanmış sınıfın en yüksek ve en düşük değeri arasındaki farkın yarısı kullanılır.",
-            "B": "Gruplanmış sınıfın frekans değeri kullanılır.",
-            "C": "Bu tür gruplanmış serilerde sınıf değeri hesaplanamaz.",
-            "D": "Gruplanmış sınıfın en yüksek değeri kullanılır.",
-            "E": "Gruplanmış sınıfın en düşük olan değeri kullanılır."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Bir serinin dağılımını (bölünmesini / şeklini) anlamak için aşağıdaki seçeneklerden hangisinden yararlanmak gerekmez?",
-          "options": {
-            "A": "Basıklıktan",
-            "B": "Ortalamalardan",
-            "C": "Momentlerden",
-            "D": "Tanımından",
-            "E": "Çarpıklıktan"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Kendisinden önceki değerler arasında kaç tanesinin kendisinden daha küçük gözlem değer içerdiğini görebilmeyi sağlayan serilere verilen isim aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Mukayese İçeren Seri",
-            "B": "Çoğul Seri",
-            "C": "Kümülatif (Birikimli) Seri",
-            "D": "Basit Seri",
-            "E": "Mukayese İçermeyen Seri"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "6 kişilik bir gruptan kaç tane 2 kişilik grup oluşturulabilir?",
-          "options": {
-            "A": "15",
-            "B": "20",
-            "C": "10",
-            "D": "5",
-            "E": "25"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_4.jpg",
-          "image_file": "OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_4.jpg",
-          "image_path": "resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_4.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "Yukarıdaki serinin Harmonik ortalaması aşağıdaki seçeneklerin hangisinde doğru verilmiştir? (Sonucu tamsayı olacak biçimde yuvarlayınız.)",
-          "options": {
-            "A": "9",
-            "B": "5",
-            "C": "7",
-            "D": "3",
-            "E": "11"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "Serinin en büyük ve en küçük değerleri arasındaki fark aşağıdaki seçeneklerden hangisinde en doğru şekilde ifade edilmiştir?",
-          "options": {
-            "A": "Değişim Katsayısı",
-            "B": "Standart Hata",
-            "C": "Varyans",
-            "D": "Standart Sapma",
-            "E": "Değişim Aralığı"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Borçlarından dolayı tasfiye edilen bir firmanın borç dağılımına ait asimetri (çarpıklık) durumunu en makul açıklayabilen seçenek hangisidir?",
-          "options": {
-            "A": "Mutlak simetriktir.",
-            "B": "Her iki tarafı da aynıdır.",
-            "C": "Negatif asimetriye sahiptir.",
-            "D": "Pozitif asimetriye sahiptir.",
-            "E": "Asimetrik bir durumu olamaz."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "(12 21 33 45 59) Yukarıdaki veri kümesi için ∑(X – X̄)'in sonucu hangi seçenekte doğru verilmiştir?",
-          "options": {
-            "A": "2",
-            "B": "0",
-            "C": "1",
-            "D": "4",
-            "E": "3"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Bir serinin basıklığını ifade eden değer arttıkça serinin şekli aşağıdaki hangi bağlamda değişir?",
-          "options": {
-            "A": "Normalleşir.",
-            "B": "Pürüzsüz hale gelir.",
-            "C": "Basıklaşır.",
-            "D": "Netleşir.",
-            "E": "Sivrileşir."
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Ordudaki rütbeler – Cinsiyet – Bir insanın boy uzunluğu Yukarıdaki verilerin türleri aşağıdaki hangi şıkta doğru olarak sıralanmıştır?",
-          "options": {
-            "A": "Ordinal - sürekli nicel - nominal",
-            "B": "Sürekli nicel - ordinal - nominal",
-            "C": "Sürekli nicel – nominal - ordinal",
-            "D": "Ordinal - nominal - sürekli nicel",
-            "E": "Nominal - ordinal - sürekli nicel"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_10.jpg",
-          "image_file": "OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_10.jpg",
-          "image_path": "resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_10.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Yukarıdaki serinin geometrik ortalaması değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "5.54",
-            "B": "8.54",
-            "C": "5.56",
-            "D": "8.77",
-            "E": "6.62"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_11.jpg",
-          "image_file": "OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_11.jpg",
-          "image_path": "resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_11.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Yukarıdaki serinin modu aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
-          "options": {
-            "A": "48",
-            "B": "50",
-            "C": "56",
-            "D": "54",
-            "E": "52"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Örneklem ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
-          "options": {
-            "A": "Örneklem ana kütleyi temsil etmelidir.",
-            "B": "Örneklem ana kütleden fazla sayıda olmalıdır.",
-            "C": "Örneklem ana kütleden çekilmelidir.",
-            "D": "Örneklem yeterli sayıda olmalıdır.",
-            "E": "Örneklem ana kütleden az sayıda olmalıdır."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Bir firma müşterilerinden oluşan bir grup üzerinde yaptığı çalışmada müşteri memnuniyet oranını yüzde 60 olarak hesaplamıştır. Bu değer aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
-          "options": {
-            "A": "Ana Kütle",
-            "B": "Örneklem Tahmini",
-            "C": "Parametre",
-            "D": "Örneklem",
-            "E": "Ana kütle tahmini"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Aşağıdakilerden hangisi değişim katsayısının üstünlüklerinden değildir?",
-          "options": {
-            "A": "Farklı birimlere sahip serilerin karşılaştırılmasını mümkün kılar.",
-            "B": "Farklı değişkenleri bir arada ele alabilmeye imkan tanır.",
-            "C": "Oransal bir değişim değeri verir.",
-            "D": "Ortalamaların tercihini kolaylaştırır.",
-            "E": "Yüzde olarak karşılaştırma yapmayı mümkün kılar."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_15.jpg",
-          "image_file": "OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_15.jpg",
-          "image_path": "resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_15.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Yukarıdaki serinin mod değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "32.438",
-            "B": "24.438",
-            "C": "28.438",
-            "D": "30.438",
-            "E": "26.438"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "\"Gözlem değerlerinin ortalamadan uzaklıklarına bakarak verilerin …….. ölçebiliriz.\" cümlesinde boş bırakılan yere gelebilecek en uygun ifade aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "ortanca değerini",
-            "B": "harmonik ortalamasını",
-            "C": "dağılımını",
-            "D": "medyan değerini",
-            "E": "mod değerini"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "{10,100,1000} değerlerinin aritmetik ortalaması ile geometrik ortalaması arasındaki fark değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "250",
-            "B": "270",
-            "C": "300",
-            "D": "290",
-            "E": "220"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_18.jpg",
-          "image_file": "OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_18.jpg",
-          "image_path": "resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_18.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Yukarıdaki serinin Q3 (3. Çeyrek bölen) değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "65",
-            "B": "67",
-            "C": "66",
-            "D": "64",
-            "E": "68"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_19.jpg",
-          "image_file": "OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_19.jpg",
-          "image_path": "resim-sorular/OLAS_L_K_VE_ISTATISTIK_2024_2025_vize_soru_19.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "X kesikli rastlantısal değişkeninin olasılık dağılımı yukarıdaki tabloda verilmiştir. Buna göre P(x < 2) olasılık değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,49",
-            "B": "0,39",
-            "C": "0,8",
-            "D": "0,54",
-            "E": "0,19"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "Olasılık Ve İstatistik 2022 Vize",
-      "exam_title": "Olasılık Ve İstatistik 2022 Vize",
-      "exam_type": "vize",
-      "year": "2022",
-      "question_count": 20,
-      "source_url": "",
-      "file_name": "Olasilik_Ve_Istatistik_Vize_Sorulari.docx",
-      "questions": [
-        {
-          "id": 1,
+          "context": "",
           "question": "Yukarıdaki serinin 3. Çeyrek bölen (Q3) değeri nedir?",
           "options": {
             "A": "44",
@@ -374,65 +21,11 @@
             "E": "102"
           },
           "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 2,
-          "question": "Aritmetik ortalaması 25, varyansı 16 olan serinin değişim katsayısı yüzde kaçtır?",
-          "options": {
-            "A": "24",
-            "B": "20",
-            "C": "16",
-            "D": "22",
-            "E": "18"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Çarpıklık değeri eksi (- ) işareti olan bir serinin dağılım yapısını en iyi ifade eden cümle hangisidir?",
-          "options": {
-            "A": "Dağılım sağa yatık bir asimetriye sahiptir.",
-            "B": "Dağılım sola yatık bir asimetriye sahiptir.",
-            "C": "Dağılım asimetrik bir yapı gösterir.",
-            "D": "Dağılım simetrik bir dağılımdır.",
-            "E": "Dağılım simetrik bir dağılım değildir."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "Gruplanmış açık uçlu olmayan serilerde grup / sınıf değerini bulmak için ne yapılır?",
-          "options": {
-            "A": "Gruplanmış sınıfın en düşük olan değeri kullanılır.",
-            "B": "Bu tür gruplanmış serilerde sınıf değeri hesaplanamaz.",
-            "C": "Gruplanmış sınıfın en yüksek değeri kullanılır.",
-            "D": "Gruplanmış sınıfın frekans değeri kullanılır.",
-            "E": "Gruplanmış sınıfın en yüksek ve en düşük değeri arasındaki farkın yarısı kullanılır."
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
+          "context": "",
           "question": "Verilen tablo dikkate alındığında, öğrencinin not ortalaması hangi seçenekte doğru olarak verilmiştir?",
           "options": {
             "A": "3.25",
@@ -442,116 +35,11 @@
             "E": "3.62"
           },
           "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 6,
-          "question": "İstanbul nüfusu 16 milyon olarak tahmin edilmiştir. Bu nüfusun %21'i üniversite mezunu, %39'i lise, %34'ü ilköğretim mezunu ve kalanlar ise eğitimsizlerden oluşmaktadır. Bu seri daire grafiği ile ifade edildiğinde, ilköğretim mezunlarına ait dilimin açısal ölçümü kaçtır?",
-          "options": {
-            "A": "180",
-            "B": "76",
-            "C": "144",
-            "D": "122",
-            "E": "84"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Örneklem üzerinden tahmin çalışması yapılmasının nedeni aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Verilere ilişkin incelemelerin yapılmasını sağlamlaştırmak",
-            "B": "Para ve zaman tasarrufu sağlamak",
-            "C": "Veri analizi yapmak",
-            "D": "Hata yapmamak",
-            "E": "Kontrol değerlerine ulaşmak"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "1 ile 10 arasında tekrarlamasız 3 tam sayı seçildiğinde, aşağıdaki ifadelerden hangisi doğru olur?",
-          "options": {
-            "A": "1,2,10 en büyük standart sapmaya sahiptir.",
-            "B": "1, 2, 3 en büyük standart sapmaya sahiptir.",
-            "C": "5,6,7 en büyük standart sapmaya sahiptir.",
-            "D": "4,6,7 en büyük standart sapmaya sahiptir.",
-            "E": "8, 9, 10 en büyük standart sapmaya sahiptir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "5 çocuklu bir ailede 2 erkek çocuk olması olasılığı nedir?",
-          "options": {
-            "A": "4/32",
-            "B": "8/32",
-            "C": "10/32",
-            "D": "2/32",
-            "E": "6/32"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Sadece gözlem değerlerinin yer aldığı diziler (seriler) nasıl isimlendirilir?",
-          "options": {
-            "A": "Gruplanmış Seri",
-            "B": "Bileşik Seri",
-            "C": "Kümülatif (Birikimli) Seri",
-            "D": "Basit Seri",
-            "E": "Frekans Serisi"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "{100,1000,10000} değerlerinin aritmetik ortalaması ile geometrik ortalaması arasındaki fark kaçtır?",
-          "options": {
-            "A": "4100",
-            "B": "1840",
-            "C": "2700",
-            "D": "2740",
-            "E": "1800"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
+          "id": 3,
+          "context": "",
           "question": "Ortalaması 3 ve varyansı 16 olan serinin kareli ortalamasının karesi aşağıdakilerden hangisine eşittir?",
           "options": {
             "A": "5",
@@ -561,31 +49,11 @@
             "E": "25"
           },
           "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 13,
-          "question": "Aritmetik Ortalama değeri 110 ve Standart Sapma değeri 22 olan bir seride Değişim Katsayısının değeri yüzde kaç olur?",
-          "options": {
-            "A": "%30",
-            "B": "%20",
-            "C": "%35",
-            "D": "%40",
-            "E": "%45"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
+          "id": 4,
+          "context": "",
           "question": "Verilerin sınıf (grup) büyüklüklerini dikkate alarak karşılaştırılmasını mümkün kılan grafik hangisidir?",
           "options": {
             "A": "Eğri Grafik",
@@ -595,82 +63,25 @@
             "E": "Düz Grafik"
           },
           "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 15,
-          "question": "Bir serinin basıklığını ifade eden değer arttıkça serinin şekli hangi bağlamda değişir?",
+          "id": 5,
+          "context": "",
+          "question": "Çarpıklık değeri eksi (-) işareti olan bir serinin dağılım yapısını en iyi ifade eden cümle hangisidir?",
           "options": {
-            "A": "Basıklaşır.",
-            "B": "Netleşir.",
-            "C": "Pürüzsüz hale gelir.",
-            "D": "Normalleşir.",
-            "E": "Sivrileşir."
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Duyarlı ortalamalar (AO, G, K, H) arasındaki ilişkiyi en doğru ifade eden seçenek hangisidir?",
-          "options": {
-            "A": "H#G=AO#K",
-            "B": "H=G≤AO≥K",
-            "C": "H≥G≤ AO≥K",
-            "D": "H≥G≥AO≥K",
-            "E": "H≤G≤AO≤K"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "\"Bu grafik türünde beş adet istatistiksel özet bir arada görülür. Bunlar; Xmax Xmin, Q₁ (1. Çeyrek yani küçükten büyüğe sıralanmış bir seriyi %25'ten kesen değer), Q₂ (2. Çeyrek, asıl adı medyandır, küçükten büyüğe sıralanmış bir seriyi %50'den kesen değer), Q₃ (3. Çeyrek yani küçükten büyüğe sıralanmış bir seriyi %75'ten kesen değer).\" Yukarıda tarif edilen grafik türü hangisidir?",
-          "options": {
-            "A": "Box -Whisker diyagramı",
-            "B": "Çizgi diyagramı",
-            "C": "Daire grafiği",
-            "D": "Nokta diyagramı",
-            "E": "Histogram"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Yukarıda verilen çarpık seriye ait grafik incelendiğinde en sağda olan c değeri seçeneklerden hangisinde doğru olarak verilmiştir?",
-          "options": {
-            "A": "Medyan",
-            "B": "Mod",
-            "C": "Aritmetik Ortalama",
-            "D": "Tartılı Ortalama",
-            "E": "Ortalama"
+            "A": "Dağılım sağa yatık bir asimetriye sahiptir.",
+            "B": "Dağılım sola yatık bir asimetriye sahiptir.",
+            "C": "Dağılım asimetrik bir yapı gösterir.",
+            "D": "Dağılım simetrik bir dağılımdır.",
+            "E": "Dağılım simetrik bir dağılım değildir."
           },
           "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 19,
+          "id": 6,
+          "context": "",
           "question": "Kendisinden önceki değerler arasında kaç tanesinin kendisinden daha küçük gözlem değer içerdiğini görebilmeyi sağlayan serilere ne isim verilir?",
           "options": {
             "A": "Basit Seri",
@@ -680,756 +91,245 @@
             "E": "Kümülatif (Birikimli) Seri"
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 20,
+          "id": 7,
+          "context": "",
+          "question": "1 ile 10 arasında tekrarlamasız 3 tam sayı seçildiğinde, aşağıdaki ifadelerden hangisi doğru olur?",
+          "options": {
+            "A": "1, 2, 10 en büyük standart sapmaya sahiptir.",
+            "B": "1, 2, 3 en büyük standart sapmaya sahiptir.",
+            "C": "5, 6, 7 en büyük standart sapmaya sahiptir.",
+            "D": "4, 6, 7 en büyük standart sapmaya sahiptir.",
+            "E": "8, 9, 10 en büyük standart sapmaya sahiptir."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "context": "",
+          "question": "5 çocuklu bir ailede 2 erkek çocuk olması olasılığı nedir?",
+          "options": {
+            "A": "4/32",
+            "B": "8/32",
+            "C": "10/32",
+            "D": "2/32",
+            "E": "6/32"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "context": "",
+          "question": "Aritmetik ortalaması 25, varyansı 16 olan serinin değişim katsayısı yüzde kaçtır?",
+          "options": {
+            "A": "24",
+            "B": "20",
+            "C": "16",
+            "D": "22",
+            "E": "18"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "context": "",
+          "question": "Örneklem üzerinden tahmin çalışması yapılmasının nedeni aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Verilere ilişkin incelemelerin yapılmasını sağlamlaştırmak",
+            "B": "Para ve zaman tasarrufu sağlamak",
+            "C": "Veri analizi yapmak",
+            "D": "Hata yapmamak",
+            "E": "Kontrol değerlerine ulaşmak"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "context": "",
+          "question": "İstanbul nüfusu 16 milyon olarak tahmin edilmiştir. Bu nüfusun %21’i üniversite mezunu, %39’i lise, %34’ü ilköğretim mezunu ve kalanlar ise eğitimsizlerden oluşmaktadır. Bu seri daire grafiği ile ifade edildiğinde, ilköğretim mezunlarına ait dilimin açısal ölçümü kaçtır?",
+          "options": {
+            "A": "180",
+            "B": "76",
+            "C": "144",
+            "D": "122",
+            "E": "84"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "context": "",
           "question": "Veri kümesi bir kitle gibi düşünüldüğünde; yukarıdaki frekans serisinin standart sapması nedir?",
           "options": {
             "A": "4.11",
-            "B": "2,55",
-            "C": "5,11",
-            "D": "3,40",
-            "E": "4,40"
+            "B": "2, 55",
+            "C": "5, 11",
+            "D": "3, 40",
+            "E": "4, 40"
           },
           "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "Olasılık Ve İstatistik 2048 Final",
-      "exam_title": "Olasılık Ve İstatistik 2048 Final",
-      "exam_type": "final",
-      "year": "2048",
-      "question_count": 7,
-      "source_url": "",
-      "file_name": "Olasilik_Ve_Istatistik_Final_Sorulari.docx",
-      "questions": [
-        {
-          "id": 14,
-          "question": "Satın alınan bir ürünün paketinde yazan tüm özelliklere sahip olmama olasılığı 0,15 iken iadeli olarak seçilen 4 üründen 3 tanesinin bu özelliklere uymayan ürün olma olasılığı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,3685",
-            "B": "0,6847",
-            "C": "0,3241",
-            "D": "0,2263",
-            "E": "0,5624"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "5 evli çift arasından 4 kişilik bir komisyon eşler birlikte olmayacak şekilde kaç farklı şekilde seçilebilir? (Komisyona seçilen birinin eşi komisyona alınmayacak.)",
-          "options": {
-            "A": "80",
-            "B": "20",
-            "C": "30",
-            "D": "60",
-            "E": "40"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "f(x)=a/x³ ise 0<x<10 aralığında bir olasılığın yoğunluk fonksiyonu olabilmesi için a kaça eşit olmalıdır?",
-          "options": {
-            "A": "-250",
-            "B": "-200",
-            "C": "-150",
-            "D": "-50",
-            "E": "-100"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Bir firmanın ürettiği pantolonların yüzde 8'inin hatah/defolu olduğu bilindiğine göre tesadüfi ve iadeli olarak seçilen 3 üründen, 1 tanesinin defolu olma olasılığı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,25",
-            "B": "0,04",
-            "C": "0,08",
-            "D": "0,15",
-            "E": "0,20"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Yukarıdaki sola çarpık serinin grafiğine bakıldığında a,b ve c sıralamasıyla hangisi mod, hangisi medyan, hangisi aritmetik ortalamadır?",
-          "options": {
-            "A": "Medyan-mod- aritmetik ortalama",
-            "B": "Aritmetik ortalama mod- medyan",
-            "C": "Mod-medyan aritmetik ortalama",
-            "D": "Mod-aritmetik ortalama - medyan",
-            "E": "Aritmetik ortalama medyan - mod"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "f(x)= (1/x²),a<X<3 ve f(x) bir o.y.f ise a'nın değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0.25",
-            "B": "0.85",
-            "C": "0.75",
-            "D": "0.50",
-            "E": "0.15"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Yukarıdaki serinin medyan değeri aşağdıakilerden hangisidir? (Sonucu yuvarlayınız.)",
-          "options": {
-            "A": "52",
-            "B": "58",
-            "C": "54",
-            "D": "60",
-            "E": "56"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "Olasılık Ve İstatistik 2025-2026 Final",
-      "exam_title": "Olasılık Ve İstatistik 2025-2026 Final",
-      "exam_type": "final",
-      "year": "2025-2026",
-      "question_count": 20,
-      "source_url": "",
-      "file_name": "Olasilik_Ve_Istatistik_Final_Sorulari.docx",
-      "questions": [
-        {
-          "id": 1,
-          "question": "Hilesiz bir zarın 4 defa atıldığı varsayılıyor. En az bir defa 6 gelme olasılığı değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,8177",
-            "B": "0,7177",
-            "C": "0,6177",
-            "D": "0,5177",
-            "E": "0,4177"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Homojen bir para 64 kez atılıyor. Bulunan turaların sayısının standart sapması değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "10",
-            "B": "4",
-            "C": "0,158",
-            "D": "6",
-            "E": "8"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Aşağıdaki grafiklerden hangisini sınıflanmış serinin grafik gösteriminde kullanmak daha uygun olur?",
-          "options": {
-            "A": "Histogram",
-            "B": "Nokta diyagramı",
-            "C": "Box-Whisker grafiği",
-            "D": "Daire grafiği",
-            "E": "Çizgi diyagramı"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "Bir serinin dağılımını (bölünmesini / şeklini) anlamak için aşağıdaki seçeneklerden hangisinden yararlanmak gerekmez?",
-          "options": {
-            "A": "Basıklıktan",
-            "B": "Çarpıklıktan",
-            "C": "Momentlerden",
-            "D": "Ortalamalardan",
-            "E": "Tanımından"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "f(x)=1/36 (x+3) ve 0 < x < 6 aralığında tanımlı olasılık yoğunluk fonksiyonuna ait varyans değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Var(X) = 3,75",
-            "B": "Var(X) = 2,75",
-            "C": "Var(X) = 2,25",
-            "D": "Var(X) = 1,75",
-            "E": "Var(X) = 3,25"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "Hilesiz bir para 6 kez atıldığında en az 4 kez yazı gelme ihtimali aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "15/32",
-            "B": "9/32",
-            "C": "7/32",
-            "D": "11/32",
-            "E": "13/32"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Bir işletmede üretilen ürünlerin % 6'sının defolu olduğu bilinmektedir.Rastgele ve iadeli olarak seçilen 5 üründen, 1 tanesinin defolu olmasının olasılığı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,288",
-            "B": "0,234",
-            "C": "0,226",
-            "D": "0,062",
-            "E": "0,158"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Serinin en büyük ve en küçük değerleri arasındaki fark aşağıdaki seçeneklerden hangisinde en doğru şekilde ifade edilmiştir?",
-          "options": {
-            "A": "Değişim Katsayısı",
-            "B": "Standart Hata",
-            "C": "Değişim Aralığı",
-            "D": "Varyans",
-            "E": "Standar Sapma"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Normal dağılım gösteren bir tesadüfi değişkenin olasılık dağılımı aşağıdaki seçeneklerden hangisinde doğru tanımlanmaktadır?",
-          "options": {
-            "A": "Kesikli Dağılım",
-            "B": "Polaroid Dağılım",
-            "C": "Sistematik Dağılım",
-            "D": "Sürekli Dağılım",
-            "E": "Metrik Dağılım"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Bir hipotez testinde bulunan hata tip türü sayısı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "4",
-            "B": "1",
-            "C": "2",
-            "D": "3",
-            "E": "5"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Türkiye'de TV dizilerinin yüzde 20'si beğenilmekte ve bunların yüzde 50 si ise yurt dışına satılmaktadır. Beğenilmeyenlerin ise yüzde 70'si yurtdışına satılmaktadır. Bir dizinin yurt dışına satılması durumunda ülkemizde de beğenilen dizi olma olasılığı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,1515",
-            "B": "0,5515",
-            "C": "0,4020",
-            "D": "0,1850",
-            "E": "0,1130"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Bir ayakkabı fabrikasında üretilen ürünlerde hatalı ürün oranı %1 olarak tespit edilmiştir. Tesadüfen seçilen 200 ayakkabılık bir örneklem içinde 3 tanesinin hatalı olma olasılığı değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,1270",
-            "B": "0,4025",
-            "C": "0,1805",
-            "D": "0,4775",
-            "E": "0,2275"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 13,
-          "question": "Aşağıdakilerden hangisi istatistiksel analiz sonuçlarını etkilemeyeceği düşünülen ve örneklem hacmi büyüdükçe birbirini tolere eden hata türüne bir örnektir?",
+          "context": "",
+          "question": "Gruplanmış açık uçlu olmayan serilerde grup / sınıf değerini bulmak için ne yapılır?",
           "options": {
-            "A": "Daktilonun b yerine v harfi basması",
-            "B": "Tartının sürekli olarak 10 gr. fazla tartması",
-            "C": "Metrenin 1 cm eksik ölçmesi",
-            "D": "Termometrenin normalden 1.5 derece yüksek göstermesi",
-            "E": "Anketörün cinsiyetlerden bazılarını yanlış kodlaması"
+            "A": "Gruplanmış sınıfın en düşük olan değeri kullanılır.",
+            "B": "Bu tür gruplanmış serilerde sınıf değeri hesaplanamaz.",
+            "C": "Gruplanmış sınıfın en yüksek değeri kullanılır.",
+            "D": "Gruplanmış sınıfın frekans değeri kullanılır.",
+            "E": "Gruplanmış sınıfın en yüksek ve en düşük değeri arasındaki farkın yarısı kullanılır."
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 14,
-          "question": "Bir paranın 4 kez atıldığı varsayılıyor. 1'den fazla tura gelme olasılığı nedir?",
+          "context": "",
+          "question": "Sadece gözlem değerlerinin yer aldığı diziler (seriler) nasıl isimlendirilir?",
           "options": {
-            "A": "12/16",
-            "B": "9/16",
-            "C": "10/16",
-            "D": "8/16",
-            "E": "11/16"
+            "A": "Gruplanmış Seri",
+            "B": "Bileşik Seri",
+            "C": "Kümülatif (Birikimli) Seri",
+            "D": "Basit Seri",
+            "E": "Frekans Serisi"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "D",
+          "explanation": ""
         },
         {
           "id": 15,
-          "question": "6, 7, 8, 9, 12, 24, 5, 7 serisinin aritmetik ortalamadan sapma değerleri toplamı kaçtır?",
+          "context": "",
+          "question": "Duyarlı ortalamalar (AO, G, K, H) arasındaki ilişkiyi en doğru ifade eden seçenek hangisidir?",
           "options": {
-            "A": "12",
-            "B": "0",
-            "C": "9",
-            "D": "4",
-            "E": "7"
+            "A": "H#G=AO#K",
+            "B": "H=G≤AO≥K",
+            "C": "H≥G≤ AO≥K",
+            "D": "H≥G≥AO≥K",
+            "E": "H≤G≤AO≤K"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "E",
+          "explanation": ""
         },
         {
           "id": 16,
-          "question": "Bir şirket A bölgesinde petrol arama çalışmalarına başlamıştır. Eğer şirket A bölgesinde az petrol bulursa kazancı 100.000 $, çok petrol bulursa kazancı 170.000 $ ve hiç petrol bulamazsa kaybı 80.000 $ olacaktır. Bu üç durumun olasılıkları sırasıyla şöyledir: 0.5; 0.25; 0.25. Şirketin beklenen kazancı değeri aşağıdakilerden hangisidir?",
+          "context": "",
+          "question": "{100, 1000, 10000} değerlerinin aritmetik ortalaması ile geometrik ortalaması arasındaki fark kaçtır?",
           "options": {
-            "A": "52.500 $",
-            "B": "62.500 $",
-            "C": "92.500 $",
-            "D": "82.500 $",
-            "E": "72.500 $"
+            "A": "4100",
+            "B": "1840",
+            "C": "2700",
+            "D": "2740",
+            "E": "1800"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "C",
+          "explanation": ""
         },
         {
           "id": 17,
-          "question": "Bir işletmede çalışan kadın ve erkeklerin diyet yapma oranlarını değerlendirmek için 40 kadın ve 60 erkekle görüşülüyor. Görüşme sonucunda 30 kadın ve 18 erkeğin diyet yaptığı bilgisine ulaşılıyor. Yapılan analiz ile kadınların diyet yapma oranının erkeklerin diyet yapma oranından yüksek olduğu bulunuyor. Bu sonuç için gerekli Z test istatistik değeri (Z hesap değeri) nedir? (%5 önem düzeyinde Ztab= 1.65 dir)",
+          "context": "",
+          "question": "Aritmetik Ortalama değeri 110 ve Standart Sapma değeri 22 olan bir seride Değişim Katsayısının değeri yüzde kaç olur?",
           "options": {
-            "A": "5,371",
-            "B": "4,164",
-            "C": "3,185",
-            "D": "6,738",
-            "E": "3,500"
+            "A": "%30",
+            "B": "%20",
+            "C": "%35",
+            "D": "%40",
+            "E": "%45"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 18,
-          "question": "A takımının yaptığı her maçta kazanma olasılığı 0,6667 dir. Bu takımın oynadığı 4 maçtan 2 tanesini kazanma olasılığı nedir?",
+          "context": "",
+          "question": "Yukarıda verilen çarpık seriye ait grafik incelendiğinde en sağda olan c değeri seçeneklerden hangisinde doğru olarak verilmiştir?",
           "options": {
-            "A": "Yüzde 29,63",
-            "B": "Yüzde 10,00",
-            "C": "Yüzde 10,55",
-            "D": "Yüzde 11,24",
-            "E": "Yüzde 14,80"
+            "A": "Medyan",
+            "B": "Mod",
+            "C": "Aritmetik Ortalama",
+            "D": "Tartılı Ortalama",
+            "E": "Ortalama"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 19,
-          "question": "Bu bilgiler doğrultusunda aşağıdakilerden hangisi doğrudur?",
+          "context": "",
+          "question": "“Bu grafik türünde beş adet istatistiksel özet bir arada görülür. Bunlar; Xmax Xmin, Q₁ (1. Çeyrek yani küçükten büyüğe sıralanmış bir seriyi %25’ten kesen değer), Q₂ (2. Çeyrek, asıl adı medyandır, küçükten büyüğe sıralanmış bir seriyi %50’den kesen değer), Q₃ (3. Çeyrek yani küçükten büyüğe sıralanmış bir seriyi %75’ten kesen değer).” Yukarıda tarif edilen grafik türü hangisidir?",
           "options": {
-            "A": "Öğrenci Müzik dersinde tam sınıf ortalamasında bir başarı göstermiştir.",
-            "B": "Öğrenci Türkçe dersinde sınıf ortalamasının üzerinde bir başarı göstermiştir.",
-            "C": "Öğrenci Türkçe dersinde tam sınıf ortalamasında bir başarı göstermiştir.",
-            "D": "Öğrenci Müzik dersinde sınıf ortalamasının 2 standart sapma altında kalmıştır.",
-            "E": "Öğrenci Türkçe dersinde sınıf ortalamasının 1 standart sapma altında kalmıştır."
+            "A": "Box -Whisker diyagramı",
+            "B": "Çizgi diyagramı",
+            "C": "Daire grafiği",
+            "D": "Nokta diyagramı",
+            "E": "Histogram"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "A",
+          "explanation": ""
         },
         {
           "id": 20,
-          "question": "X𝓲: 0, 1, 2, 3 P(X𝓲): 0,0156, 0,2813, 0,2813, 0,4219 Yukarıdaki tabloda X rastlantısal değişkenine ait değerler yer almaktadır. Buna göre X değişkeninin standart sapması (σ) nedir?",
+          "context": "",
+          "question": "Bir serinin basıklığını ifade eden değer arttıkça serinin şekli hangi bağlamda değişir? Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ Olasılık Ve İstatistik 2022-2023 Vize Soruları",
           "options": {
-            "A": "0,9",
-            "B": "0,7",
-            "C": "0,8",
-            "D": "1,0",
-            "E": "0,6"
+            "A": "Basıklaşır.",
+            "B": "Netleşir.",
+            "C": "Pürüzsüz hale gelir.",
+            "D": "Normalleşir.",
+            "E": "Sivrileşir."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "E",
+          "explanation": ""
         }
       ]
     },
     {
-      "title": "Olasılık Ve İstatistik 2024-2025 Final",
-      "exam_title": "Olasılık Ve İstatistik 2024-2025 Final",
-      "exam_type": "final",
-      "year": "2024-2025",
-      "question_count": 13,
-      "source_url": "",
-      "file_name": "Olasilik_Ve_Istatistik_Final_Sorulari.docx",
-      "questions": [
-        {
-          "id": 1,
-          "question": "1 ile 10 arasında tekrarlamasız 3 tam sayı seçildiğinde, aşağıdaki ifadelerden hangisi doğru olur?",
-          "options": {
-            "A": "1,2,10 en büyük standart sapmaya sahiptir.",
-            "B": "5,6,7 en büyük standart sapmaya sahiptir.",
-            "C": "1, 2, 3 en büyük standart sapmaya sahiptir.",
-            "D": "8, 9, 10 en büyük standart sapmaya sahiptir.",
-            "E": "4,6,7 en büyük standart sapmaya sahiptir."
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Bir magazaya Cuma günleri 30 dakikada ortalama 5 müşteri gelmektedir. Yine bir Cuma günü bu mağazaya 1 saatte 4 müşteri gelme olasılığı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0.059",
-            "B": "0.039",
-            "C": "0.049",
-            "D": "0.019",
-            "E": "0.029"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "2 zar atıldığında zarların üste gelen yüzlerindeki sayılar toplamının 4'ten büyük olduğu biliniyorken, toplamın çift sayı olması ihtimali aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "10/30",
-            "B": "14/30",
-            "C": "18/30",
-            "D": "20/30",
-            "E": "8/30"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "Yukardaki seride Q1 (1. Çeyrek bölen) değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "43",
-            "B": "45",
-            "C": "44",
-            "D": "41",
-            "E": "42"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "Yukarıda tabloda X rastlantısal değişkenine ait dağılım değerleri görülmektedir. Y=X² ise; Y rastlantısal değişkeni hangi değerleri alabilir?",
-          "options": {
-            "A": "1 ve 3",
-            "B": "2 ve 4",
-            "C": "1 ve 2",
-            "D": "1 ve 4",
-            "E": "2 ve 3"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "f(x) bir olasılık yoğunluk fonksiyonu ise P(-1<X<1.5) değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "29/32",
-            "B": "24/32",
-            "C": "22/32",
-            "D": "30/32",
-            "E": "27/32"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Ortalaması 16 ve Standart Sapması 4 olan bir rassal/ tesadüfi değişkenin X=20 olan değerine karşılık gelen Z değişkeninin (standart normal değişken) alacağı değer aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "2,5",
-            "B": "1,0",
-            "C": "2,0",
-            "D": "0,5",
-            "E": "1,5"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Hilesiz bir para 6 kez atıldığında en az 4 kez yazı gelme ihtimali aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "15/32",
-            "B": "9/32",
-            "C": "11/32",
-            "D": "7/32",
-            "E": "13/32"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Türkiye'de ailelerin yüzde 15'i akşam yemeği sonrası sadece kahve, yüzde 50'si sadece çay ve yüzde 10'u ise hem kahve hem çay tüketmektedir. Bir ailenin kahve tükettiği biliniyorsa bu ailenin aynı zamanda çay tüketme olasılığı nedir?",
-          "options": {
-            "A": "0,30",
-            "B": "0,20",
-            "C": "0,50",
-            "D": "0,40",
-            "E": "0,60"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Bir firmanın ürettiği kapı zillerinin yüzde 7'sinin hatalı olduğu bilinmektedir. Tesadüfi olarak seçilen 5 zilden en az 1 tanesinin hatalı ürün olma olasılığı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,6015",
-            "B": "0,4056",
-            "C": "0,4811",
-            "D": "0,3034",
-            "E": "0,5428"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Aşağıdaki grafiklerden hangisini sınıflanmış serinin grafik gösteriminde kullanmak daha uygun olur?",
-          "options": {
-            "A": "Histogram",
-            "B": "Nokta diyagramı",
-            "C": "Box-Whisker grafiği",
-            "D": "Daire grafiği",
-            "E": "Çizgi diyagramı"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Aritmetik ortalaması 25, varyansı 16 olan serinin değişim katsayısı yüzde olarak aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "20",
-            "B": "22",
-            "C": "16",
-            "D": "18",
-            "E": "24"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Vergi beyanında bulunanlardan 20 kişinin dosyası mali kontrol memurları tarafından inceleniyor. Bu dosyalardan 4 tanesinde yanlışlık vardır. Tesadüfi olarak almacak 5 dosyadan sadece 1 tanesinin yanış beyanı dosya olma olasılığı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "0,1024",
-            "B": "0,3277",
-            "C": "0,4096",
-            "D": "",
-            "E": ""
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "Olasılık Ve İstatistik 2022 Final",
-      "exam_title": "Olasılık Ve İstatistik 2022 Final",
+      "title": "Olasılık ve İstatistik 2022 - Yönetim Bilişim Sİstemleri YilYok Final",
       "exam_type": "final",
       "year": "2022",
-      "question_count": 16,
-      "source_url": "",
-      "file_name": "Olasilik_Ve_Istatistik_Final_Sorulari.docx",
+      "file_name": "Olasılık_ve_İstatistik_2022_–_Yönetim_Bilişim_Sİstemleri_YilYok_Final.docx",
+      "question_count": 20,
       "questions": [
         {
           "id": 1,
-          "question": "Bir şehirde yaşayan 50000 kişinin %15'i Üniversite mezunu, %35'I Ilse, kalanlar İlköğretim mezunudur. Bu serl daire grafiği ile gösterilmek Istenirse Ilse mezunlarına alt dilimin açısal ölçümü kaçtır?",
+          "context": "",
+          "question": "f(x)=a/x⁵ ise 0<x<10 aralığında bir olasılığın yoğunluk fonksiyonu olabilmesi için a kaça eşit olmalıdır?",
+          "options": {
+            "A": "-100",
+            "B": "-250",
+            "C": "-150",
+            "D": "-200",
+            "E": "-50"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "context": "",
+          "question": "(x) bir olasılık yoğunluk fonksiyonu Ise P(-1 < X < 1.5) kaçtır?",
+          "options": {
+            "A": "30/32",
+            "B": "24/32",
+            "C": "27/32",
+            "D": "29/32",
+            "E": "22/32"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "context": "",
+          "question": "Bir şehirde yaşayan 50000 kişinin %15’i Üniversite mezunu, %35’I Ilse, kalanlar İlköğretim mezunudur. Bu serl daire grafiği ile gösterilmek Istenirse Ilse mezunlarına alt dilimin açısal ölçümü kaçtır?",
           "options": {
             "A": "272",
             "B": "260",
@@ -1438,14 +338,11 @@
             "E": "180"
           },
           "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 2,
+          "id": 4,
+          "context": "",
           "question": "Aşağıdakı olaylardan hangisi Polsson dağılımına uymaz?",
           "options": {
             "A": "Homojen bir paranın 5 defa atılması sonucunda üste gelen yazıların sayısı",
@@ -1455,14 +352,11 @@
             "E": "Bir havalimanına bir saat boyunca inen uçaklanın sayısı"
           },
           "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 3,
+          "id": 5,
+          "context": "",
           "question": "Bir şirket A bölgesinde petrol arama çalışmalarına başlamıştır. Eğer şirket A bölgesinde az petrol bulursa kazancı 100.000 $, çok petrol bulursa kazancı 170.000$ ve hiç petrol bulamazsa kaybı 80.000$ olacaktır. Bu üç durumun olasılıkları sırasıyla şöyledir: 0.5; 0.25; 0.25. Şirketin beklenen kazancı nedir?",
           "options": {
             "A": "82.500 $",
@@ -1472,15 +366,26 @@
             "E": "52.500 $"
           },
           "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 4,
-          "question": "80 1 Yukarıdaki serinin kartiller arası fark değerl (yanl Q3-Q1) nedir?",
+          "id": 6,
+          "context": "",
+          "question": "Matematik sınavında 8 yerli uyruklu ve 2 yabancı uyruklu öğrenci başarısız olmuştur. Bu sınıftan seçilen bir kişinin başarısız olduğu bilindiğine göre, bu kişinin yabancı uyruklu olma olasılığı kaçtır?",
+          "options": {
+            "A": "0.2",
+            "B": "0.4",
+            "C": "0.3",
+            "D": "0.5",
+            "E": "0.6"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "context": "",
+          "question": "65-80 1 Yukarıdaki serinin kartiller arası fark değerl (yanl Q3-Q1) nedir?",
           "options": {
             "A": "28.971",
             "B": "30.971",
@@ -1489,14 +394,11 @@
             "E": "32.971"
           },
           "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 5,
+          "id": 8,
+          "context": "",
           "question": "Bir para 3 kez atılıyor. X üste gelen yazıların sayısı olsun. Bu durumda V(X) aşağıdakilerden hangisidir?",
           "options": {
             "A": "0.75",
@@ -1506,14 +408,11 @@
             "E": "0.25"
           },
           "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 6,
+          "id": 9,
+          "context": "",
           "question": "2 Yukarıda olasılık fonksiyonu verilmiş olan X tesadüfi değişkeninin değişim katsayısı ([standart sapma / ortalama]*100) yüzde kaçtır?",
           "options": {
             "A": "28.974",
@@ -1523,31 +422,25 @@
             "E": "25.684"
           },
           "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 7,
-          "question": "Bir ayakkabı fabrikasında üretilen ürünlerde hatalı ürün oranı %1 olarak tespit edilmiştir. Tesadüfen seçilen 200 ayakkabılık bir örneklem Içinde 3 tanesinin hatalı olma olasılığı aşağıdakilerden hangisidir?",
+          "id": 10,
+          "context": "",
+          "question": "Bir ayakkabı fabrikasında üretilen ürünlerde hatalı ürün oranı %1 olarak tespit edilmiştir. Tesadüfen seçilen 200 ayakkabılık bir örneklem Içinde 3 tanesinin hatalı olma olasılığı aşağıdakilerden hangisidir? Olasılık ve İstatistik 2022 Final Soruları Auzef Yönetim Bilişim Sistemleri Lisans Öğrenci Dostu Olasılık ve İstatistik Olasılık ve İstatistik 2022 Final Soruları",
           "options": {
             "A": "0.1270",
-            "B": "0,4025",
+            "B": "0, 4025",
             "C": "0.1805",
-            "D": "0,2275",
+            "D": "0, 2275",
             "E": "0.4775"
           },
           "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 8,
+          "id": 11,
+          "context": "",
           "question": "2 adet zar atıldığında gelen sayılar toplamı 5 Ise zarlardan birinin 4 olma olasılığı nedir?",
           "options": {
             "A": "3/4",
@@ -1557,14 +450,11 @@
             "E": "1/2"
           },
           "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 9,
+          "id": 12,
+          "context": "",
           "question": "Bir mağazaya Pazartesi günlerl 30 dakikada ortalama 2 müşteri gelmektedir. Yine bir Pazartesi günü bu mağazaya hiç müşteri gelmeme olasılığı nedir?",
           "options": {
             "A": "0.165",
@@ -1574,14 +464,11 @@
             "E": "0.135"
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 10,
+          "id": 13,
+          "context": "",
           "question": "Homojen bir para 64 kez atılıyor. Bulunan turaların sayısının standart sapması nedir?",
           "options": {
             "A": "6",
@@ -1591,48 +478,53 @@
             "E": "4"
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 11,
+          "id": 14,
+          "context": "",
           "question": "1000 müşterisinden 800 tanesi A marka deterjan kullanıcısı olduğunu belirtmektedir. Müşteriler arasından tesadüfi ve ladesiz olarak 20 kişi seçilirse bu müşterilerin 14 tanesinin A markasının kullanıcısı olma olasılığı nedir?",
           "options": {
-            "A": "0,25",
-            "B": "0,44",
-            "C": "0,15",
-            "D": "0,11",
-            "E": "0,27"
+            "A": "0, 25",
+            "B": "0, 44",
+            "C": "0, 15",
+            "D": "0, 11",
+            "E": "0, 27"
           },
           "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 12,
+          "id": 15,
+          "context": "",
+          "question": "Xi Ti 8 6 6 9 5 1 2 8 9 6 Yukarıdaki serinin tartılı aritmetik ortalaması kaçtır?",
+          "options": {
+            "A": "4.7",
+            "B": "8.1",
+            "C": "6.3",
+            "D": "7.4",
+            "E": "5.9"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "context": "",
           "question": "Bir fonksiyonun kesikil tesadüfi değişkenler için olasılık fonksiyonu olabilmesi aşağıdaki hangl koşulu sağlaması lle mümkündür?",
           "options": {
             "A": "P(X)≥0",
             "B": "P(X)≥1",
-            "C": "P(X)≥1,5",
+            "C": "P(X)≥1, 5",
             "D": "P(X)=0",
-            "E": "P(X)=1,15"
+            "E": "P(X)=1, 15"
           },
           "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 13,
+          "id": 17,
+          "context": "",
           "question": "Aşağıdakilerden hangisi Istatistiksel analiz sonuçlarını etkilemeyeceği düşünülen ve örneklem hacml büyüdükçe birbirini tolere eden hata türüne bir örnektir?",
           "options": {
             "A": "Termometrenin normalden 1.5 derece yüksek göstermesi",
@@ -1642,14 +534,11 @@
             "E": "Metrenin 1 cm eksik ölçmesi"
           },
           "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 14,
+          "id": 18,
+          "context": "",
           "question": "Ordudakl rütbeler – Cinslyet – Bir Insanın boy uzunluğu Yukarıdaki verilerin türleri hangi şıkta doğru olarak sıralanmıştır?",
           "options": {
             "A": "Ordinal – sürekli nicel – nominal",
@@ -1659,14 +548,11 @@
             "E": "Ordinal – nominal – sürekli nicel"
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 15,
+          "id": 19,
+          "context": "",
           "question": "Aşağıdakilerden hangisi Binom dağılımının özelliklerinden biri değildir?",
           "options": {
             "A": "Sadece mümkün 2 sonuç vardır.",
@@ -1676,15 +562,12 @@
             "E": "Deneme sayısı n>1 dir ve denemeler özdeştir."
           },
           "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 16,
-          "question": "Aşağıdaki sola çarpık serinin grafiğine bakıldığında a,b ve c sıralamasıyla hangisi mod, hangisl medyan, hangisi aritmetik ortalamadır? Auzef Olasılık ve İstatistik",
+          "id": 20,
+          "context": "",
+          "question": "Aşağıdaki sola çarpık serinin grafiğine bakıldığında a, b ve c sıralamasıyla hangisi mod, hangisl medyan, hangisi aritmetik ortalamadır? Olasılık ve İstatistik 2022 Final Soruları Auzef Yönetim Bilişim Sistemleri Lisans Öğrenci Dostu Auzef sınav soruları, çıkmış sorular, deneme sınaları hepsi ’da ücretsiz. Yönetim Bilişim Sistemleri Lisans Auzef Bilgisayar Programcılığı Önlisans Öğrenci Dostu",
           "options": {
             "A": "Aritmetik ortalama – mod – medyan",
             "B": "Medyan – mod – aritmetik ortalama",
@@ -1693,213 +576,338 @@
             "E": "Mod – aritmetik ortalama – medyan"
           },
           "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         }
       ]
     },
     {
-      "title": "Olasilik Ve Istatistik 2024-2025 Butunleme",
-      "exam_title": "Olasilik Ve Istatistik 2024-2025 Butunleme",
-      "exam_type": "butunleme",
+      "title": "Olasılık ve İstatistik 2024 2025 Vize",
+      "exam_type": "vize",
       "year": "2024-2025",
+      "file_name": "Olasılık_ve_İstatistik_2024_2025_Vize.docx",
       "question_count": 20,
-      "source_url": "",
-      "file_name": "Olasilik_Ve_Istatistik_Butunleme_Sorulari.docx",
       "questions": [
         {
           "id": 1,
-          "question": "A bölgesinde az petrol bulursa kazanç 100.000, çok bulursa 170.000 ve bulamazsa kayıp 80.000 $ olacaktır. Olasılıklar sırasıyla: 0.5; 0.25; 0.25. Şirketin beklenen kazancı nedir?",
+          "context": "",
+          "question": "Yukarıdaki serinin Harmonik ortalaması aşağıdaki seçeneklerin hangisinde doğru verilmiştir? (Sonucu tamsayı olacak biçimde yuvarlayınız.)",
           "options": {
-            "A": "52.500 $",
-            "B": "72.500 $",
-            "C": "82.500 $",
-            "D": "92.500 $",
-            "E": "62.500 $"
+            "A": "9",
+            "B": "5",
+            "C": "7",
+            "D": "3",
+            "E": "11"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "D",
+          "explanation": ""
         },
         {
           "id": 2,
-          "question": "Bir ayakkabı fabrikasında üretilen ürünlerde hatalı ürün oranı yüzde 1 olarak tespit edilmiştir. Tesadüfen seçilen 200 ayakkabılık bir örneklem içinde 3 tanesinin hatalı olma olasılığı değeri aşağıdakilerden hangisidir?",
+          "context": "",
+          "question": "Gruplanmış açık uçlu olmayan serilerde grup / sınıf değerini bulmak için yapılan işlem aşağıdakilerden hangisidir?",
           "options": {
-            "A": "0.4025",
-            "B": "0.2275",
-            "C": "0.1805",
-            "D": "0.4775",
-            "E": "0,1270"
+            "A": "Gruplanmış sınıfın en yüksek ve en düşük değeri arasındaki farkın yarısı kullanılır.",
+            "B": "Gruplanmış sınıfın frekans değeri kullanılır.",
+            "C": "Bu tür gruplanmış serilerde sınıf değeri hesaplanamaz.",
+            "D": "Gruplanmış sınıfın en yüksek değeri kullanılır.",
+            "E": "Gruplanmış sınıfın en düşük olan değeri kullanılır."
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "A",
+          "explanation": ""
         },
         {
           "id": 3,
-          "question": "Homojen bir para 64 kez atılıyor. Bulunan turaların sayısının standart sapması değeri aşağıdakilerden hangisidir?",
+          "context": "",
+          "question": "Örneklem ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
           "options": {
-            "A": "4",
-            "B": "2",
-            "C": "6",
-            "D": "8",
-            "E": "10"
+            "A": "Örneklem ana kütleyi temsil etmelidir.",
+            "B": "Örneklem ana kütleden fazla sayıda olmalıdır.",
+            "C": "Örneklem ana kütleden çekilmelidir.",
+            "D": "Örneklem yeterli sayıda olmalıdır.",
+            "E": "Örneklem ana kütleden az sayıda olmalıdır."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 4,
-          "question": "Aşağıdakilerden hangisi istatistiksel analiz sonuçlarını etkilemeyeceği düşünülen ve örneklem hacmi büyüdükçe birbirini tolere eden hata türüne bir örnektir?",
+          "context": "",
+          "question": "Kendisinden önceki değerler arasında kaç tanesinin kendisinden daha küçük gözlem değer içerdiğini görebilmeyi sağlayan serilere verilen isim aşağıdakilerden hangisidir?",
           "options": {
-            "A": "Metrenin 1 cm eksik ölçmesi",
-            "B": "Termometrenin normalden 1.5 derece yüksek göstermesi",
-            "C": "Anketörün cinsiyetlerden bazılarını yanlış kodlaması",
-            "D": "Daktilonun b yerine v harfi basması",
-            "E": "Tartının sürekli olarak 10 gr. fazla tartması"
+            "A": "Mukayese İçeren Seri",
+            "B": "Çoğul Seri",
+            "C": "Kümülatif (Birikimli) Seri",
+            "D": "Basit Seri",
+            "E": "Mukayese İçermeyen Seri"
           },
           "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 5,
-          "question": "Yukarıdaki serinin tartılı aritmetik ortalama değeri aşağıdaki hangisidir?",
+          "context": "",
+          "question": "Bir firma müşterilerinden oluşan bir grup üzerinde yaptığı çalışmada müşteri memnuniyet oranını yüzde 60 olarak hesaplamıştır. Bu değer aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
           "options": {
-            "A": "5.9",
-            "B": "7.4",
-            "C": "6.3",
-            "D": "4.7",
-            "E": "8.1"
+            "A": "Ana Kütle",
+            "B": "Örneklem Tahmini",
+            "C": "Parametre",
+            "D": "Örneklem",
+            "E": "Ana kütle tahmini"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 6,
-          "question": "Türkiye'de TV dizilerinin yüzde 20'si beğenilmekte ve bunların yüzde 50'si ise yurt dışına satılmaktadır. Beğenilmeyenlerin ise yüzde 70'i yurtdışına satılmaktadır. Bir dizinin yurt dışına satılması durumunda ülkemizde de beğenilen dizi olma olasılığı aşağıdakilerden hangisidir?",
+          "context": "",
+          "question": "Bir serinin basıklığını ifade eden değer arttıkça serinin şekli aşağıdaki hangi bağlamda değişir?",
           "options": {
-            "A": "0,1515",
-            "B": "0,1130",
-            "C": "0,4020",
-            "D": "0,5515",
-            "E": "0,1850"
+            "A": "Normalleşir.",
+            "B": "Pürüzsüz hale gelir.",
+            "C": "Basıklaşır.",
+            "D": "Netleşir.",
+            "E": "Sivrileşir."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "E",
+          "explanation": ""
         },
         {
           "id": 7,
-          "question": "Yuvarlama işlemi aşağıdaki seçeneklerden hangisinde yanlıştır?",
+          "context": "",
+          "question": "Yukarıdaki serinin Q3 (3. Çeyrek bölen) değeri aşağıdakilerden hangisidir?",
           "options": {
-            "A": "19.006777 - 19.007",
-            "B": "10.001488 - 10.001",
-            "C": "17.589211 - 17.589",
-            "D": "15.127882 - 15.127",
-            "E": "12.256956 - 12.257"
+            "A": "65",
+            "B": "67",
+            "C": "66",
+            "D": "64",
+            "E": "68"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "E",
+          "explanation": ""
         },
         {
           "id": 8,
-          "question": "200 sayfalık bir kitaba 100 imla hatası rastgele dağıtılıyor. Rastgele seçilen bir sayfada 2 imla hatası olma ihtimali değeri aşağıdakilerden hangisidir?",
+          "context": "",
+          "question": "Bir serinin dağılımını (bölünmesini / şeklini) anlamak için aşağıdaki seçeneklerden hangisinden yararlanmak gerekmez?",
           "options": {
-            "A": "0,0858",
-            "B": "0,1958",
-            "C": "0,2958",
-            "D": "0,0758",
-            "E": "0,0958"
+            "A": "Basıklıktan",
+            "B": "Ortalamalardan",
+            "C": "Momentlerden",
+            "D": "Tanımından",
+            "E": "Çarpıklıktan"
           },
           "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 9,
-          "question": "Bir işletmede üretilen ürünlerin yüzde 6'sının defolu olduğu bilinmektedir. Rastgele ve iadeli olarak seçilen 5 üründen, 1 tanesinin defolu olmasının olasılığı aşağıdakilerden hangisidir?",
+          "context": "",
+          "question": "Aşağıdakilerden hangisi değişim katsayısının üstünlüklerinden değildir?",
           "options": {
-            "A": "0,288",
-            "B": "0,062",
-            "C": "0,158",
-            "D": "0,226",
-            "E": "0,234"
+            "A": "Farklı birimlere sahip serilerin karşılaştırılmasını mümkün kılar.",
+            "B": "Farklı değişkenleri bir arada ele alabilmeye imkan tanır.",
+            "C": "Oransal bir değişim değeri verir.",
+            "D": "Ortalamaların tercihini kolaylaştırır.",
+            "E": "Yüzde olarak karşılaştırma yapmayı mümkün kılar."
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "D",
+          "explanation": ""
         },
         {
           "id": 10,
-          "question": "Herhangi hipotez testinin gerçekleşebilmesi için birbirine ….. olan iki hipoteze gerek vardır. Yukarıdaki cümlede boş bırakan yere aşağıdakilerden hangisi gelmelidir?",
+          "context": "",
+          "question": "Ordudaki rütbeler – Cinsiyet – Bir insanın boy uzunluğu Yukarıdaki verilerin türleri aşağıdaki hangi şıkta doğru olarak sıralanmıştır?",
           "options": {
-            "A": "betimleyici",
-            "B": "denge",
-            "C": "karşıt",
-            "D": "destek",
-            "E": "tamamlayıcı"
+            "A": "Ordinal - sürekli nicel - nominal",
+            "B": "Sürekli nicel - ordinal - nominal",
+            "C": "Sürekli nicel – nominal - ordinal",
+            "D": "Ordinal - nominal - sürekli nicel",
+            "E": "Nominal - ordinal - sürekli nicel"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "D",
+          "explanation": ""
         },
         {
           "id": 11,
-          "question": "Bir okuldaki 200 öğrenciye derslerin blok halinde yapılması fikri sorulmuştur. Öğrencilerin kararlarına ilişkin bilgi tablodaki gibidir. Tablodaki bilgilere göre aşağıdakilerden hangisi yanlıştır?",
+          "context": "",
+          "question": "X kesikli rastlantısal değişkeninin olasılık dağılımı yukarıdaki tabloda verilmiştir. Buna göre P(x < 2) olasılık değeri aşağıdakilerden hangisidir?",
           "options": {
-            "A": "P(K/B)=0.75",
-            "B": "P(K/T)=0.6",
-            "C": "P(R/K)=0.25",
-            "D": "P(E/T)=0.4",
-            "E": "P(R/E)=0.225"
+            "A": "0, 49",
+            "B": "0, 39",
+            "C": "0, 8",
+            "D": "0, 54",
+            "E": "0, 19"
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 12,
-          "question": "Bir mağazaya Pazartesi günleri 30 dakikada ortalama 2 müşteri gelmektedir. Yine bir Pazartesi günü bu mağazaya hiç müşteri gelmeme olasılığı değeri aşağıdakilerden hangisidir?",
+          "context": "",
+          "question": "Yukarıdaki serinin mod değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "32.438",
+            "B": "24.438",
+            "C": "28.438",
+            "D": "30.438",
+            "E": "26.438"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "context": "",
+          "question": "“Gözlem değerlerinin ortalamadan uzaklıklarına bakarak verilerin …….. ölçebiliriz.” cümlesinde boş bırakılan yere gelebilecek en uygun ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "ortanca değerini",
+            "B": "harmonik ortalamasını",
+            "C": "dağılımını",
+            "D": "medyan değerini",
+            "E": "mod değerini"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "context": "",
+          "question": "Borçlarından dolayı tasfiye edilen bir firmanın borç dağılımına ait asimetri (çarpıklık) durumunu en makul açıklayabilen seçenek hangisidir?",
+          "options": {
+            "A": "Mutlak simetriktir.",
+            "B": "Her iki tarafı da aynıdır.",
+            "C": "Negatif asimetriye sahiptir.",
+            "D": "Pozitif asimetriye sahiptir.",
+            "E": "Asimetrik bir durumu olamaz."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "context": "",
+          "question": "Serinin en büyük ve en küçük değerleri arasındaki fark aşağıdaki seçeneklerden hangisinde en doğru şekilde ifade edilmiştir?",
+          "options": {
+            "A": "Değişim Katsayısı",
+            "B": "Standart Hata",
+            "C": "Varyans",
+            "D": "Standart Sapma",
+            "E": "Değişim Aralığı"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "context": "",
+          "question": "Yukarıdaki serinin geometrik ortalaması değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "5.54",
+            "B": "8.54",
+            "C": "5.56",
+            "D": "8.77",
+            "E": "6.62"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "context": "",
+          "question": "{10, 100, 1000} değerlerinin aritmetik ortalaması ile geometrik ortalaması arasındaki fark değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "250",
+            "B": "270",
+            "C": "300",
+            "D": "290",
+            "E": "220"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "context": "",
+          "question": "Yukarıdaki serinin modu aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "48",
+            "B": "50",
+            "C": "56",
+            "D": "54",
+            "E": "52"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "context": "",
+          "question": "6 kişilik bir gruptan kaç tane 2 kişilik grup oluşturulabilir?",
+          "options": {
+            "A": "15",
+            "B": "20",
+            "C": "10",
+            "D": "5",
+            "E": "25"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "context": "",
+          "question": "(12 21 33 45 59) Yukarıdaki veri kümesi için ∑(X – X̄)’in sonucu hangi seçenekte doğru verilmiştir? Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ Olasılık ve İstatistik 2024-2025 Vize Soruları Olasılık ve İstatistiğe Giriş: Veri Türleri, Merkezi Eğilim ve Dağılım Ölçüleri Giriş İstatistik, verileri toplama, düzenleme, analiz etme ve yorumlama yoluyla belirsizlikler altında karar vermeyi sağlayan bir bilim dalıdır. Araştırmanın sonuçlarının genellenmek istendiği grubun tamamına “ana kütle”, bu kütleden seçilen alt kümeye ise “örneklem” denir. Örneklem, tanımı gereği ana kütleden daha az sayıda olmalı ve onu iyi temsil etmelidir. Bu makalede, istatistiğin temelini oluşturan veri türleri, verileri özetlemek için kullanılan merkezi eğilim ve dağılım ölçüleri incelenecektir. Verileri Düzenleme ve Sunma Analizin ilk adımı, verilerin türünü belirlemektir. Ordudaki rütbeler gibi aralarında doğal bir sıralama olan kategorik veriler “ordinal”, cinsiyet gibi sırasız kategoriler “nominal”, boy uzunluğu gibi ölçülebilen ve ondalıklı değer alabilen veriler ise “sürekli nicel” veridir. Veriler, “kümülatif (birikimli) seriler” gibi özel tablolarla düzenlenerek, belirli bir değerden daha az veya daha çok gözlem olup olmadığını görmeyi kolaylaştırır. Merkezi Eğilim Ölçüleri Merkezi eğilim ölçüleri, bir veri setinin merkez noktasını veya tipik değerini özetler. Aritmetik Ortalama: En yaygın kullanılan ortalamadır. Temel bir özelliği, serideki tüm değerlerin ortalamadan sapmalarının toplamının her zaman “sıfır” olmasıdır. Geometrik Ortalama: Özellikle oransal değişimlerin ortalaması için kullanılır. Örneğin, {10, 100, 1000} serisinin aritmetik ortalaması 370 iken, geometrik ortalaması 100’dür. Harmonik Ortalama: Hız ve zaman gibi birim başına ifade edilen değerlerin ortalamasında kullanılır. Mod: Bir seride en çok tekrar eden değerdir. Medyan ve Kartiller: Medyan, sıralı bir seriyi ortadan ikiye bölen değerdir. Kartiller ise seriyi dört eşit parçaya böler; örneğin Q3 (3. çeyrek bölen), verilerin %75’inin altında kaldığı değeri gösterir. Dağılım ve Yayılım Ölçüleri Dağılım (yayılım) ölçüleri, verilerin ortalamadan ne kadar uzağa yayıldığını, yani “dağılımını” gösterir. Değişim Aralığı (Range): Serideki en büyük ve en küçük değerler arasındaki farktır ve en basit yayılım ölçüsüdür. Değişim Katsayısı: Farklı birimlere sahip serilerin değişkenliklerini oransal olarak karşılaştırmaya olanak tanır, ancak hangi ortalamanın kullanılacağını belirlemede bir rolü yoktur. Dağılımın Şekli Bir serinin dağılım şekli, çarpıklık ve basıklık gibi ölçümlerle analiz edilir. “Çarpıklık” (asimetri), dağılımın simetrik olup olmadığını gösterir. Örneğin, tasfiye edilen bir firmanın borç dağılımı, genellikle az sayıda çok yüksek borç yerine çok sayıda küçük borçtan oluşacağı için “negatif asimetriye” sahip olma eğilimindedir. “Basıklık” (kurtosis) ise dağılımın tepe noktasının ne kadar sivri veya basık olduğunu ölçer. Basıklık değeri arttıkça, dağılımın şekli daha da “sivrileşir”. Olasılık ve Kombinatorik İstatistik, belirsizlikleri ölçmek için olasılık teorisinden faydalanır. Örneğin, bir kesikli rastgele değişkenin olasılık dağılımı tablosundan P(x < 2) gibi olasılıkları hesaplamak mümkündür. Sıralamanın önemli olmadığı gruplama problemlerinde ise kombinasyon kullanılır. Örneğin, 6 kişilik bir gruptan 15 farklı 2 kişilik grup oluşturulabilir. Sonuç İstatistiksel analiz, veriye dayalı bir dünya görüşü sunar. Bir veri serisinin dağılımını anlamak için ortalamalar, çarpıklık ve basıklık gibi ölçütlerden yararlanılırken, serinin sadece “tanımı” bu analiz için yeterli değildir. Bu temel istatistiksel araçlar, karmaşık verileri anlamlı bilgilere dönüştürerek daha doğru kararlar almamızı sağlar. Olasılık ve İstatistik 2024-2025 Vize Soruları Olasılık ve İstatistik 2024-2025 Vize Soruları",
+          "options": {
+            "A": "2",
+            "B": "0",
+            "C": "1",
+            "D": "4",
+            "E": "3"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "Olasılık ve İstatistik 2024 2025 Butunleme",
+      "exam_type": "butunleme",
+      "year": "2024-2025",
+      "file_name": "Olasılık_ve_İstatistik_2024_2025_Butunleme.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "",
+          "question": "Bir öğrenci Türkçe dersinden 70, Müzik dersinden 80 almıştır. Bu derslere ilişkin sınıf ortalamaları ve standart sapmaları yukarıdaki gibidir. Bu bilgiler doğrultusunda aşağıdakilerden hangisi doğrudur? Türkçe dersinde Z=0 olduğu için öğrenci tam sınıf ortalamasındadır.",
+          "options": {
+            "A": "Öğrenci Müzik dersinde sınıf ortalamasının 2 standart sapma altında kalmıştır.",
+            "B": "Öğrenci Müzik dersinde tam sınıf ortalamasında bir başarı göstermiştir.",
+            "C": "Öğrenci Türkçe dersinde sınıf ortalamasının üzerinde bir başarı göstermiştir.",
+            "D": "Öğrenci Türkçe dersinde tam sınıf ortalamasında bir başarı göstermiştir.",
+            "E": "Öğrenci Türkçe dersinde sınıf ortalamasının standart sapma altında kalmıştır."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "context": "",
+          "question": "Bir işletmede üretilen ürünlerin yüzde 6’sının defolu olduğu bilinmektedir. Rastgele ve iadeli olarak seçilen 5 üründen, 1 tanesinin defolu olmasının olasılığı aşağıdakilerden hangisidir? P(X=1) = C(5, 1) * (0.06)^1 * (0.94)^4 = 5 * 0.06 * 0.7807 = 0.2342.",
+          "options": {
+            "A": "0, 288",
+            "B": "0, 062",
+            "C": "0, 158",
+            "D": "0, 226",
+            "E": "0, 234"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "context": "",
+          "question": "Bir mağazaya Pazartesi günleri 30 dakikada ortalama 2 müşteri gelmektedir. Yine bir Pazartesi günü bu mağazaya hiç müşteri gelmeme olasılığı değeri aşağıdakilerden hangisidir? P(X=0) = (e^-2 * 2^0) / 0! = e^-2 = 1 / 2.718^2 ≈ 0.1353.",
           "options": {
             "A": "0.145",
             "B": "0.175",
@@ -1908,31 +916,95 @@
             "E": "0.135"
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
-          "id": 13,
-          "question": "Aşağıdaki olaylardan hangisi Poisson dağılımına uymaz?",
+          "id": 4,
+          "context": "",
+          "question": "Bir ayakkabı fabrikasında üretilen ürünlerde hatalı ürün oranı yüzde 1 olarak tespit edilmiştir. Tesadüfen seçilen 200 ayakkabılık bir örneklem içinde 3 tanesinin hatalı olma olasılığı değeri aşağıdakilerden hangisidir? P(X=3) = (e^-2 * 2^3) / 3! = (0.1353 * 8) / 6 = 0.1804. (Binom ile de benzer sonuç çıkar).",
           "options": {
-            "A": "Bir sayfadaki imla hatalarının sayısı",
-            "B": "10 dönümlük bir ormanda bulunan ağaç sayısı",
-            "C": "Bir havalimanına bir saat boyunca inen uçakların sayısı",
-            "D": "Bir kavşakta bir yılda meydana gelen ortalama kaza sayısı",
-            "E": "Homojen bir paranın 5 defa atılması sonucunda üste gelen yazıların sayısı"
+            "A": "0.4025",
+            "B": "0.2275",
+            "C": "0.1805",
+            "D": "0.4775",
+            "E": "0, 1270"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "C",
+          "explanation": ""
         },
         {
-          "id": 14,
+          "id": 5,
+          "context": "",
+          "question": "Homojen bir para 64 kez atılıyor. Bulunan turaların sayısının standart sapması değeri aşağıdakilerden hangisidir? n = 64, p = 0.5 (tura), q = 0.5. Std = kök(64 * 0.5 * 0.5) = kök(16) = 4.",
+          "options": {
+            "A": "4",
+            "B": "2",
+            "C": "6",
+            "D": "8",
+            "E": "10"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "context": "",
+          "question": "Herhangi hipotez testinin gerçekleşebilmesi için birbirine ….. olan iki hipoteze gerek vardır. Yukarıdaki cümlede boş bırakan yere aşağıdakilerden hangisi gelmelidir? Xi Ti 8 6 6 9 5 1 2 8 9 6",
+          "options": {
+            "A": "betimleyici",
+            "B": "denge",
+            "C": "karşıt",
+            "D": "destek",
+            "E": "tamamlayıcı"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "context": "",
+          "question": "Yukarıdaki serinin tartılı aritmetik ortalama değeri aşağıdaki hangisidir? Σ(Xi * Ti) = (8*6) + (6*9) + (5*1) + (2*8) + (9*6) = 48 + 54 + 5 + 16 + 54 = 177. ΣTi = 6 + 9 + 1 + 8 + 6 = 30. Ortalama = 177 / 30 = 5.9.",
+          "options": {
+            "A": "5.9",
+            "B": "7.4",
+            "C": "6.3",
+            "D": "4.7",
+            "E": "8.1"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "context": "",
+          "question": "200 sayfalık bir kitaba 100 imla hatası rastgele dağıtılıyor. Rastgele seçilen bir sayfada 2 imla hatası olma ihtimali değeri aşağıdakilerden hangisidir? P(X=2) = (e^-0.5 * 0.5^2) / 2! = (0.6065 * 0.25) / 2 = 0.0758.",
+          "options": {
+            "A": "0, 0858",
+            "B": "0, 1958",
+            "C": "0, 2958",
+            "D": "0, 0758",
+            "E": "0, 0958"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "context": "",
+          "question": "Bir şehirde yaşayan 50000 kişinin yüzde 15’i üniversite mezunu, yüzde 35’i lise, kalanlar ilköğretim mezunudur. Bu seri daire grafiği ile gösterilmek istenirse lise mezunlarına ait dilimin açısal ölçüm değeri aşağıdakilerden hangisidir? Açı = 360 * 0.35 = 126 derece.",
+          "options": {
+            "A": "260",
+            "B": "126",
+            "C": "272",
+            "D": "54",
+            "E": "180"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "context": "",
           "question": "Gerçekte doğru olan H0 hipotezi reddedildiğinde aşağıdaki hata tiplerinden hangi tip hata gerçekleşmiş olur?",
           "options": {
             "A": "γ Hatası",
@@ -1942,100 +1014,68 @@
             "E": "1-α Hatası"
           },
           "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi istatistiksel analiz sonuçlarını etkilemeyeceği düşünülen ve örneklem hacmi büyüdükçe birbirini tolere eden hata türüne bir örnektir?",
+          "options": {
+            "A": "Metrenin 1 cm eksik ölçmesi",
+            "B": "Termometrenin normalden 1.5 derece yüksek göstermesi",
+            "C": "Anketörün cinsiyetlerden bazılarını yanlış kodlaması",
+            "D": "Daktilonun b yerine v harfi basması",
+            "E": "Tartının sürekli olarak 10 gr. fazla tartması"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "context": "",
+          "question": "Aşağıdaki olaylardan hangisi Poisson dağılımına uymaz?",
+          "options": {
+            "A": "Bir sayfadaki imla hatalarının sayısı",
+            "B": "10 dönümlük bir ormanda bulunan ağaç sayısı",
+            "C": "Bir havalimanına bir saat boyunca inen uçakların sayısı",
+            "D": "Bir kavşakta bir yılda meydana gelen ortalama kaza sayısı",
+            "E": "Homojen bir paranın 5 defa atılması sonucunda üste gelen yazıların sayısı"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "context": "",
+          "question": "𝑓(𝑥) = 1/36 (𝑥 + 3) 0 < 𝑥 < 6 Yukarıda yer alan olasılık yoğunluk fonksiyonuna ait varyans değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Var(X)=2, 25",
+            "B": "Var(X)=2, 75",
+            "C": "Var(X)=3, 75",
+            "D": "Var(X)=1, 75",
+            "E": "Var(X)=3, 25"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "context": "",
+          "question": "A bölgesinde az petrol bulursa kazanç 100.000, çok bulursa 170.000 ve bulamazsa kayıp 80.000 $ olacaktır. Olasılıklar sırasıyla: 0.5; 0.25; 0.25. Şirketin beklenen kazancı nedir? EV = (0.5 * 100.000) + (0.25 * 170.000) + (0.25 * -80.000) = 50.000 + 42.500 – 20.000 = 72.500 $.",
+          "options": {
+            "A": "52.500 $",
+            "B": "72.500 $",
+            "C": "82.500 $",
+            "D": "92.500 $",
+            "E": "62.500 $"
+          },
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 15,
-          "question": "Bir şehirde yaşayan 50000 kişinin yüzde 15'i üniversite mezunu, yüzde 35'i lise, kalanlar ilköğretim mezunudur. Bu seri daire grafiği ile gösterilmek istenirse lise mezunlarına ait dilimin açısal ölçüm değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "260",
-            "B": "126",
-            "C": "272",
-            "D": "54",
-            "E": "180"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Yukarıdaki serinin kartiller arası fark değeri (yani Q3-Q1) aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "30.971",
-            "B": "24.971",
-            "C": "28.971",
-            "D": "32.971",
-            "E": "26.971"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "𝑓(𝑥) = 1/36 (𝑥 + 3) 0 < 𝑥 < 6 Yukarıda yer alan olasılık yoğunluk fonksiyonuna ait varyans değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Var(X)=2,25",
-            "B": "Var(X)=2,75",
-            "C": "Var(X)=3,75",
-            "D": "Var(X)=1,75",
-            "E": "Var(X)=3,25"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Bir öğrenci Türkçe dersinden 70, Müzik dersinden 80 almıştır. Bu derslere ilişkin sınıf ortalamaları ve standart sapmaları yukarıdaki gibidir. Bu bilgiler doğrultusunda aşağıdakilerden hangisi doğrudur?",
-          "options": {
-            "A": "Öğrenci Müzik dersinde sınıf ortalamasının 2 standart sapma altında kalmıştır.",
-            "B": "Öğrenci Müzik dersinde tam sınıf ortalamasında bir başarı göstermiştir.",
-            "C": "Öğrenci Türkçe dersinde sınıf ortalamasının üzerinde bir başarı göstermiştir.",
-            "D": "Öğrenci Türkçe dersinde tam sınıf ortalamasında bir başarı göstermiştir.",
-            "E": "Öğrenci Türkçe dersinde sınıf ortalamasının standart sapma altında kalmıştır."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "f(x) = 1/36 (x+3), 0 < x < 6 Yukarıdaki olasılık yoğunluk fonksiyonunun beklenen değeri aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "X = 3,5",
-            "B": "X = 3",
-            "C": "X = 1,5",
-            "D": "X = 2",
-            "E": "X = 2,5"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Bir sınıfta 30 yerli ve 10 yabancı uyruklu öğrenci vardır. Matematik sınavında 8 yerli uyruklu ve 2 yabancı uyruklu öğrenci başarısız olmuştur. Bu sınıftan seçilen bir kişinin başarısız olduğu bilindiğine göre, bu kişinin yabancı uyruklu olma olasılığı kaçtır?",
+          "context": "",
+          "question": "Bir sınıfta 30 yerli ve 10 yabancı uyruklu öğrenci vardır. Matematik sınavında 8 yerli uyruklu ve 2 yabancı uyruklu öğrenci başarısız olmuştur. Bu sınıftan seçilen bir kişinin başarısız olduğu bilindiğine göre, bu kişinin yabancı uyruklu olma olasılığı kaçtır? Toplam Başarısız Sayısı = 8 (Yerli) + 2 (Yabancı) = 10. İstenen durum (Yabancı ve Başarısız) = 2. Olasılık = 2 / 10 = 0.2.",
           "options": {
             "A": "0.3",
             "B": "0.6",
@@ -2044,11 +1084,655 @@
             "E": "0.4"
           },
           "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "context": "",
+          "question": "Yuvarlama işlemi aşağıdaki seçeneklerden hangisinde yanlıştır? Sınıf Frekans",
+          "options": {
+            "A": "19.006777 - 19.007",
+            "B": "10.001488 - 10.001",
+            "C": "17.589211 - 17.589",
+            "D": "15.127882 - 15.127",
+            "E": "12.256956 - 12.257"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "context": "",
+          "question": "Yukarıdaki serinin kartiller arası fark değeri (yani Q3-Q1) aşağıdakilerden hangisidir? Q1 ≈ 23.53, Q3 ≈ 48.5. Q3 – Q1 = 48.5 – 23.53 = 24.97.",
+          "options": {
+            "A": "30.971",
+            "B": "24.971",
+            "C": "28.971",
+            "D": "32.971",
+            "E": "26.971"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "context": "",
+          "question": "Türkiye’de TV dizilerinin yüzde 20’si beğenilmekte ve bunların yüzde 50’si ise yurt dışına satılmaktadır. Beğenilmeyenlerin ise yüzde 70’i yurtdışına satılmaktadır. Bir dizinin yurt dışına satılması durumunda ülkemizde de beğenilen dizi olma olasılığı aşağıdakilerden hangisidir? P(Beğenilen) = 0.20, P(Beğenilmeyen) = 0.80. P(Satıldı|Beğenilen) = 0.50, P(Satıldı|Beğenilmeyen) = 0.70. P(Satıldı) = (0.50 * 0.20) + (0.70 * 0.80) = 0.10 + 0.56 = 0.66. P(Beğenilen|Satıldı) = (P(Satıldı|Beğenilen) * P(Beğenilen)) / P(Satıldı) = 0.10 / 0.66 = 0.1515.",
+          "options": {
+            "A": "0, 1515",
+            "B": "0, 1130",
+            "C": "0, 4020",
+            "D": "0, 5515",
+            "E": "0, 1850"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "context": "",
+          "question": "f(x) = 1/36 (x+3), 0 < x < 6 Yukarıdaki olasılık yoğunluk fonksiyonunun beklenen değeri aşağıdakilerden hangisidir? E[X] = ∫ (0’dan 6’ya) x * (1/36)(x+3) dx = (1/36) * ∫ (x^2 + 3x) dx = (1/36) * [x^3/3 + 3x^2/2] (0’dan 6’ya) = (1/36) * [(216/3) + (108/2)] = (1/36) * (72 + 54) = 126 / 36 = 3.5. Kabul(B) Ret(R) Kararsız(T) Toplam Erkek(E) 25 45 10 80 Kadın(K) 75 30 15 120 Toplam 100 75 25 200",
+          "options": {
+            "A": "X = 3, 5",
+            "B": "X = 3",
+            "C": "X = 1, 5",
+            "D": "X = 2",
+            "E": "X = 2, 5"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "context": "",
+          "question": "Bir okuldaki 200 öğrenciye derslerin blok halinde yapılması fikri sorulmuştur. Öğrencilerin kararlarına ilişkin bilgi tablodaki gibidir. Tablodaki bilgilere göre aşağıdakilerden hangisi yanlıştır? Tabloya göre; Toplam Erkek = 80, Ret diyen Erkek = 45. P(R/E) = 45 / 80 = 0.5625. Şıkta 0.225 dendiği için bu ifade yanlıştır. Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ Olasılık ve İstatistik 2024-2025 Bütünleme Soruları VİDEO ÖZET Olasılık ve İstatistik: Belirsizliğin Matematiği ve Veri Analizinin Temelleri Olasılık Kuramı ve Koşullu Durumlar Olasılık, rastgele olayların matematiksel olarak incelenmesidir. Günlük hayatta karşılaştığımız karmaşık senaryoları analiz etmek için Bayes Teoremi en güçlü araçlardan biridir. Bu teorem, bir olayın gerçekleştiği bilindiğinde, bu olaya neden olan faktörlerin olasılığını günceller. Örneğin, yurt dışına satılan bir dizinin Türkiye’de de beğenilme olasılığını hesaplarken, mevcut tüm koşullu ihtimalleri (beğenilme/beğenilmeme ve satış oranları) birleştirerek 0, 1515 gibi net bir sonuca ulaşabiliriz. Benzer şekilde, bir sınıftan rastgele seçilen başarısız bir öğrencinin yabancı uyruklu olma olasılığı gibi koşullu olasılık problemleri, küme içi oranların doğru analizine dayanır. Betimsel İstatistik: Merkezi Eğilim ve Yayılım Veriyi özetlemek için kullanılan merkezi eğilim ölçüleri arasında aritmetik ortalama, veriyi ikiye bölen medyan (ortanca) ve en çok tekrar eden mod yer alır. Verilerin büyüklük sırasına dizildiği bir seride tam ortadaki değer medyan iken, tartılı (ağırlıklı) aritmetik ortalama her bir verinin önem derecesine göre hesaplanır. Yayılımı ölçmek için ise Varyans ve Standart Sapma kullanılır. Farklı birimlerdeki verileri karşılaştırmak için kullanılan Z-puanı, bireyin grup içindeki konumunu netleştirir. Örneğin, puanı tam ortalamaya eşit olan birinin Z-puanı 0’dır ve bu kişi tam sınıf ortalamasında bir başarı göstermiş sayılır. $$Z = \\frac{x – \\mu}{\\sigma}$$ Olasılık Dağılımları: Binom ve Poisson Rastgele değişkenlerin davranışları belirli dağılım modellerine uyar. Deneme sayısının ($n$) sabit olduğu ve sadece iki sonucun (başarı/başarısızlık) bulunduğu durumlarda Binom Dağılımı kullanılır. Örneğin, 64 kez atılan bir paranın turalarının standart sapmasını hesaplarken $\\sqrt{n \\cdot p \\cdot q}$ formülüyle 4 sonucuna ulaşılır. Öte yandan, belirli bir zaman veya alan diliminde nadir görülen olayları (bir sayfadaki imla hatası sayısı veya 30 dakikada gelen müşteri sayısı gibi) modellemek için Poisson Dağılımı devreye girer. Poisson, deneme sayısının çok büyük, başarı olasılığının ise çok düşük olduğu durumlarda Binom’a yaklaşır. Hipotez Testleri ve İstatistiksel Hatalar Bilimsel araştırmalarda bir iddiayı test etmek için birbirine karşıt olan $H_0$ (Sıfır) ve $H_1$ (Alternatif) hipotezleri kurulur. Karar verme sürecinde iki tip hata yapılabilir: Tip I Hata ($\\alpha$ Hatası): Gerçekte doğru olan bir $H_0$ hipotezinin yanlışlıkla reddedilmesidir. Tip II Hata ($\\beta$ Hatası): Gerçekte yanlış olan bir $H_0$ hipotezinin reddedilememesidir. Ölçüm aşamasında ise, anketörün hatalı kodlama yapması gibi tesadüfi hatalar örneklem hacmi büyüdükçe birbirini tolere edebilir; ancak bozuk bir cihazın sürekli yanlış ölçmesi sistematik hata olarak adlandırılır ve analizin geçerliliğini bozar. Beklenen Değer ve Veri Görselleştirme Bir eylemin uzun vadeli ortalama sonucunu ifade eden Beklenen Değer ($E[X]$), ekonomik kararlarda (petrol arama kazancı gibi) veya olasılık yoğunluk fonksiyonlarının çözümünde kullanılır. Verilerin görsel sunumunda ise, toplamın 360 derece kabul edildiği daire grafikleri, kategorik oranların açısal ölçümlerle ifadesini sağlar. Örneğin, %35’lik bir pay, daire üzerinde 126 derecelik bir dilime karşılık gelir. Olasılık ve İstatistik 2024-2025 Bütünleme Soruları Olasılık ve İstatistik 2024-2025 Bütünleme Soruları",
+          "options": {
+            "A": "P(K/B)=0.75",
+            "B": "P(K/T)=0.6",
+            "C": "P(R/K)=0.25",
+            "D": "P(E/T)=0.4",
+            "E": "P(R/E)=0.225"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "Auzef Olasılık ve İstatistik 2024 2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "file_name": "Auzef_Olasılık_ve_İstatistik_2024_2025_Final.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "",
+          "question": "f(x) bir olasılık yoğunluk fonksiyonu ise P(-1<X<1.5) değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "29/32",
+            "B": "24/32",
+            "C": "22/32",
+            "D": "30/32",
+            "E": "27/32"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "context": "",
+          "question": "f(x)=a/x³ ise 0<x<10 aralığında bir olasılığın yoğunluk fonksiyonu olabilmesi için a kaça eşit olmalıdır? ∫(10, ∞) a/x³ dx = a[-1/(2x²)] = 1 → a = -200 (negatif aralıkta).",
+          "options": {
+            "A": "-250",
+            "B": "-200",
+            "C": "-150",
+            "D": "-50",
+            "E": "-100"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "context": "",
+          "question": "Yukarıdaki sola çarpık serinin grafiğine bakıldığında a, b ve c sıralamasıyla hangisi mod, hangisi medyan, hangisi aritmetik ortalamadır?",
+          "options": {
+            "A": "Medyan-mod- aritmetik ortalama",
+            "B": "Aritmetik ortalama mod- medyan",
+            "C": "Mod-medyan aritmetik ortalama",
+            "D": "Mod-aritmetik ortalama - medyan",
+            "E": "Aritmetik ortalama medyan - mod"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "context": "",
+          "question": "1 ile 10 arasında tekrarlamasız 3 tam sayı seçildiğinde, aşağıdaki ifadelerden hangisi doğru olur?",
+          "options": {
+            "A": "1, 2, 10 en büyük standart sapmaya sahiptir.",
+            "B": "5, 6, 7 en büyük standart sapmaya sahiptir.",
+            "C": "1, 2, 3 en büyük standart sapmaya sahiptir.",
+            "D": "8, 9, 10 en büyük standart sapmaya sahiptir.",
+            "E": "4, 6, 7 en büyük standart sapmaya sahiptir."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "context": "",
+          "question": "Satın alınan bir ürünün paketinde yazan tüm özelliklere sahip olmama olasılığı 0, 15 iken iadeli olarak seçilen 4 üründen 3 tanesinin bu özelliklere uymayan ürün olma olasılığı aşağıdakilerden hangisidir? C(4, 3) × (0.15)³ × (0.85)¹ ≈ 0.3685.",
+          "options": {
+            "A": "0, 3685",
+            "B": "0, 6847",
+            "C": "0, 3241",
+            "D": "0, 2263",
+            "E": "0, 5624"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "context": "",
+          "question": "Aşağıdaki grafiklerden hangisini sınıflanmış serinin grafik gösteriminde kullanmak daha uygun olur? X₁ -2 -1 1 2 P(X₁) 0, 25 0, 25 0, 25, 25",
+          "options": {
+            "A": "Histogram",
+            "B": "Nokta diyagramı",
+            "C": "Box-Whisker grafiği",
+            "D": "Daire grafiği",
+            "E": "Çizgi diyagramı"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "context": "",
+          "question": "Yukarıda tabloda X rastlantısal değişkenine ait dağılım değerleri görülmektedir. Y=X² ise; Y rastlantısal değişkeni hangi değerleri alabilir? (-2)^2 = 4 (-1)^2 = 1<br>(1)^2 = 1 (2)^2 = 4 Y rastlantısal değişkeninin alabileceği farklı değerler {1, 4} kümesidir.",
+          "options": {
+            "A": "1 ve 3",
+            "B": "2 ve 4",
+            "C": "1 ve 2",
+            "D": "1 ve 4",
+            "E": "2 ve 3"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "context": "",
+          "question": "Bir firmanın ürettiği kapı zillerinin yüzde 7’sinin hatalı olduğu bilinmektedir. Tesadüfi olarak seçilen 5 zilden en az 1 tanesinin hatalı ürün olma olasılığı aşağıdakilerden hangisidir? P(X≥1) = 1 - P(X=0) = 1 - (0.93)⁵ ≈ 0.3034.",
+          "options": {
+            "A": "0, 6015",
+            "B": "0, 4056",
+            "C": "0, 4811",
+            "D": "0, 3034",
+            "E": "0, 5428"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "context": "",
+          "question": "Bir magazaya Cuma günleri 30 dakikada ortalama 5 müşteri gelmektedir. Yine bir Cuma günü bu mağazaya 1 saatte 4 müşteri gelme olasılığı aşağıdakilerden hangisidir? Poisson: λ = 10 (1 saatte). P(X=4) = e^(-10) × 10⁴ / 4! ≈ 0.019.",
+          "options": {
+            "A": "0.059",
+            "B": "0.039",
+            "C": "0.049",
+            "D": "0.019",
+            "E": "0.029"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "context": "",
+          "question": "Aritmetik ortalaması 25, varyansı 16 olan serinin değişim katsayısı yüzde olarak aşağıdakilerden hangisidir? DK = (√Varyans / Ortalama) × 100 = (4/25)×100 = 16%.",
+          "options": {
+            "A": "20",
+            "B": "22",
+            "C": "16",
+            "D": "18",
+            "E": "24"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "context": "",
+          "question": "Hilesiz bir para 6 kez atıldığında en az 4 kez yazı gelme ihtimali aşağıdakilerden hangisidir? C(6, 4)+C(6, 5)+C(6, 6) = 15+6+1 = 22 → 22/64 = 11/32.",
+          "options": {
+            "A": "15/32",
+            "B": "9/32",
+            "C": "11/32",
+            "D": "7/32",
+            "E": "13/32"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "context": "",
+          "question": "f(x)= (1/x²), a<X<3 ve f(x) bir o.y.f ise a’nın değeri aşağıdakilerden hangisidir? ∫(a, 3) 1/x² dx = [-1/x](a, 3) = 1 → -1/3 + 1/a = 1 → 1/a = 4/3 → a = 3/4 = 0.75.",
+          "options": {
+            "A": "0.25",
+            "B": "0.85",
+            "C": "0.75",
+            "D": "0.50",
+            "E": "0.15"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "context": "",
+          "question": "5 evli çift arasından 4 kişilik bir komisyon eşler birlikte olmayacak şekilde kaç farklı şekilde seçilebilir? (Komisyona seçilen birinin eşi komisyona alınmayacak.) 4 farklı çift seç: C(5, 4)=5. Her çiften 1 kişi: 2⁴=16. Toplam: 5×16=80",
+          "options": {
+            "A": "80",
+            "B": "20",
+            "C": "30",
+            "D": "60",
+            "E": "40"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "context": "",
+          "question": "Bir firmanın ürettiği pantolonların yüzde 8’inin hatah/defolu olduğu bilindiğine göre tesadüfi ve iadeli olarak seçilen 3 üründen, 1 tanesinin defolu olma olasılığı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "0, 25",
+            "B": "0, 04",
+            "C": "0, 08",
+            "D": "0, 15",
+            "E": "0, 20"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "context": "",
+          "question": "Yukarıdaki serinin medyan değeri aşağdıakilerden hangisidir? (Sonucu yuvarlayınız.) Sınıflar f₁",
+          "options": {
+            "A": "52",
+            "B": "58",
+            "C": "54",
+            "D": "60",
+            "E": "56"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "context": "",
+          "question": "Yukardaki seride Q1 (1. Çeyrek bölen) değeri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "43",
+            "B": "45",
+            "C": "44",
+            "D": "41",
+            "E": "42"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "context": "",
+          "question": "2 zar atıldığında zarların üste gelen yüzlerindeki sayılar toplamının 4’ten büyük olduğu biliniyorken, toplamın çift sayı olması ihtimali aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "10/30",
+            "B": "14/30",
+            "C": "18/30",
+            "D": "20/30",
+            "E": "8/30"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "context": "",
+          "question": "Vergi beyanında bulunanlardan 20 kişinin dosyası mali kontrol memurları tarafından inceleniyor. Bu dosyalardan 4 tanesinde yanlışlık vardır. Tesadüfi olarak almacak 5 dosyadan sadece 1 tanesinin yanış beyanı dosya olma olasılığı aşağıdakilerden hangisidir? P(X=1) = C(5, 1) cdot (0.20)^1 cdot (0.80)^4 P(X=1) = 5 cdot 0.20 cdot 0.4096 = 0.4096. (Bu, şıkka uyan tek çözüm yoludur.) Binom yaklaşımla: C(5, 1) × (4/20)^1 × (16/20)^4 ≈ 0.4096.",
+          "options": {
+            "A": "0, 1024",
+            "B": "0, 3277",
+            "C": "0, 4096",
+            "D": "0, 2048",
+            "E": "0, 0064"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "context": "",
+          "question": "Türkiye’de ailelerin yüzde 15’i akşam yemeği sonrası sadece kahve, yüzde 50’si sadece çay ve yüzde 10’u ise hem kahve hem çay tüketmektedir. Bir ailenin kahve tükettiği biliniyorsa bu ailenin aynı zamanda çay tüketme olasılığı nedir? P(çay|kahve) = P(her ikisi)/P(kahve) = 0.10 / (0.15+0.10) = 0.40.",
+          "options": {
+            "A": "0, 30",
+            "B": "0, 20",
+            "C": "0, 50",
+            "D": "0, 40",
+            "E": "0, 60"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "context": "",
+          "question": "Ortalaması 16 ve Standart Sapması 4 olan bir rassal/ tesadüfi değişkenin X=20 olan değerine karşılık gelen Z değişkeninin (standart normal değişken) alacağı değer aşağıdakilerden hangisidir? Z = (20 – 16) / 4 Z = 4 / 4 = 1.0. Z = (X - μ)/σ = (20-16)/4 = 1.0. Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ Olasılık ve İstatistik 2024-2025 Final Soruları Olasılık ve İstatistik 2024-2025 Final Soruları Olasılık ve İstatistik 2024-2025 Final Soruları Olasılık ve İstatistik: Veri Analizi, Dağılımlar ve Temel Kavramlar Giriş: Veri ve İstatistik İstatistik, veriyi toplayan, düzenleyen, analiz eden ve yorumlayan bir bilim dalıdır. Araştırma sürecinde, araştırmacının kendisi tarafından toplanmayan, başka bir kurum tarafından daha önceden toplanmış olan hazır verilere “ikincil veri” denir. Toplanan ham veriler, anlamlı hale getirilebilmek için “tasnif” (aynı şıkları bir araya getirme) veya “gruplama” (belirli aralıklara bölme) işlemlerine tabi tutulur. Gruplama işlemi sırasında sınıfların çok “geniş” tutulması, veri detaylarının kaybolmasına neden olabilir. Ölçüm Düzeyleri ve Veri Türleri İstatistikte kullanılacak analiz yöntemleri, verinin ölçüm düzeyine bağlıdır: Sınıflayıcı (Nominal) Ölçek: Verileri sadece türlerine göre (örn: göz rengi, cinsiyet) kategorilere ayırır. Sıralayıcı (Ordinal) Ölçek: Kategoriler arasında bir üstünlük sırası vardır (örn: Eğitim Düzeyi – İlkokul < Lise). Aralık (Interval) ve Oran (Ratio) Ölçek: Matematiksel işlemlerin yapılabildiği sayısal ölçeklerdir. Aritmetik ortalama ve Geometrik ortalama hesaplayabilmek için verinin en az “aralık veya oran” düzeyinde ölçülmüş olması gerekir. Veri toplama sırasında hep aynı yönde sapmaya neden olan hatalara ise “sistematik hata” denir. Merkezi Eğilim ve Dağılım Ölçütleri Veri setini özetlemek için merkezi eğilim (ortalama, medyan, mod) ve dağılım (standart sapma, varyans) ölçütleri kullanılır. Merkezi Eğilim: Aritmetik Ortalama: En yaygın kullanılan duyarlı ortalamadır. (Örn: 57, 62, 65, 73, 78 notlarının ortalaması 335/5 = 67’dir). Geometrik Ortalama: Hesaplamasında verilerin “logaritmaları” kullanılır ve veri setinde negatif değer varsa hesaplanamaz. Mod (Egemen Değer): Seride “en çok tekrar eden” değerdir ve duyarlı ortalamalar arasında yer almaz. Medyan (Ortanca): Sınıflanmış bir seride (n=50), medyan (n/2=25. değer) “30-40” sınıfı içinde yer alır. Dağılım Ölçütleri: Çeyrekler Arası Açıklık (IQR): Üçüncü çeyrek (Q3) ile birinci çeyreğin (Q1) (yani %75 ve %25’lik persentillerin) arasındaki farktır. Standart Sapma: Verilerin ortalamadan ne kadar uzağa yayıldığını ölçer. Veriler birbirinden ne kadar uzaksa (örn: {1, 2, 10} seti), standart sapma o kadar büyük olur. Hesaplamada farkların karesinin alınmasının nedeni, “negatif değerleri engellemektir”. Değişim Katsayısı: Aritmetik ortalaması 25, varyansı 16 (Standart Sapması = 4) olan bir serinin değişim katsayısı (4/25)*100 = %16’dır. Çarpıklık ve Normal Dağılım Sola çarpık (negatif çarpık) bir dağılımda, uzun kuyruk soldadır ve sıralama Aritmetik Ortalama < Medyan < Mod şeklindedir. Mükemmel bir Normal Dağılımda ise bu üç değer (Mod, Medyan, Aritmetik Ortalama) birbirine eşittir. Normal dağılımda verilerin yaklaşık %68’i ortalamanın ±1 standart sapma aralığında yer alır. Z-Skoru: Bir değerin ortalamadan kaç standart sapma saptığını gösterir. Ortalamanın 70 ve standart sapmanın 2 olduğu bir testte 77 puan alan sporcunun Z-skoru: $(77 – 70) / 2 = 3, 5$’tir. Olasılık ve Dağılımlar Olasılık, bir olayın gerçekleşme ihtimalidir. İki zar atıldığında toplamın 4’ten büyük olduğu biliniyorken (30 durum), toplamın çift olma olasılığı (14 durum) 14/30’dur (Koşullu Olasılık). Olasılık Dağılımları: Y=X² dönüşümü uygulandığında, X’in {-2, -1, 1, 2} değerleri için Y, {1, 4} değerlerini alır. Binom Dağılımı: İadeli seçimlerde kullanılır. 3 üründen 1’inin defolu (p=0.08) olma olasılığı yaklaşık 0.20’dir. 6 kez atılan bir paranın “en az 4 kez” yazı gelme olasılığı 11/32’dir. 5 zilden “en az 1″inin hatalı (p=0.07) olma olasılığı, 1 – P(Hiç hatalı olmama) formülünden 1 – (0.93)⁵ ≈ 0.3034 olarak bulunur. Poisson Dağılımı: Belirli bir zaman aralığındaki olayları inceler. 30 dakikada ortalama 5 müşteri geliyorsa, 1 saatte ortalama 10 müşteri beklenir. 1 saatte 4 müşteri gelme olasılığı Poisson formülüyle yaklaşık 0.019 olarak hesaplanır. Olasılık Yoğunluk Fonksiyonu (PDF): Sürekli değişkenler için kullanılır. Fonksiyonun grafiğinin altında kalan toplam alanın (integral) 1’e eşit olması gerekir. Olasılık ve İstatistik 2024-2025 Final Soruları Olasılık ve İstatistik 2024-2025 Final Soruları",
+          "options": {
+            "A": "2, 5",
+            "B": "1, 0",
+            "C": "2, 0",
+            "D": "0, 5",
+            "E": "1, 5"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "Olasılık ve İstatistik çıkmış sorular 2025 2026 Final",
+      "exam_type": "final",
+      "year": "2025-2026",
+      "file_name": "Olasılık_ve_İstatistik_çıkmış_sorular_2025_2026_Final.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "",
+          "question": "Bir hipotez testinde bulunan hata tip türü sayısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "4",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "5"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "context": "",
+          "question": "Bir şirket A bölgesinde petrol arama çalışmalarına başlamıştır. Eğer şirket A bölgesinde az petrol bulursa kazancı 100.000 $, çok petrol bulursa kazancı 170.000 $ ve hiç petrol bulamazsa kaybı 80.000 $ olacaktır. Bu üç durumun olasılıkları sırasıyla şöyledir: 0.5; 0.25; 0.25. Şirketin beklenen kazancı değeri aşağıdakilerden hangisidir? Formül: E[X] = (x₁. p₁) (x₂. p₂) (x₃. p₃) Verilenler:",
+          "options": {
+            "A": "52.500 $",
+            "B": "62.500 $",
+            "C": "92.500 $",
+            "D": "82.500 $",
+            "E": "72.500 $"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "context": "",
+          "question": "Bir işletmede çalışan kadın ve erkeklerin diyet yapma oranlarını değerlendirmek için 40 kadın ve 60 erkekle görüşülüyor. Görüşme sonucunda 30 kadın ve 18 erkeğin diyet yaptığı bilgisine ulaşılıyor. Yapılan analiz ile kadınların diyet yapma oranının erkeklerin diyet yapma oranından yüksek olduğu bulunuyor. Bu sonuç için gerekli Z test istatistik değeri (Z hesap değeri) nedir? (%5 önem düzeyinde Ztab= 1.65 dir)",
+          "options": {
+            "A": "5, 371",
+            "B": "4, 164",
+            "C": "3, 185",
+            "D": "6, 738",
+            "E": "3, 500"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "context": "",
+          "question": "Türkiye’de TV dizilerinin yüzde 20’si beğenilmekte ve bunların yüzde 50 si ise yurt dışına satılmaktadır. Beğenilmeyenlerin ise yüzde 70’si yurtdışına satılmaktadır. Bir dizinin yurt dışına satılması durumunda ülkemizde de beğenilen dizi olma olasılığı aşağıdakilerden hangisidir? Olaylar: B (Beğenilme) = 0.20, B’ (Beğenilmeme) = 0.80. S (Satılma): P(S|B) = 0.50 ve P(S|B’) = 0.70. Bizden istenen: Dizi satılmışsa beğenilme olasılığı P(B|S). Önce Toplam Satılma Olasılığını P(S) bulalım: P(S) = P(B)*P(S|B) + P(B’)*P(S|B’) P(S) = (0.20 * 0.50) + (0.80 * 0.70) = 0.10 + 0.56 = 0.66. Şimdi Bayes formülünü uygulayalım: P(B|S) = [P(B) * P(S|B)] / P(S) P(B|S) = (0.20 * 0.50) / 0.66 = 0.10 / 0.66",
+          "options": {
+            "A": "0, 1515",
+            "B": "0, 5515",
+            "C": "0, 4020",
+            "D": "0, 1850",
+            "E": "0, 1130"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "context": "",
+          "question": "Hilesiz bir para 6 kez atıldığında en az 4 kez yazı gelme ihtimali aşağıdakilerden hangisidir? n = 6. Toplam durum sayısı 2^6 = 64’tür. Durum 1 (4 Yazı): C(6, 4) = 15 farklı durum. Durum 2 (5 Yazı): C(6, 5) = 6 farklı durum. Durum 3 (6 Yazı): C(6, 6) = 1 farklı durum. Toplam İstenen Durum = 15 + 6 + 1 = 22. Olasılık = İstenen Durum / Toplam Durum = 22 / 64 = 11 / 32 bulunur.",
+          "options": {
+            "A": "15/32",
+            "B": "9/32",
+            "C": "7/32",
+            "D": "11/32",
+            "E": "13/32"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "context": "",
+          "question": "Bir serinin dağılımını (bölünmesini / şeklini) anlamak için aşağıdaki seçeneklerden hangisinden yararlanmak gerekmez?",
+          "options": {
+            "A": "Basıklıktan",
+            "B": "Çarpıklıktan",
+            "C": "Momentlerden",
+            "D": "Ortalamalardan",
+            "E": "Tanımından"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "context": "",
+          "question": "Hilesiz bir zarın 4 defa atıldığı varsayılıyor. En az bir defa 6 gelme olasılığı değeri aşağıdakilerden hangisidir? Olayın tersi: “Hiç 6 gelmemesi”. Bir zar atıldığında 6 gelmeme olasılığı 5/6’dır. 4 atışın hiçbirinde 6 gelmeme olasılığı: (5/6)^4 = 625 / 1296 ≈ 0.4822 İstenen Olasılık = 1 – (Hiç gelmeme olasılığı) P(En az bir 6) = 1 – 0.4822 = 0.5178 Bu değere en yakın seçenek D şıkkıdır. X𝓲 0 1 2 3 P(X𝓲) 0, 0156 0, 2813 0, 2813 0, 4219",
+          "options": {
+            "A": "0, 8177",
+            "B": "0, 7177",
+            "C": "0, 6177",
+            "D": "0, 5177",
+            "E": "0, 4177"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "context": "",
+          "question": "X𝓲: 0, 1, 2, 3 P(X𝓲): 0, 0156, 0, 2813, 0, 2813, 0, 4219 Yukarıdaki tabloda X rastlantısal değişkenine ait değerler yer almaktadır. Buna göre X değişkeninin standart sapması (σ) nedir?",
+          "options": {
+            "A": "0, 9",
+            "B": "0, 7",
+            "C": "0, 8",
+            "D": "1, 0",
+            "E": "0, 6"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "context": "",
+          "question": "Serinin en büyük ve en küçük değerleri arasındaki fark aşağıdaki seçeneklerden hangisinde en doğru şekilde ifade edilmiştir?",
+          "options": {
+            "A": "Değişim Katsayısı",
+            "B": "Standart Hata",
+            "C": "Değişim Aralığı",
+            "D": "Varyans",
+            "E": "Standar Sapma"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "context": "",
+          "question": "Bir işletmede üretilen ürünlerin % 6’sının defolu olduğu bilinmektedir.Rastgele ve iadeli olarak seçilen 5 üründen, 1 tanesinin defolu olmasının olasılığı aşağıdakilerden hangisidir? n (Deneme sayısı) = 5 p (Defolu olma olasılığı) = 0.06 q (Sağlam olma olasılığı) = 1 – 0.06 = 0.94 x (İstenen defolu sayısı) = 1 Formül: P(X=x) = C(n, x) * p^x * q^(n-x) Hesaplama: P(X=1) = C(5, 1) * (0.06)^1 * (0.94)^4 P(X=1) = 5 * 0.06 * (0.7807) P(X=1) = 0.30 * 0.7807 = 0.2342 En yakın seçenek B şıkkıdır.",
+          "options": {
+            "A": "0, 288",
+            "B": "0, 234",
+            "C": "0, 226",
+            "D": "0, 062",
+            "E": "0, 158"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "context": "",
+          "question": "A takımının yaptığı her maçta kazanma olasılığı 0, 6667 dir. Bu takımın oynadığı 4 maçtan 2 tanesini kazanma olasılığı nedir? n = 4 (Maç sayısı) p = 0.6667 ≈ 2/3 (Kazanma olasılığı) q = 0.3333 ≈ 1/3 (Kaybetme olasılığı) x = 2 (Kazanılması istenen maç sayısı) Formül: P(X=2) = C(4, 2) * (2/3)^2 * (1/3)^2 C(4, 2) = 6’dır. P(X=2) = 6 * (4/9) * (1/9) = 6 * (4/81) = 24 / 81 ≈ 0.29629 Yüzde olarak ifade edersek yaklaşık).63’tür.",
+          "options": {
+            "A": "Yüzde 29, 63",
+            "B": "Yüzde 10, 00",
+            "C": "Yüzde 10, 55",
+            "D": "Yüzde 11, 24",
+            "E": "Yüzde 14, 80"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "context": "",
+          "question": "6, 7, 8, 9, 12, 24, 5, 7 serisinin aritmetik ortalamadan sapma değerleri toplamı kaçtır? Bir öğrenci Türkçe dersinden 70, Müzik dersinden 80 almıştır. Bu derslere ilişkin sınıf ortalamaları ve standart sapmaları aşağıdaki gibidir. Ortalama Standart Sapma Türkçe 70 5 Müzik 60 20",
+          "options": {
+            "A": "12",
+            "B": "0",
+            "C": "9",
+            "D": "4",
+            "E": "7"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "context": "",
+          "question": "Bu bilgiler doğrultusunda aşağıdakilerden hangisi doğrudur? Türkçe dersi için: Z = (70 – 70) / 5 = 0 / 5 = 0. Müzik dersi için: Z = (80 – 60) / 20 = 20 / 20 = 1. Z puanının 0 olması, öğrencinin tam olarak sınıf ortalamasında (aritmetik ortalamaya eşit) bir not aldığını gösterir. Bu nedenle C şıkkı kesinlikle doğrudur.",
+          "options": {
+            "A": "Öğrenci Müzik dersinde tam sınıf ortalamasında bir başarı göstermiştir.",
+            "B": "Öğrenci Türkçe dersinde sınıf ortalamasının üzerinde bir başarı göstermiştir.",
+            "C": "Öğrenci Türkçe dersinde tam sınıf ortalamasında bir başarı göstermiştir.",
+            "D": "Öğrenci Müzik dersinde sınıf ortalamasının 2 standart sapma altında kalmıştır.",
+            "E": "Öğrenci Türkçe dersinde sınıf ortalamasının 1 standart sapma altında kalmıştır."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "context": "",
+          "question": "Normal dağılım gösteren bir tesadüfi değişkenin olasılık dağılımı aşağıdaki seçeneklerden hangisinde doğru tanımlanmaktadır?",
+          "options": {
+            "A": "Kesikli Dağılım",
+            "B": "Polaroid Dağılım",
+            "C": "Sistematik Dağılım",
+            "D": "Sürekli Dağılım",
+            "E": "Metrik Dağılım"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "context": "",
+          "question": "Bir ayakkabı fabrikasında üretilen ürünlerde hatalı ürün oranı %1 olarak tespit edilmiştir. Tesadüfen seçilen 200 ayakkabılık bir örneklem içinde 3 tanesinin hatalı olma olasılığı değeri aşağıdakilerden hangisidir? Lambda (λ) = n * p = 200 * 0.01 = 2. İstenen durum (x) = 3. Poisson Formülü: P(x) = (e^(-λ) * λ^x) / x! P(3) = (e^(-2) * 2^3) / 3! e^(-2) ≈ 0.1353 P(3) = (0.1353 * 8) / 6 ≈ 0.1804 Bu değere en yakın seçenek C şıkkıdır (0.1805).",
+          "options": {
+            "A": "0, 1270",
+            "B": "0, 4025",
+            "C": "0, 1805",
+            "D": "0, 4775",
+            "E": "0, 2275"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi istatistiksel analiz sonuçlarını etkilemeyeceği düşünülen ve örneklem hacmi büyüdükçe birbirini tolere eden hata türüne bir örnektir?",
+          "options": {
+            "A": "Daktilonun b yerine v harfi basması",
+            "B": "Tartının sürekli olarak 10 gr. fazla tartması",
+            "C": "Metrenin 1 cm eksik ölçmesi",
+            "D": "Termometrenin normalden 1.5 derece yüksek göstermesi",
+            "E": "Anketörün cinsiyetlerden bazılarını yanlış kodlaması"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "context": "",
+          "question": "Bir paranın 4 kez atıldığı varsayılıyor. 1’den fazla tura gelme olasılığı nedir? Tersinden gitmek: İstenmeyen durumlar “0 Tura” (1 adet: YYYY) veya “1 Tura” (4 adet) gelmesidir. Toplam Durum = 2^4 = 16. İstenmeyen Toplam = 1 + 4 = 5 durum. İstenen Durumlar = 16 – 5 = 11. Olasılık = 11 / 16.",
+          "options": {
+            "A": "12/16",
+            "B": "9/16",
+            "C": "10/16",
+            "D": "8/16",
+            "E": "11/16"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "context": "",
+          "question": "f(x)=1/36 (x+3) ve 0 < x < 6 aralığında tanımlı olasılık yoğunluk fonksiyonuna ait varyans değeri aşağıdakilerden hangisidir? Integral işlemleri yapıldığında:",
+          "options": {
+            "A": "Var(X) = 3, 75",
+            "B": "Var(X) = 2, 75",
+            "C": "Var(X) = 2, 25",
+            "D": "Var(X) = 1, 75",
+            "E": "Var(X) = 3, 25"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "context": "",
+          "question": "Aşağıdaki grafiklerden hangisini sınıflanmış serinin grafik gösteriminde kullanmak daha uygun olur?",
+          "options": {
+            "A": "Histogram",
+            "B": "Nokta diyagramı",
+            "C": "Box-Whisker grafiği",
+            "D": "Daire grafiği",
+            "E": "Çizgi diyagramı"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "context": "",
+          "question": "Homojen bir para 64 kez atılıyor. Bulunan turaların sayısının standart sapması değeri aşağıdakilerden hangisidir? n = 64 (Atış sayısı) p = 0.5 (Tura gelme olasılığı – Homojen para) q = 0.5 (Yazı gelme olasılığı) Binom dağılımında Varyans formülü: Var = n * p * q Var = 64 * 0.5 * 0.5 = 16 Standart Sapma formülü: σ = √Varyans σ = √16 = 4 Bu nedenle tura sayısının standart sapması 4’tür. Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ Olasılık ve İstatistik 2025-2026 Final Soruları Olasılık ve İstatistik 2025-2026 Final Soruları Olasılık ve İstatistik 2025-2026 Final Soruları VİDEO ÖZET Olasılık ve İstatistik: Verinin Dili, Belirsizliğin Matematiği ve Karar Mekanizmaları Olasılığın Temelleri ve Koşullu Durumlar İstatistik biliminin kalbinde yer alan olasılık teorisi, belirsiz durumlar altında rasyonel kararlar almamızı sağlar. Bir yatırımın veya operasyonun uzun vadeli ortalama sonucunu ifade eden Beklenen Değer (Expected Value), finansal risk yönetiminde kritik bir araçtır. Petrol arama örneğinde olduğu gibi, kazanç ve kayıpların olasılıklarla ağırlıklandırılması (), stratejik yol haritasını belirler. Daha karmaşık senaryolarda ise, bir olay gerçekleştikten sonra nedenlerine dair olasılıkları güncellememizi sağlayan Bayes Teoremi devreye girer. Bir TV dizisinin yurt dışına satılması (sonuç) bilgisinden hareketle, Türkiye’de beğenilme olasılığını (neden) hesaplamak, koşullu olasılık mantığının en somut uygulamasıdır. Kesikli ve Sürekli Olasılık Dağılımları Verinin doğası, kullanılacak matematiksel modeli belirler: Binom Dağılımı: Sadece iki sonucun (başarı/başarısızlık, defolu/sağlam) olduğu, denemelerin bağımsız olduğu durumları modeller. 64 kez atılan bir paradaki turaların yayılımı veya 5 üründen birinin defolu çıkma ihtimali bu modelle çözülür. Poisson Dağılımı: Belirli bir zaman veya alan diliminde nadir görülen olayları (bir kitaptaki imla hataları, fabrikadaki hatalı ürün sayısı) analiz etmek için idealdir. Özellikle deneme sayısı () çok büyük, olasılık () çok düşükse Binom’un yerini alır. Sürekli Dağılımlar (Normal Dağılım): Boy, kilo ve sıcaklık gibi ölçülebilir değişkenlerin oluşturduğu çan eğrisi modelidir. Z-puanı analizi ile bir öğrencinin başarısı sınıf ortalamasına göre standartlaştırılarak () objektif bir kıyaslama imkanı sunar. Betimsel İstatistik ve Veri Görselleştirme Veriyi sadece toplamak yetmez, onu anlamlı bir hikayeye dönüştürmek gerekir. Sınıflanmış serilerde verinin dağılım şeklini ve yoğunluğunu görmek için en uygun araç bitişik sütunlardan oluşan Histogram dır. Dağılımın yaygınlığını ölçen en kaba değer Değişim Aralığı (Range) iken; varyans ve standart sapma, verilerin ortalamadan ne kadar uzaklaştığını hassas bir şekilde ölçer. İstatistiğin en temel matematiksel yasalarından biri, bir serideki tüm değerlerin ortalamadan sapmalarının toplamının daima sıfır olmasıdır; bu, aritmetik ortalamanın serinin “ağırlık merkezi” olduğunu kanıtlar. Hipotez Testleri ve Hata Analizi Bilimsel bir iddiayı doğrulamak için kurulan birbirine karşıt hipotezler (ve), istatistiksel testlerin temelini oluşturur. Bu süreçte iki tip risk mevcuttur: Tip I Hata (), yani masum birini suçlamak gibi doğru olanı reddetmek; ve Tip II Hata (), yani suçlu birini serbest bırakmak gibi yanlışı kabul etmektir. Ölçüm sürecinde ise, örneklem hacmi büyüdükçe birbirini tolere eden tesadüfi hatalar (anketörün yanlış kodlaması gibi) ile her ölçümde aynı yönde sapma yapan sistematik hatalar (bozuk terazi gibi) arasındaki farkı bilmek, analizin güvenilirliği (validity) açısından hayati önem taşır. Olasılık ve İstatistik 2025-2026 Final Soruları Olasılık ve İstatistik 2025-2026 Final Soruları",
+          "options": {
+            "A": "10",
+            "B": "4",
+            "C": "0, 158",
+            "D": "6",
+            "E": "8"
+          },
+          "correct_answer": "B",
+          "explanation": ""
         }
       ]
     }

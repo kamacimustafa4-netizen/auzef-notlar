@@ -339,7 +339,7 @@
           "id": 20,
           "question": "Bazı web tarayıcıları HTML dosya tipini otomatik olarak algılayabilirken bazılarında bu özellik mevcut değildir. Bu nedenle uyumsuzluk sorunu oluşmaması adına aşağıdaki etiketlerden hangisi dosya başına eklenmelidir?",
           "options": {
-            "A": "<HTML !DOCTYPE>",
+            "A": "<HTML!DOCTYPE>",
             "B": "<meta>",
             "C": "<!DOCTYPE HTML >",
             "D": "<head>",
@@ -484,7 +484,7 @@
         },
         {
           "id": 8,
-          "question": "Aşağıdakilerden hangisi günümüz web tarayıcıları arasında yer almaz ?",
+          "question": "Aşağıdakilerden hangisi günümüz web tarayıcıları arasında yer almaz?",
           "options": {
             "A": "Chrome",
             "B": "NeXTStep",
@@ -501,7 +501,7 @@
         },
         {
           "id": 9,
-          "question": "Aşağıdakilerden hangisi biçimlendirme-işaretleme dilleri arasında yer almaz ?",
+          "question": "Aşağıdakilerden hangisi biçimlendirme-işaretleme dilleri arasında yer almaz?",
           "options": {
             "A": "HTML",
             "B": "LaTeX",
@@ -637,7 +637,7 @@
         },
         {
           "id": 17,
-          "question": "İÜ AUZEF Web Tasarımı dersi için hazırlanan ders kitabında verilen açıklamalar doğrultusunda aşağıdaki ifadelerden hangisi yanlıştır ?",
+          "question": "İÜ AUZEF Web Tasarımı dersi için hazırlanan ders kitabında verilen açıklamalar doğrultusunda aşağıdaki ifadelerden hangisi yanlıştır?",
           "options": {
             "A": "Aynı web sayfalarına erişim için istekte bulunan kullanıcıların oluşturacağı trafiği düzenlemek üzere dosya paylaşım sunucuları kullanılır.",
             "B": "Bilgisayar ağları kavramı üzerine çalışmalar sonucunda geliştirilen tanımlar ilk kez ARPANET başlığı ile yayınlanmıştır.",
@@ -692,7 +692,7 @@
           "options": {
             "A": "<meta>",
             "B": "<head>",
-            "C": "<HTML !DOCTYPE>",
+            "C": "<HTML!DOCTYPE>",
             "D": "<!DOCTYPE HTML>",
             "E": "<DOCTYPE HTM>"
           },
@@ -736,7 +736,7 @@
           "question": "Bazı web tarayıcıları HTML dosya tipini otomatik olarak algılayabilirken bazılarında bu özellik mevcut değildir. Bu nedenle uyumsuzluk sorunu oluşmaması adına aşağıdaki etiketlerden hangisi dosya başına eklenmelidir?",
           "options": {
             "A": "<DOCTYPE HTM>",
-            "B": "<HTML !DOCTYPE&g",
+            "B": "<HTML!DOCTYPE&g",
             "C": "<!DOCTYPE HTML >",
             "D": "<head>",
             "E": "<meta>"
@@ -1375,10 +1375,10 @@
           "id": 18,
           "question": "\"………………\" şeklindeki seçici yapısının amacı …………….. etiketlerinin biçimlendirilmesine ilişkin tanımlamaları gerçekleştirmektir. Yukarıdaki ifadede boş bırakılan yerlere sırasıyla gelmesi gerekenler hangi şıkta doğru verilmiştir?",
           "options": {
-            "A": ".menu a {} - <a> - .menu a {}",
-            "B": "<a> - .menu {} - .menu a {}",
-            "C": ".menu a {} - .menu {} - <a>",
-            "D": ".menu {} - .menu a {} - <a>",
+            "A": ".menu a {} - <a> -.menu a {}",
+            "B": "<a> -.menu {} -.menu a {}",
+            "C": ".menu a {} -.menu {} - <a>",
+            "D": ".menu {} -.menu a {} - <a>",
             "E": ""
           },
           "correct_answer": "C",

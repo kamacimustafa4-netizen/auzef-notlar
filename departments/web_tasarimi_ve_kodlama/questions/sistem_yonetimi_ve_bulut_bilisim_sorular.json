@@ -254,7 +254,7 @@
           "id": 15,
           "question": "Aşağıdakilerden hangisi bulutta uygulama dağıtım yöntemlerinden biri değildir?",
           "options": {
-            "A": "Fiziksel sunucular B ) Konteynerler",
+            "A": "Fiziksel sunucular B) Konteynerler",
             "B": "",
             "C": "Hibrit bulut",
             "D": "Sanal makineler",
@@ -1520,7 +1520,7 @@
         },
         {
           "id": 5,
-          "question": "ReceiveMessageRequest ReceiveMessageReque st = yeni ReceiveMessageRequest(); ReceiveMessageRequest.QueueUrl = myQueueU rl; ReceiveMessageResponse ReceiveMessageResp onse = sqs.ReceiveMessage(receiveMessageRequest) ; Yukarıdaki kod SQS yoluyla hangi işlemi yerine getirir?",
+          "question": "ReceiveMessageRequest ReceiveMessageReque st = yeni ReceiveMessageRequest(); ReceiveMessageRequest.QueueUrl = myQueueU rl; ReceiveMessageResponse ReceiveMessageResp onse = sqs.ReceiveMessage(receiveMessageRequest); Yukarıdaki kod SQS yoluyla hangi işlemi yerine getirir?",
           "options": {
             "A": "Mesaj siler.",
             "B": "Kuyruk oluşturur.",

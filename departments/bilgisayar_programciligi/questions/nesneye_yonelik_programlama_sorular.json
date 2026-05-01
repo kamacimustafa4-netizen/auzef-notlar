@@ -750,7 +750,7 @@
         },
         {
           "id": 3,
-          "question": "int kontrol = 13; int sonuc = kontrol > 18 & kontrol <= 13 ? kontrol << 2 :0 ; Yukarda verilen işlemler uygulandığında son değeri kaç olur?",
+          "question": "int kontrol = 13; int sonuc = kontrol > 18 & kontrol <= 13? kontrol << 2:0; Yukarda verilen işlemler uygulandığında son değeri kaç olur?",
           "options": {
             "A": "52",
             "B": "0",

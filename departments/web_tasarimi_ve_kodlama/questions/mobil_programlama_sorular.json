@@ -676,7 +676,7 @@
         },
         {
           "id": 17,
-          "question": "https : // pub. dev internet adresi aşağıdaki tanımlardan hangisi için hizmet vermektedir?",
+          "question": "https: // pub. dev internet adresi aşağıdaki tanımlardan hangisi için hizmet vermektedir?",
           "options": {
             "A": "Android ve iOS işletim sistemlerinin özelliklerinin anlatıldığı yer",
             "B": "Flutter ve Dart için açık kaynak kütüphanelerin paylaşıldığı yer",
@@ -1627,7 +1627,7 @@
         },
         {
           "id": 12,
-          "question": "Dart programlama dilinde bir değişken tanımlamasının alt çizgi ( _ ) ile başlaması ne anlama gelmektedir?",
+          "question": "Dart programlama dilinde bir değişken tanımlamasının alt çizgi (_) ile başlaması ne anlama gelmektedir?",
           "options": {
             "A": "Değişkenin public olarak tanımlandığını belirtir. Sınıfın dışından erişilebilir.",
             "B": "Değişkenin object olarak tanımlandığını belirtir. Her türden veriyi saklayabilir.",
@@ -1697,10 +1697,10 @@
           "id": 16,
           "question": "Floor kütüphanesini kullanarak yukarıdaki gibi bir sorgu yazmak istenirse aşağıdakilerden hangisi kullanılmalıdır?",
           "options": {
-            "A": "@Sql('SELECT * FROM Person WHERE id = ?')",
-            "B": "@Sql('SELECT * FROM Person WHERE $id=$ :id')",
-            "C": "@Query('SELECT * FROM Person WHERE id = :id')",
-            "D": "@Query('SELECT * FROM Person WHERE id = ?')",
+            "A": "@Sql('SELECT * FROM Person WHERE id =?')",
+            "B": "@Sql('SELECT * FROM Person WHERE $id=$:id')",
+            "C": "@Query('SELECT * FROM Person WHERE id =:id')",
+            "D": "@Query('SELECT * FROM Person WHERE id =?')",
             "E": "@RawQuery('SELECT * FROM Person WHERE id = 2')"
           },
           "correct_answer": "C",
@@ -2448,7 +2448,7 @@
         },
         {
           "id": 19,
-          "question": "dependencies :url_launcher: '> 5.4.0 <6.0.0' pubspec.yaml dosyası içerisinde yukarıdaki gibi bir satır varsa bu paket projeye nasıl dahil olacaktır?",
+          "question": "dependencies:url_launcher: '> 5.4.0 <6.0.0' pubspec.yaml dosyası içerisinde yukarıdaki gibi bir satır varsa bu paket projeye nasıl dahil olacaktır?",
           "options": {
             "A": "url_launcher'a bağımlı olan başka paketlerde bağımlılıklar 6.0.0'a yükseltilecektir.",
             "B": "url_launcher'a olan bağımlılıklar 5.4.0 ila 6.0.0 arasındaki bir sürümü kullanacaktır.",

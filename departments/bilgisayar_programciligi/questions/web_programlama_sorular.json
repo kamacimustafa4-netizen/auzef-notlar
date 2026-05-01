@@ -88,7 +88,7 @@
             "B": "gettype($sayi, null);",
             "C": "settype($sayi);",
             "D": "settype($sayi, integer);",
-            "E": "gettype( sayi,object);"
+            "E": "gettype(sayi,object);"
           },
           "correct_answer": "",
           "explanation": "",
@@ -384,11 +384,11 @@
           "id": 15,
           "question": "Resimler klasörü içindeki bg.png dosyasını HTML sayfanın arka planı olarak ayarlamak için yazılacak kod satırı hangisidir?",
           "options": {
-            "A": "<html background=\"resimler/bg.png\"> ... </html>",
-            "B": "<body background=\"resimler/bg.png\"> ... </body>",
-            "C": "<head background=\"resimler/bg.png\"> ... </head>",
-            "D": "<body background-image=\"bg/resimler.png\"> ... </body>",
-            "E": "<body bgimage=\"resimler/bg.png\"> ... </body>"
+            "A": "<html background=\"resimler/bg.png\">... </html>",
+            "B": "<body background=\"resimler/bg.png\">... </body>",
+            "C": "<head background=\"resimler/bg.png\">... </head>",
+            "D": "<body background-image=\"bg/resimler.png\">... </body>",
+            "E": "<body bgimage=\"resimler/bg.png\">... </body>"
           },
           "correct_answer": "B",
           "explanation": "",
@@ -710,7 +710,7 @@
         },
         {
           "id": 11,
-          "question": "Web sayfasında : karakterleri yazılırsa ekranda ne görülür?",
+          "question": "Web sayfasında: karakterleri yazılırsa ekranda ne görülür?",
           "options": {
             "A": "Bir karakter boşluk verir",
             "B": "verir yaklaşımı",
@@ -1876,7 +1876,7 @@
         },
         {
           "id": 11,
-          "question": "PHP'de bir \"for\" döngüsünde başlangıç, koşul ve değişim (artış /azalış) hangi sırayla yazılmaktadır ?",
+          "question": "PHP'de bir \"for\" döngüsünde başlangıç, koşul ve değişim (artış /azalış) hangi sırayla yazılmaktadır?",
           "options": {
             "A": "Başlangıç, koşul, değişim",
             "B": "Koşul, değişim, başlangıç",
@@ -1896,7 +1896,7 @@
           "question": "Kullanıcıyı tanımlamak için bir çerez kullanılır. I. Çerez, web uygulamaları tarafından kullanıcının bilgisayarına kaydedilen bir dosyadır. II. Çerezler web uygulamalarının performansını artırmak için kullanılır. III. PHP'de çerezler oluşturabiliriz ve ayrıca çerezlerden veri alabiliriz. IV. PHP'de çerezler ile ilgili yukarıda verilen ifadelerden hangileri doğrudur?",
           "options": {
             "A": "III ve IV",
-            "B": "I ,II ve III",
+            "B": "I,II ve III",
             "C": "II ve III",
             "D": "I ve II",
             "E": "I ve III"
@@ -2029,7 +2029,7 @@
         },
         {
           "id": 20,
-          "question": "Bir form gönderildiğinde verilerin URL üzerinde görünmesini istemiyorsanız hangi yöntem kullanmalıdır ?",
+          "question": "Bir form gönderildiğinde verilerin URL üzerinde görünmesini istemiyorsanız hangi yöntem kullanmalıdır?",
           "options": {
             "A": "POST",
             "B": "PUT",
@@ -2193,7 +2193,7 @@
         },
         {
           "id": 9,
-          "question": "Üçleme koşulu ( ? : ) aşağıdaki yapılardan hangisi ile benzer bir kontrol mantığına sahiptir?",
+          "question": "Üçleme koşulu (?:) aşağıdaki yapılardan hangisi ile benzer bir kontrol mantığına sahiptir?",
           "options": {
             "A": "While",
             "B": "For",
@@ -2329,7 +2329,7 @@
         },
         {
           "id": 17,
-          "question": "Bir resmin üzerinde merkez noktası (x,y) = (119,153) ve çapı 22 olan daire şeklindeki alanı işaretleyip o alana tıklandığında http://www.daire.com.tr adresine gitmeyi sağlayan kod aşağıdakilerden hangisidir ?",
+          "question": "Bir resmin üzerinde merkez noktası (x,y) = (119,153) ve çapı 22 olan daire şeklindeki alanı işaretleyip o alana tıklandığında http://www.daire.com.tr adresine gitmeyi sağlayan kod aşağıdakilerden hangisidir?",
           "options": {
             "A": "<AREA shape=\"rect\" coords=\"119,22,153\" href=\"http://www.daire.com.tr/\">",
             "B": "<AREA shape=\"circle\" points=\"119,153,22\" src=\"http://www.daire.com.tr/\">",
@@ -2365,11 +2365,11 @@
           "id": 19,
           "question": "Web sayfasının arka plan rengini yeşil, yazı fontunu ise Arial olacak şekilde tanımlamak için aşağıdaki CSS kodlarından hangisi kullanılmalıdır?",
           "options": {
-            "A": "body { background-color : green; font-family : Arial; }",
-            "B": "body { background-color : green; font : Arial; }",
-            "C": "body { bgcolor : green; font-family : Arial; }",
-            "D": "body { background : green; font-family : \"Arial\"; }",
-            "E": "body { color : green; font : Arial; }"
+            "A": "body { background-color: green; font-family: Arial; }",
+            "B": "body { background-color: green; font: Arial; }",
+            "C": "body { bgcolor: green; font-family: Arial; }",
+            "D": "body { background: green; font-family: \"Arial\"; }",
+            "E": "body { color: green; font: Arial; }"
           },
           "correct_answer": "A",
           "explanation": "",

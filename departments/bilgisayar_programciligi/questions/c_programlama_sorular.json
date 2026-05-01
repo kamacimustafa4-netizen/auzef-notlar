@@ -17,8 +17,8 @@
           "question": "Aşağıdaki değer atamalarından hangisi geçerlidir?",
           "options": {
             "A": "string str = \"C:WindowsSystem32\";",
-            "B": "string str = 'C# .NET tabanlı dildir.';",
-            "C": "string str = \"C\" , \"#\";",
+            "B": "string str = 'C#.NET tabanlı dildir.';",
+            "C": "string str = \"C\", \"#\";",
             "D": "string str = \"\"\" namespace class \"\"\";",
             "E": "string str = @\"string veri tipi \"alfanümerik\" değer alır.\";"
           },
@@ -33,11 +33,11 @@
           "id": 2,
           "question": "Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
           "options": {
-            "A": "False : False",
-            "B": "True : False",
-            "C": "False : True",
-            "D": "True : True",
-            "E": "Null : True"
+            "A": "False: False",
+            "B": "True: False",
+            "C": "False: True",
+            "D": "True: True",
+            "E": "Null: True"
           },
           "correct_answer": "",
           "explanation": "",
@@ -80,7 +80,7 @@
           "options": {
             "A": "string str = @\"string veri tipi \"alfanümerik\" değer alır.\";",
             "B": "string str = \"C:WindowsSystem32\";",
-            "C": "string str = 'C# .NET tabanlı dildir.;",
+            "C": "string str = 'C#.NET tabanlı dildir.;",
             "D": "string str = \"\"\" namespace class \"\"\";",
             "E": "string str = \"C\", \"#\";"
           },
@@ -127,7 +127,7 @@
         },
         {
           "id": 4,
-          "question": "Yukarıdaki C# koduna göre aşağıdaki şıklardan hangisi yanlıştır ?",
+          "question": "Yukarıdaki C# koduna göre aşağıdaki şıklardan hangisi yanlıştır?",
           "options": {
             "A": "Örtük veri tipi dönüşümü yapılmıştır.",
             "B": "Kodda hata olduğundan dolayı derleyici hata verir.",
@@ -197,11 +197,11 @@
           "id": 8,
           "question": "Yukarıdaki ifadenin çıktısı hangi şıkta doğru verilmiştir?",
           "options": {
-            "A": "True : False",
-            "B": "False : True",
-            "C": "True : True",
-            "D": "False : False",
-            "E": "Null : True"
+            "A": "True: False",
+            "B": "False: True",
+            "C": "True: True",
+            "D": "False: False",
+            "E": "Null: True"
           },
           "correct_answer": "",
           "explanation": "",
@@ -216,7 +216,7 @@
           "options": {
             "A": "Console.Write($\"{z}:{-x}:{-y}\");",
             "B": "Console.Write(\"{0}:{1}:{2}\", z, -y, -x);",
-            "C": "Console.Write($\" {0} : {2} : {1}\");",
+            "C": "Console.Write($\" {0}: {2}: {1}\");",
             "D": "Console.Write(\"{2}:{0}:{1}\", -y, -x, z);",
             "E": "Console.Write(\"{1}:{0}:{2}\", x, z, -y);"
           },
@@ -319,7 +319,7 @@
         },
         {
           "id": 6,
-          "question": "int x = 0; int y = -1; int z = 1; if( y + z != x && y > z ) Console.WriteLine(\"*\"); else if( y > x || ++y > z ) Console.WriteLine(\"/\"); else if( y == x & x < z ) Console.WriteLine(\"+\"); else if( z >= x + y ) Console.WriteLine(\"-\"); else Console.WriteLine(\"%\"); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "question": "int x = 0; int y = -1; int z = 1; if(y + z!= x && y > z) Console.WriteLine(\"*\"); else if(y > x || ++y > z) Console.WriteLine(\"/\"); else if(y == x & x < z) Console.WriteLine(\"+\"); else if(z >= x + y) Console.WriteLine(\"-\"); else Console.WriteLine(\"%\"); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
           "options": {
             "A": "-",
             "B": "*",
@@ -336,7 +336,7 @@
         },
         {
           "id": 7,
-          "question": "bool stat = true; int x = -1, y = 2, z = 3; int result = !stat & ++x == 0 ? x / y : z + x – y; Console.Write(result); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "question": "bool stat = true; int x = -1, y = 2, z = 3; int result =!stat & ++x == 0? x / y: z + x – y; Console.Write(result); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
           "options": {
             "A": "3",
             "B": "1",
@@ -353,13 +353,13 @@
         },
         {
           "id": 8,
-          "question": "int x = 4; x >>= 2; int y = ~x; Console.Write($\"{x} : {y}\"); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "question": "int x = 4; x >>= 2; int y = ~x; Console.Write($\"{x}: {y}\"); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
           "options": {
-            "A": "16 : -15",
-            "B": "1 : 4",
-            "C": "-2 : 1",
-            "D": "-15 : 16",
-            "E": "1 : -2"
+            "A": "16: -15",
+            "B": "1: 4",
+            "C": "-2: 1",
+            "D": "-15: 16",
+            "E": "1: -2"
           },
           "correct_answer": "",
           "explanation": "",
@@ -539,7 +539,7 @@
         },
         {
           "id": 17,
-          "question": "int a = 1, b = -1; int? c = null; int result = b <= a ? c ?? 5 : 0; Console.Write(result); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
+          "question": "int a = 1, b = -1; int? c = null; int result = b <= a? c?? 5: 0; Console.Write(result); Yukarıda verilen programın çıktısı hangi şıkta doğru verilmiştir?",
           "options": {
             "A": "5",
             "B": "-1",
@@ -567,7 +567,7 @@
       "questions": [
         {
           "id": 12,
-          "question": "C# dilinde veri tipleriyle ilgili aşağıdaki şıklardan hangisi yanlıştır ?",
+          "question": "C# dilinde veri tipleriyle ilgili aşağıdaki şıklardan hangisi yanlıştır?",
           "options": {
             "A": "var anahtar kelimesi ile tanımlanan değişkenin veri tipi, değişkene daha sonra farklı bir değer atandığında değiştirilemez.",
             "B": "dynamic veri tipinde tanımlanan değişkenlerin tür kontrolü çalışma zamanında yapılır.",
@@ -601,7 +601,7 @@
         },
         {
           "id": 14,
-          "question": "Aşağıdaki iki satırlı kodlardan hangisi derleme hatası vermez ?",
+          "question": "Aşağıdaki iki satırlı kodlardan hangisi derleme hatası vermez?",
           "options": {
             "A": "const string fakulte; fakulte = \"AUZEF\";",
             "B": "char chr; Console.Write(\"{0}\", chr);",
@@ -631,11 +631,11 @@
           "id": 15,
           "question": "Yukarıdaki kod parçasının çıktısı hangi şıkta doğrudur?",
           "options": {
-            "A": "-1 : True",
-            "B": "0 : True",
-            "C": "-2 : True",
-            "D": "-2 : False",
-            "E": "-1 : False"
+            "A": "-1: True",
+            "B": "0: True",
+            "C": "-2: True",
+            "D": "-2: False",
+            "E": "-1: False"
           },
           "correct_answer": "A",
           "explanation": "",

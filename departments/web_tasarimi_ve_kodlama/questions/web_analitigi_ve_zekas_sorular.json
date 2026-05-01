@@ -150,11 +150,11 @@
         },
         {
           "id": 9,
-          "question": "Yukarıdaki R kod bloğunda satın alma ( purchase ) ve sepete ekleme ( add_to_cart ) olaylarını çekmek için … ile verilen boşluğa aşağıdaki ifadelerden hangisi getirilmelidir?",
+          "question": "Yukarıdaki R kod bloğunda satın alma (purchase) ve sepete ekleme (add_to_cart) olaylarını çekmek için … ile verilen boşluğa aşağıdaki ifadelerden hangisi getirilmelidir?",
           "options": {
             "A": "\"eventName=='purchase' AND eventName=='add_to_cart'\"",
             "B": "\"eventName=='purchase' * eventName=='add_to_cart'\"",
-            "C": "\"eventName=='purchase' != eventName=='add_to_cart'\"",
+            "C": "\"eventName=='purchase'!= eventName=='add_to_cart'\"",
             "D": "\"eventName=='purchase' OR eventName=='add_to_cart'\"",
             "E": "\"eventName=='purchase' == eventName=='add_to_cart'\""
           },
@@ -184,7 +184,7 @@
         },
         {
           "id": 11,
-          "question": "Aşağıdakilerden hangisi Çapraz Endüstri Standard Süreç Modeli'ndeki (CRISP-DM) modelin uygulamaya geçirilmesi ( deployment ) aşamasının temel amacını en iyi şekilde açıklar?",
+          "question": "Aşağıdakilerden hangisi Çapraz Endüstri Standard Süreç Modeli'ndeki (CRISP-DM) modelin uygulamaya geçirilmesi (deployment) aşamasının temel amacını en iyi şekilde açıklar?",
           "options": {
             "A": "Modelin eğitim (train) ve test olarak ikiye ayrılması.",
             "B": "Veri setindeki niteliklerin sayılarının azaltılması.",
@@ -218,7 +218,7 @@
         },
         {
           "id": 13,
-          "question": "veri <- veri[!duplicated(veri), ] Yukarıdaki R kodunun işlevi aşağıdakilerden hangisinde doğru biçimde verilmiştir?",
+          "question": "veri <- veri[!duplicated(veri),] Yukarıdaki R kodunun işlevi aşağıdakilerden hangisinde doğru biçimde verilmiştir?",
           "options": {
             "A": "Veri setinden tekrarlayan satırları çıkarıp, veri setindeki benzersiz satırları almak.",
             "B": "Veri setindeki yalnızca tekrarlayan (duplicated) satırları almak.",
@@ -235,7 +235,7 @@
         },
         {
           "id": 14,
-          "question": "aggregate(Revenue ~ UserType, data = veri , FUN = mean) Yukarıda verilen R kodu ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "question": "aggregate(Revenue ~ UserType, data = veri, FUN = mean) Yukarıda verilen R kodu ile ilgili aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Revenue sütunu esas alınarak veri seti gruplar ve her gruba ait UserType sütununun ortalama değeri hesaplanır.",
             "B": "Revenue sütunu esas alınarak veri seti gruplar ve her gruba ait UserType sütununun aranca değeri hesaplanır.",
@@ -286,7 +286,7 @@
         },
         {
           "id": 17,
-          "question": "Aşağıda verilenlerden hangisi web analitiği süreci adımlarından biri değildir ?",
+          "question": "Aşağıda verilenlerden hangisi web analitiği süreci adımlarından biri değildir?",
           "options": {
             "A": "Veritabanını sıralama",
             "B": "Veri önişleme",
@@ -569,7 +569,7 @@
         },
         {
           "id": 13,
-          "question": "alt_kurallar <- kurallar[quality(kurallar )$confidence > 0.70] Yukarıdaki R kod bloğu, apriori algoritması ile oluşturulan kuralların içinden güven değeri yüzde 70'den büyük olanları filtrelemektedir. Aşağıdaki hangi fonksiyon bu filtreleme sonucunda elde edilen kural alt kümesinin ekrana yazdırılmasını sağlar?",
+          "question": "alt_kurallar <- kurallar[quality(kurallar)$confidence > 0.70] Yukarıdaki R kod bloğu, apriori algoritması ile oluşturulan kuralların içinden güven değeri yüzde 70'den büyük olanları filtrelemektedir. Aşağıdaki hangi fonksiyon bu filtreleme sonucunda elde edilen kural alt kümesinin ekrana yazdırılmasını sağlar?",
           "options": {
             "A": "plot(alt_kurallar)",
             "B": "summary(alt_kurallar)",

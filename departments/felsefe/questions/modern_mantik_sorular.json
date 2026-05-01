@@ -733,13 +733,13 @@
         },
         {
           "id": 4,
-          "question": "Aşağıdakilerden hangisi [ (∼p→ p)∧(q→∼p)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "question": "Aşağıdakilerden hangisi [(∼p→ p)∧(q→∼p)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
           "options": {
             "A": "∼q→q",
             "B": "Y→q",
             "C": "q→q",
-            "D": "[ (D→Y)∧(q→D)] →q",
-            "E": "[ (Y→D)∧(q→Y)] →q"
+            "D": "[(D→Y)∧(q→D)] →q",
+            "E": "[(Y→D)∧(q→Y)] →q"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -784,13 +784,13 @@
         },
         {
           "id": 7,
-          "question": "Aşağıdakilerden hangisi [ (q ↔ ∼q)∨(p →q)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(q ↔ ∼q)∨(p →q)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
-            "A": "[ (Y ↔ Y)∨(D →q)]→q",
-            "B": "[ (D ↔ Y)∨(p →D)]→Y",
-            "C": "[ (Y ↔ D)∨(p →Y)]→Y",
-            "D": "[ (Y ↔ ∼q)∨(D →Y)]→Y",
-            "E": "[ (D ↔ ∼Y)∨(Y →Y)]→D"
+            "A": "[(Y ↔ Y)∨(D →q)]→q",
+            "B": "[(D ↔ Y)∨(p →D)]→Y",
+            "C": "[(Y ↔ D)∨(p →Y)]→Y",
+            "D": "[(Y ↔ ∼q)∨(D →Y)]→Y",
+            "E": "[(D ↔ ∼Y)∨(Y →Y)]→D"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -835,13 +835,13 @@
         },
         {
           "id": 10,
-          "question": "Aşağıdakilerden hangisi [ (q↔ ∼r)∨(p →r)]→r ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(q↔ ∼r)∨(p →r)]→r ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
             "A": "D",
-            "B": "[ (q↔ Y)∨(p →Y)]→D",
-            "C": "[ (q↔ Y)∨(p →D)]→Y",
-            "D": "[ (D ↔ Y)∨(D →Y)]→Y",
-            "E": "[ (q ↔ Y)∨(D →Y)]→Y"
+            "B": "[(q↔ Y)∨(p →Y)]→D",
+            "C": "[(q↔ Y)∨(p →D)]→Y",
+            "D": "[(D ↔ Y)∨(D →Y)]→Y",
+            "E": "[(q ↔ Y)∨(D →Y)]→Y"
           },
           "correct_answer": "A",
           "explanation": "",
@@ -869,13 +869,13 @@
         },
         {
           "id": 12,
-          "question": "Aşağıdakilerden hangisi [ (q↔ ∼r)∨(p →r)]→[ r∧(p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(q↔ ∼r)∨(p →r)]→[r∧(p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
-            "A": "[ (q↔ D)∨(p →D)]→[ D∧( p↔q)]",
-            "B": "[ (D↔ Y)∨(p →Y)]→[ Y∧( p↔D)]",
-            "C": "[ (q↔ Y)∨(p →D)]→[ Y∧( p↔q)]",
-            "D": "[ (q↔ Y)∨(D)]→[ Y∧( p↔q)]",
-            "E": "[ (q↔ D)∨(p →Y)]→[ Y∧( p↔q)]"
+            "A": "[(q↔ D)∨(p →D)]→[D∧(p↔q)]",
+            "B": "[(D↔ Y)∨(p →Y)]→[Y∧(p↔D)]",
+            "C": "[(q↔ Y)∨(p →D)]→[Y∧(p↔q)]",
+            "D": "[(q↔ Y)∨(D)]→[Y∧(p↔q)]",
+            "E": "[(q↔ D)∨(p →Y)]→[Y∧(p↔q)]"
           },
           "correct_answer": "E",
           "explanation": "",
@@ -1033,12 +1033,12 @@
       "questions": [
         {
           "id": 1,
-          "question": "Aşağıdakilerden hangisi [ (q↔ ~q) v(p →q)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(q↔ ~q) v(p →q)]→q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
             "A": "[(Y ↔ Y) v (D →q)]→q",
             "B": "[(Y ↔ ~q) v (D →Y)]→Y",
             "C": "[(D ↔ ~Y) v (Y →Y)]→D",
-            "D": "[ (D ↔ Y) v (p →D)]→Y",
+            "D": "[(D ↔ Y) v (p →D)]→Y",
             "E": "[(Y ↔ D) v (p →Y)]→Y"
           },
           "correct_answer": "E",
@@ -1118,7 +1118,7 @@
         },
         {
           "id": 6,
-          "question": "Aşağıdakilerden hangisi [ (q↔ ~r)v(p →r)]→r ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(q↔ ~r)v(p →r)]→r ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
             "A": "[(q↔ Y)v (p →D)]→Y",
             "B": "D",
@@ -1152,13 +1152,13 @@
         },
         {
           "id": 8,
-          "question": "Aşağıdakilerden hangisi [ (q↔ ~r)v(p →r)]→[ r∧( p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(q↔ ~r)v(p →r)]→[r∧(p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
-            "A": "[(q↔ Y)v(D)]→[ Y∧( p↔q)]",
-            "B": "[(q↔ Y)v(p →D)]→[ Y∧( p↔q)]",
-            "C": "[(q↔ D)v(p →D)]→[ D∧( p↔q)]",
-            "D": "[(q↔ D)v(p →Y)]→[ Y∧( p↔q)]",
-            "E": "[(D↔ Y)v(p →Y)][ Y∧( p↔D)]"
+            "A": "[(q↔ Y)v(D)]→[Y∧(p↔q)]",
+            "B": "[(q↔ Y)v(p →D)]→[Y∧(p↔q)]",
+            "C": "[(q↔ D)v(p →D)]→[D∧(p↔q)]",
+            "D": "[(q↔ D)v(p →Y)]→[Y∧(p↔q)]",
+            "E": "[(D↔ Y)v(p →Y)][Y∧(p↔D)]"
           },
           "correct_answer": "D",
           "explanation": "",
@@ -1388,8 +1388,8 @@
           "options": {
             "A": "[(D ↔ p) → (q → D)] ∨ Y",
             "B": "[(Y ↔ p) → (q → D)] ∨ D",
-            "C": "[(Y ↔ p ) → (q → Y)] ∨ D",
-            "D": "( p → D) ∨ Y",
+            "C": "[(Y ↔ p) → (q → Y)] ∨ D",
+            "D": "(p → D) ∨ Y",
             "E": "D"
           },
           "correct_answer": "B",
@@ -1418,13 +1418,13 @@
         },
         {
           "id": 3,
-          "question": "Aşağıdakilerden hangisi [ (∼ p → p) ∧ (q →∼ p)] →∼ q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "question": "Aşağıdakilerden hangisi [(∼ p → p) ∧ (q →∼ p)] →∼ q ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
           "options": {
             "A": "q →∼ q",
-            "B": "[(D→ Y ) ∧ (q → D)] →∼ q",
-            "C": "[(Y→ D )∧ (q → Y)] → ∼ q",
+            "B": "[(D→ Y) ∧ (q → D)] →∼ q",
+            "C": "[(Y→ D)∧ (q → Y)] → ∼ q",
             "D": "∼q →∼ q",
-            "E": "( Y∧ D ) → ∼ q"
+            "E": "(Y∧ D) → ∼ q"
           },
           "correct_answer": "A",
           "explanation": "",
@@ -1435,13 +1435,13 @@
         },
         {
           "id": 4,
-          "question": "Aşağıdakilerden hangisi [ (∼ q ∧ p) → (q → p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "question": "Aşağıdakilerden hangisi [(∼ q ∧ p) → (q → p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
           "options": {
             "A": "Y",
-            "B": "[( D ∧ p) → (y → p)]",
+            "B": "[(D ∧ p) → (y → p)]",
             "C": "p → D",
             "D": "Y → p",
-            "E": "[( Y ∧ p) → ( D → p)]"
+            "E": "[(Y ∧ p) → (D → p)]"
           },
           "correct_answer": "A",
           "explanation": "",
@@ -1452,7 +1452,7 @@
         },
         {
           "id": 5,
-          "question": "\"∼ (p ↔q )\" ifadesi Lukasiewicz-Tarski Notasyonuyla yazıldığında nasıl bir yeniden yazımla karşılaşılacaktır?",
+          "question": "\"∼ (p ↔q)\" ifadesi Lukasiewicz-Tarski Notasyonuyla yazıldığında nasıl bir yeniden yazımla karşılaşılacaktır?",
           "options": {
             "A": "NEpNq",
             "B": "NEpq",
@@ -1639,13 +1639,13 @@
         },
         {
           "id": 16,
-          "question": "Aşağıdakilerden hangisi ∼[ (∼p→ p)→(q→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "question": "Aşağıdakilerden hangisi ∼[(∼p→ p)→(q→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
           "options": {
             "A": "Y",
-            "B": "∼ ( D → Y)",
-            "C": "∼ ( Y → D )",
+            "B": "∼ (D → Y)",
+            "C": "∼ (Y → D)",
             "D": "q",
-            "E": "∼ ( D → ∼ q )"
+            "E": "∼ (D → ∼ q)"
           },
           "correct_answer": "B",
           "explanation": "",
@@ -1805,11 +1805,11 @@
           "id": 4,
           "question": "Saçmaya indirgeme yöntemi ile denetlenen bir çıkarımın sonuç satırında en az bir \"doğru\" değeri bulunuyorsa bu ifade için aşağıdakilerden hangisi kesin olarak söylenebilir?",
           "options": {
-            "A": "Geçerli ( ilkesi",
+            "A": "Geçerli (ilkesi",
             "B": "!) yaklaşımı",
-            "C": "Geçerli ( !)",
-            "D": "Geçerli ( yöntemi",
-            "E": "Geçerli ( değildir"
+            "C": "Geçerli (!)",
+            "D": "Geçerli (yöntemi",
+            "E": "Geçerli (değildir"
           },
           "correct_answer": "A",
           "explanation": "",
@@ -1871,7 +1871,7 @@
         },
         {
           "id": 8,
-          "question": "∼ ( p↔∼q ) → q ifadesi için aşağıdakilerden hangisi veya hangileri doğrudur?",
+          "question": "∼ (p↔∼q) → q ifadesi için aşağıdakilerden hangisi veya hangileri doğrudur?",
           "options": {
             "A": "i ve iii",
             "B": "i ve yöntemi",
@@ -1888,7 +1888,7 @@
         },
         {
           "id": 9,
-          "question": "Aşağıdakilerden hangisi ~ [ (~ p→ p) → (q →~ p)] ifadesinin quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "question": "Aşağıdakilerden hangisi ~ [(~ p→ p) → (q →~ p)] ifadesinin quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
           "options": {
             "A": "q değildir",
             "B": "q yöntemi",
@@ -1905,7 +1905,7 @@
         },
         {
           "id": 10,
-          "question": "∼ ( p↔∼q ) → q ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
+          "question": "∼ (p↔∼q) → q ifadesinin doğruluk değerleri aşağıdakilerden hangisidir?",
           "options": {
             "A": "D, D, D, yöntemi",
             "B": "D, D, D, değildir",
@@ -1939,7 +1939,7 @@
         },
         {
           "id": 12,
-          "question": "Doğrulıuk değerleri olan D Y B için aşağıdaki ifadelerden A V B için hangisi yanlıştır ?",
+          "question": "Doğrulıuk değerleri olan D Y B için aşağıdaki ifadelerden A V B için hangisi yanlıştır?",
           "options": {
             "A": "-D D D",
             "B": "-D D B",
@@ -1990,7 +1990,7 @@
         },
         {
           "id": 15,
-          "question": "(q <-> q') V ( p – > q) önermesinin doğruluk tablosu nedir?",
+          "question": "(q <-> q') V (p – > q) önermesinin doğruluk tablosu nedir?",
           "options": {
             "A": "Y.D.D",
             "B": "Y.D.D yöntemi",
@@ -2010,10 +2010,10 @@
           "question": "Aşağıdaki hangisi yanlıştır?",
           "options": {
             "A": "(pq) yaklaşımı",
-            "B": "( p ∧ q) = max değildir",
-            "C": "( p ∧ q) = max (pq)",
-            "D": "( p ∧ q) = max yöntemi",
-            "E": "( p ∧ q) = max ilkesi"
+            "B": "(p ∧ q) = max değildir",
+            "C": "(p ∧ q) = max (pq)",
+            "D": "(p ∧ q) = max yöntemi",
+            "E": "(p ∧ q) = max ilkesi"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -2120,7 +2120,7 @@
         },
         {
           "id": 26,
-          "question": "[(p ∧ q) → (r ∨ t) ] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Yanlış\" değeri alacak ikinci önerme hangisi olmalıdır?",
+          "question": "[(p ∧ q) → (r ∨ t)] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Yanlış\" değeri alacak ikinci önerme hangisi olmalıdır?",
           "options": {
             "A": "p",
             "B": "q",
@@ -2137,7 +2137,7 @@
         },
         {
           "id": 27,
-          "question": "[(p ∧ q) → (r ∨ t) ] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Doğru\" değeri alacak ikinci önerme hangisi olmalıdır?",
+          "question": "[(p ∧ q) → (r ∨ t)] ∨ [∼(p ↔ p) (s ∧ t)] ifadesi Quine yöntemi ile denetlenecektir. \"Doğru\" değeri alacak ikinci önerme hangisi olmalıdır?",
           "options": {
             "A": "p",
             "B": "q",
@@ -2250,7 +2250,7 @@
         },
         {
           "id": 6,
-          "question": "∼[ ∀x (Fx→Gx) ↔ ∀y (Hy v Ty) ] ve [ [∀x (Fx ˄ Gx)∼∀y (Hy v Ty)]v [∼∀x (Fx ˄ Gx) ∀y (Hy v Ty)] ] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "∼[∀x (Fx→Gx) ↔ ∀y (Hy v Ty)] ve [[∀x (Fx ˄ Gx)∼∀y (Hy v Ty)]v [∼∀x (Fx ˄ Gx) ∀y (Hy v Ty)]] ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Tutarlı değil",
             "B": "Belirsiz",
@@ -2454,7 +2454,7 @@
         },
         {
           "id": 18,
-          "question": "[ ∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ve ∼[ ∃x (Ax→Bx) ∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "[∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ve ∼[∃x (Ax→Bx) ∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Özdeş değil",
             "B": "Geçerli",
@@ -2703,7 +2703,7 @@
         },
         {
           "id": 12,
-          "question": "∼[ ∀x (Fx→Gx) ↔ ∀y (Hy v Ty) ] ve [ [∀x (Fx ˄ Gx)∼∀y (Hy v Ty)]v [∼∀x (Fx ˄ Gx) ∀y (Hy v Ty)] ] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "∼[∀x (Fx→Gx) ↔ ∀y (Hy v Ty)] ve [[∀x (Fx ˄ Gx)∼∀y (Hy v Ty)]v [∼∀x (Fx ˄ Gx) ∀y (Hy v Ty)]] ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Özdeş değil",
             "B": "Belirsiz",
@@ -2788,12 +2788,12 @@
         },
         {
           "id": 17,
-          "question": "Aşağıdakilerden hangisi ∼[ (∼p→ p)→(q→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
+          "question": "Aşağıdakilerden hangisi ∼[(∼p→ p)→(q→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biri değildir?",
           "options": {
-            "A": "∼[ D→(q→Y)]",
+            "A": "∼[D→(q→Y)]",
             "B": "q",
-            "C": "∼[ (Y→ D)→(q→Y)]",
-            "D": "∼( D→ ∼q)",
+            "C": "∼[(Y→ D)→(q→Y)]",
+            "D": "∼(D→ ∼q)",
             "E": "p"
           },
           "correct_answer": "E",
@@ -3088,13 +3088,13 @@
         },
         {
           "id": 15,
-          "question": "Aşağıdakilerden hangisi [(p↔ ∼r)∨(p →r)]→[ r∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(p↔ ∼r)∨(p →r)]→[r∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
-            "A": "[(Y↔ ∼r)∨(Y →r)]→[ r∧(Y↔q)]",
-            "B": "[(Y↔ ∼r)∨(D →r)]→[ r∧(D↔q)]",
+            "A": "[(Y↔ ∼r)∨(Y →r)]→[r∧(Y↔q)]",
+            "B": "[(Y↔ ∼r)∨(D →r)]→[r∧(D↔q)]",
             "C": "[(D↔ ∼r)∨(D →r)]→[r∧(D↔q)]",
-            "D": "[(Y↔ ∼r)∨(Y →r)]→[ r∧(D↔q)]",
-            "E": "[(Y↔ ∼r)∨(D →r)]→[ q]"
+            "D": "[(Y↔ ∼r)∨(Y →r)]→[r∧(D↔q)]",
+            "E": "[(Y↔ ∼r)∨(D →r)]→[q]"
           },
           "correct_answer": "D",
           "explanation": "",
@@ -3167,7 +3167,7 @@
         },
         {
           "id": 2,
-          "question": "∼[ ∃x (Ax→Bx) → ∀y (Cy v Dy)] ve [ ∼∃x (Ax→Bx)∼∀y (Cy v Dy) ] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "∼[∃x (Ax→Bx) → ∀y (Cy v Dy)] ve [∼∃x (Ax→Bx)∼∀y (Cy v Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Özdeş",
             "B": "Tutarlı değil",
@@ -3218,13 +3218,13 @@
         },
         {
           "id": 5,
-          "question": "Aşağıdakilerden hangisi [(∼q↔ ∼r)∨(q→r)]→[ q∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(∼q↔ ∼r)∨(q→r)]→[q∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
-            "A": "[(∼D↔ ∼r)∨(D→r)]→[ Y∧(∼ p↔q)]",
+            "A": "[(∼D↔ ∼r)∨(D→r)]→[Y∧(∼ p↔q)]",
             "B": "[(∼D↔ ∼r)∨(Y→r)]→[D∧(∼ D↔q)]",
-            "C": "[(∼Y↔ ∼r)∨(Y→r)]→[ Y∧(∼ p↔Y)]",
-            "D": "[(∼Y↔ ∼r)∨(Y→r)]→[ D∧(∼ p↔D)]",
-            "E": "[(∼Y↔ ∼r)∨(Y→r)]→[ Y∧(∼ p↔D)]"
+            "C": "[(∼Y↔ ∼r)∨(Y→r)]→[Y∧(∼ p↔Y)]",
+            "D": "[(∼Y↔ ∼r)∨(Y→r)]→[D∧(∼ p↔D)]",
+            "E": "[(∼Y↔ ∼r)∨(Y→r)]→[Y∧(∼ p↔D)]"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -3235,7 +3235,7 @@
         },
         {
           "id": 6,
-          "question": "∼[∀y (Cy → Dy)→ ∼∀y (Cy .Dy)] ve [∀y (Cy → Dy) . ∀y (Cy .Dy)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
+          "question": "∼[∀y (Cy → Dy)→ ∼∀y (Cy.Dy)] ve [∀y (Cy → Dy). ∀y (Cy.Dy)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
           "options": {
             "A": "Tutarlı",
             "B": "Belirsiz",
@@ -3354,7 +3354,7 @@
         },
         {
           "id": 13,
-          "question": "[∀x(Cx .Dx)→ ∼∀x (Cx .Dx)] ve [∼∀x(Cx .Dx) v ∼∀x (Cx .Dx)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "[∀x(Cx.Dx)→ ∼∀x (Cx.Dx)] ve [∼∀x(Cx.Dx) v ∼∀x (Cx.Dx)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Geçerli",
             "B": "Geçerli değil",
@@ -3388,7 +3388,7 @@
         },
         {
           "id": 15,
-          "question": "∼[∀x(Cx .Dx)→ ∼∀x (Cx .Dx)] ve [∀x(Cx .Dx) . ∀x (Cx .Dx)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
+          "question": "∼[∀x(Cx.Dx)→ ∼∀x (Cx.Dx)] ve [∀x(Cx.Dx). ∀x (Cx.Dx)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
           "options": {
             "A": "Özdeş değil",
             "B": "Geçerli",
@@ -3405,7 +3405,7 @@
         },
         {
           "id": 16,
-          "question": "[ ∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ve ∼[ ∃x (Ax→Bx) ∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "[∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ve ∼[∃x (Ax→Bx) ∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Tutarlı",
             "B": "Özdeş",
@@ -3422,7 +3422,7 @@
         },
         {
           "id": 17,
-          "question": "∼[ ∃x (Ax→Bx) ∀y (Cy → Dy)]→∼∀x (Fx→Gx) ve [ ∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "∼[∃x (Ax→Bx) ∀y (Cy → Dy)]→∼∀x (Fx→Gx) ve [∃x (Ax→Bx)∀y (Cy v Dy)]→ ∼∀x (Fx→Gx) ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Özdeş değil",
             "B": "Geçerli",
@@ -3456,7 +3456,7 @@
         },
         {
           "id": 19,
-          "question": "[∀x(Cx↔Dx)↔ ∼∀y(Cy v Dy)] ve [∀x(Cx .Dx)∼∀y (Cy ↔ Dy)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
+          "question": "[∀x(Cx↔Dx)↔ ∼∀y(Cy v Dy)] ve [∀x(Cx.Dx)∼∀y (Cy ↔ Dy)] ifadeleri için aşağıdaki seçeneklerden hangisi doğrudur?",
           "options": {
             "A": "Özdeş değil",
             "B": "Tutarlı",
@@ -3484,11 +3484,11 @@
       "questions": [
         {
           "id": 1,
-          "question": "Aşağıdakilerden hangisi [(p↔ ∼r)∨(p →r)]→[ r∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(p↔ ∼r)∨(p →r)]→[r∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
-            "A": "[(Y ↔ ∼ r) ∨ (Y → r)] → [ r ∧ (D ↔ q)]",
-            "B": "[( D ↔ ∼ r) ∨ (D → r)] → [ r ∧ (D ↔ q)]",
-            "C": "[(Y ↔ ∼ r) ∨ (Y → r)] → [ r ∧ (Y ↔ q)]",
+            "A": "[(Y ↔ ∼ r) ∨ (Y → r)] → [r ∧ (D ↔ q)]",
+            "B": "[(D ↔ ∼ r) ∨ (D → r)] → [r ∧ (D ↔ q)]",
+            "C": "[(Y ↔ ∼ r) ∨ (Y → r)] → [r ∧ (Y ↔ q)]",
             "D": "",
             "E": ""
           },
@@ -3518,11 +3518,11 @@
         },
         {
           "id": 3,
-          "question": "Aşağıdakilerden hangisi [(∼q↔ ∼r)→(q→r)]↔[ q∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
+          "question": "Aşağıdakilerden hangisi [(∼q↔ ∼r)→(q→r)]↔[q∧(∼ p↔q)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
             "A": "[(D ↔ ∼ r) → (Y → r)] ↔ [Y ∧ (∼ p↔ D)]",
             "B": "[(Y ↔ ∼ r) → (D → r)] ↔ [D ∧ (∼ p↔ D)]",
-            "C": "[(D↔ ∼ r) → (Y → r)] ↔ [D ∧ ( p↔ D)]",
+            "C": "[(D↔ ∼ r) → (Y → r)] ↔ [D ∧ (p↔ D)]",
             "D": "",
             "E": ""
           },
@@ -3538,8 +3538,8 @@
           "question": "Aşağıdakilerden hangisi [(∼q→ p)↔(r→∼p)] ifadesinin Quine yöntemiyle çözümü sırasındaki aşamalardan biridir?",
           "options": {
             "A": "[(∼ q→ p) ↔ (D →∼p)]",
-            "B": "[(∼ q→ p) ↔ ( Y → D)]",
-            "C": "[( q→ p) ↔ (D →∼p)]",
+            "B": "[(∼ q→ p) ↔ (Y → D)]",
+            "C": "[(q→ p) ↔ (D →∼p)]",
             "D": "",
             "E": ""
           },
@@ -3586,7 +3586,7 @@
         },
         {
           "id": 7,
-          "question": "∼[∼∀y (Cy v Dy) v ∀x ( Cx v Dx)] ve [∀y (Cy v Dy).∼∀x (Cx v Dx)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼[∼∀y (Cy v Dy) v ∀x (Cx v Dx)] ve [∀y (Cy v Dy).∼∀x (Cx v Dx)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3620,7 +3620,7 @@
         },
         {
           "id": 9,
-          "question": "[∀y (Cy → Dy)→ ∼ ∀y(Cy .Dy)] ve [∼∀y(Cy → Dy) v∼∀y(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "[∀y (Cy → Dy)→ ∼ ∀y(Cy.Dy)] ve [∼∀y(Cy → Dy) v∼∀y(Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3637,7 +3637,7 @@
         },
         {
           "id": 10,
-          "question": "∼[Ax→∼ ∀y(Cy .Dy)] ve [∼Ax ∀y(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼[Ax→∼ ∀y(Cy.Dy)] ve [∼Ax ∀y(Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3671,7 +3671,7 @@
         },
         {
           "id": 12,
-          "question": "[ ∃x (Ax→Bx)∀y (Cy v Dy)] →∼∀x (Fx→Gx) ve ∼[ ∃x (Ax∧Bx) ∀y (Cy ∧ Dy) ]v ∼∀x(Fx→Gx) ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "[∃x (Ax→Bx)∀y (Cy v Dy)] →∼∀x (Fx→Gx) ve ∼[∃x (Ax∧Bx) ∀y (Cy ∧ Dy)]v ∼∀x(Fx→Gx) ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Özdeş değil",
@@ -3688,7 +3688,7 @@
         },
         {
           "id": 13,
-          "question": "∼[Cy (Cy → Dy) →∼∀y (Cy . Dy)] ve [∀y (Cy → Dy) . ∀y (Cy . Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼[Cy (Cy → Dy) →∼∀y (Cy. Dy)] ve [∀y (Cy → Dy). ∀y (Cy. Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3756,7 +3756,7 @@
         },
         {
           "id": 17,
-          "question": "[∀z (Cz v Dz) ∼∀y (Cy v Dy)] ve ∼[∀z(Cz v Dz) v ∀y ( Cy Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "[∀z (Cz v Dz) ∼∀y (Cy v Dy)] ve ∼[∀z(Cz v Dz) v ∀y (Cy Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Belirsiz",
             "B": "Geçerli değil",
@@ -3773,7 +3773,7 @@
         },
         {
           "id": 18,
-          "question": "[∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (CxvDx) ∨ ∼∀y (Cy∨Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "[∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (CxvDx) ∨ ∼∀y (Cy∨Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3807,7 +3807,7 @@
         },
         {
           "id": 20,
-          "question": "∼∃y (Ay→By) (Ax→Bx) ∀y (Cy v Dy)] ve [∀x (Cx v Dx)∼∀y (Cy v Dy) ] ifadeleri hakkında aşağıdakilerden hangisi doğrudur?",
+          "question": "∼∃y (Ay→By) (Ax→Bx) ∀y (Cy v Dy)] ve [∀x (Cx v Dx)∼∀y (Cy v Dy)] ifadeleri hakkında aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Özdeş değil",
@@ -3824,7 +3824,7 @@
         },
         {
           "id": 21,
-          "question": "[∀y (Cy.Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z(Cz → Dz) ↔vy∼∀y(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "[∀y (Cy.Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z(Cz → Dz) ↔vy∼∀y(Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3858,7 +3858,7 @@
         },
         {
           "id": 23,
-          "question": "[∀x (Cx .Dx) →∼∀x (Cx. Dx)] ve [∼∀x (Cx. Dx) ∨ ∼∀y (Cy.Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "[∀x (Cx.Dx) →∼∀x (Cx. Dx)] ve [∼∀x (Cx. Dx) ∨ ∼∀y (Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3875,7 +3875,7 @@
         },
         {
           "id": 24,
-          "question": "(∀xTx ↔∼∃yHy) [∃z Hz →∼∃y∼Ty)(∼∃y∼Ty →∼∃yHy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "(∀xTx ↔∼∃yHy) [∃z Hz →∼∃y∼Ty)(∼∃y∼Ty →∼∃yHy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3943,7 +3943,7 @@
         },
         {
           "id": 28,
-          "question": "∼ [∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (Cx∨Dx).∀y (Cy Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼ [∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (Cx∨Dx).∀y (Cy Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -3994,7 +3994,7 @@
         },
         {
           "id": 31,
-          "question": "∀y (Ay→By) ∀y (Cy v Dy)] ve [∼∀y (Cy v Dy) ] ifadeleri hakkında aşağıdakilerden hangisi doğrudur?",
+          "question": "∀y (Ay→By) ∀y (Cy v Dy)] ve [∼∀y (Cy v Dy)] ifadeleri hakkında aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Özdeş değil",
@@ -4028,7 +4028,7 @@
         },
         {
           "id": 33,
-          "question": "∼ [∀x (Cx .Dx) →∼∀x (Cx. Dx)] ve [∀x (Cx. Dx). ∀x (Cx.Dx) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼ [∀x (Cx.Dx) →∼∀x (Cx. Dx)] ve [∀x (Cx. Dx). ∀x (Cx.Dx)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -4096,7 +4096,7 @@
         },
         {
           "id": 37,
-          "question": "∼∃x(Ax→ Bx) ↔∀y (Ax ? Bx) ∀y (Cy v Dy) ve [ ∼∃x(Ax→ Bx) ↔∼∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼∃x(Ax→ Bx) ↔∀y (Ax? Bx) ∀y (Cy v Dy) ve [∼∃x(Ax→ Bx) ↔∼∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -4113,7 +4113,7 @@
         },
         {
           "id": 38,
-          "question": "[∀y (Cy v Dy) ↔ ∼∀x ( Cx v Dx)] ve [∼∀x (Cx v Dx) ↔∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "[∀y (Cy v Dy) ↔ ∼∀x (Cx v Dx)] ve [∼∀x (Cx v Dx) ↔∀y (Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -4147,7 +4147,7 @@
         },
         {
           "id": 40,
-          "question": "[∀y (Cy.Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z(Cz v Dz) ↔vy(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "[∀y (Cy.Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z(Cz v Dz) ↔vy(Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -4164,7 +4164,7 @@
         },
         {
           "id": 41,
-          "question": "∼[∀x (Cx v Dx) v ∼∀y ( Cy v Dy)] ve [∼∀x (Cx v Dx).∀y (Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼[∀x (Cx v Dx) v ∼∀y (Cy v Dy)] ve [∼∀x (Cx v Dx).∀y (Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -4181,7 +4181,7 @@
         },
         {
           "id": 42,
-          "question": "∀y (Ay →By) ∀y (Cy v Dy)] ve [∼∀y(Cy v Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∀y (Ay →By) ∀y (Cy v Dy)] ve [∼∀y(Cy v Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -4198,7 +4198,7 @@
         },
         {
           "id": 43,
-          "question": "∼ [∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (Cx∨Dx) v ∼∀y (Cy Dy) ] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼ [∀x (Cx v Dx) →∼∀y (Cy v Dy)] ve [∼∀x (Cx∨Dx) v ∼∀y (Cy Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -4232,7 +4232,7 @@
         },
         {
           "id": 45,
-          "question": "∼[∀y (Cy → Dy)→ ∼ ∀y(Cy .Dy)] ve [∀y(Cy → Dy).∀y(Cy .Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
+          "question": "∼[∀y (Cy → Dy)→ ∼ ∀y(Cy.Dy)] ve [∀y(Cy → Dy).∀y(Cy.Dy)] ifadeleri için hakkında aşağıdaki şıklardan hangisi doğrudur?",
           "options": {
             "A": "Hiçbiri",
             "B": "Geçerli değil",
@@ -4294,7 +4294,7 @@
       "questions": [
         {
           "id": 1,
-          "question": "∼[∼∀y (Cy v Dy) v ∀x(Cx v Dx)] ve [∀y (Cy v Dy) . ∼∀x(Cx v Dx)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "∼[∼∀y (Cy v Dy) v ∀x(Cx v Dx)] ve [∀y (Cy v Dy). ∼∀x(Cx v Dx)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Özdeş değil",
             "B": "Belirsiz",
@@ -4311,7 +4311,7 @@
         },
         {
           "id": 2,
-          "question": "[∀y (Cy .Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z (Cz v Dz)↔ ∀y (Cy .Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "[∀y (Cy.Dy)↔ ∼∀z (Cz v Dz)] ve [∼∀z (Cz v Dz)↔ ∀y (Cy.Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Özdeş",
             "B": "Özdeş değil",
@@ -4464,7 +4464,7 @@
         },
         {
           "id": 11,
-          "question": "∼[ ∃x (Ax→Bx) → ∀y (Cy v Dy) ] ve [ ∼∀x (Ax→Bx)∼∀y (Cy v Dy) ] ifadeleri için aşağıdakilerden hangisi doğrudur?",
+          "question": "∼[∃x (Ax→Bx) → ∀y (Cy v Dy)] ve [∼∀x (Ax→Bx)∼∀y (Cy v Dy)] ifadeleri için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Tutarlı değil",
             "B": "Özdeş değil",
@@ -4534,11 +4534,11 @@
           "id": 15,
           "question": "Çok değerli mantık kuralları göz önünde bulundurulduğunda aşağıdakilerden hangisi yanlıştır?",
           "options": {
-            "A": "p → q = min⁡ [1, (1 – p) + q ]",
-            "B": "p ∨ q = max⁡ ( p , q)",
-            "C": "p ∧ q = min ⁡( p , q)",
+            "A": "p → q = min⁡ [1, (1 – p) + q]",
+            "B": "p ∨ q = max⁡ (p, q)",
+            "C": "p ∧ q = min ⁡(p, q)",
             "D": "∼ p = 1 - p",
-            "E": "p ∨ q = min ( p )"
+            "E": "p ∨ q = min (p)"
           },
           "correct_answer": "E",
           "explanation": "",

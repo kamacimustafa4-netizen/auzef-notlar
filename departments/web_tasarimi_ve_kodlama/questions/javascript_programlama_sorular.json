@@ -85,8 +85,8 @@
           "question": "En az bir kere çalışan döngü türü aşağıdaki seçeneklerin hangisinde verilmiştir?",
           "options": {
             "A": "for döngüsü",
-            "B": "for .. out döngüsü",
-            "C": "for .. at döngüsü",
+            "B": "for.. out döngüsü",
+            "C": "for.. at döngüsü",
             "D": "while döngüsü",
             "E": "do-while döngüsü"
           },
@@ -169,11 +169,11 @@
           "id": 10,
           "question": "Yukarıda verilen if-else koşul yapısının Ternary operatörü eşleniği aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
           "options": {
-            "A": "cikti = (x == y) ? \"Esit\" : \"Esit degil\";",
-            "B": "cikti = (x == y) : \"Esit\" ? \"Esit degil\";",
-            "C": "cikti = (x == y) & \"Esit\" ? \"Esit degil\";",
-            "D": "cikti = (x == y) ? \"Esit degil\";",
-            "E": "(x == y) = cikti ? \"Esit\" : \"Esit degil\";"
+            "A": "cikti = (x == y)? \"Esit\": \"Esit degil\";",
+            "B": "cikti = (x == y): \"Esit\"? \"Esit degil\";",
+            "C": "cikti = (x == y) & \"Esit\"? \"Esit degil\";",
+            "D": "cikti = (x == y)? \"Esit degil\";",
+            "E": "(x == y) = cikti? \"Esit\": \"Esit degil\";"
           },
           "correct_answer": "",
           "explanation": "",
@@ -269,7 +269,7 @@
         },
         {
           "id": 16,
-          "question": "Aşağıdakilerden hangisi JavaScript dilinin temel özelliklerinden biri değildir ?",
+          "question": "Aşağıdakilerden hangisi JavaScript dilinin temel özelliklerinden biri değildir?",
           "options": {
             "A": "JavaScript dili tarayıcılar tarafından yorumlanır.",
             "B": "JavaScript dili, değişkenin değerine göre veri tipini belirler.",
@@ -482,9 +482,9 @@
           "options": {
             "A": "do-while döngüsü",
             "B": "while döngüsü",
-            "C": "for .. at döngüsü",
+            "C": "for.. at döngüsü",
             "D": "for döngüsü",
-            "E": "for .. out döngüsü"
+            "E": "for.. out döngüsü"
           },
           "correct_answer": "",
           "explanation": "",
@@ -531,11 +531,11 @@
           "id": 11,
           "question": "Yukarıdaki if-else yapısının Ternary operatörü ile eşleniği hangisidir?",
           "options": {
-            "A": "cikti = (x == y) ? \"Esit\" : \"Esit degil\";",
-            "B": "cikti = (x == y) : \"Esit\" ? \"Esit degil\";",
-            "C": "cikti = (x == y) ? \"Esit\" ? \"Esit degil\";",
-            "D": "cikti = (x == y) & \"Esit\" ? \"Esit degil\";",
-            "E": "(x == y) = cikti ? \"Esit\" : \"Esit degil\";"
+            "A": "cikti = (x == y)? \"Esit\": \"Esit degil\";",
+            "B": "cikti = (x == y): \"Esit\"? \"Esit degil\";",
+            "C": "cikti = (x == y)? \"Esit\"? \"Esit degil\";",
+            "D": "cikti = (x == y) & \"Esit\"? \"Esit degil\";",
+            "E": "(x == y) = cikti? \"Esit\": \"Esit degil\";"
           },
           "correct_answer": "",
           "explanation": "",
@@ -797,7 +797,7 @@
           "id": 7,
           "question": "DOM ile \"fiyat\" isimli sınıfa sahip form elemanlarını seçmek için aşağıdaki JavaScript kodlarından hangisi kullanılmalıdır?",
           "options": {
-            "A": "document.getElementsByTagName(\"fiyat\") ;",
+            "A": "document.getElementsByTagName(\"fiyat\");",
             "B": "document.getElementById(\"fiyat\");",
             "C": "document.getElementsByName(\"fiyat\");",
             "D": "document.querySelector(\"#fiyat\");",
@@ -831,11 +831,11 @@
           "id": 9,
           "question": "Yukarıdaki div elemanından önce \"İÜ AUZEF\" içerikli bir paragraf ekleyen JavaScript kodu aşağıdakilerden hangisidir?",
           "options": {
-            "A": "const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; const divim = document.getElementById( \"myDIV\"); divim.insertBefore(paragraf);",
-            "B": "const divim = document.getElementById( \"myDIV\"); const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; divim.appendChild(paragraf);",
-            "C": "const divim = document.getElementById( \"myDIV\"); const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; divim.append(paragraf);",
-            "D": "const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; const divim = document.getElementById( \"myDIV\"); divim.before(paragraf);",
-            "E": "const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; const divim = document.getElementById( \"myDIV\"); divim.after(paragraf);"
+            "A": "const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; const divim = document.getElementById(\"myDIV\"); divim.insertBefore(paragraf);",
+            "B": "const divim = document.getElementById(\"myDIV\"); const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; divim.appendChild(paragraf);",
+            "C": "const divim = document.getElementById(\"myDIV\"); const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; divim.append(paragraf);",
+            "D": "const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; const divim = document.getElementById(\"myDIV\"); divim.before(paragraf);",
+            "E": "const paragraf = document.createElemen t(\"p\"); paragraf.innerHTML = \"İÜ AUZEF\"; const divim = document.getElementById(\"myDIV\"); divim.after(paragraf);"
           },
           "correct_answer": "D",
           "explanation": "",
@@ -984,11 +984,11 @@
           "id": 18,
           "question": "Yukarıdaki if-else koşul yapısının ternary operatörü eşleniği seçeneklerin hangisinde doğru biçimde verilmiştir?",
           "options": {
-            "A": "var age = 20; var message = (age >= 18) : \"Yetişkin\" ? \"Çocuk\"; console.log(message);",
-            "B": "var age = 20; var message = (age < 18) ? \"Yetişkin\" < \"Çocuk\"; console.log(message);",
-            "C": "var age = 20; var message = (age >= 18) ? \"Yetişkin\" : \"Çocuk\"; console.log(message);",
-            "D": "var age = 20; var message = (age < 18) ? \"Yetişkin\" : \"Çocuk\"; console.log(message);",
-            "E": "var age = 20; var message = (age >= 18) ? \"Çocuk\" : \"Yetişkin\"; console.log(message);"
+            "A": "var age = 20; var message = (age >= 18): \"Yetişkin\"? \"Çocuk\"; console.log(message);",
+            "B": "var age = 20; var message = (age < 18)? \"Yetişkin\" < \"Çocuk\"; console.log(message);",
+            "C": "var age = 20; var message = (age >= 18)? \"Yetişkin\": \"Çocuk\"; console.log(message);",
+            "D": "var age = 20; var message = (age < 18)? \"Yetişkin\": \"Çocuk\"; console.log(message);",
+            "E": "var age = 20; var message = (age >= 18)? \"Çocuk\": \"Yetişkin\"; console.log(message);"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -1282,7 +1282,7 @@
             "B": "const sayilar = [3, 8, 7, -6, 9, undef ined];",
             "C": "let bolumler = new Array(\"Web Tasarımı ve Kodlama\", \"Bilgisayar Programcılığı \", \"Grafik Tasarımı\", true);",
             "D": "let meyveler = [\"Elma\", \"Armut\", \"Kira z\", null];",
-            "E": "let fakulteler = { İKT: \"İktisat\", İŞL : \"İşletme\", EDB: \"Edebiyat\", AUZ: \"Aç ık ve Uzaktan Eğitim Fakültesi\" };"
+            "E": "let fakulteler = { İKT: \"İktisat\", İŞL: \"İşletme\", EDB: \"Edebiyat\", AUZ: \"Aç ık ve Uzaktan Eğitim Fakültesi\" };"
           },
           "correct_answer": "",
           "explanation": "",
@@ -1606,11 +1606,11 @@
           "id": 14,
           "question": "Yukarıdaki if-else koşul yapısının ternary operatörü eşleniği aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
           "options": {
-            "A": "kayitDurumu = true ? false ? (yas >= 18);",
-            "B": "kayitDurumu = (yas >= 18) ? true ? false;",
-            "C": "kayitDurumu = (yas >= 18) ? true : false;",
-            "D": "kayitDurumu = true ? (yas >= 18) : false;",
-            "E": "kayitDurumu = (yas >= 18) : true : false;"
+            "A": "kayitDurumu = true? false? (yas >= 18);",
+            "B": "kayitDurumu = (yas >= 18)? true? false;",
+            "C": "kayitDurumu = (yas >= 18)? true: false;",
+            "D": "kayitDurumu = true? (yas >= 18): false;",
+            "E": "kayitDurumu = (yas >= 18): true: false;"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -1674,11 +1674,11 @@
           "id": 18,
           "question": "Kullanıcıdan bir sayı girmesini isteyen ve kullanıcı \"0\" girene kadar girilen sayıların toplamını hesaplayan JavaScript programı yukarıda verilmiştir. Kodda … ile verilen boşluğa aşağıdakilerden hangisi getirilmelidir?",
           "options": {
-            "A": "num != 0",
+            "A": "num!= 0",
             "B": "sonuc == 0",
             "C": "num == 0",
             "D": "num > 0",
-            "E": "sonuc != 0"
+            "E": "sonuc!= 0"
           },
           "correct_answer": "A",
           "explanation": "",

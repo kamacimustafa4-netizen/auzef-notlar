@@ -804,8 +804,8 @@
           "question": "Ek açıklama kullanılarak yönetilen bir bean aşağıdakilerden hangisi ile kaydedilebilir?",
           "options": {
             "A": "<managed-bean-name>...</managed-bean-name>",
-            "B": "@ManagedProperty(value= #{...} )",
-            "C": "@ManagedBean(name = ..., eager = true)",
+            "B": "@ManagedProperty(value= #{...})",
+            "C": "@ManagedBean(name =..., eager = true)",
             "D": "@RequestScoped(...)",
             "E": "<managed-bean>...</managed-bean>"
           },
@@ -1137,8 +1137,8 @@
           "id": 5,
           "question": "Ek açıklama kullanılarak yönetilen bir bean aşağıdakilerden hangisi ile kaydedilebilir?",
           "options": {
-            "A": "<managed-bean> ... </managed-bean>",
-            "B": "@ManagedBean(name = ....., eager = true)",
+            "A": "<managed-bean>... </managed-bean>",
+            "B": "@ManagedBean(name =....., eager = true)",
             "C": "<managed-bean-name>...</managed-bean-name>",
             "D": "@RequestScoped(.....)",
             "E": "@ManagedProperty(value=\"#{.....}\")"
@@ -1291,8 +1291,8 @@
           "question": "Aşağıdakilerden hangisi maven ile oluşturulan projeyi Eclipse IDE'ye aktaran adımlardan biri değildir?",
           "options": {
             "A": "Alma sihirbazını kullanarak projeyi Eclipse'e aktarın.",
-            "B": "\"Dosya->Dışa Aktar ...->Mevcut proje çalışma alanı\"na gidin.",
-            "C": "\"Dosya->İçe Aktar ...->Mevcut proje çalışma alanı\"na gidin.",
+            "B": "\"Dosya->Dışa Aktar...->Mevcut proje çalışma alanı\"na gidin.",
+            "C": "\"Dosya->İçe Aktar...->Mevcut proje çalışma alanı\"na gidin.",
             "D": "Kopyalanacak projeleri kontrol edilecek çalışma alanına kaydedin.",
             "E": "Helloworld için kök dizini seçin."
           },
@@ -1556,11 +1556,11 @@
           "id": 9,
           "question": "Aşağıdakilerden hangisi bir pom.xml dosyasında bulunamaz?",
           "options": {
-            "A": "<dependencies> ... </dependencies>",
+            "A": "<dependencies>... </dependencies>",
             "B": "<version> </version>",
             "C": "<body>...</body>",
             "D": "<groupId>...</groupId>",
-            "E": "<dependency> ... </dependency>"
+            "E": "<dependency>... </dependency>"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -2011,9 +2011,9 @@
           "options": {
             "A": "@ManagedProperty(value= \"#{..... } \")",
             "B": "@RequestScoped(.....)",
-            "C": "<managed-bean> ... </managed-bean>",
+            "C": "<managed-bean>... </managed-bean>",
             "D": "<managed-bean-name>...</managed-bean-name>",
-            "E": "@ManagedBean(name = ....., eager = true)"
+            "E": "@ManagedBean(name =....., eager = true)"
           },
           "correct_answer": "E",
           "explanation": "",

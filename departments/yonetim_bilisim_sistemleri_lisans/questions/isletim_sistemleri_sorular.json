@@ -1,350 +1,13 @@
 {
-  "course": "Isletim Sistemleri",
+  "course": "İşletim Sistemleri",
   "lesson_code": "ISLETIM_SISTEMLERI",
-  "exam_count": 7,
   "exams": [
     {
-      "title": "İşletim Sistemleri 2024-2025 Vize",
-      "exam_title": "İşletim Sistemleri 2024-2025 Vize",
+      "title": "İşletim Sistemleri 2022-2023 Vize",
       "exam_type": "vize",
-      "year": "2024-2025",
-      "question_count": 19,
-      "source_url": "",
-      "file_name": "Isletim_Sistemleri_Vize_Sorulari.docx",
-      "questions": [
-        {
-          "id": 1,
-          "question": "Öncelik temelli planlama algoritması ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Önceliği yüksek olan proses ilk önce CPU'ya anahtarlanır.",
-            "B": "Öncelik değerini ifade eden sayısal değerin yüksek olması her zaman prosesin daha öncelikli olduğunu gösterir.",
-            "C": "Proses süreci boyunca öncelik değeri değişmezse sabit öncelik ismi verilir.",
-            "D": "Kesintili öncelik değerinde, proses çalışır durumdayken kendisinden daha öncelikli bir prosesin gelmesi durumunda CPU yeni gelen prosese anahtarlanır.",
-            "E": "Kesintisiz ve kesintili öncelik temelli algoritma olmak üzere 2 farklı yaklaşımı vardır."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Aşağıda verilen programlama dillerinden hangisinde yorumlayıcı kullanılmaktadır?",
-          "options": {
-            "A": "C",
-            "B": "XML",
-            "C": "C#",
-            "D": "Pascal",
-            "E": "C++"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Bellekte boş bölgelerin büyükleri sırasıyla 8K, 7K, 5K, 10K, 3K'dır. Büyüklüğü 3K ve 5K olan iki proses belleğe yerleştirilmek isteniyor. Worst-fit algoritması kullanıldığında sırasıyla 3K ve 5K'lık prosesler belleğin aşağıdaki hangi bölümlerine yerleştirilir?",
-          "options": {
-            "A": "10K-8K",
-            "B": "3K-5K",
-            "C": "8K-10K",
-            "D": "8K-7K",
-            "E": "8K-5K"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "İşletim sistemleri yazılımları hakkında aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "İşletim sistemleri, donanımın karmaşıklığından kullanıcıyı soyutlar.",
-            "B": "İşletim sistemleri yalnızca bellek üzerinde çalışır ve diskte saklanmaz.",
-            "C": "İşletim sistemleri donanım kaynaklarını yöneten ve donanım ile kullanıcı arasındaki etkileşimi sağlayan yazılımlardır.",
-            "D": "İşletim sistemleri sistem yazılımlarına girmektedir.",
-            "E": "Birçok farklı işletim sistemi yazılımı geliştirilmiştir."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "50 silindir içeren bir disk düşünelim. Disk kafası başlangıçta 5 nolu silindirde durmaktadır. Sırasıyla 40, 15, 20, 5, 4 nolu silindirlere istek yapılmıştır. Buna göre silindirin toplam kafa hareketi miktarını FCFS planlama algoritmasını kullanarak hesapladığınızda sonuç aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "70",
-            "B": "81",
-            "C": "99",
-            "D": "37",
-            "E": "45"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "Boru hattı veri modelinde bilgi…… komutuyla okunur, …… komutuyla yazılır. Yukarıdaki cümlede boş bırakılan yerlere sırasıyla aşağıda terimlerden hangisi gelmelidir?",
-          "options": {
-            "A": "Test-Set",
-            "B": "Read-Set",
-            "C": "Wake-Write",
-            "D": "Read- Write",
-            "E": "Sleep-Wake"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Sayfalama tekniği ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Aynı prosese ait sayfalar ana bellekte bulunan art arda gelen çerçevelere kaydedilmelidir.",
-            "B": "Proses sayfa (page) şeklinde küçük ve eşit boyutlarda bölümlendirilir.",
-            "C": "Ana bellek, sayfa ile aynı boyutta çerçeve (frame) ismini verdiğimiz bölümlere ayrılır.",
-            "D": "Prosesin bir sayfası ana bellekteki bir çerçeve içerisinde depolanır.",
-            "E": "Sayfa ve çerçeve boyutu işletim sistemi tarafından belirlenir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Dosya ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Dosyada dosya araması veya kelime araması yapılabilir.",
-            "B": "Her dosyanın bir türü vardır.",
-            "C": "Her dosyanın bir oluşturulma zamanı vardır.",
-            "D": "Bir fotoğraf dosyasının uzantısı mp4 olabilir.",
-            "E": "Benzer özellikler gösteren bir dizi kaydın tutulabilmesini sağlayan bir veri yapısıdır."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Ana bellek ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Oluşturulan dosya ve klasörler ana bellek üzerinde tutulurlar.",
-            "B": "Ana bellek kontrollü erişime izin verir.",
-            "C": "Ana belleğin bölmelerine yerleştirilen program parçalarının ana bellekteki konumu proses kontrol bloğu kaydedicisi tarafından saklanır.",
-            "D": "Ana bellek kısıtlı boyuta sahiptir.",
-            "E": "Bilgisayarda geçici olarak verilerin saklandığı merkeze ana bellek denir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Dinamik bölümleme ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Dinamik bölümlemede, iç parçalanma problemi oluşmaz.",
-            "B": "Proseslerin boyutu ile ilgili bir kısıtlama söz konusu değildir.",
-            "C": "Dinamik bölümlemede, dış parçalanma problemi oluşmaz.",
-            "D": "Aynı anda belleğe yüklenecek proses sayısı dinamiktir.",
-            "E": "Proseslerin boyutuna göre dinamik olarak bellek bölümlendirilir."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/ISLETIM_SISTEMLERI_2024_2025_vize_soru_10.jpg",
-          "image_file": "ISLETIM_SISTEMLERI_2024_2025_vize_soru_10.jpg",
-          "image_path": "resim-sorular/ISLETIM_SISTEMLERI_2024_2025_vize_soru_10.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Aşağıda verilen tanımlardan hangisi yukarıda verilen şekli temsil eder?",
-          "options": {
-            "A": "Sabit bölümleme",
-            "B": "Sanal bellek",
-            "C": "Statik bölümleme",
-            "D": "Segmentasyon",
-            "E": "Dinamik bölümleme"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "• Kök seviyesinde dizin vardır. • Kök seviyesindeki dizinlere dosya veya başka dizinler bağlanabilir. Bu dizinlere başka dizinler veya dosyalar bağlanabilir. • Her kullanıcıya ait bir dizin yapısı vardır. Yukarıda tanımlamaları yapılan dizin saklama (hiyerarşisi) yapısı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "İki seviyeli dizinler",
-            "B": "Döngüsel olmayan graf yapısındaki dizinler",
-            "C": "Tek seviyeli dizinler",
-            "D": "Yığım yapısındaki dizinler",
-            "E": "Ağaç yapısı şeklinde olan dizinler"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Aşağıda verilen ifadelerden hangisi bilgisayar sistemleri için yanlış bir ifadedir?",
-          "options": {
-            "A": "Bilgisayarla entegre olan kasanın içinde yer alan donanım birimlerine, harici donanım birimleri denir.",
-            "B": "Kullanıcılar bilgisayara komutlar verebilir.",
-            "C": "Yazılımlar ve sürücüler donanım birimlerinin çalışmasını sağlarlar.",
-            "D": "CPU, ana bellek gibi donanım birimleri dahili donanım birimlerine örnektir.",
-            "E": "Kullanıcılar uygulama yazılımlarına doğrudan erişebilir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Aşağıdakilerden hangisi disk üzerinde tutulan dosyalara erişmek için kullanılan yöntemlerdendir?",
-          "options": {
-            "A": "Dolaylı erişim",
-            "B": "Doğrudan erişim",
-            "C": "Kuyruk erişim",
-            "D": "Bağlı erişim",
-            "E": "İndekslenmiş erişim"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Aşağıdaki seçeneklerden hangisi diskte bulunan boş alanların yönetiminde kullanılan yöntemlerden biridir?",
-          "options": {
-            "A": "Döngüsel olmayan liste",
-            "B": "Inode",
-            "C": "Bit vektör",
-            "D": "Yığın veri yapısı",
-            "E": "Kuyruk veri yapısı"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Proses küçük bir alan kaplasa dahi tahsis edilen bölümün tamamını elde tutar. Bu durum……… olarak bilinir. Yukarıda verilen cümlede boş bırakılan yere gelmesi gereken en uygun terim aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Bellek bölümü",
-            "B": "Sıkıştırma",
-            "C": "Segmente",
-            "D": "İç parçalanma",
-            "E": "Dış parçalanma"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Aşağıda verilen aktivitelerden hangisi işletim sisteminin bellek yönetimi kapsamında gerçekleştirilmez?",
-          "options": {
-            "A": "Ana bellekten diske prosesleri taşımak",
-            "B": "Tahsis edilen bellek alanını gerektiğinde geri almak.",
-            "C": "Disk planlaması yapmak.",
-            "D": "Proseslere ana bellekte yer tahsis etmek.",
-            "E": "Diskten ana belleğe program parçalarını getirmek."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Semaforlar ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Prosesler arasındaki senkronizasyonu sağlamak için geliştirilmiştir.",
-            "B": "P() işleminde değişken test edilir ve değeri azaltılır.",
-            "C": "Semafor yapısında P() ve V() işlemleri tanımlanır.",
-            "D": "V() işleminde değişken test edilir ve değeri azaltılır.",
-            "E": "P() ve V() işlemleri atomik yapıdadır."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Aşağıda verilen yöntemlerden hangisi ile kritik bölge problemi çözüme kavuşmaz?",
-          "options": {
-            "A": "Monitörler",
-            "B": "Peterson algoritması",
-            "C": "Global paylaşılan \"turn\" değişkeni",
-            "D": "Dekker algoritması",
-            "E": "Ortak değişken çözümü"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "İşletim Sistemleri 2022 Vize",
-      "exam_title": "İşletim Sistemleri 2022 Vize",
-      "exam_type": "vize",
-      "year": "2022",
+      "year": "2022-2023",
+      "file_name": "İşletim_Sistemleri_–_Yönetim_Bilişim_2022_2023_Vize.docx",
       "question_count": 20,
-      "source_url": "",
-      "file_name": "Isletim_Sistemleri_Vize_Sorulari.docx",
       "questions": [
         {
           "id": 1,
@@ -356,16 +19,12 @@
             "D": "Kümeleme",
             "E": "FAT"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
           "id": 2,
-          "question": "Bellekte boş bölgelerin büyükleri sırasıyla 10K,8K, 5K, 2K, 3K'dır. Büyüklüğü 3K ve 5K olan iki proses belleğe yerleştirilmek isteniyor. Next-fitalgoritması kullanıldığında sırasıyla 3K ve 5K'lık prosesler belleğin hangi bölümlerine yerleştirilir?",
+          "question": "Bellekte boş bölgelerin büyükleri sırasıyla 10K, 8K, 5K, 2K, 3K’dır. Büyüklüğü 3K ve 5K olan iki proses belleğe yerleştirilmek isteniyor. Next-fitalgoritması kullanıldığında sırasıyla 3K ve 5K‘lık prosesler belleğin hangi bölümlerine yerleştirilir?",
           "options": {
             "A": "3K-5K",
             "B": "8K-5K",
@@ -373,12 +32,8 @@
             "D": "10K-8K",
             "E": "3K-10K"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
           "id": 3,
@@ -390,16 +45,12 @@
             "D": "Öncelik ataması",
             "E": "Bellek yönetimi"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
           "id": 4,
-          "question": "Proses P0P1P2 Varış zamanı (AT ) 035 Burst time (BT ) 234P0, P1 ve P2 isminde 3 farklı proses bekleme kuyruğundadır. Yukarıda verilen bilgilere göre FCFS algoritması kullanıldığında proseslerin bekleme süreleri aşağıdakilerden hangisidir?",
+          "question": "Proses P0P1P2 Varış zamanı (AT) 035 Burst time (BT) 234P0, P1 ve P2 isminde 3 farklı proses bekleme kuyruğundadır. Yukarıda verilen bilgilere göre FCFS algoritması kullanıldığında proseslerin bekleme süreleri aşağıdakilerden hangisidir?",
           "options": {
             "A": "P0= 0; P1=1; P2=0",
             "B": "P0= 2; P1=0; P2=1",
@@ -407,12 +58,8 @@
             "D": "P0= 0; P1=0; P2=2",
             "E": "P0= 0; P1=3; P2=2"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
           "id": 5,
@@ -424,12 +71,8 @@
             "D": "Paylaşımlı dosyalar",
             "E": "Mesaj geçişi yöntemi"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
           "id": 6,
@@ -441,12 +84,8 @@
             "D": "Proseslerin boyutu kısıtlanır.",
             "E": "Aynı anda belleğe yüklenecek proses sayısı azdır."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
           "id": 7,
@@ -458,12 +97,8 @@
             "D": "QNX",
             "E": "iOS"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
           "id": 8,
@@ -475,12 +110,8 @@
             "D": "Proses yönetimi",
             "E": "Sunucu yönetimi"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
           "id": 9,
@@ -492,12 +123,8 @@
             "D": "Konum",
             "E": "Disk yapısı"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
           "id": 10,
@@ -509,12 +136,8 @@
             "D": "Uzun dönemli planlayıcı",
             "E": "CPU planlayıcı"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
           "id": 11,
@@ -523,19 +146,15 @@
             "A": "Sayfa tablolarında sayfa numarası ve çerçeveler ileilgili bilgiler bulunur.",
             "B": "Mantıksal adres sayfa numarası ve offsetbölümlerinden oluşur.",
             "C": "Sayfa tabloları diskte saklanır.",
-            "D": "CPU'da her bir sayfa için mantıksal bir adres üretilir.",
+            "D": "CPU’da her bir sayfa için mantıksal bir adres üretilir.",
             "E": "İşletim sistemi sayfaya fiziksel adresi kullanarakerişim sağlar."
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
           "id": 12,
-          "question": "Eğer bir proses giriş-çıkış işlemlerine ihtiyaç duyarsa . . . . . . . . . . . durumuna geçer. Yukarıda verilen cümle aşağıda verilen terimlerden hangisiyle en uygun şekilde tamamlanır?",
+          "question": "Eğer bir proses giriş-çıkış işlemlerine ihtiyaç duyarsa........... durumuna geçer. Yukarıda verilen cümle aşağıda verilen terimlerden hangisiyle en uygun şekilde tamamlanır?",
           "options": {
             "A": "Yeni",
             "B": "Askıya al/bekle",
@@ -543,12 +162,8 @@
             "D": "Hazır",
             "E": "Çalışıyor"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
           "id": 13,
@@ -560,12 +175,8 @@
             "D": "Prosesin durumunu saklar.",
             "E": "Prosesin öncelik değerini saklar."
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
           "id": 14,
@@ -577,29 +188,21 @@
             "D": "Dosyayı açmak",
             "E": "Dosyada arama yapmak"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
           "id": 15,
           "question": "En kısa arama süresini dikkate alarak disk planlamasını yapan algoritma hangisidir?",
           "options": {
-            "A": "SSTF (shortest seek time first ) algoritması",
+            "A": "SSTF (shortest seek time first) algoritması",
             "B": "FCFS algoritması",
             "C": "LOOK algoritması",
             "D": "C-LOOK algoritması",
             "E": "SCAN algoritması"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
           "id": 16,
@@ -608,19 +211,15 @@
             "A": "Birincil ve ikincil bellek olmak üzere 2 türü vardır.",
             "B": "Birincil bellek geçici verilerin tutulduğu birimlerdir.",
             "C": "İkincil bellek kalıcı verilerin tutulduğu birimlerdir.",
-            "D": "İkili sayı sisteminin en solunda bulunan bit düşüköncelikli bittir (LSB ) .",
+            "D": "İkili sayı sisteminin en solunda bulunan bit düşüköncelikli bittir (LSB).",
             "E": "Veriler bellekte ikili sayı sistemi şeklinde saklanırlar."
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
           "id": 17,
-          "question": "(eklenecek )Yukarıda verilen şekil hangi dizin hiyerarşisini temsil eder?",
+          "question": "(eklenecek)Yukarıda verilen şekil hangi dizin hiyerarşisini temsil eder?",
           "options": {
             "A": "Döngüsel olmayan graf yapısındaki dizinler",
             "B": "İki seviyeli dizinler",
@@ -628,16 +227,12 @@
             "D": "Ağaç yapısı şeklinde olan dizinler",
             "E": "Tek seviyeli dizinler"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
           "id": 18,
-          "question": "Aranan sayfa ana bellekte bulunamadıysa . . . . . . . . . . . . oluşur. Yukarıda verilen cümle aşağıda verilen terimlerden hangisiyle en uygun şekilde tamamlanır?",
+          "question": "Aranan sayfa ana bellekte bulunamadıysa............ oluşur. Yukarıda verilen cümle aşağıda verilen terimlerden hangisiyle en uygun şekilde tamamlanır?",
           "options": {
             "A": "TLB hit",
             "B": "Sayfa hatası",
@@ -645,12 +240,8 @@
             "D": "Sayfa hit",
             "E": "TLB miss"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
           "id": 19,
@@ -662,12 +253,8 @@
             "D": "Opera",
             "E": "Word"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
           "id": 20,
@@ -679,374 +266,17 @@
             "D": "Zaman paylaşımlı işlemler gerçekleştirir.",
             "E": "Düşük maliyetlidir."
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         }
       ]
     },
     {
-      "title": "İşletim Sistemleri 2024-2025 Final",
-      "exam_title": "İşletim Sistemleri 2024-2025 Final",
+      "title": "İşletim Sistemleri 2022-2023 Final",
       "exam_type": "final",
-      "year": "2024-2025",
+      "year": "2022-2023",
+      "file_name": "İşletim_Sistemleri_2022_–_Auzef_Yönetim_Bilişim_Sist._YilYok_Final.docx",
       "question_count": 20,
-      "source_url": "",
-      "file_name": "Isletim_Sistemleri_Final_Sorulari.docx",
-      "questions": [
-        {
-          "id": 1,
-          "question": "Aşağıdakilerden hangisi kritik bölge problemini çözmek için geliştirilen donanıma dayalı çözümlerden biridir?",
-          "options": {
-            "A": "Dekker algoritması",
-            "B": "Monitör mekanizması",
-            "C": "Semafor kullanımı",
-            "D": "Peterson algoritması",
-            "E": "Kesme işlemlerini aktif ve pasif hale getirme"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Gerçek zamanlı işletim sistemleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Tüm kullanıcılara eşit zaman dilimi ayrılır.",
-            "B": "Kritik görevler için tercih edilen bir işletim sistemidir.",
-            "C": "Deterministtir.",
-            "D": "Görevler hassas bir zamanlama ile icra edilirler.",
-            "E": "Tepki ve işlem süresi oldukça kısadır."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Aşağıda verilen tanımlardan hangisi doğru açıklanmıştır?",
-          "options": {
-            "A": "Kritik bölge: Bir prosesin paylaşılan kaynaklar üzerinde işlem yaptığı kod parçası kritik bölge olarak adlandırılır.",
-            "B": "İlerleme koşulu: Proses kritik bölgeye girmek için sonsuz bekleme yapmamalıdır.",
-            "C": "Proses senkronizasyonu: Birden fazla prosesin birbirlerini bekleme durumudur.",
-            "D": "Canlı kilitlenme: İki veya daha fazla proses sonsuz süre birbirlerini beklemesidir.",
-            "E": "Karşılıklı dışlama: Kritik bölgede herhangi bir proses bulunmuyorsa kritik bölgeye girmek isteyen başka proseslerden birine izin verilmelidir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "Windows işletim sistemi için geçerli olan lisanslama modeli aşağıdakilerden hangisi olabilir?",
-          "options": {
-            "A": "GPL (General Public License)",
-            "B": "MIT Lisansı",
-            "C": "Apache Lisansı",
-            "D": "BSD Lisansı",
-            "E": "OEM (Original Equipment Manufacturer)"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "SSH aşağıdaki portlardan hangisi ile çalışır?",
-          "options": {
-            "A": "25",
-            "B": "23",
-            "C": "21",
-            "D": "22",
-            "E": "80"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "Segmentasyon yöntemi kullanılarak mantıksal adresin fiziksel adrese dönüştürülme adımları aşağıdaki hangi seçenekte doğru olarak verilmektedir?",
-          "options": {
-            "A": "Segment numarası ile segment tablosuna ulaşılır. Segment tablosundan segment başlangıç adresi alınır. Segment başlangıç adresine offset değeri eklenir. Fiziksel adres elde edilmiş olur.",
-            "B": "Segment numarası ve segment tablosunun başlangıç adresi toplanarak ilgili segmentin ana bellekte bulunduğu adres bulunur. İlgili segmentin başlangıç adresi tablodan alınır. Başlangıç adresine offset değeri eklenerek fiziksel adres elde edilmiş olur.",
-            "C": "Segment numarası ve segment tablosunun başlangıç adresi toplanarak ilgili segmentin ana bellekte bulunduğu adres bulunur. Segment tablosundan çerçeve numarası alınır. Segment numarasının yanına offset değeri getirilir. Fiziksel adres elde edilmiş olur.",
-            "D": "Segment numarası ile segment tablosuna ulaşılır. Segment tablosundan segmentin başlangıç adresi alınır. Başlangıç adresine offset değeri eklenir ve fiziksel adres elde edilmiş olur.",
-            "E": "Segment numarası ve segment tablosunun başlangıç adresi toplanarak ilgili segmentin ana bellekte bulunduğu adres bulunur. Çerçeve numarasının yanına offset değeri getirilir ve fiziksel adres elde edilmiş olur"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "En kısa arama süresini dikkate alarak disk planlamasını yapan algoritma aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "C-LOOK algoritması",
-            "B": "SCAN algoritması",
-            "C": "SSTF (shortest seek time first) algoritması",
-            "D": "LOOK algoritması",
-            "E": "FCFS algoritması"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Aşağıda verilen aktivitelerden hangisi işletim sisteminin giriş-çıkış birimlerinin yönetimi kapsamında yer almaz?",
-          "options": {
-            "A": "Sürücülerin yönetiminin gerçekleştirilmesi",
-            "B": "Diskte boş alan yönetiminin yapılması",
-            "C": "Ön belleğe okuma-yazma işlemlerinin yapılması",
-            "D": "Giriş-çıkış birimlerine yönelik ön bellek sisteminin oluşturulması",
-            "E": "Aygıt yöneticisi arayüzünün sağlanması"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "rm -rf /home/user1 Yukarıdaki komut için aşağıdakilerden hangisi doğrudur?",
-          "options": {
-            "A": "/home/userl dizininde silme işlemi için kullanıcıdan onay ister.",
-            "B": "/home/userl yolunda yeni dizin oluşturulur.",
-            "C": "/home/userl dizini içindeki her şeyi silmeye zorlar.",
-            "D": "/home/userl dizininde silme işlemi yaparken yedek alır.",
-            "E": "Yalnızca /home/userl dizininde bulunan dosyalar silinir."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Bash scriptlerinde değişkenler aşağıdaki işaretlerden hangisi ile birlikte kullanılabilir?",
-          "options": {
-            "A": "$degisken",
-            "B": "yüzde degisken",
-            "C": "=degisken",
-            "D": "_degisken",
-            "E": "#degisken"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Linux işletim sistemi tanımı aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Sadece sunucularda kullanılan bir işletim sistemidir.",
-            "B": "Linux çekirdeği üzerine inşa edilmiş açık kaynak kodlu bir işletim sistemidir.",
-            "C": "Kapalı kaynak kodlu bir işletim sistemidir.",
-            "D": "Sadece kişisel bilgisayarlarda kullanılan bir işletim sistemidir.",
-            "E": "Bir web tarayıcısıdır."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "auzef.txt isimli bir dosyanın grubu editors grubu olarak değiştirilmek isteniyor. Yukarıdaki isteğin gerçekleştirilmesi için aşağıdaki komutlardan hangisi kullanılmalıdır?",
-          "options": {
-            "A": "chown editors auzef.txt",
-            "B": "chmod editors auzef.txt",
-            "C": "chmod 777 editors auzef.txt",
-            "D": "chown :editors auzef.txt",
-            "E": "chmod -group editors auzef.txt"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Komut satırdan dosya türünü öğrenmek için aşağıdaki komutlardan hangisi kullanılmalıdır?",
-          "options": {
-            "A": "type",
-            "B": "whatis",
-            "C": "dir",
-            "D": "file",
-            "E": "which"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Linux'ta bir dosya için 110 000 000 izni verilmiştir. Yukarıdaki bilgiye göre aşağıdakilerden hangisi doğrudur?",
-          "options": {
-            "A": "Dosya sahibi yazamaz.",
-            "B": "Diğer kullanıcıların hiçbir izni yoktur.",
-            "C": "Dosya sahibi okuyamaz.",
-            "D": "Sadece yönetici izin bilgisini değiştirebilir.",
-            "E": "İzin bilgisi \"d rw- --\"'dir."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Linux'de auzef isimli kullanıcı istanbul isimli gruptan çıkarılmak isteniyor. Aşağıdaki komutlardan hangisi kullanılmalıdır?",
-          "options": {
-            "A": "sudo group -r auzef istanbul",
-            "B": "sudo gpasswd -u auzef -g istanbul",
-            "C": "sudo passwd -d auzef istanbul",
-            "D": "sudo passwd -u auzef -g istanbul",
-            "E": "sudo gpasswd -d auzef istanbul"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "50 silindir içeren bir disk düşünelim. Disk kafası başlangıçta 5 nolu silindirde bulunmaktadır. Sırasıyla 5, 15, 20, 10, 25, 40, 50 nolu silindirlere istek vardır. Silindirin toplam kafa hareketi SSTF planlama algoritmasını kullanarak hesaplandığında adedi aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "55",
-            "B": "65",
-            "C": "75",
-            "D": "70",
-            "E": "45"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Linux ile ilgili aşağıda verilen ifadelerden hangisi doğrudur?",
-          "options": {
-            "A": "Ubuntu Server, Gnome arayüzü ile gelmektedir.",
-            "B": "Ubuntu sadece harici bellekten kurulabilir.",
-            "C": "Ubuntu kurulumunda disk bölümleri ayarlanamaz.",
-            "D": "LTS, uzun süreli destek anlamına gelir.",
-            "E": "Linux, sanal bilgisayara kurulamaz."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Aşağıdaki komutlardan hangisi çeşitli Linux dağıtımlarında paket kurulumu için kullanılan kurulum komutu olamaz?",
-          "options": {
-            "A": "apt install paket",
-            "B": "apt-get install paket",
-            "C": "rpm install paket",
-            "D": "yum install paket",
-            "E": "dnf install paket"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Chocolatey için aşağıdakilerden hangisi doğrudur?",
-          "options": {
-            "A": "Windows paket yöneticisidir.",
-            "B": "Ücretlidir.",
-            "C": "Fedora paket yöneticisidir.",
-            "D": "MacOS paket yöneticisidir.",
-            "E": "Ubuntu paket yöneticisidir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Dinamik bölümlemede tahsis edilen bölümler ve boş alanların kayıtlarının tutulması gerekir. İşletim sistemi bu görevi icra edebilmek için aşağıdaki hangi veri yapısını kullanır?",
-          "options": {
-            "A": "Yığın veri yapısı",
-            "B": "Ağaç veri yapısı",
-            "C": "Bağlantılı liste veri yapısı",
-            "D": "Dizi",
-            "E": "Kuyruk veri yapısı"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "İşletim Sistemleri 2022 Final",
-      "exam_title": "İşletim Sistemleri 2022 Final",
-      "exam_type": "final",
-      "year": "2022",
-      "question_count": 19,
-      "source_url": "",
-      "file_name": "Isletim_Sistemleri_Final_Sorulari.docx",
       "questions": [
         {
           "id": 1,
@@ -1058,16 +288,12 @@
             "D": "Is -I",
             "E": "Is -p"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
           "id": 2,
-          "question": "Aşağıdakilerden hangisi Linux'de çalışan güvenlik duvarı uygulamasıdır?",
+          "question": "Aşağıdakilerden hangisi Linux’de çalışan güvenlik duvarı uygulamasıdır?",
           "options": {
             "A": "fwservice",
             "B": "ipfwll",
@@ -1075,12 +301,8 @@
             "D": "firewalld",
             "E": "ifconfig"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
           "id": 3,
@@ -1092,12 +314,8 @@
             "D": "Dosya tahsis tablosunda her bir disk bloğu bir girdidir.",
             "E": "Bağlı liste yapısıyla yer tahsis etme yönteminde dosya blokları sabit disk üzerinde ardı ardına kaydedilmek zorunda değildir."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
           "id": 4,
@@ -1109,15 +327,24 @@
             "D": "Is -I",
             "E": "Is-a"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
           "id": 5,
+          "question": "#! /bin/bash yas=20 if [$yas -gt 21] then echo “21 den büyük! elif [$yas -lt 20] then echo “20 den küçük! ” else echo “20 yaşında! ” fi Scripti çalıştırıldığında hangi çıktıyı verir?",
+          "options": {
+            "A": "21 yaşında!",
+            "B": "Hata verir",
+            "C": "20 yaşında!",
+            "D": "20 den küçük!",
+            "E": "21 den büyük!"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 6,
           "question": "Linux dağıtımları ile ilgili aşağıdakı bilgilerden hangisi yanlıştır?",
           "options": {
             "A": "Farklı donanımlar için çeşitlendirilebilir.",
@@ -1126,15 +353,11 @@
             "D": "Tüm dağıtımlar GNU tarafından çıkarılır.",
             "E": "Farklı amaçlar için özelleştirilmişlerdir."
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 6,
+          "id": 7,
           "question": "Aşağıdakilerden hangisi bilgisayar sistemlerinin temel bileşenlerinden biri değildir?",
           "options": {
             "A": "Kullanıcı",
@@ -1143,15 +366,11 @@
             "D": "Ağ",
             "E": "Yazılım"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
-          "id": 7,
+          "id": 8,
           "question": "Linux nedir?",
           "options": {
             "A": "Bir işletim sistemi çekirdeğidir.",
@@ -1160,15 +379,11 @@
             "D": "Bir işletim sistemidir.",
             "E": "Bir işletim sistemi uygulamasıdır."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 8,
+          "id": 9,
           "question": "Proses kontrol bloğu ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
           "options": {
             "A": "Diskte saklanan program parçaları hakkında bilgiler saklar.",
@@ -1177,33 +392,25 @@
             "D": "Her proses için işletim sistemi tarafından tutulan bir veri yapısıdır.",
             "E": "Prosesin özellikleri proses kontrol bloğunda tutulur."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 9,
+          "id": 10,
           "question": "Stack bölümü ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
           "options": {
             "A": "Stack işaretçisi ile heap işaretçisi karşılaşırsa kullanılabilir boş belleğin tükendiği anlamına gelir.",
             "B": "Bir program tarafından çağrılan bir fonksiyonun yerel değişkenlerini, yerel fonksiyonlarını ve dönüş adreslerini saklar.",
             "C": "Programın çalıştırılabilir komutlanının bulunduğu bölümdür.",
             "D": "Stack işaretçisi yığının en üst noktasını gösterir.",
-            "E": "\"En son giren en önce çıkar-FIFO\" mantığı ile çalışır."
+            "E": "“En son giren en önce çıkar-FIFO” mantığı ile çalışır."
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
-          "id": 10,
-          "question": "Windows'ta, KMS (Key Management Service) hangi amaçla kullanılır?",
+          "id": 11,
+          "question": "Windows’ta, KMS (Key Management Service) hangi amaçla kullanılır?",
           "options": {
             "A": "Microsoft Office lisanslama için kullanılır.",
             "B": "Windows lisanslannı üretir.",
@@ -1211,15 +418,11 @@
             "D": "Güncellemeler, yerel KMS sunucusu ile yapılır.",
             "E": "Windows sunucuları yönetir."
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
-          "id": 11,
+          "id": 12,
           "question": "Aşağıdaki algoritmalardan hangisi disk planlama algoritmalarından biri değildir?",
           "options": {
             "A": "SSTF (shortest seek time first) algoritmasi",
@@ -1228,15 +431,11 @@
             "D": "LOOK algoritması",
             "E": "SJF algoritmasi"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
-          "id": 12,
+          "id": 13,
           "question": "Pwd komutu için aşağıdakilerden hangisi doğrudur?",
           "options": {
             "A": "Kullanıcıya şifre atamak için kullanılır.",
@@ -1245,15 +444,11 @@
             "D": "Kullanıcının terminalde bulunduğu dizini gösterir.",
             "E": "Yeni klasör oluşturmak için kulanılır."
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 13,
+          "id": 14,
           "question": "Aşağıdaki komutlardan hangisi Ile linuxde servisler yönetilir?",
           "options": {
             "A": "systemctl",
@@ -1262,32 +457,24 @@
             "D": "apt-get",
             "E": "servicectl"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Aşağıdaki komutlardan hangisi auzef Isimil kullanıcıyı Linux'de oluşturur?",
-          "options": {
-            "A": "sudo udd -c \"AUZEF\" auzef",
-            "B": "sudo adduser -c \"AUZEF\" auzef",
-            "C": "sudo user -c \"AUZEF\" auzef",
-            "D": "sudo useradd -c \"AUZEF\" auzef",
-            "E": "sudo uadd -c \"AUZEF\" auzef"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
           "id": 15,
+          "question": "Aşağıdaki komutlardan hangisi auzef Isimil kullanıcıyı Linux’de oluşturur?",
+          "options": {
+            "A": "sudo udd -c “AUZEF” auzef",
+            "B": "sudo adduser -c “AUZEF” auzef",
+            "C": "sudo user -c “AUZEF” auzef",
+            "D": "sudo useradd -c “AUZEF” auzef",
+            "E": "sudo uadd -c “AUZEF” auzef"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 16,
           "question": "Segmentasyonla ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
           "options": {
             "A": "Segmentasyon, ana belleğin farklı boyutlarda bölümlere ayrıldığı bir bellek yönetim tekniğidir.",
@@ -1296,16 +483,12 @@
             "D": "Segment tablosu kaydedicisi, segment tablosunun başlangıç adresini saklar.",
             "E": "Prosesler eşit boyutlarda bölümlere ayrılmaktadır."
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
-          "id": 16,
-          "question": "Bellekte boş bölgelerin büyükleri sırasıyla 2K, 5K, 10K, 3K'dır. Büyüklüğü 3K ve 5K olan Ikl proses belleğe yerleştirilmek isteniyor. First-fit algoritması kullanıldığında sırasıyla 3K ve 5K'lık prosesler belleğin hangi bölümlerine yerleştirilir?",
+          "id": 17,
+          "question": "Bellekte boş bölgelerin büyükleri sırasıyla 2K, 5K, 10K, 3K’dır. Büyüklüğü 3K ve 5K olan Ikl proses belleğe yerleştirilmek isteniyor. First-fit algoritması kullanıldığında sırasıyla 3K ve 5K’lık prosesler belleğin hangi bölümlerine yerleştirilir?",
           "options": {
             "A": "10K-3K",
             "B": "5K-10K",
@@ -1313,15 +496,11 @@
             "D": "5K-3K",
             "E": "10K-5K"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
-          "id": 17,
+          "id": 18,
           "question": "SSH servisinin çalışıp çalışmadığı aşağıdakl komutlardan hangisi Ile kontrol edilir?",
           "options": {
             "A": "sudo status ssh",
@@ -1330,15 +509,11 @@
             "D": "sudo servicestat ssh",
             "E": "sudo ssh status"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
-          "id": 18,
+          "id": 19,
           "question": "Aşağıda verilen aktivitelerden hangisi İşletim sisteminin proses yönetiml kapsamında gerçekleştirilir?",
           "options": {
             "A": "Spooling işlemlerini gerçekleştirmek",
@@ -1347,198 +522,95 @@
             "D": "Disk planlaması",
             "E": "Ana belleği prosesler arasında en etkin bir şekilde paylaştırmak"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
-          "id": 19,
+          "id": 20,
           "question": "OneGet Için aşağıdakilerden hangisi yanlıştır?",
           "options": {
-            "A": "PowerShell'in bir parçasıdır.",
+            "A": "PowerShell’in bir parçasıdır.",
             "B": "Açık kaynaklıdır.",
             "C": "Windows 10 ile gelmiştir.",
             "D": "Linux ile kullanılamaz.",
             "E": "Bir paket yöneticisidir."
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         }
       ]
     },
     {
-      "title": "Isletim Sistemleri 2022-2023 Butunleme",
-      "exam_title": "Isletim Sistemleri 2022-2023 Butunleme",
+      "title": "İşletim Sistemleri 2022-2023 Bütünleme",
       "exam_type": "butunleme",
       "year": "2022-2023",
-      "question_count": 1,
-      "source_url": "",
-      "file_name": "Isletim_Sistemleri_Butunleme_Sorulari.docx",
+      "file_name": "İşletim_Sistemleri_çıkmış_sorular_2022_2023_Butunleme.docx",
+      "question_count": 20,
       "questions": [
         {
           "id": 1,
-          "question": "Aşağıdaki Windows sürümlerinden hangisi Microsoft'un özel donanımlar için çıkardığı sürümlerden biri değildir?",
+          "question": "Linux yöneticisi olan bir kullanıcı, postgres kullanıcısı ile işlem yapmak istemektedir. Bunun için aşağıdaki komutlardan hangisini kullanmalıdır?",
           "options": {
-            "A": "Windows Embedded",
-            "B": "Windows CE",
-            "C": "",
-            "D": "",
-            "E": ""
+            "A": "sudo -i -u postgres",
+            "B": "sudo -i postgres",
+            "C": "sudo login postgres",
+            "D": "sudo postgres",
+            "E": "sudo su postgres"
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "Isletim Sistemleri 2019 Butunleme",
-      "exam_title": "Isletim Sistemleri 2019 Butunleme",
-      "exam_type": "butunleme",
-      "year": "2019",
-      "question_count": 3,
-      "source_url": "",
-      "file_name": "Isletim_Sistemleri_Butunleme_Sorulari.docx",
-      "questions": [
-        {
-          "id": 18,
-          "question": "Derleyici ve yorumlayıcı yazılımları için aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Yorumlayıcılar, kaynak kodu satır satır veya bloklar halinde yorumlarlar.",
-            "B": "Derleyiciler, yorumlayıcılara nazaran daha hızlıdır.",
-            "C": "Derleyiciler ve yorumlayıcılar aynı görevi icra ederler.",
-            "D": "C++ programlama dilinde yorumlayıcı kullanılmaktadır.",
-            "E": "Derleyiciler, kaynak kodun tamamını hedef koda çevirdikten sonra çalıştırır."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
-        {
-          "id": 19,
-          "question": "Aşağıda verilen tanımlardan hangisi yukarıda verilen şekli temsil eder?",
-          "options": {
-            "A": "Segmentasyon",
-            "B": "Dinamik bölümleme",
-            "C": "Sabit bölümleme",
-            "D": "Statik bölümleme",
-            "E": "Sanal bellek"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Aşağıdakilerden hangisi bir web sunucusu uygulaması değildir?",
-          "options": {
-            "A": "Lighttpd",
-            "B": "Catty",
-            "C": "Apache",
-            "D": "IIS",
-            "E": "Nginx"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "Isletim Sistemleri 2000 Butunleme",
-      "exam_title": "Isletim Sistemleri 2000 Butunleme",
-      "exam_type": "butunleme",
-      "year": "2000",
-      "question_count": 16,
-      "source_url": "",
-      "file_name": "Isletim_Sistemleri_Butunleme_Sorulari.docx",
-      "questions": [
         {
           "id": 2,
-          "question": "Bash scripti içinde bir değişkenin değiştirilmesi istenmiyor ise hangi komut kullanılmalıdır?",
+          "question": "50 silindir içeren bir disk olduğu varsayılmaktadır. Disk kafası başlangıçta 5 nolu silindirde bulunmaktadır. Sırasıyla 5, 15, 20, 25, 40, 50 nolu silindirlere istek vardır. Scan planlama algoritması kullanıldığında silindirin toplam kafa hareketi kaç olacaktır?",
           "options": {
-            "A": "readonly",
-            "B": "unset",
-            "C": "alias",
-            "D": "lock",
-            "E": "freeze"
+            "A": "70",
+            "B": "65",
+            "C": "45",
+            "D": "55",
+            "E": "75"
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
           "id": 3,
-          "question": "/home/user1 dizinindeki tüm dosyaları /home/user2 dizinine kopyalamak için aşağıdaki komutlardan hangisi çalıştırılmalıdır?",
+          "question": "Linuxde çalışmakta olan proseslerin listesi aşağıdaki komutlardan hangisi ile alınır?",
           "options": {
-            "A": "rm -r /home/user1 /home/user2",
-            "B": "cp -r /home/user1 /home/user2",
-            "C": "mv -r /home/user1 /home/user2",
-            "D": "mv /home/user1 /home/user2",
-            "E": "cp /home/user1 /home/user2"
+            "A": "ps",
+            "B": "ls -p",
+            "C": "lsproc",
+            "D": "bg",
+            "E": "jobs"
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
           "id": 4,
-          "question": "Aşağıdakilerden hangisi CPU planlayıcısı tarafından kullanılan algoritmalardan biri değildir?",
+          "question": "Aşağıdaki işletim sistemlerinin hangisi Kubernetes kullanımı için en uygunudur?",
           "options": {
-            "A": "Round Robin",
-            "B": "PbS",
-            "C": "FCFS",
-            "D": "SJF",
-            "E": "A*"
+            "A": "CentOS",
+            "B": "RancherOS",
+            "C": "Ubuntu Server",
+            "D": "Amazon Linux",
+            "E": "Windows Server 2019"
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
           "id": 5,
-          "question": "Aşağıdakilerden hangisi kilitlenmenin oluşabilmesi için gerekli olan koşullardan biri değildir?",
+          "question": "Aşağıdaki Windows sürümlerinden hangisi Microsoft’un özel donanımlar için çıkardığı sürümlerden biri değildir?",
           "options": {
-            "A": "Karşılıklı dışlama",
-            "B": "Kesme durumu yok",
-            "C": "Döngüsel bekleme",
-            "D": "Açlık",
-            "E": "Tut ve bekle"
+            "A": "Windows Embedded",
+            "B": "Windows CE",
+            "C": "Windows 2000",
+            "D": "Windows Phone",
+            "E": "Windows Mobile"
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
           "id": 6,
@@ -1550,168 +622,24 @@
             "D": "tar",
             "E": "rpm"
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
           "id": 7,
-          "question": "Linux'de kullanıcı eklerken kullanıcının varsayılan grubu ne olur?",
+          "question": "Aşağıda verilen tanımlardan hangisi yukarıda verilen şekli temsil eder?",
           "options": {
-            "A": "\"KullanıcıAdı+Group\" isimli yeni bir grup.",
-            "B": "User isimli grup.",
-            "C": "Kullanıcı idsi ile aynı idye sahip yeni bir grup.",
-            "D": "SuperUser isimli grup.",
-            "E": "Herhangi bir gruba atanmaz."
+            "A": "Segmentasyon",
+            "B": "Dinamik bölümleme",
+            "C": "Sabit bölümleme",
+            "D": "Statik bölümleme",
+            "E": "Sanal bellek"
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
           "id": 8,
-          "question": "50 silindir içeren bir disk olduğu varsayılmaktadır. Disk kafası başlangıçta 5 nolu silindirde bulunmaktadır. Sırasıyla 5, 15, 20, 25, 40, 50 nolu silindirlere istek vardır. Scan planlama algoritması kullanıldığında silindirin toplam kafa hareketi kaç olacaktır?",
-          "options": {
-            "A": "70",
-            "B": "65",
-            "C": "45",
-            "D": "55",
-            "E": "75"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Linux yöneticisi olan bir kullanıcı, postgres kullanıcısı ile işlem yapmak istemektedir. Bunun için aşağıdaki komutlardan hangisini kullanmalıdır?",
-          "options": {
-            "A": "sudo -i -u postgres",
-            "B": "sudo -i postgres",
-            "C": "sudo login postgres",
-            "D": "sudo postgres",
-            "E": "sudo su postgres"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "TLB hit nedir?",
-          "options": {
-            "A": "Aranan sayfanın ana bellekte bulunamaması durumudur.",
-            "B": "Aranan sayfanın sayfa tablosunda bulunması durumudur.",
-            "C": "Aranan sayfanın sayfa tablosunda bulunamaması durumudur.",
-            "D": "Aranan sayfanın TLB ön belleğinde bulunamaması durumudur.",
-            "E": "Aranan sayfanın TLB ön belleğinde bulunması durumudur."
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "50 silindir içeren bir disk olduğu varsayılmaktadır. Disk kafası başlangıçta 5 nolu silindirde bulunmaktadır. Sırasıyla 40, 15, 20, 5, 4 nolu silindirlere istek vardır. SSTF planlama algoritması kullanıldığında silindirin toplam kafa hareketi kaç olacaktır?",
-          "options": {
-            "A": "70",
-            "B": "45",
-            "C": "55",
-            "D": "37",
-            "E": "99"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Prosesler ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
-          "options": {
-            "A": "Bilgisayar tarafından çalıştırıldığında özel bir görevi icra eden bir dizi komut prosesleri oluşturur.",
-            "B": "Kod parçalarının bilgisayar tarafından icra edilebilmesi için ana belleğe getirilmesi gerekir.",
-            "C": "Modern işletim sistemleri, çok çekirdekli donanım üzerinde birden fazla prosesi aynı anda çalıştırabilir.",
-            "D": "İşletim sistemi üzerinde bulunduğu sistemin özelliklerine göre proses yönetimini gerçekleştirir.",
-            "E": "Tek işlemcili sistemlerde aynı anda birden fazla proses çalıştırılamaz."
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Linuxde çalışmakta olan proseslerin listesi aşağıdaki komutlardan hangisi ile alınır?",
-          "options": {
-            "A": "ps",
-            "B": "ls -p",
-            "C": "lsproc",
-            "D": "bg",
-            "E": "jobs"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Aşağıdaki işletim sistemlerinden hangisi kapalı kaynak kodludur?",
-          "options": {
-            "A": "Arch Linux",
-            "B": "Ubuntu Desktop",
-            "C": "Knoppix",
-            "D": "Ubuntu Server",
-            "E": "Windows"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "\"sinav.o isimli bir dosya sadece sahibi tarafından çalıştırılabilir ve okunabilir.\" olarak işaretlenmek istenmektedir. Aşağıdaki komutlardan hangisi kullanılmalıdır?",
-          "options": {
-            "A": "chmod 555 sinav.o",
-            "B": "chmod 777 sinav.o",
-            "C": "chmod 600 sinav.o",
-            "D": "chmod 500 sinav.o",
-            "E": "chmod +x sinav.o"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
           "question": "Bir klasörün içindeki tüm klasörler ve dosyaların sahibi auzef isimli kullanıcı olarak değiştirilmek isteniyor. Aşağıdaki komutlardan hangisi kullanılmalıdır?",
           "options": {
             "A": "chown -a auzef /klasor",
@@ -1720,29 +648,702 @@
             "D": "chmod -R auzef /klasor",
             "E": "passwd -R auzef /klasor"
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "TLB hit nedir?",
+          "options": {
+            "A": "Aranan sayfanın ana bellekte bulunamaması durumudur.",
+            "B": "Aranan sayfanın sayfa tablosunda bulunması durumudur.",
+            "C": "Aranan sayfanın sayfa tablosunda bulunamaması durumudur.",
+            "D": "Aranan sayfanın TLB ön belleğinde bulunamaması durumudur.",
+            "E": "Aranan sayfanın TLB ön belleğinde bulunması durumudur."
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "”sinav.o isimli bir dosya sadece sahibi tarafından çalıştırılabilir ve okunabilir.” olarak işaretlenmek istenmektedir. Aşağıdaki komutlardan hangisi kullanılmalıdır?",
+          "options": {
+            "A": "chmod 555 sinav.o",
+            "B": "chmod 777 sinav.o",
+            "C": "chmod 600 sinav.o",
+            "D": "chmod 500 sinav.o",
+            "E": "chmod +x sinav.o"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi kilitlenmenin oluşabilmesi için gerekli olan koşullardan biri değildir?",
+          "options": {
+            "A": "Karşılıklı dışlama",
+            "B": "Kesme durumu yok",
+            "C": "Döngüsel bekleme",
+            "D": "Açlık",
+            "E": "Tut ve bekle"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Derleyici ve yorumlayıcı yazılımları için aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Yorumlayıcılar, kaynak kodu satır satır veya bloklar halinde yorumlarlar.",
+            "B": "Derleyiciler, yorumlayıcılara nazaran daha hızlıdır.",
+            "C": "Derleyiciler ve yorumlayıcılar aynı görevi icra ederler.",
+            "D": "C++ programlama dilinde yorumlayıcı kullanılmaktadır.",
+            "E": "Derleyiciler, kaynak kodun tamamını hedef koda çevirdikten sonra çalıştırır."
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "Aşağıdaki işletim sistemlerinden hangisi kapalı kaynak kodludur?",
+          "options": {
+            "A": "Arch Linux",
+            "B": "Ubuntu Desktop",
+            "C": "Knoppix",
+            "D": "Ubuntu Server",
+            "E": "Windows"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "50 silindir içeren bir disk olduğu varsayılmaktadır. Disk kafası başlangıçta 5 nolu silindirde bulunmaktadır. Sırasıyla 40, 15, 20, 5, 4 nolu silindirlere istek vardır. SSTF planlama algoritması kullanıldığında silindirin toplam kafa hareketi kaç olacaktır?",
+          "options": {
+            "A": "70",
+            "B": "45",
+            "C": "55",
+            "D": "37",
+            "E": "99"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi bir web sunucusu uygulaması değildir?",
+          "options": {
+            "A": "Lighttpd",
+            "B": "Catty",
+            "C": "Apache",
+            "D": "IIS",
+            "E": "Nginx"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "/home/user1 dizinindeki tüm dosyaları /home/user2 dizinine kopyalamak için aşağıdaki komutlardan hangisi çalıştırılmalıdır?",
+          "options": {
+            "A": "rm -r /home/user1 /home/user2",
+            "B": "cp -r /home/user1 /home/user2",
+            "C": "mv -r /home/user1 /home/user2",
+            "D": "mv /home/user1 /home/user2",
+            "E": "cp /home/user1 /home/user2"
+          },
+          "answer": "B",
+          "explanation": ""
         },
         {
           "id": 17,
-          "question": "Aşağıdaki işletim sistemlerinin hangisi Kubernetes kullanımı için en uygunudur?",
+          "question": "Prosesler ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
           "options": {
-            "A": "CentOS",
-            "B": "RancherOS",
-            "C": "Ubuntu Server",
-            "D": "Amazon Linux",
-            "E": ""
+            "A": "Bilgisayar tarafından çalıştırıldığında özel bir görevi icra eden bir dizi komut prosesleri oluşturur.",
+            "B": "Kod parçalarının bilgisayar tarafından icra edilebilmesi için ana belleğe getirilmesi gerekir.",
+            "C": "Modern işletim sistemleri, çok çekirdekli donanım üzerinde birden fazla prosesi aynı anda çalıştırabilir.",
+            "D": "İşletim sistemi üzerinde bulunduğu sistemin özelliklerine göre proses yönetimini gerçekleştirir.",
+            "E": "Tek işlemcili sistemlerde aynı anda birden fazla proses çalıştırılamaz."
           },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi CPU planlayıcısı tarafından kullanılan algoritmalardan biri değildir?",
+          "options": {
+            "A": "Round Robin",
+            "B": "PbS",
+            "C": "FCFS",
+            "D": "SJF",
+            "E": "A*"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Bash scripti içinde bir değişkenin değiştirilmesi istenmiyor ise hangi komut kullanılmalıdır?",
+          "options": {
+            "A": "readonly",
+            "B": "unset",
+            "C": "alias",
+            "D": "lock",
+            "E": "freeze"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "Linux’de kullanıcı eklerken kullanıcının varsayılan grubu ne olur?",
+          "options": {
+            "A": "“KullanıcıAdı+Group” isimli yeni bir grup.",
+            "B": "User isimli grup.",
+            "C": "Kullanıcı idsi ile aynı idye sahip yeni bir grup.",
+            "D": "SuperUser isimli grup.",
+            "E": "Herhangi bir gruba atanmaz."
+          },
+          "answer": "C",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "İşletim Sistemleri 2024-2025 Vize",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "file_name": "İşletim_Sistemleri_2024_2025_Vize.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Sayfalama tekniği ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Aynı prosese ait sayfalar ana bellekte bulunan art arda gelen çerçevelere kaydedilmelidir.",
+            "B": "Proses sayfa (page) şeklinde küçük ve eşit boyutlarda bölümlendirilir.",
+            "C": "Ana bellek, sayfa ile aynı boyutta çerçeve (frame) ismini verdiğimiz bölümlere ayrılır.",
+            "D": "Prosesin bir sayfası ana bellekteki bir çerçeve içerisinde depolanır.",
+            "E": "Sayfa ve çerçeve boyutu işletim sistemi tarafından belirlenir."
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Dinamik bölümleme ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Dinamik bölümlemede, iç parçalanma problemi oluşmaz.",
+            "B": "Proseslerin boyutu ile ilgili bir kısıtlama söz konusu değildir.",
+            "C": "Dinamik bölümlemede, dış parçalanma problemi oluşmaz.",
+            "D": "Aynı anda belleğe yüklenecek proses sayısı dinamiktir.",
+            "E": "Proseslerin boyutuna göre dinamik olarak bellek bölümlendirilir."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda verilen programlama dillerinden hangisinde yorumlayıcı kullanılmaktadır?",
+          "options": {
+            "A": "C",
+            "B": "XML",
+            "C": "C#",
+            "D": "Pascal",
+            "E": "C++"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıda verilen aktivitelerden hangisi işletim sisteminin bellek yönetimi kapsamında gerçekleştirilmez?",
+          "options": {
+            "A": "Ana bellekten diske prosesleri taşımak",
+            "B": "Tahsis edilen bellek alanını gerektiğinde geri almak.",
+            "C": "Disk planlaması yapmak.",
+            "D": "Proseslere ana bellekte yer tahsis etmek.",
+            "E": "Diskten ana belleğe program parçalarını getirmek."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki seçeneklerden hangisi diskte bulunan boş alanların yönetiminde kullanılan yöntemlerden biridir?",
+          "options": {
+            "A": "Döngüsel olmayan liste",
+            "B": "Inode",
+            "C": "Bit vektör",
+            "D": "Yığın veri yapısı",
+            "E": "Kuyruk veri yapısı"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıda verilen ifadelerden hangisi bilgisayar sistemleri için yanlış bir ifadedir?",
+          "options": {
+            "A": "Bilgisayarla entegre olan kasanın içinde yer alan donanım birimlerine, harici donanım birimleri denir.",
+            "B": "Kullanıcılar bilgisayara komutlar verebilir.",
+            "C": "Yazılımlar ve sürücüler donanım birimlerinin çalışmasını sağlarlar.",
+            "D": "CPU, ana bellek gibi donanım birimleri dahili donanım birimlerine örnektir.",
+            "E": "Kullanıcılar uygulama yazılımlarına doğrudan erişebilir."
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıda verilen tanımlardan hangisi yukarıda verilen şekli temsil eder?",
+          "options": {
+            "A": "Sabit bölümleme",
+            "B": "Sanal bellek",
+            "C": "Statik bölümleme",
+            "D": "Segmentasyon",
+            "E": "Dinamik bölümleme"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "Ana bellek ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Oluşturulan dosya ve klasörler ana bellek üzerinde tutulurlar.",
+            "B": "Ana bellek kontrollü erişime izin verir.",
+            "C": "Ana belleğin bölmelerine yerleştirilen program parçalarının ana bellekteki konumu proses kontrol bloğu kaydedicisi tarafından saklanır.",
+            "D": "Ana bellek kısıtlı boyuta sahiptir.",
+            "E": "Bilgisayarda geçici olarak verilerin saklandığı merkeze ana bellek denir."
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "İşletim sistemleri yazılımları hakkında aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "İşletim sistemleri, donanımın karmaşıklığından kullanıcıyı soyutlar.",
+            "B": "İşletim sistemleri yalnızca bellek üzerinde çalışır ve diskte saklanmaz.",
+            "C": "İşletim sistemleri donanım kaynaklarını yöneten ve donanım ile kullanıcı arasındaki etkileşimi sağlayan yazılımlardır.",
+            "D": "İşletim sistemleri sistem yazılımlarına girmektedir.",
+            "E": "Birçok farklı işletim sistemi yazılımı geliştirilmiştir."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "50 silindir içeren bir disk düşünelim. Disk kafası başlangıçta 5 nolu silindirde durmaktadır. Sırasıyla 40, 15, 20, 5, 4 nolu silindirlere istek yapılmıştır. Buna göre silindirin toplam kafa hareketi miktarını FCFS planlama algoritmasını kullanarak hesapladığınızda sonuç aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "70",
+            "B": "81",
+            "C": "99",
+            "D": "37",
+            "E": "45"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "Proses küçük bir alan kaplasa dahi tahsis edilen bölümün tamamını elde tutar. Bu durum……… olarak bilinir. Yukarıda verilen cümlede boş bırakılan yere gelmesi gereken en uygun terim aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Bellek bölümü",
+            "B": "Sıkıştırma",
+            "C": "Segmente",
+            "D": "İç parçalanma",
+            "E": "Dış parçalanma"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Boru hattı veri modelinde bilgi…… komutuyla okunur, …… komutuyla yazılır. Yukarıdaki cümlede boş bırakılan yerlere sırasıyla aşağıda terimlerden hangisi gelmelidir?",
+          "options": {
+            "A": "Test-Set",
+            "B": "Read-Set",
+            "C": "Wake-Write",
+            "D": "Read- Write",
+            "E": "Sleep-Wake"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "Öncelik temelli planlama algoritması ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Diskten prosesleri seçerler ve ana bellekte yer alan hazır kuyruğunda prosesleri tutarlar.",
+            "B": "İş planlayıcısı olarak da bilinir.",
+            "C": "CPU planlayıcısı olarak da bilinir.",
+            "D": "Temel amacı giriş/çıkış işlemlerine bağlı veya CPU'ya bağlı prosesler arasından en iyi seçimleri yapmaktır.",
+            "E": "İş planlayıcısı görevini en uygun şekilde gerçekleştirmezse eğer giriş-çıkış işlemleri uzun süren prosesler, diğer proseslerin çok daha fazla beklemesine neden olabilir."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıda verilen yöntemlerden hangisi ile kritik bölge problemi çözüme kavuşmaz?",
+          "options": {
+            "A": "Monitörler",
+            "B": "Peterson algoritması",
+            "C": "Global paylaşılan \"turn\" değişkeni",
+            "D": "Dekker algoritması",
+            "E": "Ortak değişken çözümü"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "• Kök seviyesinde dizin vardır. • Kök seviyesindeki dizinlere dosya veya başka dizinler bağlanabilir. Bu dizinlere başka dizinler veya dosyalar bağlanabilir. • Her kullanıcıya ait bir dizin yapısı vardır. Yukarıda tanımlamaları yapılan dizin saklama (hiyerarşisi) yapısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İki seviyeli dizinler",
+            "B": "Döngüsel olmayan graf yapısındaki dizinler",
+            "C": "Tek seviyeli dizinler",
+            "D": "Yığım yapısındaki dizinler",
+            "E": "Ağaç yapısı şeklinde olan dizinler"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "Bellekte boş bölgelerin büyükleri sırasıyla 8K, 7K, 5K, 10K, 3K’dır. Büyüklüğü 3K ve 5K olan iki proses belleğe yerleştirilmek isteniyor. Worst-fit algoritması kullanıldığında sırasıyla 3K ve 5K’lık prosesler belleğin aşağıdaki hangi bölümlerine yerleştirilir?",
+          "options": {
+            "A": "10K-8K",
+            "B": "3K-5K",
+            "C": "8K-10K",
+            "D": "8K-7K",
+            "E": "8K-5K"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi disk üzerinde tutulan dosyalara erişmek için kullanılan yöntemlerdendir?",
+          "options": {
+            "A": "Dolaylı erişim",
+            "B": "Doğrudan erişim",
+            "C": "Kuyruk erişim",
+            "D": "Bağlı erişim",
+            "E": "İndekslenmiş erişim"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "Öncelik temelli planlama algoritması ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Önceliği yüksek olan proses ilk önce CPU'ya anahtarlanır.",
+            "B": "Öncelik değerini ifade eden sayısal değerin yüksek olması her zaman prosesin daha öncelikli olduğunu gösterir.",
+            "C": "Proses süreci boyunca öncelik değeri değişmezse sabit öncelik ismi verilir.",
+            "D": "Kesintili öncelik değerinde, proses çalışır durumdayken kendisinden daha öncelikli bir prosesin gelmesi durumunda CPU yeni gelen prosese anahtarlanır.",
+            "E": "Kesintisiz ve kesintili öncelik temelli algoritma olmak üzere 2 farklı yaklaşımı vardır."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Semaforlar ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Prosesler arasındaki senkronizasyonu sağlamak için geliştirilmiştir.",
+            "B": "P() işleminde değişken test edilir ve değeri azaltılır.",
+            "C": "Semafor yapısında P() ve V() işlemleri tanımlanır.",
+            "D": "V() işleminde değişken test edilir ve değeri azaltılır.",
+            "E": "P() ve V() işlemleri atomik yapıdadır."
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "Dosya ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Dosyada dosya araması veya kelime araması yapılabilir.",
+            "B": "Her dosyanın bir türü vardır.",
+            "C": "Her dosyanın bir oluşturulma zamanı vardır.",
+            "D": "Bir fotoğraf dosyasının uzantısı mp4 olabilir.",
+            "E": "Benzer özellikler gösteren bir dizi kaydın tutulabilmesini sağlayan bir veri yapısıdır."
+          },
+          "answer": "D",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "İşletim Sistemleri 2024-2025 Final",
+      "exam_type": "final",
+      "year": "2024-2025",
+      "file_name": "İşletim_Sistemleri_2024_2025_Final.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıda verilen tanımlardan hangisi doğru açıklanmıştır?",
+          "options": {
+            "A": "Kritik bölge: Bir prosesin paylaşılan kaynaklar üzerinde işlem yaptığı kod parçası kritik bölge olarak adlandırılır.",
+            "B": "İlerleme koşulu: Proses kritik bölgeye girmek için sonsuz bekleme yapmamalıdır.",
+            "C": "Proses senkronizasyonu: Birden fazla prosesin birbirlerini bekleme durumudur.",
+            "D": "Canlı kilitlenme: İki veya daha fazla proses sonsuz süre birbirlerini beklemesidir.",
+            "E": "Karşılıklı dışlama: Kritik bölgede herhangi bir proses bulunmuyorsa kritik bölgeye girmek isteyen başka proseslerden birine izin verilmelidir."
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki komutlardan hangisi çeşitli Linux dağıtımlarında paket kurulumu için kullanılan kurulum komutu olamaz?",
+          "options": {
+            "A": "apt install paket",
+            "B": "apt-get install paket",
+            "C": "rpm install paket",
+            "D": "yum install paket",
+            "E": "dnf install paket"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "auzef.txt isimli bir dosyanın grubu editors grubu olarak değiştirilmek isteniyor. Yukarıdaki isteğin gerçekleştirilmesi için aşağıdaki komutlardan hangisi kullanılmalıdır?",
+          "options": {
+            "A": "chown editors auzef.txt",
+            "B": "chmod editors auzef.txt",
+            "C": "chmod 777 editors auzef.txt",
+            "D": "chown: editors auzef.txt",
+            "E": "chmod -group editors auzef.txt"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "50 silindir içeren bir disk düşünelim. Disk kafası başlangıçta 5 nolu silindirde bulunmaktadır. Sırasıyla 5, 15, 20, 10, 25, 40, 50 nolu silindirlere istek vardır. Silindirin toplam kafa hareketi SSTF planlama algoritmasını kullanarak hesaplandığında adedi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "55",
+            "B": "65",
+            "C": "75",
+            "D": "70",
+            "E": "45"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıda verilen aktivitelerden hangisi işletim sisteminin giriş-çıkış birimlerinin yönetimi kapsamında yer almaz?",
+          "options": {
+            "A": "Sürücülerin yönetiminin gerçekleştirilmesi",
+            "B": "Diskte boş alan yönetiminin yapılması",
+            "C": "Ön belleğe okuma-yazma işlemlerinin yapılması",
+            "D": "Giriş-çıkış birimlerine yönelik ön bellek sisteminin oluşturulması",
+            "E": "Aygıt yöneticisi arayüzünün sağlanması"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Windows işletim sistemi için geçerli olan lisanslama modeli aşağıdakilerden hangisi olabilir?",
+          "options": {
+            "A": "GPL (General Public License)",
+            "B": "MIT Lisansı",
+            "C": "Apache Lisansı",
+            "D": "BSD Lisansı",
+            "E": "OEM (Original Equipment Manufacturer)"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "Bash scriptlerinde değişkenler aşağıdaki işaretlerden hangisi ile birlikte kullanılabilir?",
+          "options": {
+            "A": "$degisken",
+            "B": "yüzde degisken",
+            "C": "=degisken",
+            "D": "_degisken",
+            "E": "#degisken"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "Dinamik bölümlemede tahsis edilen bölümler ve boş alanların kayıtlarının tutulması gerekir. İşletim sistemi bu görevi icra edebilmek için aşağıdaki hangi veri yapısını kullanır?",
+          "options": {
+            "A": "Yığın veri yapısı",
+            "B": "Ağaç veri yapısı",
+            "C": "Bağlantılı liste veri yapısı",
+            "D": "Dizi",
+            "E": "Kuyruk veri yapısı"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Linux’ta bir dosya için 110 000 000 izni verilmiştir. Yukarıdaki bilgiye göre aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Dosya sahibi yazamaz.",
+            "B": "Diğer kullanıcıların hiçbir izni yoktur.",
+            "C": "Dosya sahibi okuyamaz.",
+            "D": "Sadece yönetici izin bilgisini değiştirebilir.",
+            "E": "İzin bilgisi \"d rw- --\"'dir."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "Linux işletim sistemi tanımı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sadece sunucularda kullanılan bir işletim sistemidir.",
+            "B": "Linux çekirdeği üzerine inşa edilmiş açık kaynak kodlu bir işletim sistemidir.",
+            "C": "Kapalı kaynak kodlu bir işletim sistemidir.",
+            "D": "Sadece kişisel bilgisayarlarda kullanılan bir işletim sistemidir.",
+            "E": "Bir web tarayıcısıdır."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "SSH aşağıdaki portlardan hangisi ile çalışır?",
+          "options": {
+            "A": "25",
+            "B": "23",
+            "C": "21",
+            "D": "22",
+            "E": "80"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Chocolatey için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Windows paket yöneticisidir.",
+            "B": "Ücretlidir.",
+            "C": "Fedora paket yöneticisidir.",
+            "D": "MacOS paket yöneticisidir.",
+            "E": "Ubuntu paket yöneticisidir."
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "Komut satırdan dosya türünü öğrenmek için aşağıdaki komutlardan hangisi kullanılmalıdır?",
+          "options": {
+            "A": "type",
+            "B": "whatis",
+            "C": "dir",
+            "D": "file",
+            "E": "which"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "En kısa arama süresini dikkate alarak disk planlamasını yapan algoritma aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "C-LOOK algoritması",
+            "B": "SCAN algoritması",
+            "C": "SSTF (shortest seek time first) algoritması",
+            "D": "LOOK algoritması",
+            "E": "FCFS algoritması"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Linux’de auzef isimli kullanıcı istanbul isimli gruptan çıkarılmak isteniyor. Aşağıdaki komutlardan hangisi kullanılmalıdır?",
+          "options": {
+            "A": "sudo group -r auzef istanbul",
+            "B": "sudo gpasswd -u auzef -g istanbul",
+            "C": "sudo passwd -d auzef istanbul",
+            "D": "sudo passwd -u auzef -g istanbul",
+            "E": "sudo gpasswd -d auzef istanbul"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "Linux ile ilgili aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Ubuntu Server, Gnome arayüzü ile gelmektedir.",
+            "B": "Ubuntu sadece harici bellekten kurulabilir.",
+            "C": "Ubuntu kurulumunda disk bölümleri ayarlanamaz.",
+            "D": "LTS, uzun süreli destek anlamına gelir.",
+            "E": "Linux, sanal bilgisayara kurulamaz."
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi kritik bölge problemini çözmek için geliştirilen donanıma dayalı çözümlerden biridir?",
+          "options": {
+            "A": "Dekker algoritması",
+            "B": "Monitör mekanizması",
+            "C": "Semafor kullanımı",
+            "D": "Peterson algoritması",
+            "E": "Kesme işlemlerini aktif ve pasif hale getirme"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "rm -rf /home/user1 Yukarıdaki komut için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "/home/userl dizininde silme işlemi için kullanıcıdan onay ister.",
+            "B": "/home/userl yolunda yeni dizin oluşturulur.",
+            "C": "/home/userl dizini içindeki her şeyi silmeye zorlar.",
+            "D": "/home/userl dizininde silme işlemi yaparken yedek alır.",
+            "E": "Yalnızca /home/userl dizininde bulunan dosyalar silinir."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Gerçek zamanlı işletim sistemleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Tüm kullanıcılara eşit zaman dilimi ayrılır.",
+            "B": "Kritik görevler için tercih edilen bir işletim sistemidir.",
+            "C": "Deterministtir.",
+            "D": "Görevler hassas bir zamanlama ile icra edilirler.",
+            "E": "Tepki ve işlem süresi oldukça kısadır."
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "Segmentasyon yöntemi kullanılarak mantıksal adresin fiziksel adrese dönüştürülme adımları aşağıdaki hangi seçenekte doğru olarak verilmektedir?",
+          "options": {
+            "A": "Segment numarası ile segment tablosuna ulaşılır. Segment tablosundan segment başlangıç adresi alınır. Segment başlangıç adresine offset değeri eklenir. Fiziksel adres elde edilmiş olur.",
+            "B": "Segment numarası ve segment tablosunun başlangıç adresi toplanarak ilgili segmentin ana bellekte bulunduğu adres bulunur. İlgili segmentin başlangıç adresi tablodan alınır. Başlangıç adresine offset değeri eklenerek fiziksel adres elde edilmiş olur.",
+            "C": "Segment numarası ve segment tablosunun başlangıç adresi toplanarak ilgili segmentin ana bellekte bulunduğu adres bulunur. Segment tablosundan çerçeve numarası alınır. Segment numarasının yanına offset değeri getirilir. Fiziksel adres elde edilmiş olur.",
+            "D": "Segment numarası ile segment tablosuna ulaşılır. Segment tablosundan segmentin başlangıç adresi alınır. Başlangıç adresine offset değeri eklenir ve fiziksel adres elde edilmiş olur.",
+            "E": "Segment numarası ve segment tablosunun başlangıç adresi toplanarak ilgili segmentin ana bellekte bulunduğu adres bulunur. Çerçeve numarasının yanına offset değeri getirilir ve fiziksel adres elde edilmiş olur"
+          },
+          "answer": "B",
+          "explanation": ""
         }
       ]
     }

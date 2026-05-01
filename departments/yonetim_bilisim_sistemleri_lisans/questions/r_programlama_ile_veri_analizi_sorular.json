@@ -1,138 +1,554 @@
 {
-  "course": "R Programlama İle Veri Analizi",
+  "course": "R Programlama ile Veri Analizi",
   "lesson_code": "R_PROGRAMLAMA_ILE_VERI_ANALIZI",
-  "exam_count": 5,
   "exams": [
     {
-      "title": "R Programlama İle Veri Analizi 2024-2025 Vize",
-      "exam_title": "R Programlama İle Veri Analizi 2024-2025 Vize",
-      "exam_type": "vize",
-      "year": "2024-2025",
-      "question_count": 19,
-      "source_url": "",
-      "file_name": "R_Programlama_Ile_Veri_Analizi_Vize_Sorulari.docx",
+      "title": "R Programlama ile Veri Analizi 2022-2023 Final Soruları",
+      "exam_type": "final",
+      "year": "2022-2023",
+      "file_name": "R_Programlama_İle_Veri_Analizi_2022_2023_Final.docx",
+      "question_count": 20,
       "questions": [
         {
           "id": 1,
-          "question": "Yukarıdaki ekranda liste nesnesinin elemanlarınıım ortalamasını bulan kod aşağıdaki şıklardan hangisinde doğru olarak verilmiştir?",
+          "question": "Yukarıda verilen vektör ve bu vektörden elde edilen çıktı görülmektedir. Bu çıktıyı sağlayan kod hangi şıkta doğru olarak verilmiştir?",
           "options": {
-            "A": "lapply(listem5, ortalama)",
-            "B": "lapply(listem,mean)",
-            "C": "lapply(listem5,ort)",
-            "D": "lapply(listem5,mean)",
-            "E": "lapply(listem5,enbuyuk)"
+            "A": "isimler [[3: 7]]",
+            "B": "isimler [3, 7]",
+            "C": "isimler (3: 7)",
+            "D": "isimler ((3: 7))",
+            "E": "isimler [3: 7]"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_1.png",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_1.png",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_1.png",
-          "source_image_url": ""
+          "correct_answer": "E",
+          "explanation": ""
         },
         {
           "id": 2,
-          "question": "RStudioprogramıiçinaşağıdaverilenifadelerdenhangisi doğrudur?",
+          "question": "Yukarıda mat adı ile verilen matrisin uzaklık mesafesi (dist(mat)) hesaplanmış ve alt tarafta dist(mat) olarak gösterilmiştir. Bu uzaklık matrisi için şıklarda verilen ifadelerden hangisi doğrudur?",
           "options": {
-            "A": "RStudio ile veri analizi uygulaması yapılamaz.",
-            "B": "Jupyter'in olduğu ortamda RStudio çalıştırılamaz.",
-            "C": "RStudio'nun Anaconda üzerinden ilk olarak çalıştırılabilmesi içn \"install\" (yüklenmesi) edilmesi gerekir.",
-            "D": "RStudio'yu kurmak için önce Jupyter Notebook kurulması gerekir.",
-            "E": "RStudio anaconda üzerinden çalıştırılamaz."
+            "A": "Uzaklık matrisi simetrik olduğu için üst kısmı (sol üst-sağ alt köşegen üzerindeki sayılar) alınmaz.",
+            "B": "Uzaklık matrisinin sütunları, hesaplanmak için ele alınan matrisin sütun sayısına eşittir.",
+            "C": "Uzaklık matrisinin üst tarafı farklı değerler içerir.",
+            "D": "Uzaklık matrisi sinüs ölçeğine göre hesaplanır.",
+            "E": "K-means algoritmasında uzaklık matrisi kullanılmaz."
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_2.png",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_2.png",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_2.png",
-          "source_image_url": ""
+          "correct_answer": "A",
+          "explanation": ""
         },
         {
           "id": 3,
-          "question": "Yukarıda verilen ve adı \"notlistesi olan\" ekrandan vize ve final sütunlarını liste olarak görüntüleyecek komut hangi satırda doğru olarak verilmiştir?",
+          "question": "Şekilde verilen arayüz için aşağıdaki ifadelerden hangisi doğrudur?",
           "options": {
-            "A": "liste=as(notlistesi[, 2:3])liste",
-            "B": "liste=as.list(notlistesi[, 3:2])liste",
-            "C": "liste=as.list(notlistesi[, 2:3])liste",
-            "D": "liste=as.list(notlistesi[ 2:3, ])liste",
-            "E": "liste=list(notlistesi[, 2:3])liste"
+            "A": "Anaconda'nın arayüzüdür.",
+            "B": "RStudio'nun arayüzüdür.",
+            "C": "R'ın arayüzüdür.",
+            "D": "Jupyter Notebook'un arayüzüdür.",
+            "E": "C# arayüzüdür."
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 4,
-          "question": "Yukarıda verilen vektörü, listeye dönüştürecek komut aşağıdaki hangi şıkta doğru olarak verilmiştir?",
+          "question": "Yukarıda verilen ekran görüntüsünde “R” simgesine tıklanırsa ne olur?",
           "options": {
-            "A": "as.list(ogrenciler2)",
-            "B": "as.liste(ogrenciler3)",
-            "C": "list(ogrenciler2)",
-            "D": "as.liste(ogrenciler2)",
-            "E": "as.list(ogrenciler3)"
+            "A": "Jupyter'de Linux programı aktif hale getirilir.",
+            "B": "Jupyter'de Python programı aktif hale getirilir.",
+            "C": "Jupyter'de R programı aktif hale getirilir.",
+            "D": "RStudio programı aktif hale getirilir.",
+            "E": "Anaconda aktif hale gelir."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "C",
+          "explanation": ""
         },
         {
           "id": 5,
-          "question": "Değişken için aşağıda verilen ifadelerden hangisi yanlıştır?",
+          "question": "Yukarıda verilen ekran görüntüsündeki grafik için şıklarda verilen ifadelerden hangisi doğrudur?",
           "options": {
-            "A": "Verileri etiketlemek için kullanılır.",
-            "B": "Bilgi saklayan kutular olarak düşünülebilir.",
-            "C": "Bellekte yer kaplarlar.",
-            "D": "R'da değişken tanımlamaz.",
-            "E": "R'da değişkene değer atandığı anda oluşturulur."
+            "A": "Bu grafik polinomial regresyon eğrisini temsil etmektedir.",
+            "B": "Bu grafik kesikli veriler için kullanılır.",
+            "C": "Bu grafikteki eğri, Lineer regresyon eğrisidir.",
+            "D": "Bu grafik ile evet veya hayır gibi durumlar analiz edilebilir.",
+            "E": "Bu grafik ile bir firmanın karlı olup olmadığı bulunabilir."
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "C",
+          "explanation": ""
         },
         {
           "id": 6,
-          "question": "RStudio için verilen ifadelerden hangisi yanlıştır?",
+          "question": "Herhangi bir grafiğe eni ve yüksekliği 5 olacak şekilde ve kırmızı renkte ızgara ekleyen komut satırı hangi şıkta doğru olarak verilmiştir?",
           "options": {
-            "A": "R kullanıcılarına web tabanlı bir çalışma ortamı sağlar.",
-            "B": "Anaconda içerisinden de çalıştırılabilir.",
-            "C": "Yılda birkaç kez güncellenir.",
-            "D": "http://www.rstudio.com/download adresinden yüklenir.",
-            "E": "R için bütünleşik bir geliştirme ortamı sağlar."
+            "A": "grid(5, 5, col=\"red\")",
+            "B": "plot(5, 5, col=\"red\")",
+            "C": "density(5, 5, col=\"red\")",
+            "D": "lines (5, 5, col=\"red\")",
+            "E": "grid(5, 5, col=\"kırmızı\")"
           },
           "correct_answer": "A",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_6.png",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_6.png",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_6.png",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 7,
-          "question": "Anacondayı görev çubuğundan silmek için yukarıdaki ekran görüntüsü verilen durumlardan hangisi seçilmelidir?",
+          "question": "Aşağıda k-means algoritması için verilen ifadelerden hangisi doğrudur?",
           "options": {
-            "A": "Başlangıç'a sabitle.",
-            "B": "Görev çubuğundan kaldır.",
-            "C": "Yönetici olarak çalıştır.",
-            "D": "Dosya konumunu aç.",
-            "E": "Aç."
+            "A": "Veri noktaları arasındaki uzaklık sinüs ölçütü ile bulunur.",
+            "B": "Küme merkezleri başlangıçta hesaplama ile bulunur.",
+            "C": "Küme sayısı algoritmanın sonunda belli olur.",
+            "D": "Algoritma küme üyelerinin grubu değişmediği zaman sonlanır.",
+            "E": "Küme sayıları algoritmanın her adımında sürekli değişir."
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "D",
+          "explanation": ""
         },
         {
           "id": 8,
+          "question": "Bu matrisin 2. Satırının tüm öğelerini silecek komut hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "matrisX[2,]",
+            "B": "matrisX[, 2]",
+            "C": "matrisX[2, 2]",
+            "D": "matrisX[1, 1]",
+            "E": "matrisX[2, 1, 2, 3, 4]"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Yoğunluk grafiğinin histogram üzerine yazdırılması için hangi komut kullanılır?",
+          "options": {
+            "A": "density()",
+            "B": "par(T)",
+            "C": "hist(new)",
+            "D": "par(new=T)",
+            "E": "par(T=new)"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda verilen resimde “? ” ile gösterilen yere yazılması gereken ifade hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "İşlem adımları",
+            "B": "Algoritma üretimi",
+            "C": "Çıkarımsal istatistik",
+            "D": "Akış şeması",
+            "E": "Tanımlayıcı istatistik"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "final=c(65, 50, 73, 60, 30, 30, 50, 50, 65) Yukarıda verilen final verisinin medyanı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "65",
+            "B": "50",
+            "C": "60",
+            "D": "30",
+            "E": "52.5"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Bir öğrenciye “cars” adlı bir veri setinin verildiği varsayılmaktadır. Öğrenci bu veri setinin öz niteliklerini görüntülemek için aşağıdaki hangi komutu kullanmalıdır?",
+          "options": {
+            "A": "str(cars)",
+            "B": "main(cars)",
+            "C": "col(cars)",
+            "D": "data(cars)",
+            "E": "print(cars)"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıda verilen ekran görüntüsünün sonucu hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "110",
+            "B": "100",
+            "C": "506",
+            "D": "611",
+            "E": "606"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "Yukarıdaki ekranda listede nesnesinin elemanlarının toplamını bulan kod hangi seçenekte doğru olarak verilmiştir?",
+          "options": {
+            "A": "lapply(listem5, mean)",
+            "B": "lapply(listem5, max)",
+            "C": "lapply(listem5, toplam)",
+            "D": "lapply(listem5, min)",
+            "E": "lapply(listem5, sum)"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukarıdaki grafikte ağırlığa bağlı cinsiyet tahmin edilmeye çalışılıyor. Bu görselde sol tarafta sütun halinde çerçeve içine alınan sayılar neyi ifade etmektedir?",
+          "options": {
+            "A": "Ağırlıkları ifade eder.",
+            "B": "Kadın olanları ifade eder.",
+            "C": "Olasılık değerlerini ifade eder.",
+            "D": "Erkek olanları ifade eder.",
+            "E": "Denklemin katsayılarını ifade eder."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "R’de kullanılan görüntü işleme paketi/kütüphanesi nerede tutulur?",
+          "options": {
+            "A": "Download-r.com'da",
+            "B": "CRAN",
+            "C": "r.com'da",
+            "D": "Bilgisayarın belleğinde",
+            "E": "Project.org.tr'de"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Yukarıda verilen sorunun doğru şıkkını işaretleyiniz.",
+          "options": {
+            "A": "kazananlar[(2, 4),]",
+            "B": "kazananlar[c(2, 3, 4),]",
+            "C": "kazananlar[, c(1, 2, 3, 4)]",
+            "D": "kazananlar[, c(2, 4)]",
+            "E": "kazananlar[c(2, 4),]"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "Yukarıda verilen sorunun doğru şıkkını işaretleyiniz.",
+          "options": {
+            "A": "Yanıt değişkeninin tahmin değeridir.",
+            "B": "Y eksenini kesme noktasıdır.",
+            "C": "X eksenini kesme noktasıdır.",
+            "D": "Regresyon katsayısıdır.",
+            "E": "Bağımlı değişkenin katsayısıdır."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki şıklarda verilen fonksiyonlardan hangisi artık değeri hesaplamak için kullanılan fonksiyondur?",
+          "options": {
+            "A": "summary()",
+            "B": "reside()",
+            "C": "head()",
+            "D": "plot()",
+            "E": "Im()"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "Vektor=c(11, 5, 13, 8, 9, 6, 14, 17, 10) verilen vektörü göz önüne alarak yukarıda göründüğü gibi çizgi grafiği oluşturacak komut hangi şıkta doğru olarak verilmiştir? Öncesi TESTi BiTiR, PUANINI GÖR SONUÇ R Programlama İle Veri Analizi 2022-2023 Final Soruları R Programlama İle Veri Analizi: Temel Komutlar ve İşlevler R programlama dili, veri analizi ve istatistiksel hesaplamalar için güçlü bir araçtır. Bu makalede, R programlama dilinin temel özellikleri ve komutlarının bir özeti sunulmaktadır. Soru-cevap formatındaki örneklerle, R programlama dili ile veri analizinin nasıl yapıldığını anlayacağız. Veri Setlerinin Yapısını Anlamak: Veri analizinin ilk adımı genellikle veri setinin yapısını anlamaktır. R’de str(cars) komutu, cars adlı veri setinin yapısını gösterir. Bu komut, veri setindeki değişkenlerin türlerini ve ilk birkaç gözlemini sunarak, verilerin genel bir bakışını sağlar. Veri Seçimi ve Alt Kümeler: Veri analizinde belirli veri noktalarını veya alt kümelerini seçmek önemlidir. Örneğin, kazananlar[c(2, 4),] komutu, kazananlar veri çerçevesinden ikinci ve dördüncü satırları seçer. Bu tür seçimler, veri analizinde spesifik gözlemlere odaklanmayı sağlar. Görselleştirme ve Grafiğe Eklemeler: R’da veri görselleştirme, analiz sürecinin merkezi bir parçasıdır. Histogramlar ve yoğunluk grafikleri gibi görseller, veri dağılımını anlamada yardımcı olur. par(new=T) komutu, mevcut bir grafiğe yeni bir grafik eklemeyi sağlar. Örneğin, bir histogram üzerine yoğunluk grafiği ekleyebiliriz. Grafik Özelleştirmeleri: Grafiklerin görsel özelliklerini özelleştirmek, veri hikayesini daha iyi anlatmaya yardımcı olur. grid(5, 5, col=”red”) komutu, bir grafiğe kırmızı renkte ızgara çizgileri ekler, bu da görsel çekiciliği ve okunabilirliği artırır. Uzaklık Matrisleri ve Kavramlar: Veri analizinde uzaklık matrisleri, öğeler arasındaki benzerlikleri veya farklılıkları ölçmede kullanılır. Örneğin, dist(mat) komutu bir uzaklık matrisi oluşturur. Uzaklık matrisleri, kümeleme gibi unsupervised öğrenme yöntemlerinde sıklıkla kullanılır. Regresyon Analizi: Regresyon analizi, değişkenler arasındaki ilişkileri anlamada temel bir tekniktir. lm() fonksiyonu, lineer regresyon modeli oluşturmak için kullanılır ve regresyon katsayıları, bağımsız değişkenlerin bağımlı değişken üzerindeki etkisini ölçer. Veri Manipülasyonu: R’da veri manipülasyonu, analiz sürecinin önemli bir parçasıdır. Örneğin, matrisX[2,] komutu, bir matristen ikinci satırı siler. Veri çerçeveleri ve matrisler üzerinde bu tür işlemler, analiz için veriyi hazırlamada kritik öneme sahiptir. R Paketleri ve Kütüphaneler: R, CRAN (Comprehensive R Archive Network) aracılığıyla geniş bir paket yelpazesi sunar. Bu paketler, çeşitli veri analizi görevlerini kolaylaştırır ve R’nin fonksiyonelliğini genişletir. İstatistiksel Ölçümler: Temel istatistiksel ölçümler, veri setinin genel özelliklerini anlamada önemlidir. Örneğin, bir veri setinin medyanını hesaplamak (median()) veri dağılımının merkezi eğilimini gösterir. R ile Veri Analizine Giriş: Yukarıda bahsedilen konular, R programlama dilinin veri analizi için nasıl kullanıldığına dair temel bir giriş sağlar. RStudio gibi arayüzler ve Jupyter Notebook’ta R kullanımı, veri analizi sürecini daha etkili ve verimli hale getirir. R programlama dili, veri analizi ve istatistiksel hesaplamalar için güçlü ve esnek bir araçtır. Bu makalede ele alınan temel komutlar ve konseptler, R ile veri analizine başlamak için sağlam bir temel oluşturur. R’nin kapsamlı paketleri ve görselleştirme yetenekleri, her türlü veri analizi ihtiyacını karşılayabilir. R’yi öğrenmek, veri bilimi ve istatistik dünyasında derinlemesine bir yolculuğa çıkmak anlamına gelir. Bu yolculuk, sürekli öğrenme ve keşfetme ile doludur. R Programlama İle Veri Analizi 2022-2023 Final Soruları",
+          "options": {
+            "A": "plot(vektor, col=\"I\")",
+            "B": "plot(vektor, main=\"I\")",
+            "C": "plot(vektor, type=\"p\")",
+            "D": "plot(vektor, type=\"o\")",
+            "E": "plot(vektor, type=\"l\")"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "R Programlama ile Veri Analizi 2023-2024 Vize Soruları",
+      "exam_type": "vize",
+      "year": "2023-2024",
+      "file_name": "R_Programlama_İle_Veri_Analizi_2023_2024_Vize.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen vektörü göz önüne alarak; isimler[8] kod satırının sonucu hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "Veli",
+            "B": "Zehra",
+            "C": "Ayşe Serra, Zehra",
+            "D": "Ali",
+            "E": "Ayşe Serra"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Vektör veri yapısı için aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Farklı verileri içerebilir.",
+            "B": "Çok boyutludur.",
+            "C": "Homojenlik içerir.",
+            "D": "Oluşturulması zordur.",
+            "E": "İki boyutludur."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda kazananlar2 adlı çerçeve verilmiştir.",
+          "options": {
+            "A": "satır=data.frame(adayno=50, puanı=395, bolumu=Makine)kazananlar3=rbind(kazananlar2, satır)",
+            "B": "satır=data.frame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar, satır)",
+            "C": "satır=rame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar2, satır)",
+            "D": "kazan=data.frame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar2, satır)",
+            "E": "satır=data.frame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar2, satır)"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen ekran görüntüsünde “R” simgesine tıklanırsa ne olur?",
+          "options": {
+            "A": "Jupyter’de Python programı aktif hale getirilir.",
+            "B": "Jupyter’de Linux programı aktif hale getirilir.",
+            "C": "Anaconda aktif hale gelir.",
+            "D": "RStudio programı aktif hale getirilir.",
+            "E": "Jupyter’de R programı aktif hale getirilir."
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "“Ali”, 34, 2021 verilerini liste olarak oluşturan ve listem adlı bir değişkene atayan komut hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "listem <- list(Ali, 34, 2021)",
+            "B": "listem <- list(\"Ali\", 34, 2021)",
+            "C": "listem <- list(\"Ali\", \"34\", \"2021\")",
+            "D": "listem=list(\"Ali\", 34, 2021)",
+            "E": "listem <- listem(\"Ali\", 34, 2021)"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Karar ağaçları için aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Karar ağaçları R tarafından desteklenmez.",
+            "B": "Karar ağaçları sadece çok büyük veri setlerinde kullanılabilir.",
+            "C": "Denetimsiz bir öğrenme algoritmasıdır.",
+            "D": "Denetimli bir öğrenme algoritmasıdır.",
+            "E": "Kümeleme algoritması sınıfına girer."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen ve adı kazananlar olan çerçevenin son sütununun ismini Alanı olarak değiştirecek kod hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "colnames(kazananlar)[3]=Alanı",
+            "B": "colnames(kazananlar)[3]=”Alanı”",
+            "C": "rownames(kazananlar)[4]=”Alanı”",
+            "D": "colnames(kazananlar)[4]=”Alanı”",
+            "E": "rownames(kazananlar)[3]=”Alanı”"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "https: //cloud.r-project.org adresi için aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Bütünleşik geliştirme ortamı sağlar.",
+            "B": "R’ı yüklemek için bulunduğunuz konuma en yakın sunucuya yönlendirir.",
+            "C": "Bu site tidyverse’nin kaynaklarını barındıran bir sitedir.",
+            "D": "RStudio’yu kurmak için gerekli olan dosyaları sağlar.",
+            "E": "Bu site artık R dilini destekleme özelliği taşımıyor."
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıda verilen ekran görüntüsünü liste yapısına dönüştüren kod hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "yenilistem=vector(vektor1, cerceve1, matris1)",
+            "B": "yenilistem=(vektor1, cerceve1, matris1)",
+            "C": "yenilistem=list(vektor1, cerceve1, matris1)",
+            "D": "yenilistem=liste(vektor1, cerceve1, matris1)",
+            "E": "yenilistem=list(\"vektor1\", \"çerçeve1\", \"matris1\")"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda verilen listenin “Aile” parçasını dilimleyecek komut satırı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "yenilistem2[[Aile]]",
+            "B": "yenilistem2(\"Aile\")",
+            "C": "yenilistem2[[“Aile””]]”",
+            "D": "yenilistem2[[“aile””]]”",
+            "E": "yenilistem2[“Aile””]”"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukarıdaki şekildeki ekran çıktısını verecek kod satırı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "havadurumu=faktör(c(\"yağmurlu\", \"güneşli\",\"bulutlu\", \"yağmurlu\", \"güneşli\",\"güneşli\"))",
+            "B": "havadurumu=factor((\"yağmurlu\", \"güneşli\",\"bulutlu\", \"yağmurlu\", \"güneşli\",\"güneşli\"))",
+            "C": "havadurumu=factor(c(\"yağmurlu\", \"güneşli\",\"bulutlu\", \"yağmurlu\", \"güneşli\",\"güneşli\"))",
+            "D": "havadurumu=factor(c(\"bulutlu\", \"güneşli\",\"yağmurlu\"))",
+            "E": "havadurumu=factor(c(yağmurlu, güneşli, bulutlu, yağmurlu, güneşli, güneşli))"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukarıdaki ekran çıktısını veren komut satırı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "matrisY=matrix(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3, byrow=TRUE)",
+            "B": "matrisY=(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)",
+            "C": "matrisY=matrix(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 3, 4)",
+            "D": "matrisY=matrix(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)",
+            "E": "matrisY=matris(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "Yukarıda verilen ve adı “kazananlar” olan çerçeveden; Aşağıda verilen çıktıyı sağlayan komut hangi satırda doğru olarak verilmiştir? Çıktı: 250 - 470 - 215 - 400",
+          "options": {
+            "A": "kazananlar[[Aday-3]]",
+            "B": "kazananlar[2]",
+            "C": "kazananlar((2))",
+            "D": "kazananlar[[2]]",
+            "E": "kazananlar[[3]]"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "Yukarıda verilen şekilde 1 ve 2 ile gösterilen kısımlara ne ad verilir?",
+          "options": {
+            "A": "Satır",
+            "B": "Çubuk",
+            "C": "Çerçeve",
+            "D": "Sütun",
+            "E": "Hücre"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "“R için gerekli olan işlevler, veriler ve belgeler topluluğunu kapsar” ifadesi aşağıda verilenlerden hangisi için geçerlidir?",
+          "options": {
+            "A": "Tidyverse",
+            "B": "Jupyter Notebook",
+            "C": "RStudio",
+            "D": "Anaconda",
+            "E": "R"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "Kategorik bir değişken için en uygun R veri türü hangisidir?",
+          "options": {
+            "A": "Karakter",
+            "B": "Faktör",
+            "C": "Tamsayı",
+            "D": "Sayısal",
+            "E": "Matris"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "ls() fonksiyonu hangi işlem için kullanılır?",
+          "options": {
+            "A": "Karakter tipindeki değişkeni tamsayı tipi değişkene döndürmek için",
+            "B": "Değişkenlere değer atamak için",
+            "C": "Bellekteki değişkenleri boşaltmak için",
+            "D": "Sayısal değişken tanımlamak için",
+            "E": "Bellekte oluşturulan değişkenleri görüntülemek için"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "ay<-\"Şubat\"\"yıl=2021olarak değişkenlerden “yıl” adlı değişkeni bellekten silmek için hangi fonksiyon kullanılır?\"",
+          "options": {
+            "A": "rm()",
+            "B": "cut()",
+            "C": "ls()",
+            "D": "print()",
+            "E": "del()"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Yukarıda verilen şekil göz önüne alınacaktır. Bu şekle göre: “58960” elemanının indis değeri ne olur?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "0",
+            "D": "-1",
+            "E": "2"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "Anaconda için aşağıda verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Veri analizi uygulamaları için bütünleşik geliştirme ortamı sağlar.",
+            "B": "Sadece Jupyter Notebook’u destekler.",
+            "C": "RStudio’yu desteklemez.",
+            "D": "Jupyter Notebook’u desteklemez.",
+            "E": "Açık kaynak kodlu bir yazılım değildir."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "R Programlama ile Veri Analizi 2024-2025 Vize Soruları",
+      "exam_type": "vize",
+      "year": "2024-2025",
+      "file_name": "R_Programlama_İle_Veri_Analizi_2024_2025_Vize.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
           "question": "Aşağıda veri çerçevesi için verilen ifadelerden hangisi yanlıştır?",
           "options": {
             "A": "Veri çerçeveleri verileri tablo biçiminde tutar.",
@@ -142,28 +558,111 @@
             "E": "Veri çerçeveleri sütunda farklı nesne sınıfı saklayabilir."
           },
           "correct_answer": "C",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_8.png",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_8.png",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_8.png",
-          "source_image_url": ""
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıda verilen vektörü, listeye dönüştürecek komut aşağıdaki hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "as.list(ogrenciler2)",
+            "B": "as.liste(ogrenciler3)",
+            "C": "list(ogrenciler2)",
+            "D": "as.liste(ogrenciler2)",
+            "E": "as.list(ogrenciler3)"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen ekran görüntüsünün çıktısı hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "character",
+            "B": "numeric",
+            "C": "double",
+            "D": "logic",
+            "E": "imaginer"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki ekrandaki liste nesnesinin elemanlarının en büyüğünü bulan kod aşağıdaki hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "lapply(listem5, mean)",
+            "B": "lapply(listem5, max)",
+            "C": "lapply(listem5, buyuk)",
+            "D": "lapply(listem5, sum)",
+            "E": "lapply(listem5, enbuyuk)"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verilen ve adı “notlistesi olan” ekrandan vize ve final sütunlarını liste olarak görüntüleyecek komut hangi satırda doğru olarak verilmiştir?",
+          "options": {
+            "A": "liste=as(notlistesi[, 2: 3])liste",
+            "B": "liste=as.list(notlistesi[, 3: 2])liste",
+            "C": "liste=as.list(notlistesi[, 2: 3])liste",
+            "D": "liste=as.list(notlistesi[2: 3,])liste",
+            "E": "liste=list(notlistesi[, 2: 3])liste"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verilen ve adı “notlistesi olan” olan ve ekrandan final notunun ortalamasını hesaplayacak komut hangi satırda doğru olarak verilmiştir?",
+          "options": {
+            "A": "notortalama=apply(notlistesi_final[3], 2, mean)",
+            "B": "notortalama=apply(final[3], 2, mean)",
+            "C": "notortalama=apply(notlistesi[4], 2, mean)",
+            "D": "notortalama=(notlistesi[3], 2, mean)",
+            "E": "notortalama=apply(notlistesi[3], 2, mean)"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen vektörü göz önüne alarak aşağıdaki çıktıyı sağlayan komut aşağıdaki hangi şıkta doğru olarak verilmiştir? Çıktı: 101 ‘Ali’ 102 ‘Veli’ 103 ‘Can’ 105 ‘Nalan’ 106 ‘Rabia’ 107 ‘Mehmet Ziya’ 108 ‘Ayşe Serra’ 109 ‘Zehra’ names(ogrenciler)=c(“101″, ”102″, ”103”, “105”, ”106″, ”107″, ”108″, “109”)",
+          "options": {
+            "A": "numara (ogrenciler)=c(\"101\",\"102\",\"103 \",\"105\",\"106\",\"107\",\"108\", \"109\")",
+            "B": "numara(ogrenciler)=c(101, 102, 103, 105, 1 06, 107, 108, 109)",
+            "C": "name(ogrenciler)=c(\"101\",\"102\",\"103\",\" 105\",\"106\",\"107\",\"108\", \"109\")",
+            "D": "names(ogrenciler)=c(\"101\",\"102\",\"103\", \"105\",\"106\",\"107\",\"108\", \"109\")",
+            "E": "names(ogrenciler)=c(101, 102, 103, 105, 10 6, 107, 108, 109)"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "RStudioprogramıiçinaşağıdaverilenifadelerdenhangisi doğrudur?",
+          "options": {
+            "A": "RStudio ile veri analizi uygulaması yapılamaz.",
+            "B": "Jupyter’in olduğu ortamda RStudio çalıştırılamaz.",
+            "C": "RStudio’nun Anaconda üzerinden ilk olarak çalıştırılabilmesi içn “install” (yüklenmesi) edilmesi gerekir.",
+            "D": "RStudio’yu kurmak için önce Jupyter Notebook kurulması gerekir.",
+            "E": "RStudio anaconda üzerinden çalıştırılamaz."
+          },
+          "correct_answer": "C",
+          "explanation": ""
         },
         {
           "id": 9,
-          "question": "Yukarıda verilen çerçeveden aşağıdaki çıktıyı elde edecek kod hangi satırda doğru olarak verilmiştir?",
+          "question": "Yukarıda verilen ekran görüntüsünün çıktısı hangi şıkta doğru olarak verilmiştir?",
           "options": {
-            "A": "kazananlar4[\"bolumu\"]",
-            "B": "kazananlar4(\"bolumu\")",
-            "C": "kazananlar4[[\"bolumu\"]]",
-            "D": "kazananlar4[bolumu]",
-            "E": "kazananlar4((\"bolumu\"))"
+            "A": "logic",
+            "B": "“789630”",
+            "C": "double",
+            "D": "789630",
+            "E": "numeric"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 10,
@@ -176,150 +675,75 @@
             "E": "R programında gerekli olan paketleri tek bir klasöre yükler."
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_10.png",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_10.png",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_10.png",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 11,
-          "question": "Yukarıdaki ekrandaki liste nesnesinin elemanlarının en büyüğünü bulan kod aşağıdaki hangi şıkta doğru olarak verilmiştir?",
+          "question": "Yukarıdaki ekranda liste nesnesinin elemanlarınıım ortalamasını bulan kod aşağıdaki şıklardan hangisinde doğru olarak verilmiştir?",
           "options": {
-            "A": "lapply(listem5,mean)",
-            "B": "lapply(listem5,max)",
-            "C": "lapply(listem5,buyuk)",
-            "D": "lapply(listem5,sum)",
-            "E": "lapply(listem5,enbuyuk)"
+            "A": "lapply(listem5, ortalama)",
+            "B": "lapply(listem, mean)",
+            "C": "lapply(listem5, ort)",
+            "D": "lapply(listem5, mean)",
+            "E": "lapply(listem5, enbuyuk)"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "D",
+          "explanation": ""
         },
         {
           "id": 12,
-          "question": "Yukarıda verilen vektörü göz önüne alarak aşağıdaki çıktıyı sağlayan komut aşağıdaki hangi şıkta doğru olarak verilmiştir? Çıktı : 101 'Ali' 102 'Veli' 103 'Can' 105 'Nalan' 106 'Rabia' 107 'Mehmet Ziya' 108 'Ayşe Serra' 109 'Zehra'",
+          "question": "Yukarıda verilen çerçeveden aşağıdaki çıktıyı elde edecek kod hangi satırda doğru olarak verilmiştir? ogrenciler=c(\"Ali\",\"Veli\",\"Can\",\"Nalan\",\" Rabia\",\"Mehmet Ziya\",\"Ayşe Serra\",\"Zehra\")",
           "options": {
-            "A": "numara (ogrenciler)=c(\"101\",\"102\",\"103 \",\"105\",\"106\",\"107\",\"108\", \"109\")",
-            "B": "numara(ogrenciler)=c(101,102,103,105,1 06,107,108,109)",
-            "C": "name(ogrenciler)=c(\"101\",\"102\",\"103\",\" 105\",\"106\",\"107\",\"108\", \"109\")",
-            "D": "names(ogrenciler)=c(\"101\",\"102\",\"103\", \"105\",\"106\",\"107\",\"108\", \"109\")",
-            "E": "names(ogrenciler)=c(101,102,103,105,10 6,107,108,109)"
+            "A": "kazananlar4[“bolumu”]",
+            "B": "kazananlar4(\"bolumu\")",
+            "C": "kazananlar4[[“bolumu”]]",
+            "D": "kazananlar4[bolumu]",
+            "E": "kazananlar4((\"bolumu\"))"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_12.png",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_12.png",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_12.png",
-          "source_image_url": ""
+          "correct_answer": "A",
+          "explanation": ""
         },
         {
           "id": 13,
-          "question": "Yukarıda verilen ekran görüntüsünün çıktısı hangi şıkta doğru olarak verilmiştir?",
+          "question": "Yukarıda verilen vektörün oluşturulduğu göz önüne alındığında, aşağıdaki çıktıyı veren komut hangi şıkta doğru olarak verilmiştir? Çıktı: ‘Ali”, ‘Veli’, ‘Can’, ’Zehra’",
           "options": {
-            "A": "character",
-            "B": "numeric",
-            "C": "double",
-            "D": "logic",
-            "E": "imaginer"
+            "A": "del[-c(4: 7)]",
+            "B": "ogrenciler[-c(4, 7)]",
+            "C": "ogrenciler[c(4: 7)]",
+            "D": "del[c(4: 7)]",
+            "E": "ogrenciler[-c(4: 7)]"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "E",
+          "explanation": ""
         },
         {
           "id": 14,
-          "question": "Jupyter, ……….. . Yukarıdaki noktalı kısım aşağıdaki ifadelerden hangisi ile tamamlanabilir?",
-          "options": {
-            "A": "açık kaynak kodlu bir uygulama değildir.",
-            "B": "veri görselleştirme ve program kodu yazmaya imkan veren web uygulamasıdır.",
-            "C": "veri analizi uygulamalarında kullanılmaz.",
-            "D": "kullanıcıya sadece text (metin) tabanlı bir ortam sağlar.",
-            "E": "R programla için uygun bir geliştirme ortamı değildir."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
           "question": "RStudio için aşağıda verilen ifadelerden hangisi doğrudur?",
           "options": {
             "A": "Ücretli olan bir programdır.",
             "B": "R programlamada artık kullanılmayan bir araçtır.",
-            "C": "R'ı yüklemek için gerekli olan dosyaları kapsar.",
+            "C": "R’ı yüklemek için gerekli olan dosyaları kapsar.",
             "D": "R programlama için bütünleşik geliştirme ortamı sağlar.",
-            "E": "http://cran.r-project.tr/ adresinden yüklenebilir."
+            "E": "http: //cran.r-project.tr/ adresinden yüklenebilir."
           },
           "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Anacondayı görev çubuğundan silmek için yukarıdaki ekran görüntüsü verilen durumlardan hangisi seçilmelidir?",
+          "options": {
+            "A": "Başlangıç’a sabitle.",
+            "B": "Görev çubuğundan kaldır.",
+            "C": "Yönetici olarak çalıştır.",
+            "D": "Dosya konumunu aç.",
+            "E": "Aç."
+          },
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 16,
-          "question": "Yukarıda verilen vektörün oluşturulduğu göz önüne alındığında, aşağıdaki çıktıyı veren komut hangi şıkta doğru olarak verilmiştir? Çıktı: 'Ali\", 'Veli', 'Can','Zehra'",
-          "options": {
-            "A": "del[-c(4:7)]",
-            "B": "ogrenciler[-c(4,7)]",
-            "C": "ogrenciler[c(4:7)]",
-            "D": "del[c(4:7)]",
-            "E": "ogrenciler[-c(4:7)]"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "\"Vektördeki her veri elemanının bir numarası vardır\" ifadesi için aşağıda verilen şıklardan hangisi doğrudur?",
-          "options": {
-            "A": "Heterojenlik ifadesini açıklamaktadır.",
-            "B": "Vektör elemanlarının uzunluğunu bulma numarasını açıklamaktadır.",
-            "C": "Vektör elemanlarının veri tipini tanımlamaktadır.",
-            "D": "Vektör elemanlarının değişmez olduğunu ifade etmektedir.",
-            "E": "Bu ifade vektörler için indis kavramına karşılık gelmektedir."
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_17.png",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_17.png",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_17.png",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Yukarıda verilen ve adı \"notlistesi olan\" olan ve ekrandan final notunun ortalamasını hesaplayacak komut hangi satırda doğru olarak verilmiştir?",
-          "options": {
-            "A": "notortalama=apply(notlistesi_final[3],2,mean)",
-            "B": "notortalama=apply(final[3],2,mean)",
-            "C": "notortalama=apply(notlistesi[4],2,mean)",
-            "D": "notortalama=(notlistesi[3],2,mean)",
-            "E": "notortalama=apply(notlistesi[3],2,mean)"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_18.png",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_18.png",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2024_2025_vize_soru_18.png",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
           "question": "Yukarıda verilen çerçeveden aşağıdaki çıktıyı sağlayan komut hangi şıkta doğru olarak verilmiştir?",
           "options": {
             "A": "attributes()",
@@ -329,718 +753,59 @@
             "E": "head()"
           },
           "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "R Programlama İle Veri Analizi 2023-2024 Vize",
-      "exam_title": "R Programlama İle Veri Analizi 2023-2024 Vize",
-      "exam_type": "vize",
-      "year": "2023-2024",
-      "question_count": 10,
-      "source_url": "",
-      "file_name": "R_Programlama_Ile_Veri_Analizi_Vize_Sorulari.docx",
-      "questions": [
-        {
-          "id": 1,
-          "question": "Yukarıda verilen ekran görüntüsünü liste yapısına dönüştüren kod hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "yenilistem=vector(vektor1, cerceve1, matris1)",
-            "B": "yenilistem=(vektor1, cerceve1, matris1)",
-            "C": "yenilistem=list(vektor1, cerceve1, matris1)",
-            "D": "yenilistem=liste(vektor1,cerceve1, matris1)",
-            "E": "yenilistem=list(\"vektor1\", \"çerçeve1\", \"matris1\")"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_1.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_1.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_1.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "https://cloud.r-project.org adresi için aşağıda verilen ifadelerden hangisi doğrudur?",
-          "options": {
-            "A": "Bütünleşik geliştirme ortamı sağlar.",
-            "B": "R'ı yüklemek için bulunduğunuz konuma en yakın sunucuya yönlendirir.",
-            "C": "Bu site tidyverse'nin kaynaklarını barındıran bir sitedir.",
-            "D": "RStudio'yu kurmak için gerekli olan dosyaları sağlar.",
-            "E": "Bu site artık R dilini destekleme özelliği taşımıyor."
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_2.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_2.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_2.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Yukarıdaki ekran çıktısını veren komut satırı hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "matrisY=matrix(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3, byrow=TRUE)",
-            "B": "matrisY=(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)",
-            "C": "matrisY=matrix(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 3 ,4)",
-            "D": "matrisY=matrix(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)",
-            "E": "matrisY=matris(c(10, 20, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125), 4, 3)"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_3.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_3.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_3.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "Yukarıdaki şekildeki ekran çıktısını verecek kod satırı hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "havadurumu=faktör(c(\"yağmurlu\", \"güneşli\",\"bulutlu\", \"yağmurlu\", \"güneşli\",\"güneşli\"))",
-            "B": "havadurumu=factor((\"yağmurlu\", \"güneşli\",\"bulutlu\", \"yağmurlu\", \"güneşli\",\"güneşli\"))",
-            "C": "havadurumu=factor(c(\"yağmurlu\", \"güneşli\",\"bulutlu\", \"yağmurlu\", \"güneşli\",\"güneşli\"))",
-            "D": "havadurumu=factor(c(\"bulutlu\", \"güneşli\",\"yağmurlu\"))",
-            "E": "havadurumu=factor(c(yağmurlu, güneşli,bulutlu,yağmurlu, güneşli, güneşli))"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_4.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_4.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_4.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "Yukarıda verilen şekilde 1 ve 2 ile gösterilen kısımlara ne ad verilir?",
-          "options": {
-            "A": "Satır",
-            "B": "Çubuk",
-            "C": "Çerçeve",
-            "D": "Sütun",
-            "E": "Hücre"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_5.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_5.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_5.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "Yukarıda verilen ekran görüntüsünde \"R\" simgesine tıklanırsa ne olur?",
-          "options": {
-            "A": "Jupyter'de Python programı aktif hale getirilir.",
-            "B": "Jupyter'de Linux programı aktif hale getirilir.",
-            "C": "Anaconda aktif hale gelir.",
-            "D": "RStudio programı aktif hale getirilir.",
-            "E": "Jupyter'de R programı aktif hale getirilir."
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_6.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_6.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2023_2024_vize_soru_6.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Yukarıda kazananlar2 adlı çerçeve verilmiştir.",
-          "options": {
-            "A": "satır=data.frame(adayno=50, puanı=395, bolumu=Makine)kazananlar3=rbind(kazananlar2, satır)",
-            "B": "satır=data.frame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar, satır)",
-            "C": "satır=rame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar2, satır)",
-            "D": "kazan=data.frame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar2, satır)",
-            "E": "satır=data.frame(adayno=50, puanı=395, bolumu=\"Makine\")kazananlar3=rbind(kazananlar2, satır)"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Kategorik bir değişken için en uygun R veri türü hangisidir?",
-          "options": {
-            "A": "Karakter",
-            "B": "Faktör",
-            "C": "Tamsayı",
-            "D": "Sayısal",
-            "E": "Matris"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "ls() fonksiyonu hangi işlem için kullanılır?",
-          "options": {
-            "A": "Karakter tipindeki değişkeni tamsayı tipi değişkene döndürmek için",
-            "B": "Değişkenlere değer atamak için",
-            "C": "Bellekteki değişkenleri boşaltmak için",
-            "D": "Sayısal değişken tanımlamak için",
-            "E": "Bellekte oluşturulan değişkenleri görüntülemek için"
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Vektör veri yapısı için aşağıda verilen ifadelerden hangisi doğrudur?",
-          "options": {
-            "A": "Farklı verileri içerebilir.",
-            "B": "Çok boyutludur.",
-            "C": "Homojenlik içerir.",
-            "D": "Oluşturulması zordur.",
-            "E": "İki boyutludur."
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "R Programlama İle Veri Analizi 2021 Vize",
-      "exam_title": "R Programlama İle Veri Analizi 2021 Vize",
-      "exam_type": "vize",
-      "year": "2021",
-      "question_count": 1,
-      "source_url": "",
-      "file_name": "R_Programlama_Ile_Veri_Analizi_Vize_Sorulari.docx",
-      "questions": [
-        {
-          "id": 11,
-          "question": "\"Ali\", 34, 2021 verilerini liste olarak oluşturan ve listem adlı bir değişkene atayan komut hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "",
-            "B": "",
-            "C": "",
-            "D": "",
-            "E": ""
-          },
-          "correct_answer": "",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "R Programlama İle Veri Analizi 2021 Vize",
-      "exam_title": "R Programlama İle Veri Analizi 2021 Vize",
-      "exam_type": "vize",
-      "year": "2021",
-      "question_count": 9,
-      "source_url": "",
-      "file_name": "R_Programlama_Ile_Veri_Analizi_Vize_Sorulari.docx",
-      "questions": [
-        {
-          "id": 12,
-          "question": "Yukarıda verilen şekil göz önüne alınacaktır. Bu şekle göre:\"58960\" elemanının indis değeri ne olur?",
-          "options": {
-            "A": "3",
-            "B": "4",
-            "C": "0",
-            "D": "-1",
-            "E": "2"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_12.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_12.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_12.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "\"R için gerekli olan işlevler, veriler ve belgeler topluluğunu kapsar\" ifadesi aşağıda verilenlerden hangisi için geçerlidir?",
-          "options": {
-            "A": "Tidyverse",
-            "B": "Jupyter Notebook",
-            "C": "RStudio",
-            "D": "Anaconda",
-            "E": "R"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_13.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_13.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_13.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Yukarıda verilen ve adı \"kazananlar\" olan çerçeveden; Aşağıda verilen çıktıyı sağlayan komut hangi satırda doğru olarak verilmiştir? Çıktı: 250 – 470 – 215 – 400",
-          "options": {
-            "A": "kazananlar[[Aday-3]]",
-            "B": "kazananlar[2]",
-            "C": "kazananlar((2))",
-            "D": "kazananlar[[2]]",
-            "E": "kazananlar[[3]]"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_14.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_14.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_14.jpg",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Yukarıda verilen ve adı kazananlar olan çerçevenin son sütununun ismini Alanı olarak değiştirecek kod hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "colnames(kazananlar)[3]=Alanı",
-            "B": "colnames(kazananlar)[3]=\"Alanı\"",
-            "C": "rownames(kazananlar)[4]=\"Alanı\"",
-            "D": "colnames(kazananlar)[4]=\"Alanı\"",
-            "E": "rownames(kazananlar)[3]=\"Alanı\""
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Anaconda için aşağıda verilen ifadelerden hangisi doğrudur?",
-          "options": {
-            "A": "Veri analizi uygulamaları için bütünleşik geliştirme ortamı sağlar.",
-            "B": "Sadece Jupyter Notebook'u destekler.",
-            "C": "RStudio'yu desteklemez.",
-            "D": "Jupyter Notebook'u desteklemez.",
-            "E": "Açık kaynak kodlu bir yazılım değildir."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_16.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_16.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_16.jpg",
-          "source_image_url": ""
+          "explanation": ""
         },
         {
           "id": 17,
-          "question": "Yukarıda verilen listenin \"Aile\" parçasını dilimleyecek komut satırı hangi şıkta doğru olarak verilmiştir?",
+          "question": "Jupyter, ………... Yukarıdaki noktalı kısım aşağıdaki ifadelerden hangisi ile tamamlanabilir?",
           "options": {
-            "A": "yenilistem2[[Aile]]",
-            "B": "yenilistem2(\"Aile\")",
-            "C": "yenilistem2[[\"Aile\"\"]]\"",
-            "D": "yenilistem2[[\"aile\"\"]]\"",
-            "E": "yenilistem2[\"Aile\"\"]\""
+            "A": "açık kaynak kodlu bir uygulama değildir.",
+            "B": "veri görselleştirme ve program kodu yazmaya imkan veren web uygulamasıdır.",
+            "C": "veri analizi uygulamalarında kullanılmaz.",
+            "D": "kullanıcıya sadece text (metin) tabanlı bir ortam sağlar.",
+            "E": "R programla için uygun bir geliştirme ortamı değildir."
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_17.jpg",
-          "image_file": "R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_17.jpg",
-          "image_path": "resim-sorular/R_PROGRAMLAMA_ILE_VERI_ANALIZI_2021_vize_soru_17.jpg",
-          "source_image_url": ""
+          "correct_answer": "B",
+          "explanation": ""
         },
         {
           "id": 18,
-          "question": "Yukarıda verilen vektörü göz önüne alarak; isimler[8] kod satırının sonucu hangi şıkta doğru olarak verilmiştir?",
+          "question": "RStudio için verilen ifadelerden hangisi yanlıştır?",
           "options": {
-            "A": "Veli",
-            "B": "Zehra",
-            "C": "Ayşe Serra, Zehra",
-            "D": "Ali",
-            "E": "Ayşe Serra"
+            "A": "R kullanıcılarına web tabanlı bir çalışma ortamı sağlar.",
+            "B": "Anaconda içerisinden de çalıştırılabilir.",
+            "C": "Yılda birkaç kez güncellenir.",
+            "D": "http: //www.rstudio.com/download adresinden yüklenir.",
+            "E": "R için bütünleşik bir geliştirme ortamı sağlar."
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "A",
+          "explanation": ""
         },
         {
           "id": 19,
-          "question": "ay<-\"Şubat\"\"yıl=2021olarak değişkenlerden \"yıl\" adlı değişkeni bellekten silmek için hangi fonksiyon kullanılır?\"",
+          "question": "Değişken için aşağıda verilen ifadelerden hangisi yanlıştır?",
           "options": {
-            "A": "rm()",
-            "B": "cut()",
-            "C": "ls()",
-            "D": "print()",
-            "E": "del()"
+            "A": "Verileri etiketlemek için kullanılır.",
+            "B": "Bilgi saklayan kutular olarak düşünülebilir.",
+            "C": "Bellekte yer kaplarlar.",
+            "D": "R'da değişken tanımlamaz.",
+            "E": "R'da değişkene değer atandığı anda oluşturulur."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "correct_answer": "D",
+          "explanation": ""
         },
         {
           "id": 20,
-          "question": "Karar ağaçları için aşağıda verilen ifadelerden hangisi doğrudur?",
+          "question": "“Vektördeki her veri elemanının bir numarası vardır” ifadesi için aşağıda verilen şıklardan hangisi doğrudur?",
           "options": {
-            "A": "Karar ağaçları R tarafından desteklenmez.",
-            "B": "Karar ağaçları sadece çok büyük veri setlerinde kullanılabilir.",
-            "C": "Denetimsiz bir öğrenme algoritmasıdır.",
-            "D": "Denetimli bir öğrenme algoritmasıdır.",
-            "E": "Kümeleme algoritması sınıfına girer."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "R Programlama İle Veri Analizi 2022-2023 Final",
-      "exam_title": "R Programlama İle Veri Analizi 2022-2023 Final",
-      "exam_type": "final",
-      "year": "2022-2023",
-      "question_count": 19,
-      "source_url": "",
-      "file_name": "R_Programlama_Ile_Veri_Analizi_Final_Sorulari.docx",
-      "questions": [
-        {
-          "id": 1,
-          "question": "R'de kullanılan görüntü işleme paketi/kütüphanesi nerede tutulur?",
-          "options": {
-            "A": "Download-r.com'da",
-            "B": "CRAN",
-            "C": "r.com'da",
-            "D": "Bilgisayarın belleğinde",
-            "E": "Project.org.tr'de"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Yukarıda verilen sorunun doğru şıkkını işaretleyiniz.",
-          "options": {
-            "A": "Yanıt değişkeninin tahmin değeridir.",
-            "B": "Y eksenini kesme noktasıdır.",
-            "C": "X eksenini kesme noktasıdır.",
-            "D": "Regresyon katsayısıdır.",
-            "E": "Bağımlı değişkenin katsayısıdır."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "Yukarıda verilen ekran görüntüsünün sonucu hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "110",
-            "B": "100",
-            "C": "506",
-            "D": "611",
-            "E": "606"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "Yukarıda verilen ekran görüntüsünde \"R\" simgesine tıklanırsa ne olur?",
-          "options": {
-            "A": "Jupyter'de Linux programı aktif hale getirilir.",
-            "B": "Jupyter'de Python programı aktif hale getirilir.",
-            "C": "Jupyter'de R programı aktif hale getirilir.",
-            "D": "RStudio programı aktif hale getirilir.",
-            "E": "Anaconda aktif hale gelir."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "final=c(65,50,73,60,30,30,50,50,65) Yukarıda verilen final verisinin medyanı hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "65",
-            "B": "50",
-            "C": "60",
-            "D": "30",
-            "E": "52.5"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 6,
-          "question": "Aşağıdaki şıklarda verilen fonksiyonlardan hangisi artık değeri hesaplamak için kullanılan fonksiyondur?",
-          "options": {
-            "A": "summary()",
-            "B": "reside()",
-            "C": "head()",
-            "D": "plot()",
-            "E": "Im()"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 7,
-          "question": "Yukarıda verilen ekran görüntüsündeki grafik için şıklarda verilen ifadelerden hangisi doğrudur?",
-          "options": {
-            "A": "Bu grafik polinomial regresyon eğrisini temsil etmektedir.",
-            "B": "Bu grafik kesikli veriler için kullanılır.",
-            "C": "Bu grafikteki eğri, Lineer regresyon eğrisidir.",
-            "D": "Bu grafik ile evet veya hayır gibi durumlar analiz edilebilir.",
-            "E": "Bu grafik ile bir firmanın karlı olup olmadığı bulunabilir."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 8,
-          "question": "Vektor=c(11,5,13,8,9,6,14,17,10) verilen vektörü göz önüne alarak yukarıda göründüğü gibi çizgi grafiği oluşturacak komut hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "plot(vektor, col=\"I\")",
-            "B": "plot(vektor, main=\"I\")",
-            "C": "plot(vektor, type=\"p\")",
-            "D": "plot(vektor, type=\"o\")",
-            "E": "plot(vektor, type=\"l\")"
+            "A": "Heterojenlik ifadesini açıklamaktadır.",
+            "B": "Vektör elemanlarının uzunluğunu bulma numarasını açıklamaktadır.",
+            "C": "Vektör elemanlarının veri tipini tanımlamaktadır.",
+            "D": "Vektör elemanlarının değişmez olduğunu ifade etmektedir.",
+            "E": "Bu ifade vektörler için indis kavramına karşılık gelmektedir."
           },
           "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Bir öğrenciye \"cars\" adlı bir veri setinin verildiği varsayılmaktadır. Öğrenci bu veri setinin öz niteliklerini görüntülemek için aşağıdaki hangi komutu kullanmalıdır?",
-          "options": {
-            "A": "str(cars)",
-            "B": "main(cars)",
-            "C": "col(cars)",
-            "D": "data(cars)",
-            "E": "print(cars)"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Yukarıdaki grafikte ağırlığa bağlı cinsiyet tahmin edilmeye çalışılıyor. Bu görselde sol tarafta sütun halinde çerçeve içine alınan sayılar neyi ifade etmektedir?",
-          "options": {
-            "A": "Ağırlıkları ifade eder.",
-            "B": "Kadın olanları ifade eder.",
-            "C": "Olasılık değerlerini ifade eder.",
-            "D": "Erkek olanları ifade eder.",
-            "E": "Denklemin katsayılarını ifade eder."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Bu matrisin 2. Satırının tüm öğelerini silecek komut hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "matrisX[2,]",
-            "B": "matrisX[,2]",
-            "C": "matrisX[2,2]",
-            "D": "matrisX[1,1]",
-            "E": "matrisX[2,1,2,3,4]"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Şekilde verilen arayüz için aşağıdaki ifadelerden hangisi doğrudur?",
-          "options": {
-            "A": "Anaconda'nın arayüzüdür.",
-            "B": "RStudio'nun arayüzüdür.",
-            "C": "R'ın arayüzüdür.",
-            "D": "Jupyter Notebook'un arayüzüdür.",
-            "E": "C# arayüzüdür."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Yoğunluk grafiğinin histogram üzerine yazdırılması için hangi komut kullanılır?",
-          "options": {
-            "A": "density()",
-            "B": "par(T)",
-            "C": "hist(new)",
-            "D": "par(new=T)",
-            "E": "par(T=new)"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Herhangi bir grafiğe eni ve yüksekliği 5 olacak şekilde ve kırmızı renkte ızgara ekleyen komut satırı hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "grid(5,5, col=\"red\")",
-            "B": "plot(5,5, col=\"red\")",
-            "C": "density(5,5, col=\"red\")",
-            "D": "lines (5,5, col=\"red\")",
-            "E": "grid(5,5, col=\"kırmızı\")"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Yukarıda verilen vektör ve bu vektörden elde edilen çıktı görülmektedir. Bu çıktıyı sağlayan kod hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "isimler [[3:7]]",
-            "B": "isimler [3,7]",
-            "C": "isimler (3:7)",
-            "D": "isimler ((3:7))",
-            "E": "isimler [3:7]"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Yukarıdaki ekranda listede nesnesinin elemanlarının toplamını bulan kod hangi seçenekte doğru olarak verilmiştir?",
-          "options": {
-            "A": "lapply(listem5,mean)",
-            "B": "lapply(listem5,max)",
-            "C": "lapply(listem5,toplam)",
-            "D": "lapply(listem5,min)",
-            "E": "lapply(listem5,sum)"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Yukarıda mat adı ile verilen matrisin uzaklık mesafesi (dist(mat)) hesaplanmış ve alt tarafta dist(mat) olarak gösterilmiştir. Bu uzaklık matrisi için şıklarda verilen ifadelerden hangisi doğrudur?",
-          "options": {
-            "A": "Uzaklık matrisi simetrik olduğu için üst kısmı (sol üst-sağ alt köşegen üzerindeki sayılar) alınmaz.",
-            "B": "Uzaklık matrisinin sütunları, hesaplanmak için ele alınan matrisin sütun sayısına eşittir.",
-            "C": "Uzaklık matrisinin üst tarafı farklı değerler içerir.",
-            "D": "Uzaklık matrisi sinüs ölçeğine göre hesaplanır.",
-            "E": "K-means algoritmasında uzaklık matrisi kullanılmaz."
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Aşağıda k-means algoritması için verilen ifadelerden hangisi doğrudur?",
-          "options": {
-            "A": "Veri noktaları arasındaki uzaklık sinüs ölçütü ile bulunur.",
-            "B": "Küme merkezleri başlangıçta hesaplama ile bulunur.",
-            "C": "Küme sayısı algoritmanın sonunda belli olur.",
-            "D": "Algoritma küme üyelerinin grubu değişmediği zaman sonlanır.",
-            "E": "Küme sayıları algoritmanın her adımında sürekli değişir."
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Yukarıda verilen resimde \"?\" ile gösterilen yere yazılması gereken ifade hangi şıkta doğru olarak verilmiştir?",
-          "options": {
-            "A": "İşlem adımları",
-            "B": "Algoritma üretimi",
-            "C": "Çıkarımsal istatistik",
-            "D": "Akış şeması",
-            "E": "Tanımlayıcı istatistik"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "explanation": ""
         }
       ]
     }

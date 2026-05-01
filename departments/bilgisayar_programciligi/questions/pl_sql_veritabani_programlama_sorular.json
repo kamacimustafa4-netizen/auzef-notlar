@@ -752,9 +752,9 @@
           "id": 5,
           "question": "Aşağıda verilen alt programlardan hangisi geçerli ve doğru tanımlanmıştır?",
           "options": {
-            "A": "CREATE OR REPLACE PROCEDURE deneme (z) IS BEGIN z := z + 5; END;",
+            "A": "CREATE OR REPLACE PROCEDURE deneme (z) IS BEGIN z:= z + 5; END;",
             "B": "CREATE OR REPLACE PROCEDURE deneme (a NUMBER, b PLS_INTEGER) RETURN NUMBER IS BEGIN RETURN a + b; END;",
-            "C": "CREATE OR REPLACE PROCEDURE deneme (y REAL) AS x NUMBER := 5; BEGIN x:= x + y; END;",
+            "C": "CREATE OR REPLACE PROCEDURE deneme (y REAL) AS x NUMBER:= 5; BEGIN x:= x + y; END;",
             "D": "CREATE OR REPLACE FUNCTION deneme RETURN NUMBER (x DOUBLE, y FLOAT) IS BEGIN RETURN x + y; END;",
             "E": "CREATE OR REPLACE FUNCTION deneme (c DOUBLE, d FLOAT) IS BEGIN RETURN c + d; END"
           },
@@ -856,7 +856,7 @@
           "options": {
             "A": "rec_regions HR.regions%ROWTYPE;",
             "B": "rec_regions HR.regions%TYPE;",
-            "C": "rec_regions %ROWTYPE%HR.regions ;",
+            "C": "rec_regions %ROWTYPE%HR.regions;",
             "D": "rec_regions HR.regions;",
             "E": "regions HR.rec_regions%ROWTYPE;"
           },
@@ -1137,11 +1137,11 @@
           "id": 10,
           "question": "Aşağıdaki değişkenlerden hangisinin değeri diğerlerinden farklıdır?",
           "options": {
-            "A": "sayi NUMBER(5,0) := 12345;",
-            "B": "sayi NUMBER(5,0) := 12345.123;",
-            "C": "sayi NUMBER(5,0) := 12345.456;",
-            "D": "sayi NUMBER(5) := 12345;",
-            "E": "sayi NUMBER(5) := 12345.678;"
+            "A": "sayi NUMBER(5,0):= 12345;",
+            "B": "sayi NUMBER(5,0):= 12345.123;",
+            "C": "sayi NUMBER(5,0):= 12345.456;",
+            "D": "sayi NUMBER(5):= 12345;",
+            "E": "sayi NUMBER(5):= 12345.678;"
           },
           "correct_answer": "E",
           "explanation": "",
@@ -1171,11 +1171,11 @@
           "id": 12,
           "question": "Aşağıdaki literallerden hangisi geçersizdir?",
           "options": {
-            "A": "dil NVARCHAR2 (50) := '=PL/SQL';",
-            "B": "pi NUMBER := 3,14;",
-            "C": "g BINARY_DOUBLE := 9.8d;",
-            "D": "adet BINARY_FLOAT := 1.53f;",
-            "E": "sayi NUMBER := 3.28E-2;"
+            "A": "dil NVARCHAR2 (50):= '=PL/SQL';",
+            "B": "pi NUMBER:= 3,14;",
+            "C": "g BINARY_DOUBLE:= 9.8d;",
+            "D": "adet BINARY_FLOAT:= 1.53f;",
+            "E": "sayi NUMBER:= 3.28E-2;"
           },
           "correct_answer": "B",
           "explanation": "",

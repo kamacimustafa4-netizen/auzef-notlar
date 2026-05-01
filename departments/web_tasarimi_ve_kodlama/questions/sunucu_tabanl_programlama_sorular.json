@@ -622,7 +622,7 @@
           "id": 16,
           "question": "Blade'de bir değişkenin değerini güvenli bir şekilde yazdırmak için hangi sözdizimi kullanılır?",
           "options": {
-            "A": "{!! $degisken !!}",
+            "A": "{!! $degisken!!}",
             "B": "<% $degisken %>",
             "C": "{{ $degisken }}",
             "D": "($degisken)",

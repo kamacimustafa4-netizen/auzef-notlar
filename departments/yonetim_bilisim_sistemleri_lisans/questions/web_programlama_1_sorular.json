@@ -1,806 +1,753 @@
 {
-  "course": "Web Programlama 1",
-  "lesson_code": "WEB_PROGRAMLAMA_1",
-  "exam_count": 3,
+  "course_name": "Web Programlama",
   "exams": [
     {
-      "title": "Web Programlama 1 2024-2025 Vize",
-      "exam_title": "Web Programlama 1 2024-2025 Vize",
-      "exam_type": "vize",
+      "exam_label": "2025-2026 Vize",
+      "year": "2025-2026",
+      "exam_type": "Vize",
+      "questions": [
+        {
+          "question_number": 1,
+          "context": "",
+          "question": "Yukarıda verilen PHP kodunun çıktısı hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "21",
+            "B": "35 birds",
+            "C": "35",
+            "D": "20",
+            "E": "45"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 2,
+          "context": "",
+          "question": "Aşağıdaki seçenekler arasında, PHP'nin açılımını doğru şekilde belirten ifadeyi işaretleyiniz.",
+          "options": {
+            "A": "Personal Hypertext Processor",
+            "B": "Public Home Page",
+            "C": "Private Home Processor",
+            "D": "Private Hypertext Processor",
+            "E": "Personal Home Page"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 3,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi PHP'de kullanılan bir veri türü değildir?",
+          "options": {
+            "A": "Array",
+            "B": "Integer",
+            "C": "Character",
+            "D": "Double",
+            "E": "Object"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 4,
+          "context": "",
+          "question": "PHP'de while ve do...while döngüleri arasındaki temel fark aşağıdaki seçeneklerden hangisinde belirtilmiştir?",
+          "options": {
+            "A": "while sonsuz döngülerde kullanılmaktadır.",
+            "B": "while önce koşulu kontrol etmekteyken, do...while önce istenen işlemi yapıp, sonra koşulu kontrol etmektedir.",
+            "C": "while sadece sabitlerle çalışmaktadır.",
+            "D": "do...while koşul sağlanmazsa çalışmaz.",
+            "E": "do...while if ile birlikte kullanılmaktadır."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 5,
+          "context": "",
+          "question": "$dersler dizisinin alfabetik olarak sıralanmasını sağlayan fonksiyon aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "krsort($dersler);",
+            "B": "sort($dersler);",
+            "C": "arsort($dersler);",
+            "D": "rsort($dersler);",
+            "E": "ksort($dersler);"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 6,
+          "context": "",
+          "question": "2 Hello",
+          "options": {
+            "C": "string double string",
+            "D": "integer double string",
+            "E": "string double string"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "",
+          "question": "Aşağıdaki ifadelerden hangisi PHP'de bir döngüyü ya da yapıyı kırmak için kullanılmaktadır?",
+          "options": {
+            "A": "break",
+            "B": "default",
+            "C": "continue",
+            "D": "end",
+            "E": "case"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "PHP, hangi yılda ve kim tarafından geliştirilmiştir?",
+          "options": {
+            "A": "1997-Brendan Eich",
+            "B": "1993-Tim Berners-Lee",
+            "C": "2000-Larry Page",
+            "D": "1995-Mark Zuckerberg",
+            "E": "1994-Rasmus Lerdorf"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi PHP'de ekrana Merhaba Dünya yazdırılmasını sağlar?",
+          "options": {
+            "A": "\"Merhaba dünya\"",
+            "B": "echo \"Merhaba Dünya\";",
+            "C": "echo Merhaba Dünya",
+            "D": "Echo",
+            "E": "Response.Write(\"Merhaba Dünya\")"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "",
+          "question": "Yukarıdaki PHP kodunun çıktısı hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "Birinci İkinci",
+            "B": "Çıktı vermez",
+            "C": "Birinci",
+            "D": "Undefined variable $a",
+            "E": "İkinci"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 11,
+          "context": "",
+          "question": "PHP'de + operatörü hangi amaçla kullanılmaktadır?",
+          "options": {
+            "A": "Değişkenin değerini bir azaltır.",
+            "B": "Değişkenin değerini sıfırlar.",
+            "C": "Değişkenin değerini bir arttırır.",
+            "D": "Değişkenin değerini iki katına çıkarır.",
+            "E": "Değişkenin türünü değiştirir."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 12,
+          "context": "",
+          "question": "PHP'de veri türleriyle ilgili aşağıdaki seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Integer veri türü, sadece pozitif tam sayılar içermektedir.",
+            "B": "Array veri türü, bir veya birden fazla değeri depolamak için kullanılmaktadır.",
+            "C": "Float veri türü, ondalık sayıları saklamak için kullanılmaktadır.",
+            "D": "Boolean türü \"true\" veya \"false\" olmak üzere iki değerden birini alabilir.",
+            "E": "String veri türü, metin verilerini temsil etmektedir."
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "",
+          "question": "Aşağıda verilen PHP ile ilgili temel bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "PHP sunucu taraflı çalışan bir programlama dilidir.",
+            "B": "PHP HTML etiketleri içerisine gömülür.",
+            "C": "HTML kodları dinamik, PHP ise statik sayfalar sağlar.",
+            "D": "PHP, tırnak kullanmasanız da bir değişkenin sayı olup olmadığını anlar.",
+            "E": "PHP etiketleri içerisine yazılır."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 14,
+          "context": "",
+          "question": "Yukarıda verilen PHP kodunun çıktısı aşağıdaki seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "0",
+            "B": "4",
+            "C": "1",
+            "D": "3",
+            "E": "2"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 15,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi PHP'de ilişkilendirilmiş bir dizi tanımlamak için kullanılmaktadır?",
+          "options": {
+            "A": "$dizi (\"ad\", \"yas\");",
+            "B": "$isimler [\"Ali\", \"Veli\", \"Ayşe\"];",
+            "C": "$yaslar = 10=>25 25, 1 1=>301;",
+            "D": "$sayi = 5;",
+            "E": "$bilgiler = [\"ad\" => \"Ali\", \"yas\" => 25];"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 16,
+          "context": "",
+          "question": "Yukarıdaki PHP kod bloğunun çıktısı aşağıdaki seçeneklerden hangisidir?",
+          "options": {
+            "A": "a=4 b=3",
+            "B": "A, B'ye eşit değildir",
+            "C": "A, B'ye eşittir",
+            "D": "a=4 b=3",
+            "E": "Hata verir"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 17,
+          "context": "",
+          "question": "Yukarıdaki PHP kod satırında verilen $sayi değişkeninin türünü öğrenmek için hangi fonksiyon kullanılmalıdır?",
+          "options": {
+            "A": "gettype($sayi);",
+            "B": "gettype($sayi, null);",
+            "C": "settype($sayi);",
+            "D": "settype($sayi, integer);",
+            "E": "gettype(sayi, object);"
+          },
+          "answer": "A",
+          "explanation": ""
+        }
+      ],
+      "question_count": 17,
+      "source_file": "Web_Programlama_çıkmış_sorular_–_Öğrenme_Yönetim_Sistemi_2025_2026_Vize.docx"
+    },
+    {
+      "exam_label": "2024-2025 Final",
       "year": "2024-2025",
-      "question_count": 20,
-      "source_url": "",
-      "file_name": "Web_Programlama_1_Vize_Sorulari.docx",
+      "exam_type": "Final",
       "questions": [
         {
-          "id": 1,
-          "question": "Birbirleri ile iletişim kurarak World Wide Web'i meydana getiren iki bileşen hangisidir?",
+          "question_number": 1,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi ekrana Merhaba Dünya yazdırılmasını sağlar?",
           "options": {
-            "A": "İstemci – Sunucu",
-            "B": "Alıcı – Verici",
-            "C": "HTTP – SMTP",
-            "D": "HTTP – HTTPS",
-            "E": "Yazıcı – Okuyucu"
+            "A": "echo Merhaba Dünya",
+            "B": "echo \"Merhaba Dünya\";",
+            "C": "\"Merhaba dünya\"",
+            "D": "Echo <Merhaba Dünya>",
+            "E": "Response.Write(\"Merhaba Dünya\")"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
-          "id": 2,
-          "question": "Blink Rendering Engine'i kullanan tarayıcılar hangi şıkta doğru verilmiştir?",
+          "question_number": 2,
+          "context": "",
+          "question": "Yukarıdaki PHP kodu çalıştırıldığında oluşacak ekran çıktısı aşağıdakilerden hangisidir?",
           "options": {
-            "A": "Chrome, Safari",
-            "B": "Safari, Firefox",
-            "C": "Chrome, IE, Edge",
-            "D": "Safari",
-            "E": "Chrome, Opera, Edge"
+            "A": "1 2 3",
+            "B": "1 2 3 4 5",
+            "C": "2 4 5",
+            "D": "3 5",
+            "E": "2 4"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
-          "id": 3,
-          "question": "Bir web sitesinin internetteki adı ile adresine verilen isim nedir?",
+          "question_number": 3,
+          "context": "",
+          "question": "$dersler dizisinin alfabetik olarak sıralanmasını sağlayan fonksiyon aşağıdakilerden hangisidir?",
           "options": {
-            "A": "Host Name",
-            "B": "DNS",
-            "C": "Task Name",
-            "D": "Web Hosting",
-            "E": "Domain Name"
+            "A": "krsort($dersler);",
+            "B": "arsort($dersler);",
+            "C": "sort($dersler);",
+            "D": "ksort($dersler);",
+            "E": "rsort($dersler);"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
-          "id": 4,
-          "question": "Web sayfasında karakterleri yazılırsa ekranda ne görünür?",
+          "question_number": 4,
+          "context": "",
+          "question": "Yukarıdaki PHP kodunun ekran çıktısı aşağıdakilerden hangisi olmalıdır?",
           "options": {
-            "A": "Bir karakter koyu yazılır.",
-            "B": "Bir karakter sola eğilir.",
-            "C": "Bir karakter boşluk verilir.",
-            "D": "Bir karakter alt çizili yazılır.",
-            "E": "Bir karakter sağa eğilir."
+            "A": "En büyük sayı 15",
+            "B": "En büyük sayı: 10",
+            "C": "15",
+            "D": "En büyük sayı: 7",
+            "E": "En büyük sayı: 15"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
-          "id": 5,
-          "question": "Bir web sayfasına bulunduğu dizinin iki üst dizinindeki resim.gif dosyasını eklemek için nasıl bir kod yazmak gerekir?",
+          "question_number": 5,
+          "context": "",
+          "question": "Aşağıdakilerden hangisinde PHP'de fonksiyon tanımlamasına doğru şekilde yer verilmiştir?",
           "options": {
-            "A": "<img src=../../resim.gif>",
-            "B": "<img src=//resim.gif>",
-            "C": "<img src=resim/resim.gif>",
-            "D": "<img src=../resim.gif>",
-            "E": "<img src=../resim/resim.gif>"
+            "A": "create myFunction()",
+            "B": "myFunction() define",
+            "C": "define function myFunction()",
+            "D": "function myFunction()",
+            "E": "init myFunction()"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 6,
-          "question": "Web tarayıcıları hakkında verilenlerden hangisi yanlıştır?",
+          "question_number": 6,
+          "context": "",
+          "question": "Bir PHP oturumu kapatmak ve tüm oturum verilerini temizlemek için aşağıdaki hangi fonksiyon kullanılmaktadır?",
           "options": {
-            "A": "Web tarayıcıları HTML dilini yorumlayabilirler.",
-            "B": "Web tarayıcıları istemci tarafını bağlantı isteğinde bulunmak için kullandığı uygulamalardır.",
-            "C": "Web tarayıcıları CSS kodlarını yorumlayabilirler.",
-            "D": "Web tarayıcıları C++ dilinde yazılmış kodları derlemek için kullanılır.",
-            "E": "Web tarayıcıları Javascript kodlarını işletebilirler."
+            "A": "session_close()",
+            "B": "session_unset()",
+            "C": "end_session()",
+            "D": "clear_session()",
+            "E": "session_destroy()"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
-          "id": 7,
-          "question": "Tarayıcıların ana eleman standardı hangisi tarafından oluşturulmuştur?",
+          "question_number": 7,
+          "context": "",
+          "question": "Bir form gönderildiğinde verilerin URL üzerinde görünmesini istemiyorsanız hangi yöntem kullanmalıdır?",
           "options": {
-            "A": "W3C",
-            "B": "En iyi kullanım deneyimi",
-            "C": "TSE",
-            "D": "DNS",
-            "E": "World Wide Web Consortium"
+            "A": "POST",
+            "B": "PUT",
+            "C": "DELETE",
+            "D": "GET",
+            "E": "LINK"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 8,
-          "question": "Aşağıdakilerden hangisi World Wide Web Consortium (W3C) tarafından belirlenen standartlardan biri değildir?",
+          "question_number": 8,
+          "context": "",
+          "question": "Aşağıdaki form elemanlarından hangisi, formda buton oluşturmak için kullanılmaktadır?",
           "options": {
-            "A": "MathLab",
-            "B": "XHTML",
-            "C": "MathML",
-            "D": "PNG",
-            "E": "XML"
+            "A": "<input type=\"submit\">",
+            "B": "<input type=\"text\">",
+            "C": "<input type=\"file\">",
+            "D": "<input type=\"email\">",
+            "E": "<input type=\"password\">"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 9,
-          "question": "Resim üzerinde belli bir bölgenin belli bir şekilde işaretlenmesi için kullanılan etiket ve özellikleri hangisinde doğru verilmiştir?",
+          "question_number": 9,
+          "context": "",
+          "question": "Kullanıcıyı tanımlamak için bir çerez kullanılır. I. Çerez, web uygulamaları tarafından kullanıcının bilgisayarına kaydedilen bir dosyadır. II. Çerezler web uygulamalarının performansını artırmak için kullanılır. III. PHP'de çerezler oluşturabiliriz ve ayrıca çerezlerden veri alabiliriz. IV. PHP'de çerezler ile ilgili yukarıda verilen ifadelerden hangileri doğrudur?",
           "options": {
-            "A": "<MAP shape=\" \" coords=\" \">",
-            "B": "<AREA shape=\" \" points=\" \">",
-            "C": "<MAP area=\" \" coords=\" \">",
-            "D": "<AREA map=\" \" points=\" \">",
-            "E": "<AREA shape=\" \" coords=\" \">"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Aktif frame'i sırasıyla %40, %30 ve %30 ölçülerde üç yatay frame'e bölmek için kullanılan kod hangisidir?",
-          "options": {
-            "A": "<frameset rows=%40,%30,%30>...</frameset>",
-            "B": "<frameset rows=40,30,30>...</frameset>",
-            "C": "<frameset cols=40%,30%,30%>...</frameset>",
-            "D": "<frameset cols=%40,%30,%30>...</frameset>",
-            "E": "<frameset rows=40%,30%,30%>...</frameset>"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "Kare ile işaretlenmiş madde imli liste oluşturmak için kullanılacak doğru kod hangisidir?",
-          "options": {
-            "A": "<ul type=\"square\">",
-            "B": "<ul type=\"circle\">",
-            "C": "<ol type=\"square\">",
-            "D": "<dd type=\"square\">",
-            "E": "<ul type=\"disk\">"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Aşağıdakilerden hangisi bir web sayfasının kullanılabilirliği iyi diyebilmek için taşıması beklenen özelliklerden biri değildir?",
-          "options": {
-            "A": "Önemli kelimeler kalın olarak veya özel renklerle vurgulanmalıdır.",
-            "B": "İçerik çok fazla ise arama kutusu bulunmalıdır.",
-            "C": "Çok renkli olmalıdır.",
-            "D": "Web sayfasında gezinmek için kullanılan menü kullanıcının kolayca görüp kullanabileceği bir yerde bulunmalıdır.",
-            "E": "Web sitesinde iletişim bilgileri ve iletişim formu bulunmalıdır."
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Aşağıdakilerden hangisi renklendirme işlemi için doğru bir kullanımdır?",
-          "options": {
-            "A": "<font color=\"Kırmızı\"> Blue </font>",
-            "B": "<font color=\"#0,256,0\"> Kırmızı </font>",
-            "C": "<font color=\"#FFFF00\"> Mavi </font>",
-            "D": "<font color=\"#rgb(255,0,255)\"> Kırmızı </font>",
-            "E": "<font color=\"rgb(256,0,0)\"> Kırmızı </font>"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "O anda bulunulan sayfadan Liste.html sayfasındaki Etiket adıyla işaretlenmiş konuma gitmek için hangisi kullanılır?",
-          "options": {
-            "A": "<a href=\" #Etiket Liste.html \">...</a>",
-            "B": "<a href=\" Liste.html#Etiket\">...</a>",
-            "C": "<a src=\" Liste.html#Etiket\">...</a>",
-            "D": "<a name=\" Liste.html#Etiket\">...</a>",
-            "E": "<a href=\" Liste.html/Etiket\">...</a>"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Resimler klasörü içindeki bg.png dosyasını HTML sayfanın arka planı olarak ayarlamak için yazılacak kod satırı hangisidir?",
-          "options": {
-            "A": "<html background=\"resimler/bg.png\"> ... </html>",
-            "B": "<body background=\"resimler/bg.png\"> ... </body>",
-            "C": "<head background=\"resimler/bg.png\"> ... </head>",
-            "D": "<body background-image=\"bg/resimler.png\"> ... </body>",
-            "E": "<body bgimage=\"resimler/bg.png\"> ... </body>"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Aşağıdakilerden hangisi doğru link verme formatıdır?",
-          "options": {
-            "A": "<a name=\"http://Htmldersleri.org\">Htmldersleri.org</a>",
-            "B": "<a src=\"http://Htmldersleri.org\">Htmldersleri.org</a>",
-            "C": "<a href=\"http://Htmldersleri.org\">Htmldersleri</a>",
-            "D": "<a>http://Htmldersleri.org</a>",
-            "E": "<a url=\"http://Htmldersleri.org\">Htmldersleri.org</a>"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "Bir üst klasördeki Resimler klasörü içindeki up.png resmini ekranda eni boyu 30 piksel olacak şekilde gösteren ve üzerine tıklandığında aynı sayfa içinde \"ust\" adı ile işaretlenmiş konuma gidilmesini sağlayan kod parçası hangisidir?",
-          "options": {
-            "A": "seçenek yaklaşımı",
-            "B": "Doğru seçenek",
-            "C": "Doğru yöntemi",
-            "D": "Doğru değildir",
-            "E": "Doğru ilkesi"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "Sayfanın arka plan rengini yeşil olacak şekilde düzenlemek için aşağıdaki kod satırından hangisi kullanılır?",
-          "options": {
-            "A": "<body background=\"00FF00\">",
-            "B": "<body bgcolor=\"00FF00\">",
-            "C": "<body bgcolor=\"0000FF\">",
-            "D": "<body backgroundcolor=\"00FF00\">",
-            "E": "<body color=\"FFFF00\">"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Türk Standartları Enstitüsünün tanımladığı ISO 9241 no'lu standardın bir bölümü ve bir ürünün belirli kullanıcılar tarafından belirli amaçlarla etkili (effective), verimli (efficient) ve belirli bir kullanım çerçevesinde memnuniyetle (satisfaction) kullanabilme derecesi olarak tanımlanan kavram aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Etkililik",
-            "B": "İşlevsellik",
-            "C": "Tasarım",
-            "D": "Kullanılabilirlik",
-            "E": "İşlemsellik"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Aşağıdakilerden hangisi geçerli bir IP adresidir?",
-          "options": {
-            "A": "193.255.315",
-            "B": "193.-100.3.52",
-            "C": "121.256.168.1",
-            "D": "121.161.255.12",
-            "E": "193.255.141.522"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        }
-      ]
-    },
-    {
-      "title": "Web Programlama 1 2023-2024 Vize",
-      "exam_title": "Web Programlama 1 2023-2024 Vize",
-      "exam_type": "vize",
-      "year": "2023-2024",
-      "question_count": 20,
-      "source_url": "",
-      "file_name": "Web_Programlama_1_Vize_Sorulari.docx",
-      "questions": [
-        {
-          "id": 1,
-          "question": "Bir tabloda üç kolunu birleştiren HTML kodu hangisidir?",
-          "options": {
-            "A": "<td ilkesi",
-            "B": "<td colspan=\"3\">",
-            "C": "<td yöntemi",
-            "D": "<td değildir",
-            "E": "colspan=\"3\"> yaklaşımı"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 2,
-          "question": "Bir web sayfasında bulunduğu dizinin iki üst dizisindeki resim.gif dosyasına eklemek için nasıl bir kod yazmak gerekir?",
-          "options": {
-            "A": "src=../../resim.gif> yaklaşımı",
-            "B": "<img ilkesi",
-            "C": "<img değildir",
-            "D": "<img yöntemi",
-            "E": "<img src=../../resim.gif>"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 3,
-          "question": "tarayıcıların ana eleman standardı hangisi tarafından oluşturulmuştur?",
-          "options": {
-            "A": "World Wide web değildir",
-            "B": "World Wide web consortium",
-            "C": "World Wide web ilkesi",
-            "D": "World Wide web yöntemi",
-            "E": "consortium yaklaşımı"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 4,
-          "question": "Aşağıdakilerden hangisi word wide consortium (W3C) tarafından belirlenen standartlardan biri değildir?",
-          "options": {
-            "A": "Mathlabs yaklaşımı",
-            "B": "Mathlabs ilkesi",
-            "C": "Mathlabs değildir",
-            "D": "Mathlabs",
-            "E": "Mathlabs yöntemi"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 5,
-          "question": "Metin kelimesinin sayfadaki diğer elemanlardan ayrı ve arka plan rengi kırmızı olacak bir bölüme alınmış olup sayfanın ortasında görünmesini sağlayacak olan kod satırı hangisidir?",
-          "options": {
-            "A": "<DIV align=\"center\"bgcolor=\"#FF0000\">metin</DIV>",
-            "B": "Yalnız II",
+            "A": "III ve IV",
+            "B": "I, II ve III",
             "C": "II ve III",
-            "D": "Yalnız I",
-            "E": "I ve II"
+            "D": "I ve II",
+            "E": "I ve III"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E) I ve III",
+          "explanation": ""
         },
         {
-          "id": 6,
-          "question": "Bir web sitesinin internetteki adı ile adresini verilen isim nedir?",
+          "question_number": 10,
+          "context": "",
+          "question": "PHP'de bir çerez (cookie) oluşturmak için hangi fonksiyon kullanılır?",
           "options": {
-            "A": "Domian ilkesi",
-            "B": "Domian değildir",
-            "C": "name yaklaşımı",
-            "D": "Domian yöntemi",
-            "E": "Domian name"
+            "A": "setcookie()",
+            "B": "createcookie()",
+            "C": "storecookie()",
+            "D": "definecookie()",
+            "E": "makecookie()"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 7,
-          "question": "HTML Hakkında verilenlerden hangisi yanlıştır?",
+          "question_number": 11,
+          "context": "",
+          "question": "Bir değişken içinde değer bulunup bulunmadığını sınayan PHP fonksiyonu aşağıdakilerden hangisidir?",
           "options": {
-            "A": "Fonksiyonel programlama yöntemi",
-            "B": "Fonksiyonel programlama dilidir",
-            "C": "dilidir yaklaşımı",
-            "D": "Fonksiyonel programlama ilkesi",
-            "E": "Fonksiyonel programlama değildir"
+            "A": "strlen()",
+            "B": "isempty()",
+            "C": "isset()",
+            "D": "strpos()",
+            "E": "unset()"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
-          "id": 8,
-          "question": "İnternet yoluyla kullanıma sunulmuş olan her dokümanın kendine ait ve tel olan adresine ne ad verilir?",
+          "question_number": 12,
+          "context": "",
+          "question": "Yukarıdaki PHP kodunun ekran görüntüsü aşağıdakilerden hangisidir?",
           "options": {
-            "A": "URL",
-            "B": "URL yöntemi",
-            "C": "URL yaklaşımı",
-            "D": "URL değildir",
-            "E": "URL ilkesi"
+            "A": "Hata verir.",
+            "B": "test_cookie",
+            "C": "test",
+            "D": "Cookies are disabled",
+            "E": "Cookies are enabled."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
-          "id": 9,
-          "question": "Web sayfasında kullanılacak dil gibi sayfayı ait özelliklerin tanımlanmasında hangi etiket kullanılır?",
+          "question_number": 13,
+          "context": "",
+          "question": "Yukarıda verilen PHP kodunun çıktısı hangi seçenekte doğru verilmiştir?",
           "options": {
-            "A": "<META>…</META>",
-            "B": "<META>…</META> değildir",
-            "C": "<META>…</META> yaklaşımı",
-            "D": "<META>…</META> yöntemi",
-            "E": "<META>…</META> ilkesi"
+            "A": "22",
+            "B": "20",
+            "C": "24",
+            "D": "21",
+            "E": "23"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
-          "id": 10,
-          "question": "linkin tıklanması durumunda aynı pencere içerisinde en üstten itibaren açıklamasını sağlayan html parametresi aşağıdakilerden hangisidir?",
+          "question_number": 14,
+          "context": "",
+          "question": "FORM yapılarında başvurulan GET ve POST metodları ile ilgili aşağıdakilerden hangisi yanlıştır?",
           "options": {
-            "A": "Target=\"_blank\"",
-            "B": "Target=\"_blank\" yöntemi",
-            "C": "Target=\"_blank\" değildir",
-            "D": "Target=\"_blank\" yaklaşımı",
-            "E": "Target=\"_blank\" ilkesi"
+            "A": "GET metodunda karakter limiti bulunmaktadır.",
+            "B": "Parola veya diğer hassas bilgiler için GET yöntemi tercih edilmelidir.",
+            "C": "GET metodu ile gönderilen bilgiler adres satırında görünür.",
+            "D": "POST metodu güvenliği daha yüksek bir yöntemdir.",
+            "E": "GET metodunda yapılan işlemler tarayıcının geçmişinde görünür."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         },
         {
-          "id": 11,
-          "question": "Web sayfasında : karakterleri yazılırsa ekranda ne görülür?",
+          "question_number": 15,
+          "context": "",
+          "question": "PHP'de bir \"for\" döngüsünde başlangıç, koşul ve değişim (artış /azalış) hangi sırayla yazılmaktadır?",
           "options": {
-            "A": "Bir karakter boşluk verir",
-            "B": "verir yaklaşımı",
-            "C": "Bir karakter boşluk ilkesi",
-            "D": "Bir karakter boşluk değildir",
-            "E": "Bir karakter boşluk yöntemi"
+            "A": "Başlangıç, koşul, değişim",
+            "B": "Koşul, değişim, başlangıç",
+            "C": "Başlangıç, değişim, koşul",
+            "D": "Değişim, koşul, başlangıç",
+            "E": "Koşul, başlangıç, değişim"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 12,
-          "question": "sayfanın arka plan rengini yeşil olacak şekli düzenlemek için aşağıdaki kod satırından hangisi kullanılır?",
+          "question_number": 16,
+          "context": "",
+          "question": "Yukarıdaki PHP kodunun ekran çıktısı aşağıdakilerden hangisidir?",
           "options": {
-            "A": "<body yöntemi",
-            "B": "<body ilkesi",
-            "C": "<body background=\"00FF00\">",
-            "D": "background=\"00FF00\"> yaklaşımı",
-            "E": "<body değildir"
+            "A": "Sayıların Toplamı = $toplam",
+            "B": "Sayıların Toplamı = 5",
+            "C": "Sayıların Toplamı =",
+            "D": "Sayıların Toplamı = 10",
+            "E": "5"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 13,
-          "question": "birbirleri ile iletişim kurarak word wide web i meydana getiren iki bileşen hangisidir?",
+          "question_number": 17,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi fonksiyonda değer döndüren anahtar kelimedir?",
           "options": {
-            "A": "İstemci-sunucu",
-            "B": "İstemci-sunucu yaklaşımı",
-            "C": "İstemci-sunucu değildir",
-            "D": "İstemci-sunucu ilkesi",
-            "E": "İstemci-sunucu yöntemi"
+            "A": "back",
+            "B": "break",
+            "C": "function",
+            "D": "return",
+            "E": "next"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 14,
-          "question": "O anda bulunan sayfadan liste.html sayfasındaki etiket adıyla işaretlenmiş konuma gitmek için hangisi kullanılır?",
+          "question_number": 18,
+          "context": "",
+          "question": "Bir PHP oturumu (session) varsayılan olarak ne zaman sona ermektedir?",
           "options": {
-            "A": "<a src=\" yöntemi",
-            "B": "<a src=\" ilkesi",
-            "C": "<a src=\" liste.html#etiket\">…</a>",
-            "D": "liste.html#etiket\">…</a> yaklaşımı",
-            "E": "<a src=\" değildir"
+            "A": "18 saat",
+            "B": "24 saat",
+            "C": "Tarayıcı kapatıldığında",
+            "D": "8 saat",
+            "E": "1 saat"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
-          "id": 15,
-          "question": "kare ile işaretlenmiş Madde imli liste oluşturmak için kullanılacak doğru kod hangisidir?",
+          "question_number": 19,
+          "context": "",
+          "question": "Aşağıdaki adreslerden hangisi web sunucunun kök dizininde kayıtlı olan bilgi.php sayfasını tarayıcının adres çubuğundan çağırmak için kullanılır?",
           "options": {
-            "A": "<ul yöntemi",
-            "B": "<ul type=\"sguare\">",
-            "C": "<ul değildir",
-            "D": "<ul ilkesi",
-            "E": "type=\"sguare\"> yaklaşımı"
+            "A": "www.bilgi.php",
+            "B": "http: //www/bilgi.php",
+            "C": "http: //localhost/bilgi.php",
+            "D": "http: //bilgi.php",
+            "E": "http: //localhost"
           },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
-          "id": 16,
-          "question": "blink rendering engine'i kullanan tarayıcılar hangi şıkta doğru verilmiştir?",
+          "question_number": 20,
+          "context": "",
+          "question": "PHP oturumları (session) aşağıdakilerden hangisinde depolanmaktadır?",
           "options": {
-            "A": "Chrome, opera,edge",
-            "B": "Chrome, değildir",
-            "C": "Chrome, ilkesi",
-            "D": "opera,edge yaklaşımı",
-            "E": "Chrome, yöntemi"
+            "A": "Harici bir dosyada",
+            "B": "Sunucu tarafında",
+            "C": "Kullanıcı cihazında",
+            "D": "Veritabanında",
+            "E": "Tarayıcıda"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
-          "question": "aktif frame i sırasıyla %40 %30 ve %30 ölçülerde üç yatay Frame'e bölmek için kullanılan kod hangisidir?",
-          "options": {
-            "A": "<frameset cols=%40, %30, değildir",
-            "B": "<frameset cols=%40, %30, %30>…</frameset>",
-            "C": "<frameset cols=%40, %30, ilkesi",
-            "D": "%30>…</frameset> yaklaşımı",
-            "E": "<frameset cols=%40, %30, yöntemi"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 18,
-          "question": "web tarayıcıları hakkında verilenlerden hangisi yanlıştır?",
-          "options": {
-            "A": "Web tarayıcıları C++ dilinde yazılmış kodları derlemek için kullanılır",
-            "B": "kullanılır yaklaşımı",
-            "C": "Web tarayıcıları C++ dilinde yazılmış kodları derlemek için yöntemi",
-            "D": "Web tarayıcıları C++ dilinde yazılmış kodları derlemek için değildir",
-            "E": "Web tarayıcıları C++ dilinde yazılmış kodları derlemek için ilkesi"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 19,
-          "question": "Bir üst klasördeki resimler klasörü içindeki up.ping resmini ekranda en iyi boyutu 30 piksel olacak şekilde gösteren ve üzerine tıklandığında aynı sayfa içinde üst adı ile işaretlenmiş konuma getirilmesini sağlayan kod parçası hangisidir?",
-          "options": {
-            "A": "<A ilkesi",
-            "B": "<A href=#up>",
-            "C": "<A değildir",
-            "D": "<A yöntemi",
-            "E": "href=#up> yaklaşımı"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 20,
-          "question": "Türk standartları Enstütüsünün tanımladığı İSO 9241 nolu standardın bir bölümü ve bir ürünün belirli kullanıcılar tarafından belirli amaçlarla etkili ve belirli bir kullanım çerçevesinde memnuniyetle kullanılabilme derecesi olarak tanımlanan kavram hangisidir?",
-          "options": {
-            "A": "Kullanılabilirlilik yöntemi",
-            "B": "Kullanılabilirlilik ilkesi",
-            "C": "Kullanılabilirlilik",
-            "D": "Kullanılabilirlilik yaklaşımı",
-            "E": "Kullanılabilirlilik değildir"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "B",
+          "explanation": ""
         }
-      ]
+      ],
+      "question_count": 20,
+      "source_file": "Web_Programlama_(Güz)_2024_2025_Final.docx"
     },
     {
-      "title": "Web Programlama 1 2023-2024 Final",
-      "exam_title": "Web Programlama 1 2023-2024 Final",
-      "exam_type": "final",
-      "year": "2023-2024",
-      "question_count": 20,
-      "source_url": "",
-      "file_name": "Web_Programlama_1_Final_Sorulari.docx",
+      "exam_label": "2024-2025 Vize",
+      "year": "2024-2025",
+      "exam_type": "Vize",
       "questions": [
         {
-          "id": 1,
-          "question": "Üçleme koşulu ( ? : ) aşağıdaki yapılardan hangisi ile benzer bir kontrol mantığına sahiptir?",
+          "question_number": 1,
+          "context": "",
+          "question": "PHP'de bir dizi elemanına erişmek için hangi yapı kullanılmaktadır? Ör.5",
           "options": {
-            "A": "While",
-            "B": "For",
-            "C": "Do - While",
-            "D": "If",
-            "E": "If - Else"
+            "A": "$dizi[‘indis']",
+            "B": "$dizi {indis}",
+            "C": "$dizi->indis",
+            "D": "$dizi[5]",
+            "E": "$dizi(indis)"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 2,
-          "question": "Bir tabloda üç kolonu birleştiren HTML kodu aşağıdakilerden hangisidir?",
+          "question_number": 2,
+          "context": "",
+          "question": "Yukarıda verilen PHP kodunun çıktısı hangi seçenekte doğru verilmiştir?",
           "options": {
-            "A": "<table colspan=\"3\">",
-            "B": "<th> colspan=\"3\" </th>",
-            "C": "<td colspan=\"3\">",
-            "D": "<tr colspan=\"3\">",
-            "E": "<table column=\"3\">"
+            "A": "SouthNorthEast",
+            "B": "West",
+            "C": "EastSouthNorth",
+            "D": "EastWest",
+            "E": "NorthEastSouth"
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "C",
+          "explanation": ""
         },
         {
-          "id": 3,
-          "question": "<font color=\"rgb(255,0,0)\"> Kırmızı </font> satırı browser'da açıldığında ekranda aşağıdakilerden hangisi görünür?",
+          "question_number": 3,
+          "context": "",
+          "question": "Aşağıdaki seçenekler arasında, PHP'nin açılımını doğru şekilde belirten ifadeyi işaretleyiniz.",
           "options": {
-            "A": "Kırmızı renkli yazılmış Kırmızı kelimesi görünür.",
-            "B": "Mavi renkli yazılmış Kırmızı kelimesi görünür.",
-            "C": "Mavi renkli yazılmış font kelimesi görünür.",
-            "D": "Kırmızı renkli yazılmış font kelimesi görünür.",
-            "E": "Yeşil renkli yazılmış Kırmızı kelimesi görünür."
+            "A": "Personal Hypertext Processor",
+            "B": "Private Home Processor",
+            "C": "Public Home Page",
+            "D": "Personal Home Page",
+            "E": "Private Hypertext Processor"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 4,
-          "question": "Video ya da audio nesnesi ile sayfaya eklenen medya dosyasının, sayfa yüklendiğinde ön belleğe alınmasını sağlayan özellik aşağıdakilerden hangisidir?",
+          "question_number": 4,
+          "context": "",
+          "question": "Yukarıda verilen PHP kodunun çıktısı aşağıdaki seçenekte doğru verilmiştir?",
           "options": {
-            "A": "Download",
-            "B": "Upload",
-            "C": "Postload",
-            "D": "Preload",
-            "E": "Load"
+            "A": "3",
+            "B": "0",
+            "C": "2",
+            "D": "1",
+            "E": "4"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 5,
-          "question": "Aşağıdakilerden hangisi HMTL5 ile gelen yeni etiketlerden biri değildir?",
+          "question_number": 5,
+          "context": "",
+          "question": "Aşağıda verilen PHP ile ilgili temel bilgilerden hangisi yanlıştır?",
           "options": {
-            "A": "<div>",
-            "B": "<header>",
-            "C": "<footer>",
-            "D": "<video>",
-            "E": "<audio>"
+            "A": "PHP <? php? > etiketi içerisine yazılır.",
+            "B": "PHP sunucu taraflı çalışan bir programlama dilidir.",
+            "C": "PHP, tırnak kullanmasanız da bir değişkenin sayı olup olmadığını anlar.",
+            "D": "PHP HTML etiketleri içerisine gömülür.",
+            "E": "HTML kodları dinamik, PHP ise statik sayfalar sağlar."
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
-          "id": 6,
+          "question_number": 6,
+          "context": "",
+          "question": "PHP'de while ve do...while döngüleri arasındaki temel fark aşağıdaki seçeneklerden hangisinde belirtilmiştir?",
+          "options": {
+            "A": "do...while koşul sağlanmazsa çalışmaz.",
+            "B": "while önce koşulu kontrol etmekteyken, do...while önce istenen işlemi yapıp, sonra koşulu kontrol etmektedir.",
+            "C": "do...while if ile birlikte kullanılmaktadır.",
+            "D": "while sadece sabitlerle çalışmaktadır.",
+            "E": "while sonsuz döngülerde kullanılmaktadır."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "",
+          "question": "Aşağıdaki ifadelerden hangisi PHP'de bir döngüyü ya da yapıyı kırmak için kullanılmaktadır?",
+          "options": {
+            "A": "default",
+            "B": "case",
+            "C": "continue",
+            "D": "end",
+            "E": "break"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "$a -= $b; Komutunun anlamı aşağıdkai kod parçalarından hangisine benzerdir?",
+          "options": {
+            "A": "$b = $a - $b;",
+            "B": "$a = $a - $b;",
+            "C": "$a = $b - $b;",
+            "D": "$b = $a + $a;",
+            "E": "$b = $a - $a;"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "",
+          "question": "PHP'de string (metin) birleştirme işlemi için hangi operatör kullanılmaktadır?",
+          "options": {
+            "A": "-",
+            "B": "*",
+            "C": "+",
+            "D": ".",
+            "E": "%"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "",
+          "question": "PHP, hangi yıl ve kim tarafından geliştirilmiştir?",
+          "options": {
+            "A": "1994 - Rasmus Lerdorf",
+            "B": "1995 - Mark Zuckerberg",
+            "C": "1993 - Tim Berners-Lee",
+            "D": "2000 - Larry Page",
+            "E": "1997 - Brendan Eich"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 11,
+          "context": "",
+          "question": "Yukarıdaki kod bloğunun çıktısı aşağıdaki seçeneklerden hangisidir?",
+          "options": {
+            "A": "a=4 b=3",
+            "B": "Hata verir",
+            "C": "A, B'ye eşit değildir",
+            "D": "a=4 b=3",
+            "E": "A, B'ye eşittir"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 12,
+          "context": "",
+          "question": "PHP'de ++ operatörü hangi amaçla kullanılmaktadır?",
+          "options": {
+            "A": "Değişkenin değerini bir azaltır.",
+            "B": "Değişkenin türünü değiştirir.",
+            "C": "Değişkenin değerini bir arttırır.",
+            "D": "Değişkenin değerini iki katına çıkarır.",
+            "E": "Değişkenin değerini sıfırlar."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "",
+          "question": "do...while döngüsünün while döngüsünden farkı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "do...while döngüsü sadece koşul sağlanıyorsa çalışır.",
+            "B": "do...while döngüsü koşul false olana kadar çalışır.",
+            "C": "do...while döngüsü koşul true olduğunda hiç çalışmaz.",
+            "D": "do...while döngüsü koşul false olduğunda her zaman çalışmaya devam eder.",
+            "E": "do...while döngüsü her durumda en az bir kez çalışır."
+          },
+          "answer": "E",
+          "explanation": ""
+        }
+      ],
+      "question_count": 13,
+      "source_file": "Web_Programlama_2024_2025_Vize.docx"
+    },
+    {
+      "exam_label": "2023-2024 Final (I)",
+      "year": "2023-2024",
+      "exam_type": "Final",
+      "questions": [
+        {
+          "question_number": 1,
+          "context": "",
+          "question": "Bir resmin üzerinde merkez noktası (x, y) = (119, 153) ve çapı 22 olan daire şeklindeki alanı işaretleyip o alana tıklandığında http: //www.daire.com.tr adresine gitmeyi sağlayan kod aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<AREA shape=\"rect\" coords=\"119, 22, 153\" href=\"http: //www.daire.com.tr/\">",
+            "B": "<AREA shape=\"circle\" points=\"119, 153, 22\" src=\"http: //www.daire.com.tr/\">",
+            "C": "<AREA shape=\"square\" coords=\"119, 153, 22\" href=\"http: //www.daire.com.tr/\">",
+            "D": "<AREA shape=\"poly\" href=\"153, 22, 119\" src=\"http: //www.daire.com.tr/\">",
+            "E": "<AREA shape=\"circle\" coords=\"119, 153, 22\" href=\"http: //www.daire.com.tr/\">"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 2,
+          "context": "",
           "question": "Aşağıdakilerden hangisinde tarih ve saat seçim paleti oluşturacak HTML kodu doğru şekilde verilmiştir?",
           "options": {
             "A": "<input type=\"time\" name=\"tarih\">",
@@ -809,185 +756,26 @@
             "D": "<input type=\"datetime-local\" name=\"tarih\">",
             "E": "<input type=\"datetime-hour\" name=\"tarih\">"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 7,
-          "question": "satırı ile kullanıcıdan alınan tam sayı değeri üzerinde matematiksel işlem uygulayabilmek için önce hangi kod satırı yazılmalıdır?",
+          "question_number": 3,
+          "context": "",
+          "question": "<font color=\"rgb(255, 0, 0)\"> Kırmızı </font> satırı browser'da açıldığında ekranda aşağıdakilerden hangisi görünür?",
           "options": {
-            "A": "parseFloat(sayi);",
-            "B": "parseInteger(sayi);",
-            "C": "var sayiInt = parseInt(sayi);",
-            "D": "var sayiInt = parseString(sayi);",
-            "E": "var sayiInt = toString(sayi);"
+            "A": "Kırmızı renkli yazılmış Kırmızı kelimesi görünür.",
+            "B": "Mavi renkli yazılmış Kırmızı kelimesi görünür.",
+            "C": "Mavi renkli yazılmış font kelimesi görünür.",
+            "D": "Kırmızı renkli yazılmış font kelimesi görünür.",
+            "E": "Yeşil renkli yazılmış Kırmızı kelimesi görünür."
           },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
         },
         {
-          "id": 8,
-          "question": "IMAP ile POP3 arasındaki temel fark aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "IMAP okumak istediğiniz e-postayı doğrudan bilgisayarınıza indirirken POP3 siz isterseniz bilgisayarınıza indirir.",
-            "B": "POP3 okumak istediğiniz e-postayı doğrudan bilgisayarınıza indirirken IMAP siz isterseniz bilgisayarınıza indirir.",
-            "C": "İkisi de dosya aktarım protokolüdür. IMAP dosyaları sadece okumanıza izin verirken POP3 dosyaları isterseniz bilgisayarınıza indirmenize izin verir.",
-            "D": "POP3 dosya paylaşım protokolü, IMAP ise e-posta protokolüdür.",
-            "E": "İkisi de dosya aktarım protokolüdür. POP3 dosyaları sadece okumanıza izin verirken IMAP dosyaları isterseniz bilgisayarınıza indirmenize izin verir."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 9,
-          "question": "Resim göstermeyi desteklemeyen tarayıcılardan kaynaklı ya da farklı nedenlerle resmin yüklenememesi durumunda resmin yerinde gözükecek olan metni ayarlamak için kullanılan özellik aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "Width",
-            "B": "Img",
-            "C": "Alt",
-            "D": "Src",
-            "E": "Align"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 10,
-          "question": "Formda girilen bilgilerin url bar'da görünmeden action_page.aspx dosyasına gönderilmesi için yazılması gereken satır aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "<form src=\"action_page.aspx\" method=\"get\">",
-            "B": "<form action=\"action_page.aspx\" send=\"post\">",
-            "C": "<form action=\"action_page.aspx\" method=\"get\">",
-            "D": "<form action=\"action_page.aspx\" method=\"post\">",
-            "E": "<form src=\"action_page.aspx\" method=\"post\">"
-          },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 11,
-          "question": "İşletim sistemi, dosya yönetimi konusunda aşağıdaki aktivitelerin hangisinden sorumlu değildir?",
-          "options": {
-            "A": "Dosya yaratma ve silme",
-            "B": "Dosyalar ve dizinler üzerinde değişiklik yapabilmek için temel yetenekleri destekleme",
-            "C": "Dosyadaki renkleri düzenleme",
-            "D": "Dizin oluşturma ve silme",
-            "E": "Dosyaların yedeklerini sabit diske alabilme"
-          },
-          "correct_answer": "C",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 12,
-          "question": "Aşağıdaki XML etiket isimlendirmelerinden hangisi yanlıştır?",
-          "options": {
-            "A": "<h1>",
-            "B": "<Ad Soyad>",
-            "C": "<Sayi1>",
-            "D": "<yas>",
-            "E": "<Note>"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 13,
-          "question": "Yukarıdaki javascript kodları çalıştığında ekranda nasıl bir çıktı görünür?",
-          "options": {
-            "A": "9 8 7 6 5",
-            "B": "9 7 6 5",
-            "C": "9 7 6",
-            "D": "10 9 7 6 5",
-            "E": "10 9 8 7"
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 14,
-          "question": "Javascript kodları hangi etiket(ler) arasına yazılabilir?",
-          "options": {
-            "A": "<body>",
-            "B": "<head> ve <meta>",
-            "C": "<meta>",
-            "D": "<title> ve <head>",
-            "E": "<body> ve <head>"
-          },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 15,
-          "question": "Aşağıdakilerden hangisi XML'nin olumlu özelliklerinden biri değildir?",
-          "options": {
-            "A": "Esnektir, başka diller tanımlanabilir.",
-            "B": "Özellikle sayısal data için çok iyi sonuçlar verebilir.",
-            "C": "İnternet tarayıcısı gibi basit araçlarda bile gösterilebilir.",
-            "D": "İnsanların okuyabileceği bir dildir.",
-            "E": "Lisans sorunu yoktur, platform odaklı olmayan ve çok desteklenen bir dildir."
-          },
-          "correct_answer": "B",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 16,
-          "question": "Web sayfasına eklenen resim.jpg adlı görselin kullanıcı tarafından boyutunun değiştirilmesine izin vermek için kullanılan HTML kodu aşağıdakilerden hangisidir?",
-          "options": {
-            "A": "<div contenteditable=\"true\"> <img src=\"resim.jpg\"> </div>",
-            "B": "<div contenttable=\"true\"> <img src=\"resim.jpg\"> </div>",
-            "C": "<div contenttable=\"false\"> <img src=\"resim.jpg\"> </div>",
-            "D": "<div contenttable=\"true\"> <img href=\"resim.jpg\"> </div>",
-            "E": "<div contenteditable=\"false\"> <img href=\"resim.jpg\"> </div>"
-          },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
-        },
-        {
-          "id": 17,
+          "question_number": 4,
+          "context": "",
           "question": "Kullanıcının birçok seçenek içerisinden sadece bir tanesini seçebilmesine olanak tanıyan form nesnesi aşağıdakilerden hangisidir?",
           "options": {
             "A": "Reset",
@@ -996,65 +784,899 @@
             "D": "Radio",
             "E": "Textbox"
           },
-          "correct_answer": "D",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 18,
+          "question_number": 5,
+          "context": "",
+          "question": "Aşağıdaki XML etiket isimlendirmelerinden hangisi yanlıştır?",
+          "options": {
+            "A": "<h1>",
+            "B": "<Ad Soyad>",
+            "C": "<Sayi1>",
+            "D": "<yas>",
+            "E": "<Note>"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 6,
+          "context": "",
+          "question": "IMAP ile POP3 arasındaki temel fark aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "IMAP okumak istediğiniz e-postayı doğrudan bilgisayarınıza indirirken POP3 siz isterseniz bilgisayarınıza indirir.",
+            "B": "POP3 okumak istediğiniz e-postayı doğrudan bilgisayarınıza indirirken IMAP siz isterseniz bilgisayarınıza indirir.",
+            "C": "İkisi de dosya aktarım protokolüdür. IMAP dosyaları sadece okumanıza izin verirken POP3 dosyaları isterseniz bilgisayarınıza indirmenize izin verir.",
+            "D": "POP3 dosya paylaşım protokolü, IMAP ise e-posta protokolüdür.",
+            "E": "İkisi de dosya aktarım protokolüdür. POP3 dosyaları sadece okumanıza izin verirken IMAP dosyaları isterseniz bilgisayarınıza indirmenize izin verir."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "",
+          "question": "Resim göstermeyi desteklemeyen tarayıcılardan kaynaklı ya da farklı nedenlerle resmin yüklenememesi durumunda resmin yerinde gözükecek olan metni ayarlamak için kullanılan özellik aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Width",
+            "B": "Img",
+            "C": "Alt",
+            "D": "Src",
+            "E": "Align <p id=\"td1′′>"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "Web sayfasına eklenen resim.jpg adlı görselin kullanıcı tarafından boyutunun değiştirilmesine izin vermek için kullanılan HTML kodu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<div contenteditable=\"true\"> <img src=\"resim.jpg\"> </div>",
+            "B": "<div contenttable=\"true\"> <img src=\"resim.jpg\"> </div>",
+            "C": "<div contenttable=\"false\"> <img src=\"resim.jpg\"> </div>",
+            "D": "<div contenttable=\"true\"> <img href=\"resim.jpg\"> </div>",
+            "E": "<div contenteditable=\"false\"> <img href=\"resim.jpg\"> </div>"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "",
+          "question": "İşletim sistemi, dosya yönetimi konusunda aşağıdaki aktivitelerin hangisinden sorumlu değildir?",
+          "options": {
+            "A": "Dosya yaratma ve silme",
+            "B": "Dosyalar ve dizinler üzerinde değişiklik yapabilmek için temel yetenekleri destekleme",
+            "C": "Dosyadaki renkleri düzenleme",
+            "D": "Dizin oluşturma ve silme",
+            "E": "Dosyaların yedeklerini sabit diske alabilme"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "",
           "question": "Bir div'in arka plan rengini daire şeklinde, kırmızı, sarı ve mavi renkler arasında geçişler olacak şekilde düzenleyen ID tanımlamasının CSS kodu aşağıdakilerden hangisidir?",
           "options": {
-            "A": "div { background:radial-gradient(circle, red, yellow, blue); }",
-            "B": "#div { background:linear-gradient(circle, red, yellow, blue); }",
-            "C": ".div { background:linear-gradient(circle, red, yellow, blue); }",
-            "D": ".div { background:radial-gradient(circle, red, yellow, blue); }",
-            "E": "#div { background:radial-gradient(circle, red, yellow, blue); }"
+            "A": "div {background: radial-gradient(circle, red, yellow, blue);}",
+            "B": "#div {background: linear-gradient(circle, red, yellow, blue);}",
+            "C": ".div {background: linear-gradient(circle, red, yellow, blue);}",
+            "D": ".div {background: radial-gradient(circle, red, yellow, blue);}",
+            "E": "#div {background: radial-gradient(circle, red, yellow, blue);}"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "E",
+          "explanation": ""
         },
         {
-          "id": 19,
-          "question": "Bir resmin üzerinde merkez noktası (x,y) = (119,153) ve çapı 22 olan daire şeklindeki alanı işaretleyip o alana tıklandığında http://www.daire.com.tr adresine gitmeyi sağlayan kod aşağıdakilerden hangisidir ?",
+          "question_number": 11,
+          "context": "",
+          "question": "Video ya da audio nesnesi ile sayfaya eklenen medya dosyasının, sayfa yüklendiğinde ön belleğe alınmasını sağlayan özellik aşağıdakilerden hangisidir?",
           "options": {
-            "A": "<AREA shape=\"rect\" coords=\"119,22,153\" href=\"http://www.daire.com.tr/\">",
-            "B": "<AREA shape=\"circle\" points=\"119,153,22\" src=\"http://www.daire.com.tr/\">",
-            "C": "<AREA shape=\"square\" coords=\"119,153,22\" href=\"http://www.daire.com.tr/\">",
-            "D": "<AREA shape=\"poly\" href=\"153,22,119\" src=\"http://www.daire.com.tr/\">",
-            "E": "<AREA shape=\"circle\" coords=\"119,153,22\" href=\"http://www.daire.com.tr/\">"
+            "A": "Download",
+            "B": "Upload",
+            "C": "Postload",
+            "D": "Preload",
+            "E": "Load"
           },
-          "correct_answer": "E",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "D",
+          "explanation": ""
         },
         {
-          "id": 20,
+          "question_number": 12,
+          "context": "",
+          "question": "satırı ile kullanıcıdan alınan tam sayı değeri üzerinde matematiksel işlem uygulayabilmek için önce hangi kod satırı yazılmalıdır?",
+          "options": {
+            "A": "parseFloat(sayi);",
+            "B": "parseInteger(sayi);",
+            "C": "var sayiInt = parseInt(sayi);",
+            "D": "var sayiInt = parseString(sayi);",
+            "E": "var sayiInt = toString(sayi);"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi HMTL5 ile gelen yeni etiketlerden biri değildir?",
+          "options": {
+            "A": "<div>",
+            "B": "<header>",
+            "C": "<footer>",
+            "D": "<video>",
+            "E": "<audio>"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 14,
+          "context": "",
+          "question": "Bir tabloda üç kolonu birleştiren HTML kodu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<table colspan=\"3\">",
+            "B": "<th> colspan=\"3\" </th>",
+            "C": "<td colspan=\"3\">",
+            "D": "<tr colspan=\"3\">",
+            "E": "<table column=\"3\">"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 15,
+          "context": "",
+          "question": "Üçleme koşulu (?:) aşağıdaki yapılardan hangisi ile benzer bir kontrol mantığına sahiptir?",
+          "options": {
+            "A": "While",
+            "B": "For",
+            "C": "Do - While",
+            "D": "If",
+            "E": "If - Else"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 16,
+          "context": "",
           "question": "Web sayfasının arka plan rengini yeşil, yazı fontunu ise Arial olacak şekilde tanımlamak için aşağıdaki CSS kodlarından hangisi kullanılmalıdır?",
           "options": {
-            "A": "body { background-color : green; font-family : Arial; }",
-            "B": "body { background-color : green; font : Arial; }",
-            "C": "body { bgcolor : green; font-family : Arial; }",
-            "D": "body { background : green; font-family : \"Arial\"; }",
-            "E": "body { color : green; font : Arial; }"
+            "A": "body {background-color: green; font-family: Arial;}",
+            "B": "body {background-color: green; font: Arial;}",
+            "C": "body {bgcolor: green; font-family: Arial;}",
+            "D": "body {background: green; font-family: \"Arial\";}",
+            "E": "body {color: green; font: Arial;}"
           },
-          "correct_answer": "A",
-          "explanation": "",
-          "image_url": "",
-          "image_file": "",
-          "image_path": "",
-          "source_image_url": ""
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 17,
+          "context": "",
+          "question": "Formda girilen bilgilerin url bar'da görünmeden action_page.aspx dosyasına gönderilmesi için yazılması gereken satır aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<form src=\"action_page.aspx\" method=\"get\">",
+            "B": "<form action=\"action_page.aspx\" send=\"post\">",
+            "C": "<form action=\"action_page.aspx\" method=\"get\">",
+            "D": "<form action=\"action_page.aspx\" method=\"post\">",
+            "E": "<form src=\"action_page.aspx\" method=\"post\">"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 18,
+          "context": "",
+          "question": "Javascript kodları hangi etiket(ler) arasına yazılabilir?",
+          "options": {
+            "A": "<body>",
+            "B": "<head> ve <meta>",
+            "C": "<meta>",
+            "D": "<title> ve <head>",
+            "E": "<body> ve <head>"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 19,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi XML'nin olumlu özelliklerinden biri değildir?",
+          "options": {
+            "A": "Esnektir, başka diller tanımlanabilir.",
+            "B": "Özellikle sayısal data için çok iyi sonuçlar verebilir.",
+            "C": "İnternet tarayıcısı gibi basit araçlarda bile gösterilebilir.",
+            "D": "İnsanların okuyabileceği bir dildir.",
+            "E": "Lisans sorunu yoktur, platform odaklı olmayan ve çok desteklenen bir dildir."
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 20,
+          "context": "",
+          "question": "Yukarıdaki javascript kodları çalıştığında ekranda nasıl bir çıktı görünür?",
+          "options": {
+            "A": "9 8 7 6 5",
+            "B": "9 7 6 5",
+            "C": "9 7 6",
+            "D": "10 9 7 6 5",
+            "E": "10 9 8 7"
+          },
+          "answer": "B",
+          "explanation": ""
         }
-      ]
+      ],
+      "question_count": 20,
+      "source_file": "Web_Programlama_-I_2023_2024_Final.docx"
+    },
+    {
+      "exam_label": "2023 Vize (I)",
+      "year": "2023",
+      "exam_type": "Vize",
+      "questions": [
+        {
+          "question_number": 1,
+          "context": "",
+          "question": "Bir tabloda üç kolunu birleştiren HTML kodu hangisidir?",
+          "options": {},
+          "answer": "<td colspan=\"3\">",
+          "explanation": ""
+        },
+        {
+          "question_number": 2,
+          "context": "",
+          "question": "Bir web sayfasında bulunduğu dizinin iki üst dizisindeki resim.gif dosyasına eklemek için nasıl bir kod yazmak gerekir?",
+          "options": {},
+          "answer": "<img src=../../resim.gif>",
+          "explanation": ""
+        },
+        {
+          "question_number": 3,
+          "context": "",
+          "question": "tarayıcıların ana eleman standardı hangisi tarafından oluşturulmuştur?",
+          "options": {},
+          "answer": "World Wide web consortium",
+          "explanation": ""
+        },
+        {
+          "question_number": 4,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi word wide consortium (W3C) tarafından belirlenen standartlardan biri değildir?",
+          "options": {},
+          "answer": "Mathlabs",
+          "explanation": ""
+        },
+        {
+          "question_number": 5,
+          "context": "",
+          "question": "Metin kelimesinin sayfadaki diğer elemanlardan ayrı ve arka plan rengi kırmızı olacak bir bölüme alınmış olup sayfanın ortasında görünmesini sağlayacak olan kod satırı hangisidir?",
+          "options": {},
+          "answer": "<DIV align=\"center\"bgcolor=\"#FF0000\">metin</DIV>",
+          "explanation": ""
+        },
+        {
+          "question_number": 6,
+          "context": "",
+          "question": "Bir web sitesinin internetteki adı ile adresini verilen isim nedir?",
+          "options": {},
+          "answer": "Domian name",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "",
+          "question": "HTML Hakkında verilenlerden hangisi yanlıştır?",
+          "options": {},
+          "answer": "Fonksiyonel programlama dilidir",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "İnternet yoluyla kullanıma sunulmuş olan her dokümanın kendine ait ve tel olan adresine ne ad verilir?",
+          "options": {},
+          "answer": "URL",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "",
+          "question": "Web sayfasında kullanılacak dil gibi sayfayı ait özelliklerin tanımlanmasında hangi etiket kullanılır?",
+          "options": {},
+          "answer": "<META>...</META>",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "",
+          "question": "linkin tıklanması durumunda aynı pencere içerisinde en üstten itibaren açıklamasını sağlayan html parametresi aşağıdakilerden hangisidir?",
+          "options": {},
+          "answer": "Target=\"_blank\"",
+          "explanation": ""
+        },
+        {
+          "question_number": 11,
+          "context": "",
+          "question": "Web sayfasında &nbsp: karakterleri yazılırsa ekranda ne görülür?",
+          "options": {},
+          "answer": "Bir karakter boşluk verir",
+          "explanation": ""
+        },
+        {
+          "question_number": 12,
+          "context": "",
+          "question": "sayfanın arka plan rengini yeşil olacak şekli düzenlemek için aşağıdaki kod satırından hangisi kullanılır?",
+          "options": {},
+          "answer": "<body background=\"00FF00\">",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "",
+          "question": "birbirleri ile iletişim kurarak word wide web i meydana getiren iki bileşen hangisidir?",
+          "options": {},
+          "answer": "İstemci-sunucu",
+          "explanation": ""
+        },
+        {
+          "question_number": 14,
+          "context": "",
+          "question": "O anda bulunan sayfadan liste.html sayfasındaki etiket adıyla işaretlenmiş konuma gitmek için hangisi kullanılır?",
+          "options": {},
+          "answer": "<a src=\" liste.html#etiket\">...</a>",
+          "explanation": ""
+        },
+        {
+          "question_number": 15,
+          "context": "",
+          "question": "kare ile işaretlenmiş Madde imli liste oluşturmak için kullanılacak doğru kod hangisidir?",
+          "options": {},
+          "answer": "<ul type=\"sguare\">",
+          "explanation": ""
+        },
+        {
+          "question_number": 16,
+          "context": "",
+          "question": "blink rendering engine'i kullanan tarayıcılar hangi şıkta doğru verilmiştir?",
+          "options": {},
+          "answer": "Chrome, opera, edge",
+          "explanation": ""
+        },
+        {
+          "question_number": 17,
+          "context": "",
+          "question": "aktif frame i sırasıyla %40 %30 ve %30 ölçülerde üç yatay Frame'e bölmek için kullanılan kod hangisidir?",
+          "options": {},
+          "answer": "<frameset cols=%40, %30, %30>...</frameset>",
+          "explanation": ""
+        },
+        {
+          "question_number": 18,
+          "context": "",
+          "question": "web tarayıcıları hakkında verilenlerden hangisi yanlıştır?",
+          "options": {},
+          "answer": "Web tarayıcıları C++ dilinde yazılmış kodları derlemek için kullanılır",
+          "explanation": ""
+        },
+        {
+          "question_number": 19,
+          "context": "",
+          "question": "Bir üst klasördeki resimler klasörü içindeki up.ping resmini ekranda en iyi boyutu 30 piksel olacak şekilde gösteren ve üzerine tıklandığında aynı sayfa içinde üst adı ile işaretlenmiş konuma getirilmesini sağlayan kod parçası hangisidir?",
+          "options": {},
+          "answer": "<A href=#up>",
+          "explanation": ""
+        },
+        {
+          "question_number": 20,
+          "context": "",
+          "question": "Türk standartları Enstütüsünün tanımladığı İSO 9241 nolu standardın bir bölümü ve bir ürünün belirli kullanıcılar tarafından belirli amaçlarla etkili ve belirli bir kullanım çerçevesinde memnuniyetle kullanılabilme derecesi olarak tanımlanan kavram hangisidir?",
+          "options": {},
+          "answer": "Kullanılabilirlilik",
+          "explanation": ""
+        }
+      ],
+      "question_count": 20,
+      "source_file": "Web_Programlama_I_2023_çıkmış_sorular_YilYok_Vize.docx"
+    },
+    {
+      "exam_label": "2024-2025 Vize (I)",
+      "year": "2024-2025",
+      "exam_type": "Vize",
+      "questions": [
+        {
+          "question_number": 1,
+          "context": "",
+          "question": "Birbirleri ile iletişim kurarak World Wide Web'i meydana getiren iki bileşen hangisidir?",
+          "options": {
+            "A": "İstemci - Sunucu",
+            "B": "Alıcı - Verici",
+            "C": "HTTP - SMTP",
+            "D": "HTTP - HTTPS",
+            "E": "Yazıcı - Okuyucu"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 2,
+          "context": "",
+          "question": "Blink Rendering Engine'i kullanan tarayıcılar hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "Chrome, Safari",
+            "B": "Safari, Firefox",
+            "C": "Chrome, IE, Edge",
+            "D": "Safari",
+            "E": "Chrome, Opera, Edge"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 3,
+          "context": "",
+          "question": "Bir web sitesinin internetteki adı ile adresine verilen isim nedir?",
+          "options": {
+            "A": "Host Name",
+            "B": "DNS",
+            "C": "Task Name",
+            "D": "Web Hosting",
+            "E": "Domain Name"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 4,
+          "context": "",
+          "question": "Web sayfasında &nbsp; karakterleri yazılırsa ekranda ne görünür?",
+          "options": {
+            "A": "Bir karakter koyu yazılır.",
+            "B": "Bir karakter sola eğilir.",
+            "C": "Bir karakter boşluk verilir.",
+            "D": "Bir karakter alt çizili yazılır.",
+            "E": "Bir karakter sağa eğilir."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 5,
+          "context": "",
+          "question": "Bir web sayfasına bulunduğu dizinin iki üst dizinindeki resim.gif dosyasını eklemek için nasıl bir kod yazmak gerekir?",
+          "options": {
+            "A": "<img src=../../resim.gif>",
+            "B": "<img src=//resim.gif>",
+            "C": "<img src=resim/resim.gif>",
+            "D": "<img src=../resim.gif>",
+            "E": "<img src=../resim/resim.gif>"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 6,
+          "context": "",
+          "question": "Web tarayıcıları hakkında verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Web tarayıcıları HTML dilini yorumlayabilirler.",
+            "B": "Web tarayıcıları istemci tarafını bağlantı isteğinde bulunmak için kullandığı uygulamalardır.",
+            "C": "Web tarayıcıları CSS kodlarını yorumlayabilirler.",
+            "D": "Web tarayıcıları C++ dilinde yazılmış kodları derlemek için kullanılır.",
+            "E": "Web tarayıcıları Javascript kodlarını işletebilirler."
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "",
+          "question": "Tarayıcıların ana eleman standardı hangisi tarafından oluşturulmuştur?",
+          "options": {
+            "A": "W3C",
+            "B": "En iyi kullanım deneyimi",
+            "C": "TSE",
+            "D": "DNS",
+            "E": "World Wide Web Consortium"
+          },
+          "answer": "B) En iyi kullanım deneyimi",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi World Wide Web Consortium (W3C) tarafından belirlenen standartlardan biri değildir?",
+          "options": {
+            "A": "MathLab",
+            "B": "XHTML",
+            "C": "MathML",
+            "D": "PNG",
+            "E": "XML"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "",
+          "question": "Resim üzerinde belli bir bölgenin belli bir şekilde işaretlenmesi için kullanılan etiket ve özellikleri hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "<MAP shape=\" \" coords=\" \">",
+            "B": "<AREA shape=\" \" points=\" \">",
+            "C": "<MAP area=\" \" coords=\" \">",
+            "D": "<AREA map=\" \" points=\" \">",
+            "E": "<AREA shape=\" \" coords=\" \">"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "",
+          "question": "Aktif frame'i sırasıyla %40, %30 ve %30 ölçülerde üç yatay frame'e bölmek için kullanılan kod hangisidir?",
+          "options": {
+            "A": "<frameset rows=%40, %30, %30>...</frameset>",
+            "B": "<frameset rows=40, 30, 30>...</frameset>",
+            "C": "<frameset cols=40%, 30%, 30%>...</frameset>",
+            "D": "<frameset cols=%40, %30, %30>...</frameset>",
+            "E": "<frameset rows=40%, 30%, 30%>...</frameset>"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 11,
+          "context": "",
+          "question": "Kare ile işaretlenmiş madde imli liste oluşturmak için kullanılacak doğru kod hangisidir?",
+          "options": {
+            "A": "<ul type=\"square\">",
+            "B": "<ul type=\"circle\">",
+            "C": "<ol type=\"square\">",
+            "D": "<dd type=\"square\">",
+            "E": "<ul type=\"disk\">"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 12,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi bir web sayfasının kullanılabilirliği iyi diyebilmek için taşıması beklenen özelliklerden biri değildir?",
+          "options": {
+            "A": "Önemli kelimeler kalın olarak veya özel renklerle vurgulanmalıdır.",
+            "B": "İçerik çok fazla ise arama kutusu bulunmalıdır.",
+            "C": "Çok renkli olmalıdır.",
+            "D": "Web sayfasında gezinmek için kullanılan menü kullanıcının kolayca görüp kullanabileceği bir yerde bulunmalıdır.",
+            "E": "Web sitesinde iletişim bilgileri ve iletişim formu bulunmalıdır."
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi renklendirme işlemi için doğru bir kullanımdır?",
+          "options": {
+            "A": "<font color=\"Kırmızı\"> Blue </font>",
+            "B": "<font color=\"#0, 256, 0\"> Kırmızı </font>",
+            "C": "<font color=\"#FFFF00\"> Mavi </font>",
+            "D": "<font color=\"#rgb(255, 0, 255)\"> Kırmızı </font>",
+            "E": "<font color=\"rgb(256, 0, 0)\"> Kırmızı </font>"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 14,
+          "context": "",
+          "question": "O anda bulunulan sayfadan Liste.html sayfasındaki Etiket adıyla işaretlenmiş konuma gitmek için hangisi kullanılır?",
+          "options": {
+            "A": "<a href=\" #Etiket Liste.html \">...</a>",
+            "B": "<a href=\" Liste.html#Etiket\">...</a>",
+            "C": "<a src=\" Liste.html#Etiket\">...</a>",
+            "D": "<a name=\" Liste.html#Etiket\">...</a>",
+            "E": "<a href=\" Liste.html/Etiket\">...</a>"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 15,
+          "context": "",
+          "question": "Resimler klasörü içindeki bg.png dosyasını HTML sayfanın arka planı olarak ayarlamak için yazılacak kod satırı hangisidir?",
+          "options": {
+            "A": "<html background=\"resimler/bg.png\">... </html>",
+            "B": "<body background=\"resimler/bg.png\">... </body>",
+            "C": "<head background=\"resimler/bg.png\">... </head>",
+            "D": "<body background-image=\"bg/resimler.png\">... </body>",
+            "E": "<body bgimage=\"resimler/bg.png\">... </body>"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 16,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi doğru link verme formatıdır?",
+          "options": {
+            "A": "<a name=\"http: //Htmldersleri.org\">Htmldersleri.org</a>",
+            "B": "<a src=\"http: //Htmldersleri.org\">Htmldersleri.org</a>",
+            "C": "<a href=\"http: //Htmldersleri.org\">Htmldersleri</a>",
+            "D": "<a>http: //Htmldersleri.org</a>",
+            "E": "<a url=\"http: //Htmldersleri.org\">Htmldersleri.org</a>"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 17,
+          "context": "",
+          "question": "Bir üst klasördeki Resimler klasörü içindeki up.png resmini ekranda eni boyu 30 piksel olacak şekilde gösteren ve üzerine tıklandığında aynı sayfa içinde \"ust\" adı ile işaretlenmiş konuma gidilmesini sağlayan kod parçası hangisidir?",
+          "options": {
+            "A": "<A href=\"#up\"> <IMG src=\"Resimler/../ust.png\" width=\"30px\" heigth=\"30px\"></A>",
+            "B": "<A href=\"#ust\"> <IMG src=\"../Resimler/up.png\" width=\"70px\" heigth=\"70px\"></A>",
+            "C": "<A name=\"#ust\"> <IMG href=\"../Resimler/up.png\" width=\"30px\" heigth=\"30px\"></A>",
+            "D": "<A href=\"#ust\"> <IMG src=\"../Resimler/up.png\" width=\"30px\" heigth=\"30px\"></A>",
+            "E": "<A href=\"ust\"> <IMG src=\"Resimler/up.png\" width=\"30px\" heigth=\"30px\"></A>"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 18,
+          "context": "",
+          "question": "Sayfanın arka plan rengini yeşil olacak şekilde düzenlemek için aşağıdaki kod satırından hangisi kullanılır?",
+          "options": {
+            "A": "<body background=\"00FF00\">",
+            "B": "<body bgcolor=\"00FF00\">",
+            "C": "<body bgcolor=\"0000FF\">",
+            "D": "<body backgroundcolor=\"00FF00\">",
+            "E": "<body color=\"FFFF00\">"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 19,
+          "context": "",
+          "question": "Türk Standartları Enstitüsünün tanımladığı ISO 9241 no'lu standardın bir bölümü ve bir ürünün belirli kullanıcılar tarafından belirli amaçlarla etkili (effective), verimli (efficient) ve belirli bir kullanım çerçevesinde memnuniyetle (satisfaction) kullanabilme derecesi olarak tanımlanan kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Etkililik",
+            "B": "İşlevsellik",
+            "C": "Tasarım",
+            "D": "Kullanılabilirlik",
+            "E": "İşlemsellik"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 20,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi geçerli bir IP adresidir?",
+          "options": {
+            "A": "193.255.315",
+            "B": "193.-100.3.52",
+            "C": "121.256.168.1",
+            "D": "121.161.255.12",
+            "E": "193.255.141.522"
+          },
+          "answer": "D",
+          "explanation": ""
+        }
+      ],
+      "question_count": 20,
+      "source_file": "Web_Programlama-1_(Bahar)_2024_2025_Vize.docx"
+    },
+    {
+      "exam_label": "2025-2026 Final",
+      "year": "2025-2026",
+      "exam_type": "Final",
+      "questions": [
+        {
+          "question_number": 1,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi PHP dilinde kullanılan koşul (karar) ifadelerden biri değildir?",
+          "options": {
+            "A": "while",
+            "B": "elseif",
+            "C": "switch",
+            "D": "else",
+            "E": "if"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 2,
+          "context": "",
+          "question": "PHP'de yeni bir oturum başlatmak veya mevcut oturumu devam ettirmek için hangi fonksiyon kullanılmaktadır?",
+          "options": {
+            "A": "session_start()",
+            "B": "sessionbegin()",
+            "C": "sessionbaslat()",
+            "D": "session_destroy()",
+            "E": "setsession()"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 3,
+          "context": "",
+          "question": "Yukarıdaki PHP kod bloğu çalıştırıldığında aşağıdaki çıktılardan hangisi elde edilir?",
+          "options": {
+            "A": "25",
+            "B": "5",
+            "C": "20",
+            "D": "10",
+            "E": "15"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 4,
+          "context": "",
+          "question": "Formlarda girilecek değerin karakter sayısını elde etmek için hangi PHP fonksiyonu kullanılabilir?",
+          "options": {
+            "A": "strpos()",
+            "B": "strlen()",
+            "C": "isset()",
+            "D": "strops()",
+            "E": "empty()"
+          },
+          "answer": "B",
+          "explanation": ""
+        },
+        {
+          "question_number": 5,
+          "context": "",
+          "question": "Yukarıdaki PHP kodu çalıştırıldığında oluşacak ekran çıktısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "20",
+            "B": "5",
+            "C": "120",
+            "D": "24",
+            "E": "1"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 6,
+          "context": "",
+          "question": "Bir form gönderildiğinde verilerin URL üzerinde görünmemesi için aşağıda verilen yöntemlerden hangisi kullanmalıdır?",
+          "options": {
+            "A": "DELETE",
+            "B": "LINK",
+            "C": "PUT",
+            "D": "POST",
+            "E": "GET"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 7,
+          "context": "",
+          "question": "Aşağıdaki adreslerden hangisi lokal sunucuda kayıtlı olan index.php sayfasını tarayıcının adres çubuğundan çağırmak için kullanılır?",
+          "options": {
+            "A": "http: //www/index.php",
+            "B": "http: //index.php",
+            "C": "http: //localhost/index.php",
+            "D": "http: //index.php//localhost",
+            "E": "index.php"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 8,
+          "context": "",
+          "question": "Aşağıdakilerden hangisi form yapılarında en sık kullanılan iki özelliktir?",
+          "options": {
+            "A": "submit-value",
+            "B": "type-text",
+            "C": "name-value",
+            "D": "action-method",
+            "E": "input-submit"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 9,
+          "context": "",
+          "question": "Yukarıda verilen PHP kodunun çıktısı hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "EastSouthNorth",
+            "B": "West",
+            "C": "East West",
+            "D": "NorthEastSouth",
+            "E": "SouthNorthEast"
+          },
+          "answer": "A",
+          "explanation": ""
+        },
+        {
+          "question_number": 10,
+          "context": "",
+          "question": "Bir çerezin varsayılan geçerlilik süresi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "1 ay",
+            "B": "1 hafta",
+            "C": "8 saat",
+            "D": "Oturum süresince",
+            "E": "1 gün"
+          },
+          "answer": "D",
+          "explanation": ""
+        },
+        {
+          "question_number": 11,
+          "context": "",
+          "question": "Aşağıda foreach döngüsü için verilen ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "if yapısına alternatif olarak foreach yapısı da kullanılabilir.",
+            "B": "\"as\" anahtar kelimesinin solunda herhangi yeni bir değişken adı yazılabilir.",
+            "C": "for ile yapılan işlemlerin aynısı foreach ile de yapılabilir.",
+            "D": "while ile yapılabilen tüm işlemler foreach ile de yapılabilir.",
+            "E": "Parametre olarak bir dizi alır ve dizi içindeki eleman sayısı kadar dönmektedir."
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 12,
+          "context": "",
+          "question": "PHP'de bir çerez (cookie) oluşturmak için hangi fonksiyon kullanılır?",
+          "options": {
+            "A": "createcookie()",
+            "B": "makecookie()",
+            "C": "storecookie()",
+            "D": "definecookie()",
+            "E": "setcookie()"
+          },
+          "answer": "E",
+          "explanation": ""
+        },
+        {
+          "question_number": 13,
+          "context": "",
+          "question": "PHP'de bir çerezin süresini belirlemek için setcookie() fonksiyonuna aşağıdaki parametrelerden hangisi eklenmelidir?",
+          "options": {
+            "A": "Çerezin değeri",
+            "B": "Çerezin ismi",
+            "C": "Son kullanma zamanı (zaman damgası)",
+            "D": "Çerezin yolu",
+            "E": "Çerezin güvenlik durumu"
+          },
+          "answer": "C",
+          "explanation": ""
+        },
+        {
+          "question_number": 14,
+          "context": "",
+          "question": "Session ve cookieler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Sessionlar, sunucuda depolanır.",
+            "B": "Bir kez yaratılan session değişkeni sonrasında değiştirilemez/güncellenemez.",
+            "C": "Sessionlar genellikle kullanıcı kimlik doğrulama, geçici veri saklama ve kullanıcı etkileşimlerinin takibi için kullanılır.",
+            "D": "Cookielerin son geçerlilik tarihi vardır.",
+            "E": "Cookieler, kullanıcı bilgisayarında depolanır."
+          },
+          "answer": "B",
+          "explanation": ""
+        }
+      ],
+      "question_count": 14,
+      "source_file": "Web_Programlama_çıkmış_sorular_–_Öğrenme_Yönetim_Sistemi_2025_2026_Final.docx"
     }
   ]
 }
