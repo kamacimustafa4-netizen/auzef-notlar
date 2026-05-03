@@ -1,0 +1,547 @@
+{
+  "course": "Veri Tabanı Yönetim Sistemleri",
+  "lesson_code": "VERI_TABANI_YONETIM_SISTEMLERI",
+  "exams": [
+    {
+      "title": "Veri Tabanı Yönetim Sistemleri 2023 Vize",
+      "exam_type": "vize",
+      "year": "2023",
+      "file_name": "Veri_Tabanı_Yönetim_Sistemleri_2023_2024_Vize.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Veri tabanı tablolarında satır ve sütunların kesiştiği noktaya ne ad verilir?",
+          "options": {
+            "A": "Alan",
+            "B": "Kayıt",
+            "C": "Form",
+            "D": "Hücre",
+            "E": "Sayfa"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Varlık ilişki modelinde nesne, yer, kişi gibi kavramlar hangi öğe ile temsil edilir?",
+          "options": {
+            "A": "İlişki",
+            "B": "Sütun",
+            "C": "Nitelik",
+            "D": "Satır",
+            "E": "Varlık"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "Normal formlar ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Normalleştirme işlemi temelde veri tekrarını engellemek için yapılır.",
+            "B": "Birinci normal formda hazırlanmış bir tabloda ekleme, silme ve güncelleme sırasında sorunlar olabilir.",
+            "C": "Normal formun derecesi arttıkça bozulma oranı da artmaktadır.",
+            "D": "Boyce-Codd Normal Formu Üçüncü ve Dördüncü Normal Formlar arasında yer alır.",
+            "E": "Birinci normal formdan ikinci normal forma geçişte kısmi bağımlılıkların ortadan kaldırılması gerekmektedir."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir veri tabanının mantıksal yapısını tanımlarken kullanılan kavramlar, işlemler ve kurallar bütününe ne ad verilir?",
+          "options": {
+            "A": "Veri deposu",
+            "B": "Veri ambarı",
+            "C": "Veri tabam",
+            "D": "Veri mimarisi",
+            "E": "Veri modeli"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Herhangi bir veri tabanı tablosu içerisinde çeşitli tekrarlı veriler mevcutsa bu tablonun hangi normal formda olduğu söylenebilir?",
+          "options": {
+            "A": "1NF",
+            "B": "4NF",
+            "C": "2NF",
+            "D": "3NF",
+            "E": "5NF"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi “birincil anahtar” alanı için uygun değildir?",
+          "options": {
+            "A": "TC kimlik numarası",
+            "B": "Müşteri numarası",
+            "C": "Otomatik olarak artan bir sayı",
+            "D": "Doğum tarihi",
+            "E": "Memur sicil numarası"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "İki veya daha fazla veri tabanı tablosunun tüm olası eşleştirmelerini bir araya getiren cebirsel işlem aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kesişim",
+            "B": "Birleşim",
+            "C": "Kartezyen Çarpım",
+            "D": "Fark",
+            "E": "Doğal Birleşim"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir veri tabanı tablosundaki bir alandaki tüm verilerin ortak olarak sahip olması gereken özellik aşağıdaki isimlerin hangisi ile ifade edilebilir?",
+          "options": {
+            "A": "Veri adı",
+            "B": "Veri türü",
+            "C": "Veri alanı",
+            "D": "Veri nesnesi",
+            "E": "Veri sayfası"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir veri tabanı tablosunda bir alanın içerisindeki verilerin VARCHAR(10) olması demek ne anlama gelmektedir?",
+          "options": {
+            "A": "Veriler en az 10(on) karakter uzunluğunda olmalıdır.",
+            "B": "Bu alana en az 10 adet veri girilebilir.",
+            "C": "Veriler kesin 10(on) karakter uzunluğunda olmalıdır.",
+            "D": "Veriler en fazla 10(on) karakter uzunluğunda olmalıdır.",
+            "E": "Bu alana en fazla 10 adet veri girilebilir."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "Ortak sütunlara sahip olan iki veya daha fazla veri tabam tablosu arasında kurulan bağlantı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Görünüm",
+            "B": "İlişki",
+            "C": "Varlık",
+            "D": "Form",
+            "E": "Veri"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "Bir anahtara bağlı olmayan geçişli bağımlılıklar tablolara dönüştürüldüğü zaman veri tabanlarındaki hangi normal form elde edilmiş olur?",
+          "options": {
+            "A": "5NF",
+            "B": "4NF",
+            "C": "INF",
+            "D": "2NF",
+            "E": "3NF"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Bir veri tabanı tablosunda yer alan öğrencilerin öğrenci no, ad, soyad gibi bilgilerinin tutulduğu kısımlara ne ad verilir?",
+          "options": {
+            "A": "Satır",
+            "B": "Alan",
+            "C": "Bilgi",
+            "D": "Kayıt",
+            "E": "Dosya"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "Kredi (KrediNo, Ad, Soyad, KrediMiktari) şeklinde belirtilmiş olan bir tabloda yalnızca KrediMiktari 5000 TL’nin üzerinde olan işlemlerin sorgulatılması için aşağıdaki İşlemlerden hangisi kullanılır?",
+          "options": {
+            "A": "Atma",
+            "B": "Birleşim",
+            "C": "Kesişim",
+            "D": "Kartezyen çarpım",
+            "E": "Seçim"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "Sırasıyla, k, n ve m elemanlı üç tablonun kartezyen çarpımı sonucunda oluşan tablonun eleman sayısı kaç olur?",
+          "options": {
+            "A": "kxm",
+            "B": "Bilinemez",
+            "C": "kxn",
+            "D": "kxmxn",
+            "E": "Yapılacak işleme göre değişir"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdakilerden hangisi bir veri tabam tablosunda yapılan seçim işleminde kullanılabilecek olan bir karşılaştırma işlemi değildir?",
+          "options": {
+            "A": "Eşit değildir",
+            "B": "Küçüktür",
+            "C": "Büyüktür",
+            "D": "Eşittir",
+            "E": "Elemanıdır"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "Bir veri tabanı tablosundaki bir sütuna ait verilerin başka bir tablonun sütunundan getirilmesini sağlayan anahtar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Birleşik anahtar",
+            "B": "Aday anahtar",
+            "C": "İkincil anahtar",
+            "D": "Birincil anahtar",
+            "E": "Yabancı anahtar"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Tabloda depolanan her satırı benzersiz şekilde tanımlayan bir veya daha çok alandan oluşabilen anahtar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Süper Anahtar",
+            "B": "İkincil Anahtar",
+            "C": "Yedek Anahtar",
+            "D": "Birincil Anahtar",
+            "E": "Yabancı Anahtar"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "Veri tabanlarında tablolar elle ya da sorgu ile oluşturulabilir. Aşağıdakilerden hangisi sorgu ile tablo oluşturmayı sağlayan deyimdir?",
+          "options": {
+            "A": "DROP TABLE",
+            "B": "CREATE TABLE",
+            "C": "DELETE TABLE",
+            "D": "INSERT TABLE",
+            "E": "FILL TABLE"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Veri girişi yapılacak bir tablodaki sütunun değer alıp almaması gerektiğini belirlemek için kullanılan ifade aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Check",
+            "B": "View",
+            "C": "Not Null",
+            "D": "Unique",
+            "E": "Default"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi bir veri tabanı tablosundaki bir alanın adı olabilir?",
+          "options": {
+            "A": "Veri Tabanı",
+            "B": "Öğretmen",
+            "C": "Rüya",
+            "D": "Meslek",
+            "E": "1306"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        }
+      ],
+      "exam_title": "Veri Tabanı Yönetim Sistemleri 2023 Vize"
+    },
+    {
+      "title": "Veri Tabanı Yönetim Sistemleri 2023 Final",
+      "exam_type": "final",
+      "year": "2023",
+      "file_name": "Veri_Tabanı_Yönetimi_Sistemleri_2023_2024_Final.docx",
+      "question_count": 20,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi Select Adı & ‘Personeli’ & Ücret & ‘TL Ücret Alıyor…’ As Adı_Ücreti From Personel şeklinde verilen bir sorgunun sonucunda oluşan tabloda yer alan bir kayıt olabilir?",
+          "options": {
+            "A": "Rüya personeli 12500 TL ücret",
+            "B": "Erdem personeli 5000 TL ücret alıyor…",
+            "C": "Emel personeli ücret alıyor…",
+            "D": "Selçuk 7000 TL ücret alıyor…",
+            "E": "Yusuf personeli 2500 alıyor…"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "Personel arasında görevi MEMUR olanlara %10, ŞEF olanlara %15, MÜDÜR olanlara ise %20 zam yapılması için gerçekleştirilecek olan SQL sorgusu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "SELECT Adı, Görevi, Ücret DECODE(Görevi, Ücret*1, 10, Ücret*1, 15, Ücret*1, 20) FROM PERSONEL;",
+            "B": "SELECT Adı, Görevi, Ücret DECODE(Görevi, ‘Memur’, ‘Şef’, ‘Müdür’, Ücret*1, 10, Ücret*1, 15, Ücret*1, 20, Ücret) FROM PERSONEL;",
+            "C": "SELECT Adı, Görevi, Ücret DECODE(Görevi, ‘Memur’, Ücret*1, 10, ‘Şef’, Ücret*1, 15, ‘Müdür’, Ücret*1, 20, Ücret) FROM PERSONEL;",
+            "D": "SELECT Adı, Görevi, Ücret DECODE(Memur, Ücret*1, 10, Şef, Ücret*1, 15, Müdür, Ücret*1, 20, Ücret) FROM PERSONEL;",
+            "E": "SELECT Adı, Görevi, Ücret DECODE(‘Memur’, ‘Şef’, ‘Müdür’, Ücret*1, 10, Ücret*1, 15, Ücret*1, 20, Ücret) FROM PERSONEL;"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir veri tabanında depolanacak verileri kısıtlayan koşullar aşağıdakilerden hangisi ile ifade edilir?",
+          "options": {
+            "A": "Veri kısıtlamaları",
+            "B": "Alan kısıtlamaları",
+            "C": "Anahtar kısıtlamaları",
+            "D": "Tablo kısıtlamaları",
+            "E": "Bütünlük kısıtlamaları"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "Veri tabanı tablolarında geçişli bağımlılıkların kaldırıldığı normalleşme formu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "4NF",
+            "B": "1NF",
+            "C": "3NF",
+            "D": "2NF",
+            "E": "BCNF"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki veri tabanı yönetim sistemlerinin hangisinde COMMIT ve ROLLBACK işlemlerine ihtiyaç duyulmaz? <",
+          "options": {
+            "A": "Web veri tabanı yönetim sistemleri",
+            "B": "İlişkisel veri tabanı yönetim sistemleri",
+            "C": "Çok kullanıcılı veri tabanı yönetim sistemleri",
+            "D": "Masaüstü veri tabanı yönetim sistemleri",
+            "E": "Tek kullanıcılı veri tabanı yönetim sistemleri"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Veri tabanındaki bir tablonun bir kaydı ile diğer tablonun bir kaydı eşleştirilirse bu iki tablo arasındaki ilişki nasıl bir ilişki olur?",
+          "options": {
+            "A": "Bire bir ilişki",
+            "B": "Çoka bir ilişki",
+            "C": "Belirsiz ilişki",
+            "D": "Çoka çok ilişki",
+            "E": "Bire çok ilişki"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "İsmi Tablo1, içerdiği alanlar Alan1, Alan2 ve Alan3 olan bir tablodaki bütün verilerin silinmesi için aşağıdaki komutlardan hangisi kullanılmalıdır?",
+          "options": {
+            "A": "Truncate Table Tablo1;",
+            "B": "Truncate Alan1, Alan2, Alan3;",
+            "C": "Truncate Tablo1;",
+            "D": "Truncate Tablo1 (Alan1, Alan2, Alan3);",
+            "E": "Truncate Tablo1 (Table Alan1, Alan2, Alan3);"
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "SELECT Adı, Ücret FROM PERSONEL WHERE Ücret > (SELECT AVG(Ücret) FROM PERSONEL); sorgusu aşağıdakilerden hangisini yapar?",
+          "options": {
+            "A": "Herkesin ücretinin ortalamasını bulur.",
+            "B": "Belli personellerin ücretinin ortalamasını bulur.",
+            "C": "Herkesin ücretinin ortalamasından daha fazla ücret alan personelleri bulur.",
+            "D": "Herkesin ücretinin ortalamasından daha az ücret alan personelleri bulur.",
+            "E": "Belli personellerin ücretinin toplamını bulur."
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Alanları Adı, Soyadı ve İşeGirişTarihi şeklinde olan bir Personel tablosundaki personeller arasında o iş yerinde en az sürede çalışandan en çok sürede çalışana doğru bir sıralama işlemi gerçekleştiren SQL sorgusu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "SELECT * FROM Personel ORDER BY İşeGirişTarihi;",
+            "B": "SELECT * FROM Personel ORDER BY İşeGirişTarihi DESC;",
+            "C": "SELECT * FROM Personel GROUP BY İşeGirişTarihi DESC;",
+            "D": "SELECT * FROM Personel GROUP BY İşeGirişTarihi;",
+            "E": "SELECT * FROM Personel WHERE İşeGirişTarihi;"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "UPDATE PERSONEL SET BölümNo=10 WHERE PersonelNo=300 sorgusu aşağıdakilerden hangisini yapar?",
+          "options": {
+            "A": "300 numaralı personelin BölümNo’sunu 10 olarak değiştirir.",
+            "B": "10 ve 300 numaralı personelleri birbiriyle değiştirir.",
+            "C": "300 numaralı tüm personelin PersonelNo’sunu 10 olarak değiştirir.",
+            "D": "300 numaralı bölümün BölümNo’sunu 10 olarak değiştirir.",
+            "E": "300 numaralı personelin PersonelNo’sunu 10 olarak değiştirir."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "Alanları PersonelNo, Adı, Görevi, Ücret, BölümNo olan bir PERSONEL tablosu ve alanları BölümNo, Bölüm Adı, Konum olan bir BÖLÜM tablosu arasındaki ilişki nasıl kurulur?",
+          "options": {
+            "A": "İki tablodaki en çok veriye sahip olan alan üzerinde işlem yapılarak",
+            "B": "İki tabloda ortak olan BölümNo alanından faydalanılarak",
+            "C": "İki tablodaki herhangi bir alan üzerinde işlem yapılarak",
+            "D": "İki tablodaki en az veriye sahip olan alan üzerinde işlem yapılarak",
+            "E": "İki tablodaki bütün alanlar birleştirilerek"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi veri tabanı tablolarını birleştirmek için kullanılan bir birleştirme türü değildir?",
+          "options": {
+            "A": "Eşiti olmayan birleştirme",
+            "B": "Belirsiz birleştirme",
+            "C": "Eşiti olan birleştirme",
+            "D": "Küme operatörünü kullanarak birleştirme",
+            "E": "Dış birleştirme"
+          },
+          "correct_answer": "B",
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "Tablo ve görünüm oluşturma yetkilerine sahip olan bir YÖNETİCİ rolü oluşturmak ve veri tabanı yönetim sistemindeki Ali ve Ayşe kullanıcılarına bu rol yetkisini vermek için aşağıdaki işlemlerden hangisi gerçekleştirilmez?",
+          "options": {
+            "A": "YÖNETİCİ ismiyle oluşturulan rolün işlemleri başarıyla gerçekleştirip gerçekleştirilemediğine bakılır.",
+            "B": "YÖNETİCİ ismiyle oluşturulan role, tablo oluşturma yetkisi verilir.",
+            "C": "YÖNETİCİ ismiyle oluşturulan role, görünüm oluşturma yetkisi verilir.",
+            "D": "YÖNETİCİ rolüne verilen yetkiler Ali ve Ayşe kullanıcılara verilir.",
+            "E": "YÖNETİCİ isimli rol tanımlanır."
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi Ali isimli bir kullanıcının şifresini 1a2b3c4d5e6f olarak değiştirmek için kullanılan bir sorgudur?",
+          "options": {
+            "A": "CREATE USER Ali IDENTIFIED BY 1a2b3c4d5e6f;",
+            "B": "GRANT USER Ali IDENTIFIED BY 1a2b3c4d5e6f;",
+            "C": "GRANT CREATE USER Ali IDENTIFIED BY 1a2b3c4d5e6f;",
+            "D": "REVOKE USER Ali IDENTIFIED BY 1a2b3c4d5e6f;",
+            "E": "ALTER USER Ali IDENTIFIED BY 1a2b3c4d5e6f;"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "SQL’deki TO_CHAR ve TO_NUMBER fonksiyonlarının kullanımı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Her fonksiyonun kullanılabileceği belli veri türleri vardır.",
+            "B": "Bu fonksiyonların kullanımı sonucunda veri tabanı tablosundaki kaydın değeri değişmez, sadece görüntüleme biçimi değişir.",
+            "C": "Kategori olarak dönüştürme fonksiyonları olarak ifade edilir.",
+            "D": "Bu fonksiyonlar WHERE, ORDER BY vb. deyimlerden farklı deyimler ile beraber kullanılır.",
+            "E": "İhtiyaca göre farklı formatta dönüştürmeler gerçekleştirilebilir."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 16,
+          "question": "SELECT Görevi, SUM(Ücret) FROM PERSONEL WHERE Görevi <> ‘PAZARLAMACI’ GROUP BY Görevi HAVING SUM(Ücret)> 5000 ORDER BY SUM(Ücret);",
+          "options": {
+            "A": "Pazarlamacı dışında görevi olan personeli görevlerine göre gruplandırır, bölümünün toplam ücreti 5000’den fazla olanlar seçilir.",
+            "B": "Pazarlamacı olan personelin ücretleri toplanır, bölümünün toplam ücreti 5000’den fazla olanlar seçilir, sonuçlar en düşük ücret toplamından büyüğe doğru sıralanır.",
+            "C": "Pazarlamacı dışında görevi olan personeli görevlerine göre gruplandırır, bölümünün toplam ücreti 5000’den fazla olanlar seçilir, sonuçlar en düşük ücret toplamından büyüğe doğru sıralanır.",
+            "D": "Pazarlamacı dışında görevi olan personeli görevlerine göre gruplandırır, ücretleri toplanır, bölümünün toplam ücreti 5000’den fazla olanlar seçilir, sonuçlar en düşük ücret toplamından büyüğe doğru sıralanır.",
+            "E": "Pazarlamacı dışında görevi olan personeli görevlerine göre gruplandırır, sonuçlar en düşük ücret toplamından büyüğe doğru sıralanır."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Bir veri tabanının temelini oluşturan ve bilgilerin tutulduğu nesne aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Form",
+            "B": "Görünüm",
+            "C": "Dizin",
+            "D": "İndeks",
+            "E": "Tablo"
+          },
+          "correct_answer": "E",
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "SELECT Adı, Ücret FROM PERSONEL WHERE Ücret = (SELECT MIN (Ücret) FROM PERSONEL); sorgusunda hangi kısım alt sorgudur?",
+          "options": {
+            "A": "SELECT MIN (Ücret) FROM PERSONEL",
+            "B": "SELECT Adı, Ücret FROM PERSONEL",
+            "C": "MIN (Ücret) FROM PERSONEL",
+            "D": "SELECT Adı, Ücret FROM PERSONEL WHERE Ücret",
+            "E": "FROM PERSONEL WHERE Ücret"
+          },
+          "correct_answer": "A",
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdaki SQL sorgularından hangisi yanlış yazılmıştır?",
+          "options": {
+            "A": "SELECT BölümNo, Görevi, SUM(Ücret) AS TOPLAM FROM PERSONEL; GROUP BY BölümNo, Görevi ORDER BY BölümNo;",
+            "B": "SELECT BölümNo, AVG(Ücret) FROM PERSONEL; GROUP BY BölümNo;",
+            "C": "SELECT BölümNo, COUNT(*) FROM PERSONEL;",
+            "D": "SELECT BölümNo, COUNT(*) FROM PERSONEL; GROUP BY BölümNo;",
+            "E": "SELECT AVG(Ücret) FROM PERSONEL GROUP BY BölümNo;"
+          },
+          "correct_answer": "C",
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "İlişkisel cebir işlemleri ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "İki veya daha çok tabloda ortak olan alanlar içerisinde belli bir kurala uyan elemanları bulmak için atma + birleşme işlemi birlikte kullanılır.",
+            "B": "İki veya daha çok tabloda ortak olan alanlar içerisinde belli bir kurala uyan elemanları bulmak için seçim + birleşme işlemi birlikte kullanılır.",
+            "C": "İki veya daha çok tabloda ortak olan alanlar içerisinde belli bir kurala uyan elemanları bulmak için atma + kesişme işlemi birlikte kullanılır.",
+            "D": "İki veya daha çok tabloda ortak olan alanlar içerisinde belli bir kurala uyan elemanları bulmak için seçim + kesişme işlemi birlikte kullanılır.",
+            "E": "İki veya daha çok tabloda ortak olan alanlar içerisinde belli bir kurala uyan elemanları bulmak için atma + seçim işlemi birlikte kullanılır."
+          },
+          "correct_answer": "D",
+          "explanation": ""
+        }
+      ],
+      "exam_title": "Veri Tabanı Yönetim Sistemleri 2023 Final"
+    }
+  ],
+  "exam_count": 2
+}
