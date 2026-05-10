@@ -1,7 +1,7 @@
 {
   "course": "Web Analitiği ve Zekâsı",
   "lesson_code": "WEB_ANALITIGI_VE_ZEKAS",
-  "exam_count": 3,
+  "exam_count": 11,
   "exams": [
     {
       "title": "Web Analitiği ve Zekâsı 2026 Vize",
@@ -1048,6 +1048,1473 @@
             "E": "test"
           },
           "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı Unite 1",
+      "exam_title": "Web Analitiği ve Zekâsı Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Web_Analitigi_ve_Zek_si_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2025/03/12/web-analitigi-ve-zekasi-unite-1/",
+      "unit_number": 1,
+      "unit_label": "1- Web Analitiği Ve Zekâsına Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Dönüşüm oranı aşağıdakilerden hangisini ifade eder?",
+          "options": {
+            "A": "Bir sayfanın görüntülenme sayısı",
+            "B": "Sayfa başına ziyaretçi sayısı",
+            "C": "Ortalama oturum süresi",
+            "D": "Kullanıcıların sosyal medya etkileşim oranları",
+            "E": "Ziyaretçilerin bir web sitesindeki hedef eylemi gerçekleştirme oranı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Web analitiğinde boyut nedir?",
+          "options": {
+            "A": "Sayısal veriler",
+            "B": "Web sitesi tasarım araçları",
+            "C": "Kullanıcı davranışlarını kategorize eden nitelikler",
+            "D": "Web sayfası performans kriterleri",
+            "E": "Veri madenciliği sonuçları"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "CRISP-DM modelinde ilk adım nedir?",
+          "options": {
+            "A": "Veri toplama",
+            "B": "Problemin tanımlanması",
+            "C": "Veri ön-işleme",
+            "D": "Modelleme",
+            "E": "Raporlama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Hemen çıkma oranı nedir?",
+          "options": {
+            "A": "Ortalama oturum süresi",
+            "B": "Sayfa yüklenme süresi",
+            "C": "Ziyaretçinin bir sayfayı hemen terk etme oranı",
+            "D": "Ziyaret başına sayfa görüntüleme sayısı",
+            "E": "Kullanıcı başına gelir oranı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Web analitiğinde kullanılan temel metriklerden biri hangisidir?",
+          "options": {
+            "A": "Veri madenciliği algoritması",
+            "B": "Ziyaretçi sayısı",
+            "C": "Grafik tasarım araçları",
+            "D": "Kullanıcı yorumları",
+            "E": "Web sitesi adı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki araçlardan hangisi bir web analitik aracıdır?",
+          "options": {
+            "A": "Tableau",
+            "B": "AutoCAD",
+            "C": "MS Excel",
+            "D": "Google Analytics",
+            "E": "MS Word"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "“Web zekâsı” kavramı neyi ifade eder?",
+          "options": {
+            "A": "Web tabanlı veri analitiği ve yapay zekâ tekniklerini birleştiren bir alan",
+            "B": "Web tasarımında MS Excel kullanımı",
+            "C": "Web sitesi tasarımının optimize edilmesi",
+            "D": "İnternet bağlantı hızının artırılması",
+            "E": "Sosyal medya performans raporlaması"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Web analitiği temel olarak hangi üç aşamadan oluşur?",
+          "options": {
+            "A": "Veri toplama, veri analizi, veri odaklı karar verme",
+            "B": "Veri görselleştirme, veri madenciliği, veri analitiği",
+            "C": "Veri temizleme, veri kümeleme, veri aktarımı",
+            "D": "Veri yazılımı, veri simülasyonu, veri kaydı",
+            "E": "Veri işleme, veri düzenleme, veri yükleme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Web analitiğinde metrikler hangi tür ölçümleri sağlar?",
+          "options": {
+            "A": "Niteliksel",
+            "B": "Görsel detaylar",
+            "C": "Kullanıcı profilleri",
+            "D": "Nicel",
+            "E": "Tasarım bilgileri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi veri hazırlama adımlarından biri değildir?",
+          "options": {
+            "A": "Eksik verilerin tamamlanması",
+            "B": "Aykırı değerlerin çıkarılması",
+            "C": "Nitelik seçimi",
+            "D": "Veri dengeleme",
+            "E": "Veri görselleştirme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı Unite 2",
+      "exam_title": "Web Analitiği ve Zekâsı Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Web_Analitigi_ve_Zek_si_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2025/03/12/web-analitigi-ve-zekasi-unite-2/",
+      "unit_number": 2,
+      "unit_label": "2- R Programlama Dilinin Temelleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıdaki Rkod bloğunda verilenlere göre fonksiyonum(10) + fonksiyonum(100) işleminin sonucu kaçtır?",
+          "options": {
+            "A": "32",
+            "B": "20",
+            "C": "26",
+            "D": "102",
+            "E": "600"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Rkodlarının bilgisayarda saklanması için oluşturulan Rbetik dosyanın uzantısı aşağıdaki hangi seçenekte doğru şekilde verilmiştir?",
+          "options": {
+            "A": ".data",
+            "B": ".RData",
+            "C": ".rr",
+            "D": ".rscript",
+            "E": ".R"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen Rkod bloğu çalıştırıldığında elde edilecek çıktı aşağıdaki hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "[1] “web” [1] “analitiği” [1] “dersini”",
+            "B": "[1] “web” [1] “ve” [1] “dersini”",
+            "C": "[1] “analitiği” [1] “zekâsı” [1] “seviyorum”",
+            "D": "[1] “web” [1] “zekâsı” [1] “seviyorum”",
+            "E": "[1] “web” [1] “ve” [1] “dersini” [1] “seviyorum”"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi R’da ogrenci adlı bir data frame’in “ad” adlı sütununun 5 ile 6. Satırlarındaki değerleri döndürür?",
+          "options": {
+            "A": "ogrenci@ad[5-6]",
+            "B": "ogrenci[“soyad”,5:6]",
+            "C": "ogrenci[“soyad”,5-6]",
+            "D": "ogrenci[“soyad”][5-6]",
+            "E": "ogrenci$ad[5:6]"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi Rprogramlama dilinin özelliklerinden biri değildir?",
+          "options": {
+            "A": "Açık kaynaklıdır.",
+            "B": "Derleyici ile çalışır.",
+            "C": "İhtiyaç duyulan ek birtakım fonksiyonlar Rpaketleri ile yüklenebilir.",
+            "D": "Platform bağımsızdır.",
+            "E": "CRAN aracılığı ile istenen Rsürümü bilgisayara indirilebilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir Rpaketinin yüklenmesi ve çalışma ortamına dahil edilmesi için aşağıdaki hangi fonksiyon çifti kullanılmalıdır?",
+          "options": {
+            "A": "getwd() - setwd()",
+            "B": "ls() - rm()",
+            "C": "install.packages() - library()",
+            "D": "get.packages() - set.packages()",
+            "E": "install.packages() - set.library()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki Rkod bloğu için aşağıdaki seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Parametre alan ve geriye değer döndüren bir kullanıcı tanımlı fonksiyondur.",
+            "B": "Kod çalıştırıldığında geriye -1 döner.",
+            "C": "Parametre almayan ve geriye değer döndürmeyen bir kullanıcı tanımlı fonksiyondur.",
+            "D": "Fonksiyon adı Rfonks’tur.",
+            "E": "Rfonks(\"elif\", \"sifre\") ile fonksiyon çağrılmıştır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıda verilen RStudio’nun bölümlerinden (pencerelerinden) hangisinde çalışma alanında tanımlanan değişkenler, fonksiyonlar ve genel yapılar görüntülenebilir?",
+          "options": {
+            "A": "Files",
+            "B": "Plots",
+            "C": "Help",
+            "D": "Environment",
+            "E": "Packages"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi R’da bir yorum satırı belirtmek için kullanılır?",
+          "options": {
+            "A": "&",
+            "B": "$",
+            "C": "@",
+            "D": "#",
+            "E": "*"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda verilen Rkod bloğu ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Görsel şık A",
+            "B": "Görsel şık B",
+            "C": "df adlı data frame’in ID ve Deger adında iki sütunu vardır.",
+            "D": "while döngüsü df data frame’inin satırları boyunca çalıştırılacaktır (i <= nrow(df)).",
+            "E": "df$Deger[i] df data frame’inin Deger sütununun i. Satırındaki hücrede bulunan değeri döndürür."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__WEB_ANALITIGI_VE_ZEKASI_UNITE_2_SORU_10.png",
+          "image_file": "WEB_TASARIMI_VE_KODLAMA__WEB_ANALITIGI_VE_ZEKASI_UNITE_2_SORU_10.png",
+          "image_path": "resim-sorular/WEB_TASARIMI_VE_KODLAMA__WEB_ANALITIGI_VE_ZEKASI_UNITE_2_SORU_10.png",
+          "source_image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__WEB_ANALITIGI_VE_ZEKASI_UNITE_2_SORU_10.png",
+          "option_image_paths": {
+            "A": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__WEB_ANALITIGI_VE_ZEKASI_UNITE_2_SORU_10_A.png",
+            "B": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__WEB_ANALITIGI_VE_ZEKASI_UNITE_2_SORU_10_B.png"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı Unite 3",
+      "exam_title": "Web Analitiği ve Zekâsı Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Web_Analitigi_ve_Zek_si_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2025/03/12/web-analitigi-ve-zekasi-unite-3/",
+      "unit_number": 3,
+      "unit_label": "3- Webde Veri Toplama Ve Ön İşleme",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki ifadelerden hangisi, veri setindeki aykırı değerlerin (outliers) tespit edilmesi için kullanılan çeyrekler arası aralık (IQR) yöntemi ile ilgili yanlıştır?",
+          "options": {
+            "A": "Çeyrekler arası aralık (IQR), 3. çeyrek (Q3) ile 1. çeyrek (Q1) arasındaki farktır.",
+            "B": "Aykırı değerler yalnızca veri setindeki eksik (NA) değerlerden oluşur.",
+            "C": "Alt ve üst sınırlar dışında kalan tüm değerler aykırı değer olarak değerlendirilir.",
+            "D": "Üst sınır, 3. çeyrekten 1.5 IQR yukarıdaki noktadır.",
+            "E": "Alt sınır, 1. çeyrekten 1.5 IQR aşağıdaki noktadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Google Analytics ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Ziyaretçilerin demografik özellikleri, ilgi alanları ve coğrafi konumları analiz edilebilir.",
+            "B": "Trafik kaynaklarının etkinliği değerlendirilerek pazarlama stratejileri optimize edilebilir.",
+            "C": "Satış verileri, ortalama sipariş değeri ve en çok satılan ürünler gibi e-ticaret metrikleri analiz edilebilir.",
+            "D": "Google Analytics, kullanıcıların kişisel şifre bilgilerini saklayarak güvenlik risklerini analiz eder.",
+            "E": "Kullanıcıların anlık davranışları ve aktif sayfa gezintileri takip edilebilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "R’da veri normalizasyonu süreciyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "is.numeric() fonksiyonu, sütunların nümerik veri tipine sahip olup olmadığını belirlemek için kullanılabilir.",
+            "B": "caret::preProcess() fonksiyonu, veri ön-işleme için bir model oluşturulmasını sağlar.",
+            "C": "preProcess() fonksiyonu kullanılarak method parametresi c(“range”) seçildiğinde, veri [0, 1] aralığına normalleştirilir.",
+            "D": "preProcess() fonksiyonu yalnızca kategorik değişkenler üzerinde çalışır.",
+            "E": "preProcess() fonksiyonu kullanılarak method parametresi c(\"scale\") seçildiğinde, veri standardizasyonu gerçekleştirilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Veri ayrıklaştırma (data discretization) sürecine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "cut() fonksiyonu, bir nümerik değişkeni belirli aralıklara bölerek kategorik bir değişkene dönüştürür.",
+            "B": "quantile() fonksiyonu, veriyi belirli olasılık aralıklarına göre dilimlere böler.",
+            "C": "include.lowest = TRUE, aralıklardaki en küçük değerin dahil edilmesini sağlar ve düzgün sınırlar oluşturur.",
+            "D": "labels parametresi, her bir dilime atanacak kategorik etiketleri tanımlamak için kullanılır.",
+            "E": "Veri ayrıklaştırma sonrası oluşturulan kategorik değişken her zaman analizlerde kullanılmalıdır, orijinal nümerik değişken çıkarılmalıdır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Google Site Kit ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Google Site Kit yalnızca Google Analytics hizmetini destekler, diğer Google araçlarıyla entegrasyon sağlamaz.",
+            "B": "Google tarafından geliştirilen ve WordPress için resmi bir eklenti olarak sunulmaktadır.",
+            "C": "Google Analytics başta olmak üzere çeşitli Google hizmetlerinin web sitesine entegre edilmesine olanak tanır.",
+            "D": "Entegrasyon süreci, WordPress kontrol paneli üzerinden gerçekleştirilebilir ve teknik bilgi gerektirmez.",
+            "E": "Bu eklenti, WordPress kullanıcılarının web sitelerindeki Google araçlarına kolay erişim sağlamalarına yardımcı olur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Google Analytics verilerine Rile erişim sağlamak için aşağıdaki adımlardan hangisi yanlıştır?",
+          "options": {
+            "A": "Google Analytics hesabına erişim için googleAnalyticsR paketi yüklenmeli ve çağrılmalıdır.",
+            "B": "ga_auth() fonksiyonu ile Google hesabı üzerinden kimlik doğrulaması yapılmalıdır.",
+            "C": "İlk kimlik doğrulamasından sonra bilgiler global olarak saklanır ve her oturumda manuel olarak kimlik doğrulaması yapılması gereklidir.",
+            "D": "Mevcut Google hesabından farklı bir Google hesabı ile giriş yapma imkânı bulunmaktadır.",
+            "E": "Kimlik doğrulaması sırasında tarayıcı üzerinden oturum açılmalı ve gerekli izinler verilmelidir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi bir sunucu logu parametreleri arasında değildir?",
+          "options": {
+            "A": "Ziyaret yolu",
+            "B": "Kullanıcı şifresi",
+            "C": "Zaman damgası",
+            "D": "Kullanıcı adı",
+            "E": "İstek türü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Rile bir analiz çalışması yapmak için çalışma klasörünün belirlenmesi sürecine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Çalışma klasörü oluşturulduktan sonra veri seti ve kullanılacak Rbetik dosyası bu klasörde saklanmalıdır.",
+            "B": "RStudio’da “Session - Set Working Directory - Choose Directory” seçeneği kullanılarak çalışma klasörü belirlenebilir.",
+            "C": "Çalışma klasörünün belirlenmesi için yalnızca ve yalnızca RStudio'nun menü seçenekleri kullanılabilir.",
+            "D": "Veri seti ve Rbetik dosyasının aynı klasörde olduğu durumlarda “Session - Set Working Directory - To Source File Location” seçeneği tercih edilebilir.",
+            "E": "Çalışma klasörünün doğru belirlenmesi, Rçalışma ortamında veri dosyalarına kolay erişim sağlar."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "R’da yapay kodlama (dummy coding) sürecine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Yapay kodlama işlemi sonucunda sütunlarda yalnızca 0 ve 1 değerleri yer alır.",
+            "B": "dummyVars() fonksiyonu, kategorik bir değişkenin yapay kodlaması için bir model oluşturur.",
+            "C": "predict() fonksiyonu, oluşturulan yapay kodlama modelini veri setine uygulayarak dönüşüm yapar.",
+            "D": "Yapay kodlama işlemi sonucunda, kategorik değişkenin her kategorisi için ayrı bir sütun oluşturulur.",
+            "E": "Yapay kodlama sonrasında, orijinal kategorik değişken yapay kodlanmış sütunların doğru çalışabilmesi için veri setinde tutulmalıdır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "R’da analizlerde kullanılmak üzere veri adlı bir data frame tanımlanıyor. Aşağıdakilerden hangisi summary(veri) fonksiyonu ile elde edilemez?",
+          "options": {
+            "A": "Kategorik (factor) nitelikler için her bir kategorinin frekans bilgisi",
+            "B": "Nümerik nitelikler için ortalama (mean) ve medyan (median) değerleri",
+            "C": "Nümerik nitelikler için standart sapma (standard deviation)",
+            "D": "Niteliklerdeki eksik değerler (NA’s)",
+            "E": "Nümerik nitelikler için minimum (min) ve maksimum (max) değerleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı Unite 4",
+      "exam_title": "Web Analitiği ve Zekâsı Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Web_Analitigi_ve_Zek_si_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2025/03/13/web-analitigi-ve-zekasi-unite-4/",
+      "unit_number": 4,
+      "unit_label": "4- Web Trafiği Analizi",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir veri setinin ilk birkaç satırını görüntülemek için kullanılan Rfonksiyonu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "tail()",
+            "B": "summary()",
+            "C": "str()",
+            "D": "head()",
+            "E": "print()"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Veri setinde yer alan nümerik değişkenlerden biri aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Pageviews",
+            "B": "Geography",
+            "C": "User Type",
+            "D": "Gender",
+            "E": "Source"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Rprogramlama dilinde prop.table() fonksiyonunun temel görevi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri setindeki eksik değerleri hesaplar.",
+            "B": "Sayısal sütunlardaki ortalama değerleri hesaplar.",
+            "C": "Bir tablo içindeki frekans değerlerini oranlara çevirir.",
+            "D": "Kategorik değişkenler için frekans dağılımı oluşturur.",
+            "E": "Veri setindeki tekrar eden satırları bulur."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Kullanıcıların siteye erişim sırasında kullandıkları cihaz türünü içeren değişken aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Source",
+            "B": "User Type",
+            "C": "Operating System",
+            "D": "Browser",
+            "E": "Device Category"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Veri setindeki “Bounce Rate (%)” değişkeni aşağıdakilerden hangisini ifade eder?",
+          "options": {
+            "A": "Hemen çıkma oranı",
+            "B": "Sayfa görüntüleme sayısı",
+            "C": "Hedef dönüşüm oranı",
+            "D": "Ortalama oturum süresi",
+            "E": "Kullanıcı türü"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Rprogramlama dilinde summary() fonksiyonunun kullanımı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Yalnızca nümerik değişkenlerin ortalamasını hesaplar.",
+            "B": "Veri setindeki tüm değişkenlerin özet istatistiklerini verir.",
+            "C": "Kategorik değişkenler için yalnızca frekans dağılımını gösterir.",
+            "D": "Eksik veri olup olmadığını kontrol eder.",
+            "E": "Yalnızca ilk 6 satırı görüntüler."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Rprogramlama dilinde lapply() fonksiyonunun temel amacı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Veri setindeki eksik değerleri silmek.",
+            "B": "Tüm veri setini sütun bazında gruplamak.",
+            "C": "Bir veri kümesi üzerinde işlem yaparak her elemana tek bir işlem uygulamak.",
+            "D": "Bir sütundaki sayısal değerlerin toplamını hesaplamak.",
+            "E": "Grafik çizmek için veri hazırlamak."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Kategorik değişkenlerin frekans dağılımını hesaplamak için R’da hangi fonksiyon kullanılabilir?",
+          "options": {
+            "A": "mean()",
+            "B": "min()",
+            "C": "sd()",
+            "D": "table()",
+            "E": "summary()"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir veri setindeki eksik değerlerin toplam sayısını bulmak için aşağıdaki fonksiyonlardan hangisi kullanılır?",
+          "options": {
+            "A": "mean(is.na(veri))",
+            "B": "summary(is.na(veri))",
+            "C": "count(is.na(veri))",
+            "D": "max(is.na(veri))",
+            "E": "sum(is.na(veri))"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Veri setinde tekrarlayan satırların tespit edilmesi için Rprogramında hangi fonksiyon kullanılır?",
+          "options": {
+            "A": "is.na()",
+            "B": "duplicated()",
+            "C": "summary()",
+            "D": "prop.table()",
+            "E": "lapply()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı Unite 5",
+      "exam_title": "Web Analitiği ve Zekâsı Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 10,
+      "file_name": "Web_Analitigi_ve_Zek_si_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2025/03/13/web-analitigi-ve-zekasi-unite-5/",
+      "unit_number": 5,
+      "unit_label": "5- Veri Görselleştirme",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hangi grafik türü, iki nümerik değişken arasındaki ilişkiyi görselleştirmek için kullanılır?",
+          "options": {
+            "A": "Çizgi Grafiği",
+            "B": "Saçılım Grafiği",
+            "C": "Kutu Grafiği",
+            "D": "Pasta Grafiği",
+            "E": "Çubuk Grafiği"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kategorik verilerin frekanslarını görselleştirmek için hangi grafik türü kullanılabilir?",
+          "options": {
+            "A": "Çubuk Grafiği",
+            "B": "Saçılım Grafiği",
+            "C": "Histogram",
+            "D": "Çizgi Grafiği"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir web sitesinin aylık ziyaretçi sayısındaki trendi analiz etmek için hangi grafik uygundur?",
+          "options": {
+            "A": "Pasta Grafiği",
+            "B": "Çubuk Grafiği",
+            "C": "Çizgi Grafiği",
+            "D": "Saçılım Grafiği",
+            "E": "Kutu Grafiği"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Hangi grafik türü veri setindeki aykırı değerleri kolayca gösterebilir?",
+          "options": {
+            "A": "Çizgi Grafiği",
+            "B": "Pasta Grafiği",
+            "C": "Kutu Grafiği",
+            "D": "Saçılım Grafiği",
+            "E": "Çubuk Grafiği"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Histogram, hangi tür verilerin dağılımını göstermek için kullanılır?",
+          "options": {
+            "A": "Kategorik veriler",
+            "B": "Metin verileri",
+            "C": "Zaman serisi verileri",
+            "D": "Sayısal veriler",
+            "E": "Harf tabanlı veriler"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hangi grafik türü, verideki merkezi eğilim ve uç noktaları görselleştirmek için idealdir?",
+          "options": {
+            "A": "Çizgi Grafiği",
+            "B": "Pasta Grafiği",
+            "C": "Kutu Grafiği",
+            "D": "Saçılım Grafiği",
+            "E": "Çubuk Grafiği"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir pasta grafiğinde her bir dilimin büyüklüğü neyi ifade eder?",
+          "options": {
+            "A": "Verinin toplam içindeki oranını",
+            "B": "Grafik türünü",
+            "C": "Verinin sayısını",
+            "D": "Zaman serisini",
+            "E": "Ortalama değeri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Veri görselleştirmenin raporlama sürecine katkısı nedir?",
+          "options": {
+            "A": "Yazılı raporları düzenlemek",
+            "B": "Verileri analiz etmek",
+            "C": "Grafik tasarımı yapmak",
+            "D": "Karmaşık verileri sadeleştirerek daha anlaşılır hale getirmek",
+            "E": "Kod hatalarını düzeltmek"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Pasta grafiği hangi durumlarda kullanılır?",
+          "options": {
+            "A": "Zaman serisi analizi yapmak için",
+            "B": "İki değişken arasındaki ilişkiyi incelemek için",
+            "C": "Nümerik değişkenlerin dağılımını incelemek için",
+            "D": "Aykırı değerleri tespit etmek için",
+            "E": "Kategorik verilerin yüzdesel dağılımını göstermek için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Veri görselleştirmenin temel amacı nedir?",
+          "options": {
+            "A": "Verileri grafiksel olarak temsil ederek daha kolay anlaşılmasını sağlamak",
+            "B": "Grafik tasarım yapmak",
+            "C": "Veri setlerini düzenlemek",
+            "D": "Kodlama süreçlerini optimize etmek",
+            "E": "Yazılı rapor hazırlamak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı Unite 6",
+      "exam_title": "Web Analitiği ve Zekâsı Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 10,
+      "file_name": "Web_Analitigi_ve_Zek_si_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2025/03/13/web-analitigi-ve-zekasi-unite-6/",
+      "unit_number": 6,
+      "unit_label": "6- Kullanıcı Davranış Tahmini- Sınıflandırma",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki ifadelerden hangisi sınıflandırma ile ilgili yanlış bir ifadedir?",
+          "options": {
+            "A": "Sınıflandırma, bir veri setindeki öğeleri önceden tanımlanmış sınıflara ayırmayı amaçlar.",
+            "B": "Sınıflandırma algoritmaları yalnızca sayısal hedef değişkenler için kullanılabilir.",
+            "C": "Karar ağaçları, destek vektör makineleri ve k-En Yakın Komşu algoritmaları sınıflandırmada kullanılabilir.",
+            "D": "Sınıflandırma problemlerinde hedef nitelik bağımlı değişken olarak düşünülebilir.",
+            "E": "Tahmin edici nitelikler bağımsız değişken olarak düşünülebilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki yöntemlerden hangisi bir veri setinde tabakalı örnekleme (stratified sampling) işlemini ifade eder?",
+          "options": {
+            "A": "Veri setini rastgele ikiye ayırarak eğitim ve test veri seti oluşturma.",
+            "B": "Veri setinde hedef nitelik kategorilerinin frekans oranını koruyarak eğitim ve test veri seti oluşturma.",
+            "C": "Veri setini üçe ayırarak eğitim, doğrulama ve test veri setleri oluşturma.",
+            "D": "Veri setini eşit boyutlu k parçalara ayırarak çapraz geçerleme yapma.",
+            "E": "Veri setinde yalnızca hedef nitelik etiketlerini değiştirme."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki Rkod bloğu veri setini eğitim ve test olarak ayırmak için kullanılmaktadır. Kodda hangi parametre veri setinin eğitim-test oranını belirler?",
+          "options": {
+            "A": "createDataPartition()",
+            "B": "veri$Revenue",
+            "C": "p = 0.75",
+            "D": "set.seed()",
+            "E": "list = FALSE"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir sınıflandırma probleminin çözümünde, modelin pozitif sınıfı doğru tahmin etme oranı aşağıdaki ölçütlerden hangisidir?",
+          "options": {
+            "A": "Belirleyicilik (Specificity)",
+            "B": "Kesinlik (Precision)",
+            "C": "Negatif Öngörü Değeri (Negative Predictive Value)",
+            "D": "Hata Oranı (Error Rate)",
+            "E": "Duyarlılık (Sensitivity)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "8- Bir sınıflandırma algoritmasında yapay kodlama (dummy coding) işlemi hangi durumda uygulanabilir?",
+          "options": {
+            "A": "Sürekli nitelikler kategorik hale dönüştürüldüğünde.",
+            "B": "Eksik veri içeren sütunları temizlemek için.",
+            "C": "Eğitim veri setindeki sınıf etiketlerini değiştirmek için.",
+            "D": "Kategorik nitelikleri sayısal formatta temsil etmek için.",
+            "E": "Sadece hedef nitelik için dönüşüm gerektiğinde."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir sınıflandırma modelinin performans değerlendirme ölçütü olan doğruluk (accuracy) nasıl hesaplanır?",
+          "options": {
+            "A": "(TP + TN) / (TP+TN+FP+FN)",
+            "B": "(TP + FP) / (TP+TN+FP+FN)",
+            "C": "TP / (TP+FN)",
+            "D": "FP / (TN+FP)",
+            "E": "(FP + FN) / (TP+TN+FP+FN)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi k-Kat Çapraz Geçerleme (k-Fold Cross-Validation) yönteminin avantajı olarak gösterilebilir?",
+          "options": {
+            "A": "Küçük veri setlerinde tüm veri noktalarının eğitimde kullanılması.",
+            "B": "Test veri setinin tamamen bağımsız olması.",
+            "C": "Her veri örneğinin hem eğitim hem de test setinde yer alması.",
+            "D": "Eğitim ve test veri setlerinin aynı örneklerden oluşması.",
+            "E": "Rastgele veri ayırma hatalarını azaltarak modelin genel performansını ölçmesi."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir sınıflandırma probleminin çözümünde kullanılan tahmin edici nitelikler için aşağıdakilerden hangisi doğru bir tanımlamadır?",
+          "options": {
+            "A": "Modelin tahmin ettiği hedef değişkenlerdir.",
+            "B": "Model eğitimi sırasında kullanılır ve bağımlı değişkenlerdir.",
+            "C": "Model değerlendirme sırasında yalnızca test verisinde bulunurlar.",
+            "D": "Modeli eğitmek için kullanılan bağımsız değişkenlerdir.",
+            "E": "Hedef nitelik kategorilerinin temsil edildiği yapay kodlama sütunlarıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "F-ölçüsü (F1-score) aşağıdaki hangi iki performans değerlendirme ölçütünün harmonik ortalamasıdır?",
+          "options": {
+            "A": "Kesinlik ve duyarlılık",
+            "B": "Kesinlik ve belirleyicilik",
+            "C": "Duyarlılık ve belirleyicilik",
+            "D": "Doğruluk ve hata oranı",
+            "E": "Doğruluk ve duyarlılık"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi k-En Yakın Komşu (k-NN) algoritmasının özelliklerinden biri değildir?",
+          "options": {
+            "A": "Hem sınıflandırma hem de regresyon problemleri için kullanılabilir.",
+            "B": "Euclidean, Cosine gibi uzaklık fonksiyonları k-NN ile kullanılabilir.",
+            "C": "Algoritmada karar aşamasında, sınıfı belirlenmek istenen gözleme en yakın k komşunun tahmin edici niteliklerinin sayısı dikkate alınır.",
+            "D": "Modelin doğruluğu, komşu sayısı (k) seçimine bağlıdır.",
+            "E": "Büyük veri setlerinde yüksek hesaplama maliyetine sahiptir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı Unite 7",
+      "exam_title": "Web Analitiği ve Zekâsı Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 10,
+      "file_name": "Web_Analitigi_ve_Zek_si_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2025/03/13/web-analitigi-ve-zekasi-unite-7/",
+      "unit_number": 7,
+      "unit_label": "7- Ziyaretçi Davranış Grupları- Kümeleme",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki işlemlerden hangisi set.seed() fonksiyonunun kullanım amacıyla örtüşür?",
+          "options": {
+            "A": "Veri setindeki eksik verileri doldurmak.",
+            "B": "Rastgele küme sayısını belirlemek.",
+            "C": "Veriyi normalize etmek.",
+            "D": "Her çalıştırmada aynı sonuçların elde edilmesini sağlamak.",
+            "E": "Grafik görselleştirme işlemlerini başlatmak."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "R’da kümelerin görselleştirilmesi için hangi fonksiyon kullanılır?",
+          "options": {
+            "A": "plot()",
+            "B": "fviz_cluster()",
+            "C": "fviz_nbclust()",
+            "D": "ggplot()",
+            "E": "silhouette()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Veri ölçeklendirme (standartlaştırma) işlemi için hangi Rfonksiyonu kullanılır?",
+          "options": {
+            "A": "scale()",
+            "B": "normalized()",
+            "C": "mean()",
+            "D": "standardize()",
+            "E": "center()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Optimal küme sayısını belirlemek için hangi yöntem kullanılmıştır?",
+          "options": {
+            "A": "Elbow yöntemi",
+            "B": "k-kat çapraz geçerleme",
+            "C": "Bootstrap yöntemi",
+            "D": "Silhouette yöntemi",
+            "E": "Random Forest"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Silhouette skoru neyi ölçer?",
+          "options": {
+            "A": "Küme merkezlerinin standart sapmasını.",
+            "B": "Kümeleme sonucunda verilerin birbirinden ne kadar farklı olduğunu.",
+            "C": "Eksik değerlerin dağılımını.",
+            "D": "Kategorik değişkenlerin korelasyonunu.",
+            "E": "Sayısal değişkenlerin ortalama değerlerini."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Kümeleme analizinde k-ortalamalar (k-means) algoritmasının temel amacı nedir?",
+          "options": {
+            "A": "Veriyi belirli gruplara (kümelere) ayırmak.",
+            "B": "Veri setindeki eksik verileri silmek.",
+            "C": "Sütunlar arasında korelasyonu hesaplamak",
+            "D": "Sayısal sütunları normalize etmek.",
+            "E": "Doğrusal regresyon modeli oluşturmak."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "R’da kümeleme analizinde, veri setindeki mesafelerin hesaplanması için aşağıdaki fonksiyonlardan hangisi kullanılır?",
+          "options": {
+            "A": "kmeans()",
+            "B": "scale()",
+            "C": "summary()",
+            "D": "lapply()",
+            "E": "dist()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Kümeleme modelinde table(kmeans_result$cluster) komutu neyi gösterir?",
+          "options": {
+            "A": "Küme merkezlerini.",
+            "B": "Kümelerin performans skorlarını.",
+            "C": "Her kümedeki gözlem sayısını.",
+            "D": "Optimal küme sayısını.",
+            "E": "Eksik veri oranını."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "R’da sadece sayısal sütunları seçmek için hangi fonksiyon kullanılır?",
+          "options": {
+            "A": "apply()",
+            "B": "lapply()",
+            "C": "subset()",
+            "D": "sapply()",
+            "E": "summary()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Kümeleme modeli sonucunda kmeans() fonksiyonundan elde edilen küme merkezlerini görmek için hangi kod kullanılır?",
+          "options": {
+            "A": "print(kmeans_result$cluster)",
+            "B": "summary(kmeans_result)",
+            "C": "table(kmeans_result$cluster)",
+            "D": "plot(kmeans_result)",
+            "E": "print(kmeans_result$centers)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Analitiği ve Zekâsı Unite 8",
+      "exam_title": "Web Analitiği ve Zekâsı Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 10,
+      "file_name": "Web_Analitigi_ve_Zek_si_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2025/03/13/web-analitigi-ve-zekasi-unite-8/",
+      "unit_number": 8,
+      "unit_label": "8- Birliktelik Kuralları Madenciliği",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Apriori algoritmasının ana çalışma prensibi nedir?",
+          "options": {
+            "A": "Sık olmayan öğe kümelerinden sık olanları üretmek.",
+            "B": "Veritabanındaki rastgele kuralları test etmek.",
+            "C": "Bir kuralın kaldıracını maksimize etmek.",
+            "D": "Sık öğe kümelerinin alt kümelerinin de sık olduğunu varsaymak.",
+            "E": "Verileri tamamen rastgele böler ve kurallar oluşturur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki hangi ifade, Apriori algoritmasının bir özelliği değildir?",
+          "options": {
+            "A": "Bir öğe kümesinin alt kümelerinden biri sık değilse, o öğe kümesi de sık değildir.",
+            "B": "Rastgele öğe kümeleri üzerinde iteratif analiz yapılır.",
+            "C": "Her adımda yalnızca sık öğe kümeleri üzerinde işlem yapılır.",
+            "D": "Minimum destek ve güven eşik değerleri belirlenir.",
+            "E": "Algoritma her adımda veri setini bir kez tarar."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Kaldıraç oranı (lift) aşağıdaki formüllerden hangisiyle hesaplanır?",
+          "options": {
+            "A": "destek(A ∪",
+            "B": "/destek(",
+            "C": "destek(",
+            "D": "destek(",
+            "E": "güven(A →"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki kurallardan hangisi kaldıracının (lift) 1’den büyük olduğu anlamına gelir?",
+          "options": {
+            "A": "P(A∪",
+            "B": "= P(",
+            "C": "P(A∪",
+            "D": "P(A ∪",
+            "E": "P(B |"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Birliktelik kuralları madenciliğinde destek (support) hangi anlamı taşır?",
+          "options": {
+            "A": "Bir kuralın sol tarafının (LHS) ne kadar sıklıkla ortaya çıktığını ifade eder.",
+            "B": "Bir kuralın sağ tarafının (RHS) ne kadar sıklıkla ortaya çıktığını ifade eder.",
+            "C": "Bir kuralın güven oranını ifade eder.",
+            "D": "Bir kuralın kaldıraç oranını ifade eder.",
+            "E": "Bir kuralın veri setindeki işlemlerde ne kadar sıklıkla birlikte göründüğünü ifade eder."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verilen Rkodu verilen seçeneklerden hangisi için kullanılmıştır?",
+          "options": {
+            "A": "Eksik veri değerlerini NA ile doldurur.",
+            "B": "Birliktelik kuralları için destek ve güven hesaplar.",
+            "C": "Veri setindeki eksik değer içeren satırları kaldırır.",
+            "D": "Tüm satırları faktör (factor) veri türüne dönüştürür.",
+            "E": "Küçük harf içeren satırları filtreler ve çıkarır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki verilen Rkodunun kullanılma amacı nedir?",
+          "options": {
+            "A": "İşlem veri setinden ilişki kuralları oluşturur.",
+            "B": "Veri setindeki eksik değerleri kaldırır.",
+            "C": "Destek değerlerini görselleştirir.",
+            "D": "Veri setindeki öğe frekanslarını bulur.",
+            "E": "Apriori algoritmasıyla birden fazla veri setini birleştirir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir kuralın güven değeri (confidence) neyi ifade eder?",
+          "options": {
+            "A": "Bir kuralın sağ tarafının (RHS) destek değerini ifade eder.",
+            "B": "Bir kuralın kaldıraç oranını (lift) ifade eder.",
+            "C": "Kuralın sol tarafı gerçekleştiğinde sağ tarafının gerçekleşme olasılığını ifade eder.",
+            "D": "Veritabanındaki sık öğe kümelerinin sıklığını ifade eder.",
+            "E": "Kuralın destek değerinin ikiye katlanmasını ifade eder."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıdaki kod bloğu hangi işlemi gerçekleştirir?",
+          "options": {
+            "A": "Veri setini sepet analizi için işlem formuna dönüştürür.",
+            "B": "veri$islemler ile verilen veriyi faktöre (factor) dönüştürür.",
+            "C": "Veri setindeki eksik değerleri temizler.",
+            "D": "Sütunların birleşik metin haline gelmesini sağlar.",
+            "E": "Kuralların oluşturulmasını otomatikleştirir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangi durumda bir kuralın güven değeri simetrik olur?",
+          "options": {
+            "A": "A → Bve B → Akuralları aynı kaldıraç oranına sahipse.",
+            "B": "Kaldıraç oranı 1 olduğunda.",
+            "C": "Ave Bbirbirinden bağımsız ise.",
+            "D": "Ave Baynı destek değerine sahipse.",
+            "E": "Her iki kuralın aynı güven aralığında olması durumunda."
+          },
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",

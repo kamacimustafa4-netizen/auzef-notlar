@@ -1,7 +1,7 @@
 {
   "course": "Algoritma ve Programlamaya Giriş",
   "lesson_code": "ALGORITMA_VE_PROGRAMLAMAYA_GIRIS",
-  "exam_count": 9,
+  "exam_count": 31,
   "exams": [
     {
       "title": "Algoritma ve Programlamaya Giriş 2025 Vize",
@@ -2032,6 +2032,3380 @@
             "E": "Aranan elemanın dizide olmaması algoritmanın verimliliği açısından olabilecek en kötü durumu ifade eder."
           },
           "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 1",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 5,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2022/09/17/algoritmalar-ve-programlamaya-giris-unite-1/",
+      "unit_number": 1,
+      "unit_label": "Algoritma Kavramı Ve Algoritmaların İfade Edilme Yöntemleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi Algoritma dokümanlarında olması gereken özelliklerden değildir?",
+          "options": {
+            "A": "C++ Kodu",
+            "B": "Algoritma Adı",
+            "C": "Algoritmanın yaptığı iş",
+            "D": "Algoritmanın işlem adımları",
+            "E": "Açıklamalar"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda algoritmalarla ilgili verilen tanım cümlesinde bırakılan boşluğa hangi kelimeler grubu gelmelidir? “algoritmalar bilgisayara - - - - -. talimatlar dizisidir.”",
+          "options": {
+            "A": "Akış şemalarını ifade eden",
+            "B": "Satır algoritmalarını ifade eden",
+            "C": "Sözde kodları ifade eden",
+            "D": "Nelerin yapılması gerektiğini söyleyen",
+            "E": "Nelerin yapılmaması gerektiğini söyleyen"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen geometrik şekil algoritmaların akış şemaları ile ifadesinde hangi işleme karşılık gelir?",
+          "options": {
+            "A": "Karar",
+            "B": "Döngü",
+            "C": "İşlem",
+            "D": "Giriş",
+            "E": "Başla/Son"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi satır algoritmalarını ifade etmek için kullanılır?",
+          "options": {
+            "A": "C++",
+            "B": "Doğal dil (günlük yazı/konuşma dili)",
+            "C": "Akış şeması",
+            "D": "Geometrik şekiller",
+            "E": "Sözde Kod"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıda verilen ifade Algoritmaların hangi özelliğini tanımlar? “Gereksiz tekrarlardan uzak olmalıdır. Birçok farklı problemin çözümünde kullanılabilecek genel özelliklere sahip olmalıdır.”",
+          "options": {
+            "A": "Kesin olama özelliği",
+            "B": "Etkin olma özelliği",
+            "C": "Sonlu olma özelliği",
+            "D": "Giriş bilgisine karşılık çıkış bilgisi sağlama özelliği",
+            "E": "Başarım ve Performans"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 1",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2025/10/26/algoritma-ve-programlamaya-giris-unite-1-guz/",
+      "unit_number": 1,
+      "unit_label": "Ünite 1",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi akış diyagramında veri tabanını ifade etmek için kullanılır?",
+          "options": {
+            "A": "Görsel şık A",
+            "B": "Görsel şık B",
+            "C": "Görsel şık C",
+            "D": "Görsel şık D",
+            "E": "Görsel şık E"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1.png",
+          "image_file": "WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1.png",
+          "image_path": "resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1.png",
+          "source_image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1.png",
+          "option_image_paths": {
+            "A": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1_A.png",
+            "B": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1_B.png",
+            "C": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1_C.png",
+            "D": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1_D.png",
+            "E": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_1_SORU_1_E.png"
+          }
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki özelliklerden hangisi bir algoritmada olmak zorunda değildir?",
+          "options": {
+            "A": "Sonlu olma",
+            "B": "Etkinlik",
+            "C": "Verimlilik",
+            "D": "Kesinlik",
+            "E": "Doğruluk"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir akış diyagramında birden fazla başlangıç ve bitiş elemanı kullanılabilir mi?",
+          "options": {
+            "A": "Her şartta kullanılabilir.",
+            "B": "Hiçbir şartta kullanılamaz.",
+            "C": "Döngü yapısı ile birlikte kullanılabilir.",
+            "D": "Koşullu yapıda kullanılabilir.",
+            "E": "Alt programlarda kullanılabilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Tek boyutlu bir dizide basit aritmetik işlemler yapılmasını veya dizinin bir elemanına erişilmesini sağlayan bir algoritmanın çalışma performansı aşağıdaki değerlerden hangisi ile ölçülür?",
+          "options": {
+            "A": "O(n³)",
+            "B": "O(n log n)",
+            "C": "O(1)",
+            "D": "O(log n)",
+            "E": "O(n)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi ile ifade edilen bir algoritma performansı diğerlerine göre daha yüksektir?",
+          "options": {
+            "A": "O(n³)",
+            "B": "O(n log n)",
+            "C": "O(1)",
+            "D": "O(log n)",
+            "E": "O(n)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi bir algoritmada olabilecek kontrol yapılarından değildir?",
+          "options": {
+            "A": "Sıralı yapı",
+            "B": "Seçimli yapı",
+            "C": "Tekrarlı yapı",
+            "D": "Koşullu yapı",
+            "E": "Sonlu yapı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Akış diyagramının hangi elemanından birden fazla yol çıkabilir?",
+          "options": {
+            "A": "Karar yapıları",
+            "B": "Fonksiyonlar",
+            "C": "Başlangıç",
+            "D": "İşlem",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir algoritma nasıl tanımlanamaz?",
+          "options": {
+            "A": "Bir sorunu çözmek için kullanılan adımlar",
+            "B": "Bir çözüme dair talimatlar bütünü",
+            "C": "Bir programlama dili",
+            "D": "Bir sorunu oluşturan tüm alt sorunlar",
+            "E": "Bir programın işlem basamakları"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi algoritmayı ifade etmek için kullanılan yöntemlerden değildir?",
+          "options": {
+            "A": "Sözde kod",
+            "B": "Sözlü kod",
+            "C": "Akış diyagramı",
+            "D": "Kaba kod",
+            "E": "Pseudo kod"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangisi büyük Onotasyonu ile ölçülen bir kavramdır?",
+          "options": {
+            "A": "çalışma süresi",
+            "B": "işlem hızı",
+            "C": "algoritma türü",
+            "D": "zaman karmaşıklığı",
+            "E": "değişken sayısı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 2",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2022/09/17/algoritmalar-ve-programlamaya-giris-unite-2/",
+      "unit_number": 2,
+      "unit_label": "Programlamanın Temelleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "C++ programlarında, program ifadelerinin sonuna hangi noktalama işareti konulur?",
+          "options": {
+            "A": "İki nokta üst üste",
+            "B": "Diyez işareti",
+            "C": "Soru işareti",
+            "D": "Virgül işareti",
+            "E": "Noktalı virgül işareti"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi hatalı bir değişken adıdır?",
+          "options": {
+            "A": "A",
+            "B": "A1",
+            "C": "Sayi_3",
+            "D": "1A",
+            "E": "A1c32"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "C++’ta yazılan programlarda kaynak dosyaların uzantısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": ".exe",
+            "B": ".cpp",
+            "C": ".com",
+            "D": ".docx",
+            "E": ".xlsx"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi derleyiciye, kaynak dosyası içerisine başka bir dosya eklenmesi gerektiğini bildirir?",
+          "options": {
+            "A": "İnclude",
+            "B": "define",
+            "C": "using",
+            "D": "cout",
+            "E": "cin"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "C++ programlarının çalışması program içerisindeki hangi noktadan başlar?",
+          "options": {
+            "A": "#include",
+            "B": "Using namespace std;",
+            "C": "main() fonksiyonu",
+            "D": "return 0;",
+            "E": "cout"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi cin nesnesi ile birlikte kullanılan çıkarma operatörüdür?",
+          "options": {
+            "A": "%",
+            "B": "&",
+            "C": ">>",
+            "D": "<<",
+            "E": "-="
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi karşılaştırma operatörüdür?",
+          "options": {
+            "A": "++",
+            "B": "-",
+            "C": "+=",
+            "D": "=",
+            "E": "<="
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "C++ programlarında, program içerisindeki tek satırlık açıklama satırları aşağıdakilerden hangisi ile başlar?",
+          "options": {
+            "A": "%",
+            "B": "#",
+            "C": "()",
+            "D": "//",
+            "E": "??"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi C++ programlarında sabitleri tanımlamak için kullanılır?",
+          "options": {
+            "A": "int",
+            "B": "long",
+            "C": "const",
+            "D": "float",
+            "E": "define"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi cout nesnesi ile birlikte kullanılan ekleme operatörüdür?",
+          "options": {
+            "A": "%",
+            "B": "&",
+            "C": ">>",
+            "D": "<<",
+            "E": "-="
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 2",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2025/10/26/algoritma-ve-programlamaya-giris-unite-2-guz/",
+      "unit_number": 2,
+      "unit_label": "Ünite 2",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi aritmetik işlem değildir?",
+          "options": {
+            "A": "toplama",
+            "B": "çıkarma",
+            "C": "kesişim kümesi oluşturma",
+            "D": "mod alma",
+            "E": "üs alma"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki üç farklı değişken ve bunların değerleri verilmiştir. Bu değişkenler ile yapılan işlemlerin sonucunda elde edilen değerler aşağıdaki seçeneklerin hangisinde doğru sırayla verilmiştir?",
+          "options": {
+            "A": "False True False False True",
+            "B": "False True True False False",
+            "C": "False True True False True",
+            "D": "True False True False True",
+            "E": "True False True True True"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir algoritmada değer artışının ifade edilmesi için aşağıdakilerden hangisi kullanılmaz?",
+          "options": {
+            "A": "c = c + 1",
+            "B": "c = ++a",
+            "C": "b = a++",
+            "D": "a = a + 1",
+            "E": "a+-1"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki veri tiplerinden hangisi mantıksal değerleri tanımlamak için kullanılır?",
+          "options": {
+            "A": "string",
+            "B": "boolean",
+            "C": "float",
+            "D": "short",
+            "E": "char"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Basit algoritma yapısında hiçbir koşul veya döngü olmadığı durumda işlemler birbirini nasıl takip eder?",
+          "options": {
+            "A": "Ardışık olarak",
+            "B": "Bazı adımları atlayarak",
+            "C": "Bazı adımları tekrarlayarak",
+            "D": "Sondan başa doğru",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda üç farklı değişken ve bunların değerleri verilmiştir. Bu değişkenler ile yapılan işlemlerin sonucunda elde edilen değerler aşağıdaki seçeneklerin hangisinde doğru sırayla verilmiştir?",
+          "options": {
+            "A": "True True True",
+            "B": "False True False",
+            "C": "True True False",
+            "D": "False False True",
+            "E": "False False False"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi karakter veri tipindedir?",
+          "options": {
+            "A": "char",
+            "B": "strng",
+            "C": "byte",
+            "D": "letter",
+            "E": "stg"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi tam sayı veri tiplerinden değildir?",
+          "options": {
+            "A": "byte",
+            "B": "short",
+            "C": "long",
+            "D": "float",
+            "E": "int"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "AND mantıksal operatöründe sonucun doğru (TRUE) döndürülmesi için aşağıdaki koşullardan hangisinin sağlanması gerekir?",
+          "options": {
+            "A": "Durumlardan sadece birinin doğru olması",
+            "B": "Durumlardan en az birinin doğru olması",
+            "C": "Her iki durumun doğru olması",
+            "D": "Her iki durumun yanlış olması",
+            "E": "Durumlardan en az birinin yanlış olması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi algoritmalarda geçerli bir karakter veri tipi örneğidir?",
+          "options": {
+            "A": "30.03.2022",
+            "B": "123",
+            "C": "'c'",
+            "D": "3.14",
+            "E": "True"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 3",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2022/09/18/algoritmalar-ve-programlamaya-giris-unite-3/",
+      "unit_number": 3,
+      "unit_label": "Karar Yapıları (ıf, If….else)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi C++ programlarında, koşul sağlandığında ve sağlanmadığı durumda çalıştırılacak ifadelerin ayrı ayrı seçilmesini sağlayan ifadedir?",
+          "options": {
+            "A": "if",
+            "B": "main()",
+            "C": "int",
+            "D": "if….else",
+            "E": "else"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda verilen söz dizimi hangi deyime aittir. if(koşul) İfade;",
+          "options": {
+            "A": "İf",
+            "B": "İf….else",
+            "C": "include",
+            "D": "else",
+            "E": "main()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda verilen C++ programında kaçıncı satırda hata yapılmıştır?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki kaynak kodu verilen C++ programının ekran çıktısı ne olur?",
+          "options": {
+            "A": "Program çalışır. Herhangi bir çıktı üretmez.",
+            "B": "Yazılan kaynak eksik veya hatalıdır. Program Çalışmaz.",
+            "C": "Sayı yüzden büyük değildir.",
+            "D": "Sayı yüzden büyüktür.",
+            "E": "cout<<”sayı yüzden büyüktür”."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi C++ programlama dilinde kullanılan karşılaştırma(ilişkisel) operatör değildir?",
+          "options": {
+            "A": ">=",
+            "B": "&&",
+            "C": "!=",
+            "D": "==",
+            "E": "<"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki şekillerden hangisi akış şemalarında if karar deyiminin ifade edilmesi için kullanılır?",
+          "options": {
+            "A": "Silindir",
+            "B": "Eşkenar dörtgen",
+            "C": "dikdörtgen",
+            "D": "Üçgen",
+            "E": "Kare"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki C++ yazılmış programın ekran çıktısı ne olur?",
+          "options": {
+            "A": "Program Çalışır. Herhangi bir çıktı üretmez.",
+            "B": "Program Çalışmaz. Kaynak kod eksik veya hatalıdır.",
+            "C": "Sayı ona eşit veya ondan büyüktür.",
+            "D": "Sayı ondan küçüktür.",
+            "E": "10"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi değildir operatörüdür?",
+          "options": {
+            "A": "!",
+            "B": "=",
+            "C": "==",
+            "D": "I I",
+            "E": "<="
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıda verilen söz dizimi hangi deyime aittir. if(koşul) İfade; else İfade;",
+          "options": {
+            "A": "İf",
+            "B": "İf….else",
+            "C": "include",
+            "D": "else",
+            "E": "main()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "C++ programlarında, belli koşullar altında belli ifadelerin çalıştırılması, belli ifadelerin de çalıştırılmamasını sağlayan deyim aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "cout",
+            "B": "cin",
+            "C": "return 0;",
+            "D": "endl",
+            "E": "if"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 3",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2025/10/26/algoritma-ve-programlamaya-giris-unite-2-guz-2/",
+      "unit_number": 3,
+      "unit_label": "Ünite 3",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İç içe seçimli yapı ile ilgili aşağıdakilerden hangisi kontrol edilir?",
+          "options": {
+            "A": "En dıştaki koşul içeridekine bağlı olarak çalışır.",
+            "B": "Koşulların mutlaka sağlanması gerekir.",
+            "C": "Koşulların ikisi de çalışmaz.",
+            "D": "Koşulların ikisi de aynı anda çalışır.",
+            "E": "En dıştaki koşula bağlı olarak içerideki koşul kontrol edilir veya edilmez."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "“Test notu 65’ten düşükse, testi yapan kişi başarısız olmuş demektir.” Yukarıdaki ifadenin tersi şıklardan hangisinde doğru ifade edilmiştir?",
+          "options": {
+            "A": "EĞER Deniz testten 40'tan yüksek alırsa YAZ(\"Deniz başarısızdır.\")",
+            "B": "EĞER Deniz testten 40'tan düşük alırsa YAZ(\"Deniz başarısızdır.\")",
+            "C": "EĞER Deniz testten 70'ten yüksek alırsa YAZ(\"Deniz başarısızdır.\")",
+            "D": "EĞER Deniz sınavdan 70'ten düşük alırsa YAZ(\"Deniz başarısızdır.\")",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Öğrencinin notu 50 ise CC, 70 ise BB, 90 ise AA değerlerini çıktı olarak veren bir programla ilgili olarak aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Programın çıktısı yoktur.",
+            "B": "Farklı koşullara göre farklı çıktılar döndürülür.",
+            "C": "Farklı durumların hepsi aynı sonucu döndürür.",
+            "D": "Öğrencinin notu boolean tipinde bir değerdir.",
+            "E": "Öğrenci notu yanlış girilmiştir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Koşullu yapıların kullanım amacı ile ilgili olarak aşağıdaki cümlelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bu yapılar bazı adımların atlanmasına neden olur.",
+            "B": "Bu yapılar bir seçim yapılmasını sağlar.",
+            "C": "Bu yapılar ardışık işlem yapılmasını zorunlu kılar.",
+            "D": "Bu yapılar bir durumun kontrol edilmesini sağlar.",
+            "E": "Bu yapılar sayesinde istenen bir koşul sınanır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir öğrencinin dersten geçme durumunu ekrana yazdıran kod parçasında, dersten kalındıysa ekrana mesaj döndürülür, kalınmadıysa program bir şey yapmadan biter. Bu programda kaç durumun kontrolü yapılır?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "a=5, b=8 EĞER a > 10 VE b 10 VEYA b < 5 isen YAZ(“Ya a 10’dan büyüktür ya da b 5’ten küçüktür.”)n DEĞİLSE EĞERn YAZ(“Ne a 10’dan büyük ne de b 5’ten küçüktür.”) Yukarıda verilen kaba kodun çıktısı aşağıdaki şıklardan hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "\"a 10'dan büyük ve b 5'ten küçüktür.\"",
+            "B": "\"Ya a 10'dan büyüktür ya da b 5'ten küçüktür.\"",
+            "C": "\"Ne a 10'dan büyük ne de b 5'ten küçüktür.\"",
+            "D": "Kod çıktısı yoktur.",
+            "E": "Kodda hata vardır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki boşluğa gelmesi gereken doğru kelime hangisidir? ”Kodun okunurluğunun artması amacıyla koşullu yapıların yazımında kodların ………yazılması önerilir.”",
+          "options": {
+            "A": "birleşik",
+            "B": "girintili",
+            "C": "ardışık olarak",
+            "D": "iç içe",
+            "E": "sırayla"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki seçeneklerden hangisi “ders_adı” string değişkeni değerinin “algoritma” olmasını kontrol eder?",
+          "options": {
+            "A": "ders_adı algoritma",
+            "B": "dersadı = algoritma",
+            "C": "Dersimin_adı = \"algoritma\"",
+            "D": "ders_adı = \"algoritma\"",
+            "E": "Ders & \"algoritma\""
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "a=10, b=5 olmak üzere aşağıdaki sözde kodun çıktısı ne olur? Yukarıdaki sözde kodun çıktısı nedir?",
+          "options": {
+            "A": "a, b'den büyüktür.",
+            "B": "b, a'dan büyüktür.",
+            "C": "a ve b eşittir.",
+            "D": "15",
+            "E": "10"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "“Eğer yemek yediysen ilacını al.” cümlesi ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Tek bir koşulun kontrolü yapılır.",
+            "B": "Koşulun doğru olması durumunda sadece bir işlem yapılır.",
+            "C": "Koşulun yanlış olduğu durumda ne yapılacağı bellidir.",
+            "D": "Yemek yeme eylemi bir ön koşula bağlı değildir.",
+            "E": "İlaç alma eylemi bir koşula bağlıdır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 4",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 3,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2022/09/18/algoritmalar-ve-programlamaya-giris-unite-4/",
+      "unit_number": 4,
+      "unit_label": "Kümelenmiş If….else Yapıları",
+      "questions": [
+        {
+          "id": 1,
+          "question": "switch yapılarında her “case:”‘dan hemen sonra gelen değer için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Sabit değer olmalıdır.",
+            "B": "Değişken değer olmalıdır.",
+            "C": "case ’den sonra gelen değer ile switch değişkeni farklı tipte olmalıdır.",
+            "D": "switch yapılarında “case:” ‘dan hemen sonra bir değer gelmez.",
+            "E": "Switch yapılarında “case:” kullanılmaz."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki şekillerden hangisi akış şemalarında karar ifadesini göstermek için kullanılır?",
+          "options": {
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV",
+            "E": "V"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıdaki hangisi akış şemalarında başla simgesine karşılık gelir?",
+          "options": {
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV",
+            "E": "V"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 4",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2025/10/26/algoritma-ve-programlamaya-giris-unite-4-guz/",
+      "unit_number": 4,
+      "unit_label": "Ünite 4",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda algoritmada, kullanıcının girdiği ikiye bölünebilen pozitif bir tam sayıdan başlayarak, 0’a kadar olan çift sayılar ekrana yazdırılmaktadır. Bu algoritmada boş bırakılan yerlere sırasıyla gelmesi gereken ifadeler hangi şıkta doğru olarak verilmiştir?",
+          "options": {
+            "A": "i = i + 2YAZ (i)",
+            "B": "YAZ (i)i = i + 2",
+            "C": "YAZ (i)i = i - 2",
+            "D": "YAZ (sayı)i = i + 2",
+            "E": "i = i - 2YAZ (sayı)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "for döngüsü ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Başlangıç değeri belirlenmelidir.",
+            "B": "Bitiş değeri belirlenmelidir.",
+            "C": "Artış miktarı negatif olabilir.",
+            "D": "Akış diyagramında altıgen eleman ile gösterilir.",
+            "E": "Artış miktarı mutlaka belirtilmelidir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Sonsuz kontrol hangi aşamada yapılır?",
+          "options": {
+            "A": "İlgili kod bloğunun başında",
+            "B": "İlgili kod bloğunun sonunda",
+            "C": "Program durduktan sonra",
+            "D": "Başla komutundan önce",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Döngü kontrolünün başta ve sonda yapıldığı yapılar hakkında aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Kontrolü başta yapılan döngülerde, kontrolü sonda olan döngülere göre sonsuz döngü olma ihtimali daha fazladır.",
+            "B": "Kontrolü başta olan döngülerde tekrarlanmak istenen işlem en az bir kez yürütülür.",
+            "C": "Kontrolü sonda yapılan döngülerde, kontrolü başta olan döngülere göre sonsuz döngü olma ihtimali daha fazladır.",
+            "D": "Döngü kontrolü her iki yapıda da aynı şekilde yazılır.",
+            "E": "İki yapı arasında bir fark yoktur."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "10 arasındaki sayıların (10 hariç) toplamınını do while…loop döngüsü kullanarak hesaplamak için gerekli kod aşağıdakilerden hangisidir (sayı = 0, toplam = 0 başlangıçta tanımlanmış varsayılmaktadır)?",
+          "options": {
+            "A": "DO WHILE (sayı < 10)toplam = toplam + toplamsayı = sayı ++LOOP",
+            "B": "DO WHILE (sayı < 10)toplam = toplam + sayısayı = sayı ++LOOP",
+            "C": "DO WHILE (sayı < 10)toplam = sayı + sayısayı = sayı + 1LOOP",
+            "D": "DO WHILE (sayı < 10)toplam = toplam + sayısayı = sayıLOOP",
+            "E": "DO LOOP (sayı < 10)toplam = toplam + sayısayı = toplamWHILE"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir for döngüsünde sayaç değişkeninin artması gerektiğini ifade etmek için hangi eleman kullanılır?",
+          "options": {
+            "A": "Görsel şık A",
+            "B": "Görsel şık B",
+            "C": "Görsel şık C",
+            "D": "Görsel şık D",
+            "E": "Görsel şık E"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6.png",
+          "image_file": "WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6.png",
+          "image_path": "resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6.png",
+          "source_image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6.png",
+          "option_image_paths": {
+            "A": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6_A.png",
+            "B": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6_B.png",
+            "C": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6_C.png",
+            "D": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6_D.png",
+            "E": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_4_SORU_6_E.png"
+          }
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki kaba kodla ilgili verilen şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "Koşul kontrolü sonda yapılmıştır.",
+            "B": "Döngü sonlanmamaktadır.",
+            "C": "Herhangi bir değer yazdırılmamaktadır.",
+            "D": "Döngü 100 tekrarın ardından sonlanır.",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "10-0 arasındaki sayıları for döngüsü kullanarak (10’dan 0’a doğru) yazdırılmak isteniliyorsa aşağıdakilerden hangisi bu yapı ile ilgili doğru bir ifade olur?",
+          "options": {
+            "A": "Başlangıç değeri 0 olmalıdır.",
+            "B": "Bitiş değeri 10 olmalıdır.",
+            "C": "Sayaç birer birer arttırılmalıdır.",
+            "D": "Sayaç birer birer azaltılmalıdır.",
+            "E": "Kullanılacka sayaç, döngüde tanımlanmamalıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "do loop…while döngüsünde kontrol hangi aşamada yapılır?",
+          "options": {
+            "A": "İlgili kod bloğunun başında",
+            "B": "İlgili kod bloğunun sonunda",
+            "C": "Program durduktan sonra",
+            "D": "Başla komutundan sonra",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yukarıda kaba kodu verilen algoritmanın çıktısı ne olur?",
+          "options": {
+            "A": "1 2 3 4 5 15",
+            "B": "1 2 3 4 5 10",
+            "C": "2 3 4 5 6 15",
+            "D": "10",
+            "E": "15"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 5",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 5,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2022/09/18/algoritmalar-ve-programlamaya-giris-unite-5/",
+      "unit_number": 5,
+      "unit_label": "Döngüler",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki kodun çıktısı ne olur? for(int i=1;i2 && i<8) continue; cout<<i<<endl;}",
+          "options": {
+            "A": "Çıktı üretmez",
+            "B": "Birden ona kadar tüm sayıları ekrana yazar",
+            "C": "Ondan bire kadar olan sayıları ekrana yazar.",
+            "D": "İki ile sekiz arasındaki sayıları ekrana yazar.",
+            "E": "Ekrana yukarıdan aşağıya 1289 yazar."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki kod parçasının çıktısı nedir? for(int i=0;i<=10;i++) cout<<i<<endl;",
+          "options": {
+            "A": "Herhangi bir çıktı üretmez?",
+            "B": "Ondan sıfıra kadar(sıfır hariç) sayıları ekrana yazar",
+            "C": "Sıfırdan(sıfır dahil) ona kadar olan sayıları(on hariç) ekrana yazar.",
+            "D": "Sıfırdan(sıfır dahil) ona kadar olan sayıları(on dahil) ekrana yazar.",
+            "E": "Ekrana sadece 10 yazar."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki döngü için doğru olan şık aşağıdakilerden hangisidir? int x=0; while(1){ x+=1; cout<<x;}",
+          "options": {
+            "A": "Bir çıktı üretmez.",
+            "B": "Ekrana sadece bir adet 1 yazar.",
+            "C": "Ekrana sadece bir adet 0 yazar.",
+            "D": "Ekrana sonsuz sayıda 1 yazar.",
+            "E": "Ekrana 1’den başlayıp sonsuza kadar olan sayıları yazar."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki kod parçasındaki hata nedir? int x=1; while(x<10); x++;",
+          "options": {
+            "A": "x değişkenine bir atanması",
+            "B": "while parantezinde koşulun x<0 olarak belirlenmesi",
+            "C": "x ‘in birer birer arttırılması",
+            "D": "while bloğunun küme parantezi içerisine alınmamış olması",
+            "E": "while-koşul parantezinden sonra noktalı virgül kullanılması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "for döngüsünün koşul parantezindeki döngü değişkenine döngü boyunca(döngünün 10 defa döndüğünü varsayınız) kaç defa ilk değer ataması yapılır?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "9",
+            "E": "10"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 5",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2025/10/27/algoritma-ve-programlamaya-giris-unite-5-guz/",
+      "unit_number": 5,
+      "unit_label": "Ünite 5",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Programlamada alt programların kullanımı ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Alt program belirli bir görevi yerine getiren bir kod bloğudur.",
+            "B": "Alt program programın diğer bölümleri tarafından çağrılır.",
+            "C": "Alt program istenildiği takdirde parametre alacak şekilde tanımlanabilir.",
+            "D": "Alt program kullanımı programın okunmasını, yazılmasını ve bakımını zorlaştırır.",
+            "E": "Bir alt programın amacı, karmaşık görevleri daha küçük ve yönetilebilir kod parçalarına bölmektir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki kaba kodda Topla isimli alt program ana programdan çağrılmakta ve single tipinde iki değer alarak toplama işlemi yapmaktadır. Bu kaba kodda yapılan hata seçeneklerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Alt programın ismi ana programda değişken ismi olarak kullanılmıştır.",
+            "B": "Ana programdaki değişken, alt programda tanımlanmıştır.",
+            "C": "Değer döndürmeyen fonksiyondan değer döndürülmeye çalışılmıştır.",
+            "D": "Ana programdaki değişken ve ona atanan alt programdan değişkenin türleri farklıdır.",
+            "E": "Alt programdaki bir değişken ana programda çağrılmaya çalışılmıştır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıdaki kaba kodda kullanıcı tarafından girilen sayıya göre faktöriyel hesabı yapılmaktadır. Ana programdan alt programın çağrılması için boş bırakılan yere gelmesi gereken doğru cevap, şıklardan hangisinde verilmiştir?",
+          "options": {
+            "A": "Faktoriyel(int n)",
+            "B": "int sonuç = Faktoriyel(sayı)",
+            "C": "Faktoriyel(sayı)",
+            "D": "sayı = Faktoriyel(sayı)",
+            "E": "call Faktoriyel(int n)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Kendini çağıran fonksiyonlara ne ad verilir?",
+          "options": {
+            "A": "Değer döndüren fonksiyon",
+            "B": "Değer döndürmeyen fonksiyon",
+            "C": "Tekrarlı fonksiyon",
+            "D": "Değersiz fonksiyon",
+            "E": "Özyinelemeli fonksiyon"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıdaki kaba kodda Topla isimli alt program ana programdan çağrılmakta ve int tipinde iki değer alarak toplama işlemi yapmaktadır. Bu kaba kodda yapılan hata seçeneklerden hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "Değer döndürmeyen fonksiyonda değer döndürülmeye çalışılmıştır.",
+            "B": "Alt programdaki ve ana programdaki çağrılan değişken türleri farklıdır.",
+            "C": "Ana programdaki değişken, alt programda tanımlanmıştır.",
+            "D": "Alt programın ismi ana programda değişken ismi olarak kullanılmıştır.",
+            "E": "Alt programda tanımlanan bir değişken ana programda kullanılmaya çalışılmıştır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Özyinelemeli fonksiyonlar ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Özyinelemeli fonksiyonlar, kendi kendini çağıran fonksiyonlardır.",
+            "B": "Özyinelemeli fonksiyonlar, kısa ve öz kodlar oluşturduklarından zarif olarak nitelendirilirler.",
+            "C": "Özyinelemeli fonksiyonlar, döngüler ile de ifade edilebilen problemlerin daha kısa bir şekilde yazılmasını sağlar.",
+            "D": "Özyinelemeli fonksiyonlar, kodun uzamasına sebep olduğundan tercih edilmez.",
+            "E": "Özyinelemeli fonksiyonların tasarımında sonsuz döngü oluşmamasına özellikle dikkat edilmelidir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki şıklardan hangisi, “uzunluk” ve “genişlik” olmak üzere iki parametre alan ve iki parametrenin çarpımını döndüren “hesap_alanı” adlı bir alt programın çağrılmasını sağlar?",
+          "options": {
+            "A": "alan = hesapla_alanı(uzunluk, genişlik)",
+            "B": "alan = hesapla_alanı(uzunluk * genişlik)",
+            "C": "hesapla_alanı(alan = uzunluk * genişlik)",
+            "D": "hesapla_alanı(uzunluk, genişlik)",
+            "E": "hesapla_alanı(alan = uzunluk + genişlik)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukarıdaki kaba kodda verilen alt program, ana program tarafından çağrılmak isteniyor. Cevap şıklarından hangisi alt programın sorunsuz bir şekilde çağrılmasını sağlar?",
+          "options": {
+            "A": "Topla (sayi_1, sayi_2)",
+            "B": "Topla (sayi1, sayi2, sayi3)",
+            "C": "int Islem_Sonucu = Topla (sayi_1, sayi_2)",
+            "D": "int Islem_Sonucu = Topla (sayi1, sayi2, sayi3)",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Alt programların kullanımı ile ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "Bir değişken alt program içerisinde tanımlanırsa, alt programın dışında geçersiz olur.",
+            "B": "Bir alt program içerisinde farklı bir alt program tanımlanamaz.",
+            "C": "Değer döndürmeyen alt programlarda sonucu döndürmek için return komutu kullanılırsa değer döndürülebilir.",
+            "D": "Alt programın ismi, farklı bir alt program veya bir değişken ismi ile aynı olmamalıdır.",
+            "E": "Değer döndüren alt programlarda, dönen değerin türü ile ana programda o fonksiyonu çağırırken kullanılan parametre türü birbiri ile uyuşmalıdır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Metotların içerisinde tanımlanan değişkenler metot dışında kullanılabilir mi?",
+          "options": {
+            "A": "Kullanılabilirler.",
+            "B": "Kullanılamazlar.",
+            "C": "Duruma göre kullanılabilir.",
+            "D": "Özyinelemeli fonksiyonsa kullanılabilir.",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 6",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 5,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2022/09/18/algoritmalar-ve-programlamaya-giris-unite-6/",
+      "unit_number": 6,
+      "unit_label": "Diziler",
+      "questions": [
+        {
+          "id": 1,
+          "question": "int A[4][3]; şeklinde tanımı yapılan dizinin kaç elemanı vardır?",
+          "options": {
+            "A": "7",
+            "B": "4",
+            "C": "3",
+            "D": "12",
+            "E": "15"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "int A[5]={0}; ifadesinden sonra Adizisi için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Derleme sırasında, tanımlama şeklinden dolayı hata döner",
+            "B": "Dizinin bütün elemanları sıfır olur.",
+            "C": "Dizinin ilk elemanı sıfır, diğer dört elemanı rastgele sayılardan oluşur.",
+            "D": "Dizinin son elemanı sıfır, diğer dört elemanı rastgele sayılardan oluşur.",
+            "E": "Dizinin beş elemanı da rasgele sayılardan oluşur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir diziye ilk değer ataması yapılırken dizinin eleman sayısından daha fazla değer atanırsa aşağıdakilerden hangisi gerçekleşir?",
+          "options": {
+            "A": "Derleme sırasında hata döner",
+            "B": "Diziye yapılan atamada dizi boyutu kadar değer dizi elemanlarına atanır.",
+            "C": "Dizinin bütün elemanları sıfır olur.",
+            "D": "Dizinin bütün elemanları rastgele sayılardan oluşur.",
+            "E": "Dizinin bütün elemanları bir olur"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıda verilen kod bloğunun çıktısı hangisidir? int dizi[4]={1,2,3,4}; for(int i=0;i<4;i++){ if(i==2) cout<<endl; cout<<dizi[i]<<\" \"; }",
+          "options": {
+            "A": "1 2 3 4",
+            "B": "4 3 2 1",
+            "C": "Görsel şık C",
+            "D": "Görsel şık D",
+            "E": "4 1 2 3"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_4.png",
+          "image_file": "WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_4.png",
+          "image_path": "resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_4.png",
+          "source_image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_4.png",
+          "option_image_paths": {
+            "C": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_4_C.png",
+            "D": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_4_D.png"
+          }
+        },
+        {
+          "id": 5,
+          "question": "Tek boyutlu ve çok boyutlu dizilerde, dizi tanımlanırken eleman sayısı hangi temel veri tipi ile belirlenir?",
+          "options": {
+            "A": "bool",
+            "B": "float",
+            "C": "char",
+            "D": "int",
+            "E": "double"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 6",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2025/10/27/algoritma-ve-programlamaya-giris-unite-6-guz/",
+      "unit_number": 6,
+      "unit_label": "Ünite 6",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen iki boyutlu sayılar isimli dizideki, 8, 9 ve 3 elemanlarına sırasıyla erişilmek isteniyor. Buna göre aşağıdaki şıklardan hangisi bu işlemlerin yapılmasını sağlar?",
+          "options": {
+            "A": "sayılar(8) sayılar(3) sayılar(9)",
+            "B": "sayılar(2,1) sayılar(2,2) sayılar(0,2)",
+            "C": "sayılar(2,1) sayılar(1,2) sayılar(2,0)",
+            "D": "sayılar(8, 3, 9)",
+            "E": "sayılar(8,2) sayılar(9,2) sayılar(3,2)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_1_GORSEL_1.png",
+          "image_file": "WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_1_GORSEL_1.png",
+          "image_path": "resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_1_GORSEL_1.png",
+          "source_image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_1_GORSEL_1.png",
+          "source_question_images": [
+            "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_6_SORU_1_GORSEL_1.png"
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Yukarıda verilen kaba kod ile ilgili olarak verilen şıklardan hangisi yanlıştır?",
+          "options": {
+            "A": "Dizide üç satır vardır.",
+            "B": "Dizide dört sütun vardır.",
+            "C": "Dizi iki boyutludur.",
+            "D": "Dizinin tüm elemanları 1’dir.",
+            "E": "Dizi elemanları ardışık değerlerden oluşmak zorunda değildir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İndis numarası 0’dan başlamak üzere n elemanlı bir dizideki son elemanın indisi ne olur?",
+          "options": {
+            "A": "n",
+            "B": "1 - n",
+            "C": "n ++",
+            "D": "n - 1",
+            "E": "n + n"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Dizilerin indis numarası ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "İndis numarası 0’dan başlar.",
+            "B": "Dizilerin indis numaraları, dizideki ögelerin değerine göre atanır; daha düşük değerler daha düşük indis numaralarını ve daha yüksek değerler daha yüksek indis numaralarını alır.",
+            "C": "Dizilerin indis numaraları bilgisayar tarafından rastgele atanır.",
+            "D": "Dizilerin dizin numaraları, dizinin son elemanından başlayıp geriye doğru ilk elemanına doğru ters sırada atanır.",
+            "E": "İndis numarası string tipinde bir değerdir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Dizilerin zaman karmaşıklığı ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Dizilerin zaman karmaşıklığı çok azdır.",
+            "B": "Dizilerin zaman karmaşıklığı ölçülemez.",
+            "C": "Tek boyutlu dizilerde işlem yapmanın zaman karmaşıklığı iki boyutlu dizilere göre daha fazladır.",
+            "D": "İki boyutlu dizilerde işlem yapmanın zaman karmaşıklığı tek boyutlu dizilere göre daha fazladır.",
+            "E": "Tek ve iki boyutlu dizilerin karmaşıklığı her zaman aynıdır."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Diziler ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Dizilerde string tipinde değerler tutulabilir.",
+            "B": "Dizilerde char tipinde değerler tutulabilir.",
+            "C": "Dizilerde sayısal değerler tutulabilir.",
+            "D": "Bir dizinin elemanları aynı veri tipinde olmak zorunda değildir.",
+            "E": "Bir dizinin eleman sayısı programcı tarafından belirlenir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki dizinin (indis değeri 0’dan başlamak üzere) Öğrenci_No(2) değeri şıkların hangisinde doğru verilmiştir? Öğrenci_No (134, 265, 192, 145, 984, 672)",
+          "options": {
+            "A": "134",
+            "B": "192",
+            "C": "265",
+            "D": "145",
+            "E": "672"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "İki boyutlu diziler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Birden fazla tek boyutlu dizinin bir araya gelmesi ile oluşur.",
+            "B": "Satır ve sütunlardan oluşur.",
+            "C": "İki boyut iki ayrı indis ile ifade edilir.",
+            "D": "İki boyutlu dizilerin yapısı tablo veya matrislerin yapısına benzer.",
+            "E": "Bir dizinin elemanları aynı veri tipinde olmak zorunda değildir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "İki boyutlu dizinin oluşturulması ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "İki boyut da aynı indis ile ifade edilir.",
+            "B": "Seçimli yapı kullanılarak oluşturulması gerekir.",
+            "C": "İki boyutlu dizide sadece sayısal değerler tutulabilir.",
+            "D": "Bir for döngüsü kullanılarak oluşturulması gerekir.",
+            "E": "İki for döngüsü kullanılarak oluşturulabilir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "İki boyutlu dizilerde işlem yapmanın zaman karmaşıklığı hangisi ile ifade edilir?",
+          "options": {
+            "A": "O(log n)",
+            "B": "O(n)",
+            "C": "O(n log n)",
+            "D": "O(n²)",
+            "E": "O(n³)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 7",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 5,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2022/09/18/algoritmalar-ve-programlamaya-giris-unite-7/",
+      "unit_number": 7,
+      "unit_label": "Fonksiyonlar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen programda, fonksiyon çağrısı hangi satırda yapılmıştır?",
+          "options": {
+            "A": "11",
+            "B": "9",
+            "C": "6",
+            "D": "4",
+            "E": "3"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki verilen programda, çağıran fonksiyona değer döndüren satır hangisidir?",
+          "options": {
+            "A": "11",
+            "B": "9",
+            "C": "6",
+            "D": "4",
+            "E": "3"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda, üç adet aşırı yüklenmiş fonksiyon çağrısı verilmiştir. Bu çağrılardan hangisinde çağırılan fonksiyona aktarılan argümanların ikisi de sabit olarak belirlenmiştir. I. Kare(); II. Kare(islem,40); III. Kare(‘+’,40);",
+          "options": {
+            "A": "Yalnızca I",
+            "B": "Yalnızca II",
+            "C": "Ive II",
+            "D": "Yalnızca III",
+            "E": "II ve III"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen programda fonksiyon deklarasyonu kaçıncı satırda yapılmıştır?",
+          "options": {
+            "A": "11",
+            "B": "9",
+            "C": "6",
+            "D": "4",
+            "E": "3"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "void ciz(); şeklinde bir fonksiyon deklarasyonu yapılmıştır. Buna göre, bu deklarasyon dikkate alınarak, yapılacak bir fonksiyon tanımı için aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "Tanımlanacak fonksiyon, çağıran fonksiyona değer döndürebilir.",
+            "B": "Tanımlanacak fonksiyon iki parametre alır",
+            "C": "Tanımlanacak fonksiyon parametre almaz",
+            "D": "Tanımlanacak fonksiyon bir parametre alır",
+            "E": "Tanımlanacak fonksiyon çağırıldığında çalışmaz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 7",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2025/10/27/algoritma-ve-programlamaya-giris-unite-7-guz/",
+      "unit_number": 7,
+      "unit_label": "Ünite 7",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi karşılaştırma temelli olarak çalışan bir sıralama algoritmasıdır?",
+          "options": {
+            "A": "Hızlı sıralama",
+            "B": "Birleştirmeli sıralama",
+            "C": "İkili sıralama",
+            "D": "Kabarcık sıralama",
+            "E": "Lineer sıralama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi kullanılan bir arama algoritmasıdır?",
+          "options": {
+            "A": "Çapraz arama",
+            "B": "İkili arama",
+            "C": "Rassal arama",
+            "D": "Eleman arama",
+            "E": "Karşılaştırmalı arama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İkili arama algoritmasının ön şartı nedir?",
+          "options": {
+            "A": "Dizinin string değerlerden oluşması gerekir.",
+            "B": "Dizide aranan elemanın olması gerekir.",
+            "C": "Herhangi bir ön şartı yoktur.",
+            "D": "Dizinin sıralanmış olması gerekir.",
+            "E": "Dizinin sayısal değerlerden oluşması gerekir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki algoritmalardan hangisinde sıralama yaparken bir pivot eleman seçilir?",
+          "options": {
+            "A": "Lineer sıralama",
+            "B": "Yerleştirmeli sıralama",
+            "C": "Birleştirmeli sıralama",
+            "D": "Hızlı sıralama",
+            "E": "Doğrusal sıralama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki sıralama algoritmaları birbiri ile karşılaştırıldığında hangisi daha hızlıdır?",
+          "options": {
+            "A": "Kabuk sıralama",
+            "B": "Birleştirmeli sıralama",
+            "C": "Seçmeli sıralama",
+            "D": "Kabarcık sıralama",
+            "E": "Yerleştirmeli sıralama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hızlı sıralama algoritması ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Böl ve fethet mantığına göre çalışır.",
+            "B": "Sıralama için dizide bir pivot eleman seçilir.",
+            "C": "Bu algoritmada işlem yapmanın zaman karmaşıklığı O(n log n) ile ifade edilir.",
+            "D": "Özyinelemeli olarak çalışan bir algoritmadır.",
+            "E": "Hepsi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Böl ve fethet algoritmaları ile ilgili hangisi yanlıştır?",
+          "options": {
+            "A": "Problem küçük alt problemlere bölünerek çözülür.",
+            "B": "Genelde özyinelemeli olarak çalışan algoritmalardır.",
+            "C": "Sıralama tek seferde yapılır.",
+            "D": "Bu aileye ait birden fazla algoritma vardır.",
+            "E": "Sıralanan dizi alt dizilere ayrılır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangi algoritmalarda işlem yapmanın zaman karmaşıklığı O(n²) ile ifade edilir?",
+          "options": {
+            "A": "Hızlı sıralama - Kova sıralaması",
+            "B": "Yerleştirmeli sıralama - Kabarcık sıralama",
+            "C": "Hızlı sıralama - Birleştirmeli sıralama",
+            "D": "Yerleştirmeli sıralama - Hızlı sıralama",
+            "E": "Birleştirmeli sıralama - Kabarcık sıralama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yukarıdaki dizide bulunan elemanlar kabarcık sıralama algoritması kullanılarak küçükten büyüğe sıralanmak isteniyor. İlk aşamada, tüm dizi elemanlarının birbiri ile karşılaştırılması sonucu elde edilen sıralama cevap şıklarının hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "2 6 5 3 9",
+            "B": "2 5 6 3 9",
+            "C": "2 5 3 6 9",
+            "D": "2 5 3 9 6",
+            "E": "2 3 5 9 6"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Doğrusal arama algoritması ile bir dizi içerisinde bir eleman aranmaktadır. Bu arama işlemi ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Hedef eleman döngü yardımıyla dizi içinde aranır.",
+            "B": "İşlem yapmanın zaman karmaşıklığı O(n) ile ifade edilir.",
+            "C": "Döngüdeki her bir eleman aranan değer bulunana dek bu değer ile karşılaştırılır.",
+            "D": "Aranan değerin dizide bulunmaması performans açısından olabilecek en kötü durumdur.",
+            "E": "Hedef değeri aramak için iki adet for döngüsü kullanılır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 8",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 9,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2022/09/18/algoritmalar-ve-programlamaya-giris-unite-8/",
+      "unit_number": 8,
+      "unit_label": "Sıralama Ve Arama Algoritmaları",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Elemanları [5, 19, 1, 14, 9] olan dizi üzerinde doğrusal arama yapılarak önce 19 ve daha sonra 14 sayısının bulunup bulunmadığı kontrol edilecektir. Bu aramalar için toplam kaç karşılaştırma işlemi yapılır?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "8",
+            "E": "9"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Elemanları [10, 15, 20, 25, 30, 35, 40] olan dizi üzerinde ikili arama yapılarak önce 22 ve daha sonra 35 sayısının bulunup bulunmadığı kontrol edilecektir. Bu aramalar için toplam kaç karşılaştırma işlemi yapılır?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "I. [13, 16, 18, 27, 55, 80] II. [80, 55, 27, 18, 16, 13] III. [13, 80, 16, 55, 18, 27] Yukarıdaki dizilerden hangisi üzerinde ikili arama algoritması uygulanabilir?",
+          "options": {
+            "A": "Yalnızca I",
+            "B": "Yalnızca II",
+            "C": "Ive II",
+            "D": "II ve III",
+            "E": "I, II, III"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Elemanları [5, 19, 1, 14, 9] olan dizi üzerinde doğrusal arama yapılarak önce 29 ve daha sonra 39 sayısının bulunup bulunmadığı kontrol edilecektir. Bu aramalar için toplam kaç karşılaştırma işlemi yapılır?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "10",
+            "E": "12"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "I. [99, 66, 8, 27, 45, 80] II. [90, 65, 27, 18, 36,33] III. [43, 90, 66, 75, 88, 37] Yukarıdaki dizilerden hangisi üzerinde doğrusal arama algoritması uygulanabilir?",
+          "options": {
+            "A": "Yalnızca I",
+            "B": "Yalnızca II",
+            "C": "Yalnızca III",
+            "D": "Ive I",
+            "E": "I, II ve III"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Dizinin ilk elemanın yerinde bırakılması, dizinin ikinci elemanın seçilmesi, seçilen ikinci elemanın kendinden önceki elemanlarla karşılaştırılması, dizinin büyük elemanlarının sağa kaydırılması, daha sonra dizinin üçüncü sıradaki elemanının seçilmesi ve seçilen elemanın kendinden önce gelen elemanlarla karşılaştırılarak işlemlerin dizi sıralanıncaya kadar sürdürülmesi şeklinde olduğu algoritma aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Seçerek Sıralama Algoritması",
+            "B": "Kabarcık Sırlaması Algoritması",
+            "C": "Yerleştirmeli Sıralama Algoritması",
+            "D": "İkili Arama Algoritması",
+            "E": "Doğrusal Arama Algoritması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Elemanları [5, 19, 1, 14, 9] olan dizi üzerinde doğrusal arama yapılarak önce 14 ve daha sonra 29 sayısının bulunup bulunmadığı kontrol edilecektir. Bu aramalar için toplam kaç karşılaştırma işlemi yapılır?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "6",
+            "D": "9",
+            "E": "10"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Elemanları [3, 9, 11, 4,2] olan bir dizi, seçerek sıralama algoritması ile küçükten büyüğe doğru sıralanmak istenildiğinde, algoritmanın adımları sonrasında elde edilecek diziler aşağıdaki seçeneklerin hangisinde doğru sırayla verilmiştir?",
+          "options": {
+            "A": "[2 3 4 9 11], [2 3 4 11 9], [2 3 11 4 9], [2 9 11 4 3]",
+            "B": "[2 9 11 4 3], [2 3 11 4 9], [2 3 4 11 9], [2 3 4 9 11]",
+            "C": "[2 3 4 9 11], [2 3 11 4 9], [2 3 4 11 9], [2 9 11 4 3]",
+            "D": "[2 9 11 4 3], [2 3 4 11 9], [2 3 4 11 9], [2 3 4 9 11]",
+            "E": "[2 3 4 11 9], [2 9 11 4 3], [2 3 4 11 9], [2 3 11 4 9]"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aranan elemanın dizinin ilk elemanından başlanarak sırayla dizi elemanları ile karşılaştırılması ve aranan elemana eşit dizi elemanı bulunduğunda aramanın sonlandırılması esasına dayanan algoritma aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Seçerek Sıralama Algoritması",
+            "B": "Kabarcık Sırlaması Algoritması",
+            "C": "Yerleştirmeli Sıralama Algoritması",
+            "D": "İkili Arama Algoritması",
+            "E": "Doğrusal Arama Algoritması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 8",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2025/10/27/algoritma-ve-programlamaya-giris-unite-8-guz/",
+      "unit_number": 8,
+      "unit_label": "Ünite 8",
+      "questions": [
+        {
+          "id": 1,
+          "question": "`int yaşHesapla(yıl)` ve `void ehliyet(y)` şeklinde iki alt program tanımlanmıştır. Bu iki alt program arasındaki temel fark nedir?",
+          "options": {
+            "A": "Biri `int` (tamsayı) bir değer döndürür, diğeri `void` (değer döndürmez).",
+            "B": "Biri girdi alır (parametre), diğeri almaz.",
+            "C": "Biri döngü kullanır, diğeri kullanmaz.",
+            "D": "Biri koşul kullanır, diğeri kullanmaz.",
+            "E": "İkisi arasında hiçbir fark yoktur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir dörtgenin “eşkenar” (tüm kenarları eşit) olduğunu anlamak için ‘kenar1’, ‘kenar2’, ‘kenar3’ ve ‘kenar4’ değişkenleri hangi mantıksal operatörle birleştirilmelidir?",
+          "options": {
+            "A": "(kenar1=kenar2) OR (kenar2=kenar3) OR (kenar3=kenar4)",
+            "B": "(kenar1=kenar2) AND (kenar2=kenar3) AND (kenar3=kenar4)",
+            "C": "NOT (kenar1 = kenar2)",
+            "D": "(kenar1 > kenar2) OR (kenar2 > kenar3)",
+            "E": "(kenar1 <> kenar2)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda algoritma parçası, `sayı` `üs` işlemini (üs alma) hangi temel aritmetik işlemi tekrarlayarak yapmaktadır?",
+          "options": {
+            "A": "Toplama",
+            "B": "Çıkarma",
+            "C": "Çarpma",
+            "D": "Bölme",
+            "E": "Mod alma"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki kaba koda göre, `fiyat` değişkenine 7.000.000 değeri girilirse, `vergi` değişkeni nasıl hesaplanır?",
+          "options": {
+            "A": "vergi = fiyat * 0.2",
+            "B": "vergi = fiyat * 0.15",
+            "C": "vergi = fiyat * 0.1",
+            "D": "vergi = fiyat",
+            "E": "vergi = 0"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "`FOR i = 1 TO 50 Step 2` şeklinde tanımlanan bir döngüde, `i` sayacı hangi sırayla artar?",
+          "options": {
+            "A": "1, 2, 3, 4...",
+            "B": "2, 4, 6, 8...",
+            "C": "1, 3, 5, 7...",
+            "D": "50, 49, 48...",
+            "E": "2, 3, 4, 5..."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "`DO WHILE (harf <> “q”)` koşuluna sahip bir döngü, kullanıcının hangi girişi yapması durumunda durur (sonlanır)?",
+          "options": {
+            "A": "\"q\"",
+            "B": "\"p\"",
+            "C": "\"devam\"",
+            "D": "\"Hayır\"",
+            "E": "Herhangi bir harf"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdaki kaba koda göre, `mesai_saati` değişkenine 40 değeri girilirse, `fazla_mesai` değişkeninin değeri kaç olur?",
+          "options": {
+            "A": "40",
+            "B": "250",
+            "C": "0",
+            "D": "8000",
+            "E": "1"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukarıdaki kaba kod parçası hangi matematiksel işlemi gerçekleştirmektedir?",
+          "options": {
+            "A": "Dizideki en büyük sayıyı bulma",
+            "B": "Dizinin aritmetik ortalamasını bulma",
+            "C": "Dizideki elemanları sıralama",
+            "D": "Dizideki eleman sayısını (n) bulma",
+            "E": "Dizinin medyanını bulma"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir “Sayı Tahmin Oyunu” algoritmasında, bilgisayarın 1 ile 100 arasında rastgele bir sayı tutması için hangi fonksiyon kullanılır?",
+          "options": {
+            "A": "`OKU()`",
+            "B": "`YAZ()`",
+            "C": "`rnd()`",
+            "D": "`int()`",
+            "E": "`IF()`"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir sayının basamak sayısını bulmak için o sayıyı tekrar tekrar hangi sayıya bölmek ve tamsayı kısmını almak gerekir?",
+          "options": {
+            "A": "2",
+            "B": "5",
+            "C": "10",
+            "D": "100",
+            "E": "Sayının kendisine"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 9",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 9",
+      "exam_type": "unite",
+      "year": "9",
+      "question_count": 9,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-9",
+      "source_url": "https://lolonolo.com/2022/09/18/algoritmalar-ve-programlamaya-giris-unite-9/",
+      "unit_number": 9,
+      "unit_label": "Yapılar (structures)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verilen programda sizeof() fonksiyonu kullanılarak yapı değişkeninin bellekte kapladığı alan Byte olarak ekrana yazdırılmıştır. Yapı değişkeninin bellekte kapladığı alan aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "4",
+            "B": "8",
+            "C": "16",
+            "D": "24",
+            "E": "32"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir yapı tanımı için aşağıdakilerden hangisi hatalı olarak yazılmıştır?",
+          "options": {
+            "A": "Yapı tanımına struct anahtar kelimesi ile başlanır.",
+            "B": "Yapı tanımında struct anahtar kelimesinden sonra yapının ismi gelir.",
+            "C": "Yapı tanımında struct anahtar kelimesinden sonra yapı değişkeninin ismi gelir.",
+            "D": "Bir yapı tanımlanırken yapı elemanlarının tanımlandığı satırlar noktalı virgül ile biter.",
+            "E": "Bir yapıda yer alan yapı elemanları temel veri tiplerinden herhangi birinin tipinde olabilir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İfadesi bir C++ programında yapı değişkeninin üyesine klavyeden değer girilmesi için yazılmıştır. İfadenin doğru olması için sırası ile kare ve daire içerisine ne yazılmalıdır?",
+          "options": {
+            "A": "Görsel şık A",
+            "B": "Görsel şık B",
+            "C": "Görsel şık C",
+            "D": "Görsel şık D",
+            "E": "Görsel şık E"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3.png",
+          "image_file": "WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3.png",
+          "image_path": "resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3.png",
+          "source_image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3.png",
+          "option_image_paths": {
+            "A": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3_A.png",
+            "B": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3_B.png",
+            "C": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3_C.png",
+            "D": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3_D.png",
+            "E": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__ALGORITMA_VE_PROGRAMLAMAYA_GIRIS_UNITE_9_SORU_3_E.png"
+          }
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki seçeneklerdeki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Yapılar farklı türdeki verileri bir isim altında temsil edebilir.",
+            "B": "Yapılar aynı türdeki verileri bir isim altında temsil edebilir.",
+            "C": "Yapı değişkenlerinde tek bir veri tutabileceği gibi birden fazla veri de tutabilir.",
+            "D": "Yapı değişkenlerinin elemanları, dizi elemanlarında olduğu gibi, bellekte sıralı şekilde durmaktadır.",
+            "E": "Bir yapı tanımlandığında bellekte bu yapı için yer ayrılır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir C++ programında yukarıda gösterildiği gibi prs isimli bir yapı tanımlanmıştır ve program gövdesinde prs p[3]; ifadesi ile bir yapı değişkeni tanımlanmıştır. Bu yapı değişkeni için bilgisayar belleğinde kaç Byte ’lık yer ayrılır?",
+          "options": {
+            "A": "120",
+            "B": "10",
+            "C": "80",
+            "D": "40",
+            "E": "12"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Tanımlanmış bir yapı içerisinde ikinci bir yapı tanımlanmış ise, bu iç içe yapı ile tanımlanmış yapı değişkenlerinin üyelerine kaç adet nokta operatörü kullanılarak ulaşılabilir?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıda verilen C++ programında bir yapı tanımlanmış ve yapı tanımlanırken bir satırda yazılım (syntax) hatası yapılmıştır. Hatalı satır aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "3. Satır",
+            "B": "5. Satır",
+            "C": "7. Satır",
+            "D": "9. Satır",
+            "E": "11. Satır"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir yapı için aşağıdakilerden hangisi hatalı olarak yazılmıştır?",
+          "options": {
+            "A": "Yapılar birbirleri ile ilgili değişkenlerin tek isim altında toplanmasını sağlar",
+            "B": "Yapı tanımında bildirilen değişkenlere yapının üyeleri(elemanları) denir.",
+            "C": "Yapılarda üye tanımlaması sırasında sadece bir veri tipi kullanılabilir.",
+            "D": "Farklı yapıların üye isimleri aynı olabilir.",
+            "E": "Yapılarda üye tanımlaması sırasında farklı veri tipleri kullanılabilir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "C++ programlarında Yapı değişkeni program gövdesinin haricinde nerede tanımlanabilir?",
+          "options": {
+            "A": "Başka herhangi bir yerde tanımlanamaz.",
+            "B": "Programın ilk satırından son satırına kadar her yerde tanımlanabilir.",
+            "C": "C++ programlarında main içerisinde tanımlanabilir.",
+            "D": "Yapı tanımının yapıldığı noktada kapanan küme parantezinden sonra ve virgülden önce tanımlanabilir.",
+            "E": "include satırından önce tanımlanabilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 10",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 10",
+      "exam_type": "unite",
+      "year": "10",
+      "question_count": 9,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-10",
+      "source_url": "https://lolonolo.com/2022/10/28/algoritmalar-ve-programlamaya-giris-unite-10/",
+      "unit_number": 10,
+      "unit_label": "İşaretçiler (poınters)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıda verlen programın ekran çıktısı çn aşağıdaklerden hangs söyleneblr?",
+          "options": {
+            "A": "Ekrana yalnızca s1 değşkennn değer (5) yazdırılır.",
+            "B": "Ekrana yalnızca s2 değşkennn değer (7) yazdırılır.",
+            "C": "Ekrana s1 ve s2 değşkenlernn değerler yazdırılır.",
+            "D": "Ekrana s1 ve s2 değşkenlernn adresler yazdırılır.",
+            "E": "Ekrana *sr şaretçsnn adres yazdırılır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bellek adreslernn değerlern tutan değşkenlere şaretç değşken denr. İşaretç değşkenlern tpler çn aşağıdaklerden hangs doğrudur?",
+          "options": {
+            "A": "Bütün şaretç değşkenler tamsayı (nt) tpndedr.",
+            "B": "Bütün şaretç değşkenler karakter(char) tpndedr.",
+            "C": "Bütün şaretç değşkenler gerçek sayı(float) tpndedr.",
+            "D": "Bütün şaretç değşkenlern tpler strng olarak tanımlanır.",
+            "E": "İşaretç değşkenlern tpler genellkle adreslern tutacakları değşkenn tpyle aynı olur."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bellekte br byte ’tan fazla yer alan değşkenlern adres çn aşağıdaklerden hangs söyleneblr?",
+          "options": {
+            "A": "Bu değşkenlern adres bellekte kapladıkları alanın son Byte’ nın adresdr.",
+            "B": "Bu değşkenlern adres bellekte kapladıkları alanın lk Byte’ nın adresdr.",
+            "C": "Bu değşkenlern adres bellekte kapladıkları alanın knc Byte’ nın adresdr.",
+            "D": "Bu değşkenlern adres bellekte kapladıkları alanın ortasındak Byte’ ın adresdr.",
+            "E": "Bu değşkenlern adres Bellekte kapladıkların alanların adreslernn toplamı le fade edlr."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Adres operatörü çn aşağıdaklerden hangs doğru değldr?",
+          "options": {
+            "A": "Sabtlern bellekte hang adreslere yerleştklern öğrenmek çn kullanılablr.",
+            "B": "Değşkenlern bellekte hang adrese yerleştklern öğrenmek çn kullanılablr.",
+            "C": "C++ programlama dlnde adres operatörü & şaret le temsl edlr.",
+            "D": "Tamsayı tpnde(nt) say sml br değşkenmz varsa bu değşkenn adresn blgsayar ekranında göstermek çn cout<<&say; yazmak yeterldr.",
+            "E": "Adres operatörü kullanılarak değşkenn değer yazdırılır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda verlen fonksyon kendsne gelen karakter dzsn ve dznn eleman sayısını parametre olarak almaktadır. Fonksyon aşağıdak şlemlerden gerçekleştrmektedr?",
+          "options": {
+            "A": "Dz elemanlarına sayısal değer ekler.",
+            "B": "Bu fonksyonun kodunda yapılan syntax hatasından dolayı program çalışmaz.",
+            "C": "Dz elemanlarının tamamı büyük harfe çevrlr.",
+            "D": "Dz elemanlarının tamamı küçük harfe çevrlr.",
+            "E": "Program çalışır, dz elemanları üzernde herhang br şlem yapmaz."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıda verlen C++ programında şaretç değşkenler kaçıncı satırda tanımlanmıştır?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yukarıdak programın ekran çıktısı aşağıdaklerden hangsdr?",
+          "options": {
+            "A": "Dzn elemanlarının tamamı ekrana yazdırılır.",
+            "B": "12",
+            "C": "4",
+            "D": "7",
+            "E": "19"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "İşaretç değşkenler tanımlanırken değşkenn başına hang şaret konulur?",
+          "options": {
+            "A": "# İşaret",
+            "B": "& İşaret",
+            "C": "* İşaret",
+            "D": "? İşaret",
+            "E": "Herhang br şaret konulmaz."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Tanımlanan br şaretçnn herhang br ver tpne şaret edeblmes çn tpnn ne olması gerekr?",
+          "options": {
+            "A": "nt",
+            "B": "vod",
+            "C": "double",
+            "D": "char",
+            "E": "float"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 11",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 11",
+      "exam_type": "unite",
+      "year": "11",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-11",
+      "source_url": "https://lolonolo.com/2022/10/28/algoritmalar-ve-programlamaya-giris-unite-11/",
+      "unit_number": 11,
+      "unit_label": "C++ Kullanılan Hazır Fonksiyonlar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdak fonksyonlardan hangs kendsne parametre olarak gönderlen sayının mutlak değern alır?",
+          "options": {
+            "A": "cel()",
+            "B": "floor()",
+            "C": "sqrt()",
+            "D": "pow()",
+            "E": "fabs()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kendsne parametre olarak gönderlen sayıyı alıp, kendsnden küçük lk tamsayıyı ger döndüren fonksyon aşağıdaklerden hangsdr?",
+          "options": {
+            "A": "cel()",
+            "B": "floor()",
+            "C": "sqrt()",
+            "D": "pow()",
+            "E": "fabs()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdak fonksyonlardan hangs aldığı parametre harf se sıfırdan farklı br değer, aldığı parametre harf değlse sıfır değer döndürür?",
+          "options": {
+            "A": "sdgt()",
+            "B": "salnum()",
+            "C": "sprnt()",
+            "D": "salpha()",
+            "E": "sspace()"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdak fonksyonlardan hangs parametre olarak aldığı karakter büyük harfe çevrr?",
+          "options": {
+            "A": "toupper()",
+            "B": "tolower()",
+            "C": "floor()",
+            "D": "cel()",
+            "E": "sdgt()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "C++’ta strng fonksyonları kullanablmek çn aşağıdak kütüphanelerden hangs programa eklenmeldr?",
+          "options": {
+            "A": "locale.h",
+            "B": "cono.h",
+            "C": "ostream",
+            "D": "cmath",
+            "E": "cstrng"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdak fonksyonlardan hangs kendsne parametre olarak gönderlen k strng’ten, knc sırada gönderlen strng’n brnc sırada gönderlen strng’e eklenmesn sağlar?",
+          "options": {
+            "A": "strcpy()",
+            "B": "strncpy()",
+            "C": "strcat()",
+            "D": "strcmp()",
+            "E": "strchr()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Kendsne parametre olarak gönderlen sayının karekökünü döndüren fonksyon aşağıdaklerden hangsdr?",
+          "options": {
+            "A": "sqrt()",
+            "B": "max()",
+            "C": "floor()",
+            "D": "pow()",
+            "E": "cel()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdak fonksyonlardan hangs parametre olarak aldığı karakter küçük harfe çevrr?",
+          "options": {
+            "A": "toupper()",
+            "B": "tolower()",
+            "C": "floor()",
+            "D": "cel()",
+            "E": "sdgt()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdak fonksyonlardan hangs aldığı parametre yazılablr br karakter se sıfırdan farklı br değer, aldığı parametre yazılablr br karakter değl se sıfır döndürür?",
+          "options": {
+            "A": "sdgt()",
+            "B": "salnum()",
+            "C": "sprnt()",
+            "D": "salpha()",
+            "E": "sspace()"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "C++’ta matematksel fonksyonları kullanablmek çn aşağıdak kütüphanelerden hangs eklenmeldr?",
+          "options": {
+            "A": "locale.h",
+            "B": "cono.h",
+            "C": "ostream",
+            "D": "cmath",
+            "E": "cstrng"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 12",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 12",
+      "exam_type": "unite",
+      "year": "12",
+      "question_count": 10,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-12",
+      "source_url": "https://lolonolo.com/2022/10/29/algoritmalar-ve-programlamaya-giris-unite-12/",
+      "unit_number": 12,
+      "unit_label": "Sınıf Ve Nesneler",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Nesneye Yönelk programlamada sınıfa at nesne le yne o sınıfa at üye fonksyonu çağırmak çn nesne le üye fonksyon aşağıda verlenlerden hangs le lşklendrlr?",
+          "options": {
+            "A": ": (k nokta üst üste)",
+            "B": ". (nokta)",
+            "C": "! (Ünlem)",
+            "D": "? (Soru İşaret)",
+            "E": "= (Atama Operatörü)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "“Temel Br sınıan yen br sınıf oluşturma şlem” nesneye yönelk programlama yaklaşımının hang temel özellğdr?",
+          "options": {
+            "A": "Soyutlama",
+            "B": "Çok Bçmllk",
+            "C": "Yapılar",
+            "D": "Kalıtım",
+            "E": "Paketleme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "“Oluşturulan nesnelern gerektğnde başka br nesne gb davranablme özellğ” nesneye yönelk programlama yaklaşımının hang temel özellğn açıklar?",
+          "options": {
+            "A": "Soyutlama",
+            "B": "Çok Bçmllk",
+            "C": "Yapılar",
+            "D": "Kalıtım",
+            "E": "Paketleme"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "C++’ta nesnenn otomatk olarak lk kullanıma hazırlanması şlem aşağıda verlen fonksyonlardan hangs le yapılır?",
+          "options": {
+            "A": "protected fonksyonla",
+            "B": "publc fonksyonla",
+            "C": "prvate fonksyonla",
+            "D": "yıkıcı fonksyonla",
+            "E": "kurucu fonksyonla"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Nesneye Yönelk programlama teknğ le gelştrlmş br programda Kare sml br sınıf ve bu sınıfa at Kare1 sml br nesne tanımlanmıştır. Kare sınıfında, karenn çevresn hesaplayıp ekrana yazdıran Cevre() sml br üye fonksyon da vardır. Aşağıdak şıklardan hangsnde karenn çevresn hesaplayıp sonucu ekrana yazdırmak çn yapılan fonksyon çağrısı doğru olarak verlmştr? Not: Karenin kenar uzunluğun sınıa tanımlı olan başka bir üye fonksiyon tarafından daha önce atandığını varsayarak soruyu cevaplandırınız.",
+          "options": {
+            "A": "Kare.Kare1;",
+            "B": "Kare kare1;",
+            "C": "Kare.Cevre();",
+            "D": "Kare1.Cevre();",
+            "E": "Cevre().Kare1;"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaklerden hangs nesneye yönelk programlamada sınıf oluşturulurken o sınıfa at nesnelern özellklern ve şlevlern dğer nesnelerden korumak çn kullanılan br tanımlama şekldr?",
+          "options": {
+            "A": "prvate (özel) tanımlayarak",
+            "B": "global olarak tanımlayarak",
+            "C": "yerel olarak tanımlayarak",
+            "D": "statc olarak tanımlayarak",
+            "E": "statc yerel tanımlayarak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaklerden hangs nesneye yönelk programlama yaklaşımını temel özellklernden br değldr?",
+          "options": {
+            "A": "Soyutlama",
+            "B": "Çok Bçmllk",
+            "C": "Yapılar",
+            "D": "Kalıtım",
+            "E": "Paketleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "“Verler ve bu verler üzernde çalışan şlevler aynı sm altında tanımlamak” nesneye yönelk programlama yaklaşımının hang temel özellğdr?",
+          "options": {
+            "A": "Soyutlama",
+            "B": "Çok Bçmllk",
+            "C": "Yapılar",
+            "D": "Kalıtım",
+            "E": "Paketleme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıda verlenlerden hangs kurucu fonksyon özellklernden değldr?",
+          "options": {
+            "A": "Sınıfa at nesne oluşturulduğunda kurucu fonksyon otomatk olarak çağırılır.",
+            "B": "Kurucu fonksyonlar üyes olduğu sınıfla aynı sme sahp olamaz.",
+            "C": "Kurucu fonksyonlar değer döndürmez.",
+            "D": "Kurucu fonksyonlar nesne oluşturulduğunda sadece br kez çalıştırılır.",
+            "E": "Br sınıfa at kurucu fonksyon tanımlanmaz se derleyc tarafından otomatk olarak oluşturulur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Nesneye yönelk programlamada sınıflarda yıkıcı fonksyon tanımlanırken fonksyonun önüne hang şaret konulur?",
+          "options": {
+            "A": "~ (Tlda şaret)",
+            "B": "- (Tre İşaret)",
+            "C": "? (Soru İşaret)",
+            "D": "! (Ünlem İşaret)",
+            "E": "% (Yüzde şaret)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 13",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 13",
+      "exam_type": "unite",
+      "year": "13",
+      "question_count": 5,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-13",
+      "source_url": "https://lolonolo.com/2022/10/29/algoritmalar-ve-programlamaya-giris-unite-13/",
+      "unit_number": 13,
+      "unit_label": "Kalıtım",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kalıtımda mras yoluyla özellkler ve şlevler alınan sınıfa verlen ad aşağıdaklerden hangsdr?",
+          "options": {
+            "A": "Türetlmş Sınıf",
+            "B": "Üye Değşken",
+            "C": "Sub sınıf",
+            "D": "Temel sınıf",
+            "E": "Üye fonksyon"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıda verlen kalıtım şeması aşağıdak kalıtım türlernden hangsne attr?",
+          "options": {
+            "A": "Hyerarşk kalıtım",
+            "B": "Hbrt kalıtım",
+            "C": "Çok sevyel kalıtım",
+            "D": "Çoklu Kalıtım",
+            "E": "Tekl kalıtım"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "C++ ‘ta temel sınıan türetlmş sınıf oluşturmak çn yazılan söz dzm aşağıdaklerden hangs le başlar?",
+          "options": {
+            "A": "Temel sınıfın sm",
+            "B": "Türetlecek sınıfın sm",
+            "C": "Erşm Belrtec",
+            "D": "İk nokta üst üste şaret",
+            "E": "class bldrm"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Br temel sınıan kalıtım yoluyla türetlen sınıfa at nesnelerle, temel sınıfın hang üyelerne erşlemez?",
+          "options": {
+            "A": "prvate üyelerne",
+            "B": "publc üyelerne",
+            "C": "protected üyelerne",
+            "D": "Temel sınıfın hçbr üyesne erşlemez.",
+            "E": "Temel sınıfın üyelernn tamamına erşleblr."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Class C: publc A, publc B { }; şeklnde verlen söz dzm aşağıda verlen kalıtım türlernden hangsne attr?",
+          "options": {
+            "A": "Hyerarşk kalıtım",
+            "B": "Hbrt kalıtım",
+            "C": "Çok sevyel kalıtım",
+            "D": "Çoklu Kalıtım",
+            "E": "Tekl kalıtım"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Algoritma ve Programlamaya Giriş Unite 14",
+      "exam_title": "Algoritma ve Programlamaya Giriş Unite 14",
+      "exam_type": "unite",
+      "year": "14",
+      "question_count": 5,
+      "file_name": "Algoritma_ve_Programlamaya_Giris_Unite_Sorulari.json#unite-14",
+      "source_url": "https://lolonolo.com/2022/10/29/algoritmalar-ve-programlamaya-giris-unite-14/",
+      "unit_number": 14,
+      "unit_label": "Dosyalar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "C++’ta aşağıda verlen dosya açma modlarından hangs le dosyalar, ekleme modunda açılır?",
+          "options": {
+            "A": "n",
+            "B": "app",
+            "C": "out",
+            "D": "ate",
+            "E": "nocreate"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "C++ ‘ta aşağıdak sınıflardan hangs le oluşturulan nesneler kullanılarak sıralı erşml dosyadan okuma yapılablr?",
+          "options": {
+            "A": "ostream",
+            "B": "fstream",
+            "C": "ostrgstream",
+            "D": "ofstream",
+            "E": "ostream"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "C++’ta aşağıda verlen dosya açma modlarından hangs le dosyalar, okuma modunda açılır?",
+          "options": {
+            "A": "İn",
+            "B": "app",
+            "C": "out",
+            "D": "ate",
+            "E": "nocreate"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "C++’ta aşağıdak sınıflardan hangs le oluşturulan nesneler kullanılarak sıralı erşml dosya oluşturulablr?",
+          "options": {
+            "A": "stream",
+            "B": "fstream",
+            "C": "strgstream",
+            "D": "ofstream",
+            "E": "ostream"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "C++’ta aşağıdak sınıflardan hangs le oluşturulan nesneler kullanılarak sıralı erşml dosyalara ver ekleneblr?",
+          "options": {
+            "A": "stream",
+            "B": "fstream",
+            "C": "strgstream",
+            "D": "ofstream",
+            "E": "ostream"
+          },
+          "correct_answer": "D",
           "explanation": "",
           "image_url": "",
           "image_file": "",

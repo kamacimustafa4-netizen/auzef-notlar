@@ -1,7 +1,7 @@
 {
   "course": "Ofis Uygulamalari",
   "lesson_code": "OFIS_UYGULAMALARI",
-  "exam_count": 7,
+  "exam_count": 15,
   "exams": [
     {
       "title": "Ofis Uygulamalari 2025 Vize",
@@ -2163,6 +2163,1426 @@
             "E": "İki nokta üst üste (:)"
           },
           "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ofis Uygulamaları Unite 1",
+      "exam_title": "Ofis Uygulamaları Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Ofis_Uygulamalari_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2024/06/17/ofis-uygulamalari-unite-1/",
+      "unit_number": 1,
+      "unit_label": "1. Word Uygulamasına Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Word Uygulamasının Durum Çubuğunda aşağıdakilerden hangisi bulunmaz?",
+          "options": {
+            "A": "Bölüm numarası",
+            "B": "Sayfa numarası",
+            "C": "Toplam Sayfa Sayısı",
+            "D": "Belge yazdırma seçenekleri",
+            "E": "Belgedeki toplam sözcük sayısı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Sütunlarla ilgili olarak aşağıda verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Metni tablo gibi bölümlendirerek yazmak için kullanılır.",
+            "B": "Metni dikey olarak bölerken araya çizgi konulabilir.",
+            "C": "Sütun genişlikleri elle ayarlanabilir.",
+            "D": "Metin üçten daha fazla sütuna bölünemez.",
+            "E": "Sadece metnin bir bölümü sütun şeklinde düzenlenebilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Metin taşıma işlemleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Metin kesmenin kısayol tuşu Ctrl+X’dir.",
+            "B": "Bir metnin taşıma işlemi gerçekleştirilirken biçimlendirme özellikleri korunmaz.",
+            "C": "Seçili bir metin farenin sağ tuşu ile sürüklenerek taşınabilir.",
+            "D": "Seçili metnin sürükleme işlemi yapılırken Ctrl tuşuna basıldığında metnin kopyası oluşturulabilir.",
+            "E": "Seçili metni başka bir yere yapıştırırken Ctrl+Vkısayolu kullanılabilir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi Word uygulamasında bir belgeyi kaydetmenin yollarından biri değildir?",
+          "options": {
+            "A": "Dosya menüsünden “Kaydet”e tıklanır.",
+            "B": "Giriş menüsünden “Kaydet”e tıklanır.",
+            "C": "Dosya menüsünden “Farklı Kaydet”e tıklanır.",
+            "D": "Hızlı araç çubuğu üzerinden (Kaydet işareti) butonuna tıklanır.",
+            "E": "Ctrl+Skısayol tuşuna basılır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Word belgesinde arama yapmanın kısayol tuşu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ctrl+X",
+            "B": "Ctrl+F",
+            "C": "Alt+F",
+            "D": "Alt+G",
+            "E": "Ctrl+A"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Word belgesinin uzantısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": ".docx",
+            "B": ".ppt",
+            "C": ".xlsx",
+            "D": ".pdf",
+            "E": ".rar"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir belgede dikey sayfalar arasına yatay bir sayfa eklemek istediğinizde aşağıdakilerden hangisini kullanmanız gerekmektedir?",
+          "options": {
+            "A": "Kesme",
+            "B": "Sütun",
+            "C": "Madde işareti",
+            "D": "Tablo",
+            "E": "Kenarlık"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "CTRL+Home tuşunun görevi nedir?",
+          "options": {
+            "A": "İmleç bir ekran uzunluğu kadar yukarı gider.",
+            "B": "İmleç bir ekran uzunluğu kadar aşağı gider.",
+            "C": "İmleç satır başına gider.",
+            "D": "İmleç belgenin en üst satırına gider.",
+            "E": "İmleç belgede bir önceki sayfaya gider."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Word uygulamasının entegre çalıştığı bulut depolama hizmeti aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Dropbox",
+            "B": "Google Drive",
+            "C": "OneDrive",
+            "D": "Adobe Cloud",
+            "E": "Yandex Drive"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi kelime işlemci programlarından biri değildir?",
+          "options": {
+            "A": "Google Docs",
+            "B": "Apple iWork-Pages",
+            "C": "Calligra",
+            "D": "LibreOffice Writer",
+            "E": "Dropbox"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ofis Uygulamaları Unite 2",
+      "exam_title": "Ofis Uygulamaları Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Ofis_Uygulamalari_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2024/06/17/ofis-uygulamalari-unite-2/",
+      "unit_number": 2,
+      "unit_label": "2. Word Uygulamasında Metin İşlemleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Karakter biçimlendirmesinde aşağıdakilerden hangisi bulunmaz?",
+          "options": {
+            "A": "Yazı tipi",
+            "B": "Yazı boyutu",
+            "C": "Yazı rengi",
+            "D": "Vurgu",
+            "E": "Hizalama"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Klavyede sekme oluşturma tuşu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Alt",
+            "B": "Alt Gr",
+            "C": "Shift",
+            "D": "Tab",
+            "E": "Space"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Word uygulamasında yukarıdaki tuşun görevi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Metni temizle",
+            "B": "Biçimlendirmeyi temizle",
+            "C": "Çerçeve oluşturma",
+            "D": "Metni girintileme",
+            "E": "Yazı tipini değiştirme"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Belgenin tümünde veya belli bir bölümünde uygulanan belirli bir biçimlendirme ayarları topluluğuna ne denir?",
+          "options": {
+            "A": "Stil",
+            "B": "Sekme",
+            "C": "Paragraf",
+            "D": "Biçimlendirme",
+            "E": "Pano"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Word uygulamasında paragraf biçimlendirmesinde aşağıdakilerden hangisi bulunmaz?",
+          "options": {
+            "A": "Hizalama",
+            "B": "Satır aralığı",
+            "C": "Girinti oluşturma",
+            "D": "Metni çerçeveleme",
+            "E": "Yazı tipi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Word uygulamasında kaç çeşit sekme türü vardır?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Dikey bir çizgi oluşturan sekme türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Sol",
+            "B": "Sağ",
+            "C": "Ortala",
+            "D": "Çubuk",
+            "E": "Ondalık"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Word uygulamasında yukarıdaki butonunun işlevi nedir?",
+          "options": {
+            "A": "Girinti ayarlama",
+            "B": "Numaralandırma",
+            "C": "Satır aralığı ayarlama",
+            "D": "Metni kaydırma",
+            "E": "Paragraf oluşturma"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Metni yatay olarak hizalamak için kullanılan yapılara ne denir?",
+          "options": {
+            "A": "Sekme",
+            "B": "Girinti",
+            "C": "Stil",
+            "D": "Font",
+            "E": "Cilt payı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Word uygulamasında biçimsel özellikleri gösterip/gizleme tuşu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Görsel şık A",
+            "B": "Görsel şık B",
+            "C": "Görsel şık C",
+            "D": "Görsel şık D",
+            "E": "Görsel şık E"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10.png",
+          "image_file": "WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10.png",
+          "image_path": "resim-sorular/WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10.png",
+          "source_image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10.png",
+          "option_image_paths": {
+            "A": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10_A.png",
+            "B": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10_B.png",
+            "C": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10_C.png",
+            "D": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10_D.png",
+            "E": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_TASARIMI_VE_KODLAMA__OFIS_UYGULAMALARI_UNITE_2_SORU_10_E.png"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ofis Uygulamaları Unite 3",
+      "exam_title": "Ofis Uygulamaları Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Ofis_Uygulamalari_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2024/06/17/ofis-uygulamalari-unite-3/",
+      "unit_number": 3,
+      "unit_label": "3. Word Uygulamasında İçerik Zenginleştirme",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Word uygulamasında Yukarıda resimdeki buton ne işe yarar?",
+          "options": {
+            "A": "Resim ekleme",
+            "B": "SmartArt ekleme",
+            "C": "Grafik ekleme",
+            "D": "Şekil ekleme",
+            "E": "Metin kutusu ekleme"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Tabloda satırda bir önceki sütuna gitmek için kullanılan tuş kombinasyonu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Shift+Tab",
+            "B": "Alt+Tab",
+            "C": "Alt+Home",
+            "D": "Shift+Home",
+            "E": "Alt+Page Up"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi Word uygulamasında kullanılan resim efektlerinden biri değildir?",
+          "options": {
+            "A": "Gölge",
+            "B": "Yansıma",
+            "C": "Parlama",
+            "D": "Çarpıtma",
+            "E": "Eğim"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Word uygulamasında yukarıdaki buton ne işe yarar?",
+          "options": {
+            "A": "Belgenin belli bölümlerini seçmeye",
+            "B": "Grafik oluşturmaya",
+            "C": "Kalemle çizim yapmaya",
+            "D": "Şekil silmeye",
+            "E": "Resimde kaldırılacak olan alanı seçmeye"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Başlangıç ve bitişi olmayan dairesel ilerleyen bir iş akışını göstermek için kullanılan diyagram türü aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Liste",
+            "B": "Döngü",
+            "C": "Hiyerarşi",
+            "D": "Matris",
+            "E": "İşlem"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi grafik öğelerinden biri değildir?",
+          "options": {
+            "A": "Eksenler",
+            "B": "Grafik başlığı",
+            "C": "Veri etiketleri",
+            "D": "Kılavuz çizgileri",
+            "E": "X Y (Dağılım)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Metnin nesnenin içinden geçiyor ve içindeki boşlukları dolduruyor gibi göründüğü resim hizalama seçeneği aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Boyunca",
+            "B": "Metinle Aynı Hizaya",
+            "C": "Kare",
+            "D": "Sıkı",
+            "E": "Üst ve Alt"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Word uygulamasında yandaki butonun işlevi nedir?",
+          "options": {
+            "A": "Denklem ekleme",
+            "B": "Resim ekleme",
+            "C": "Sembol ekleme",
+            "D": "Simge ekleme",
+            "E": "Şekil ekleme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi Word uygulamasındaki grafik türlerinden biri değildir?",
+          "options": {
+            "A": "Sütun",
+            "B": "Çizgi",
+            "C": "Döngü",
+            "D": "Hiyerarşi",
+            "E": "Pasta"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi Word uygulamasındaki SmartArt türlerinden biridir?",
+          "options": {
+            "A": "Çizgi",
+            "B": "Sütun",
+            "C": "Birleşik",
+            "D": "İlişki",
+            "E": "Şelale"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ofis Uygulamaları Unite 4",
+      "exam_title": "Ofis Uygulamaları Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Ofis_Uygulamalari_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2024/06/17/ofis-uygulamalari-unite-4/",
+      "unit_number": 4,
+      "unit_label": "4. Powerpoınt Uygulamasına Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "PowerPoint’te yukarıdaki tuşun işlevi nedir?",
+          "options": {
+            "A": "Animasyon ekleme",
+            "B": "Slayt geçişi ekleme",
+            "C": "Eylem ekleme",
+            "D": "Şekil ekleme",
+            "E": "Vurgu ekleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi sunum araçlarından biri değildir?",
+          "options": {
+            "A": "PowerPoint",
+            "B": "Prezi",
+            "C": "Google Slides",
+            "D": "KeyNotes",
+            "E": "Acrobat Reader"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "PowerPoint’te sunum yaparken slaytlar arasında geçişlerinizi hızlandırmak, farklı ortamlara, uygulamalara erişmek için kullanılan yapılara ne denir?",
+          "options": {
+            "A": "Animasyon",
+            "B": "SmartArt",
+            "C": "Bağlantı",
+            "D": "Efekt",
+            "E": "Eklenti"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "PowerPoint sunumlarında, bir slaydın tasarımını nasıl değiştirebilirsiniz?",
+          "options": {
+            "A": "Tasarım sekmesindeki şablon galerisi alanından arasından seçerek",
+            "B": "Animasyon sekmesindeki farklı geçiş seçenekleri arasından seçerek",
+            "C": "Insert sekmesindeki farklı tasarım şablonları arasından seçerek",
+            "D": "Format sekmesindeki farklı yazı tipi ve renk seçenekleri arasından seçerek",
+            "E": "Tasarım sekmesindeki stiller arasından seçerek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "PowerPoint slayt gösteri dosyalarının uzantısı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": ".ppsx",
+            "B": ".pptx",
+            "C": ".pptm",
+            "D": ".pot",
+            "E": ".odp"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "PowerPoint’te sunum içeriğini zenginleştirmek için aşağıdakilerden hangisi “Ekle” sekmesinden eklenemez?",
+          "options": {
+            "A": "Resim",
+            "B": "Grafik",
+            "C": "SmartArt",
+            "D": "Makro",
+            "E": "Video"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "PowerPoint’teki içerik ekleme alanına ne denir?",
+          "options": {
+            "A": "Sayfa",
+            "B": "Slayt",
+            "C": "Belge",
+            "D": "Kitap",
+            "E": "Tablo"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Eylem düğmelerini kullanarak aşağıdakilerden hangisini yapamazsınız?",
+          "options": {
+            "A": "Son Slayta gitmek",
+            "B": "Ses çalmak",
+            "C": "İnternete bağlanmak",
+            "D": "Bir Word belgesine yönlendirmek",
+            "E": "Sunumu bitirmek"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yeni slayt eklemenin kısayol tuşu aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Ctrl+Y",
+            "B": "Ctrl+M",
+            "C": "Ctrl+N",
+            "D": "Alt+M",
+            "E": "Alt+N"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "PowerPoint “Giriş” sekmesinden aşağıdakilerden hangisi yapılamaz?",
+          "options": {
+            "A": "Yazı tipi ayarlama",
+            "B": "Yazı boyutu ayarlama",
+            "C": "Slayt düzenini ayarlama",
+            "D": "Yeni slayt ekleme",
+            "E": "Grafik ekleme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ofis Uygulamaları Unite 5",
+      "exam_title": "Ofis Uygulamaları Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 8,
+      "file_name": "Ofis_Uygulamalari_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2024/06/17/ofis-uygulamalari-unite-5/",
+      "unit_number": 5,
+      "unit_label": "5. Powerpoınt Sunumlarını Canlandırma",
+      "questions": [
+        {
+          "id": 1,
+          "question": "“Geçişler” sekmesinde yer alan yukarıdaki butonun görevi nedir?",
+          "options": {
+            "A": "Saniye cinsinden slaytın geçiş süresini belirler.",
+            "B": "Dakika cinsinden slaytın geçiş süresini belirler.",
+            "C": "Saniye cinsinden animasyonun geçiş süresini belirler.",
+            "D": "Saniye cinsinden belirtilen süre sonunda sonraki slayda gider.",
+            "E": "Dakika cinsinden belirtilen süre sonunda sonraki slayda gider."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "PowerPoint’te animasyonlarla ilgili olarak verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Bir nesneye birden fazla animasyon eklenebilir.",
+            "B": "Ekrandaki bir nesneye dikkat çekmek için vurgu animasyonlarından yararlanılır.",
+            "C": "Bir eylem düğmesine tıklayarak bir nesnedeki animasyon çalıştırılabilir.",
+            "D": "“Animasyon Bölmesi”ni kullanarak animasyon ayarları yapılabilir.",
+            "E": "Animasyonlar yalnızca fare ile tıkladığında çalıştırılabilir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir nesneyi belirttiğiniz bir alan boyunca, belirttiğiniz süre hareket ettirmenizi sağlayan animasyon çeşidi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Giriş animasyonu",
+            "B": "Vurgu animasyonu",
+            "C": "Yol animasyonu",
+            "D": "Çıkış efektleri",
+            "E": "Geçiş efektleri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi PowerPoint’te dinamik slayt geçişlerinden biri değildir?",
+          "options": {
+            "A": "Dönme Dolap",
+            "B": "Taşıyıcı",
+            "C": "Döndür",
+            "D": "Pencere",
+            "E": "İterek"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi giriş animasyonlarından biri değildir?",
+          "options": {
+            "A": "Uçarak Giriş",
+            "B": "Dama Tahtası",
+            "C": "Perdeler",
+            "D": "Rasgele Çizgiler",
+            "E": "Saydam"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yukarıdaki butonun işlevi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Slayt geçişlerinde seçilen efekti tüm slaytlara uygular.",
+            "B": "Animasyonu seçilen tüm nesnelere uygular.",
+            "C": "Animasyonu sunumdaki tüm nesnelere uygular.",
+            "D": "Seçilen efekti fare ile tıklandığında çalıştırır.",
+            "E": "Eylemi seçilen tüm şekillere uygular."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "PowerPoint’te yukarıdaki butonun işlevi nedir?",
+          "options": {
+            "A": "İlk slayttan sunumu başlatır.",
+            "B": "Özel slayt gösterisi oluşturur.",
+            "C": "Slaydın önizlemesini gösterir.",
+            "D": "Geçerli slayttan sunumu başlatır.",
+            "E": "Animasyonu başlatacak tetikleyici belirler."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "PowerPoint’te slaydın ekrandan çıkarken bir sonraki slaydın ekrana gelme hareketine ne denir?",
+          "options": {
+            "A": "Animasyon",
+            "B": "Geçiş",
+            "C": "Efekt",
+            "D": "Zoom",
+            "E": "Vurgu"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ofis Uygulamaları Unite 6",
+      "exam_title": "Ofis Uygulamaları Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 10,
+      "file_name": "Ofis_Uygulamalari_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2024/06/17/ofis-uygulamalari-unite-6/",
+      "unit_number": 6,
+      "unit_label": "6. Excel Uygulamasına Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aktif çalışma sayfasına sağ tıklayarak aşağıdakilerden hangisi yapılamaz?",
+          "options": {
+            "A": "Sayfa ekleme",
+            "B": "Sayfayı yeniden adlandırma",
+            "C": "Sayfa rengini değiştirme",
+            "D": "Sayfayı kopyalama",
+            "E": "Sayfayı birleştirme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki şekildeki hücre aralığını yazınız.",
+          "options": {
+            "A": "A3:B7",
+            "B": "B7:D7",
+            "C": "B3:D7",
+            "D": "B3;D7",
+            "E": "B3-B7;C3-C7;D3-D7"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "A1, A2, A3, A4, A5 hücre aralığı nasıl yazılır?",
+          "options": {
+            "A": "A1:A5",
+            "B": "A1;A6",
+            "C": "A1;A5",
+            "D": "A1,A5",
+            "E": "A1-A5"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Excel’de harici kaynaklardan veri almanıza, veri bağlantılarınızı yönetmenize ve verileri birleştirmenize ve düzenlemenize olanak tanıyan düğmeleri içeren sekme aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Formüller sekmesi",
+            "B": "Gözden geçir sekmesi",
+            "C": "Ekle sekmesi",
+            "D": "Veri sekmesi",
+            "E": "Giriş sekmesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Excel’de “Ekle” sekmesinden aşağıdakilerden hangisini yapamazsınız?",
+          "options": {
+            "A": "PivotTable ekleme",
+            "B": "Formül ekleme",
+            "C": "Tablo ekleme",
+            "D": "Grafik ekleme",
+            "E": "Bağlantı ekleme"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Excel’de “Sayfa Düzeni” sekmesinden aşağıdakilerden hangisini yapamazsınız?",
+          "options": {
+            "A": "Tema seçme",
+            "B": "Arka planı biçimlendirme",
+            "C": "Kılavuz çizgilerini görünür yapma",
+            "D": "Sayfayı yatay yapma",
+            "E": "Sayfayı yazdırma"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Excel’de yukarıdaki butonun işlevi nedir?",
+          "options": {
+            "A": "Satır genişliğini ayarlar.",
+            "B": "Yeni satır/sütun ekler.",
+            "C": "Satır siler.",
+            "D": "Hücre içindeki veriyi sola kaydırır.",
+            "E": "Hücreyi biçimlendirir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Excel’de değerlerin, metnin ve formüllerin girildiği ve saklandığı bir satır ve sütunun kesişmesiyle oluşan çalışma sayfasındaki en temel birime ne denir?",
+          "options": {
+            "A": "Çalışma kitabı",
+            "B": "Hücre",
+            "C": "Satır",
+            "D": "Sütun",
+            "E": "Formül çubuğu"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Excel’de yukarıdaki tuşun görevi nedir?",
+          "options": {
+            "A": "Metni hücrede alt satıra kaydırır.",
+            "B": "Seçili metni A’dan Z’ye sıralar.",
+            "C": "Seçili metni Z’den A’ya sıralar.",
+            "D": "Seçili metni küçük harfe dönüştürür.",
+            "E": "Metni alt hücreye taşır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Excel’de bir hücre aralığı seçiliyken ad kutusunda aşağıdakilerden hangisi görüntülenir?",
+          "options": {
+            "A": "Seçili hücre aralığı",
+            "B": "A1",
+            "C": "Aktif hücrenin adresi",
+            "D": "0",
+            "E": "Hiçbir şey görünmez."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ofis Uygulamaları Unite 7",
+      "exam_title": "Ofis Uygulamaları Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 9,
+      "file_name": "Ofis_Uygulamalari_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2024/06/17/ofis-uygulamalari-unite-7/",
+      "unit_number": 7,
+      "unit_label": "7. Excel’de Verilerin Analizi",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Excel’de verilerin analizinde aşağıdakilerden hangisi kullanılmaz?",
+          "options": {
+            "A": "Sıralama",
+            "B": "Filtreleme",
+            "C": "PivotTable",
+            "D": "PivotChart",
+            "E": "Bölmeleri dondurma"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Excel’de yukarıdaki butonun işlevi nedir?",
+          "options": {
+            "A": "Seçilen hücre aralığına ad tanımlar.",
+            "B": "Seçilen verileri sıralar.",
+            "C": "Seçilen verileri istenilen koşullara göre biçimlendirir.",
+            "D": "Seçilen verilere filtre ekler.",
+            "E": "Seçilen hücreye formül ekler."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Excel’de sıralama ile ilgili verilenlerden hangisi yanlıştır?",
+          "options": {
+            "A": "Verileri alfabetik olarak A’dan Z’ye sıralayabilirsiniz.",
+            "B": "Birden fazla kritere göre sıralama işlemi yapabilirsiniz.",
+            "C": "Yalnızca pozitif sayıları büyükten küçüğe sıralayabilirsiniz.",
+            "D": "Verileri hücrelerin rengine göre sıralayabilirsiniz.",
+            "E": "Verileri yazı tipi rengine göre sıralayabilirsiniz."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Özet verileri kullanarak oluşturulan grafiklere ne denir?",
+          "options": {
+            "A": "PivotChart",
+            "B": "SmartArt",
+            "C": "Grafik",
+            "D": "PivotTable",
+            "E": "Filtre"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Excel’de yukarıdaki butonun görevi nedir?",
+          "options": {
+            "A": "Seçilen verilere uygun olarak otomatik PivotTable oluşturur.",
+            "B": "Seçilen verilere uygun olarak otomatik Pivotchart oluşturur.",
+            "C": "Verilen ölçütlere uygun olmayan verileri seçer.",
+            "D": "Verilen ölçütlere uygun olan verileri seçer.",
+            "E": "Gelişmiş filtreleme seçeneklerini açar."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi Excel’de büyük miktardaki verileri bir araya getirmek, özetlemek ve analiz etmek için kullanılan bir araçtır?",
+          "options": {
+            "A": "PivotTable",
+            "B": "Grafik",
+            "C": "Tablo",
+            "D": "SmartArt",
+            "E": "Durum çözümlemesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi “Hücre Vurgulama Kuralları” arasında yer almaz?",
+          "options": {
+            "A": "Büyüktür",
+            "B": "Eşittir",
+            "C": "Arasında",
+            "D": "İlk 10 öğe",
+            "E": "İlgili Tarih"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "“Pivot Tablo Alanları” penceresinde aşağıdakilerden hangisi bulunmaz?",
+          "options": {
+            "A": "Filtreler",
+            "B": "Formüller",
+            "C": "Sütunlar",
+            "D": "Satırlar",
+            "E": "Değerler"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi Gelişmiş filtre ölçütlerinde kullanılan işleçlerden biri değildir?",
+          "options": {
+            "A": "=",
+            "B": ">",
+            "C": "=>",
+            "D": "<>",
+            "E": "<"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Ofis Uygulamaları Unite 8",
+      "exam_title": "Ofis Uygulamaları Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 10,
+      "file_name": "Ofis_Uygulamalari_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2024/06/18/ofis-uygulamalari-unite-8/",
+      "unit_number": 8,
+      "unit_label": "8. Excel’de Formüllerle Çalışmak",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukarıdaki tabloya göre B1 hücresine formülü yazdıktan sonra hücrenin sağ alt ucundan B3 hücresine kadar çekersek, B3 hücresinde hangi sonuca ulaşırız?",
+          "options": {
+            "A": "11",
+            "B": "12",
+            "C": "16",
+            "D": "18",
+            "E": "21"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Excel’de formüller hangisi ile başlar?",
+          "options": {
+            "A": "&",
+            "B": "=",
+            "C": ">",
+            "D": "+",
+            "E": "/"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Excel’de matematiksel operatörlerden hangisinin önceliği ilk sıradadır?",
+          "options": {
+            "A": "Üs alma",
+            "B": "Çarpma",
+            "C": "Birleştirme",
+            "D": "Eşittir",
+            "E": "Yüzde"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "=EĞER(A1=50;”Geçti”;”Kaldı”) formülü ne yapar?",
+          "options": {
+            "A": "Formülün girildiği hücreye A1 deki değer 50 ise Geçti; değilse Kaldı yazar.",
+            "B": "Formülün girildiği hücreye A1 deki değer 50 ise Kaldı; değilse Geçti yazar.",
+            "C": "Formülün girildiği hücreye A1 deki değer Geçti ise 50 değilse Kaldı yazar.",
+            "D": "Formülün girildiği hücreye A1 deki değer Kaldı ise Geçti; değilse 50 yazar.",
+            "E": "Formül hatalıdır, hata mesajı döndürür."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi Excel’de karşılaşılan hata mesajlarından biri değildir?",
+          "options": {
+            "A": "#BÖL/0!",
+            "B": "#AD?",
+            "C": "#BOŞ!",
+            "D": "#YOK",
+            "E": "#HATA!"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Formülde hücre aralığını doğru olarak girmediğinizde ortaya çıkan hata aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "#BÖL/0!",
+            "B": "#AD?",
+            "C": "#YOK",
+            "D": "#BOŞ!",
+            "E": "#SAYI"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi ile A1 hücresindeki “Ofis” metni ile A2 hücresindeki “Uygulamaları” metni A3 hücresi içine “Ofis Uygulamaları” metnini yazar?",
+          "options": {
+            "A": "=A1& “ ”&A2",
+            "B": "=A1&A3",
+            "C": "A1&“ ”&A2",
+            "D": "=A1&A2",
+            "E": "=A1+A2"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "B10 hücresindeki 100 sayısına yüzde 20 sini ekleyen formül aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "=(B10/20)/100+B10",
+            "B": "=(B10*20)/100+B10",
+            "C": "(B10*20)/100=B2",
+            "D": "=(B10*20)+100/D2",
+            "E": "(B10*20)/100+B10"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "=TOPLA (B1:B4;B6) formülünün açılımı nedir?",
+          "options": {
+            "A": "B1+B2+B3+B4+B6",
+            "B": "B1+B2+B3+B6",
+            "C": "B1+B2+B3+B4+B5+B6",
+            "D": "B1+B4+B6",
+            "E": "B1+B2+B3 B5+B6"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi tam sabit referans adresidir?",
+          "options": {
+            "A": "B1",
+            "B": "$B1",
+            "C": "$B$4",
+            "D": "B$1",
+            "E": "$1B"
+          },
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",
