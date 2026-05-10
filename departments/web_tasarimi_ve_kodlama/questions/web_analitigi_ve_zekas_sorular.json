@@ -1,8 +1,359 @@
 {
   "course": "Web Analitiği ve Zekâsı",
   "lesson_code": "WEB_ANALITIGI_VE_ZEKAS",
-  "exam_count": 2,
+  "exam_count": 3,
   "exams": [
+    {
+      "title": "Web Analitiği ve Zekâsı 2026 Vize",
+      "exam_title": "Web Analitiği ve Zekâsı 2026 Vize",
+      "exam_type": "vize",
+      "year": "2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "Web Analitiği 2026 Vize.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Yukar?da verilen R kodunun amac? a?a??dakilerden hangisidir?",
+          "options": {
+            "A": "Her ziyaretçi segmenti (UserSegment) için toplam oturum gelirini (SessionRevenue) hesaplamak.",
+            "B": "Oturum geliri (SessionRevenue) değişkenini ziyaretçi segmentlerine (UserSegment) göre kategorik değişkene dönüştürmek.",
+            "C": "Ziyaretçi segmentlerine (UserSegment) göre ortalama oturum gelirini (SessionRevenue) hesaplamak.",
+            "D": "Ziyaretçi segmentlerine (UserSegment) göre veri setindeki en yüksek oturum geliri (SessionRevenue) değerlerini bulmak.",
+            "E": "Veri setinde ziyaretçi segmentlerine (UserSegment) göre oturum geliri (SessionRevenue) değişkenindeki eksik değerleri bulmak ve silmek."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_1.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_1.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_1.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Web analitiği sürecine göre aşağıdaki adımlardan hangisi doğru sıralamayı en iyi temsil eder?",
+          "options": {
+            "A": "Soruları yanıtlama → Veri toplama → Soru belirleme → Veri analizi → Ön-işlemeWeb",
+            "B": "Soru belirleme → Veri toplama → Veriyi analize uygun hâle getirme (dönüştürme/ön-işleme) → Veri analizi ve yorumlama → Soruları yanıtlama",
+            "C": "Veri analizi → Soru belirleme → Veri toplama → Ön-işleme → Soruları yanıtlama",
+            "D": "Veri toplama → Veri analizi → Soru belirleme → Soruları yanıtlama → Ön-işleme",
+            "E": "Ön-işleme → Veri toplama → Soru belirleme → Veri analizi → Soruları yanıtlama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukar?da verilen R kod sat?r?na g?re vektor[2] ifadesi hangi de?eri d?nd?r?r?",
+          "options": {
+            "A": "4",
+            "B": "0",
+            "C": "3",
+            "D": "2",
+            "E": "1"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_3.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_3.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_3.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıda verilen ekran görüntüsüne göre veri setinde kaç adet gözlem kaç adet nitelik vardır?",
+          "options": {
+            "A": "Gözlem sayısı = 100, Nitelik sayısı = 150",
+            "B": "Gözlem sayısı = 15, Nitelik sayısı = 100",
+            "C": "Gözlem sayısı = 1487, Nitelik sayısı = 1262",
+            "D": "Gözlem sayısı = 150, Nitelik sayısı = 100",
+            "E": "Gözlem sayısı = 100, Nitelik sayısı = 15"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_4.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_4.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_4.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukar?da verilen R kod blo?u ?al??t?r?ld???nda ekrana hangi ??kt? yazd?r?l?r?",
+          "options": {
+            "A": "B D",
+            "B": "A B D",
+            "C": "A C D",
+            "D": "D",
+            "E": "A B"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_5.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_5.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_5.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "NA ifadesi ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Eksik veya bilinmeyen değeri temsil eder ve vektörün boyutu korunur.",
+            "B": "Veri setinden bir gözlemin otomatik olarak silindiğini ifade eder.",
+            "C": "Vektör içinde eleman olarak bulunamaz.",
+            "D": "İşlemlerde her zaman sıfır (0) gibi davranır.",
+            "E": "Yalnızca karakter vektörlerde kullanılır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Web analitiğinde kullanılan metrik (metric) ve boyut (dimension) kavramları arasındaki temel fark aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Metrikler yalnızca sosyal medya için kullanılır; boyutlar yalnızca web siteleri için kullanılır.",
+            "B": "Boyutlar yalnızca yüzde ile ifade edilir; metrikler yalnızca tarih ile ifade edilir.",
+            "C": "Metrikler metinseldir; boyutlar sayısaldır.",
+            "D": "Metrikler yalnızca tekil kullanıcıları; boyutlar yalnızca oturumları temsil eder.",
+            "E": "Metrikler “Ne kadar?” sorusuna nicel yanıt verir; boyutlar ölçümleri anlamlı gruplara ayıran niteliklerdir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yukar?daki kod sat?r?nda ama?, kayit veri setindeki tekrarlayan sat?rlar? kald?r?p yaln?zca benzersiz sat?rlar? b?rakmakt?r. Buna g?re ?? nokta (...) ile bo? b?rak?lan yere hangisi getirilmelidir?",
+          "options": {
+            "A": "unique(kayit)",
+            "B": "!duplicated(kayit)",
+            "C": "!is.na(kayit)",
+            "D": "duplicated(kayit)",
+            "E": "is.na(kayit)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_8.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_8.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_8.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "\"web_data\" adlı veri setinde yer alan erişim cihazı (AccessDevice) değişkeninde cihaz kullanım durumları tutulmaktadır. Erişim için en az kullanılan cihaz türünü elde etmek isteyen bir araştırmacı aşağıdaki Rkodlarından hangisini kullanmalıdır?",
+          "options": {
+            "A": "summary(which.min(table(web_data$AccessDevice)))",
+            "B": "names(which.min(table(web_data$AccessDevice)))",
+            "C": "summary(which.min(prop.table(web_data$AccessDevice)))",
+            "D": "names(min.which(prop.table(web_data$AccessDevice)))",
+            "E": "names(min.which(table(web_data$AccessDevice)))"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_9.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_9.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_9.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Yapay kodlama (dummycoding) ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Sadece nümerik değişkenlere uygulanır, kategorik veriye uygulanamaz.",
+            "B": "Veri setindeki tekrar eden gözlemleri tespit edilmesini sağlar.",
+            "C": "Kategorik değişkenleri algoritmaların anlayabileceği sayısal değerlere dönüştürür.",
+            "D": "n elemanlı sayısal bir değişkeni [0,1] aralığına indirgemek için kullanılır.",
+            "E": "Multicollinearity probleminin üstesinden gelmek için tercih edilir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Yukar?da bir b?l?m?ne yer verilen ??kt? \"web_data\" veri seti i?in a?a??daki fonksiyonlar?n hangisi ile elde edilmi? olabilir?",
+          "options": {
+            "A": "names(web_data)",
+            "B": "sum(web_data)",
+            "C": "head(web_data)",
+            "D": "str(web_data)",
+            "E": "dim(web_data)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_11.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_11.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_11.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Yukar?daki R kod blo?unda ama?, oran s?tunundaki NA de?erleri s?tunun ortalamas? ile tamamlamakt?r. ?? nokta (...) ile bo? b?rak?lan yere hangisi getirilmelidir?",
+          "options": {
+            "A": "median(df$oran)",
+            "B": "sum(df$oran, na.rm = TRUE)",
+            "C": "median(df$oran, na.rm = TRUE)",
+            "D": "mean(df$oran, na.rm = TRUE)",
+            "E": "mean(df$oran)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_12.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_12.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_12.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Data frame (veri çerçevesi) ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Her sütundaki veri aynı veri tipinde olmalı; farklı sütunlarda farklı veri tipleri bulunabilir.",
+            "B": "Tüm hücrelerinde aynı veri tipi olmak zorundadır.",
+            "C": "Yalnızca sayısal veri içerebilir.",
+            "D": "Sütun erişimi için # işareti kullanılır.",
+            "E": "Üç boyutlu veri yapısıdır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Hemen çıkma oranı (bounce rate) ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Ortalama ziyaret süresini hesaplamak için kullanılan temel metriktir.",
+            "B": "Web sitesine hiç ziyaret yapmamış kullanıcıların oranıdır.",
+            "C": "Bir sayfaya girdikten sonra yapılan toplam çıkışların, toplam görüntülenme sayısına oranıdır.",
+            "D": "Bir web sitesine girip başka sayfaları ziyaret etmeden çıkan kullanıcıların yüzdesidir.",
+            "E": "Sadece satın alma tamamlandıktan sonra hesaplanan bir metriktir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Yukar?daki R kodu ?al??t?r?ld???nda a?a??dakilerden hangisi ger?ekle?ir?",
+          "options": {
+            "A": "a içinde yalnızca nümerik (numeric) değerler kalır.",
+            "B": "a içinde yalnızca mantıksal (logical) değerler oluşur.",
+            "C": "a içindeki tüm elemanlar karakter (character) veri tipine dönüşür.",
+            "D": "a bir matrix yapısına dönüşür.",
+            "E": "mode(a) sonucu numeric döner."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_15.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_15.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_15.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Bir web analizi çalışmasında kullanıcıların siteye erişim kaynaklarına ait dağılım aşağıdaki gibi elde edilmiştir: Organik arama (Google vb.): %41 Sosyal medya: %33 Doğrudan giriş: %16 E-posta kampanyaları: %10 Analiz sonuçları, kullanıcıların büyük çoğunluğunun arama motorları üzerinden siteye ulaştığını göstermektedir. Yukarıdaki bilgilere göre aşağıdaki aksiyonlardan hangisinin yapılması en uygun olur?",
+          "options": {
+            "A": "Arama motoru optimizasyonu (SEO) çalışmalarına öncelik vermek.",
+            "B": "Sosyal medya paylaşımlarını tamamen durdurmak.",
+            "C": "Site içeriklerini azaltarak sayfa sayısını düşürmek.",
+            "D": "E-posta kampanyalarını tamamen kaldırmak.",
+            "E": "Web sitesinin tasarımını yalnızca tablet cihazlara göre değiştirmek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Sunucu log dosyasında yer alabilecek parametrelerden hangisi kullanıcının tarayıcısını tanımlar?",
+          "options": {
+            "A": "URL",
+            "B": "İstek Türü (request type)",
+            "C": "Başarı Oranı (success rate)",
+            "D": "Ziyaret Yolu (visiting path)",
+            "E": "Kullanıcı Aracısı (user agent)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi web analitiği kavramını en iyi tanımlar?",
+          "options": {
+            "A": "Sunucu donanımının performansını ölçmeye yönelik sistem geliştirme, izleme ve iyileştirme süreci.",
+            "B": "Web sitesinde kullanılan programlama dillerini karşılaştırma, koda ilişkin gerekli açıklamaları raporlama süreci",
+            "C": "Web sayfalarının grafik tasarım öğelerini iyileştirme ve elde edilen sonuçları raporlama süreci.",
+            "D": "Dijital platformlardaki kullanıcı davranışlarını anlamak, ölçmek ve optimize etmek için veri toplama, analiz etme ve raporlama süreci.",
+            "E": "Sadece “hit” sayılarına bakarak web sitesinin başarısını ölçme ve raporlama süreci."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Inter Quartile Range (IQR) y?ntemi ile ortalama oturum s?resi (AvgSessionDuration) de?i?keni i?in ayk?r? de?erleri bulmak ?zere yukar?da verilen R kod blo?unda ?? nokta (...) ile g?sterilen bo?lu?a a?a??daki se?eneklerden hangisi getirilmelidir?",
+          "options": {
+            "A": "veri$AvgSessionDuration < alt_sinir | veri$AvgSessionDuration > ust_sinir",
+            "B": "veri$AvgSessionDuration < alt_sinir & veri$AvgSessionDuration > ust_sinir",
+            "C": "veri$AvgSessionDuration > alt_sinir & veri$AvgSessionDuration < ust_sinir",
+            "D": "veri$AvgSessionDuration > alt_sinir | veri$AvgSessionDuration < ust_sinir",
+            "E": "veri$AvgSessionDuration > alt_sinir & ust_sinir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_19.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_19.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_19.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "R programlama dilinde caret::preProcess() fonksiyonunda veriyi [0,1] aral???na getirmek i?in method parametresi nas?l verilmelidir?",
+          "options": {
+            "A": "method = c(\"scale\")",
+            "B": "method = c(\"normalize\")",
+            "C": "method = c(\"range\")",
+            "D": "method = c(\"center\")",
+            "E": "method = c(\"standardize\")"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_20.png",
+          "image_file": "WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_20.png",
+          "image_path": "resim-sorular/WEB_ANALITIGI_VE_ZEKASI_2026_vize_soru_20.png",
+          "source_image_url": ""
+        }
+      ]
+    },
     {
       "title": "Web Analitiği ve Zekâsı 2025 Vize",
       "exam_title": "Web Analitiği ve Zekâsı 2025 Vize",

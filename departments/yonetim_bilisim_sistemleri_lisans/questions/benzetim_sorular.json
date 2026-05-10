@@ -3,6 +3,357 @@
   "lesson_code": "BENZETIM",
   "exams": [
     {
+      "title": "Benzetim 2026 Vize",
+      "exam_title": "Benzetim 2026 Vize",
+      "exam_type": "vize",
+      "year": "2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "BENZETİM_2026_VİZE.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kesikli X rassal değişkeninin dağılım fonksiyonu aşağıdaki gibidir. Aşağıdakilerden hangisi ters dönüşüm yöntemini kullanarak elde edilen rassal değişken aralıklarından değildir?",
+          "options": {
+            "A": "0,25<R<0,54 ise X=2",
+            "B": "0,55<R<0,69 ise X=3",
+            "C": "0<R<0,24 ise X=1",
+            "D": "0,7<R<1 ise X=4",
+            "E": "0,25<R<0,55 ise X=2"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/BENZETIM_2026_vize_soru_1.png",
+          "image_file": "BENZETIM_2026_vize_soru_1.png",
+          "image_path": "resim-sorular/BENZETIM_2026_vize_soru_1.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi \"son giren ilk çıkar\" prensibine göre servis veren kuyruk disiplini kısaltmasıdır?",
+          "options": {
+            "A": "PR",
+            "B": "SPT",
+            "C": "LIFO",
+            "D": "FIFO",
+            "E": "SIRO"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi bir banka kuyruk modelinin servisi olamaz?",
+          "options": {
+            "A": "ATM",
+            "B": "Vezne",
+            "C": "Mobil bankacılık bilgisayarı",
+            "D": "Güvenlik görevlisi",
+            "E": "Telefon bankacılığı kabini"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bilgisayar üreten bir firma ürünlerinin dayanıklılık süresini değerlendirmek istemektedir. 100 tane rassal olarak seçilen bilgisayarın standart sapması 120 gün, ortalama dayanıklılık süreleri de 1440 gündür. %90 güvenle anakütle ortalama dayanıklılık süresi aşağıdaki aralıklardan hangisidir? (Zα/2=1,65)",
+          "options": {
+            "A": "[1400 - 1471]",
+            "B": "[1420,2 - 1459,8]",
+            "C": "[1320 - 1560]",
+            "D": "[1398,5 - 1481,5]",
+            "E": "[1202,4 - 1667,6]"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Faaliyetlerin meydana gelmesinde görev alan personel, alet, alan, enerji, zaman, para gibi birimler aşağıdakilerden hangisini ifade etmektedir?",
+          "options": {
+            "A": "Faaliyet",
+            "B": "Varlık",
+            "C": "Kaynak",
+            "D": "Kontrol",
+            "E": "Özellik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki ikililerden hangisi süreklikesikli dağılım ikilisidir?",
+          "options": {
+            "A": "Normal-Poisson",
+            "B": "Binom-Geometrik",
+            "C": "Bernoulli-Poisson",
+            "D": "Üstel-Normal",
+            "E": "Üçgen-Normal"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki sistem – varlık eşleştirmelerinden hangisi yanlıştır?",
+          "options": {
+            "A": "Karayolları-Araç",
+            "B": "Acil servis-Hasta",
+            "C": "Banka-Müşteri",
+            "D": "Fabrika-Talep",
+            "E": "Hava yolları-Yolcu"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi benzetim tekniğinin avantajlarından biridir?",
+          "options": {
+            "A": "Bireysel gözleme dayalı değil, gerçekte sistemin işleyişine dair bilgi kazandırması",
+            "B": "Rassallıktan kaynaklanan bir sonuç olup olmadığını gözlemlemenin güçlüğü",
+            "C": "Bilgisayarlarda benzetim modellerinin koşum maliyetinin yüksek olması",
+            "D": "En iyi çözüme ulaşamaması",
+            "E": "Maliyetli ve zaman alıcı bir teknik olması"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi rassal sayı üreteçlerinden istenilen özelliklerdendir?",
+          "options": {
+            "A": "Küçük periyot",
+            "B": "Tek seferlik üretim",
+            "C": "Rassallık",
+            "D": "Hesaplanabilir olmaması",
+            "E": "Belli bir yazılım diline bağlılık"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıda benzetim hakkında verilen bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Benzetim birçok bilim dallarında uygulama alanı geniş bir tekniktir.",
+            "B": "Benzetim, sistemlerin zamana bağlı işleyişlerinin taklit edilmesidir.",
+            "C": "Benzetim uygulamalarına akademik araştırmalarda ve iş dünyasında sıkça rastlanmaktadır.",
+            "D": "Benzetim sadece bilgisayar tabanlı bir yöntemdir.",
+            "E": "Bir benzetim modeli, sistemin işleyişi ile ilgili bazı kabullerden oluşur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Kendall (1953)’de kuyruk sistemi modellerini sınıflandırmak için kullandığı A/B/c/N/Knotasyonundaki c aşağıdakilerden hangisini temsil etmektedir?",
+          "options": {
+            "A": "Servis sayısı",
+            "B": "Servis prosesi",
+            "C": "Müşterinin geldiği yığının genişliği",
+            "D": "Varış prosesi",
+            "E": "Sistemde izin verilen müşteri sayısı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "n denemedeki başarı sayısını modelleyen dağılım aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Normal",
+            "B": "Gama",
+            "C": "Negatif Binom",
+            "D": "Binom",
+            "E": "Beta"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "Gözlemlerin düz bir doğru etrafında yayılım gösterip göstermediğine bakılarak verinin belirlenen dağılımdan gelip gelmediği hakkında sonuca varılan girdi analizi yöntemi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Kolmogorov-Smirnov Testi",
+            "B": "Ki-kare Testi",
+            "C": "Q-Qgrafikleri",
+            "D": "P-P Grafikleri",
+            "E": "Histogram"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdaki ikililerden hangisi DeterministikStokastik sistem ikilisine örnektir?",
+          "options": {
+            "A": "Fabrika-Borsa",
+            "B": "Differansiyel denklem-Meteoroloji",
+            "C": "Kalite kontrol-Stok kontrol",
+            "D": "Üretim-İletişim",
+            "E": "Hava yolları-Karayolları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "{9, 2, 16, 7, 5, 18, 13, 9, 14, 8, 9} Yukarıda verilen serinin medyanı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "7",
+            "D": "11",
+            "E": "8"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Yukarıda verilen tabloya göre 4. müşteri sisteme kaçıncı dakikada gelmiştir?",
+          "options": {
+            "A": "9",
+            "B": "18",
+            "C": "15",
+            "D": "7",
+            "E": "11"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "https://raw.githubusercontent.com/kamacimustafa4-netizen/auzef-notlar/main/resim-sorular/BENZETIM_2026_vize_soru_16.png",
+          "image_file": "BENZETIM_2026_vize_soru_16.png",
+          "image_path": "resim-sorular/BENZETIM_2026_vize_soru_16.png",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Aşağıdakilerden hangisi simülasyon saatinin ilerletilmesinde kullanılan yaklaşımlardan biridir?",
+          "options": {
+            "A": "En geç olay zamanı",
+            "B": "Sabit artışlarla zaman ilerletme",
+            "C": "En yakın servis zamanı",
+            "D": "Değişken artışlarla zaman ilerletme",
+            "E": "En uzak olay zamanı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Aşağıdakilerden hangisi darboğaz tanımına uygun bir örnektir?",
+          "options": {
+            "A": "Bir teknoloji ürününe çok fazla talep gelmesi",
+            "B": "Bilgisayar donanımında ekran kartının görüntü kalitesini artması",
+            "C": "Fabrikada depoda fazla hammadde bulunması",
+            "D": "Bir konser alanının çok kalabalık olması",
+            "E": "Üretim atölyelerinde ara stokların artması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi doğrusal eşlik yönteminde tam periyot elde etmek için kullanılan HullDobell teoremi şartlarındandır?",
+          "options": {
+            "A": "m değeri asal sayı olmalıdır.",
+            "B": "Eğer m 4'e bölünüyorsa c-1 de 4’e bölünebilmelidir.",
+            "C": "c değeri tek sayı olmalıdır.",
+            "D": "m değerinin tüm bölenlerine b-1 de bölünebilmelidir.",
+            "E": "b değeri asal sayı olmalıdır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Müşterilerin toplam bekleme süresi 142 dakikadır ve sistemde 6 müşteri bulunmaktadır. Bu varsayıma göre müşterilerin sistemde ortalama bekleme süresi kaç dakikadır?",
+          "options": {
+            "A": "16,33",
+            "B": "13,66",
+            "C": "26,33",
+            "D": "14,2",
+            "E": "23,66"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
       "title": "Benzetim 2024 Final",
       "exam_type": "final",
       "year": "2024",
@@ -517,5 +868,5 @@
       "exam_title": "Benzetim 2024 Vize"
     }
   ],
-  "exam_count": 2
+  "exam_count": 3
 }

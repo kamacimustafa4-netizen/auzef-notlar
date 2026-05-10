@@ -1,7 +1,7 @@
 {
   "course": "Sunucu Tabanlı Programlama",
   "lesson_code": "SUNUCU_TABANL_PROGRAMLAMA",
-  "exam_count": 2,
+  "exam_count": 12,
   "exams": [
     {
       "title": "Sunucu Tabanlı Programlama 2025 Vize",
@@ -697,6 +697,1836 @@
             "E": "Command"
           },
           "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 1",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2025/03/13/sunucu-tabanli-programlama-unite-1/",
+      "unit_number": 1,
+      "unit_label": "1- İnternet Teknolojisi",
+      "questions": [
+        {
+          "id": 1,
+          "question": "TCP/IP mimarisinde aşağıdaki protokollerden hangisi veri iletiminde güvenilirlikten çok hızı ön planda tutar?",
+          "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "UDP",
+            "D": "SMTP",
+            "E": "TCP"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "İnternet’in gelişim süreciyle ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "İlk İnternet bağlantısı askeri amaçlarla kurulmuştur",
+            "B": "WWW teknolojisi ARPANET’ten önce geliştirilmiştir",
+            "C": "Web tarayıcıları İnternet’in ilk versiyonuyla birlikte geliştirilmiştir",
+            "D": "DNS sistemi ICANN'den önce geliştirilmiştir",
+            "E": "TCP/IP protokolü Web 2.0 ile ortaya çıkmıştır"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi Web 2.0’ın Web 1.0’dan farkı değildir?",
+          "options": {
+            "A": "Kullanıcı etkileşimi içermesi",
+            "B": "Dinamik içerik sunabilmesi",
+            "C": "Çift yönlü veri akışı sağlaması",
+            "D": "IP adresi kullanması",
+            "E": "İçerik üretiminin daha kolay olması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "PHP ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "1994 yılında geliştirilmiştir",
+            "B": "Açık kaynak kodlu bir dildir",
+            "C": "Laravel gibi çerçeve yazılımlarla kullanılabilir",
+            "D": "Sadece büyük ölçekli web uygulamaları için uygundur",
+            "E": "Form işleme yeteneğine sahiptir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi Web 3.0’ın temel bileşenlerinden biri değildir?",
+          "options": {
+            "A": "Yapay zekâ uygulamaları",
+            "B": "Merkezi veri yönetimi",
+            "C": "Nesnelerin interneti",
+            "D": "Blokzincir teknolojisi",
+            "E": "Akıllı kontratlar"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir web uygulaması geliştirirken aşağıdakilerden hangisi zorunlu değildir?",
+          "options": {
+            "A": "Blokzincir altyapısı",
+            "B": "Bir sunucu bilgisayar",
+            "C": "Bir alan adı",
+            "D": "Bir IP adresi",
+            "E": "Web sunucu yazılımı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Web 2.0 teknolojisiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Kullanıcı içerik üretebilir",
+            "B": "Her kullanıcı için aynı içerik gösterilir",
+            "C": "Veritabanı desteği gerektirir",
+            "D": "Dinamik sayfalar oluşturulabilir",
+            "E": "Sosyal medya platformları bu teknolojiye örnektir"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi CGI teknolojisinin dezavantajlarından biri değildir?",
+          "options": {
+            "A": "Güvenlik riskleri taşıması",
+            "B": "Bakımının zor olması",
+            "C": "Yüksek işlem yükü oluşturabilmesi",
+            "D": "Sistem dosyalarına erişim riski",
+            "E": "Esnek bir yapıya sahip olması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Servis Odaklı Mimari (SOA) ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Her servis bağımsız çalışabilir",
+            "B": "Servisler farklı teknolojilerle geliştirilebilir",
+            "C": "Tüm servislerin aynı programlama diliyle yazılması gerekir",
+            "D": "Bir servis başka sistemlerde kullanılabilir",
+            "E": "Her servis kendi veri yapısına sahip olabilir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Önyüz ve arkayüz entegrasyonuyla ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Her zaman ayrı sunucularda çalıştırılmalıdır",
+            "B": "Sadece statik sayfalarda kullanılabilir",
+            "C": "İki yaklaşımdan biri diğerine her zaman üstündür",
+            "D": "Veri tabanı kullanımı zorunlu değildir",
+            "E": "Her ikisi de iyi tasarlansa bile aralarındaki iletişim önemlidir"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 2",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2025/03/14/sunucu-tabanli-programlama-unite-2/",
+      "unit_number": 2,
+      "unit_label": "2- Php & Laravel",
+      "questions": [
+        {
+          "id": 1,
+          "question": "PHP’de bir dizinin son elemanını silmek ve silinen elemanı değişkene atamak için hangi fonksiyon kullanılır?",
+          "options": {
+            "A": "array_push()",
+            "B": "array_merge()",
+            "C": "array_shift()",
+            "D": "array_slice()",
+            "E": "array_pop()"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Web sunucusu olarak Apache veya NGINX kullanmanın temel amacı nedir?",
+          "options": {
+            "A": "PHP kodlarını derlemek",
+            "B": "Veritabanı bağlantısını sağlamak",
+            "C": "JavaScript kodlarını çalıştırmak",
+            "D": "CSS dosyalarını optimize etmek",
+            "E": "Gelen istekleri kontrollü şekilde yönetmek"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "PHP’de bir fonksiyonun “return” ile değer döndürmesi yerine “echo” kullanmasının dezavantajı nedir?",
+          "options": {
+            "A": "Daha yavaş çalışması",
+            "B": "Güvenlik açığı oluşturması",
+            "C": "Fonksiyonun çıktısının başka işlemlerde kullanılamaması",
+            "D": "Hata ayıklamanın zorlaşması",
+            "E": "Bellek kullanımının artması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Laravel’in MVC mimarisini kullanmasının temel avantajı nedir?",
+          "options": {
+            "A": "Kod organizasyonunun ve bakımın kolaylaşması",
+            "B": "Daha az kod yazılması",
+            "C": "Daha hızlı çalışması",
+            "D": "Veritabanı işlemlerinin otomatikleşmesi",
+            "E": "Güvenlik önlemlerinin artması"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Laravel’de “artisan serve” komutu hangi amaçla kullanılır?",
+          "options": {
+            "A": "Yerel geliştirme sunucusunu başlatmak",
+            "B": "Veritabanını yedeklemek",
+            "C": "Projeyi derlemek",
+            "D": "Route’ları listelemek",
+            "E": "Cache’i temizlemek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi Laravel framework’ünün routes klasörünün temel görevidir?",
+          "options": {
+            "A": "Veri tabanı bağlantılarını yönetmek",
+            "B": "Görsel dosyaları depolamak",
+            "C": "URL yönlendirmelerini tanımlamak",
+            "D": "Oturum bilgilerini saklamak",
+            "E": "API anahtarlarını depolamak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "PHP’de foreach döngüsünün diğer döngülerden farkı nedir?",
+          "options": {
+            "A": "Daha hızlı çalışması",
+            "B": "Sonsuz döngü oluşturamaması",
+            "C": "Sadece sayısal değerlerle çalışması",
+            "D": "Dizilerde indis yönetimine gerek kalmaması",
+            "E": "Break komutu kullanılamaması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "PHP’de bir değişkenin string (metin) türünde olduğunu anlamak için aşağıdaki yöntemlerden hangisi kullanılır?",
+          "options": {
+            "A": "Değişken adının başında \"$\" işareti olması",
+            "B": "Değişken değerinin tırnak içinde yazılması",
+            "C": "Değişkenin tanımlanma şekli",
+            "D": "Değişkenin boyutsuz olması",
+            "E": "PHP’de değişken türü belirtmeye gerek yoktur"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Laravel projesinde.env dosyası ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Veritabanı bilgilerini içerir",
+            "B": "Hassas bilgileri saklar",
+            "C": "Her ortam için farklı olabilir",
+            "D": "Proje ekibiyle paylaşılması önerilir",
+            "E": "API anahtarlarını içerebilir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "XAMPP’taki “X” harfi neyi ifade eder?",
+          "options": {
+            "A": "XML desteğini",
+            "B": "Cross-platform çalışabilmesini",
+            "C": "Extra özellikleri",
+            "D": "External bağlantıları",
+            "E": "Xtreme performansı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 3",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2025/03/14/sunucu-tabanli-programlama-unite-3/",
+      "unit_number": 3,
+      "unit_label": "3- Mvc Yapısı",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi MVC mimarisinin dezavantajlarından biri değildir?",
+          "options": {
+            "A": "Karmaşık yapısı",
+            "B": "Öğrenme sürecinin zorluğu",
+            "C": "Performans sorunları",
+            "D": "Aşırı mühendislik riski",
+            "E": "Paralel geliştirmeye olanak sağlaması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi MVC’nin yeniden kullanılabilirlik özelliğinin bir sonucudur?",
+          "options": {
+            "A": "Bakım ve güncellemelerin kolaylaşması",
+            "B": "Daha yavaş çalışması",
+            "C": "Daha fazla bellek kullanması",
+            "D": "Geliştirme süresinin artması",
+            "E": "Güvenlik açıklarının artması"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "MVC mimarisinin geliştirilmesindeki temel amaç nedir?",
+          "options": {
+            "A": "Yazılım geliştirme sürecini yavaşlatmak",
+            "B": "Kodun modüler, esnek ve yönetilebilir olmasını sağlamak",
+            "C": "Tüm kodu tek bir dosyada toplamak",
+            "D": "Sadece büyük projelerde kullanılabilir olmak",
+            "E": "Veri tabanı işlemlerini zorlaştırmak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Büyük bir web projesinde MVC kullanmanın en önemli avantajı nedir?",
+          "options": {
+            "A": "Ekip çalışmasını kolaylaştırması",
+            "B": "Daha az kod yazılması",
+            "C": "Daha hızlı çalışması",
+            "D": "Daha az bellek kullanması",
+            "E": "Daha az test gerektirmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "MVC mimarisinin sıkı bağlılık problemi ne anlama gelir?",
+          "options": {
+            "A": "Sistem performansının düşmesi",
+            "B": "Katmanlar arası bağımlılığın artması",
+            "C": "Test süreçlerinin uzaması",
+            "D": "Veritabanı bağlantısının kopması",
+            "E": "Kullanıcı arayüzünün yavaşlaması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "MVC mimarisinde “Controller” katmanının görevi nedir?",
+          "options": {
+            "A": "Sadece veri tabanı işlemlerini yönetmek",
+            "B": "Sadece güvenlik kontrollerini yapmak",
+            "C": "Model ve View arasındaki iletişimi yönetmek",
+            "D": "Sadece raporlama işlemlerini yürütmek",
+            "E": "Kullanıcı arayüzünü tasarlamak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "MVC mimarisinde “View” katmanı için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "SQL sorguları yazılır",
+            "B": "İş mantığı kodları bulunur",
+            "C": "Veritabanı şeması oluşturulur",
+            "D": "Kullanıcı arayüzü tasarlanır",
+            "E": "Güvenlik kontrolleri yapılır"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "MVC mimarisinde servis katmanının kullanım amacı nedir?",
+          "options": {
+            "A": "Sadece veritabanı işlemlerini yönetmek",
+            "B": "Kullanıcı arayüzünü oluşturmak",
+            "C": "Dosya yüklemelerini kontrol etmek",
+            "D": "Oturum yönetimini sağlamak",
+            "E": "İş mantığını kontrolcüden ayırmak"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "MVC mimarisinde “Model” katmanının temel görevi nedir?",
+          "options": {
+            "A": "Kullanıcı arayüzünü tasarlamak",
+            "B": "İş mantığını yönetmek",
+            "C": "Güvenlik kontrollerini yapmak",
+            "D": "Veri tabanı ile etkileşimi sağlamak",
+            "E": "JavaScript kodlarını çalıştırmak"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "MVC mimarisinde middleware katmanının temel işlevi nedir?",
+          "options": {
+            "A": "Veritabanı bağlantısını sağlamak",
+            "B": "E-posta göndermek",
+            "C": "İstek-yanıt döngüsünü yönetmek",
+            "D": "Dosya yüklemelerini yönetmek",
+            "E": "Kullanıcı arayüzünü oluşturmak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 4",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2025/03/14/sunucu-tabanli-programlama-unite-4/",
+      "unit_number": 4,
+      "unit_label": "4- Rotalama",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi bir URL’nin temel bileşenlerinden biri değildir?",
+          "options": {
+            "A": "Cache süresi",
+            "B": "Port numarası",
+            "C": "Protokol",
+            "D": "Dosya adı",
+            "E": "Sunucu adı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Web uygulamalarında URL yapısının SEO açısından önemli olmasının sebebi nedir?",
+          "options": {
+            "A": "Sunucu yükünü azaltması",
+            "B": "Sayfanın daha hızlı yüklenmesi",
+            "C": "Güvenlik seviyesini artırması",
+            "D": "Kullanıcı girişini kolaylaştırması",
+            "E": "Arama motorlarının içeriği daha iyi anlayabilmesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "HTTP protokolünde “idempotent” bir metodun özelliği nedir?",
+          "options": {
+            "A": "Veriyi şifreleyerek iletmesi",
+            "B": "Yalnızca GET isteklerini kabul etmesi",
+            "C": "Önbellekleme yapamaması",
+            "D": "Her zaman aynı sonucu üretmesi",
+            "E": "Yüksek performanslı olması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi modern web uygulamalarında rotalama sisteminin bir avantajı değildir?",
+          "options": {
+            "A": "Güvenliği artırması",
+            "B": "Dosya boyutunu küçültmesi",
+            "C": "URL yapısını fiziksel dosya sisteminden bağımsız hale getirmesi",
+            "D": "Dinamik içerik üretimini kolaylaştırması",
+            "E": "SEO dostu URL’ler oluşturabilmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Laravel’de hangi HTTP metodu bir kaynağın tamamını güncellemek için kullanılır?",
+          "options": {
+            "A": "PATCH",
+            "B": "PUT",
+            "C": "POST",
+            "D": "DELETE",
+            "E": "GET"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Laravel’de Request sınıfının temel görevi nedir?",
+          "options": {
+            "A": "Veritabanı bağlantısı oluşturmak",
+            "B": "HTTP yanıtlarını formatlamak",
+            "C": "İstemciden gelen parametreleri yönetmek",
+            "D": "Güvenlik duvarı oluşturmak",
+            "E": "Oturum yönetimi sağlamak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Opsiyonel parametreli bir rotada aşağıdaki karakterlerden hangisi kullanılır?",
+          "options": {
+            "A": "#",
+            "B": "&",
+            "C": "+",
+            "D": "?",
+            "E": "@"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Laravel’de rota gruplandırması yapılmasının temel amacı nedir?",
+          "options": {
+            "A": "Ortak özellikleri tek seferde uygulamak",
+            "B": "Sunucu performansını artırmak",
+            "C": "Veritabanı bağlantılarını optimize etmek",
+            "D": "URL yapısını kısaltmak",
+            "E": "Hata ayıklamayı kolaylaştırmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Laravel’de bir rotaya isim vermenin asıl amacı nedir?",
+          "options": {
+            "A": "SEO performansını artırmak",
+            "B": "URL yapısını gizlemek",
+            "C": "Rota yönetimini kolaylaştırmak",
+            "D": "Veritabanı sorgularını hızlandırmak",
+            "E": "Güvenlik seviyesini artırmak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "HTTP metodlarından hangisi veri gönderirken URL’de görünmeyecek şekilde iletim sağlar?",
+          "options": {
+            "A": "GET",
+            "B": "HEAD",
+            "C": "OPTIONS",
+            "D": "TRACE",
+            "E": "POST"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 5",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2025/03/14/sunucu-tabanli-programlama-unite-5/",
+      "unit_number": 5,
+      "unit_label": "5- Model Katmanı",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ir kitabın birden fazla kategoriye ait olabileceği ilişki türü hangisidir?",
+          "options": {
+            "A": "hasOne",
+            "B": "belongsTo",
+            "C": "hasMany",
+            "D": "hasPivot",
+            "E": "belongsToMany"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Laravel’de bir modelin başka bir modele ait olduğunu belirtmek için hangi ilişki kullanılır?",
+          "options": {
+            "A": "hasMany",
+            "B": "belongsTo",
+            "C": "belongsToMany",
+            "D": "hasOne",
+            "E": "hasPivot"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Laravel’de bir modelin hangi veritabanı alanlarının toplu olarak doldurulabileceğini belirtmek için kullanılan özellik hangisidir?",
+          "options": {
+            "A": "protected $table",
+            "B": "protected $hidden",
+            "C": "protected $fillable",
+            "D": "protected $guarded",
+            "E": "protected $timestamps"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Laravel’de migration dosyaları ne zaman veritabanına yansır?",
+          "options": {
+            "A": "php artisan migrate komutu çalıştırıldığında",
+            "B": "Model oluşturulduğunda",
+            "C": "Sunucu başlatıldığında",
+            "D": "Route tanımlandığında",
+            "E": "Controller oluşturulduğunda"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Laravel’de bir yazarın birden fazla kitabı olabileceğini belirtmek için hangi ilişki türü kullanılır?",
+          "options": {
+            "A": "hasMany",
+            "B": "belongsTo",
+            "C": "belongsToMany",
+            "D": "hasOne",
+            "E": "hasPivot"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "ORM teknolojisinin temel amacı nedir?",
+          "options": {
+            "A": "Veritabanını şifrelemek",
+            "B": "Veritabanı performansını artırmak",
+            "C": "Tablo ilişkilerini kaldırmak",
+            "D": "Güvenlik duvarı oluşturmak",
+            "E": "SQL sorgularını nesne yönelimli yapıya dönüştürmek"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Model oluştururken aynı anda migration da oluşturmak için hangi parametre kullanılır?",
+          "options": {
+            "A": "--create",
+            "B": "--force",
+            "C": "--model",
+            "D": "--migration",
+            "E": "--table"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Laravel’de.env dosyasının temel amacı nedir?",
+          "options": {
+            "A": "Veritabanı tablolarını oluşturmak",
+            "B": "Model ilişkilerini tanımlamak",
+            "C": "Konfigürasyon ayarlarını saklamak",
+            "D": "Route’ları yönetmek",
+            "E": "Controller’ları yapılandırmak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Laravel’de migration dosyaları nerede saklanır?",
+          "options": {
+            "A": "app/Models",
+            "B": "app/Http",
+            "C": "resources/views",
+            "D": "database/migrations",
+            "E": "routes/web.php"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Veritabanı tablolarının isimlendirilmesinde Laravel’in varsayılan davranışı nedir?",
+          "options": {
+            "A": "Tekil isim kullanma",
+            "B": "Çoğul isim kullanma",
+            "C": "Büyük harfle başlatma",
+            "D": "Tire ile ayırma",
+            "E": "Alt çizgi kullanma"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 6",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2025/03/15/sunucu-tabanli-programlama-unite-6/",
+      "unit_number": 6,
+      "unit_label": "6- Kontrolcü Katmanı",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Resource Controller’da yeni kayıt oluşturma işlemini gerçekleştiren metot hangisidir?",
+          "options": {
+            "A": "store",
+            "B": "create",
+            "C": "new",
+            "D": "save",
+            "E": "insert"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Laravel’de bir kaydı silmek için kullanılan HTTP metodu hangisidir?",
+          "options": {
+            "A": "GET",
+            "B": "POST",
+            "C": "PUT",
+            "D": "PATCH",
+            "E": "DELETE"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Controller sınıflarının varsayılan olarak bulunduğu dizin hangisidir?",
+          "options": {
+            "A": "app/Models",
+            "B": "app/Views",
+            "C": "app/Http/Controllers",
+            "D": "app/Routes",
+            "E": "app/Controllers"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Form verilerini test etmek için kullanılan ve hata ayıklama amaçlı Laravel fonksiyonu hangisidir?",
+          "options": {
+            "A": "dd()",
+            "B": "var_dump()",
+            "C": "print_r()",
+            "D": "die()",
+            "E": "debug()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Web uygulamalarında formdan gelen verileri işlemek için hangi sınıf kullanılır?",
+          "options": {
+            "A": "Form",
+            "B": "Input",
+            "C": "Request",
+            "D": "Data",
+            "E": "Post"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Laravel’de bir kaynağın detaylarını görüntülemek için hangi metot kullanılır?",
+          "options": {
+            "A": "index",
+            "B": "show",
+            "C": "create",
+            "D": "store",
+            "E": "list"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Laravel’de bir Controller’ın tüm resource rotalarını tek seferde tanımlamak için ne kullanılır?",
+          "options": {
+            "A": "Route::all()",
+            "B": "Route::resource()",
+            "C": "Route::group()",
+            "D": "Route::controller()",
+            "E": "Route::register()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Resource Controller oluştururken Model bağlantısı kurmak için hangi parametre kullanılır?",
+          "options": {
+            "A": "--make",
+            "B": "--resource",
+            "C": "--controller",
+            "D": "--create",
+            "E": "--model"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir veri güncelleme işleminde, mevcut verinin form üzerinde gösterilmesi için hangi metot kullanılır?",
+          "options": {
+            "A": "update",
+            "B": "store",
+            "C": "change",
+            "D": "edit",
+            "E": "modify"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Controller’da bir model üzerinde toplu veri ataması yapabilmek için modelde hangi özellik tanımlanmalıdır?",
+          "options": {
+            "A": "$guarded",
+            "B": "$hidden",
+            "C": "$visible",
+            "D": "$fillable",
+            "E": "$allowed"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 7",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2025/03/15/sunucu-tabanli-programlama-unite-7/",
+      "unit_number": 7,
+      "unit_label": "7- Tasarım Katmanı",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Laravel’de tasarım dosyaları için aşağıdaki klasör yapılarından hangisi yanlıştır?",
+          "options": {
+            "A": "components/ - Yeniden kullanılabilir bileşenler için",
+            "B": "database/ - Görünüm dosyaları için",
+            "C": "layouts/ - Temel sayfa şablonları için",
+            "D": "partials/ - Sayfa parçaları için",
+            "E": "pages/ - Sayfa şablonları için"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kontrolcüden görünüme veri gönderirken aşağıdaki yöntemlerden hangisi kullanılamaz?",
+          "options": {
+            "A": "session() fonksiyonu",
+            "B": "with() yöntemi",
+            "C": "compact() fonksiyonu",
+            "D": "İkinci parametre olarak dizi gönderme",
+            "E": "$data değişkeni"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Blade şablonlarında @stack ve @push direktifleri ne amaçla kullanılır?",
+          "options": {
+            "A": "Veritabanı işlemleri için",
+            "B": "CSS ve JavaScript kaynaklarını yönetmek için",
+            "C": "Form doğrulaması için",
+            "D": "Kullanıcı yetkilendirmesi için",
+            "E": "Verileri önbelleğe almak için"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Blade şablonlarında yorum satırı eklemenin HTML yorumlarından farkı nedir?",
+          "options": {
+            "A": "Blade yorumları daha hızlı çalışır",
+            "B": "Blade yorumları veritabanına kaydedilir",
+            "C": "Blade yorumları kaynak kodda görünmez",
+            "D": "Blade yorumları daha fazla yer kaplar",
+            "E": "Blade yorumları tarayıcıda görünür"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "@unless direktifi ne zaman kullanılır?",
+          "options": {
+            "A": "Her zaman çalıştırılması gereken kodlar için",
+            "B": "Koşul doğru olduğunda çalışacak kodlar için",
+            "C": "Koşul yanlış olduğunda çalışacak kodlar için",
+            "D": "Döngü oluşturmak için",
+            "E": "Form validasyonu için"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "@foreach döngüsünde $loop değişkeninin hangi özelliği yanlış eşleştirilmiştir?",
+          "options": {
+            "A": "first - İlk iterasyon kontrolü",
+            "B": "count - Toplam iterasyon sayısı",
+            "C": "last - Son iterasyon kontrolü",
+            "D": "even - Çift sayılı iterasyon kontrolü",
+            "E": "index - İterasyonun sırası (1’den başlar)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Laravel’de Blade bileşenlerinin (.blade.php) zorunlu olarak bulunması gereken klasör hangisidir?",
+          "options": {
+            "A": "public/views",
+            "B": "app/views",
+            "C": "storage/views",
+            "D": "resources/views",
+            "E": "config/views"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Laravel’de form güvenliği için kullanılan CSRF token’ı hangi amaçla kullanılır?",
+          "options": {
+            "A": "Formun gerçek kaynaktan geldiğini doğrulamak için",
+            "B": "Formun görünümünü düzenlemek için",
+            "C": "Veritabanı bağlantısını sağlamak için",
+            "D": "Form verilerini şifrelemek için",
+            "E": "Formu sadece yetkili kullanıcılara göstermek için"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Layout kullanımında @yield direktifinin amacı nedir?",
+          "options": {
+            "A": "Sayfayı yönlendirmek",
+            "B": "Veri doğrulaması yapmak",
+            "C": "Form oluşturmak",
+            "D": "İçerik bölümünü tanımlamak",
+            "E": "Veritabanı sorgusu çalıştırmak"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Blade tasarım motorunda HTML içindeki PHP kodları için aşağıdaki söz dizimlerinden hangisi XSS saldırılarına karşı otomatik koruma sağlar?",
+          "options": {
+            "A": "{!! $degisken!!}",
+            "B": "<?php echo $degisken?>",
+            "C": "<?= $degisken?>",
+            "D": "@php echo $degisken @endphp",
+            "E": "{{ $degisken }}"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 8",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2025/03/15/sunucu-tabanli-programlama-unite-8/",
+      "unit_number": 8,
+      "unit_label": "8- Yetkilendirmeler",
+      "questions": [
+        {
+          "id": 1,
+          "question": "RESTful API’lerde sürüm kontrolü neden yapılır?",
+          "options": {
+            "A": "Sunucu yükünü azaltmak için",
+            "B": "Farklı platformların aynı anda güncellenmesi zorluğunu yönetmek için",
+            "C": "Daha hızlı veri transferi sağlamak için",
+            "D": "Veritabanı bağlantılarını optimize etmek için",
+            "E": "API güvenliğini artırmak için"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Laravel’de hash işlemi için aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Aynı girdi için farklı çıktılar üretir",
+            "B": "Çıktıdan girdiyi elde etmek kolaydır",
+            "C": "Hash işlemi için özel bir veritabanı gerekir",
+            "D": "Hash işlemi geri döndürülemez",
+            "E": "Hash işlemi yalnızca sayısal veriler için kullanılır"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "API geliştirmede JSON formatı neden tercih edilir?",
+          "options": {
+            "A": "Daha güvenli olduğu için",
+            "B": "Yalnızca web tarayıcıları tarafından okunabildiği için",
+            "C": "Sadece metin verilerini desteklediği için",
+            "D": "Veritabanı ile doğrudan iletişim kurabildiği için",
+            "E": "Platformdan bağımsız veri alışverişi sağladığı için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Auth::check() metodu ne işe yarar?",
+          "options": {
+            "A": "Şifre kontrolü yapar",
+            "B": "E-posta doğrulaması yapar",
+            "C": "Session süresini kontrol eder",
+            "D": "Kullanıcının giriş yapıp yapmadığını kontrol eder",
+            "E": "Cookie kontrolü yapar"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Laravel’de kullanıcı şifreleri nasıl saklanır?",
+          "options": {
+            "A": "Veritabanında açık metin olarak",
+            "B": "Hash (özet) fonksiyonu ile dönüştürülmüş olarak",
+            "C": "Base64 ile kodlanmış olarak",
+            "D": "Şifrelenmiş olarak farklı bir dosya",
+            "E": "Simetrik şifreleme ile"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "API rotaları Laravel’de nerede tanımlanır?",
+          "options": {
+            "A": "api.php dosyasında",
+            "B": "routes.php dosyasında",
+            "C": "web.php dosyasında",
+            "D": "controller.php dosyasında",
+            "E": "auth.php dosyasında"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangi durumda bir web uygulamasında e-posta doğrulaması kullanılması önerilmez?",
+          "options": {
+            "A": "Basit bir blog sisteminde",
+            "B": "Kullanıcı bilgilerinin kritik önem taşıdığı sistemlerde",
+            "C": "Kurumsal web uygulamalarında",
+            "D": "Finansal işlemlerin yapıldığı sistemlerde",
+            "E": "Üyelik gerektiren forum sitelerinde"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Session ve Cookie teknolojileri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Session verileri sunucuda saklanır",
+            "B": "Cookie’ler tarayıcıda saklanır",
+            "C": "Cookie’ler sunucuda saklanır",
+            "D": "Session daha güvenlidir",
+            "E": "Cookie’ler manipüle edilebilir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Laravel Auth sisteminde “beni hatırla” özelliği nasıl aktifleştirilir?",
+          "options": {
+            "A": "remember() fonksiyonu ile",
+            "B": "session süresini uzatara",
+            "C": "cookie oluşturarak",
+            "D": "login() fonksiyonuna parametre ekleyerek",
+            "E": "attempt() fonksiyonunun ikinci parametresi true yapılarak"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi Web 2.0’ın getirdiği temel değişikliklerden biridir?",
+          "options": {
+            "A": "Statik web sayfaları",
+            "B": "Tek yönlü veri akışı",
+            "C": "Çift yönlü veri iletişimi ve kullanıcı etkileşimi",
+            "D": "Yalnızca metin tabanlı içerik",
+            "E": "Sunucu taraflı işlem yapılmaması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 9",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 9",
+      "exam_type": "unite",
+      "year": "9",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-9",
+      "source_url": "https://lolonolo.com/2025/03/16/sunucu-tabanli-programlama-unite-9/",
+      "unit_number": 9,
+      "unit_label": "9- Kolaylaştırıcı Araçlar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Laravel’de Middleware kullanımının temel amacı nedir?",
+          "options": {
+            "A": "Veritabanı işlemlerini hızlandırmak",
+            "B": "Önbellekleme yapmak",
+            "C": "Tekrarlanan kontrol kod bloklarını merkezi bir noktada yönetmek",
+            "D": "Dosya sistemini yönetmek",
+            "E": "E-posta göndermek"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Laravel’in dosya sistemi yönetiminde hangi disk türü herkese açık dosyaların saklanması için kullanılır?",
+          "options": {
+            "A": "local",
+            "B": "s3",
+            "C": "private",
+            "D": "temp",
+            "E": "public"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Cache sınıfının increment() metodu varsayılan olarak değeri kaç artırır?",
+          "options": {
+            "A": "5",
+            "B": "1",
+            "C": "10",
+            "D": "2",
+            "E": "0"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yerelleştirme için kullanılan __() fonksiyonunun temel görevi nedir?",
+          "options": {
+            "A": "Dosya yolunu belirlemek",
+            "B": "E-posta göndermek",
+            "C": "Önbelleği temizlemek",
+            "D": "Middleware oluşturmak",
+            "E": "Çeviri metinlerine erişmek"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir Middleware’in kontrolcü fonksiyonundan sonra çalışması için ne yapılmalıdır?",
+          "options": {
+            "A": "afterMiddleware() metodu kullanılmalı",
+            "B": "bootstrap/app.php dosyası düzenlenmeli",
+            "C": "handle() fonksiyonu içinde return $next($request) ifadesi başta olmalı",
+            "D": "route tanımlamasına after parametresi eklenmeli",
+            "E": "Middleware sınıfı extend edilmeli"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Önbellekleme (caching) stratejisi planlanırken aşağıdakilerden hangisine dikkat edilmemelidir?",
+          "options": {
+            "A": "Verinin güncellenme sıklığı",
+            "B": "Önbellek anahtarlarının benzersizliği",
+            "C": "Verinin saklanma süresi",
+            "D": "Veritabanı bağlantı sayısı",
+            "E": "Önbellek sürücü tipi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Önbellekte tutulan bir verinin belirli bir süre sonra otomatik silinmesi için hangi metot kullanılır?",
+          "options": {
+            "A": "put() with duration parameter",
+            "B": "forget()",
+            "C": "remember()",
+            "D": "delete()",
+            "E": "remove()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Laravel’de bildirim sisteminde veritabanı kullanmak için hangi komut çalıştırılmamalıdır?",
+          "options": {
+            "A": "php artisan notifications:table",
+            "B": "php artisan migrate",
+            "C": "php artisan make:notification",
+            "D": "php artisan notification:create",
+            "E": "php artisan make:migration"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Laravel’de e-posta gönderimi için aşağıdaki sürücülerden hangisi kullanılamaz?",
+          "options": {
+            "A": "SMTP",
+            "B": "MongoDB",
+            "C": "Mailgun",
+            "D": "Postmark",
+            "E": "Amazon SES"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Laravel’de bildirim göndermek için hangi yöntem kullanılamaz?",
+          "options": {
+            "A": "Mail::send()",
+            "B": "notify() fonksiyonu",
+            "C": "Notification::send()",
+            "D": "$user->notify()",
+            "E": "Notification::broadcast()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Sunucu Tabanlı Programlama Unite 10",
+      "exam_title": "Sunucu Tabanlı Programlama Unite 10",
+      "exam_type": "unite",
+      "year": "10",
+      "question_count": 10,
+      "file_name": "Sunucu_Tabanli_Programlama_Unite_Sorulari.json#unite-10",
+      "source_url": "https://lolonolo.com/2025/03/16/sunucu-tabanli-programlama-unite-10/",
+      "unit_number": 10,
+      "unit_label": "10- İleri Uygulamalar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Gerçek zamanlı veri yayını için UDP protokolü hangi durumda tercih edilir?",
+          "options": {
+            "A": "Veri güvenliğinin çok önemli olduğu durumlarda",
+            "B": "Büyük dosya transferlerinde",
+            "C": "Veritabanı işlemlerinde",
+            "D": "Kullanıcı kimlik doğrulamasında",
+            "E": "Canlı yayın gibi kesintisiz veri akışı gereken durumlarda"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Laravel‘de zamanlanmış görevler için aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Her dakika çalışacak görevler tanımlanabilir",
+            "B": "Görevler bakım modunda da çalıştırılabilir",
+            "C": "Başarısız görevler için özel işlemler tanımlanabilir",
+            "D": "Görevler yalnızca tam saatlerde çalıştırılabilir",
+            "E": "Birden fazla görev zincirleme çalıştırılabilir"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Job Chaining (İş Zincirleme) hangi durumda kullanılır?",
+          "options": {
+            "A": "Paralel işlem yapmak için",
+            "B": "İşleri rastgele sırayla çalıştırmak için",
+            "C": "İşleri gruplamak için",
+            "D": "İşleri iptal etmek için",
+            "E": "İşleri belirli bir sırayla ardışık çalıştırmak için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Worker process‘lerin sürekli çalışır durumda tutulması neden önemlidir?",
+          "options": {
+            "A": "Kuyruktaki işlerin kesintisiz işlenebilmesi için",
+            "B": "Sunucu maliyetlerini azaltmak için",
+            "C": "Veritabanı bağlantısını korumak için",
+            "D": "Cache sistemini aktif tutmak için",
+            "E": "WebSocket bağlantılarını yönetmek için"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "HTTP Client kullanırken timeout belirlemenin temel amacı nedir?",
+          "options": {
+            "A": "Sunucu maliyetini azaltmak",
+            "B": "İstek sayısını sınırlamak",
+            "C": "Yanıt süresini artırmak",
+            "D": "Uzun süren isteklerin sistemi bloke etmesini önlemek",
+            "E": "Veritabanı bağlantısını korumak"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi Laravel‘de Process yönetiminin bir özelliği değildir?",
+          "options": {
+            "A": "Terminal komutlarını çalıştırabilme",
+            "B": "Asenkron işlem yapabilme",
+            "C": "Veritabanı yedekleme",
+            "D": "Hata durumunda otomatik tekrar deneme",
+            "E": "Standart girdi/çıktı yönetimi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Rate Limiting (İstek Sınırlama) mekanizması hangi amaçla kullanılır?",
+          "options": {
+            "A": "Veritabanı sorgularını optimize etmek için",
+            "B": "DDoS saldırılarına karşı koruma sağlamak için",
+            "C": "Dosya yükleme hızını artırmak için",
+            "D": "Önbellek kullanımını azaltmak için",
+            "E": "WebSocket bağlantılarını yönetmek için"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Laravel‘de hangi tür görevler evenInMaintenanceMode() ile çalıştırılmalıdır?",
+          "options": {
+            "A": "Sistem açıkken çalışması kritik olan görevler",
+            "B": "Tüm zamanlanmış görevler",
+            "C": "Yalnızca veritabanı işlemleri",
+            "D": "Kullanıcı etkileşimi gerektiren görevler",
+            "E": "Test amaçlı görevler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Laravel‘de Event Broadcasting için hangi bileşen gerekli değildir?",
+          "options": {
+            "A": "WebSocket sunucusu",
+            "B": "Redis sunucusu",
+            "C": "Laravel Echo",
+            "D": "Event sınıfı",
+            "E": "ShouldBroadcast interface‘i"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Laravel‘de kuyruk yapısı (Queue) kullanmanın temel amacı nedir?",
+          "options": {
+            "A": "Veritabanı işlemlerini hızlandırmak",
+            "B": "Güvenliği artırmak",
+            "C": "Uzun süren işlemleri arka planda çalıştırarak kullanıcı deneyimini iyileştirmek",
+            "D": "WebSocket bağlantılarını yönetmek",
+            "E": "Sunucu maliyetlerini düşürmek"
+          },
+          "correct_answer": "C",
           "explanation": "",
           "image_url": "",
           "image_file": "",

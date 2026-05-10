@@ -3,6 +3,357 @@
   "lesson_code": "SIBER_GUVENLIK",
   "exams": [
     {
+      "title": "Siber Güvenlik 2026 Vize",
+      "exam_title": "Siber Güvenlik 2026 Vize",
+      "exam_type": "vize",
+      "year": "2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "SİBER GÜVENLİK_VİZE_2026.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Virüsler çoğunlukla aşağıdaki programlama dillerinden hangisi ile yazılırlar?",
+          "options": {
+            "A": "Phyton",
+            "B": "Visual Basic",
+            "C": "C++",
+            "D": "Assembly",
+            "E": "Java"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi bir kimlik doğrulama yöntemi değildir?",
+          "options": {
+            "A": "İki faktörlü kimlik doğrulama",
+            "B": "Tek kullanımlık parola",
+            "C": "Çok faktörlü kimlik doğrulama",
+            "D": "Biyometrik tanımlama",
+            "E": "Geometrik doğrulama"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Kullanıcıların kimlik bilgilerinin ele geçirilmesi I. Bir web sitesine veya çevrimiçi hizmete erişememe durumu II. Web sitelerinde dosya açılışında büyük gecikmelerin yaşanması durumu III. Yukarıda yer alan maddelerden hangisi ya da hangileri DoS saldırısına uğrayan bir ağ sistemi için kullanıcıların maruz kalabileceği durumları içermektedir?",
+          "options": {
+            "A": "Yalnız III",
+            "B": "Ive II",
+            "C": "Ive III",
+            "D": "II ve III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "“Bilgiye ve bilgiyi barındıran sistemlere zarar verebilecek veya başka bir şekilde tehlikeye atabilecek kasıtlı veya kasıtsız eylemlere........ denir.” Yukarıdaki verilen boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "koruma",
+            "B": "erişim",
+            "C": "saldırı",
+            "D": "tehdit",
+            "E": "risk"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "“….........., sunucu üzerinde kayıtlı olan ve istenilen kaynaklara erişmek veya fiziksel erişimi sağlamak için tekrar tekrar kullanılan kodlardır.” Yukarıda boş bırakılan yere gelecek kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Karmaşık şifreler",
+            "B": "Dinamik şifreler",
+            "C": "Tek kullanımlık şifreler",
+            "D": "Basit şifreler",
+            "E": "Statik şifreler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Düzenli olarak sızma testlerinin gerçekleştirilmesi I. Açık alanlarda verilen Wi-Fi hizmeti üzerinden banka ve ticaret işlemleri yapmamak II. Sistem veya yazılımın sürekli güncel tutulması III. Yukarıda yer alan maddelerden hangisi veya hangileri sıfırıncı gün sömürüsünün önüne geçebilmek amaçlı uygulanabilecek önlemlerdendir?",
+          "options": {
+            "A": "II ve III",
+            "B": "Ive III",
+            "C": "Yalnız I",
+            "D": "Ive II",
+            "E": "Yalnız II"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "“..... bilgi sistemini ve içinde depolanan verileri koruyan faaliyetlerin toplamıdır.” Yukarıda verilen boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Sistem bütünlüğü",
+            "B": "Kullanılabilirlik ilkesi",
+            "C": "Bilgi güvenliği",
+            "D": "Güvenlik açığı",
+            "E": "Gizlilik ilkesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi siber güvenlik çalışma konuları içerisinde yer almaz?",
+          "options": {
+            "A": "Verinin boyutunun küçültülmesi",
+            "B": "Bilgisayar sistemlerine yapılan saldırılar",
+            "C": "Gönderilmekte olan verilerin izinsiz değiştirilmesi",
+            "D": "Kullanıcıların gizli bilgilerinin çalınması",
+            "E": "Bir ağda bulunan verilerin dinlenmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "“Ping saldırısında saldırgan, hedef ana bilgisayara çok büyük boyutlu veriler gibi büyük miktarda bilgi içeren bir …..... yankı istek paketi gönderir.” Yukarıdaki cümlede yer alan boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "DoS",
+            "B": "MITM",
+            "C": "SMTP",
+            "D": "ICMP",
+            "E": "IPS"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "ABD Ulusal Standartlar ve Teknoloji Enstitüsü (NIST) güvenlik düzeyleri hakkında verilen aşağıdaki bilgilerden hangisi yanlıştır?",
+          "options": {
+            "A": "2. seviye güvenlik düzeyinde sisteme erişmek için geçerli bir kimlik numarasına sahip olmak gerekir.",
+            "B": "4. seviye güvenlik düzeyinde sistemlere kayıt aşaması denetlenmez.",
+            "C": "1. seviye güvenlik düzeyinde güçlü kriptografik mekanizmalar gerekli değildir.",
+            "D": "1. seviye güvenlik düzeyi en düşük güvenlik seviyesine sahiptir.",
+            "E": "3. seviye güvenlik düzeyinde çok faktörlü kimlik doğrulama yapılır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdakilerden hangisi hizmet engelleme (DoS) saldırılarına örnek olarak verilemez?",
+          "options": {
+            "A": "E-posta bombardımanı",
+            "B": "Tampon bellek taşması saldırısı",
+            "C": "Ping saldırısı",
+            "D": "UDP fırtınası",
+            "E": "TCP-SYN saldırısı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "“...................., genellikle kullanıcıların tarayıcı geçmişlerine bakmak ve alışkanlıklarını takip etmek amacıyla kullanıcıların bilgilerini toplar ve bu bilgileri kullanıcının rızası olmadığı hâlde uzaktaki sunuculara gönderir.” Yukarıdaki cümlede yer alan boşluğa gelecek kavram aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Casus yazılım",
+            "B": "Zombi",
+            "C": "Arka kapı",
+            "D": "Tavşan",
+            "E": "Korkuluk"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "“...................., birkaç farklı zararlı türünün karakteristik özelliklerini bir arada barındırabilen zararlı türleridir.” Yukarıda verilen boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Virüsler",
+            "B": "Truva atları",
+            "C": "Melezler",
+            "D": "Solucanlar",
+            "E": "Zombiler"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi casus yazılımın sistemde yarattığı etkilerden biri değildir?",
+          "options": {
+            "A": "İnternet bant genişliğinin daralması",
+            "B": "Ekranda sürekli olarak reklamların görünmesi",
+            "C": "Tarayıcı araç çubuğu ve eklentilerinde değişiklikler olması",
+            "D": "Sistem performansının yavaşlaması",
+            "E": "Mavi ekran hatası alma"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Bir sistemin kullanılabilirliği aşağıda verilen matematiksel ifadelerden hangisiyle hesaplanabilir?",
+          "options": {
+            "A": "(Toplam Kesinti Süresi) / (Toplam Çalışma Süresi - Toplam Kesinti Süresi)",
+            "B": "(Toplam Kesinti Süresi) / (Toplam Çalışma Süresi + Toplam Kesinti Süresi)",
+            "C": "(Toplam Çalışma Süresi) / (Toplam Çalışma Süresi + Toplam Kesinti Süresi)",
+            "D": "(Toplam Çalışma Süresi) / (Toplam Kesinti Süresi)",
+            "E": "(Toplam Çalışma Süresi) / (Toplam Çalışma Süresi - Toplam Kesinti Süresi)"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Politik I. Coğrafi II. Ekonomik III. Yukarıdakilerden hangisi ya da hangileri bir siber saldırgana ait motivasyon değildir?",
+          "options": {
+            "A": "Ive III",
+            "B": "Yalnız I",
+            "C": "Ive II",
+            "D": "Yalnız II",
+            "E": "II ve III"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Sunucu katmanı I. Saldırı katmanı II. Ağ katmanı III. Yukarıda yer alan seçeneklerden hangisi veya hangileri siber güvenliğin 7 katmanından biri değildir?",
+          "options": {
+            "A": "Ive II",
+            "B": "Yalnız III",
+            "C": "II ve III",
+            "D": "Ive III",
+            "E": "Yalnız I"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Bütünlük ilkesi I. Şeffaflık ilkesi II. Kullanılabilirlik ilkesi III. Yukarıda yer alan öncüllerden hangisi veya hangileri bilgi güvenliğinin temel ilkelerindendir?",
+          "options": {
+            "A": "Yalnız II",
+            "B": "Yalnız I",
+            "C": "Ive II",
+            "D": "II ve III",
+            "E": "Ive III"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "“…...... kullanılarak gerçekleştirilen kimlik doğrulama verilerin değiştirilmediğinden ve göndericinin alıcının veri almak istediği kişi olduğundan emin olmak için mesajın bir tür kimlik doğrulamasıdır.” cümlesinde yer alan boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "Çırpı fonksiyonu",
+            "B": "Telnet",
+            "C": "UDP",
+            "D": "SMTP",
+            "E": "TCP"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Siber uzayın güvenli olması I. Siber uzaya giriş engelinin bulunmaması II. Siber uzayın asimetrisi III. Yukarıdakilerden hangisi veya hangileri güvenlik açığı nedenlerindendir?",
+          "options": {
+            "A": "Ive III",
+            "B": "II ve III",
+            "C": "Yalnız II",
+            "D": "Ive II",
+            "E": "Yalnız III"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
       "title": "Siber Güvenlik 2023 Vize",
       "exam_type": "vize",
       "year": "2023",
@@ -1405,5 +1756,5 @@
       "exam_title": "Siber Güvenlik 2024 Final"
     }
   ],
-  "exam_count": 5
+  "exam_count": 6
 }

@@ -1,7 +1,7 @@
 {
   "course": "Kullanici Deneyimi Tasarimi",
   "lesson_code": "KULLANICI_DENEYIMI_TASARIMI",
-  "exam_count": 4,
+  "exam_count": 18,
   "exams": [
     {
       "title": "Kullanici Deneyimi Tasarimi 2024 Vize",
@@ -1397,6 +1397,2446 @@
             "C": "Desenler",
             "D": "Akışlar, fonksiyonlar",
             "E": "Varlıklar"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 1",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2024/10/13/kullanici-deneyimi-tasarimi-unite-1/",
+      "unit_number": 1,
+      "unit_label": "1. Kullanıcı Deneyimi, Etkileşim Tasarımı ve Temel Kavramlar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İnsan bilgisayar etkileşiminin üç boyutu aşağıdakilerden hangisinde doğru verilmiştir?",
+          "options": {
+            "A": "kullanıcı - ortam - zaman",
+            "B": "kullanıcı - arayüz - zaman",
+            "C": "kullanıcı - ortam - arayüz",
+            "D": "kullanıcı - görev - arayüz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kullanıcı deneyimi tasarımı hangi disiplinlerle ilişkilidir?",
+          "options": {
+            "A": "Bilgisayar Bilimi, Endüstriyel Tasarım, Proje Yönetimi",
+            "B": "Grafik Tasarım, Yazılım Geliştirme, Veri Yönetimi",
+            "C": "Finans, Hukuk, Eğitim",
+            "D": "Mühendislik, Pazarlama, Sanat",
+            "E": "Tıp, Psikoloji, Biyoloji"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi deneyim tasarımcının rollerinden biridir?",
+          "options": {
+            "A": "Ürünün teknik altyapısını geliştirmek",
+            "B": "Ürünün satış stratejisini belirlemek",
+            "C": "Kullanıcı ihtiyaçlarını analiz ederek ürünü bu ihtiyaçlara uygun hale getirmek",
+            "D": "Ürünün fiyatını belirlemek"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Peter Morville’in kullanıcı deneyimi modeli hangi boyutlara odaklanır?",
+          "options": {
+            "A": "Kullanışlılık, Erişilebilirlik, Güvenilirlik",
+            "B": "Erişilebilirlik, Hız, Donanım",
+            "C": "Güvenlik, Performans, Görsellik",
+            "D": "Kullanışlılık, Estetik, Verimlilik",
+            "E": "Performans, İkonlar, Metinler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Etkileşim tasarımının amacı nedir?",
+          "options": {
+            "A": "Kullanıcıların teknik bilgi edinmesini sağlamak",
+            "B": "Kullanıcıların sistemi daha verimli kullanmasını sağlamak",
+            "C": "Sistem güvenliğini artırmak",
+            "D": "Görsel tasarımı geliştirmek",
+            "E": "Sistem karmaşıklığını artırmak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Arayüz tasarımı ile etkileşim tasarımı arasındaki ilişki nedir?",
+          "options": {
+            "A": "Arayüz tasarımı etkileşim tasarımını kapsar",
+            "B": "Etkileşim tasarımı, arayüzün görsel yönleriyle ilgilenir",
+            "C": "Arayüz tasarımı, etkileşim tasarımıyla ilgisizdir",
+            "D": "Etkileşim tasarımı, arayüzle sınırlıdır",
+            "E": "Arayüz tasarımı yalnızca yazılım unsurlarını ele alır"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangi tasarım prensibi kullanıcı deneyimini iyileştirmek için önemlidir?",
+          "options": {
+            "A": "Tasarımın karmaşık olması",
+            "B": "Kullanıcıyı odakta tutmak",
+            "C": "Tasarımın tamamen geliştirici odaklı olması",
+            "D": "Kullanıcıdan geri bildirim almamak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Deneyim tasarımına dahil olmayan unsur hangisidir?",
+          "options": {
+            "A": "ortam",
+            "B": "kullanıcı",
+            "C": "zaman",
+            "D": "lisan"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Kullanıcı deneyimi hangi aşamalardan oluşur?",
+          "options": {
+            "A": "Araştırma, tasarım, test etme, geliştirme",
+            "B": "Üretim, pazarlama, satış, geri bildirim",
+            "C": "Planlama, maliyet hesaplama, uygulama, değerlendirme",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Kullanıcı deneyimi nedir?",
+          "options": {
+            "A": "Kullanıcıların ürünle etkileşimde bulunduğu süreçtir.",
+            "B": "Sadece ürünün teknik özelliklerine odaklanır.",
+            "C": "Kullanıcıların sisteme geri bildirim vermesini engeller.",
+            "D": "Yalnızca görsel tasarım ile ilgilenir.",
+            "E": "Sistem performansını artırmayı amaçlar."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 2",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2024/10/15/kullanici-deneyimi-tasarimi-unite-2/",
+      "unit_number": 2,
+      "unit_label": "2. Problem ve İhtiyaç Tanımlama",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hangi yöntem kullanıcının davranışlarını analiz etmek için en uygundur?",
+          "options": {
+            "A": "Anket",
+            "B": "Gözlem",
+            "C": "Mülakat",
+            "D": "Kullanıcı senaryoları",
+            "E": "Persona"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangi yöntem gereksinim toplama için yaygın olarak kullanılır?",
+          "options": {
+            "A": "Anketler",
+            "B": "Gözlem",
+            "C": "Odak grupları",
+            "D": "Hepsi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İhtiyaç analizi sürecinde paydaşlarla iletişim neden önemlidir?",
+          "options": {
+            "A": "Paydaşların projeye katkı yapmasını sağlamak",
+            "B": "Paydaşların projeden haberdar olmasını sağlamak",
+            "C": "Paydaşların ihtiyaçlarının ve beklentilerinin doğru anlaşılmasını sağlamak",
+            "D": "Paydaşların projeye finansal destek vermesini sağlamak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Kullanıcı araştırmasında hangi yöntem daha geniş veri toplamak için uygundur?",
+          "options": {
+            "A": "Mülakat",
+            "B": "Bağlamsal araştırma",
+            "C": "Gözlem",
+            "D": "Anket",
+            "E": "Deney"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Persona nedir?",
+          "options": {
+            "A": "Kullanıcı arayüzü tasarımı için bir yazılım",
+            "B": "Kullanıcı deneyimi tasarımında hedef kullanıcıyı temsil eden kurgusal karakter",
+            "C": "Bir ürünün özelliklerini tanıtan bir belge",
+            "D": "Kullanıcıların geri bildirimlerini toplamak için kullanılan bir anket türü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi ürün ortaya çıkmadan tanımlanmalıdır?",
+          "options": {
+            "A": "Problem",
+            "B": "İhtiyaç",
+            "C": "Gereksinim",
+            "D": "Kullanıcı Arayüzü"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Problem tanımlamanın amacı nedir?",
+          "options": {
+            "A": "Kullanıcının acı noktalarını anlamak",
+            "B": "Kullanıcı ihtiyaçlarını göz ardı etmek",
+            "C": "Problemin çözümüne hızlıca geçmek",
+            "D": "Sadece ürün geliştirmek",
+            "E": "Kullanıcının kültürel özelliklerini göz önüne almak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Gereksinim analizi tamamlandıktan sonra yapılması gereken nedir?",
+          "options": {
+            "A": "Gereksinimlerin projeye uygunluğunu gözden geçirmek",
+            "B": "Gereksinimlerin proje ekibine dağıtılması",
+            "C": "Gereksinimlerin maliyet analizini yapmak",
+            "D": "Gereksinimlerin proje planına eklenmesi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Persona oluşturmanın amacı nedir?",
+          "options": {
+            "A": "Kullanıcıyı göz ardı etmek",
+            "B": "Hedef kitlenin acı noktalarını anlamak",
+            "C": "Farklı projeler için genel bir çözüm üretmek",
+            "D": "Projeyi hızlandırmak",
+            "E": "Rakiplerin ihtiyaçlarını karşılamak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Maslow’un ihtiyaçlar hiyerarşisinin ilk basamağında hangi ihtiyaç yer alır?",
+          "options": {
+            "A": "Güvenlik",
+            "B": "Sosyal",
+            "C": "Fizyolojik",
+            "D": "Kendini gerçekleştirme",
+            "E": "Özgüven"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 3",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2024/10/15/kullanici-deneyimi-tasarimi-unite-3/",
+      "unit_number": 3,
+      "unit_label": "3. Kullanıcı Deneyim Tasarımında Yaklaşımlar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Tasarım odaklı düşünce hangi aşamayla başlar?",
+          "options": {
+            "A": "Tanımlama",
+            "B": "Prototipleme",
+            "C": "Test etme",
+            "D": "Empati"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kullanıcı merkezli tasarım hangi unsura öncelik verir?",
+          "options": {
+            "A": "Kullanıcının ihtiyaçlarını ve beklentilerini merkeze almak",
+            "B": "Projenin finansal gereksinimlerini belirlemek",
+            "C": "Ürün pazarlama stratejisini geliştirmek",
+            "D": "Teknolojik yenilikleri ön plana çıkarmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Davranışsal tasarımın temel amacı nedir?",
+          "options": {
+            "A": "Kullanıcının estetik tercihlerine odaklanmak",
+            "B": "Kullanıcı davranışlarını teşvik ederek istenen sonuçları elde etmek",
+            "C": "Kullanıcının fiziksel engellerini dikkate almak",
+            "D": "Kullanıcıların teknolojiyi nasıl kullandığını incelemek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Hangi UX tasarım yaklaşımı, ürünün tüm yaşam döngüsü boyunca kullanıcı geri bildirimlerine dayanır?",
+          "options": {
+            "A": "Kapsamlı tasarım",
+            "B": "Kullanıcı odaklı tasarım",
+            "C": "Eylem odaklı tasarım",
+            "D": "Sürekli entegrasyon"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Agile UX ve Lean UX arasındaki en büyük fark nedir?",
+          "options": {
+            "A": "Agile UX daha fazla belgeleme gerektirir",
+            "B": "Lean UX daha fazla kullanıcı geri bildirimi almayı hedefler",
+            "C": "Agile UX daha kısa iterasyonlara odaklanır",
+            "D": "Lean UX daha az müşteri odaklıdır"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Stratejik tasarımın temel amacı nedir?",
+          "options": {
+            "A": "Kullanıcı davranışlarını değiştirmek",
+            "B": "Kurumsal stratejilere uygun deneyim çözümleri geliştirmek",
+            "C": "Estetik tasarımı ön planda tutmak",
+            "D": "Süreçlerin verimliliğini artırmak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Tasarım düşüncesi yaklaşımı hangi aşama ile başlar?",
+          "options": {
+            "A": "Fikir üretimi",
+            "B": "Prototipleme",
+            "C": "Empati kurma",
+            "D": "Test etme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Agile UX tasarımının en önemli özelliklerinden biri nedir?",
+          "options": {
+            "A": "Sabit tasarım döngüleri",
+            "B": "Esneklik ve hızlı iterasyonlar",
+            "C": "Detaylı ve uzun planlama",
+            "D": "Kullanıcı geri bildirimlerinin göz ardı edilmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Yalın kullanıcı deneyimi neye odaklanır?",
+          "options": {
+            "A": "Tasarımın estetik değerlerini artırmak",
+            "B": "Prototipleri hızlıca geliştirmek ve geri bildirim almak",
+            "C": "Kullanıcıların duygusal tepkilerini analiz etmek",
+            "D": "Proje yönetiminde dokümantasyona önem vermek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangi UX tasarım yaklaşımı, kullanıcıların gerçek dünyadaki davranış ve alışkanlıklarını temel alır?",
+          "options": {
+            "A": "Agile tasarım",
+            "B": "Tasarım odaklı düşünme (Design Thinking)",
+            "C": "Gözleme dayalı tasarım",
+            "D": "Eylem odaklı tasarım"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 4",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2024/10/15/kullanici-deneyimi-tasarimi-unite-4/",
+      "unit_number": 4,
+      "unit_label": "4. Evrensel Tasarım ve İnsan Odaklı Tasarım İlkeleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Arayüz tasarımında Simetri neden önemlidir?",
+          "options": {
+            "A": "Kullanıcı deneyimini sıkıcı hale getirir",
+            "B": "Kullanıcılara güven duygusu sağlar",
+            "C": "Tasarımda karmaşayı artırır",
+            "D": "Kullanıcıları farklı yönlendirmelere maruz bırakır",
+            "E": "Sistem performansını artırır"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangi ilke, ürünlerin kullanıcı hatalarına karşı toleranslı olmasını gerektirir?",
+          "options": {
+            "A": "Esneklik",
+            "B": "Basit ve sezgisel kullanım",
+            "C": "Hata toleransı",
+            "D": "Algılanabilir bilgi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Evrensel tasarım ilkelerinden “Eşit Kullanım” neyi ifade eder?",
+          "options": {
+            "A": "Kullanıcıların her biri için farklı deneyim sağlanması",
+            "B": "Farklı yetenek ve becerilere sahip kullanıcıların aynı şekilde yararlanması",
+            "C": "Her kullanıcının özel ayarlar yapabilmesi",
+            "D": "Sistemlerin sadece belirli kullanıcı grupları için tasarlanması",
+            "E": "Kullanıcı geri bildirimlerine dayalı güncellemeler yapılması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Hata Toleransı ilkesi neyi amaçlar?",
+          "options": {
+            "A": "Kullanıcının yaptığı hataların sistem tarafından fark edilmemesi",
+            "B": "Sistemin kullanıcı hatalarını önceden tahmin edip çözmesi",
+            "C": "Sistem hatalarını kullanıcıya göstermemek",
+            "D": "Kullanıcının hatalarının cezalandırılması",
+            "E": "Kullanıcı hatalarının tamamen önlenmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Eşit kullanım ilkesi neyi ifade eder?",
+          "options": {
+            "A": "Ürünün sadece belirli bir grup tarafından kullanılabilmesini",
+            "B": "Ürünün farklı yeteneklere sahip insanlar tarafından kullanılabilmesini",
+            "C": "Ürünün estetik olarak hoş olmasını",
+            "D": "Ürünün sadece çocuklar tarafından kullanılabilmesini"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Basit ve Sezgisel Kullanım ilkesi neyi hedefler?",
+          "options": {
+            "A": "Karmaşık süreçlerin basitleştirilmesini sağlamak",
+            "B": "Kullanıcıların tüm seçenekleri görebilmesini sağlamak",
+            "C": "Kullanıcıların bilgiyi taramasını kolaylaştırmak",
+            "D": "Kullanıcıların deneyimlerini zorlaştırmak",
+            "E": "Kullanıcılara sürekli yardım sunmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Evrensel tasarım nedir?",
+          "options": {
+            "A": "Sadece engelli kullanıcılar için yapılan tasarım",
+            "B": "Herkes tarafından kullanılabilir ve erişilebilir ürünler tasarlama yaklaşımı",
+            "C": "Yalnızca yaşlılar için yapılan tasarım",
+            "D": "Estetik açıdan mükemmel ürünler tasarlama yaklaşımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Arayüzde katman efekti oluşturmak için hangi gestalt ilkesi kullanılır?",
+          "options": {
+            "A": "Benzerlik",
+            "B": "Yakınlık",
+            "C": "Simetri",
+            "D": "Şekil/zemin"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Kullanıcıda büyü etkisini yaratan arayüz tasarım ilkesi hangisidir?",
+          "options": {
+            "A": "Ritim",
+            "B": "Vurgu",
+            "C": "Bütünlük",
+            "D": "Denge"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Algılanabilir Bilgi ilkesi neyi ifade eder?",
+          "options": {
+            "A": "Kullanıcının tüm bilgileri hızlıca okumasını sağlamak",
+            "B": "Bilginin her an aynı şekilde sunulmasını sağlamak",
+            "C": "Bilginin kullanıcıya en hızlı ve etkili şekilde aktarılması",
+            "D": "Karmaşık bilgilerin her kullanıcıya aynı şekilde sunulması",
+            "E": "Bilgilerin kullanıcılara zorunlu olarak sunulması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 5",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2024/10/15/kullanici-deneyimi-tasarimi-unite-5/",
+      "unit_number": 5,
+      "unit_label": "5. Kullanıcı Deneyimi Araştırmalarına ve Tekniklerine Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kullanıcıda büyü etkisini yaratan arayüz tasarım ilkesi hangisidir?",
+          "options": {
+            "A": "Ritim",
+            "B": "Vurgu",
+            "C": "Bütünlük",
+            "D": "Denge",
+            "E": "Devamlılık"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangi araştırma yöntemi, kullanıcıların gerçek dünyadaki davranışlarını gözlemlemeye dayanır?",
+          "options": {
+            "A": "Gölge çalışması",
+            "B": "Anket",
+            "C": "Günlük çalışması (Diary study)",
+            "D": "Odak grupları",
+            "E": "Paydaş analizi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Evrensel tasarım nedir?",
+          "options": {
+            "A": "Sadece engelli kullanıcılar için yapılan tasarım",
+            "B": "Herkes tarafından kullanılabilir ve erişilebilir ürünler tasarlama yaklaşımı",
+            "C": "Yalnızca yaşlılar için yapılan tasarım",
+            "D": "Estetik açıdan mükemmel ürünler tasarlama yaklaşımı",
+            "E": "Yalnızca yüksek gelirli kullanıcılar için tasarım"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Eşit kullanım ilkesi neyi ifade eder?",
+          "options": {
+            "A": "Ürünün sadece belirli bir grup tarafından kullanılabilmesi",
+            "B": "Ürünün farklı yeteneklere sahip insanlar tarafından kullanılabilmesi",
+            "C": "Ürünün estetik olarak hoş olmasını",
+            "D": "Ürünün sadece çocuklar tarafından kullanılabilmesi",
+            "E": "Ürünün sadece fiziksel olarak güçlü bireyler için tasarlanması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Kullanıcı araştırmasının amacı nedir?",
+          "options": {
+            "A": "Ürün geliştirme sürecinde kullanılan teknik belgelerin hazırlanması",
+            "B": "Kullanıcıların acı noktalarını keşfetmek",
+            "C": "Ürün satış stratejilerini geliştirmek",
+            "D": "Ürünün maliyetini belirlemek",
+            "E": "Yeni pazarlama kampanyaları oluşturmak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hangi yöntem, kullanıcıların belirli bir ürünü veya hizmeti nasıl algıladıklarını anlamak için grup tartışmalarını içerir?",
+          "options": {
+            "A": "Odak grupları",
+            "B": "Anket",
+            "C": "A/Btesti",
+            "D": "Derinlemesine görüşme",
+            "E": "Gölge çalışması"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangi araştırma yöntemi, aynı anda birçok kullanıcıdan veri toplamak için kullanılır?",
+          "options": {
+            "A": "Derinlemesine görüşme",
+            "B": "Anket",
+            "C": "Günlük çalışması",
+            "D": "Gözlemsel araştırma",
+            "E": "Odak grupları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangi ilke, ürünlerin kullanıcı hatalarına karşı toleranslı olmasını gerektirir?",
+          "options": {
+            "A": "Esneklik",
+            "B": "Basit ve sezgisel kullanım",
+            "C": "Hata toleransı",
+            "D": "Algılanabilir bilgi",
+            "E": "Minimalist tasarım"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangi kullanıcı araştırma yöntemi, kullanıcılarla birebir görüşmeler yaparak derinlemesine bilgi toplar?",
+          "options": {
+            "A": "Anket",
+            "B": "Odak grupları",
+            "C": "Gözlem",
+            "D": "Bağlamsal görüşme",
+            "E": "Günlük çalışması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Arayüzde katman efekti oluşturmak için hangi gestalt ilkesi kullanılır?",
+          "options": {
+            "A": "Benzerlik",
+            "B": "Yakınlık",
+            "C": "Simetri",
+            "D": "Şekil/zemin",
+            "E": "Hiyerarşi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 6",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2024/10/15/kullanici-deneyimi-tasarimi-unite-6/",
+      "unit_number": 6,
+      "unit_label": "6. Kullanılabilirlik",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi kullanılabilirlik testinde ölçülen faktörlerden biridir?",
+          "options": {
+            "A": "Renk uyumu",
+            "B": "Memnuniyet",
+            "C": "Reklam başarısı",
+            "D": "Tasarımın modası",
+            "E": "Ürünün satış miktarı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kullanılabilirlik testinin temel amacı nedir?",
+          "options": {
+            "A": "Tasarımın maliyetini belirlemek",
+            "B": "Ürünün estetik değerlendirmesini yapmak",
+            "C": "Kullanıcının ürünle nasıl etkileşime geçtiğini anlamak",
+            "D": "Ürünün piyasadaki fiyatını analiz etmek",
+            "E": "Ürünün reklamını yapmak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Kullanılabilirlik için temel olarak ne gerekir?",
+          "options": {
+            "A": "Model",
+            "B": "Cihaz",
+            "C": "Teknik araç",
+            "D": "Araç"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Kullanılabilirliğin hangi unsuru, bir kullanıcının bir sistemi öğrenme hızını ifade eder?",
+          "options": {
+            "A": "Öğrenilebilirlik",
+            "B": "Hatırlanabilirlik",
+            "C": "Verimlilik",
+            "D": "Hata yönetimi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangi yöntem, bir ürünün kullanıcı deneyimini belirli görevler üzerinden test etmeyi amaçlar?",
+          "options": {
+            "A": "A/Btesti",
+            "B": "Kullanılabilirlik testi (Usability testing)",
+            "C": "Anket",
+            "D": "Kart sıralama (Card sorting)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Kullanılabilirlik testi sırasında hangi veri türü en çok toplanır?",
+          "options": {
+            "A": "Kullanıcıların ürünü ne kadar sürede tamamladığı",
+            "B": "Kullanıcıların ürünün tasarımı hakkında ne düşündüğü",
+            "C": "Kullanıcıların ürünle ilgili teknik bilgisi",
+            "D": "Kullanıcıların yaş aralığı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Kullanılabilirlik testlerinde hangi teknik, kullanıcıların yüksek sesle düşünmesini sağlar?",
+          "options": {
+            "A": "Göz izleme",
+            "B": "Kart sıralama",
+            "C": "Sesli düşünme tekniği",
+            "D": "Odak grup çalışması",
+            "E": "Anket"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Kullanılabilirlik açısından verimlilik neyi ifade eder?",
+          "options": {
+            "A": "Kullanıcının ürünü kullanırken ne kadar az enerji harcadığı",
+            "B": "Kullanıcının belirli görevleri ne kadar hızlı tamamlayabildiği",
+            "C": "Ürünün teknik performansı",
+            "D": "Kullanıcının ürünü ilk kez kullanma süresi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Kullanılabilirlik testi ne zaman yapılır?",
+          "options": {
+            "A": "Sadece ürün piyasaya sürüldükten sonra",
+            "B": "Ürün geliştirilme sürecinin her aşamasında",
+            "C": "Ürün tamamen geliştikten sonra",
+            "D": "Ürün satışa sunulmadan hemen önce",
+            "E": "Sadece tasarım aşamasında"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Kullanılabilirlik nedir?",
+          "options": {
+            "A": "Tasarımın görsel açıdan hoş olması",
+            "B": "Kullanıcının ürünü rahatlıkla kullanabilmesi",
+            "C": "Yalnızca uzman kullanıcılar için yapılmış olması",
+            "D": "Ürünün sadece estetik kaygılarla tasarlanması",
+            "E": "Sistemin işlevsiz olması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 7",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2024/10/16/kullanici-deneyimi-tasarimi-unite-7/",
+      "unit_number": 7,
+      "unit_label": "7. Bilgi Mimarisi",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kart sıralama yöntemi ne için kullanılır?",
+          "options": {
+            "A": "Kullanıcıların ürün tasarımını test etmesi için",
+            "B": "Kullanıcıların içeriği nasıl organize ettiğini öğrenmek için",
+            "C": "Kullanıcıların demografik bilgilerini toplamak için",
+            "D": "Ürün fiyatlandırma stratejisini belirlemek için"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bilgi mimarisinde “navigasyon” neyi ifade eder?",
+          "options": {
+            "A": "Web sitesinin görsel tasarımını",
+            "B": "Kullanıcıların sitede gezinme yollarını ve yöntemlerini",
+            "C": "Web sitesinin teknik performansını",
+            "D": "Kullanıcıların siteyi ne kadar sürede ziyaret ettiğini"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bilgi mimarisinde bulunabilirlik ne anlama gelir?",
+          "options": {
+            "A": "Kullanıcıların aradıkları bilgiyi kolayca bulabilme yeteneği",
+            "B": "SEO performansı",
+            "C": "Web sitesinin hızı",
+            "D": "Web sitesinin estetik tasarımı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bilgi mimarisi tasarımı kaç aşamadan oluşur?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bilgi mimarisinde sınıflama işlemi hangi aşamada gerçekleştirilir?",
+          "options": {
+            "A": "Kavramsal aşama",
+            "B": "Mantıksal aşama",
+            "C": "Fiziksel aşama",
+            "D": "Geliştirme aşaması",
+            "E": "Tasarım aşaması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bilgi mimarisinde hangi unsur bilgiyi ilişkilendirme ve yapılandırma işlevini yerine getirir?",
+          "options": {
+            "A": "Etiketleme",
+            "B": "Düzenleme",
+            "C": "Navigasyon",
+            "D": "Tanımlama",
+            "E": "Sınıflandırma"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bilgi mimarisinin temel amacı nedir?",
+          "options": {
+            "A": "Kullanıcıların bilgiyi bulmasını kolaylaştırmak",
+            "B": "Web sitesinin hızını artırmak",
+            "C": "Görsel tasarımı geliştirmek",
+            "D": "SEO performansını artırmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bilgi mimarisinin dört temel unsuru nelerdir?",
+          "options": {
+            "A": "Planlama, analiz, tasarım, uygulama",
+            "B": "Düzenleme, etiketleme, tanımlama, navigasyon",
+            "C": "Bilgi toplama, sınıflandırma, sunma, depolama",
+            "D": "Araştırma, geliştirme, uygulama, değerlendirme",
+            "E": "İçerik yönetimi, bilgi sunumu, tasarım, veri analizi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangi terim, bilgi mimarisinde kullanıcıların sitenin yapısını kolayca anlayabilmesi için bilgilerin mantıksal bir şekilde düzenlenmesini ifade eder?",
+          "options": {
+            "A": "Kategorileme",
+            "B": "Hiyerarşi",
+            "C": "Metin yazımı",
+            "D": "Prototipleme"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bilgi mimarisi nedir?",
+          "options": {
+            "A": "Dijital sistemlerde bilgilerin düzenlenmesi ve yapılandırılması",
+            "B": "Mimarlık projelerinin yönetimi",
+            "C": "Sanat eserlerinin kataloglanması",
+            "D": "Bilgisayar donanımlarının yönetimi",
+            "E": "Veritabanı oluşturma süreci"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 8",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2024/10/16/kullanici-deneyimi-tasarimi-unite-8/",
+      "unit_number": 8,
+      "unit_label": "8. Fikri Görselleştirme Yaklaşımları",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Fikri görselleştirme araçlarının seçiminde hangi kriter öncelikli değildir?",
+          "options": {
+            "A": "Hazır arayüz kitleriyle uyumluluk",
+            "B": "Düşük maliyetli olması",
+            "C": "Farklı seviyelerde görselleştirme imkânı",
+            "D": "İş birliği ve geri bildirim toplama özellikleri",
+            "E": "Dışa aktarma ve devretme seçenekleri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangi wireframe türü, sadece ana hatları çizer ve tasarım sürecinin en erken aşamalarında kullanılır?",
+          "options": {
+            "A": "Mockup",
+            "B": "Düşük doğruluklu (low-fidelity)",
+            "C": "Yüksek doğruluklu (high-fidelity)",
+            "D": "Prototip"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Mockup nedir?",
+          "options": {
+            "A": "Projenin son aşamasında hazırlanan rapordur",
+            "B": "Projenin yüksek detaylı görsel tasarım temsiliyetidir",
+            "C": "Proje yönetim sürecindeki analizdir",
+            "D": "Projeyi başlatmak için kullanılan ilk tasarımdır",
+            "E": "Bilgi mimarisini oluşturmak için kullanılan bir araçtır"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Wireframe tasarımı sırasında hangi unsur genellikle odaklanılır?",
+          "options": {
+            "A": "Renklerin estetik uyumu",
+            "B": "Bilgi hiyerarşisi ve kullanıcı akışı",
+            "C": "Yazılım kodlaması",
+            "D": "Animasyonların tasarımı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Düşük düzeyli wireframe’lerde hangisi yer almaz?",
+          "options": {
+            "A": "Görsellerin ve metinlerin yerleşimi",
+            "B": "Renkler ve fontlar",
+            "C": "Navigasyon yapısı",
+            "D": "Butonların ve bağlantıların konumları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Wireframe tasarımında hangi unsurlar bulunmaz?",
+          "options": {
+            "A": "Görsel estetik ve renk hiyerarşisi",
+            "B": "Kullanıcının sistemle etkileşim yolları",
+            "C": "Bilgi ve fonksiyonların konumlandırılması",
+            "D": "Çoklu ekran senaryoları",
+            "E": "Yer tutucu içerikler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Low-fidelity wireframe nedir?",
+          "options": {
+            "A": "Yüksek detay içeren, nihai tasarıma yakın wireframe'dir",
+            "B": "Çok düşük detay içeren, hızlıca hazırlanan wireframe'dir",
+            "C": "Müşteri sunumlarında kullanılan tasarımdır",
+            "D": "Projenin estetik değerini öne çıkaran tasarımdır",
+            "E": "Tasarım belgesi hazırlamak için kullanılan aşamadır"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangi araçlar wireframe oluşturmak için yaygın olarak kullanılır?",
+          "options": {
+            "A": "Adobe Photoshop",
+            "B": "Microsoft Word",
+            "C": "Excel",
+            "D": "Figma"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangi tür wireframe daha ayrıntılıdır ve genellikle düşük veya yüksek doğruluklu prototiplere geçiş yapar?",
+          "options": {
+            "A": "Düşük doğruluklu wireframe (low-fidelity)",
+            "B": "Taslak (Sketch)",
+            "C": "Yüksek doğruluklu wireframe (high-fidelity)",
+            "D": "Mockup"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Fikri görselleştirmenin temel amacı nedir?",
+          "options": {
+            "A": "Fikirleri somutlaştırmak ve proje sürecini hızlandırmak",
+            "B": "Projeyi estetik açıdan daha iyi göstermek",
+            "C": "Kullanıcı araştırmalarını analiz etmek",
+            "D": "Proje maliyetlerini düşürmek",
+            "E": "Müşteri sunumlarını kolaylaştırmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 9",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 9",
+      "exam_type": "unite",
+      "year": "9",
+      "question_count": 9,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-9",
+      "source_url": "https://lolonolo.com/2024/10/16/kullanici-deneyimi-tasarimi-unite-9/",
+      "unit_number": 9,
+      "unit_label": "9. Etkileşim Tasarımı",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Etkileşim tasarımının grafik tasarımdan farkı nedir?",
+          "options": {
+            "A": "Etkileşim tasarımı sadece estetik düzenlemeler yapar",
+            "B": "Grafik tasarım işlevselliği iyileştirir",
+            "C": "Etkileşim tasarımı, kullanıcı deneyimini odak alır",
+            "D": "Grafik tasarım kullanıcı etkileşimlerini organize eder",
+            "E": "Grafik tasarım dijital arayüzlerde kullanılamaz"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangi unsur etkileşim tasarımında önemli bir rol oynar?",
+          "options": {
+            "A": "Kullanıcının ürünü nasıl kullandığını anlamak",
+            "B": "Renk şeması",
+            "C": "SEO optimizasyonu",
+            "D": "İçerik yazımı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Etkileşim tasarımında “tutarlılık” neden önemlidir?",
+          "options": {
+            "A": "Kullanıcıların sistemde gezinirken aynı unsurların aynı şekilde çalışmasını beklemesi",
+            "B": "Kullanıcıların ürünü tekrar tekrar kullanma sıklığını artırmak için",
+            "C": "Ürünün teknik performansını optimize etmek için",
+            "D": "Ürünün estetik tasarımını geliştirmek için"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Etkileşim tasarımında hangi ilke, kullanıcının hatalarını minimize etmeyi hedefler?",
+          "options": {
+            "A": "Sezgisellik",
+            "B": "Kontrolü kullanıcıya bırakma",
+            "C": "Affedici olma",
+            "D": "Öğrenilebilirlik",
+            "E": "Çekicilik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangi boyut, etkileşim tasarımında kullanıcının eylemlerine verilen tepkileri içerir?",
+          "options": {
+            "A": "Kelimeler",
+            "B": "Fiziksel mekân",
+            "C": "Etki/Tepki",
+            "D": "Zaman",
+            "E": "Görsel temsiller"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Etkileşim tasarımında hangi ilke, kullanıcının sistemdeki öğeleri net bir şekilde algılamasını sağlar?",
+          "options": {
+            "A": "Benzeşik öğeler kullanma",
+            "B": "Görünürlük",
+            "C": "Sezgisellik",
+            "D": "Affedici olma",
+            "E": "Kontrolü kullanıcıya bırakma"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangi unsur etkileşim tasarımında “hata önleme” (error prevention) olarak bilinir?",
+          "options": {
+            "A": "Kullanıcılara hata yapma ihtimallerini azaltan bir arayüz sağlamak",
+            "B": "Hataları tespit eden bir yazılım geliştirmek",
+            "C": "Kullanıcılara hataları bildiren bir sistem geliştirmek",
+            "D": "Kullanıcıların ürünü yanlış kullanmasını teşvik etmek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Etkileşim tasarımının temel amacı nedir?",
+          "options": {
+            "A": "Kullanıcıların cihazlarla olan etkileşimlerini organize etmek",
+            "B": "Görsel tasarımı güçlendirmek",
+            "C": "Kullanıcının yazılım kodlamasını öğrenmesini sağlamak",
+            "D": "Cihazların estetik görünümünü iyileştirmek",
+            "E": "Yükleme sürelerini azaltmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Etkileşim tasarımında “geri bildirim” (feedback) ne anlama gelir?",
+          "options": {
+            "A": "Kullanıcıların ürüne geri dönüş yapma hızı",
+            "B": "Kullanıcının yaptığı eylemin sonucuyla ilgili verilen bilgilendirme",
+            "C": "Kullanıcıların ürünle ilgili verdiği yazılı yorumlar",
+            "D": "Kullanıcıların ürünü satın alma oranı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 10",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 10",
+      "exam_type": "unite",
+      "year": "10",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-10",
+      "source_url": "https://lolonolo.com/2024/10/16/kullanici-deneyimi-tasarimi-unite-10/",
+      "unit_number": 10,
+      "unit_label": "10. Prototipleme",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Düşük sadakatli (low-fidelity) prototipler ne için kullanılır?",
+          "options": {
+            "A": "Ürünün tüm işlevselliğini detaylı test etmek",
+            "B": "Hızlı ve düşük maliyetle fikir doğrulamak",
+            "C": "Kullanıcı testi yapmak",
+            "D": "Nihai ürünle aynı deneyimi sunmak",
+            "E": "Kullanıcıların estetik algısını ölçmek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Keşifsel prototipleme neyi hedefler?",
+          "options": {
+            "A": "Kullanıcı deneyimi için nihai çözümü oluşturmak",
+            "B": "Ürünün donanım performansını artırmak",
+            "C": "Gereksinimleri ve olası çözümleri görünür kılmak",
+            "D": "Nihai ürünle aynı deneyimi sunmak",
+            "E": "Projenin pazarlama stratejisini geliştirmek"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Prototipleme nedir ve hangi amaçlarla kullanılır?",
+          "options": {
+            "A": "Ürünün son halini üretmeden önce işlevselliğini test etmek",
+            "B": "Ürünün estetik tasarımını geliştirmek",
+            "C": "Ürünün pazarlama stratejisini oluşturmak",
+            "D": "Ürünün sadece grafik tasarımını test etmek",
+            "E": "Ürünün donanım performansını test etmek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Prototipler hangi amaçla kullanılır?",
+          "options": {
+            "A": "Ürünün görsel tasarımını tamamlamak",
+            "B": "Kullanıcı geri bildirimlerini toplamak ve tasarımı iyileştirmek",
+            "C": "Yazılımın arka plan kodlamasını yapmak",
+            "D": "Ürünün fiyatını belirlemek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Prototipleme hangi aşamada kullanılır?",
+          "options": {
+            "A": "Proje planlaması aşamasında",
+            "B": "Tasarım aşamasında, özellikle kullanıcı geri bildirimlerini toplamak için",
+            "C": "Ürünün piyasaya sürülmesinden sonra",
+            "D": "Ürünün son testleri sırasında"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Prototipin sadakat düzeyi neyi ifade eder?",
+          "options": {
+            "A": "Prototipin estetik kalitesini",
+            "B": "Prototipin ürünle ne kadar benzer olduğunu",
+            "C": "Prototipin üretim maliyetini",
+            "D": "Prototipin pazarlama stratejisini",
+            "E": "Prototipin yazılım geliştirme sürecini"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangi prototipleme türü ürünün tüm işlevselliğini test etmeyi hedefler?",
+          "options": {
+            "A": "Keşifsel prototipleme",
+            "B": "Yatay prototipleme",
+            "C": "Düşük sadakatli prototipleme",
+            "D": "Yüksek sadakatli prototipleme",
+            "E": "Evrimsel prototipleme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Prototiplemenin avantajı nedir?",
+          "options": {
+            "A": "Prototipler, tasarımın final versiyonunu oluşturmak için kullanılır",
+            "B": "Prototipler, tasarım sürecinde riskleri azaltır ve tasarım hatalarını erken aşamada tespit etmeye yardımcı olur",
+            "C": "Prototipler, ürünün üretim maliyetini artırır",
+            "D": "Prototipler, ürünün son kullanıcılar tarafından kullanılmasını sağlar"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangi tür prototip, kullanıcı arayüzünün tam etkileşimli ve gerçekçi bir modelini sunar?",
+          "options": {
+            "A": "Yüksek doğruluklu prototip (high-fidelity)",
+            "B": "Kağıt prototip",
+            "C": "Düşük doğruluklu prototip (low-fidelity)",
+            "D": "Statik prototip"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangi prototipleme türü, tasarımın çeşitli alternatiflerini hızlıca değerlendirmek için kullanılır?",
+          "options": {
+            "A": "Kağıt prototip",
+            "B": "Yüksek doğruluklu prototip (high-fidelity)",
+            "C": "Fiziksel prototip",
+            "D": "Düşük doğruluklu prototip (low-fidelity)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 11",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 11",
+      "exam_type": "unite",
+      "year": "11",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-11",
+      "source_url": "https://lolonolo.com/2024/10/16/kullanici-deneyimi-tasarimi-unite-11/",
+      "unit_number": 11,
+      "unit_label": "11. Tasarım Sistemi ve Medya Bağımsız Ekosistem Tasarımı",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Tasarım sistemi oluşturmanın hangi avantajı vardır?",
+          "options": {
+            "A": "Tasarım sürecinde maliyetleri artırmak",
+            "B": "Tutarlılık ve verimlilik sağlayarak tasarım sürecini hızlandırmak",
+            "C": "Tek tip bir tasarım anlayışı sağlamak",
+            "D": "Yalnızca tek bir tasarımın oluşturulmasını sağlamak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangi tür prototip, kullanıcı arayüzünün tam etkileşimli ve gerçekçi bir modelini sunar?",
+          "options": {
+            "A": "Yüksek doğruluklu prototip (high-fidelity)",
+            "B": "Kağıt prototip",
+            "C": "Düşük doğruluklu prototip (low-fidelity)",
+            "D": "Statik prototip"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Responsive design’ın hangi prensibi, içeriğin ekran boyutuna göre yeniden düzenlenmesini ifade eder?",
+          "options": {
+            "A": "Fluid grid (Akışkan ızgara)",
+            "B": "Fixed layout (Sabit düzen)",
+            "C": "Adaptive images (Uyumlu görseller)",
+            "D": "Static layout (Statik düzen)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Prototiplemenin avantajı nedir?",
+          "options": {
+            "A": "Prototipler, tasarımın final versiyonunu oluşturmak için kullanılır",
+            "B": "Prototipler, tasarım sürecinde riskleri azaltır ve tasarım hatalarını erken aşamada tespit etmeye yardımcı olur",
+            "C": "Prototipler, ürünün üretim maliyetini artırır",
+            "D": "Prototipler, ürünün son kullanıcılar tarafından kullanılmasını sağlar"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangi bileşen, bir tasarım sisteminin en önemli parçalarından biridir ve yeniden kullanılabilir UI elemanlarını içerir?",
+          "options": {
+            "A": "Tasarım kılavuzları",
+            "B": "Kullanıcı araştırma raporları",
+            "C": "Bileşen kütüphanesi",
+            "D": "Prototipler"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Responsive design uygularken hangi yöntem kullanılarak içerik farklı ekran boyutlarına göre düzenlenir?",
+          "options": {
+            "A": "Fluid images (Akışkan görseller)",
+            "B": "Fixed images (Sabit görseller)",
+            "C": "Adaptive layout (Uyumlu düzen)",
+            "D": "Static layout (Statik düzen)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Responsive design’da “mobile-first” yaklaşımı nedir?",
+          "options": {
+            "A": "Tasarımın önce masaüstü cihazlar için yapılması",
+            "B": "Tasarımın önce mobil cihazlar için yapılması ve daha sonra diğer ekran boyutlarına uyum sağlanması",
+            "C": "Tasarımın sadece tablet cihazlar için yapılması",
+            "D": "Tasarımın renk uyumuna öncelik vermesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangi prototipleme türü, tasarımın çeşitli alternatiflerini hızlıca değerlendirmek için kullanılır?",
+          "options": {
+            "A": "Kağıt prototip",
+            "B": "Yüksek doğruluklu prototip (high-fidelity)",
+            "C": "Fiziksel prototip",
+            "D": "Düşük doğruluklu prototip (low-fidelity)"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Prototipler hangi amaçla kullanılır?",
+          "options": {
+            "A": "Ürünün görsel tasarımını tamamlamak",
+            "B": "Kullanıcı geri bildirimlerini toplamak ve tasarımı iyileştirmek",
+            "C": "Yazılımın arka plan kodlamasını yapmak",
+            "D": "Ürünün fiyatını belirlemek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Prototipleme hangi aşamada kullanılır?",
+          "options": {
+            "A": "Proje planlaması aşamasında",
+            "B": "Tasarım aşamasında, özellikle kullanıcı geri bildirimlerini toplamak için",
+            "C": "Ürünün piyasaya sürülmesinden sonra",
+            "D": "Ürünün son testleri sırasında"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 12",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 12",
+      "exam_type": "unite",
+      "year": "12",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-12",
+      "source_url": "https://lolonolo.com/2024/10/16/kullanici-deneyimi-tasarimi-unite-12/",
+      "unit_number": 12,
+      "unit_label": "12. Arayüz Tasarımın İlkeleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Responsive design’da mobile-first yaklaşımı nedir?",
+          "options": {
+            "A": "Tasarımın önce masaüstü cihazlar için yapılması",
+            "B": "Tasarımın önce mobil cihazlar için yapılması ve daha sonra diğer ekran boyutlarına uyum sağlanması",
+            "C": "Tasarımın sadece tablet cihazlar için yapılması",
+            "D": "Tasarımın renk uyumuna öncelik vermesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangi unsur tasarım estetiğinde dikkate alınmaz?",
+          "options": {
+            "A": "Renk uyumu",
+            "B": "Tipografi",
+            "C": "Kullanıcı verilerinin şifrelenmesi",
+            "D": "Görsel hiyerarşi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Responsive design’ın hangi prensibi, içeriğin ekran boyutuna göre yeniden düzenlenmesini ifade eder?",
+          "options": {
+            "A": "Fluid grid (Akışkan ızgara)",
+            "B": "Fixed layout (Sabit düzen)",
+            "C": "Adaptive images (Uyumlu görseller)",
+            "D": "Static layout (Statik düzen)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Doherty Eşiği ilkesi neden 400 milisaniye yanıt süresi önerir?",
+          "options": {
+            "A": "Bu süre, kullanıcıların dikkatinin dağılmaması için yeterlidir",
+            "B": "Bu süre, sistemin daha hızlı çalışmasını sağlar",
+            "C": "Bu süre, estetik bir tasarım elde etmek için gereklidir",
+            "D": "Bu süre, kullanıcıların geri bildirimde bulunması için gereklidir"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Responsive design uygularken hangi yöntem kullanılarak içerik farklı ekran boyutlarına göre düzenlenir?",
+          "options": {
+            "A": "Fluid images (Akışkan görseller)",
+            "B": "Fixed images (Sabit görseller)",
+            "C": "Adaptive layout (Uyumlu düzen)",
+            "D": "Static layout (Statik düzen)"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Doherty Eşiği’nin odaklandığı ana unsur nedir?",
+          "options": {
+            "A": "Estetik tasarım",
+            "B": "Hızlı ve tutarlı sistem yanıt süresi",
+            "C": "Güvenlik protokolleri",
+            "D": "Kullanıcı verilerinin saklanması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Tasarım sistemi oluşturmanın hangi avantajı vardır?",
+          "options": {
+            "A": "Tasarım sürecinde maliyetleri artırmak",
+            "B": "Tutarlılık ve verimlilik sağlayarak tasarım sürecini hızlandırmak",
+            "C": "Tek tip bir tasarım anlayışı sağlamak",
+            "D": "Yalnızca tek bir tasarımın oluşturulmasını sağlamak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangi bileşen, bir tasarım sisteminin en önemli parçalarından biridir ve yeniden kullanılabilir UI elemanlarını içerir?",
+          "options": {
+            "A": "Tasarım kılavuzları",
+            "B": "Kullanıcı araştırma raporları",
+            "C": "Bileşen kütüphanesi",
+            "D": "Prototipler"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangi arayüz ilkesi, kullanıcılara ihtiyaç duydukları bilgilere kolayca erişim sağlamak için içeriklerin mantıklı bir yapıda düzenlenmesini içerir?",
+          "options": {
+            "A": "Hiyerarşi",
+            "B": "Denge",
+            "C": "Vurgu",
+            "D": "Kontrast"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangi arayüz ilkesi, kullanıcıların sistemle etkileşimde bulunurken doğal ve sezgisel hissetmelerini sağlamak için önemlidir?",
+          "options": {
+            "A": "Bütünlük",
+            "B": "Gizlilik",
+            "C": "Hiyerarşi",
+            "D": "Denge"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 13",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 13",
+      "exam_type": "unite",
+      "year": "13",
+      "question_count": 10,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-13",
+      "source_url": "https://lolonolo.com/2024/10/17/kullanici-deneyimi-tasarimi-unite-13/",
+      "unit_number": 13,
+      "unit_label": "13. Arayüz Öğelerinin Tasarımı",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Mobil ve Web Arayüzleri Arasındaki Temel Fark Nedir?",
+          "options": {
+            "A": "Mobil arayüzler daha büyük ekran kullanır",
+            "B": "Web arayüzleri daha karmaşıktır",
+            "C": "Mobil arayüzler daha minimal ve kompakt olmalıdır",
+            "D": "Web arayüzlerinde renk kullanımı daha fazladır"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi mobil için uygun olmayan bir navigasyon türüdür?",
+          "options": {
+            "A": "Mega menu",
+            "B": "Bottom",
+            "C": "Hamburger",
+            "D": "Tam sayfa"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Girdi Arayüz Öğelerinden Hangisi Kullanıcıdan Veri Toplamak İçin Kullanılır?",
+          "options": {
+            "A": "Akordeon",
+            "B": "Kartlar",
+            "C": "Metin Kutusu",
+            "D": "Slider"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Kullanıcıdan tuttuğu takımı geçerli ve doğru bir şekilde istemek için hangi girdi arayüz öğesi kullanılmalıdır?",
+          "options": {
+            "A": "Metin kutusu",
+            "B": "Seçim kutusu",
+            "C": "Tekli seçim",
+            "D": "Çoklu seçim"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Arayüz animasyonları hangi amaç için kullanılmaz?",
+          "options": {
+            "A": "Duygusal bağ kurma",
+            "B": "Marka hikayesini anlatma",
+            "C": "Zaman yönetimi",
+            "D": "Veri işleme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Kaydırma çubuğu hakkında aşağıda verilen ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Üç yönlü kullanılabilir.",
+            "B": "Kesin değer için kullanılır.",
+            "C": "Mobil dostudur.",
+            "D": "Sürükle bırakla çalışır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Kart Tasarımı Hangi Amaçla Kullanılır?",
+          "options": {
+            "A": "Kullanıcılara bilgi sunmak ve kolay gezinim sağlamak için",
+            "B": "Kullanıcılardan veri toplamak için",
+            "C": "Tasarımın karmaşıklığını artırmak için",
+            "D": "Renk düzenini değiştirmek için"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Navigasyon Öğelerinden Hangisi Mobil Arayüzlerde Kullanılır?",
+          "options": {
+            "A": "Button",
+            "B": "Alt Gezinme Çubuğu",
+            "C": "Metin Kutusu",
+            "D": "Akordeon"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Kart tasarımında aşağıdaki unsurlardan hangisi yer almaz?",
+          "options": {
+            "A": "Görsel",
+            "B": "Video, Resim",
+            "C": "Ses",
+            "D": "Başlık"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Arayüz Tasarımında Aşinalık ve Sezgisellik Neden Önemlidir?",
+          "options": {
+            "A": "Kullanıcıların arayüzü hızlıca öğrenebilmesi için",
+            "B": "Kullanıcıların daha fazla bilgiye ulaşması için",
+            "C": "Tasarımın karmaşık görünmesi için",
+            "D": "Renk ve kontrastı artırmak için"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Kullanıcı Deneyimi Tasarımı Unite 14",
+      "exam_title": "Kullanıcı Deneyimi Tasarımı Unite 14",
+      "exam_type": "unite",
+      "year": "14",
+      "question_count": 9,
+      "file_name": "Kullanici_Deneyimi_Tasarimi_Unite_Sorulari.json#unite-14",
+      "source_url": "https://lolonolo.com/2024/10/17/kullanici-deneyimi-tasarimi-unite-14/",
+      "unit_number": 14,
+      "unit_label": "14. Paketleme ve Optimizasyon",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Zeplin aracının ana amacı nedir?",
+          "options": {
+            "A": "Ekip içi zaman yönetimi",
+            "B": "Ekip içi iletişim",
+            "C": "Ekip arası koordinasyon",
+            "D": "Ekipler arası zaman yönetimi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kullanıcıdan tuttuğu takımı geçerli ve doğru bir şekilde istemek için hangi girdi arayüz öğesi kullanılmalıdır?",
+          "options": {
+            "A": "Metin kutusu",
+            "B": "Seçim kutusu",
+            "C": "Tekli seçim",
+            "D": "Çoklu seçim"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Kaydırma çubuğu hakkında aşağıda verilen ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Üç yönlü kullanılabilir.",
+            "B": "Kesin değer için kullanılır.",
+            "C": "Mobil dostudur.",
+            "D": "Sürükle bırakla çalışır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Tasarım devir dosyası aşağıdaki öğelerden ve yapılardan hangisini içermez?",
+          "options": {
+            "A": "Renk paletleri",
+            "B": "Revizyon notları",
+            "C": "Tipografi öğeleri",
+            "D": "Etkileşimli öğeler"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Arayüz animasyonları hangi amaç için kullanılmaz?",
+          "options": {
+            "A": "Duygusal bağ kurma",
+            "B": "Marka hikayesini anlatma",
+            "C": "Zaman yönetimi",
+            "D": "Veri işleme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Uygulama simgesi aşağıdaki parametrelerden hangisini içerebilir?",
+          "options": {
+            "A": "Metin",
+            "B": "Gölge",
+            "C": "Degrade",
+            "D": "Renk"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Kart tasarımında aşağıdaki unsurlardan hangisi yer almaz?",
+          "options": {
+            "A": "Görsel",
+            "B": "Video, Resim",
+            "C": "Ses",
+            "D": "Başlık"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Ekipler arası kötü iletişim aşağıdaki sorunlardan hangisine sebep olmaz?",
+          "options": {
+            "A": "Tasarım ve geliştirme ekipleri arasında yüksek ve amaçsız geri bildirim trafiği",
+            "B": "Beklenmeyen kalite güvence sorunları",
+            "C": "Çakışan becerilerden yararlanamama",
+            "D": "Test ve değerlendirme"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Web sitesini için hazırlanan favicon hangi formatta olabilir?",
+          "options": {
+            "A": "jpg",
+            "B": "svg",
+            "C": "gif",
+            "D": "bmp"
           },
           "correct_answer": "B",
           "explanation": "",

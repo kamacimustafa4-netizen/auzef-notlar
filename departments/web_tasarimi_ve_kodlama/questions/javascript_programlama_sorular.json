@@ -1,7 +1,7 @@
 {
   "course": "Javascript Programlama",
   "lesson_code": "JAVASCRIPT_PROGRAMLAMA",
-  "exam_count": 8,
+  "exam_count": 16,
   "exams": [
     {
       "title": "Javascript Programlama 2025 Vize",
@@ -1713,6 +1713,1430 @@
             "C": "class Test { { this.a = a; this.b = b; } }",
             "D": "class Test { constructor(a, b) { this.a = a; this.b = b; } }",
             "E": "class Xonami { Test(a, b) { this.a = a; this.b = b; } }"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Javascript Programlama Unite 1",
+      "exam_title": "Javascript Programlama Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Javascript_Programlama_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2024/05/25/javascript-programlama-unite-1/",
+      "unit_number": 1,
+      "unit_label": "1- Javascript Diline Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Sunucu (server) statik HTML sayfalarını barındırır.",
+            "B": "Bir HTML sayfası, istemci bilgisayarlara (client) HTTP protokolü ile sunulur.",
+            "C": "Tarayıcı (browser), bir web sayfasına erişmek için kullanılan özel programdır.",
+            "D": "İstemci bilgisayarlar tarayıcı ile bir web sayfasına ziyaret isteği gönderir.",
+            "E": "Sunucu, istemciden gelen isteğe yalnızca.html uzantısına sahip dosyaları döndürür."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki seçeneklerden hangisinde HTTP’nin açılımı doğru bir şekilde verilmiştir?",
+          "options": {
+            "A": "Hyper Transfer Text Protocol",
+            "B": "Hyper Text Transmission Protocol",
+            "C": "Hyper Text Transfer Protocol",
+            "D": "Hyper Text Text Protocol",
+            "E": "Hyper Transfer Transmission Protocol"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi JavaScript dilinin temel özelliklerinden biri değildir?",
+          "options": {
+            "A": "JavaScript sadece Windows platformunda çalışır.",
+            "B": "Tarayıcıda çalışabilir ve istemci tarafı betik dili olarak kullanılabilir.",
+            "C": "Netscape mühendisi Brendan Eich tarafından geliştirilmiştir.",
+            "D": "Nesneye yönelik programlama prensiplerini destekler.",
+            "E": "JavaScript dili CSS ve HTML ile birlikte web geliştirme sürecinde kullanılan bir dildir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "“Visual Studio Code editöründe JavaScript kodu çalıştırabilmek için öncelikle.js uzantılı … dosyası oluşturulmalıdır.” ifadesinde … ile gösterilen yere gelebilecek uygun seçenek aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "JavaScript",
+            "B": "HTML",
+            "C": "CSS",
+            "D": "FTP",
+            "E": "HTTP"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir HTML sayfasına JavaScript kodları aşağıdaki etiketlerden hangisi ile eklenebilir?",
+          "options": {
+            "A": "<javascript></javascript>",
+            "B": "<jquery></jquery>",
+            "C": "<js></js>",
+            "D": "<query></query>",
+            "E": "<script></script>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir web sayfasının yapı ve içeriğinin görünüş ve biçimi aşağıdakilerden hangisi aracılığı ile sistematik biçimde düzenlenebilir?",
+          "options": {
+            "A": "CSS",
+            "B": "HTML",
+            "C": "URL",
+            "D": "HTTP",
+            "E": "FTP"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "scriptDosyam.js adlı JavaScript dosyası aşağıdaki seçeneklerden hangisi ile web sayfasında kullanılabilir?",
+          "options": {
+            "A": "<javascript file=\"scriptDosyam.js\"></javascript>",
+            "B": "<javascript src=\"scriptDosyam.js\"></javascript>",
+            "C": "<script src=\"scriptDosyam.js\"></script>",
+            "D": "<script file=\"scriptDosyam.js\"></script>",
+            "E": "<script sourcefile=\"scriptDosyam.js\"></script>"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi JavaScript tabanlı bir yazılım çerçevesi değildir?",
+          "options": {
+            "A": "React Native",
+            "B": "jQuery",
+            "C": "Vue Native",
+            "D": "RStudio",
+            "E": "Angular"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki protokollerden hangisi dosya transferi için kullanılır?",
+          "options": {
+            "A": "UDP",
+            "B": "FTP",
+            "C": "TCP",
+            "D": "SMTP",
+            "E": "HTTP"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi bir JavaScript IDE’si (kodlama editörü) değildir?",
+          "options": {
+            "A": "Visual Studio Code",
+            "B": "Atom",
+            "C": "WebStorm",
+            "D": "JupyterNotebook",
+            "E": "Sublime Text"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Javascript Programlama Unite 2",
+      "exam_title": "Javascript Programlama Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Javascript_Programlama_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2024/05/25/javascript-programlama-unite-2/",
+      "unit_number": 2,
+      "unit_label": "2- Javascript Dilinin Temelleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıda verilen kod bloğu çalıştırıldığında konsola çıktılanan değer nedir? let sonuc = 5 + 10 * (3 - 1) / 2; console.log(sonuc);",
+          "options": {
+            "A": "14",
+            "B": "15",
+            "C": "16",
+            "D": "17",
+            "E": "18"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda verilen kod satırlarıyla ilgili verilen ifadelerden hangisi doğrudur? let meyveler = [“elma”, “armut”, “muz”, “çilek”, “portakal”]; delete meyveler[3];",
+          "options": {
+            "A": "meyveler dizisinin \"çilek\" elemanı silinmiştir; ancak dizinin uzunluğu aynı kalacaktır.",
+            "B": "meyveler dizisinin \"muz\" elemanı silinmiştir; ancak dizinin uzunluğu aynı kalacaktır.",
+            "C": "meyveler dizisinin \"çilek\" elemanı silinmiştir; dizinin uzunluğu bir eksilmiştir.",
+            "D": "meyveler dizisinin \"muz\" elemanı silinmiştir; dizinin uzunluğu bir eksilmiştir.",
+            "E": "meyveler dizisine \"armut\" ve \"muz\" elemanlarının arasına bir eleman eklenir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıda verilen JavaScript kod satırlarından hangisi atlanır ve değerlendirmeye alınmaz?",
+          "options": {
+            "A": "let x = 5;",
+            "B": "let y = 10;",
+            "C": "// let isim = \"Ahmet\";",
+            "D": "let toplam = x + y;",
+            "E": "console.log(\"Toplam: \", toplam);"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi JavaScript’in anahtar kelimeleri arasında yer almaz?",
+          "options": {
+            "A": "for",
+            "B": "if",
+            "C": "let",
+            "D": "this",
+            "E": "that"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıda boş bırakılan kod satırında kişinin ad ve yaş değişkenlerini barındıran bilgi isimli bir değişken tanımlanmak isteniyor. Aşağıda verilen seçeneklerin hangisiyle bu yapılabilir?",
+          "options": {
+            "A": "let bilgi = { ad: \"Ahmet\", yas: 30 };",
+            "B": "let bilgi = \"ad: Ahmet, yas: 30\";",
+            "C": "let bilgi = [ad, yas];",
+            "D": "let bilgi = new Array(ad, yas);",
+            "E": "let bilgi = null;"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki seçeneklerden hangisinde hatalı tanıtıcı isimlendirmesi yapılmıştır?",
+          "options": {
+            "A": "let sayi = 42;",
+            "B": "let i_sim = \"Js\";",
+            "C": "let dogruMu = true;",
+            "D": "let 1sayi = 90;",
+            "E": "let new_sayi = 256;"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki JavaScript kodlarına göre sonuc değişkeninin değeri hangi seçenekte doğru verilmiştir? let yas = 30; let minYas = 18; let ehliyetVarMi = true; let sonuc = yas >= minYas && ehliyetVarMi;",
+          "options": {
+            "A": "\"true\"",
+            "B": "\"false\"",
+            "C": "true",
+            "D": "false",
+            "E": "0"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki seçeneklerde verilen operatör ve açıklamalardan hangisi yanlıştır?",
+          "options": {
+            "A": "% Mod",
+            "B": "i++ Sondan artırma",
+            "C": "<< Bitsel sola kaydırma",
+            "D": "< Küçüktür",
+            "E": "Çarpma"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Değişken kapsamını dikkate alarak aşağıdaki JavaScript kodunda tanımlanan değişkenlerden hangisi bu yönüyle diğerlerinden farklıdır? let sayi1 = 10; let sayi2 = 20; function toplama() { let sonuc = sayi1 + sayi2; console.log(",
+          "options": {
+            "A": "sayi1",
+            "B": "sayi2",
+            "C": "sonuc",
+            "D": "metin",
+            "E": "PI"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "JavaScript’te kod blokları aşağıdakilerden hangisi ile oluşturulur?",
+          "options": {
+            "A": "Süslü parantezler {}",
+            "B": "Girinti (indent)",
+            "C": "Yuvarlak parantez ()",
+            "D": "Diyez sembolü #",
+            "E": "Küçüktür-büyüktür işaretleri <>"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Javascript Programlama Unite 3",
+      "exam_title": "Javascript Programlama Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Javascript_Programlama_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2024/05/25/javascript-programlama-unite-3/",
+      "unit_number": 3,
+      "unit_label": "3- Koşul Yapıları",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıda verilen JavaScript koduna göre konsolda çıktılanan değer hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "&",
+            "B": "^",
+            "C": "?",
+            "D": "$",
+            "E": "%"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıda verilen kod bloğuna göre hangisi doğrudur?",
+          "options": {
+            "A": "puan 80 olarak tanımlanmış ise \"Maalesef, sınavı geçemediniz.\" yazdırılır.",
+            "B": "puan 40 olarak tanımlanmış ise \"Maalesef, sınavı geçemediniz.\" yazdırılır.",
+            "C": "puan 80 olarak tanımlanmış ise if koşulu false döner.",
+            "D": "puan 40 olarak tanımlanmış ise if koşulu true döner.",
+            "E": "puan 60 olarak tanımlanmış ise ekrana hiçbir şey yazdırılmaz."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir dersin geçme notu aşağıdaki JavaScript kodları ile belirlenmektedir. Buna göre; eğer bir öğrencinin notu 82 ise ekrana yazdırılacak ifade hangi seçenekte doğru şekilde verilmiştir?",
+          "options": {
+            "A": "Notunuz: A",
+            "B": "Notunuz: B",
+            "C": "Notunuz: C",
+            "D": "Notunuz: D",
+            "E": "Notunuz: F"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "parseInt() fonksiyonunun görevi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Verilen değeri tam sayıya dönüştürür.",
+            "B": "Verilen değeri ondalıklı sayıya dönüştürür.",
+            "C": "Verilen değeri bir dizgeye dönüştürür.",
+            "D": "Verilen değeri boolean değere dönüştürür.",
+            "E": "Verilen değere sıfır değerini atar."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki if-else koşul yapısının ternary operatörü eşleniği seçeneklerin hangisinde doğru olarak verilmiştir?",
+          "options": {
+            "A": "durum = (sayi > 0)? \"Pozitif\": \"Negatif veya sıfır\";",
+            "B": "durum = (sayi < 0)? \"Pozitif\": \"Negatif veya sıfır\";",
+            "C": "durum = (sayi > 0) & \"Pozitif\": \"Negatif veya sıfır\";",
+            "D": "durum = (sayi > 0)? \"Pozitif\"; \"Negatif veya sıfır\";",
+            "E": "durum == (sayi < 0)? \"Pozitif\": \"Negatif veya sıfır\";"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "JavaScript’te koşul yapıları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "if-else koşul yapısı, bir koşulun doğru olup olmadığını kontrol etmek için kullanılır.",
+            "B": "switch-case yapısı, bir ifadenin değerlerini kontrol etmek için kullanılır.",
+            "C": "Ternary operatörü, koşullu ifadelerin kısa bir şekilde yazılmasını sağlar.",
+            "D": "if-else koşul yapısında if koşulu false dönerse, else bloğu içindeki satırlar çalıştırılır.",
+            "E": "Koşul ifadeleri, sadece tek bir koşulun kontrol edilmesini sağlar."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki JavaScript kodunda kullanılan operatör hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "Küçük eşittir operatörü",
+            "B": "Büyüktür operatörü",
+            "C": "Eşit değildir operatörü",
+            "D": "Ternary operatörü",
+            "E": "VE operatörü"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Tanımlanan bir gun değişkeninin değerine göre, hafta içi, hafta sonu veya geçersiz gün olarak gunAdi değişkeni atanması ve konsola yazdırılması isteniyor. Bunu gerçekleştirmek için JavaScript dilinde kullanılabilecek en uygun yapı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "if",
+            "B": "if-else",
+            "C": "else",
+            "D": "ternary",
+            "E": "switch"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi JavaScript’teki koşul ifadelerinden biri değildir?",
+          "options": {
+            "A": "if",
+            "B": "if-else",
+            "C": "if-else if",
+            "D": "if-elif",
+            "E": "switch"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki JavaScript kodunun çıktısı hangi seçenekte doğru verilmiştir?",
+          "options": {
+            "A": "\"Merhaba\"",
+            "B": "\"Merhaba!\"",
+            "C": "\"Merhaba, misafir!\"",
+            "D": "\"Merhaba, JavaScript!\"",
+            "E": "\"Merhaba,!\""
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Javascript Programlama Unite 4",
+      "exam_title": "Javascript Programlama Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 8,
+      "file_name": "Javascript_Programlama_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2024/05/26/javascript-programlama-unite-4/",
+      "unit_number": 4,
+      "unit_label": "4- Döngü Yapıları",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki kodlar çalıştırıldığında dizi elemanlarının konsola sırayla yazdırılabilmesi için … ile boş bırakılan yer aşağıdaki seçeneklerden hangisi ile tamamlanmalıdır?",
+          "options": {
+            "A": "let val in arr",
+            "B": "let arr in val",
+            "C": "let val is arr",
+            "D": "let val of arr",
+            "E": "let arr of val"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Yukarıdaki ekran görüntüsünün elde edilebilmesi için do-while koşulu nasıl tamamlanamaz?",
+          "options": {
+            "A": "sayi < 3",
+            "B": "sayi <= 3",
+            "C": "sayi <= 5",
+            "D": "sayi <= 50",
+            "E": "sayi <= 5000"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "for ve while döngülerinde koşul en başta kontrol edilmektedir.",
+            "B": "Döngünün kaç kere çalışacağının bilinmediği durumlarda while döngüsü kullanılır.",
+            "C": "Döngünün en az bir kere çalışması gerektiğinde do-while döngüsü kullanılabilir.",
+            "D": "Dizi ve object türünde veri yapılarının anahtarlarını döngü içinde kullanmak için for..of döngüsü kullanılır.",
+            "E": "Çok boyutlu veri yapılarının her bir boyutundaki değerleri işlemek için iç içe döngüler kullanılabilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Yukarıdaki ekran görüntüsünün elde edilebilmesi için aşağıda verilen kod satırlarındaki … ile boş bırakılan yer aşağıdaki seçeneklerden hangisi ile tamamlanmalıdır?",
+          "options": {
+            "A": "continue;",
+            "B": "break;",
+            "C": "next;",
+            "D": "else;",
+            "E": "then;"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "JavaScript’te döngü yapıları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Döngünün kaç kere çalışacağının bilindiği durumlarda for döngüsü kullanılır.",
+            "B": "while döngüsü, bir koşul sağlandığı sürece döngünün çalışmasını sağlar.",
+            "C": "do-while döngüsü, döngü içeriğini en az bir kez çalıştırdıktan sonra koşulu kontrol eder.",
+            "D": "break komutu, döngüyü sonlandırmak için kullanılır ve döngüden çıkışı sağlar.",
+            "E": "continue ifadesi, döngüyü sonlandırmak için kullanılır ve döngüyü baştan başlatır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki JavaScript kodları ile ilgili verilen seçeneklerden hangisi yanlıştır?",
+          "options": {
+            "A": "Kullanıcıdan sürekli olarak bir sayı girmesi istenir.",
+            "B": "Kullanıcı \"exit\" yazana kadar döngü devam eder.",
+            "C": "Döngü, sonsuz döngüye girer ve ekrana sürekli kullanıcının girdiği sayı yazdırılır.",
+            "D": "Girilen her sayı toplanır ve toplam sonunda konsola yazdırılır.",
+            "E": "Eğer kullanıcı geçersiz bir giriş yaparsa, uyarı mesajı konsola yazdırılır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki JavaScript kodlarına göre verilen seçeneklerden hangisi doğrudur?",
+          "options": {
+            "A": "50, 51, 52, 53, 54, 55 ekrana yazdırılır.",
+            "B": "55, 54, 53, 52, 51, 50 ekrana yazdırılır.",
+            "C": "55’ten 0’a kadar, 50 hariç tüm sayılar ekrana yazdırılır.",
+            "D": "55’ten 0’a kadar, 0 hariç tüm sayılar ekrana yazdırılır.",
+            "E": "55’ten itibaren azalan sonsuz döngü oluşur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki döngüyle ilgili verilen şıklardan hangisi doğrudur?",
+          "options": {
+            "A": "5’ten 1’e kadar (0 hariç) olan sayıları konsola yazdırır.",
+            "B": "0'dan başlayarak 4'e kadar (5 hariç) olan sayıları konsola yazdırır.",
+            "C": "5’ten 0’a kadar olan sayıları konsola yazdırır.",
+            "D": "0'dan başlayarak 5'e kadar olan sayıları konsola yazdırır.",
+            "E": "Konsola herhangi bir şey yazdırılmaz."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Javascript Programlama Unite 5",
+      "exam_title": "Javascript Programlama Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 6,
+      "file_name": "Javascript_Programlama_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2024/05/26/javascript-programlama-unite-5/",
+      "unit_number": 5,
+      "unit_label": "5 -Diziler",
+      "questions": [
+        {
+          "id": 1,
+          "question": "JavaScript’te bir dizi nasıl tanımlanır?",
+          "options": {
+            "A": "let dizi = \"1, 2, 3\";",
+            "B": "let dizi = [1, 2, 3];",
+            "C": "let dizi = (1, 2, 3);",
+            "D": "let dizi = {1, 2, 3};",
+            "E": "let dizi = 1, 2, 3;"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki yöntemlerden hangisi bir diziye eleman eklemek için kullanılır?",
+          "options": {
+            "A": "push()",
+            "B": "pop()",
+            "C": "shift()",
+            "D": "unshift()",
+            "E": "splice()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki seçeneklerden hangisi bir diziden eleman çıkarmak için kullanılır?",
+          "options": {
+            "A": "push()",
+            "B": "pop()",
+            "C": "concat()",
+            "D": "join()",
+            "E": "slice()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki kod bloğunun çıktısı nedir?",
+          "options": {
+            "A": "[1, 2, 3, 4]",
+            "B": "[1, 2, 3]",
+            "C": "[1, 2]",
+            "D": "[2, 3, 4]",
+            "E": "[]"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki kod bloğu ne yazdırır?",
+          "options": {
+            "A": "[1, 2, 3, 4]",
+            "B": "[1, 2]",
+            "C": "[2, 3]",
+            "D": "[3, 4]",
+            "E": "[1, 2, 3]"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki kod bloğunda dizi değişkeninin uzunluğu (length) nedir?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Javascript Programlama Unite 6",
+      "exam_title": "Javascript Programlama Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 6,
+      "file_name": "Javascript_Programlama_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2024/05/26/javascript-programlama-unite-6/",
+      "unit_number": 6,
+      "unit_label": "6 -Fonksiyonlar ve Sınıf Yapısı",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki JavaScript kodu çalıştırıldığında ne olur?",
+          "options": {
+            "A": "\"undefined okunuyor.\" yazdırılır.",
+            "B": "\"JavaScript Eğitimi okunuyor.\" yazdırılır.",
+            "C": "Hata verir.",
+            "D": "Konsola hiçbir şey yazdırılmaz.",
+            "E": "\"Kitap okunuyor.\" yazdırılır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "JavaScript’te sınıf tanımlamak için hangi anahtar kelime kullanılır?",
+          "options": {
+            "A": "class",
+            "B": "function",
+            "C": "this",
+            "D": "object",
+            "E": "prototype"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki kod bloğunda super anahtar kelimesinin kullanım amacı nedir?",
+          "options": {
+            "A": "super anahtar kelimesi üst sınıfın constructor metodunu çağırır.",
+            "B": "super anahtar kelimesi üst sınıfın tüm metodlarını devralır.",
+            "C": "super anahtar kelimesi alt sınıfın constructor metodunu devralır.",
+            "D": "super anahtar kelimesi alt sınıfın tüm metodlarını devralır.",
+            "E": "super anahtar kelimesi bir hata oluşturur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki kod bloğunun çıktısı nedir?",
+          "options": {
+            "A": "Toyota Corolla Honda Civic",
+            "B": "Honda Civic Toyota Corolla",
+            "C": "undefined undefined undefined undefined",
+            "D": "Error",
+            "E": "null null"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki JavaScript kodunda hata nedir?",
+          "options": {
+            "A": "sonuc değeri 5 olur.",
+            "B": "sonuc değeri NaN olur.",
+            "C": "Hata verir.",
+            "D": "sonuc değeri undefined olur.",
+            "E": "carp fonksiyonu tanımlı değil."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki kod bloğunda new Kisi(“Ali”, 25) ifadesinin çıktısı nedir?",
+          "options": {
+            "A": "Merhaba, ben undefined ve undefined yaşındayım.",
+            "B": "Merhaba, ben Ali ve undefined yaşındayım.",
+            "C": "Merhaba, ben undefined ve 25 yaşındayım.",
+            "D": "Merhaba, ben Ali ve 25 yaşındayım.",
+            "E": "Error"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Javascript Programlama Unite 7",
+      "exam_title": "Javascript Programlama Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 12,
+      "file_name": "Javascript_Programlama_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2024/05/27/javascript-programlama-unite-7/",
+      "unit_number": 7,
+      "unit_label": "7 -Doküman Nesne Modeli",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir DOM olayını nasıl dinlersiniz?",
+          "options": {
+            "A": "addEventListener metoduyla",
+            "B": "listenToEvent metoduyla",
+            "C": "captureEvent metoduyl",
+            "D": "watchEvent metoduyla"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "JavaScript ile DOM’daki bir öğeyi seçmek için hangi yöntem kullanılır?",
+          "options": {
+            "A": "querySelector()",
+            "B": "getElementById()",
+            "C": "getElementsByClassName()",
+            "D": "getElementsByTagName()",
+            "E": "Hepsi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "DOM’da bir öğenin içeriğini değiştirmek için hangi yöntem kullanılır?",
+          "options": {
+            "A": "innerHTML",
+            "B": "outerHTML",
+            "C": "textContent",
+            "D": "value",
+            "E": "Hepsi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki JavaScript kodu DOM’da ne yapar?",
+          "options": {
+            "A": "\"demo\" id'sine sahip elementin metnini kırmızı yapar.",
+            "B": "\"demo\" id'sine sahip elementin arka planını kırmızı yapar.",
+            "C": "\"demo\" id'sine sahip elementin kenarlığını kırmızı yapar.",
+            "D": "\"demo\" id'sine sahip elementin yüksekliğini artırır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "JavaScript’te DOM (Document Object Model) nedir ve ne işe yarar?",
+          "options": {
+            "A": "Tarayıcıda HTML ve XML belgelerini temsil eden ağaç yapısıdır.",
+            "B": "Sadece HTML belgelerini temsil eden bir yapıdır.",
+            "C": "JavaScript kodlarını çalıştıran bir motorudur.",
+            "D": "Web sayfalarının stilini belirleyen bir modeldir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "DOM’da bir elemente nasıl erişilir ve değiştirilir?",
+          "options": {
+            "A": "getElementById metodu ile erişilir ve innerHTML ile değiştirilir.",
+            "B": "querySelectorAll metodu ile erişilir ve style ile değiştirilir.",
+            "C": "getElementByClass metodu ile erişilir ve innerText ile değiştirilir.",
+            "D": "getElementByTagName metodu ile erişilir ve textContent ile değiştirilir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "JavaScript ile DOM’daki bir öğenin stilini değiştirmek için hangi yöntem kullanılır?",
+          "options": {
+            "A": "element.style.property",
+            "B": "element.classList.add()",
+            "C": "element.setAttribute()",
+            "D": "element.getAttribute()",
+            "E": "element.removeAttribute()"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki seçeneklerden hangisi DOM’da bir öğe eklemek için kullanılır?",
+          "options": {
+            "A": "appendChild()",
+            "B": "removeChild()",
+            "C": "replaceChild()",
+            "D": "insertBefore()",
+            "E": "Hepsi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "DOM ağacında, bir belgenin en üst düzeydeki öğesi nedir?",
+          "options": {
+            "A": "head",
+            "B": "body",
+            "C": "root",
+            "D": "document",
+            "E": "window"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi DOM olaylarından biridir?",
+          "options": {
+            "A": "onload",
+            "B": "onstyle",
+            "C": "oncontent",
+            "D": "onhtml"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdaki yöntemlerden hangisi bir elementin sınıfını ekler veya çıkarır?",
+          "options": {
+            "A": "classList.add ve classList.remove",
+            "B": "className.add ve className.remove",
+            "C": "class.add ve class.remove",
+            "D": "classProperty.add ve classProperty.remove"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi Doküman Nesne Modeli’nin (DOM) amacı ile ilgilidir?",
+          "options": {
+            "A": "Veritabanı yönetimi",
+            "B": "Web sayfasının yapısını temsil etmek ve değiştirmek",
+            "C": "Sunucu taraflı programlama",
+            "D": "CSS dosyalarını yönetmek",
+            "E": "Veritabanı bağlantıları kurmak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Javascript Programlama Unite 8",
+      "exam_title": "Javascript Programlama Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 16,
+      "file_name": "Javascript_Programlama_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2024/05/27/javascript-programlama-unite-8/",
+      "unit_number": 8,
+      "unit_label": "8- JavaScript Dilinde Olaylar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Olay akışı nedir?",
+          "options": {
+            "A": "Olayların HTML elementlerine yayılma süreci",
+            "B": "Olayların CSS stillerine uygulanma süreci",
+            "C": "Olayların JavaScript koduna yüklenme süreci",
+            "D": "Olayların sunucuya gönderilme süreci",
+            "E": "Olayların tarayıcıda depolanma süreci"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki JavaScript kodunda hangi olay türü kullanılmıştır?",
+          "options": {
+            "A": "mouseover",
+            "B": "submit",
+            "C": "click",
+            "D": "focus",
+            "E": "blur"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "JavaScript’te hangi yöntem bir olay dinleyicisi ekler?",
+          "options": {
+            "A": "attachEvent()",
+            "B": "addEventListener()",
+            "C": "setEventListener()",
+            "D": "createEvent()",
+            "E": "onEvent()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir HTML elemanına tıklanıldığında bir fonksiyon çalıştırmak için kullanılan JavaScript olay dinleyicisi hangisidir?",
+          "options": {
+            "A": "onmouseover",
+            "B": "onmouseout",
+            "C": "onclick",
+            "D": "onload",
+            "E": "onchange"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi JavaScript’te bir olayın gerçekleştiği elemente erişmek için kullanılır?",
+          "options": {
+            "A": "this",
+            "B": "event.target",
+            "C": "event.currentTarget",
+            "D": "event.type",
+            "E": "event.preventDefault()"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir olay işleyici (event handler) nedir?",
+          "options": {
+            "A": "Olayları yakalayan bir HTML etiketi",
+            "B": "Olayları işlemek için kullanılan bir CSS kuralı",
+            "C": "Belirli olaylar gerçekleştiğinde çalışan bir JavaScript fonksiyonu",
+            "D": "Olayları optimize eden bir JavaScript kütüphanesi",
+            "E": "Kullanıcı verilerini depolayan bir mekanizma"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir formun gönderilmesi olayını dinlemek için hangi olay dinleyicisi kullanılır?",
+          "options": {
+            "A": "onsubmit",
+            "B": "onchange",
+            "C": "oninput",
+            "D": "onreset",
+            "E": "onload"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Olay tetikleyicisinin görevi nedir?",
+          "options": {
+            "A": "HTML etiketlerini değiştirmek",
+            "B": "CSS stillerini uygulamak",
+            "C": "Kullanıcı etkileşimlerine yanıt vermek",
+            "D": "Sayfa yükleme süresini azaltmak",
+            "E": "Veri depolamak"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi JavaScript’te olayların önceliğini belirler?",
+          "options": {
+            "A": "Olayın türü",
+            "B": "Olayın elementi",
+            "C": "Olayın eklenme sırası",
+            "D": "Olayın işleyici fonksiyonu",
+            "E": "Olayın tetiklenme zamanı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki JavaScript kodu hangi olayı dinlemektedir?",
+          "options": {
+            "A": "onclick",
+            "B": "onmouseover",
+            "C": "onmouseout",
+            "D": "onload",
+            "E": "onchange"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "Aşağıdaki seçeneklerden hangisi bir olayın yalnızca bir kez çalıştırılmasını sağlar?",
+          "options": {
+            "A": "once",
+            "B": "addEventListener()",
+            "C": "event.one()",
+            "D": "oneEvent()",
+            "E": "addEventListener(\"event\", function, {once: true})"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi bir olay dinleyicisi (event listener) eklemek için kullanılır?",
+          "options": {
+            "A": "element.onclick",
+            "B": "element.addListener",
+            "C": "element.addEventListener",
+            "D": "element.onlistener",
+            "E": "element.addEvent"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "addEventListener metodunun görevi nedir?",
+          "options": {
+            "A": "Olayları silmek",
+            "B": "Olayları eklemek",
+            "C": "HTML içeriğini değiştirmek",
+            "D": "CSS stillerini değiştirmek",
+            "E": "JavaScript kodunu optimize etmek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "Aşağıdakilerden hangisi JavaScript’te yaygın olarak kullanılan bir olay türü değildir?",
+          "options": {
+            "A": "click",
+            "B": "mouseover",
+            "C": "submit",
+            "D": "focus",
+            "E": "copy"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Aşağıdaki seçeneklerden hangisi bir olayın varsayılan davranışını engellemek için kullanılır?",
+          "options": {
+            "A": "event.stopPropagation()",
+            "B": "event.preventDefault()",
+            "C": "event.stopImmediatePropagation()",
+            "D": "event.cancelBubble",
+            "E": "event.default"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "Aşağıdaki kodun işlevi nedir?",
+          "options": {
+            "A": "click olayını dinler",
+            "B": "click olayını tetikler",
+            "C": "click olayını durdurur",
+            "D": "click olayını dinlemeyi kaldırır",
+            "E": "click olayını yeniden başlatır"
           },
           "correct_answer": "D",
           "explanation": "",

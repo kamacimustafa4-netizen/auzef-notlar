@@ -1,7 +1,7 @@
 {
   "course": "Web Tasarımı",
   "lesson_code": "WEB_TASAR_M",
-  "exam_count": 5,
+  "exam_count": 13,
   "exams": [
     {
       "title": "Web Tasarımı 2025 Vize",
@@ -1767,6 +1767,1453 @@
             "E": "title"
           },
           "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı Unite 1",
+      "exam_title": "Web Tasarımı Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Web_Tasarimi_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2024/06/08/web-tasarimi-unite-1/",
+      "unit_number": 1,
+      "unit_label": "1- Web ve İnternet Teknolojilerine Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kullanıcılar arasındaki iletişim ve her türlü veri-bilgi alışverişinin kullanıcıların bilgisayarları ile bağlanarak gerçekleştirdiği büyük ağa ne denir?",
+          "options": {
+            "A": "Protokol",
+            "B": "Sunucu",
+            "C": "İnternet",
+            "D": "Alan adı",
+            "E": "Web tarayıcı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "İki bilgisayar sistemi arasındaki dosya alışverişi gerçekleştirilmesini düzenleyen protokol hangisidir?",
+          "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "TCP",
+            "D": "IP",
+            "E": "STP"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "“Ağda yer alan cihazlar ise kendilerini tanımlayan - - - adı verilen belirli bir sistematiğe göre üretilmiş birer numara kullanırlar.” Boşluğu en uygun cevapla doldurunuz.",
+          "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "TCP",
+            "D": "IP",
+            "E": "STP"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi günümüz web tarayıcılarından değildir?",
+          "options": {
+            "A": "Opera",
+            "B": "Microsoft Edge",
+            "C": "Google Chrome",
+            "D": "Mozilla Firefox",
+            "E": "Windows"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi web sayfasını oluşturan tüm dosyaları barındıran sunuculardır?",
+          "options": {
+            "A": "Dosya sunucusu",
+            "B": "Eposta sunucusu",
+            "C": "Web sunucusu",
+            "D": "Proxy sunucusu",
+            "E": "Bağlantı sunucusu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi veritabanı sunucularındandır? I. SQL Server, II. MySQL, III. Oracle",
+          "options": {
+            "A": "Yalnız I",
+            "B": "Yalnız II",
+            "C": "Ive II",
+            "D": "II ve III",
+            "E": "I, II ve III"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Farklı ağların birbiri ile bağlantısında iletişimin belirli bir standarda göre oluşturulması için öne sürülen protokol hangisidir?",
+          "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "TCP",
+            "D": "IP",
+            "E": "STP"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Kamu kurumları bağlantı adresleri için kullanılan özel alan adı uzantısı hangisidir?",
+          "options": {
+            "A": ".edu",
+            "B": ".gov",
+            "C": ".tr",
+            "D": ".com",
+            "E": ".info"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "IP adreslerini URL bağlantı adresleri ile eşleştirilmesini sağlayan sistem aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "HTML",
+            "B": "HTTP",
+            "C": "ANS",
+            "D": "DNS",
+            "E": "FTS"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Birden fazla kullanıcının yer aldığı bir internet ortamında, trafiği düzenlemek ve aynı web sayfalarına erişim için istekte bulunan kullanıcıların oluşturacağı trafiği düzenlemek, hızlı ve verimli erişim sağlamak üzere kullanılan sunucu hangisidir?",
+          "options": {
+            "A": "Dosya sunucusu",
+            "B": "Eposta sunucusu",
+            "C": "Web sunucusu",
+            "D": "Proxy sunucusu",
+            "E": "Bağlantı sunucusu"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı Unite 2",
+      "exam_title": "Web Tasarımı Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Web_Tasarimi_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2024/06/08/web-tasarimi-unite-2/",
+      "unit_number": 2,
+      "unit_label": "2- Web Tasarımın Temel İlkeleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Müşterinin ihtiyaçlarına, web sitesinin kullanılacak iş alanına ve web sitesinin hedef kullanıcı profiline göre projenin genel konseptini belirleyen, gerekli fizibilite çalışmalarını gerçekleştiren, web sitesinin hizmete girmesi sonrasında kullanıcıların siteye yönlendirilebilmesi için gerekli reklam, organizasyon ve iş birliklerini gerçekleştiren, bir bakıma müşteri, kullanıcı ve geliştirici ekip ile etkileşimde olan ve bu üçü arasında koordinasyonu sağlayan kişi kimdir?",
+          "options": {
+            "A": "Web tasarımcı",
+            "B": "Kullanıcı",
+            "C": "Proje mimarı",
+            "D": "Web geliştirici",
+            "E": "Test elemanı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi/hangileri web tasarımcının görev alanı içerisindedir? I. Görsel öğeler tasarlamak II. Web sitesinin güvenlik testlerini yapmak III. Web sitesinin kullanılabilirlik analizlerini yapmak IV. HTML, CSS bilmek V. Java, PHP, MySql bilmek.",
+          "options": {
+            "A": "Ive II",
+            "B": "I, III ve IV",
+            "C": "IV ve V",
+            "D": "II ve III",
+            "E": "Yalnız V"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "I. Geliştirme II.Test III.Hedef Belirleme IV.Tasarım V.Yayın Yukarıdaki maddeleri web geliştirme sürecini göz önünde bulundurarak doğru bir şekilde sıraladığınızda hangisi baştan 3. sırada olur?",
+          "options": {
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV",
+            "E": "V"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Gerçekleştirilecek sitenin hem görsel tasarımını gerçekleştiren hem de kullanılması gereken fonksiyonları belirleyen kişi kimdir?",
+          "options": {
+            "A": "Proje yöneticisi",
+            "B": "Web tasarımcı",
+            "C": "Web geliştirici",
+            "D": "Analist",
+            "E": "Test elemanı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi web geliştirme sürecinde ihtiyaç duyulan temel yeteneklerden değildir?",
+          "options": {
+            "A": "Yönetim",
+            "B": "İstatistik",
+            "C": "Sanat",
+            "D": "Tasarım",
+            "E": "Programlama"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi web tasarım ilkeleri arasında sayılamaz?",
+          "options": {
+            "A": "Sayfa tasarlanırken sayfaların bütünlüğüne dikkat edilmelidir.",
+            "B": "Web sitesindeki alt sayfalara sadece ana sayfadan erişilecek şekilde planlama yapılmalıdır.",
+            "C": "Site haritasının çok iyi bir şekilde yapılandırılmış olması gerekir.",
+            "D": "Metinsel içeriklerin anlaşılır, uzun ve gereksiz cümlelerden arındırılmış olması gerekmektedir.",
+            "E": "Web sayfaları için yerleşim planları çıkartılırken ana taslağın ister bir kâğıda ister bilgisayar ortamında bir uygulama vasıtasıyla hazırlanması gerekmektedir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi görsel tasarım için kullanılan araçlardan değildir?",
+          "options": {
+            "A": "Photoshop",
+            "B": "Adobe Illustrator",
+            "C": "FreeHand",
+            "D": "Corel Draw",
+            "E": "Notepad++"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir web sitesinin farklı yaş gruplarına göre tasarlanması hangi tasarım ilkesi başlığı altında ele alınabilir?",
+          "options": {
+            "A": "Test",
+            "B": "İçerik",
+            "C": "Kullanılabilirlik",
+            "D": "Tarayıcı uyumu",
+            "E": "Fonksiyonellik"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Projelerde iş-zaman planlaması için kullanılan diyagram hangileridir?",
+          "options": {
+            "A": "CRISP-DM",
+            "B": "PowerChart",
+            "C": "Gantt",
+            "D": "MSProject",
+            "E": "Venn"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Web geliştirme sürecinde müşterinin yer aldığı sektör, bu sektör içerisindeki yeri, sektör özellikleri, müşterinin sektörde sunduğu ürün veya hizmetlerin neler olduğu gibi konuların analiz edildiği adım hangisidir?",
+          "options": {
+            "A": "Geliştirme",
+            "B": "Test",
+            "C": "Hedef Belirleme",
+            "D": "Tasarım",
+            "E": "Yayın"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı Unite 3",
+      "exam_title": "Web Tasarımı Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Web_Tasarimi_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2024/06/08/web-tasarimi-unite-3/",
+      "unit_number": 3,
+      "unit_label": "3- Web Tasarıma Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi web tarayıcının okuduğu dosyanın tipini anlayabilmesi için kullanılır?",
+          "options": {
+            "A": "<!DOCTYPE HTML>",
+            "B": "<meta charset=”utf-8”>",
+            "C": "<body bgcolor=”FF5200”>",
+            "D": "<head>",
+            "E": "<br/>"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir web sayfası ile ilgili yazar, anahtar kelimeler, karakter seti gibi bilgilerin belirtilmesi için kullanılan etiket aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<body>",
+            "B": "<meta>",
+            "C": "<img>",
+            "D": "<head>",
+            "E": "<link>"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "etiketini incelediğinizde buna göre aşağıdakilerden hangisi bir parametre değeridir?",
+          "options": {
+            "A": "bgcolor",
+            "B": "#FF0059",
+            "C": "body",
+            "D": "<>",
+            "E": "="
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "kod satırı aşağıdakilerden hangisi için kullanılır?",
+          "options": {
+            "A": "utf-8 sayfasına bağlantı tanımlamak için",
+            "B": "sayfa arka plan rengini belirlemek için",
+            "C": "metin boyutunu belirlemek için",
+            "D": "Türkçe karakter uyumsuzluğunu çözmek için",
+            "E": "paragraf oluşturmak için"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi HTML versiyonlarından biri değildir?",
+          "options": {
+            "A": "HTML 3.2",
+            "B": "HTML 4.01",
+            "C": "HTML 5.0",
+            "D": "HTML 3.5",
+            "E": "HTML 1.0"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi bir web sayfasının arka planını belirlememizi sağlayan parametredir?",
+          "options": {
+            "A": "bgcolor",
+            "B": "vlink",
+            "C": "alink",
+            "D": "text",
+            "E": "line"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi işaretleme dilleri arasında değildir?",
+          "options": {
+            "A": "HTML",
+            "B": "XML",
+            "C": "PHP",
+            "D": "LaTeX",
+            "E": "SGML"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "HTML kodu ne için kullanılır?",
+          "options": {
+            "A": "Tırnak işareti için",
+            "B": "Satır başı oluşturmak için",
+            "C": "Alt satıra geçmek için",
+            "D": "Yeni paragraf oluşturmak için",
+            "E": "Boşluk oluşturmak için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi HTML editörüdür?",
+          "options": {
+            "A": "Notepad++",
+            "B": "Atom",
+            "C": "Sublime Text",
+            "D": "CoffeCup",
+            "E": "Hepsi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir web sayfasının kaynak kodlarını görüntülemek için klavyeden hangi tuş/tuşlara basılması gerekmektedir?",
+          "options": {
+            "A": "F5",
+            "B": "F12",
+            "C": "F10",
+            "D": "F8",
+            "E": "Ctrl+Enter"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı Unite 4",
+      "exam_title": "Web Tasarımı Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Web_Tasarimi_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2024/06/09/web-tasarimi-unite-4/",
+      "unit_number": 4,
+      "unit_label": "4- Html Metin ve Görsel Düzenleme Etiketleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Sıralı liste yapısı oluşturmak için aşağıdaki etiketlerden hangisi öncelikle kullanılmalıdır?",
+          "options": {
+            "A": "<ul>",
+            "B": "<ol>",
+            "C": "<li>",
+            "D": "<list>",
+            "E": "<al>"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi yazı tipini belirlemek için <font> etiketi içerisinde kullanılan parametredir?",
+          "options": {
+            "A": "“size”",
+            "B": "“face”",
+            "C": "“align”",
+            "D": "“text”",
+            "E": "“color”"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "HTML ile yazılmış kod bloğu ne işe yarar?",
+          "options": {
+            "A": "Ekrana Google arama motorunun adını yazar",
+            "B": "Kodun yazıldığı web sayfası tarayıcıda görüntülendiğinde ekrana arama çubuğu getirir.",
+            "C": "http://www.google.com linkine bağlantı oluşturulur.",
+            "D": "http://www.google.com arama motorunda “Buraya Tıklayınız” kelime grubunu arar.",
+            "E": "Hazırlanan web sayfasının Google arama motorunda görüntülenmesini sağlar."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "<h1> etiketi ile metin içi başlık kaç punto ile yazılmış olur?",
+          "options": {
+            "A": "8",
+            "B": "10",
+            "C": "16",
+            "D": "24",
+            "E": "36"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yukarıda yer alan klasör yapısına göre aşağıdakilerden hangisi “baglanti.html” dosyasında yazılan ve bu dosyadan iuKapi.jpg görsel dosyasına bağlantı oluşturulmasını sağlayan etiket kullanımıdır?",
+          "options": {
+            "A": "<a href=”altSayfalar/iuKapi.jpg”> tıklayınız</a>",
+            "B": "<a href=”sayfalar/iuKapi.jpg”> tıklayınız</a>",
+            "C": "<a href=”WebSayfasi/iuKapi.jpg”> tıklayınız</a>",
+            "D": "<a href=”../sayfalar/iuKapi.jpg”> tıklayınız</a>",
+            "E": "<a href=”iuKapi.jpg”> tıklayınız</a>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bağlantı etiketi içerisinde kullanılan “target” etiketinin aşağıdaki hangi parametre değeri, kullanıcı ekranda ilgili bağlantıya tıkladığında bağlantı sağlanacak sayfayı ayrı sekmede açılmasını sağlar?",
+          "options": {
+            "A": "“_parent”",
+            "B": "“_new”",
+            "C": "“_top”",
+            "D": "“_blank”",
+            "E": "“_self”"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir görselin sayfa içerisindeki konumunu belirlemek için <img> etiketi içerisinde kullanılan parametre hangisidir?",
+          "options": {
+            "A": "“href”",
+            "B": "“size”",
+            "C": "“target”",
+            "D": "“align”",
+            "E": "“font”"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir web sayfası web tarayıcıda görüntülendiğinde içerikte yer alan metin ve görsellerin biçimlendirilmesi ve düzenlenmesini sağlayan etiketler HTML ile yazılan kodlar içerisinde hangi ana etiket yapısı altında tanımlanır?",
+          "options": {
+            "A": "<head>",
+            "B": "<body>",
+            "C": "<title>",
+            "D": "<h>",
+            "E": "<meta>"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bir dosya transferi için ilgili bağlantıya yönlendirme yapılmak isteniyorsa bu sefer parametre değerinin başına “ - - -” eklenip devamında dosya transfer bağlantısı belirtilmelidir. Boşluğa hangisi gelmelidir?",
+          "options": {
+            "A": "ftp:",
+            "B": "title:",
+            "C": "big:",
+            "D": "htp:",
+            "E": "tag:"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Alt indis gösterimi için hangi etiket kullanılmalıdır?",
+          "options": {
+            "A": "<h>",
+            "B": "<br/>",
+            "C": "<sub>",
+            "D": "<sup>",
+            "E": "<font>"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı Unite 5",
+      "exam_title": "Web Tasarımı Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 9,
+      "file_name": "Web_Tasarimi_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2024/06/09/web-tasarimi-unite-5/",
+      "unit_number": 5,
+      "unit_label": "5 - Html Tablo Etiketleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "“Tablo içerisindeki sütunların başlıkları olabileceği gibi tablonun kendi başlığı da olması elbette ki kaçınılmazdır. - - - etiketi açıldıktan sonra tablo adı - - - etiketi ile belirtilir”. Boşluklara sırasıyla gelmesi gerekenler hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "<body>, <caption>",
+            "B": "<tr>, < head >",
+            "C": "<table>, <caption>",
+            "D": "<td>, <head>",
+            "E": "<th>, <caption>"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bir web sayfasına tablo eklemek üzere kullandığımız etiket hangisidir?",
+          "options": {
+            "A": "<head>",
+            "B": "<table>",
+            "C": "<title>",
+            "D": "<tables>",
+            "E": "<meta>"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Yukarıda HTML kodları verilen tablo için aşağıdakilerden hangisi yanlıştır?",
+          "options": {
+            "A": "Tablo iki satırdan oluşur.",
+            "B": "Tablonun her bir satırındaki ilk hücre (sütun) başlık hücresidir.",
+            "C": "Tablonun ikinci satırında ilk iki hücre birleştirilmiştir",
+            "D": "Tablonun ilk satırında dört sütun (hücre) yer almaktadır.",
+            "E": "Tablonun ikinci satırında iki ve üçüncü hücreler (sütunlar) birleştirilmiştir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki parametrelerden hangisi tablolarda sütun birleştirme için kullanılır?",
+          "options": {
+            "A": "“row-combine”",
+            "B": "“combine”",
+            "C": "“row-span”",
+            "D": "“rowspan”",
+            "E": "“rowcomb”"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "“Daha sistematik bir yaklaşımda tablolar oluşturulmak ve biçimlendirilmek istendiğinde bir tablo başlık, ana gövde, alt bölüm olmak üzere üç ana bölüm içerir. Bu bölümleri oluşturmak üzere kullanılan HTML etiketleri sırasıyla <thead>, <tbody> ve <tfoot> şeklindedir.” Boşluğa gelmesi gerekenler hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "<tbody>, <thead>, <tfoot>",
+            "B": "<table>, <tr>, <th>",
+            "C": "<table>, <tr>, <td>",
+            "D": "<table>, <body>, <foot>",
+            "E": "<thead>, <tbody>, <tfoot>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir tablonun genişliğinin sayfanın yüzde 75’i, yüksekliğinin ise yüzde 50’si olması istenmektedir. Bunun için aşağıdaki HTML kodlarından hangisi kullanılmalıdır?",
+          "options": {
+            "A": "<table weight= “75%” height= “50%”>",
+            "B": "<table weight= “75” height= “50”>",
+            "C": "<td weight= “75%” height= “50%”>",
+            "D": "<table width= “75” height= “50”>",
+            "E": "<table width= “75%” height= “50%”>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "“Daha sistematik bir yaklaşımda tablolar oluşturulmak ve biçimlendirilmek istendiğinde bir tablo üç ana bölüm içerir. Bunlar - - -, - - - ve - - - şeklindedir.” Boşluğa gelmesi gerekenler hangi şıkta doğru verilmiştir?",
+          "options": {
+            "A": "satır, sütun, başlık",
+            "B": "sütun adı, satır adı, tablo adı",
+            "C": "üst bölüm, başlık, ana gövde",
+            "D": "başlık, ana gövde, alt bölüm",
+            "E": "üst bölüm, içerik, tablo adı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisinin kullanımı tabloya bir satır eklendiğini ifade eder?",
+          "options": {
+            "A": "<td>",
+            "B": "<th>",
+            "C": "<col>",
+            "D": "<row>",
+            "E": "<tr>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "“Tablonun veya tablo hücresinin arka plan rengini ayarlamak üzere - - - parametresi kullanılır.” cümlesindeki boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "“th”",
+            "B": "“bordercolor”",
+            "C": "“bgcolor”",
+            "D": "“background-color”",
+            "E": "“table-color”"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı Unite 6",
+      "exam_title": "Web Tasarımı Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 10,
+      "file_name": "Web_Tasarimi_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2024/06/09/web-tasarimi-unite-6/",
+      "unit_number": 6,
+      "unit_label": "6 - Html Çerçeve ve Form Etiketleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Her etiket her web tarayıcı tarafından desteklenmeyebilir. Bu noktada eğer <frameset> ile oluşturulmuş bir web sayfası bu etiketi desteklemeyen bir tarayıcıda görüntülenmek istenirse sorun yaşanacaktır. Böyle bir durumda kullanıcıya hata mesajı göstermek üzere aşağıdaki etiketlerden hangisi kullanılır?",
+          "options": {
+            "A": "<frameset>",
+            "B": "<frames>",
+            "C": "<frame>",
+            "D": "<noframe>",
+            "E": "<iframe>"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "“İlgili olduğu girdi öğesinin (onay kutucuğu, radyo düğmesi vb.) tıklanma alanı çok küçük ise bu öğelere tıklamak yerine - - - - etiketi ile tanımlanan başlığa tıklamak da seçim gerçekleştirilmesini sağlamaktadır” cümlesindeki boşluğa gelecek etiket aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<head>",
+            "B": "<input>",
+            "C": "<submit>",
+            "D": "<form>",
+            "E": "<label>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Bir çerçeve setini sütun bazlı bölümlemek için hangi parametreye değer(ler) vermek gerekir?",
+          "options": {
+            "A": "“width”",
+            "B": "“rows”",
+            "C": "“cols”",
+            "D": "“height”",
+            "E": "“weight”"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "<label> etiketi ile tanımlanan HTML öğesinin ilgili olduğu girdi öğesi (input) ile bağlantı kurulmasını sağlayan ve <label> etiketi içerisinde kullanılan parametre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "for",
+            "B": "id",
+            "C": "size",
+            "D": "type",
+            "E": "post"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "<input> girdi öğesi ve <label> etiketi ile tanımlanan ilgili HTML öğesi arasında bağlantı kurulmasını sağlayan ve <input> etiketi içerisinde kullanılan parametre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "for",
+            "B": "id",
+            "C": "size",
+            "D": "type",
+            "E": "post"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir form üzerinde veri girişinin boş geçilmemesini sağlayan bir diğer ifade ile veri girişini zorunlu kılan ve <input> etiketi içerisinde kullanılan değer aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "readonly",
+            "B": "disabled",
+            "C": "multiple",
+            "D": "must",
+            "E": "required"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir form içerisinde <input> etiketi ile girdi öğesi eklenmek istendiğinde bu öğenin hangi form alt girdi öğesi olacağını belirlemek üzere kullanılan parametre aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "for",
+            "B": "id",
+            "C": "size",
+            "D": "type",
+            "E": "post"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Web’te sayfalar arasında veri iletimi sürecinde istek ve cevap mantığı işlemektedir. Buna göre bir sayfa üzerinden istekte bulunulur ve sunucu vasıtasıyla isteklere cevap verilir. Bu sırada bazı metodlardan yararlanılır. Aşağıdakilerden hangisi bu metodlar arasında yer almaz?",
+          "options": {
+            "A": "cut",
+            "B": "put",
+            "C": "delete",
+            "D": "get",
+            "E": "post"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Kullanıcıya açılır liste şeklinde seçenekler sunulup, bu seçenekler arasından tercih yapması istenildiğinde kullanılan form öğesi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "radyo düğmesi-radio button",
+            "B": "onay kutucuğu-checkbox",
+            "C": "liste-list",
+            "D": "açılır liste-select list",
+            "E": "girdi-input"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Web sayfalarında her bir girdi öğesine ilişkin başlık metinlerini eklemek ve başlık ile ilgili girdi öğesi arasında bağlantı kurulmasını sağlamak üzere kullanılan etiket hangisidir?",
+          "options": {
+            "A": "<head>",
+            "B": "<input>",
+            "C": "<label>",
+            "D": "<id>",
+            "E": "<for>"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı Unite 7",
+      "exam_title": "Web Tasarımı Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 10,
+      "file_name": "Web_Tasarimi_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2024/06/10/web-tasarimi-unite-7/",
+      "unit_number": 7,
+      "unit_label": "7 - Html Stil Şablonu (css)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "a:hover { biçimlendirme tanımları} seçicisi ne işe yarar?",
+          "options": {
+            "A": "bağlantı adreslerinin biçimlendirmelerini değiştirir",
+            "B": "bağlantı adresleri ziyaret edildiyse biçimlendirmelerini değiştirir",
+            "C": "bağlantı adreslerinin üzerine gelince biçimlendirmelerini değiştirir",
+            "D": "bağlantı adreslerinin başlangıç biçimlendirmelerini gerçekleştirir",
+            "E": "bağlantılar iptal edilirse biçimlendirmelerini değiştirir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Seçici yapısı içerisinde aşağıdakilerden hangisi yer almaz?",
+          "options": {
+            "A": "seçici adı",
+            "B": "biçimlendirme tanımı",
+            "C": "parametre",
+            "D": "değer",
+            "E": "stil yapısı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "“border-style” parametresi kenarlığın çizgi görünümünü biçimlendirmek için kullanılmaktadır. Aşağıdakilerden hangisi bu parametrenin alabileceği değerlerden değildir? I-dotted, II-dashed, III-crashed, IV-single, V-solid",
+          "options": {
+            "A": "I-II",
+            "B": "I-III",
+            "C": "IV-V",
+            "D": "II-IV",
+            "E": "III-IV"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Metnin tam üzerine bir çizginin eklemek üzere kullanılan parametre değeri hangisidir?",
+          "options": {
+            "A": "“text-decoration-line”",
+            "B": "“overline”",
+            "C": "“underline”",
+            "D": "“line-through”",
+            "E": "“weight”"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "“background: #FF0000 url(“dosya_Adi”) no-repeat center top;” şeklinde bir CSS kodu verilmiş olsun. Bu kod ile birlikte arka plan hakkında bazı biçimlendirmeler gerçekleştirilmektedir. Arka plana ait çeşitli özellikler için verilen parametre değerlerinden hangisi, arka plana yerleştirilecek görselin tüm sayfa dolana kadar tekrar etmeden, sayfada sadece bir kez yer almasını sağlar?",
+          "options": {
+            "A": "center",
+            "B": "top",
+            "C": "no-repeat center",
+            "D": "center top",
+            "E": "no-repeat"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "HTML’de görsellik ayarlamaları için HTML’nin tamamlayıcı unsuru olarak kullanılan yapı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Java",
+            "B": "JS",
+            "C": "CSS",
+            "D": "Etiketler",
+            "E": "UX"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "HTML dosyası içerisinde CSS komutlarını tanımlamak üzere kullanılan etiket aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "<body>",
+            "B": "<head>",
+            "C": "<script>",
+            "D": "<style>",
+            "E": "<css>"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi isim tabanlı bir seçicidir?",
+          "options": {
+            "A": "#tablo {}",
+            "B": "tablo {}",
+            "C": "table {}",
+            "D": ".tablo{}",
+            "E": "hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "- - - parametresi ile birlikte kenarlık ve iç kenar dolgusunun belirlenen genişlik ve yükseklik içerisinde kalması sağlanır. Boşluğa aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "“box-sizing”",
+            "B": "“box-frame”",
+            "C": "“box-line”",
+            "D": "“box-padding”",
+            "E": "“box-width”"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "table {background-color: red;} şeklinde bir seçici tanımladğımızı varsayalım. Aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Tablo içerisinde belirlenen bir satırın arka planını kırmızı yapar",
+            "B": "Tüm tabloların arka plan rengini kırmızı yapar",
+            "C": "Belirlenen bir tablonun arka plan rengini kırmızı yapar",
+            "D": "Tüm tablolarda tek bir satırın arka planını kırmızı yapar",
+            "E": "Seçici ilgili HTML öğesine atanmadığı sürece herhangi bir biçimlendirme yansımaz"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web Tasarımı Unite 8",
+      "exam_title": "Web Tasarımı Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 10,
+      "file_name": "Web_Tasarimi_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2024/06/11/web-tasarimi-unite-8/",
+      "unit_number": 8,
+      "unit_label": "8 - Javascrıpt",
+      "questions": [
+        {
+          "id": 1,
+          "question": "let x=“ ”; şeklinde bir değişken tanımı yapıldıktan sonra x değişkeninin veri tipi aşağıdakilerden hangisi olur?",
+          "options": {
+            "A": "Integer",
+            "B": "Number",
+            "C": "Object",
+            "D": "NA",
+            "E": "Null"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "JS kodları tarayıcılarda yorumlanarak çalıştırılır. Bu yorumlamanın gerçekleştirilebilmesi için tarayıcılar - - - adı verilen araçları kullanmaktadırlar? Boşluğa hangi ifade gelmelidir?",
+          "options": {
+            "A": "JS yürütücüleri",
+            "B": "JS motorları",
+            "C": "JS sunucuları",
+            "D": "JS derleyicileri",
+            "E": "JS sensörleri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "JS kodları hangi etiket açılış ve kapanışı arasında yazılmalıdır?",
+          "options": {
+            "A": "<scripted>",
+            "B": "<p>",
+            "C": "<form>",
+            "D": "<h>",
+            "E": "<script>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Web sayfalarına etkileşimli bir yapı kazandırmak için aşağıdaki dillerden hangisini kullanmaktayız?",
+          "options": {
+            "A": "HTML",
+            "B": "CSS",
+            "C": "C",
+            "D": "JavaScript",
+            "E": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "“&&” operatörü ne anlama gelir?",
+          "options": {
+            "A": "eşit değil",
+            "B": "eşit",
+            "C": "veya",
+            "D": "ve",
+            "E": "atama"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki DOM olaylarından hangisi bir butona tıklanması olayını temsil eder?",
+          "options": {
+            "A": "onmouseon",
+            "B": "onmouseover",
+            "C": "onmouseclick",
+            "D": "onclick",
+            "E": "click"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "“Betik dillerinin derlenmesine gerek yoktur, derlenmek yerine yorumlanarak (- - - - -) çalıştırılırlar?” Boşluğa gelecek ifade hangisidir?",
+          "options": {
+            "A": "compiled",
+            "B": "listed",
+            "C": "interpreted",
+            "D": "readible",
+            "E": "concluded"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Genellikle sabit değerler alan değişkenler için - - -, farklı değişkenlere göre değişen değerlere sahip olabilecek değişkenler - - - ile tanımlanabilmektedir. Boşluklara sırasıyla hangileri gelmelidir?",
+          "options": {
+            "A": "for - var",
+            "B": "var - char",
+            "C": "const - let",
+            "D": "const - for",
+            "E": "char - const"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki HTML öğelerinden hangisi <body> etiketinin çocuğudur (child element)?",
+          "options": {
+            "A": "<html>",
+            "B": "<head>",
+            "C": "<document>",
+            "D": "<meta>",
+            "E": "<p>"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "DOM yapısı içerisinde kök element (etiket) hangisidir?",
+          "options": {
+            "A": "<body>",
+            "B": "<head>",
+            "C": "<p>",
+            "D": "<script>",
+            "E": "<html>"
+          },
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",

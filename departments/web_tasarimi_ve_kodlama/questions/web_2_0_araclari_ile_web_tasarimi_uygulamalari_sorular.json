@@ -1,7 +1,7 @@
 {
   "course": "Web 2.0 Araclari ile Web Tasarimi Uygulamalari",
   "lesson_code": "WEB_2_0_ARACLARI_ILE_WEB_TASARIMI_UYGULAMALARI",
-  "exam_count": 4,
+  "exam_count": 8,
   "exams": [
     {
       "title": "Web 2.0 Araclari ile Web Tasarimi Uygulamalari 2024 Vize",
@@ -1399,6 +1399,738 @@
             "E": "Web sitesinin performans ölçümü"
           },
           "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web 2.0 Araçları ile Web Tasarımı Uygulamaları Unite 1",
+      "exam_title": "Web 2.0 Araçları ile Web Tasarımı Uygulamaları Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Web_2.0_Araclari_ile_Web_Tasarimi_Uygulamalari_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2024/10/12/web-2-0-araclari-ile-web-tasarimi-uygulamalari-unite-1/",
+      "unit_number": 1,
+      "unit_label": "1. Temel Kavramlar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdaki teknolojilerden hangisi Web 2.0 döneminde içeriğin dinamik olarak güncellenmesini sağlar?",
+          "options": {
+            "A": "HTML",
+            "B": "AJAX",
+            "C": "HTTP",
+            "D": "Blokzincir",
+            "E": "Web tarayıcıları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Web 1.0 dönemi için hangisi doğrudur?",
+          "options": {
+            "A": "Kullanıcılar, içerik oluşturma ve paylaşma imkânına sahiptir.",
+            "B": "Statik HTML sayfalarından oluşan bir dönemdir.",
+            "C": "Dinamik içerik güncellemeleri desteklenir.",
+            "D": "Sosyal medya platformları bu dönemde yaygınlaşmıştır.",
+            "E": "Blokzincir teknolojisi bu dönemde kullanılmıştır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İnternetin çalışma mantığında veri paketleri hangi bileşen aracılığıyla doğru hedefe yönlendirilir?",
+          "options": {
+            "A": "Web tarayıcıları",
+            "B": "Sunucular",
+            "C": "Yönlendiriciler",
+            "D": "Modemler",
+            "E": "DNS sunucuları"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "WWW ile ilgili verilenlerden hangisi doğrudur?",
+          "options": {
+            "A": "Sadece metin tabanlı belgelerden oluşur.",
+            "B": "Birbirine bağlı belgeler ve kaynaklardan oluşur.",
+            "C": "Sadece video içeriklerinden oluşur.",
+            "D": "Web tarayıcıları tarafından üretilen HTML kodlarıdır.",
+            "E": "Sadece sosyal medya içeriklerinden oluşur."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi Web 2.0’ın en belirgin özelliklerinden biridir?",
+          "options": {
+            "A": "Yalnızca statik içeriklerin görüntülenmesini sağlar.",
+            "B": "Kullanıcıların aktif olarak içerik oluşturabildiği, paylaştığı ve iş birliği yapabildiği dinamik bir platformdur.",
+            "C": "İnternetin sadece askeri amaçlarla kullanıldığı bir dönemdir.",
+            "D": "Sadece akademik çevrelerde kullanılmıştır.",
+            "E": "Bilgisayarlar arasında dosya transferi sağlamak amacıyla kullanılır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "İnternet nedir?",
+          "options": {
+            "A": "Bilgisayar oyunlarının oynandığı bir platform",
+            "B": "Dünya genelindeki bilgisayar ağlarının birleşiminden oluşan en büyük ağ",
+            "C": "Sadece kablosuz iletişim modlarıyla çalışan bir sistem",
+            "D": "Tek bir işletim sistemi ile çalışan bir ağ",
+            "E": "Başka bilgisayarlara bağlanmak için kullanılan bir cihaz"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "TCP/IP protokolü ne işe yarar?",
+          "options": {
+            "A": "Web sayfalarını görüntüler.",
+            "B": "Verilerin cihazlar arasında doğru bir şekilde iletilmesini sağlar.",
+            "C": "E-posta gönderimini yönetir.",
+            "D": "Dosya transferi yapar.",
+            "E": "Alan adlarını IP adreslerine çevirir."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi Web 3.0’ın beraberinde getirdiği avantajlardan biridir?",
+          "options": {
+            "A": "Kullanıcıların metin tabanlı içeriklere erişebilmesi",
+            "B": "Merkezsizleştirme ve kişisel veri kontrolü",
+            "C": "İnternette görsel, video gibi çoklu ortam öğelerinin paylaşılabilmesi",
+            "D": "İnternetin eğitim amaçlı kullanılabilmesi",
+            "E": "HTML ile web sayfalarının tasarlanması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi internetin temel bileşenlerinden biri değildir?",
+          "options": {
+            "A": "Ağlar ve sunucular",
+            "B": "İletişim protokolleri",
+            "C": "İnternet servis sağlayıcıları",
+            "D": "Web tarayıcıları ve uygulamalar",
+            "E": "Yazıcılar ve tarayıcılar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi internetin hayatımızdaki etkilerinden biri değildir?",
+          "options": {
+            "A": "İletişim yöntemlerini değiştirmesi",
+            "B": "Eğitimde fırsat eşitliği sağlaması",
+            "C": "İş dünyasında globalleşmeyi desteklemesi",
+            "D": "Tüm zararlı yazılımları engellemesi",
+            "E": "Bilgiye erişimi kolaylaştırması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web 2.0 Araçları ile Web Tasarımı Uygulamaları Unite 2",
+      "exam_title": "Web 2.0 Araçları ile Web Tasarımı Uygulamaları Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Web_2.0_Araclari_ile_Web_Tasarimi_Uygulamalari_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2024/10/12/web-2-0-araclari-ile-web-tasarimi-uygulamalari-unite-2/",
+      "unit_number": 2,
+      "unit_label": "2. Web Tasarımında Güncel Eğilimler ve Teknolojiler",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kapsayıcı Tasarım ın amacı nedir?",
+          "options": {
+            "A": "Web sitelerinin yalnızca mobil cihazlarda kullanılabilir olmasını sağlamak",
+            "B": "Web içeriklerinin herkes tarafından erişilebilir olmasını sağlamak",
+            "C": "Renk şemalarını daha karmaşık hale getirmek",
+            "D": "Web sitelerinin yüklenme süresini artırmak",
+            "E": "3D grafiklerin daha fazla kullanılmasını sağlamak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Artırılmış Gerçeklik (AR) teknolojisi web tasarımında nasıl bir deneyim sunar?",
+          "options": {
+            "A": "Sayfa yükleme hızını artırır.",
+            "B": "Kullanıcıların fiziksel dünyalarını dijital görünümlerle zenginleştirir",
+            "C": "Yazı tiplerinin okunabilirliğini artırır.",
+            "D": "Renk şemalarını kullanıcı tercihlerine göre düzenler.",
+            "E": "Web sitelerinin mobil uyumunu sağlar."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Mikro Etkileşimler web tasarımında hangi amaçla kullanılır?",
+          "options": {
+            "A": "Kullanıcıların dikkatini dağıtmak için",
+            "B": "Renk şemalarını otomatik olarak değiştirmek için",
+            "C": "Yazı tiplerini optimize etmek için",
+            "D": "Web sitelerini daha güvenli hale getirmek için",
+            "E": "Web sitelerini daha dinamik hale getirmek için"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Web tasarımında Hızlı Yüklenme ve Performans Optimizasyonu için hangi yaklaşım tercih edilmelidir?",
+          "options": {
+            "A": "Yoğun miktarda TIFF dosya formatlı resimler kullanılması",
+            "B": "3D grafiklerin artırılması",
+            "C": "Hızlandırılmış Mobil Sayfalar (AMP) kullanılması",
+            "D": "Yazı tipi boyutlarının arttırılması",
+            "E": "Sesli arama optimizasyonunun yapılması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Blockchain teknolojisinin web tasarımında kullanılmasının en büyük avantajı nedir?",
+          "options": {
+            "A": "Sayfa yükleme hızını artırmak",
+            "B": "Güvenli veri transferi ve dijital kimlik doğrulaması sağlamak",
+            "C": "Yazı tiplerini daha okunabilir hale getirmek",
+            "D": "Mikro etkileşimleri optimize etmek",
+            "E": "Sesli arama optimizasyonunu sağlamak"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "3D tasarımlar ve illüstrasyonların kullanımının web siteleri üzerindeki etkisi nedir?",
+          "options": {
+            "A": "Web sayfasına derinlik ve dinamizm katar.",
+            "B": "Sayfayı basitleştirir.",
+            "C": "Karmaşık bir görünüm oluşturur.",
+            "D": "Minimalizm anlayışını vurgular.",
+            "E": "Web sayfasını tekdüze bir görünüme kavuşturur."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki seçeneklerden hangisi minimalist tasarımın bir özelliği değildir?",
+          "options": {
+            "A": "Gereksiz unsurların ortadan kaldırılması",
+            "B": "Kullanıcı etkileşimini artırması",
+            "C": "Renk şemalarının karmaşık hale getirilmesi",
+            "D": "İçeriğe odaklanmayı sağlaması",
+            "E": "Bilişsel yükü azaltması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Web tasarımında Sesli Arama Optimizasyonu neden önemlidir?",
+          "options": {
+            "A": "Kullanıcıların yazılı içerik yerine sesli komutlarla daha hızlı etkileşim kurmasını sağlamak için",
+            "B": "Yazı tiplerinin daha okunabilir hale getirilmesi için",
+            "C": "Web sitelerinin yüklenme hızını artırmak için",
+            "D": "Renk şemalarını optimize etmek için",
+            "E": "İçeriklerin daha kısa sürede güncellenmesi için"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi web tasarımında Tipografi nin doğru kullanımına bir örnektir?",
+          "options": {
+            "A": "Yazı tiplerinin küçük boyutlarda kullanılması",
+            "B": "Metinlerin okunabilirliğini artıracak yazı tiplerinin seçilmesi",
+            "C": "Mümkün olduğunca fazla renkli metinlere yer verilmesi",
+            "D": "Mikro etkileşimlerin artırılması",
+            "E": "3D grafiklerin yoğun olarak kullanılması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Web tasarımında Erişilebilirlik neyi ifade eder?",
+          "options": {
+            "A": "Web sitelerinin hızlı yüklenmesini",
+            "B": "İçeriklerin tüm kullanıcılar tarafından kullanılabilir olmasını",
+            "C": "Yazı tiplerinin otomatik olarak değiştirilmesini",
+            "D": "Renk uyumunun sağlanmasını",
+            "E": "Web sitelerinin mobil cihazlara uyumlu hale getirilmesini"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web 2.0 Araçları ile Web Tasarımı Uygulamaları Unite 3",
+      "exam_title": "Web 2.0 Araçları ile Web Tasarımı Uygulamaları Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Web_2.0_Araclari_ile_Web_Tasarimi_Uygulamalari_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2024/10/12/web-2-0-araclari-ile-web-tasarimi-uygulamalari-unite-3/",
+      "unit_number": 3,
+      "unit_label": "3. Web Tasarımında Temel Resim Düzenleme İşlemleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Opaklık (opacity) neyi belirler?",
+          "options": {
+            "A": "Görüntünün genişliğini",
+            "B": "Görüntünün ne kadar şeffaf olduğunu",
+            "C": "Görüntünün kırpılmasını",
+            "D": "Görüntüdeki renk doygunluğunu",
+            "E": "Görüntünün çözünürlüğünü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Piksel nedir?",
+          "options": {
+            "A": "Dijital bir görüntünün en büyük birimi",
+            "B": "Görüntünün bir kısmını bulanıklaştırma işlemi",
+            "C": "Görüntüdeki tek bir noktayı temsil eden en küçük birim",
+            "D": "Görseldeki renk paletini seçme aracı",
+            "E": "Görüntüdeki en parlak nokta"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "24 bit piksel derinliği kaç farklı renk saklayabilir?",
+          "options": {
+            "A": "256",
+            "B": "1024",
+            "C": "65536",
+            "D": "16,777,216",
+            "E": "1,000,000"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi renk modlarından biridir?",
+          "options": {
+            "A": "Lasso",
+            "B": "RGB",
+            "C": "Blur",
+            "D": "Crop",
+            "E": "Opacity"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bir görüntüdeki istenmeyen bölümleri çıkartma işlemine ne denir?",
+          "options": {
+            "A": "Boyutlandırma",
+            "B": "Opaklık",
+            "C": "Kırpma",
+            "D": "Katman ekleme",
+            "E": "Filtreleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Çözünürlük kavramı neyi ifade etmektedir?",
+          "options": {
+            "A": "Görüntüyü kırpma işlemini",
+            "B": "Bir görüntünün sahip olduğu ayrıntı miktarını",
+            "C": "Görüntüdeki renk tonlarının sayısını",
+            "D": "Görüntünün dosya boyutunu",
+            "E": "Görüntünün parlaklık seviyesini"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Web 2.0 resim düzenleme araçlarının güncellemeleri nasıl sağlanır?",
+          "options": {
+            "A": "Kullanıcıların manuel olarak indirmesi gerekir.",
+            "B": "Uygulamalar otomatik olarak güncellenir.",
+            "C": "Hiçbir zaman güncellenmezler.",
+            "D": "Sadece premium kullanıcılar için güncellenir.",
+            "E": "Güncellemeler yıllık olarak yapılır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir görselin dosya boyutunu küçültmek için hangi işlem yapılır?",
+          "options": {
+            "A": "Renk düzenleme",
+            "B": "Filtreleme",
+            "C": "Sıkıştırma",
+            "D": "Maskeleme",
+            "E": "Katman ekleme"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Resim düzenleme ifadesinin tam karşılığı nedir?",
+          "options": {
+            "A": "Fotoğrafları kırpma",
+            "B": "Bir görüntünün görünümünü değiştirmek, geliştirmek veya yeniden yaratmak amacıyla yapılan tüm işlemler",
+            "C": "Fotoğraf üzerinde renk düzenlemeleri yapma",
+            "D": "Görüntüleri yeniden boyutlandırma",
+            "E": "Fotoğrafları sosyal medyada paylaşma"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi bir Web 2.0 resim düzenleme uygulaması değildir?",
+          "options": {
+            "A": "Canva",
+            "B": "Pixlr",
+            "C": "Microsoft Paint",
+            "D": "Photopea",
+            "E": "GIMP"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Web 2.0 Araçları ile Web Tasarımı Uygulamaları Unite 4",
+      "exam_title": "Web 2.0 Araçları ile Web Tasarımı Uygulamaları Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Web_2.0_Araclari_ile_Web_Tasarimi_Uygulamalari_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2024/10/12/web-2-0-araclari-ile-web-tasarimi-uygulamalari-unite-4/",
+      "unit_number": 4,
+      "unit_label": "4. Web 2.0 Araçları ile Veri Görselleştirme",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Veri görselleştirme hangi disiplinlerde kullanılır?",
+          "options": {
+            "A": "Sadece mühendislik",
+            "B": "Sadece sanayi",
+            "C": "Sadece pazarlama",
+            "D": "Sadece tıp",
+            "E": "Eğitim, iş dünyası ve mühendislik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Veri görselleştirme nedir?",
+          "options": {
+            "A": "Verilerin düzenlenmesi",
+            "B": "Verilerin görsel araçlarla sunulması",
+            "C": "Verilerin analizi",
+            "D": "Verilerin saklanması",
+            "E": "Verilerin metin olarak aktarılması"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Infogram aracı ne için kullanılır?",
+          "options": {
+            "A": "Program yazmak",
+            "B": "İnfografik oluşturmak",
+            "C": "Makale yazmak",
+            "D": "Video düzenlemek",
+            "E": "Ses kaydetmek"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Görselleştirme hangi beyin yetisini kullanır?",
+          "options": {
+            "A": "Görsel işleme",
+            "B": "Sayısal işlem",
+            "C": "Dil işleme",
+            "D": "Duyusal işleme",
+            "E": "Mekanik işleme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Beynimiz, görsel bilgiyi yazılı metne göre hangi hızda işler?",
+          "options": {
+            "A": "Daha yavaş",
+            "B": "Aynı hızda",
+            "C": "60.000 kat daha hızlı",
+            "D": "10 kat daha yavaş",
+            "E": "10 kat daha hızlı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Görselleştirmenin eğitimdeki rolü nedir?",
+          "options": {
+            "A": "Öğrencilerin motivasyonunu azaltır.",
+            "B": "Öğrenmeyi zorlaştırır.",
+            "C": "Sadece metin bilgileri kullanılır.",
+            "D": "Karmaşık bilgilerin daha hızlı öğrenilmesini sağlar.",
+            "E": "Bilgileri sadece ezberletir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Web 2.0 araçları ile hangi tür içerikler veri görselleştirmede kullanılmaz?",
+          "options": {
+            "A": "Grafikler",
+            "B": "İnteraktif haritalar",
+            "C": "Diyagramlar",
+            "D": "Videolar",
+            "E": "Mektuplar"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi verilerin görsel açıdan daha anlaşılır hale gelmesi için kullanılabilecek araçlardan biridir?",
+          "options": {
+            "A": "Haritalar",
+            "B": "Mektuplar",
+            "C": "Kitaplar",
+            "D": "Makaleler",
+            "E": "Bildiriler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi Web 2.0 veri görselleştirme araçlarından biridir?",
+          "options": {
+            "A": "Microsoft Word",
+            "B": "Infogram",
+            "C": "PowerPoint",
+            "D": "Notepad",
+            "E": "Excel"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Haritalar özellikle hangi verileri görselleştirmek için kullanılabilir?",
+          "options": {
+            "A": "Sayısal veriler",
+            "B": "Metin verileri",
+            "C": "Ses verileri",
+            "D": "Video verileri",
+            "E": "Coğrafi veriler"
+          },
+          "correct_answer": "E",
           "explanation": "",
           "image_url": "",
           "image_file": "",

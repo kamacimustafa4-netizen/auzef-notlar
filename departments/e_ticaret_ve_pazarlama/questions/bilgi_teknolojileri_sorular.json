@@ -1,7 +1,7 @@
 {
   "course": "Bilgi Teknolojileri",
   "lesson_code": "BILGI_TEKNOLOJILERI",
-  "exam_count": 9,
+  "exam_count": 17,
   "exams": [
     {
       "title": "Bilgi Teknolojileri 2025 Vize",
@@ -3154,6 +3154,1453 @@
             "E": "E-yönetim"
           },
           "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgi Teknolojileri Unite 1",
+      "exam_title": "Bilgi Teknolojileri Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Bilgi_Teknolojileri_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2023/11/17/bilgi-teknolojileri-unite-1/",
+      "unit_number": 1,
+      "unit_label": "1- Bilgi Teknolojilerine Giriş",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi bilgi kavramı ile eşanlamı kullanılamaz?",
+          "options": {
+            "A": "Üst bilgi",
+            "B": "Kazanılmış bilgi",
+            "C": "Yararlı bilgi",
+            "D": "Malumat",
+            "E": "İrfan"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi verinin ölçümünde kullanılan ölçeklerden biri değildir?",
+          "options": {
+            "A": "Oran ölçeği",
+            "B": "Aralık ölçeği",
+            "C": "Sezgisel ölçek",
+            "D": "Ordinal ölçek",
+            "E": "Nominal ölçek"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi deterministik bir süreç olarak nasıl sorusuna yanıtlar üreten bir kavramdır?",
+          "options": {
+            "A": "Veri",
+            "B": "Enformasyon",
+            "C": "Bilgi",
+            "D": "Zeka",
+            "E": "İçgörü"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir insanın ya da sistemin bilgiyi davranışlara dönüştürme yeteneğine karşılık gelen bilişim sistemi kavramı aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "İçgörü",
+            "B": "Zeka",
+            "C": "Kavrama",
+            "D": "Enformasyon",
+            "E": "Malumat"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi bir model, durum veya senaryodaki ilişkilerin ve davranışların tanımlanmasını temel alarak sebep ve etkinin anlaşılması anlamına gelen kavramdır.",
+          "options": {
+            "A": "Veri",
+            "B": "Enformasyon",
+            "C": "Bilgi",
+            "D": "Zeka",
+            "E": "İçgörü"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi dijital veri türlerinde biri değildir?",
+          "options": {
+            "A": "Sayısal veri türleri",
+            "B": "Metinsel veri türleri",
+            "C": "Zamansal veri türleri",
+            "D": "Boolean veri türleri",
+            "E": "Sezgisel veri türleri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi bir veritabannda verinin organizasyonunda, alanların (fields) biraraya gelerek oluşturduğu gruba verilen isimdir?",
+          "options": {
+            "A": "Karakter",
+            "B": "Alan",
+            "C": "Veritabanı",
+            "D": "Kayıt",
+            "E": "Dosya"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi verilerin enformasyona dönüştürülmesinde kullanılan yanıt aranan soru kiplerinden değildir?",
+          "options": {
+            "A": "Ne?",
+            "B": "Niçin?",
+            "C": "Nerede?",
+            "D": "Ne zaman?",
+            "E": "Kim?"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki kavramlardan hangisi bilgi hiyerarşinde en geniş alanda ve yoğunlukta temsil edilen kavramdır?",
+          "options": {
+            "A": "Veri",
+            "B": "Bilgi",
+            "C": "Kavrama",
+            "D": "Enformasyon",
+            "E": "Malumat"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bilgi hiyerarşisi piramidini oluşturan kavramlardan hangisi geleceğe yöneliktir?",
+          "options": {
+            "A": "Bilgi",
+            "B": "Enformasyon",
+            "C": "Kavrama",
+            "D": "İçgörü",
+            "E": "Bilgelik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgi Teknolojileri Unite 2",
+      "exam_title": "Bilgi Teknolojileri Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Bilgi_Teknolojileri_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2023/11/17/bilgi-teknolojileri-unite-2/",
+      "unit_number": 2,
+      "unit_label": "2- Yazılım ve Donanım",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi bir kez programlanan ve bir daha programlanması değiştirilemeyen ya da silinemeyen salt okunur bellek tipidir?",
+          "options": {
+            "A": "EEPROM",
+            "B": "PROM",
+            "C": "EPROM",
+            "D": "ROM",
+            "E": "RAM"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdaki kompakt disk tiplerinden hangisi verilerin silinerek tekrar yazılmasına imkan tanır?",
+          "options": {
+            "A": "CD-ROM",
+            "B": "CD-R",
+            "C": "CD-R DL",
+            "D": "CD-RW",
+            "E": "CD+R"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi katı hâl sürücülerinde (SSD’lerde) kullanılan ara birimlerden biri değildir?",
+          "options": {
+            "A": "SATA",
+            "B": "M.2 SATA",
+            "C": "mSATA",
+            "D": "M.2 NvmE",
+            "E": "DRAM"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki depolama birimlerinden hangisinin kapasitesi diğerlerinden daha düşüktür?",
+          "options": {
+            "A": "Manyetik Bant",
+            "B": "DVD",
+            "C": "CD",
+            "D": "Disket",
+            "E": "Blu-ray"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi işletim sisteminin görevleri arasında yer almaz?",
+          "options": {
+            "A": "Dosya yönetimi",
+            "B": "Bellek yönetimi",
+            "C": "Ağ iletişimi yönetimi",
+            "D": "Genel sistem performansını optimize etme",
+            "E": "ROM belleğe verilerin yazılması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi bilgisayarın ağ (network) a bağlantısını sağlayan; anakart üzerinde gömülü olabileceği genişletme yuvaları ile anakarta eklene bilen ağ donanımıdır.",
+          "options": {
+            "A": "Modem",
+            "B": "Fax modem",
+            "C": "Ağ arabirim kartı",
+            "D": "MAC Adresi",
+            "E": "SATA"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Donanımın kendisinden beklenen işlevleri yerine getirebilmesi için kullandığı ROM tipi belleklerde saklanan yazılımlar aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "Aygıt sürücüleri",
+            "B": "Firmware",
+            "C": "BIOS",
+            "D": "EUFI",
+            "E": "İşletim sistemi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdaki yazılım türlerinden hangisi bir bilgisayarı analiz etmeye, yapılandırmaya, optimize etmeye veya bakımını yapmaya yardımcı olmak için tasarlanmıştır.",
+          "options": {
+            "A": "İşletim Sistemi",
+            "B": "Donanım Yazılımları",
+            "C": "Yardımcı Yazılımlar",
+            "D": "Aygıt Sürücüleri",
+            "E": "Geliştirme Yazılımları"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "EPROM bir kez programlanan ve bir daha programlanması değiştirilemeyen ya da silinemeyen ROM’lardır.",
+            "B": "PROM’lar tekrar programlanabilir.",
+            "C": "PROM üzerindeki veriler bilgisayar kapatıldığında silinir.",
+            "D": "EEPROM’lar üzerinde elektrisel olarak veri silme ve tekrar programlama işlemi yapılabilir.",
+            "E": "EPROM’lar ultraviyole ışınlara karşı dayanaklıktır. Bu türden bir ışığa maruz kalsa da üzerindeki verileri korur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden donanımlardan hangisi girdi birimleri arasında sayılamaz?",
+          "options": {
+            "A": "Bellekler",
+            "B": "Klavye",
+            "C": "Fare",
+            "D": "Dokunma yüzeyi",
+            "E": "Grafik tablet"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgi Teknolojileri Unite 3",
+      "exam_title": "Bilgi Teknolojileri Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Bilgi_Teknolojileri_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2023/11/17/bilgi-teknolojileri-unite-3/",
+      "unit_number": 3,
+      "unit_label": "3- Ofis Uygulamaları",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi bir hesap tablosunda yer alan bir hücrenin veya hücre grubunun konumunu ifade etmek için kullanılan kavramdır?",
+          "options": {
+            "A": "Formül",
+            "B": "Hücre",
+            "C": "Hücre referansı",
+            "D": "Menü",
+            "E": "Satır"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi online toplantı uygulamaları arasında sayılamaz?",
+          "options": {
+            "A": "Microsoft Teams",
+            "B": "Cisco Webex",
+            "C": "Google Workspace",
+            "D": "Google Meet",
+            "E": "Zo"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi bir hesap tablosu üzerinde sayılar ile temsil edilen yatay vektörleri ifade eden kavramdır.",
+          "options": {
+            "A": "Formül",
+            "B": "Hücre",
+            "C": "Hücre referansı",
+            "D": "Menü",
+            "E": "Satır"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi kelime işlemci yazılımları arasında sayılamaz.",
+          "options": {
+            "A": "Microsoft Word",
+            "B": "Libreoffice Writer",
+            "C": "WPS Office Writer",
+            "D": "Apple Pages",
+            "E": "EtherCalc"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi tipik bir ofis uygulaması/programı değildir?",
+          "options": {
+            "A": "Microsoft Excel",
+            "B": "Apple Keynote",
+            "C": "LibreOffice Writer",
+            "D": "WPS Spreadsheet",
+            "E": "AUTOCAD"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki kelime işlemcilerden hangisi tamamen online ve ücretsiz olarak sunulan ofis uygulamasıdır?",
+          "options": {
+            "A": "Microsoft Office",
+            "B": "Google Docs",
+            "C": "Libre Office",
+            "D": "Apple Iwork",
+            "E": "WPS Office"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi bir hesap tablosu yazılımında hücre referansının başlangıç ve bitiş noktaları arasındaki tüm hücreleri dahil etmesini sağlayan parametredir?",
+          "options": {
+            "A": "Virgül (,)",
+            "B": "Noktalı virgül (;)",
+            "C": "Dolar işareti ($)",
+            "D": "Ünlem işareti (!)",
+            "E": "İki nokta üst üste (:)"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi ofis uygulamalarının oaket olarak sunulduğu ofis yazılımlarından biri değildir?",
+          "options": {
+            "A": "Microsoft Office",
+            "B": "Linux Office",
+            "C": "Libre Office",
+            "D": "Apple Iwork",
+            "E": "WPS Office"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki ofis uygulamalarından hangisi ofis veritabanlarının tasarımı ve verilerinin işlenmesinde kullanılan yazılımdır?",
+          "options": {
+            "A": "Microsoft Excel",
+            "B": "Apple Keynote",
+            "C": "LibreOffice Writer",
+            "D": "WPS Spreadsheet",
+            "E": "Microsoft Access"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki ofis paket programlarından hangisi tamamen ücretsiz ve açık kaynak kodludur?",
+          "options": {
+            "A": "Microsoft Office",
+            "B": "Linux Office",
+            "C": "Libre Office",
+            "D": "Apple Iwork",
+            "E": "WPS Office"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgi Teknolojileri Unite 4",
+      "exam_title": "Bilgi Teknolojileri Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Bilgi_Teknolojileri_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2023/11/17/bilgi-teknolojileri-unite-4/",
+      "unit_number": 4,
+      "unit_label": "4- Ağ ve İnternet",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi paylaşılan depolama aygıtı havuzlarını birbirine bağlayan ve birden çok sunucuya sunan özel bir yüksek hızlı ağ veya alt ağdır?",
+          "options": {
+            "A": "MAN",
+            "B": "WAN",
+            "C": "SAN",
+            "D": "LAN",
+            "E": "LoRaWAN"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi ağ topolojileri arasında sayılamaz?",
+          "options": {
+            "A": "Bus",
+            "B": "Star",
+            "C": "Ring",
+            "D": "Tree",
+            "E": "Semantic"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi bir bilgisayarda anakartların içine yerleştirilmiş yada haricen takılan bir devre kartı veya çip şeklinde; bilgisayarın bir ağa bağlanmasına izin veren bir donanım birimidir?",
+          "options": {
+            "A": "Modem",
+            "B": "Hub",
+            "C": "NIC",
+            "D": "Bridge",
+            "E": "Switch"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi Nesnelerin İnterneti (Internet of Things) teknolojilerinin baskın olduğu web sürümüdür?",
+          "options": {
+            "A": "Web 1.0",
+            "B": "Web 2.0",
+            "C": "Web 3.0",
+            "D": "Web 4.0",
+            "E": "Web 5.0"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi İki düğüm arası bağlantıdan ibaret olan ağ topolojisidir?",
+          "options": {
+            "A": "Noktadan noktaya",
+            "B": "Hibrit",
+            "C": "Mesh",
+            "D": "Star",
+            "E": "Ring"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki ağ teknolojilerinden hangisi bir ağ üzerinde hem donanım hem de yazılımsal olarak bulunabilir?",
+          "options": {
+            "A": "Modem",
+            "B": "Hub",
+            "C": "NIC",
+            "D": "Bridge",
+            "E": "Firewall"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi TCP/IP modeli katmanlarından biri değildir?",
+          "options": {
+            "A": "Veri bağlantısı katmanı",
+            "B": "Taşıma katmanı",
+            "C": "Okuma katmanı",
+            "D": "İnternet katmanı",
+            "E": "Uygulama katmanı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi evlerimizde yer alan bilgisayar, tablet, akıllı telefon gibi cihazlardan oluşturulan ağa örnek verilebilir?",
+          "options": {
+            "A": "MAN",
+            "B": "WAN",
+            "C": "SAN",
+            "D": "LAN",
+            "E": "LoRaWAN"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi iki veya daha fazla farklı topoloji yapısını birleştiren ağ topolojisidir?",
+          "options": {
+            "A": "Bus",
+            "B": "Hibrit",
+            "C": "Mesh",
+            "D": "Star",
+            "E": "Ring"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdaki World Wide Web evrimi aşamalarından hangisinde kullanıcılara sadece bilgi vermeyi amaçlayan statik formda web sayfaları ağırlık olarak yer almaktadır?",
+          "options": {
+            "A": "Web 1.0",
+            "B": "Web 2.0",
+            "C": "Web 3.0",
+            "D": "Web 4.0",
+            "E": "Web 5.0"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgi Teknolojileri Unite 5",
+      "exam_title": "Bilgi Teknolojileri Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 10,
+      "file_name": "Bilgi_Teknolojileri_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2023/11/20/bilgi-teknolojileri-unite-5/",
+      "unit_number": 5,
+      "unit_label": "5- İnternet Uygulamaları",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi tipik bir web tarayıcısında bulunan arayüz öğelerinden biri değildir?",
+          "options": {
+            "A": "Adres çubuğu",
+            "B": "Açılış sayfası",
+            "C": "Yer imleri",
+            "D": "Gezinme geçmişi",
+            "E": "Reklam Engelleyici"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi kullanmadığınız bir kıyafetinizi üçüncü bir şahısa internet üzerinden satışını gerçekleştirdiğiniz e-ticaret işlemidir?",
+          "options": {
+            "A": "C2C",
+            "B": "B2B",
+            "C": "B2G",
+            "D": "B2C",
+            "E": "G2B"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi e-devletin boyutuları arasında yer almaz?",
+          "options": {
+            "A": "e-ticaret",
+            "B": "e-hizmet",
+            "C": "e-yönetim",
+            "D": "e-demokrasi",
+            "E": "e-basvuru"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi arama motoru optimizasyonunda optimize edilen kavramlardan biri değildir?",
+          "options": {
+            "A": "Anahtar kelimeler",
+            "B": "Meta veriler",
+            "C": "Alternatif metinler",
+            "D": "İç ve dış bağlantılar",
+            "E": "Kullanılan görsel tasarım yazılımı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi ülkemizde e-devlet erişim platformu olarak faaliyet göstermektedir.",
+          "options": {
+            "A": "https://vatandas.uyap.gov.tr",
+            "B": "https://wwww.turkiye.gov.tr",
+            "C": "https://www.cimer.gov.tr",
+            "D": "https://uyap.gov.tr",
+            "E": "https://edevlet.com.tr"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdaki SEO kavramlarından hangisi web sayfalarında yer alan görsellerin arama motorlarının anlayacağı şekilde açıklandığı kavramdır?",
+          "options": {
+            "A": "Anahtar kelimeler",
+            "B": "Meta veriler",
+            "C": "Alternatif metinler",
+            "D": "İç ve dış bağlantılar",
+            "E": "Kullanılan görsel tasarım yazılımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi web sayfalarına mobil cihazlardan erişim etkinliğini artırmayı amaçlayan SEO kavramıdır?",
+          "options": {
+            "A": "Anahtar kelimeler",
+            "B": "Meta veriler",
+            "C": "Alternatif metinler",
+            "D": "Mobil uyumluluk",
+            "E": "Sayfa yükleme hızı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi internet altyapısı üzerinde Web ağında yer alan sayfaları ziyaret etmenize olanak sağlar?",
+          "options": {
+            "A": "Arama motoru",
+            "B": "Örümcekler",
+            "C": "Botlar",
+            "D": "Web tarayıcılar",
+            "E": "Robotlar"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi halkın katılımını arttırma maksadıyla karar alma süreçlerinde elektronik iletişim araçlarının kullanımını öneren e-devlet boyutudur?",
+          "options": {
+            "A": "e-ticaret",
+            "B": "e-hizmet",
+            "C": "e-yönetim",
+            "D": "e-demokrasi",
+            "E": "e-basvuru"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi işletmeden devlete yapılan e-ticarettir?",
+          "options": {
+            "A": "C2C",
+            "B": "B2B",
+            "C": "B2G",
+            "D": "B2C",
+            "E": "G2B"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgi Teknolojileri Unite 6",
+      "exam_title": "Bilgi Teknolojileri Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 10,
+      "file_name": "Bilgi_Teknolojileri_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2023/11/20/bilgi-teknolojileri-unite-6/",
+      "unit_number": 6,
+      "unit_label": "6- Bilgi Sistemleri",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi bir yönetim bilişim sisteminde karar vericilere sunulan raporlar arasında sayılamaz?",
+          "options": {
+            "A": "Periyodik zamanlanmış raporlar",
+            "B": "Rassal raporlar",
+            "C": "İstisnai raporlar",
+            "D": "Talep raporları ve cevapları",
+            "E": "Bildirim raporları"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi karar destek sistemi veya yönetim bilişim sistemlerinden elde edilen enformasyonları kullanarak üst düzey yöneticilerin kolayca kullanmalarını sağlayacak özelleştirilmiş ve görselleştirilmiş raporlar sunan bilişim sistemleridir.",
+          "options": {
+            "A": "Bilgi Yönetim Sistemleri",
+            "B": "Kurumsal İşbirliği Sistemleri",
+            "C": "Üst Yönetim Bilişim Sistemleri",
+            "D": "Uzman sistemler",
+            "E": "Makine öğrenmesi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdaki ifadelerden hangisi doğrudur?",
+          "options": {
+            "A": "Derin öğrenme, makine öğrenmesinin aksine, veri işlemek için insan müdahalesi gerektirmez.",
+            "B": "Makine öğrenmesi, derin öğrenmenin bir alt dalıdır.",
+            "C": "Yapay sinir ağlarında tüm çıktılar önceden bilinmektedir.",
+            "D": "Bulanık mantık, bir önermenin ya doğru (1) ya da yanlış (0) kabul edildiği, üçüncü bir durumun gerçekleşme olasılığı olmadığı sistem teorisidir.",
+            "E": "Büyük veri yığınları içerisinden gelecekle ilgili tahminde bulunulmasını sağlayabilecek örüntülerin belirlenmesi ve bilginin keşfedilmesi süreci iş analitiği olarak tanımlanır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Dönem sonu getirisi belirli olan 3 tahvil alternatifinden birine yatırım yapma kararı ile ilgili aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "Yapısal olmayan bir karar sürecidir.",
+            "B": "Stratejik seviyede bir karar problemidir.",
+            "C": "Yarı yapısal bir karar sürecidir.",
+            "D": "Yapısal bir karar sürecidir.",
+            "E": "Tepe yönetim seviyesinde bir sorumluluk gerektiren bir karar problemidir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yönetim bilişim sistemleri işletme fonksiyonlarına göre gruplandığında aşağıdaki bilişim sistemlerinden hangisi bu gruplamada yer almaz?",
+          "options": {
+            "A": "Pazarlama bilişim sistemleri",
+            "B": "Muhasebe bilişim sistemleri",
+            "C": "Üretim bilişim sistemleri",
+            "D": "Finans bilişim sistemleri",
+            "E": "Operasyon destek sistemleri"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi karar destek sistemleri kullanılarak yapılabilecek analitik modellemeler arasında sayılamaz?",
+          "options": {
+            "A": "What-if analizleri",
+            "B": "Örüntü tanımlama",
+            "C": "Hedef arama analizleri",
+            "D": "Duyarlılık analizleri",
+            "E": "Optimizasyon"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Yönetim bilişim sistemleri taktik karar verme seviyesinde karar problemlerini inceler.",
+            "B": "Yönetim bilişim sistemleri yapısal karar süreçlerine problemleri ele alır.",
+            "C": "Yönetim bilişim sistemlerinde incelenen karar süreçlerinin algoritması büyük ölçüde ortaya konmuştur.",
+            "D": "Yönetim bilişim sistemleri kapsamında incelenen kararların sonuçları orta vadede gözlenebilir.",
+            "E": "Yönetim bilişim sistemleri sadece üst yönetime yönelik enformasyon üretir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Covid 19 pandemisini sonrası trendi artan uzaktan çalışma modelinde kurumsal toplantılar için kullanılan çevrimiçi toplantı uygulamaları hangi tür bilişim sistemlerine örnek verilebilir?",
+          "options": {
+            "A": "Bilgi Yönetim Sistemleri",
+            "B": "Kurumsal İşbirliği Sistemleri",
+            "C": "Ofis Otomasyon Sistemleri",
+            "D": "Hareket İşlem Sistemleri",
+            "E": "Yönetim Bilişim Sistemleri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdaki yönetim bilişim sistemlerinden hangisi bir işletmenin tedarikçi işletme ile yürüttüğü ticari faaliyetinden kaynaklı parasal hareketleri incelenmesine imkan tanır.",
+          "options": {
+            "A": "İnsan kaynakları bilişim sistemleri",
+            "B": "AR-GE bilişim sistemleri",
+            "C": "Üretim bilişim sistemleri",
+            "D": "Muhasebe bilişim sistemleri",
+            "E": "Pazarlama bilişim sistemleri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi yapay zeka ve uzman sistemlerde kullanılan yöntemler arasında sayılamaz?",
+          "options": {
+            "A": "Bulanık mantık",
+            "B": "Derin öğrenme",
+            "C": "Makine öğrenmesi",
+            "D": "İş analitiği",
+            "E": "Yapay sinir ağları"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgi Teknolojileri Unite 7",
+      "exam_title": "Bilgi Teknolojileri Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 10,
+      "file_name": "Bilgi_Teknolojileri_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2023/11/20/bilgi-teknolojileri-unite-7/",
+      "unit_number": 7,
+      "unit_label": "7- Güvenlik ve Etik",
+      "questions": [
+        {
+          "id": 1,
+          "question": "E-posta gönderirken sunucu ile istemci arasında iletişim biçimini beliryen basit olarak nitelendirilen protokol aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "SMTP",
+            "B": "TCP/IP",
+            "C": "ISO27001",
+            "D": "PGP",
+            "E": "S/MIME"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Kullanıcıların anakent alanı içinde farklı bölgeler arasında kablosuz bağlantılar kurma imkanı veren Ağ tipi aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "WWAN",
+            "B": "WMAN",
+            "C": "WLMAN",
+            "D": "WLAN",
+            "E": "WPAN"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Kablosuz ağlar amaç ve yapılarına göre kaç grupta sınıflanmaktadır?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Türkiye’de ilk olarak hangi yıl bilişim etiğinin ilkeleri ile ilgili çalışma yapılmıştır?",
+          "options": {
+            "A": "1997",
+            "B": "2000",
+            "C": "2006",
+            "D": "2010",
+            "E": "2011"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Bilgi doğruluğunu teyit etmek için aşağıdaki sorulardan hangisine cevap aranmaz?",
+          "options": {
+            "A": "Köken",
+            "B": "Kaynak",
+            "C": "Tarih",
+            "D": "Yer",
+            "E": "Süreklilik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Açık kaynak kodlu yazılımların özellikleri hangi şıkta doğru verilmiştir.",
+          "options": {
+            "A": "Ücretli- Sınırlı kullanıcı- Değiştirilemez",
+            "B": "Ücretsiz-Sınırlı kullanıcı- Değiştirilemez",
+            "C": "Ücretli- Herkese açık- Geliştirilebilir",
+            "D": "Ücretsiz- Herkese açık- Geliştirilebilir.",
+            "E": "Ücretli- Herkese açık- Değiştirilemez."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi dijital okur-yazarlığın bileşenleri arasında yer almaz?",
+          "options": {
+            "A": "Kültürel ve sosyal anlayış",
+            "B": "İşbirliği",
+            "C": "Yaratıcılık",
+            "D": "E-güvenlik",
+            "E": "Bireysellik"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bilgi Güvenliği Yönetim Sistemi standartları hangisidir?",
+          "options": {
+            "A": "ISO 16001",
+            "B": "ISO 50001",
+            "C": "ISO 27001",
+            "D": "ISO 22000",
+            "E": "ISO 9001"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bilişim etiği alanında çalışmalar yapan ilk araştırmacı kimdir?",
+          "options": {
+            "A": "James Moor",
+            "B": "Nobert Wiener",
+            "C": "Terry Bynum",
+            "D": "Simon Rogerson",
+            "E": "Walter Maner"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi bilişim etiğinin boyutları arasında yer almaz?",
+          "options": {
+            "A": "Doğruluk",
+            "B": "Erişilebilirlik",
+            "C": "Gizlilik",
+            "D": "Açıklık",
+            "E": "Telif hakları"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bilgi Teknolojileri Unite 8",
+      "exam_title": "Bilgi Teknolojileri Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 9,
+      "file_name": "Bilgi_Teknolojileri_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2023/11/20/bilgi-teknolojileri-unite-8/",
+      "unit_number": 8,
+      "unit_label": "8- Bilgi Teknolojilerinde Güncel Yaklaşımlar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi IoT teknolojilerinin lojistik süreçlere sağladığı katkılardan biri değildir?",
+          "options": {
+            "A": "Gerçek zamanlı varlık takibi",
+            "B": "Otonom sürüş",
+            "C": "Veriye dayalı yaklaşım",
+            "D": "Gelişmiş analiz",
+            "E": "Tahmine dayalı analiz"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi bilgisayar hizmetinin fiziksel veya sanal makine olarak verildiği en temel bulut bilişim hizmet modelidir?",
+          "options": {
+            "A": "SaaS",
+            "B": "PaaS",
+            "C": "IaaS",
+            "D": "IoT",
+            "E": "SoT"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi merkezi bir sunucunun veya güvenilir bir otoritenin kaldırılmasına olanak sağlayarak, merkezi güvenin internet ortamında dağıtılmasına imkan tanıyan bir yaklaşımdır?",
+          "options": {
+            "A": "Bitcoin",
+            "B": "Akıllı kontratlar",
+            "C": "Blokzincir",
+            "D": "IoT",
+            "E": "Big data"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki blokzinciri ile ilgili ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "Blokzincir teknolojisi her kullanım senaryosu ve iş modeli için uygun değildir.",
+            "B": "Verileri işleyecek/kullanacak taraflar arasında güven mekanizması oluşturulmasına gerek yoksa da blokzincire ihtiyaç duyulmaz.",
+            "C": "Halka açık bir denetleme mekanizmasına ihtiyaç yoksa blokzincire ihtiyaç duyulmaz.",
+            "D": "Kayıtların değiştirilmesi ciddi önem arz etmiyorsa blokzincire ihtiyaç duyulmaz.",
+            "E": "Kurulacak sistemde kullanıcıların mahremiyetleri tam olarak sağlanamaz."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi bilgisayarlar tarafından taklit edilerek oluşturulan ortamları ifade etmektedir?",
+          "options": {
+            "A": "Sanal gerçeklik",
+            "B": "Artırılmış gerçeklik",
+            "C": "Sis Bilişim",
+            "D": "Bulut Bilişim",
+            "E": "Yapay Zeka"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi büyük verinin farklı kaynaklardan gelen farklı formatta verilerden oluştuğunu ifade eden bileşenidir?",
+          "options": {
+            "A": "Çeşitlilik",
+            "B": "Hız",
+            "C": "Hacim",
+            "D": "Kapsam",
+            "E": "Değer"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdaki IoT ile ilgili ifadelerden hangisi yanlıştır?",
+          "options": {
+            "A": "IoT, kargo izleme, tedarik zinciri, araç yönetimi ve izleme, yakıt tüketimi, kaynak kullanımı gibi süreçlerin gerçek zamanlı takibini mümkün kılar.",
+            "B": "IoT, gelişmiş analitiklerin yardımıyla, taşıma aracının lastik basıncından, ne kadar yakıt tüketildiğine, taşınan ürünün ortam sıcaklığından nem oranına kadar birçok ilgili ayrıntının gerçek zamanlı elde edilmesini sağlar.",
+            "C": "Yöneticilere aracın ve kargonun durumunu analiz etmeleri için raporlar ve veriye dayalı bilgiler sağlar.",
+            "D": "IoT teknolojisi, bir işletmenin varlıklarını izlemek için sensörlerden toplanan verileri kullanır.",
+            "E": "Sensör cihazlarından toplanan veriler asenkron olarak bilişim sistemine aktarılır."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi büyük verinin bileşenleri arasında sayılamaz?",
+          "options": {
+            "A": "Çeşitlilik",
+            "B": "Hız",
+            "C": "Hacim",
+            "D": "Kapsam",
+            "E": "Değer"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi belirli şartlar sağlandığında gerçekleştirilen ve anonim taraflar arasında güvenilirliği sağlayan bilgisayar protokollerine bağlı çalışan sözleşmelerdir?",
+          "options": {
+            "A": "Bitcoin",
+            "B": "Akıllı kontratlar",
+            "C": "Blokzincir",
+            "D": "IoT",
+            "E": "Big data"
+          },
+          "correct_answer": "B",
           "explanation": "",
           "image_url": "",
           "image_file": "",

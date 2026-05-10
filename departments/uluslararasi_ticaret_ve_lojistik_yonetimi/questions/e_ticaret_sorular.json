@@ -1,8 +1,359 @@
 {
   "course": "E-Ticaret",
   "lesson_code": "E_TICARET",
-  "exam_count": 6,
+  "exam_count": 7,
   "exams": [
+    {
+      "title": "E-Ticaret 2026 Vize",
+      "exam_title": "E-Ticaret 2026 Vize",
+      "exam_type": "vize",
+      "year": "2026",
+      "question_count": 20,
+      "source_url": "",
+      "file_name": "E-TİCARET - A Kitapçığı Cevaplı.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İnternete doğrudan bağlı olan bir bilgisayar aşağıdakilerden hangisi ile adlandırılmaktadır?",
+          "options": {
+            "A": "Ana sistem (Host)",
+            "B": "Alan adı sistemi (DNS)",
+            "C": "Ağ sunucusu",
+            "D": "Ağ cihazı",
+            "E": "Web tarayıcı"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi biçimlendirilmiş metin, resim ve ses içeren birbirine bağlı canlı belgeler koleksiyonudur?",
+          "options": {
+            "A": "HTTP",
+            "B": "HTML",
+            "C": "Web",
+            "D": "HTPS",
+            "E": "CSS"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi alan adı için yanlış bir örnektir?",
+          "options": {
+            "A": "google.com.tr",
+            "B": "www.istanbul.edu.tr",
+            "C": "meb.gov.tr",
+            "D": "istanbul.edu.tr",
+            "E": "www.walmart.com.usa"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi belgelerde metnin nasıl sunulması gerektiğini ve belgelerin birbirine nasıl bağlandığını gösteren etiketlerle işaretlemek için bir sistemdir?",
+          "options": {
+            "A": "HTML",
+            "B": "Web",
+            "C": "HTTP",
+            "D": "CSS",
+            "E": "HTPS"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "<IMG> Belgeye satır içi bir resim ekler. Aşağıdakilerden hangisi bunun öz nitelikleri için yanlıştır?",
+          "options": {
+            "A": "LINK = \"...\" Bağlantı etkinleştirildiğinde çağrılacak belgenin URL'si",
+            "B": "ALIGN = \"...\" Verilen görüntünün hizalamasını belirler.",
+            "C": "WIDTH = \"...\" Resmin piksel cinsinden genişliği",
+            "D": "VSPACE = \"...\" Resim ile üstündeki ya da altındaki metin arasındaki boşluk",
+            "E": "HSPACE = \"...\" Resim ve metin arasındaki sola veya sağa boşluk"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hiper metin aktarım protokolü (HTTP) için aşağıdakilerden hangisi söylenebilir?",
+          "options": {
+            "A": "İstek yöntemlerinin uzantılarını, hata kodlarını ve başlıklarını kullanan bir protokoldür.",
+            "B": "İstek yöntemlerinin uzantılarını, hata kodlarını ve başlıklarını kullanarak başka amaçlarla kullanılabilecek genel ve durum denetimsiz bir protokoldür.",
+            "C": "İstek yöntemlerinin uzantılarını, hata kodlarını ve başlıklarını belirleyen durum denetimli bir protokoldür.",
+            "D": "İstek yöntemlerinin uzantılarını, hata kodlarını ve başlıklarını belirleyen durum denetimsiz bir protokoldür.",
+            "E": "Hata kodlarını ve başlıklarını kullanarak başka amaçlarla kullanılabilecek genel ve durum denetimli bir protokoldür."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi “gerçekten basit dağıtım” anlamına gelir?",
+          "options": {
+            "A": "Podcasting",
+            "B": "Çerezler",
+            "C": "RSS",
+            "D": "Anında mesajlaşma",
+            "E": "Blog"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Alan adı (domain name) aşağıdakilerden hangisiyle açıklanabilir?",
+          "options": {
+            "A": "Farklı ağ iletişim kurallarını kullanan iki bilgisayar ağı arasında veri çerçevelerinin iletimini sağlayan alan ağ sunucusuna verilen isimdir.",
+            "B": "Ağdaki kullanıcılara veya diğer ana bilgisayarlara bilgi kaynakları, hizmetler ve uygulamalar sunan ana sistemdir (host).",
+            "C": "Belirli bir destinasyondaki bir bilgisayara veri ve bilgi göndermek için kullanılan adrestir.",
+            "D": "Numaraların akılda tutulmasının zorluğundan dolayı bunlara karşılık gelen isimlerdir.",
+            "E": "Sürekli değişen bir IP numarası ve bunların adreslerinin bilinememesi nedeniyle kullanılan isimlerdir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi web sitenizi HTML kodu yazmadan ve kod editörü kullanmadan tasarlayabilmeniz için görsel bir editör sağlar?",
+          "options": {
+            "A": "Dreamweaver",
+            "B": "Flash player",
+            "C": "Notepad",
+            "D": "NetBeans",
+            "E": "HTML coder"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi dosya aktarım protokolünün kısaltmasıdır?",
+          "options": {
+            "A": "FML",
+            "B": "FPP",
+            "C": "FTP",
+            "D": "FTTP",
+            "E": "FPS"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 11,
+          "question": "\"HTML renkleri, ……. ışığın bir kombinasyonu olarak görüntülenir.\" Yukarıdaki cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+          "options": {
+            "A": "sarı, yeşil ve mavi",
+            "B": "kırmızı, yeşil ve mavi",
+            "C": "kırmızı, sarı ve mavi",
+            "D": "sarı, gri ve mavi",
+            "E": "kırmızı, gri ve mavi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 12,
+          "question": "Aşağıdakilerden hangisi reasürans, ticari kredi ve ticari bonolar, menkul kıymetler ve diğer finansal varlıklar için elektronik ağlar gibi birçok finansal işlemi de içermektedir?",
+          "options": {
+            "A": "Devletten tüketiciye e-ticaret (G2C)",
+            "B": "İşletmeden işletmeye e-ticaret (B2B)",
+            "C": "Tüketiciden tüketiciye e-ticaret (C2C)",
+            "D": "İşletmeden tüketiciye e-ticaret (B2C)",
+            "E": "Devletten devlete e-ticaret (G2G)"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 13,
+          "question": "HTTP/1.0 ve HTTP/1.1 arasındaki temel fark aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "HTTP/1.1 her istek-yanıt alışverişi için yeni bir bağlantı kullanırken HTTP/1.0 bağlantısı bir veya daha fazla istek-yanıt alışverişi için kullanılabilir.",
+            "B": "HTTP/1.0 dan sonra HTTP/2.0 gelmektedir. HTTP/1.1’den sonra ise HTTP/2.1 gelmektedir.",
+            "C": "HTTP/1.0 istek bağlantısı kullanırken HTTP/1.1 bağlantısı istek-yanıt alışverişi için kullanılabilir.",
+            "D": "HTTP/1.1 istek bağlantısı kullanırken HTTP/1.0 bağlantısı istek-yanıt alışverişi için kullanılabilir.",
+            "E": "HTTP/1.0 her istek-yanıt alışverişi için yeni bir bağlantı kullanırken HTTP/1.1 bağlantısı bir veya daha fazla istek-yanıt alışverişi için kullanılabilir."
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 14,
+          "question": "İnternetin temeli, ABD Savunma Bakanlığı'nın yaptırmış olduğu bir araştırmaya dayanmaktadır. Buna göre aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Ani siber saldırılar durumunda haberleşmeyi mümkün kılmak için bir sistem tasarlanmış ve NSF olarak isimlendirdikleri küçük bir ağda denemeler yapmışlardır.",
+            "B": "Bilgisayarların zarar görmesi durumunda haberleşmeyi mümkün kılmak için bir sistem tasarlanmış ve ARPANET olarak isimlendirdikleri küçük bir ağda denemeler yapmışlardır.",
+            "C": "Gizli çalışmalarda veri paylaşımı için bir sistem tasarlanmış ve NSF olarak isimlendirdikleri küçük bir ağda denemeler yapmışlardır.",
+            "D": "Bilgisayarların zarar görmesi durumunda haberleşmeyi mümkün kılmak için bir sistem tasarlanmış ve NSF olarak isimlendirdikleri küçük bir ağda denemeler yapmışlardır.",
+            "E": "Gizli çalışmalarda veri paylaşımı için bir sistem tasarlanmış ve ARPANET olarak isimlendirdikleri küçük bir ağda denemeler yapmışlardır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 15,
+          "question": "Mübadeleler ve müzayedeler hangi tür eticaretin konusudurlar?",
+          "options": {
+            "A": "Devletten devlete e-ticaret",
+            "B": "İşletmeden tüketiciye e-ticaret",
+            "C": "İşletmeden işletmeye e-ticaret",
+            "D": "Tüketiciden devlete e-ticaret",
+            "E": "İşletmeden devlete e-ticaret"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 16,
+          "question": "İnsanlar alan adınızı kolayca hatırlayabilecekler ve alan adı başka bir kuruluş tarafından tescilli olmayacaktır. Yukarıdaki açıklamada alan adının hangi özelliğine işaret edilmektedir?",
+          "options": {
+            "A": "Açıklayıcı alan adı",
+            "B": "Benzersiz alan adı",
+            "C": "Kısa alan adı",
+            "D": "Kuruluş adıyla aynı alan adı",
+            "E": "Anlamlı alan adı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 17,
+          "question": "Bağlantılarınızı güncel tutun ve artık etkin olmayan bağlantıları kaldırın. Yeni linklerdeki hata mesajları gerçekten can sıkıcıdır. Yukarıdaki açıklama aşağıdaki hatalardan hangisini engeller?",
+          "options": {
+            "A": "Gezilemez siteler oluşturmak",
+            "B": "Aşırı pop-up’lara yer vermek",
+            "C": "Karanlık bir arka plan üzerine koyu metin koymak",
+            "D": "Dönen veya yanıp sönen reklamlar bulundurmak",
+            "E": "Ölü bağlantı ve 404 hata iletisiyle dolu sayfalar oluşturmak"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 18,
+          "question": "Kısaca web enformasyonunu aktarmak için kullanılan güvenli protokol aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "HTML",
+            "B": "HTTP",
+            "C": "SSL",
+            "D": "HTTPS",
+            "E": "FTP"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 19,
+          "question": "Aşağıdakilerden hangisi gezilemez bir site örneğidir?",
+          "options": {
+            "A": "Aşırı pop-up barındıran bir site.",
+            "B": "Ölü bağlantıların sıkça yaşandığı bir site.",
+            "C": "Geçmiş navigasyonun iyi bir şekilde anlaşılamayan, kullanıcıların mevcut konumlarını ve durumlarını anlamalarının mümkün olmadığı bir site",
+            "D": "Hedef bilgilere ulaşmak için ziyaretçilerinizden bağlantı halkalarından geçmek zorunda kaldığı bir site.",
+            "E": "Tutarlılık ilkesinin ihmal edildiği bir site."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 20,
+          "question": "Aşağıdakilerden hangisi XML tabanlı bir RSS beslemesi kullanarak ses dosyalarının internet üzerinden dağıtımı ile ilişkilendirilmiştir?",
+          "options": {
+            "A": "RSS",
+            "B": "Blog",
+            "C": "XSS",
+            "D": "Çerezler",
+            "E": "Podcasting"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
     {
       "title": "E-Ticaret 2024 Vize",
       "exam_title": "E-Ticaret 2024 Vize",

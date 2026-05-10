@@ -1,7 +1,7 @@
 {
   "course": "Hastane Otomasyonu",
   "lesson_code": "HASTANE_OTOMASYONU",
-  "exam_count": 2,
+  "exam_count": 15,
   "exams": [
     {
       "title": "Hastane Otomasyonu 2022 Vize",
@@ -1003,6 +1003,2266 @@
             "E": "I ve II"
           },
           "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 1",
+      "exam_title": "Hastane Otomasyonu Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-1/",
+      "unit_number": 1,
+      "unit_label": "Ünite 1",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi Hastane Bilgi Yönetim Sistemi’nin işlevlerinden biri değildir?",
+          "options": {
+            "A": "Hasta kabul",
+            "B": "Tetkik istem girişi",
+            "C": "Tetkik sonuçlarının raporlanması",
+            "D": "Tedavi planlarının düzenlenmesi",
+            "E": "Hastaya tedavi uygulama"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bilgisayarlar ilk olarak hangi departmanda kullanılmıştır?",
+          "options": {
+            "A": "İnsan Kaynakları",
+            "B": "Muhasebe",
+            "C": "Acil Servis",
+            "D": "Ameliyathane",
+            "E": "Eczane"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hastane Bilgi Yönetim Sistemleri ilk defa hangi ülkede kaç yılında kullanılmıştır?",
+          "options": {
+            "A": "ABD, 1983",
+            "B": "Almanya, 1983",
+            "C": "İngiltere, 1990",
+            "D": "Fransa, 1990",
+            "E": "İsviçre, 1982"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi PACS sisteminin sağlık hizmeti sunan kuruluşlara sağladığı avantajlardan biri değildir?",
+          "options": {
+            "A": "Bilgi ve görüntülere zor erişim",
+            "B": "Çabuk teşhis koymaya imkân sağlamak",
+            "C": "Maddi tasarruf sağlamak",
+            "D": "Minimum hata ile kaliteli bilgi yönetimi sağlamak",
+            "E": "Zaman tasarrufu sağlamak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi LİS’in işlevlerinden biri değildir?",
+          "options": {
+            "A": "Veri analizi",
+            "B": "Test işlemlerinin izlenmesi",
+            "C": "Laboratuvar verimliliği denetimi",
+            "D": "Fatura kesme",
+            "E": "Laboratuvar süreçlerinin takibi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi Hastane Bilgi Yönetim Sistemi’nin hastanelere katkılarından biri değildir?",
+          "options": {
+            "A": "Hastaya ait bilgilerin toplanması",
+            "B": "Klinik karar destek süreçlerine yardımcı olmak",
+            "C": "Hastane performansı hakkında bilgi sunulması",
+            "D": "Sağlık araştırmalarına destek olmamak",
+            "E": "Hastaya ait bilgilerin ihtiyaç duyulduğunda sunulması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Görüntüleme cihazlarının Hastane Bilgi Yönetim Sistemlerine entegrasyonu sağlayan sistem aşağıdakilerden hangisidir?",
+          "options": {
+            "A": "LİS",
+            "B": "MEDULA",
+            "C": "MERNİS",
+            "D": "SAĞLIK-NET",
+            "E": "RİS"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi Hastane Bilgi Yönetim Sisteminin sağlık kuruluşlarında kurulması ve işletilmesiyle elde edilecek kazanımlardan değildir?",
+          "options": {
+            "A": "Personel verimliliği artar.",
+            "B": "Hasta memnuniyeti artar.",
+            "C": "Maliyet artar.",
+            "D": "Bilgi erişim hızı artar.",
+            "E": "Hızlı karar verilir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Anlam ya da sonuç çıkarılmış enformasyona ne denir?",
+          "options": {
+            "A": "Veri",
+            "B": "Bilgelik",
+            "C": "Bilgi",
+            "D": "Enformasyon",
+            "E": "Data"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi Hastane Bilgi Yönetim Sistemi’nin gelişim sürecinin temel basamağıdır?",
+          "options": {
+            "A": "Uluslararası sağlık karar destek sistemi",
+            "B": "Faturalama sistemleri",
+            "C": "Sağlık otomasyonu",
+            "D": "Hastane otomasyonu",
+            "E": "Hasta kayıt sistemleri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 2",
+      "exam_title": "Hastane Otomasyonu Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-3/",
+      "unit_number": 2,
+      "unit_label": "Ünite 2",
+      "questions": [
+        {
+          "id": 1,
+          "question": "HBYS’de patoloji istemi hangi kullanıcı tarafından yapılabilir?",
+          "options": {
+            "A": "Sekreter",
+            "B": "Patoloji teknisyeni",
+            "C": "Patoloji uzman hekimi",
+            "D": "Radyoloji teknisyeni",
+            "E": "Hastanın klinik uzman hekimi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi radyoloji modülünde hastaya yapılan işlem basamaklarından değildir?",
+          "options": {
+            "A": "Radyoloji kabul",
+            "B": "Tetkik istemi yapılması",
+            "C": "Tetkik bekleyenler",
+            "D": "Ses kaydı bekleyenler",
+            "E": "Rapor bekleyenler"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "HBYS’de labaratuvar istemi hangi kullanıcı tarafından yapılabilir?",
+          "options": {
+            "A": "Sekreter",
+            "B": "Laboratuvar teknisyeni",
+            "C": "Laboratuvar uzman hekim",
+            "D": "Hastanın klinik uzman hekimi",
+            "E": "Radyoloji teknisyeni"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "HBYS’de oluşturulan patoloji raporunda hangi aşamadan sonra düzeltme yapılamaz?",
+          "options": {
+            "A": "Rapor yazılması",
+            "B": "Tetkik istem",
+            "C": "Tetkik bekleyenler",
+            "D": "Patoloji kabul",
+            "E": "Rapor onaylanması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi laboratuvar modülünde hastaya yapılan işlem basamaklarından değildir?",
+          "options": {
+            "A": "Numune kabul",
+            "B": "Bekliyor",
+            "C": "Onay bekleyenler",
+            "D": "Tetkik istemi yapılması",
+            "E": "Çalışılıyor"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "HBYS’de oluşturulan radyoloji raporunda hangi aşamadan sonra düzeltme yapılamaz?",
+          "options": {
+            "A": "Ses kaydı oluşturulması",
+            "B": "Radyoloji kabul",
+            "C": "Rapor yazılması",
+            "D": "Rapor onaylanması",
+            "E": "Tetkik bekleyenler"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Radyoloji Modülünde hastaya ait raporun tetkik istemini yapan hekim tarafından görülebilmesi için hangi basamağın tamamlanması zorunludur?",
+          "options": {
+            "A": "Radyoloji kabul",
+            "B": "Rapor onay",
+            "C": "Ses kaydı oluşturulması",
+            "D": "Rapor yazımı",
+            "E": "Tetkik iptal"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Patoloji isteği yapılmış bir hasta dosyası ile ilgili patoloji modülünde ilk yapılan işlem nedir?",
+          "options": {
+            "A": "Numune kabul",
+            "B": "Frozen",
+            "C": "Blok hazırlama",
+            "D": "Makroskobik inceleme",
+            "E": "Mikroskobik inceleme"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "HBYS’de radyoloji istemi hangi kullanıcı tarafından yapılabilir?",
+          "options": {
+            "A": "Sekreter",
+            "B": "Laboratuvar teknisyeni",
+            "C": "Radyoloji uzman hekim",
+            "D": "Hastanın klinik uzman hekimi",
+            "E": "Radyoloji teknisyeni"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "HBYS’de oluşturulan laboratuvar sonuç raporunda hangi aşamadan sonra düzeltme yapılamaz?",
+          "options": {
+            "A": "Tetkik bekleyenler",
+            "B": "Rapor onaylanması",
+            "C": "Tetkik istem",
+            "D": "Laboratuvar kabul",
+            "E": "Çalışılıyor"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 4",
+      "exam_title": "Hastane Otomasyonu Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-4/",
+      "unit_number": 4,
+      "unit_label": "Ünite 4",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hastanın tedavisi sırasında gerçekleşen ameliyat hizmetleri HBYS’de hangi modülde kayıt altına alınır?",
+          "options": {
+            "A": "Ayaktan Tedavi Modülü",
+            "B": "Yataklı Tedavi Modülü",
+            "C": "İnsan Kaynakları Modülü",
+            "D": "Medikal Finans Modülü",
+            "E": "Taşınır Mal Yönetimi Modülü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hastanın yatarak tedavisi esnasında aşağıdakilerden hangisi muayene ekranında kayıt altına alınan bilgilerden değildir?",
+          "options": {
+            "A": "Hastanın adresi",
+            "B": "Hastanın şikâyeti",
+            "C": "Hastanın tanısı",
+            "D": "Hastanın kilosu",
+            "E": "Muayene bulguları"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Serviste hemşireler tarafından günlük takibi ve ölçümü yapılan çeşitli parametrelerin kayıt altına alındığı fonksiyona ne ad verilir?",
+          "options": {
+            "A": "Epikriz",
+            "B": "Konsültasyon",
+            "C": "Provizyon",
+            "D": "Servis izlem",
+            "E": "Reçete"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Konsültasyon isteği yapılırken aşağıdakilerden hangisi seçilmek zorundadır?",
+          "options": {
+            "A": "İstek yapan hekim adı",
+            "B": "Hasta adı",
+            "C": "Hastanın yattığı klinik ismi",
+            "D": "Hastanın yatış tarihi",
+            "E": "Konsültasyon istek yapılan klinik ismi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi servis izlem parametlerinden değildir?",
+          "options": {
+            "A": "Ateş",
+            "B": "Nabız",
+            "C": "O2 satürasyonu",
+            "D": "Kan şekeri",
+            "E": "Ameliyat raporu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi servis izlem parametlerindendir?",
+          "options": {
+            "A": "Laboratuvar sonuçları",
+            "B": "Patoloji raporu",
+            "C": "Ateş",
+            "D": "Radyoloji raporu",
+            "E": "Ameliyat raporu"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hastanın yataklı tedavisi esnasında bir başka branş uzmanı tarafından değerlendirilmesine ne ad verilir?",
+          "options": {
+            "A": "Konsültasyon",
+            "B": "Vizit",
+            "C": "Order",
+            "D": "Epikriz",
+            "E": "Provizyon"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hastanın yatarak tedavisi esnasında aşağıdakilerden hangisi muayene ekranında kayıt altına alınan bilgilerdendir?",
+          "options": {
+            "A": "Hastanın adresi",
+            "B": "Hastanın nüfus bilgileri",
+            "C": "Hastanın medeni hâli",
+            "D": "Hastanın tanısı",
+            "E": "Hastanın hastaneye başvuru sayısı"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hastanın yatış kabülü HBYS’de hangi kullanıcı tarafından yapılır?",
+          "options": {
+            "A": "Hasta bakıcı",
+            "B": "Hemşire",
+            "C": "Sekreter",
+            "D": "Teknisyen",
+            "E": "Başhekim"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hastanın yatarak tedavisi sırasında yapılan hizmetlerin faturalanabilmesi için aşağıdakilerden hangisinin alınması zorunludur?",
+          "options": {
+            "A": "Barkod numarası",
+            "B": "Protokol numarası",
+            "C": "Takip numarası",
+            "D": "TC kimlik numarası",
+            "E": "Adı ve soyadı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 5",
+      "exam_title": "Hastane Otomasyonu Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-5/",
+      "unit_number": 5,
+      "unit_label": "Ünite 5",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi taburcu işleminin tanımlamasıdır?",
+          "options": {
+            "A": "Serviste hemşireler tarafından günlük takibi ve ölçümü yapılan çeşitli parametrelerin kayıt altına alındığı parametreler",
+            "B": "Hastanın bir başka branş tarafından tedavi edilmesi gerektiğinde HBYS üzerinden yapılan sevk",
+            "C": "Hastanın tedavisi sırasında yapılan her türlü muayene, günlük izlem, ölçüm sonuçları ile her türlü laboratuvar ve radyoloji tetkik sonuçları ve raporlarının yansıtıldığı tedavi özeti",
+            "D": "Hastanın tedavisinin tamamlanması halinde hastaneden ayrılışı esnasında HBYS’de yapılan işlem",
+            "E": "Ürünlerin hammadde aşamasından üretim ortamına, üretim ortamından da tüketim merkezine dağıtılmasınana kadar olan olan gerçekleşen faaliyetlerin gerçekleştirilmesindeki ara nokta"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hastanın tedavisinin tamamlanması halinde hastaneden ayrılışı esnasında HBYS’de yapılan işleme ne ad verilir?",
+          "options": {
+            "A": "Order",
+            "B": "Taburcu",
+            "C": "Sevk",
+            "D": "Konsültasyon",
+            "E": "Servis izlem raporu"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hastane Otomasyonunda kayıtlı olan epikriz formu aşağıdakilerden hangi servis aracılığıyla SGK’na bildirilir?",
+          "options": {
+            "A": "MERNİS",
+            "B": "MHRS",
+            "C": "MEDULA",
+            "D": "ÇKYS",
+            "E": "PACS"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Taburcu işlemleri sırasında hasta dosyasında aşağıdakilerden hangisinin eksiksiz olması zorunlu değildir?",
+          "options": {
+            "A": "Hastaya kullanılan ilaçlar",
+            "B": "Hastaya kullanılan sarf malzemeler",
+            "C": "Epikriz",
+            "D": "Hastaya uygulanan her türlü hizmet",
+            "E": "Hastanın alışkanlıkları"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi servis izlem fonksiyonunun tanımlamasıdır?",
+          "options": {
+            "A": "Serviste hemşireler tarafından günlük takibi ve ölçümü yapılan çeşitli parametrelerin kayıt altına alındığı parametreler",
+            "B": "Hastanın bir başka branş tarafından tedavi edilmesi gerektiğinde HBYS üzerinden yapılan sevk",
+            "C": "Hastanın tedavisi sırasında yapılan her türlü muayene, günlük izlem, ölçüm sonuçları ile her türlü laboratuvar ve radyoloji tetkik sonuçları ve raporlarının yansıtıldığı tedavi özeti",
+            "D": "Hastanın tedavisinin tamamlanması halinde hastaneden ayrılışı esnasında HBYS’de yapılan işlem",
+            "E": "Ürünlerin hammadde aşamasından üretim ortamına, üretim ortamından da tüketim merkezine dağıtılmasına kadar olan gerçekleşen faaliyetlerin gerçekleştirilmesindeki ara nokta"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hastanın bir başka branş tarafından tedavi edilmesi gerektiğinde yapılacak sevk işleminde aşağıdakilerden parametrelerden hangisinin seçimi yapılmaz?",
+          "options": {
+            "A": "Servis",
+            "B": "Oda",
+            "C": "Doktor",
+            "D": "Yatak",
+            "E": "Hemşire"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hastanın yatarak tedavi görmesi sırasında ilaç orderi verilince hangi kullanıcının ekranına iş emri olarak düşer?",
+          "options": {
+            "A": "Eczacı",
+            "B": "Hasta bakıcı",
+            "C": "Tıbbi sekreter",
+            "D": "Hemşire",
+            "E": "Araştırma Görevlisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hastane Otomasyonunda kan veya kan ürünü hangi yolla kan bankasından istenir?",
+          "options": {
+            "A": "Telefon ile",
+            "B": "Personel ile",
+            "C": "Form ile",
+            "D": "Order ile",
+            "E": "Hasta yakını ile"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi epikriz işleminin tanımlamasıdır?",
+          "options": {
+            "A": "Serviste hemşireler tarafından günlük takibi ve ölçümü yapılan çeşitli parametrelerin kayıt altına alındığı parametreler",
+            "B": "Hastanın bir başka branş tarafından tedavi edilmesi gerektiğinde HBYS üzerinden yapılan sevk",
+            "C": "Hastanın tedavisi sırasında yapılan her türlü muayene, günlük izlem, ölçüm sonuçları ile her türlü laboratuvar ve radyoloji tetkik sonuçları ve raporlarının yansıtıldığı tedavi özeti",
+            "D": "Hastanın tedavisinin tamamlanması halinde hastaneden ayrılışı esnasında HBYS’de yapılan işlem",
+            "E": "Ürünlerin hammadde aşamasından üretim ortamına, üretim ortamından da tüketim merkezine dağıtılmasınana kadar olan olan gerçekleşen faaliyetlerin gerçekleştirilmesindeki ara nokta"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Kan veya kan ürünü kan bankası modülüne kayıt edilirken hangi bilgi mutlaka kayıt edilmelidir?",
+          "options": {
+            "A": "ICD-10 Tanı kodu",
+            "B": "ISBT Numarası",
+            "C": "SUT Kodu",
+            "D": "UBB Kodu",
+            "E": "Takip numarası"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 6",
+      "exam_title": "Hastane Otomasyonu Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 6,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-6/",
+      "unit_number": 6,
+      "unit_label": "Ünite 6",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi İnsan Kaynakları Yönetimi aşamalarından biri değildir?",
+          "options": {
+            "A": "Stres Yönetimi",
+            "B": "Ücret Yönetimi",
+            "C": "Çalışma İlişlerinin Düzenlenmesi",
+            "D": "Pazarlama ve Reklam",
+            "E": "İnsan Kaynaklarının Seçimi ve İşe Yerleştirilmesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi insan kaynağının en doğru, etkin ve verimli bir şekilde kullanılmasını organize eden süreç yönetimidir?",
+          "options": {
+            "A": "Gelir İdaresi Süreç Yönetimi",
+            "B": "Gider İdaresi Süreç Yönetimi",
+            "C": "Taşınır Mal Süreç Yönetimi",
+            "D": "İnsan Kaynaklari Süreç Yönetimi",
+            "E": "Genel İdaresi Süreç Yönetimi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi İnsan Kaynakları Yönetimini’nin amaçlarından değildir?",
+          "options": {
+            "A": "İnsan kaynaklarını en etkin ve verimli şekilde kullanmak",
+            "B": "İnsanların performanslarına uygun şekilde işte yükselmelerini sağlamak",
+            "C": "Çalışanları takdir ve motive etmemek",
+            "D": "Doğru insanları, doğru işlerde istihdam etmek",
+            "E": "Çalışanların performans değerlendirilmesini bilimsel esaslar ve standartlar dahilinde yürütmek"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi İnsan Kaynaklarının yönetiminde yapılması gereken işlemlerden biri değildir?",
+          "options": {
+            "A": "İnsan Kaynaklarının Yönetime Katılımı",
+            "B": "Taşınır Kaynaklarının Geliştirilmesi",
+            "C": "Stres Yönetimi",
+            "D": "Ücret Yönetimi",
+            "E": "Çalışma İlişlerinin Düzenlenmesi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi İnsan Kaynakları Süreç Yönetimi’nin temel amaçlarından biri değildir?",
+          "options": {
+            "A": "İnsan kaynaklarını en etkin ve verimli şekilde kullanmak",
+            "B": "İnsanların performanslarına uygun şekilde işte yükselmelerini sağlamak",
+            "C": "Çalışanları takdir ve motive etmek",
+            "D": "Doğru insanları, performansı ile uygunsuz işlerde istihdam etmek",
+            "E": "Çalışanların performans değerlendirilmesini bilimsel esaslar ve standartlar dâhilinde yürütmek"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi İnsan Kaynakları Süreç Yönetiminin temel amaçlarından biri değildir?",
+          "options": {
+            "A": "İnsan kaynaklarını en etkin ve verimli şekilde kullanmamak",
+            "B": "İnsanların performanslarına uygun şekilde işte yükselmelerini sağlamak",
+            "C": "Çalışanları takdir ve motive etmek",
+            "D": "Doğru insanları, doğru işlerde istihdam etmek",
+            "E": "Çalışanların performans değerlendirilmesini bilimsel esaslar ve standartlar dahilinde yürütmek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 7",
+      "exam_title": "Hastane Otomasyonu Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 7,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-7/",
+      "unit_number": 7,
+      "unit_label": "Ünite 7",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi ücret sistemi içinde ücretin belirlenmesinde rol oynayan faktörlerden biri değildir?",
+          "options": {
+            "A": "İşçilerin grev mantalitesi",
+            "B": "Komşu ülkelerdeki asgari ücretler",
+            "C": "İşletmenin kârlılığı",
+            "D": "Piyasadaki istihdam ve işsizlik oranı",
+            "E": "Devlet politikası"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi ücretin performansla ilişkilendirilmesindeki temel yaklaşımlardan biri değildir?",
+          "options": {
+            "A": "Prim",
+            "B": "Maaşta daha yüksek (oransal) artış",
+            "C": "Maaş sınıflandırması",
+            "D": "Maaşın daha hızlı (zamansal) artması",
+            "E": "Maaşın daha hızlı (zamansal) azalması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Belirli bir hizmet için insan emeğine ödenen bedele ne denir?",
+          "options": {
+            "A": "Order",
+            "B": "Tedarik",
+            "C": "Ücret",
+            "D": "Hizmet",
+            "E": "Prim"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Çalışanlara hangi periyotlarla, hangi ölçüte göre ve hangi miktarlarda ücret ödeneceğinin belirlendiği kurallar dizisine ne denir?",
+          "options": {
+            "A": "Tedarik zinciri",
+            "B": "Ücret sistemi",
+            "C": "Satın alma",
+            "D": "Belge yönetimi",
+            "E": "Halkla ilişkiler"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi ücret sistemi çeşitlerinden birisi değildir?",
+          "options": {
+            "A": "Tek faktörlü primli ücret sistemleri",
+            "B": "Çok faktörlü primli ücret sistemleri",
+            "C": "Ölçümsüz iş miktarına göre günlük ücret",
+            "D": "Değişken günlük ücret",
+            "E": "Akort ücret sistemi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi ücretlerin belirlenme kriterlerinden biri değildir?",
+          "options": {
+            "A": "Ücretlerin tek taraflı olarak belirlenmesi",
+            "B": "Eşit ise eşit ücret uygulaması",
+            "C": "Ücretlerin belirlenmesinde kamu kesiminde ödenen ücretlerin özel kesimde ödenen ücretlerle karşılaştırılmaması",
+            "D": "Piyasadaki bölgeler arasındaki farklılıklar ve bölgeler arası geçim şartlarının eşit olmaması",
+            "E": "Performansa göre ücret"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi personele yapılacak ödeme türlerinden biri değildir?",
+          "options": {
+            "A": "İşin ve hizmetin kendisinden bağımlı olarak yapılan ödemeler",
+            "B": "İşin ve hizmetin normal mesai saatleri dışına taşan kısmı veya farklı türleri için yapılan ödemeler",
+            "C": "İş ve hizmetin arz ettiği önem, sorumluluk, nitelik, güçlük, risk, içinde bulunduğu tabii ve coğrafi şartlar, kişide gerektirdiği özel nitelikler vs. sebeplerle yapılacak ödemeler",
+            "D": "Olağanüstü gayret ve çalışma sonucu sağlanacak yarar, başarı, verimlilik vs. sebeplerle yapılacak takdir ve teşvik edici nitelikteki ödemeler",
+            "E": "Herhangi bir hizmetin ve işin karşılığı olmamakla birlikte, sosyal niteliği ağır basan sosyo - ekonomik amaçlı olmayan ödemeler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 8",
+      "exam_title": "Hastane Otomasyonu Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-8/",
+      "unit_number": 8,
+      "unit_label": "Ünite 8",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Herhangi bir hastaya ait fatura en çok kaç kere iptal edilebilir?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi sağlık harcamalarını belirleyen faktörlerden biri değildir?",
+          "options": {
+            "A": "Avrupa birliğinin ekonomik politikası",
+            "B": "Teknolojik gelişmeler",
+            "C": "Eğitim düzeyi",
+            "D": "Sosyal değerler",
+            "E": "Yaşam süresinin uzaması"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi yapılan tahsilatlarda ödeme türlerinden birisi değildir?",
+          "options": {
+            "A": "Nakit",
+            "B": "Veresiye",
+            "C": "Kredi Kartı",
+            "D": "Çek",
+            "E": "Senet"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi Medula detay işlem ekranında bir hizmeti pakete çevirme ve paketten de hizmete çevirme işlemini gerçekleştirir?",
+          "options": {
+            "A": "Hizmet İşlemleri",
+            "B": "Paket İşlemleri",
+            "C": "Hizmet Gönderim Log",
+            "D": "Meduladan Sil",
+            "E": "Yatış Hizmeti Açıklama Güncelle"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi Teşhis tedavi ve bakım ünitesinde uygulanan hizmetlerin kullanılan malzemelerin eksiksiz bir biçimde hasta dosyalarına işlenmesini, işlenen bu hizmetlerin ödeme kurumlarına uygun hale getirilerek faturaya dönüştürülmesini, Faturaların tahakkuk ve tahsilat işlemlerini gerçekleştirerek kuruma gelir olarak dönmesini sağlayan süreç yönetim birimidir?",
+          "options": {
+            "A": "Genel İdare Süreci",
+            "B": "Gelir İdaresi Süreci",
+            "C": "Taşınır Mal Yönetim Süreci",
+            "D": "İnsan Kaynakları Süreci",
+            "E": "Kalite Süreci"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi sunulan sağlık hizmetlerine ilişkin bilgiler ile karşılığı ödeme işlemlerinin elektronik ortamda yürütülmesini sağlayan sistemdir?",
+          "options": {
+            "A": "MERNİS",
+            "B": "MHRS",
+            "C": "MEDULA",
+            "D": "ÇKYS",
+            "E": "PACS"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi faturalama işleminin ilk aşamasıdır?",
+          "options": {
+            "A": "SGK tutar kontrol",
+            "B": "Epikriz",
+            "C": "Tektik sonuç onayı",
+            "D": "ICD tanı kodu işlenmesi",
+            "E": "Takip numarası alınması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi hizmet malzeme ekleme keranında Medula sistemine doğru malzeme gönderiminin sağlanması amacıyla kullanılmaktadır?",
+          "options": {
+            "A": "Hizmet Ekle",
+            "B": "Yapan Kaynağı Değiştir",
+            "C": "UBB Kodu Değiştir",
+            "D": "Paket Ekle",
+            "E": "İsteyen Kaynağı Değiştir"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi sağlık hizmeti üretim sürecindeki temel girdilerden biri değildir?",
+          "options": {
+            "A": "Emek",
+            "B": "Sermaye",
+            "C": "Toprak",
+            "D": "Müteşebbis",
+            "E": "Demografik faktörler"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi, Gelir idaresi süreç yönetim birimlerinden biri değildir?",
+          "options": {
+            "A": "Fatura Ön İnceleme",
+            "B": "Faturalama",
+            "C": "Yatan Faturalama",
+            "D": "Piyasa fiyat araştırılma",
+            "E": "Vezne"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 9",
+      "exam_title": "Hastane Otomasyonu Unite 9",
+      "exam_type": "unite",
+      "year": "9",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-9",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-9/",
+      "unit_number": 9,
+      "unit_label": "Ünite 9",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangi stok kontrol yöntemi gelen sinyalden güç almaya gerek bırakmayacak küçük bir pile sahip olan Daha geniş okunma alanına sahip, daha güvenilirdirler ve okuyucuya daha çabuk cevap verebilen RFID etiketidir?",
+          "options": {
+            "A": "Pasif (etkisiz) RFID",
+            "B": "Yarı pasif (yarı etkin) RFID",
+            "C": "Aktif (etkin) RFID",
+            "D": "Bar-kod",
+            "E": "Karekod"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi Sağlık hizmet sunucusu olan hastanelerin hedefidir?",
+          "options": {
+            "A": "Hastalarının sağlık durumlarını geliştirmek için hizmet sunmak",
+            "B": "Yüksek kâr elde etmek",
+            "C": "Teknoloji geliştirmek",
+            "D": "Sağlık politikası geliştirmek",
+            "E": "Otelcilik hizmeti sunmak"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisine etkin tedarik zinciri yönetimi sonucunda ulaşılamaz?",
+          "options": {
+            "A": "Üretimin devamlılığı sağlanır",
+            "B": "Toplam maliyetleri azaltır",
+            "C": "Yeniliği teşvik eder",
+            "D": "Tedarik süresi azaltılır",
+            "E": "Tüm bilgi, materyal ve para akışı yönetilemez"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangi stok kontrol yöntemi kendi güç kaynakları olmayan, RFID okuyucunun gücü ile çalışan ve en ucuz RFID etiketidir?",
+          "options": {
+            "A": "Pasif (etkisiz) RFIDTedarikçi",
+            "B": "Yarı pasif (yarı etkin) RFID",
+            "C": "Aktif (etkin) RFID",
+            "D": "Bar-kod",
+            "E": "Karekod"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi destek süreçlerde yürütülen lojistik faaliyetlerden birisi değildir?",
+          "options": {
+            "A": "İdari ihtiyaç yönetimi.",
+            "B": "Elektronik posta hizmeti",
+            "C": "Veri ve dokümanların ele alınması",
+            "D": "Gıda yönetimi",
+            "E": "Çamaşır yönetimi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Tedarik zincirindeki hangi eleman ürünü veya hizmeti geliştirir, üretir ve temin eder?",
+          "options": {
+            "A": "Tedarikçi",
+            "B": "Dağıtıcılar",
+            "C": "Sunucu",
+            "D": "Son kullanıcı",
+            "E": "Nakliyeciler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangi stok kontrol yöntemi değişik kalınlıktaki diklemesine çizgi ve boşluklardan oluşmakta olan ve verinin otomatik olarak hatasız bir formatta başka bir ortama aktarılması için kullanılan yöntemdir?",
+          "options": {
+            "A": "Pasif (etkisiz) RFID",
+            "B": "Yarı pasif (yarı etkin) RFID",
+            "C": "Aktif (etkin) RFID",
+            "D": "Bar-kod",
+            "E": "Karekod"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi etkin tedarik zinciri yönetiminin sağlayacağı faydalardan birisi değildir?",
+          "options": {
+            "A": "İşletmenin üretim ve pazarlama faaliyetlerini olumlu yönde yürütülmesinin sağlanması",
+            "B": "Müşteri memnuniyetinin artması",
+            "C": "Daha etkin ve verimli çalışmayı sağlamak",
+            "D": "Sağlık işletmesinin kısa süreli devamının sağlanılması",
+            "E": "Kârlılık"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi tıbbi süreçlerde yürütülen lojistik faaliyetlerden birisi değildir?",
+          "options": {
+            "A": "İlaç yönetimi",
+            "B": "Tehlikeli olmayan atıkların elden çıkarılması",
+            "C": "Laboratuvar malzemelerinin lojistiği",
+            "D": "Tıbbi malzemelerin lojistiği",
+            "E": "Steril malzemelerin lojistiği"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangi stok kontrol yöntemi devrelerini çalıştırmalarını ve cevap sinyali üretmelerini sağlayan kendi güç kaynaklarına sahip olan, yüksek performans sergileyen, maliyetleri daha yüksek RFID etiketidir?",
+          "options": {
+            "A": "Pasif (etkisiz) RFID",
+            "B": "Yarı pasif (yarı etkin) RFID",
+            "C": "Aktif (etkin) RFID",
+            "D": "Bar-kod",
+            "E": "Karekod"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 10",
+      "exam_title": "Hastane Otomasyonu Unite 10",
+      "exam_type": "unite",
+      "year": "10",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-10",
+      "source_url": "https://lolonolo.com/2022/05/28/hastane-otomasyonu-unite-10/",
+      "unit_number": 10,
+      "unit_label": "Ünite 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Depoya girişi ya da çıkışı yapılan tüm malzemelerin kayıt altına alınmak zorunda olduğu belgeye ne denir?",
+          "options": {
+            "A": "Zimmet fişi",
+            "B": "Muayene kabul belgesi",
+            "C": "Tahakkuk fişi",
+            "D": "Taşınır işlem fişi",
+            "E": "Ödeme emri belgesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi birimlerin kullanımına verilmiş olan demirbaş malzemelerine ait olarak o malzemeyi kullanan ilgili personele sorumluluğunun verilmesi işlemidir?",
+          "options": {
+            "A": "Zimmet Yapma",
+            "B": "Muayene",
+            "C": "Order",
+            "D": "Malzeme Tanımlama",
+            "E": "Taşınır işlem fişi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi hastane otomasyonu taşınır mal yönetimi modülü gözlem ekranlarının fonksiyonunu ifade eder?",
+          "options": {
+            "A": "Sistem içerisindeki malzeme hareketlerinin izlendiği ve raporlandığı ekranlardır.",
+            "B": "Satın alma talebinin oluşturulduğu ekranlardır.",
+            "C": "Taşınır mal yönetimi çalışanlarının gözlendiği ekranlardır.",
+            "D": "Taşınır mal yönetimi çalışanlarının performans değerlendirmelerinin yapıldığı ekranlardır.",
+            "E": "Satın alma ihale bilgilerinin gözlendiği ekrandır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi malzemenin yeniden satın alınması işlemlerini tetikler?",
+          "options": {
+            "A": "Barkod",
+            "B": "Yatak devir hızı",
+            "C": "Maximum stok seviyesi",
+            "D": "Satın alma süresi",
+            "E": "Minumum stok seviyesi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi HBYS üzerinden zimmet kaydı gerçekleştirilen belgelerin raporlanması sağlar?",
+          "options": {
+            "A": "Order Karşılama",
+            "B": "Muayene kabul",
+            "C": "Zimmet fiş listesi",
+            "D": "İhale kartı ekranı",
+            "E": "Sözleşme ekranı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi ilaç tanımlama ekranında tanımlanan bir bilgi değildir?",
+          "options": {
+            "A": "İlaç adı",
+            "B": "Malzeme türü",
+            "C": "İhale komisyon üyeleri",
+            "D": "Yüklenici firma",
+            "E": "Fiyat bilgisi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi malzeme tanımlama ekranında tanımlanan bir bilgi değildir?",
+          "options": {
+            "A": "Malzeme adı",
+            "B": "Muayene tarihi",
+            "C": "İlaç türü",
+            "D": "Yüklenici firma",
+            "E": "Fiyat bilgisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Minimum ve maximum stok seviyesi belirleme hangi amaca hizmet eder?",
+          "options": {
+            "A": "İstatistik verisi sağlama",
+            "B": "Etkin ve verimli stok yönetimi",
+            "C": "Satın alma işlemlerini geciktirme",
+            "D": "Depolama süresini artırma",
+            "E": "Yatak devir hızını artırma"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi taşınır mal yönetim modülünde gerçekleşen bir işlem değildir?",
+          "options": {
+            "A": "Malzeme kabul",
+            "B": "Depolama",
+            "C": "Sözleşme yapılması",
+            "D": "Order karşılama",
+            "E": "Miad takip"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "İlaç, sarf malzeme ya da tıbbi cihazın üretim ya da ithalatından son tüketiciye yani ilaç için hastaya tıbbi cihaz için hastaneye ulaşımına kadar geçen tüm süreçlerde takip edilmesini sağlayan ulusal takip sistemine ne denir?",
+          "options": {
+            "A": "Barkod",
+            "B": "Ulusal Bilgi Bankası",
+            "C": "Medulla",
+            "D": "Mernis",
+            "E": "Sağlık-Net"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 11",
+      "exam_title": "Hastane Otomasyonu Unite 11",
+      "exam_type": "unite",
+      "year": "11",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-11",
+      "source_url": "https://lolonolo.com/2022/05/29/hastane-otomasyonu-unite-11/",
+      "unit_number": 11,
+      "unit_label": "Ünite 11",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Malzemenin gereğinden fazla depolanmasını engelleyerek yüksek stok maliyetini önleyen tanımlama hangisidir?",
+          "options": {
+            "A": "Min. stok seviyesi belirleme",
+            "B": "Miad belirleme",
+            "C": "Depo tanımlama",
+            "D": "Fiyat tanımlama",
+            "E": "Max. stok seviyesi belirleme"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Tüketim, iade, devir gibi nedenlerle depodan çıkışı yapılan ilaç ya da sarf malzemelerin HBYS sisteminde kayıt altına alındığı ekran hangisidir?",
+          "options": {
+            "A": "Zimmet yapma",
+            "B": "Muayene",
+            "C": "Order",
+            "D": "Taşınır hareketleri giriş işlemi",
+            "E": "Taşınır hareketleri çıkış işlemi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi taşınır çıkış islemleri nedeni olamaz?",
+          "options": {
+            "A": "Tüketim",
+            "B": "Takas",
+            "C": "İade",
+            "D": "Satın alma",
+            "E": "Hurdaya ayırma"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Etken madde stok seviyesi belirlenmesinin aşağıdakilerden hangisine katkısı olmaz?",
+          "options": {
+            "A": "Verimlilik artışı",
+            "B": "Hekim tercihinin engellenmesi",
+            "C": "Maliyet azalması",
+            "D": "Satın alma talebinin oluşturulması",
+            "E": "Depo stok kontrolü"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi belirli bir zaman dilimindeki tüketim miktarına göre hesaplanan ve ortalama tüketim miktarına dayanarak min. ve max. stok seviyesi belirlendiği ekrandır?",
+          "options": {
+            "A": "Order karşılama ekranı",
+            "B": "Order iade ekranı",
+            "C": "Stok seviyesi hesaplama ekranı",
+            "D": "Etken stok seviyesi belirleme ekranı",
+            "E": "Miad takip ekranı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Malzeme miad durum ekranında “Miadı geçmiş olanlar” hangi renkte gösterilir?",
+          "options": {
+            "A": "Mor",
+            "B": "Kırmızı",
+            "C": "Lacivert",
+            "D": "Yeşil",
+            "E": "Turumcu"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi HBYS taşınır mal modülünde olan gözlem ekranlarından birisi olamaz?",
+          "options": {
+            "A": "Ambar stok durum",
+            "B": "Stok hareketleri",
+            "C": "Personel izin durum",
+            "D": "Ambar transfer hareketleri",
+            "E": "Malzeme miad durum"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi malzemenin yeniden temini için gerekli işlemleri tetiklemektedir?",
+          "options": {
+            "A": "Minimum stok seviyesi",
+            "B": "Maksimum stok seviyesi",
+            "C": "Order iade",
+            "D": "İhale tarihi",
+            "E": "Sözleşme tarihi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi depoya girişi ya da çıkışı yapılan tüm taşınır malzemeler için Taşınır Mal Yönetmeliği gereğince taşınır işlem fişi düzenlemekle sorumlu olan kişidir?",
+          "options": {
+            "A": "Mutemed",
+            "B": "Yüklenici firma",
+            "C": "Gerçekleştirme görevlisi",
+            "D": "Taşınır kayıt kontrol yetkilisi",
+            "E": "Harcama yetkilisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi taşınır hareket giriş ekranında kayıt işlemi için gerekli olan bilgi değildir?",
+          "options": {
+            "A": "Malzeme adı",
+            "B": "Miktar",
+            "C": "Son kullanım tarihi",
+            "D": "Giriş yapılan depo",
+            "E": "Mutemed adı soyadı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 12",
+      "exam_title": "Hastane Otomasyonu Unite 12",
+      "exam_type": "unite",
+      "year": "12",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-12",
+      "source_url": "https://lolonolo.com/2022/05/29/hastane-otomasyonu-unite-12/",
+      "unit_number": 12,
+      "unit_label": "Ünite 12",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi Kamu İhale Kanunu’na göre yapılan ihalelere ilişkin sözleşmelerin düzenlenmesi ve uygulanması ile ilgili esas ve usulleri belirleyen kanundur?",
+          "options": {
+            "A": "4734 sayılı “Kamu İhale Kanunu”",
+            "B": "4735 sayılı “Kamu İhale Sözleşmeleri Kanunu”",
+            "C": "5018 sayılı “Kamu Mali Yönetimi ve Kontrol Kanunu”",
+            "D": "6098 sayılı “Türk Borçlar Kanunu”",
+            "E": "5237 sayılı “Türk Ceza Kanunu”"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bütçeyle ödenek tahsis edilen her bir harcama biriminin en üst yöneticisine ne denir?",
+          "options": {
+            "A": "Yüklenici",
+            "B": "İstekli",
+            "C": "İdare",
+            "D": "Gerçekleştirme görevlisi",
+            "E": "Harcama yetkilisi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Özelliğinden ve belli süre içinde kullanılma zorunluluğundan dolayı stoklanması ekonomik olmayan veya acil durumlarda kullanılacak olan ilaç, aşı, serum, anti-serum, kan ve kan ürünleri ile ortez, protez gibi uygulama esnasında hastaya göre belirlenebilen ve hastaya özgü tıbbî sarf malzemeleri, test ve tetkik sarf malzemelerinin karşılandığı doğrudan alım yöntemi hangisidir?",
+          "options": {
+            "A": "22-A",
+            "B": "22-B",
+            "C": "22-C",
+            "D": "22-D",
+            "E": "22-F"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi 4734 saylı kanuna göre idarenin sorumluluklarından değildir?",
+          "options": {
+            "A": "Rekabeti engelleme",
+            "B": "Eşitlik",
+            "C": "Saydamlık",
+            "D": "Gizlilik",
+            "E": "Güvenirlilik"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi satın alma biriminin sorumluluklarından değildir?",
+          "options": {
+            "A": "Mal veya hizmetin doğru zamanda sağlanması",
+            "B": "Mal veya hizmetin doğru kalitede sağlanması",
+            "C": "Mal veya hizmetin aynı kaynaktan sağlanması",
+            "D": "Mal veya hizmetin doğru fiyata sağlanması",
+            "E": "Mal veya hizmetin doğru miktarda sağlanması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi kamu hukukuna tabi olan, kamunun denetimi altında bulunan veya kamu kaynağı kullanan kamu kurum ve kuruluşlarının yapacakları ihalelerde uygulanacak esas ve usulleri belirleyen kanundur?",
+          "options": {
+            "A": "4734 sayılı “Kamu İhale Kanunu”",
+            "B": "4735 sayılı “Kamu İhale Sözleşmeleri Kanunu”",
+            "C": "5018 sayılı “Kamu Mali Yönetimi ve Kontrol Kanunu”",
+            "D": "6098 sayılı “Türk Borçlar Kanunu”",
+            "E": "5237 sayılı “Türk Ceza Kanunu”"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Yapılan ihale sonrası sözleşme imzalanan istekliye ne denir?",
+          "options": {
+            "A": "Hizmetçi",
+            "B": "Tedarikçi",
+            "C": "Yüklenici",
+            "D": "İstekli",
+            "E": "Danışman"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi kamu mali yönetiminin yapısını ve işleyişini, kamu bütçelerinin hazırlanmasını, uygulanmasını, tüm mali işlemlerin muhasebeleştirilmesini, raporlanmasını ve mali kontrolü düzenleyen kanundur?",
+          "options": {
+            "A": "4734 sayılı “Kamu İhale Kanunu”",
+            "B": "4735 sayılı “Kamu İhale Sözleşmeleri Kanunu”",
+            "C": "5018 sayılı “Kamu Mali Yönetimi Ve Kontrol Kanunu”",
+            "D": "6098 sayılı “Türk Borçlar Kanunu”",
+            "E": "5237 sayılı “Türk Ceza Kanunu”"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Mal veya hizmet alımları ile yapım işlerinde idare ile yüklenici arasında yapılan yazılı anlaşmaya ne denir?",
+          "options": {
+            "A": "İhale",
+            "B": "Sözleşme",
+            "C": "Tahakkuk",
+            "D": "Danışman",
+            "E": "Tedarikçi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Ülkemizde satın alma kurallarını belirleyen en temel yasal düzenleme hangisidir?",
+          "options": {
+            "A": "2547 Sayılı Yüksek Öğretim Kanunu",
+            "B": "4857 Sayılı İş Kanunu",
+            "C": "5510 Sayılı Sosyal Sigortalar Kanunu",
+            "D": "657 Sayılı Devlet Memurları Kanunu",
+            "E": "4734 Sayılı Kamu İhale Kanunu"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 13",
+      "exam_title": "Hastane Otomasyonu Unite 13",
+      "exam_type": "unite",
+      "year": "13",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-13",
+      "source_url": "https://lolonolo.com/2022/05/29/hastane-otomasyonu-unite-13/",
+      "unit_number": 13,
+      "unit_label": "Ünite 13",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İhaleye katılan isteklinin ihale teklif belgeleri arasında sunmak zorunda olduğu geçici teminat, teklif bedelinin yüzde kaçı olmalıdır?",
+          "options": {
+            "A": "2%",
+            "B": "4%",
+            "C": "3%",
+            "D": "1%",
+            "E": "5%"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi ihale gerçekleştirme sürecinde yer almaz?",
+          "options": {
+            "A": "İhale komisyonunun kurulması",
+            "B": "İhale ilanını verilmesi",
+            "C": "Tekliflerin değerlendirilmesi",
+            "D": "Sözleşme yapılması",
+            "E": "İhale sonucunun bildirilmesi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi satın alma sürecinde gerçekleşen faaliyetlerden birisi değildir?",
+          "options": {
+            "A": "Depo yönetimi",
+            "B": "Satın alınacak mal ya da hizmete ait özelliklerin belirlenmesi",
+            "C": "En uygun tedarikçinin seçilmesi",
+            "D": "Anlaşma yapmak için tedarikçilerle müzakereler yapmak",
+            "E": "Siparişin izlenmesi ve kontrolü"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdakilerden hangisi talep yönetimindeki yürütülen işlemlerden birisi değildir?",
+          "options": {
+            "A": "Fonksiyonelliğin sağlanması",
+            "B": "Verimliliğin arttırılması",
+            "C": "Bütün istekliler için fırsat eşitliği sağlanması",
+            "D": "Rekabeti engelleyici hususlara yer verilmemesi",
+            "E": "Yaklaşık maliyet hazırlanması"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdakilerden hangisi ihale hazırlık süreci basamaklarından birisi değildir?",
+          "options": {
+            "A": "İhale dokümanının oluşturulması",
+            "B": "Piyasa fiyat araştırma yapılması",
+            "C": "İsteklilerce verilen tekliflerin değerlendirilmesi",
+            "D": "İhale ilan verilmesi",
+            "E": "Ödeneğe istinaden ihale onayı alınması"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Aşağıdakilerden hangisi satın alma ana süreçlerinden birisi değildir?",
+          "options": {
+            "A": "İhale hazırlık süreci",
+            "B": "Stok yönetimi",
+            "C": "İhale süreci",
+            "D": "Sözleşme yönetim süreci",
+            "E": "Tahakkuk"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi sözleşme yönetim süreci basamaklarından birisi değildir?",
+          "options": {
+            "A": "Yüklenici firmayla sözleşme imzalanması",
+            "B": "Mal ve hizmete ait muayene kabul işlemleri",
+            "C": "Faturaya ait ödeme emri belgesinin oluşturulması",
+            "D": "İhale dokümanının oluşturulması",
+            "E": "Garanti süreci başlar"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Satın alma risk yönetimindeki hangi süreçte siparişlerin karşılanmaması riski ile karşılaşılması muhtemeldir?",
+          "options": {
+            "A": "İhtiyaçların saptanarak tanımlanması",
+            "B": "Satın alma talebinin oluşturulması",
+            "C": "Piyasa fiyat araştırma süreci",
+            "D": "Tedarikçi seçimi",
+            "E": "Ödeme işlemleri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Aşağıdakilerden hangisi ihale komisyonunun görevleri arasında yer almaz?",
+          "options": {
+            "A": "Teknik şartnameyi hazırlamak",
+            "B": "İhale salonunda eksiksiz toplanmak",
+            "C": "İhale saati ve gününde ihale salonunda toplanmak",
+            "D": "İhaleye ait karar almak ve bunu tüm üyelerce imzalayarak ihalenin sorumluluğunu almak",
+            "E": "Gerekli incelemeyi yapmalarını sağlamak amacıyla ihale ilan veya daveti izleyen üç gün içinde ihale işlem dosyasının birer örneğini teslim alarak incelemek"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Satın alma risk yönetimindeki hangi süreçte tedarikçiye hak edişinden daha düşük tutarda ödeme yapılması ile karşılaşılması muhtemeldir?",
+          "options": {
+            "A": "Piyasa fiyat araştırma süreci",
+            "B": "Satın alma talebinin oluşturulması",
+            "C": "Tedarikçi seçimi",
+            "D": "Ödeme işlemleri",
+            "E": "İhtiyaçların saptanarak tanımlanması"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Hastane Otomasyonu Unite 14",
+      "exam_title": "Hastane Otomasyonu Unite 14",
+      "exam_type": "unite",
+      "year": "14",
+      "question_count": 10,
+      "file_name": "Hastane_Otomasyonu_Unite_Sorulari.json#unite-14",
+      "source_url": "https://lolonolo.com/2022/05/29/hastane-otomasyonu-unite-14/",
+      "unit_number": 14,
+      "unit_label": "Ünite 14",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Satın alma otomasyonunda satın alma istemi oluşturulurken aşağıdakilerden hangi bilginin girilmesi zorunlu değildir?",
+          "options": {
+            "A": "Mal kodu",
+            "B": "İstek yapan birim",
+            "C": "Birimi",
+            "D": "Miktarı",
+            "E": "İhale Tarihi"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi satın alma otomasyonundaki firma tanımlama ekranında firma bilgilerinin birbirinden bağımsız kullanılması için tanımlanan alandır?",
+          "options": {
+            "A": "Firma kodu",
+            "B": "Firma adı",
+            "C": "Firma adresi",
+            "D": "Telefon numarası",
+            "E": "Fax numarası"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi bir sağlık işletmesinin satın alma otomasyonu kullanma amaçlarından biri değildir?",
+          "options": {
+            "A": "Standartların oluşması",
+            "B": "Homojenliğin sağlanması",
+            "C": "Kişilere bağımlı iş akışlarının sağlanması",
+            "D": "Denetlenebilirlik",
+            "E": "Etkin kaynak kullanımı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "İhale onay belgesini hazırlamak ve onaya sunmakla yükümlü olan kişi kimdir?",
+          "options": {
+            "A": "Muayene komisyonu",
+            "B": "Yaklaşık maliyet komisyonu",
+            "C": "İstekli",
+            "D": "Gerçekleştirme Görevlisi",
+            "E": "Harcama Yetkilisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Aşağıdaki bilgilerden hangisinin satın alma otomasyonunda ihale kartında bildirilmesi zorunlu değildir?",
+          "options": {
+            "A": "İhale tipi",
+            "B": "İhale yönetmelik maddesi",
+            "C": "İhale onay sayısı",
+            "D": "İhale sayısı",
+            "E": "Kesin teminat tutarı"
+          },
+          "correct_answer": "E",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Yaklaşık maliyeti kim hazırlamaktadır?",
+          "options": {
+            "A": "İhale komisyonu",
+            "B": "Uzman bilirkişi heyeti",
+            "C": "Yaklaşık maliyet komisyonu",
+            "D": "Muayene komisyonu",
+            "E": "Satın alma müdürü"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Satın alma otomasyonunda bir evrakla ilgili bilgilerin detayına hangi ekran vasıtasıyla ulaşılabilir?",
+          "options": {
+            "A": "İstek giriş ekranı",
+            "B": "Gelen evrak ekranı",
+            "C": "Evrak sorgulama ekranı",
+            "D": "Evrak havale ekranı",
+            "E": "Giden evrak ekranı"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Satın alma otomasyonunda yaklaşık maliyet hesaplama ekranında hangi bilgi yer almaz?",
+          "options": {
+            "A": "Mal kodu",
+            "B": "İstek yapan birim",
+            "C": "Miktarı",
+            "D": "Sözleşme tarihi",
+            "E": "Yaklaşık maliyet hesaplama biçimi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Kurum içi veya dışından gelen istek yazılarının satın alma otomasyonuna girişinin yapıldığı ekran hangisidir?",
+          "options": {
+            "A": "İstek giriş ekranı",
+            "B": "Gelen evrak ekranı",
+            "C": "Giden evrak ekranı",
+            "D": "Evrak havale ekranı",
+            "E": "Evrak sorgulama ekranı"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Aşağıdakilerden hangisi satın alma otomasyonunda ihale kararında yapılmakta olan işlemlerden biri değildir?",
+          "options": {
+            "A": "Tahakkuk",
+            "B": "Birim Fiyat Teklif Cetveli",
+            "C": "İhale Komisyonu",
+            "D": "İhaleye Girecek Firma Teklifleri (Firma Bazında)",
+            "E": "İhaleye Girecek Firmalar"
+          },
+          "correct_answer": "A",
           "explanation": "",
           "image_url": "",
           "image_file": "",

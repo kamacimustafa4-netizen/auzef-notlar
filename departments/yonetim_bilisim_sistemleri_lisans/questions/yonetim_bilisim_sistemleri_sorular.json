@@ -2099,7 +2099,2429 @@
         }
       ],
       "exam_title": "Yönetim Bilişim Sistemleri 2023 Vize"
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 1",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 1",
+      "exam_type": "unite",
+      "year": "1",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-1",
+      "source_url": "https://lolonolo.com/2022/09/29/yonetim-bilisim-sistemleri-unite-1/",
+      "unit_number": 1,
+      "unit_label": "Ünite 1",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Aşağıdakilerden hangisi BT ile ES arasındaki farkı açıklar?",
+          "options": {
+            "A": "BT donanımı kapsarken ES yazılımı kapsar.",
+            "B": "BT tüm yazılım ve donanımı kapsarken, ES amaç doğrultusunda ihtiyaç duyulan teknolojileri kapsar.",
+            "C": "ES insan faktörünü göz önünde bulundururken BT bulundurmaz.",
+            "D": "Hepsi doğrudur"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Enformasyon nedir?",
+          "options": {
+            "A": "İşlenerek tek başına bir anlam taşıyan veridir.",
+            "B": "Saklanmış veridir.",
+            "C": "Bir tür sistemdir.",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "BT’ye yapılan yatırım ile işletme gelirleri arasında kesin bir ilişkiden söz edilebilir mi?",
+          "options": {
+            "A": "Hayır çünkü araştırmacıların bazıları pozitif bazıları negatif ilişki bulurken bazıları nötr ilişki bulmuşlardır.",
+            "B": "Evet çünkü araştırmacıların bazıları pozitif bazıları negatif ilişki bulmuşlardır.",
+            "C": "Hayır çünkü bazı araştırmacılar nötr ilişki bulmuşlardır.",
+            "D": "Hepsi doğrudur"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "BT ve ES açısından organizasyonlar kendilerinde nasıl ayrıcalıklar yaratırlar?",
+          "options": {
+            "A": "En güçlü BT’yi kullanılarak oluşturulacak ES ile ayrıcalıklı olurlar.",
+            "B": "BT ve ES ayrıcalık yaratma amacını taşımaz.",
+            "C": "BT herkes tarafından ulaşılabileceğinden ayrıcalık yaratmaz. ES içerisinde etkili kullanılarak ayrıcalık yaratılır.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "BT’nin sindirilmesi ne demektir?",
+          "options": {
+            "A": "BT’nin organizasyona fayda sağlayabilmesidir.",
+            "B": "Organizasyon tarafından anlaşılması ve kabul edilmesidir.",
+            "C": "BT’nin organizasyon tarafından reddedilmesidir.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Sindirim kapasitesi ne demektir?",
+          "options": {
+            "A": "BT’nin organizasyon tarafından anlaşılabilme ve kabul edilebilme üst sınırıdır.",
+            "B": "BT’nin sağladığı fayda ölçüsüdür.",
+            "C": "a ve b seçenekleri de doğrudur.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi BT’deki gelişmelerin artış gösterdiği dönemin özelliğidir?",
+          "options": {
+            "A": "Dünyada ekonomik gelişmeler artmıştır.",
+            "B": "Bilgi paylaşımı hızlanmıştır.",
+            "C": "İnternet hızla gelişmeye başlamıştır.",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "İşletim sistemi bir tür ES kabul edilebilir mi? Neden?",
+          "options": {
+            "A": "Edilemez çünkü yazılımdır.",
+            "B": "Edilebilir çünkü donanımı ahenkle yürütür.",
+            "C": "Edilemez çünkü farklı donanım üzerinde çalıştırılamaz.",
+            "D": "Edilebilir çünkü rutin işleri yapmak ve donanımı yürütmek amacı doğrultusunda birçok bileşenden oluşur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Linux işletim sistemini kim geliştirmiştir?",
+          "options": {
+            "A": "Seteve Jobs",
+            "B": "İlk ilkel hâli Linus Tovards tarafından geliştirilmiştir. Ardından internet aracılığıyla pek çok katkıda bulunulmuştur.",
+            "C": "Linus Tovards",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "İnternetin gelişmesi, BT gelişimine nasıl etki etmiştir?",
+          "options": {
+            "A": "Devrim niteliğindedir. Bilginin hızla paylaşımı ile BT de hızla gelişmiştir.",
+            "B": "BT internetin gelişmesine neden olmuştur.",
+            "C": "a ve b seçenekleri de doğrudur.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 2",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 2",
+      "exam_type": "unite",
+      "year": "2",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-2",
+      "source_url": "https://lolonolo.com/2022/09/29/yonetim-bilisim-sistemleri-unite-2/",
+      "unit_number": 2,
+      "unit_label": "Ünite 2",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Performansına etki eden ve çevresiyle arasında bir sınır görevi gösteren müşterek hedeflere ulaşmak için oluşturulmuş sosyal bir düzenlemeye ne denir?",
+          "options": {
+            "A": "Prosedür",
+            "B": "Organizasyon",
+            "C": "Sistem",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangisi taktik karar verme örneğidir?",
+          "options": {
+            "A": "Son 5 yıllık satış miktarlarına göre yapılan trend analizi, yöneticinin gelecek yılların üretim miktarlarına yönelik karar.",
+            "B": "İşlerin çalışanlara tahsisi.",
+            "C": "Tesis yerleşimi.",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Karar verme nedir?",
+          "options": {
+            "A": "İşletmeyi geliştirme faaliyetidir.",
+            "B": "Problem çözme eylemidir.",
+            "C": "Alternatifler arasından seçim yapma eylemidir.",
+            "D": "Hepsi karar vermedir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Hangisi ES’yi oluşturan bileşenlerden birisi değildir?",
+          "options": {
+            "A": "Enformasyon",
+            "B": "Veri",
+            "C": "Donanım",
+            "D": "Prosedürler"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Veri ile enformasyon arasındaki fark nedir?",
+          "options": {
+            "A": "Enformasyon kullanılabilir, veri ise kullanılamaz.",
+            "B": "Enformasyon verinin işlenmiş hâlidir.",
+            "C": "Veri, veri tabanlarından elde edilirken, enformasyon araştırmalardan elde edilir.",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hangisi sistem olamaz?",
+          "options": {
+            "A": "Dolaşım sistemi.",
+            "B": "Ses sistemi.",
+            "C": "Sindirim sistemi.",
+            "D": "Hepsi olabilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Stratejik karar verme seviyesinde …. Yukarıdaki boşluğa uygun olan seçeneği işeretleyiniz.",
+          "options": {
+            "A": "Belirsizliğin ve riskin yüksek olduğu kararlar verilir.",
+            "B": "Yapısal olmayan kararlar verilir.",
+            "C": "Enformasyona çok büyük ihtiyaç vardır.",
+            "D": "Hepsi bu seviye için doğrudur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangisi bir girdi işlemidir?",
+          "options": {
+            "A": "İnternetten dosya indirmek.",
+            "B": "“Kaydet” veya “yazdır” gibi herhangi bir düğmeyi tıklamak.",
+            "C": "E-posta almak.",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangisi ES’lerin büyük önem kazanmasının sebeplerinden değildir?",
+          "options": {
+            "A": "BT fiyatları düşmekteyken, güçleri hızla artmaktadır.",
+            "B": "Bilgisayar programlarının yetenekleri ve çeşitleri artmaktadır.",
+            "C": "İnternete güvenli erişim sağlanmaktadır.",
+            "D": "Hepsi sebeplerdendir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "İnsan ile bilgisayarın karar vermede sinerji oluşturması ne demektir?",
+          "options": {
+            "A": "İnsanın tek başına çok uzun zamanda yapabileceği, bilgisayarın asla yapamayacağı işleri bir araya geldiklerinde dakikalar içerisinde yapabilmeleridir.",
+            "B": "İnsanla bilgisayar sinerji oluşturamaz.",
+            "C": "İnsanın kendi yürüttüğü bazı görevleri bilgisayara devretmesidir.",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 3",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 3",
+      "exam_type": "unite",
+      "year": "3",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-3",
+      "source_url": "https://lolonolo.com/2022/09/29/yonetim-bilisim-sistemleri-unite-3/",
+      "unit_number": 3,
+      "unit_label": "Ünite 3",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hangi ES herhangi bir ürünün ne zaman, hangi özelliklere sahip insanlar tarafından ve hatta hangi ürünlerle birlikte satın alınabileceği hususunda karar vericiye destek sunar?",
+          "options": {
+            "A": "İşletme Enformasyon Toplama ve Değerlendirme Sistemleri.",
+            "B": "Karar Destek Sistemleri",
+            "C": "Coğrafi Enformasyon Sistemleri",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Tedarik Yönetim Sistemleri nedir?",
+          "options": {
+            "A": "Pazarlama, hammadde alımı, imalat ve bir araya getirme, paketleme ve nakliye, faturalama, doküman yönetimi vb. faaliyetleri destekleyen ES’lerdir.",
+            "B": "En fazla kullanılan en temel enformasyon sistemleridir.",
+            "C": "Planlama, kontrol etme ve karar verme faaliyetlerinden bir ya da birkaçını destekleyen ES’lerdir.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangisi ile gelir optimizasyonu, müşteri tatmini ve müşteri kalıcılığı sağlanmaktadır?",
+          "options": {
+            "A": "İşletme Enformasyon Toplama ve Değerlendirme Sistemleri.",
+            "B": "Müşteri İlişkileri Yönetim Sistemleri.",
+            "C": "Karar Destek Sistemleri.",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Canlandırma ne işe yarar?",
+          "options": {
+            "A": "Hızlı prototip oluşturmaya",
+            "B": "Beyin fırtınası yapmaya",
+            "C": "Ürünü bilgisayar ortamında özel durumlara karşı sınamaya",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangisi başlarda yalnızca anabilgisayarlar (mainframe) üzerinde çalışan sistemlerdi?",
+          "options": {
+            "A": "Coğrafi Enformasyon Sistemleri",
+            "B": "Karar Destek Sistemleri.",
+            "C": "İşletme Enformasyon Toplama ve Değerlendirme Sistemleri.",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hangisi planlama ve karar verme için yapılan veri analizinde görüntüleme teknolojisini kullanan bir ES’dir?",
+          "options": {
+            "A": "Hareket İşleme Sistemleri",
+            "B": "Karar Destek Sistemleri",
+            "C": "Coğrafi Enformasyon Sistemleri",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bütçeleme ve tahmin hangi ES’in görevlerinden birisidir?",
+          "options": {
+            "A": "Muhasebe Enformasyon Sistemleri",
+            "B": "Finans Enformasyon Sistemleri",
+            "C": "a ve b",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bilgisayar Destekli Üretim hangi ES tarafından desteklenir?",
+          "options": {
+            "A": "Mühendislik Enformasyon Sistemleri",
+            "B": "Hareket İşleme Sistemleri",
+            "C": "İşletme Enformasyon Toplama ve Değerleme Sistemleri",
+            "D": "Tüm enformasyon sistemleri bunu destekler."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hareket işleme sistemlerinin çözüm getirdiği ana problemlerden birisi hangisidir?",
+          "options": {
+            "A": "Yüzlerce hatta binlerce eşzamanlı kullanıcının idare edilmesine olan gereksinim.",
+            "B": "Pek çok kullanıcının aynı veri kümesi üzerinde anında güncelleme yapabilme imkânıyla çalışabilmesini sağlama gereksinimi.",
+            "C": "Güvenli bir biçimde hataların kontrol edilebilme gereksinimi.",
+            "D": "Hepsi."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangisi “Eğer… ise ne olur?” sorusunun cevabını arar?",
+          "options": {
+            "A": "Karar Destek Sistemleri",
+            "B": "Hareket İşleme Sistemleri",
+            "C": "Muhasebe Enformasyon Sistemleri",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 4",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 4",
+      "exam_type": "unite",
+      "year": "4",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-4",
+      "source_url": "https://lolonolo.com/2022/09/29/yonetim-bilisim-sistemleri-unite-4/",
+      "unit_number": 4,
+      "unit_label": "Ünite 4",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Tedarikçilerin bağlanması nasıl bir avantaj yaratır?",
+          "options": {
+            "A": "Tedarikçi üzerindeki pazarlık gücünü arttıracağından maliyetleri düşürür.",
+            "B": "Hiçbir avantaj sağlamaz.",
+            "C": "Rakipler tedarikçilerden mal temin edemeyeceğinden pazara giremezler.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "İnternet ile işletmelerde pek çok haberleşme ve hatta bazı eğitimlerin Web üzerinden yapılması… Yukarıdaki boşluğa uygun olan seçeneği işeretleyiniz.",
+          "options": {
+            "A": "Değiştirme maliyetini yükseltir.",
+            "B": "Maliyetleri düşürür.",
+            "C": "a ve b.",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Microsoft yazılım ürünlerini satın alan müşterilerde bir güven oluşmuştur ve bu ürünlerin diğerlerinden farklı olduğunu düşünür. Bu durum nasıl açıklanır?",
+          "options": {
+            "A": "Microsoft’un yeni mal ve hizmet sunmasıyla.",
+            "B": "Microsoft’un telif haklarını almış olmasıyla.",
+            "C": "Microsoft’un güçlü firmalarla ittifak oluşturmasıyla.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Linux işletim sistemi ücretsizdir. Ancak işletmelerin mevcut personelinin Linux işletim sistemini öğrenmesi için zaman ve para gerekmektedir. Bu nedenle işletmeler işletim sistemlerini kolaylıkla değiştirememektedir. Bu durum hangisini açıklar?",
+          "options": {
+            "A": "Açık değiştirme maliyetinin yüksek oluşunu,",
+            "B": "Pazara yeni rakip girişinin güç olduğunu.",
+            "C": "Maliyetlerin düşük olduğunu.",
+            "D": "Hiçbirisini"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Amazon.com arama motoru ve kredi kartıyla yalnızca bir tıklamada satın alma gibi patentli yeteneklerini Target corp.’a vermektedir. Buna ilaveten gerek Amazon.com, gerekse de Target corp. Web sayfalarında birbirlerine erişime izin vermekte, böylece birinin müşterisi diğerine de kolayca ulaşabilmektedir. Bu durum hangisine örnektir?",
+          "options": {
+            "A": "İttifak oluşturmaya.",
+            "B": "Tedarikçi ve müşterinin bağlanmasına.",
+            "C": "Mal ve hizmetlerin geliştirilmesine.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Patent veya telif hakları …….. Yukarıdaki boşluğa uygun olan seçeneği işeretleyiniz.",
+          "options": {
+            "A": "Pazara yeni rakiplerin girişini engeller.",
+            "B": "İşletmenin değerini yükseltir.",
+            "C": "Daha kolay ittifak oluşturmayı sağlar.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Benzin istasyonlarında pompanın başında robotların çalıştırılması hangisine örnek olarak verilebilir?",
+          "options": {
+            "A": "Pazara yeni rakiplerin girişinin engellenmesine.",
+            "B": "İttifak oluşturmaya.",
+            "C": "Maliyetlerin düşürülmesine.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yeni mal veya hizmet sunmak ……. Yukarıdaki boşluğa uygun olan seçeneği işeretleyiniz.",
+          "options": {
+            "A": "Hiçbir avantaj sağlamaz.",
+            "B": "Avantaj sağlar ancak yetmez. Çünkü daha sonra pazara girenlerin daha fazla ilerlemesi mümkündür.",
+            "C": "Müşterinin bağlanmasını sağlar.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Bazı kişisel bilgisayar üreticilerinin müşterilerinin kendi bilgisayarlarını Web üzerinden, genellikle de daha ucuza oluşturmalarına imkân sunması hangisine örnek olarak verilebilir?",
+          "options": {
+            "A": "Maliyetlerin düşürülmesine.",
+            "B": "Mal veya hizmetlerin geliştirilmesine.",
+            "C": "Tedarikçi ve müşterilerin bağlanmasına.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Müşteri bir akit ile bir ürünü belli bir süre tüketmek zorundadır. Cayma kararı alacak olursa sözleşmede belirtilen ceza maliyetine katlanmayı kabul etmektedir. Bu durum hangisini açıklar?",
+          "options": {
+            "A": "Örtülü değiştirme maliyetinin yüksek oluşuyla.",
+            "B": "Tedarikçi ve müşterinin bağlanmasıyla.",
+            "C": "Açık değiştirme maliyetinin yüksek oluşuyla.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 5",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 5",
+      "exam_type": "unite",
+      "year": "5",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-5",
+      "source_url": "https://lolonolo.com/2022/09/29/yonetim-bilisim-sistemleri-unite-5/",
+      "unit_number": 5,
+      "unit_label": "Ünite 5",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İş analizi nedir?",
+          "options": {
+            "A": "Bir organizasyonun enformasyon ihtiyaçlarının, yöneticilerin az sayıdaki kritik başarı unsuruna bağlı olduğunu öne süren bir yaklaşımdır.",
+            "B": "Tüm organizasyonun, örgütsel birimler, faaliyetler, işlevler ve veri parçaları bazında incelenmesini önermektedir.",
+            "C": "Faaliyetleri işletmede kâr maksimizasyonu sağlamak için inceleyen bir yöntemdir.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Stratejik analiz nedir?",
+          "options": {
+            "A": "Bir organizasyonun enformasyon ihtiyaçlarının, yöneticilerin az sayıdaki kritik başarı unsuruna bağlı olduğunu öne süren bir yaklaşımdır.",
+            "B": "Tüm organizasyonun, örgütsel birimler, faaliyetler, işlevler ve veri parçaları bazında incelenmesini önermektedir.",
+            "C": "Faaliyetleri işletmede kâr maksimizasyonu sağlamak için inceleyen bir yöntemdir.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi doğrudur?",
+          "options": {
+            "A": "Bakım zamanının %20’si yanlışları ayıklamak veya acil üretim problemlerinin çözülmesi amacıyla harcanmaktadır.",
+            "B": "Bakım zamanının %60’ı veriler, dosyalar, raporlar, donanım veya yazılımda değişiklikler yapılması amacıyla harcanmaktadır.",
+            "C": "Bakım zamanının %20’si kullanıcı, dokümantasyon geliştirme ve sistem bileşenlerinin daha yüksek etkinlik için güncellenmesi amacıyla harcanmaktadır.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Amerika Birleşik Devletleri’ndeki konut kredisi bankacılığında (Mortgage) önceleri $3000 olan maliyetlerin $1000’a ve kredi talebinin değerlendirme süresi olan 6-8 haftanın da yaklaşık bir haftaya indirilmesi nasıl başarılmıştır?",
+          "options": {
+            "A": "Stratejik analiz yapılarak.",
+            "B": "İş analizi yapılarak.",
+            "C": "İş süreçlerini yeniden yapılandırarak.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hayat çevrimi nedir?",
+          "options": {
+            "A": "İki adımdan oluşan sistem geliştirme sürecidir.",
+            "B": "Bir tür iş analizidir.",
+            "C": "Bir tür sistem analizidir.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Bir sistem analistinin hangisini yapması beklenmez?",
+          "options": {
+            "A": "Hedeflerin, kısıtların ve alternatiflerin belirlenmesi (veya yeniden belirlenmesi).",
+            "B": "Fizibilite çalışması yaparak, muhtemel alternatif sonuçların maliyet, kazanç ve risklerinin araştırılması.",
+            "C": "Sistem geliştirme sürecinin denetlenmesi.",
+            "D": "Hepsini yapması beklenir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangisi bir sınama türü değildir?",
+          "options": {
+            "A": "Birim sınaması.",
+            "B": "Paralel sınama.",
+            "C": "Kabul edilirlik sınaması.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangisi alternatif sistem oluşturma yaklaşımlarından birisi değildir?",
+          "options": {
+            "A": "Prototip oluşturma yaklaşımı.",
+            "B": "Son kullanıcı geliştirmesi yaklaşımı.",
+            "C": "Sosyo-teknik yaklaşım.",
+            "D": "Hepsi alternatif sistem oluşturma yaklaşımıdır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Programlama nedir?",
+          "options": {
+            "A": "Genel bir plan yapılmasıdır.",
+            "B": "Sistem özelliklerine uygun yazılımın geliştirilmesidir.",
+            "C": "a ve b.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Doğrudan geçiş stratejisi nedir?",
+          "options": {
+            "A": "Organizasyonlardaki faaliyetlere veya birimlere göre yeni sistemin kullanılmaya başlanmasıdır.",
+            "B": "Riskli, bunun yanında en az maliyetli dönüşüm stratejisidir. Organizasyonda daha önceden belirlenmiş bir tarihte eski sistem tamamen devre dışı kalır ve yeni sistem kullanılmaya başlanır.",
+            "C": "Güvenilir ancak en pahalı stratejidir. Yeni sistem ile eski sistem birlikte kullanılmaya devam eder.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 6",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 6",
+      "exam_type": "unite",
+      "year": "6",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-6",
+      "source_url": "https://lolonolo.com/2022/09/29/yonetim-bilisim-sistemleri-unite-6/",
+      "unit_number": 6,
+      "unit_label": "Ünite 6",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Girdi cihazlarının görevi nedir?",
+          "options": {
+            "A": "Tüm komutları ve verileri işlemek.",
+            "B": "İşlemeden önce ve işledikten hemen sonra veriyi tutmak.",
+            "C": "Veri veya enformasyonun sunulmasını sağlamak.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangisi tek kullanıcılı bir bilgisayardır?",
+          "options": {
+            "A": "İş istasyonu.",
+            "B": "Mini bilgisayar",
+            "C": "Ana bilgisayar",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangisi bilgisayarın yerine getirmesi gereken dört temel işlevden birisi değildir?",
+          "options": {
+            "A": "Dışarıdan veri almak",
+            "B": "Veriyi veya komutları saklamak",
+            "C": "Veri veya komutları silmek",
+            "D": "Hepsi temel işlevlerdendir."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Hangisi merkezi işlem biriminin alt birimlerinden birisidir?",
+          "options": {
+            "A": "Denetim birimi",
+            "B": "Aritmetik-mantık birimi",
+            "C": "Matematik işlemci",
+            "D": "Hepsi."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "1 GB = ….. TB Yukarıdaki boşluğa uygun olan seçeneği işeretleyiniz.",
+          "options": {
+            "A": "1024",
+            "B": "1/1024",
+            "C": "1024x1024",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Rasgele Erişilebilir Bellek (REB) ile Yalnızca Okunabilir Bellek (YOB) arasındaki temel fark nedir?",
+          "options": {
+            "A": "REB her zaman aynı veriye erişmeyi garanti etmez, YOB ise eder.",
+            "B": "REB yalnızca çalışma anında veriyi tutarken, YOB kapalıyken de verinin tutulabilmesini sağlar.",
+            "C": "REB istenen veriye erişebilmeyi sağlar, YOB ise veriye sırayla erişime izin verir.",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Sanal bellek nedir?",
+          "options": {
+            "A": "Ön belleğin REB gibi kullanılmasıdır.",
+            "B": "REB’in yeterli olmadığı için sabit diskten yararlanılmasıdır.",
+            "C": "a ve b.",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bir süper bilgisayar ile anabilgisayar arasındaki temel fark nedir?",
+          "options": {
+            "A": "Süper bilgisayar aynı anda çok sayıda işlemi yapabilirken, anabilgisayarlar aynı anda tek işi yapabilirler.",
+            "B": "Süper bilgisayar çok fazla miktarda veri saklayabilirken, anabilgisayarlar çok hızlı işlem yaparlar.",
+            "C": "Süper bilgisayar tüm gücünü birkaç programın daha hızlı çalışmasını sağlamak için kanalize ederken, anabilgisayarlar güçlerini eş zamanlı olarak daha çok programı çalıştırabilmek için kullanırlar.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangisi kaynaktan girdi cihazı değildir?",
+          "options": {
+            "A": "Çubukkod okuyucular",
+            "B": "Optik işaret tanıma cihazları.",
+            "C": "İzleme dörtgeni.",
+            "D": "Hepsi kaynaktan girdi cihazıdır."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Kişisel bilgisayar ismi hangi şirketin ürettiği bilgisayar ile bir bilgisayar türü olarak kullanılmaya başlanmıştır?",
+          "options": {
+            "A": "IBM",
+            "B": "Apple",
+            "C": "Microsoft",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 7",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 7",
+      "exam_type": "unite",
+      "year": "7",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-7",
+      "source_url": "https://lolonolo.com/2022/09/29/yonetim-bilisim-sistemleri-unite-7/",
+      "unit_number": 7,
+      "unit_label": "Ünite 7",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Katot ışınlı tüp teknolojisinde görüntü birimi neden fiziksel olarak fazla yer tutmaktadır?",
+          "options": {
+            "A": "İçinde belli mesafeden elektron püskürten bir tabanca olduğundan.",
+            "B": "Teknolojisinin zayıf olmasından",
+            "C": "Sıvı kristallerin çok fazla yer tutmasından",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Pixel nedir?",
+          "options": {
+            "A": "Ekranda her biri farklı renklendirilebilen en küçük hücredir.",
+            "B": "Görüntü (picture) ve öğe (element) kelimeleri birleştirilerek üretilmiş bir terimdir.",
+            "C": "a ve b.",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangisinde veriye erişmek için mekanik bir işlem gerçekleşmez?",
+          "options": {
+            "A": "Manyetik teyp",
+            "B": "Optik disk",
+            "C": "Taşınabilir bellek",
+            "D": "Hepsinde gerçekleşir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Doğrudan erişim yöntemine göre veriler nasıl saklanır?",
+          "options": {
+            "A": "Veriler depolama ortamında birbirinin arkasına gelecek şekilde tutulurlar.",
+            "B": "Her bir verinin bulunduğu yerin adresini gösteren bir tablo sayesinde veriler farklı yerlerde tutulur.",
+            "C": "Boş olan ilk alana yerleştirilir.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangisi tutulan ışığın geri dönüş açısına göre verinin 1 ya da 0 olduğunu belirler?",
+          "options": {
+            "A": "Manyetik teyp",
+            "B": "Optik disk",
+            "C": "Taşınabilir bellek",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hangisi bir çıktı cihazı değildir?",
+          "options": {
+            "A": "Yazıcı",
+            "B": "Görüntü birimi",
+            "C": "İz topu.",
+            "D": "Hepsi çıktı cihazıdır"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Sektör nedir?",
+          "options": {
+            "A": "Manyetik teypte veri saklanabilen en küçük alandır.",
+            "B": "Optik diskte veri saklanabilen en küçük alandır.",
+            "C": "a ve b",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "En yavaş çalışan ve en düşük çıktı kalitesine sahip yazıcı hangisidir?",
+          "options": {
+            "A": "İğneli yazıcı",
+            "B": "Mürekkep püskürtmeli yazıcı",
+            "C": "Lazer yazıcı",
+            "D": "Hepsi yüksek kalitelidir."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "100X hızlı bir optik disk bir saniyede kaç bit veri okuyabilir?",
+          "options": {
+            "A": "15.000.000",
+            "B": "7.500.000",
+            "C": "75.000.000",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "256 renk gösterebilen ve çözünürlüğü 1240×720 olan bir ekran için görüntü kartının belleğinde ihtiyaç duyacağı alan kaç KB’dir?",
+          "options": {
+            "A": "1240x720 x 8 / 1024",
+            "B": "1240x720 / 1024",
+            "C": "1240x720 x 8 / (1024x1024)",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 8",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 8",
+      "exam_type": "unite",
+      "year": "8",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-8",
+      "source_url": "https://lolonolo.com/2022/09/30/yonetim-bilisim-sistemleri-unite-8/",
+      "unit_number": 8,
+      "unit_label": "Ünite 8",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Konuşma diline en yakın olan hangisidir?",
+          "options": {
+            "A": "Yordamsal dil",
+            "B": "Çevirici dil",
+            "C": "Makina dili",
+            "D": "Birinci nesil diller"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangisi üçüncü nesil diller için söylenebilir?",
+          "options": {
+            "A": "1980’lerde ortaya çıkmıştır. Yüksek seviyelidir.",
+            "B": "1950’lerde ortaya çıkmıştır. Orta seviyelidir",
+            "C": "1940’larda ortaya çıkmıştır. Yüksek seviyelidir.",
+            "D": "Hiçbirisi."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangi iki parça nesneye dayalı dillerin temelini oluşturur?",
+          "options": {
+            "A": "Veri - enformasyon",
+            "B": "Veri - veri üzerindeki işlemler",
+            "C": "Programlama dili - bütünleşmiş geliştirme ortamı",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Bir Java uygulamasının çalıştırılabilmesi için aşağıdakilerden hangisine ihtiyaç vardır?",
+          "options": {
+            "A": "HTML",
+            "B": "Javascript",
+            "C": "Java sanal makinası",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Yüksek seviyeli programlama dilleri ile yazılım geliştirmek için ihtiyaç duyulan ortama ne denir?",
+          "options": {
+            "A": "Bütünleşmiş geliştirme ortamı",
+            "B": "Nesneye dayalı geliştirme ortamı",
+            "C": "a ve b",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hangisi nesneye dayalı programlamanın sağladığı avantajlardandır?",
+          "options": {
+            "A": "Daha kolay uygulama geliştirebilme",
+            "B": "Bakım sürecini kolaylaştırma",
+            "C": "Satın alınabilecek hazır nesnelerle profesyonel uygulamalar geliştirebilme",
+            "D": "Hepsi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir bilgisayarın doğrudan anlayabildiği tek dil hangisidir?",
+          "options": {
+            "A": "Çevirici dil",
+            "B": "Yordamsal Dil",
+            "C": "Makina dili",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangisi yordamsal dil kod örneği olabilir?",
+          "options": {
+            "A": "10100110",
+            "B": "ADD #23",
+            "C": "STOP",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Microsoft Windows işletim sistemlerinde bir pencere yaratmak … Yukarıdaki boşluğa uygun olan seçeneği işeretleyiniz.",
+          "options": {
+            "A": "İçin CreateWindow isimli bir uygulama programlama ara yüzü kullanılır.",
+            "B": "Farenin tıklanması ve sürüklenmesi ile gerçekleşir.",
+            "C": "İçin Microsoft Visual Basic kullanılır.",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangisi internet tarayıcı tarafından çözümlenerek anlamlı hâle gelir?",
+          "options": {
+            "A": "Java",
+            "B": "http",
+            "C": "HTML",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 9",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 9",
+      "exam_type": "unite",
+      "year": "9",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-9",
+      "source_url": "https://lolonolo.com/2022/09/30/yonetim-bilisim-sistemleri-unite-9/",
+      "unit_number": 9,
+      "unit_label": "Ünite 9",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bir şehrin üç boyutlu olarak incelenebildiği yazılımlar hangi türdendir?",
+          "options": {
+            "A": "Grup yazılımları",
+            "B": "Çoklu ortam yazılımları",
+            "C": "Ofis yazılımları",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Hangisi günümüz işletim sistemlerinden beklenen temel özelliklerden birisi değildir?",
+          "options": {
+            "A": "Kullanıcı ara yüzleri.",
+            "B": "Bellek tahsisi",
+            "C": "Tak ve kullan",
+            "D": "Hepsi de temel özelliklerdendir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "İşletim sistemleri yazılırken hangi diller kullanılır?",
+          "options": {
+            "A": "Düşük seviyeli diller",
+            "B": "Yüksek seviyeli diller",
+            "C": "Dördüncü nesil diller",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Hangisi bir uygulama yazılımı türü değildir?",
+          "options": {
+            "A": "Linux",
+            "B": "Ofis yazılımları",
+            "C": "Çoklu ortam yazılımları",
+            "D": "Hepsi uygulama yazılımı türüdür."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangisi yazılım seçiminde göz önünde bulundurulması gereken unsurlardan değildir?",
+          "options": {
+            "A": "Desteklediği donanım",
+            "B": "Kullanmasını öğrenme süresi",
+            "C": "Satıcı firmaya olan güven",
+            "D": "Hepsi göz önünde bulundurulması gereken unsurlardandır."
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Kaynak kod nedir?",
+          "options": {
+            "A": "Ücretsiz temin edilebilen, herkese açık kod.",
+            "B": "İşletim sisteminin temel kodları.",
+            "C": "Üst seviyeli herhangi bir dilde yazılmış olan programın tercüme edilmemiş hâlidir.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Bir kimyasal tepkimenin sesli ve görüntülü olarak canlandırılabildiği yazılım türü hangisidir?",
+          "options": {
+            "A": "Ofis yazılımları",
+            "B": "Çoklu ortam yazılımları",
+            "C": "Grup yazılımları",
+            "D": "Hiçbirisi"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Açık kaynak yazılım nedir?",
+          "options": {
+            "A": "Derlenmiş olarak temin edilen yazılımlardır.",
+            "B": "Kaynak kodlarıyla temin edilen yazılımlardır.",
+            "C": "Amaç kodlarıyla temin edilen yazılımlardır.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Sistem yazılımları aşağıdakilerden hangilerini yapabilir?",
+          "options": {
+            "A": "Diski yönetir.",
+            "B": "Rutin işleri yapar.",
+            "C": "a ve b",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Derleyici ile yorumlayıcı arasındaki fark nedir?",
+          "options": {
+            "A": "Derleyici her komut için koddaki gereksiz yazımları çıkarıp standart hâle dönüştürür, hata denetimi yapar ve makina koduna dönüştürür. Yorumlayıcı ise bunları tüm kodlar için yapar.",
+            "B": "Yorumlayıcı her komut için koddaki gereksiz yazımları çıkarıp standart hâle dönüştürür, hata denetimi yapar ve makina koduna dönüştürür. Derleyici ise bunları tüm kodlar için yapar.",
+            "C": "Yorumlayıcı kodu optimize eder, derleyici ise makina koduna dönüştürür.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 10",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 10",
+      "exam_type": "unite",
+      "year": "10",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-10",
+      "source_url": "https://lolonolo.com/2022/09/30/yonetim-bilisim-sistemleri-unite-10/",
+      "unit_number": 10,
+      "unit_label": "Ünite 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Eşler arası dosya paylaşımı nedir?",
+          "options": {
+            "A": "Aynı kullanıcıya ait cihazlar arasında dosya paylaşımıdır.",
+            "B": "İnternet üzerinden ortak bir yazılımla kullanıcıların dosya paylaşmasıdır.",
+            "C": "Yerel bir ağda ortak bir yazılımla kullanıcıların dosya paylaşmasıdır.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Bölgelerin hücrelere ayrılarak iletişimin gerçekleştirildiği yapı hangisinde görülür?",
+          "options": {
+            "A": "Cep telefonları",
+            "B": "Eşler arası dosya paylaşımı",
+            "C": "İnternet",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangisi yanlıştır?",
+          "options": {
+            "A": "Büyük bir birlik, kurum veya şirketin ağ yapısı aslında birden fazla kablosuz ağın bir araya gelmesiyle oluşmaktadır.",
+            "B": "Bir kurumdaki bir yerel ağ alt küme veya alt sistem olarak düşünülebilir.",
+            "C": "Bir kurumda dış ağa erişim hakkı sınırlı kişi ya da kuruma verilmektedir.",
+            "D": "Hepsi doğrudur."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Hangisi uz iletişimden günlük kullanımda yararlanma biçimlerinden birisidir?",
+          "options": {
+            "A": "Fax",
+            "B": "Cep telefonları",
+            "C": "Görüntülü toplantı",
+            "D": "Hepsi yararlanma biçimlerindendir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangisi uz iletişimin dezavantajları arasında yer alır?",
+          "options": {
+            "A": "Maliyetler yükselir.",
+            "B": "Riskler artar.",
+            "C": "Çalışan motivasyonu azalır.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Hangisi uz iletişim ve ağ sistemlerinin katmış oldukları iş değerlerinden değildir?",
+          "options": {
+            "A": "Bayi maliyetleri artmıştır.",
+            "B": "Doğru karar ihtimali artmıştır.",
+            "C": "İşlem maliyetleri düşmüştür.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Metcalfe kuralına göre ….. Yukarıdaki boşluğa uygun olan seçeneği işeretleyiniz.",
+          "options": {
+            "A": "Ağa katılım arttıkça iletim gücü üstel olarak düşer.",
+            "B": "Ağa katılım arttıkça ağın iş değeri üstel olarak düşer.",
+            "C": "Ağa katılım arttıkça ağın iş değeri üstel olarak artar.",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Hangisi bilgisayar ağlarının kullanımının başlıca nedenleri arasında değildir?",
+          "options": {
+            "A": "Pahalı bilgisayar donanımının bilgisayarlar arasında paylaşılabilmesi.",
+            "B": "1990’lı yıllarda internetin hızla gelişimi.",
+            "C": "İşletme içi ve dışı haberleşmenin kolaylaşması.",
+            "D": "Hepsi başlıca nedenler arasındadır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Fax cihazı ……..",
+          "options": {
+            "A": "Veriyi analog biçimde aktarır.",
+            "B": "Veriyi resim olarak alır ve HTML koda dönüştürüp aktarır.",
+            "C": "Veriyi resim olarak alır ve Byte koda dönüştürüp aktarır.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Uz iletişim ile coğrafi sınırların kalkması ne anlama gelmektedir?",
+          "options": {
+            "A": "Ülkeler birbirlerine internet hizmeti sunmaktadır.",
+            "B": "Bir bölgedeki üretici, yerel fiyatların dışında, internet aracılığıyla başka bölgedeki satış fiyatlarını görebilmektedir.",
+            "C": "Ülkelerin web siteleri birçok dilde hazırlanmaktadır.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 11",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 11",
+      "exam_type": "unite",
+      "year": "11",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-11",
+      "source_url": "https://lolonolo.com/2022/09/30/yonetim-bilisim-sistemleri-unite-11/",
+      "unit_number": 11,
+      "unit_label": "Ünite 11",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hangisi elektromanyetik karışıklığa açık olma ölçütüne göre en az tercih edilir?",
+          "options": {
+            "A": "Eş eksenli kablo",
+            "B": "Radyo dalgaları",
+            "C": "Microdalgalar",
+            "D": "Hepsi tercih edilir."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Eş zamanlı yörüngeli uydular (GEO) ve alçak yörünge uydular (LEO) arasındaki fark nedir?",
+          "options": {
+            "A": "GEO 800-1000 km yüksekliğe yerleştirilirken LEO 35.784 km yüksekliktedir.",
+            "B": "GEO 35.784 km yüksekliğe yerleştirilirken LEO 800-1000 km yüksekliktedir.",
+            "C": "LEO’ların mesafe iletiminde 2-3 saniyelik gecikme yaşaması mümkünken GEO’larda böyle bir durum olmaz.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangisi televizyon yayını aktarımında yaygın olarak kullanılan, ancak günümüzde maliyetlerdeki azalmalarla internete bağlanmak için de tercih edilen kablo türüdür?",
+          "options": {
+            "A": "Optik-lif kablo",
+            "B": "İki damarlı kablo",
+            "C": "Elektrik kablosu",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "1 Gbps = ….. Kbps ifadesinde boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+          "options": {
+            "A": "1 / 1024",
+            "B": "1024 * 1024",
+            "C": "1 / (1024 * 1024)",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Değer katkılı ağ nedir?",
+          "options": {
+            "A": "Herkesin rahatlıkla çevirmeli bağlantı ile bağlanabildiği telefon hatları ve kiralık hatlardır.",
+            "B": "Özellikle işle ilgili elektronik veri değişimi (EDI) için kullanılan ve özel standartlarla taşınan verinin güvenliğinin sağlandığı ağlardır.",
+            "C": "Bir tür metropolit ağdır.",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Elektromanyetik karışmaları engellemek için birbirinden ayrılmış bakır tellerin kullanıldığı kablolara ne ad verilir?",
+          "options": {
+            "A": "İki damarlı kablo",
+            "B": "Eş eksenli kablo",
+            "C": "Optik-lif kablo",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Ölçeklenirlik nedir?",
+          "options": {
+            "A": "Bir ağın kolaylıkla genişletilebilmesidir.",
+            "B": "Bant genişliğinin doğru ölçülebilmesidir.",
+            "C": "En yüksek bant genişliğidir.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Bant genişliği nedir?",
+          "options": {
+            "A": "Frekans aralığıdır.",
+            "B": "Saniyede iletilen bit cinsinden veri miktarıdır.",
+            "C": "Ağa dâhil olabilecek cihaz kapasitesidir.",
+            "D": "Hiçbiri."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "50 kilometre çaplı bir alanı kapsayabilen büyüklükteki ağlara ne ad verilir?",
+          "options": {
+            "A": "Yerel ağ",
+            "B": "Metropolit ağ",
+            "C": "Geniş ağ",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Verinin ışıkla temsil edildiği ve bant genişliği Tbps’lara kadar çıkan kablo türü hangisidir?",
+          "options": {
+            "A": "Ana bant eş eksenli kablo",
+            "B": "Elektrik kablosu",
+            "C": "Optik-lif kablo",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 12",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 12",
+      "exam_type": "unite",
+      "year": "12",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-12",
+      "source_url": "https://lolonolo.com/2022/09/30/yonetim-bilisim-sistemleri-unite-12/",
+      "unit_number": 12,
+      "unit_label": "Ünite 12",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Tüm düğümlerin bir merkezi bilgisayara bağlı olduğu ağ topolojisi hangisidir?",
+          "options": {
+            "A": "Doğrusal ağ topolojisi",
+            "B": "Halka ağ topolojisi",
+            "C": "Ağaç ağ topolojisi",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "İletilen sinyalin kapalı bir çember içerisinde düğümden düğüme çevrim yaptığı ağ topolojisi hangisidir?",
+          "options": {
+            "A": "Doğrusal ağ topolojisi",
+            "B": "Halka ağ topolojisi",
+            "C": "Ağaç ağ topolojisi",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi örneksel hatta bağlanarak sayısal veri aktarabilme yeteneğine sahiptir?",
+          "options": {
+            "A": "Ağ kartı",
+            "B": "Modem",
+            "C": "Erişim sunucu",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "Paket anahtarlama yönteminde bir pakette hangisi bulunmaz?",
+          "options": {
+            "A": "Paketin varış adresi (alıcı)",
+            "B": "Hata kontrol bitleri",
+            "C": "Paketin izleyeceği yoldaki düşümlerin adresleri",
+            "D": "Hepsi bulunur."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Hangisi yıldız ağ topolojisinde sunucu dâhil tüm düğümlerin bağlandığı merkezi yol sağlayıcısıdır?",
+          "options": {
+            "A": "Ağ kart",
+            "B": "Göbek (HUB)",
+            "C": "Özel sanal ağ",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Ağ kablosunun bir bilgisayara bağlanabilmesi için hangisine ihtiyaç vardır?",
+          "options": {
+            "A": "Göbek (HUB)",
+            "B": "Anahtar",
+            "C": "Ağ kartı",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "İletilen sinyalin hedef düğüm tarafından alınıp yok edici nokta tarafından emildiği ağ topolojisi hangisidir?",
+          "options": {
+            "A": "Doğrusal ağ topolojisi",
+            "B": "Halka ağ topolojisi",
+            "C": "Yıldız ağ topolojisi",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Yönlendirici aşağıdakilerden hangisinin görevini yapabilir?",
+          "options": {
+            "A": "Ağ kartı",
+            "B": "Göbek",
+            "C": "Ağ geçidi",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Genel bir ağın özel gibi kullanılmasına ne denir?",
+          "options": {
+            "A": "Çoklu protokol etiket anahtarlama",
+            "B": "Çevrim anahtarlama",
+            "C": "Paket anahtarlama",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Bir yerel ağın başka yerel ağlarla veya geniş ağlarla bağlantı sağlayabilmesi için hangisi kullanılır?",
+          "options": {
+            "A": "Anahtar",
+            "B": "Yönlendirici",
+            "C": "Göbek (HUB)",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 13",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 13",
+      "exam_type": "unite",
+      "year": "13",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-13",
+      "source_url": "https://lolonolo.com/2022/09/30/yonetim-bilisim-sistemleri-unite-13/",
+      "unit_number": 13,
+      "unit_label": "Ünite 13",
+      "questions": [
+        {
+          "id": 1,
+          "question": "TCP ile UDP arasındaki fark nedir?",
+          "options": {
+            "A": "TCP kısa veriler için kullanılır, UDP veriyi parçalar bu nedenle daha uzun veriler için kullanılır.",
+            "B": "UDP kısa veriler için kullanılır, TCP veriyi parçalar bu nedenle daha uzun veriler için kullanılır.",
+            "C": "TCP internet için kullanılırken, UDP yerel iletişim için kullanılır.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Erişim noktası gibi merkezi bir yönlendirici cihaz kullanılmaksızın oluşturulan ağlara ne ad verilir?",
+          "options": {
+            "A": "Hizmet seti tanımlayıcı ağ",
+            "B": "Wi Fi korumalı erişim ağı",
+            "C": "Tasarsız (ad hoc) ağ.",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangisinde iki farklı IP tutulması gerekir?",
+          "options": {
+            "A": "TCP/IP",
+            "B": "Ethernet",
+            "C": "WiMAX",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "En geniş alanda geçerli olan kablosuz ağ protokolü hangisidir?",
+          "options": {
+            "A": "Wi Fi",
+            "B": "WiMAX",
+            "C": "Bluetooth",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Televizyon izleyicilerinin arttığı saatlerde hangisinde yavaşlamalar gözlenebilir?",
+          "options": {
+            "A": "T1 ve T3 hatları",
+            "B": "Kablo",
+            "C": "Optik taşıyıcılar",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "En yüksek bat genişliğini destekleyen kablosuz ağ protokolü hangisidir?",
+          "options": {
+            "A": "802.16",
+            "B": "802.11a",
+            "C": "802.15",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi mücadeleci bir protokol olarak bilinir?",
+          "options": {
+            "A": "TCP/IP",
+            "B": "Wi Fi",
+            "C": "Ethernet",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi her biri 64Mbps bant genişliği olan 672 kanala sahiptir?",
+          "options": {
+            "A": "T1 hattı",
+            "B": "Optik taşıyıcılar",
+            "C": "Uydu",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangisi devamlı olarak en iyi frekansı arar ve böylece diğer aygıtlarla çakışmalar asgariye iner?",
+          "options": {
+            "A": "Wi Fi",
+            "B": "Bluetooth",
+            "C": "Ethernet",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "En kısıtlı alanda geçerli olan kablosuz ağ protokolü hangisidir?",
+          "options": {
+            "A": "Wi Fi",
+            "B": "WiMAX",
+            "C": "Bluetooth",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Yönetim Bilişim Sistemleri Unite 14",
+      "exam_title": "Yönetim Bilişim Sistemleri Unite 14",
+      "exam_type": "unite",
+      "year": "14",
+      "question_count": 10,
+      "file_name": "Yonetim_Bilisim_Sistemleri_Unite_Sorulari.json#unite-14",
+      "source_url": "https://lolonolo.com/2022/09/30/yonetim-bilisim-sistemleri-unite-14/",
+      "unit_number": 14,
+      "unit_label": "Ünite 14",
+      "questions": [
+        {
+          "id": 1,
+          "question": "İnternetin temeli olarak kabul edilen ilk ağ hangisidir?",
+          "options": {
+            "A": "SKYNET",
+            "B": "ARPANET",
+            "C": "NSFNET",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 2,
+          "question": "Aşağıdakilerden hangisi ABD dışındaki ülkeler için üst seviye alan kısaltmasıdır?",
+          "options": {
+            "A": "tr",
+            "B": "com",
+            "C": "gov",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 3,
+          "question": "Hangisi Web’de gezinen bir kullanıcının bazı bilgilerini saklamak için başvurulan bir yöntemdir?",
+          "options": {
+            "A": "Çerezler (cookies)",
+            "B": "RSS",
+            "C": "FTP",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 4,
+          "question": "XHTML ne işe yarar?",
+          "options": {
+            "A": "Bir web sayfasında verinin nasıl görüntüleneceğini ve verinin ne olduğunu işaretlemeye yarar.",
+            "B": "Bir web sayfasında verinin nasıl görüntüleneceğini ve verinin ne kadar yer kapladığını işaretlemeye yarar.",
+            "C": "a ve c",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "A",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 5,
+          "question": "Amerika Federal Ağ Oluşturma Konseyi’nin 1995 yılında yaptığı tanılamaya göre aşağıdakilerden hangisi interneti açıklayamaz?",
+          "options": {
+            "A": "İnternet protokolünü temel alarak, eşsiz birer adresle birbirine bağlı bilgisayarlar ve diğer cihazlardan oluşan bir ağdır.",
+            "B": "Ağ cihazlarının (bilgisayarlar, yönlendiriciler, göbekler vb.) TCP/IP veya buna uyumlu protokolleri kullanarak haberleşebildiği bir ağdır.",
+            "C": "Haberleşme ve ağ altyapısında üst seviyede yer alan hizmetleri sağlayan bir ağdır.",
+            "D": "Hepsi açıklar."
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 6,
+          "question": "Haber içerikli bir web sayfasındaki güncellemelerin kullanıcılara bildirilmesi için hangi teknolojiden yararlanılır?",
+          "options": {
+            "A": "HTML",
+            "B": "RSS",
+            "C": "Blog",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 7,
+          "question": "Hangisi Web anasistem seçim unsurları arasında yer almaz?",
+          "options": {
+            "A": "Web sitesinde sunulacak uygulamaların tipi ve kalitesi.",
+            "B": "Dosya paylaşma imkânı.",
+            "C": "Teknik destek kalitesi.",
+            "D": "Hepsi seçim unsurlarındandır."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerden hangisi kısaca ses verisinin paylaşılmasına verilen isimdir?",
+          "options": {
+            "A": "RSS",
+            "B": "Podcasting",
+            "C": "HTML",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 9,
+          "question": "Hangisi web günlüğüdür?",
+          "options": {
+            "A": "RSS",
+            "B": "Podcasting",
+            "C": "HTML",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        },
+        {
+          "id": 10,
+          "question": "Hangi Web anasistem sağlama (Web hosting) hizmetinde Web sitesi hizmet sağlayıcının aynı anasistem üzerinde diğer Web siteleri ile birlikte yer alır?",
+          "options": {
+            "A": "Sanal anasistemler",
+            "B": "Adanmış anasistemler",
+            "C": "Sunucu barındırma (co-location) hizmeti",
+            "D": "Hiçbiri"
+          },
+          "correct_answer": "D",
+          "explanation": "",
+          "image_url": "",
+          "image_file": "",
+          "image_path": "",
+          "source_image_url": ""
+        }
+      ]
     }
   ],
-  "exam_count": 7
+  "exam_count": 21
 }
